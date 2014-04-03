@@ -12,3 +12,6 @@ def data_file_location():
 # Bridge for web runner
 def dump_tasks():
   print json.dumps(tasks())
+
+if __name__ == '__main__':
+  dump_tasks()
