@@ -1,0 +1,864 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>New York State Department of State</title>
+
+<link href="css/nav02.css" rel="stylesheet" type="text/css">
+<link href="css/dos_home05hp.css" rel="stylesheet" type="text/css">
+<link href="css/jquery-ui-1.8.11.custom.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.ui.accordion2.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery-1.5.1.js"></script>
+<script type="text/javascript" src="js/jquery.featureList-1.0.0.js"></script>
+<script type="text/javascript" src="js/jquery.ui.core.js"></script>
+<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="js/jquery.ui.accordion.js"></script>
+ <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<!--
+
+<script type="text/javascript" src="js/jquery-ui-1.8.11.custom.min"></script>
+<script type="text/javascript" src="development-bundle/jquery-1.5.1.js"></script>
+<script type="text/javascript" src="development-bundle/ui/jquery.ui.core.js"></script>
+<script type="text/javascript" src="development-bundle/ui/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="development-bundle/ui/jquery.ui.accordion.js"></script>
+	-->
+
+<script type="text/javascript">
+		$(document).ready(function() {
+
+			$.featureList(
+				$("#tabs li a"),
+				$("#output li"), {
+					start_item	:	1
+				}
+			);
+			
+			
+					/*
+			
+			// Alternative
+
+			
+			$('#tabs li a').featureList({
+				output			:	'#output li',
+				start_item		:	1
+			});
+
+			*/
+
+		});
+
+</script>
+
+
+	<script type="text/javascript">
+	$(function() {
+		$( "#accordion" ).accordion({
+			event: "mouseover"
+		});
+	});
+	</script>
+
+ <script type="text/javascript">
+$(document).ready(function(){ 
+  $('input[type=text]').focus(function(){ 
+    if($(this).val() == $(this).attr('defaultValue'))
+    {
+      $(this).val('');
+    }
+  });
+  
+  $('input[type=text]').blur(function(){
+    if($(this).val() == '')
+    {
+      $(this).val($(this).attr('defaultValue'));
+    } 
+  });
+}); 
+</script>
+
+<!-- buttons -->
+
+
+
+<script type="text/javascript">
+
+jQuery(function(){
+     $(".img-swap").hover(
+          function(){this.src = this.src.replace("_off","_on");},
+          function(){this.src = this.src.replace("_on","_off");
+     });
+});
+
+
+
+</script>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8374227-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+<style type="text/css">
+
+
+
+	
+		.panelhead {
+			margin: 0;	
+			padding: 7px 0 0 0;
+			font-size: 13px;
+			color: #fff;
+			font-weight: bold;
+			font-family:tahoma;
+			
+		}
+
+		div#feature_list {
+			width: 700px;
+			height: 320px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		div#feature_list ul {
+			position: absolute;
+			top: 0;
+			list-style: none;
+				
+			padding: 0;
+			margin: 0;
+		}
+
+		ul#tabs {
+	left: 0;
+	z-index: 2;
+	width: 300px;
+		}
+
+		ul#tabs li {
+			font-size: 10px;
+			font-family: Tahoma;
+			
+		}
+		
+		ul#tabs li img {
+			padding: 0px 5px 0px 0px;
+			border: none;
+			float: left;
+			margin: 0px;
+		}
+
+		ul#tabs li a {
+			color: #fff;
+			text-decoration: none;	
+			display: block;
+			padding: 12px 40px 8px 12px;
+			height: 60px;
+			outline: none;
+			
+		}
+
+		ul#tabs li a:hover {
+			text-decoration: none;
+			background:  url('images/feature-tab-currentXfaded2.png');
+		}
+
+		ul#tabs li a.current {
+			background:  url('images/feature-tab-currentX.png');
+			color: #FFF;
+		}
+
+		ul#tabs li a.current:hover {
+			text-decoration: none;
+			cursor: default;
+		}
+
+		ul#output {
+			right: 0;
+			width: 435px;
+			height: 320px;
+			position: relative;
+			left: 286px;
+		}
+
+		ul#output li {
+	position: absolute;
+	width: 435px;
+	height: 320px;
+	left: -21px;
+		}
+
+		ul#output li a {
+	position: absolute;
+	bottom: 8px;
+	right: 9px;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #FFF;
+	background: #003366;
+	-moz-border-radius: 10px;
+		}
+		
+		ul#output li a:hover {
+			background: #f69727;
+		}
+	</style>
+<style type="text/css">
+/*Twitter box and mask modifications*/
+
+/*Contents background color for homepgae only*/
+.container {
+	background: #ebe6d6;
+	}
+/*END Contents background color for homepgae only*/
+
+.ui-state-error {
+	font-size: 12px;
+	line-height:160%;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-style:solid;
+	border-bottom: 4px;
+	border-bottom-color:#e11c1e;
+}
+
+ul#css3menu1 a{padding:7px 10px;}
+
+#homepagealert2 {
+	background-color:#EADCAE;
+	/*background-image: url(../images/clipart-4_grey_field_lite.gif);*/
+	padding: 7px 5px 7px 5px;
+	text-align:center;
+	color:#660000;
+	font-size: 12px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	line-height:120%;
+}
+#homepagealert2 a{
+
+	/*color:#003366;*/
+	color:#660000;
+	font-size: 14px;
+	/*font-family:Arial, Helvetica, sans-serif;*/
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+line-height:100%;
+}
+.sidebar1 {
+	height: auto;
+}
+</style>
+
+<!--BEGIN QUALTRICS SITE INTERCEPT-->
+<script type='text/javascript'>
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}};
+this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}};
+try{(new g(100,"r","QSI_S_ZN_6eSONGWExC3sowR","//zn_6esongwexc3sowr-rga.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_6eSONGWExC3sowR&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})();
+</script>
+<!--END SITE INTERCEPT-->
+
+
+
+</head>
+
+<body> 
+
+<div class="container">
+  <div class="header">
+  <!--NEW BANNER-->
+<div id="newbanner-grid">
+<div style="height: 28px; background-color: #003366;">
+   <a href="http://www.ny.gov/"><img style="float: left; border:none;" src="http://dos.ny.gov/images/nysbanner/banner_img1.png" alt="NY.gov Portal" /></a>
+   <a href="http://www.nysegov.com/citGuide.cfm?superCat=102&amp;cat=449&amp;content=main"><img style="float: left;border:none;" src="http://dos.ny.gov/images/nysbanner/banner_img2.png" alt="State Agency Listing" /></a>
+   <!-- search graphic-->
+   <a href="#" onclick="document.getElementById('sw_searchbox').style.visibility= 'visible'; document.getElementById('searchgraphic').style.visibility= 'hidden';"><img id="searchgraphic" style="float: right; border:none;visibility: hidden;" src="http://dos.ny.gov/images/nysbanner/banner_img3.png" alt="Search all of NY.gov" /></a> 
+    <!--state wide search box-->
+      <form id="sw_searchbox" style="float: right; position: relative; top: 2px; left: 155px; visibility: background: transparent;" action="http://www.search.its.ny.gov/search" method="get">
+        <input value="date:D:L:d1" name="sort" type="hidden" />
+          <input value="xml_no_dtd" name="output" type="hidden" />
+          <input value="UTF-8" name="ie" type="hidden" />
+          <input value="UTF-8" name="oe" type="hidden" />
+          <input value="default_frontend" name="client" type="hidden" />
+          <input value="default_frontend" name="proxystylesheet" type="hidden"/>
+          <input value="default_collection" name="site" type="hidden" />
+             
+                    <label for="searchbox"><input style="cursor: pointer;" type="text" size="15" name="q" maxlength="256" id="searchbox" title="Search" /></label>
+                   <label for="searchbutton"><input type="submit" style="width: 110px;" id="searchbutton" value="Search NY.GOV" /></label>
+          
+      </form>
+   <!--end wide search box-->
+       <script type="text/javascript">
+              // If JavaScript is on, manipulate search control objects.  
+              // Otherwise this will be ignored and search controls will be shown by default
+              document.getElementById('sw_searchbox').style.visibility = 'hidden';
+              document.getElementById('searchgraphic').style.visibility= 'visible';         
+       </script>   
+</div>
+</div>
+<!-- END NEW BANNER-->
+          <!-- Sportsman Banner --><!-- End Sportsman Banner -->
+
+  <img src="images/banners/dosBanner960x82.jpg" alt="DOS Banner Graphic" width="960" height="82">
+ 
+ <!--end  DOS Header Graphic-->
+ </div>
+ <div class="nav"> 
+  <ul id="css3menu1" class="topmenu">
+	<li class="topmenu"><a href="http://www.dos.ny.gov/index.html" title="Home" style="width:38px;height:16px;line-height:14px;"><span> DOS</span></a>
+    <ul>
+   	<li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/aboutus.html">&nbsp;&nbsp;About DOS </a></li>
+    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/sos/sosmain.html">&nbsp;&nbsp;About the Secretary </a></li>
+    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/newsroom.html">&nbsp;&nbsp;Newsroom & Webcasts </a></li>
+    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/calendar.html">&nbsp;&nbsp;Calendar of Events </a></li>
+    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/funding/">&nbsp;&nbsp;Funding/Bid Opportunities </a></li>
+    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/translation.html">&nbsp;&nbsp;Translation</a></li>
+    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/contact.asp">&nbsp;&nbsp;Contact Us </a></li>
+       <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/recordsmaster.doc">&nbsp;&nbsp;Subject Matter List of Available Records (doc) </a></li>
+    
+    
+    
+    </ul>
+    
+    
+    </li>
+	<li class="topmenu"><a href="#" title="For Individuals" style="width:70px;height:16px;line-height:14px;"><span> Individuals</span></a>
+	<ul>
+		<li><a href="http://www.dos.ny.gov/acp/">&nbsp;&nbsp;Address Confidentiality Program</a></li>
+        <li><a href="http://www.dos.ny.gov/ooah/decisions.htm" title="Administrative Hearing Decisions">&nbsp;&nbsp;Administrative Hearing Decisions</a></li>
+		<li><a href="http://www.dos.ny.gov/corps/apostille.html" title="Apostille">&nbsp;&nbsp;Apostille</a></li>
+		<li><a href="http://www.dos.ny.gov/licensing/index.html" title="Apply for a License">&nbsp;&nbsp;Apply for a License</a></li>
+		<li><a href="http://www.dos.ny.gov/DCEA" title="Building and Energy Codes">&nbsp;&nbsp;Building and Energy Codes</a></li>
+		<li><a href="http://www.dos.ny.gov/cmty/index.html" title="Cemeteries">&nbsp;&nbsp;Cemeteries</a></li>
+		<li><a href="http://www.dos.ny.gov/corps/child_support_search.html" title="Child Support Enforcement Warrants">&nbsp;&nbsp;Child Support Enforcement Warrants</a></li>
+		<li><a href="http://www.dos.ny.gov/consumerprotection/" title="Consumer Protection">&nbsp;&nbsp;Consumer Protection</a></li>
+		<li><a href="http://www.dos.ny.gov/licensing/eaccessny.html" title="eAccessNY (real estate)">&nbsp;&nbsp;eAccessNY (real estate)</a></li>
+		<li><a href="http://www.dos.ny.gov/about/foil.html" title="Freedom of Information Law Requests">&nbsp;&nbsp;Freedom of Information Law Requests</a></li>
+		<li><a href="http://www.dos.ny.gov/kids_room/" title="Kid's Room">&nbsp;&nbsp;Kid's Room</a></li>
+        <li><a href="http://www.dos.ny.gov/athletic/index.html" title="Athletic">&nbsp;&nbsp;Athletic Commission</a></li>
+		<li><a href="#" title="NYS Rules and Regulations"><span>&nbsp;&nbsp;NYS Rules and Regulations</span></a>
+		<ul>
+			<li><a href="http://www.dos.ny.gov/info/nycrr.html" title="NYCRR">&nbsp;&nbsp;NYCRR</a></li>
+			<li><a href="http://www.dos.ny.gov/info/register.htm" title="NYS Register">&nbsp;&nbsp;NYS Register</a></li>
+			<li><a href="http://www.dos.ny.gov/info/regulatory_activity/index.html" title="Regulatory Activity">&nbsp;&nbsp;Regulatory Activity</a></li>
+		</ul>
+
+		</li>
+		<li><a href="http://www.dos.ny.gov/info/constitution.htm" title="NYS Constitution">&nbsp;&nbsp;NYS Constitution</a></li>
+		<li><a href="#" title="Search Licensees"><span>&nbsp;&nbsp;Search Licensees</span></a>
+		<ul>
+			<li><a href="https://APPEXT20.dos.ny.gov/nydos/selSearchType.do" title="Real Estate Industry">&nbsp;&nbsp;Real Estate Industry</a></li>
+			<li><a href="http://appext20.dos.ny.gov/lcns_public/chk_load" title="All other License Types">&nbsp;&nbsp;All other License Types</a></li>
+		</ul>
+
+		</li>
+		<li><a href="http://www.dos.ny.gov/corps/" title="State Records">&nbsp;&nbsp;State Records</a></li>
+		<li><a href="http://www.dos.ny.gov/corps/tax_warrant_search.html" title="Tax Warrants">&nbsp;&nbsp;Tax Warrants</a></li>
+		<li><a href="http://www.dos.ny.gov/licensing/index.html" title="Whom we License">&nbsp;&nbsp;Whom we License</a></li>
+	</ul>
+
+	</li>
+	<li class="topmenu"><a href="#" title="For Businesses" style="width:70px;height:16px;line-height:14px;"><span> Businesses</span></a>
+	<ul>
+		<li><a href="http://www.dos.ny.gov/DCEA" title="Building and Energy Codes">&nbsp;&nbsp;Building and Energy Codes</a></li>
+		<li><a href="http://www.dos.ny.gov/corps/bus_entity_search.html" title="Business Search">&nbsp;&nbsp;Business Search</a></li>
+		
+		<li><a href="http://www.dos.ny.gov/corps/index.html" title="Corporation and Business Filings">&nbsp;&nbsp;Corporation and Business Filings</a></li>
+		<li><a href="http://www.dos.ny.gov/licensing/eaccessny.html" title="eAccessNY (real estate)">&nbsp;&nbsp;eAccessNY (real estate)</a></li>
+		<li><a href="http://www.dos.ny.gov/corps/bcfaq.asp" title="FAQ Listing"><span>&nbsp;&nbsp;FAQ Listing</span></a>
+		<ul>
+			<li><a href="http://www.dos.ny.gov/corps/bcfaq.asp" title="Business Corporation FAQ">&nbsp;&nbsp;Business Corporation FAQ</a></li>
+			<li><a href="http://www.dos.ny.gov/corps/nfpfaq.asp" title="Not-For-Profit FAQ">&nbsp;&nbsp;Not-For-Profit FAQ</a></li>
+			<li><a href="http://www.dos.ny.gov/corps/llcfaq.asp" title="Limited Liability FAQ">&nbsp;&nbsp;Limited Liability FAQ</a></li>
+			<li><a href="http://www.dos.ny.gov/corps/lpfaq.asp" title="Limited Partnership FAQ">&nbsp;&nbsp;Limited Partnership FAQ</a></li>
+			<li><a href="http://www.dos.ny.gov/corps/llpfaq.asp" title="Limited Liability Partnership FAQ">&nbsp;&nbsp;Limited Liability Partnership FAQ</a></li>
+			<li><a href="http://www.dos.ny.gov/licensing/faq_list.html" title="Licensed Professionals &amp; Occupations FAQ">&nbsp;&nbsp;Licensed Professionals &amp; Occupations FAQ</a></li>
+		</ul>
+
+		</li>
+        <li><a href="http://www.dos.ny.gov/funding/" title="Funding Opportunities">&nbsp;&nbsp;Funding Opportunities</a></li>
+		<li><a href="http://www.dos.ny.gov/licensing/relatedsites.html" title="Help for Small Businesses">&nbsp;&nbsp;Help for Small Businesses</a></li>
+		<li><a href="http://www.dos.ny.gov/info/nycrr.html" title="NYS Rules and Regulations"><span>&nbsp;&nbsp;NYS Rules and Regulations</span></a>
+		<ul>
+			<li><a href="http://www.dos.ny.gov/info/nycrr.html" title="NYCRR">&nbsp;&nbsp;NYCRR</a></li>
+			<li><a href="http://www.dos.ny.gov/info/register.htm" title="NYS Register">&nbsp;&nbsp;NYS Register</a></li>
+			<li><a href="http://www.dos.ny.gov/info/regulatory_activity/index.html" title="Regulatory Activity">&nbsp;&nbsp;Regulatory Activity</a></li>
+		</ul>
+
+		</li>
+		<li><a href="http://www.dos.ny.gov/corps/uccforms.html" title="UCC Forms">&nbsp;&nbsp;UCC Forms</a></li>
+	</ul>
+
+	</li>
+    
+    
+    
+	<li class="topmenu"><a href="#" title="DOS Divisions" style="width:59px;height:16px;line-height:14px;"><span> Divisions</span></a>
+	 
+<ul>
+      
+
+<li><a href="http://www.dos.ny.gov/ooah/index.htm" title="Administrative Hearings" >&nbsp;&nbsp;Administrative Hearings</a></li>
+
+<li><a href="http://www.dos.ny.gov/info/index.html" title="Administrative Rules">&nbsp;&nbsp;Administrative Rules</a></li>
+
+
+<li><a href="http://www.dos.ny.gov/DCEA" title="Building Standards and Codes" >&nbsp;&nbsp;Building Standards and Codes</a></li>
+
+
+<li><a href="http://www.dos.ny.gov/cmty/index.html" title="Cemeteries">&nbsp;&nbsp;Cemeteries</a></li>
+
+
+<li><a href="http://www.dos.ny.gov/dcs/index.htm" title="Community Services">&nbsp;&nbsp;Community Services</a></li>
+
+<li><a href="http://www.dos.ny.gov/consumerprotection/" title="Consumer Protection">&nbsp;&nbsp;Consumer Protection</a></li>
+
+<li><a href="http://www.dos.ny.gov/corps/index.html" title="Corportations, State Records and UCC">&nbsp;&nbsp;Corporations, State Records and UCC</a>&nbsp; &nbsp; &nbsp; &nbsp; </li>
+
+<li><a href="http://www.dos.ny.gov/cnsl/counsel.htm" title="General Counsel">&nbsp;&nbsp;General Counsel</a></li>
+
+<li><a href="http://www.dos.ny.gov/licensing/" title="Licensing Services">&nbsp;&nbsp;Licensing Services</a></li>
+   
+<li><a href="http://www.dos.ny.gov/lg/" title="Local Government Services">&nbsp;&nbsp;Local Government Services</a></li>   
+
+<li><a href="http://www.dos.ny.gov/opd" title="Office of Planning and Development">&nbsp;&nbsp;Office of Planning and Development</a></li>
+
+
+</ul>
+
+	</li>
+	
+    
+    
+    <li class="topmenu"><a href="#" title="Committees and Commissions" style="width:176px;height:16px;line-height:14px;"><span> Commissions &amp; Committees</span></a>
+	
+<ul>
+
+
+
+<li><a href="http://www.dos.ny.gov/amistad/index.html" title="Amistad Commission">&nbsp;&nbsp;Amistad Commission</a></li>
+
+<li><a href="http://www.dos.ny.gov/LG/arc/index.html" title="Appalachian Regional Commission">&nbsp;&nbsp;Appalachian Regional Commission</a></li>
+
+<li><a href="http://www.abo.ny.gov/" title="Authorities Budget Office">&nbsp;&nbsp;Authorities Budget Office</a></li>
+
+<li><a href="http://www.dos.ny.gov/athletic/index.html" title="New York State Athletic Commission">&nbsp;&nbsp;New York State Athletic Commission </a></li>
+
+<li><a href="http://www.dos.ny.gov/coog/index.html" title="Committee on Open Government">&nbsp;&nbsp;Committee on Open Government</a></li>
+
+<li><a href="http://www.lgpc.state.ny.us/" title="Lake George Park Commission">&nbsp;&nbsp;Lake George Park Commission</a></li>
+	
+<li><a href="http://www.tughill.org/" title="New York State Tug Hill Commission">&nbsp;&nbsp;New York State Tug Hill Commission</a></li>
+
+<li><a href="http://www.dos.ny.gov/watershed/" title="Watershed Protection and Partnership Council">&nbsp;&nbsp;Watershed Protection and Partnership Council</a></li>
+           
+</ul>
+
+	</li>
+    <li class="topmenu"><a href="http://www.dos.ny.gov/translation.html" title="Translation" style="width:72px;height:16px;line-height:14px;"> <span> Translation </span></a>
+    <ul>
+    
+   <li> <a href="http://www.dos.ny.gov/translation.html#spanish">&nbsp;&nbsp;Espa&ntilde;ol</a></li>
+     <li> <a href="http://www.dos.ny.gov/translation.html#korean">&nbsp;&nbsp;한국어</a></li>
+    <li> <a href="http://www.dos.ny.gov/translation.html#haitian">&nbsp;&nbsp; Krey&ograve;l Ayisyen</a></li>
+    <li> <a href="http://www.dos.ny.gov/translation.html#italian">&nbsp;&nbsp;Italiano</a></li>
+    <li> <a href="http://www.dos.ny.gov/translation.html#chinese">&nbsp;&nbsp;中文</a></li>
+    
+     
+     <li> <a href="http://www.dos.ny.gov/translation.html#russian">&nbsp;&nbsp;ру́сский </a></li>
+    <li> </li>
+    <li> </li>
+    
+    </ul>
+    
+    
+    
+    </li>
+    
+    
+    
+	<li class="topmenu"><a href="http://www.dos.ny.gov/about/services/home.html" title="A to Z Program Index" style="width:75px;height:16px;line-height:14px;"> A to Z Index</a></li>
+	
+</ul>
+<div id="searchboxdos_1col">
+
+<form action="http://search.dos.ny.gov/search" method="get" name="SearchDOSwebsite" id="SearchDOSwebsite">
+<label for="q">
+<input type="text" tabindex="1" name="q" id="q" size="25" maxlength="40" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search DOS Website" >&nbsp;&nbsp;</label>
+<input type="submit" tabindex="1" name="btnG" id="btnG" value="Search!">
+<input type="hidden" name="ie" value="">
+<input type="hidden" name="site" value="NYSDOS">
+<input type="hidden" name="output" value="xml_no_dtd">
+<input type="hidden" name="client" value="NYSDOS">
+<input type="hidden" name="lr" value="">
+<input type="hidden" name="proxystylesheet" value="NYSDOS">
+<input type="hidden" name="oe" value="">
+</form>
+</div>
+  
+  
+<!-- end .header --></div>
+
+
+
+<!--<div id="homepagealert">
+  
+ <strong>Weather Alert:  The Division of Licensing Services has cancelled all written examinations scheduled for Tuesday, Dec. 17 <br>
+ at our Newburgh exam site.  Please continue to monitor this site for any additional weather related examination cancellations. </strong>
+  
+</div>  -->
+
+  <div class="sidebar1">
+  <!--<div id="homepagealert2">
+
+ <a href="corps/notice_of_claim.html"> New in Corporations: <br> Notice of Claim Online Form</a> 
+ <br> 
+
+
+
+</div> -->
+<!-- All rollover buttons generated from images/homepage-buttons1-14.psd file -->
+
+<a href="http://www.dos.ny.gov/translation.html" target="_blank"><img src="images/freelangassist_off.gif" width="240" height="50" alt="Free Language Assistance" class="img-swap"></a> 
+
+
+<a href="http://www.dos.ny.gov/newnyleaders/index.html" target="_blank"><img src="images/animatedbuttons/newnyleaders_off.png" width="230" height="60" alt="New New York Leaders" class="img-swap"></a>
+
+<a href="http://stormrecovery.ny.gov/sandy-social-services-block-grant-ssbg-funding" target="_blank"><img src="images/animatedbuttons/ssbg_off.png" width="230" height="60" alt="NYRising" class="img-swap"></a><a href="about/complaintforms.html"><img src="images/animatedbuttons/complaintforms_off.png" width="230" height="60" alt="Complaint Forms" class="img-swap"></a>
+      
+<a href="https://grantsgateway.ny.gov/IntelliGrants_NYSGG/module/nysgg/goportal.aspx"><img src="images/animatedbuttons/grantsgateway_off.png" width="230" height="60" alt="Grants Gateway" class="img-swap"></a>
+
+
+<div id="governorswidget"><iframe src="http://www.governor.ny.gov/sites/default/themes/governor/govwidget.html" width="240" height="375" style="border:none" scrolling="no"> 
+</iframe>
+</div>
+
+<a href="http://www.twitter.com/#/NYSDOS"><img src="images/animatedbuttons/twitter_off.png" width="230" height="60" alt="Follow DOS on Twitter" class="img-swap"></a>
+
+<a href="http://executiveorder38.ny.gov"><img src="images/animatedbuttons/execorder38_off.png" width="230" height="60" alt="Executive Order 38 Website" class="img-swap"></a>
+<!-- end .sidebar1 -->
+</div>
+    
+    
+  <div class="topcontent">
+   
+
+   
+   
+   
+  <div id="feature_list">
+		  <ul id="tabs">
+			
+            
+            <!--  
+            
+           HOMEPAGE SLIDER UPDATES:  Small panel - text of story, not to exceed 4 line spaces. Thumbnail, 75px width.
+           Large panel image- 435 by 320. Link to featured story item (what the slider is linking to - is on the large
+           panel. 
+            
+            
+            -->
+            
+                 <!--     SMALL PANEL   --> 
+             
+             
+             
+                         <li>
+			<a href="javascript:;">
+            <img src="featurestories/images/aboutdos3thumb.jpg" alt="About the Peoples Department" width="75" height="55" />
+            <span class="panelhead">Discover How "The People's Department" Works for You </span></a>
+			</li>
+             
+                                       
+            <li>
+			<a href="javascript:;">
+            <img src="featurestories/ONA_logo_large_whitefield_thumb.jpg" alt="New York State Office for New Americans Marks its One-Year Anniversary" width="76" height="56" />
+            <span class="panelhead"> New York State <br>
+            Office for New Americans Marks its One-Year Anniversary</span></a>
+			</li>
+             
+                   
+            <li>
+			<a href="javascript:;">
+            <img src="featurestories/images/elicense-sm.jpg" alt="Appearance Enhancement and E-Licensing" width="75" height="55" />
+            <span class="panelhead">Appearance Enhancement &amp; Barber<br>
+            E-Licensing
+            </span></a>
+			</li>
+             
+             
+           <li>
+			<a href="javascript:;">
+            <img src="images/corp21114_thumb.jpg" alt="Corporations" width="75" height="55" />
+            <span class="panelhead">Instant Filing Now Available Online for New Business Corporations & LLC's!</span></a>
+			</li>
+                  
+           
+             
+             
+                            
+       
+                 
+            
+             
+
+                 
+             
+             
+
+             
+
+  
+
+      </ul>
+       
+       
+        <!--      LARGE PANEL   -->        
+ 
+			<ul id="output">
+            
+                        
+                                <li>
+              <img src="featurestories/images/aboutdos3.jpg" alt="Discover how the people's department works for you."/>
+			  <a href="http://www.dos.ny.gov/about/aboutus.html">Read More </a>
+			  </li>
+                    
+                                  
+                               
+                     
+                                                       
+              <li>
+              <img src="featurestories/ONA_logo_large_whitefield.jpg" alt="New York State Office for New Americans Marks its One-Year Anniversary"/>
+			  <a href="http://www.governor.ny.gov/press/03212014-immigrant-assistance">Read More </a>
+			  </li>
+                    
+                                    
+                                                                 
+              <li>
+              <img src="featurestories/images/elicense.jpg" alt="Appearance Enhancement and Barber E-Licensing<"/>
+			  <a href="http://licensecenter.ny.gov/business-individual-licenses">Read More </a>
+			  </li>
+                    
+            
+              
+                                  
+                                  
+                                  
+                                        
+                                 
+                         <li>
+              <img src="images/corp21114.jpg" alt="Instant filing available for Corporations"/>
+			  <a href="http://www.governor.ny.gov/press/02102014-accelerate-business-filings">Read More </a>
+			  </li>
+                    
+                     
+                     
+                     
+                     
+                     
+          
+            
+                     
+  
+
+            
+
+ 
+
+   
+    
+
+            
+            
+                        
+
+
+            
+
+
+            
+            
+      
+                      
+            
+            
+
+                
+      </ul>
+
+  </div>
+   
+  </div>
+
+
+<div class="accordionbox">
+  
+  <div id="accordion">
+
+<h3><a href="http://www.dos.ny.gov/info/index.html">Department of State</a></h3>
+	
+    <div style="text-align:center; line-height:200%; font-size:11px;">
+	&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/aboutus.html">About DOS</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/sos/sosmain.html">About the Secretary</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/newsroom.html">Newsroom & Webcasts</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/calendar.html">Calendar of Events</a>&nbsp;&nbsp;<br>&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/funding/">Funding/Bid Opportunities</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/translation.html">Translation</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/contact.asp">Contact Us</a>
+    
+	</div>
+
+<h3><a href="http://www.dos.ny.gov/info/index.html">Administrative Rules </a></h3>
+	
+    <div style="font-size:11px">
+	  The Division publishes information on official state documents and the weekly State Register on rule making activities of state agencies.
+	</div>
+
+
+	<h3><a href="http://www.dos.ny.gov/cmty/index.html">Cemeteries </a></h3>
+	<div style="font-size:11px">
+	  The Division oversees the establishment, maintenance,  and preservation of burial grounds for all not-for-profit cemeteries in New  York.
+	</div>
+
+
+	<h3><a href="http://www.dos.ny.gov/DCEA/">Building Standards &amp; Codes</a></h3>
+	<div style="font-size:11px">The Division works to ensure the health and life safety of all New Yorkers by providing services related to building construction,<br>fire prevention, and energy conservation. Learn how building and energy codes help keep you and your loved ones safe.</div>
+
+	<h3><a href="http://www.dos.ny.gov/about/commissions.html">Commissions &amp; Committees </a></h3>
+	<div style="font-size:11px">The Department provides administrative support to several commissions and committees. In addition, there are three independent entities that reside within DOS:<span class="highlightdarkgrey">&nbsp;&nbsp;&#8226; <a href="http://www.abo.state.ny.us/">Authorities Budget Office </a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/athletic/index.html">New York State Athletic Commission </a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/coog/index.html">Committee on Open Government </a></span></div>
+	
+    
+    <h3><a href="http://www.dos.ny.gov/opd">Office of Planning and Development </a></h3>
+	<div style="font-size:11px">Staff helps local communities plan for and make better use of their land and water resources.
+    <span class="highlightdarkgrey"><br>
+    &#8226; <a href="http://www.dos.ny.gov/grants.html">Apply  for a Grant </a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/revitalize.html">Revitalize Your Community </a>
+    &nbsp;&nbsp;&#8226; <a href="http://www.nyswaterfronts.com/waterfront_natural.asp">Protect and Restore Natural Resources</a></span>
+
+</div>
+    <h3><a href="http://www.dos.ny.gov/consumerprotection">Consumer Protection</a></h3>
+	<div style="font-size:11px">The state's top consumer watchdog and think tank is committed to advocating for and empowering all New Yorkers.<br>   
+	  <span class="highlightdarkgrey">&#8226; <a href="http://www.dos.ny.gov/consumerprotection/scams/consumeralerts_recalls/recall_alerts.htm">Consumer Alerts &amp; Recalls </a> 
+      &nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/consumerprotection/do_not_call/">Do Not Call </a>
+      &nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/consumerprotection/identity_theft/index.htm">Identity Theft </a>
+      &nbsp;&nbsp;&#8226; <a href="https://www.dos.ny.gov/consumerprotection/form/complaintform.asp">Complaint Form </a>
+      &nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/consumerprotection/scams/index.htm">Scam Prevention </a>
+       &nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/consumerprotection/reports/energy_utility_intervention/index.html">Utility Intervention Unit </a>
+      
+      </span>
+  </div>
+    
+
+  <h3><a href="http://www.dos.ny.gov/corps/index.html">Corporations, State Records &amp; Uniform Commercial Code </a></h3>
+  <div style="font-size:11px">
+  <div style="float:left; height:29px; padding: 0px 2px 0px 0px;">&#8226; Search Corporation/Business Entity Database:<br>
+  <span class="subhead3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&middot; <a href="http://www.dos.ny.gov/corps/bus_entity_search.html">Customize Search Criteria &raquo;</a></span>
+     </div>
+  
+  <div id="searchdos2A" style="float:left; height:25px; padding: 4px 0px 0px 0px;">   
+  <form action="http://appext20.dos.ny.gov/corp_public/CORPSEARCH.SELECT_ENTITY" method="post" target="_blank" >
+  <label for="p_entity_name">
+  <input type="text" name="p_entity_name" id="p_entity_name" size="21" class="input2" maxlength="100"></label>
+  <input type="submit" value="Search!" id="gobutt" class="submit2" >
+  <input type="hidden" name="p_name_type" id="p_name_type" value="A">
+  <input type="hidden" name="p_search_type" id="p_search_type" value="BEGINS" >
+  </form></div>
+
+<div style="float:left; width:210px; height:29px; padding: 0px 0px 0px 10px; font-size:11px;">&#8226; <a href="http://www.dos.ny.gov/corps/index.html">Corporation &amp; Business Entity Filings &raquo;</a><br>
+<span class="subhead3">&nbsp;&nbsp;(Corporation, Not-for-Profit, LLC, LLP, LP)</span>
+      </div></div>
+    
+<h3><a href="http://www.dos.ny.gov/licensing/">Licensing </a></h3>
+	<div>
+
+<div style="float:left; width:300px; height:20px; padding: 0px 0px 0px 0px; height: 30px; font-size:11px;">&#8226; Search the Licensee Database:&nbsp;&nbsp;<span class="highlightdarkgrey">&middot; <a href="https://APPEXT20.dos.ny.gov/nydos/selSearchType.do">Real Estate Industry &raquo;</a><br>
+&middot; <a href="http://appext20.dos.ny.gov/lcns_public/chk_load">All Other License Types <span class="subhead3">(Including Real Estate Appraisers)</span> &raquo;</a></span>
+
+      </div>
+
+      <div style="float:left; width:250px; height:25px; padding: 0px 0px 0px 00px; font-size:11px;">&#8226; <a href="http://www.dos.ny.gov/licensing/complaint.html">File a Complaint Against a Licensee  &raquo;</a><br>&#8226; <a href="http://www.dos.ny.gov/licensing/eaccessny.html">eAccessNY <span class="subhead3">(Real Estate Licensing Management)</span>  &raquo;</a></div>
+      
+</div>
+    	
+<h3><a href="http://www.dos.ny.gov/lg/index.html">Local Government</a></h3>
+	
+    <div style="font-size:11px">
+	  A principal resource for New York local governments seeking training and technical assistance.<br>
+      <span class="highlightdarkgrey">&#8226; <a href="http://www.dos.ny.gov/grants.html">Apply  for a Grant</a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/lg/lut/index.html">Training Opportunities for Local Officials</a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/lg/index.html">Reduce Local Government Costs </a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/lg/publications.html">Publications </a></span>
+	</div>
+    
+</div>
+</div>
+
+
+      <!-- 
+<div id="phones_box">
+<div style="height: 30px; padding: 5px 0px 4px 10px; border-bottom: 1px dashed #eadcae;background-image:url(images/ochrearrow.png); background-repeat:no-repeat; background-position:left;">
+<strong><span class="highlightdarkorange"> &nbsp;&nbsp;Want to incorporate? </span><br>
+&nbsp;</strong> (518) 473-2492</div>
+
+
+<div style="height: 30px; padding: 5px 0px 4px 10px; border-bottom: 1px dashed #eadcae; background-image:url(images/ochrearrow.png); background-repeat:no-repeat; background-position:left;">
+ <strong><span class="highlightdarkorange"> &nbsp;&nbsp;Need a license? </span></strong><br>
+&nbsp; (518) 474-4429<br></div>
+
+
+<div style="height: 30px; padding: 5px 0px 4px 10px; border-bottom: 1px dashed #eadcae; background-image:url(images/ochrearrow.png); background-repeat:no-repeat; background-position:left;">
+<strong><span class="highlightdarkorange"> &nbsp;&nbsp;Need consumer protection advice? </span></strong><br>
+&nbsp;&nbsp;(518) 474-8583 / 1 (800) 697-1220<br></div>   
+
+    
+</div>
+
+-->
+
+
+
+
+<br class="clearfloat">
+  
+  <div class="footer_508">
+   <a href="http://www.dos.ny.gov">DOS Home</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/services/home.html">A to Z Index</a> 
+    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/applications.html">Applications</a> 
+    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/access.html">Accessibility</a> 
+    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/privacy.html">Privacy Policy</a> 
+    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/disclaimer.html">Disclaimer</a> 
+    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/contact.asp">Contact Us</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://get.adobe.com/reader/" target="_blank"><img src="images/get_adobe_reader3.png" alt="adobe reader"  width="84" height="24"></a>
+    <!--&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://twitter.com/NYDeptofState" target="_blank"><img src="../images/twitter_logo24x24.png" alt="Twitter" width="24" height="24" align="absmiddle"></a>--> 
+  
+        <script type="application/javascript">
+$(document).ready(function() {
+    // Declare the array variable
+    var imgSwap = [];
+    // Select all images used in the image swap function - in our case class "img-swap"
+    $(".img-swap").each(function(){
+        // Loop through all images which are used in our image swap function
+        // Get the file name of the active images to be loaded by replacing _off with _on
+        imgUrl = this.src.replace("_off","_on");
+        // Store the file name in our array
+        imgSwap.push(imgUrl);
+    });
+    // Pass the array to our preload function
+    $(imgSwap).preload();
+});
+</script>
+  
+  
+  
+</div>
+<!-- end .container --></div>
+<div id='ZN_6eSONGWExC3sowR'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+</body>
+</html>

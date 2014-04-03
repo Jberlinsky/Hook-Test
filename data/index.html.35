@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<title>Tech News, Reviews &amp; Tips | Geek.com</title>
+		
+		<meta name="keywords" content="Tech, News, Reviews, Tips" />		<meta name="description" content="Geeking out since 1995. Providing readers with tech news, reviews, and tips." />		<link rel="canonical" href="http://www.geek.com/" />		<meta name="robots" content="noodp,noydir" />		<meta name="zdid" content="h"/>		<meta name="msvalidate.01" content="C91A857B88F4A7B1369CE7A7FDE1274B" />
+		<link rel="shortcut icon" type="image/x-icon" href="http://www.geek.com/wp-content/themes/geek7/favicon.ico">
+		<link rel="apple-touch-icon" href="http://www.geek.com/wp-content/themes/geek7/mobile-icon.png" />
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="pingback" href="http://www.geek.com/xmlrpc.php" />
+				 <meta name="verify-v1" content="S2asZW58IMwtYoRZ3ZUr/KdK4ouAjbWmVo12bcJpCJQ=" />
+         <meta name="verify-v1" content="DaeOsREDKGt9v49pn8loPenRO6/Z23cckJz0doLIxkg=" />
+         <meta name="google-site-verification" content="tAQZywTJgrvngL5fGLrecKL9jWxOAl8R3GbrrvKUKNs" />
+      			<script type="text/javascript">
+			var templateDir = 'http://www.geek.com/wp-content/themes/geek7';
+			var CS_segments = ''; 
+		</script>
+					<meta http-equiv="REFRESH" content="240">
+				
+        <!--[if IE]>
+            <script src="http://www.geek.com/wp-content/themes/geek7/js/html5.js"></script>
+        <![endif]-->
+		
+	<meta property="og:url" content="http://www.geek.com/"/>
+	<meta property="og:title" content="Tech News, Reviews &amp; Tips | Geek.com"/>
+	<meta property="og:site_name" content="@geekdotcom"/>
+	<meta property="og:type" content="Blog"/>
+	<meta property="fb:admins" content="45041537375"/>
+	<meta property="fb:app_id" content="351808141600848"/>
+		
+		    <meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:site" content="geekdotcom">
+	<meta name="twitter:creator" content="@geekdotcom">
+	<meta name="twitter:domain" content="geek.com">
+	<meta name="twitter:title" content="Tech News, Reviews &amp; Tips | Geek.com"/>
+	<meta name="twitter:url" content="http://www.geek.com/"/>
+				
+			<script type="text/javascript">
+		var maxPages = 4560	</script>
+		<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+		<link rel="alternate" type="application/rss+xml" title="Geek.com &raquo; Feed" href="http://www.geek.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geek.com &raquo; Comments Feed" href="http://www.geek.com/comments/feed/" />
+<link rel='stylesheet' id='style-css'  href='http://www.geek.com/wp-content/themes/geek7/style.css?ver=1390338140' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.geek.com/wp-content/themes/geek7/css/jquery.fancybox.css?ver=1365098796' type='text/css' media='all' />
+<link rel='stylesheet' id='tn3-css-css'  href='http://www.geek.com/wp-content/themes/geek7/css/skins/tn3a/tn3a.css?ver=1364766912' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/jquery.colorbox.js?ver=1383335837'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/geek.js?ver=1383335837'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.geek.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.geek.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.1" />
+
+<!-- Dynamic Widgets v1.5.4 by QURL - http://www.qurl.nl //-->
+									
+			<!-- Pressly Redirect -->
+<script type="text/javascript" src="//read.pressly.com/52960da3646f6d79c9030000/52960de5646f6d79ba000000/redirect.js"></script>
+
+<!-- Google Analytics Tag -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-21677019-1']);
+	  	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>					
+			<!-- Pressly Redirect -->
+<script type="text/javascript" src="//read.pressly.com/52960da3646f6d79c9030000/52960de5646f6d79ba000000/redirect.js"></script>
+
+<script type='text/javascript' src='http://static.ziffdavis.com/js/zdcc/1.0.0/zdcc.min.js?ver=1.0.0'></script>
+
+<!-- Optimizely Script -->
+<script src="http://cdn.optimizely.com/js/211158221.js"></script>
+<!-- End Optimizely Script -->
+
+<!-- begin gurgler -->
+<script type="text/javascript" src="http://static.ziffdavis.com/js/zdgurgle/zdgurgler.min.js"> 
+</script>
+<script type="text/javascript">	
+var CS_segments = ''; 
+CS_segments = ZDGURGLER.GetAdString();
+</script>
+<!-- end gurgler -->
+<style>
+.socialmedia ul {z-index:99999 !important;}
+header .fixed { z-index:99990;}
+.fancybox-overlay{z-index:2147483640;}
+.fancybox-opened{z-index:2147483647;}
+</style>
+<link href="https://plus.google.com/b/115820748320881773150" rel="publisher" />
+<!-- Crows science tag -->
+<!-- removed
+<script type="text/javascript">
+ (function() {
+  var cs = document.createElement('script'); cs.type = 'text/javascript';
+  cs.async = true;
+  cs.src = ('https:' == document.location.protocol ? 'https://secure-' : 'http://') + 'static.crowdscience.com/start-a1c2b6c8d9.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cs,s);
+ })();
+</script>
+-->
+<!--Crowd Science Script-->
+<style>
+.socialmedia ul {z-index:99999 !important;}
+header .fixed,.fancybox-overlay { z-index:99990;}
+.fancybox-opened{z-index:99999;}</style>
+<script type="text/javascript">	
+function CS_data_callback(cs_data) { 
+<!--
+  if (cs_data && cs_data.segments)
+    CS_segments = ';csseg=' + cs_data.segments.join(';csseg='); 
+-->
+} 
+</script>
+<!-- removed
+<script type="text/javascript" src="http://static.crowdscience.com/max-a1c2b6c8d9.js?callback=CS_data_callback"></script>
+-->
+
+<!-- Hint ad for geek -->
+<!--
+<script type="text/javascript" src="http://static.adziff.com/qhint/topad_gk.js"></script></div>
+-->
+					
+			<style>
+.section2 article .red a{ 
+font-family: "LatoRegular",Arial,Helvetica,sans-serif;
+ font-size: 14px;}
+#colorbox,#cboxOverlay{display:none !important;}
+</style>					
+			<!-- Chartbeat -->
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>					</head>
+	<body class="home blog">
+		
+					<div class="headerstories">
+			<div class="wrapper">
+				<article CTR="Hero 1">
+															
+			<!-- hero left -->
+
+ <!-- Begin comScore Tag -->
+    <script>
+        document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    </script>
+    <script>
+        COMSCORE.beacon({
+            c1:2,
+            c2:6035546,
+            c3:"",
+            c4:"",
+            c5:"",
+            c6:"",
+            c15:""
+        });
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035546&c3=&c4=&c5=&c6=&c15=&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+					
+			<!-- hero left -->
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+if(ZDXI && ZDXI.Country() === "AU"){
+document.write("<scr" + "ipt type=\"text/javascript\" src=\"//secure-au.imrworldwide.com/v60.js\"></sc" + "ript>");
+document.write("<scr" + "ipt type=\"text/javascript\">");
+document.write("var pvar = { cid: \"digitalniche\", content: \"0\", server: \"secure-au\" };");
+document.write("var trac = nol_t(pvar);");
+document.write("trac.record().post();");
+document.write("</scr" + "ipt>");
+} else {
+document.write("<scr" + "ipt type=\"text/javascript\">");
+document.write("(function () {");
+document.write("    var d = new Image(1, 1);");
+document.write("    d.onerror = d.onload = function () {");
+document.write("      d.onerror = d.onload = null;");
+document.write("};");
+document.write("    d.src = [\"http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-806031h&cg=0&cc=1&si=\", escape(window.location.href), \"&rp=\", escape(document.referrer), \"&ts=compact&rnd=\", (new Date()).getTime()].join('');");
+document.write("  })();");
+document.write("</scr" + "ipt>");
+}
+</script>
+<noscript>
+  <div>
+    <img src="http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-806031h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+    width="1" height="1" alt="" />
+  </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+																																				<figure><a ctr="Hero 1" type="image" title="Amazon Fire TV hardware: A tiny black box with serious power" href="http://www.geek.com/apps/amazon-fire-tv-hardware-a-tiny-black-box-with-serious-power-with-1590024/">
+							<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/IGP17471-590x330.jpg" class="attachment-river-large wp-post-image" alt="Fire TV unboxed" />						</a></figure>
+						<aside>
+							<h3><a ctr="Hero 1" type="text" title="Amazon Fire TV hardware: A tiny black box with serious power" href="http://www.geek.com/apps/amazon-fire-tv-hardware-a-tiny-black-box-with-serious-power-with-1590024/">Amazon Fire TV hardware: A tiny black box with serious power</a></h3>
+						</aside>
+					</article>
+					
+					<article class="right">
+																	
+			<!-- hero right -->																										<figure><a ctr="Hero 2" type="image" title="Google is testing an army of new features for Gmail" href="http://www.geek.com/android/google-is-testing-an-army-of-new-features-for-gmail-1589767/">
+							<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2013/09/Gmail_logo-590x330.jpg" class="attachment-river-large wp-post-image" alt="Gmail_logo" />						</a></figure>
+						<aside>
+							<h3><a ctr="Hero 2" type="text" title="Google is testing an army of new features for Gmail" href="http://www.geek.com/android/google-is-testing-an-army-of-new-features-for-gmail-1589767/">Google is testing an army of new features for Gmail</a></h3>
+						</aside>
+									</article>
+			</div>
+		</div>
+			
+			<header>
+			<div id="menu" class="default">
+				<nav>
+					<div class="wrapper">
+						<div class="logo">
+							<!-- TODO: use pretty search URL -->
+							<a href="http://www.geek.com/" title="Geek.com">
+								<img src="http://www.geek.com/wp-content/themes/geek7/images/geek.png" alt="GEEK">
+							</a>
+						</div>
+					
+						<div class="menu-primary-nav-container"><ul id="menu-primary-nav" class="menu"><li id="menu-item-1550220" class="Android menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550220"><a href="http://www.geek.com/category/android/">Android</a></li>
+<li id="menu-item-1550221" class="Apple menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550221"><a href="http://www.geek.com/category/apple/">Apple</a></li>
+<li id="menu-item-1550222" class="Microsoft menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550222"><a href="http://www.geek.com/category/microsoft/">Microsoft</a></li>
+<li id="menu-item-1550526" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550526"><a href="http://www.geek.com/category/science/">Science</a></li>
+<li id="menu-item-1550224" class="Gaming menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550224"><a href="http://www.geek.com/category/games/">Gaming</a></li>
+</ul></div>						
+						<form action="http://www.geek.com/" method="get">
+							<fieldset>
+								<input name="s" id="s" type="text" class="input" value="Search Geek" onFocus="if(this.value == 'Search Geek') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Search Geek';}" />
+								<input name="" type="image" src="http://www.geek.com/wp-content/themes/geek7/images/icon_search.png" class="icon">
+							</fieldset>
+						</form>
+					</div>
+				</nav>
+				
+				<div class="navbar">
+					<div class="wrapper">
+					
+						<div class="subnav">
+							<div class="menu-sub-nav-container"><ul id="menu-sub-nav" class="menu"><li id="menu-item-1550225" class="News menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550225"><a href="http://www.geek.com/category/news/">News</a></li>
+<li id="menu-item-1550333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550333"><a href="http://www.geek.com/category/apps/">Apps</a></li>
+<li id="menu-item-1572380" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1572380"><a title="Culture" href="http://www.geek.com/category/geek-cetera/">Culture</a></li>
+<li id="menu-item-1550228" class="Mobile menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550228"><a href="http://www.geek.com/category/mobile/">Mobile</a></li>
+<li id="menu-item-1550332" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550332"><a href="http://www.geek.com/category/tablets/">Tablets</a></li>
+<li id="menu-item-1550229" class="Deals menu-item menu-item-type-custom menu-item-object-custom menu-item-1550229"><a href="/deals">Deals</a></li>
+<li id="menu-item-1579884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1579884"><a href="http://www.geek.com/tag/geek-answers/">Geek Answers</a></li>
+</ul></div>						</div>
+						
+						<div class="socialmedia">
+							<ul>
+								<li class="followus">
+								<span>Follow Us</span>
+								    <div id="follow">
+									<article>
+										<aside>
+											<ul>
+																								<li><a href="http://www.twitter.com/geekdotcom" class="twitter1">Twitter</a></li>
+												<li><a href="http://www.facebook.com/geekdotcom" class="facebook1">Facebook</a></li>
+												<li><a href="https://www.stumbleupon.com/submit?url=http://www.geek.com" class="stumbleupon">StumbleUpon</a></li>
+											</ul>
+											
+											<ul class="right">
+												<li><a href="http://plus.google.com/+geekdotcom" class="googleplus1">Google+</a></li>
+												<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.geek.com" class="linkedin1">LinkedIn</a></li>
+												<li><a href="/feed/" class="rss1">RSS Feed</a></li>
+											</ul>
+											
+											<form action="/email/" method="post" class="newsletter">
+												<fieldset>
+													<span class="inbox">Get more Geek right in your inbox</span>
+													<span class="message"></span>
+													<input name="email" type="text" class="input" value="Enter your email address" onFocus="if(this.value == 'Enter your email address') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Enter your email address';}" />
+													<input type="hidden" name="list" value="geek">
+													<input type="hidden" name="Comment_" value="demographics">
+													<input type="hidden" name="confirm" value="none">
+													<input type="hidden" name="showconfirm" value="F">
+													<input name="" type="submit" class="button" value="SUBMIT">
+												</fieldset>
+											</form>
+											</aside>
+									</article>
+								 </div>
+								</li>
+								<li><a href="http://www.facebook.com/geekdotcom" class="facebook">Facebook</a></li>
+								<li><a href="http://www.twitter.com/geekdotcom" class="twitter">Twitter</a></li>
+								<li><a href="http://plus.google.com/+geekdotcom" class="googleplus">Googleplus</a></li>
+								<li><a href="/feed/" class="rss">Rss</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="container">
+			<section class="wrapper">
+
+				<section class="banner">
+															
+			<!-- leader board -->		                            	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_exotic;sz=1x3;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_exotic;sz=1x3;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_exotic;sz=1x3;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	                                                  	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_ATF;sz=728x90,970x250;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_ATF;sz=728x90,970x250;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_ATF;sz=728x90,970x250;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	                      									</section><!-- banner -->
+	<section id="content">
+				<div class="topcontent">
+			<article>
+				<h2><a ctr="Featured" type="text" title="Amazon announces $99 Amazon Fire TV " href="http://www.geek.com/apps/amazon-video-event-kicks-off-at-11am-et-today-1589974/">Amazon announces $99 Amazon Fire TV </a></h2>
+				<p>
+					Six days ago, we learned that Amazon had a video-focused event planned for April 2. Shortly after we were invited, it&#8217;s now April 2 and we&#8217;re live on scene. It&#8217;s not yet known [...]				</p>
+			</article>
+			<aside>
+				<span><a href="http://www.geek.com/category/science/">Science!</a></span>
+				<figure>
+					<a ctr="Featured" type="image" title="Amazon announces $99 Amazon Fire TV " href="http://www.geek.com/apps/amazon-video-event-kicks-off-at-11am-et-today-1589974/">
+						<img width="650" height="433" src="http://www.geek.com/wp-content/uploads/2014/04/IGP1685-650x433.jpg" class="attachment-gallery-large wp-post-image" alt="Amazon video event" />					</a>
+				</figure>
+			</aside>
+		</div>
+
+				<div class="leftpanel">
+			
+			<div id="secondary" class="widget-area" role="complementary">
+			              <aside id="dartwidget-14" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_ATF;sz=300x250;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_ATF;sz=300x250;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_ATF;sz=300x250;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>        <aside id="execphp-6" class="widget widget_execphp">			
+			<a href="https://twitter.com/geekdotcom" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @geekdotcom</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>		</aside><aside id="execphp-5" class="widget widget_execphp">			
+			<div class="g-page" data-href="//plus.google.com/115820748320881773150" data-layout="landscape" data-rel="publisher"></div>
+
+<!-- Place this tag after the last badgev2 tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>		</aside>              <aside id="newsletter_signup-2" class="widget widget_newsletter_signup">			       	<div class="logo"><img src="http://www.geek.com/wp-content/themes/geek7/images/logo_geek.gif" alt="GEEK"></div>
+		            <label>NEWSLETTER</label>
+	              	<form action="/email/" method="post" class="newsletter">
+				       	<fieldset>
+						 	<span class="message"></span>
+			              	<input name="email" type="text" class="input" value="Email Address..." onFocus="if(this.value == 'Email Address...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Email Address...';}" />
+			              	<input type="hidden" name="list" value="geek">
+							<input type="hidden" name="Comment_" value="demographics">
+							<input type="hidden" name="confirm" value="none">
+							<input type="hidden" name="showconfirm" value="F">
+			              	<input name="" type="submit" class="button" value="Submit">
+			            </fieldset>
+			        </form>
+              </aside>                                          </aside>                      <aside id="dartwidget-15" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_module;sz=336x250;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_module;sz=336x250;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_module;sz=336x250;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-16" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geekBTF/homepagedoor_BTF;sz=300x250;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geekBTF/homepagedoor_BTF;sz=300x250;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geekBTF/homepagedoor_BTF;sz=300x250;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-17" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_pixel;sz=1x1;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_pixel;sz=1x1;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_pixel;sz=1x1;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-8" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_special;sz=1x2;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_special;sz=1x2;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_special;sz=1x2;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-10" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_topleftspon;sz=1x4;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_topleftspon;sz=1x4;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_topleftspon;sz=1x4;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-11" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_toprightspon;sz=1x5;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_toprightspon;sz=1x5;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_toprightspon;sz=1x5;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>        		</div><!-- #secondary -->
+			</div>
+		<div class="rightpanel">
+
+									<div class="section1">
+			   			   			   			   				<article id="post-1589841" class="post-1590038 post type-post status-publish format-standard hentry category-news category-science tag-australia tag-biomimetics tag-design tag-elastic tag-festo tag-kangaroos tag-robotics tag-robots article2">
+					<figure>
+													<a ctr="Sub-Feature 1" type="image" title="PS4 ships 7 million worldwide, outsells Xbox One in Europe 7:1" href="http://www.geek.com/games/ps4-ships-7-million-worldwide-outsells-xbox-one-in-europe-71-1589841/">
+								<img width="286" height="156" src="http://www.geek.com/wp-content/uploads/2013/06/PS4_final_console-286x156.jpg" class="attachment-river-small wp-post-image" alt="PS4 console" />							</a>
+																		<div class="category">
+							<span class="red"><a href="http://www.geek.com/category/games/">Games</a></span>	
+						</div>
+					</figure>
+					<aside>
+						<h3>
+							<a ctr="Sub-Feature 1" type="text" title="PS4 ships 7 million worldwide, outsells Xbox One in Europe 7:1" href="http://www.geek.com/games/ps4-ships-7-million-worldwide-outsells-xbox-one-in-europe-71-1589841/">
+								PS4 ships 7 million worldwide, outsells Xbox One in Europe 7:1							</a>
+						</h3>
+					</aside>
+				</article>
+				
+																<article id="post-1589855" class="post-1590038 post type-post status-publish format-standard hentry category-news category-science tag-australia tag-biomimetics tag-design tag-elastic tag-festo tag-kangaroos tag-robotics tag-robots article2">
+					<figure>
+													<a ctr="Sub-Feature 2" type="image" title="George Lucas explains how the lightsaber was invented" href="http://www.geek.com/news/george-lucas-explains-how-the-lightsaber-was-invented-1589855/">
+								<img width="286" height="156" src="http://www.geek.com/wp-content/uploads/2014/04/lightsaber-286x156.jpg" class="attachment-river-small wp-post-image" alt="lightsaber" />							</a>
+																		<div class="category">
+							<span class="red"><a href="http://www.geek.com/category/news/">News</a></span>	
+						</div>
+					</figure>
+					<aside>
+						<h3>
+							<a ctr="Sub-Feature 2" type="text" title="George Lucas explains how the lightsaber was invented" href="http://www.geek.com/news/george-lucas-explains-how-the-lightsaber-was-invented-1589855/">
+								George Lucas explains how the lightsaber was invented							</a>
+						</h3>
+					</aside>
+				</article>
+				
+			</div>
+					
+						<div class="section2">
+		<article id="post-1590038" class="post-1590038 post type-post status-publish format-standard hentry category-news category-science tag-australia tag-biomimetics tag-design tag-elastic tag-festo tag-kangaroos tag-robotics tag-robots">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/science/">Science!</a></span>
+									<a href="http://www.geek.com/science/kangaroo-bot-shows-promise-in-the-idea-of-hopping-machines-1590038/" ctr="River 1" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/roobot-590x330.jpg" class="attachment-river-large wp-post-image" alt="Roobot" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/science/kangaroo-bot-shows-promise-in-the-idea-of-hopping-machines-1590038/" ctr="River 1" type="text">Kangaroo-bot shows promise in the idea of hopping machines</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/gtempleton/" title="Posts by Graham Templeton" rel="author">Graham Templeton</a></span> 
+						Apr. 2, 2014 5:45 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/science/kangaroo-bot-shows-promise-in-the-idea-of-hopping-machines-1590038/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>A new bio-inspired robot looks to steal one of evolution&#8217;s most efficient (and unique) forms of locomotion. Say hello to the world&#8217;s first &#8216;roobot.</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1590023" class="post-1590023 post type-post status-publish format-standard hentry category-news tag-epic tag-half-life-2 tag-half-life tag-half-life-3 tag-source-engine tag-source-engine-2 tag-unreal-engine tag-unreal-engine-4 tag-valve tag-video-games">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/news/">News</a></span>
+									<a href="http://www.geek.com/news/this-is-what-half-life-2-would-look-like-in-unreal-engine-4-1590023/" ctr="River 2" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/hl2ue4-head-590x330.jpg" class="attachment-river-large wp-post-image" alt="hl2ue4 head" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/news/this-is-what-half-life-2-would-look-like-in-unreal-engine-4-1590023/" ctr="River 2" type="text">This is what Half-Life 2 would look like in Unreal Engine 4</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/gtempleton/" title="Posts by Graham Templeton" rel="author">Graham Templeton</a></span> 
+						Apr. 2, 2014 5:01 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/news/this-is-what-half-life-2-would-look-like-in-unreal-engine-4-1590023/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>An art project from an interested fan reimagines the opening level of Half Life 2 with all the visual fidelity of Epic&#8217;s Unreal Engine 4, and it looks amazing.</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1590060" class="post-1590060 post type-post status-publish format-standard hentry category-deals-2 tag-geek-deals">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/deals-2/">Deals</a></span>
+									<a href="http://www.geek.com/deals-2/geek-deals-jbl-j55i-performance-on-ear-headphones-for-70-1590060/" ctr="River 3" type="image">
+						<img width="302" height="282" src="http://www.geek.com/wp-content/uploads/2014/04/jbl-j55i-headphones-orange.jpg" class="attachment-river-large wp-post-image" alt="jbl-j55i-headphones-orange" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/deals-2/geek-deals-jbl-j55i-performance-on-ear-headphones-for-70-1590060/" ctr="River 3" type="text">Geek deals: JBL J55i performance on-ear headphones for $70</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/dshain/" title="Posts by Danny Shain" rel="author">Danny Shain</a></span> 
+						Apr. 2, 2014 4:39 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/deals-2/geek-deals-jbl-j55i-performance-on-ear-headphones-for-70-1590060/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Experiencing music with high quality headphones can make a world of difference, but it can be tough to find that kind of capability under $100. That&#8217;s why we were pretty excited to see [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1590081" class="post-1590081 post type-post status-publish format-standard hentry category-gadgets category-news tag-crowd-funding tag-desk tag-health tag-kickstarter tag-standing-desk">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/news/">News</a></span>
+									<a href="http://www.geek.com/news/the-standdesk-adjustable-desk-hits-50000-kickstarter-goal-in-38-minutes-1590081/" ctr="River 4" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/Desk-590x330.jpg" class="attachment-river-large wp-post-image" alt="Desk" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/news/the-standdesk-adjustable-desk-hits-50000-kickstarter-goal-in-38-minutes-1590081/" ctr="River 4" type="text">The StandDesk adjustable desk hits $50,000 Kickstarter goal in 38 minutes</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rwhitwam/" title="Posts by Ryan Whitwam" rel="author">Ryan Whitwam</a></span> 
+						Apr. 2, 2014 4:20 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/news/the-standdesk-adjustable-desk-hits-50000-kickstarter-goal-in-38-minutes-1590081/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>If you&#8217;re reading this at a computer, odds are good that you&#8217;re sitting in a cozy chair while doing it. Standing desks are becoming all the rage as we learn more about the [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1589995" class="post-1589995 post type-post status-publish format-standard hentry category-chips category-news tag-apple tag-cables tag-lightning tag-standards tag-usb article2">
+			<figure>
+			    				<span class="red"><a href="http://www.geek.com/category/chips/">Chips</a></span>	
+									<a href="http://www.geek.com/chips/the-new-type-c-is-a-usb-cable-that-youll-actually-plug-in-on-the-first-try-1589995/" ctr="Sub-River 1" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/USB-C-590x330.jpg" class="attachment-river-large wp-post-image" alt="USB C" />					</a>
+								
+			</figure>
+			<aside>
+				<h3>
+					<a href="http://www.geek.com/chips/the-new-type-c-is-a-usb-cable-that-youll-actually-plug-in-on-the-first-try-1589995/" ctr="Sub-River 1" type="text">
+						The new Type-C is a USB cable that you&#8217;ll actually plug in on the first try					</a>
+				</h3>
+			</aside>
+		</article>
+	</div>
+			<div class="section1">
+								<article id="post-1590013" class="post-1590013 post type-post status-publish format-standard hentry category-microsoft category-mobile category-news tag-cortana tag-microsoft tag-mobile tag-smartphone tag-windows-phone article2">
+			<figure>
+									<a href="http://www.geek.com/microsoft/cortana-powered-by-bing-is-finally-on-windows-phone-1590013/" ctr="Sub-River 2" type="image">
+						<img width="286" height="156" src="http://www.geek.com/wp-content/uploads/2014/04/cortanaaa-286x156.png" class="attachment-river-small wp-post-image" alt="Cortana" />					</a>
+												<div class="category">
+					<span class="red"><a href="http://www.geek.com/category/microsoft/">Microsoft</a></span>	
+				</div>
+			</figure>
+			<aside>
+				<h3>
+					<a href="http://www.geek.com/microsoft/cortana-powered-by-bing-is-finally-on-windows-phone-1590013/" ctr="Sub-River 2" type="text">
+						Cortana, powered by Bing, is finally on Windows Phone					</a>
+				</h3>
+			</aside>
+		</article>
+										<article id="post-1589946" class="post-1589946 post type-post status-publish format-standard hentry category-games category-news tag-amazon tag-metacritic tag-review tag-video-games article2">
+			<figure>
+									<a href="http://www.geek.com/games/amazon-adds-metacritic-scores-to-video-games-but-dont-worry-1589946/" ctr="Sub-River 3" type="image">
+						<img width="286" height="156" src="http://www.geek.com/wp-content/uploads/2014/04/amacritic-286x156.jpg" class="attachment-river-small wp-post-image" alt="Amazon Metacritic" />					</a>
+												<div class="category">
+					<span class="red"><a href="http://www.geek.com/category/games/">Games</a></span>	
+				</div>
+			</figure>
+			<aside>
+				<h3>
+					<a href="http://www.geek.com/games/amazon-adds-metacritic-scores-to-video-games-but-dont-worry-1589946/" ctr="Sub-River 3" type="text">
+						Amazon adds Metacritic scores to video games, but don&#8217;t worry					</a>
+				</h3>
+			</aside>
+		</article>
+					</div>			<div class="section2">
+		<article id="post-1589940" class="post-1589940 post type-post status-publish format-standard hentry category-games category-mobile category-news tag-android tag-games tag-ios tag-smartglass tag-tv tag-widows-8 tag-xbox-one">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/games/">Games</a></span>
+									<a href="http://www.geek.com/games/smartglass-update-gives-you-vastly-improved-oneguide-control-1589940/" ctr="River 5" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/2014-04-02-07.41.26-590x330.jpg" class="attachment-river-large wp-post-image" alt="SmartGlass" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/games/smartglass-update-gives-you-vastly-improved-oneguide-control-1589940/" ctr="River 5" type="text">SmartGlass update gives you vastly improved OneGuide control</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rholly/" title="Posts by Russell Holly" rel="author">Russell Holly</a></span> 
+						Apr. 2, 2014 1:00 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/games/smartglass-update-gives-you-vastly-improved-oneguide-control-1589940/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Microsoft has pushed another update to their Xbox One preview group, and included in this update is a SmartGlass Beta that gives you significantly better control over OneGuide even while someone else is [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1589965" class="post-1589965 post type-post status-publish format-standard hentry category-apps category-news tag-canonical tag-cloud tag-file-storage tag-linux tag-ubuntu tag-ubuntu-one">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/apps/">Apps and Software</a></span>
+									<a href="http://www.geek.com/apps/canonical-kills-ubuntu-one-cloud-file-storage-service-1589965/" ctr="River 6" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/ubuntu_one-590x330.jpg" class="attachment-river-large wp-post-image" alt="ubuntu_one" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/apps/canonical-kills-ubuntu-one-cloud-file-storage-service-1589965/" ctr="River 6" type="text">Canonical kills Ubuntu One cloud file storage service</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/Matthew-2/" title="Posts by Matthew Humphries" rel="author">Matthew Humphries</a></span> 
+						Apr. 2, 2014 10:36 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/apps/canonical-kills-ubuntu-one-cloud-file-storage-service-1589965/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>In 2009 Canonical introduced the Ubuntu One cloud hosting service to work alongside the Ubuntu operating system. The simplest way to look at Ubuntu One is as a Dropbox competitor, although it does [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1589928" class="post-1589928 post type-post status-publish format-standard hentry category-android category-mobile category-news tag-android tag-qi tag-wireless-charging tag-wireless-power tag-zens">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/android/">Android</a></span>
+									<a href="http://www.geek.com/android/zens-car-charger-adds-wireless-charging-to-your-cup-holder-1589928/" ctr="River 7" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/ZENS-Car-Charger-Nexus-5-590x330.jpg" class="attachment-river-large wp-post-image" alt="ZENS Car Charger Nexus 5" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/android/zens-car-charger-adds-wireless-charging-to-your-cup-holder-1589928/" ctr="River 7" type="text">ZENS car charger adds wireless charging to your cup holder</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rholly/" title="Posts by Russell Holly" rel="author">Russell Holly</a></span> 
+						Apr. 2, 2014 9:30 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/android/zens-car-charger-adds-wireless-charging-to-your-cup-holder-1589928/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Wireless charging is available in many different mobile devices today, but it is still far from being a commonly used technology for the average consumer. Ultimately it comes down to providing a use [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1589923" class="post-1589923 post type-post status-publish format-standard hentry category-news tag-3d-printer tag-aerospace tag-japan tag-medical tag-metal tag-powder tag-titanium">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/news/">News</a></span>
+									<a href="http://www.geek.com/news/japan-gets-serious-about-3d-printing-using-titanium-1589923/" ctr="River 8" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/3dprinter-590x330.jpg" class="attachment-river-large wp-post-image" alt="3dprinter" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/news/japan-gets-serious-about-3d-printing-using-titanium-1589923/" ctr="River 8" type="text">Japan gets serious about 3D printing using titanium</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/Matthew-2/" title="Posts by Matthew Humphries" rel="author">Matthew Humphries</a></span> 
+						Apr. 2, 2014 9:01 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/news/japan-gets-serious-about-3d-printing-using-titanium-1589923/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>If you look at where all the action is in 3D printing right now, you&#8217;d mainly be talking about the US. It&#8217;s great to see such manufacturing being pushed forward in the West, [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1589933" class="post-1589933 post type-post status-publish format-standard hentry category-apple category-chips category-mobile category-news category-tablets tag-acquisition tag-apple tag-controllers tag-drivers tag-electronics tag-japan tag-lcd tag-microcontrollers tag-powerchip tag-renesas tag-sharp">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/apple/">Apple</a></span>
+									<a href="http://www.geek.com/apple/apple-in-talks-to-buy-renesas-the-worlds-largest-manufacturer-of-microcontrollers-1589933/" ctr="River 9" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/Renesas_logo_PKGs-590x330.jpg" class="attachment-river-large wp-post-image" alt="Renesas_logo_PKGs" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/apple/apple-in-talks-to-buy-renesas-the-worlds-largest-manufacturer-of-microcontrollers-1589933/" ctr="River 9" type="text">Apple in talks to buy Renesas, the world&#8217;s largest manufacturer of microcontrollers</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/Matthew-2/" title="Posts by Matthew Humphries" rel="author">Matthew Humphries</a></span> 
+						Apr. 2, 2014 8:30 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/apple/apple-in-talks-to-buy-renesas-the-worlds-largest-manufacturer-of-microcontrollers-1589933/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Apple likes to control as much of the development and supply chain as it can when it comes to smartphones and tablets. So when it sees an opportunity to grab even greater control, [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1589905" class="post-1589905 post type-post status-publish format-standard hentry category-news category-science tag-chemistry tag-crime tag-fingerprints tag-police tag-science-3">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/science/">Science!</a></span>
+									<a href="http://www.geek.com/science/fingerprints-can-reveal-gender-drug-use-what-was-recently-eaten-1589905/" ctr="River 10" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/print-590x330.jpg" class="attachment-river-large wp-post-image" alt="print" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/science/fingerprints-can-reveal-gender-drug-use-what-was-recently-eaten-1589905/" ctr="River 10" type="text">Fingerprints can reveal gender, drug use, what was recently eaten</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rwhitwam/" title="Posts by Ryan Whitwam" rel="author">Ryan Whitwam</a></span> 
+						Apr. 2, 2014 8:00 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/science/fingerprints-can-reveal-gender-drug-use-what-was-recently-eaten-1589905/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Police departments around the world have been using fingerprint analysis to identify suspects since the late nineteenth century, but even today&#8217;s modern technology can&#8217;t reconstruct a smudged print. The patterns of ridges are [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1589916" class="post-1589916 post type-post status-publish format-standard hentry category-news tag-amazon tag-lockers tag-returns">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/news/">News</a></span>
+									<a href="http://www.geek.com/news/amazon-starts-letting-you-return-items-using-lockers-1589916/" ctr="River 11" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/Amazon_Locker-590x330.jpg" class="attachment-river-large wp-post-image" alt="Amazon_Locker" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/news/amazon-starts-letting-you-return-items-using-lockers-1589916/" ctr="River 11" type="text">Amazon starts letting you return items using Lockers</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/Matthew-2/" title="Posts by Matthew Humphries" rel="author">Matthew Humphries</a></span> 
+						Apr. 2, 2014 7:31 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/news/amazon-starts-letting-you-return-items-using-lockers-1589916/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Amazon has built its reputation and popularity by offering low pricing combined with convenience. That convenience comes in the form of goods delivered to your door the day after you ordered them. And [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1589901" class="post-1589901 post type-post status-publish format-standard hentry category-news category-science tag-astrobotic tag-google-lunar-x-prize tag-moon tag-moon-landing tag-space-flight tag-x-prize-foundation">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/science/">Science!</a></span>
+									<a href="http://www.geek.com/science/private-space-flight-company-launches-successful-moon-landing-test-1589901/" ctr="River 12" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/redrover-590x330.jpg" class="attachment-river-large wp-post-image" alt="Red Rover" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/science/private-space-flight-company-launches-successful-moon-landing-test-1589901/" ctr="River 12" type="text">Private space flight company launches successful moon landing test</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/jplafke/" title="Posts by James Plafke" rel="author">James Plafke</a></span> 
+						Apr. 1, 2014 5:44 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/science/private-space-flight-company-launches-successful-moon-landing-test-1589901/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>The Google Lunar X Prize is a competition wherein participants are charged with launching a robotic spacecraft that can land on &#8212; and travel across &#8212; the surface of the Moon, while being [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				
+						
+					<div class="pagenationsearch"><a href="http://www.geek.com/page/2/" ><span class="next">More Geek</span></a></div>
+			</div>
+	</section><!-- #content -->
+	
+				</section><!-- wrapper -->
+		</section><!-- container -->
+		
+		
+		<footer>	
+			<section class="wrapper">
+				<article>
+					<div class="footernav">
+						<div class="menu-footer-links-container"><ul id="menu-footer-links" class="menu"><li id="menu-item-1550230" class="About menu-item menu-item-type-post_type menu-item-object-page menu-item-1550230"><a href="http://www.geek.com/about/">About</a></li>
+<li id="menu-item-1550231" class="Contact Us menu-item menu-item-type-post_type menu-item-object-page menu-item-1550231"><a href="http://www.geek.com/about/">Contact Us</a></li>
+<li id="menu-item-1550560" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1550560"><a href="http://www.geek.com/archives">Archives</a></li>
+<li id="menu-item-1550233" class="Glossary menu-item menu-item-type-custom menu-item-object-custom menu-item-1550233"><a href="/glossary">Glossary</a></li>
+<li id="menu-item-1550234" class="Forums Archive menu-item menu-item-type-custom menu-item-object-custom menu-item-1550234"><a href="/forums">Forums Archive</a></li>
+<li id="menu-item-1550259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1550259"><a href="http://www.ziffdavis.com/advertise/">Advertise</a></li>
+</ul></div>					<div class="adchoices">
+						 <a id="_bapw-link" href="#" target="_blank" style="">
+						 <img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> 
+						 <span style="vertical-align:middle !important">AdChoices</span></a>
+						 <script>/*<![CDATA[*/(function(){var c=8,g=660,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",function(){d(h+"pub1.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+				    </div>
+					</div>
+					<aside>
+						<ul>
+							<li><a href="http://www.pcmag.com/" target="_blank">PCMag.com</a></li>
+							<li><a target="_blank" href="http://www.extremetech.com/" class="extremetech">ExtremeTech</a></li>
+							<li><a target="_blank" href="http://www.computershopper.com/" class="computershopper">ComputerShopper</a></li>
+							<li><a target="_blank" href="http://www.logicbuy.com/" class="logicbuy">Logicbuy</a></li>
+							<li><a target="_blank" href="http://www.toolbox.com/" class="toolbox">Toolbox.com</a></li>
+						</ul>
+						<p>
+							<a target="_blank" href="http://www.ziffdavis.com/" class="logo">ziff davis</a> 
+							&copy; 1996-2014 <a target="_blank" href="http://www.ziffdavis.com/">Ziff Davis, LLC.</a>     
+                            <span>PCMag Digital Group</span>							
+							<span><a target="_blank" href="http://www.ziffdavis.com/privacy-policy/">Privacy Policy</a></span>      
+							<span><a target="_blank" href="http://www.ziffdavis.com/terms-of-use/">Terms of Use</a></span>
+							
+						</p>
+					</aside>
+				</article>
+			</section><!-- wrapper -->
+		</footer>	    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'geekcom';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) url = url[0];
+                    else url = url[1]
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/jquery.infinitescroll.min.js?ver=1363972242'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/jquery.fancybox.pack.js?ver=1363972242'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/jquery.tn3.min.js?ver=1363972242'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/tn3.history.js?ver=1363972242'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/tn3.touch.js?ver=1363972242'></script>
+							
+			<!-- begin zdbb -->
+<script type="text/javascript" src="http://cdn.static.zdbb.net/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js"></script>
+<noscript><img height="1" width="1" src="http://zdbb.net/l/z0WVjCBSEeGLoxIxOQVEwQ/" alt="" /></noscript>
+<script type="text/javascript" src="http://cdn.static.zdbb.net/js/gurgle.js"></script>
+<!-- end zdbb -->
+
+<!-- begin ns -->
+<script type="text/javascript">
+(function() {
+    var nstrack = document.createElement("script"), el_nstrack = document.getElementsByTagName("script")[0]; nstrack.async = true;
+    nstrack.src = "http://track.netshelter.net/async/js/sites/geek.com-async.js";
+    el_nstrack.parentNode.insertBefore(nstrack, el_nstrack);
+  })();
+</script>
+<!-- end ns -->
+<!-- ZDCSE Script -->
+<script type="text/javascript" src="http://static.adziff.com/cse/js/4.1.8/zdcse.min.js"></script>
+<!-- End ZDCSE Script -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript">
+	if (ZDXI.IsIntl()) {
+		document.write('<scr'+'ipt type="text/javascript" src="http://geek.us.intellitxt.com/intellitxt/front.asp?ipid=31004"></scr'+'ipt>');
+	}
+</script>
+<!-- end Vibrant Media IntelliTXT script section -->
+
+
+
+					
+			<!-- Chartbeat -->
+<script type='text/javascript'>
+var _sf_async_config={};
+/** CONFIGURATION START **/
+_sf_async_config.uid = 54814;
+_sf_async_config.domain = 'geek.com';
+_sf_async_config.useCanonical = true;
+_sf_async_config.sections = ''; 
+_sf_async_config.authors ='';
+/** CONFIGURATION END **/
+(function(){
+function loadChartbeat()
+{ window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); }
+
+var oldonload = window.onload;
+window.onload = (typeof window.onload != 'function') ?
+loadChartbeat : function()
+{ oldonload(); loadChartbeat(); }
+
+;
+})();
+</script>				</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Database Caching 103/110 queries in 0.449 seconds using memcached
+Object Caching 3438/3472 objects using memcached
+
+ Served from: www.geek.com @ 2014-04-02 19:48:05 by W3 Total Cache -->

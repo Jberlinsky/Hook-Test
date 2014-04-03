@@ -1,0 +1,683 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+<meta name="language" content="en, sv" />
+<title>
+forgetomori </title>
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+<meta name="language" content="en, sv" />
+<meta name="generator" content="WordPress 3.6" />
+<!-- leave this for stats please -->
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://forgetomori.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://forgetomori.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://forgetomori.com/feed/atom/" />
+<link rel="pingback" href="http://forgetomori.com/xmlrpc.php" />
+	<link rel='archives' title='May 2013' href='http://forgetomori.com/2013/05/' />
+	<link rel='archives' title='January 2013' href='http://forgetomori.com/2013/01/' />
+	<link rel='archives' title='November 2012' href='http://forgetomori.com/2012/11/' />
+	<link rel='archives' title='September 2012' href='http://forgetomori.com/2012/09/' />
+	<link rel='archives' title='June 2012' href='http://forgetomori.com/2012/06/' />
+	<link rel='archives' title='May 2012' href='http://forgetomori.com/2012/05/' />
+	<link rel='archives' title='April 2012' href='http://forgetomori.com/2012/04/' />
+	<link rel='archives' title='February 2012' href='http://forgetomori.com/2012/02/' />
+	<link rel='archives' title='January 2012' href='http://forgetomori.com/2012/01/' />
+	<link rel='archives' title='December 2011' href='http://forgetomori.com/2011/12/' />
+	<link rel='archives' title='November 2011' href='http://forgetomori.com/2011/11/' />
+	<link rel='archives' title='October 2011' href='http://forgetomori.com/2011/10/' />
+	<link rel='archives' title='September 2011' href='http://forgetomori.com/2011/09/' />
+	<link rel='archives' title='August 2011' href='http://forgetomori.com/2011/08/' />
+	<link rel='archives' title='July 2011' href='http://forgetomori.com/2011/07/' />
+	<link rel='archives' title='May 2011' href='http://forgetomori.com/2011/05/' />
+	<link rel='archives' title='April 2011' href='http://forgetomori.com/2011/04/' />
+	<link rel='archives' title='March 2011' href='http://forgetomori.com/2011/03/' />
+	<link rel='archives' title='February 2011' href='http://forgetomori.com/2011/02/' />
+	<link rel='archives' title='January 2011' href='http://forgetomori.com/2011/01/' />
+	<link rel='archives' title='December 2010' href='http://forgetomori.com/2010/12/' />
+	<link rel='archives' title='November 2010' href='http://forgetomori.com/2010/11/' />
+	<link rel='archives' title='October 2010' href='http://forgetomori.com/2010/10/' />
+	<link rel='archives' title='September 2010' href='http://forgetomori.com/2010/09/' />
+	<link rel='archives' title='August 2010' href='http://forgetomori.com/2010/08/' />
+	<link rel='archives' title='July 2010' href='http://forgetomori.com/2010/07/' />
+	<link rel='archives' title='June 2010' href='http://forgetomori.com/2010/06/' />
+	<link rel='archives' title='May 2010' href='http://forgetomori.com/2010/05/' />
+	<link rel='archives' title='April 2010' href='http://forgetomori.com/2010/04/' />
+	<link rel='archives' title='March 2010' href='http://forgetomori.com/2010/03/' />
+	<link rel='archives' title='February 2010' href='http://forgetomori.com/2010/02/' />
+	<link rel='archives' title='January 2010' href='http://forgetomori.com/2010/01/' />
+	<link rel='archives' title='December 2009' href='http://forgetomori.com/2009/12/' />
+	<link rel='archives' title='November 2009' href='http://forgetomori.com/2009/11/' />
+	<link rel='archives' title='October 2009' href='http://forgetomori.com/2009/10/' />
+	<link rel='archives' title='September 2009' href='http://forgetomori.com/2009/09/' />
+	<link rel='archives' title='August 2009' href='http://forgetomori.com/2009/08/' />
+	<link rel='archives' title='July 2009' href='http://forgetomori.com/2009/07/' />
+	<link rel='archives' title='June 2009' href='http://forgetomori.com/2009/06/' />
+	<link rel='archives' title='May 2009' href='http://forgetomori.com/2009/05/' />
+	<link rel='archives' title='April 2009' href='http://forgetomori.com/2009/04/' />
+	<link rel='archives' title='March 2009' href='http://forgetomori.com/2009/03/' />
+	<link rel='archives' title='February 2009' href='http://forgetomori.com/2009/02/' />
+	<link rel='archives' title='January 2009' href='http://forgetomori.com/2009/01/' />
+	<link rel='archives' title='December 2008' href='http://forgetomori.com/2008/12/' />
+	<link rel='archives' title='November 2008' href='http://forgetomori.com/2008/11/' />
+	<link rel='archives' title='October 2008' href='http://forgetomori.com/2008/10/' />
+	<link rel='archives' title='September 2008' href='http://forgetomori.com/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://forgetomori.com/2008/08/' />
+	<link rel='archives' title='July 2008' href='http://forgetomori.com/2008/07/' />
+	<link rel='archives' title='June 2008' href='http://forgetomori.com/2008/06/' />
+	<link rel='archives' title='May 2008' href='http://forgetomori.com/2008/05/' />
+	<link rel='archives' title='April 2008' href='http://forgetomori.com/2008/04/' />
+	<link rel='archives' title='March 2008' href='http://forgetomori.com/2008/03/' />
+	<link rel='archives' title='February 2008' href='http://forgetomori.com/2008/02/' />
+	<link rel='archives' title='January 2008' href='http://forgetomori.com/2008/01/' />
+	<link rel='archives' title='December 2007' href='http://forgetomori.com/2007/12/' />
+	<link rel='archives' title='November 2007' href='http://forgetomori.com/2007/11/' />
+	<link rel='archives' title='October 2007' href='http://forgetomori.com/2007/10/' />
+	<link rel='archives' title='September 2007' href='http://forgetomori.com/2007/09/' />
+	<link rel='archives' title='August 2007' href='http://forgetomori.com/2007/08/' />
+	<link rel='archives' title='July 2007' href='http://forgetomori.com/2007/07/' />
+<meta name="description" content="forgetomori: Extraordinary claims. Ordinary investigations." />
+<meta name="keywords" content="forgetomori" />
+<meta name="robots" content="index,follow,noodp,noydir" />
+<link rel='stylesheet' id='comfeed-css'  href='http://forgetomori.com/wp-content/plugins/sexybookmarks/css/comfeed.css?ver=6.0.0.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://forgetomori.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://forgetomori.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SHRSB_Globals = {"src":"http:\/\/forgetomori.com\/wp-content\/uploads\/shareaholic\/spritegen","perfoption":null,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","locale":"0","shortener":"google","shortener_key":"","pubGaSocial":"0","pubGaKey":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://forgetomori.com/wp-content/uploads/shareaholic/spritegen/jquery.shareaholic-publishers-sb.min.js?ver=6.0.0.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://forgetomori.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://forgetomori.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6" />
+
+<!-- Powered by AdSense-Deluxe WordPress Plugin v0.8 - http://www.acmetech.com/blog/adsense-deluxe/ -->
+
+<script type="text/javascript">var AKPC_IDS = "";</script>
+	
+
+<!-- Start SHR Open Graph Tags -->
+
+	<!-- Shareaholic Notice: There is no featured image set -->
+
+<!-- END SHR Open Graph Tags -->
+
+<style type="text/css" media="screen">
+		<!-- @import url( http://forgetomori.com/wp-content/themes/@1SummerBurst/style.css ); -->
+</style>
+</head>
+<body>
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-309052-2";
+</script>
+<div id="pages">    
+<h1><a href="http://forgetomori.com">Extraordinary claims. Ordinary investigations.</a></h1>
+<ul>
+          </ul>
+</div>
+<div id="wrap">
+<div id="logo">
+</div>
+<div align="center"><script type="text/javascript"><!--
+google_ad_client = "pub-5342471149075356";
+/* 728x15, created 1/25/09 */
+google_ad_slot = "8348509106";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+
+<div id="content">
+
+  
+  <div class="entry  firstpost">
+
+    <h3 class="entrytitle" id="post-2063"> <a href="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/" rel="bookmark">
+
+      Don&#8217;t you forget Forgetomori
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+May 19th, 2013 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5342471149075356";
+/* 468x60, created 1/20/09 */
+google_ad_slot = "6509005654";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+      <p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="please-stand-by" border="0" alt="please-stand-by" src="http://forgetomori.com/wp-content/uploads/2013/05/pleasestandby.jpg" width="500" height="285" /> </p>
+<p>In the last couple of years the author of this blog became partner of an Internet startup company that has since been acquired by a multinational Internet group. This has no relation whatsoever to Fortean things, and had the author made millions in the process he may have been blogging occasionally about Forteana in some paradisiacal island.</p>
+<p>As that is not the current situation, alas this blog and related research have been relegated to secondary considerations while things not related to frogs falling from the sky keep the author busy. But it’s still a subject cherished dearly, and normal activities will resume some time in the future.</p>
+<p>Many thanks for the messages and those worried, all is fine, just fine. <em>Memento mori</em>, but there’s still plenty of time to live and be puzzled by.</p>
+<script type="text/javascript">AKPC_IDS += "2063,";</script><p class="akpc_pop">Popularity: 3% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/#comments" class="comments-link "  title="Comment on Don&#8217;t you forget Forgetomori">4 comments </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/"
+    dc:identifier="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/"
+    dc:title="Don&#8217;t you forget Forgetomori"
+    trackback:ping="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <div class="entry ">
+
+    <h3 class="entrytitle" id="post-2061"> <a href="http://forgetomori.com/2013/science/all-the-water-on-earth/" rel="bookmark">
+
+      All the Water on Earth
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2013/science/all-the-water-on-earth/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+January 23rd, 2013 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5342471149075356";
+/* 468x60, created 1/20/09 */
+google_ad_slot = "6509005654";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+      <p><iframe width="500" height="281" src="http://www.youtube.com/embed/OiVwfAPSEH8" frameborder="0" allowfullscreen></iframe></p>
+<p>“If you could pull all the water in the ocean, the atmosphere, and on top of or beneath the surface of Earth into a ball, it would measure only about 950 (1,500km) miles across. By comparison, the moon is 2,160 (3,475km) in diameter. Of this, only about 3 percent if freshwater, and of that only about two-thirds is in a form or a location that is easily accessible to humans.”</p>
+<p>Animation by <strong>Jack Cook</strong>, <em>Woods Hole Oceanographic Institution, t</em>his is a wonderfully clear video version of <a href="http://forgetomori.com/2008/science/rocha-levemente-mida/" target="_blank"><strong>Adam Nieman</strong>’s award winning graphic</a>. [via <a href="http://cgr20.blogspot.com.br/2013/01/todo-el-agua-de-la-tierra.html" target="_blank">cgr v2.0</a>]</p>
+<script type="text/javascript">AKPC_IDS += "2061,";</script><p class="akpc_pop">Popularity: 5% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/science/" title="View all posts in Science" rel="category tag">Science</a> | <a href="http://forgetomori.com/2013/science/all-the-water-on-earth/#comments" class="comments-link "  title="Comment on All the Water on Earth">2 comments </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2013/science/all-the-water-on-earth/"
+    dc:identifier="http://forgetomori.com/2013/science/all-the-water-on-earth/"
+    dc:title="All the Water on Earth"
+    trackback:ping="http://forgetomori.com/2013/science/all-the-water-on-earth/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <div class="entry ">
+
+    <h3 class="entrytitle" id="post-2057"> <a href="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/" rel="bookmark">
+
+      Swarm of Vortex Rings
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+January 9th, 2013 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5342471149075356";
+/* 468x60, created 1/20/09 */
+google_ad_slot = "6509005654";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+      <p align="center"><iframe width="500" height="281" src="http://www.youtube.com/embed/Nypb8_HTenE?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>A SST Truck (Stadium Super Trucks) driven by <strong>Adrian Cenni</strong> exploding while entering Turn 2 at Crandon International Raceway. The explosions going all the way through the pipe created each a <a href="http://en.wikipedia.org/wiki/Vortex_ring" target="_blank">vortex ring</a>.</p>
+<p>One of the most amazing UFO photos has been identified as a giant vortex ring: <a href="http://forgetomori.com/2007/ufos/ufo-photos-viborg-jellyfish/" target="_blank">the Viborg “Jellyfish”</a>.</p>
+<p><a href="http://forgetomori.com/2007/ufos/ufo-photos-viborg-jellyfish/" target="_blank"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" title="viborgjutlanddenmark17ner4" border="0" alt="viborgjutlanddenmark17ner4" src="http://forgetomori.com/wp-content/uploads/2013/01/viborgjutlanddenmark17ner4.jpg" width="500" height="375" /></a></p>
+<script type="text/javascript">AKPC_IDS += "2057,";</script><p class="akpc_pop">Popularity: 5% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/fortean/" title="View all posts in Fortean" rel="category tag">Fortean</a>,<a href="http://forgetomori.com/category/ufos/" title="View all posts in UFOs" rel="category tag">UFOs</a> | <a href="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/#comments" class="comments-link "  title="Comment on Swarm of Vortex Rings">1 comment </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/"
+    dc:identifier="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/"
+    dc:title="Swarm of Vortex Rings"
+    trackback:ping="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <div class="entry ">
+
+    <h3 class="entrytitle" id="post-2055"> <a href="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/" rel="bookmark">
+
+      Spectacular Anticrepuscular Ray in Brazil
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+January 6th, 2013 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+</div>
+
+      <p align="center"><iframe width="500" height="375" src="http://www.youtube.com/embed/DMqK7MkDmsw?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<blockquote><p>“According to <em>O Parana</em> newspaper, anomalous light rays appeared in the sky of Palotina city, Parana state, [Brazil] at Monday (Dec 17) night. Tiago Testa, who lives in the community of Esquina Progresso recorded the event in photo and called SIMEPAR for a more thorough analysis.” [via <em><a href="http://minhamestria.blogspot.com.br/2012/12/a-luz-chegou.html" target="_blank">Minha Maestria</a></em>]</p>
+</blockquote>
+<p>This phenomenon is in short <em>just</em> sunlight. But it was captured here in very special conditions, at sunset near the summer solstice, in the video the sun starts behind the camera even though it seems to be right beyond the horizon at front. The puzzled cameraman says the Sun is opposite to where the column of light seems to come from.</p>
+<p><img style="border-bottom: 0px; border-left: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px" title="luz-palotina-pr" border="0" alt="luz-palotina-pr" src="http://forgetomori.com/wp-content/uploads/2013/01/luzpalotinapr.jpg" width="400" height="250" /> </p>
+<p>To understand this, one first has to understand first a <a href="http://en.wikipedia.org/wiki/Crepuscular_rays" target="_blank">crepuscular ray</a>: the contrast between the rays of sunlight that went through gaps in the clouds and the already darkening ground would already make up for these intense light columns.</p>
+<p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="Crepuscular_Rays_Panorama_HD_-_Copy" border="0" alt="Crepuscular_Rays_Panorama_HD_-_Copy" src="http://forgetomori.com/wp-content/uploads/2013/01/Crepuscular_Rays_Panorama_HD__Copy.jpg" width="500" height="344" /> </p>
+<p>When these parallel rays go all the way crossing the sky above our heads and beyond the antisolar point, opposite to the sun, they converge again due to perspective at the vanishing point. This convergence is only apparent, the sun rays actually kept parallel and went all the way through the atmosphere. But the illusion gives the impression the rays are coming the opposite way. Thus, <a href="http://en.wikipedia.org/wiki/Anticrepuscular_rays" target="_blank">anticrepuscular rays</a>.</p>
+<p>Below, a panorama of an anticrepuscular ray captured in Chandler, Arizona, illustrating the perspective effect of the phenomenon.</p>
+<p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="Anticrepuscularpano" border="0" alt="Anticrepuscularpano" src="http://forgetomori.com/wp-content/uploads/2013/01/Anticrepuscularpano.jpg" width="500" height="80" /></p>
+<p>And here’s another video example from Arizona last year:</p>
+<p align="center"><iframe width="420" height="315" src="http://www.youtube.com/embed/DxN3xmyqYBk?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>And yet another one.</p>
+<p align="center"><iframe width="420" height="236" src="http://www.youtube.com/embed/j7BbrVsjlqM?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>None of them is quite as spectacular as the recent Palotina video.</p>
+<script type="text/javascript">AKPC_IDS += "2055,";</script><p class="akpc_pop">Popularity: 5% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/fortean/" title="View all posts in Fortean" rel="category tag">Fortean</a>,<a href="http://forgetomori.com/category/science/" title="View all posts in Science" rel="category tag">Science</a> | <a href="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/#comments" class="comments-link "  title="Comment on Spectacular Anticrepuscular Ray in Brazil">1 comment </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/"
+    dc:identifier="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/"
+    dc:title="Spectacular Anticrepuscular Ray in Brazil"
+    trackback:ping="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <div class="entry ">
+
+    <h3 class="entrytitle" id="post-2050"> <a href="http://forgetomori.com/2012/science/heroes-of-science-action-figures/" rel="bookmark">
+
+      Heroes of Science: Action Figures
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2012/science/heroes-of-science-action-figures/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+November 18th, 2012 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+</div>
+
+      <p><a href="http://datazoid.deviantart.com/art/Heroes-of-Science-Action-Figures-337514889" target="_blank"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="heroesciencethumbcrop" border="0" alt="heroesciencethumbcrop" src="http://forgetomori.com/wp-content/uploads/2012/11/heroesciencethumbcrop.jpg" width="500" height="705" /></a> </p>
+<p>Click for the full set on <em>DeviantArt</em> – sadly this is just a concept art, but one amazingly well-done by <a href="http://datazoid.deviantart.com/art/Heroes-of-Science-Action-Figures-337514889" target="_blank">Russell “datazoid”</a>.</p>
+<script type="text/javascript">AKPC_IDS += "2050,";</script><p class="akpc_pop">Popularity: 5% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/people/" title="View all posts in People" rel="category tag">People</a>,<a href="http://forgetomori.com/category/science/" title="View all posts in Science" rel="category tag">Science</a> | <a href="http://forgetomori.com/2012/science/heroes-of-science-action-figures/#comments" class="comments-link "  title="Comment on Heroes of Science: Action Figures">3 comments </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2012/science/heroes-of-science-action-figures/"
+    dc:identifier="http://forgetomori.com/2012/science/heroes-of-science-action-figures/"
+    dc:title="Heroes of Science: Action Figures"
+    trackback:ping="http://forgetomori.com/2012/science/heroes-of-science-action-figures/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <p>
+
+<div class="Nav" style="margin-bottom: 20px;"><div class='wp-pagenavi'>
+<span class='pages'>Page 1 of 106</span><span class='current'>1</span><a href='http://forgetomori.com/page/2/' class='page larger'>2</a><a href='http://forgetomori.com/page/3/' class='page larger'>3</a><a href='http://forgetomori.com/page/4/' class='page larger'>4</a><a href='http://forgetomori.com/page/5/' class='page larger'>5</a><span class='extend'>...</span><a href='http://forgetomori.com/page/2/' class='nextpostslink'>»</a><a href='http://forgetomori.com/page/106/' class='last'>Last »</a>
+</div></div>
+
+  </p>
+
+</div>
+
+<div id="sidebar">
+
+  <h2>Search this site</h2>
+
+  <div id="searchdiv">
+
+    <form id="searchform" method="get" action="/index.php">
+
+      <input type="text" name="s" id="s" size="20"/>
+
+      <input name="sbutt" type="submit" value="Go" alt="Submit"  />
+
+    </form>
+
+  <ul>
+
+  </div>
+
+  <h2>
+Most popular
+  </h2>
+
+  <ul>
+<li><a href="http://forgetomori.com/2010/fortean/time-traveler-caught-in-museum-photo/">Time Traveler Caught in Museum Photo?</a></li><li><a href="http://forgetomori.com/2007/criptozoology/ningen-a-bizarre-japanese-cryptid/">&quot;Ningen&quot;: a bizarre Japanese cryptid</a></li><li><a href="http://forgetomori.com/2007/criptozoology/alien-corpse-in-thailand/">&quot;Alien&quot; corpse in Thailand</a></li><li><a href="http://forgetomori.com/2010/fortean/another-photo-of-hipster-time-traveller-found/">Another photo of Hipster &ldquo;Time Traveller&rdquo; found</a></li><li><a href="http://forgetomori.com/2007/ufos/the-billy-meier-hoax-photographs/">The Billy Meier hoax photographs</a></li><li><a href="http://forgetomori.com/2007/skepticism/the-el-khaimah-djinn/">The El Khaimah &quot;Djinn&quot;</a></li><li><a href="http://forgetomori.com/2012/ufos/the-fbikgbss-alien-photo-found/">The FBI/KGB/SS Alien Photo: Found</a></li><li><a href="http://forgetomori.com/2010/aliens/the-metepec-creature-author-confess-hoax/">The Metepec Creature: author confess hoax</a></li><li><a href="http://forgetomori.com/2010/criptozoology/the-louisiana-swamp-monster/">The Louisiana Swamp Monster</a></li><li><a href="http://forgetomori.com/2009/skepticism/demnio-capturado-no-mxico/">The Screamin&rsquo; Demon of Mexico: Monkey Business</a></li>  </ul>
+
+ 
+
+ 
+
+  <h2>
+
+    Archives
+  </h2>
+
+  <ul>
+
+<select name="archive-dropdown" onChange='document.location.href=this.options[this.selectedIndex].value;'>
+<option value="">Select Month</option>
+	<option value='http://forgetomori.com/2013/05/'> May 2013 </option>
+	<option value='http://forgetomori.com/2013/01/'> January 2013 </option>
+	<option value='http://forgetomori.com/2012/11/'> November 2012 </option>
+	<option value='http://forgetomori.com/2012/09/'> September 2012 </option>
+	<option value='http://forgetomori.com/2012/06/'> June 2012 </option>
+	<option value='http://forgetomori.com/2012/05/'> May 2012 </option>
+	<option value='http://forgetomori.com/2012/04/'> April 2012 </option>
+	<option value='http://forgetomori.com/2012/02/'> February 2012 </option>
+	<option value='http://forgetomori.com/2012/01/'> January 2012 </option>
+	<option value='http://forgetomori.com/2011/12/'> December 2011 </option>
+	<option value='http://forgetomori.com/2011/11/'> November 2011 </option>
+	<option value='http://forgetomori.com/2011/10/'> October 2011 </option>
+	<option value='http://forgetomori.com/2011/09/'> September 2011 </option>
+	<option value='http://forgetomori.com/2011/08/'> August 2011 </option>
+	<option value='http://forgetomori.com/2011/07/'> July 2011 </option>
+	<option value='http://forgetomori.com/2011/05/'> May 2011 </option>
+	<option value='http://forgetomori.com/2011/04/'> April 2011 </option>
+	<option value='http://forgetomori.com/2011/03/'> March 2011 </option>
+	<option value='http://forgetomori.com/2011/02/'> February 2011 </option>
+	<option value='http://forgetomori.com/2011/01/'> January 2011 </option>
+	<option value='http://forgetomori.com/2010/12/'> December 2010 </option>
+	<option value='http://forgetomori.com/2010/11/'> November 2010 </option>
+	<option value='http://forgetomori.com/2010/10/'> October 2010 </option>
+	<option value='http://forgetomori.com/2010/09/'> September 2010 </option>
+	<option value='http://forgetomori.com/2010/08/'> August 2010 </option>
+	<option value='http://forgetomori.com/2010/07/'> July 2010 </option>
+	<option value='http://forgetomori.com/2010/06/'> June 2010 </option>
+	<option value='http://forgetomori.com/2010/05/'> May 2010 </option>
+	<option value='http://forgetomori.com/2010/04/'> April 2010 </option>
+	<option value='http://forgetomori.com/2010/03/'> March 2010 </option>
+	<option value='http://forgetomori.com/2010/02/'> February 2010 </option>
+	<option value='http://forgetomori.com/2010/01/'> January 2010 </option>
+	<option value='http://forgetomori.com/2009/12/'> December 2009 </option>
+	<option value='http://forgetomori.com/2009/11/'> November 2009 </option>
+	<option value='http://forgetomori.com/2009/10/'> October 2009 </option>
+	<option value='http://forgetomori.com/2009/09/'> September 2009 </option>
+	<option value='http://forgetomori.com/2009/08/'> August 2009 </option>
+	<option value='http://forgetomori.com/2009/07/'> July 2009 </option>
+	<option value='http://forgetomori.com/2009/06/'> June 2009 </option>
+	<option value='http://forgetomori.com/2009/05/'> May 2009 </option>
+	<option value='http://forgetomori.com/2009/04/'> April 2009 </option>
+	<option value='http://forgetomori.com/2009/03/'> March 2009 </option>
+	<option value='http://forgetomori.com/2009/02/'> February 2009 </option>
+	<option value='http://forgetomori.com/2009/01/'> January 2009 </option>
+	<option value='http://forgetomori.com/2008/12/'> December 2008 </option>
+	<option value='http://forgetomori.com/2008/11/'> November 2008 </option>
+	<option value='http://forgetomori.com/2008/10/'> October 2008 </option>
+	<option value='http://forgetomori.com/2008/09/'> September 2008 </option>
+	<option value='http://forgetomori.com/2008/08/'> August 2008 </option>
+	<option value='http://forgetomori.com/2008/07/'> July 2008 </option>
+	<option value='http://forgetomori.com/2008/06/'> June 2008 </option>
+	<option value='http://forgetomori.com/2008/05/'> May 2008 </option>
+	<option value='http://forgetomori.com/2008/04/'> April 2008 </option>
+	<option value='http://forgetomori.com/2008/03/'> March 2008 </option>
+	<option value='http://forgetomori.com/2008/02/'> February 2008 </option>
+	<option value='http://forgetomori.com/2008/01/'> January 2008 </option>
+	<option value='http://forgetomori.com/2007/12/'> December 2007 </option>
+	<option value='http://forgetomori.com/2007/11/'> November 2007 </option>
+	<option value='http://forgetomori.com/2007/10/'> October 2007 </option>
+	<option value='http://forgetomori.com/2007/09/'> September 2007 </option>
+	<option value='http://forgetomori.com/2007/08/'> August 2007 </option>
+	<option value='http://forgetomori.com/2007/07/'> July 2007 </option>
+ </select>
+
+  </ul>
+
+  <h2>
+  <h2>
+
+    Categories
+  </h2>
+
+  <ul>
+
+    	<li class="cat-item cat-item-8"><a href="http://forgetomori.com/category/aliens/" title="Not only illegal: inhuman.">Aliens</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://forgetomori.com/category/criptozoology/" title="From Yeti to the Loch Ness Monster. Who would win this battle?">Criptozoology</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://forgetomori.com/category/fortean/" title="One measures a Moebius strip, beggining anywhere. ">Fortean</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://forgetomori.com/category/paranormal/ghosts/" title="Spirits and other Scooby Doo material">Ghosts</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://forgetomori.com/category/miscelaneous/" title="So bizarre it doesn&#039;t have a category">Miscelaneous</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://forgetomori.com/category/paranormal/" title="Using more than 10% of the brain. Like every human does.">Paranormal</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://forgetomori.com/category/people/" title="UFO and psi celebs. Not that hot.">People</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://forgetomori.com/category/science/" title="View all posts filed under Science">Science</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://forgetomori.com/category/skepticism/" title="Skeptical inquiry: ubi dubium ibi libertas">Skepticism</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://forgetomori.com/category/ufos/ufo-photos/" title="Images, films, videos, etc.">UFO photos</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://forgetomori.com/category/ufos/" title="Unidentified flying objects, flying saucers and extraterrestrial spacecrafts. From Venus.">UFOs</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://forgetomori.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+
+  </ul>
+
+
+  <ul>
+
+      <li id="linkcat-2" class="linkcat"><h2>Blogroll</h2>
+	<ul>
+<li><a href="http://cosmiclog.msnbc.msn.com/" title="Quantum fluctuations in space, science, exploration and other cosmic fields&#8230;">Alan Boyle: Cosmic Log</a></li>
+<li><a href="http://apothdrawer.blogspot.com/" title="eclectic topics near the triple point of science, arts, and culture">Apothecary&#8217;s Drawer Weblog</a></li>
+<li><a href="http://www.badastronomy.com/">Bad Astronomy</a></li>
+<li><a href="http://www.badscience.net">Bad Science</a></li>
+<li><a href="http://badufos.blogspot.com/" title="Skepticism, UFOs, and The Universe " target="_blank">Bad UFOs</a></li>
+<li><a href="http://www.wunderkabinett.co.uk/damndata/">Cabinet of Wonders</a></li>
+<li><a href="http://www.caelestia.be/" title="a research initiative for unidentified aerial phenomena " target="_blank">Caelestia</a></li>
+<li><a href="http://www.coasttocoastam.com/" target="_blank">Coast to Coast AM</a></li>
+<li><a href="http://www.resurch.org/" title="CRITICAL THINKING RESOURCES FROM THE SKEPDAD BLOG" target="_blank">Critical Thinking Resources</a></li>
+<li><a href="http://www.cryptomundo.com/">Cryptomundo</a></li>
+<li><a href="http://www.csicop.org/whatsnew/" title=" Committee for Skeptical Inquiry">CSI</a></li>
+<li><a href="http://derrenbrown.co.uk/blog/" title="All your mind are belong to us" target="_blank">Derren Brown Blog</a></li>
+<li><a href="http://www.lhup.edu/~dsimanek/home.htm">Donald Simanek&#8217;s Pages</a></li>
+<li><a href="http://fogonazos.blogspot.com/2003/11/most-popular.html">Fogonazos</a></li>
+<li><a href="http://www.forteantimes.com/blogs/editorial-blogs/news/" title="A daily round-up of the world&#8217;s weird news">Fortean Times | Breaking News</a></li>
+<li><a href="http://fotocat.blogspot.com/">FOTOCAT blog</a></li>
+<li><a href="http://www.randi.org/" title="James Randi Educational Foundation">JREF</a></li>
+<li><a href="http://www.laputanlogic.com/" title="Fanciful. Preposterous. Absurd.">Laputan Logic</a></li>
+<li><a href="http://magonia.haaan.com/" title="Interpreting Contemporary Vision and Belief" target="_blank">Magonia</a></li>
+<li><a href="http://pelicanist.blogspot.com/" title="Notes, quotes, views, news and reviews" target="_blank">Magonia Blog</a></li>
+<li><a href="http://www.museumofhoaxes.com/" title="Dedicated to promoting knowledge about the phenomenon of hoaxes.">Museum of Hoaxes</a></li>
+<li><a href="http://posthumanblues.blogspot.com/" title="Official blog of Mac Tonnies, author, futurist and fortean">Posthuman Blues</a></li>
+<li><a href="http://sprott.physics.wisc.edu/pickover/pc/realitycarnival.html" title="&#8220;News that shatters the ice of our unconscious!&#8221; 	">RealityCarnival</a></li>
+<li><a href="http://www.reall.org/" title="Rational Examination Association of Lincoln Land">REALL</a></li>
+<li><a href="http://www.sciencehumor.org/">Science Humor</a></li>
+<li><a href="http://www.anomalist.com/" title="THE ANOMALIST IS A DAILY REVIEW OF WORLD NEWS ON MAVERICK SCIENCE, UNEXPLAINED MYSTERIES, UNORTHODOX THEORIES, STRANGE TALENTS, AND UNEXPECTED DISCOVERIES.">The Anomalist</a></li>
+<li><a href="http://graylien.110mb.com/" title="High Strangeness UFO and entity encounters">The Cosmic Jokers</a></li>
+<li><a href="http://www.dailygrail.com/">The Daily Grail</a></li>
+<li><a href="http://www.theironskeptic.com/">The Iron Skeptic</a></li>
+<li><a href="http://www.uapsg.org/" title="Unusual Aerial Phenomena Study Group" target="_blank">UAPSG</a></li>
+<li><a href="http://www.ufo-blog.com/ufo-blog/" target="_blank">UFO-Blog</a></li>
+<li><a href="http://www.ufomystic.com/">UFOmystic</a></li>
+<li><a href="http://www.weirduniverse.net/" title="Not only &#8220;stranger than we imagine, but stranger than we can imagine.&#8221; " target="_blank">Weird Universe</a></li>
+
+	</ul>
+</li>
+  <li id="linkcat-14" class="linkcat"><h2>world WIDE web</h2>
+	<ul>
+<li><a href="http://myblog.greguti.com/" title="Le blog de Grégory Gutierez">French: Greguti’s Blog</a></li>
+<li><a href="http://www.rr0.org/">French: RR0</a></li>
+<li><a href="http://blog.ufofu.org/" title="Blog d&#8217;actualité sur le phénomène OVNI:">French: ufofu</a></li>
+<li><a href="http://www.focus.it/Community/cs/blogs/ufo/default.aspx">Italian: A caccia di UFO</a></li>
+<li><a href="http://www.cisu.org/index1.htm">Italian: Centro Italiano Studi Ufologici</a></li>
+<li><a href="http://francescograssi.blogspot.com/" title="Crop circles, UFO, Scienza, Pseudoscienza, 11 Settembre, Misteri e altro&#8230;" target="_blank">Italian: Francesco Grassi</a></li>
+<li><a href="http://notezetetiche.blogspot.com/">Italian: Note zetetiche</a></li>
+<li><a href="http://umafan.blog72.fc2.com" title="Criptozoology">Japanese: UMAfan</a></li>
+<li><a href="http://lablogatorios.com.br/100nexos/">Portuguese: 100nexos</a></li>
+<li><a href="http://www.ceticismoaberto.com/news/" title="navegando no insólito">Portuguese: CeticismoAberto notícias</a></li>
+<li><a href="http://cgr20.blogspot.com/" title="cgredan" target="_blank">Spanish: cgr v2.0</a></li>
+<li><a href="http://www.dios.com.ar">Spanish: Dios!</a></li>
+<li><a href="http://charlatanes.blogspot.com/">Spanish: El retorno de los charlatanes</a></li>
+<li><a href="http://factorelblog.com/" target="_blank">Spanish: Factor 302.4</a></li>
+<li><a href="http://navelocos.blogspot.com/">Spanish: La Nave de los Locos</a></li>
+<li><a href="http://blogs.elcorreodigital.com/index.php/magonia/">Spanish: magonia</a></li>
+<li><a href="http://marcianitosverdes.haaan.com/">Spanish: Marcianitos Verdes</a></li>
+<li><a href="http://mihteriohdelasiensia.blogspot.com/">Spanish: mihterioh de la siensia</a></li>
+<li><a href="http://www.pensar.org/">Spanish: Pensar</a></li>
+
+	</ul>
+</li>
+
+  </ul>
+
+<p align="center">We read<br><a href="http://www.anomalist.com/" target="_blank"><img border="0" src="http://forgetomori.com/anomalistgp.gif"></a></p>
+
+
+<h2></h2>
+
+<div align="right"><a href="http://forgetomori.com/feed/"><img border="0" src="http://forgetomori.com/feed.png"> Subscribe to the <strong>RSS feed</strong></a>
+
+<p>Edited by <a href="http://www.cloudflare.com/email-protection#2e454b405a4f5c410043415c476e49434f4742004d4143">Kentaro Mori</a></p>
+</div>
+
+</div>
+<!-- The main column ends  -->
+
+<!-- begin footer -->
+<div align="center"></div>
+<div id="footer">
+<!-- Site Meter -->
+<script type="text/javascript" src="http://s41.sitemeter.com/js/counter.js?site=s41forgetomori">
+</script>
+<noscript>
+<a href="http://s41.sitemeter.com/stats.asp?site=s41forgetomori" target="_top">
+<img src="http://s41.sitemeter.com/meter.asp?site=s41forgetomori" alt="Site Meter" border="0"/></a>
+</noscript>
+<!-- Copyright (c)2006 Site Meter -->
+
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+jQuery(function() {
+	
+	jQuery.post("index.php",{ak_action:"api_record_view", ids: AKPC_IDS, type:"home"}, false, "json");
+});
+</script>
+	<script type="text/javascript">var SHRSB_Settings = [];</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-309052-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&"www.cloudflare.com/email-protection"==a.substr(7 ,35)){s='';j=43;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+ Served from: forgetomori.com @ 2014-04-02 21:19:45 by W3 Total Cache -->

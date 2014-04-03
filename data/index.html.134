@@ -1,0 +1,1807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="application-name" content="www.cbc.ca" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<meta name="msApplication-ID" content="App" />
+<meta name="msApplication-PackageFamilyName" content="CanadianBroadcastingCorpo.CBC_pw8q9bvavk68p" />
+
+
+    
+    
+    <meta name="date" content="2014/03/20" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/i/l/yui/3.11.0/yui/yui-min.js" id="yuiglobalnode"></script>
+<script type="text/javascript">
+	YUI.GlobalConfig = {base:'/i/l/yui/3.11.0/',root:'3.11.0/',combine: true,comboBase: '/i/l/comboloader/index.php?b=i/l/yui&f=',charset: 'utf-8',timeout: 10000,allowRollup: false,filter: {'searchExp' : '(&)(?!f=)','replaceStr': ','	}};
+</script>
+<!--<script type="text/javascript" src="/g/i/yuimodules/3.11.0.js"></script>--> <!-- remove this after the video team refactors thePlatformPlaylist.js -->
+<script type="text/javascript" src="/g/i/loader.js"></script>
+<script type="text/javascript" src="/g/i/globalfuncs.js"></script>
+
+
+
+
+
+
+ <!-- note: values are 'on' and 'off' -->
+<!-- #include virtual="/includes/ads/gpt.html"-->
+
+
+    
+
+
+
+
+   
+    
+   
+    
+
+
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+			
+		
+			
+		
+
+		
+
+		
+			
+				
+						
+					
+			
+	
+
+
+
+    <link rel="canonical" href="http://www.cbc.ca/index.html"/>
+
+
+<link rel="stylesheet" href="/i/css/v11/scripts.css" type="text/css" media="screen" />
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<meta name="keywords" content="CBC, CBC.ca, Canada, CBC-TV, CBC Radio, Canadian, television, radio, news, business, sports, weather, arts, entertainment, forums, message boards, chats, programs, shows, schedules, Canadian Broadcasting Corporation, homepage, public service broadcaster, channel, audio, video, health, science, consumers, kids, shop, broadcaster, schools, archives, CBC archives" />
+
+	<meta name="description" content="CBC.ca is Canada's Online Information Source. Comprehensive web site for news, entertainment, sports, business, and a complete guide to CBC-TV, CBC Radio and CBC News Network" />
+
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://rss.cbc.ca/lineup/topstories.xml" />
+
+	<script type="text/javascript" charset="utf-8">
+	// <![CDATA[
+		advertising_site = 'cbc.ca';
+		advertising_zone = 'homepage';
+		advertising_page_type = 'index';
+	// ]]>
+	</script>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/i/o/globalnav/v10/css/globalnav.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/ads/ads.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/i/css/v11/core.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/i/podium/news-basicelements.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/i/hp/v10/css/homepage.css" />
+	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/f1b506f3-bc81-4546-9a70-b9f3c9b41ec1.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="/olympics/2014/css/paralympics.css" />
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" media="screen" href="/i/hp/v10/css/ie8lower.css" />
+	<![endif]-->
+	
+	<!-- pv -->
+	<style>
+	.regionalElectionPromo { margin-top: 10px; width: 298px; border: 1px solid #c4c4c4; }
+.regionalElectionPromo h4.header {
+	background: url("/i/regional/v11/elections/gfx/hdr_globalresults.jpg") no-repeat scroll left top #EBEBEB;
+    	border-right: 1px solid #C4C4C4;
+	margin: 0; height: 46px; text-indent: -10000em;
+}
+/* start NSVotes addition for single election*/
+	.regionalElectionPromo h4.header.nsvotes {
+		background: url("/includes/provincialelections/nsvotes2013/gfx/hdr_globalresults.jpg") no-repeat scroll left top #EBEBEB;
+		border-right: 1px solid #C4C4C4;
+		margin: 0; height: 46px; text-indent: -10000em;
+	}
+	.regionalElectionPromo h4.header.bcvotes {
+		background: url("/includes/provincialelections/bcvotes2013/gfx/hdr-globalresults.jpg") no-repeat scroll left top #EBEBEB;
+		border-right: 1px solid #C4C4C4;
+		margin: 0; height: 46px; text-indent: -10000em;
+	}	
+	.regionalElectionPromo h3.header.quebec {
+		background: url("/includes/provincialelections/quebecvotes2012/gfx/hdr-global.jpg") no-repeat scroll left top #EBEBEB;
+		border-right: 1px solid #C4C4C4;
+		margin: 0; height: 46px; text-indent: -10000em;
+	}
+	.regionalElectionPromo h3.header.alberta {
+		background: url("/includes/provincialelections/albertavotes2012/gfx/hdr-global.jpg") no-repeat scroll left top #EBEBEB;
+		border-right: 1px solid #C4C4C4;
+		margin: 0; height: 46px; text-indent: -10000em;
+	}
+	#abResults div.voteMeterWrap div.meterHead h2 {display:none;}
+/* end ABVotes addition for single election*/
+.regionalElectionLineup,
+.regionalElectionResults { margin: 10px; padding: 0 0 10px 0; border-bottom: 1px solid #c4c4c4; }
+.regionalElectionLineup { margin: 5px 10px; padding: 0 10px 10px 0; }
+.regionalElectionPromo h3 { margin: 10px 10px 5px; font-size: 14px; }
+.regionalElectionPromo h3 a { font-size: 14px; }
+
+.regionalElectionResults .voteMeterWrap .meterHead h2 { font-size: 14px; margin: 0; }
+.regionalElectionResults .voteMeterWrap .meterHead a.fullResults { font-size: 12px; margin: 0; }
+.regionalElectionResults .voteMeterWrap .meterHead h2 { width: 60%; }
+
+.regionalElectionLineup dt {
+ 	background: url("/i/news/v10/gfx/bluebullet.gif") no-repeat scroll 0 6px transparent;
+    line-height: 1.5em; padding: 0 0 0 10px; width: 100%;
+	}
+.regionalElectionLineup dt .zvideo,
+.regionalElectionLineup dt .zaudio {
+	background-image: url("/i/news/v10/gfx/icon_a-v.png"); background-repeat: no-repeat;
+	display: inline-block; height: 15px; margin-left: 0; padding: 0 0 0 3px;
+	text-indent: -10000px; width: 10px;
+	}
+.regionalElectionLineup dt .zvideo { background-position: 0 -16px; }
+.regionalElectionLineup dt .zaudio { background-position: 0 3px; }
+
+.regionalElectionLineup dd,
+.regionalElectionLineup em.flag { display: none; }
+
+
+.resultdisclaimer{font-size:0.8em;color:#000;padding:5px 0;}
+
+/* override for canada ie7 */
+.canada { *padding-bottom: 20px; }
+
+
+
+
+	.voteMeterWrap{min-width:280px;}
+.voteMeterWrap a{color:#0F4D74;}
+.regionalElectionResults ul.voteMeter{width:100%;white-space:nowrap;}
+.regionalElectionResults ul.voteMeter{*width:100.5%;}  /* fixes ie7/8 */
+.regionalElectionResults ul.voteMeter li {display:inline;}
+.voteMeterWrap ul.voteMeter,
+.regionalElectionResults ul.voteMeter{height:20px;}
+.voteMeterWrap .voteMeter { z-index: 100;width:100.1%;height:20px;}
+.voteMeterWrap .voteMeter { *width:100.5%;} /* fixes ie7/8 */
+.voteMeterWrap .voteMeter,
+.voteMeterWrap .meterSnapshot {list-style-type:none;padding:0;margin:0;}
+.voteMeterWrap .voteMeter .voteShare,
+.voteMeterWrap .voteMeter .voteShare a {height:20px;}
+.voteMeterWrap .voteMeter .voteShare,
+.voteMeterWrap .meterSnapshot li{float:left;}
+.voteMeterWrap .voteMeter .voteShare a { position: relative; background: transparent; z-index: 100; text-decoration: none;display:inline-block;width:100%;white-space:pre; }
+.voteMeterWrap .voteMeter .voteShare a .summary { color: #191919; position: absolute; left: -10000px; top: auto; overflow: hidden; }
+.voteMeterWrap .voteMeter .voteShare a:hover, 
+.voteMeterWrap .voteMeter .voteShare a:focus { z-index: 200; text-decoration: none; }
+.voteMeterWrap .voteMeter .voteShare a:hover .summary, 
+.voteMeterWrap .voteMeter .voteShare a:focus .summary { display: block; position: absolute; z-index: 300; top: 14px; left: 10px; width: 75px; padding: 5px; background: #f4f1c1; border: 1px solid #dadada; }
+
+.voteMeterWrap .meterHead {width:100%;margin-bottom:15px;height:25px;}
+.voteMeterWrap .meterHead h2{width:69%;float:left;padding:0;margin:0;display:inline-block;}
+.voteMeterWrap .meterHead .fullResults{float:right;margin-top:8px;}
+.voteMeterWrap .meterOutline{border:1px solid #d2d2d2;clear:both;height:20px;width:100%;}
+.voteMeterWrap .meterFooter{clear:both;padding-top:5px;color:#6f6f6f;}
+.voteMeterWrap .meterFooter .pollCount{float:right;clear:both;}
+
+.voteMeterWrap li.party{border-left:5px solid #000;padding:4px;height:10px;font-size:12px;float:left;margin-top:5px;}
+.voteMeterWrap li.party span {vertical-align:middle;}
+
+.voteMeterWrap .threshold { background-color:#000; left:49%; line-height:200%; position:relative; top:-25px; width:3px; z-index:10;height:30px; }
+.voteMeterWrap .threshold .seatMajority {display: inline;font-size: 0.8em;left: -20px;line-height: 0.8;position: relative;top: -20px;white-space: nowrap;width: 50px;}
+/* overrides for election specific pages */
+.ridingResults .voteMeterWrap .meterHead {display:none;}
+.ridingResults .voteMeterWrap .voteMeter {width:100.1%;}
+.ridingResults .voteMeterWrap .voteMeter {*width:100.5%;}/* fixes ie7/8 */
+
+/* Party colours
+ * Keep alphebetical
+ * (PC/CON same colour) */
+.voteMeterWrap .voteMeter li.AP  { background-color: #0099d2; }
+.voteMeterWrap .voteMeter li.BQ  { background-color: #2B93C9; }
+.voteMeterWrap .voteMeter li.CAQ { background-color: #00b4f0; }
+.voteMeterWrap .voteMeter li.CON { background-color: #0C499C; }
+.voteMeterWrap .voteMeter li.FNP { background-color: #666; }
+.voteMeterWrap .voteMeter li.GRN { background-color: #75C321; }
+.voteMeterWrap .voteMeter li.IND { background-color: #8A8A8A; }
+.voteMeterWrap .voteMeter li.IP  { background-color: #900; }
+.voteMeterWrap .voteMeter li.LIB { background-color: #EE3024; }
+.voteMeterWrap .voteMeter li.NA  { background-color: #8C7E69; }
+.voteMeterWrap .voteMeter li.NDP { background-color: #F6821F; }
+.voteMeterWrap .voteMeter li.ON  { background-color: #4584bf; }
+.voteMeterWrap .voteMeter li.PC  { background-color: #0C499C; }
+.voteMeterWrap .voteMeter li.PQ  { background-color: #0c519d; }
+.voteMeterWrap .voteMeter li.QS  { background-color: #f96302; }
+.voteMeterWrap .voteMeter li.SP  { background-color: #005244; }
+.voteMeterWrap .voteMeter li.WRP { background-color: #007335; }
+.voteMeterWrap .voteMeter li.YGP { background-color: #75C321; }
+.voteMeterWrap .voteMeter li.YP  { background-color: #0C499C; }
+
+.voteMeterWrap li.party.AP  { border-color: #0099d2; }
+.voteMeterWrap li.party.BQ  { border-color: #2B93C9; }
+.voteMeterWrap li.party.CAQ { border-color: #00b4f0; }
+.voteMeterWrap li.party.CON { border-color: #0C499C; }
+.voteMeterWrap li.party.FNP { border-color: #666; }
+.voteMeterWrap li.party.GRN { border-color: #75C321; }
+.voteMeterWrap li.party.IND { border-color: #7A7A7A; }
+.voteMeterWrap li.party.IP  { border-color: #900; }
+.voteMeterWrap li.party.LIB { border-color: #EE3024; }
+.voteMeterWrap li.party.NA  { border-color: #8C7E69; }
+.voteMeterWrap li.party.NDP { border-color: #F6821F; }
+.voteMeterWrap li.party.ON  { border-color: #4584bf; }
+.voteMeterWrap li.party.PC  { border-color: #0C499C; }
+.voteMeterWrap li.party.PQ  { border-color: #0c519d; }
+.voteMeterWrap li.party.QS  { border-color: #f96302; }
+.voteMeterWrap li.party.SP  { border-color: #005244; }
+.voteMeterWrap li.party.WRP { border-color: #007335; }
+.voteMeterWrap li.party.YGP { border-color: #75C321; }
+.voteMeterWrap li.party.YP  { border-color: #0C499C; }
+
+
+	</style>
+	<!-- /pv -->	
+	<link rel="stylesheet" type="text/css" media="screen" href="/i/podium/news-ticker.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/museum/risingstar/risingstar.css" />
+	<title>CBC.ca - Canadian News Sports Entertainment Kids Docs Radio TV</title>
+</head>
+<body class="homepage">
+	
+
+<!-- ClickTale Top part -->
+<script type='text/javascript'>
+var WRInitTime = (new Date()).getTime();
+if (document.location.pathname.toLowerCase() != "/news/arts/") {
+	window.ClickTaleSettings = { XHRWrapper: { Enable: true, MaxResponseSize: 5000000} };
+	window.ClickTaleSettings.CheckAgentSupport = function (defaultHandler, agent) {
+		if (agent.t == agent.IE && (typeof XDomainRequest == 'function' || typeof XDomainRequest == 'object')) {
+			// don't use XDR but allow ajax
+			agent.XDR = false;
+			window.ClickTaleSettings.XHRWrapper.AllowWithGet = true; // allow over get
+		}
+		return defaultHandler(agent);
+	};
+	window.ClickTaleSettings.XHRWrapper.RequestFilter = function (method, url) {
+		if (url && url.indexOf("programguide/ProgramListFeed.do") > -1) {
+			return false;
+		}
+		return true;
+	};
+	document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktale.pantherssl.com/' : 'http://s.clicktale.net/') + "XHRWrapper.js'%20type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<!-- ClickTale end of Top part -->
+<script type="text/javascript" src="/g/stats/cbc_sitecatalyst.js"></script> 
+<script type="text/javascript" src="/g/stats/sccore.js"></script> 
+<script type="text/javascript" src="/g/stats/linktracker.js"></script>
+
+
+    
+
+
+
+
+
+	
+	
+		
+	
+
+
+<div id="accessibilitylinks">
+	<h2>Accessibility Links</h2>
+	<ul>
+		<li><a href="#content" id="skipnav">Skip to main content</a></li>
+		
+		<li><a href="/accessibility/">Skip to CBC accessibility page</a></li>
+	</ul>
+</div>
+<!--include virtual="/i/o/globalnav/v10/notification.html"-->
+<div id="gnwrap">
+
+<div id="gnadww" class="clearfix">
+
+	
+		<div class="risingstar-ad">
+	<div class="risingstar-ad-inner">
+	<script type="text/javascript" src="/includes/ads/masthead_ads.js"></script>
+	<script type="text/javascript">
+	// <![CDATA[
+	advertising_size = '970x90,728x90,970x250';
+	// ]]>
+	</script>
+	<script type="text/javascript">
+		/* <[![CDATA */ 
+		
+			var q = "type=risingstar";
+		
+		try {
+			if(window.top !== window.self) {
+				Ads.iframeSrcParse();
+			}
+		} catch(e) {}
+		Ads.displayAd();	
+		/* ]]> */
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/N5876/ad/cbc.ca/nozone/;pos=topleader;dcopt=ist;tile=1;sz=728x90;page="story";section="null";category="null";ord=123456789?"  target="_blank"><img src="http://ad.doubleclick.net/N5876/ad/cbc.ca/nozone/;dcopt=ist;tile=1;sz=728x90;page="story";section="null";category="null";ord=123456789?"  width="728"  height="90"  border="0"  alt="Advertisment"  /></a></noscript>
+	</div>
+</div>
+
+	
+
+	
+</div>
+<div id="gn" class="v10" role="navigation">
+	<h2>CBC Global Navigation</h2>
+	<div id="gnav">
+		<ul id="gnavl">
+			<li id="gnhome"><a href="http://www.cbc.ca" target="_top"><span>CBC.ca</span></a></li>
+			<li id="gnnews" class="btn">
+				<a class="em" href="http://www.cbc.ca/news" target="_top">News</a>
+				<a id="gnnewsdd" class="caret" href="http://www.cbc.ca/news" target="_top">News Menu</a>
+			</li>
+			<li id="gnsports" class="btn">
+				<a class="em" href="http://www.cbc.ca/sports" target="_top">Sports</a>
+				<a id="gnsportsdd" class="caret" href="http://www.cbc.ca/sports" target="_top">Sports Menu</a>
+			</li>
+			<li id="gnmusic" class="btn">
+				<a class="em" href="http://music.cbc.ca/" target="_top">Music</a>
+				<span class="nodropdown">&nbsp;</span>
+			</li>
+			<li id="gnradio" class="btn">
+				<a class="em" href="http://www.cbc.ca/radio" target="_top">Radio</a>
+				<a id="gnradiodd" class="caret" href="http://www.cbc.ca/radio" target="_top">Radio Menu</a>
+			</li>
+			<li id="gntv" class="btn">
+				<a class="em" href="http://www.cbc.ca/television" target="_top">TV</a>
+				<a id="gntvdd" class="caret" href="http://www.cbc.ca/television" target="_top">TV Menu</a>
+			</li>
+			<li id="gnmyr" class="btn lnk">
+				<a id="gnmyrem" class="em" href="http://www.cbc.ca/canada" target="_top">My Region <em>Menu</em></a>
+				<span id="gnmyrdd" class="caret">&nbsp;</span>
+			</li>
+			<li id="gnmore" class="btn lnk">
+				<a id="gnmoreem" href="http://www.cbc.ca/sitemap/" class="em" target="_top">More <em>CBC Menu</em></a>
+				<span id="gnmoredd" class="caret">&nbsp;</span>
+			</li>
+			<li id="gnwatch" class="btn emboss">
+				<a id="gnwatchem" href="http://www.cbc.ca/player/" class="em" target="_top">Watch </a>
+				<a id="gnwatchdd" class="caret" href="http://www.cbc.ca/player/" target="_top">Watch Menu</a>
+			</li>
+			<li id="gnlisten" class="btn emboss">
+				<a id="gnlistenem" href="http://www.cbc.ca/player/Radio/" class="em" target="_top">Listen</a>
+				<a id="gnlistendd" href="http://www.cbc.ca/player/Radio/" class="caret" target="_top">Listen Menu</a>
+			</li>
+		</ul>
+		<form role="search" name="gnsearch" action="http://www.cbc.ca/gsa/" accept-charset="utf-8" method="get" id="gnsrch" target="_top">
+			<input type="text" name="q" title="Search CBC.ca" value="Search" id="q" />
+			<input type="submit" name="gns" id="gns" value="       Search" /></form>
+		<ul id="gnlogin" class="signin">
+			
+			<!-- BEGIN socialmedia module navbar_dropdown.html -->
+<!-- PCS false (vfa) enabled. -->
+
+
+
+<li id="gnsocial" class="btn lnk">
+    <a id="gnsocialem" class="em"></a>
+    <a id="gnloginem" class="em"></a>
+    <span id="gnsocialdd" class="caret">&nbsp;</span>
+</li>
+<script type="text/javascript">
+    if (_CBC_LOADER && _CBC_LOADER.modules && !_CBC_LOADER.modules.cbc_social_signin) _CBC_LOADER.modules.cbc_social_signin = { type:"js", fullpath:"/i/js/cbc_social_signin.js", requires: ['node','cbc_core','io-base','event-custom']};
+    YUI(_CBC_LOADER).use('cbc_social_signin', function(Y, result) {
+        var o = {};
+        if (typeof CBC === "object" && typeof CBC.APP === "object" && typeof CBC.APP.SmLogin === "object") CBC.APP.SmLogin.init(Y, o);
+    });
+</script>
+
+
+
+<!-- include normal viafoura social_header (eepreview hack disabled) -->
+<!-- BEGIN social_header.html socialmedia module -->
+
+
+
+
+
+<link rel="stylesheet" href="/i/css/cbc_viafoura.css" type="text/css" />
+
+
+
+
+
+    <!-- Protect against multiple Viafoura script inclusions. -->
+    
+        
+        <script type="text/javascript" src='//cdn.viafoura.net/vf.js'></script>
+    
+
+<!-- END social_header.html socialmedia module -->
+
+
+<!-- END socialmedia module navbar_dropdown.html -->
+
+			
+		</ul>
+	</div>
+	<div id="dropzone">&nbsp;</div>
+</div>
+
+
+</div>
+<script type="text/javascript">
+if (!_CBC_LOADER.modules.cbc_globalnav) _CBC_LOADER.modules.cbc_globalnav = { type:"js", fullpath:"/i/o/globalnav/v10/globalnav.js", requires: ['cbc_core', 'cookie', 'node', 'event'] };
+if (!_CBC_LOADER.modules.cbc_globalnav_menu_style) _CBC_LOADER.modules.cbc_globalnav_menu_style = { type:"css", fullpath:"/i/o/globalnav/v10/css/dropdown.css" };
+YUI(_CBC_LOADER).use('cbc_globalnav', function(Y, result){
+	if (result.success){
+		var params = {};
+		
+		
+		CBC.APP.globalnav = new CBC.APP.Globalnav();
+		CBC.APP.globalnav.init(Y, params);
+	}
+});
+</script>
+
+	<div class="cbcwrap">
+		<h1 class="seo">CBC.ca - Canadian News, Sports, Entertainment, Radio, and Television.</h1>
+		<div id="content" class="body clearfix">
+			<div class="col12 breaking">
+                
+                
+                
+
+
+
+
+
+<div id="ticker_7_548_1396482451" class="ticker sclt-ticker ">
+	<div class="ticker-wrap">
+		<ul>
+															
+																			
+	<li class="ticker-item breaking ">
+		<span class="ticker-item-label">Breaking</span>
+		<span class="ticker-item-body">
+							<a href="http://www.cbc.ca/news/world/fort-hood-shooting-1-dead-14-wounded-official-says-1.2596264" class="gothere">
+						1 dead, several injured in shooting at Fort Hood army base
+							</a>
+						
+		</span>
+				<span class="ticker-item-expiry"></span>	
+	</li>
+		    												
+																			
+	<li class="ticker-item developing ">
+		<span class="ticker-item-label">Developing</span>
+		<span class="ticker-item-body">
+							<a href="http://www.cbc.ca/news/politics/senators-push-pierre-poilievre-on-controversial-election-measure-1.2594721" class="gothere">
+						Pierre Poilievre says election bill is fine the way it is
+							</a>
+						
+		</span>
+				<span class="ticker-item-expiry"></span>	
+	</li>
+		    												
+																			
+	<li class="ticker-item developing ">
+		<span class="ticker-item-label">Developing</span>
+		<span class="ticker-item-body">
+							<a href="http://www.cbc.ca/news/politics/eve-adams-riding-fight-party-investigates-at-pm-s-request-1.2595485" class="gothere">
+						PM asks party to investigate complaints against Ont. MP
+							</a>
+						
+		</span>
+				<span class="ticker-item-expiry"></span>	
+	</li>
+		    												
+																			
+	<li class="ticker-item developing ">
+		<span class="ticker-item-label">Developing</span>
+		<span class="ticker-item-body">
+							<a href="http://www.cbc.ca/news/canada/british-columbia/andre-harvey-richard-wanted-after-langley-house-fire-alleged-attack-on-family-1.2595549" class="gothere">
+						RCMP seek husband after wife, 2 kids escape house fire
+							</a>
+						
+		</span>
+				<span class="ticker-item-expiry"></span>	
+	</li>
+		    												
+																			
+	<li class="ticker-item developing ">
+		<span class="ticker-item-label">Developing</span>
+		<span class="ticker-item-body">
+							<a href="http://www.cbc.ca/news/world/chile-earthquake-kills-6-causes-limited-damage-1.2594894" class="gothere">
+						Chile lifts tsunami warning, people return home post quake
+							</a>
+						
+		</span>
+				<span class="ticker-item-expiry"></span>	
+	</li>
+		    		</ul>
+		<div class="ticker-ctrls">
+			<a href="#previous" class="ticker-prev" title="previous">&#8249;</a>
+			<a href="#pause" class="ticker-pause" title="pause">&#8214;</a>
+			<a href="#play" class="ticker-play" title="play">&#8214;</a>
+			<a href="#next" class="ticker-next" title="next">&#8250;</a>
+		</div>
+	</div>
+			
+	<script type="text/javascript">
+	if (!CBC){	var CBC = {}; }
+	if (!CBC.Queue){ CBC.Queue = []; }
+	CBC.Queue.push({
+		callback: (function(){
+			var yo = {
+				modules :{
+					cbc_ticker : { type:"js", fullpath:"/i/ticker/ticker.min.js", requires:['node'] }
+				}
+			};
+    	
+			YUI(yo).use('cbc_ticker', function(Y, result) {
+				if (result.success){
+					CBC.APP.ticker_7_548_1396482451 = new CBC.APP.Ticker();
+			  		var params = {
+			  			parent_id: 'ticker_7_548_1396482451',
+			  			instance: 'ticker_7_548_1396482451',
+						auto: true,
+						interval: 7,
+						responsive: true
+			  		};
+			  		CBC.APP.ticker_7_548_1396482451.init(params,Y);
+			  		//CBC.APP.Instances.add("ticker_7_548_1396482451", CBC.APP.ticker_7_548_1396482451);
+				}
+			});
+    	
+		}),
+		priority: 1,
+		task_name: "ticker"
+	});
+	</script>
+</div>
+
+			</div>
+			<div id="main" class="wrap12">
+				<div class="wrap4">
+					<div id="headlinesnews" class="module">
+						<h2><a href="/news/">CBC News</a> <span>&raquo;</span></h2>
+						<div class="headlines">
+							
+
+
+
+
+
+
+
+
+    
+<div class="sclt-legacylineuproll">
+					<div class="topstory clearfix">
+		<a href="http://www.cbc.ca/news/world/fort-hood-shooting-1-dead-14-wounded-official-says-1.2596264">
+							<img title='The entrance to Fort Hood Army Base in Fort Hood, Texas, is shown in a 2009 file photo. Fort Hood has confirmed Wednesday that an active shooting is ongoing, and that several people have been injured.' height='168' alt='Fort Hood shooting: 1 dead, 14 wounded, official says' width='300' src='http://i.cbc.ca/1.2596320.1396480793!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_300/fort-hood.jpg' border='0' />						<div class="lead"><b>Fort Hood says that a shooting happened at the Texas Army base and that injuries have been reported, while a senior U.S. defence official said there was at least one fatality. A U.S. law enforcement official says the suspected gunman is now believed to be dead.</b></div>
+		</a>
+	</div>
+	<dl>
+		<dt>
+			<a href="http://www.cbc.ca/news/world/fort-hood-shooting-1-dead-14-wounded-official-says-1.2596264">Fort Hood shooting: 1 dead, 14 wounded, official says</a> 
+			<span class="tstamp">7:57 PM ET</span>
+					</dt>
+	</dl>
+</div>
+
+						</div>
+					</div>
+					<div id="headlinessports" class="module">
+						<h2><a href="/sports/">CBC Sports</a> <span>&raquo;</span></h2>
+						<div class="headlines">
+							<div class="topstory">	
+	<a href="http://www.cbc.ca/sports-content/hockey/opinion/2014/04/paul-ranger-perseveres-with-maple-leafs.html">
+		<!-- image is mandatory -->
+		<img border="0" alt="Paul Ranger" width="300" height="169" src="/sports-content/includes/portal/images/300-ranger-131002.jpg" />
+		<div class="lead">
+			<!-- For empty overlay, delete contents of this div. -->
+			<b><!-- character limit: 104 -->CBC Sports hockey writer Mike Brophy explains why the Toronto Maple Leafs nominated Paul Ranger for the Bill Masterton Trophy.</b>
+		</div>
+	</a>
+</div>
+
+<dl>
+	<dt>
+		<!-- link is mandatory -->
+		<a href="http://www.cbc.ca/sports-content/hockey/opinion/2014/04/paul-ranger-perseveres-with-maple-leafs.html"><!-- character limit: 58 -->Mike Brophy: Leafs' Ranger recognized for perseverance</a>
+		<!-- timestamp is mandatory -->
+		<span class="tstamp"></span>
+		<!-- mediaicons/socialicons are optional. -->
+		<span class="mediaicons"></span>
+		<!-- Remove number from title attribute if story isn't ept-related. -->
+		<span class="socialicons" title="1000538"></span>
+	</dt>
+</dl>
+						</div>
+					</div>
+					<div id="regional" class="module">
+	<h2><a href="/ottawa/">Ottawa News <span>&#187;</span></a></h2>
+	<p><a class="swapRegion" href="#">change</a></p>
+    <ul>
+        <li class="tab1 first"><a href="#rgnstories">Top Stories</a></li>
+        <li class="tab2"><a id="hp-rgn-most-commented" href="#rgnpopular">Most Commented</a></li>
+    </ul>
+    <div>
+        <div id="rgnstories" class="tab1 tc">
+            
+
+
+
+
+	
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/news/canada/ottawa/ottawa-s-regan-douglas-is-canada-s-only-female-bomb-disposal-expert-1.2596074">Ottawa's Regan Douglas is Canada's only female bomb disposal expert<span class="summary">Apr 2, 2014 7:51 PM ET &mdash; You may not be able to tell when she's on scene, but Ottawa's Regan Douglas is making history in the RCMP.</span></a>
+        <span class="tstamp">7:51 PM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	     </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/news/politics/eve-adams-s-fight-over-6-car-wash-drew-pmo-involvement-1.2596174">Eve Adams's fight over $6 car wash drew PMO involvement<span class="summary">Apr 2, 2014 7:52 PM ET &mdash; For at least the second time in recent months, Stephen Harper is being called on to deal with the conduct of Eve Adams, an Ontario MP who wa&hellip;</span></a>
+        <span class="tstamp">7:52 PM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	     </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/news/canada/ottawa/ottawa-senators-host-van-essen-brothers-1.2595982">Ottawa Senators host Van Essen brothers<span class="summary">Apr 2, 2014 3:56 PM ET &mdash; Two brothers from Ottawa who launched a successful campaign to get respite care back are the special guests of the Ottawa Senators on Wednes&hellip;</span></a>
+        <span class="tstamp">3:56 PM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	     </dt>
+                              </dl>
+
+
+
+
+        </div>
+	<div id="rgnpopular1"><!-- class="tab2 tc morestories hide">-->
+		<!-- START most_popular.html socialmedia module-->
+<div id="cbc-vf-most-popular"><div class="cbc-vf"><div class="viafoura"><div class="vf-articles vf-widget" data-widget="community-articles" data-limit="10" data-days="1" ></div></div></div></div>
+<!-- END most_popular.html socialmedia module-->
+
+	</div>
+    </div>
+</div>
+
+
+					<!-- pv -->
+					<div class="clearfix">
+						<!-- headline module cbc.ca -->
+<style>
+.regionalElectionPromo h4.header {
+	background-image: url("/includes/provincialelections/quebecvotes2014/gfx/QCvotes_298x45.jpg");
+	}
+</style>
+<div class="regionalElectionPromo" id="provincialelections">
+	<h4 class="header">Provincial Elections 2013</h4>
+	
+<a href="/elections/quebecvotes2014/"><h3>Quebec Votes 2014 &raquo;</h3></a>
+<div class="regionalElectionLineup">
+	
+
+
+
+
+
+
+
+
+	
+
+	
+			<dl class="sclt-legacylineuproll">
+												<dt class="headline dt0">						<em class="flag infographic">Infographic</em>						<a href="http://www.cbc.ca/elections/quebecvotes2014/features/view/top-professions-among-candidates">Top professions among Quebec election candidates</a>						    
+    													</dt>
+					<dd class="dd0">Find out what professions are the most common among PLQ, PQ, CAQ & QS candidates</dd>
+																<dt class="headline dt1">						<em class="flag "></em>						<a href="http://www.cbc.ca/news/canada/montreal/quebec-votes-2014/arthur-porter-endorses-friend-philippe-couillard-1.2595978">Arthur Porter endorses 'friend' Philippe Couillard</a>						    
+    													</dt>
+					<dd class="dd1">Arthur Porter, who is currently being held in a Panama prison, has endorsed former business partner and "friend" Philippe Couillard.</dd>
+																<dt class="headline dt2">						<em class="flag "></em>						<a href="http://www.cbc.ca/news/canada/montreal/quebec-votes-2014/pq-would-find-new-jobs-for-charter-non-compliant-employees-1.2595806">PQ would find new jobs for charter non-compliant employees</a>						    
+    													</dt>
+					<dd class="dd2">Parti Québécois Leader Pauline Marois has admitted for the first time that her proposed secular charter could force some Quebecers to look for new jobs. </dd>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						</dl>
+	
+</div>
+
+
+<!-- #include virtual="/includes/provincialelections/quebecvotes2014/global/globalresults-electionnight.html"-->
+
+<!-- #include virtual="/includes/provincialelections/quebecvotes2014/global/globalresults-results.html"-->
+
+
+</div>
+					</div>
+					<!-- /pv -->
+
+					<div id="ugc" class="module yournews">
+						<h2>Community</h2>
+						
+
+  
+	
+			<div class="promocollection promocollection_promolist sclt-promocollection module  module_distinct" >
+	<div class="promocollection-head module-head">
+		<h3 class="promocollection-heading module-heading offscreen">
+									Community
+			</h3>
+	</div>
+	<div class="promocollection-body module-body">
+	    	    		
+<ul class="promocollection-list">
+    		<li class="promo">
+								<a href="http://www.cbc.ca/newsblogs/yourcommunity/2014/04/doctors-prescribing-bike-share-memberships-to-combat-obesity.html" class="media complexlink">
+			<div class="media-side">
+				    			<img title='' height='79' alt='Hubway Bikes' width='140' src='http://i.cbc.ca/1.2596196.1396474047!/fileImage/httpImage/image.jpg_gen/derivatives/16x9tight_140/hubway-bikes.jpg' />													<div class="promo-label label health">HEALTH</div>
+							</div>
+			<div class="media-body">
+				<p class="promo-title complexlink-target">Doctors prescribing bike-share memberships to combat obesity</p>
+									<p class="promo-deck">A newly launched City of Boston / BMC program gives patients memberships to Boston's Hubway system</p>
+							</div>
+		</a>
+			</li>
+    </ul>    					</div>
+			
+    	    		    				</div>
+
+					</div>
+
+					<div id="aboriginal" class="module yournews">
+						<h2>Aboriginal</h2>
+						
+
+  
+	
+			<div class="promocollection promocollection_promolist sclt-promocollection module  " >
+	<div class="promocollection-head module-head">
+		<h3 class="promocollection-heading module-heading offscreen">
+									Aboriginal
+			</h3>
+	</div>
+	<div class="promocollection-body module-body">
+	    	    		
+<ul class="promocollection-list">
+    		<li class="promo">
+								<a href="http://www.cbc.ca/news/canada/thunder-bay/lowering-suicide-risk-goal-of-new-medical-school-curriculum-1.2596059" class="media complexlink">
+			<div class="media-side">
+				    			<img title='' height='79' alt='hi-depressed-girl-852' width='140' src='http://i.cbc.ca/1.1614967.1379065924!/httpImage/image.jpg_gen/derivatives/16x9tight_140/hi-depressed-girl-852.jpg' />													<div class="promo-label label audio">Audio</div>
+							</div>
+			<div class="media-body">
+				<p class="promo-title complexlink-target">Lowering suicide risk goal of new medical school curriculum</p>
+									<p class="promo-deck">To respond to the high rates of suicide in the region, Northern Ontario Medical School starts new training</p>
+							</div>
+		</a>
+			</li>
+    </ul>    					</div>
+			
+    	    		    				</div>
+
+					</div>
+
+					<div class="uploadyournews clearfix">
+    <h3>Upload Your News</h3>
+	<p>Submit your breaking news, stories, photos and videos.</p>
+	<p class="uploadnow">
+		<a href="http://yournews.cbc.ca/upload" class="newsbutton">Upload Now</a>
+		<span class="note">You must be a member of the CBC News Community to upload. <a href="http://yournews.cbc.ca/login">Sign Up now.</a></span>
+	</p>
+</div>
+
+
+					
+
+
+<div class="ad-300x100">
+	<script type="text/javascript">
+		// <![CDATA[
+  	document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N5876/adj/'+ advertising_site + '/' + advertising_zone + ';pos=np;tile=4;sz=300x100;page='+ advertising_page_type +';section='+advertising_section+';category='+advertising_category+';contcat='+advertising_content_category+';'+advertising_keyword+advertising_surround_session+advertising_exclusions+'ord=' + ord + '?" type="text/javascript"><\/script>');
+  	// ]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/N5876/ad/cbc.ca/nozone/;pos=np;tile=4;sz=300x100;page=story;section=null;category=null;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N5876/ad/cbc.ca/nozone/;tile=4;sz=300x100;page=story;section=null;category=null;ord=123456789?" width="300" height="100" border="0" alt="Advertisment" /></a></noscript>
+</div>
+
+					<div class="module">
+						<iframe frameborder="0" id="dailydeals" height="240px" width="340px" src="/deals/kijiji-dailydeal.html" title="Kijiji Daily Deal">Visit the <a href="/deals/kijiji-dailydeal.html">Kijiji Daily Deal</a></iframe>
+					</div>
+				</div>
+				<div class="wrap2" id="headlines">
+
+	<h2>Headlines</h2>
+
+	<div class="news">
+		<h3><a href="/news/canada/">Canada <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/news/canada/nova-scotia/steven-blaney-responds-to-rcmp-voice-mail-mocking-assault-1.2596108">Steven Blaney responds to RCMP voice mail mocking assault<span class="summary">Apr 2, 2014 6:03 PM ET &mdash; The case of several RCMP officers in Nova Scotia who were caught cursing and making light of a domestic assault complainant in a voice mail &hellip;</span></a>
+        <span class="tstamp">6:03 PM ET</span> 			
+	     </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/news/politics/prostitution-law-consultations-find-little-consensus-among-police-1.2595728">Prostitution law consultations find little consensus among police<span class="summary">Apr 2, 2014 5:55 PM ET &mdash; As the federal government considers what to do now that the Supreme Court of Canada has struck down three of the country's prostitution laws&hellip;</span></a>
+        <span class="tstamp">5:55 PM ET</span> 			
+	     </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/news/canada/british-columbia/andre-harvey-richard-wanted-after-langley-house-fire-alleged-attack-on-family-1.2595549">Andre Harvey Richard wanted after Langley house fire, alleged attack on family<span class="summary">Apr 2, 2014 7:44 PM ET &mdash; Langley RCMP have issued an arrest warrant for Andre Harvey Richard in connection with an apparent attempted murder and arson at a house in &hellip;</span></a>
+        <span class="tstamp">7:44 PM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	     </dt>
+                                                            </dl>
+
+	</div>
+
+	<div class="news">
+		<h3><a href="/news/world/">World <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/news/world/fort-hood-shooting-1-dead-14-wounded-official-says-1.2596264">Fort Hood shooting: 1 dead, 14 wounded, official says<span class="summary">Apr 2, 2014 8:12 PM ET &mdash; Fort Hood says that a shooting happened at the Texas Army base and that injuries have been reported, while a senior U.S. defence official sa&hellip;</span></a>
+        <span class="tstamp">8:12 PM ET</span> 			
+	     </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/news/chile-earthquake-how-loss-of-life-damage-was-minimized-1.2595662">Chile earthquake: How loss of life, damage was minimized<span class="summary">Apr 2, 2014 1:21 PM ET &mdash; Tuesday's 8.2-magnitude earthquake off the coast of Chile is a reminder that the country is situated in a hotbed of seismic activity. Becaus&hellip;</span></a>
+        <span class="tstamp">1:21 PM ET</span> 			
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595662"></span></span>
+    </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/news/technology/malaysia-airlines-flight-mh370-search-shows-extent-of-ocean-trash-1.2594539">Malaysia Airlines Flight MH370 search shows extent of ocean trash<span class="summary">Apr 2, 2014 7:46 PM ET &mdash; Search teams scouring the Indian Ocean for evidence of the missing Malaysia Airlines plane have thus far only come up with unrelated debris.&hellip;</span></a>
+        <span class="tstamp">7:46 PM ET</span>                       			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2594539"></span></span>
+    </dt>
+                                                                  </dl>
+
+	</div>
+
+	<div class="sports">
+		<h3><a href="/sports/">Sports <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/sports/hockey/nhl/jonathan-toews-out-for-rest-of-regular-season-1.2595895">Jonathan Toews out for rest of regular season<span class="summary">Apr 2, 2014 2:05 PM ET &mdash; Chicago Blackhawks captain Jonathan Toews will miss the remainder of the regular season with an upper-body injury, the team said Wednesday.</span></a>
+        <span class="tstamp">2:05 PM ET</span> 			
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595895"></span></span>
+    </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/sports-content/hockey/opinion/2014/04/paul-ranger-perseveres-with-maple-leafs.html">Brophy: Paul Ranger perseveres with Leafs <span class="summary">Apr 2, 2014 3:20 PM ET &mdash; CBC Sports hockey writer Mike Brophy explains why Toronto Maple Leafs defenceman nominated Paul Ranger is a deserving nominee for the Bill M&hellip;</span></a>
+        <span class="tstamp">3:20 PM ET</span> 			
+	     </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/sports/hockey/nhl/hockey-night-online-canadiens-clinch-1.2595687">Hockey Night Online: Canadiens clinch<span class="summary">Apr 2, 2014 12:21 PM ET &mdash; Watch on demand as host Monika Platek and Rob Pizzo discuss how the Montreal Canadiens will fare now that they have secured a spot in the St&hellip;</span></a>
+        <span class="tstamp">12:21 PM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595687"></span></span>
+    </dt>
+                                      </dl>
+
+	</div>
+
+	<div class="sports">
+		<h3><a href="/sports/hockey/nhl/">Hockey <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/sports/hockey/nhl/jonathan-toews-out-for-rest-of-regular-season-1.2595895">Jonathan Toews out for rest of regular season<span class="summary">Apr 2, 2014 2:05 PM ET &mdash; Chicago Blackhawks captain Jonathan Toews will miss the remainder of the regular season with an upper-body injury, the team said Wednesday.</span></a>
+        <span class="tstamp">2:05 PM ET</span> 			
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595895"></span></span>
+    </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/sports/hockey/nhl/douglas-murray-faces-hearing-for-mike-kostka-hit-1.2595647">Douglas Murray faces hearing for Mike Kostka hit<span class="summary">Apr 2, 2014 6:31 PM ET &mdash; Montreal Canadiens defenceman Douglas Murray will have a phone hearing with the NHL's department of player safety on Thursday after his elbo&hellip;</span></a>
+        <span class="tstamp">6:31 PM ET</span>                       			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+										<img src="/includes/gfx/icon_audio.gif" border="0" class="mediaicons-aud" alt="Audio" />
+					</span>
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595647"></span></span>
+    </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/sports-content/hockey/opinion/2014/04/paul-ranger-perseveres-with-maple-leafs.html">Brophy: Paul Ranger perseveres with Leafs <span class="summary">Apr 2, 2014 3:20 PM ET &mdash; CBC Sports hockey writer Mike Brophy explains why Toronto Maple Leafs defenceman nominated Paul Ranger is a deserving nominee for the Bill M&hellip;</span></a>
+        <span class="tstamp">3:20 PM ET</span> 			
+	     </dt>
+                                    </dl>
+
+	</div>
+
+	<div class="news">
+		<h3><a href="/news/politics/">Politics <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/news/politics/pakistan-lashes-back-at-chris-alexander-over-terrorism-comments-1.2595876">Pakistan lashes back at Chris Alexander over terrorism comments<span class="summary">Apr 2, 2014 5:00 PM ET &mdash; The High Commission for Pakistan is lashing back at comments from Citizenship and Immigration Minister Chris Alexander, who urged Canada and&hellip;</span></a>
+        <span class="tstamp">5:00 PM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595876"></span></span>
+    </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/news/politics/canada-urges-u-s-to-pay-250m-share-for-detroit-windsor-bridge-1.2595700">Canada urges U.S. to pay $250M share for Detroit-Windsor bridge<span class="summary">Apr 2, 2014 4:42 PM ET &mdash; The Canadian government is urging the Obama administration to pay for its share of the costs for building a customs plaza on the U.S. side o&hellip;</span></a>
+        <span class="tstamp">4:42 PM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595700"></span></span>
+    </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/news/politics/eve-adams-riding-fight-party-investigates-at-pm-s-request-1.2595485">Eve Adams riding fight: Party investigates at PM's request<span class="summary">Apr 2, 2014 5:57 PM ET &mdash; Prime Minister Stephen Harper has asked the Conservative Party to investigate new allegations against MP Eve Adams of improperly using const&hellip;</span></a>
+        <span class="tstamp">5:57 PM ET</span>                       			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595485"></span></span>
+    </dt>
+                              </dl>
+
+	</div>
+
+	<div class="news">
+		<h3><a href="/news/business/">Business <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/news/business/tsx-nears-6-year-high-after-osisko-gold-deal-1.2596055">TSX nears 6-year high after Osisko gold deal<span class="summary">Apr 2, 2014 5:33 PM ET &mdash; Canada's main stock market climbed to levels it hasn't touched in nearly six years on Wednesday, pushed higher by a major deal between two C&hellip;</span></a>
+        <span class="tstamp">5:33 PM ET</span> 			
+	     </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/news/canada/calgary/kinder-morgan-hearings-scheduled-for-trans-mountain-pipeline-expansion-1.2596172">Kinder Morgan hearings scheduled for Trans Mountain Pipeline expansion<span class="summary">Apr 2, 2014 5:52 PM ET &mdash; The National Energy Board has scheduled public hearings on Kinder Morgan's proposed expansion of the Trans Mountain Pipeline system.</span></a>
+        <span class="tstamp">5:52 PM ET</span> 			
+	     </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/news/business/osisko-reveals-yamana-deal-to-counter-goldcorp-bid-1.2595595">Osisko reveals Yamana deal to counter Goldcorp bid<span class="summary">Apr 2, 2014 4:32 PM ET &mdash; Toronto-based mining company Yamana Gold Inc. has offered $441.5 million in cash and 95.7 million Yamana shares for a 50 per cent interest i&hellip;</span></a>
+        <span class="tstamp">4:32 PM ET</span> 			
+	     </dt>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </dl>
+
+	</div>
+
+	<div class="news">
+		<h3><a href="/news/health/">Health <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/news/health/why-more-medical-tests-and-treatments-aren-t-always-better-1.2594843">Why more medical tests and treatments aren't always better<span class="summary">Apr 2, 2014 5:34 PM ET &mdash; Patients and doctors must face a culture change to avoid unnecessary tests and treatments that could cause harm, Canadian medical groups say&hellip;</span></a>
+        <span class="tstamp">5:34 PM ET</span> 			
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2594843"></span></span>
+    </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/news/health/ebola-in-guinea-puts-miners-in-lock-down-1.2596072">Ebola in Guinea puts miners in lock down<span class="summary">Apr 2, 2014 5:05 PM ET &mdash; Foreign mining firms have locked down operations in Guinea and pulled out some international staff, executives say, as the death toll from s&hellip;</span></a>
+        <span class="tstamp">5:05 PM ET</span> 			
+	     </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/news/health/kent-cochrane-famed-toronto-amnesiac-in-medical-texts-dies-1.2595665">Kent Cochrane, famed Toronto amnesiac in medical texts, dies<span class="summary">Apr 2, 2014 12:43 PM ET &mdash; A Toronto man whose brain was among the most studied in the world has died.</span></a>
+        <span class="tstamp">12:43 PM ET</span> 			
+	     </dt>
+                  </dl>
+
+	</div>
+
+	<div class="news">
+		<h3><a href="/news/arts/">Arts &amp; Entertainment <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/news/arts/stolen-paul-gauguin-art-hung-in-worker-s-kitchen-recovered-1.2595663">Stolen Paul Gauguin art, hung in worker's kitchen, recovered<span class="summary">Apr 2, 2014 2:31 PM ET &mdash; A retired Italian autoworker and art-lover has turned over two paintings — including a still life by Paul Gauguin — that have hung in his ki&hellip;</span></a>
+        <span class="tstamp">2:31 PM ET</span> 			
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595663"></span></span>
+    </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/news/canada/itzhak-perlman-disabled-virtuoso-violinist-abandoned-at-toronto-airport-1.2594948">Itzhak Perlman, disabled virtuoso violinist, 'abandoned' at Toronto airport<span class="summary">Apr 2, 2014 2:32 AM ET &mdash; Air Canada says it's investigating complaints from Itzhak Perlman after the disabled violinist claimed he was abandoned by a disability assi&hellip;</span></a>
+        <span class="tstamp">2:32 AM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2594948"></span></span>
+    </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/news/arts/malaysia-air-mh370-peter-jackson-s-jet-aiding-search-1.2595614">Malaysia Air MH370: Peter Jackson's jet aiding search<span class="summary">Apr 2, 2014 6:17 PM ET &mdash; Filmmaker Peter Jackson's private jet is among the civilian and military aircraft searching for missing Malaysian Airlines Flight 370.</span></a>
+        <span class="tstamp">6:17 PM ET</span>             			
+			<span class="mediaicons">
+							<img src="/includes/gfx/icon_video.gif" border="0" class="mediaicons-vid" alt="Video" />
+								</span>
+	     </dt>
+                                          </dl>
+
+	</div>
+
+	<div class="news last">
+		<h3><a href="/news/technology/">Technology &amp; Science <span>&raquo;</span></a></h3>
+		
+
+
+
+
+
+
+
+
+    
+<dl class="sclt-legacylineuproll">
+      <dt class="headline hd0">
+        <a href="http://www.cbc.ca/news/technology/methane-spewing-microbe-blamed-in-worst-mass-extinction-1.2595797">Methane-spewing microbe blamed in worst mass extinction<span class="summary">Apr 2, 2014 3:11 PM ET &mdash; A very tiny organism is likely to blame for wiping out 90 per cent of species on Earth during the worst mass extinction our planet has ever &hellip;</span></a>
+        <span class="tstamp">3:11 PM ET</span>             			
+			<span class="mediaicons">
+										<img src="/includes/gfx/icon_audio.gif" border="0" class="mediaicons-aud" alt="Audio" />
+					</span>
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595797"></span></span>
+    </dt>
+            <dt class="headline hd1">
+        <a href="http://www.cbc.ca/news/technology/nasa-suspends-work-with-russia-except-for-international-space-station-1.2596367">NASA suspends work with Russia except for International Space Station<span class="summary">Apr 2, 2014 8:13 PM ET &mdash; NASA is suspending its work with Russia except for the International Space Station. The move comes a week after the space agency said U.S.-R&hellip;</span></a>
+        <span class="tstamp">8:13 PM ET</span> 			
+	     </dt>
+            <dt class="headline hd2">
+        <a href="http://www.cbc.ca/news/chile-earthquake-how-loss-of-life-damage-was-minimized-1.2595662">Chile earthquake: How loss of life, damage was minimized<span class="summary">Apr 2, 2014 1:21 PM ET &mdash; Tuesday's 8.2-magnitude earthquake off the coast of Chile is a reminder that the country is situated in a hotbed of seismic activity. Becaus&hellip;</span></a>
+        <span class="tstamp">1:21 PM ET</span> 			
+	 	<span class="viafoura"><span class="vf-counter vf-widget" data-widget="counter" data-id="1.2595662"></span></span>
+    </dt>
+                                              </dl>
+
+	</div>
+
+</div>
+
+				<div class="wrap6">
+					<div class="col6 module radio-television">
+                        <h2>CBC Radio &amp; Television</h2>
+                        
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+	
+		
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+		
+	<div id="homepage-carousel" class="cbccarousel standard placeholder ccol6">
+	
+        <div class="showCarousel">
+	<h2>CBC Radio &amp; Television</h2>
+	<div id="rotator" class="cbc_carousel">
+		<ul class="slides">
+	   <li id="carousel-dragonsden">
+	<a href="http://www.cbc.ca/dragonsden/">
+		<img src="/network/includes/gfx/r4a/DragonsDenHopeBlooms.jpg" alt="Dragons' Den" width="460" height="259" title="Dragons' Den"/>
+	</a>
+	<dl>
+		<dt><a href="http://www.cbc.ca/dragonsden/">Dragons' Den: Season Finale</a></dt>
+		<dd>It's an Update Special like never before! The Dragons hit the road to visit memorable pitchers from seasons past. Watch at 8 p.m./8:30 NT on CBC-TV.</dd>
+        <dd><a href="http://www.cbc.ca/dragonsden/">Watch a sneak peek on the website &#187;</a></dd>
+	</dl>
+</li>
+<script type="text/javascript"> 
+
+    /* <![CDATA[ */ 
+
+        try { 
+
+            CBC.APP.SC.LinkTracker.trackArea({'e':'carousel-dragonsden','p':'carousel-dragonsdenr4a'}); 
+
+        } catch(e) {} 
+
+    /* ]]> */ 
+
+</script> 
+
+
+           <li id="carousel-recipetoriches">
+	<a href="http://www.cbc.ca/recipetoriches/">
+		<img src="/network/includes/gfx/r4a/RecipeToRiches1.jpg" alt="Recipe to Riches" width="460" height="259" title="Recipe to Riches"/>
+	</a>
+	<dl>
+		<dt><a href="http://www.cbc.ca/recipetoriches/">Recipe To Riches: Season Finale</a></dt>
+		<dd>Canada has voted for the best of the best. Find out who will go home with the grand prize of $250,000, tonight at 9 p.m./9:30 NT on CBC-TV.</dd>
+        
+		<dd><a href="http://www.cbc.ca/recipetoriches/">Read what the judges say it will take to win &#187;</a></dd>
+	</dl>
+</li>
+<script type="text/javascript"> 
+
+    /* <![CDATA[ */ 
+
+        try { 
+
+            CBC.APP.SC.LinkTracker.trackArea({'e':'carousel-recipetoriches','p':'carousel-recipetorichesr4a'}); 
+
+        } catch(e) {} 
+
+    /* ]]> */ 
+
+</script> 
+
+
+           <li id="carousel-stromboshow">
+	<a href="http://www.cbc.ca/strombo/">
+		<img src="/network/includes/gfx/r4a/StromboPatrickChan.jpg" alt="George Stroumboulopoulos Tonight" width="460" height="259" title="George Stroumboulopoulos Tonight "/>
+	</a>
+	<dl>
+		<dt><a href="http://www.cbc.ca/strombo/">George Stroumboulopoulos Tonight</a></dt>
+		<dd>George interviews Olympic silver medallist Patrick Chan and gold medallist Jennifer Jones, tonight at 7 p.m./7:30 NT and 11:30 p.m./12 NT on CBC-TV.</dd>
+        
+		<dd><a href="http://www.cbc.ca/strombo/">Visit the website &#187;</a></dd>
+	</dl>
+</li>
+<script type="text/javascript"> 
+
+    /* <![CDATA[ */ 
+
+        try { 
+
+            CBC.APP.SC.LinkTracker.trackArea({'e':'carousel-stromboshow','p':'carousel-stromboshowr4a'}); 
+
+        } catch(e) {} 
+
+    /* ]]> */ 
+
+</script> 
+ 
+ 
+ 
+
+	   <li id="carousel-cbcmusic">
+	<a href="http://music.cbc.ca/#/blogs/2014/4/Pete-Rock-CL-Smooths-They-Reminisce-Over-You-with-Rich-Kidd-and-Raz-Fresco">
+		<img src="/network/includes/gfx/r4a/RockTheMic.jpg" alt="CBC Music" width="460" height="259" title="CBC Music"/>
+	</a>
+	<dl>
+		<dt><a href="http://music.cbc.ca/#/blogs/2014/4/Pete-Rock-CL-Smooths-They-Reminisce-Over-You-with-Rich-Kidd-and-Raz-Fresco">CBC Music: They Reminisce Over You</a></dt>
+		<dd>On the anniversary of the release of hip-hop classic <i>They Reminisce Over You</i>, Canadian rappers Rich Kidd and Raz Fresco rework the song with its original producer Pete Rock.</dd>
+        <dd><a href="http://music.cbc.ca/#/blogs/2014/4/Pete-Rock-CL-Smooths-They-Reminisce-Over-You-with-Rich-Kidd-and-Raz-Fresco">Watch it on the CBC Music website &#187;</a></dd>
+	</dl>
+</li>
+<script type="text/javascript"> 
+
+    /* <![CDATA[ */ 
+
+        try { 
+
+            CBC.APP.SC.LinkTracker.trackArea({'e':'carousel-cbcmusic"','p':'carousel-cbcmusicr4a'}); 
+
+        } catch(e) {} 
+
+    /* ]]> */ 
+
+</script> 
+
+	   <li id="carousel-thenational">
+	<a href="/thenational/">
+		<img src="/network/includes/gfx/r4a/TheNationalC.jpg" alt="The National" width="460" height="259" title="The National"/>
+	</a>
+	<dl>
+		<dt><a href="/thenational/">The National</a></dt>
+		<dd>In 1994, a Saskatchewan teacher had his students write letters to their future selves. Twenty years later, CBC's Bonnie Allen gets the grown-up students' reactions. Tonight on <i>The National</i>.</dd>
+        <dd><a href="/thenational/">Visit the website for broadcast times &#187;</a></dd>
+	</dl>
+</li>
+<script type="text/javascript"> 
+
+    /* <![CDATA[ */ 
+
+        try { 
+
+            CBC.APP.SC.LinkTracker.trackArea({'e':'carousel-thenational','p':'carousel-thenationalr4a'}); 
+
+        } catch(e) {} 
+
+    /* ]]> */ 
+
+</script> 
+
+	   <li id="carousel-video">
+ <a href="http://www.cbc.ca/player/Shows/Shows/Murdoch+Mysteries/">
+  <img src="/network/includes/gfx/r4a/MurdochBlastOfSilence.jpg" alt="Video" width="460" height="259" title="Video"/>
+ </a>
+ <dl class="clearfix cta">
+  <dt><a href="http://www.cbc.ca/player/Shows/Shows/Murdoch+Mysteries/">Watch Online: Murdoch Mysteries</a></dt>
+  <dd class="ctabutton"><a href="http://www.cbc.ca/player/Shows/Shows/Murdoch+Mysteries/ID/2445795091/">Watch<span>></span></a></dd>  
+  <dd>Detective Murdoch risks his own life to diffuse a bomb strapped to a factory owner.</dd>
+ </dl>
+</li>
+<script type="text/javascript">
+ 
+    /* <![CDATA[ */
+ 
+        try {
+ 
+            CBC.APP.SC.LinkTracker.trackArea({'e':'carousel-video','p':'carousel-videor4a'});
+ 
+        } catch(e) {}
+ 
+    /* ]]> */
+ 
+</script>
+
+		   </ul>
+	</div>
+</div>
+    
+</div>
+		
+<script type="text/javascript" src="/i/o/carousel/v11/init.js"> 
+	var o = {
+		instanceName: 'homepage-carousel',
+		cfg: {
+			containerId: 'homepage-carousel',
+			columnsCount: 6,
+			placeholder: true,
+
+		
+			htmlContent: '/network/includes/promos/rotator.html',
+				
+
+			slidesVisible: 1,
+			center: false,
+			controls: {
+				location: 'BELOW',
+				pause: 6,
+				prevText: 'Show previous slide',
+				pauseText: 'Pause slide',
+				pauseAltText: ' ',
+				nextText: 'Show next slide'
+			},
+			pagination: true,
+            centerPagination: true,
+			autoRotate: true,
+			transition: 'FADE',
+			duration: 1
+		}
+	};
+</script>
+
+	
+	  
+                    </div>
+					
+                    <div class="sep2">
+                        <div class="col2">
+                            <ul id="discovery">
+     <li>
+<a href="http://www.cbc.ca/thecurrent/episode/2014/04/02/plastic-surgery-below-the-belt-doctors-divided-over-labiaplasty/">
+	<img src="/network/includes/gfx/Labiaplasty1.jpg" alt="The Current: Labiaplasty" width="140" height="79" border="0"/>
+	<span>
+		<b>Labiaplasty: A cut too far?</b>
+		<span>Surgery on female genitalia is on the rise.</span>
+	</span>
+</a>
+</li>
+
+     <li>
+<a href="http://www.cbc.ca/player/News/Arts+and+Entertainment/ID/2445365627/">
+	<img src="/network/includes/gfx/CreeSuperhero2.jpg" alt="Video: Canadian Cree Superhero" width="140" height="79" border="0"/>
+	<span>
+		<b>Cree Superhero</b>
+		<span>Artist Jeff Lemire discusses his creation.</span>
+	</span>
+</a>
+</li>
+     <li>
+<a href="http://www.cbc.ca/player/Shows/Shows/The+Passionate+Eye/Full+Documentaries/ID/2434350053/">
+	<img src="/network/includes/gfx/CocaineWars1.jpg" alt="Video: Cocaine Wars" width="140" height="79" border="0"/>
+	<span>
+		<b>Cocaine Wars</b>
+		<span>Go undercover with drug officers.</span>
+	</span>
+</a>
+</li>
+     <li>
+<a href="http://www.cbc.ca/player/Shows/Shows/Doc+Zone/ID/2276631071/">
+	<img src="/network/includes/gfx/SiblingRivalry.jpg" alt="Video: Sibling Rivalry" width="140" height="79" border="0"/>
+	<span>
+		<b>Sibling Rivalry</b>
+		<span>How do they make us who we are?</span>
+	</span>
+</a>
+</li>
+	 <li>
+<a href="http://www.cbc.ca/books/2014/03/jk-rowlings-harry-potter-spin-off-to-be-adapted-into-film-trilogy.html">
+	<img src="/network/includes/gfx/JKRowling3.jpg" alt="CBC Books" width="140" height="79" border="0"/>
+	<span>
+		<b>J.K. ROWLING</b>
+		<span>The Harry Potter creator is writing a new film series.</span>
+	</span>
+</a>
+</li>
+
+     <li>
+<a href="http://www.cbc.ca/archives/categories/arts-entertainment/theatre/robert-lepage-canadas-renaissance-man/a-young-confident-artist.html">
+	<img src="/network/includes/gfx/Archives_RobertLepage.jpg" alt="CBC Archives" width="140" height="79" border="0"/>
+	<span>
+		<b>CBC Digital Archives</b>
+		<span>See how playwright Robert Lepage got his start.</span>
+	</span>
+</a>
+</li>
+	 </ul>
+                        </div>
+                        <div class="col4">
+							
+
+
+<div id="advert300x250">
+	<div class="ad300x250 ad-300x250">
+		<script type="text/javascript">
+			/* <![CDATA[ */
+				if(typeof(Ads) != "undefined") {
+					Ads.displayBigBox();
+				} else {
+					document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N5876/adj/'+ advertising_site + '/' + advertising_zone + ';pos=topbox;tile=2;sz=300x250;page='+ advertising_page_type +';section='+advertising_section+';category='+advertising_category+';contcat='+advertising_content_category+';'+advertising_keyword+advertising_surround_session+'ord=' + ord + '?" type="text/javascript"><\/script>');
+				}
+			/* ]]> */
+		</script>
+		<noscript><a href="http://ad.doubleclick.net/N5876/ad/cbc.ca/nozone/;pos=topbox;tile=2;sz=300x250;page=story;section=null;category=null;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N5876/ad/cbc.ca/nozone/;tile=2;sz=300x250;page=story;section=null;category=null;ord=123456789?" width="300" height="250" border="0" alt="Advertisment" /></a></noscript>
+	</div>
+</div>
+
+                            
+
+
+
+<div id="tvradioschedule" class="module clearfix">
+<h2>Schedule</h2>
+<p>The Radio/Television schedule requires JavaScript.</p>
+</div>
+<script type="text/javascript" src="/i/o/tvradioschedule/js/nowplaying.js"></script>
+<script type="text/javascript" src="/i/o/tvradioschedule/js/init.js"> 
+
+    var o = {
+        cfg: {
+            tabcontainer: 'tvradiocontent',
+            today: '20140402',
+            hour: '20',
+            minute: '16',
+            radioLocation: 'undefined',
+            tvLocation: 'undefined'
+        }
+    };
+
+</script>
+
+                            
+                            <div id="access" class="module clearfix">
+                                <h2><a href="/accessibility/">Accessibility <span>&#187;</span></a></h2>
+                                <p>It is a priority for CBC to create a website that is accessible to all Canadians including people with visual, hearing, motor and cognitive challenges.</p>
+                                <p>Closed captioning is available for many <a href="/player/">CBC-TV shows</a> offered online.</p>
+                                <p>For air times of CBC-TV shows with described video, visit Accessible Media Inc.'s <a target="_blank" href="http://www.ami.ca/dvguide">Described Video TV Guide</a>. (Described video is not currently available online.)</p>
+                            </div>
+                            <div id="connect" class="module">
+                                <h2>Stay Connected with CBC</h2>
+                                <ul>
+                                    <li class="mobile"><a href="/mobile/services/">Mobile</a></li>
+                                    <li class="rss"><a href="/rss/">RSS</a></li>
+                                    <li class="podcasts"><a href="/radio/podcasts/">Podcasts</a></li>
+                                    <!-- <li class="newsletters"><a href="https://membercentre.cbc.ca/CurrentSubscriptions.aspx">Member Services</a></li> -->
+                                    <li class="divider">&nbsp;</li>
+                                    <li class="alerts"><a href="/subscriptions/">Alerts</a></li>
+                                    <li class="email"><a href="/subscriptions/">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div id="globalfooter">
+		<div id="footer" class="v10">
+	<h2>CBC Global Footer</h2>
+	<div id="ftr-ptls" class="clearfix">
+		<div class="main">
+		<h3>CBC.ca</h3>
+		<ul>
+			<!--<li><a target="_top" href="#">CBC Media Player</a></li>-->
+			<li><a target="_top" href="http://www.cbc.ca/news/aboriginal/">Aboriginal</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/books/">Books</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/contests/">Contests</a></li>
+			<li><a target="_top" href="http://archives.cbc.ca/">Digital Archives</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/documentaries/">Documentaries</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/kids/">Kids</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/kidscbc/">Kids' CBC Preschool</a></li>
+		</ul>
+		<ul>
+			<li><a target="_top" href="http://www.kidscbcwonderworld.ca/">Kids' CBC Wonder World</a></li>
+			<li><a target="_top" href="http://music.cbc.ca/">Music</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/news">News</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/parents/">Parents</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/programguide/">Program Guide</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/radio/">Radio</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/sports">Sports</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/television/">Television</a></li>
+		</ul>
+		<ul>
+			<li><a target="_top" href="http://www.cbc.ca/subscriptions/">Subscriptions</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/player/">CBC Player</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/shop/">CBC Shop</a></li>
+		</ul>
+		</div>
+		<div class="main corp">
+		<h3>Corporate</h3>
+		<ul>
+			<li><a target="_top" href="http://cbc.radio-canada.ca/en/explore/who-we-are-what-we-do/">About CBC</a></li>
+			<li><a target="_top" href="http://www.cbc.radio-canada.ca/docs/disclosure/">Transparency and Accountability</a></li>
+			<li><a target="_top" href="http://cbc.radio-canada.ca/jobs/">Jobs</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/productionfacilities/">Production Facilities</a></li>
+			<li><a target="_top" href="http://cbcmobileproductions.ca/">Mobile Production Rentals</a></li>
+			<li><a target="_top" href="http://www.ombudsman.cbc.radio-canada.ca/">Ombudsman</a></li>
+			<li><a target="_top" href="http://cbc.radio-canada.ca/en/media-centre/get-the-facts/">CBC: Get the Facts</a></li>
+		</ul>
+		<ul>
+			<li><a target="_top" href="http://www.cbc.ca/independentproducers/">Independent Producers</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/pitch/">Pitch a Radio or Audio Program</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/programsales/">Program and Content Sales</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/archivesales/">Archive Sales</a></li>
+			<li><a target="_top" href="http://www.cbclearning.ca/">Educational Sales</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/imageresearchlibrary/">Image Research Library &amp; Still Photos</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/services/consumer_recordings.html">Consumer Recordings</a></li>
+			<li><a target="_top" href="http://cbc.radio-canada.ca/en/explore/strategies/dtv/">Digital TV</a></li>
+		</ul>
+		</div>
+	</div>
+	<div id="ftr-connect" class="clearfix">
+		<h3>Stay Connected</h3>
+		<ul>
+			<li><a target="_top" href="http://www.cbc.ca/mobile/services/">Mobile</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/rss/">RSS</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/radio/podcasts/">Podcasts</a></li>
+			<!--<li><a target="_top" href="http://twitter.com/cbc">Twitter</a></li>-->
+			<li class="last"><span>Member Services:</span><a target="_top" href="http://www.cbc.ca/subscriptions/">Newsletters &amp; Alerts</a></li>
+			<!--<li class="last"><a target="_top" href="#">More CBC Tools &amp; Services</a></li>-->
+		</ul>
+	</div>
+	<div id="ftr-core" class="clearfix" role="contentinfo">
+	<h3>CBC Links</h3>
+	<ul class="terms clearfix">
+		<li><a target="_top" href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html">Terms Of Use</a></li>
+		<li><a target="_top" href="http://www.cbc.ca/permissions/">Reuse &amp; Permissions</a></li>
+		<li><a target="_top" href="http://www.cbc.ca/revenuegroup/">Advertise</a></li>
+		<li><a target="_top" href="http://www.cbc.ca/aboutcbc/discover/privacy.html">Privacy</a></li>
+		<!--<li><a target="_top" href="#">Accessibility</a></li>-->
+		<li><a target="_top" href="http://www.cbc.ca/sitemap/">Site Map</a></li>
+		<li><a target="_top" href="http://www.cbc.ca/help/">Help</a></li>
+		<li><a target="_top" href="http://www.cbc.ca/help/contact/">Contact Us</a></li>
+	</ul>
+	<a id="ftr-cbcrc" target="_top" href="http://www.cbc.radio-canada.ca/">CBC Radio-Canada</a>
+	<div id="ftr-end" class="clearfix">
+		<span>Copyright &copy; CBC 2014</span>
+		<ul class="affs">
+			<li><a target="_top" href="http://www.cbc.radio-canada.ca/">cbc.radio-canada.ca</a></li>
+			<li><a target="_top" href="http://www.cbc.ca/">cbc.ca</a></li>
+			<li><a target="_top" href="http://ici.radio-canada.ca">radio-canada.ca</a></li>
+		</ul>
+	</div>
+</div>
+
+</div>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+   
+    
+
+
+
+		
+	
+	
+		
+	
+
+
+	</div>
+    <script type="text/javascript">
+    var mods = _CBC_LOADER.modules;
+    if (!mods.homepage) mods.homepage = { type:'js', fullpath:'/i/hp/v10/js/homepage.js', requires: ['node','io-base','cbc_core','event-custom','cbc_config','sitelife','tabview'] };
+    YUI(_CBC_LOADER).use('homepage', function(Y,result) {
+        var o = { socialIconsContainers: ['headlinesnews','headlinessports'] };
+        var instance_name = 'homepage';
+        var instance = CBC.namespace('CBC.APP')[instance_name] = new CBC.APP.Homepage();
+        CBC.APP.Instances.add(instance_name,instance);
+        instance.init(Y,o);
+    });
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+	CBC.APP.SC.LinkTracker.trackArea([
+		{ 'e':'headlinesNews', p:'headlinesNews' },
+		{ 'e':'headlinesSports', p:'headlinesSports' },
+		{ 'e':'regional', p:'regional' },
+		{ 'e':'yourVoice', p:'yourVoice' },
+		{ 'e':'ugc', p:'ugc' },
+		{ 'e':'lineups', p:'lineups' },
+		{ 'e':'discovery', p:'discovery' },
+		{ 'e':'radio_sched', p:'radio_sched' },
+		{ 'e':'tv_sched', p:'tv_sched' },
+		{ 'e':'access', p:'access' },
+		{ 'e':'connect', p:'connect' }
+	]);
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+try{
+	if(!CBC) { var CBC = {}; }
+	if(!CBC.APP) { CBC.APP = {}; }
+	if(!CBC.APP.SC) { CBC.APP.SC = {}; }
+	CBC.APP.SC.QueryString = "contentarea=home&amp;contenttype=index";
+	
+}catch(e){
+}
+//]]>
+</script>
+
+
+<!-- global: /g/i/footer.html -->
+
+
+
+
+<script type="text/javascript" src="/i/queue/queue.min.js"></script>
+
+ 
+<script type="text/javascript" src="/g/stats/devicedetect.js"></script>
+<script type="text/javascript" src="/g/stats/pagetracker.js"></script>
+<!-- ClickTale Bottom part -->
+<script type='text/javascript'>
+    if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
+	document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+	}
+</script>
+
+<!-- ClickTale end of Bottom part -->
+
+<script type="text/javascript">
+if (typeof COMSCORE == 'undefined') {
+	YUI(_CBC_LOADER).use('comscore', function(Y,result) {
+		if (result.success) {
+		if (typeof advertising_zone != 'string') 
+			var advertising_zone = '';
+				COMSCORE.beacon({c1:2,c2:3005684,c3:"",c4:escape(window.location.href),c5:"CBC.ca-CanadianNewsSportsEntertainmentKidsDocsRadioTV",c6:advertising_zone,c7:escape(window.location.href),c8:escape(document.title),c9:escape(document.referrer),c15:""});
+		}
+	});
+}
+</script>
+<!-- <noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&c3=&c4=cbc.ca&c5=CanadianNewsSportsEntertainmentKidsDocsRadioTV&c6=&c15=&cj=1" alt=""/></noscript> -->
+<script type="text/javascript" src="/g/i/toast.js"></script>
+
+
+    
+
+
+
+
+
+<!-- Load Viafoura as late as possible in the source order. -->
+<!-- socialmedia START /i/html/social_footer.html -->
+
+
+<!-- socialmedia END /i/html/social_footer.html -->
+
+<!-- #include virtual="/includes/ads/gpt.html?footer"-->
+<!-- Collecting rum data -->
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,1103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>US Naturalization and Immigration, Citizenship Application, US Visas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <meta name="keywords" content="us immigration, citizenship application, us visas, green card renewal, naturalization and immigration, application for us passport"/>
+        <meta name="description" content="Process US visas, a Green Card renewal, a citizenship application or other naturalization and US immigration processes, like the application for a US passport, with our self-help guides. See filled-out naturalization and immigration forms."/>
+	<meta property='st:info' content='Process US visas, a Green Card renewal, a citizenship application or other naturalization and US immigration processes, like the application for a US passport, with our self-help guides. See filled-out naturalization and immigration forms.'/>
+
+        <!--[if IE]>
+         <style type="text/css">
+             .search-inputs input.new-search
+             {
+                  height:21px !important;
+                  padding:5px 5px 0 !important;
+             }
+
+         </style>
+     <![endif]-->
+
+
+        <link rel="stylesheet" type="text/css" href="/css/home.css" />
+        <link rel="stylesheet" type="text/css" href="/css/swiftypesearch.css" />
+        <style type="text/css">*html #wrap{behavior:url(iepngfix.htc)}</style>
+        <!-- End htmlHead.jsp -->
+        <link rel="canonical" href="http://www.us-immigration.com/"/>
+
+
+        <script type="text/javascript">
+       
+            function toggleId(elementId) {
+                var loginWidget = document.getElementById(elementId);
+                if(loginWidget.style.display == 'none'){
+                    loginWidget.style.display = 'block';
+                }else{
+                    loginWidget.style.display = 'none';
+                }
+            }
+          
+        </script>
+	<script type='text/javascript' src='/scripts/jquery-1.8.0.js'></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div class="wrap_top_bg">
+                <div id="container">
+                    <div id="header">
+
+                        <div class="headerlogo">
+                            <a href="http://www.us-immigration.com/"><img src="images/logo.png" height="122" width="95" alt="American Immigration Center Logo" /></a>
+                        </div>
+			
+                        <div class="header_text">
+                            <h1 class="header-title">U.S. Immigration</h1>
+                            <h3>Guiding You Through Citizenship, Green Card and Visa Applications</h3>
+                        </div>
+			
+			
+   			
+                        		
+   			
+                         <!-- Sign in starts here -->
+                        <div class="sign-in-new" id="Sign-In-new">
+
+                                 <p class="existing-members">Existing Members:
+                                 <a href="#" onclick="toggleId('sign-in');"><img src="/images/sign-in-btn-95x22.png" alt="Sign In" title="Sign In" width="95" class="sign-in-btn-new" /></a></p>
+
+
+
+
+
+
+
+
+<div class="sign-in-new-content" id="sign-in" style="display:none;">
+  <form id="loginForm" autocomplete="off" style="padding:0;margin:0;" method="post" action="https://www.us-immigration.com/loginWidget.do" name="loginForm">
+     <input type="hidden" value="" name="site" />
+     <input type="hidden" value="login" name="performAction" />
+     <input id="secure" type="hidden" value="true" name="secure" />
+
+     <p class="sign-in-title">SIGN IN TO YOUR ACCOUNT:</p>
+
+
+     <div class="sign-in-input">
+        <label for="emailid">E-mail Address</label>
+        <input type="text" size="30" name="emailId" id="signinemailid"/>
+	<label for="password">Password</label>
+	<input type="password" size="30" name="password" id="signinpassword"/>
+	<p class="error" style="display:none;"></p>
+     </div>
+  </form>
+
+     <input alt="Sign In"  onclick='javascript:validateEmail();' src="/images/sign-in-btn-95x22.png" type="image" class="sign-in-btn-input" />
+
+     <p class="new-user"><a href="applicationcenter.do">New User?</a><span>|</span><a href="forgotpassword.do">Forgot Password?</a></p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+		<div class="header-search">
+		  <form action="" id="searchForm">
+		    <span>
+		      <input type="text" onblur="if(this.value=='') this.value='Search';" onfocus="if(this.value=='Search')this.value='';" class="st-search-input" id="st-search-input" value="Search">
+		      <a id="WLSearchBoxButton" href="#"><img id="test" alt="Search" src="/images/swiftypesearch.png" style="margin: 3px 0pt 0pt; width: 20px; height: 20px;"></a>
+		    </span>
+		  </form>
+		  <script type="text/javascript">
+		    $("#WLSearchBoxButton").click(function(){if((!$.trim($("#st-search-input").val()).length)||($("#st-search-input").val()=="Search")){$("#st-search-input").focus();}else{window.location='/information/search.html?q='+encodeURIComponent($("#st-search-input").val());}return false;});
+		    
+		    $("#searchForm").submit(function(){if((!$.trim($("#st-search-input").val()).length)||($("#st-search-input").val()=="Search")){$("#st-search-input").focus();}else{window.location='/information/search.html?q='+encodeURIComponent($("#st-search-input").val());}return false;});
+		  </script>
+		</div>
+</div>
+
+                        <!-- Sign in ends here -->
+
+
+                    <!-- new navigation menu implementation -->
+                    <div class="navigation" id="navid">
+                        <div class="nav-brd">
+                            <a style="width: 38px;" href="http://www.us-immigration.com" class="topNav no-arrow">HOME</a> <!-- style="width: 20px;" -->
+                        </div>
+                        <div class="nav-brd">
+
+                            <a style="width: 123px;" href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp" class="topNav"><span class="nav-title">U.S. CITIZENSHIP</span><span class="down-arrow">&nbsp;</span></a>
+                            <div class="menu">
+
+                                <ul class="nav-single-row">
+                                    <li><a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp?lang=en">U.S. Citizenship Application - <strong>Form N-400</strong></a></li>
+                                    <li><a href="http://www.us-immigration.com/certificate-of-citizenship-N-600.jsp?lang=en">Certificate of Citizenship - <br /><strong>Form N-600</strong></a></li>
+                                    <li><a href="http://www.us-immigration.com/replace-certificate-of-citizenship-form-N565.jsp?lang=en">Replace Certificate of Citizenship  - <strong>Form N-565</strong></a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html">U.S. Citizenship Test and Interview DVD </a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-guide-audio-cd-english.html">U.S. Citizenship Test Guide AUDIO CD <strong>(English)</strong></a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-guide-audio-cd-spanish.html">U.S. Citizenship Exam Guide AUDIO CD <strong>(Espanol)</strong></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="nav-brd">
+                            <a style="width: 97px;" href="http://www.us-immigration.com/cart/category/green-card.html" class="topNav"><span class="nav-title">GREEN CARD</span><span class="down-arrow">&nbsp;</span></a>
+
+                            <div class="menu" style="width:672px;">
+                                <ul class="nav-multiple-row">
+                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en" class="nav-list-title">Green Card Renewal and Replacement</a></li>
+                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Green Card Renewal - <br /><strong>Form I-90</strong></a></li>
+
+                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Green Card Replacement - <br /><strong>Form I-90</strong></a></li>
+                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Lost or Stolen Green Card</a></li>
+                                    <li><a href="http://www.us-immigration.com/Get-Green-Card-Through-Family-Member.jsp" class="nav-list-title">Green Card Through Family</a></li>
+
+                                    <li><a href="http://www.us-immigration.com/Get-Green-Card-Through-Family-Member.jsp?lang=en">Get Green Card through Family Member Application</a></li>
+                                    <li><a href="http://www.us-immigration.com/Green-Card-Through-Marriage.jsp?lang=en">Get Green Card through Marriage Application</a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-for-parents-application.html">Green Card for Parent(s) Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-for-children-application.html">Green Card for Children Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-for-brothers-or-sisters-application.html">Green Card for Brothers or Sisters Application</a></li>
+                                </ul>
+
+                                <ul class="nav-multiple-row" style="margin-left:5px;">
+                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-for-domestic-employee-or-unskilled-labor-application.html" class="nav-list-title">Green Card Through Employment</a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-for-domestic-employee-or-unskilled-labor-application.html">Green Card Through Employment Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/Green-card-for-multinational-executives-and-managers.html">Green Card for Multinational Executives and Managers</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-for-domestic-employee-or-unskilled-labor-application.html">Green Card for Domestic Employee or Unskilled Labor Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/immigrant-visa-extraordinary-abilities.html">Immigrant Visa Extraordinary Abilities</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/immigrant-visa-for-outstanding-researchersprofessors.html">Immigrant Visa for Outstanding Researchers/Professors</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/labor-certification-application.html">Labor Certification Application</a></li>
+
+                                    <li style="padding-bottom:77px;"><a href="https://www.us-immigration.com/cart/product/national-interest-waiver.html">National Interest Waiver</a></li>
+                                </ul>
+
+                                <ul class="nav-multiple-row" style="margin-left:5px;border-right:none;">
+                                    <li><a href="http://www.us-immigration.com/cart/category/green-card.html" class="nav-list-title">Green Card - Related Forms</a></li>
+				    <li><a href="http://www.us-immigration.com/I-130-immigrant-petition-green-card.jsp?lang=en">I-130 Immigrant Petition</a></li>
+                                    
+                                    <li><a href="http://www.us-immigration.com/Adjustment-of-Status-Form-I-485.jsp?lang=en"><strong>Form I-485</strong> Adjustment of Status</a></li>
+                                    <li><a href="http://www.us-immigration.com/form-i751-remove-conditions-green-card.jsp?lang=en"><strong>Form I-751</strong> Petition to Remove the Conditions of Residence</a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/form-i864-affidavit-of-support.html"><strong>Form I-864</strong> Affidavit of Support</a></li>
+                                    <li><a href="http://www.us-immigration.com/Form-I-131-Application-Travel-Document.jsp?lang=en"><strong>Form I-131</strong> Advance Parole Travel Document</a></li>
+                                    <li><a href="http://www.us-immigration.com/Form-I-131-Application-Travel-Document.jsp?lang=en"><strong>Form I-131</strong> Reentry Permit</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/form-i131-refugee-travel-document.html"><strong>Form I-131</strong> Refugee Travel Document</a></li>
+
+                                    <li><a href="http://www.us-immigration.com/form-i751-remove-conditions-green-card.jsp?lang=en">Remove Conditions on Green Card</a></li>
+                                   <!-- <li><a href="http://www.us-immigration.com/cart/category/green-card.html" class="nav-list-title">Green Card Resources</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/learn-how-to-get-a-green-card-guide-dvd-english.html">Learn How to Get a Green Card Guide DVD <strong>(English)</strong></a></li>-->
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="nav-brd">
+                            <a style="width: 91px;" href="http://www.us-immigration.com/cart/category/us-visas.html" class="topNav"><span class="nav-title">U.S. VISAS</span><span class="down-arrow">&nbsp;</span></a>
+                            <div class="menu" style="width:447px;">
+                                <ul class="nav-multiple-row">
+                                    <li><a href="https://www.us-immigration.com/cart/product/b2-tourist-visa-application.html" class="nav-list-title">Visitor Visas</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/b1-business-visa-application.html">B-1 Business Visa Application</a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/b2-tourist-visa-application.html">B-2 Tourist Visa Application</a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/b1b2-visitors-visa-extension-application.html">B-1/B-2 Visitors Visa Extension Application</a></li>
+                                    <li><a href="http://www.us-immigration.com/Family-Based-Visa-Availability.html" class="nav-list-title">Visas for Family Members</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/fiancee-visa.html">Fianc&#233;(e) Visa</a></li>
+                                    <li style="padding-bottom:30px;"><a href="https://www.us-immigration.com/cart/product/k3-and-v1v2-us-entry-visa-for-spouse-or-child-application.html">K-3 and V1/V2 U.S. Entry Visa for Spouse or Child Application</a></li>
+
+                                </ul>
+                                <ul class="nav-multiple-row" style="margin-left:5px;">
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/student-visa.html" class="nav-list-title">Student Visas</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/student-visa.html">Student Visa</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/j1-temporary-exchange-visitor-visa-application.html">J-1 Temporary Exchange Visitor Visa Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/j1-waiver-application.html">J-1 Waiver Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/category/us-visas.html" class="nav-list-title">U.S. Visas - Related Forms</a></li>
+                                    <li><a href="http://www.us-immigration.com/form-I-102-replace-arrival-departure-record-I-94.jsp?lang=en">Replace I-94 Arrival Departure Record</a></li>
+
+                                    <li><a href="http://www.us-immigration.com/affidavit-of-support-form-I-134.jsp?lang=en">Affidavit of Support Form I-134</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/form-i864-affidavit-of-support.html">Form I-864 Affidavit of Support</a></li>
+                                </ul>
+ <!--                               <ul class="nav-multiple-row" style="margin-left:5px;border-right:none;">
+                                    <li><a href="https://www.us-immigration.com/cart/product/fiancee-visa.html" class="nav-list-title">U.S. Visas - Resources</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/fiance-k1-visa--marriage-visa-interview-guide-dvd.html">Fianc&#233;(e) (K-1) Visa &amp; Marriage Visa Interview Guide DVD</a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/how-to-get-a-us-student--tourist-visa-guide-dvd.html">How to Get a U.S. Student &amp; Tourist Visa Guide DVD</a></li>
+                                </ul>-->
+                            </div>
+
+                        </div>
+                        <div class="nav-brd">
+                            <a style="width: 105px;" href="http://www.us-immigration.com/cart/category/employment.html" class="topNav"><span class="nav-title">EMPLOYMENT</span><span class="down-arrow">&nbsp;</span></a>
+
+                            <div class="menu" style="width:446px;">
+
+                                <ul class="nav-multiple-row">
+                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-through-employment-application-cl.html" class="nav-list-title">Green Card Through Employment</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-through-employment-application-cl.html">Green Card Through Employment Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/Green-card-for-multinational-executives-and-managers-cl.html">Green Card for Multinational Executives and Managers</a></li>
+                                    <li style="padding-bottom:212px;"><a href="https://www.us-immigration.com/cart/product/green-card-for-domestic-employee-or-unskilled-labor-application-cl.html">Green Card for Domestic Employee or Unskilled Labor Application</a></li>
+
+                                </ul>
+                                <ul class="nav-multiple-row" style="margin-left:5px;border:none;">
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/l1-temporary-work-visa-for-intracompany-transferee-application.html" class="nav-list-title">Temporary Employment Visas</a></li>
+                                    <li><a href="https://www.us-immigration.com/form-i765-employment-authorization.jsp?lang=en">Employment Authorization Document (EAD)</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/h1b-visa-cl.html">H-1B Visa</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/h2b-work-visa-for-skilled-and-unskilled-workers-application-cl.html">H2-B Work Visa for Skilled and Unskilled Workers Application</a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/h3-trainee-visa-application-cl.html">H-3 Trainee Visa Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/l1-temporary-work-visa-for-intracompany-transferee-application-cl.html">L-1 Temporary Work Visa for Intracompany Transferee Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/o1-individuals-of-extraordinary-ability-work-visa-application.html">O-1 Individuals of Extraordinary Ability Work Visa Application</a></li>
+
+                                    <li><a href="https://www.us-immigration.com/cart/product/r1-religious-worker-visa-application-cl.html">R-1 Religious Worker Visa Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/tn-temporary-work-visa-for-citizens-of-canada-and-mexico-cl.html">TN Temporary Work Visa for Citizens of Canada and Mexico</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/investment-visa-application.html">Investment Visa Application</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                       <!-- <div class="nav-brd">
+                            <a href="http://www.us-immigration.com/cart/category/us-passport.html" class="topNav"><span class="nav-title">PASSPORT</span><span class="down-arrow">&nbsp;</span></a>
+                            <div class="menu">
+                                <ul class="nav-single-row">
+                                    <li><a href="https://www.us-immigration.com/cart/product/new-us-passport-application.html">New U.S. Passport Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-passport-renewal-application.html">U.S. Passport Renewal Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-passport-add-pages-application.html">U.S. Passport Add Pages Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-passport-loststolen-application.html">U.S. Passport Lost-Stolen Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-passport-change-name-application.html">U.S. Passport Change Name Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/second-us-passport-application.html">Second U.S. Passport Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-passport-for-child-application.html">U.S. Passport for Child Application</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/product/us-passport-loststolen-children-application.html">U.S. Passport Lost-Stolen Children Application</a></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        <div class="nav-brd">
+                            <a style="width: 152px;" href="http://www.us-immigration.com/cart/category/immigration-forms.html" class="topNav"><span class="nav-title">IMMIGRATION FORMS</span><span class="down-arrow">&nbsp;</span></a>
+                            <div class="menu" style="width:446px;" id="immg-forms-category">
+                                <ul class="nav-multiple-row">
+
+    			          <li><a href="http://www.us-immigration.com/deferred-action-application-I-821D.jsp?lang=en"><strong>Form I-821D</strong> Deferred Action Application</a></li>
+                                    <li><a href="http://www.us-immigration.com/immigration-forms/form-AR-11.jsp?lang=en"><strong>Form AR-11</strong> Change of Address Form AR-11</a></li>
+                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en"><strong>Form I-90</strong> - Green Card Renewal </a></li>
+                                    <li><a href="http://www.us-immigration.com/Form-I-131-Application-Travel-Document.jsp?referrer=immigrationforms"><strong>Form I-131</strong> Application for Travel Document</a></li>
+
+                                    <li><a href="http://www.us-immigration.com/Adjustment-of-Status-Form-I-485.jsp?referrer=immigrationforms"><strong>Form I-485</strong> Adjustment of Status</a></li>
+
+                                    <li><a href="http://www.us-immigration.com/form-i751-remove-conditions-green-card.jsp?lang=en"><strong>Form I-751</strong> Petition to Remove Conditions</a></li>
+                                    <li><a href="http://www.us-immigration.com/form-i765-employment-authorization.jsp?referrer=immigrationforms"><strong>Form I-765</strong> Employment Authorization</a></li>
+                                </ul>
+
+                                <ul class="nav-multiple-row" style="margin-left:5px;border:none;">
+                                    <li><a href="http://www.us-immigration.com/I-130-immigrant-petition-green-card.jsp?lang=en"><strong>Form I-130</strong> Immigrant Petition Family Green Card</a></li>
+                                    <li><a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp?lang=en"><strong>Form N-400</strong> - U.S. Citizenship Application</a></li>
+                                    <li><a href="http://www.us-immigration.com/replace-certificate-of-citizenship-form-N565.jsp?lang=en"><strong>Form N-565</strong> Replace Certificate of Citizenship</a></li>
+
+                                    <li><a href="http://www.us-immigration.com/certificate-of-citizenship-N-600.jsp?lang=en"><strong>Form N-600</strong> Cerificate of Citizenship</a></li>
+
+<li><a href="http://www.us-immigration.com/temporary-protected-status-application-i-821.jsp?lang=en"><strong>Form I-821</strong> Apply for Temporary Protected Status</a></li>
+                                    <li><a href="https://www.us-immigration.com/cart/category/immigration-forms.html">More Immigration Forms</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="nav-brd">
+                            <a style="width: 98px;" href="http://www.us-immigration.com/us-immigration-news/" class="topNav"><span class="nav-title">NEWS &amp; INFO</span><span class="down-arrow">&nbsp;</span></a>
+                            <div class="menu" id="news-info">
+
+                                <ul class="nav-single-row">
+                                    <li><a href="http://www.us-immigration.com/us-immigration-news/">US Immigration News</a></li>
+
+                                    <li><a href="http://www.us-immigration.com/blog/">US Immigration Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="nav-brd" style="background: none;padding:0;">
+                            <a style="width: 54px;" href="http://www.us-immigration.com/uscis/us-local-offices.html" class="topNav"><span class="nav-title">USCIS</span><span class="down-arrow">&nbsp;</span></a>
+                            <div class="menu" id="uscis-category">
+
+                                <ul class="nav-single-row">
+                                    <li><a href="http://www.us-immigration.com/uscis/us-local-offices.html">USCIS Local Offices</a></li>
+                                    <li><a href="http://www.us-immigration.com/immigration-definition-a.html">Immigration Glossary</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- // end of navigation -->
+
+                    <!--Header Ends Here-->
+                    <div id="homecontent">
+                        <!--Top Content Starts Here-->
+                        <div id="top_content">
+                            <div class="mod_content">
+                                <div class="mod_content_left_home">
+
+                                    <div class="main_banner red_brd"><img src="images/banner-g.jpg" width="712px" height="248px" alt="Prepare your US Immigration application today!" /></div>
+
+
+
+
+
+<!-- private-entity-msg starts -->
+				   <p class="instruction-text-g">US-Immigration.com is a private entity and is not affiliated with or endorsed by the United States government or any other government agency.  You can find blank immigration forms with written instructions for free on the U.S. government's USCIS website.  Purchase price does not include any applicable government filing fees.  US-Immigration.com is not a law firm, does not provide access to attorneys or legal immigration professionals, does not offer any form of legal advice and is not a substitute for the advice of an attorney, but instead allows you to prepare your immigration applications yourself with the help of our Do-It-Yourself Immigration Wizard, to receive clear and concise written instructions and helpful tips from the Wizard along the way, and to receive phone customer support during business hours and 24/7 email customer support.  Customer support is for billing and technical questions only.  Customer support representatives do not answer legal questions or give legal advice.</p>
+				    
+				    <!-- private-entity-msg ends -->
+
+
+ <div class="blue_box_wrap">
+
+                                        <div class="blue_box ">
+                                            <div class="blue_box_content">
+                                                <h2><a href="http://www.us-immigration.com/cart/category/us-citizenship.html" >Citizenship</a></h2>
+
+                                                <p>
+                                                    <a href="http://www.us-immigration.com/cart/category/us-citizenship.html">As a U.S. Citizen you have the right to vote, travel with a U.S. Passport, work as a Federal employee and much more. Learn all about these privileges and find out how to apply for U.S.Citizenship and Naturalization</a></p>
+
+                                                <ul>
+                                                    <li><a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp?lang=en">U.S. Citizenship Application</a></li>
+
+                                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html">Citizenship Test Study Guide</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html">New Naturalization Test</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html">Citizenship Exam</a></li>
+                                                    <li><a href="http://www.us-immigration.com/cart/category/us-citizenship.html">More products...</a></li>
+
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="blue_box  blue_box_space">
+                                            <div class="blue_box_content">
+                                                <h2><a href="http://www.us-immigration.com/cart/category/green-card.html">Green Card</a></h2>
+                                                <p><a href="http://www.us-immigration.com/cart/category/green-card.html">By getting your Green Card you will become a U.S. Lawful Permanent Resident. Find out more about the benefits of being a Green Card holder.</a></p>
+
+                                                <ul>
+
+                                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Green Card Renewal</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Lost or Stolen Green Card</a></li>
+                                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Green Card Replacement</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-through-employment-application.html">Green Card Through Employment</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/Get-Green-Card-Through-Family-Member.jsp?lang=en">Green Card for your Family</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/Green-Card-Through-Marriage.jsp?lang=en">Green Card Through Marriage</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/cart/category/green-card.html">More products...</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="blue_box ">
+                                            <div class="blue_box_content">
+
+                                                <h2><a href="http://www.us-immigration.com/cart/category/us-visas.html">U.S. Visas</a></h2>
+
+                                                <p><a href="http://www.us-immigration.com/cart/category/us-visas.html">You can visit the U.S. with a temporary U.S. Visa. Learn everything about coming to the country for business, tourism, study and work.</a></p>
+
+                                                <ul>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/b1-business-visa-application.html">B-1 Business Visa</a></li>
+
+                                                    <li><a href="https://www.us-immigration.com/cart/product/b2-tourist-visa-application.html">B-2 Tourist Visa</a></li>
+
+                                                    <li><a href="https://www.us-immigration.com/cart/product/student-visa.html">F-1 Student Visa</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/fiancee-visa.html">K-1 Fianc&#233;(e) Visa</a></li>
+
+                                                    <li><a href="https://www.us-immigration.com/cart/product/h1b-visa.html">H-1B Work Visa</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/b1b2-visitors-visa-extension-application.html">B1/B2 Visa Extension</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/cart/category/us-visas.html">More products...</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <br style="clear:both"/>
+
+                                    </div>
+
+
+
+
+									<div class="prep-appl">
+										<h2>Advantages of Preparing Your Application With Us </h2>
+
+										
+										<div class="prep-appl-table">
+											<div class="prep-appl-table-title">
+												<div class="services-title">Services &amp; Features</div>
+												<div class="our-site-title">Our Site</div>
+
+												<div class="us-gov-title">US Government Site</div>
+												<br style="clear:both;" />
+
+											</div>
+											<div class="prep-appli-row">
+												<div class="plus-icon">&nbsp;</div>
+												<div class="services">Personalized Instructions</div>
+												<div class="our-site">Yes</div>
+
+												<div class="us-gov">No</div>
+												<br style="clear:both;" />
+
+											</div>
+											<p class="service-content">Government forms and filing requirements can be confusing and time-consuming. Our instructions are personalized for you and specific to your application: where and how to file, supporting documents, interview tips, filing and biometric fees - everything you need to file your application with confidence.</p>
+											<div class="prep-appli-row">
+												<div class="plus-icon">&nbsp;</div>
+												<div class="services">Intelligent Do-It-Yourself Immigration Wizard</div>
+
+												<div class="our-site">Yes</div>
+												<div class="us-gov">No</div>
+
+												<br style="clear:both;" />
+											</div>
+											<p class="service-content">Prepare your applications online from home, work or the public library. We&#8217;ve converted the government forms into a simple, step-by-step wizard with easy-to-understand questions and instructions customized for your specific situation.</p>
+											<div class="prep-appli-row">
+												<div class="plus-icon">&nbsp;</div>
+
+												<div class="services">24/7 Email Support</div>
+												<div class="our-site">Yes</div>
+
+												<div class="us-gov">No</div>
+												<br style="clear:both;" />
+											</div>
+											<p class="service-content">Contact us Monday through Sunday.  Real people read your messages and respond to your questions quickly and accurately.</p>
+											<div class="prep-appli-row">
+
+												<div class="plus-icon">&nbsp;</div>
+												<div class="services">Phone Support - Easily Speak with a Live Person</div>
+
+												<div class="our-site">Yes</div>
+												<div class="us-gov">No</div>
+												<br style="clear:both;" />
+											</div>
+											<p class="service-content">We provide phone support for our paid services from 9 a.m. through 8pm (EST) Monday - Friday. You'll speak with an experienced agent, not an automated system. Hablamos Espa&#241;ol.</p>
+
+											<div class="prep-appli-row">
+												<div class="plus-icon">&nbsp;</div>
+
+												<div class="services">Helpful Tips and Tools </div>
+												<div class="our-site">Yes</div>
+												<div class="us-gov">No</div>
+												<br style="clear:both;" />
+											</div>
+
+											<p class="service-content">Get tips and information while preparing your form, written by experts in immigration.</p>
+
+											<div class="prep-appli-row">
+												<div class="plus-icon">&nbsp;</div>
+												<div class="services">Free Qualifying Questionnaire</div>
+												<div class="our-site">Yes</div>
+												<div class="us-gov">No</div>
+												<br style="clear:both;" />
+
+											</div>
+
+											<p class="service-content">You'll be sure you use the correct form for your situation and won't waste time and money by filing an incorrect form.</p>
+											<div class="prep-appli-row">
+												<div class="plus-icon">&nbsp;</div>
+												<div class="services">Safe, Secure and Always Available</div>
+												<div class="our-site">Yes</div>
+												<div class="us-gov">No</div>
+
+												<br style="clear:both;" />
+											</div>
+											<p class="service-content">Your data is fully encrypted and protected in our state-of-the-art data centers which are security-tested daily. Your applications are available to you 24x7, whenever you need them.</p>
+											<div class="prep-appli-row">
+												<div class="plus-icon">&nbsp;</div>
+												<div class="services">Professional Templates for Additional Information</div>
+												<div class="our-site">Yes</div>
+
+												<div class="us-gov">No</div>
+												<br style="clear:both;" />
+											</div>
+											<p class="service-content">Made more than five trips abroad? Lived in more than five residences? Need to explain an answer? We automatically add professionally prepared addendum pages to your application, so you don't need to write them by hand.</p>
+											<div class="prep-appli-row">
+												<div class="plus-icon">&nbsp;</div>
+												<div class="services">All the Forms You Need</div>
+
+												<div class="our-site">Yes</div>
+												<div class="us-gov">No</div>
+												<br style="clear:both;" />
+											</div>
+											<p class="service-content">An application often consists of more than one form. We automatically include all the forms that you need for your application. We even pre-fill information on the forms so you never enter the same information twice.</p>
+										
+										</div>
+									
+									</div>
+
+									
+
+	<!--div style="padding:2px;margin:0 0 5px 0;border: 1px solid #C90202;background: url('images/grey_bg_box.gif') repeat-x scroll 0 100% transparent;height: 165px;">
+                                        <div style="margin:0;padding:0;height:29px;background: url('images/nav_bg.gif') repeat-x scroll 0 0 transparent;"><p style="padding:5px;margin:0;color:#fff;font-size:14px;font-weight:bold;">Why Use Our Products?</p></div>
+                                        <p style="padding:10px;margin:0">
+                                            Get the most helpful US immigration guides. American Immigration Center is a leading publisher of immigration guides, news, and online wizards. Our site offers step-by-step tutorials for the US <a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp?lang=en">citizenship application</a> as well as for the Green Card and visa applications. We can supply you with examples of completed immigration forms.
+                                            <br /><br />
+                         You'll find that our self-instruction material for <a href="http://www.us-immigration.com/cart/category/green-card.html">Green Card renewal</a> and other processes is clear and easy to follow. Have the instructions needed to complete forms for <a href="https://www.us-immigration.com/cart/category/us-visas.html">US visas</a> or for the application for a US passport. Our examples of completed forms come with customized filing instructions. Choose to be well prepared when filing, and don't go without adequate guidance in matters of <a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp?lang=en">naturalization and immigration</a>.
+                                            <br />
+
+                                        </p>
+
+</div>
+                                    <div class="blue_box_wrap">
+                                        <div class="blue_box ">
+                                            <div class="blue_box_content">
+                                                <h2><a href="http://www.us-immigration.com/cart/category/us-citizenship.html" >Citizenship</a></h2>
+
+                                                <p>
+                                                    <a href="http://www.us-immigration.com/cart/category/us-citizenship.html">As a U.S. Citizen you have the right to vote, travel with a U.S. Passport, work as a Federal employee and much more. Learn all about these privileges and find out how to apply for U.S.Citizenship and Naturalization</a></p>
+
+                                                <ul>
+                                                    <li><a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp?lang=en">U.S. Citizenship Application</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html">Citizenship Test Study Guide</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html">New Naturalization Test</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html">Citizenship Exam</a></li>
+                                                    <li><a href="http://www.us-immigration.com/cart/category/us-citizenship.html">More products...</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="blue_box  blue_box_space">
+                                            <div class="blue_box_content">
+                                                <h2><a href="http://www.us-immigration.com/cart/category/green-card.html">Green Card</a></h2>
+                                                <p><a href="http://www.us-immigration.com/cart/category/green-card.html">By getting your Green Card you will become a U.S. Lawful Permanent Resident. Find out more about the benefits of being a Green Card holder.</a></p>
+
+                                                <ul>
+
+                                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Green Card Renewal</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Lost or Stolen Green Card</a></li>
+                                                    <li><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp?lang=en">Green Card Replacement</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/green-card-through-employment-application.html">Green Card Through Employment</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/Get-Green-Card-Through-Family-Member.jsp?lang=en">Green Card for your Family</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/Green-Card-Through-Marriage.jsp?lang=en">Green Card Through Marriage</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/cart/category/green-card.html">More products...</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="blue_box ">
+                                            <div class="blue_box_content">
+
+                                                <h2><a href="http://www.us-immigration.com/cart/category/us-visas.html">U.S. Visas</a></h2>
+
+                                                <p><a href="http://www.us-immigration.com/cart/category/us-visas.html">You can visit the U.S. with a temporary U.S. Visa. Learn everything about coming to the country for business, tourism, study and work.</a></p>
+
+                                                <ul>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/b1-business-visa-application.html">B-1 Business Visa</a></li>
+
+                                                    <li><a href="https://www.us-immigration.com/cart/product/b2-tourist-visa-application.html">B-2 Tourist Visa</a></li>
+
+                                                    <li><a href="https://www.us-immigration.com/cart/product/student-visa.html">F-1 Student Visa</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/fiancee-visa.html">K-1 Fianc&#233;(e) Visa</a></li>
+
+                                                    <li><a href="https://www.us-immigration.com/cart/product/h1b-visa.html">H-1B Work Visa</a></li>
+                                                    <li><a href="https://www.us-immigration.com/cart/product/b1b2-visitors-visa-extension-application.html">B1/B2 Visa Extension</a></li>
+
+                                                    <li><a href="http://www.us-immigration.com/cart/category/us-visas.html">More products...</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <br style="clear:both"/>
+
+                                    </div -->
+
+
+
+
+                        
+
+
+                        <!-- Advantages Compare Chart 
+                        <h3 class="advantages-chart">Advantages of Preparing Your Application With Us</h3>
+                        <table cellspacing="0" cellpadding="0" border="0" class="compare-chart">
+                                <tr>
+                                <td class="header services-features">Services &amp; Features</td>
+                                <td class="header sites">US-Immigration.com</td>
+                                <td class="header sites">US Government Site</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Blank Free PDF Form</li></ul></td>
+                                <td class="sites No">No</td>
+                                <td class="sites">Yes</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Step-by-step Form Wizard</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Pre-Fill All Common Info on All Forms</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Free Interactive Eligibility Quiz</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Simplified Questions</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Customized Filing Instructions</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Automatic Addendum Additions</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Automatic Form Additions to Applications</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Mutiple Forms Combined into One Application</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>24/7 Customer Support</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>Self Help DVD's</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                                <tr>
+                                <td class="services-features"><ul><li>E-Book Guides</li></ul></td>
+                                <td class="sites">Yes</td>
+                                <td class="sites No">No</td>
+                                </tr>
+                        </table>
+                        <br />
+                         Advantages Compare Chart - Ends-->
+
+                        <div class="editorial red_brd">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td><img src="images/immigration_news.png" width="179" height="25" alt="immigrationnews" /></td>
+                                </tr>
+                                <tr>
+                                    <td class="td_editorial">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td class="td_brd" width="32%" valign="top">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td><a href="http://www.us-immigration.com/deferred-action-application-I-821D.jsp?lang=en">
+                                                                    <img src="images/Barak-Obama.jpg" alt="Deferred Action for Childhood Arrivals"/></a>
+                                                            </td>
+                                                            <td class="text"><h3>Deferred Action for Childhood Arrivals Process</h3></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" class="text">This past summer, President Obama introduced a new policy which would allow children of...</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_brd read_more"><a href="http://www.us-immigration.com/deferred-action-application-I-821D.jsp?lang=en">read more</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td class="td_editorial">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td class="td_brd" width="32%" valign="top">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td><a href="http://www.us-immigration.com/us-immigration-news/us-immigration/white-house-pushes-for-immigration-reform/">
+                                                                    <img src="/images/US-blog.jpg" alt="US" /></a></td>
+                                                            <td class="text"><h3>White House pushes for immigration reform</h3></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" class="text">The White House might be on the defensive when it comes to issues such as the National.... </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_brd read_more">
+                                                    <a href="http://www.us-immigration.com/us-immigration-news/us-immigration/white-house-pushes-for-immigration-reform/">read more</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td class="td_editorial">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="32%" valign="top">
+                                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td><a href="http://www.us-immigration.com/us-immigration-news/us-immigration/the-triumphs-and-trials-of-the-dream-act/">
+                                                                    <img src="images/flag-blog.jpg" alt="flaggg" /></a></td>
+                                                            <td class="text"><h3>The triumphs and trials of the DREAM Act</h3></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" class="text">The federal government passed the DREAM Act in the June of last year and since then... </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="read_more">
+                                                    <a href="http://www.us-immigration.com/us-immigration-news/us-immigration/the-triumphs-and-trials-of-the-dream-act/">read more</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    
+                    <div class="mod_content_right_home">
+
+
+    <!--Most Popular Starts Here-->
+    <div class="most-popular">
+        <h2 style="background:#00215A url(/images/most-popular-bg.png) 180px bottom no-repeat">Most Popular</h2>
+        <p><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp">Green card Renewal<br /> <strong>Form I-90</strong></a></p>
+        <p><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp">Lost or Stolen Green Card<br /> <strong>Form I-90</strong></a></p>
+        <p><a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp">US Citizenship Application<br /> <strong>Form N-400</strong></a></p>
+        <p><a href="http://www.us-immigration.com/deferred-action-application-I-821D.jsp">Deferred Action for Childhood Arrivals<br /> <strong>Form I-821D</strong></a></p>
+
+
+        <p><a href="http://www.us-immigration.com/replace-certificate-of-citizenship-form-N565.jsp">Replace Certificate Citizenship<br /> <strong>Form N-565</strong></a></p>
+        <p><a href="http://www.us-immigration.com/I-130-immigrant-petition-green-card.jsp">Immigrant Petition Family Green Card<br /><strong>Form I-130</strong></a></p>
+        
+        <p><a href="http://www.us-immigration.com/Adjustment-of-Status-Form-I-485.jsp">Adjustment of Status <br /> <strong>Form I-485</strong></a></p>
+        <p><a href="https://www.us-immigration.com/cart/product/b2-tourist-visa-application.html">Visitor Visa</a></p>
+        <p><a href="https://www.us-immigration.com/cart/product/form-i131-advance-parole-travel-document.html">Application for Travel Document <br /> <strong>Form I-131</strong></a></p>
+        <p><a href="http://www.us-immigration.com/certificate-of-citizenship-N-600.jsp">Certificate of Citizenship <br /> <strong>Form N-600</strong></a></p>
+        <p><a href="http://www.us-immigration.com/form-i751-remove-conditions-green-card.jsp">Petition to Remove Conditions <br /> <strong>Form I-751</strong></a></p>
+
+        <p><a href="http://www.us-immigration.com/form-i765-employment-authorization.jsp">Employment Authorization Document <br /><strong>Form I-765</strong></a></p>
+        <p><a href="http://www.us-immigration.com/cart/category/immigration-forms.html" style="border-bottom:none;">USCIS Forms</a></p>
+    </div>
+    <!--Most Popular Ends Here-->
+    <!-- Resources Starts Here -->
+    <div class="resources">
+        <h2>RESOURCES</h2>
+        <p><a href="http://www.us-immigration.com/immigrant-resources.jsp" >Immigrant Resources</a></p>
+        <p><a href="javascript:popupWin('/Family-Based-Visa-Availability.html',980,600);">Family-Based Visa Availability</a></p>
+        <p><a href="javascript:popupWin('/Employment-Based-Visa-Availability.html',980,600);">Employment-Based Visa Availability</a></p>
+        <p><a href="/Approved-Doctors-for-Medical-Examinations.html">Approved Doctors for Medical Examinations</a></p>
+        <p><a href="/cart/product/form-i864-affidavit-of-support.html">Affidavit of Support</a></p>
+    </div>
+    <!-- Resources ends Here -->
+
+    <!-- Recent blog posts starts here -->
+  <div class="blogs">
+        <h2>RECENT BLOG POSTS</h2>
+
+       <div class="blog-post">
+            <h3><a href="http://www.us-immigration.com/blog/american-immigration-weekly-recap-october-28th-to-november-1st" rel="bookmark" target="_blank">American Immigration Weekly Recap - October 28th to November 1st</a></h3>
+            <h4>Immigration reform still kicking: In the last week, many articles claimed that comprehensive immigration reform...</h4>
+            <p><a href="http://www.us-immigration.com/blog/american-immigration-weekly-recap-october-28th-to-november-1st">> Read more</a></p>
+        </div>
+
+        <div class="blog-post">
+            <h3><a href="http://www.us-immigration.com/blog/deferred-action-age-restrictions" rel="bookmark" target="_blank">Deferred Action Age Restrictions</a></h3>
+            <h4>Many DREAMers are still unaware of the age restrictions for deferred action status. To become eligible for deferred action...</h4>
+            <p><a href="http://www.us-immigration.com/blog/deferred-action-age-restrictions">>Read more</a></p>
+        </div>
+
+        <div class="blog-post" style="border-bottom:none;">
+            <h3><a href="http://www.us-immigration.com/blog/can-minor-siblings-of-us-citizens-immigrate-through-parents-petitions" rel="bookmark" target="_blank">Can Minor Siblings of US Citizens Immigrate Through Parents' Petitions?</a></h3>
+            <h4>Many believe that a minor sibling of a US citizen can get a Green Card through his/her parents' petition...</h4>
+            <p><a href="http://www.us-immigration.com/blog/can-minor-siblings-of-us-citizens-immigrate-through-parents-petitions">> Read more</a></p>
+        </div>
+                                       
+                                    </div>
+    <!-- Recent blog posts ends here -->
+    <div class="resources">
+        <h2>Share the page</h2>
+        <div class="social-icon-block">
+            <a href="//www.facebook.com/pages/us-immigrationcom/192873494092140" target="_blank" class="addthis_button_facebook" title="Send to Facebook">
+                <span class="facebook-link social-site-icon">&nbsp;</span></a>
+            <a href="//twitter.com/usimmigration0" target="_blank" class="addthis_button_twitter" title="Tweet This">
+                <span class="tweet-link social-site-icon">&nbsp;</span></a>
+            <a href="//www.addthis.com/bookmark.php" target="_blank" class="addthis_button_email" title="Email">
+                <span class="email-link social-site-icon">&nbsp;</span></a>
+            <a style="height: 24px;" href="//plus.google.com/116409714859316781061/" target="_blank" class="addthis_button_google_plusone" g:plusone:count="false" g:plusone:size="large" title="Google +1"></a>
+        </div>	   
+    </div>
+    <br style="clear:both;" />
+</div>
+<br style="clear:both"/>
+</div>
+<p class="top_content_links">
+    <a href="/privacy.html">PRIVACY POLICY</a>&nbsp; &nbsp; |  &nbsp;&nbsp;
+    <a href="/conditions.html">TERMS AND CONDITIONS</a>&nbsp; &nbsp; |  &nbsp;&nbsp;
+    <a href="/contact.jsp">CONTACT</a>&nbsp; &nbsp; |  &nbsp;&nbsp;
+    <a href="http://www.us-immigration.com/blog">BLOG</a>&nbsp; &nbsp; |  &nbsp;&nbsp;
+    <a href="/sitemap.jsp">SITE MAP</a>
+</p>
+</div>
+
+<!-- Start footer.jsp -->
+
+<div id="bottom_content">
+    <div class="bottom_content_bg">
+        <div class="bottom_content_left">
+            <h3>US Citizenship</h3>
+                                                <p><a class="AIC-sitemap-anchortext" href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp">Citizenship Application Form N-400</a></p>
+                                                <p><a class="AIC-sitemap-anchortext" href="http://www.us-immigration.com/replace-certificate-of-citizenship-form-N565.jsp">Replace Certificate of Citizenship Form N-565</a></p>
+                                                <p><a class="AIC-sitemap-anchortext" href="http://www.us-immigration.com/certificate-of-citizenship-N-600.jsp">Certificate of Citizenship Form N-600</a></p>
+                                                <p><a class="AIC-sitemap-anchortext" href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html">Citizenship Test &amp; Interview</a></p>
+
+                                                <h3>US Immigration</h3>
+
+                                                <p><a href="https://www.us-immigration.com/cart/category/immigration-forms.html" class="AIC-sitemap-anchortext">Immigration Forms</a></p>
+						<p><a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp" class="AIC-sitemap-anchortext">US Citizenship</a></p>
+						<p><a href="https://www.us-immigration.com/cart/category/green-card.html" class="AIC-sitemap-anchortext">Green Card</a></p>
+                                               <p><a href="https://www.us-immigration.com/cart/category/us-visas.html" class="AIC-sitemap-anchortext">US Visas</a></p>
+						<p><a href="https://www.us-immigration.com/cart/category/employment.html" class="AIC-sitemap-anchortext">Employment Immigration</a></p>
+						<!-- <p><a href="https://www.us-immigration.com/cart/category/us-passport.html" class="AIC-sitemap-anchortext">Passports</a></p> -->
+						<p><a href="http://www.us-immigration.com/us-immigration-news/" class="AIC-sitemap-anchortext">US Immigration News</a></p>
+						<p><a href="http://www.us-immigration.com/blog/" class="AIC-sitemap-anchortext">US Immigration Blog</a></p>
+
+						<p><a href="https://www.us-immigration.com/cart/category/immigration-forms.html" class="AIC-sitemap-anchortext">USCIS Forms</a></p>
+						<p><a href="http://www.us-immigration.com/immigrant-resources.jsp" class="AIC-sitemap-anchortext">Immigrant Resources</a></p>
+
+                                                <!-- <h3>Passports</h3>
+
+                                                <p><a href="https://www.us-immigration.com/cart/product/new-us-passport-application.html" class="AIC-sitemap-anchortext">US Passport Application</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/us-passport-renewal-application.html" class="AIC-sitemap-anchortext">Passport Renewal Application</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/us-passport-for-child-application.html" class="AIC-sitemap-anchortext">Passport for Child Application</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/us-passport-loststolen-children-application.html" class="AIC-sitemap-anchortext">Replace Lost or Stolen Passport </a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/us-passport-change-name-application.html" class="AIC-sitemap-anchortext">Passport Name Change Application</a></p> -->
+
+
+                                                <h3>Green Card</h3>
+
+
+                                                <p><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp" class="AIC-sitemap-anchortext">Green Card Renewal Form I-90</a></p>
+						<p><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp" class="AIC-sitemap-anchortext">Green Card Replacement Form I-90</a></p>
+						<p><a href="http://www.us-immigration.com/form-i751-remove-conditions-green-card.jsp" class="AIC-sitemap-anchortext">Remove Condition on Green Card Form I-751</a></p>
+						<p><a href="http://www.us-immigration.com/Adjustment-of-Status-Form-I-485.jsp" class="AIC-sitemap-anchortext">Adjustment of Status Form I-485</a></p>
+						<p><a href="http://www.us-immigration.com/Green-Card-Through-Marriage.jsp" class="AIC-sitemap-anchortext">Green Card by Marriage</a></p>
+						<p><a href="http://www.us-immigration.com/Get-Green-Card-Through-Family-Member.jsp" class="AIC-sitemap-anchortext">Green Card for Family</a></p>
+						
+
+						<h3>New Articles</h3>
+
+
+                                                <p><a href="http://www.us-immigration.com/freedom-information-privacy-act-facts" class="AIC-sitemap-anchortext">FOIA</a></p>
+                                                <p><a href="http://www.us-immigration.com/international-adoption-immigration/" class="AIC-sitemap-anchortext">International Adoption Immigration</a></p>
+                                                <p><a href="http://www.us-immigration.com/uscis-guide-being-granted-asylum-u-s/" class="AIC-sitemap-anchortext">Asylum</a></p>
+                                                <p><a href="http://www.us-immigration.com/us-border-crossing/" class="AIC-sitemap-anchortext">US Border Crossing</a></p>
+                                                <p><a href="http://www.us-immigration.com/study-in-the-states/" class="AIC-sitemap-anchortext">Study in U.S.</a></p>
+                                               
+        </div>
+        <div class="bottom_content_right">
+                <h3>US Visas</h3>
+
+                                                <p><a href="https://www.us-immigration.com/cart/product/b2-tourist-visa-application.html" class="AIC-sitemap-anchortext">Visitor Visa (B2 Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/b2-tourist-visa-application.html" class="AIC-sitemap-anchortext">Business Visa (B1 Visa)</a></p>
+                                             	<p><a href="https://www.us-immigration.com/cart/product/b1b2-visitors-visa-extension-application.html" class="AIC-sitemap-anchortext">Visitor Visa Extension (I-539 form)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/fiancee-visa.html" class="AIC-sitemap-anchortext">Fiancee Visa (K1 Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/student-visa.html" class="AIC-sitemap-anchortext">Student Visa (F1 Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/j1-temporary-exchange-visitor-visa-application.html" class="AIC-sitemap-anchortext">Visitor Exchange Visa (J1 Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/h1b-visa.html" class="AIC-sitemap-anchortext">Work Visa (H1B Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/h2b-work-visa-for-skilled-and-unskilled-workers-application.html" class="AIC-sitemap-anchortext">Skilled/Unskilled Work Visa (H2B Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/h3-trainee-visa-application.html" class="AIC-sitemap-anchortext">Trainee Visa (H3 Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/l1-temporary-work-visa-for-intracompany-transferee-application.html" class="AIC-sitemap-anchortext">Intracompany Transferee (L1 Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/o1-individuals-of-extraordinary-ability-work-visa-application.html" class="AIC-sitemap-anchortext">Extraordinary Ability Work Visa (O1 Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/r1-religious-worker-visa-application.html" class="AIC-sitemap-anchortext">Religious Worker Visa (R1 Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/tn-temporary-work-visa-for-citizens-of-canada-and-mexico-cl.html" class="AIC-sitemap-anchortext">TN Work Visa (TN Visa)</a></p>
+						<p><a href="https://www.us-immigration.com/cart/product/k3-and-v1v2-us-entry-visa-for-spouse-or-child-application.html" class="AIC-sitemap-anchortext">US Visa Entry for Spouse and Children</a></p>
+
+                                                <h3>US Immigration Forms</h3>
+
+                                                <p><a href="http://www.us-immigration.com/Adjustment-of-Status-Form-I-485.jsp" class="AIC-sitemap-anchortext">Adjust Status Form I-485</a></p>
+						<p><a href="http://www.us-immigration.com/us-citizenship-and-naturalization-application.jsp" class="AIC-sitemap-anchortext">US Citizenship Application Form N-400</a></p>
+						<p><a href="http://www.us-immigration.com/replace-lost-stolen-green-card-Form-I-90.jsp" class="AIC-sitemap-anchortext">Renew Green Card Form I-90</a></p>
+						<p><a href="http://www.us-immigration.com/form-i765-employment-authorization.jsp" class="AIC-sitemap-anchortext">Employment Authorization Document Form I-765</a></p>
+						<p><a href="http://www.us-immigration.com/deferred-action-application-I-821D.jsp" class="AIC-sitemap-anchortext">Deferred Action Application Form I-821D</a></p>
+						<p><a href="http://www.us-immigration.com/Form-I-131-Application-Travel-Document.jsp" class="AIC-sitemap-anchortext">Travel Document Application Form I-131</a></p>
+						<p><a href="http://www.us-immigration.com/form-i751-remove-conditions-green-card.jsp" class="AIC-sitemap-anchortext">Conditional Green Card Form I-751</a></p>
+						<p><a href="http://www.us-immigration.com/replace-certificate-of-citizenship-form-N565.jsp" class="AIC-sitemap-anchortext">Certificate of Citizenship Replacment Form N-565</a></p>
+						<p><a href="http://www.us-immigration.com/certificate-of-citizenship-N-600.jsp" class="AIC-sitemap-anchortext">Certificate of Citizenship Application Form N-600</a></p>
+						<p><a href="http://www.us-immigration.com/form-I-824-replace-I-797.jsp" class="AIC-sitemap-anchortext">Duplication Approval Notice Form I-824</a></p>
+						<p><a href="http://www.us-immigration.com/form-I-102-replace-arrival-departure-record-I-94.jsp" class="AIC-sitemap-anchortext">Replace Arrival Departure Record Form I-102</a></p>
+						<p><a href="http://www.us-immigration.com/temporary-protected-status-application-i-821.jsp" class="AIC-sitemap-anchortext">Temporary Protected Status Form I-821</a></p>
+						<p><a href="http://www.us-immigration.com/affidavit-of-support-form-I-134.jsp" class="AIC-sitemap-anchortext">Affidavit of Support Form I-134</a></p>
+
+
+                                                <h3>US Immigration DVDS &amp; Resources</h3>
+                                                <p><a href="https://www.us-immigration.com/cart/product/us-citizenship-exam-and-interview-guide-dvd-english.html" class="AIC-sitemap-anchortext">How to Pass US Citizenship Test &amp; Interview</a></p>
+						
+						
+						
+						<p><a href="https://www.us-immigration.com/Approved-Doctors-for-Medical-Examinations.html" class="AIC-sitemap-anchortext">USCIS Approved Immigration Doctors</a></p>
+        </div>
+        <br style="clear:both" />
+    </div>
+
+</div>
+
+                    
+
+                    <div id="homefooter">
+                        <div class="footer_left"><a href="/blog/feed"><img src="images/rss-feed.jpg" alt="" /></a><br /><img src="images/social-img.jpg" alt="" /></div>
+                        <div class="footer_right">
+                            <p><span class="blue_text">Site Disclaimer:</span> This website does not offer any form of legal advice, but general information on immigration forms, applications and procedures. You may download blank government forms for free at www.uscis.gov. US-Immigration.com offers self-help services at a customer's own specific direction and does not offer any legal advice or opinions to its customers about the choice of forms, answers to specific application questions, or their legal rights. US-Immigration.com is not a law firm, and is not a substitute for a law firm or an attorney, and is not affiliated with the U.S. government. By using this website, you are agreeing to its Terms and Conditions and Privacy Policy. Purchase price does not include application or filing fees that may be charged by any U.S. government agency, including without limitation the USCIS.</p>
+                            <p>Copyright &copy; 1998-2014 American Immigration Center Inc. All Rights Reserved.</p>
+
+                        </div>
+                        <br style="clear:both" />
+                    </div>
+                    <!-- End footer.jsp -->
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- swiftype search -->        
+<!--        <script type='text/javascript' src='/scripts/jquery.swiftype.autocomplete.js'></script>
+        <script type='text/javascript' src='/scripts/swiftype.js'></script> -->
+        <!-- // swfitype search -->
+
+        <script type="text/javascript" src="/scripts/static-scripts.js"></script>
+        <script type="text/javascript" src="/scripts/nav-new.js"></script>
+        <!-- AddThis script -->
+        <script type="text/javascript">var addthis_config={"data_track_clickback":true};var pagename=window.location.pathname;if(pagename.indexOf(".")!=-1){pagename=pagename.substring(1,pagename.lastIndexOf("."));}
+            pagename.replace(/-/gi,"_")
+            pagename="addthis-{{code}}-"+pagename;var addthis_share={"url_transforms":{"add":{"r":pagename}}}</script>
+        <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-50459a5708ec2fca"></script>
+        <!-- AddThis script -->
+        <script type="text/javascript">
+            function TrackPage(){
+                var _yat;
+                _yat = YWA.getTracker("1000610573062");
+                _yat.submit();
+            }
+            (function(){
+                var ya = document.createElement('script');
+                ya.type = 'text/javascript'; ya.async = true;
+                ya.src = ('https:' == document.location.protocol ? 'https://s' : 'http://d') + '.yimg.com/mi/ywa.js';
+                ya.onreadystatechange = function () {
+                    if (ya.readyState == 'complete') {
+                        TrackPage();
+                    }
+                }
+                ya.onload = function () {
+                    TrackPage();
+                };
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ya, s);
+            })();
+        </script>
+        <noscript>
+            <div><img src="//a.analytics.yahoo.com/p.pl?a=1000610573062&amp;js=no" width="1" height="1" alt="" /></div>
+        </noscript>
+
+        <img src="/referertracker.jsp?pagename=index&action=visit" width="1" height="1"/>
+
+
+<!-- Google Script starts -->
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+   var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-38452775-1']);
+  _gaq.push(['_setDomainName', '.us-immigration.com']);
+ _gaq.push(['_trackPageview']);
+ _gaq.push(['_trackPageLoadTime']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+
+<!-- Google Script ends -->
+
+
+<script type="text/javascript">
+			$(function(){
+				$('.prep-appli-row .plus-icon, .prep-appli-row .services').click(function(){
+					$('.service-content').slideUp('fast');
+					$('.prep-appli-row .plus-icon').removeClass('minus-icon');
+					if($(this).parent('.prep-appli-row').next('.service-content').css('display') === 'none') 
+					{
+						$(this).parent('.prep-appli-row').next('.service-content').slideDown('fast');
+						$(this).parent('.prep-appli-row').children('.plus-icon').addClass('minus-icon');
+					}
+					else
+					{
+						$('.service-content').slideUp('fast');
+						$('.prep-appli-row .plus-icon').removeClass('minus-icon');
+					}
+				});
+			});
+
+			function validateEmail(){
+			var email = $('.sign-in-input').children('#signinemailid').val();
+			var password = $('.sign-in-input').children('#signinpassword').val();
+			if(email != null && email != "" && password != ""){
+			if(isValidEmailId(email)){
+			$('#loginForm').submit();
+		        }else{
+			$('.sign-in-input').children('.error').show().html("Either the e-mail address or password you entered were incorrect. Please try again.");
+			}
+			}else if(email != null && email != ""){
+			 $('.sign-in-input').children('.error').show().html("Please enter your Password.");
+			}else if(password != ""){
+			$('.sign-in-input').children('.error').show().html("Please enter your Email Address.");
+                        }else{
+			$('.sign-in-input').children('.error').show().html("Please enter your Email Address and Password to continue.");
+			}
+			}
+
+			function isValidEmailId(emailId){
+			var regExp = new RegExp(/^[\w_\.\-]+[a-zA-Z0-9]+@[\w.\-]+\.[a-zA-Z]{2,4}$/);
+			return regExp.test(emailId);
+			}
+
+		</script>
+
+
+
+ 
+    </body>
+</html>
+
+
+
+

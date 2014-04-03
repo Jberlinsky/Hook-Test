@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Icetatalu | Writing away with Blog.com</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://dok199alesif.blog.com/wp-content/themes/twentyeleven/style.css" />
+<!--[if lt IE 9]>
+<script src="http://dok199alesif.blog.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<meta name="robots" content="index,follow" />
+<meta name="description" content="Writing away with Blog.com" />
+<meta property="og:site_name" content="Icetatalu" />
+<meta property="fb:admins" content="1603534407,548395722,1608520869,695330763" />
+<meta property="og:type" content="blog" />
+<meta property="og:title" content="Icetatalu" />
+<meta property="og:url" content="http://dok199alesif.blog.com" />
+<meta property="og:description" content="Writing away with Blog.com" />
+<meta property="og:image" content="http://blog.com/wp-content/avatars/blog/default-avatar-80.png" />
+<link rel="alternate" type="application/rss+xml" title="Icetatalu &raquo; Feed" href="http://dok199alesif.blog.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Icetatalu &raquo; Comments Feed" href="http://dok199alesif.blog.com/comments/feed/" />
+<link rel='stylesheet' id='admin-bar-css'  href='http://dok199alesif.blog.com/wp-includes/css/admin-bar.css?ver=20110411' type='text/css' media='all' />
+<link rel='stylesheet' id='blogcom-admin-bar-css'  href='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-admin-theme/css/blogcom-admin-bar.css?ver=3.2-bleeding' type='text/css' media='all' />
+<link rel='stylesheet' id='NextGEN-css'  href='http://dok199alesif.blog.com/wp-content/mu-plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://dok199alesif.blog.com/wp-content/mu-plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='yui-cssreset-context-css'  href='http://yui.yahooapis.com/3.5.1/build/cssreset-context/cssreset-context.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='blogcom_oauth_comments_style-css'  href='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/css/base.css?ver=3.2-bleeding' type='text/css' media='all' />
+<link rel='stylesheet' id='blogcom_oauth_comments_twitter_style-css'  href='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/css/twitter.css?ver=3.2-bleeding' type='text/css' media='all' />
+<link rel='stylesheet' id='blogcom_oauth_comments_google_style-css'  href='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/css/google.css?ver=3.2-bleeding' type='text/css' media='all' />
+<link rel='stylesheet' id='blogcom_oauth_comments_browserid_style-css'  href='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/css/browserid.css?ver=3.2-bleeding' type='text/css' media='all' />
+<link rel='stylesheet' id='blogcom_oauth_comments_facebook_style-css'  href='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/css/facebook.css?ver=3.2-bleeding' type='text/css' media='all' />
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-includes/js/jquery/jquery.js?ver=1.4.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {
+	msgLoading: "L O A D I N G",
+	msgClose: "Click to Close",
+	imageCount: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-content/mu-plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-includes/js/swfobject.js?ver=2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ngg_ajax = {
+	path: "http://dok199alesif.blog.com/wp-content/mu-plugins/nextgen-gallery/",
+	callback: "http://dok199alesif.blog.com/index.php?callback=ngg-ajax",
+	loading: "loading"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-content/mu-plugins/nextgen-gallery/js/ngg.js?ver=2.0'></script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/js/base.js?ver=3.2-bleeding'></script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/js/twitter.js?ver=3.2-bleeding'></script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/js/google.js?ver=3.2-bleeding'></script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/js/browserid.js?ver=3.2-bleeding'></script>
+<script type='text/javascript' src='https://browserid.org/include.js?ver=current'></script>
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-content/mu-plugins/blogcom-oauth-comments/js/facebook.js?ver=3.2-bleeding'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dok199alesif.blog.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dok199alesif.blog.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Icetatalu' href='http://dok199alesif.blog.com/' />
+<script type="text/javascript" src="http://dok199alesif.blog.com/wp-content/mu-plugins/audio-player/assets/audio-player.js?ver=20100116115547"></script>
+<script type="text/javascript">AudioPlayer.setup("http://dok199alesif.blog.com/wp-content/mu-plugins/audio-player/assets/player.swf?ver=20100116115547", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<script type="text/javascript"><!--
+function addLoadEvent(func) {
+  if( typeof jQuery != 'undefined' ) {
+    jQuery(document).ready( func );
+  } else if( typeof Prototype != 'undefined' ) {
+    Event.observe( window, 'load', func );
+  } else {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload)
+          oldonload();
+        
+        func();
+      }
+    }
+  }
+}
+function wphc(){
+	var wphc_data = [1373630777,1558113579,1522660223,1574099772,1187312690,1234742330,1204150573,93448749,92385645,193377390,92386676,126005357,26918246,42513769,427995247,76070246,59160166,58897780,427865967,8499309,110802536,428325999,428127080,176206184,10137965,428061548,92583022,8433512,194687854,428389482,41988203,42055028,125874023,428453739,315408237,1373238312,1608443648,1472590127,311078263]; 
+
+	for (var i=0; i<wphc_data.length; i++){
+		wphc_data[i]=wphc_data[i]^850494559;
+	}
+
+	var a = new Array(wphc_data.length); 
+	for (var i=0; i<wphc_data.length; i++) { 
+		a[i] = String.fromCharCode(wphc_data[i] & 0xFF, wphc_data[i]>>>8 & 0xFF, wphc_data[i]>>>16 & 0xFF, wphc_data[i]>>>24 & 0xFF);
+	}
+
+	return eval(a.join('')); 
+}
+addLoadEvent(function(){var el=document.getElementById('wphc_value');if(el)el.value=wphc();});
+//--></script>
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css">
+	html { margin-top: 28px !important; }
+	* html body { margin-top: 28px !important; }
+</style>
+			<script type="text/javascript">var p="http",d="static";if(document.location.protocol=="https:"){p+="s";d="engine";}var z=document.createElement("script");z.type="text/javascript";z.async=true;z.src=p+"://"+d+".adzerk.net/ados.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(z,s);</script>
+			<script type="text/javascript">
+			var ados = ados || {};
+			ados.run = ados.run || [];
+			ados.run.push(function() {
+
+			ados_add_placement(4912, 21632, "azk71839", 9).setZone(17080);
+
+					
+			ados_load();
+			});</script>
+			
+	<!--
+		-->
+
+			<script type="text/javascript">
+			var _gaq = _gaq || [];
+
+						_gaq.push(
+				['_setAccount', 'UA-235880-1'],
+                				['_trackPageview'],
+				['_trackPageLoadTime']
+			);
+			
+			
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+
+<body class="home blog admin-bar single-author two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://dok199alesif.blog.com/" title="Icetatalu" rel="home">Icetatalu</a></span></h1>
+				<h2 id="site-description">Writing away with Blog.com</h2>
+			</hgroup>
+
+			
+								<form method="get" id="searchform" action="http://dok199alesif.blog.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+				<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+								<div class="menu"><ul><li class="current_page_item"><a href="http://dok199alesif.blog.com/" title="Home">Home</a></li><li class="page_item page-item-2"><a href="http://dok199alesif.blog.com/sample-page/" title="Sample Page">Sample Page</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+			
+						<nav id="nav-above">
+			<h3 class="assistive-text">Post navigation</h3>
+			<div class="nav-previous"><a href="http://dok199alesif.blog.com/page/2/" ><span class="meta-nav">&larr;</span> Older Entries</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+								
+					
+	<article id="post-258" class="post-258 post type-post status-publish format-standard hentry category-uncategorized tag-carburetor tag-fuel-filter tag-primer-bulb tag-tried-different tag-zama">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/zama-c1q-carburetor-problems/" title="Permalink to Zama C1q Carburetor Problems" rel="bookmark">Zama C1q Carburetor Problems</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/zama-c1q-carburetor-problems/" title="6:17 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:17:21+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/zama-c1q-carburetor-problems/#respond" title="Comment on Zama C1q Carburetor Problems"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Zama C1q Carburetor Problems/c1/"><img src="http://feed2story.com/0/Zama C1q Carburetor Problems/1.png"></img></a><br />
+<a href="http://feed2story.com/Zama C1q Carburetor Problems/c2/"><img src="http://feed2story.com/0/Zama C1q Carburetor Problems/2.png"></img></a><br />
+<a href="http://feed2story.com/Zama C1q Carburetor Problems/c3/"><img src="http://feed2story.com/0/Zama C1q Carburetor Problems/3.png"></img></a></p>
+<p>I have a husqvarna weed trimmer with a C1Q zama carburetor.  It was not running properly.  So I bought a zama repair kit.  After installing the kit, I cannot get the primer bulb to operate properly.  I tried different configurations on the gasket/diaphram positions, but nothing seems to make a difference.  It has a new fuel filter.  The primer bulb will not pick up the fuel.  It goes in and out with little resistance.  Although in one configuration it won&#8217;t expand after pushing it in, so I don&#8217;t think that is correct.  I only tried different positions after it failed to operate.</p>
+<p>Here&#8217;s the ZAMA site with manuals<br />
+USA Zama : Service Tips<br />
+are the fuel lines connected properly?</p>
+<p>Ok, progress of sorts.  I went to zama&#8217;s site as posted by GlenM.  I Took apart the carb, reassembled to make sure it was correct.  Filter is new, replaced hoses.  I can finally get the primer to work.  But it still won&#8217;t start properly.  The only way to get it to start is on half choke with the accelerator completely depressed.  It will speed up for about 3 seconds and then die.  It will not start normally.  It has a new spark plug, new fuel ( just purchased ).  New fuel oil.  I cleaned the exhaust port.  Even tried running it without the spark arrestor on it.  Any ideas.<br />
+Thanks for the reply, by the way.  I appreciate it.  This was the original problem that led me to by a kit in the first place.</p>
+<p>You didn&#8217;t mention it, but did you completely disassemble it, including removal of L and H mixture needles?  and give it a good cleaning?<br />
+My experience has been when installing a dry carb, it takes 10 or so purge bulb pushes to fill the carb and get the primer bulb full.<br />
+L and H needles should be turned out 1 1/4 &#8211; 1 1/2 turns.<br />
+Make sure fuel level completely covers the fuel filter.<br />
+Unless unit has ez or simple start, normal procedure is full choke on, throttle full on, pull til it pops, half-choke, pull til it starts, warm 5-10 seconds, choke full off.<br />
+then carb has to be tweaked to run right.<br />
+hth<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/mgN6nRU1Ap8" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/mgN6nRU1Ap8" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: zama, carburetor, primer bulb, fuel filter, tried different</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/carburetor/" rel="tag">carburetor</a>, <a href="http://dok199alesif.blog.com/tag/fuel-filter/" rel="tag">fuel filter</a>, <a href="http://dok199alesif.blog.com/tag/primer-bulb/" rel="tag">primer bulb</a>, <a href="http://dok199alesif.blog.com/tag/tried-different/" rel="tag">tried different</a>, <a href="http://dok199alesif.blog.com/tag/zama/" rel="tag">zama</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/zama-c1q-carburetor-problems/#respond" title="Comment on Zama C1q Carburetor Problems"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-258 -->
+
+				
+					
+	<article id="post-257" class="post-257 post type-post status-publish format-standard hentry category-uncategorized tag-after-that tag-after-that-were tag-after-that-were-told tag-after-that-were-told-that tag-best-septic tag-have-septic tag-paper tag-septic tag-septic-tanks tag-tank tag-tank-pumped tag-toilet tag-washer-drain">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/toilet-paper-and-septic-tank/" title="Permalink to Toilet Paper And Septic Tank" rel="bookmark">Toilet Paper And Septic Tank</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/toilet-paper-and-septic-tank/" title="6:16 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:16:59+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/toilet-paper-and-septic-tank/#respond" title="Comment on Toilet Paper And Septic Tank"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Toilet Paper And Septic Tank/c1/"><img src="http://feed2story.com/0/Toilet Paper And Septic Tank/1.png"></img></a><br />
+<a href="http://feed2story.com/Toilet Paper And Septic Tank/c2/"><img src="http://feed2story.com/0/Toilet Paper And Septic Tank/2.png"></img></a><br />
+<a href="http://feed2story.com/Toilet Paper And Septic Tank/c3/"><img src="http://feed2story.com/0/Toilet Paper And Septic Tank/3.png"></img></a></p>
+<p>We have septic tanks and <a href="http://studartp.blogspot.com/2014/03/pulling-submersible-pump.html">want</a> to know which toilet paper is the best for septic tanks. Used to be a die hard Charmin user till we had the tanks pumped the first time. Switched to Northern after that and now were   told that wasn&#8217;t good either. Any suggestions would be appreciated!</p>
+<p>I have seen it listed on packages that the brand is safe for standard septic and sewer systems. Not sure what that exactly means. I have never worried <a href="http://studartp.blogspot.com/2014/03/two-stage-evaporative-cooling.html">about</a> the brand. I am more careful about oil, grease and strong chemicals in the septic. I realize that you cannot totally remove these things from the system, but, you can limit the introduction to the system. Septic systems work with bacteria that eat whatever goes to the tank. I am careful to not put things into the tank that will kill the bacteria. I use enzyme drain cleaners when I HAVE to use one. I have had 2 septic systems over the last 20 years and have had no problems. Never pumped either (which I am NOT recommending). They should be pumped every few years. Good luck.</p>
+<p>a neighbor of mine is a septic contractor and says the same things dragon mentioned.  he also said the tank shoud be pumped every five years minimum.   hi doesn&#8217;t charge me so i know it&#8217;s not a sales pitch.  say&#8217;s the build up of solids and unavoidable grease are the reason.</p>
+<p>I having my tank pumped tomorrow.  The last time was four years ago.  At that time the pumper guy said that Charmin was the worst for a septic tank because it just doesn&#8217;t break down.  I&#8217;m having problems now with my washer backing up.  I&#8217;ll check in tomorrow with the prognosis.  Hopefully, it is because the tank is full and the field can&#8217;t handle the <a href="http://studartp.blogspot.com/2014/03/need-help-advice-on-tension-wire.html">large</a> amount of water the washer pumps into it.</p>
+<p>ghdflowerpower,<br />
+Washing machine waste contains a lot of lint. The lint, plus the soap residue causes many drain line clogs. If you find out that the problem is not the drainfield, try an exzyme drain cleaner such as Draincare. The bacteria cling to organic clogs and eat them in much the same way the septic works. It is safe for septic systems. Takes overnight but does work. Follow label directions including using hot water. Good luck.</p>
+<p>We went through the county and got permits for the job two years ago.  The guy that did the job was recommended by the county agent.  My biggest fear is that the washer water is filling up the septic tank and letting toilet paper and other floaties into the drainfield.  Is this possible?  We have been <a href="http://luauparadisecove.blogspot.com/2014/03/need-spray-gun-for-painting-trim-doors.html">bad</a> about putting additives into the system.  I will go out and buy some ASAP.  Thanks.</p>
+<p>if yoru  finger  goes  through it, its  good  for the  tank..lol</p>
+<p>Hey Majakdragon,<br />
+The septic tank was pumped and it wasn&#8217;t as bad as I thought.  So, like you said, the washer drain pipe must be clogged with lint and such.  Now I&#8217;m treating the drain pipe for the washer with an enzyme cleaner that I had already called Drain Care.  Today is the 4th day of tx and it is a little better.  Is there a better way to put this stuff in besides the pipe where the washer discharges?<br />
+Thanks</p>
+<p>If it is only the washer drain that is causing the problem, thats what you want to clean out. All of your pipes are basically connected together and exit the house via the main line. I think going through the washer drain is the best way to correct the problem. It will not hurt anything if you treat more than one pipe with the Drain care. If you know the location of the main going to the septic, treat the fixture AFTER the washer drain (going away from the main drain)</p>
+<p>try using cottenlle, it breaks apart fast, we have been <a href="http://studartp.blogspot.com/2014/03/selfleveling-misery.html">using</a> it for about ten years, and have only had our tank pumped once.</p>
+<p>Originally Posted by monikki<br />
+We have septic tanks and want to know which toilet paper is the best for septic tanks. Used to be a die hard Charmin user till we had the tanks pumped the first time. Switched to Northern after that and now were   told that wasn&#8217;t good either. Any suggestions would be appreciated!<br />
+In the classes I have taken on on-site septic systems the instructor has said that white paper breaks down. Do not use the pretty colored stuff. My wife came from the farm, there they don&#8217;t flush the paper down, it goes into a separate garbage can that is emptied regularly. I tried the wife&#8217;s method and it took awhile to get used to but our tank has no scum on top and very little sludge on the bottom. When I was single my tank had enough scum on top that you could walk on it, never did try that though. Also we don&#8217;t put any food scraps into the system, the plates are scraped clean. If you are having an excessive build up of scum or sludge you might need a larger tank.<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/7KH00LXl16I" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/7KH00LXl16I" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: toilet, paper, septic, tank, septic tanks, washer drain, have septic, tank pumped, after that, after that were, after that were told, after that were told that, best septic</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/after-that/" rel="tag">after that</a>, <a href="http://dok199alesif.blog.com/tag/after-that-were/" rel="tag">after that were</a>, <a href="http://dok199alesif.blog.com/tag/after-that-were-told/" rel="tag">after that were told</a>, <a href="http://dok199alesif.blog.com/tag/after-that-were-told-that/" rel="tag">after that were told that</a>, <a href="http://dok199alesif.blog.com/tag/best-septic/" rel="tag">best septic</a>, <a href="http://dok199alesif.blog.com/tag/have-septic/" rel="tag">have septic</a>, <a href="http://dok199alesif.blog.com/tag/paper/" rel="tag">paper</a>, <a href="http://dok199alesif.blog.com/tag/septic/" rel="tag">septic</a>, <a href="http://dok199alesif.blog.com/tag/septic-tanks/" rel="tag">septic tanks</a>, <a href="http://dok199alesif.blog.com/tag/tank/" rel="tag">tank</a>, <a href="http://dok199alesif.blog.com/tag/tank-pumped/" rel="tag">tank pumped</a>, <a href="http://dok199alesif.blog.com/tag/toilet/" rel="tag">toilet</a>, <a href="http://dok199alesif.blog.com/tag/washer-drain/" rel="tag">washer drain</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/toilet-paper-and-septic-tank/#respond" title="Comment on Toilet Paper And Septic Tank"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-257 -->
+
+				
+					
+	<article id="post-256" class="post-256 post type-post status-publish format-standard hentry category-uncategorized tag-clean-metal tag-cycle tag-flame-sensor tag-problem-with tag-problem-with-furnace tag-same-furnace tag-short-time tag-shuts tag-similar-problem tag-steel-wool tag-then">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/rheem-criterion-iiheat-cycle-works-then-shuts-down/" title="Permalink to Rheem Criterion Iiheat Cycle Works Then Shuts Down" rel="bookmark">Rheem Criterion Iiheat Cycle Works Then Shuts Down</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/rheem-criterion-iiheat-cycle-works-then-shuts-down/" title="6:16 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:16:37+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/rheem-criterion-iiheat-cycle-works-then-shuts-down/#respond" title="Comment on Rheem Criterion Iiheat Cycle Works Then Shuts Down"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Rheem Criterion Iiheat Cycle Works Then Shuts Down/c1/"><img src="http://feed2story.com/0/Rheem Criterion Iiheat Cycle Works Then Shuts Down/1.png"></img></a><br />
+<a href="http://feed2story.com/Rheem Criterion Iiheat Cycle Works Then Shuts Down/c2/"><img src="http://feed2story.com/0/Rheem Criterion Iiheat Cycle Works Then Shuts Down/2.png"></img></a><br />
+<a href="http://feed2story.com/Rheem Criterion Iiheat Cycle Works Then Shuts Down/c3/"><img src="http://feed2story.com/0/Rheem Criterion Iiheat Cycle Works Then Shuts Down/3.png"></img></a></p>
+<p>Hi-<br />
+I&#8217;m having a problem with my gas furnace and don&#8217;t know where to start to find out what it might be. When the thermostat calls for heat, the draft inducer kicks on, the ignitor glows, the gas starts and burns for a short time and then shuts off. It tries this whole cycle again, with the same results. Sometimes the blower runs by itself with no heat.<br />
+Can anyone make suggestions as to what this problem might be? I&#8217;m hoping it&#8217;s a part replacement and not a big deal&#8230;<br />
+Thanks in advance for your help!<br />
+lisa</p>
+<p>When you say a short time, do you mean a few seconds?<br />
+If so, the flame sensor is the number one suspect. Check connections and wires to the sensor. If that looks OK, then remove and clean the metal rod with pure steel wool (not Brillo or any type with soap). Also clean the metal base where the screw is. This is your ground, and is just as important.<br />
+Does the circuit board have an LED? Is it flashing a code?</p>
+<p>For anyone encountering a similar problem, this is what I did to fix it:<br />
+&#8211;Locate the flame sensor rod (it should be a piece of metal that is in front of one of the burners&#8211;usually one far from the ignitor).<br />
+&#8211;This is usually held in place with a single screw.  Take  it out and clean it with steel wool or fine sand paper.<br />
+&#8211;Replace sensor rod and put everything back together in reverse.<br />
+Voila!</p>
+<p>Thanks, Jim!  Actually saw your post after I cleaned the sensor rod.  It definitely worked and saved me the trouble (and cost) of having a technician come out to the house.  Many thanks for your fast reply!!</p>
+<p>Good work. It looks like you have potential in the HVAC field.<br />
+Glad it worked out.</p>
+<p>Hey, just <a href="http://mazda13.blogspot.com/2014/03/drilling-through-granite-countertop.html">wanted</a> to say thanks! I had this same problem with the same furnace and did what you said and it Worked!</p>
+<p>Same issue, same furnace. It&#8217;s blocked by a panel and the panel is preventing me from unscrewing it. The panel appears to be over the ignitor. I am afraid if I get it unscrewed that I won&#8217;t be able to get it back on. Any other ideas? It doesn&#8217;t help that it&#8217;s zero here today. I am so glad I found this forum!</p>
+<p>Nevermind! I just wasn&#8217;t sanding the sensor with enough gusto. It was not easily detachable and blocked, but I got it done. Been running now for over an hour. Thanks for having this one out there!!</p>
+<p>Please don&#8217;t revive old threads.  It rapidly becomes confusing.<br />
+Start a new thread and report the make and model of your furnace and the sequence of events that occurs when you turn up the thermostat.<br />
+The more detailed and accurate your report,  the better the quality of the help we can provide.</p>
+<p>You made me look like a hero to my <a href="http://mazda13.blogspot.com/2014/03/installing-flat-screen-tv-above.html">now</a> warm and toasty wife. I owe ya one.</p>
+<p>I had a similar problem with my furnace, it would light for a few seconds and then quit. I turned out to be the furnace control bard on mine. It was working fine for a month after the <a href="http://mazda13.blogspot.com/2014/03/replace-baseboard-covers-only.html">repair</a> and now as of <a href="http://mazda13.blogspot.com/2014/03/mistake-installing-driveway-pavers.html">yesterday</a> my furnace wont light. The sparker(igniter) seem to work fine, the blower is working fine but there seems to be no <a href="http://mazda13.blogspot.com/2014/03/grounding-bonding-wet-niche-pool-light.html">gas</a> getting to the furnace. Any idea what could cause this? Thanks!<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/Ecd5CzJjss4" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/Ecd5CzJjss4" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: cycle, then, shuts, problem with, clean metal, flame sensor, problem with furnace, same furnace, short time, similar problem, steel wool</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/clean-metal/" rel="tag">clean metal</a>, <a href="http://dok199alesif.blog.com/tag/cycle/" rel="tag">cycle</a>, <a href="http://dok199alesif.blog.com/tag/flame-sensor/" rel="tag">flame sensor</a>, <a href="http://dok199alesif.blog.com/tag/problem-with/" rel="tag">problem with</a>, <a href="http://dok199alesif.blog.com/tag/problem-with-furnace/" rel="tag">problem with furnace</a>, <a href="http://dok199alesif.blog.com/tag/same-furnace/" rel="tag">same furnace</a>, <a href="http://dok199alesif.blog.com/tag/short-time/" rel="tag">short time</a>, <a href="http://dok199alesif.blog.com/tag/shuts/" rel="tag">shuts</a>, <a href="http://dok199alesif.blog.com/tag/similar-problem/" rel="tag">similar problem</a>, <a href="http://dok199alesif.blog.com/tag/steel-wool/" rel="tag">steel wool</a>, <a href="http://dok199alesif.blog.com/tag/then/" rel="tag">then</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/rheem-criterion-iiheat-cycle-works-then-shuts-down/#respond" title="Comment on Rheem Criterion Iiheat Cycle Works Then Shuts Down"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-256 -->
+
+				
+					
+	<article id="post-255" class="post-255 post type-post status-publish format-standard hentry category-uncategorized tag-doors tag-hope-this tag-hope-this-helps tag-pocket tag-pocket-door tag-pocket-doors tag-this-door tag-this-helps tag-where-door">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/pocket-doors-existing-walls/" title="Permalink to Pocket Doors &amp; Existing Walls" rel="bookmark">Pocket Doors &amp; Existing Walls</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/pocket-doors-existing-walls/" title="6:16 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:16:15+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/pocket-doors-existing-walls/#respond" title="Comment on Pocket Doors &amp; Existing Walls"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Pocket Doors &amp; Existing Walls/c1/"><img src="http://feed2story.com/0/Pocket Doors &amp; Existing Walls/1.png"></img></a><br />
+<a href="http://feed2story.com/Pocket Doors &amp; Existing Walls/c2/"><img src="http://feed2story.com/0/Pocket Doors &amp; Existing Walls/2.png"></img></a><br />
+<a href="http://feed2story.com/Pocket Doors &amp; Existing Walls/c3/"><img src="http://feed2story.com/0/Pocket Doors &amp; Existing Walls/3.png"></img></a></p>
+<p>My parents house had pocket doors in the kitchen which I loved, so I have thought about installingl pocket doors in our bathrooms b/c they might make more sense there- the current scheme of doors in this house is pretty comical.   I have questions about installation and where to begin.<br />
+I think the biggest question is- are we looking at having to rip out sections of wall to install a pocket door or is there a way to do this with minimal demolition/ reconstruction?<br />
+I know HD and Lowes sell the kits without the doors- so where do we get the door?<br />
+<a href="http://ulcersdiet.blogspot.com/2014/03/dead-animal-odor-in-crawl-space.html">Other</a> than HD  Lowes, any suggestions on purchasing pocket doors kits?<br />
+How would you rate this type of project on a scale of very hard (hire someone) to very easy (definately a diy)<br />
+Thanks for any info and ideas!  This project is just in the preliminary stages and I don&#8217;t want to get in over my head.<br />
+TraceyB</p>
+<p>Here is a howto on installing a pocket door.</p>
+<p>http://www.workbenchmagazine.com/main/pocketdoor.html</p>
+<p>http://www.handymanclub.com/document.asp?dID=811</p>
+<p>Hope this helps.</p>
+<p>First its like what can you do,to <a href="http://healingbenefits.blogspot.com/2014/03/whirlpool-electric-dryer-wont-heat.html">say</a> hard or not?  The first thing is would this door be in a bearing wall?Do you have to put a header up there. How do the  joist or <a href="http://ulcersdiet.blogspot.com/2014/03/remove-soap-scum-and-hard-water-stains.html">rafters</a> run over the top of the wall. Now where the door is now think of how wide the  door is now, go that wide  on the left or <a href="http://ulcersdiet.blogspot.com/2014/03/ac-condensation-pump-problems.html">right</a> of the door for how you want it to slide. If you cut the wall out there, is there any electric or water pipes that you will have to move?<br />
+What Home Depot And Lowes have is what you use  for this . The door you have is also the one you can use if you want.<br />
+Hope this helps  ED</p>
+<p>Ed&#8217;s right on the money.  determining whether or not this should be a diy, would really be decided by your skill set  time frame.  It could be done by an experienced diyer, but I wouldn&#8217;t recommend it for a first time home improvement job.  This should be thoroughally thought out before you ever begin and it will be messy.  There&#8217;s my $.02 worth.</p>
+<p>For the options on the hardware go to johnson hardware&#8217;s web site at http://www.johnsonhardware.com/<br />
+Stanley has some hardware available now, but the cheap open side rail they are selling is how pocket doors got a bad <a href="http://ulcersdiet.blogspot.com/2014/03/make-your-own-stone-veneer.html">name</a>.  You want the &#8216;C&#8217; shaped track with the three wheel bogeys.  They cannot come off the track accept at the end when you want them to.  The site also has exact dimensions for the track widths and typical wall cross sections.  The biggest problem is that in a standard 2&#215;4 wall you cannot have any electrical boxes where the pocket is on either side.<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/oWZD9J72pTA" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/oWZD9J72pTA" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: pocket, doors, pocket doors, Hope this, Hope this helps, pocket door, this door, this helps, where door</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/doors/" rel="tag">doors</a>, <a href="http://dok199alesif.blog.com/tag/hope-this/" rel="tag">Hope this</a>, <a href="http://dok199alesif.blog.com/tag/hope-this-helps/" rel="tag">Hope this helps</a>, <a href="http://dok199alesif.blog.com/tag/pocket/" rel="tag">pocket</a>, <a href="http://dok199alesif.blog.com/tag/pocket-door/" rel="tag">pocket door</a>, <a href="http://dok199alesif.blog.com/tag/pocket-doors/" rel="tag">pocket doors</a>, <a href="http://dok199alesif.blog.com/tag/this-door/" rel="tag">this door</a>, <a href="http://dok199alesif.blog.com/tag/this-helps/" rel="tag">this helps</a>, <a href="http://dok199alesif.blog.com/tag/where-door/" rel="tag">where door</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/pocket-doors-existing-walls/#respond" title="Comment on Pocket Doors &amp; Existing Walls"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-255 -->
+
+				
+					
+	<article id="post-254" class="post-254 post type-post status-publish format-standard hentry category-uncategorized tag-difference-between tag-differences tag-infinity tag-integrity tag-integrity-infinity tag-marvin tag-only-sold tag-sales-folks">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/marvin-integrity-vs-infinity-differences-double/" title="Permalink to Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs" rel="bookmark">Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/marvin-integrity-vs-infinity-differences-double/" title="6:15 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:15:53+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/marvin-integrity-vs-infinity-differences-double/#respond" title="Comment on Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs/c1/"><img src="http://feed2story.com/0/Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs/1.png"></img></a><br />
+<a href="http://feed2story.com/Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs/c2/"><img src="http://feed2story.com/0/Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs/2.png"></img></a><br />
+<a href="http://feed2story.com/Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs/c3/"><img src="http://feed2story.com/0/Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs/3.png"></img></a></p>
+<p>Hello DIYers,<br />
+I&#8217;m really interested in fiberglass <a href="http://dhbugs.blogspot.com/2014/03/well-water-chlorinator.html">windows</a> but the whole window universe reminds me of buying a mattress &#8211; smarmy sales <a href="http://sycellphone.blogspot.com/2014/03/squirrel-cage-used-as-exhaust-fan.html">folks</a> telling half truths at obscene markups. And I&#8217;m a sales guy!<br />
+I&#8217;ve read the Marvin sites, talked to different sales folks and still don&#8217;t understand the difference between their Integrity and Infinity. It just seems like Marvin is marketing the same product under two different distributor networks. Please correct me if I&#8217;m wrong.<br />
+As <a href="http://burobby.blogspot.com/2014/03/what-s-gutter-installation-cost.html">far</a> as pricing &#8211; I&#8217;m looking at 8 40&#215;60 windows (there about), all fiberglass/ultrex, with grilles (two vertical bars) in the upper section only. Some online forums I&#8217;ve seen after a Marvin Infinity (or Integrity) cost are saying $500-800/window installed. One quote on the Infinity&#8217;s we received as $1400+ per window.  What&#8217;s a fair estimate or is there somewhere I can buy and install myself? I&#8217;ve done my own replacement installs before.<br />
+Thank you all for any info and help in advance.</p>
+<p>I believe that you can buy directly from Marvin but there are no refunds or exchanges.  If you buy it, you own it.  With any of those companies, they use subcontractors for the installs. They aren&#8217;t <a href="http://sycellphone.blogspot.com/2014/03/removing-flywheel-on-tecumseh-lawnmower.html">employees</a>.  I never liked that idea.</p>
+<p>Well, after a few calls to Marvin I got a knowledgeable, friendly and helpful person. So for anyone else searching for the difference between Integrity and Infinity, here you go.<br />
+Infinity &#8211; only sold through limited retailers and can only be sold at an installed price. You cannot just buy the window. The window sash is beefier and meant to be more architectural and the step down from the aluminum clad. Sold only as a replacement window.<br />
+Integrity &#8211; can be bought direct at a dealer. Meant to be a competitor to vinyl. Sold as full frame or replacement.<br />
+Both &#8211; they are made from the same material and can be specced with nearly the same options.<br />
+Here&#8217;s a diagram showing the two where you can see the sash differences.</p>
+<p>So, order what you want through the correct source.  Do your own installation if you can.<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/KznAL6cSoHQ" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/KznAL6cSoHQ" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: marvin, integrity, infinity, differences, Integrity Infinity, difference <a href="http://saveliv.blogspot.com/2014/03/removing-popcorn-ceiling-right-way.html">between</a>, only sold, sales folks</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/difference-between/" rel="tag">difference between</a>, <a href="http://dok199alesif.blog.com/tag/differences/" rel="tag">differences</a>, <a href="http://dok199alesif.blog.com/tag/infinity/" rel="tag">infinity</a>, <a href="http://dok199alesif.blog.com/tag/integrity/" rel="tag">integrity</a>, <a href="http://dok199alesif.blog.com/tag/integrity-infinity/" rel="tag">Integrity Infinity</a>, <a href="http://dok199alesif.blog.com/tag/marvin/" rel="tag">marvin</a>, <a href="http://dok199alesif.blog.com/tag/only-sold/" rel="tag">only sold</a>, <a href="http://dok199alesif.blog.com/tag/sales-folks/" rel="tag">sales folks</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/marvin-integrity-vs-infinity-differences-double/#respond" title="Comment on Marvin Integrity Vs Infinity Differences &amp; Double Hung Avg Costs"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-254 -->
+
+				
+					
+	<article id="post-253" class="post-253 post type-post status-publish format-standard hentry category-uncategorized tag-have-make tag-panel tag-panel-window tag-replace tag-sunroom tag-textured-painted tag-wall">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/replace-sunroom-wall-panel/" title="Permalink to Replace Sunroom Wall Panel" rel="bookmark">Replace Sunroom Wall Panel</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/replace-sunroom-wall-panel/" title="6:15 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:15:31+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/replace-sunroom-wall-panel/#respond" title="Comment on Replace Sunroom Wall Panel"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Replace Sunroom Wall Panel/c1/"><img src="http://feed2story.com/0/Replace Sunroom Wall Panel/1.png"></img></a><br />
+<a href="http://feed2story.com/Replace Sunroom Wall Panel/c2/"><img src="http://feed2story.com/0/Replace Sunroom Wall Panel/2.png"></img></a><br />
+<a href="http://feed2story.com/Replace Sunroom Wall Panel/c3/"><img src="http://feed2story.com/0/Replace Sunroom Wall Panel/3.png"></img></a></p>
+<p>I have a metal framed sunroom with panels (roughly 2 feet x 4 feet) below the windows.  The panels appear to be a masonite-like material 1/4 inch in thickness, textured and painted on the exposed side of course.  One panel has been water-damaged (warped and bowed) and needs to be replaced.  I think I can remove this panel but do not know where to obtain a replacement panel, or install it.  Can anyone provide <a href="http://mls-1.blogspot.com/2014/03/radiant-barrier-foil-any-good.html">tips</a> or suggestions?  Thank you.</p>
+<p>Do these panels have foam between the interior/exterior skin?  Or is it just a 1/4 thick board between the inside/outside.<br />
+Uploading a couple pictures might help.</p>
+<p>If you can&#8217;t get them from the manufacturer of your sun room I assume you are going to have to make them.  Long ago I made a few replacement panels for a sun room that had 2 thick walls cored with honeycomb cardboard.  The manufacturer had <a href="http://kneepain1.blogspot.com/2014/03/asbestos-in-popcorn-ceiling.html">long</a> since gone out of business so I glued vinyl siding trim stock to the face of 2 thick rigid foam insulation with epoxy.  The pattern embossed into the aluminum did not match exactly but it came out very close.</p>
+<p>If the panels are 2 you&#8217;ll probably have to make you own. The 2 wall system was done away with when CA went from the UBC to the IRC in &#8217;05 or &#8217;06.<br />
+1-1/2 foam panel sandwiched between panels of 1/4 Masonite on each side, <a href="http://mls-1.blogspot.com/2014/03/need-pneumatic-trim-nail-gun-for.html">textured</a> and painted with latex paint.<br />
+Getting the old panel out and the new one in means you&#8217;ll have to remove ALL of the screws (and rivets if there are <a href="http://1mls.blogspot.com/2014/03/shimming-doors.html">any</a>) in the entire wall. Then use a <a href="http://1mls.blogspot.com/2014/03/using-kreg-crown-molding-jig.html">putty</a> knife and drive the top and bottom of each aluminum H channel towards the corner away from the panel that you&#8217;re replacing. You will get enough space widthwise to remove the damaged panel, the window, and the panel (or window) above it as a unit. Cut the panel you made exactly like the one you are replacing, and install everything in the reverse order.<br />
+It&#8217;s IMPORTANT that you remove EVERY screw and rivet &#8212; otherwise you won&#8217;t get the pieces to move. Don&#8217;t remove the corner post(s) or the wall channel if one is involved. That&#8217;s a good part of what is supporting your roof. And don&#8217;t try to pull the H channels our of the top or bottom track. Simply slide them sideways towards the corners.<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/EVG_JBLHL5A" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/EVG_JBLHL5A" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: replace, sunroom, wall, panel, have make, panel window, textured painted</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/have-make/" rel="tag">have make</a>, <a href="http://dok199alesif.blog.com/tag/panel/" rel="tag">panel</a>, <a href="http://dok199alesif.blog.com/tag/panel-window/" rel="tag">panel window</a>, <a href="http://dok199alesif.blog.com/tag/replace/" rel="tag">replace</a>, <a href="http://dok199alesif.blog.com/tag/sunroom/" rel="tag">sunroom</a>, <a href="http://dok199alesif.blog.com/tag/textured-painted/" rel="tag">textured painted</a>, <a href="http://dok199alesif.blog.com/tag/wall/" rel="tag">wall</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/replace-sunroom-wall-panel/#respond" title="Comment on Replace Sunroom Wall Panel"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-253 -->
+
+				
+					
+	<article id="post-252" class="post-252 post type-post status-publish format-standard hentry category-uncategorized tag-absorb-much tag-absorb-much-urine tag-absorb-much-urine-possible tag-carpet tag-carpet-cleaner tag-carpet-padding tag-hydrogen-peroxide tag-much-urine tag-paper-towels tag-smell tag-urine tag-with-enzyme tag-your-carpet">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/get-rid-of-cat-urine-smell-out-of-carpet/" title="Permalink to Get Rid Of Cat Urine Smell Out Of Carpet" rel="bookmark">Get Rid Of Cat Urine Smell Out Of Carpet</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/get-rid-of-cat-urine-smell-out-of-carpet/" title="6:15 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:15:08+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/get-rid-of-cat-urine-smell-out-of-carpet/#respond" title="Comment on Get Rid Of Cat Urine Smell Out Of Carpet"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Get Rid Of Cat Urine Smell Out Of Carpet/c1/"><img src="http://feed2story.com/0/Get Rid Of Cat Urine Smell Out Of Carpet/1.png"></img></a><br />
+<a href="http://feed2story.com/Get Rid Of Cat Urine Smell Out Of Carpet/c2/"><img src="http://feed2story.com/0/Get Rid Of Cat Urine Smell Out Of Carpet/2.png"></img></a><br />
+<a href="http://feed2story.com/Get Rid Of Cat Urine Smell Out Of Carpet/c3/"><img src="http://feed2story.com/0/Get Rid Of Cat Urine Smell Out Of Carpet/3.png"></img></a></p>
+<p>Help&#8230;.My 14 year old cat decided to use my guest room as a litter box.  The smell is awful.  My house is only 3 years old and this happened approx. 1 year ago.  I tried Nature&#8217;s Miracle (let me tell you&#8230;.no miracle here) Then I pulled the carpet and pad up and used a product Urine Gone (No urine gone according to my sniffer).  Every time I walk by the guest room I swear I am going to get sick.  I have friends that are coming in 2 weeks&#8230;..Help. And to top things off&#8230;..my husband claims he can&#8217;t smell it&#8230;..Bummer   I need some suggestions on get rid of the smell.  Thanks!</p>
+<p>Welcome to DIY!<br />
+you said you pulled the pad up and cleaned the subfloor<br />
+Did you replace the pad? The subfloor would also need sealed to seal in odors and keep future moisture out. I would also check the lower walls and baseboard..cats can spray pretty high up.<br />
+So, my suggestion would be pull the carpet and pad. Replace the pad, reclean and seal the subfloor&#8230;in a area larger than what the cat used&#8230;as it will spread. If its a wooden subfloor and the damage is really bad. Replacing of the wood may be needed. At any rate, to fix the problem correctly in 2 weeks. Would be pushing it if you are going to DIY. But can be done. Good luck</p>
+<p>had the same issue here&#8230;..could be 2 things&#8230;psychological or actual&#8230;.<br />
+you have a paranoia surrounding the smell that  you are possibly making yourself think that the smell is still there OR&#8230;.<br />
+the smell is still there for real&#8230;have a 2 or 3 noses that you trust come and tell you&#8230;.<br />
+when you pulled the pad and carpet perhaps you missed other areas under the rug&#8230;.just pull ALL the carpeting again and look&#8230;no other choice unless you get down and smell every square inch of rug..<br />
+either way my bet is it sunk through  the padding and to the floor itself&#8230;hopefully the floor is not that awful MDF or plywood&#8230;.the smell will stay in there till you replace the wood and padding..sorry about the bad news that if you do have that type of flooring<br />
+i had hardwood in my home  and the previous owner just let his dog pee everywhere ended up replacing the hardwood floors because they were unsandable&#8230;<br />
+good luck and remember to get more sniffers in there that you trust more than hubby&#8217;s and if they tell you they can&#8217;t smell it either than believe them&#8230;you are just gonna make yourself more sick as the days tick down if you don&#8217;t&#8230;</p>
+<p>a quick way to get rid of cat urine smell is to fill a water spray bottle with water and put vanilla essence in it as much as you like.. i put about 10 drops&#8230;. spray it around and its gone. Cats tend to respray what ever they have previously sprayed so maybe your cat keeps coming back but use that and it will be gone and your floor smells like cookies</p>
+<p>Vanilla isn&#8217;t going to neutralize cat odor.  Docduck&#8217;s suggestions are the way to remove the odor.  Even then, cat urine is so difficult that the carpet often has to be replaced if multiple urinations have occurred.</p>
+<p>mitch is right&#8230;cat urine ranks up there to be one of the toughest odors to remove&#8230;the thing with cats&#8230;they can spray pretty high up on walls, drapes, furniture, clothes&#8230;so sometimes the carpet and padding isnt the only DAMAGE you can see or smell<br />
+i use the word damage because as mitch stated after awhile you will need to resort to replacement of the effected surfaces</p>
+<p>To eliminate odors, you have to eliminate the source.  The use of vanilla or other scents provide a temporary masking of odors and do not eliminate the source.  Please follow the expert advice given.</p>
+<p>Which is worse; dog or cat urine??<br />
+I have/had a problem with dog urine. One problem was he peeded in one spot, but it was so little I never noticed it untill days later. By then, it dried and soaked in.<br />
+I have a carpet cleaner (cansiter type) that I use to clean the carpets on a regular basis. Unlike the carpet cleaners that come in and do a poor job, I clean carpet with a non sudsy carpet cleaning liquid, going back and forth in problem areas. I then disconnect the hose going to the bottle of diluted cleaner and go back over where I applied the cleaner with just water. Lost of water and work the area again.<br />
+I finish it up by sucking up all that water, going over the same area more than once very slowly to be sure as much water is removed which is the only way to do it correctly.<br />
+Leaving liquid and/or water in the rug just leaves the dirt and odor behind.<br />
+It is alot of work, but it seems to work for me. The carpet is a level loop Berber, which isn&#8217;t a deep shag pile which makes cleaning dirt easier, but makes it tougher for spills that have soaked in since it&#8217;s hard to get down deep since it is a &#8216;stiff&#8217; pile. Unlike a &#8216;shag&#8217; type of carpet where you can get between the strands (if you know what I mean).<br />
+I also don&#8217;t have wall to wall carpet, so I can lift the carpet up if the area is near the edges.<br />
+I tried a few of those urine removers and they aren&#8217;t as good as they claim.</p>
+<p>It was posted in another thread to use white vinegar to neutralize animal urine on concrete.<br />
+Can this be used on carpets??</p>
+<p>Cat urine is harder to remove &#8211; it&#8217;s more concentrated.  The problem with cleaning the carpet from above only is that the urines penetrates deeper than the cleaner can get.  Never tried vinegar, we don&#8217;t spot remove urine (it&#8217;s always too big a problem by the time we know about it).</p>
+<p>Understood regarding &#8216;cleaning from above&#8217;. That&#8217;s why I &#8216;soak&#8217; the carpet with the carpet cleaner &#8216;floor wand&#8217; so as to get the cleanre down deep. Then saturate it with just water to disolve the cleaner and dirt/urine and then go oiver it mant times just &#8216;sucking up&#8217; the water.</p>
+<p>Have you tried using an enzime cleaner? It uses the microbiology of naturally occurring multiple teams of self generating bio chemical enzymes to synergistically digest the organic compounds that cause odor, breaking them down to benign, odorless compounds such as carbon dioxide and water. try Atx oder kill and stain remover.</p>
+<p>Yes and it did help, but since I didn&#8217;t discover the problem untill days afterwards, the urine already dried. When it happened elsewhere, there was enough that I saw the &#8216;wet spot&#8217; within hours afterwards and was able to &#8216;blot up&#8217; much of the  urine before it soaked in further.<br />
+I did three &#8216;soakings&#8217; and three carpet cleanings.<br />
+The last time seemed to help the most, but there is still a trace smell when I enter that room (a front hall).</p>
+<p>We always clean this kind of problem the same way:  Pull up the carpet, replace the pad if the urine penetrated it, seal the subfloor if the urine penetrated it, clean both sides of the carpet before tacking it back down.<br />
+Enzyme cleaners work, but they have to get to the urine to work and usually do not work topically on anything other than a fresh stain due to not being able to soak far enough into the carpet.  Also, all the enzyme in the world isn&#8217;t going to help the pad, that&#8217;s why you need to replace it.</p>
+<p>How would I remove the ordor from the sub floor if it is plywood to keep from having a re-occurring problem. Am going to replace the carpet and padding.</p>
+<p>if its an older problem and you no longer have the cats&#8230;.than i would cut out the effected areas of the padding and toss them<br />
+i know the next part may sound dumb but&#8230;get down on your hands and knees and sniff&#8230;the nose knows&#8230;take a sharpie and outline the areas..or if its the whole room just rip it out and toss it&#8230;most places sell padding by the sq ft<br />
+if the plywood is very bad&#8230;replace..if its still stable and sound..a oil base primer/sealed kilz or binz will work good&#8230;then clean the carpet if its decent if not&#8230;toss it..<br />
+also check out baseboard and lower 18 inches or wall&#8230;if there is a problem there seal and paint as well..or replace the trim</p>
+<p>Originally Posted by sharon7978<br />
+How would I remove the ordor from the sub floor if it is plywood to keep from having a re-occurring problem. Am going to replace the carpet and padding.<br />
+this is something I have used many times  always had great luck with it&#8230;.as to weather it will work on the sub floor, I have no idea&#8230;I have never needed to find out.<br />
+Get rid of cat pee and dog pee smells forever &#8211; Recipe<br />
+Ingredients<br />
+Baking Soda<br />
+White Vinegar<br />
+Dishwashing Detergent<br />
+3 % Hydrogen Peroxide<br />
+Directions:<br />
+1. If the cat has recently urinated on the carpet, first absorb as much of the cat urine as possible using paper towels or an old towel. Place clean paper towels over the cat urine area and tread on them so as to absorb as much of the urine as possible. Repeat with dry towels until no more moisture can be absorbed.<br />
+If the cat urine has dried and you are not sure where the soiled area is you can use a black light to detect it. In a darkened room the black light will pick up urine and other stains. Hand held black lights can be purchased for between $15 to $25<br />
+2. Next, wet the area with a solution of 50% white vinegar and 50% water. Make sure you use enough of the solution to penetrate the fibers deep down. Allow it to almost dry. You can assist drying by blotting with paper towels as described <a href="http://nonbindingagreement.blogspot.com/2014/03/carrier-58ssc-repair-manual-or-schematic.html">above</a>. If you own a wet and dry vacuum extractor use that to remove excess moisture.<br />
+The acidity of the vinegar will neutralize the ammonia in the cat urine.<br />
+3. Apply a liberal amount of baking soda over the affected area and drizzle it with a quarter of a cup of hydrogen peroxide mixed with a teaspoon of liquid dishwashing detergent. (not caustic detergent that you put in a dishwasher) Work it in with a scrubbing brush or your fingers (be sure to wear rubber gloves) to dissolve the baking soda and work it down into the carpet. Allow it to dry. Then vacuum.<br />
+The vinegar will neutralize the ammonia and hydrogen peroxide is a powerful oxidizer capable of killing bacteria which cause the urine smells. Baking soda is a well known deodorizer which absorbs odors. Sprinkle it on your carpet monthly then vacuum up to keep your carpet smelling fresh all the time.<br />
+Important. Never use ammonia or ammonia-based products on the carpet. One of the ingredients of urine is ammonia and your cat may well be encouraged to re-offend in the same area if it detects the smell of ammonia. Many household cleaner cleaners contain ammonia so be sure to read the label.<br />
+If you don&#8217;t have hydrogen peroxide on hand you could substitute it in an emergency for a spray laundry stain remover. Check the bottle. If it says &#8216;Oxy&#8217; anywhere on the label then it probably contains hydrogen peroxide.<br />
+Caution, you <a href="http://nonbindingagreement.blogspot.com/2014/03/have-u-used-wall-paper-using-wallliner.html">should</a> test your carpet for color fastness in an inconspicuous area.<br />
+Use only 3% Hydrogen Peroxide.<br />
+~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+<a href="http://nkiacar.blogspot.com/2014/03/carrier-c-condenser-not-working-fan.html">Remove</a> cat urine odor from laundry. Use this method on your clothing, bedding, rugs or <a href="http://plankindergarten.blogspot.com/2014/03/problems-w-kichler-under-cabinet-xeron.html">anything</a> you think you can stuff in the washer (not including your cat). Simply add ј cup apple cider vinegar along with your normal laundry detergent, start the washer and VOILA!</p>
+<p>if the problem has made it to the subfloor..it has soaked in..best thing to do is clean the area&#8230;allow to dry and use an oil based primer or shellac and seal the area&#8230;this means the carpet&#8230;padding and such have to come up</p>
+<p>I usually mix in 1/4 cup of apple cider vinegar to my carpet cleaner. This works well with me, the solution never fails to remove the nasty smell of my cat&#8217;s urine. As for the other household cleaners, I simply buy from this fantastic *****for avail of their never ending discount privileges.</p>
+<p>Hi &#8211; sorry you are having pee trouble.  I want to tell you what my vet said:  my cat&#8217;s blood and urine work was almost perfect esp. considering her age (12) so there was no medical reason and it was behavioural.  AND, that cats are fastidious normally and do not urinate outside the litter unless there&#8217;s a good reason.  And that in discussing possible reasons, we concluded, there must be a bullying cat outdoors peeing.  What&#8217;s more, my cats would NEVER stop the behaviour until the bullying problem was permanently solved.   Surely to goodness, I knew it.  My front porch was a disaster, and I didn&#8217;t know the extent until we started cleaning it.  Got rid of everything on that porch &#8211; now I will be rebuilding the floor boards; they were dilapidated anyway, and I have been soaking them regularly with the enzyme.  There&#8217;s now nothing on the porch and I can see any little piss mark which I immediately remove with enzyme cleaner.  I had also seen the back door soaked with piss, and this time I cleaned insanely with the enzyme, repeated and repeated applications, followed by (get ready for some real woo woo) a mirror placed low on the door at cat level with statements on a piece of paper behind the mirror telling those bullies to GET LOST.  It&#8217;s been weeks, and NOT A DROP on that mirror.  My own two cats don&#8217;t seem bothered by the reflection, and get their food right there as well as having their outdoor nap space in that area.  My cats seem so much more calm, and I have been having them indoors a lot more.  Still repeatedly soaking the  problem areas indoors with enzyme cleaner.  I have mainly <a href="http://plankindergarten.blogspot.com/2014/03/tradesman-scroll-saw.html">hardwoods</a>, a couple rugs, and the cats thankfully go mainly on the hard floors, so it&#8217;s easy to spot and clean up.  The change in my cats&#8217; behaviour has been pretty remarkable &#8211; I literally couldn&#8217;t have them indoors at all before, and there would be marks everywhere &#8211; now, favorite marking areas are not touched, my girl kitty lives mainly in my bedroom where she has her box which she has been using.  Dramatic difference.<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/c2b8au9Xjr0" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/c2b8au9Xjr0" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: urine, smell, carpet, carpet padding, hydrogen peroxide, with enzyme, carpet cleaner, much urine, paper towels, your carpet, absorb much, absorb much urine, absorb much urine possible</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/absorb-much/" rel="tag">absorb much</a>, <a href="http://dok199alesif.blog.com/tag/absorb-much-urine/" rel="tag">absorb much urine</a>, <a href="http://dok199alesif.blog.com/tag/absorb-much-urine-possible/" rel="tag">absorb much urine possible</a>, <a href="http://dok199alesif.blog.com/tag/carpet/" rel="tag">carpet</a>, <a href="http://dok199alesif.blog.com/tag/carpet-cleaner/" rel="tag">carpet cleaner</a>, <a href="http://dok199alesif.blog.com/tag/carpet-padding/" rel="tag">carpet padding</a>, <a href="http://dok199alesif.blog.com/tag/hydrogen-peroxide/" rel="tag">hydrogen peroxide</a>, <a href="http://dok199alesif.blog.com/tag/much-urine/" rel="tag">much urine</a>, <a href="http://dok199alesif.blog.com/tag/paper-towels/" rel="tag">paper towels</a>, <a href="http://dok199alesif.blog.com/tag/smell/" rel="tag">smell</a>, <a href="http://dok199alesif.blog.com/tag/urine/" rel="tag">urine</a>, <a href="http://dok199alesif.blog.com/tag/with-enzyme/" rel="tag">with enzyme</a>, <a href="http://dok199alesif.blog.com/tag/your-carpet/" rel="tag">your carpet</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/get-rid-of-cat-urine-smell-out-of-carpet/#respond" title="Comment on Get Rid Of Cat Urine Smell Out Of Carpet"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-252 -->
+
+				
+					
+	<article id="post-251" class="post-251 post type-post status-publish format-standard hentry category-uncategorized tag-both-systems tag-culligan tag-culligan-kinetico tag-culligan-system tag-kinetico tag-kinetico-system tag-need-confirm tag-softener-filtration tag-system-does tag-that-have tag-that-will">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/culligan-vs-kinetico/" title="Permalink to Culligan Vs Kinetico" rel="bookmark">Culligan Vs Kinetico</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/culligan-vs-kinetico/" title="6:14 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:14:46+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/culligan-vs-kinetico/#respond" title="Comment on Culligan Vs Kinetico"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Culligan Vs Kinetico/c1/"><img src="http://feed2story.com/0/Culligan Vs Kinetico/1.png"></img></a><br />
+<a href="http://feed2story.com/Culligan Vs Kinetico/c2/"><img src="http://feed2story.com/0/Culligan Vs Kinetico/2.png"></img></a><br />
+<a href="http://feed2story.com/Culligan Vs Kinetico/c3/"><img src="http://feed2story.com/0/Culligan Vs Kinetico/3.png"></img></a></p>
+<p>I would really appreciate any help with deciding which water softener and filtration systems to get.  DIY is not an option for me.  I live alone in a newly built townhome with 2.5 baths in a city known for its hard well water.  According to the most recent city water report, here are the averages for my water content (ppm unless otherwise indicated):<br />
+pH = 7.7<br />
+Alkalinity = 209<br />
+Hardness = 246<br />
+Calcium = 67<br />
+Sodium = 32<br />
+Temperature = 18<br />
+Magnesium = 21<br />
+Potassium = 1.2<br />
+Arsenic = .23<br />
+Barium = .17<br />
+Chromium = 1.4<br />
+Nitrate = 15.3<br />
+Chlorine = .65<br />
+TDS = 357<br />
+Chloride = 39<br />
+I&#8217;ve had Culligan and Kinetico come out to give quotes.  Culligan tested my water and reported that I have a hardness level of 24 and a TDS of 340.  For a Culligan Medallist metered softener and r/o filtration, total cost is $2850 (1900 for softener and 1150 for filtration plus 200 discount for both systems).  A Kinetico 4040s softener and filtration (I think K5, but I need to <a href="http://mammresults.blogspot.com/2014/03/marvin-integrity-vs-infinity.html">confirm</a>) is $5400 (3700 for the softener and 1700 for the r/o).<br />
+I understand the Kinetico to be the superior system with better warranties (Cadillac vs. Ford) but the cost is so high.  I&#8217;m not sure that I will stay in this house for more than 5 years and while I know that I can bring the systems with me, who knows if I&#8217;ll move to an area that will need softening/filtration (the water sources vary wildly around here and there are cities 15 miles away that have fantastic water).  Culligan seems to get both good and bad reviews but several of my neighbors have them and like then.  I am concerned that the Culligan r/o system does not remove bacteria and removes only 90% of TDS, but I need to confirm that the Kinetico system does any better.  Both companies offer only 1-year labor warranties.  What do y&#8217;all think?  Are the Kinetico prices fair (salesman refused to budge), what are the differences in the water quality coming out of the two systems?</p>
+<p>I would really appreciate any help with deciding which water softener and filtration systems to get.  DIY is not an option for me.  I live alone in a newly built townhome with 2.5 baths in a city known for its hard well water.<br />
+Does this mean you are getting well water or the city&#8217;s source water from a well and they are distributing through a municipal system adding chlorine to it?<br />
+According to the most recent city water report, here are the averages for my water content (ppm unless otherwise indicated):<br />
+pH = 7.7<br />
+Alkalinity = 209<br />
+Hardness = 246<br />
+Calcium = 67<br />
+Sodium = 32<br />
+Temperature = 18<br />
+Magnesium = 21<br />
+Potassium = 1.2<br />
+Arsenic = .23<br />
+Barium = .17<br />
+Chromium = 1.4<br />
+Nitrate = 15.3<br />
+Chlorine = .65<br />
+TDS = 357<br />
+Chloride = 39<br />
+Your hardness is around 14 grains per gallon. (ppm divided by 17.1 = grains per gallon.)<br />
+I&#8217;ve had Culligan and Kinetico come out to give quotes.  Culligan tested my water and reported that I have a hardness level of 24 and a TDS of 340.  For a Culligan Medallist metered softener and r/o filtration, total cost is $2850 (1900 for softener and 1150 for filtration plus 200 discount for both systems).<br />
+Which RO did they recommend? The GoodWater Machine or the Aquacleer?<br />
+Culligan&#8217;s medalist is their bottom unit with the Gold and Platinum being higher quality units. In my area, the Culligan guy gives a very brief description of the equipment and often just quotes their cheapest versions.<br />
+I imagine the Kinetico guy explained a little more about what he offered.<br />
+MEDALIST<br />
+GOLD<br />
+PLATINUM<br />
+LOOK HERE AT THEIR WARRANTY. One year on the entire unit. Ten years on the valve EXCEPT internal parts!  Also, good for original owner only.<br />
+A Kinetico 4040s softener and filtration (I think K5, but I need to confirm) is $5400 (3700 for the softener and 1700 for the r/o).<br />
+Kinetico 4040s OD<br />
+K5<br />
+I understand the Kinetico to be the superior system with better warranties (Cadillac vs. Ford) but the cost is so high.<br />
+I agree the Kinetico is a better unit.<br />
+I&#8217;m not sure that I will stay in this house for more than 5 years and while I know that I can bring the systems with me, who knows if I&#8217;ll move to an area that will need softening/filtration (the water sources vary wildly around here and there are cities 15 miles away that have fantastic water).<br />
+Check to make sure you can move the Culligan and still have warranty. Kinetico&#8217;s not only follows you (if wate conditions permit) but can be trasnfered to the new owner, as well. It is a full ten-year warranty on ALL parts including resin.<br />
+Culligan seems to get both good and bad reviews but several of my neighbors have them and like then.<br />
+There is good and bad in all products.<br />
+I am concerned that the Culligan r/o system does not remove bacteria and removes only 90% of TDS, but I need to confirm that the Kinetico system does any better.<br />
+Is there a call for bacterial removal? Are tests positive? Kinetico has a certified bacterial and virus filter rated for 2000 gallons.<br />
+Both companies offer only 1-year labor warranties.<br />
+That&#8217;s true. some dealers can have extended warranties but you would have to ask.<br />
+What do y&#8217;all think?  Are the Kinetico prices fair (salesman refused to budge), what are the differences in the water quality coming out of the two systems?<br />
+Let me know about the chlorine levels in your water. I may suggest an alternative for <a href="http://home-and-repairs.blogspot.com/2014/03/buffalo-tools-compressor-parts-post.html">you</a>.<br />
+Andy Christensen, CWS-II</p>
+<p>Thanks for the info and pictures Andy.  To answer your question, the city sources water from local wells and then adds <a href="http://mamscreening.blogspot.com/2014/03/tecumseh-hmsk80-surging.html">chlorine</a>.  According to the city report, the chlorine level ranges from 0-2.3 ppm, with an average of 0.65.  Bacteria does not seem to be a problem, but I&#8217;m wary of a system that does not screen it out.<br />
+My Kinetico salesman told me that the 4040s was the only model that he recommends.  I pressed him to name other models that will take care of my needs and is more cost-effective, and he said that the 4040s was it.  Do you think that the prices he quoted (which includes tax and install) are fair?  I would love it if you could point me to other models to ask him about.<br />
+Culligan&#8217;s warranties are owner-specific and nontransferable, which I agree is a drawback.  Their membrane warranty is way inferior to Kinetico (1 yr vs. 10 yr) but I figured that the $2600 price difference will cover a lot of replacement membranes.  The weird thing is that Culligan&#8217;s warranty on the R/O, which is a Good Water, is lifetime while the Kinetico r/o warranty is only 10 years.  The salesman did explain that the Medallist is their economy model but that it will give me the same softened water as the Gold series.<br />
+I know that I may pay more in the long run with the Culligan system (higher replacement rate for membrane, higher chance of repairs, higher electricity bill) but are the advantages of the Kinetico system really worth the huge price tag?  Are there any other big benefits of the Kinetico system that I&#8217;m missing?  (I&#8217;m aware of the benefits of continuous supply of softened water due to the 2-tank system, but I don&#8217;t think it&#8217;s a big deal if I get hard water every once in a while.)</p>
+<p>Other K-units you could use would be the 2025, 2040, Q237. These would need a dechlorinating carbon prefilter to remove the chlorine. Chlorine will damage the resins in time and that is why he emphasized that one. Kinetico also make the 4060 with carbon but the price would nor be any less that the 4040. Did Culligan offer any dechlorination with their system?<br />
+The Kinetico will provide much high salt efficiency and continuous service, of course.<br />
+The K5 has many features that adds to the <a href="http://mammresults.blogspot.com/2014/03/plastic-bumper-dent-removal.html">value</a>. The high pressure tank is designed to shoot water out faster than any other RO, which is essential for new fridges.<br />
+It also has the volume nearly three times more than typical tanks like Culligan&#8217;s. It is customizable with additional filters including the virus/bacteria filter and a mineral cartridge that introduces minerals back into the water.<br />
+It produces nearly two gallons per hour as opposed to around 1/2 gallon an hour, and the tank remains full all the time or is filling up. Bladder style tanks don&#8217;t start to refill until they are nearly empty.<br />
+Anyway, both systems will improve your water. I prefer the Kinetico but <a href="http://mammresults.blogspot.com/2014/03/replacing-steel-lintels-diy-job.html">good</a> service is important too.<br />
+Hope I helped a little. Good luck.<br />
+Andy Christensen, CWS-II<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/IP5NuJyKjvA" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/IP5NuJyKjvA" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: culligan, kinetico, softener filtration, that will, Kinetico system, need confirm, system does, that have, both systems, Culligan Kinetico, Culligan system</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/both-systems/" rel="tag">both systems</a>, <a href="http://dok199alesif.blog.com/tag/culligan/" rel="tag">culligan</a>, <a href="http://dok199alesif.blog.com/tag/culligan-kinetico/" rel="tag">Culligan Kinetico</a>, <a href="http://dok199alesif.blog.com/tag/culligan-system/" rel="tag">Culligan system</a>, <a href="http://dok199alesif.blog.com/tag/kinetico/" rel="tag">kinetico</a>, <a href="http://dok199alesif.blog.com/tag/kinetico-system/" rel="tag">Kinetico system</a>, <a href="http://dok199alesif.blog.com/tag/need-confirm/" rel="tag">need confirm</a>, <a href="http://dok199alesif.blog.com/tag/softener-filtration/" rel="tag">softener filtration</a>, <a href="http://dok199alesif.blog.com/tag/system-does/" rel="tag">system does</a>, <a href="http://dok199alesif.blog.com/tag/that-have/" rel="tag">that have</a>, <a href="http://dok199alesif.blog.com/tag/that-will/" rel="tag">that will</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/culligan-vs-kinetico/#respond" title="Comment on Culligan Vs Kinetico"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-251 -->
+
+				
+					
+	<article id="post-250" class="post-250 post type-post status-publish format-standard hentry category-uncategorized tag-about-cabot tag-benjamin-moore tag-best tag-bottom-line tag-floor tag-front tag-mahogany tag-means-color tag-moore-products tag-porch tag-sealer">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/best-sealer-for-mahogany-front-porch-floor/" title="Permalink to Best Sealer For Mahogany Front Porch Floor" rel="bookmark">Best Sealer For Mahogany Front Porch Floor</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/best-sealer-for-mahogany-front-porch-floor/" title="6:14 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:14:23+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/best-sealer-for-mahogany-front-porch-floor/#respond" title="Comment on Best Sealer For Mahogany Front Porch Floor"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/Best Sealer For Mahogany Front Porch Floor/c1/"><img src="http://feed2story.com/0/Best Sealer For Mahogany Front Porch Floor/1.png"></img></a><br />
+<a href="http://feed2story.com/Best Sealer For Mahogany Front Porch Floor/c2/"><img src="http://feed2story.com/0/Best Sealer For Mahogany Front Porch Floor/2.png"></img></a><br />
+<a href="http://feed2story.com/Best Sealer For Mahogany Front Porch Floor/c3/"><img src="http://feed2story.com/0/Best Sealer For Mahogany Front Porch Floor/3.png"></img></a></p>
+<p>We&#8217;re having the covered (roof with railings all around) front porch on our 1920&#8242;s rebuilt with mahogany tongue and groove flooring.   I&#8217;d like to keep the floor natural, but don&#8217;t want a lot of upkeep.  I want no upkeep so badly we almost used Trex!  What is the best way to preserve it the longest.  We live in NY and it faces south.<br />
+The painted gray fir floor my husband installed 22 years ago lasted a long time with the original paint and I liked it.  Only started looking bad in some places a few years ago.  If I don&#8217;t like the looks of the natural mahogany with our house, we may end up painting it gray anyway.  But I&#8217;d like to try natural first.  Can always go from natural to gray paint, but not the other way around.<br />
+I&#8217;d appreciate any advice I can get.  I want to buy the sealer myself rather than letting the contractor <a href="http://faintingvictim.blogspot.com/2014/03/what-to-use-to-seal-and-treat-deck.html">get</a> it.<br />
+Thank you!</p>
+<p>Welcome to the forums!<br />
+Clear sealers like thompson water seal have a short life and polyurathanes don&#8217;t weather well. A semi-transparent stain would be a good <a href="http://faintingvictim.blogspot.com/2014/03/get-rid-of-cattails.html">choice</a>. If you pick a color close to the wood color it will enhance the wood without looking like the color had been changed.<br />
+You will always find better coatings at a real paint store &#8211; beter advice too</p>
+<p>Thank you for the response, avid DIYer.  I actually did go to a Benjamin Moore retailer today.  I felt like I had just enough information from all my Internet searching to ask halfway intelligent questions.  He suggested their Exterior Stain Hardwood Finish Alkyd Transparent.  The word stain kind of worried me because I thought I should be getting a sealer rather than a stain, no?  He said this stuff IS a sealer.<br />
+He said then I would have to decide if I wanted natural or mahogany.  Looking at their display samples I think I like the mahogany better.   How does that sound?<br />
+He also said I should first clean the floor really well with their Brighten Brightener  Neutralizer to get off the glaze or whatever that is always on new wood, rinse real well and then let it dry a couple of days before applying the stain.  He said the stain would absorb better if I do this.<br />
+He said it would only need one coat of this stain.  More would just make it shinier and aren&#8217;t necessary.   I don&#8217;t want shiny.<br />
+One thing I noticed is different from your advice. He suggested the transparent variety.  You <a href="http://makebasic.blogspot.com/2014/03/what-size-cartridge-for-powder-actuated.html">said</a> semi-transparent.  Does it matter?  If so, why?  Thank you so much!</p>
+<p>An ongoing survey here tends to recommend Sikkens or Cabbots.</p>
+<p>I <a href="http://makepeach.blogspot.com/2014/03/what-nails-should-i-use.html">don</a>&#8216;t use a lot of B. Moore products so I&#8217;m not real familiar with their products. Transparent usually means no color while semi-transparent means color but not enough to hide the surface colors/grains  underneath. It is possible that they use the term transparent for stains that other manufactures would call semi-transparent.<br />
+It is always a good idea to have a clean surface to paint/stain. Oil base [akyld] must have a dry surface.<br />
+All exterior stains are also sealers. if you have a piece of scrap mahogany &#8211; take it to BM and ask them to apply a sample of both stains/sealers on it so you can decide which you like best.</p>
+<p>Thank you.  Sounds like I&#8217;m on the right track, but I have one more question.  Do you not usually use Benjamin Moore products because you don&#8217;t like them or because you already prefer another one.  And if so, what?   Thanks.</p>
+<p>I just had the thought to check consumerreports.org.  They rank Cabot Decking <a href="http://faintingvictim.blogspot.com/2014/03/replacement-window-brand-question.html">Stain</a> 1480 as #1.  I hesitated about Cabot&#8217;s because I was also on another forum (can&#8217;t find it now) that said Cabot&#8217;s used to be good, but all these contractors were saying they wouldn&#8217;t use it now because they changed it.  I specifically asked the guy at the paint store about Cabot&#8217;s and he said it used to be really good, but since some government regulation about 5 years ago that said a certain ingredient couldn&#8217;t be in it, it isn&#8217;t as good.   So what do you say?  Is that the one you use?<br />
+And what&#8217;s the difference between opaque and transparent?<br />
+Thank you again.</p>
+<p>The main reason I don&#8217;t use much BM products is location and hours of business. SWP has more stores and opens earlier  They also seem to always be nearer to the job<br />
+As far as I know cabot stains always have been and still are good stains. All coatings change from time time to meet gov&#8217;t regs and changing formulas. Years ago they used to be cresote based but I think they got away from that over 20 yrs ago. Cresote has since been banned.I recently did a deck with cabot. Up until I retired, 90% of the coatings I used were SWP &#8211; mainly because of the working relationship I had with the various stores. Except for their bottom line of paints, BM is just as good [some may say better] than SWP [which also has a cheap bottom line]<br />
+Opaque is hard to see thru so it should be a heavier coating than transparent. Their isn&#8217;t an exact standard for sheens or how transparent a stain might be which means there can be differences between brands &#8211; opposing brands may say the same thing but be different in appearence.<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/Vj76uEbNjwA" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/Vj76uEbNjwA" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: best, sealer, mahogany, front, porch, floor, about Cabot, Benjamin Moore, bottom line, means color, Moore products</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/about-cabot/" rel="tag">about Cabot</a>, <a href="http://dok199alesif.blog.com/tag/benjamin-moore/" rel="tag">Benjamin Moore</a>, <a href="http://dok199alesif.blog.com/tag/best/" rel="tag">best</a>, <a href="http://dok199alesif.blog.com/tag/bottom-line/" rel="tag">bottom line</a>, <a href="http://dok199alesif.blog.com/tag/floor/" rel="tag">floor</a>, <a href="http://dok199alesif.blog.com/tag/front/" rel="tag">front</a>, <a href="http://dok199alesif.blog.com/tag/mahogany/" rel="tag">mahogany</a>, <a href="http://dok199alesif.blog.com/tag/means-color/" rel="tag">means color</a>, <a href="http://dok199alesif.blog.com/tag/moore-products/" rel="tag">Moore products</a>, <a href="http://dok199alesif.blog.com/tag/porch/" rel="tag">porch</a>, <a href="http://dok199alesif.blog.com/tag/sealer/" rel="tag">sealer</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/best-sealer-for-mahogany-front-porch-floor/#respond" title="Comment on Best Sealer For Mahogany Front Porch Floor"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-250 -->
+
+				
+					
+	<article id="post-249" class="post-249 post type-post status-publish format-standard hentry category-uncategorized tag-between-panes tag-company-gives tag-company-that tag-company-that-will tag-condensation-between tag-good tag-idea-2 tag-local-utility tag-these-windows tag-tinting tag-window tag-window-film tag-worried-about">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://dok199alesif.blog.com/2014/03/13/3m-window-tinting-good-idea-2/" title="Permalink to 3m Window Tinting Good Idea" rel="bookmark">3m Window Tinting Good Idea</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://dok199alesif.blog.com/2014/03/13/3m-window-tinting-good-idea-2/" title="6:14 am" rel="bookmark"><time class="entry-date" datetime="2014-03-13T06:14:00+00:00" pubdate>March 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://dok199alesif.blog.com/author/dok199alesif/" title="View all posts by dok199alesif" rel="author">dok199alesif</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://dok199alesif.blog.com/2014/03/13/3m-window-tinting-good-idea-2/#respond" title="Comment on 3m Window Tinting Good Idea"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://feed2story.com/3m Window Tinting Good Idea/c1/"><img src="http://feed2story.com/0/3m Window Tinting Good Idea/1.png"></img></a><br />
+<a href="http://feed2story.com/3m Window Tinting Good Idea/c2/"><img src="http://feed2story.com/0/3m Window Tinting Good Idea/2.png"></img></a><br />
+<a href="http://feed2story.com/3m Window Tinting Good Idea/c3/"><img src="http://feed2story.com/0/3m Window Tinting Good Idea/3.png"></img></a></p>
+<p>Hi,<br />
+We just moved into a new house with a ton of windows that get a lot of sunlight.  My wife is worried about new furniture and hardwoods floors fading, as well as reducing glare (not so much worried about retaining heat).<br />
+Our windows are Barber  Ross &#8211; a so-so window manufacturer here in Virginia.  I&#8217;m trying to get the exact specifications of these windows.  They are allegedly Low-E, but not sure what kind of Low-E.  They might have argon, they might not.  The U value is apparently between .40 and .37.<br />
+We have an awesome view, so my wife wants to preseve as much of the scenery as possible.  She is getting a lot of solar screens, but for some rooms, she thinks it won&#8217;t work, hence the need for window tinting.<br />
+So my questions are:<br />
+1.  If I&#8217;m not worried about voiding my window warranty, is tinting windows a good idea?<br />
+2.  We&#8217;ve been pitched 2 products:  3M Prestige and 3M NightVision.  Prestige is pricer, but apparently looks better from the outside and contains no metals, helping with cell phone reception.  NightVision is more affordable.  Nightvision will cost us about $20/pane and <a href="http://modeinterior.blogspot.com/2014/03/restaining-my-wood-deck.html">Prestige</a> $30/pane.<br />
+Does anybody know anything about these products and/or window tinting in general?  Is it worth the high cost?  Are solar screens a better idea?<br />
+Thanks.</p>
+<p>I once lived in a home that had window film on a large window overlooking the back yard.  It was a reflective film and allowed a view of the yard and reduced the amount of <a href="http://homchooling.blogspot.com/2014/03/slant-fin.html">light</a> and heat in the room during summer.  This was a westerly exposed window.<br />
+Depending upon how house is oriented, simply closing window treatments on windows when the sun is shining on that side of the house is all that is necessary.  Orientation of windows, particularly west and south which get direct sun during the afternoon and <a href="http://modeinterior.blogspot.com/2014/03/singer-9020-t-sewing-machine-help.html">early</a> evening require more protection.  Solar screens would be effective for these windows.<br />
+Solar screens are more effective than window film, but they will change the look of the home.  Most tend not to want them on the front of their home.  Taking into consideration window warranty, manufacturers will not cover thermal window warranties if window film is used.  Often window film manufacturers will pick up the remaining warranty on windows.<br />
+There are different types of window films.  One type of film is a window tint that absorbs solar radiation.  Another is a reflective film that reflects the sun&#8217;s rays.  It offers greater transparency than the tint.<br />
+With film, windows tend to build up heat inside the window and sometimes cause the thermal pane to fail.  Film can scratch and change color.  Special precautions must also be taken when cleaning window film.  Many of the auto window film companies apply film on residential windows.<br />
+Check all warranties before making a decision.  Make sure you are dealing with a reputable company that will provide a warranty that at minimum matches that of the original window manufacturer’s.  If you select a window film, follow manufacturer&#8217;s recommended care instructions.</p>
+<p>You are correct when you say VOID WARRANTY. If you have that many windows you should be worried about warranty.<br />
+Window film causes the windows to get hot and sometimes causes a seal failure between the glass. You might want to price some replacement glass for one of your windows before considering film. Average size glass (3&#8242;X3&#8242;) could cost you $200 + labor to replace. Every window company I know of will not warranty windows with film applied.</p>
+<p>A U factor of .37 or .4 is not very good(lower is better with U), .35 is considered good.  But most Lo-E glass will block much of the UV, better glass blocks 95%+.  Argon is more of an insulating agent than UV blocker.  If you intall a film it should be on the outside.  Installed on the inside, it reflects the heat back into the glass and will likely result in seal failure.  And as suggested above, it may void any warranty.</p>
+<p>Yeah, I had already checked and it will void the warranty.  The warranty is only good for condensation between the panes, though.<br />
+Since these windows don&#8217;t have a low U-<a href="http://gifteduc.blogspot.com/2014/03/redmax-eb431-no-spark.html">factor</a>, would you get them done?  Or just solar shades?<br />
+Thanks.  My wife really wants the film for aesthetic reasons.</p>
+<p>If you break a seal in an IG unit, you get condensation between the panes. That&#8217;s what the warranty covers, and that&#8217;s what the films tend to cause.<br />
+i would probably opt for the solar screens. They work better than the tint and cost considerably less than new glass.</p>
+<p>I had all the windows on my house tinted a little over a year ago.  The company that did it will tell you what level of film your windows can tolerate without failure.  To this day I have had zero problems.<br />
+My father had his house done as well, probably about 6 years ago&#8230;.he too has had no problems.<br />
+I suppose if you were truly concerned about it you could have some storm windows installed and have the film applied to them.<br />
+But i honestly don&#8217;t see the film to be as problematic as it may have once been&#8230;..just follow the recommendations of a professional installer.  And trust me you want a pro to do it otherwise you will likely have air bubbles  (ever seen the diy window tint on cars???  yeah that looks hot on a house too )</p>
+<p>grigsby,<br />
+So, how much did you pay for this tinting, and what&#8217;s it done for you? (I don&#8217;t care how much you paid, I&#8217;m just going to make a point, so don&#8217;t answer that part of the question.)<br />
+Window tinting is the least expensive of the 3 options (tinting, sun screens, and window replacement). It&#8217;s also the one that my local utility company gives the smallest rebate on for energy conservation.<br />
+Sun screens cost more, and my local <a href="http://homchooling.blogspot.com/2014/03/real-bad-oil-burner-electrodes.html">utility</a> company gives a larger rebate on them than they do tinting.<br />
+Upgrading to windows that meet minimum energy standards is the most expensive of the 3 options, but my local utility pays a rebate of 25% of the cost of the windows for their customers who do it.<br />
+Do you want to guess which of the 3 choices is going to give you the biggest bang for your buck?</p>
+<p>where could i find info on Sun screens for the windows.i got some tint to try from lowes the cling type,it was ok but i like the look og screens better.</p>
+<p>Your electric company may be able to provide you with dealers of sunscreens in your area.</p>
+<p>http://www.caec.com/e_advice_detail.aspx?id=221</p>
+<p>A door/window dealer may have them.</p>
+<p>FYI, Durasol (www.durasol.com) has a great line of interior and exterior solar screens. I have a blackout shade for my TV room&#8230; sure makes that 61 DLP look pretty!<br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/mUJoWjcu2LU" /><param name="wmode" value="transparent" /><embed src="http://www.youtube.com/v/mUJoWjcu2LU" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>
+<p><b>Tags</b>: window, tinting, good, idea, window film, worried about, local utility, these windows, between panes, company gives, company that, company that will, condensation between</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://dok199alesif.blog.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>			</span>
+									<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="http://dok199alesif.blog.com/tag/between-panes/" rel="tag">between panes</a>, <a href="http://dok199alesif.blog.com/tag/company-gives/" rel="tag">company gives</a>, <a href="http://dok199alesif.blog.com/tag/company-that/" rel="tag">company that</a>, <a href="http://dok199alesif.blog.com/tag/company-that-will/" rel="tag">company that will</a>, <a href="http://dok199alesif.blog.com/tag/condensation-between/" rel="tag">condensation between</a>, <a href="http://dok199alesif.blog.com/tag/good/" rel="tag">good</a>, <a href="http://dok199alesif.blog.com/tag/idea-2/" rel="tag">idea</a>, <a href="http://dok199alesif.blog.com/tag/local-utility/" rel="tag">local utility</a>, <a href="http://dok199alesif.blog.com/tag/these-windows/" rel="tag">these windows</a>, <a href="http://dok199alesif.blog.com/tag/tinting/" rel="tag">tinting</a>, <a href="http://dok199alesif.blog.com/tag/window/" rel="tag">window</a>, <a href="http://dok199alesif.blog.com/tag/window-film/" rel="tag">window film</a>, <a href="http://dok199alesif.blog.com/tag/worried-about/" rel="tag">worried about</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://dok199alesif.blog.com/2014/03/13/3m-window-tinting-good-idea-2/#respond" title="Comment on 3m Window Tinting Good Idea"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- #entry-meta -->
+	</article><!-- #post-249 -->
+
+				
+						<nav id="nav-below">
+			<h3 class="assistive-text">Post navigation</h3>
+			<div class="nav-previous"><a href="http://dok199alesif.blog.com/page/2/" ><span class="meta-nav">&larr;</span> Older Entries</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+			
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+											<script type="text/javascript">
+					_gaq.push(['_setCustomVar', 1, 'ads', 'adsense_candidate', 3]);
+					_gaq.push(['_setVar', 'adsense_candidate']);
+				</script>
+				<div  id="ads-placeholder"><div id="azk71839"></div></div>			
+			
+					</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								Powered by <a href="http://blog.com">Blog.com</a>				<!--<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>-->
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='http://dok199alesif.blog.com/wp-includes/js/admin-bar.js?ver=20110131'></script>
+
+            <script type="text/javascript">
+                _qoptions={
+                qacct:"p-b3DDIGtNmjMZA"
+                };
+            </script>
+            <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+            <noscript>
+            <img src="http://pixel.quantserve.com/pixel/p-b3DDIGtNmjMZA.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+            </noscript>
+            		<div id="wpadminbar">
+			<div class="quicklinks">
+				<ul>
+													
+		<li id="wp-admin-bar-site" class="">
+			<a href="http://blog.com/">&nbsp;</a>
+
+			
+					</li>													
+		<li id="wp-admin-bar-login" class="">
+			<a href="http://blog.com/wp-login.php">Login</a>
+
+			
+					</li>													
+		<li id="wp-admin-bar-sign-up" class="">
+			<a href="http://blog.com/wp-signup.php">Create Blog</a>
+
+			
+					</li>													
+		<li id="wp-admin-bar-random-blog" class="">
+			<a href="http://blog.com/?random">Random Blog</a>
+
+			
+					</li>													
+		<li id="wp-admin-bar-report-blog" class="">
+			<a href="http://support.blog.com/category/reports-dmca-complaints">Report Blog</a>
+
+			
+					</li>									</ul>
+			</div>
+
+			<!--
+			<div id="adminbarsearch-wrap" class="quicklinks">
+												<ul>
+					<li style="float: right;">
+						<a href="#" onclick="if (document.getElementById('adminbar-search').value == 'Search Blog.com') { document.getElementById('adminbar-search').value = ''; } document.adminbarsearch.submit(); return false;">Go!</a>
+					</li>
+				</ul>
+				<form action="http://blog.com/search" method="get" id="adminbarsearch" name="adminbarsearch">
+					<input class="adminbar-input" name="qs" id="adminbar-search" type="text" value="Search Blog.com" maxlength="150" onblur="if (this.value == '') {this.value = 'Search Blog.com';" onfocus="if (this.value == 'Search Blog.com') {this.value = '';}" />
+				</form>
+			</div>
+			-->
+		</div>
+
+		
+</body>
+</html>

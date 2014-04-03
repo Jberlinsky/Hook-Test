@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+   
+    <title>Associated Press</title>
+    <meta  charset="utf-8" />
+    <meta name="Contents Types" content="width=device-width, initial-scale=1.0" />
+    <meta name="Languages" content="width=device-width, initial-scale=1.0" />
+
+     <link rel="shortcut icon" href="/Content/Images/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link href="/Content/Images/touch-icon.png" rel="apple-touch-icon" />
+    <link href="/Content/grid_framework.css" rel="stylesheet" type="text/css" media="screen, print" />
+    <link href="/Content/mobile_framework.css" rel="stylesheet" type="text/css" media="screen, print" />
+    <link href="/Content/typography.css" rel="stylesheet" type="text/css" media="screen, print" />
+    <link href="/Content/ap_org_styles.css" rel="stylesheet" type="text/css" media="screen, print" />
+    <script src="/Scripts/css3-mediaqueries.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> 
+    <script src="/Scripts/jquery_cookie.js" type="text/javascript"></script>
+    <script src="/Scripts/jsocial.js" type="text/javascript"></script>
+    <script src="/Scripts/modernizr-1.7.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jlib_ap.org.js" type="text/javascript"></script>
+    <script src="/Scripts/multiple_accordion.js" type="text/javascript"></script>
+    <script src="/Scripts/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+    <script src="/Scripts/fancybox/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+<!--[if IE 7]>
+     <style type="text/css">
+      #tpNvMenu li ul.sbMn {          
+        margin-left:-84px;
+      }
+      #tpNvMenu li#mn1 ul.sbMn {              
+        margin-left:-170px;
+      }
+
+     </style>
+    <![endif]-->
+    <!--[if IE 8]>
+     <style type="text/css">
+      #tpNvMenu li ul.sbMn {
+
+          background:url(/content/images/shades/tpNvPp_bg_dark.png);
+    }         
+     </style>
+<![endif]-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19104461-1']);
+
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+   
+</head>
+<body>
+<style type="text/css">
+#SSO {
+    background-color: #000000;
+    border-bottom: 1px solid #333333;
+    color: #5A5959;
+    float: left;
+    font-family: "GoodWeb-Book",Arial Narrow,Trebuchet,Arial,sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#SSO ul {
+    display: block;
+    margin: 0 0 0 10px;
+} 
+
+#SSO ul li {
+    float: left;
+    height: 10px;
+    line-height: 0;
+    list-style: none outside none;
+    padding: 12px 0 4px 20px;
+} 
+
+#SSO a {
+    color: #b6b6ab;
+    text-decoration:none;
+}
+
+#SSO a:hover {
+    color: #eee;
+}
+
+#SSO a.active {
+    color: #fff;
+}
+
+</style>
+
+<script>
+    function redirectWithDelay(link) {
+        var l = link;
+        setTimeout(function () { location = l.href }, 250);
+        return false;
+    }
+</script>
+
+<div id="SSO">
+	<ul>
+		<li><a href="http://www.apimages.com/login" onclick="_gaq.push(['_trackEvent', 'IMAGES', 'Click']); return redirectWithDelay(this);">AP Images</a></li>
+		
+<li>|</li>	    
+		
+		<li><a href="http://www.aparchive.com/login" onclick="_gaq.push(['_trackEvent', 'VIDEO ARCHIVE', 'Click']); return redirectWithDelay(this);">AP Video Archive</a></li>
+	</ul>
+</div>
+<div style="clear: both"></div>
+    <div class="hdrWrp">
+        <header class="container">
+        
+	<div class="row">
+		<div class="onecol">
+          <div class="cntFrm">
+           <!-- Logo image component -->
+			<a href="/" title="" class="apLogo"></a>
+          </div>
+		</div>
+		<div class="elevencol last">
+          <div class="cntFrm">
+           <!-- Top Novigation component -->
+               <!--[if IE 8]>
+     <style type="text/css">
+      #IE8Twitter {
+         margin-top:26px;
+    }       
+     </style>
+<![endif]-->
+<div class="topNvCmp" class="noindex" id="tpHdr">
+    <ul id="tpNvMenu">
+<li class="mlvl" id="mn1"><a href="/" title="" target="_self" class="&#xA;            mnTpLnkSlctd&#xA;          ">Home</a></li><li class="mlvl" id="mn2"><a href="/company/overview" title="" target="_self" class="&#xA;            mnTpLnk&#xA;          ">Company</a><ul class="sbMn"><li><div class="&#xA;                            sbMnDv&#xA;                          "><h6><a href="/company/about-us" target="_self">About</a></h6><div><p><a href="/company/history/ap-history" target="_self"><span>History</span></a></p><p><a href="/company/emergency-relief-fund" target="_self"><span>Relief Fund</span></a></p><p><a href="/company/FAQs" target="_self"><span>FAQs</span></a></p><p><a href="/company/brand" target="_self"><span>Brand</span></a></p><p><a href="/company/news-values" target="_self"><span>News Values</span></a></p><p><a href="/Company/annual-meeting/2013/annual-report/index.html" target="_self"><span>Annual Report</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="/company/Awards" target="_self">Awards</a></h6><div><p><a href="/company/pulitzers" target="_self"><span>Pulitzers</span></a></p><p><a href="/company/awards/photo-awards" target="_self"><span>Photo Awards</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="/company/ap-leadership" target="_self">AP Leadership</a></h6><div><p><a href="/company/board-of-directors" target="_self"><span>Board of Directors</span></a></p><p><a href="/company/apmc" target="_self"><span>AP Management Committee</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="/company/Industry-Leadership" target="_self">Industry Leadership</a></h6><div><p><a href="/company/freedom-of-information" target="_self"><span>Freedom of Information</span></a></p><p><a href="/company/intellectual-property" target="_self"><span>Intellectual Property</span></a></p><p><a href="/company/video-news-insights" target="_self"><span>Video News Insights</span></a></p></div><div /></div></li><p style="margin-bottom:25px;"><br style="clear:both " /></p><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6>Careers</h6><div><p><a href="/company/careers" target="_self"><span>Work for Us</span></a></p><p><a href="http://careers.ap.org" target="_blank"><span>Search Jobs</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="http://www.ap.org/explore/" target="_self">AP Explore</a></h6><div><p><a href="http://www.ap.org/explore/jfk-assassination/" target="_self"><span>John F. Kennedy: The Death of a President</span></a></p><p><a href="http://www.ap.org/explore/vietnam-the-real-war/" target="_self"><span>Vietnam: The Real War</span></a></p><p><a href="http://www.ap.org/explore/the-burning-monk/" target="_self"><span>The Burning Monk</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="http://blog.ap.org" target="_blank">Definitive Source - blog</a></h6><div /><div /></div></li>  </ul></li><li class="mlvl" id="mn3"><a href="/media-center/overview" title="" target="_self" class="&#xA;            mnTpLnk&#xA;          ">Media Center</a><ul class="sbMn"><li><div class="&#xA;                            sbMnDv&#xA;                          "><h6><a href="/index/press-release/2014" target="_self">Press Releases</a></h6><div><p><a href="/index/press-release/2014" target="_self"><span>2014 </span></a></p><p><a href="/index/press-release/2013" target="_self"><span>2013</span></a></p><p><a href="/index/press-release/2012" target="_self"><span>2012</span></a></p><p><a href="/index/press-release/2011" target="_self"><span>2011</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="/index/AP-in-the-news/2014" target="_self">AP in the News</a></h6><div><p><a href="/index/AP-in-the-news/2014" target="_self"><span>2014</span></a></p><p><a href="/index/ap-in-the-news/2013" target="_self"><span>2013</span></a></p><p><a href="/index/ap-in-the-news/2012" target="_self"><span>2012</span></a></p><p><a href="/index/ap-in-the-news/2011" target="_self"><span>2011</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="/media-center/elections/us-election" target="_self">Elections</a></h6><div><p><a href="/media-center/elections/election-night" target="_self"><span>Election Night</span></a></p><p><a href="/media-center/elections/calling-election" target="_self"><span>Calling the Election</span></a></p><p><a href="/media-center/elections/ap-journalists" target="_self"><span>How AP Covers the Election</span></a></p><p><a href="/media-center/elections/history" target="_self"><span>History of Elections</span></a></p><p><a href="/media-center/elections/faqs" target="_self"><span>FAQs</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="/media-center/us-nuclear-weapons" target="_self">US Nuclear Weapons Investigation</a></h6><div><p><a href="/index/ap-in-the-news/us-nuclear-weapons" target="_self"><span>US Nuclear Weapons Stories</span></a></p></div><div /></div></li><p style="margin-bottom:25px;"><br style="clear:both " /></p><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="/media-center/secrets-of-the-al-Qaida-papers " target="_self">Secrets of the al-Qaida papers</a></h6><div><p><a href="/index/ap-in-the-news/Secrets-of-the-al-Qaida-papers" target="_self"><span>Secrets of the al-Qaida Papers Stories</span></a></p></div><div /></div></li>  </ul></li><li class="mlvl" id="mn4"><a href="/products-services/overview" title="" target="_self" class="&#xA;            mnTpLnk&#xA;          ">Products &amp; Services</a><ul class="sbMn"><li><div class="&#xA;                            sbMnDv&#xA;                          "><h6>Business Products</h6><div><p><a href="/products-services/audio" target="_self"><span>Audio</span></a></p><p><a href="/products-services/Graphics-Interactives" target="_self"><span>Graphics/Interactives</span></a></p><p><a href="/products-services/Multimedia" target="_self"><span>Multimedia</span></a></p><p><a href="/products-services/photos" target="_self"><span>Photos</span></a></p><p><a href="/products-services/text" target="_self"><span>Text</span></a></p><p><a href="/products-services/video" target="_self"><span>Video</span></a></p></div><div><p><a href="/products-services/other-services" target="_self"><span>Other Services</span></a></p></div></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6>Business Customers</h6><div><p><a href="/products-services/new-media" target="_self"><span>New Media</span></a></p><p><a href="/products-services/newspapers" target="_self"><span>Newspapers</span></a></p><p><a href="/products-services/radio" target="_self"><span>Radio</span></a></p><p><a href="/products-services/television" target="_self"><span>Television</span></a></p></div><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6>Customer Products</h6><div><p><a href="/products-services/apps" target="_self"><span>Apps</span></a></p><p><a href="/products-services/photo-prints" target="_self"><span>Photo Prints</span></a></p><p><a href="/products-services/stylebook" target="_self"><span>AP Stylebook</span></a></p><p><a href="/products-services/ap-planner" target="_self"><span>AP Planner</span></a></p></div><div /></div></li>  </ul></li><li class="mlvl" id="mn5"><span title="" class="&#xA;            mnTpLnk&#xA;          ">Contact Us</span><ul class="sbMn"><li><div class="&#xA;                            sbMnDv&#xA;                          "><h6><a href="/company/contact-us" target="_self">General Information</a></h6><div /><div /></div></li><li><div class="&#xA;                            sbMnDv nvBrdLt&#xA;                          "><h6><a href="http://aphelp.ap.org " target="_blank">Customer Support</a></h6><div /><div /></div></li>  </ul></li>
+    </ul>
+     <div class="topNv_apx">
+     <a href="" title="Share the information about the Associated Press on Facebook" class="fsbkIcn"></a>
+<a title="Share the information about the Associated Press on Linked In" target="_blank" class="inIcn"
+            href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A//www.ap.org&title=Welcome%20to%20AP&summary=My%20summary&source=the%20source">
+        </a>
+                <a href="http://twitter.com/home?status=Say something about this page" title="Click to share this page on Twitter" class="twtIcn" target="_blank"></a>
+                <div class="gglIcn">
+               <!-- Place this tag where you want the +1 button to render -->
+                   <div id="IE8Twitter"><g:plusone size="small" annotation="none"></g:plusone></div>
+                   <!-- Place this render call where appropriate -->
+                   <script type="text/javascript">
+                       (function () {
+                           var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                           po.src = 'https://apis.google.com/js/plusone.js';
+                           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                       })();
+                  </script>
+               </div>
+<form action="/Search/SearchResults" class="topNv_srch" method="get"><input class="srchTxt" id="searchkeywords" name="searchkeywords" placeholder="Search AP.Org" type="text" value="" />                <input type="submit" class="srchBtn" value="" />
+</form></div>
+</div>
+<script>
+    var theUrl = window.location.href;
+    var theTitle = "Associated Press - " + document.title;
+    $("a.twtIcn").attr("href", "http://twitter.com/home?status=" + theUrl );
+    $("a.inIcn").attr("href", "http://www.linkedin.com/shareArticle?mini=true&url=" +encodeURIComponent(theUrl ) + "&title=" + encodeURIComponent(theTitle)  + "&source=AP");
+    var fburl = "http://www.facebook.com/sharer.php?u=" + theUrl + "&t=The Associated Press is the world oldest and largest newsgathering organization"
+    $("a.fsbkIcn").attr("href", fburl);
+    
+</script>
+           
+         </div>
+	  </div>
+   </div>
+</header>
+    </div>
+                
+         
+             <span><!-- Start SiteEdit Component Presentation: {"ID" : "cp_1", "ComponentID" : "tcm:28-4128", "ComponentTemplateID" : "tcm:28-4612-32", "ComponentVersion" : 281, "IsQueryBased" : false  } --><div style="margin-top:-75px; background:url(/Images/rugby_tcm28-16047.jpg)">
+  <div style="background:url(/Content/images/shades/mainImgShade.png) repeat-x">
+     <div >
+       <div class="container">
+	     <div class="row">
+		   <div class="twelvecol">
+             <div class="cntFrm" style="height:456px">
+            </div>
+          </div>
+         </div>
+       </div>
+     </div>
+   </div>
+</div></span>
+        
+        
+        
+      
+         
+        
+        
+         <div class="artWrp homeTmpl">
+    <article class="container">
+        <div class="row">
+        <div class="twelvecol">
+          <div class="cntFrm">
+            <div class="articleCmp">
+              <span><!-- Start SiteEdit Component Presentation: {"ID" : "cp_2", "ComponentID" : "tcm:28-4460", "ComponentTemplateID" : "tcm:28-4080-32", "ComponentVersion" : 866, "IsQueryBased" : false  } --><h2></h2>
+       
+<!-- Donut hole  -->
+
+<!-- Touts -->
+
+<div class="toutFrm" id="tt4">
+
+     <div class="toutSm">
+     <h2>AP COVERAGE WITH IMPACT</h2>
+     <figure>
+          <img src="/Images/Nuke_Force-tout4.jpg"  width="264" style="width:170px;height:96px"/>
+          <figcaption>News of the
+<br /><a target="_blank" href="http://www.ap.org/Content/AP-In-The-News/2014/Commanders-fired-in-nuke-missile-cheating-scandal">extraordinary dismissal</a><br />
+of personnel in an exam-cheating scandal at a nuclear base is just the latest in a string of startling revelations spurred by the reporting of AP National Security Writer Robert Burns. Since May 2013, Burns has delivered a series of stories about security breaches and other troubling lapses within the ranks and hierarchy of the U.S. nuclear force.</figcaption>
+     </figure>
+
+     <a class="moreLnk" href="/media-center/us-nuclear-weapons"  target="_blank">Read more <img src="/content/images/shades/clear.gif"/></a>
+
+     </div>
+
+     <div class="toutSm">
+     <h2>digital news experience</h2>
+     <figure>
+          <img src="/Images/NCAA-March-Madness.jpg"  width="264" style="width:170px;height:96px"/>
+          <figcaption>AP Digital News Experiences are ready-to-publish Web content packages that can extend your coverage of major sports and generate new advertising revenue. The packages are free of charge, and can return revenue to you from the advertising sold on AP’s behalf nationally.</figcaption>
+     </figure>
+
+     <a class="moreLnk" href="/products-services/dne/overview"  target="_blank">Learn more  <img src="/content/images/shades/clear.gif"/></a>
+
+     </div>
+
+     <div class="toutSm">
+     <h2>Get the latest news on AP Mobile</h2>
+     <figure>
+          <img src="/Images/ap-mobile-ukraine-tout4.jpg"  width="264" style="width:170px;height:96px"/>
+          <figcaption>AP's fast, accurate and trusted news content is available on your smartphone and tablet device. Let the award-winning AP Mobile app be your first choice for global and local news, on the go.
+<br /><br /><a target="_blank" title="Download the AP Mobile app from itunes" href="http://hastrk2.com/serve?action=click&amp;publisher_id=36700&amp;site_id=18938&amp;offer_id=250670"><img src="/Images/itunes-download-app-button.gif"  longdesc="http://ctcebizpcms1.ap.org/us/app/ap-mobile/id284901416?mt=8" style="vertical-align: middle; width: 129px; height: 45px;" alt="Download the AP Mobile app from itunes" title="Download the AP Mobile app from itunes" /></a><br /><a target="_blank" title="Download the AP Mobile app from Google Play" href="http://hastrk2.com/serve?action=click&amp;publisher_id=36700&amp;site_id=31976&amp;offer_id=257676"><img src="/Images/google-play-download-button.gif"  style="vertical-align: bottom; width: 129px; height: 44px;" longdesc="http://ctcebizpcms1.ap.org/store/apps/details?id=mnn.Android" alt="Download the AP Mobile app from the Google Play store" title="Download the AP Mobile app from the Google Play store" /></a><br /><br /><br /></figcaption>
+     </figure>
+
+     </div>
+
+<!-- Video or Text content for Four col tout -->
+
+     <div class="toutLg txtLg">
+          
+                    <h2>Broadcast Facilities at the 2014 World Cup</h2>
+                   <p> <p><iframe width="362" height="204" frameborder="0" src="//www.youtube.com/embed/I7ZgdKFxjl8">&amp;lt;p&amp;gt;Brazil's Newsource Globo and AP Global Media Services will offer comprehensive broadcast facilities throughout Brazil at the FIFA World Cup™ 2014. The feed points will be available to both rights and non-rights holders.&amp;lt;/p&amp;gt; &amp;lt;br&amp;gt; &amp;lt;br&amp;gt; &amp;lt;br&amp;gt;</iframe></p>
+Brazil's Newsource Globo and AP Global Media Services will offer comprehensive broadcast facilities throughout Brazil at the FIFA World Cup™ 2014. The feed points will be available to both rights and non-rights holders.
+<br /></p>
+
+                    <a href="http://www.aptn.com/aptn/website_2005/headlines.nsf/%28httpBSEvents%29/0CFAFF9FFB5B93F680257C1B0053AE77?OpenDocument" target="_blank" class="moreLnk">Learn more <img src="/content/images/shades/clear.gif"/></a>
+
+          
+     </div>
+
+<!-- End of Video or Text content for four col tout -->
+
+</div>
+
+<!-- Touts End --></span>
+          </div>
+            </div>
+            </div>
+            </div>
+        </article>
+</div>
+        
+      <!-- SiteEdit Settings: { "PageID" : "tcm:28-4331-64", "PageVersion" : 97, "TargetTypeID" : "", "ComponentPresentationLocation" : 1} -->
+    <!--*** Footer container ***-->
+    <div class="ftrWrp" class="noindex">
+        <footer class="container">
+	   
+         <div class="row">
+    
+    <div class="fourcol">
+        <div class="cntFrm">
+            <div class="ftrHdr">
+                <h3>
+                    Company</h3>
+            </div>
+            <ul>
+                
+                <li><a href="/company/about-us" target="_self" title="">About Us</a></li>
+                
+            
+                <li><a href="/Company/AP-Leadership" target="_self" title="">AP Leadership</a></li>
+                
+            
+                <li><a href="/company/history/ap-history" target="_self" title="">History</a></li>
+                
+            
+                <li><a href="/company/Industry-Leadership" target="_self" title="">Industry Leadership</a></li>
+                
+            
+                <li><a href="/company/Intellectual-Property" target="_self" title="">Intellectual Property</a></li>
+                
+            
+                <li><a href="/company/Brand" target="_self" title="">Branding</a></li>
+                
+            </ul>
+            <ul class="ulNd">
+                
+            
+                <li><a href="/company/FAQs" target="_self" title="">FAQs</a></li>
+                
+            
+                <li><a href="/company/awards" target="_self" title="">Awards &amp; Recognition</a></li>
+                
+            
+                <li><a href="/company/News-Values" target="_self" title="">News Values and Principles</a></li>
+                
+            
+                <li><a href="/company/freedom-of-information" target="_self" title="">Freedom of Information</a></li>
+                
+            
+                <li><a href="http://blog.ap.org" target="_blank" title="">Definitive Source - blog</a></li>
+                
+            </ul>
+            <ul class="ulNd">
+                
+            
+            </ul>
+        </div>
+    </div>
+    
+    <div class="twocol">
+        <div class="cntFrm">
+            <div class="ftrHdr">
+                <h3>
+                    Associated Press</h3>
+            </div>
+            <ul>
+                
+                <li><a href="/company/Terms-conditions" target="_self" title="">Terms &amp; Conditions</a></li>
+                
+            
+                <li><a href="/company/privacy" target="_self" title="">Privacy</a></li>
+                
+            
+                <li><a href="/home/about-this-site" target="_self" title="">About the Site</a></li>
+                
+            
+                <li><a href="http://www.apessentials.com" target="_self" title="">AP Essentials</a></li>
+                
+            
+                <li><a href="/home/site-map" target="_self" title="">Site Map</a></li>
+                
+            
+                <li><a href="/company/careers" target="_self" title="">Careers</a></li>
+                
+            </ul>
+            <ul class="ulNd">
+                
+            
+            </ul>
+        </div>
+    </div>
+    
+    <div class="twocol">
+        <div class="cntFrm">
+            <div class="ftrHdr">
+                <h3>
+                    Media Center</h3>
+            </div>
+            <ul>
+                
+                <li><a href="/Media-center/overview" target="_self" title="">Media Center</a></li>
+                
+            
+                <li><a href="/index/press-release/2013" target="_self" title="">Press Releases</a></li>
+                
+            
+                <li><a href="/index/ap-in-the-news/2013" target="_self" title="">AP in the News</a></li>
+                
+            
+            </ul>
+        </div>
+    </div>
+    
+    <div class="twocol">
+        <div class="cntFrm">
+            <div class="ftrHdr">
+                <h3>
+                    Contact Us</h3>
+            </div>
+            <ul>
+                
+                <li><a href="/company/Contact-us" target="_self" title="">Contact Us</a></li>
+                
+            
+                <li><a href="http://aphelp.ap.org " target="_self" title="">Customer Support</a></li>
+                
+            
+                <li><a href="/products-services/training" target="_self" title="">Product Training</a></li>
+                
+            
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div class="twocol last">
+        <div class="cntFrm">
+            <div class="ftrHdr">
+                <h3>
+                    Follow Us</h3>
+            </div>
+            <ul>
+                <li class="liShrBr">
+                    
+                   <a href="http://www.facebook.com/APNews " title="Follow the Associated Press on Facebook" target="_new" class="fsbkIcnLg"></a>
+                    
+                    
+                   <a href="http://www.linkedin.com/company/associated-press " title="Follow the Associated Press on Linked In" target="_new" class="inIcnLg"></a>
+<br /><br /><br />
+                    
+                    
+                    <a href="http://twitter.com/#!/AP"  title="Follow the Associated Press on Twitter" target="_new" class="twtIcnLg"></a>
+                    
+                    
+                    <a href="http://www.youtube.com/ap" title="Follow the Associated Press on YouTube" target="_new"  class="uTbIcnLg"></a></li>
+                    
+                </li>
+                <li><a href="#" title="">News, discussion and a behind-the-scenes look  at the newsgathering process from The AP.</a></li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+  
+
+</footer>
+        <!--*** Copy right container ***-->
+        <div class="container" id="cpr_org">
+            <div class="row">
+                <div class="twelvecol">
+                    <div class="cntFrm">
+                        <summary>
+            All contents &copy; copyright 2013 Associated Press. All rights reserved.
+         </summary>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SAIT Home</title>
+  <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/layout-css-1.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+   body {
+   	background-image:url(file:///C|/Sites/sait/APPS/depts/sait/mainsite/home/index.xeditor.temp.html.html);
+   	-webkit-transform:none;
+   	-webkit-box-shadow:none;
+   }
+  body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+  a {
+	font-size: small;
+}
+  </style>
+  <!--[if lte IE 9]>
+   <style type="text/css" title="ie-style-css">
+    /* lte IE 9 style*/
+   </style>
+  <![endif]-->
+  <script type="text/javascript" src="scripts/browser-compatibility.js"></script>
+ </head>
+ <body>
+  <div class="main_wrapper">
+   <div class="main_wrapper cf">
+    <div class="header_wrapper cf">
+     <div class="bottom_footer cf ui-droppable">
+      <div class="column_6">
+       <div class="row_16 cf">
+        <div class="row_3 cf"> <a href="http://sait.usc.edu/default.htm"><img src="images/appTitle.png" width="297" height="34" border="0"/></a>
+
+         <br/> <a href="http://www.usc.edu/student-affairs"><img src="images/saLogo.png" width="180" height="32"/></a>
+
+        </div>
+       </div>
+      </div>
+      <div class="column_7">
+       <div class="row_15 cf">
+        <div class="row_12 cf">
+         <div align="right" class="cf"> <a href="http://www.usc.edu"><img width="176" height="38" src="images/uscLogo.png"/></a>
+
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="slideshow_wrapper cf">
+     <div class="slideshow_wrapper2 cf">
+      <ul class="hmenubar3 cf">
+       <li class=""><a class="clicked" href="#">Home</a> 
+       </li>
+       <li class=""><a href="mailto:saitweb@usc.edu" class="clicked">Contact</a> 
+       </li>
+       <li class=""><a href="policies.pdf" target="new" class="clicked">Policies</a> 
+       </li>
+       <li class=""></li>
+       <script type="text/javascript" src="scripts/menu_selection.js"></script>
+      </ul>
+     </div>
+    </div>
+    <div class="content_wrapper cf">
+     <div class="content cf">
+      <div class="content_left">
+       <div class="about_us">
+         <h1>IT Support for Student Affairs</h1>
+
+        <p>Our Mission is to provide timely and effective technical support for Student Affairs. To service and develop a comprehensive technical environment for the benefit of our faculty, staff, and students is our primary objective. We offer a secure and robust network infrastructure, provide desktop support, mobile services, email, and web development. We partner with departments to provide the necessary technological tools in order to enable Student Affairs to successfully meet the goals of USC.</p>
+        <p>We are located on the University Park campus in the Student Union Building, 3601 Trousdale Pkwy, Room 408.</p>
+        <p>This site and services are provided for the Division of Student Affairs only. Technical support for non-Student Affairs personnel can be obtained by contacting USC Information Technology Services at 213-740-5555 or from the USC ITS Home link below.</p>
+       </div>
+       <div class="services cf">
+        <div class="services_left">
+         <div class="row_17 cf">
+           <h2 class="heading">Links</h2>
+
+         </div>
+         <div class="sidebar_services cf">
+           <ul>
+             <li><a href="https://saemail.usc.edu" title="saemail" target="new">SA Web Email</a>
+           </li>
+           <li><a href="http://sait.usc.edu/samd" title="SAMD Email Dist" target="new">SA Mail Distribution</a></li>
+           <li><a href="http://sait.usc.edu/general.htm" title="SA SharePoint" target="new">SA SharePoint</a></li>
+           <li><a href="http://www.usc.edu/its" title="ITS Home" target="new">USC ITS Home</a>
+
+           </li>
+           <li><a href="http://email.usc.edu" title="USC Web Email" target="new">USC Web Email</a>
+
+           </li>
+        </ul>
+         </div>
+        </div>
+        <div class="services_right">
+         <div class="row_18 cf"></div>
+         <div class="sidebar_services1 cf">
+          <ul>
+           <li><a href="http://software.usc.edu" title="USC Software" target="new">USC Software Downloads</a>
+
+           </li>
+           <li><a href="http://www.usc.edu/its/policies" title="ITS Policies" target="new">USC ITS Policies</a>
+
+           </li>
+           <li><a href="http://policies.usc.edu" title="USC Policies" target="new">USC University Policies</a>
+
+           </li>
+           <li><a href="http://www.usc.edu/student-affairs" title="SA Gateway" target="new">Student Affairs Gateway</a>
+
+           </li>
+           <li><a href="http://www.whatsmyip.org/" title="Your IP" target="new">Your Internet IP Address</a>
+
+           </li>
+          </ul>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="content_right">
+       <div class="row_20 cf">
+        <div class="row_17 cf">
+          <h2 class="heading">Support Services</h2>
+
+        </div>
+       </div>
+       <div class="article_ten">
+        <p>
+         <img src="images/workstation.png" alt="" width="573" height="430" class="article_ten_img" />Support for PCs and Macs: including installation and configuration, standarization, and troubleshooting.</p>
+        <p>213-740-5244</p>
+       </div>
+       <div class="article_ten">
+        <img class="article_ten_img" src="images/monitor1.png" alt="" />
+        <p>Network infrastructure: including account and resource access, file sharing, email, web, and security.</p>
+        <p>213-740-5299</p>
+       </div>
+       <div class="article_ten">
+        <img src="images/xoom.jpg" alt="" width="86" height="105" class="article_ten_img" />
+        <p>Support for mobile devices: including Android phones and tablets, iPhones, iPads, and laptops.</p>
+        <p>213-740-5244</p>
+       </div>
+       <div class="article_ten">
+        <img class="article_ten_img" src="images/printer0.png" alt="" />
+        <p>Administrative Support: including hardware and software procurement, telecom, and special projects.</p>
+        <p>213-740-5299</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="column_8"></div>
+    <div class="column_9"></div>
+    <div class="column_10"></div>
+    <div class="row_19"></div>
+    <div class="column_13"></div>
+    <div class="column_12"></div>
+    <div class="column_11"><a href="http://sait.usc.edu/general.htm" target="new">..</a></div>
+   </div>
+  </div>
+ </body>
+
+</html>

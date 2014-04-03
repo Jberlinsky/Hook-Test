@@ -1,0 +1,1922 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/><link rel="stylesheet" type="text/css" href="http://gl1800riders.com/forums/A.css.php,qstyleid=2,alangid=1,ad=1395668484,atd=ltr,asheet=bbcode.css,,editor.css,,popupmenu.css,,reset-fonts.css,,vbulletin.css,,vbulletin-chrome.css,,vbulletin-formcontrols.css,,.pagespeed.cf.jL0TscqGAd.css"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function t(n,e,o){function r(a){if(!e[a]){var i=e[a]={exports:{}};n[a][0].call(i.exports,function(t){var e=n[a][1][t];return r(e?e:t)},i,i.exports,t,n,e,o)}return e[a].exports}for(var a=0;a<o.length;a++)r(o[a]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=o[t];return e?e.apply(this,n):(r[t]||(r[t]=[]),void r[t].push(n))}var o={},r={};n.exports=e,e.queues=r,e.handlers=o},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=d.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID){d.proto="https"===c.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=u.createElement("script");n.src=d.proto+t.agent,u.body.appendChild(n)}}function o(){"complete"===u.readyState&&r()}function r(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),s=window,u=s.document,p="addEventListener",l="attachEvent",c=(""+location).split("?")[0],d=n.exports={offset:a(),origin:c,features:[]};u[p]?(u[p]("DOMContentLoaded",r,!1),s[p]("load",e,!1)):(u[l]("onreadystatechange",o),s[l]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+<meta id="e_vb_meta_bburl" name="vb_meta_bburl" content="http://gl1800riders.com/forums"/>
+<base href="http://gl1800riders.com/forums/"/><!--[if IE]></base><![endif]-->
+<meta name="generator" content="vBadvanced, vBulletin 4.1.11"/>
+
+	<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon"/>
+
+
+		<meta name="keywords" content="Goldwing,Honda Goldwing, Honda GL1800 Goldwing,Goldwing forum,Goldwin bbs,Goldwing discussion,Goldwing bulletin board"/>
+		<meta name="description" content="Honda GL1800 Goldwing discussion forum"/>
+
+
+
+
+
+	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/yuiloader-dom-event/yuiloader-dom-event.js"></script>
+	
+
+<script type="text/javascript">if(typeof YAHOO==='undefined')
+{document.write('<script type="text/javascript" src="http://gl1800riders.com/forums/clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=4111"><\/script>');document.write('<script type="text/javascript" src="http://gl1800riders.com/forums/clientscript/yui/connection/connection-min.js?v=4111"><\/script>');var yuipath='clientscript/yui';var yuicombopath='';var remoteyui=false;}
+else
+{var yuipath='http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build';var yuicombopath='';var remoteyui=true;if(!yuicombopath)
+{document.write('<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/connection/connection-min.js"><\/script>');}}
+var SESSIONURL="s=acb2ea26326b4da62faee4da1c8eca88&";var SECURITYTOKEN="guest";var IMGDIR_MISC="images/misc";var IMGDIR_BUTTON="images/buttons";var vb_disable_ajax=parseInt("0",10);var SIMPLEVERSION="4111";var BBURL="http://gl1800riders.com/forums";var LOGGEDIN=0>0?true:false;var THIS_SCRIPT="adv_index";var RELPATH="index.php";var PATHS={forum:"",cms:"",blog:""};var AJAXBASEURL="http://www.gl1800riders.com/forums/";</script>
+<script type="text/javascript" src="http://gl1800riders.com/forums/clientscript/vbulletin-core.js,qv=4111.pagespeed.jm.SlXopm4gTj.js"></script>
+
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-31804129-35']);_gaq.push(['_setDomainName','.gl1800riders.com']);_gaq.push(['_setCustomVar',1,'grp','guest',2]);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+<script type="text/javascript">var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"6036030",c4:"gl1800riders.com"});(function(){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src=(document.location.protocol=="https:"?"https://sb":"http://b")+".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el);})();</script>
+<noscript> <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036030&c4=gl1800riders.com&cv=2.0&cj=1" alt="" pagespeed_url_hash="315005128"/> </noscript>
+
+
+
+	<link rel="alternate" type="application/rss+xml" title="GL1800Riders RSS Feed" href="http://gl1800riders.com/forums/external.php?type=RSS2"/>
+	
+
+
+
+	
+
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="css.php?styleid=2&amp;langid=1&amp;d=1395668484&amp;td=ltr&amp;sheet=popupmenu-ie.css,vbulletin-ie.css,vbulletin-chrome-ie.css,vbulletin-formcontrols-ie.css,editor-ie.css" />
+	<![endif]-->
+
+<!-- DFP TAG -->
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+<script type='text/javascript'>GS_googleAddAdSenseService("ca-pub-7865546952023728");GS_googleEnableAllServices();</script>
+<script type='text/javascript'>GA_googleAddAttr("sitename","GL1800Riders.com");GA_googleAddAttr("make","Honda");GA_googleAddAttr("model","Goldwing GL 1800");GA_googleAddAttr('VS1','0');GA_googleAddAttr('VS2','0');GA_googleAddAttr("registered","false");GA_googleAddAttr("group_id","1");GA_googleAddAttr("group_name","");GA_googleAddAttr("forum_id","");GA_googleAddAttr("forum_name","");</script>			
+<script type='text/javascript'>GA_googleUseIframeRendering();</script>
+<script type='text/javascript'>GA_googleAddAdSensePageAttr("google_color_bg","FFFFFF");GA_googleAddAdSensePageAttr("google_color_border","FFFFFF");GA_googleAddAdSensePageAttr("google_color_link","22229C");GA_googleAddAdSensePageAttr("google_color_text","000000");GA_googleAddAdSensePageAttr("google_color_url","22229C");GA_googleAddAdSensePageAttr("google_ad_bg","FFFFFF");GA_googleAddAdSensePageAttr("google_ad_border","FFFFFF");GA_googleAddAdSensePageAttr("google_ad_link","22229C");GA_googleAddAdSensePageAttr("google_ad_text","000000");GA_googleAddAdSensePageAttr("google_ad_url","22229C");GA_googleAddAdSensePageAttr("google_page_url","http://www.gl1800riders.com/forums/index.php");GA_googleAddSlot("ca-pub-7865546952023728","GL1800Riders_com_728x90_Top_PS_Homepage");GA_googleAddSlot("ca-pub-7865546952023728","GL1800Riders_com_728x90_Bottom_PS_Homepage");</script>
+<script type='text/javascript'>GA_googleFetchAds();</script>		
+<!-- /DFP TAG -->
+
+
+<script type="text/javascript">function onInsightLoaded(rp_valuation)
+{if(rp_valuation)
+{var tracker=new Image();tracker.src="http://comet-admin.verticalscope.com/save.php?cpm="+rp_valuation.estimate.cpm+"&tier="+rp_valuation.estimate.tier;}}</script>
+ 
+
+
+<script type="text/javascript">vertical="a";oz_api="valuation";oz_ad_server="gam";oz_site="1019/17459";oz_zone="48575";oz_ad_slot_size="300x250";oz_callback=onInsightLoaded;</script>
+<script type="text/javascript" src="http://tap-cdn.rubiconproject.com/partner/scripts/rubicon/dorothy.js?pc=1019/17459"></script>
+                                                                                                                                                                
+        <!-- twitter app card start-->
+        <!-- https://dev.twitter.com/docs/cards/types/app-card -->
+        <meta name="twitter:card" content="app">
+    
+        <meta name="twitter:app:id:iphone" content="307880732">
+        <meta name="twitter:app:url:iphone" content="tapatalk://">
+        <meta name="twitter:app:id:ipad" content="307880732">
+        <meta name="twitter:app:url:ipad" content="tapatalk://">
+        
+        <meta name="twitter:app:id:googleplay" content="com.quoord.tapatalkpro.activity">
+        <meta name="twitter:app:url:googleplay" content="tapatalk://gl1800riders.com/forums?location=index">
+        
+    <!-- twitter app card -->
+    
+    <!-- Tapatalk Banner head start -->
+    <link href="http://gl1800riders.com/forums/mobiquo/smartbanner/A.appbanner.css.pagespeed.cf.nX45YRBJ9_.css" rel="stylesheet" type="text/css" media="screen"/>
+    <script type="text/javascript">var is_mobile_skin=0;var app_ios_id="307880732";var app_android_id="com.quoord.tapatalkpro.activity";var app_kindle_url="";var app_banner_message="Follow {your_forum_name} <br /> with {app_name} for [os_platform]";var app_forum_name="GL1800Riders";var app_location_url="tapatalk://gl1800riders.com/forums?location=index";</script>
+    <script src="http://gl1800riders.com/forums/mobiquo/smartbanner/appbanner.js.pagespeed.jm.XmGB-P9-tE.js" type="text/javascript"></script>
+    <!-- Tapatalk Banner head end-->
+
+
+
+	<meta http-equiv="Cache-Control" content="no-cache"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Expires" content="0"/>
+
+
+<title>GL1800Riders </title>
+
+<style></style>
+<link rel="stylesheet" href="http://gl1800riders.com/forums/A.mgc_cb_evo,,_clientscript,,_dojo,,_dijit,,_themes,,_claro,,_claro.css+css.php,,qstyleid==2,,alangid==1,,ad==1395668484,,asheet==mgc_cb_evo_cms.css+css.php,,qstyleid==2,,alangid==1,,ad==1395668484,,atd==ltr,,asheet==calendar.css,,,,adv_portal.css,Mcc.7wv_--PO4z.css.pagespeed.cf.EkboBDopRU.css" type="text/css"/>
+<script type="text/javascript">function vba_attach_win(threadid)
+{openWindow('misc.php?s=acb2ea26326b4da62faee4da1c8eca88&amp;do=showattachments&t='+threadid,480,300);}</script>
+
+</head>
+<body>
+<script type="text/javascript">var xl8_script=document.createElement("script");xl8_script.src="http://loadus.exelator.com/load/?p=239&g=084&c=927260&ctg=OffRoadVehicles&vehicles=Honda&j=d";xl8_script.type="text/javascript";xl8_script.async=true;document.body.appendChild(xl8_script);</script>
+
+
+
+
+<!-- Tapatalk Detect body start -->
+<style type="text/css">.ui-mobile [data-role="page"],.ui-mobile [data-role="dialog"],.ui-page{top:auto}</style>
+<script type="text/javascript">tapatalkDetect()</script>
+<!-- Tapatalk Detect banner body end -->
+
+<div class="link_unit_top"><div class="wgo_block" style="margin:0px; padding:0px; padding-bottom:1px; width:100%;"><div class="footer" style="padding:0px; border:none; margin:0px;">			<table cellpadding="" cellspacing="0" border="0" width="100%" align="center">
+			<tr align="center">
+			<td class="vbmenu_control" width="100%">
+			<ul>
+
+			<script type="text/javascript" language="JavaScript">function google_ad_request_done(ads){}
+function google_radlink_request_done(radlinks)
+{if(radlinks.length<1)
+return;document.write("<li style=\"color:rgb(255, 255, 255); width:16%;float:left;text-align:center;border:none;line-height: 26px;\"><a href=\""+google_info.feedback_url+"\">Ads by Google</a></li>");for(i=0;i<radlinks.length;++i)
+{document.write("<li style=\"width:16.5%;text-align:center;float:left; border:none;\"><a target=\"_top\" style=\"text-decoration:underline;line-height: 26px; color:rgb(255, 255, 255);\" href=\"http://static.verticalscope.com/partners/afc/ads.html?google_kw="+radlinks[i].url_escaped_term+"&google_rt="+radlinks[i].radlink_token+"&google_page_ur"+"l="+encodeURIComponent(window.location)+"\">"+radlinks[i].term+"</a></li>");}}
+google_ad_client="ca-pub-7865546952023728";google_ad_channel="082130015";google_ad_output="js";google_max_num_ads="0";google_num_radlinks="5";google_max_radlink_len="40";google_num_radlinks_per_unit="1";google_rl_mode="relevance";</script>
+
+			<script type="text/javascript" language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+			</ul>
+			</td>
+			</tr>
+			</table></div></div></div><div class="above_body"> <!-- closing tag is in template navbar -->
+<div id="header" class="floatcontainer doc_header">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<div><a name="top" href="forums.php?s=acb2ea26326b4da62faee4da1c8eca88" class="logo-image"><img src="http://gl1800riders.com/forums/images/misc/xgl1800-logo.gif.pagespeed.ic.OZY2fCY2Tp.png" alt="GL1800Riders - Powered by vBulletin" pagespeed_url_hash="4047403918" width="361" height="98"/></a></div>
+
+
+
+<div style="position:absolute; left: 400px; top:42px; z-index:5;">
+
+
+<script type='text/javascript'>//<![CDATA[
+var m3_u=(location.protocol=='https:'?'https://ads.verticalscope.com/www/delivery/ajs.php':'http://ads.verticalscope.com/www/delivery/ajs.php');var m3_r=Math.floor(Math.random()*99999999999);if(!document.MAX_used)document.MAX_used=',';document.write("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write("?zoneid=1443");document.write('&amp;cb='+m3_r);if(document.MAX_used!=',')document.write("&amp;exclude="+document.MAX_used);document.write(document.charset?'&amp;charset='+document.charset:(document.characterSet?'&amp;charset='+document.characterSet:''));document.write("&amp;loc="+escape(window.location));if(document.referrer)document.write("&amp;referer="+escape(document.referrer));if(document.context)document.write("&context="+escape(document.context));if(document.mmm_fo)document.write("&amp;mmm_fo=1");document.write("'><\/scr"+"ipt>");
+//]]></script><noscript><a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a6a21078&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1443&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a6a21078' border='0' alt='' pagespeed_url_hash="795811535"/></a></noscript>
+
+
+</div>
+
+	<div id="toplinks" class="toplinks">
+		
+			<ul class="nouser">
+			
+				<li><a href="register.php?s=acb2ea26326b4da62faee4da1c8eca88" rel="nofollow">Register</a></li>
+			
+				<li><a rel="help" href="faq.php?s=acb2ea26326b4da62faee4da1c8eca88">Help</a></li>
+				<li>
+			<script type="text/javascript" src="http://gl1800riders.com/forums/clientscript/vbulletin_md5.js,qv=4111.pagespeed.ce.UZfm30t6Ms.js"></script>
+			<form id="navbar_loginform" action="login.php?s=acb2ea26326b4da62faee4da1c8eca88&amp;do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+				<fieldset id="logindetails" class="logindetails">
+					<div>
+						<div>
+					<input type="text" class="textbox default-value" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name"/>
+					<input type="password" class="textbox" tabindex="102" name="vb_login_password" id="navbar_password" size="10"/>
+					<input type="text" class="textbox default-value" tabindex="102" name="vb_login_password_hint" id="navbar_password_hint" size="10" value="Password" style="display:none;"/>
+					<input type="submit" class="loginbutton" tabindex="104" value="Log in" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s"/>
+						</div>
+					</div>
+				</fieldset>
+				<div id="remember" class="remember">
+					<label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" id="cb_cookieuser_navbar" class="cb_cookieuser_navbar" accesskey="c" tabindex="103"/> Remember Me?</label>
+				</div>
+
+				<input type="hidden" name="s" value="acb2ea26326b4da62faee4da1c8eca88"/>
+				<input type="hidden" name="securitytoken" value="guest"/>
+				<input type="hidden" name="do" value="login"/>
+				<input type="hidden" name="vb_login_md5password"/>
+				<input type="hidden" name="vb_login_md5password_utf"/>
+			</form>
+			<script type="text/javascript">YAHOO.util.Dom.setStyle('navbar_password_hint',"display","inline");YAHOO.util.Dom.setStyle('navbar_password',"display","none");vB_XHTML_Ready.subscribe(function()
+{YAHOO.util.Event.on('navbar_username',"focus",navbar_username_focus);YAHOO.util.Event.on('navbar_username',"blur",navbar_username_blur);YAHOO.util.Event.on('navbar_password_hint',"focus",navbar_password_hint);YAHOO.util.Event.on('navbar_password',"blur",navbar_password);});function navbar_username_focus(e)
+{var textbox=YAHOO.util.Event.getTarget(e);if(textbox.value=='User Name')
+{textbox.value='';textbox.style.color='#000000';}}
+function navbar_username_blur(e)
+{var textbox=YAHOO.util.Event.getTarget(e);if(textbox.value=='')
+{textbox.value='User Name';textbox.style.color='#777777';}}
+function navbar_password_hint(e)
+{var textbox=YAHOO.util.Event.getTarget(e);YAHOO.util.Dom.setStyle('navbar_password_hint',"display","none");YAHOO.util.Dom.setStyle('navbar_password',"display","inline");YAHOO.util.Dom.get('navbar_password').focus();}
+function navbar_password(e)
+{var textbox=YAHOO.util.Event.getTarget(e);if(textbox.value=='')
+{YAHOO.util.Dom.setStyle('navbar_password_hint',"display","inline");YAHOO.util.Dom.setStyle('navbar_password',"display","none");}}</script>
+				</li>
+				
+			</ul>
+		
+	</div>
+	<div class="ad_global_header">
+		
+		
+	</div>
+	<hr/>
+</div>
+
+<div id="navbar" class="navbar">
+	<ul id="navtabs" class="navtabs floatcontainer">
+		<li class="selected"><a href="/forums/index.php?s=acb2ea26326b4da62faee4da1c8eca88" class="navtab">Home</a></li>
+
+		
+			<li><a class="navtab" href="forums.php?s=acb2ea26326b4da62faee4da1c8eca88">Forum</a></li>
+		
+		
+	<li><a class="navtab" href="media.php?s=acb2ea26326b4da62faee4da1c8eca88&amp;">Media</a></li>
+
+		
+			<li><a class="navtab" href="http://gl1800riders.com/forums/search.php?s=acb2ea26326b4da62faee4da1c8eca88&amp;do=getdaily&amp;contenttype=vBForum_Post" accesskey="2">What's New?</a></li>
+		
+		<li><a class='navtab' href=http://gl1800riders.com/forums/advertise.php accesskey=''>Advertise</a></li>
+		<li class="popupmenu">
+			<a href="javascript://" class="popupctrl navtab">
+				Gallery<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAVCAQAAAAzknw8AAAAO0lEQVQoz2P4z4APMgx/afX/xihQFFXa5v+3/whw4D8nuuEIBVBJdLvtwQrgkphOs/+/HSE5IsIcKwQAeA1LYMg1w18AAAAASUVORK5CYII=" align="right" pagespeed_url_hash="722461940"/>
+			</a>
+			<ul class="popupbody popuphover" style="color:;font:  bold 12px Arial, Calibri, Verdana, Geneva, sans-serif">
+			<li></li>
+				<li><a href="albumall.php??s=acb2ea26326b4da62faee4da1c8eca88">Album Gallery</a></li>
+				<li><a href="picall.php??s=acb2ea26326b4da62faee4da1c8eca88">Picture Gallery</a></li>
+				
+			</ul>
+		</li>
+	</ul>
+	
+		<div id="globalsearch" class="globalsearch">
+			<form action="http://gl1800riders.com/forums/search.php?s=acb2ea26326b4da62faee4da1c8eca88&amp;do=process" method="post" id="navbar_search" class="navbar_search">
+				
+				<input type="hidden" name="securitytoken" value="guest"/>
+				<input type="hidden" name="do" value="process"/>
+				<span class="textboxcontainer"><span><input type="text" value="" name="query" class="textbox" tabindex="99"/></span></span>
+				<span class="buttoncontainer"><span><input type="image" class="searchbutton" src="http://gl1800riders.com/forums/images/buttons/search.png.pagespeed.ce.k8joBLG7kz.png" name="submit" onclick="document.getElementById('navbar_search').submit;" tabindex="100" width="22" height="22"/></span></span>
+			</form>
+			<ul class="navbar_advanced_search">
+				<li><a href="http://gl1800riders.com/forums/search.php?s=acb2ea26326b4da62faee4da1c8eca88" accesskey="4">Advanced Search</a></li>
+				
+			</ul>
+		</div>
+	
+</div>
+</div><!-- closing div for above_body -->
+
+<div class="body_wrapper">
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="index.php?s=acb2ea26326b4da62faee4da1c8eca88" accesskey="1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAuElEQVQoz2P4//8/AzL++fMXDHOCaHR5bIpVdF0jXwHxByBbF10TumJpoMInTuGZ/5Mqev6DNIIMQNaErFgUqOASSDEMQzXdBhkE0wR3L1DiJLJiNE2XgGr4QWpBitmAAtuxKUbTdBhkMAOQsRSI/xOhAYRXg90OxDbImqCSKIphwQ3ztAFMAVQS7ElQ0EI1fIZ7GqpBHU0DP5qGD+ga5NA0MKBpeI6uQQjmbmhkwTUA8R8g3gLTAADFhV1s1B2qHwAAAABJRU5ErkJggg==" alt="Home" pagespeed_url_hash="1377681817"/></a></li>
+		
+		
+	<li class="navbit lastnavbit"><span>GL1800Riders</span></li>
+
+	</ul>
+	<hr/>
+</div>
+
+<div style="padding:5px;"><div style='width:100%; text-align:center;'><script type='text/javascript'>GA_googleFillSlotWithSize('ca-pub-7865546952023728','GL1800Riders_com_728x90_Top_PS_Homepage',728,90);</script></div></div>
+
+
+
+	<form action="http://gl1800riders.com/forums/profile.php?do=dismissnotice" method="post" id="notices" class="notices">
+		<input type="hidden" name="do" value="dismissnotice"/>
+		<input type="hidden" name="s" value="s=acb2ea26326b4da62faee4da1c8eca88&amp;"/>
+		<input type="hidden" name="securitytoken" value="guest"/>
+		<input type="hidden" id="dismiss_notice_hidden" name="dismiss_noticeid" value=""/>
+		<input type="hidden" name="url" value=""/>
+		<ol>
+			<li class="restore" id="navbar_notice_5">
+	
+	If this is your first visit, be sure to
+		check out the <a href="faq.php?s=acb2ea26326b4da62faee4da1c8eca88" target="_blank"><b>FAQ</b></a> by clicking the
+		link above. You may have to <a href="register.php?s=acb2ea26326b4da62faee4da1c8eca88" target="_blank"><b>register</b></a>
+		before you can post: click the register link above to proceed. To start viewing messages,
+		select the forum that you want to visit from the selection below.
+</li>
+		</ol>
+	</form>
+
+
+
+
+<table align="center" cellspacing="0" cellpadding="0" width="100%">
+	<tr valign="top">
+		
+			<td width="175" style="padding-right: 15px">
+				
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; Recent Threads</strong>
+		
+			<a class="collapse" id="collapse_module5" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module5">
+		
+			<div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?460153-Go-for-a-Ride-Magazine&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?460153-Go-for-a-Ride-Magazine" title="I was just reading a Florida Magazine, Go for a Ride. There was an article about one of our regular's on this forum, Wheels. It was an interesting..." style="font-weight: bold">Go for a Ride Magazine</a>
+	
+	
+		<div>1 Hour Ago <span class="time">06:41 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?48522-TouringOn2">TouringOn2</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575801#post5575801"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?50024-gtpalin">gtpalin</a></div>
+			<div>1 Minute Ago <span class="time">07:53 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">2 Replies 27 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?459537-Front-Rim-Mounted&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?459537-Front-Rim-Mounted" title="Couple thousand miles ago had front tire replaced. Just noticed that rim was mounted in wrong direction. Haven't caused an issue riding. Should I..." style="font-weight: bold">Front Rim Mounted...</a>
+	
+	
+		<div>1 Day Ago <span class="time">03:00 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?55916-Quepsiphi18">Quepsiphi18</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575793#post5575793"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?21535-Buckskin">Buckskin</a></div>
+			<div>1 Minute Ago <span class="time">07:52 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">21 Replies 1,009 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+		<span style="float:right">
+			
+				<a href="#" onclick="vba_attach_win(446786); return false"><img class="inlineimg" src="http://gl1800riders.com/forums/images/misc/paperclip.png.pagespeed.ce.89l_3_UkFW.png" border="0" title="1 Attachment(s)" alt="" pagespeed_url_hash="2283030731" width="16" height="16"/></a>
+			
+			
+		</span>
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?446786-Need-Tampa-FL-rider&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?446786-Need-Tampa-FL-rider" title="I have a friend who lives in a San Antonio FL. retirement community. He's ill and I'd like a Goldwing rider(s) to make a delivery to him. 
+  
+He's a..." style="font-weight: bold">Need Tampa FL rider</a>
+	
+	
+		<div>3 Weeks Ago <span class="time">12:48 PM</span></div>
+	
+	<div>
+		
+			<img src="http://gl1800riders.com/forums/images/rating/rating-trans-15_5.png.pagespeed.ce.1na_ul5Jgn.png" alt="" pagespeed_url_hash="4172567283" width="75" height="15"/>
+		
+		
+			<div>
+				
+					by <a href="member.php?21136-Morph">Morph</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575785&amp;page=2#post5575785"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?30977-Wing-Nut">Wing Nut</a></div>
+			<div>2 Minutes Ago <span class="time">07:52 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">58 Replies 3,559 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?460209-Have-You-Ever-Owned&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?460209-Have-You-Ever-Owned" title="Have any members here ever owned a motorcycle with a right side shift/left brake?  Tell us about it." style="font-weight: bold">Have You Ever Owned</a>
+	
+	
+		<div>4 Minutes Ago <span class="time">07:50 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?50024-gtpalin">gtpalin</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575777#post5575777"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?50024-gtpalin">gtpalin</a></div>
+			<div>4 Minutes Ago <span class="time">07:50 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">0 Replies 1 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?459697-GL1800-ECM-Reflsh-results&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?459697-GL1800-ECM-Reflsh-results" title="Here is a look at the first pass after retuning and reflashing the ECM on the dyno. More tuning work remains, and I suspect more gains will be made..." style="font-weight: bold">GL1800 ECM Reflsh results</a>
+	
+	
+		<div>1 Day Ago <span class="time">06:31 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?21017-Fred-H">Fred H.</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?20-GL1800-Tech-Board">GL1800 Tech Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575729#post5575729"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?21017-Fred-H">Fred H.</a></div>
+			<div>13 Minutes Ago <span class="time">07:41 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">25 Replies 852 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?460017-Anti-Dive-and-ride&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?460017-Anti-Dive-and-ride" title="Not to hijack the last post, I'll ask a different question. 
+ 
+I've got a '13 F6B with about 8K miles on it, and from day one I've never been happy..." style="font-weight: bold">Anti-Dive and ride...</a>
+	
+	
+		<div>8 Hours Ago <span class="time">11:41 AM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?67465-Bikerdude">Bikerdude</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575713#post5575713"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?58121-Fatwing-Chris">Fatwing Chris</a></div>
+			<div>14 Minutes Ago <span class="time">07:39 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">9 Replies 340 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?460033-question-for-our-Candian&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?460033-question-for-our-Candian" title="I have a couple of maybe dumb questions about our trip to Alaska, will our factory Garmin maps work in Canada? Will our xm weather work? thanks" style="font-weight: bold">question for our Candian...</a>
+	
+	
+		<div>7 Hours Ago <span class="time">12:39 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?36630-ctmb">ctmb</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575697#post5575697"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?58121-Fatwing-Chris">Fatwing Chris</a></div>
+			<div>23 Minutes Ago <span class="time">07:31 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">6 Replies 227 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?460193-FOR-SALE-2010-GL1800&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?460193-FOR-SALE-2010-GL1800" title="I'm selling my metallic black 2010 Honda Goldwing Level I with Premium Audio that I bought new in February, 2012.  I had to undergo surgery this..." style="font-weight: bold">FOR SALE:  2010 GL1800...</a>
+	
+	
+		<div>23 Minutes Ago <span class="time">07:31 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?53515-Nine29">Nine29</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?21-GL1800-Classifieds-4-Sale-by-Owner">GL1800 Classifieds- 4 Sale by Owner</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575689#post5575689"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?53515-Nine29">Nine29</a></div>
+			<div>23 Minutes Ago <span class="time">07:31 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">0 Replies 1 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?460001-Batteries-from&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?460001-Batteries-from" title="I was thinking of droping by wingstuff for a battery this month and just wanted to know if anyone has gotten one from them and what you think?" style="font-weight: bold">Batteries from...</a>
+	
+	
+		<div>8 Hours Ago <span class="time">11:32 AM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?47396-CWW">CWW</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575673#post5575673"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?58121-Fatwing-Chris">Fatwing Chris</a></div>
+			<div>28 Minutes Ago <span class="time">07:26 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">11 Replies 328 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?458889-Confused-on-suspension!&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?458889-Confused-on-suspension!" title="Hi all! My new to me '10 Wing seems stiff/harsh (26K miles). Trying to figure out what to do. The suspension is bone stock, never touched.  
+I'm..." style="font-weight: bold">Confused on suspension!...</a>
+	
+	
+		<div>2 Days Ago <span class="time">02:54 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?64505-davesxx01">davesxx01</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575641&amp;page=2#post5575641"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?58121-Fatwing-Chris">Fatwing Chris</a></div>
+			<div>34 Minutes Ago <span class="time">07:20 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">41 Replies 1,058 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?458249-1800-GW-rike-front-tire&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?458249-1800-GW-rike-front-tire" title="I recently bought a 2003 GW trike with 35,000 miles on it. The front tire is about ready to be replaced. Any suggestions? I have read about using a..." style="font-weight: bold">1800 GW rike front tire</a>
+	
+	
+		<div>3 Days Ago <span class="time">04:17 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?67641-Sparky-NM">Sparky NM</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?25-Gl1800-Trikes">Gl1800 Trikes</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575601#post5575601"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?58639-Old-Fard">Old Fard</a></div>
+			<div>39 Minutes Ago <span class="time">07:15 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">12 Replies 400 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?460177-Heated-Passenger-Seat&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?460177-Heated-Passenger-Seat" title="I've been searching the forum but cannot find the specific answer to my question, so hopefully someone here has some knowledge of the heated seat..." style="font-weight: bold">Heated Passenger Seat...</a>
+	
+	
+		<div>40 Minutes Ago <span class="time">07:14 PM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?58101-SoulWinger">SoulWinger</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?20-GL1800-Tech-Board">GL1800 Tech Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575593#post5575593"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?58101-SoulWinger">SoulWinger</a></div>
+			<div>40 Minutes Ago <span class="time">07:14 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">0 Replies 1 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?459313-Shipping-a-goldwing&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?459313-Shipping-a-goldwing" title="Just wanting to know if anyone has done this. I have bought a bike in Florida and want to ship it to montana so I can pick it up in the summer there..." style="font-weight: bold">Shipping a goldwing</a>
+	
+	
+		<div>1 Day Ago <span class="time">04:46 AM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?55311-jerbearyukon">jerbearyukon</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575505#post5575505"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?21808-loren">loren</a></div>
+			<div>55 Minutes Ago <span class="time">06:58 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">11 Replies 523 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?459929-Brough-say&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?459929-Brough-say" title="I like Jay more as a motorhead than a late night talk host.. 
+ 
+Nice read about a rare motorcycle.. 
+ 
+Dennis 
+..................... 
+ POPULAR..." style="font-weight: bold">Brough .. say...</a>
+	
+	
+		<div>9 Hours Ago <span class="time">10:30 AM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?33303-wingwing">wingwing</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?19-General-MC-Message-Board">General MC Message Board</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575497#post5575497"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?47557-bill52">bill52</a></div>
+			<div>56 Minutes Ago <span class="time">06:58 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">3 Replies 220 Views</div>
+		
+	</div>
+</div><div class="blockrow vba_spacer">
+	
+		<span style="float:right">
+			
+				<a href="#" onclick="vba_attach_win(436793); return false"><img class="inlineimg" src="http://gl1800riders.com/forums/images/misc/paperclip.png.pagespeed.ce.89l_3_UkFW.png" border="0" title="7 Attachment(s)" alt="" pagespeed_url_hash="2283030731" width="16" height="16"/></a>
+			
+			
+		</span>
+	
+
+	
+		<img class="inlineimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y42Tu2sUURhHz3fv7CsxMVERUymoUdNJELHSRgtNYyEWNjYKgnbaWgoKgqCQMoWQ/8DSwkQLQSwkPhobQXyEmPjA7Lr3fj+L2cyuTfDCzDAMc+acmW9MEidvLlxsjTYuBGMaaAIGvb0M5CT392sremw/Vm8szs78obdMEqdvPVt8eG36UAg2JoiIakkAYvlXl/kXa3z+0Pn9ZundtqezMx2AAiBEO1Av4tjrr8RgBuVDyXJSEuvdzIn9IxydLHjuy0Pyg6vHrz4af/LgTCcAmNkWSbEeA7UAhUEMEA3MIGCAMzFaZ+bIBHv2NVrF6PAcQCgFy+YABINg9u8WjU/f1tm9pcvUNuPSse3EWjxXJWy03n/rbG+BI4zSoBGMVowsfQ80ghO8zfmpGlaEVAEkEDDSjIzUDTchQQilfgwOJhQCOcUSb4E+AHDgymT59YQhQXbhcrpZdCVSFpLw3vUK4Km0uPMq9RLA1TdTZWl8Wxf3dkL2QYCX5JFmUSW4yhlyGbBxbiR3mjWRk/qA7JAFl/caXk1ReXSJ7KVVdkcGtRhIf9JggnCJ20upvWPTBFhZd+Z2WbPb8T4gpUzOMN6KzbHG5gmSIxfd9oBB6rgn9/9OKIpAyt6fg247fxmuxx1YZ1hSQOUNAFtbRTVorVrADK9F+5mTf6wAZrp76vrCWTM7LDTU/xU33oEGpdru/rIIzAP8BWOjN3KATDpvAAAAAElFTkSuQmCC" title="" border="0" alt="" pagespeed_url_hash="2035251659"/>
+	
+	
+	
+		<a href="http://gl1800riders.com/forums/showthread.php?436793-Full-Use-of-GW-s-CB-with&amp;goto=newpost"><img alt="Go to first new post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB5ElEQVQoz2XN30tTYRwG8BNBl90U/SNdpaltU+nXhYHolV1k6ObO2dxWNFJLlLZ52jlnx42tjXSdljupYyq0yMhFQfMiDC8yEYIONcwiWSOjuYVP3zNiGL3w4eV93+d5vwyA+kql0lAoFFqWcitmd3jmVe/tRLF7TIFFeLA5PLmgbG0XTXpOx5RKpdZ8Pt85kV68z4pTZdv4LBzhOTgj87SnwckzsAXUL0sr691UMDKaprXNZZ4Ge3ilbAlMgw2m/mMWH8IiTn0o/PjZxGSzWdYpxj9f9ChIvVzFmrb1j9cbHzGSWETXrXu4FkmJTDKZDLUPhH53jMbROaogllnGzq9d6Gv5nQYulK7etw9PoGPoTo6JRqPzJrsf5weiGJzMVPnUZ5h9sVo7XxZUnHFH0OoU1xlZlh8bOe+ewRXE1dgCNreL2L/U52/QduMumhwBNPb5sowkSWqXe2y3zuqHwRWqij3KYePTV/RK07W7E308Ttu8V/TCEC+I7w1WD+o5sRbYr47145TV85ayx/SCkSRu+oRvzax3T5/UaKfx/TIaaNd/buG8mmvE30y5Q3rhKLlA4oIorfUM8jtn7d4Khcrn+n3fL13nn9CbiRwmjF44SI6Qk8RBwkQh48RMjv8NH9ALfwBVd26wYkW6uAAAAABJRU5ErkJggg==" border="0" class="inlineimg" pagespeed_url_hash="2492460640"/></a>
+	
+	 <a href="http://gl1800riders.com/forums/showthread.php?436793-Full-Use-of-GW-s-CB-with" title="This thread summarizes the new developments with regard to being able to use your GW's CB in the normal manner when using a wireless BT headset. The..." style="font-weight: bold">Full Use of GW's CB with...</a>
+	
+	
+		<div>02-14-2014 <span class="time">09:10 AM</span></div>
+	
+	<div>
+		
+		
+			<div>
+				
+					by <a href="member.php?63786-fox2kill">fox2kill</a>
+				
+			</div>
+		
+	
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/forumdisplay.php?27-Electronic-motorcycle-devices">Electronic motorcycle devices</a></div>
+		
+		
+			<div style="padding-top: 4px"><a href="http://gl1800riders.com/forums/showthread.php?p=5575489&amp;page=2#post5575489"><img alt="" border="0" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAp0lEQVQY02NwKJzk7FA06YRj8ZT/uLBD0eSXttld7QwMDFwMjsWT7+NTjIz1gjJjQRo+wgRO33z0P3fKOgw2DOsGpDehaLj64MX/49ce/K+ZtxWFDZPX9k1ux9AAAqsPXkBh49Xw5fvP/x3L96Cw8WqYtfU4BhtFAzDInhEbSmou4VUM1hmt6UBNXwkptkxpPMHMyuYMjAsGTiBWAGJzILbHg22AWAsANjsHUwGKnk0AAAAASUVORK5CYII=" title="Go to last post" pagespeed_url_hash="973870401"/></a> Last post by <a href="http://gl1800riders.com/forums/member.php?63786-fox2kill">fox2kill</a></div>
+			<div>58 Minutes Ago <span class="time">06:55 PM</span></div>
+		
+		
+			<div style="padding-top: 4px">31 Replies 3,105 Views</div>
+		
+	</div>
+</div>
+		
+	</div>
+</div>
+
+			</td>
+		
+		
+			<td valign="top">
+				
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; F6Bagger</strong>
+		
+			<a class="collapse" id="collapse_module23" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module23">
+		
+			<blockquote class="postcontent blockrow restore">
+				<div class="bbcode_container" style="margin: 0;">
+					<div style="text-align: center;"><h3 class="threadtitle"><a class="title" href="http://gl1800riders.com/forums/showthread.php?341187-New-F6Baggers-forum-Sponsored-by-Direct-Line-Parts" id="thread_title_341187">New F6Baggers for the Honda F6B<br></a></h3><br>I set this board up awhile ago but now that these are starting to show 
+up on the dealer floors. <img src="data:image/gif;base64,R0lGODlhFQASAKIAAAAAAP//////AP8AAPHx8f///wAAAAAAACH5BAEAAAUALAAAAAAVABIAAANXWLrc/gtICZ0MAw9aCyBDKBLcA4RgOgLmAIpwyDan+tqzJ7mD4P9AwewDmxiPHAkJIEQahZENsymhTnO6KXXrwyq0waD3G+52IWAuFF0+d6rAUicrVyQAADs=" alt="" title="Doorag" class="inlineimg " border="0" pagespeed_url_hash="4034545574"><br><br>
+I understand this is a love or or hate it bike to some here so if you 
+hate it don't bother joining the site. This is for guys like me that 
+love it or at least want to find out more about it and to keep up on the
+ latest news, mods and blogs about the Honda F6B Gold Wing. Click pic 
+below to take a look. <br>
+
+<br>
+<div style="text-align: center;"><a href="http://f6baggers.com/forums/index.php" target="_blank"><img src="http://f6baggers.com/forums/attachment.php?attachmentid=27&d=1361021844" alt="" border="0" pagespeed_url_hash="3059776117"></a>
+				</div>
+			</blockquote>
+		
+	</div>
+</div>
+
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; GL1800 Sponsors</strong>
+		
+			<a class="collapse" id="collapse_module19" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module19">
+		
+			<blockquote class="postcontent blockrow restore">
+				<div class="bbcode_container" style="margin: 0;">
+					<div style="text-align: center;"><strong><font color="Navy">GL1800Riders</font></strong> Sponsors are <font color="Red"><strong>vendors</strong></font> that have a product or service to offer the <strong>35,000+ members</strong> of GL1800Riders.com This gives you a banner ad here and the right to have a link or small banner in your membership sig line and allows you to post product and service details on our message boards.<br>
+<br>
+<strong><font color="black">Any members that are not co-sponsors but have links or banners of commerce in their sig line or message post will have those links or banners removed to be fair to those that do support this site.</font></strong><br>
+<br>
+Please use this link <a href="http://gl1800riders.com/forums/sendmessage.php" target="_blank"><strong><font color="#cc0000">Contact Us</font></strong></a> to apply for a banner ad here and for pricing and availability. All ad's must be approved by the site admin. Thanks<br>
+<br>
+<!-- Tailwind -->
+<span style="text-decoration: underline;"><div style="text-align: center;">  
+
+<!-- wingstuff -->
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a1a66768&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1442&cb=INSERT_RANDOM_NUMBER_HERE&n=a1a66768' border='0' alt='' pagespeed_url_hash="2726986104"/></a>
+
+
+ <!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a5163d19&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1427&cb=INSERT_RANDOM_NUMBER_HERE&n=a5163d19' border='0' alt='' pagespeed_url_hash="3021718369"/></a>
+
+
+<!-- Mick O Pegs -->
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a06a7fa2&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1428&cb=INSERT_RANDOM_NUMBER_HERE&n=a06a7fa2' border='0' alt='' pagespeed_url_hash="1440180774"/></a>
+
+<br> 
+<!-- traxxion -->
+
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=af6c3ae5&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1429&cb=INSERT_RANDOM_NUMBER_HERE&n=af6c3ae5' border='0' alt='' pagespeed_url_hash="3798005541"/></a>
+
+
+
+
+<!-- justwings -->
+
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=ae04e519&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1430&cb=INSERT_RANDOM_NUMBER_HERE&n=ae04e519' border='0' alt='' pagespeed_url_hash="1918049687"/></a>
+
+<br>
+<!-- dry heat -->
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a571d087&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1431&cb=INSERT_RANDOM_NUMBER_HERE&n=a571d087' border='0' alt='' pagespeed_url_hash="2297625861"/></a>
+
+
+<!-- shinhopples-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a5a12645&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1437&cb=INSERT_RANDOM_NUMBER_HERE&n=a5a12645' border='0' alt='' pagespeed_url_hash="2411486859"/></a>
+
+<br>
+<!-- Ingelke Enterprise -->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=af373a31&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1439&cb=INSERT_RANDOM_NUMBER_HERE&n=af373a31' border='0' alt='' pagespeed_url_hash="4131258921"/></a>
+
+
+
+<!-- Crusiemans Garage -->
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=aa50a9cb&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1473&cb=INSERT_RANDOM_NUMBER_HERE&n=aa50a9cb' border='0' alt='' pagespeed_url_hash="1381498260"/></a>
+
+<br>
+<!-- Airmont Distributing -->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a0ad4992&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1474&cb=INSERT_RANDOM_NUMBER_HERE&n=a0ad4992' border='0' alt='' pagespeed_url_hash="3455202167"/></a>
+
+
+<!-- direct line -->
+
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a6a3c877&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1644&cb=INSERT_RANDOM_NUMBER_HERE&n=a6a3c877' border='0' alt='' pagespeed_url_hash="2583357984"/></a>
+
+<br>
+<!-- ultimate seats -->
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a1e14dec&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1643&cb=INSERT_RANDOM_NUMBER_HERE&n=a1e14dec' border='0' alt='' pagespeed_url_hash="2330409401"/></a>
+
+<!-- cycle max -->
+
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a2574bba&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1695&cb=INSERT_RANDOM_NUMBER_HERE&n=a2574bba' border='0' alt='' pagespeed_url_hash="1318045436"/></a>
+
+<br>
+
+<!-- Chaparral Motorsports -->
+
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a2da70fa&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1705&cb=INSERT_RANDOM_NUMBER_HERE&n=a2da70fa' border='0' alt='' pagespeed_url_hash="2139201964"/></a>
+
+<!-- Value-Accessories -->
+
+<!--/* OpenX Javascript Tag v2.8.8 */-->
+
+<a href='http://ads.verticalscope.com/www/delivery/ck.php?n=a7ee7121&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.verticalscope.com/www/delivery/avw.php?zoneid=1710&cb=INSERT_RANDOM_NUMBER_HERE&n=a7ee7121' border='0' alt='' pagespeed_url_hash="3590619675"/></a>
+
+<br/>
+
+<!-- BestRest -->
+
+<a href="http://ads.verticalscope.com/www/delivery/ck.php?oaparams=2__bannerid=13566__zoneid=0__log=no__cb=3a2763a943__oadest=http%3A%2F%2Fwww.bestrestproducts.com%2F" target="_blank"><img src="http://ads.verticalscope.com/www/images/c09e5f45af933783a1b80d03e5503792.gif" width="290" height="80" alt="" title="" border="0" pagespeed_url_hash="1514984729"></a>
+
+
+<!-- CTek -->
+
+<a href="http://ads.verticalscope.com/www/delivery/ck.php?oaparams=2__bannerid=13606__zoneid=0__log=no__cb=5d53582204__oadest=http%3A%2F%2Fwww.smartercharger.com%2F" target="_blank"><img src="http://ads.verticalscope.com/www/images/297b5876296892c1c833fc3109352918.gif" width="290" height="80" alt="" title="" border="0" pagespeed_url_hash="4017577756"></a>
+
+<br/>
+
+<!--StopnGo-->
+
+<a href="http://ads.verticalscope.com/www/delivery/ck.php?oaparams=2__bannerid=13625__zoneid=0__log=no__cb=05dacecb66__oadest=http%3A%2F%2Fwww.stopngo.com%2F" target="_blank"><img src="http://ads.verticalscope.com/www/images/46867d819a641ea1078a62450b1683bb.gif" width="290" height="80" alt="" title="" border="0" pagespeed_url_hash="147647842"></a>
+
+<!-- Bagger Shields -->
+
+<a href="http://ads.verticalscope.com/www/delivery/ck.php?oaparams=2__bannerid=13879__zoneid=0__log=no__cb=8f7256cb05__oadest=http%3A%2F%2Fwww.baggershield.com%2F" target="_blank"><img src="http://ads.verticalscope.com/www/images/35ba984105f8a12b0140535e86b5b189.gif" width="290" height="80" alt="" title="" border="0" pagespeed_url_hash="1737193915"></a>
+
+<br/>
+
+<!-- F4 -->
+
+<a href="http://ads.verticalscope.com/www/delivery/ck.php?oaparams=2__bannerid=14096__zoneid=0__log=no__cb=d8fdc54d24__oadest=http%3A%2F%2Ff4customs.com%2F" target="_blank"><img src="http://ads.verticalscope.com/www/images/58bd9fc6ca6d23d94ba59a92068b0c97.jpg" width="290" height="80" alt="" title="" border="0" pagespeed_url_hash="2430724459"></a>
+
+</span>
+				</div>
+			</blockquote>
+		
+	</div>
+</div>
+
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; <a href="http://gl1800riders.com/forums/online.php">Online Users: 1,254</a></strong>
+		
+			<a class="collapse" id="collapse_module1" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module1">
+		
+			<div class="blocksubhead">265 members and 989 guests</div>
+<div class="blockrow vba_spacer">
+	
+		
+	   		<a class="username" href="member.php?58368-03-Rider">03 Rider</a>,
+		
+	   		<a class="username" href="member.php?55323-1096dad">1096dad</a>,
+		
+	   		<a class="username" href="member.php?57598-1129VLD">1129VLD</a>,
+		
+	   		<a class="username" href="member.php?57523-1oldsoldier">1oldsoldier</a>,
+		
+	   		<a class="username" href="member.php?65641-2012-crawdad">2012 crawdad</a>,
+		
+	   		<a class="username" href="member.php?56010-3-Eagles">3 Eagles</a>,
+		
+	   		<a class="username" href="member.php?64785-530ktm">530ktm</a>,
+		
+	   		<a class="username" href="member.php?65273-84-nighthawk">84 nighthawk</a>,
+		
+	   		<a class="username" href="member.php?53224-A-Winger">A Winger</a>,
+		
+	   		<a class="username" href="member.php?37638-adagliere">adagliere</a>,
+		
+	   		<a class="username" href="member.php?58511-AndyBarr">AndyBarr</a>,
+		
+	   		<a class="username" href="member.php?66153-autauga7">autauga7</a>,
+		
+	   		<a class="username" href="member.php?58661-awsuggs57">awsuggs57</a>,
+		
+	   		<a class="username" href="member.php?26923-azwingcpl">azwingcpl</a>,
+		
+	   		<a class="username" href="member.php?36616-Bald-Eagle">Bald Eagle</a>,
+		
+	   		<a class="username" href="member.php?42915-BearOnt">BearOnt</a>,
+		
+	   		<a class="username" href="member.php?51573-beenshot">beenshot</a>,
+		
+	   		<a class="username" href="member.php?35265-bighorn">bighorn</a>,
+		
+	   		<a class="username" href="member.php?36497-BigMick">BigMick</a>,
+		
+	   		<a class="username" href="member.php?34689-bigspark">bigspark</a>,
+		
+	   		<a class="username" href="member.php?47557-bill52">bill52</a>,
+		
+	   		<a class="username" href="member.php?41825-bingle50">bingle50</a>,
+		
+	   		<a class="username" href="member.php?49564-Birdonawing">Birdonawing</a>,
+		
+	   		<a class="username" href="member.php?55028-Bison">Bison</a>,
+		
+	   		<a class="username" href="member.php?53406-BJ-1800">BJ 1800</a>,
+		
+	   		<a class="username" href="member.php?62969-blknh1992">blknh1992</a>,
+		
+	   		<a class="username" href="member.php?42765-Blue-In-Wisconsin">Blue-In-Wisconsin</a>,
+		
+	   		<a class="username" href="member.php?56326-Blueribbon">Blueribbon</a>,
+		
+	   		<a class="username" href="member.php?22291-bluestreek-02">bluestreek-02</a>,
+		
+	   		<a class="username" href="member.php?40977-BMXDad">BMXDad</a>,
+		
+	   		<a class="username" href="member.php?50979-bndiii">bndiii</a>,
+		
+	   		<a class="username" href="member.php?29916-Boat-Driver">Boat Driver</a>,
+		
+	   		<a class="username" href="member.php?41478-Bob-Payne">Bob Payne</a>,
+		
+	   		<a class="username" href="member.php?40994-BobWhipple">BobWhipple</a>,
+		
+	   		<a class="username" href="member.php?53470-boomer1832cc">boomer1832cc</a>,
+		
+	   		<a class="username" href="member.php?35120-bozodriver">bozodriver</a>,
+		
+	   		<a class="username" href="member.php?48381-Brewster">Brewster</a>,
+		
+	   		<a class="username" href="member.php?21242-Brian-Hand">Brian Hand</a>,
+		
+	   		<a class="username" href="member.php?45883-Bucfan11">Bucfan11</a>,
+		
+	   		<a class="username" href="member.php?27897-Buck">Buck</a>,
+		
+	   		<a class="username" href="member.php?21535-Buckskin"><b><font color="#0000cc">Buckskin</font></b></a>,
+		
+	   		<a class="username" href="member.php?49920-bugman94">bugman94</a>,
+		
+	   		<a class="username" href="member.php?47091-Buzz57">Buzz57</a>,
+		
+	   		<a class="username" href="member.php?56551-byoung85">byoung85</a>,
+		
+	   		<a class="username" href="member.php?21110-Canyon-Dancer-in-Colorado">Canyon Dancer in Colorado</a>,
+		
+	   		<a class="username" href="member.php?22496-CASPER2004">CASPER2004</a>,
+		
+	   		<a class="username" href="member.php?22786-CBX">CBX</a>,
+		
+	   		<a class="username" href="member.php?30331-cfxka">cfxka</a>,
+		
+	   		<a class="username" href="member.php?48414-chackbay">chackbay</a>,
+		
+	   		<a class="username" href="member.php?57056-Chris-Wenzel">Chris Wenzel</a>,
+		
+	   		<a class="username" href="member.php?48286-ChrisE">ChrisE</a>,
+		
+	   		<a class="username" href="member.php?41806-cihilb">cihilb</a>,
+		
+	   		<a class="username" href="member.php?56295-ckholiness">ckholiness</a>,
+		
+	   		<a class="username" href="member.php?66881-ColoMtnMan">ColoMtnMan</a>,
+		
+	   		<a class="username" href="member.php?62233-Corbello2012">Corbello2012</a>,
+		
+	   		<a class="username" href="member.php?60545-cripula">cripula</a>,
+		
+	   		<a class="username" href="member.php?52239-Critter">Critter</a>,
+		
+	   		<a class="username" href="member.php?36630-ctmb">ctmb</a>,
+		
+	   		<a class="username" href="member.php?47396-CWW">CWW</a>,
+		
+	   		<a class="username" href="member.php?65369-D-Bo">D'Bo</a>,
+		
+	   		<a class="username" href="member.php?21369-Dale-Baerg">Dale Baerg</a>,
+		
+	   		<a class="username" href="member.php?43117-dalepa73">dalepa73</a>,
+		
+	   		<a class="username" href="member.php?48430-da_bull">da_bull</a>,
+		
+	   		<a class="username" href="member.php?50631-Del">Del</a>,
+		
+	   		<a class="username" href="member.php?45203-delusionalmechanic">delusionalmechanic</a>,
+		
+	   		<a class="username" href="member.php?34995-Dent-Dave">Dent Dave</a>,
+		
+	   		<a class="username" href="member.php?29176-DEPUTY-DAWG">DEPUTY DAWG</a>,
+		
+	   		<a class="username" href="member.php?26870-devon383">devon383</a>,
+		
+	   		<a class="username" href="member.php?49360-Doctoss">Doctoss</a>,
+		
+	   		<a class="username" href="member.php?42270-Dodgedoc">Dodgedoc</a>,
+		
+	   		<a class="username" href="member.php?22248-DonnieOnTheRoad">DonnieOnTheRoad</a>,
+		
+	   		<a class="username" href="member.php?49430-driver10">driver10</a>,
+		
+	   		<a class="username" href="member.php?41324-Drkhero">Drkhero</a>,
+		
+	   		<a class="username" href="member.php?50366-Duckster">Duckster</a>,
+		
+	   		<a class="username" href="member.php?52574-edmKC">edmKC</a>,
+		
+	   		<a class="username" href="member.php?42403-Elrod">Elrod</a>,
+		
+	   		<a class="username" href="member.php?53656-fatman819">fatman819</a>,
+		
+	   		<a class="username" href="member.php?58121-Fatwing-Chris">Fatwing Chris</a>,
+		
+	   		<a class="username" href="member.php?49479-Firedog53">Firedog53</a>,
+		
+	   		<a class="username" href="member.php?55158-Fitter-Guy">Fitter Guy</a>,
+		
+	   		<a class="username" href="member.php?63786-fox2kill">fox2kill</a>,
+		
+	   		<a class="username" href="member.php?58290-Frozn-in-Minnesota">Frozn in Minnesota</a>,
+		
+	   		<a class="username" href="member.php?55545-Gdiz">Gdiz</a>,
+		
+	   		<a class="username" href="member.php?53307-Ghost-Rider-2">Ghost Rider 2</a>,
+		
+	   		<a class="username" href="member.php?23284-gmk1800">gmk1800</a>,
+		
+	   		<a class="username" href="member.php?57575-gnrand">gnrand</a>,
+		
+	   		<a class="username" href="member.php?28762-Goldrush">Goldrush</a>,
+		
+	   		<a class="username" href="member.php?46055-GOLDWING-KEVIN">GOLDWING KEVIN</a>,
+		
+	   		<a class="username" href="member.php?60193-Goldwing-Werks"><b><font color="#0000cc">Goldwing Werks</font></b></a>,
+		
+	   		<a class="username" href="member.php?44257-Grampawinger">Grampawinger</a>,
+		
+	   		<a class="username" href="member.php?20903-greyhound">greyhound</a>,
+		
+	   		<a class="username" href="member.php?50024-gtpalin">gtpalin</a>,
+		
+	   		<a class="username" href="member.php?48637-Handley">Handley</a>,
+		
+	   		<a class="username" href="member.php?20839-harvey">harvey</a>,
+		
+	   		<a class="username" href="member.php?21576-Haste-Maker">Haste Maker</a>,
+		
+	   		<a class="username" href="member.php?54250-haulinmail-in-md">haulinmail in md</a>,
+		
+	   		<a class="username" href="member.php?23436-Hawkmoon">Hawkmoon</a>,
+		
+	   		<a class="username" href="member.php?54644-hdatontodo">hdatontodo</a>,
+		
+	   		<a class="username" href="member.php?38652-Hick">Hick</a>,
+		
+	   		<a class="username" href="member.php?21351-hillcityrider">hillcityrider</a>,
+		
+	   		<a class="username" href="member.php?50660-Hog-Wild">Hog Wild</a>,
+		
+	   		<a class="username" href="member.php?26008-Hokie">Hokie</a>,
+		
+	   		<a class="username" href="member.php?48118-HOT-WHEELS">HOT WHEELS</a>,
+		
+	   		<a class="username" href="member.php?55470-HParsons">HParsons</a>,
+		
+	   		<a class="username" href="member.php?54963-hwilks">hwilks</a>,
+		
+	   		<a class="username" href="member.php?31304-hyperrcng">hyperrcng</a>,
+		
+	   		<a class="username" href="member.php?52861-Ia-Wing-Driver">Ia Wing Driver</a>,
+		
+	   		<a class="username" href="member.php?56715-irish44395">irish44395</a>,
+		
+	   		<a class="username" href="member.php?54299-Ironhorse1800">Ironhorse1800</a>,
+		
+	   		<a class="username" href="member.php?53555-IronLou">IronLou</a>,
+		
+	   		<a class="username" href="member.php?63177-jackjohn">jackjohn</a>,
+		
+	   		<a class="username" href="member.php?30472-Jchefboyardee">Jchefboyardee</a>,
+		
+	   		<a class="username" href="member.php?43908-jerrieric">jerrieric</a>,
+		
+	   		<a class="username" href="member.php?20633-Jerry-Roebke">Jerry Roebke</a>,
+		
+	   		<a class="username" href="member.php?55908-jetfixer">jetfixer</a>,
+		
+	   		<a class="username" href="member.php?34657-jimstem">jimstem</a>,
+		
+	   		<a class="username" href="member.php?32732-JMATANDEM">JMATANDEM</a>,
+		
+	   		<a class="username" href="member.php?47568-JoeB27">JoeB27</a>,
+		
+	   		<a class="username" href="member.php?56951-Joecool1962">Joecool1962</a>,
+		
+	   		<a class="username" href="member.php?20801-JPOURT">JPOURT</a>,
+		
+	   		<a class="username" href="member.php?56184-jryan19">jryan19</a>,
+		
+	   		<a class="username" href="member.php?63378-jsrinhsv">jsrinhsv</a>,
+		
+	   		<a class="username" href="member.php?52590-jun777">jun777</a>,
+		
+	   		<a class="username" href="member.php?25119-jwen">jwen</a>,
+		
+	   		<a class="username" href="member.php?57295-KC2003wing">KC2003wing</a>,
+		
+	   		<a class="username" href="member.php?46480-kelleycr">kelleycr</a>,
+		
+	   		<a class="username" href="member.php?55461-Kernowing">Kernowing</a>,
+		
+	   		<a class="username" href="member.php?49471-kf_sk_mccall">kf_sk_mccall</a>,
+		
+	   		<a class="username" href="member.php?40746-kjktrade">kjktrade</a>,
+		
+	   		<a class="username" href="member.php?42963-KMFS09">KMFS09</a>,
+		
+	   		<a class="username" href="member.php?66722-KYWinger">KYWinger</a>,
+		
+	   		<a class="username" href="member.php?50605-kzookid68">kzookid68</a>,
+		
+	   		<a class="username" href="member.php?58364-Large1">Large1</a>,
+		
+	   		<a class="username" href="member.php?35947-Larry-Price">Larry Price</a>,
+		
+	   		<a class="username" href="member.php?21096-LarryM">LarryM</a>,
+		
+	   		<a class="username" href="member.php?58260-lbfalcon">lbfalcon</a>,
+		
+	   		<a class="username" href="member.php?56120-LEDAWG">LEDAWG</a>,
+		
+	   		<a class="username" href="member.php?21683-LeeU">LeeU</a>,
+		
+	   		<a class="username" href="member.php?54495-LindsayGT">LindsayGT</a>,
+		
+	   		<a class="username" href="member.php?53461-Liner">Liner</a>,
+		
+	   		<a class="username" href="member.php?21808-loren">loren</a>,
+		
+	   		<a class="username" href="member.php?56206-Loren-Hodgson">Loren Hodgson</a>,
+		
+	   		<a class="username" href="member.php?53707-Macgyver0856">Macgyver0856</a>,
+		
+	   		<a class="username" href="member.php?55703-majfrizz">majfrizz</a>,
+		
+	   		<a class="username" href="member.php?53259-marine-1976">marine 1976</a>,
+		
+	   		<a class="username" href="member.php?35525-mbrabec">mbrabec</a>,
+		
+	   		<a class="username" href="member.php?56298-michael2480">michael2480</a>,
+		
+	   		<a class="username" href="member.php?55060-mikerose">mikerose</a>,
+		
+	   		<a class="username" href="member.php?44979-mjac">mjac</a>,
+		
+	   		<a class="username" href="member.php?55139-MondayBlues">MondayBlues</a>,
+		
+	   		<a class="username" href="member.php?43252-Monk">Monk</a>,
+		
+	   		<a class="username" href="member.php?44801-MoorheadWingFan">MoorheadWingFan</a>,
+		
+	   		<a class="username" href="member.php?51069-morningwing">morningwing</a>,
+		
+	   		<a class="username" href="member.php?33705-motoenthusiast">motoenthusiast</a>,
+		
+	   		<a class="username" href="member.php?23986-Mountainman">Mountainman</a>,
+		
+	   		<a class="username" href="member.php?65673-mountainman8">mountainman8</a>,
+		
+	   		<a class="username" href="member.php?41918-mr_machine">mr_machine</a>,
+		
+	   		<a class="username" href="member.php?55922-mtrifle1861">mtrifle1861</a>,
+		
+	   		<a class="username" href="member.php?32623-Murgie">Murgie</a>,
+		
+	   		<a class="username" href="member.php?67161-NC-redneck">NC redneck</a>,
+		
+	   		<a class="username" href="member.php?43666-NC-winger">NC winger</a>,
+		
+	   		<a class="username" href="member.php?53515-Nine29">Nine29</a>,
+		
+	   		<a class="username" href="member.php?46988-Obierod">Obierod</a>,
+		
+	   		<a class="username" href="member.php?39326-obwan">obwan</a>,
+		
+	   		<a class="username" href="member.php?67681-Ol-Man">Ol Man</a>,
+		
+	   		<a class="username" href="member.php?58639-Old-Fard">Old Fard</a>,
+		
+	   		<a class="username" href="member.php?33341-onan">onan</a>,
+		
+	   		<a class="username" href="member.php?52251-pantera1">pantera1</a>,
+		
+	   		<a class="username" href="member.php?45141-Papa-Phil">Papa Phil</a>,
+		
+	   		<a class="username" href="member.php?36606-pauln">pauln</a>,
+		
+	   		<a class="username" href="member.php?48906-pcojoe">pcojoe</a>,
+		
+	   		<a class="username" href="member.php?48626-pkwett94">pkwett94</a>,
+		
+	   		<a class="username" href="member.php?58347-plp6155">plp6155</a>,
+		
+	   		<a class="username" href="member.php?31598-PODO">PODO</a>,
+		
+	   		<a class="username" href="member.php?49463-Pooch">Pooch</a>,
+		
+	   		<a class="username" href="member.php?52712-pop">pop</a>,
+		
+	   		<a class="username" href="member.php?46026-prosso">prosso</a>,
+		
+	   		<a class="username" href="member.php?54691-Radioman1030">Radioman1030</a>,
+		
+	   		<a class="username" href="member.php?45250-Rail32">Rail32</a>,
+		
+	   		<a class="username" href="member.php?49162-ranger391">ranger391</a>,
+		
+	   		<a class="username" href="member.php?22033-Red-ROVER">Red ROVER</a>,
+		
+	   		<a class="username" href="member.php?57038-Ret1SG">Ret1SG</a>,
+		
+	   		<a class="username" href="member.php?42224-rhjiii46">rhjiii46</a>,
+		
+	   		<a class="username" href="member.php?53285-Ric-H">Ric H</a>,
+		
+	   		<a class="username" href="member.php?46516-Richard-Edward">Richard Edward</a>,
+		
+	   		<a class="username" href="member.php?31899-Riverrat">Riverrat</a>,
+		
+	   		<a class="username" href="member.php?27845-rlefter">rlefter</a>,
+		
+	   		<a class="username" href="member.php?20652-RodeHard">RodeHard</a>,
+		
+	   		<a class="username" href="member.php?27950-RodFarmer">RodFarmer</a>,
+		
+	   		<a class="username" href="member.php?43947-rogercraw">rogercraw</a>,
+		
+	   		<a class="username" href="member.php?42274-ruppjar">ruppjar</a>,
+		
+	   		<a class="username" href="member.php?58316-s-whisker">s.whisker</a>,
+		
+	   		<a class="username" href="member.php?45273-satkins93">satkins93</a>,
+		
+	   		<a class="username" href="member.php?55800-scotty918">scotty918</a>,
+		
+	   		<a class="username" href="member.php?50114-sgtbush207">sgtbush207</a>,
+		
+	   		<a class="username" href="member.php?57637-Sharkie63">Sharkie63</a>,
+		
+	   		<a class="username" href="member.php?24136-Shimpy">Shimpy</a>,
+		
+	   		<a class="username" href="member.php?42880-shojac">shojac</a>,
+		
+	   		<a class="username" href="member.php?27183-shorter4">shorter4</a>,
+		
+	   		<a class="username" href="member.php?36677-SILVERTIP">SILVERTIP</a>,
+		
+	   		<a class="username" href="member.php?55393-Simmons1">Simmons1</a>,
+		
+	   		<a class="username" href="member.php?58625-Sinsaint">Sinsaint</a>,
+		
+	   		<a class="username" href="member.php?41371-SlowJoe">SlowJoe</a>,
+		
+	   		<a class="username" href="member.php?26146-SlowMotion">SlowMotion</a>,
+		
+	   		<a class="username" href="member.php?55654-Slygrin">Slygrin</a>,
+		
+	   		<a class="username" href="member.php?38600-smc">smc</a>,
+		
+	   		<a class="username" href="member.php?31660-SneakySnake">SneakySnake</a>,
+		
+	   		<a class="username" href="member.php?25930-Snoopy">Snoopy</a>,
+		
+	   		<a class="username" href="member.php?58101-SoulWinger">SoulWinger</a>,
+		
+	   		<a class="username" href="member.php?58162-srichart1">srichart1</a>,
+		
+	   		<a class="username" href="member.php?37923-srinehart">srinehart</a>,
+		
+	   		<a class="username" href="member.php?53429-Steve1020">Steve1020</a>,
+		
+	   		<a class="username" href="member.php?52678-SteveMac">SteveMac</a>,
+		
+	   		<a class="username" href="member.php?28066-stick2">stick2</a>,
+		
+	   		<a class="username" href="member.php?56406-stone-face">stone face</a>,
+		
+	   		<a class="username" href="member.php?48888-stumpbucket">stumpbucket</a>,
+		
+	   		<a class="username" href="member.php?53204-sur48">sur48</a>,
+		
+	   		<a class="username" href="member.php?50329-tawarmbrod">tawarmbrod</a>,
+		
+	   		<a class="username" href="member.php?42781-Tbeck">Tbeck</a>,
+		
+	   		<a class="username" href="member.php?53584-tberger53">tberger53</a>,
+		
+	   		<a class="username" href="member.php?45816-terry09dc">terry09dc</a>,
+		
+	   		<a class="username" href="member.php?41545-tetonka12">tetonka12</a>,
+		
+	   		<a class="username" href="member.php?57116-texas_biker">texas_biker</a>,
+		
+	   		<a class="username" href="member.php?56207-Tgp4240">Tgp4240</a>,
+		
+	   		<a class="username" href="member.php?32516-THE_Boogieman">THE_Boogieman</a>,
+		
+	   		<a class="username" href="member.php?44198-Too-Tall">Too Tall</a>,
+		
+	   		<a class="username" href="member.php?21239-tourit">tourit</a>,
+		
+	   		<a class="username" href="member.php?41754-toyfarm">toyfarm</a>,
+		
+	   		<a class="username" href="member.php?66922-Trike-User">Trike User</a>,
+		
+	   		<a class="username" href="member.php?51827-Triker2003_2003">Triker2003_2003</a>,
+		
+	   		<a class="username" href="member.php?56637-Trikertom">Trikertom</a>,
+		
+	   		<a class="username" href="member.php?47425-troaf76">troaf76</a>,
+		
+	   		<a class="username" href="member.php?42233-TXREALTOR">TXREALTOR</a>,
+		
+	   		<a class="username" href="member.php?58272-vanavyman">vanavyman</a>,
+		
+	   		<a class="username" href="member.php?56831-Veg">Veg</a>,
+		
+	   		<a class="username" href="member.php?45974-WAWingGuy">WAWingGuy</a>,
+		
+	   		<a class="username" href="member.php?32760-Whisper-Jet">Whisper Jet</a>,
+		
+	   		<a class="username" href="member.php?58494-White_Wing04">White_Wing04</a>,
+		
+	   		<a class="username" href="member.php?30977-Wing-Nut">Wing Nut</a>,
+		
+	   		<a class="username" href="member.php?52189-Wing-Raider">Wing Raider</a>,
+		
+	   		<a class="username" href="member.php?44452-Wingleader09">Wingleader09</a>,
+		
+	   		<a class="username" href="member.php?53765-Wingmaster12">Wingmaster12</a>,
+		
+	   		<a class="username" href="member.php?56513-Wng-Nut">Wng Nut</a>,
+		
+	   		<a class="username" href="member.php?21015-wobray">wobray</a>,
+		
+	
+</div>
+<div class="blockrow">Most users ever online was 2,804, 2 Weeks Ago at <span class="time">11:05 PM</span>.</div>
+		
+	</div>
+</div>
+
+			</td>
+		
+		
+			<td valign="top" width="175" style="padding-left: 15px">
+				
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; Forum Search</strong>
+		
+			<a class="collapse" id="collapse_module25" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module25">
+		
+			<div class="blockrow">
+							<form action="http://gl1800riders.com/forums/gtsearch.php" id="cse-gtsearch_form2">
+							<div>
+							<input type="text" name="q" size="21" value=""/>
+							<input type="submit" value="Search" style="width:50px;"/>
+							</div>
+							</form>
+							<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-gtsearch_form2&amp;lang=en"></script>
+</div>
+		
+	</div>
+</div>
+
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; Site Navigation</strong>
+		
+			<a class="collapse" id="collapse_module14" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module14">
+		
+			<div class="blockrow">
+	
+	
+		<div>&raquo; <a href="http://gl1800riders.com/forums/forums.php">GL1800 Forums</a></div>
+	
+		<div>&raquo; <a href="http://gl1800riders.com/forums/login.php?do=lostpw">Request New Password</a></div>
+	
+		<div>&raquo; <a href="http://gl1800riders.com/forums/sendmessage.php">Contact Admin</a></div>
+	
+		<div>&raquo; <a href="http://gl1800riders.com/forums/usercp.php">User CP</a></div>
+	
+		<div>&raquo; <a href="http://gl1800riders.com/forums/faq.php">FAQ</a></div>
+	
+</div>
+		
+	</div>
+</div>
+
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; <a href="http://gl1800riders.com/forums/calendar.php?c=1">April 2014</a></strong>
+		
+			<a class="collapse" id="collapse_module3" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module3">
+		
+			<table class="calendar mini" width="100%" style="padding:0; margin:0">
+<tr>
+	<th class="blocksubhead">S</th>
+	<th class="blocksubhead">M</th>
+	<th class="blocksubhead">T</th>
+	<th class="blocksubhead">W</th>
+	<th class="blocksubhead">T</th>
+	<th class="blocksubhead">F</th>
+	<th class="blocksubhead">S</th>
+</tr>
+<tr>
+	<td class="othermonth">30</td><td class="othermonth">31</td><td>
+	
+		<span class="simpleday">1</span>
+	
+</td><td class="today" title="Today">
+	
+		<span class="simpleday">2</span>
+	
+</td><td>
+	
+		<span class="simpleday">3</span>
+	
+</td><td>
+	
+		<span class="simpleday">4</span>
+	
+</td><td>
+	
+		<span class="simpleday">5</span>
+	
+</td>
+</tr>
+<tr>
+	<td>
+	
+		<span class="simpleday">6</span>
+	
+</td><td>
+	
+		<span class="simpleday">7</span>
+	
+</td><td>
+	
+		<span class="simpleday">8</span>
+	
+</td><td>
+	
+		<span class="simpleday">9</span>
+	
+</td><td>
+	
+		<span class="simpleday">10</span>
+	
+</td><td>
+	
+		<span class="simpleday">11</span>
+	
+</td><td>
+	
+		<span class="simpleday">12</span>
+	
+</td>
+</tr>
+<tr>
+	<td>
+	
+		<span class="simpleday">13</span>
+	
+</td><td>
+	
+		<span class="simpleday">14</span>
+	
+</td><td>
+	
+		<span class="simpleday">15</span>
+	
+</td><td>
+	
+		<span class="simpleday">16</span>
+	
+</td><td>
+	
+		<span class="simpleday">17</span>
+	
+</td><td>
+	
+		<span class="simpleday">18</span>
+	
+</td><td>
+	
+		<span class="simpleday">19</span>
+	
+</td>
+</tr>
+<tr>
+	<td>
+	
+		<span class="simpleday">20</span>
+	
+</td><td>
+	
+		<span class="simpleday">21</span>
+	
+</td><td>
+	
+		<span class="simpleday">22</span>
+	
+</td><td>
+	
+		<span class="simpleday">23</span>
+	
+</td><td>
+	
+		<span class="simpleday">24</span>
+	
+</td><td>
+	
+		<span class="simpleday">25</span>
+	
+</td><td>
+	
+		<span class="simpleday">26</span>
+	
+</td>
+</tr>
+<tr>
+	<td>
+	
+		<span class="simpleday">27</span>
+	
+</td><td>
+	
+		<span class="simpleday">28</span>
+	
+</td><td>
+	
+		<span class="simpleday">29</span>
+	
+</td><td>
+	
+		<span class="simpleday">30</span>
+	
+</td><td class="othermonth">1</td><td class="othermonth">2</td><td class="othermonth">3</td>
+</tr>
+
+</table>
+		
+	</div>
+</div>
+
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; Stats</strong>
+		
+			<a class="collapse" id="collapse_module6" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module6">
+		
+			<div class="blockrow">
+	Members: 36,556<br/>
+	Threads: 204,728<br/>
+	Posts: 2,651,948<br/>
+	
+	
+</div>
+
+	<div class="blockrow">
+		Welcome to our newest member, <a href="member.php?67889-Yachtbroker">Yachtbroker</a>
+	</div>
+
+		
+	</div>
+</div>
+
+
+<div class="collapse" style="padding-bottom: 15px;">
+	<h2 class="blockhead">
+		<strong>&raquo; Today's Birthdays</strong>
+		
+			<a class="collapse" id="collapse_module13" href="index.php#top" style="top: 6px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAtElEQVQoz6WSPwrCMBSHexCv0PN5Aw/iqjdwqRTsoNjoEIpgVBSCLtrBIRB95ifmETuk/gl8Jbx835CSpNMdpo7MYR0Uwb68NHGfvF+syd7uFFs4hwcf0e5wvtInCx7836PN6ULGmDdwj+YMHkfV/kh1XTPhDwjn8DgqV1vSWj/xcnMP4HFULCtSSrGEvSecweMomy5IStkKPI5GkxkJIVqB91eU9wZjmpfxAOfw/Iv4+u09AG6gDdwzERdzAAAAAElFTkSuQmCC" alt="" pagespeed_url_hash="2362328485"/></a>
+		
+	</h2>
+	
+	<div class="vba_module blockbody" id="module13">
+		
+			<div class="blockrow">
+				<a href="http://gl1800riders.com/forums/member.php?u=37372">pcohenchicago</a><br/><a href="http://gl1800riders.com/forums/member.php?u=51262">curvecowboy</a> (67)<br/>
+			</div>
+		
+	</div>
+</div>
+
+			</td>
+		
+	</tr>
+</table>
+
+<!-- Do NOT remove this copyright notice. Doing so is a violation of your user agreement! -->
+
+<div align="center">Powered by <a href="http://www.vbadvanced.com/" target="_blank">vBadvanced</a> CMPS v4.2.0</div>
+<div style='padding:10px;'><div style='width:100%; text-align:center;'><script type='text/javascript'>GA_googleFillSlotWithSize('ca-pub-7865546952023728','GL1800Riders_com_728x90_Bottom_PS_Homepage',728,90);</script></div></div>
+
+<div style="text-align:center; padding:5px;">
+							<form action="http://gl1800riders.com/forums/gtsearch.php" id="cse-gtsearch_form3">
+							<div>
+							<input type="text" name="q" size="21" value=""/>
+							<input type="submit" value="Search" style="width:50px;"/>
+							</div>
+							</form>
+							<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-gtsearch_form3&amp;lang=en"></script>
+</div>
+
+<!---->
+<div id="footer" class="floatcontainer footer">
+
+	<form action="forums.php" method="get" id="footer_select" class="footer_select">
+
+		
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="Quick Style Chooser"><option class="hidden"></option></optgroup>
+				
+					
+					<optgroup label="&nbsp;Standard Styles">
+									
+					<option value="2" class="" selected="selected">-- vB4 Default Style</option>
+					
+					</optgroup>
+										
+				
+				
+					
+					<optgroup label="&nbsp;Mobile Styles">
+					
+					<option value="3" class="">-- Default Mobile Style</option>
+					
+					</optgroup>
+										
+				
+			</select>	
+		
+		
+		
+	</form>
+
+	<ul id="footer_links" class="footer_links">
+		<li><a href="sendmessage.php?s=acb2ea26326b4da62faee4da1c8eca88" rel="nofollow" accesskey="9">Contact Us</a></li>
+		<li><a href="http://GL1800Riders.com">GL1800Riders</a></li>
+		
+		
+		<li><a href="http://gl1800riders.com/forums/archive/index.php?s=acb2ea26326b4da62faee4da1c8eca88"></a></li>
+		<li><a href="http://glowhost.com" target="_blank">Web Hosting</a></li>
+		<li><a href="http://gl1800riders.com/forums/privacy-policy.php">Privacy Statement</a></li>
+		<li><a href="http://gl1800riders.com/forums/privacy-policy.php?show=terms">Terms of Service</a></li>
+		<li><a href="index.php#top" onclick="document.location.hash='top'; return false;">Top</a></li>
+	</ul>
+	
+	
+	
+	
+	<script type="text/javascript">vBulletin_init();</script>
+        
+</div>
+</div> <!-- closing div for body_wrapper -->
+
+<div class="below_body">
+<div id="footer_time" class="shade footer_time">All times are GMT -4. The time now is <span class="time">08:19 PM</span>.</div>
+
+<div id="footer_copyright" class="shade footer_copyright">
+	<!-- Do not remove this copyright notice -->
+	Powered by <a href="https://www.vbulletin.com" id="vbulletinlink">vBulletin&reg;</a> Version 4.1.11 <br/>Copyright &copy; 2014 vBulletin Solutions, Inc. All rights reserved. 
+	<!-- Do not remove this copyright notice -->	
+</div>
+<div id="footer_morecopyright" class="shade footer_morecopyright">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+</div>
+ 
+
+</div><script type="text/javascript" src="http://gl1800riders.us.intellitxt.com/intellitxt/front.asp?ipid=55851"></script> 
+
+      <!-- VigLink vBulletin Plugin v2.0.3: http://viglink.com -->
+      <script type="text/javascript">var vglnk={api_url:'//api.viglink.com/api',key:'0070d0d5a123db19ebc84be9c1773544'};(function(d,t){var s=d.createElement(t);s.type='text/javascript';s.async=true;s.src=('https:'==document.location.protocol?vglnk.api_url:'//cdn.viglink.com/api')+'/vglnk.js';var r=d.getElementsByTagName(t)[0];r.parentNode.insertBefore(s,r);}(document,'script'));</script>
+      <!-- end VigLink -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","licenseKey":"0f2b0d60a0","applicationID":"3427738","transactionName":"YFMEZUdYCBADVRddVlkZM0NcFgAMEEMORxZeWAJUTRcWCxI=","queueTime":0,"applicationTime":76,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-372.min.js"}</script></body>
+</html><script pagespeed_no_defer="" type="text/javascript">//<![CDATA[
+(function(){var e=encodeURIComponent,f=window,h=document,m="width",n="documentElement",p="height",q="length",r="prototype",s="body",t="&",u="&ci=",w="&n=",x="&rd=",y=",",z="?",A="Content-Type",B="Microsoft.XMLHTTP",C="Msxml2.XMLHTTP",D="POST",E="application/x-www-form-urlencoded",F="img",G="input",H="load",I="oh=",J="on",K="pagespeed_url_hash",L="url=",M=function(a,c,d){if(a.addEventListener)a.addEventListener(c,d,!1);else if(a.attachEvent)a.attachEvent(J+c,d);else{var b=a[J+c];a[J+c]=function(){d.call(this);b&&b.call(this)}}};f.pagespeed=f.pagespeed||{};var N=f.pagespeed,O=function(a,c,d,b,g){this.d=a;this.f=c;this.g=d;this.a=g;this.c={height:f.innerHeight||h[n].clientHeight||h[s].clientHeight,width:f.innerWidth||h[n].clientWidth||h[s].clientWidth};this.e=b;this.b={}};O[r].j=function(a){a=a.getBoundingClientRect();return{top:a.top+(void 0!==f.pageYOffset?f.pageYOffset:(h[n]||h[s].parentNode||h[s]).scrollTop),left:a.left+(void 0!==f.pageXOffset?f.pageXOffset:(h[n]||h[s].parentNode||h[s]).scrollLeft)}};O[r].i=function(a){if(0>=a.offsetWidth&&0>=a.offsetHeight)return!1;a=this.j(a);var c=a.top.toString()+y+a.left.toString();if(this.b.hasOwnProperty(c))return!1;this.b[c]=!0;return a.top<=this.c[p]&&a.left<=this.c[m]};O[r].l=function(){for(var a=[F,G],c=[],d={},b=0;b<a[q];++b)for(var g=h.getElementsByTagName(a[b]),k=0;k<g[q];++k){var v=g[k].getAttribute(K);v&&g[k].getBoundingClientRect&&this.i(g[k])&&!(v in d)&&(c.push(v),d[v]=!0)}b=!1;a=I+this.g;this.a&&(a+=w+this.a);if(0!=c[q]){a+=u+e(c[0]);for(b=1;b<c[q];++b){d=y+e(c[b]);if(131072<a[q]+d[q])break;a+=d}b=!0}this.e&&(d=x+e(JSON.stringify(this.h())),131072>=a[q]+d[q]&&(a+=d),b=!0);N.criticalImagesBeaconData=a;if(b){var c=this.d,b=this.f,l;if(f.XMLHttpRequest)l=new XMLHttpRequest;else if(f.ActiveXObject)try{l=new ActiveXObject(C)}catch(P){try{l=new ActiveXObject(B)}catch(Q){}}l&&(l.open(D,c+(-1==c.indexOf(z)?z:t)+L+e(b)),l.setRequestHeader(A,E),l.send(a))}};O[r].h=function(){for(var a={},c=h.getElementsByTagName(F),d=0;d<c[q];++d){var b=c[d],g=b.getAttribute(K);if("undefined"==typeof b.naturalWidth||"undefined"==typeof b.naturalHeight||"undefined"==typeof g)break;if("undefined"==typeof a[b.src]&&0<b[m]&&0<b[p]&&0<b.naturalWidth&&0<b.naturalHeight||"undefined"!=typeof a[b.src]&&b[m]>=a[b.src].n&&b[p]>=a[b.src].m)a[g]={renderedWidth:b[m],renderedHeight:b[p],originalWidth:b.naturalWidth,originalHeight:b.naturalHeight}}return a};N.k=function(a,c,d,b,g){var k=new O(a,c,d,b,g);M(f,H,function(){f.setTimeout(function(){k.l()},0)})};N.criticalImagesBeaconInit=N.k;})();pagespeed.criticalImagesBeaconInit('/mod_pagespeed_beacon','http://www.gl1800riders.com/forums/index.php','81BF-NqTgR',false,'GEpMVS5IIco');
+//]]></script>

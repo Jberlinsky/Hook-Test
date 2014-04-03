@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]>    <html class="ie8" class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
+<head>
+
+<script type="text/javascript" src="http://a.abcnews.com/assets/js/smartphoneLoad.js?v=15"></script>
+<title>ABC News: Breaking News & Latest News - ABC News</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="noarchive" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="ABC News" />
+<meta name="copyright" content="Copyright (c) 2014 ABC News Internet Ventures" />
+<meta name="description" content="Get breaking national and world news, broadcast video coverage, and exclusive interviews. Find the top news online at ABC News." />
+<meta name="keywords" content="ABC News, breaking news, headline news, latest news, top news, online news, video news, world news, national news, abc news, abcnews, abc news online" />
+<meta http-equiv="refresh" content="600" />
+<meta name="google-site-verification" content="_YD0kS70-C8NhJ6olBRNvhlrpTjDIQVEb-aAQDG1dk8" />
+<meta name="verify-v1" content="WHoEh+MhSHQUuzuXrs26zRnR7+QhVh5AwcmgoT3bC7Q=" />
+<meta name="msvalidate.01" content="0EABD001D404EA9DDE2025E9E4F14CAF" />
+<meta name="application-name" content="ABC News"/>
+<meta name="msapplication-TileImage" content="http://a.abcnews.com/assets/images/abcn_logo_144x144.png"/>
+<meta name="msapplication-TileColor" content="#2368BA"/>
+<meta name="msApplication-ID" content="ABC.ABCNews" />
+<meta name="msApplication-PackageFamilyName" content="ABC.ABCNews_x0jz7fs5f51ac" />
+<meta property="fb:admins" content="704409894" />
+<meta property="fb:app_id" content="4942312939" />
+<meta name="fb_title" content="ABC News" />
+<meta property="og:site_name" content="ABC News" />
+<meta property="og:title" content="ABC News" />
+<meta property="og:description" content="Get breaking national and world news, broadcast video coverage, and exclusive interviews. Find the top news online at ABC News." />
+<meta property="og:url" content="http://abcnews.go.com/" />
+<meta property="og:type" content="website" />
+
+<link type="text/css" rel="stylesheet" href="http://a.abcnews.com/assets/scss/css/indexv3.css?v=23" />
+<link type="text/css" rel="stylesheet" href="http://a.abcnews.com/assets/scss/css/nav_hp.css?v=23" />
+<link id="canonical" rel="canonical" href="http://abcnews.go.com/" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://feeds.abcnews.com/abcnews/topstories" />
+<script type="text/javascript" src="//fonts.abcnews.com/kyb8pht.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script><script type="text/javascript" src="http://a.abcnews.com/assets/js/libraries.js?v=15"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="http://a.abcnews.com/assets/js/html5shiv.js"></script><![endif]-->
+<script type="text/javascript" src="http://cdn.optimizely.com/js/168844516.js" async></script>
+<script type="text/javascript" src="http://a.abcnews.com/fetch?id=0&asset=js&v=15&contentType=indexv3"></script>
+<script type="text/javascript" src="http://a.abcnews.com/assets/js/v3.js?v=15"></script>
+							<script type="text/javascript" src="http://a.abcnews.com/assets/js/handlebars.js?v=15"></script>
+
+
+
+<script type="text/javascript">
+tq = new Object(); 
+var digAdData;  
+var digGetAd = function(){};
+</script>
+
+
+<script type="text/javascript">
+tq.path = '/homepage/homepage/';
+tq.caid = '';
+tq.keywords = ((tq.keywords)&&(tq.keywords!=''))?tq.keywords+'':'';
+tq.show = '';
+tq.recipes = '';
+tq.id = '4380645';
+tq.section = 'homepage';
+tq.realsection = '';
+tq.subsection = '';
+tq.altsection = 'null';
+tq.objType = 'homepage';
+tq.byline = '';
+tq.othersubs = '';
+
+</script>
+<script type="text/javascript" src="http://a.abcnews.com/assets/static/ads/digcsserver.js"></script>
+<script type="text/javascript">
+if(tq.path){
+	tq.urlTargetPath = (tq.path)?tq.path:window.location.pathname;
+	tq.urlTargetPath = (tq.urlTargetPath == '/')?'/index':tq.urlTargetPath;
+	tq.urlKeywords = (tq.keywords)?tq.keywords:'';
+	tq.urlRecipes = (tq.recipes)?tq.recipes:'';
+	tq.urlShow = (tq.show)?tq.show:'';
+	tq.urlFullQuery = '&tqkw='+encodeURI(tq.urlKeywords)+'&tqshow='+encodeURI(tq.urlShow)+encodeURI(tq.urlRecipes)+'&url='+encodeURI(tq.urlTargetPath);
+}else{
+	tq.urlFullQuery = '&url='+encodeURI(window.location.pathname);
+}
+var fwNetworkId = '168234'
+var fwSectionFallbackId = '109523';
+var fwAdSystem = true;
+</script>
+<script type="text/javascript" src="http://a.abcnews.com/assets/js/fw.js?v=29"></script>
+<script type="text/javascript">digGetAd("FPBranding");</script>
+<script type="text/javascript">digGetAd("LRGutters");</script>
+
+</head>
+<body>
+<a name="top"></a>
+<div class="window">
+	<div class="indexV3">
+		
+<!--[if gte IE 9]>
+<link rel="stylesheet" type="text/css" href="http://a.abcnews.com/assets/css/ie9.css?v=23" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://a.abcnews.com/assets/css/ie7_8.css?v=23" />
+<![endif]-->
+<nav id="nav" class="nav_homepage" role="navigation">
+	<div id="nav_bot_flex">
+		<ul id="nav_bot">
+			<li class="nav_now topic">Now</li>
+			<li class="topic abcn_t1"><a href="http://abcnews.go.com/blogs/headlines/2014/04/earthquakes-in-chile-and-l-a-raise-fears-about-ring-of-fire/"name="lpos=nav[searchtopics_homepage]&lid=link[Chile Earthquake]">Chile Earthquake</a></li><li class="dot_ abcn_b1">&#149;</li><li class="topic abcn_t2"><a href="http://abcnews.go.com/blogs/politics/2014/04/supreme-court-strikes-down-limits-on-campaign-contributions/"name="lpos=nav[searchtopics_homepage]&lid=link[Supreme Court]">Supreme Court</a></li><li class="dot_ abcn_b2">&#149;</li><li class="topic abcn_t3"><a href="http://abcnews.go.com/International/wireStory/industry-group-seeks-continuous-flight-tracking-23151077"name="lpos=nav[searchtopics_homepage]&lid=link[Malaysia Airlines]">Malaysia Airlines</a></li><li class="dot_ abcn_b3">&#149;</li><li class="topic abcn_t4"><a href="http://abcnews.go.com/Technology/amazon-fire-tv-enters-television-streaming-device-market/story?id=23157295"name="lpos=nav[searchtopics_homepage]&lid=link[Amazon Fire TV]">Amazon Fire TV</a></li><li class="dot_ abcn_b4">&#149;</li><li class="topic abcn_t5"><a href="http://abcnews.go.com/Entertainment/josh-radnor-met-mother-show-title-fake/story?id=23158934"name="lpos=nav[searchtopics_homepage]&lid=link[HIMYM]">HIMYM</a></li><li class="dot_ abcn_b5">&#149;</li><li class="topic abcn_t6"><a href="http://abcnews.go.com/sports"name="lpos=nav[searchtopics_homepage]&lid=link[SPORTS NEWS]">SPORTS NEWS</a></li>
+		</ul>
+		<div class="clearboth"><!-- empty --></div>
+	</div>
+	<div id="nav_top_flex">
+		<ul id="nav_top">
+			<li class="nav_gma show">
+				<a href="http://abcnews.go.com/gma" name="lpos=nav[header_homepage]&lid=section[Good Morning America]">Good Morning America</a>
+			</li>
+			<li class="nav_wn show">
+				<a href="http://abcnews.go.com/wn" name="lpos=nav[header_homepage]&lid=section[World News]">World News</a>
+			</li>
+			<li class="nav_nl show">
+				<a href="http://abcnews.go.com/nightline" name="lpos=nav[header_homepage]&lid=section[Nightline]">Nightline</a>
+			</li>
+			<li class="nav_2020 show">
+				<a href="http://abcnews.go.com/2020" name="lpos=nav[header_homepage]&lid=section[20/20]">20/20</a>
+			</li>
+			<li class="nav_tw show">
+				<a href="http://abcnews.go.com/thisweek" name="lpos=nav[header_homepage]&lid=section[This Week]">This Week</a>
+			</li>
+			<li class="nav_social">
+				<div id="share-bar" class="share_top">
+					<div class="share_group">
+						<div class="fb-like" data-href="https://www.facebook.com/abcnews" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false" data-colorscheme="light" data-action="like"></div>
+						<a href="https://twitter.com/abc" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false"></a>
+						<div class="clearboth"><!-- empty --></div>
+					</div>
+				</div>
+			</li>
+			<li class="nav_signin">
+				<a href="#" name="lpos=nav[header_homepage]&lid=section[Sign In]" id="abcn_signin">Sign In</a>
+			</li>
+			<li class="nav_search">
+				<form id="search_form" action="http://abcnews.go.com/search" onsubmit="return tgSearch(this);">
+					<input type="text" id="search_input" name="searchtext" value="Search" maxlength="100" class="watermarkOn" />
+					<input type="image" id="search_image" name="Search" alt="Search" src="http://a.abcnews.com/assets/images/navigation/search.png" />
+				</form>
+			</li>
+		</ul>
+		<div class="clearboth"><!-- --></div>
+	</div>
+	<div id="nav_mid_flex">
+		<ul id="nav_mid">
+			<li id="pearl" itemscope itemtype="http://schema.org/Organization">
+				<h1>
+					<a  itemprop="url" href="http://abcnews.go.com" name="lpos=nav[header_homepage]&lid=[Logo]">
+						<img  itemprop="logo" src="http://a.abcnews.com/assets/images/navigation/abc-logo.png" width="162" height="58" alt="ABC News" border="0" />
+					</a>
+				</h1>
+			</li>
+			<li class="nav_home section">
+				<a href="http://abcnews.go.com" name="lpos=nav[header_homepage]&lid=section[Home]">Home</a>
+			</li>
+			<li class="nav_video section">
+				<a href="http://abcnews.go.com/video" name="lpos=nav[header_homepage]&lid=section[Video]">Video</a>
+			</li>
+			<li class="nav_us section">
+				<a href="http://abcnews.go.com/us" name="lpos=nav[header_homepage]&lid=section[U.S.]">U.S.</a>
+			</li>
+			<li class="nav_world section">
+				<a href="http://abcnews.go.com/international" name="lpos=nav[header_homepage]&lid=section[World]">World</a>
+			</li>
+			<li class="nav_politics section">
+				<a href="http://abcnews.go.com/politics" name="lpos=nav[header_homepage]&lid=section[Politics]">Politics</a>
+			</li>
+			<li class="nav_entertainment section">
+				<a href="http://abcnews.go.com/entertainment" name="lpos=nav[header_homepage]&lid=section[Entertainment]">Entertainment</a>
+			</li>
+			<li class="nav_tech section"> 
+				<a href="http://abcnews.go.com/technology" name="lpos=nav[header_homepage]&lid=section[Tech]">Tech</a>
+			</li>
+			<li class="nav_health section">
+				<a href="http://abcnews.go.com/health" name="lpos=nav[header_homepage]&lid=section[Health]">Health</a>
+			</li>
+			<li class="nav_lifestyle section">
+				<a href="http://abcnews.go.com/lifestyle" name="lpos=nav[header_homepage]&lid=section[Lifestyle]">Lifestyle</a>
+			</li>
+			<li class="nav_money section">
+				<a href="http://abcnews.go.com/business" name="lpos=nav[header_homepage]&lid=section[Money]">Money</a>
+			</li>	
+			<li class="nav_shows section">
+				<a href="#" id="more_active">Shows</a>
+				<ul>
+					<li><a href="http://abcnews.go.com/gma" name="lpos=nav[subnav_homepage]&lid=section[GMA]">GMA</a></li>
+					<li><a href="http://abcnews.go.com/wn" name="lpos=nav[subnav_homepage]&lid=section[World News]">World News</a></li>
+					<li><a href="http://abcnews.go.com/nightline" name="lpos=nav[subnav_homepage]&lid=section[Nightline]">Nightline</a></li>
+					<li><a href="http://abcnews.go.com/2020" name="lpos=nav[subnav_homepage]&lid=section[20/20]">20/20</a></li>
+					<li><a href="http://abcnews.go.com/thisweek" name="lpos=nav[subnav_homepage]&lid=section[This Week]">This Week</a></li>
+				</ul>
+			</li>
+			<li class="nav_more section">
+				<a href="#" id="more_active">More</a>
+					<ul>
+						<li><a href="http://abcnews.go.com/blotter" name="lpos=nav[subnav_homepage]&lid=section[Investigative]">Investigative</a></li>
+						<li class="subnav_money"><a href="http://abcnews.go.com/business" name="lpos=nav[subnav_homepage]&lid=section[Money]">Money</a></li>
+						<li><a href="http://abcnews.go.com/sports" name="lpos=nav[subnav_homepage]&lid=section[Sports]">Sports</a></li>
+						<li><a href="http://abcnews.go.com/us/good_news" name="lpos=nav[subnav_homepage]&lid=section[Good News]">Good News</a></li>
+						<li><a href="http://abcnews.go.com/photos" name="lpos=nav[subnav_homepage]&lid=section[Photos]">Photos</a></li>
+						<li><a href="http://fusion.net" target="_blank" name="lpos=nav[subnav_homepage]&lid=section[Fusion]">Fusion</a></li>
+						<li><a href="http://abcnews.go.com/live" name="lpos=nav[subnav_homepage]&lid=section[Live]">Live</a></li>	
+					</ul>
+			</li>
+			<li class="nav_weather">
+				<span class="gear">
+					<img src="http://a.abcnews.com/assets/images/navigation/gear_icon.png" border="0" width="10" height="10" />
+				</span>
+				<div class="weather_wrapper"></div>
+				<div class="weather_panel">
+					<form class="weather_location" onsubmit="weather_submit();return false;">
+						<label class="weather_location_label">Weather Preferences</label>
+						<input class="weather_location_input" type="text" maxlength="5" value="Enter Zip Code">
+						<div class="weather_btns">
+							<p class="weather_btn_cancel weather_btn_ui">Cancel</p>
+							<p class="weather_btn_set weather_btn_ui">Set</p>
+							<div class="clearboth"></div>
+						</div>
+					</form>
+				</div>
+			</li>
+		</ul>
+		<div class="clearboth"></div>
+	</div>
+	<div id="nav_shade"><!-- bg --></div>
+	<div id="subHeadWidgets" class="abc_wide">
+	<!--widget[ABCTop_1_breakingnews_4380645]--><div id="breakingnews" class="breakingnews">
+    <div class="bnWrapper  ">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                
+                <td class="calloutText"><span class="callout">Watch Live:</span> <a href="http://abcnews.go.com/live?stream=3">Secretary of Defense Chuck Hagel on Fort Hood Shooting</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="clearboth"><!--empty--></div>
+</div>
+
+
+</div>
+	<div class="clearboth"><!-- --></div>
+</nav>
+<div class="short_nav">
+	<div id="nav_short_flex">
+		<ul id="nav_short">
+			<li id="pearl">
+				<a href="http://abcnews.go.com" name="lpos=nav[header_fixed_homepage]&lid=[Logo]">
+					<img src="http://a.abcnews.com/assets/images/navigation/abc-logo-small.png" width="92" height="35" alt="ABC News" border="0" />
+				</a>
+			</li>
+			<li class="nav_home section">
+				<a href="http://abcnews.go.com" name="lpos=nav[header_fixed_homepage]&lid=section[Home]">Home</a>
+			</li>
+			<li class="nav_video section">
+				<a href="http://abcnews.go.com/video" name="lpos=nav[header_fixed_homepage]&lid=section[Video]">Video</a>
+			</li>
+			<li class="nav_us section">
+				<a href="http://abcnews.go.com/us" name="lpos=nav[header_fixed_homepage]&lid=section[U.S.]">U.S.</a>
+			</li>
+			<li class="nav_world section">
+				<a href="http://abcnews.go.com/international" name="lpos=nav[header_fixed_homepage]&lid=section[World]">World</a>
+			</li>
+			<li class="nav_politics section">
+				<a href="http://abcnews.go.com/politics" name="lpos=nav[header_fixed_homepage]&lid=section[Politics]">Politics</a>
+			</li>
+			<li class="nav_entertainment section">
+				<a href="http://abcnews.go.com/entertainment" name="lpos=nav[header_fixed_homepage]&lid=section[Entertainment]">Entertainment</a>
+			</li>
+			<li class="nav_tech section">
+				<a href="http://abcnews.go.com/technology" name="lpos=nav[header_fixed_homepage]&lid=section[Tech]">Tech</a>
+			</li>
+			<li class="nav_health section">
+				<a href="http://abcnews.go.com/health" name="lpos=nav[header_fixed_homepage]&lid=section[Health]">Health</a>
+			</li>
+			<li class="nav_lifestyle section">
+				<a href="http://abcnews.go.com/lifestyle" name="lpos=nav[header_fixed_homepage]&lid=section[Lifestyle]">Lifestyle</a>
+			</li>
+			<li class="nav_money section">
+				<a href="http://abcnews.go.com/business" name="lpos=nav[header_fixed_homepage]&lid=section[Money]">Money</a>
+			</li>
+			<li class="nav_more section">
+				<a href="#" id="more_active">More</a>
+					<ul>
+						<li><a href="http://abcnews.go.com/blotter" name="lpos=nav[subnav_fixed_homepage]&lid=section[Investigative]">Investigative</a></li>
+						<li><a href="http://abcnews.go.com/sports" name="lpos=nav[subnav_fixed_homepage]&lid=section[Sports]">Sports</a></li>
+						<li><a href="http://abcnews.go.com/us/good_news" name="lpos=nav[subnav_fixed_homepage]&lid=section[Good News]">Good News</a></li>
+						<li><a href="http://abcnews.go.com/photos" name="lpos=nav[subnav_fixed_homepage]&lid=section[Photos]">Photos</a></li>
+						<li><a href="http://fusion.net" target="_blank" name="lpos=nav[subnav_fixed_homepage]&lid=section[Fusion]">Fusion</a></li>
+						<li><a href="http://abcnews.go.com/live" name="lpos=nav[subnav_fixed_homepage]&lid=section[Live]">Live</a></li>	
+					</ul>
+			</li>
+		</ul>
+	<div class="clearboth"><!-- empty --></div>
+	</div>
+</div>
+<div class="short_bg">
+	<div class="short_shadow"><!-- --></div>	
+</div>
+<div id="fb-root"></div>
+<script type="text/javascript">
+	
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: 'fa71b3ce3ced40d47a4850f185b245d9',
+				channelUrl: 'http://a.abcnews.go.com/assets/static/perm_cache/channel.html',
+				status: true,
+				xfbml: true
+			});
+		};
+
+
+		(function(doc, script) {
+			var js,
+				fjs = doc.getElementsByTagName(script)[0],
+				add = function(url, id) {
+					if (doc.getElementById(id)) {return;}
+					js = doc.createElement(script);
+					js.src = url; js.async = true;
+					id && (js.id = id);
+					fjs.parentNode.insertBefore(js, fjs);
+				};
+			// Facebook SDK
+			add('//connect.facebook.net/en_US/all.js', 'facebook-jssdk');
+			// Twitter SDK
+			add('//platform.twitter.com/widgets.js', 'twitter-wjs');
+		}(document, 'script'));
+		
+		
+	
+
+	
+	$('#abcn_signin').attr('href','https://register.go.com/global/login?appRedirect='+ encodeURIComponent(window.location));
+
+	setTimeout(function() {
+		$("#nav_shade, #nav_top li, #nav_mid .section, #nav_mid #nav_weather, #nav_bot li, #nav_top .nav_search").addClass("abcn_v");
+	}, 400);
+
+	setTimeout(function() {
+		$("#nav_top .share_group").css('visibility','visible');
+	}, 2500);
+	
+	$('.short_nav').waypoint('sticky', {
+	  wrapper: '<div class="short_nav_wrapper" />',
+	  stuckClass: 'nav_stuck',
+      offset:20,
+	  handler: function(dir) {
+		if(dir==='down'){
+	  		$('.nav_stuck').animate({top:'0'}, 250, 'linear', function() {
+				 //done
+			  });
+		} else {
+			$('.short_nav').css("top","-60px");
+		}
+	  }
+	});
+
+	$('.short_bg').waypoint('sticky', {
+		wrapper: '<div class="short_bg_wrapper" />',
+		stuckClass: 'short_stuck',
+        offset:20,
+		handler: function(dir) {
+			if(dir==='down'){
+				$('.short_stuck').animate({top:'0'}, 250, 'linear', function() {
+				 	//done
+				});
+			}else {
+				$('.short_bg').css("top","-60px");
+			}
+		}
+	});
+	
+	$(document).ready(function(){
+		$("#search_input").focus(function() {
+			$(this).filter(function() {
+				//do if nothing entered
+				return $(this).val() == "" || $(this).val() == "Search"
+	
+			}).removeClass("watermarkOn").val("");
+		});
+	
+		$("#search_input").blur(function() {
+			$(this).filter(function() {
+				//do if nothing entered
+				return $(this).val() == ""
+	
+			}).addClass("watermarkOn").val("Search");
+	
+		});
+	});
+
+</script>		
+		<div class="bodycontainer">
+			<div id="indexV3-r1" class="abc_wide">
+			<!--widget[ABCTop_1_thinbannerad_4380645_homepage]-->
+		<div class="ad_970">
+			<div class="banner_ad">
+				<script type="text/javascript">digGetAd("ThinBanner");</script>
+			</div>
+		</div>
+		
+			</div>
+			<div id="indexV3-r2" class="abc_mid">
+				<div class="bc_cont">
+					<div class="bc_col">
+					<!--widget[BCTop_1_bannerad_4380645_homepage]-->
+		<div class="ad_728">
+			<div class="banner_ad">
+				<script type="text/javascript">digGetAd("Banner");</script>
+			</div>
+		</div>
+	<!--widget[BCTop_2_hero_4380645_homepage]--><div id="hero" role="main">
+
+	<div id="hero_wrapper">
+		<div id="gallery">
+			<div class="carousel carousel-center">
+				<div class="carousel-slider">
+					
+								<div class="carousel-content">
+									<div class="_abcnews"><!--partner bug--></div>
+				                    <a href="/Blotter/shooting-incident-fort-hood/story?id=23166944" name="lpos=widget[BCTop_2_hero_4380645_homepage]&lid=[image-1]">
+				                       <img src="http://a.abcnews.com/images/US/ABC_KWTX_fort_hood_shooting_02_jef_140402_33x16_992.jpg" border="0" width="684" height="336" alt="PHOTO: A shooting has been confirmed on the Fort Hood military base in Killeen, Texas, April 2, 2014."  />
+				                    </a>
+				                    <div class="hero_item_meta">
+				                        <table cellspacing="0" cellpadding="0" width="100%">
+									   		<tr>
+									   			<td>
+												   <a href="/Blotter/shooting-incident-fort-hood/story?id=23166944" name="lpos=widget[BCTop_2_hero_4380645_homepage]&lid=[link-1]">
+							                           <h2 class="headline-hero">Four Dead in Fort Hood Shooting</h2>
+							                        </a>
+												</td>
+											</tr>
+										</table>
+				                     </div>
+									 <div class="hero_credit">
+										KWTX
+									 </div>
+								 </div>
+							
+								<div class="carousel-content">
+									<div class="null"><!--partner bug--></div>
+				                    <a href="http://abcnews.go.com/blogs/headlines/2014/04/no-clues-to-missing-malaysia-airlines-plane-in-captains-flight-simulator/" name="lpos=widget[BCTop_2_hero_4380645_homepage]&lid=[image-2]">
+				                       <img src="http://a.abcnews.com/images/International/ht_abc_zaharie_simulator_split_kb_140402_33x16_992.jpg" border="0" width="684" height="336" alt="PHOTO: The FBI has completed investigation of the flight simulator found at the home of Malaysia flight 370 pilot Zaharie Shah, left, and found nothing suspicious. "  />
+				                    </a>
+				                    <div class="hero_item_meta">
+				                        <table cellspacing="0" cellpadding="0" width="100%">
+									   		<tr>
+									   			<td>
+												   <a href="http://abcnews.go.com/blogs/headlines/2014/04/no-clues-to-missing-malaysia-airlines-plane-in-captains-flight-simulator/" name="lpos=widget[BCTop_2_hero_4380645_homepage]&lid=[link-2]">
+							                           <h2 class="headline-hero">FBI Ends Probe into Malaysian Captain's Flight Simulator</h2>
+							                        </a>
+												</td>
+											</tr>
+										</table>
+				                     </div>
+									 <div class="hero_credit">
+										Facebook | ABC News
+									 </div>
+								 </div>
+							
+								<div class="carousel-content">
+									<div class="_abcnews"><!--partner bug--></div>
+				                    <a href="/Blotter/us-senator-coal-boss-don-blankenship-blood-hands/story?id=23162460" name="lpos=widget[BCTop_2_hero_4380645_homepage]&lid=[image-3]">
+				                       <img src="http://a.abcnews.com/images/Blotter/ABC_brian_blankenship_interview_jtm_140402_33x16_992.jpg" border="0" width="684" height="336" alt="PHOTO: West Virginia coal boss Don Blankenship sits down with ABC News Brian Ross."  />
+				                    </a>
+				                    <div class="hero_item_meta">
+				                        <table cellspacing="0" cellpadding="0" width="100%">
+									   		<tr>
+									   			<td>
+												   <a href="/Blotter/us-senator-coal-boss-don-blankenship-blood-hands/story?id=23162460" name="lpos=widget[BCTop_2_hero_4380645_homepage]&lid=[link-3]">
+							                           <h2 class="headline-hero">US Senator: Coal Boss Has ‘Blood on His Hands’</h2>
+							                        </a>
+												</td>
+											</tr>
+										</table>
+				                     </div>
+									 <div class="hero_credit">
+										ABC News
+									 </div>
+								 </div>
+							
+				</div>
+			</div>
+			
+			<div class="carousel carousel-left"></div>
+			<div class="carousel carousel-right"></div>
+			<div id="btn-left"></div>
+			<div id="btn-right"></div>
+		</div>
+	</div>
+	
+</div>
+<script type="text/javascript">
+window.heropause = 10000;//1000000;	// ANIMATION PAUSE
+</script>
+<script type="text/javascript" src="http://a.abcnews.com/assets/js/hero.js"></script>
+
+
+						<div class="clearboth"><!-- empty --></div>
+					</div>
+					<div class="bc_ind">
+						<div class="b_col">
+							<!--widget[B_1_freeformlite_4380645_homepage]-->
+<div class="ff_lite v3w fl_1 ">
+
+	<div class="midcontainer">
+	<div class="ffl_wrapper">
+	<div id="ihop_23161331" class="ffl_obj ffl_0">
+		<div class="ihop">
+			<div class="ihop_image"><a href="/US/dying-dad-walks-11-year-daughter-aisle-heartbreaking/story?id=23161331"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Image_1]"><img src="http://a.abcnews.com/images/US/ht_jim_zeta_daughter_kb_140402_16x9t_384.jpg" border="0" width="302" height="169" alt="PHOTO: Photographer Lindsay Villatoro staged a mock wedding for Jim Zetz and his daughter, Josie, after hearing about Jims terminal illness. "  /></a>	</div>  <div class="ihop_headline"> <div class="_abcnews"><!--partner bug--></div><a href="/US/dying-dad-walks-11-year-daughter-aisle-heartbreaking/story?id=23161331"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_1]">Dying Dad Walks 11-Year-Old Daughter Down 'Aisle' in Heartbreaking Ceremony</a><div class="tho_dek">Cancer-stricken father and girl were pronounced &quot;daddy and daughter.&quot;</div></div><div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/US/dying-dad-walks-11-year-daughter-aisle-heartbreaking/story?id=23161331" title="Dying Dad Walks 11-Year-Old Daughter Down 'Aisle' in Heartbreaking Ceremony"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/US/dying-dad-walks-11-year-daughter-aisle-heartbreaking/story?id=23161331" title="Dying Dad Walks 11-Year-Old Daughter Down 'Aisle' in Heartbreaking Ceremony"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div><div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+
+	<div id="tho_23162459" class="ffl_obj ffl_1">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="http://abcnews.go.com/blogs/headlines/2014/04/earthquakes-in-chile-and-l-a-raise-fears-about-ring-of-fire/"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_2]"><img src="http://a.abcnews.com/images/International/HT_ring_of_fire_map_background_jef_140402_16x9t_240.jpg" border="0" width="169" height="96" alt="PHOTO: Volcanic arcs and oceanic trenches partly encircling the Pacific Basin form the so-called Ring of Fire, a zone of frequent earthquakes and volcanic eruptions. "  /></a>
+			</div>
+			<div class="tho_headline">
+			
+		
+				<a href="http://abcnews.go.com/blogs/headlines/2014/04/earthquakes-in-chile-and-l-a-raise-fears-about-ring-of-fire/"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_2]">Earthquakes in Chile and L.A. Raise Fears About 'Ring of Fire'</a><div class="tho_dek">Earthquakes are shaking cities around the Pacific Rim.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/blogs/headlines/2014/04/earthquakes-in-chile-and-l-a-raise-fears-about-ring-of-fire/" title="Earthquakes in Chile and L.A. Raise Fears About 'Ring of Fire'"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/blogs/headlines/2014/04/earthquakes-in-chile-and-l-a-raise-fears-about-ring-of-fire/" title="Earthquakes in Chile and L.A. Raise Fears About 'Ring of Fire'"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23145600" class="ffl_obj ffl_2">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/Entertainment/photos/national-portrait-gallerys-american-cool-23145600"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_3]"><img data-original="http://a.abcnews.com/images/Entertainment/HT_american_cool_james_dean_jef_140401_mn_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: "  /><div class="ss_icon"><!-- bg --></div></a>
+			</div>
+			<div class="tho_headline">
+			
+		
+				<a href="/Entertainment/photos/national-portrait-gallerys-american-cool-23145600"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_3]">Are These the Coolest Americans?</a><div class="tho_dek">From musicians to politicians, these icons know what's cool.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Entertainment/photos/national-portrait-gallerys-american-cool-23145600" title="Are These the Coolest Americans?"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Entertainment/photos/national-portrait-gallerys-american-cool-23145600" title="Are These the Coolest Americans?"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23161867" class="ffl_obj ffl_3">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/International/inside-personal-life-russian-president-vladimir-putin/story?id=23161867"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_4]"><img data-original="http://a.abcnews.com/images/International/GTY_putin_fishing_shirtless_2_sk_140402_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: Russian President Vladimir Putin fishing in the Tyva region of Russia, July 20, 2013, during his vacation."  /></a>
+			</div>
+			<div class="tho_headline">
+			 <div class="_abcnews"><!--partner bug--></div>
+		
+				<a href="/International/inside-personal-life-russian-president-vladimir-putin/story?id=23161867"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_4]">5 Things You Didn't Know About Vladimir Putin's Personal Life</a><div class="tho_dek">Who turns the steely leader into a big softy?</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/International/inside-personal-life-russian-president-vladimir-putin/story?id=23161867" title="5 Things You Didn't Know About Vladimir Putin's Personal Life"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/International/inside-personal-life-russian-president-vladimir-putin/story?id=23161867" title="5 Things You Didn't Know About Vladimir Putin's Personal Life"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23164545" class="ffl_obj ffl_4">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/US/chihuahua-mix-halts-mail-delivery-iowa-neighborhood/story?id=23164545"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_5]"><img data-original="http://a.abcnews.com/images/US/ABC_kcrg_chihuahua_mail_mar_140402_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: Postal Service says an unleashed dog is threatening the safety of the mail carrier."  /></a>
+			</div>
+			<div class="tho_headline">
+			 <div class="_abcnews"><!--partner bug--></div>
+		
+				<a href="/US/chihuahua-mix-halts-mail-delivery-iowa-neighborhood/story?id=23164545"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_5]">Dog Halts Mail Delivery to Iowa Neighborhood</a><div class="tho_dek">Postal Service says an unleashed pooch is threatening a mail carrier's safety.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/US/chihuahua-mix-halts-mail-delivery-iowa-neighborhood/story?id=23164545" title="Dog Halts Mail Delivery to Iowa Neighborhood"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/US/chihuahua-mix-halts-mail-delivery-iowa-neighborhood/story?id=23164545" title="Dog Halts Mail Delivery to Iowa Neighborhood"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23161210" class="ffl_obj ffl_5">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="http://abcnews.go.com/blogs/headlines/2014/04/conn-woman-gives-birth-didnt-know-she-was-pregnant/"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_6]"><img data-original="http://a.abcnews.com/images/GMA/wnn_surprise_birth_140402_16x9_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="VIDEO: Jennifer Scollins abdominal pains turned out to be much more than a stomach bug."  /></a>
+			</div>
+			<div class="tho_headline">
+			
+		
+				<a href="http://abcnews.go.com/blogs/headlines/2014/04/conn-woman-gives-birth-didnt-know-she-was-pregnant/"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_6]">Surprise! Woman's Stomach Ache Turns Out to Be Baby</a><div class="tho_dek">A Conn. woman learned that her stomach pains were much more than that. </div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/blogs/headlines/2014/04/conn-woman-gives-birth-didnt-know-she-was-pregnant/" title="Surprise! Woman's Stomach Ache Turns Out to Be Baby"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/blogs/headlines/2014/04/conn-woman-gives-birth-didnt-know-she-was-pregnant/" title="Surprise! Woman's Stomach Ache Turns Out to Be Baby"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23165262" class="ffl_obj ffl_6">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/US/teen-mcdonalds-receipt-tattoo-strikes/story?id=23165262"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_7]"><img data-original="http://a.abcnews.com/images/International/HT_mcdonalds_receipt_tattoo_new_jef_140402_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: A Norwegian teen tattooed a receipt from McDonalds on his arms."  /></a>
+			</div>
+			<div class="tho_headline">
+			 <div class="_abcnews"><!--partner bug--></div>
+		
+				<a href="/US/teen-mcdonalds-receipt-tattoo-strikes/story?id=23165262"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_7]">More Absurd Ink From Teen With McDonald's Receipt Tattoo</a><div class="tho_dek">After McDonald's ink, teen gets tattoo of that tattoo receipt.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/US/teen-mcdonalds-receipt-tattoo-strikes/story?id=23165262" title="More Absurd Ink From Teen With McDonald's Receipt Tattoo"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/US/teen-mcdonalds-receipt-tattoo-strikes/story?id=23165262" title="More Absurd Ink From Teen With McDonald's Receipt Tattoo"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23158934" class="ffl_obj ffl_7">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/Entertainment/josh-radnor-met-mother-show-title-fake/story?id=23158934"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_8]"><img data-original="http://a.abcnews.com/images/Entertainment/GTY_josh_radnor_jtm_140402_25x14t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: Josh Radnor arrives at The Paley Center For Medias PaleyFest 2014 "  /></a>
+			</div>
+			<div class="tho_headline">
+			 <div class="_abcnews"><!--partner bug--></div>
+		
+				<a href="/Entertainment/josh-radnor-met-mother-show-title-fake/story?id=23158934"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_8]">'How I Met Your Mother' Actor Explains the Shocking Series Finale</a><div class="tho_dek">See what Josh Radnor had to say about Monday's series finale.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Entertainment/josh-radnor-met-mother-show-title-fake/story?id=23158934" title="'How I Met Your Mother' Actor Explains the Shocking Series Finale"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Entertainment/josh-radnor-met-mother-show-title-fake/story?id=23158934" title="'How I Met Your Mother' Actor Explains the Shocking Series Finale"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23165272" class="ffl_obj ffl_8">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="http://abcnews.go.com/blogs/headlines/2014/04/colorado-zoo-offers-play-date-with-otter-pups/"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_9]"><img data-original="http://a.abcnews.com/images/US/ht_baby_otter_sr_140402_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: One of the otter pups that was born at the Pueblo Zoo on March 3."  /></a>
+			</div>
+			<div class="tho_headline">
+			
+		
+				<a href="http://abcnews.go.com/blogs/headlines/2014/04/colorado-zoo-offers-play-date-with-otter-pups/"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_9]">Zoo Offers Play Date With Otter Pups</a><div class="tho_dek">The baby animals were born March 3 and weigh a little more than a pound each.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/blogs/headlines/2014/04/colorado-zoo-offers-play-date-with-otter-pups/" title="Zoo Offers Play Date With Otter Pups"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/blogs/headlines/2014/04/colorado-zoo-offers-play-date-with-otter-pups/" title="Zoo Offers Play Date With Otter Pups"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23157046" class="ffl_obj ffl_9">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/International/stolen-masterpieces-worth-50m-found-auto-workers-home/story?id=23157046"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_10]"><img data-original="http://a.abcnews.com/images/International/GTY_recovered_paintings_tk_140320_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: Dario Franceschini, left, and Mariano Mossa unveil Paul Gauguins Fruits sur une table ou nature au petit chien, (L) and Pierre Bonnards  La femme aux deux fauteuils, April 2, 2014. "  /></a>
+			</div>
+			<div class="tho_headline">
+			 <div class="_abcnews"><!--partner bug--></div>
+		
+				<a href="/International/stolen-masterpieces-worth-50m-found-auto-workers-home/story?id=23157046"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_10]">Stolen Paintings Worth $50M in Auto Worker's Home</a><div class="tho_dek">Fiat worker bought the stolen paintings for $25 at an auction.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/International/stolen-masterpieces-worth-50m-found-auto-workers-home/story?id=23157046" title="Stolen Paintings Worth $50M in Auto Worker's Home"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/International/stolen-masterpieces-worth-50m-found-auto-workers-home/story?id=23157046" title="Stolen Paintings Worth $50M in Auto Worker's Home"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23101577" class="ffl_obj ffl_10">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/Entertainment/photos/star-spotting-aprils-top-celebrity-pictures-23101577"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_11]"><img data-original="http://a.abcnews.com/images/Entertainment/GTY_cameron_diaz_jef_140402_mn_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="Cameron Diaz Hits the Town in London"  /><div class="ss_icon"><!-- bg --></div></a>
+			</div>
+			<div class="tho_headline">
+			
+		
+				<a href="/Entertainment/photos/star-spotting-aprils-top-celebrity-pictures-23101577"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_11]">Cameron Diaz Hits the Town in London</a><div class="tho_dek">This month's hottest celebrity pictures.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Entertainment/photos/star-spotting-aprils-top-celebrity-pictures-23101577" title="Cameron Diaz Hits the Town in London"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Entertainment/photos/star-spotting-aprils-top-celebrity-pictures-23101577" title="Cameron Diaz Hits the Town in London"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_22724377" class="ffl_obj ffl_11">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/Health/Wellness/signs-vitamin/story?id=22724377"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_12]"><img data-original="http://a.abcnews.com/images/Health/GTY_sad_woman_ml_140303_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: According to a study in The Journal of Clinical Endocrinology & Metabolism, women with low levels of D are twice as likely to combat depression."  /></a>
+			</div>
+			<div class="tho_headline">
+			 <div class="_womenshealth"><!--partner bug--></div>
+		
+				<a href="/Health/Wellness/signs-vitamin/story?id=22724377"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_12]">8 Signs You Need to Be Getting More Vitamin D</a><div class="tho_dek">Make sure you're getting enough of the vitamin.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Health/Wellness/signs-vitamin/story?id=22724377" title="8 Signs You Need to Be Getting More Vitamin D"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Health/Wellness/signs-vitamin/story?id=22724377" title="8 Signs You Need to Be Getting More Vitamin D"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23160475" class="ffl_obj ffl_12">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/Business/10-brands-changing-public-image/story?id=23160475"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_13]"><img data-original="http://a.abcnews.com/images/Business/AP_philadelphia_cream_cheese_sk_140402_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="PHOTO: Philadelphia Cream Cheese Spreads now have more fruits and vegetables in their most popular flavors."  /></a>
+			</div>
+			<div class="tho_headline">
+			 <div class="_abcnews"><!--partner bug--></div>
+		
+				<a href="/Business/10-brands-changing-public-image/story?id=23160475"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_13]">10 Iconic Brands Revamping Their Image</a><div class="tho_dek">Philadelphia Cream Cheese spreads the news of &quot;no artificial flavors.&quot;</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Business/10-brands-changing-public-image/story?id=23160475" title="10 Iconic Brands Revamping Their Image"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Business/10-brands-changing-public-image/story?id=23160475" title="10 Iconic Brands Revamping Their Image"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_16695746" class="ffl_obj ffl_13">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a href="/Entertainment/photos/fabulous-50-16695746"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_14]"><img data-original="http://a.abcnews.com/images/Entertainment/ST_vanessa_williams_jtm_140402_mn_16x9t_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="Vanessa Williams Makes Her Broadway Debut"  /><div class="ss_icon"><!-- bg --></div></a>
+			</div>
+			<div class="tho_headline">
+			
+		
+				<a href="/Entertainment/photos/fabulous-50-16695746"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_14]">Vanessa Williams Makes Her Broadway Debut</a><div class="tho_dek">Some celebrities never seem to age. </div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Entertainment/photos/fabulous-50-16695746" title="Vanessa Williams Makes Her Broadway Debut"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Entertainment/photos/fabulous-50-16695746" title="Vanessa Williams Makes Her Broadway Debut"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+
+	<div id="tho_23158675" class="ffl_obj ffl_14 last">
+		<div class="tho">
+	
+			<div class="tho_image">
+				<a target="_blank"href="http://gma.yahoo.com/blogs/abc-blogs/hungry-girl-shares-tips-recipes-healthy-eating-book-135313153--abc-news-Recipes.html?vp=1"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Thumb_15]"><img data-original="http://a.abcnews.com/images/GMA/140402_gma_boudreau2_16x9_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="169" height="96" alt="VIDEO: Diet Secrets of Hungry Girl: Can You Lose 25 Pounds by Super-Sizing?"  /></a>
+			</div>
+			<div class="tho_headline">
+			
+		
+				<a target="_blank"href="http://gma.yahoo.com/blogs/abc-blogs/hungry-girl-shares-tips-recipes-healthy-eating-book-135313153--abc-news-Recipes.html?vp=1"name="lpos=widget[B_1_freeformlite_4380645_homepage]&lid=link[Headline_15]">'Hungry Girl' Shares Tips and Recipes For Healthy Eating In New Book</a><div class="tho_dek">Lisa Lillien explains how huge portions of low-calorie foods can help you lose weight.</div>
+			</div>
+			<div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.comhttp://gma.yahoo.com/blogs/abc-blogs/hungry-girl-shares-tips-recipes-healthy-eating-book-135313153--abc-news-Recipes.html?vp=1" title="'Hungry Girl' Shares Tips and Recipes For Healthy Eating In New Book"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.comhttp://gma.yahoo.com/blogs/abc-blogs/hungry-girl-shares-tips-recipes-healthy-eating-book-135313153--abc-news-Recipes.html?vp=1" title="'Hungry Girl' Shares Tips and Recipes For Healthy Eating In New Book"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div>
+			<div class="clearboth"><!-- --></div>
+		</div>
+	</div>
+<div class="clearboth"><!-- --></div></div>
+	</div>
+	
+</div>
+<!--widget[B_2_seounits_4380645_homepage]-->
+<div class="seo_units v3w">
+	<div class="midcontainer">
+	<ul><li class="seo_header">Full Coverage:</li><li><a href="http://abcnews.go.com/topics/business/airlines/malaysia-airlines.htm"name="lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Link1]">Malaysia Airlines Plane Missing</a></li><li class="seo_bullet">&#149;</li><li><a href="http://abcnews.go.com/topics/news/oscar-pistorius.htm"name="lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Link2]">Oscar Pistorius</a></li><li class="seo_bullet">&#149;</li><li><a href="http://abcnews.go.com/topics/news/ukraine.htm"name="lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Link3]">Ukraine News</a></li><li class="seo_bullet">&#149;</li><li><a href="http://abcnews.go.com/topics/news/crimea.htm"name="lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Link4]">Crimea News</a></li><li class="seo_bullet">&#149;</li><li><a href="http://abcnews.go.com/sports"name="lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Link5]">Sports News</a></li></ul><ul>
+<li class="seo_header">HOT TOPICS:</li>
+<li><a href="http://abcnews.go.com/topics/news/ukraine.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link1]>Ukraine</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/business/airlines/malaysia-airlines.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link2]>Malaysia Airlines</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/news/chile.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link3]>Chile</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/sports/baseball/boston-red-sox.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link4]>Boston Red Sox</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/sports/baseball/milwaukee-brewers.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link5]>Milwaukee Brewers</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/lifestyle/health/autism.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link6]>Autism</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/news/whitehouse/barack-obama.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link7]>Barack Obama</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/business/automotive/general-motors.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link8]>General Motors</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/news/kenya.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link9]>Kenya</a></li>
+<li class="seo_bullet">&#149;</li>
+<li><a href="http://abcnews.go.com/topics/news/us/rep.-paul-ryan.htm" name=lpos=widget[B_2_seounits_4380645_homepage]&lid=link[Topic_Link10]>Paul Ryan</a></li>
+</ul>
+	<div class="clearboth"><!-- --></div>
+	</div>
+</div><!--widget[B_3_stacker_4380645_homepage]-->
+<div id="stacker" class="v3w">
+	<div class="midcontainer">
+	
+				<div class="widget_head_1">
+					<h2>
+						Across ABC News
+					</h2>
+				</div>
+			
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/GMA/video/earthquake-off-chiles-coast-tsunami-warnings-issued-23155409"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/GMA/140402_gma_zee3_4x3_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="VIDEO: Earthquake Off Chiles Coast, Tsunami Warnings Issued "  /><div class="play_icon"><!-- bg --></div></a><div class="photo-credit">ABCNews.com</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/video" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Top Videos_Link]">Top Videos</a></h2>
+									</div><div class="tb_feature"><a href="/GMA/video/earthquake-off-chiles-coast-tsunami-warnings-issued-23155409"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Top Videos_Headline_1]">Earthquake Off Chile's Coast, Tsunami Warnings Issued </a></div>
+								</div>
+						<div class="tb_float tb_callout">More Top Videos</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/GMA/video/josh-radnors-liberal-arts-met-mother-stars-love-17148188"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Top Videos_Headline_2]"><div class="tb_floatH tb_headline">Josh Radnor's 'Liberal Arts': Love on Campus</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/GMA/video/what-makes-seismologist-worry-about-california-quakes-23127093"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Top Videos_Headline_3]"><div class="tb_floatH tb_headline">What Makes a Seismologist Worry About California Quakes?</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/US/judge-colo-philanthropist-slay-sets-hearing-date/story?id=23165360"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/US/HT_nancy_pfister_tk_140304_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: Nancy Pfister, 57, was found dead in her Aspen, Colo. home, Feb. 26, 2014. "  /></a><div class="photo-credit">Facebook.com</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/US/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[U.S._Link]">U.S.</a></h2>
+									</div><div class="tb_feature"><a href="/US/judge-colo-philanthropist-slay-sets-hearing-date/story?id=23165360"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[U.S._Headline_1]">Judge in Colorado Philanthropist Murder Sets New Hearing Date</a></div>
+								</div>
+						<div class="tb_float tb_callout">More U.S.</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="http://abcnews.go.com/blogs/headlines/2014/04/earthquakes-in-chile-and-l-a-raise-fears-about-ring-of-fire/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[U.S._Headline_2]"><div class="tb_floatH tb_headline">Earthquakes in Chile and L.A. Raise Fears About 'Ring of Fire'</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="http://abcnews.go.com/blogs/headlines/2014/04/conn-woman-gives-birth-didnt-know-she-was-pregnant/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[U.S._Headline_3]"><div class="tb_floatH tb_headline">Surprise! Woman's Stomach Ache Turns Out to Be Baby</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/Entertainment/jennifer-love-hewitt-admits-hard-lose-pregnancy-weight/story?id=23162316"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/Entertainment/GTY_jennifer_love_hewitt_tk_140302_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: Jennifer Love Hewitt celebrates the launch of her new maternity line, L By Jennifer Love Hewitt at A Pea In The Pod, April 1, 2014, in Beverly Hills, Calif.  "  /></a><div class="photo-credit">Charley Gallay/Getty Images</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Entertainment/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Entertainment_Link]">Entertainment</a></h2>
+									</div><div class="tb_feature"><a href="/Entertainment/jennifer-love-hewitt-admits-hard-lose-pregnancy-weight/story?id=23162316"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Entertainment_Headline_1]">Jennifer Love Hewitt Admits 'It's Really Hard' To Lose Pregnancy Weight</a></div>
+								</div>
+						<div class="tb_float tb_callout">More Entertainment</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Entertainment/rob-kardashian-posts-cryptic-tweet-hurts/story?id=23162319"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Entertainment_Headline_2]"><div class="tb_floatH tb_headline">What's Up With Rob Kardashian's Strange Tweets? </div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Entertainment/danica-patrick-reveals-race-boyfriend-weekend/story?id=23160804"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Entertainment_Headline_3]"><div class="tb_floatH tb_headline">Danica Patrick Reveals What It's Like to Race Against Her Boyfriend</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="http://abcnews.go.com/blogs/politics/2014/04/winners-and-losers-of-supreme-courts-latest-campaign-finance-ruling/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/Politics/AP_supreme_court_jef_140401_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: Cornell Woolridge of Windsor Mill, Md., takes part in a demonstration outside the Supreme Court in Washington as the court heard arguments on campaign finance. "  /></a><div class="photo-credit">Susan Walsh/AP Photo</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Politics/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Politics_Link]">Politics</a></h2>
+									</div><div class="tb_feature"><a href="http://abcnews.go.com/blogs/politics/2014/04/winners-and-losers-of-supreme-courts-latest-campaign-finance-ruling/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Politics_Headline_1]">Winners and Losers of Campaign-Finance Ruling</a></div>
+								</div>
+						<div class="tb_float tb_callout">More Politics</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="http://abcnews.go.com/blogs/politics/2014/04/congressional-campaign-rattled-by-unearthed-vampire-photos/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Politics_Headline_2]"><div class="tb_floatH tb_headline">Congressional Campaign Rattled By Unearthed 'Vampire' Photos</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="http://abcnews.go.com/blogs/politics/2014/04/boehner-complains-that-obamacare-tripled-his-co-pay/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Politics_Headline_3]"><div class="tb_floatH tb_headline">Boehner: Obamacare Tripled My Co-Pay</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/Lifestyle/tennis-great-andy-murray-now-hotelier/story?id=23161955"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/Travel/ht_andy_murray_sr_140402_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: Andy Murray of Great Britain during the new Head Graphene Radical tennis racket launch at Queens Club on October 31, 2013 in London, England."  /></a><div class="photo-credit">Shaun Botterill/Getty Images</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Lifestyle/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Lifestyle_Link]">Lifestyle</a></h2>
+									</div><div class="tb_feature"><a href="/Lifestyle/tennis-great-andy-murray-now-hotelier/story?id=23161955"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Lifestyle_Headline_1]">Tennis Great Andy Murray is Now a Hotelier </a></div>
+								</div>
+						<div class="tb_float tb_callout">More Lifestyle</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Lifestyle/adorable-formal-wear-kids/story?id=23134498"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Lifestyle_Headline_2]"><div class="tb_floatH tb_headline">Adorable Formal Wear for Kids</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Lifestyle/reasons-weight-stuck/story?id=23139526"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Lifestyle_Headline_3]"><div class="tb_floatH tb_headline">5 Reasons Your Weight Is Stuck</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/International/dead-residents-evacuated-quake-strikes-off-chiles-coast/story?id=23154182"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/International/GTY_chile_earthquake_boats_topside_mar_140401_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: Picture taken on April 2, 2014 showing the caos created at the Riquelme Cove, in Iquique, northern Chile, after a powerful 8.0-magnitude earthquake hit off Chiles Pacific coast."  /></a><div class="photo-credit">Aldo Solimano/AFP/Getty Images</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/International/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[World_Link]">World</a></h2>
+									</div><div class="tb_feature"><a href="/International/dead-residents-evacuated-quake-strikes-off-chiles-coast/story?id=23154182"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[World_Headline_1]">6 Dead, Residents Evacuated After Quake Strikes Off Chile</a></div>
+								</div>
+						<div class="tb_float tb_callout">More World</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="http://abcnews.go.com/blogs/headlines/2014/04/no-clues-to-missing-malaysia-airlines-plane-in-captains-flight-simulator/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[World_Headline_2]"><div class="tb_floatH tb_headline">FBI Ends Probe into Malaysian Captain's Flight Simulator</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/International/malaysia-airlines-mystery-solved-officials/story?id=23155910"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[World_Headline_3]"><div class="tb_floatH tb_headline">Flight 370 Mystery May Never Be Solved, Officials Say</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="http://abcnews.go.com/blogs/health/2014/04/02/one-tech-gurus-crusade-to-ban-handshaking/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/Health/GTY_hand_shake_jef_140402_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: TechCrunch founder Michael Arrington wants to ban handshaking."  /></a><div class="photo-credit">Getty Image</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Health/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Health_Link]">Health</a></h2>
+									</div><div class="tb_feature"><a href="http://abcnews.go.com/blogs/health/2014/04/02/one-tech-gurus-crusade-to-ban-handshaking/"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Health_Headline_1]">One Tech Guru's Crusade to Ban Handshaking</a></div>
+								</div>
+						<div class="tb_float tb_callout">More Health</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Health/sex-attack-victim-speaks-harvard-sets-task-force/story?id=23158583"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Health_Headline_2]"><div class="tb_floatH tb_headline">Sex Attack Victim Speaks Out, Harvard Sets Up Task Force</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Health/social-media-push-experimental-drugs-rise/story?id=23143393"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Health_Headline_3]"><div class="tb_floatH tb_headline">Online Pleas for Experimental Drugs Surge</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/Business/10-brands-changing-public-image/story?id=23160475"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/Business/AP_philadelphia_cream_cheese_sk_140402_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: Philadelphia Cream Cheese Spreads now have more fruits and vegetables in their most popular flavors."  /></a><div class="photo-credit">Philadelphia Cream Cheese/PR NEWSWIRE/AP Photo</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Business/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Money_Link]">Money</a></h2>
+									</div><div class="tb_feature"><a href="/Business/10-brands-changing-public-image/story?id=23160475"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Money_Headline_1]">10 Iconic Brands Revamping Their Image</a></div>
+								</div>
+						<div class="tb_float tb_callout">More Money</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Business/fill-kelly-slaters-shoes-surfing-world/story?id=23147570"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Money_Headline_2]"><div class="tb_floatH tb_headline">Behind Surfer Kelly Slater: Hungry Teens and 20-Somethings</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Business/calif-man-wins-650k-lottery-night-wife-dies/story?id=23149499"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Money_Headline_3]"><div class="tb_floatH tb_headline">Man Wins $650K Lottery Day After Wife Dies of Heart Attack</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/International/photos/week-photos-23132893"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/International/ap_day_in_chile_kb_140402_mn_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: "  /><div class="ss_icon"><!-- bg --></div></a><div class="photo-credit">Rodrigo Abd/AP Photo</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Photos/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Photos_Link]">Photos</a></h2>
+									</div><div class="tb_feature"><a href="/International/photos/week-photos-23132893"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Photos_Headline_1]">This Week in Pictures: Top Photos from Around the Globe</a></div>
+								</div>
+						<div class="tb_float tb_callout">More Photos</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/US/photos/american-street-photographer-vivian-maier-23104177"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Photos_Headline_2]"><div class="tb_floatH tb_headline">The Mystery of Vivian Maier</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/International/photos/week-photos-23039754"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Photos_Headline_3]"><div class="tb_floatH tb_headline">This Week in Pictures: Top Photos from Around the Globe</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/Blotter/us-senator-coal-boss-don-blankenship-blood-hands/story?id=23162460"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/Blotter/ABC_brian_blankenship_interview_jtm_140402_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: West Virginia coal boss Don Blankenship sits down with ABC News Brian Ross."  /></a><div class="photo-credit">ABC News</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Blotter/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Investigative_Link]">Investigative</a></h2>
+									</div><div class="tb_feature"><a href="/Blotter/us-senator-coal-boss-don-blankenship-blood-hands/story?id=23162460"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Investigative_Headline_1]">US Senator: Coal Boss Has ‘Blood on His Hands’</a></div>
+								</div>
+						<div class="tb_float tb_callout">More Investigative</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Politics/wireStory/cia-official-disputes-claims-benghazi-23157316"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Investigative_Headline_2]"><div class="tb_floatH tb_headline">Former CIA Official: No Politics in Benghazi Memo</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Blotter/spycatchers-freeing-pollard-pursuing-snowden-sends-mixed-signals/story?id=23145700"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Investigative_Headline_3]"><div class="tb_floatH tb_headline">Spycatchers: Freeing Pollard While Pursuing Snowden Sends ‘Mixed Signals’</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper"><div class="tb_image"><a href="/Technology/twitter-users-frown-facebook-features/story?id=23083434"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Thumb_1]"><img data-original="http://a.abcnews.com/images/Social_Climber/HT_twitter_phototagging_tk_140327_4x3t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="222" height="167" alt="PHOTO: Twitters new photo tagging feature."  /></a><div class="photo-credit">Twitter.com</div></div><div class="tb_wImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Technology/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Technology_Link]">Technology</a></h2>
+									</div><div class="tb_feature"><a href="/Technology/twitter-users-frown-facebook-features/story?id=23083434"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Technology_Headline_1]">Some Twitter Users Frown on New Facebook-Like Tagging</a></div>
+								</div>
+						<div class="tb_float tb_callout">More Technology</div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Technology/newly-discovered-dwarf-planet-hints-super-earth-reaches/story?id=23072674"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Technology_Headline_2]"><div class="tb_floatH tb_headline">More to the Solar System Beyond Pluto</div></a><div class="clearboth"><!-- --></div></div><div class="tb_float tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Technology/oculus-rift-gaming-headset-facebook-bought/story?id=23065367"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Technology_Headline_3]"><div class="tb_floatH tb_headline">Why People Who Have Used Oculus Say It's 'Incredible'</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+			<div class="topicblock v3w">
+				<div class="midcontainer">
+			<div class="tb_wrapper borderless"><div class="tb _woImage">
+									 <div class="tb_header">
+									  	<h2><a href="/Sports/" name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Sports_Link]">Sports</a></h2>
+									</div><div class="tb_feature"><a href="/Sports/desean-jackson-redskins-agree/story?id=23153404"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Sports_Headline_1]">DeSean Jackson, Redskins agree</a></div>
+								</div>
+						<div class="tb_normal tb_callout">More Sports</div><div class="tb_normal tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Sports/tiger-woods-focused-future/story?id=23146139"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Sports_Headline_2]"><div class="tb_normalH tb_headline">Tiger Woods focused on the future</div></a><div class="clearboth"><!-- --></div></div><div class="tb_normal tb_">
+								<div class="tb_bullet">&#8226;</div><a href="/Sports/wade-heats-big-meet/story?id=23152922"name="lpos=widget[B_3_stacker_4380645_homepage]&lid=link[Sports_Headline_3]"><div class="tb_normalH tb_headline">Wade: Heat's Big Three to meet</div></a><div class="clearboth"><!-- --></div></div><div class="clearboth"><!-- --></div>
+					</div>
+				</div>
+			</div>	
+	</div>
+</div>
+						</div>
+						<div class="c_col">
+							<!--widget[C_1_ad_4380645_homepage]-->
+		<div class="ad_300">
+	        <div class="ad">
+	            <div class="ad_container"><script type="text/javascript">digGetAd("Rectangle");</script></div>
+	        </div>
+		</div>
+	<!--widget[C_2_gallery_4380645_homepage]--><script type="text/javascript" src="http://a.abcnews.com/assets/js/jquery/jquery.cycle.all.min.js"></script>
+
+<div class="gallery">
+	<div class="midcontainer">
+        <div class="widget_head_short">
+            <div class="title">SLIDESHOWS</div>
+        </div>
+        <div id="gallery_wrapper">
+            <div id="gallery_items_14640493" class="gallery_items">
+            <div id="item-14640493-0" class="gallery_item">
+                            <a href="/Entertainment/photos/ups-downs-celebrity-weight-3094935" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[image-1]">
+                            <div class="gallery_items_overlay"><img src="http://a.abcnews.com/assets/images/spacer.gif" border="0" width="100%" height="100%" /></div>
+                                <img src="http://a.abcnews.com/images/Entertainment/GTY_jennifer_love_hewitt_before_after_pregnancy_sr_140402_mn_16x9t_384.jpg" border="0" width="306" height="172" alt="Jennifer Love Hewitt Shows Off Her Amazing Post-Baby Body"  />
+                            </a>
+                                <div class="gallery_item_meta">
+                                <a href="/Entertainment/photos/ups-downs-celebrity-weight-3094935" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[link-1]">
+                                   <span>View: </span> Kate Winslet Reveals Her Incredible Post-Baby Body
+                                    <div class="section">Entertainment</div>
+                                </a>
+                                    <div class="clearboth"><!--empty--></div>
+                                </div>
+                        </div><div id="item-14640493-1" class="gallery_item">
+                            <a href="/International/photos/week-photos-23132893" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[image-2]">
+                            <div class="gallery_items_overlay"><img src="http://a.abcnews.com/assets/images/spacer.gif" border="0" width="100%" height="100%" /></div>
+                                <img src="http://a.abcnews.com/images/International/ap_day_in_chile_kb_140402_mn_16x9t_384.jpg" border="0" width="306" height="172" alt="PHOTO: "  />
+                            </a>
+                                <div class="gallery_item_meta">
+                                <a href="/International/photos/week-photos-23132893" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[link-2]">
+                                   <span>View: </span> This Week in Pictures: Top Photos from Around the Globe
+                                    <div class="section">International</div>
+                                </a>
+                                    <div class="clearboth"><!--empty--></div>
+                                </div>
+                        </div><div id="item-14640493-2" class="gallery_item">
+                            <a href="/Entertainment/photos/daring-red-carpet-dresses-17406933" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[image-3]">
+                            <div class="gallery_items_overlay"><img src="http://a.abcnews.com/assets/images/spacer.gif" border="0" width="100%" height="100%" /></div>
+                                <img src="http://a.abcnews.com/images/Entertainment/GTY_Theo_james_shailene_woodley_mar_140402_mn_16x9t_384.jpg" border="0" width="306" height="172" alt="Shailene Woodley Takes the Plunge for Divergent"  />
+                            </a>
+                                <div class="gallery_item_meta">
+                                <a href="/Entertainment/photos/daring-red-carpet-dresses-17406933" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[link-3]">
+                                   <span>View: </span> Shailene Woodley Rocks Sexy Gown at 'Divergent' Premiere 
+                                    <div class="section">Entertainment</div>
+                                </a>
+                                    <div class="clearboth"><!--empty--></div>
+                                </div>
+                        </div><div id="item-14640493-3" class="gallery_item">
+                            <a href="/US/photos/smile-visual-anthology-vii-23150051" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[image-4]">
+                            <div class="gallery_items_overlay"><img src="http://a.abcnews.com/assets/images/spacer.gif" border="0" width="100%" height="100%" /></div>
+                                <img src="http://a.abcnews.com/images/US/ht_VII_smile_01_kb_140401_mn_16x9t_384.jpg" border="0" width="306" height="172" alt="PHOTO: "  />
+                            </a>
+                                <div class="gallery_item_meta">
+                                <a href="/US/photos/smile-visual-anthology-vii-23150051" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[link-4]">
+                                   <span>View: </span> See How Smiles Are Universal
+                                    <div class="section">US</div>
+                                </a>
+                                    <div class="clearboth"><!--empty--></div>
+                                </div>
+                        </div><div id="item-14640493-4" class="gallery_item">
+                            <a href="/International/photos/earthquake-chile-23152020" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[image-5]">
+                            <div class="gallery_items_overlay"><img src="http://a.abcnews.com/assets/images/spacer.gif" border="0" width="100%" height="100%" /></div>
+                                <img src="http://a.abcnews.com/images/International/GTY_chile_earthquake_18_sk_140402_mn_16x9t_384.jpg" border="0" width="306" height="172" alt="PHOTO: The Most Dramatic Images From Massive Chilean Earthquake"  />
+                            </a>
+                                <div class="gallery_item_meta">
+                                <a href="/International/photos/earthquake-chile-23152020" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[link-5]">
+                                   <span>View: </span> The Most Dramatic Images From Massive Chilean Earthquake
+                                    <div class="section">International</div>
+                                </a>
+                                    <div class="clearboth"><!--empty--></div>
+                                </div>
+                        </div>
+            </div>
+            <div id="gallery_nav_wrapper">
+                <div id="gallery_nav">
+                    <a href="#" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[left_arrow]"><div id="gallery_prev_14640493" class="gallery_prev"><!--empty--></div></a>
+                    <div id="gallery_bullets_14640493" class="gallery_bullets"></div>
+                    <a href="#" name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[right_arrow]"><div id="gallery_next_14640493" class="gallery_next"><!--empty--></div></a>
+                    <div class="clearboth"><!--empty--></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clearboth"><!--empty--></div>
+</div>
+
+<script type="text/javascript">
+    //build slideshow
+	$('#gallery_items_14640493').cycle({
+		fx: 'scrollHorz', /*fade*/
+		speed: 800,
+        next: '#gallery_next_14640493',
+        prev: '#gallery_prev_14640493',
+		timeout: 8000,
+        pager: '#gallery_bullets_14640493',
+        pagerAnchorBuilder: function paginate(idx, el){
+            return '<a class="item" id="item' + idx + '" href="#"  name="lpos=widget[C_2_gallery_4380645_homepage]&lid=[dot]">&bull;</a>';
+        }
+        //before: onBefore
+	});
+
+    function onBefore(curr,next,opts, fwd){
+        //set the slide height
+        var $ht = $(this).height();
+        $(this).parent().animate({"height": $ht});
+    }
+
+</script>
+<!--widget[C_3_socialclimber_4380645_homepage]-->
+<div id="social_climber" class="v3w">
+	<div class="sc_container">
+		<div class="sc_header">
+			<a href="/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111" name="lpos=widget[C_3_socialclimber_4380645_homepage]&lid=view[Logo]">
+				<img src="http://a.abcnews.com/assets/images/v3/social_climber.png" width="310" height="63" border="0" />
+			</a>
+		</div>
+		<div class="sc_logo">
+			<script type="text/javascript">digGetAd('SponsoredByLogo')</script>
+		</div>
+		<div class="listItems">
+			<div class='listItem ' id='item_0'><div class='listItemHeader'><table cellspacing='0' cellpadding='0' border='0'><tr><td class='count'>1</td><td class='title'><a href='/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem1' name='lpos=widget[C_3_socialclimber_4380645_homepage]&lid=view[Headline]'>Cities to Light Up Blue for World Autism Awareness Day</a></td></tr></table><div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem1" title="Cities to Light Up Blue for World Autism Awareness Day"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem1" title="Cities to Light Up Blue for World Autism Awareness Day"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div></div><div class='listItemOverview'>
+
+Today is the seventh annual World Autism Awareness Day , flagged, as always, by the color blue. You might see a few...</div><div class='listItemMedia'><div class='listItemThumb'><a href="/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem1" name="lpos=widget[C_3_socialclimber_4380645_homepage]&lid=view[Image]"><img data-original="http://a.abcnews.com/images/Social_Climber/GTY_autism_day_china_tk_140320_16x9t_384.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="273" height="154" alt="PHOTO: The Oriental Pearl TV Tower is illuminated in blue on World Autism Awareness Day, April 2, 2013, in Shanghai. "  /></a><div class="photo-credit">ChinaFotoPress/Getty Images</div></div><div class='clearboth'><!-- --></div></div><div class='clearboth'><!--  --></div></div><div class='listItem ' id='item_1'><div class='listItemHeader'><table cellspacing='0' cellpadding='0' border='0'><tr><td class='count'>2</td><td class='title'><a href='/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem2' name='lpos=widget[C_3_socialclimber_4380645_homepage]&lid=view[Headline]'>Venezuela Brings in Shopper ID System to Battle Food Shortage Crisis</a></td></tr></table><div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem2" title="Venezuela Brings in Shopper ID System to Battle Food Shortage Crisis"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem2" title="Venezuela Brings in Shopper ID System to Battle Food Shortage Crisis"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div></div><div class='listItemOverview'>
+
+In response to the recent food shortages in Venezuela, the government is now trying to track shoppers’ purchases with...</div><div class='clearboth'><!--  --></div></div><div class='listItem last' id='item_2'><div class='listItemHeader'><table cellspacing='0' cellpadding='0' border='0'><tr><td class='count'>3</td><td class='title'><a href='/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem3' name='lpos=widget[C_3_socialclimber_4380645_homepage]&lid=view[Headline]'>Samuel L Jackson Performs 'Boy Meets World' Poetry Slam</a></td></tr></table><div class="shareflyout"><a class="trigger" href="javascript:void(0);"><!--empty--></a>
+       <div class="shareflyout-buttons">
+            <a class="facebook" href="http://abcnews.go.com/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem3" title="Samuel L Jackson Performs 'Boy Meets World' Poetry Slam"><!--empty--></a>
+            <a class="twitter" href="http://abcnews.go.com/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111#socialClimberItem3" title="Samuel L Jackson Performs 'Boy Meets World' Poetry Slam"><!--empty--></a>
+            <div class="clearboth"><!--empty--></div>
+       </div>
+       <div class="clearboth"><!--empty--></div>
+    </div></div><div class='listItemOverview'>
+
+Out of the many varied roles of Samuel L Jackson -- think roles in “Star Wars,” “Kill Bill,” “True Romance” the actor...</div><div class='clearboth'><!--  --></div></div>
+		</div>
+		
+			<div class="listItemsFooter">
+				<a href="/Social_Climber/social-climber-autism-awareness-day-blues-venezuela-requires/story?id=23156111" name="lpos=widget[C_3_socialclimber_4380645_homepage]&lid=view[FullList]" class="sc_view">SEE FULL LIST<span class="sc_arrow"></span></a>
+			</div>
+		
+	</div>
+</div>
+<!--widget[C_4_trending_4380645_homepage]-->
+<div id="trending" class="v3w">
+	<div class="midcontainer">
+	
+				<div class="widget_head">
+					<h2>
+						Trending Now
+					</h2>
+				</div>
+			<ul class="trending_list"><li>
+							<div class="tl_container">
+								<div class="tl_num">1</div>
+								<div class="tl_headline"><a href="/US/dying-dad-walks-11-year-daughter-aisle-heartbreaking/story?id=23161331"name="lpos=widget[C_4_trending_4380645_homepage]&lid=link[Headline_1]">Dying Dad Walks 11-Year-Old Daughter...<div>
+											<div class="tl_background tl_bg_1"><!-- bg --></div>
+											<div class="tl_shares"><span>508</span> Shares</div>
+											<div class="clearboth"><!-- --></div>
+										</div></a></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+						 </li><li>
+							<div class="tl_container">
+								<div class="tl_num">2</div>
+								<div class="tl_headline"><a href="/International/82-magnitude-earthquake-off-chile-triggers-tsunami-reported/story?id=23151710"name="lpos=widget[C_4_trending_4380645_homepage]&lid=link[Headline_2]">5 Dead After Powerful Quake Strikes...<div>
+											<div class="tl_background tl_bg_2"><!-- bg --></div>
+											<div class="tl_shares"><span>236</span> Shares</div>
+											<div class="clearboth"><!-- --></div>
+										</div></a></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+						 </li><li>
+							<div class="tl_container">
+								<div class="tl_num">3</div>
+								<div class="tl_headline"><a href="/Blotter/shooting-incident-fort-hood/story?id=23166944"name="lpos=widget[C_4_trending_4380645_homepage]&lid=link[Headline_3]">Four Dead in Fort Hood Shooting<div>
+											<div class="tl_background tl_bg_3"><!-- bg --></div>
+											<div class="tl_shares"><span>232</span> Shares</div>
+											<div class="clearboth"><!-- --></div>
+										</div></a></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+						 </li><li>
+							<div class="tl_container">
+								<div class="tl_num">4</div>
+								<div class="tl_headline"><a href="/International/dead-residents-evacuated-quake-strikes-off-chiles-coast/story?id=23154182"name="lpos=widget[C_4_trending_4380645_homepage]&lid=link[Headline_4]">6 Dead, Residents Evacuated After...<div>
+											<div class="tl_background tl_bg_4"><!-- bg --></div>
+											<div class="tl_shares"><span>232</span> Shares</div>
+											<div class="clearboth"><!-- --></div>
+										</div></a></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+						 </li><li>
+							<div class="tl_container">
+								<div class="tl_num">5</div>
+								<div class="tl_headline"><a href="/US/wireStory/chrysler-recalling-870000-suvs-brake-defect-23154477"name="lpos=widget[C_4_trending_4380645_homepage]&lid=link[Headline_5]">Chrysler Recalling 870,000 SUVs for...<div>
+											<div class="tl_background tl_bg_5"><!-- bg --></div>
+											<div class="tl_shares"><span>231</span> Shares</div>
+											<div class="clearboth"><!-- --></div>
+										</div></a></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+						 </li></ul>
+	<div class="clearboth"><!-- --></div>
+	</div>
+</div>
+<!--widget[C_5_canvas_4380645_homepage]--><div class="canvas" id="canvas-19830696"><html>
+<head>
+</head>
+<body>
+<script src="http://nmp.newsgator.com/NGBuzz/buzz.ashx?buzzId=231983&apiToken=5C08AF2BEE364410B6D7347458624BCA" type="text/javascript"></script>
+</body>
+</html><div class="clearboth"><!-- --></div></div><!--widget[C_6_ad2_4380645_homepage]-->
+		<div class="ad_300">
+	        <div class="ad">
+	            <div class="ad_container"><script type="text/javascript">digGetAd("Rectangle2");</script></div>
+	        </div>
+		</div>
+	<!--widget[C_7_canvas_4380645_homepage]--><div class="canvas" id="canvas-19440199"><div class="story_widget">
+	<div class="quigo">
+	<div class="midcontainer"><script type="text/javascript">adblade_cid='4129-2446275914';adblade_ad_width='300';adblade_ad_height='250';adblade_ad_host='web.adblade.com'; adblade_tag_type='1';</script><script type='text/javascript' src='http://web.adblade.com/js/ads/show.js'></script>
+
+	</div>
+	</div>
+</div><div class="clearboth"><!-- --></div></div>
+						</div>
+						<div class="clearboth"><!--empty--></div>
+					</div>
+					<div class="bc_col">
+						<!--widget[BCBot_1_fiver_4380645_homepage]-->
+			<div class="fiver v3w">
+				<div class="midcontainer">
+			
+					<div class="widget_head">
+						<h2>
+							From Our Shows
+						</h2>
+					</div>
+				<div class="fiver_container"><div class="fiver_">
+							<div class="fiver_item"><div class="fiver_image"><a href="/GMA/video/gma-42-earthquake-off-chiles-coast-tsunami-warnings-23160212"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Image_1]"><img data-original="http://a.abcnews.com/images/GMA/140402_gma_zee9_16x9_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="150" height="84" alt="VIDEO: GMA 4/2: Earthquake Off Chiles Coast, Tsunami Warnings Issued "  /><div class="play_icon"><!-- bg --></div></a><div class="photo-credit">ABCNews.com</div></div><div class="fiver_meta"><div class="fm_headline"><a href="/GMA/video/gma-42-earthquake-off-chiles-coast-tsunami-warnings-23160212"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Headline_1]">GMA 4/2: Earthquake Off Chile's Coast, Tsunami Warnings Issued </a></div><div class="fm_more" name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[More]"><a href="/gma">More GMA <span class="sc_arrow"><!-- bg --></span></a></div></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+							<div class="clearboth"><!-- --></div>
+						</div><div class="fiver_">
+							<div class="fiver_item"><div class="fiver_image"><a href="/Nightline/video/nightline-0401-ariz-hammer-murder-trial-echoes-jodi-23154361"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Image_2]"><img data-original="http://a.abcnews.com/images/Nightline/140402_ntl_full_16x9_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="150" height="84" alt="Nightline 04/01: Ariz. Hammer Murder Trial Echoes Jodi Arias Case"  /><div class="play_icon"><!-- bg --></div></a><div class="photo-credit">ABCNews.com</div></div><div class="fiver_meta"><div class="fm_headline"><a href="/Nightline/video/nightline-0401-ariz-hammer-murder-trial-echoes-jodi-23154361"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Headline_2]">Nightline 04/01: Ariz. Hammer Murder Trial Echoes Jodi Arias Case</a></div><div class="fm_more" name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[More]"><a href="/nightline">More Nightline <span class="sc_arrow"><!-- bg --></span></a></div></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+							<div class="clearboth"><!-- --></div>
+						</div><div class="fiver_">
+							<div class="fiver_item"><div class="fiver_image"><a href="/WNT/video/world-news-41-soda-companies-drop-sales-23152679"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Image_3]"><img data-original="http://a.abcnews.com/images/WNT/140401_wn_full_16x9_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="150" height="84" alt="VIDEO: World News 4/1: Soda Companies See a Drop in Sales"  /><div class="play_icon"><!-- bg --></div></a><div class="photo-credit">ABCNews.com</div></div><div class="fiver_meta"><div class="fm_headline"><a href="/WNT/video/world-news-41-soda-companies-drop-sales-23152679"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Headline_3]">World News 4/1: Soda Companies See a Drop in Sales</a></div><div class="fm_more" name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[More]"><a href="/wn">More World News <span class="sc_arrow"><!-- bg --></span></a></div></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+							<div class="clearboth"><!-- --></div>
+						</div><div class="fiver_">
+							<div class="fiver_item"><div class="fiver_image"><a href="/ThisWeek/video/week-330-baseball-managers-impact-success-23119235"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Image_4]"><img data-original="http://a.abcnews.com/images/ThisWeek/140330_tw_full_16x9_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="150" height="84" alt="VIDEO: This Week 3/30: Baseball Managers Impact on Success"  /><div class="play_icon"><!-- bg --></div></a><div class="photo-credit">ABCNews.com</div></div><div class="fiver_meta"><div class="fm_headline"><a href="/ThisWeek/video/week-330-baseball-managers-impact-success-23119235"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Headline_4]">This Week 3/30: Baseball Managers' Impact on Success</a></div><div class="fm_more" name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[More]"><a href="/thisweek">More This Week <span class="sc_arrow"><!-- bg --></span></a></div></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+							<div class="clearboth"><!-- --></div>
+						</div><div class="fiver_ fiver_no">
+							<div class="fiver_item"><div class="fiver_image"><a href="/2020/video/2020-329-extreme-quitters-leaving-job-making-impression-23116150"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Image_5]"><img data-original="http://a.abcnews.com/images/2020/140329_2020_full_16x9_240.jpg" src="http://a.abcnews.com/assets/images/v3/pixel_eee.gif" class="abcn_lazy" border="0" width="150" height="84" alt="2020 3/29: Extreme Quitters: Leaving a Job and Making an Impression "  /><div class="play_icon"><!-- bg --></div></a><div class="photo-credit">ABCNews.com</div></div><div class="fiver_meta"><div class="fm_headline"><a href="/2020/video/2020-329-extreme-quitters-leaving-job-making-impression-23116150"name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[Headline_5]">2020 3/29: Extreme Quitters: Leaving a Job and Making an Impression </a></div><div class="fm_more" name="lpos=widget[BCBot_1_fiver_4380645_homepage]&lid=link[More]"><a href="/2020">More 20/20 <span class="sc_arrow"><!-- bg --></span></a></div></div>
+								<div class="clearboth"><!-- --></div>
+							</div>
+							<div class="clearboth"><!-- --></div>
+						</div><div class="clearboth"><!-- --></div></div>
+				</div>
+			</div>	<!--widget[BCBot_2_canvas_4380645_homepage]--><div class="canvas" id="canvas-19440209"><div class="ad_bot">
+	<script type="text/javascript">adblade_cid='4128-4235330536';adblade_ad_width='805';adblade_ad_height='200';adblade_ad_host='web.adblade.com';adblade_ad_host='web.adblade.com';</script><script type='text/javascript' src='http://web.adblade.com/js/ads/show.js'></script>
+</div><div class="clearboth"><!-- --></div></div>
+						<div class="clearboth"><!--empty--></div>
+					</div>
+				</div>
+				<div class="a_cont">
+					<div class="a_col">
+						<!--widget[A_1_livevideoteaser_4380645_homepage]--><!--widget[A_2_freeformlite_4380645_homepage]-->
+<div class="ff_lite v3w fl_1 ">
+
+	<div class="midcontainer">
+	
+				<div class="widget_head_1" id="wh_two">
+					<h1>
+						Latest Headlines
+					</h1>
+				</div>
+			<div class="ffl_wrapper">
+	<div id="h_23160802" class="ffl_0">
+		<div class="h">
+			<a href="http://abcnews.go.com/blogs/politics/2014/04/boehner-complains-that-obamacare-tripled-his-co-pay/"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_1]"><span class="content-label">Boehner:</span> Obamacare Tripled My Co-Pay<span class="metaH_timeDay">Apr 2, 2014, 4:05 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23161493" class="ffl_1 odd">
+		<div class="h">
+			<a href="http://abcnews.go.com/blogs/politics/2014/04/winners-and-losers-of-supreme-courts-latest-campaign-finance-ruling/"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_2]">Winners and Losers of Campaign-Finance Ruling<span class="metaH_timeDay">Apr 2, 2014, 4:13 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23158027" class="ffl_2">
+		<div class="h">
+			<a href="/International/chile-earthquake-prompts-break-womens-prison/story?id=23158027"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_3]">Quake Frees 300 Women from Chile Prison<span class="metaH_timeDay">Apr 2, 2014, 10:59 AM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23163673" class="ffl_3 odd">
+		<div class="h">
+			<a href="/Business/man-posts-secret-video-car-repair-sued/story?id=23163673"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_4]">Man Posts Secret Video of Car Repair - Then Gets Sued<span class="metaH_timeDay">2 hours, 17 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23164620" class="ffl_4">
+		<div class="h">
+			<a href="/Politics/wireStory/conn-lawmakers-chimps-victim-sue-state-23164620"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_5]"><span class="content-label">Lawmakers:</span> Deny Chimp Victim's Bid to Sue State<span class="metaH_timeDay">2 hours, 20 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23161868" class="ffl_5 odd">
+		<div class="h">
+			<a href="http://abcnews.go.com/blogs/politics/2014/04/congressional-campaign-rattled-by-unearthed-vampire-photos/"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_6]">Congressional Campaign Rattled By Unearthed 'Vampire' Photos<span class="metaH_timeDay">Apr 2, 2014, 5:14 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23151681" class="ffl_6">
+		<div class="h">
+			<a href="/US/wireStory/washington-mudslide-death-toll-climbs-28-23151681"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_7]"><span class="content-label">Grim Duty:</span> Team Works Nonstop to ID Remains<span class="metaH_timeDay">39 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23155036" class="ffl_7 odd">
+		<div class="h">
+			<a href="/US/wireStory/newtown-residents-gunmans-house-torn-23155036"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_8]">Newtown Residents Want Gunman's House Torn Down<span class="metaH_timeDay">Apr 2, 2014, 3:49 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23162751" class="ffl_8">
+		<div class="h">
+			<a href="/US/wireStory/dad-fired-air-killing-girl-years-23162751"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_9]">Dad Who Fired Into Air, Killing Girl, Gets 6 Years<span class="metaH_timeDay">Apr 2, 2014, 4:34 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23158583" class="ffl_9 odd">
+		<div class="h">
+			<a href="/Health/sex-attack-victim-speaks-harvard-sets-task-force/story?id=23158583"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_10]">Sex Attack Victim Speaks Out, Harvard Sets Up Task Force<span class="metaH_timeDay">Apr 2, 2014, 1:41 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23157295" class="ffl_10">
+		<div class="h">
+			<a href="/Technology/amazon-fire-tv-enters-television-streaming-device-market/story?id=23157295"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_11]"><span class="content-label">Living Room Wars:</span> Amazon Fights for Your TV<span class="metaH_timeDay">Apr 2, 2014, 4:43 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23167134" class="ffl_11 odd">
+		<div class="h">
+			<a href="/Sports/wireStory/union-date-set-northwestern-vote-23167134"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_12]">Agency Sets Date for Northwestern Vote<span class="metaH_timeDay">47 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23165599" class="ffl_12">
+		<div class="h">
+			<a href="http://abcnews.go.com/blogs/politics/2014/04/first-lady-michelle-obama-plants-white-house-kitchen-garden/"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_13]">First Lady Gets Down and Dirty at the White House Garden<span class="metaH_timeDay">1 hour, 7 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23165830" class="ffl_13 odd">
+		<div class="h">
+			<a target="_blank"href="http://news.yahoo.com/blogs/this-could-be-big-abc-news/boats-better-tasting-whiskey-210812362.html"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_14]">Does Bourbon Taste Better (And Older) if it’s Aged at Sea? <span class="metaH_timeDay">2 hours, 43 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23161854" class="ffl_14">
+		<div class="h">
+			<a href="http://abcnews.go.com/blogs/entertainment/2014/04/brooklyn-beckham-makes-modeling-debut/"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_15]">Brooklyn Beckham Makes Modeling Debut<span class="metaH_timeDay">Apr 2, 2014, 1:29 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23160804" class="ffl_15 odd">
+		<div class="h">
+			<a href="/Entertainment/danica-patrick-reveals-race-boyfriend-weekend/story?id=23160804"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_16]">Danica Patrick Reveals What It's Like to Race Against Her Boyfriend<span class="metaH_timeDay">Apr 2, 2014, 12:58 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_17406933" class="ffl_16">
+		<div class="h">
+			<a href="/Entertainment/photos/daring-red-carpet-dresses-17406933"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_17]"> <span class="content-label2">PHOTOS: </span> Shailene Woodley Rocks Sexy Gown at 'Divergent' Premiere <span class="metaH_timeDay">Apr 2, 2014, 11:22 AM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23159926" class="ffl_17 odd">
+		<div class="h">
+			<a href="http://abcnews.go.com/blogs/entertainment/2014/04/why-eva-mendes-wont-wear-jeans/"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_18]">Why Eva Mendes Hates Wearing Jeans<span class="metaH_timeDay">Apr 2, 2014, 12:56 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23162319" class="ffl_18">
+		<div class="h">
+			<a href="/Entertainment/rob-kardashian-posts-cryptic-tweet-hurts/story?id=23162319"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_19]">What's Up With Rob Kardashian's Strange Tweets? <span class="metaH_timeDay">Apr 2, 2014, 3:37 PM</span></a>
+		</div>
+	</div>
+	
+	<div id="h_3094935" class="ffl_19 odd last">
+		<div class="h">
+			<a href="/Entertainment/photos/ups-downs-celebrity-weight-3094935"name="lpos=widget[A_2_freeformlite_4380645_homepage]&lid=link[Headline_20]"> <span class="content-label2">PHOTOS: </span> Kate Winslet Reveals Her Incredible Post-Baby Body<span class="metaH_timeDay">1 hour, 56 minutes ago</span></a>
+		</div>
+	</div>
+	<div class="clearboth"><!-- --></div></div>
+	</div>
+	
+</div>
+<!--widget[A_3_freeformlite_4380645_homepage]-->
+<div class="ff_lite v3w fl_1 ">
+
+	<div class="midcontainer">
+	
+				<div class="widget_head_1" id="wh_one">
+					<h1>
+						This Just In
+					</h1>
+				</div>
+			<div class="ffl_wrapper">
+	<div id="h_23167702" class="ffl_0">
+		<div class="h">
+			<a href="/Entertainment/wireStory/colin-egglesfield-accused-disorderly-conduct-23167702"name="lpos=widget[A_3_freeformlite_4380645_homepage]&lid=link[Headline_1]">Colin Egglesfield Accused of Disorderly Conduct<span class="metaH_timeDay">5 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23166593" class="ffl_1 odd">
+		<div class="h">
+			<a href="/US/wireStory/chain-found-home-nevada-double-slaying-23166593"name="lpos=widget[A_3_freeformlite_4380645_homepage]&lid=link[Headline_2]">Chain Saw Found in Home in Nevada Double Slaying<span class="metaH_timeDay">7 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23167311" class="ffl_2">
+		<div class="h">
+			<a href="/Sports/wireStory/white-sox-top-twins-balk-wild-pitches-23167311"name="lpos=widget[A_3_freeformlite_4380645_homepage]&lid=link[Headline_3]">White Sox Top Twins 7-6 on Balk, 2 Wild Pitches<span class="metaH_timeDay">7 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23166775" class="ffl_3 odd">
+		<div class="h">
+			<a href="/US/wireStory/fort-hood-orders-post-shelter-place-23166775"name="lpos=widget[A_3_freeformlite_4380645_homepage]&lid=link[Headline_4]">Officials: 1 Dead, 14 Injured at Fort Hood<span class="metaH_timeDay">9 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23167830" class="ffl_4">
+		<div class="h">
+			<a href="/US/wireStory/quest-id-remains-brings-mystery-mudslide-23167830"name="lpos=widget[A_3_freeformlite_4380645_homepage]&lid=link[Headline_5]">Quest to ID Remains Brings Mystery After Mudslide<span class="metaH_timeDay">10 minutes ago</span></a>
+		</div>
+	</div>
+	
+	<div id="h_23162118" class="ffl_5 odd last">
+		<div class="h">
+			<a href="/US/wireStory/grand-canyon-seeks-ways-manage-bison-herds-23162118"name="lpos=widget[A_3_freeformlite_4380645_homepage]&lid=link[Headline_6]">Grand Canyon Seeks Ways to Manage Bison Herds<span class="metaH_timeDay">13 minutes ago</span></a>
+		</div>
+	</div>
+	<div class="clearboth"><!-- --></div></div>
+	</div>
+	
+</div>
+<!--widget[A_4_twitter_4380645_homepage]--><div class="ff_lite tweet-main-container v3w fl_1">
+	<div class="midcontainer">
+		<h2 class="twitter-header">ABC NEWS
+			<img class="bird" src="http://a.abcnews.com/assets/images/bird_v3.png" />
+		</h2>
+		<div id="tweet-wrapper" class="ffl_wrapper">
+			<div class="loadingTweets">
+				<img src="http://a.abcnews.com/assets/images/vsm_loader_bu_bg.gif" />
+				<div class="loadingText">Loading...</div>
+			</div>
+		</div>			
+	</div>
+</div>
+
+<script id="content-twitter-template" type="text/x-handlebars-template">
+{{#each_upto updates 5}}
+	<div class="tweet-item">
+		<div class="twitter-avatar">
+			<a href="http://twitter.com/{{this.user.screen_name}}" name="lpos=widget[A_4_twitter_4380645_homepage]&lid=view[Image]">
+				<img src="{{this.user.profile_image_url}}" height="48" width="48" />
+			</a>
+		</div>
+		
+		<div class="twitter-full-name">
+			<a href="http://twitter.com/{{this.user.screen_name}}" name="lpos=widget[A_4_twitter_4380645_homepage]&lid=link[twitterName]">
+			{{#if this.author.name}} 
+				{{this.author.name}}
+			{{else}}
+				{{this.user.name}}
+			{{/if}}
+			</a>
+		</div>
+		<div class="twitter-text">
+			{{{this.title}}}	
+		</div>
+		<div class="twitter-time">{{this.dateMobile}}</div>
+	</div>
+{{/each_upto}}
+</script>
+
+<script type="text/javascript">
+
+var tweetErrorCount = 0;
+
+Handlebars.registerHelper('each_upto', function(ary, max, options) {
+    if(!ary || ary.length == 0)
+        return options.inverse(this);
+
+    var result = [ ];
+    for(var i = 0; i < max && i < ary.length; ++i)
+        result.push(options.fn(ary[i]));
+    return result.join('');
+});
+
+function callTweetPull() {
+	$.ajax({
+		url: 'http://abcnews.go.com/xmldata/newsbulletin?id=19432727&lpos=widget[A_4_twitter_4380645_homepage]',
+		dataType:"jsonp",
+		jsonpCallback:"newsBulletin",
+		success: function(data){
+			tweetErrorCount = 0;
+			var source   = $("#content-twitter-template").html();
+			var template = Handlebars.compile(source);
+			var html    = template(data);
+			$("#tweet-wrapper").html(html);
+		},
+		error: function(data) {
+			tweetErrorCount++;
+
+			if (parseInt(tweetErrorCount) >= 3) {
+				$(".tweet-main-container").remove();
+			}
+			else {
+				setTimeout(function() {
+					callTweetPull();
+				}, 2000);
+			}
+		}
+	});
+}
+
+$(document).ready(function() {
+	callTweetPull();
+})
+
+</script>			
+					</div>
+					<div class="clearboth"><!-- empty --></div>
+				</div>
+				<div class="clearboth"><!-- empty --></div>
+			</div> <!-- end abc mid -->
+			<div id="indexV3-r3" class="abc_wide">
+							
+				<div class="clearboth"><!-- empty --></div>
+			</div>
+			<div class="clearboth"><!-- empty --></div>
+		</div>
+	</div>
+</div>
+<div class="footercontainer">
+	<div class="footer_bg"><!-- bg --></div>
+	<div class="footer">
+		
+				<div class='fNav'>
+					<p>Sections</p>
+					<ul>
+					
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_U.S.]" href="http://abcnews.go.com/us" >U.S.</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_World]" href="http://abcnews.go.com/international" >World</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Politics]" href="http://abcnews.go.com/politics" >Politics</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Weird News]" href="http://abcnews.go.com/weird" >Weird News</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Investigative]" href="http://abcnews.go.com/blotter" >Investigative</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Health]" href="http://abcnews.go.com/health" >Health</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Entertainment]" href="http://abcnews.go.com/entertainment" >Entertainment</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Sports]" href="http://abcnews.go.com/sports" >Sports</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Money]" href="http://abcnews.go.com/business" >Money</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Technology]" href="http://abcnews.go.com/technology" >Technology</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Travel]" href="http://abcnews.go.com/travel" >Travel</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Recipes]" href="http://abcnews.go.com/recipes" >Recipes</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_News Topics]" href="http://abcnews.go.com/topics/" >News Topics</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Sections_Live Blog]" href="http://liveblog.abcnews.go.com/#AllEvents" >Live Blog</a></li>
+						
+					</ul>
+				</div>
+				
+				<div class='fNav'>
+					<p>Shows</p>
+					<ul>
+					
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_Good Morning America]" href="http://abcnews.go.com/gma" >Good Morning America</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_World News with Diane Sawyer]" href="http://abcnews.go.com/wn" >World News with Diane Sawyer</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_Nightline]" href="http://abcnews.go.com/nightline" >Nightline</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_World News Now &amp; America This Morning]" href="http://WNNfans.com" >World News Now &amp; America This Morning</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_This Week with George Stephanopoulos]" href="http://abcnews.go.com/thisweek" >This Week with George Stephanopoulos</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_20/20]" href="http://abcnews.go.com/2020" >20/20</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_Primetime]" href="http://abcnews.go.com/primetime" >Primetime</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_What Would You Do?]" href="http://abcnews.go.com/whatwouldyoudo" >What Would You Do?</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_ABC's The Lookout]" href="http://abcnews.go.com/nightline" >ABC's The Lookout</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_ABC.com]" href="http://abc.com" >ABC.com</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Shows_Royal Baby]" href="/Entertainment/Royal_Baby/" >Royal Baby</a></li>
+						
+					</ul>
+				</div>
+				
+				<div class='fNav'>
+					<p>Tools</p>
+					<ul>
+					
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_iPad App]" href="http://abcnews.go.com/ipad" >iPad App</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_Register]" href="https://register.go.com/global/register?appRedirect=http://abcnews.go.com/" >Register</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_Sign In]" href="https://register.go.com/global/login?rd=true&appRedirect=http://abcnews.go.com/" >Sign In</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_Facebook]" href="http://www.facebook.com/abcnews" >Facebook</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_Twitter]" href="http://twitter.com/abc" >Twitter</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_Google Plus]" href="https://plus.google.com/+ABCNews" rel="publisher">Google Plus</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_Blogs]" href="http://abcnews.go.com/blogs" >Blogs</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_Emails &amp; News Alerts]" href="https://register.go.com/global/abcnews/modifyAccount?affiliateName=abcnews&appRedirect=modifyAccount" >Emails &amp; News Alerts</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_Message Boards]" href="http://forums.abcnews.go.com/n/forumIndex.aspx?webtag=abcnews0000dx" >Message Boards</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[Tools_RSS Headlines]" href="http://abcnews.go.com/Site/page?id=3520115" >RSS Headlines</a></li>
+						
+					</ul>
+				</div>
+				
+				<div class='fNav'>
+					<p>About</p>
+					<ul>
+					
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Contact Us]" href="http://abcnews.go.com/Site/page?id=3068843" >Contact Us</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Feedback]" href="http://abcnews.go.com/Site/page?id=3271346&cat=ABCNews.com%20comments" >Feedback</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Advertising]" href="http://mediakit.go.com/abcnews/index.html" >Advertising</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Privacy Policy]" href="http://disney.go.com/corporate/privacy/pp_abc.html" >Privacy Policy</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Interest-Based Ads]" href="http://preferences.truste.com/2.0/?type=abcnews&affiliateId=11" window.open('http://preferences.truste.com/2.0/?type=abcnews&affiliateId=115','popup','width=986,height=878,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false>Interest-Based Ads</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Terms of Use]" href="http://disneytermsofuse.com/" >Terms of Use</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_ABC News Store]" href="http://abcnewsstore.com/" >ABC News Store</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Site Map]" href="http://abcnews.go.com/sitemap" >Site Map</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Authors List]" href="http://abcnews.go.com/author/" >Authors List</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Fusion]" href="http://fusion.net" >Fusion</a></li>
+						
+						<li><a name="lpos=nav[footer_homepage]&lid=section[About_Go.com]" href="http://go.com/" >Go.com</a></li>
+						
+					</ul>
+				</div>
+				
+	<div class="fRef">
+		<a href="http://abcnews.go.com" name="lpos=nav[footer_homepage]&lid=section[Logo]">
+			<img src="http://a.abcnews.com/assets/images/abcnews_yahoonews_logo.png" border="0" alt="ABCNews.com" />
+		</a>
+		<div class="fRef-text">
+			External links are provided for reference purposes. ABC News is not responsible for the content of external Internet sites.  Copyright &copy; 2014 ABC News Internet Ventures. Yahoo! - ABC News Network
+		</div>
+		<div class="fRef-text-arrow">
+			<a href="#top" title="Back to top">Back to top</a>
+		</div>
+	</div>
+	<div class="clearboth"><!--empty--></div>
+
+	<script type="text/javascript">
+var _sf_async_config={};
+/** CONFIGURATION START **/
+_sf_async_config.uid =12240 ;//28332
+_sf_async_config.domain = location.hostname;
+
+if (typeof tq != 'undefined' && tq.section) {
+    _sf_async_config.sections = tq.section;
+} else if (typeof abcnewsSite != 'undefined' && abcnewsSite.section) {
+    _sf_async_config.sections = abcnewsSite.section;
+} else {
+    _sf_async_config.sections = '';
+}
+
+if (typeof tq != 'undefined' && tq.byline) {
+    _sf_async_config.authors = tq.byline;
+} else {
+    _sf_async_config.authors = '';
+}
+
+/** CONFIGURATION END **/
+(function(){
+function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') + 'js/chartbeat.js'); document.body.appendChild(e); }
+addOnload(loadChartbeat);
+})();
+</script>
+<!--breaking news script
+<script type="text/javascript">
+	var cmsDate = new Date();
+	var cmsHour = cmsDate.getHours();
+	var cmsMinute = cmsDate.getMinutes();
+	document.write('<scr'+'ipt type="text/javascript" src="http://a.abcnews.go.com/assets/js/csbn.js?v='+cmsHour+cmsMinute+'"></scr'+'ipt>');
+</script>
+-->
+
+	</div>
+</div>
+
+
+  <!-- Start Quantcast tag -->
+  <script type="text/javascript">
+  _qoptions={
+  qacct:"p-9e_QHc34iBt22",
+  labels:"ABC News.Home"
+  };
+  </script>
+  <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+  <noscript>
+  <img src="http://pixel.quantserve.com/pixel/p-9e_QHc34iBt22.gif?labels=<%replace(label,' ', '%20')%>" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+  </noscript>
+  <!-- End Quantcast tag -->
+  <!-- Nielsen Online SiteCensus V6.0, Copyright 2010 Nielsen Online-->
+  <script type="text/javascript">
+  (function () { 
+    var nielsenImg = new Image(1, 1); 
+    nielsenImg.onerror = nielsenImg.onload = function () {
+      nielsenImg.onerror = nielsenImg.onload = null; 
+    };
+    nielsenImg.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-704476h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+  })();
+  </script>
+  
+  <noscript><div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-704476h&cg=0&cc=1&ts=noscript" width="1" height="1" alt="" /></div></noscript>
+  <!-- Google Code for ABC News - Site - 365 Remarketing List -->
+  <script type="text/javascript">
+  var google_conversion_id = 1005826543;
+  var google_conversion_language = "en";
+  var google_conversion_format = "3";
+  var google_conversion_color = "ffffff";
+  var google_conversion_label = "1GPKCOHYjwMQ7-PO3wM";
+  var google_conversion_value = 0;
+  </script>
+  <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js" async></script>
+  <noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1005826543/?value=0&amp;label=1GPKCOHYjwMQ7-PO3wM&amp;guid=ON&amp;script=0"/></div></noscript>
+  
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-225447-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <div class="ad_container"><script type="text/javascript">digGetAd("PopUnder");</script></div>
+  <div class="ad_container"><script type="text/javascript">digGetAd("Survey");</script></div><div class="ad_container"><script type="text/javascript">digGetAd("RevenueScience");</script></div>
+<!-- SiteCatalyst code version: H.15.1 Copyright 1997-2007 Omniture, Inc. More info available at http://www.omniture.com -->
+		<script language="JavaScript">
+		var s_account = "wdgnewabcnews,wdgasec";
+		</script>
+		<script language="JavaScript" src="http://a.abcnews.com/assets/js/s_code.js?v=2"></script>
+		<script language="JavaScript">
+		
+		// Optimizely SiteCatalyst Integration
+		window.optimizely = window.optimizely || [];
+		window.optimizely.push(['activateSiteCatalyst', {"sVariable": s_omni}]);
+		s_omni.pageName = "abcn:s1_root:4380645:homepage:homepage"; //content name
+		s_omni.pageURL = ""; //content url
+		s_omni.pageType = ""; //page type
+		s_omni.server = window.document.location.hostname; //reporting domain
+		s_omni.prop4 = "homepage"; //content type
+		s_omni.prop1   = "abcn"; //site name
+		s_omni.channel = "abcn:home"; 
+		s_omni.prop5   = ""; //level2
+		s_omni.prop6   = ""; // level 3 content category
+		
+		s_omni.prop13 = ""; //columnist
+		s_omni.prop16 = ""; //source
+		 s_omni.prop18 = "4380645:homepage"; //content id:content name
+		s_omni.prop24 = ""; //top story
+		s_omni.prop25 = ""; //top video
+		s_omni.prop26 = ""; //top slideshow
+		s_omni.hier1 = "abcn";//directory structure
+		s_omni.eVar16 = s_omni.pageName; //content name conversion
+		s_omni.eVar17 = s_omni.prop4+":"+s_omni.channel;
+		
+		var s_code=s_omni.t();if(s_code)document.write(s_code);
+		</script>
+	<!-- End SiteCatalyst code version: H.15.1 -->
+		
+</body>
+</html>

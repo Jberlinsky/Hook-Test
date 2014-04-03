@@ -1,0 +1,257 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="alternate" type="application/atom+xml" title="The Spring Project - News" href="http://springrts.com/phpbb/feed.php?mode=news" />
+	<title>Spring RTS Engine</title>
+	<link href="stylesv1.css" rel="stylesheet" type="text/css" />
+	<link href="indexv2.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" language="javascript" src="external/lytebox/lytebox.js"></script>
+	<link rel="stylesheet" href="external/lytebox/lytebox.css" type="text/css" media="screen" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+</head>
+<body class="style2">
+<script type="text/javascript">
+// <![CDATA[
+	function getAdvent(year) {
+		var d = new Date(new Date(year + '-12-24 00:00:00').getTime() - 3 * 7 * 24 * 60 * 60 * 1000);
+		while (d.getDay() != 0) {
+			d = new Date(d.getTime() - 24 * 60 * 60 * 1000);
+		}
+		return d;
+	}
+	function get7thJanuar(year) {
+		return new Date(year + '-01-07 00:00:00');
+	}
+	function getEaster(year) {
+		var a = year % 19;
+		var b = Math.floor(year / 100);
+		var c = year % 100;
+		var d = Math.floor(b / 4);
+		var e = b % 4;
+		var f = Math.floor((b + 8) / 25);
+		var g = Math.floor((b - f + 1) / 3);
+		var h = (19 * a + b - d - g + 15) % 30;
+		var i = Math.floor(c / 4);
+		var k = c % 4;
+		var l = (32 + 2 * e + 2 * i - h - k) % 7;
+		var m = Math.floor((a + 11 * h + 22 * l) / 451);
+		var n0 = (h + l + 7 * m + 114)
+		var n = Math.floor(n0 / 31) - 1;
+		var p = n0 % 31 + 1;
+		return new Date(year,n,p);
+	}
+
+	// Christmas
+	var currentTime = new Date();
+	var advent_date = new getAdvent(Date().getYear());
+	var jan7th_date = new get7thJanuar(Date().getYear());
+	var easter_date = getEaster(Date().getYear());
+
+	if ((currentTime >= advent_date) || (currentTime < jan7th_date)) {
+		document.write("<link rel=\"stylesheet\" href=\"/style_xmas.css\" type=\"text/css\"/>");
+	}
+	if (currentTime.getMonth() == 4 && currentTime.getDate() == 17) {
+		document.write("<link rel=\"stylesheet\" href=\"/style_csd.css\" type=\"text/css\"/>");
+	}
+	if (currentTime.getMonth() == easter_date.getMonth() && currentTime.getDate() == easter_date.getDate() ) {
+		document.write("<link rel=\"stylesheet\" href=\"/style_easter.css\" type=\"text/css\"/>");
+	}
+// ]]>
+</script>
+
+<div id="wrapper">
+	<div id="header">
+		<div class="banner">
+			<div class="topbannershadow" style="float: left;"></div>
+			<div class="topbannerbg">
+				<div id="topbannerfade"></div>
+				<a id="toplogo" href="/"></a>
+			</div>
+		</div>
+
+		<div id="menu">
+			<ul>
+				<li class="headermenuleft" id="spm_home">
+					<a href="/" class="menubar headermenuleftlink">
+						<img src="/images/homie.gif" width="11" height="10" border="0" alt="" style="margin-right: 5px" />
+						Home
+					</a>
+				</li>
+
+				<li class="headermenu" id="spm_about">
+					<a href="/wiki/About" class="menubar headermenulink">About</a>
+				</li>
+
+				<li class="headermenu" id="spm_games">
+					<a href="/wiki/Games" class="menubar headermenulink">Games</a>
+				</li>
+
+				<li class="headermenu" id="spm_dev">
+					<a href="/wiki/Engine_Development" class="menubar headermenulink">Development</a>
+				</li>
+
+				<li class="headermenu" id="spm_media">
+					<a href="/media.php" class="menubar headermenulink">Media</a>
+				</li>
+
+				<li class="headermenu" id="spm_help">
+					<a href="/wiki/FAQ" class="menubar headermenulink">Help</a>
+				</li>
+
+				<li class="headermenu" id="spm_forums">
+					<a href="/phpbb" class="menubar headermenulink">Forums</a>
+				</li>
+
+				<li class="headermenu" id="spm_wiki">
+					<a href="/wiki" class="menubar headermenulink">Wiki</a>
+				</li>
+
+				<li class="headermenu" id="spm_bugtracker">
+					<a href="/mantis" class="menubar headermenulink">Report a bug</a>
+				</li>
+
+				<li class="headermenuright" id="spm_download">
+					<a href="/wiki/Download" class="menubar headermenurightlink">
+						<img src="/images/download.gif" width="11" height="10" border="0" alt="" style="margin-right: 5px" />
+						Download
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="maincontentwrapper">
+
+	<table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+		<tr>
+			<td class="locationbar" height="25"><img src="/images/homie.gif" width="11" height="10" border="0" alt=""/>&nbsp;Home</td>
+		</tr>
+  <tr class="welcome">
+    <td style="border-right: 1px solid #20292E; border-left: 1px solid #20292E;">
+
+      <!-- Welcome Image & Text -->
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="welcome" style="background-image: url(/screenshot.php?id=6058)">
+        <tr>
+          <td valign="bottom" align="left">
+            <div id="welcometext" style="background-image:url('/images/textbg.png');">
+              <p>Welcome to the Spring Engine website!</p>
+              <p class="welcomesmall">
+                Spring is a free RTS engine developed for
+                <a href="/wiki/Download">Windows</a>,
+                <a href="/wiki/SetupGuide">Linux</a> and
+                <a href="/wiki/Download">Mac OS X</a>
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+  <tr>
+    <td style="border-right: 1px solid #20292E; border-left: 1px solid #20292E;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0"  bgcolor="#4C626F" style="padding-left: 7px; margin-right: 0; padding-right: 0; padding-bottom: 14px;">
+              <tr>
+                <td style="padding-top: 15px;">
+                  <table border="0" cellspacing="0" cellpadding="0" width="100%" id="frontmedia">
+                    <tr>
+                      <td id="frontmediavideotd" valign="top">
+			<iframe width="284" height="205" src="http://www.youtube.com/embed/3F7F7NGDDFU?rel=0" frameborder="0" allowfullscreen></iframe>
+                      </td>
+                      <td align="right" valign="top">
+
+                        <!-- BigBar -->
+                        <div class="bigbar">
+                          <div class="learnmorebar"><a href="/wiki/About">Learn more</a></div>
+                          <div class="downloadbar"><a href="/wiki/Download">Download and play</a></div>
+                          <div class="gamesbar"><a href="/wiki/Games">See the games</a></div>
+                        </div>
+
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding-top: 15px;">
+                  <div class="news">
+                    <div class="newsbar">
+                      Latest news
+                    </div>
+                    <div class="cnews">
+                      <div class="newsbar">
+                        Community headlines by <a href="http://springinfo.info">SpringInfo</a>
+                      </div>
+                      <div class="newsitem">
+	<div class="newsheadline"><a href="http://www.youtube.com/watch?v=CCfrmDkWOQM&feature=youtube_gdata">XTAReplay: Vistritium vs Anarchid on Badlands (Zero-K 1v1) pt1</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="http://www.youtube.com/watch?v=FWSs8Xuqoh0&feature=youtube_gdata">XTABoi: Dgun Wasteland</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="http://www.springinfo.info/2014/04/picassoct-joins-ba-mod-team/">PicassoCT joins BA mod team</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="http://springfiles.com/spring/spring-maps/aum">SpringFiles: Aum</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="https://plus.google.com/events/cjt6dc9p1c8vk0oqa7i7kqbj89k">EvolutionRTS: Another week down and another new unit! Oh lawd, it’s time to play some Evo!</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="http://springfiles.com/spring/spring-maps/1944bloodbay">SpringFiles: 1944_BloodBay</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="http://zero-k.info/Forum/Thread/7266">Zero-K: Zero-k v1.2.3.7 – Messing with Jumpies</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="http://springrts.com/phpbb/viewtopic.php?f=14&t=31816">New Game, PanzerStahl</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="http://springfiles.com/spring/games/xta-37">SpringFiles: XTA</a></div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline"><a href="https://plus.google.com/events/corn9lov1rtd59mpqitbjtl3eps">EvolutionRTS: Evolution RTS Get-Together #22!</a></div>
+</div>
+
+                    </div>
+                    <div class="newsitem">
+	<div class="newsheadline">Spring 96.0 released!</div>
+	<div class="newsabout">Posted by <a href="/phpbb/memberlist.php?mode=viewprofile&amp;u=8601">abma</a> at 2014-01-03 18:37, <a href="/phpbb/viewtopic.php?t=31360">21 comments</a>.</div>
+	<div class="newsbody">
+		Spring 96.0 is a bugfix release, to <span style="text-decoration:line-through">kill</span> fix some really annoying bugs:<br /><br /><b>Noteable fixes:</b><br /><ul><li> units jittering</li><li> memory leaks</li></ul><br />thanks to all of them who helped making this release possible!<br /><br /><span style="text-decoration:line-through">Please test spring 96.0 as it <b>will be set as default version on lobbyserver on Thursday, 9. Jan ~23:00 gmt+1</b> if no blocking bug is found.</span><br /><br /><b>Download Links</b><br /><ul><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-96&#46;0/spring_96&#46;0&#46;exe/download">Windows installer</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-96&#46;0/spring_96&#46;0_portable&#46;7z/download">Windows portable</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-96&#46;0/spring_96&#46;0_minimal-portable-linux32-static&#46;7z/download">Linux32 static</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-96&#46;0/spring_96&#46;0_minimal-portable-linux64-static&#46;7z/download">Linux64 static</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-96&#46;0/spring_96&#46;0_src&#46;tar&#46;lzma/download">Source (tar.lzma)</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-96&#46;0/spring_96&#46;0_src&#46;tar&#46;gz/download">Source (tar.gz)</a></li><li>sorry no osx-build, the buildslave is broken, we need help / maintainers</li></ul><br /><br />The <a href="https&#58;//github&#46;com/spring/spring/blob/master/doc/changelog&#46;txt"><b>changelog</b></a> contains more details<br /><br />Happy new year!<br /><br />Note: Please report bugs to our <a href="http&#58;//springrts&#46;com/mantis/">bug-tracker</a>, thanks!<br /><br /><br />Edit: this time &quot;enforcement&quot; was slightly changed on the lobby server:<br /><br />old springlobby versions (&lt;0.180) and maybe other lobbies won't prompt for updating spring when connecting to the lobby server any more. The lobby server only tells on connect which is the default version of spring used on the server. The host can select which version it wants to use to host a game.<br /><br />So this mainly is a multiengine version support enforcement, lobby clients not supporting multiple versions of spring, will have problems when joining games or hosting.
+	</div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline">Spring 95.0 released!</div>
+	<div class="newsabout">Posted by <a href="/phpbb/memberlist.php?mode=viewprofile&amp;u=8601">abma</a> at 2013-11-05 19:15, <a href="/phpbb/viewtopic.php?t=31118">86 comments</a>.</div>
+	<div class="newsbody">
+		i'm proud to announce spring 95.0: many hours and nights were spent by many people,<br />thanks to all of them who helped making this release possible!<br /><br /><span style="text-decoration:line-through">Please test spring 95.0 as it <b>will be set as default version on lobbyserver in two days </b> if no blocking bug is found. &#40;more specific: planed is Thursday, 7. Nov ~23:00 gmt+1 &#41;</span><br /><br />Update: set it as default version on the lobby server!<br /><br /><br /><b>Download Links</b><br /><ul><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-95&#46;0/spring_95&#46;0&#46;exe/download">Windows installer</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-95&#46;0/spring_95&#46;0_portable&#46;7z/download">Windows portable</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-95&#46;0/spring_95&#46;0_minimal-portable-linux32-static&#46;7z/download">Linux32 static</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-95&#46;0/spring_95&#46;0_minimal-portable-linux64-static&#46;7z/download">Linux64 static</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-95&#46;0/spring_95&#46;0_src&#46;tar&#46;lzma/download">Source (tar.lzma)</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-95&#46;0/spring_95&#46;0_src&#46;tar&#46;gz/download">Source (tar.gz)</a></li><li>sorry no osx-build, the buildslave is broken, we need help / maintainers</li></ul><br /><br /><b>Major changes</b><br /><ul><li> customizeable loadscreen</li><li> map border rendering (/mapborder command)</li><li> <a href="http&#58;//springrts&#46;com/phpbb/viewtopic&#46;php?f=12&amp;t=30044">new datadir structure</a></li><li> bugfixes &amp; speedups</li></ul><br />The <a href="https&#58;//github&#46;com/spring/spring/blob/master/doc/changelog&#46;txt"><b>changelog</b></a> contains more details<br /><br />Changes in numbers: 1485 commits, 865 files changed, 42044 insertions(+), 70942 deletions(-)<br /><br />Also many other things happened in spring community since the release of 94.1:<br /><ul><li>Imperial Winter was <a href="http&#58;//springrts&#46;com/phpbb/viewtopic&#46;php?f=46&amp;t=30773">released</a></li><li><a href="http&#58;//springrts&#46;com/phpbb/viewtopic&#46;php?p=536811#p536811">a new TrueSkill based balancing system for SPADS autohosts</a></li><li>springrts.com moved to a new server (still in progress for zero-k.info)</li><li>Most games got an <a href="http&#58;//springrts&#46;com/phpbb/viewtopic&#46;php?f=23&amp;t=29901">new endgame screen</a> </li><li>...and much, much more, so stay tuned!</li></ul><br />Happy gaming!<br /><br />Note: Please report bugs in our <a href="http&#58;//springrts&#46;com/mantis/">bug-tracker</a>, thanks!
+	</div>
+</div>
+<div class="newsitem">
+	<div class="newsheadline">Spring 94.0/1</div>
+	<div class="newsabout">Posted by <a href="/phpbb/memberlist.php?mode=viewprofile&amp;u=5632">jK</a> at 2013-03-23 20:19, <a href="/phpbb/viewtopic.php?t=29965">99 comments</a>.</div>
+	<div class="newsbody">
+		<b>Release Message</b><br />&lt;singing&gt;Step by step ...&lt;/singing&gt;<br /><br /><b>Kudos</b><br />Again, thanks everyone for your contributions!<br /><br /><b>Download links:</b><ul><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-94&#46;1/spring_94&#46;1&#46;exe/download">Windows installer</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-94&#46;1/spring_94&#46;1_portable&#46;7z/download">Windows portable</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-94&#46;1/spring_94&#46;1_minimal-portable-linux32-static&#46;7z/download">Linux32 static</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-94&#46;1/spring_94&#46;1_minimal-portable-linux64-static&#46;7z/download">Linux64 static</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-94&#46;1/spring_94&#46;1_src&#46;tar&#46;lzma/download">Source (tar.lzma)</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-94&#46;1/spring_94&#46;1_src&#46;tar&#46;gz/download">Source (tar.gz)</a></li><li><a href="http&#58;//sourceforge&#46;net/projects/springrts/files/springrts/spring-94&#46;1/spring_94&#46;1_MacOSX-10&#46;6-SnowLeopard&#46;zip/download">MacOSX</a></li></ul><br /><b>Major changes:</b><ul><li> more random UnitIDs again</li><li> many bugfixes</li><li> some new Lua functions regarding weapons</li><li> Assimp fixes</li><li> ETC1 support for ground textures</li><li> ...</li></ul><br /><a href="https&#58;//github&#46;com/spring/spring/blob/master/doc/changelog&#46;txt"><b>Full changelog here</b></a>.
+	</div>
+</div>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+    </td>
+  </tr>
+  <tr valign="bottom">
+    <td class="bottombar" height="18" align="right">
+      Site layout created by <a href="http://springrts.com/phpbb/memberlist.php?mode=viewprofile&amp;u=4760" class="bottomlink">Roflcopter</a> et al.
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>   <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>      <html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>      <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width" />
+	<title>TheHorse: Your Guide to Equine Health Care | TheHorse.com</title>
+	
+	<link href="http://cdn.thehorse.com/styles/default.css" media="screen,print" rel="stylesheet" type="text/css" />
+
+<link href="http://cdn.thehorse.com/styles/print.css" media="print" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="//cdn.thehorse.com/favicon.ico" />
+<link rel="apple-touch-icon" HREF="//cdn.thehorse.com/apple-touch-icon.png" />
+	<link href="http://www.thehorse.com/" rel="canonical" />
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>    window.jQuery || document.write("<script src='//cdn.thehorse.com/js/jquery-1.8.2.min.js'>\x3C/script>")</script>
+
+<script src="//cdn.thehorse.com/js/jquery.tools-1.2.7.min.js" type="text/javascript"></script>
+<script src="//cdn.thehorse.com/js/jquery-ui-1.9.0.datepicker.min.js"></script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript"> stLight.options({ publisher: '37caf870-246f-45b9-9dbd-136320b482fd', onhover: 'false' });</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5559929-1']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    var trackEvent = function(category, action, filename) {
+        
+        _gaq.push(['_trackEvent', category, action, filename]);
+    };
+</script>
+</head>
+<body>
+	<div id="fb-root"></div>
+<script>    (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=193576497391992";
+    fjs.parentNode.insertBefore(js, fjs);
+} (document, 'script', 'facebook-jssdk'));</script>
+	
+	<!-- BEGIN: ContentBox('TheHorse.Homepage.TopOfPage') -->
+<!-- END: ContentBox('TheHorse.Homepage.TopOfPage') -->
+
+	<div class="wrapper">
+		<div class="pageHead">
+			
+<div class="branding">
+    <div class="printLogo">
+            <img src="//cdn.thehorse.com/styles/images/TheHorse.com_white.gif" alt="TheHorse.com"/>
+    </div>
+	<div class="siteName"><a href="/" title="TheHorse.com: Your Guide to Equine Health Care">TheHorse.com: Your Guide to Equine Health Care</a></div>
+    		<div class="userPanel">
+			<ul>
+				<li><a class="signInBtn" href="/account/sign-in?returnUrl=http%3A%2F%2Fwww.thehorse.com%2F">Sign In</a> </li>
+				<li><a class="registerBtn" href="/account/register">Register</a></li>
+			</ul>
+		</div>
+
+	<div class="searchPanel">
+<form action="/search" method="get">            <label class="fadeLabel">Search 20,000+ articles</label>
+<input class="" id="q" name="q" type="text" value="" />			<input name="" value="Search" type="submit" class="submitBtn" />
+</form>	</div>
+</div>
+<div class="navigation primary" role="navigation">
+	<ul>
+		<li>
+			<a href="/topics">Topics</a>
+			<div class="subMenu col33-33-33">
+						<ul class="topicList">
+								<li>
+<a href="/topics/horse-care">Horse Care</a>										<p>How to care for the basic health needs of horses</p>
+								</li>    
+								<li>
+<a href="/topics/diseases-and-conditions">Diseases and Conditions</a>										<p>Horse-health-problem risk factors, prevention, diagnosis, and treatment</p>
+								</li>    
+								<li>
+<a href="/topics/nutrition">Nutrition</a>										<p>Proper feeding practices for foals, adult horses, and older horses</p>
+								</li>    
+								<li>
+<a href="/topics/lameness">Lameness</a>										<p>Prevention, diagnosis, and treatment of leg lameness</p>
+								</li>    
+						</ul>
+						<ul class="topicList">
+								<li>
+<a href="/topics/hoof-care">Hoof Care</a>										<p>Prevention and treatment for problems of the equine foot</p>
+								</li>    
+								<li>
+<a href="/topics/farm-and-barn">Farm and Barn</a>										<p>Design and maintain a healthy horse operation</p>
+								</li>    
+								<li>
+<a href="/topics/breeding-and-reproduction">Breeding and Reproduction</a>										<p>Horse breeding from planning through foal care</p>
+								</li>    
+								<li>
+<a href="/topics/vet-and-professional">Vet and Professional</a>										<p>News and issues for equine health professionals</p>
+								</li>    
+						</ul>
+						<ul class="topicList">
+								<li>
+<a href="/topics/sports-medicine">Sports Medicine</a>										<p>All aspects of caring for performance horses</p>
+								</li>    
+								<li>
+<a href="/topics/welfare-and-industry">Welfare and Industry</a>										<p>Discussions about the welfare of our equine friends</p>
+								</li>    
+								<li>
+<a href="/topics">Topics A-Z</a>								</li>    
+						</ul>
+			</div>
+		</li>
+		<li>
+			<a href="/news">News</a>
+			<div class="subMenu col75-25">
+				<div class="newsModule">
+						<h2><a href="/news">Recent News</a></h2>
+						<div class="articleSummary">
+							<h3>	<a href="/articles/33654/eventing-champion-headley-britannia-euthanized">Eventing Champion Headley Britannia Euthanized</a>
+</h3>
+							<p>Headley Britannia was euthanized April 1 after a cross-country schooling accident. She was 21. <a class="moreLink" href="/articles/33654/eventing-champion-headley-britannia-euthanized">Read More</a></p>
+						</div>
+						<ul class="articleList">
+								<li><a href="/articles/33651/volunteers-care-for-horses-after-washington-mudslide">Volunteers Care for Horses after Washington Mudslide</a></li>
+								<li><a href="/articles/24610/exercises-health-benefits-for-horses">Exercise's Health Benefits for Horses</a></li>
+								<li><a href="/articles/33644/bromont-lexington-continue-in-2018-weg-bid-process">Bromont, Lexington Continue in 2018 WEG Bid Process </a></li>
+								<li><a href="/articles/33645/record-number-of-nations-declare-participation-in-2014-weg">Record Number of Nations Declare Participation in 2014 WEG</a></li>
+								<li><a href="/articles/33643/study-joint-injections-have-low-risk-of-synovial-sepsis">Study: Joint Injections have Low Risk of Synovial Sepsis</a></li>
+								<li><a href="/articles/33646/ehv-1-confirmed-in-larimer-co-colo-horse">EHV-1 Confirmed in Larimer Co., Colo., Horse</a></li>
+								<li><a href="/articles/33609/creating-a-parasite-control-program">Creating a Parasite Control Program</a></li>
+								<li><a href="/articles/33638/poll-recap-spring-conditioning">Poll Recap: Spring Conditioning </a></li>
+							<li class="moreLink"><a href="/news">View More</a></li>
+						</ul>
+				</div>
+				<div class="feature">
+					<!-- BEGIN: ContentBox('TheHorse.Navigation.News.Links') -->
+<div class='contentBlock '><h2>Event Coverage</h2><div class="articleSummary">
+	<h3>
+		<a href="http://www.thehorse.com/event/ACT-Symposium-2013">ACT Symposium 2013</a></h3>
+	<h4>Louisville, KY</h4>
+</div>
+
+
+<div class="articleSummary">
+	<h3>
+		<a href="http://www.thehorse.com/event/ACVIM-Forum-2013">ACVIM Forum 2013</a></h3>
+	<h4>
+		Seattle, WA</h4>
+</div>
+<div class="articleSummary">
+	<h3>
+		<a href="http://www.thehorse.com/event/western-veterinary-conference-2013">Western Veterinary Conference 2013</a></h3>
+	<h4>
+		Las Vegas, NV</h4>
+</div>
+
+</div><!-- END: ContentBox('TheHorse.Navigation.News.Links') -->
+				</div>
+			</div>
+		</li>
+		<li>
+			<a href="/videos">Videos &amp; Photos</a>
+			<div class="subMenu col40-60">
+				<div class="doubleList">
+					<h2><a href="/videos">Videos</a></h2>
+						<ul>
+									<li><a href="/videos/by-type/news-interviews">News/Interviews</a></li>
+									<li><a href="/videos/by-type/seminars">Seminars</a></li>
+									<li><a href="/videos/by-type/vet-procedures">Vet Procedures</a></li>
+									<li><a href="/videos/by-type/featured-series">Featured Series</a></li>
+						</ul>
+						<ul>
+									<li><a href="/videos/by-type/how-to">How-To</a></li>
+									<li><a href="/videos/by-type/webcasts">Webcasts</a></li>
+									<li><a href="/videos/by-type/products">Products</a></li>
+									<li><a href="/videos/by-type/5-things-you-need-to-know">5 Things You Need to Know</a></li>
+						</ul>
+					<h2><a href="/photos/slideshows">Slideshows</a></h2>
+					<h2><a href="/infographics">Infographics</a></h2>
+				</div>
+				<div class="feature thumbList">
+							<div class="articleSummary slideshow">
+								<div class="inset">
+									<a href="/media/33641"><img alt="2014 Hairiest Horse Contest: Editors&#39; Picks" src="//cdn.thehorse.com/images/cms/2014/04/hairiest-horse-contest-fans-choice.jpg?preset=thumb" /></a>
+								</div>
+								<h4>Slideshow</h4>
+								<h3><a href="/media/33641">2014 Hairiest Horse Contest: Editors' Picks</a></h3>
+							</div>
+							<div class="articleSummary video">
+								<div class="inset">
+									<a href="/media/33648"><img alt="Mystery Lameness, Part 1: Dr. Mark Revenaugh" src="//cdn.thehorse.com/images/cms/2014/04/mystery-lameness-part-1.jpg?preset=thumb" /></a>
+								</div>
+								<h4>News/Interviews</h4>
+								<h3><a href="/media/33648">Mystery Lameness, Part 1: Dr. Mark Revenaugh</a></h3>
+							</div>
+							<div class="articleSummary video">
+								<div class="inset">
+									<a href="/media/33620"><img alt="Inflammatory Airway Disease in Horses: Causes and Treatments" src="//cdn.thehorse.com/images/cms/2014/01/horse-cold-breath.jpg?preset=thumb" /></a>
+								</div>
+								<h4>Seminars</h4>
+								<h3><a href="/media/33620">Inflammatory Airway Disease in Horses: Causes and Treatments</a></h3>
+							</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<a href="/free-reports">Free Reports</a>
+			<div class="subMenu col25-75">
+				<div>
+					<h2><a href="/free-reports">Free Reports</a></h2>
+					<ul class="topicList">
+									<li>
+										<a href="/free-reports/by-type/fact-sheet">Fact Sheets</a>
+											<p>Quick references of horse conditions, diseases &amp; health topics</p>
+									</li>
+									<li>
+										<a href="/free-reports/by-type/special-report">Special Reports</a>
+											<p>In-depth reports on many aspects of horse health care</p>
+									</li>
+									<li>
+										<a href="/free-reports/by-type/convention-report">Convention Reports</a>
+											<p>Detailed summaries of conventions and seminars on horse health</p>
+									</li>
+									<li>
+										<a href="/free-reports/by-type/form">Forms</a>
+									</li>
+					</ul>
+				</div>
+				<div class="feature thumbList">
+					<h2>Featured Free Reports</h2>
+							<div class="articleSummary download">
+								<div class="inset">
+									<a href="/free-reports/30006/omega-3-fatty-acids"><img alt="Omega-3 Fatty Acids" src="//cdn.thehorse.com/images/cms/2014/04/omegas-factsheet-new-2014.jpg?preset=xsmall" /></a>
+								</div>
+								<h4>Fact Sheet</h4>
+								<h3><a href="/free-reports/30006/omega-3-fatty-acids">Omega-3 Fatty Acids</a></h3>
+							</div>
+							<div class="articleSummary download">
+								<div class="inset">
+									<a href="/free-reports/33582/2013-aaep-convention-wrap-up"><img alt="2013 AAEP Convention Wrap-Up" src="//cdn.thehorse.com/images/cms/2014/03/2013-aaep-wrap-up.jpg?preset=xsmall" /></a>
+								</div>
+								<h4>Convention Report</h4>
+								<h3><a href="/free-reports/33582/2013-aaep-convention-wrap-up">2013 AAEP Convention Wrap-Up</a></h3>
+							</div>
+							<div class="articleSummary download">
+								<div class="inset">
+									<a href="/free-reports/33425/your-mare-has-delivered-successfully-now-what"><img alt="Your Mare has Delivered Successfully: Now What?" src="//cdn.thehorse.com/images/cms/2014/02/mercklifestages-foals.jpg?preset=xsmall" /></a>
+								</div>
+								<h4>Special Report</h4>
+								<h3><a href="/free-reports/33425/your-mare-has-delivered-successfully-now-what">Your Mare has Delivered Successfully: Now What?</a></h3>
+							</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<a href="http://cs.thehorse.com/blogs">Blogs</a>
+			<div class="subMenu col40-60">
+				<div class="doubleList">
+					<h2><a href="http://cs.thehorse.com/blogs">Blogs</a></h2>
+							<ul>
+										<li><a href="http://cs.thehorse.com/blogs/across-the-fence/default.aspx">Across the Fence</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/michelle-anderson-at-home-with-horses/default.aspx">At Home with Horses</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/horse-sense-and-sensibility/default.aspx">Horse Sense (and Sensibility)</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/horses-and-the-law/default.aspx">Horses and the Law</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/aaep-convention/default.aspx">Inside the AAEP Convention</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/old-horses-better-with-age/default.aspx">Old Horses: Better With Age</a></li>    
+							</ul>
+							<ul>
+										<li><a href="http://cs.thehorse.com/blogs/smart-horse-keeping/default.aspx">Smart Horse Keeping</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/horse-911-whats-your-emergency/default.aspx">The Horse 911: What&#39;s Your Emergency?</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/winning-edge-performance-horse-health/default.aspx">The Winning Edge</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/trail-riding/default.aspx">Trail Riding with The Horse</a></li>    
+										<li><a href="http://cs.thehorse.com/blogs/horse-news-weird/default.aspx">Weird Horse News</a></li>    
+							</ul>
+				</div>
+				<div class="feature thumbList">
+					<h2>Featured Blogs</h2>
+							<div class="articleSummary blog">
+								<div class="inset">
+									<a href="http://cs.thehorse.com/blogs/winning-edge-performance-horse-health/default.aspx"><img src="//cs.thehorse.com/blogs/winning-edge-performance-horse-health/blog-graphics/thumbnail.jpg" alt="That+Cresty+Neck%3a+Is+It+Muscle+or+Fat%3f" /></a>
+								</div>
+								<h4><a href="http://cs.thehorse.com/blogs/winning-edge-performance-horse-health/default.aspx">The Winning Edge</a></h4>
+								<h3><a href="http://cs.thehorse.com/blogs/winning-edge-performance-horse-health/archive/2014/04/02/is-your-horse-s-cresty-neck-muscle-or-fat.aspx">That Cresty Neck: Is It Muscle or Fat?</a></h3>
+							</div>
+							<div class="articleSummary blog">
+								<div class="inset">
+									<a href="http://cs.thehorse.com/blogs/old-horses-better-with-age/default.aspx"><img src="//cs.thehorse.com/blogs/old-horses-better-with-age/blog-graphics/thumbnail.jpg" alt="Spring+Shots+for+Senior+Horses" /></a>
+								</div>
+								<h4><a href="http://cs.thehorse.com/blogs/old-horses-better-with-age/default.aspx">Old Horses: Better With Age</a></h4>
+								<h3><a href="http://cs.thehorse.com/blogs/old-horses-better-with-age/archive/2014/04/01/spring-shots-for-senior-horses.aspx">Spring Shots for Senior Horses</a></h3>
+							</div>
+							<div class="articleSummary blog">
+								<div class="inset">
+									<a href="http://cs.thehorse.com/blogs/trail-riding/default.aspx"><img src="//cs.thehorse.com/blogs/trail-riding/blog-graphics/thumbnail.jpg" alt="Staying+Found+(Even+When+You+Feel+Lost)" /></a>
+								</div>
+								<h4><a href="http://cs.thehorse.com/blogs/trail-riding/default.aspx">Trail Riding with The Horse</a></h4>
+								<h3><a href="http://cs.thehorse.com/blogs/trail-riding/archive/2014/03/27/staying-found-even-when-you-feel-lost.aspx">Staying Found (Even When You Feel Lost)</a></h3>
+							</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<a href="/free-horse-adoption">Free Horses</a>
+			<div class="subMenu col40-60">
+				<ul class="topicList">
+					<li><a href="/free-horse-adoption">Adopt a Horse</a>
+						<p>Browse horses that are FREE to a good home.</p>
+						<ul class="inlineList">
+							<li><a href="/free-horse-adoption">All Breeds</a></li>
+							<li><a href="/free-horse-adoption/by-breed/thoroughbred">Thoroughbreds</a></li>
+							<li><a href="/free-horse-adoption/by-breed/standardbred">Standardbreds</a></li>
+						</ul>
+					</li>
+					<li><a href="/free-horse-adoption/add-listing">List Your Horse</a>
+						<p>Add your FREE horse to our list of adoptable horses.</p>
+						<ul class="inlineList">
+							<li><a href="/free-horse-adoption/add-listing">List Your Horse</a></li>
+							<li><a href="/free-horse-adoption/found-home">Horses that Found a Home</a></li>
+						</ul>
+					</li>
+							<li>       
+								<a href="/topics/welfare-and-industry/adoption-rescue/adoption">Adoption Resources</a>
+								<p>Learn more about adoption, whether you’re adopting a horse or giving a horse away.</p>
+							</li>
+				</ul>
+				<div class="feature">
+						<h2>Featured Adoptable Horse</h2>
+						<div class="articleSummary">
+							<h3><a href="/free-horse-adoption/2594/too-young-to-be-totally-retired">Too young to be totally retired </a></h3>
+							<h4>Opus</h4>
+							<p>Opus is 30+ - but he doesnt know it. He was trained to Grand Prix in dressage - and still likes to be ridden 2-3 times per week. Needs a loving retirement home <a href="/free-horse-adoption/2594/too-young-to-be-totally-retired">Read More</a></p>
+						</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<a href="/tools">Tools</a>
+			<div class="subMenu col40-30-30">
+				<ul class="topicList">
+					<li>
+						<a href="/farm-call">Farm Call: Your Questions Answered</a>
+						<p>Q&amp;As about caring for your horse </p>
+					</li>
+					<li>
+						<a href="/event-calendar">Event Calendar</a>
+						<p>Find upcoming horse health educational events </p>
+					</li>
+					<li>
+						<a href="/tools/glossary">Glossary</a>
+						<p>Look up the meaning of horse health terms </p>
+					</li>
+					<li>
+						<a href="/news/by-language/spanish">TheHorse.com en Espa&#241;ol</a>
+						<p>Articulos en Español (Articles in Spanish)</p>
+					</li>
+				</ul>
+				<ul class="topicList">
+					<li>
+						<a href="/tools/normal-temperature-heart-rate-breathing">Normal Vital Signs</a>
+						<p>Healthy temperature, heart, &amp; respiration rates</p>
+					</li>
+					<li>
+						<a href="/tools/horse-weight-calculator">Weight Calculator</a>
+						<p>Estimate your horse's weight</p>
+					</li>
+					<li>
+						<a href="/tools/mare-gestation-calculator">Mare Gestation Calculator</a>
+						<p>Estimate your mare’s foaling date</p>
+					</li>
+				</ul>
+				<ul class="topicList">
+					<li>
+						<a href="/polls">Polls</a>
+						<p>Users weigh in on horse health care</p>
+					</li>
+					<li>
+						<a href="http://cs.thehorse.com/blogs/press-release/default.aspx">New Products</a>
+						<p>Recently launched horse health products</p>
+					</li>
+					<li>
+						<a href="http://www.aaep.org/dvm_search.php" target="_blank">Get-A-DVM</a>
+						<p>Find an AAEP veterinarian near you</p>
+					</li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="/podcasts">Podcasts</a>
+			<div class="subMenu col25-75">
+				<div>
+					<h2><a href="/podcasts">Podcasts</a></h2>
+					<ul class="topicList">
+						<li><a href="/ask-the-vet">Ask The Vet Live</a>
+							<p>Veterinarians answer your questions during a monthly live audio event.</p>
+						</li>
+						<li> <a href="/media/grouping/420/weekly-horse-health-report">Weekly Horse Health Report</a>
+							<p>A weekly discussion on horse health topics.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="feature thumbList">
+					<h2>Featured Podcasts</h2>
+							<div class="articleSummary audio">
+								<div class="inset">
+									<a href="/podcasts/33552/equine-spring-vaccines-and-wellness-exams"><img alt="Equine Spring Vaccines and Wellness Exams" src="//cdn.thehorse.com/images/cms/2014/03/preparing-vaccination.jpg?preset=thumb" /></a>
+								</div>
+								<h4>Listen Now!</h4>
+								<h3><a href="/podcasts/33552/equine-spring-vaccines-and-wellness-exams">Equine Spring Vaccines and Wellness Exams</a></h3>
+							</div>
+							<div class="articleSummary audio">
+								<div class="inset">
+									<a href="/podcasts/33422/equine-life-stages-foals"><img alt="Equine Life Stages: Foals" src="//cdn.thehorse.com/images/cms/2014/02/equine-life-stages-foals.jpg?preset=thumb" /></a>
+								</div>
+								<h4>Listen Now!</h4>
+								<h3><a href="/podcasts/33422/equine-life-stages-foals">Equine Life Stages: Foals</a></h3>
+							</div>
+							<div class="articleSummary audio">
+								<div class="inset">
+									<a href="/podcasts/33389/managing-horses-with-ppid-equine-cushings"><img alt="Managing Horses with PPID (Equine Cushing&#39;s)" src="//cdn.thehorse.com/images/cms/2014/02/horse-with-ppid.jpg?preset=thumb" /></a>
+								</div>
+								<h4>Listen Now!</h4>
+								<h3><a href="/podcasts/33389/managing-horses-with-ppid-equine-cushings">Managing Horses with PPID (Equine Cushing&#39;s)</a></h3>
+							</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<a href="/account/newsletter-signup">Newsletters</a>
+			<div class="subMenu col60-40">
+				
+				<div class="newsletters">
+					<input name="__RequestVerificationToken" type="hidden" value="KcBOnF6ioyvrulhVp1i3Osvz/6jqZ7sou4FwxutH4mwUa7axIvkzsNlUDgrtMRXMl/IY5KSXkBwdh49ww1/MMSXDtcFPBdEEtdh54ha4VQgZhGDbWntKquctnoKeWuUm+JS3WSJMft7bMe83m08+i7Xl7ryDMGPtub6TkVQfTPe+aDK5kz2DFi0VF+m7oVo5f9mc2Q==" />
+					<h2>Sign up for Free Newsletters</h2>
+					<p>Get the latest news and information on horse health care.</p>
+							<fieldset class="options">
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="f97a126c-603d-412f-ad57-d73ab9ac921c" /> Horse Health</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="9422ba85-8ef4-4399-ba9f-911363f81da4" /> Nutrition</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="1aef7433-3fe7-4e76-ad67-13c757e99386" /> Soundness &amp; Lameness</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="b49dd559-fdf8-4a92-969a-4a0ddf42b027" /> In-Depth</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="87cb473a-11df-4e23-8f38-bb294b9a707f" /> Welfare &amp; Industry News</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="3a0d9e27-c391-4fc0-942a-994d82e8ba20" /> Farm &amp; Barn</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="a099ad86-cbe9-45b1-b4b4-73f93ee834c3" /> Breeding</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="a6813c85-aebf-4640-87ba-e08d09f4dfb3" /> Older Horse Care</label>
+							</fieldset>
+							<fieldset class="options">
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="924f528e-14be-404a-8579-ae4635c6ef47" /> Sports Medicine</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="2460a72a-3d0a-4a46-83da-dbf732fe0368" /> Vet &amp; Professional</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="e94413c5-c151-413c-906e-205acbfc838c" /> Equine Behavior</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="814b5757-29ef-4621-b3c3-93555ce58495" /> Reader Favorites</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="9f8ba8bf-6840-490a-91b6-e5234a3b0160" /> Important Messages from TheHorse.com</label>
+										<h4>From our partners</h4>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="fd363d17-1a8b-4acd-a387-29adc72f474f" /> Bluegrass Equine Digest</label>
+									<label><input name="selectedNewsletterUniqueIds" type="checkbox" value="76b12d46-0621-46ad-8146-4efdd74dacf2" /> TheHorse.com Partner Emails</label>
+							</fieldset>
+	</div>
+				<div class="newsletters">
+					<fieldset class="info">
+						<label class="fadeLabel">Name</label> <input name="name" type="text" />
+						<label class="fadeLabel">Email</label> <input name="email" type="text" /> 
+						<input name="input" class="submitBtn" type="submit" value="Sign Up" onclick="javascript:ff378846()" />
+					</fieldset>
+				</div>
+				
+				<script type="text/javascript">
+					function ff378846() {
+						var url = "/account/newsletter-signup" + "?name=" + $(".newsletters .info input[name='name']").val() + "&email=" + $(".newsletters .info input[name='email']").val();
+						var selected = $(".newsletters input[name='selectedNewsletterTypeIds']:checked");
+						for (var i = 0; i < selected.length; i++) {
+							url += "&selectedNewsletterTypeIds=" + $(selected[i]).val();
+						}
+						window.location = url;
+					}
+				</script>
+
+				
+			</div>
+		</li>
+		<li>
+			<a href="https://subscribe.thehorse.com/th_sub.aspx?productId=SUB-TH-S&promo=CQ10F08602">Magazine</a>
+			<div class="subMenu">
+				<div class="currIssue">
+						<h2>In the April 2014 Issue:</h2>
+<div class="articleSummary">
+	<div class="inset">
+		<img src="http://cdn.thehorse.com/images/cms/2014/03/th-4-14-cover.jpg?preset=xsmall" /></div>
+	<h4>
+		Cover Story</h4>
+	<h3>
+		<a href="http://www.thehorse.com/articles/33609">Creating a Parasite Control Program</a></h3>
+	<p>
+		Conscientous farm owners must consider their property&#39;s equine traffic, geographic location, and parasite control goals to create a program that works for them.</p>
+</div>
+<div class="articles">
+	<h4>
+		Also in this issue:</h4>
+	<ul class="articleList">
+		<li>
+			Worms vs. Drugs: The Fundamentals</li>
+		<li>
+			Intercepting Parasite Resistance</li>
+		<li>
+			Careful Cool-Down</li>
+		<li>
+			Storing Toxic Substances in Stables</li>
+		<li>
+			Spring Grass Safety</li>
+	</ul>
+</div>
+<div class="btnList">
+	<a class="buttonLink" href="http://the-horse-store.myshopify.com/products/the-horse-april-2014-issue" target="_blank">Buy This Issue</a> <a class="buttonLink" href="https://subscribe.thehorse.com/th_sub.aspx?productId=SUB-TH-S&amp;promo=CQ12Z472TH" target="_blank">Subscribe</a> <a class="buttonLink" href="https://subscribe.thehorse.com/gifts/th_gift.aspx?productId=GIFT-TH-S-12&amp;promo=CQ12Z47202" target="_blank">Give a Gift</a> <a class="buttonLink" href="https://subscribe.thehorse.com/eedition/th_ee.aspx?productId=SUB-TH-S-EE&amp;promo=CQ12Z472DE" target="_blank">Digital Edition</a></div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<a href="http://shop.thehorse.com/" target="_blank">Shop</a>
+			<div class="subMenu col40-60">
+				<div class="doubleList">
+					<h2><a href="http://shop.thehorse.com/" target="_blank">Shop The Horse Books & Products</a></h2>
+					<ul>
+						<li><a href="http://shop.thehorse.com/collections/horse-health-care-1" title="Horse Care" target="_blank">Horse Care</a></li>
+						<li><a href="http://shop.thehorse.com/collections/general-interest" title="General Interest" target="_blank">General Interest</a></li>
+						<li><a href="http://shop.thehorse.com/collections/riding" title="Riding" target="_blank">Riding</a></li>
+						<li><a href="http://shop.thehorse.com/collections/training-1" title="Training" target="_blank">Training</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://shop.thehorse.com/collections/new-titles" title="New Titles" target="_blank">New Titles</a></li>
+						<li><a href="http://shop.thehorse.com/collections/sale" title="Clearance" target="_blank">Clearance</a></li>
+						<li><a href="https://subscribe.thehorse.com/th_sub.aspx?productId=SUB-TH-S&promo=CQ12Z472TH" title="Subscriptions" target="_blank">Subscriptions</a></li>
+					</ul>
+				</div>
+				<div class="feature thumbList">
+					<h2><a href="http://shop.thehorse.com/" target="_blank">Featured Products</a></h2>
+					<!-- BEGIN: ContentBox('TheHorse.Navigation.Shop') -->
+<div class='contentBlock '><div class="articleSummary product">
+	<div class="inset">
+		<a href="http://the-horse-store.myshopify.com/collections/winter-clearance-sale/products/understanding-your-horse-s-behavior" target="_blank"><img alt="Understanding Equine Behavior" src="http://images.exclusivelyequine.com/products/large/B11-1100.jpg" /></a></div>
+	<h3>
+		<a href="http://the-horse-store.myshopify.com/collections/winter-clearance-sale/products/understanding-your-horse-s-behavior" target="_blank">Understanding Equine Behavior</a></h3>
+</div>
+<div class="articleSummary product">
+	<div class="inset">
+		<a href="http://the-horse-store.myshopify.com/collections/horse-health-care-1/products/first-aid-for-horses-dvd" target="_blank"><img alt="First Aid for Horses" src="http://images.exclusivelyequine.com/products/Large/V11-2002.jpg" /></a></div>
+	<h3>
+		<a href="http://the-horse-store.myshopify.com/collections/horse-health-care-1/products/first-aid-for-horses-dvd" target="_blank">First Aid for Horses</a></h3>
+</div>
+<div class="articleSummary product">
+	<div class="inset">
+		<a href="http://the-horse-store.myshopify.com/collections/horse-health-care-1/products/breeders-guide-to-mare-foal-stallion" target="_blank"><img alt="Breeder's Guide" src="http://images.exclusivelyequine.com/products/large/B11-1112.jpg" /></a></div>
+	<h3>
+		<a href="http://the-horse-store.myshopify.com/collections/horse-health-care-1/products/breeders-guide-to-mare-foal-stallion" target="_blank">Breeder&#39;s Guide to Mare, Foal &amp; Stallion Care</a></h3>
+</div>
+<p>
+	&nbsp;</p>
+</div><!-- END: ContentBox('TheHorse.Navigation.Shop') -->
+				</div>
+				
+			</div>
+		</li>
+	</ul>
+</div>
+			
+
+<div class="adBlock leaderboard">
+			 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=763&amp;keywords=homepage&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=763&amp;keywords=homepage&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=763&amp;keywords=homepage&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+
+</div>
+<div class="adBlock subAd">
+			 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=752&amp;keywords=homepage&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=752&amp;keywords=homepage&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=752&amp;keywords=homepage&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+
+</div>		</div>
+		<div class="content">
+			<div role="main">
+				<div class="grid_0">
+					    
+	<div class="contentBlock scrollContainer" id="id9AF38B24110F44FAB201467DCB137DFD">
+	<div class="scrollable featured">
+		<div class="panelList">
+			    <div class="articleSummary redirect">
+			        <div class="inset"> 
+                        <a href="/media/33652">
+                            <img src="//cdn.thehorse.com/images/cms/2014/04/lily-neck-crest.jpg?preset=feature" />
+                        </a> 
+                        <a href="/media/33652" class="overlayIcon">Watch Video</a>
+                    </div>
+			        <h4>Blog</h4>
+			        <h3><a href="/media/33652">That Cresty Neck: Is It Muscle or Fat?</a></h3>
+			        <p>
+                        
+						How can you tell if a neck is round from muscling or cresty from fat accumulation?
+                    </p>
+			        <p class="moreLink">
+                        <a href="/media/33652">Read Blog</a>
+                    </p>
+                        <p class="imageCredit">Photo by Stephanie L. Church, Editor-in-Chief</p>
+			    </div>
+			    <div class="articleSummary slideshow">
+			        <div class="inset"> 
+                        <a href="/media/33641">
+                            <img src="//cdn.thehorse.com/images/cms/2014/04/hairiest-horse-contest-fans-choice.jpg?preset=feature" />
+                        </a> 
+                        <a href="/media/33641" class="overlayIcon">Watch Video</a>
+                    </div>
+			        <h4>Slideshow</h4>
+			        <h3><a href="/media/33641">2014 Hairiest Horse Contest: Editors' Picks</a></h3>
+			        <p>
+                        
+						Here are a few of our favorite photos submitted by fans for The Horse's Hairiest Horse contest. 
+                    </p>
+			        <p class="moreLink">
+                        <a href="/media/33641">View Slideshow</a>
+                    </p>
+                        <p class="imageCredit">Photo by Cally Matherly </p>
+			    </div>
+			    <div class="articleSummary video">
+			        <div class="inset"> 
+                        <a href="/media/33648">
+                            <img src="//cdn.thehorse.com/images/cms/2014/04/mystery-lameness-part-1.jpg?preset=feature" />
+                        </a> 
+                        <a href="/media/33648" class="overlayIcon">Watch Video</a>
+                    </div>
+			        <h4>News/Interview</h4>
+			        <h3><a href="/media/33648">Mystery Lameness, Part 1: Dr. Mark Revenaugh</a></h3>
+			        <p>
+                        
+						See challenging lameness cases from U.S. Eventing team veterinarian Dr. Mark Revenaugh. Part 1 of 3.
+                    </p>
+			        <p class="moreLink">
+                        <a href="/media/33648">View Video</a>
+                    </p>
+			    </div>
+		</div>
+	</div>
+	<a class="prev browse" style="display:none;">Prev</a><a class="next browse" style="display:none">Next</a>
+	<div class="navi"></div>
+</div>
+    <script type="text/javascript">
+        //<![CDATA[
+        $("#id9AF38B24110F44FAB201467DCB137DFD a.browse").show();
+        $("#id9AF38B24110F44FAB201467DCB137DFD .featured").scrollable({ circular: true }).autoscroll({ interval: 7000 }).navigator();
+        //]]>
+    </script>
+   
+
+				</div>
+				<div class="grid_17">
+					
+
+
+
+
+
+
+<div class="contentBlock">
+	<ul class="tabs">
+		    <li><a href="#">Latest</a></li>
+		    <li><a href="#">Most Viewed</a></li>
+	</ul>
+	<div class="tabPanes">
+		    <div class="newsModule">
+			    <div class="articleSummary">
+				    <h3><a href="/articles/33654/eventing-champion-headley-britannia-euthanized">Eventing Champion Headley Britannia Euthanized</a></h3>
+				    <p>Headley Britannia was euthanized April 1 after a cross-country schooling accident. She was 21. <a class="moreLink" href="/articles/33654/eventing-champion-headley-britannia-euthanized">Read More</a></p>
+			    </div>
+			    <ul class="articleList">
+				        <li>
+                            <a href="/articles/33651/volunteers-care-for-horses-after-washington-mudslide">Volunteers Care for Horses after Washington Mudslide</a>
+                        </li>
+				        <li>
+                            <a href="/articles/24610/exercises-health-benefits-for-horses">Exercise's Health Benefits for Horses</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33644/bromont-lexington-continue-in-2018-weg-bid-process">Bromont, Lexington Continue in 2018 WEG Bid Process </a>
+                        </li>
+				        <li>
+                            <a href="/articles/33645/record-number-of-nations-declare-participation-in-2014-weg">Record Number of Nations Declare Participation in 2014 WEG</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33643/study-joint-injections-have-low-risk-of-synovial-sepsis">Study: Joint Injections have Low Risk of Synovial Sepsis</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33646/ehv-1-confirmed-in-larimer-co-colo-horse">EHV-1 Confirmed in Larimer Co., Colo., Horse</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33609/creating-a-parasite-control-program">Creating a Parasite Control Program</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33638/poll-recap-spring-conditioning">Poll Recap: Spring Conditioning </a>
+                        </li>
+				    <li class="moreLink"><a href="/news">View More</a></li>
+			    </ul>
+		    </div>
+		    <div class="newsModule">
+			    <div class="articleSummary">
+				    <h3><a href="/articles/33616/5-facts-about-flax">5 Facts about Flax</a></h3>
+				    <p>What exactly is flax and how does it benefit the horse? Here are five things to know about flaxseed.  <a class="moreLink" href="/articles/33616/5-facts-about-flax">Read More</a></p>
+			    </div>
+			    <ul class="articleList">
+				        <li>
+                            <a href="/articles/33631/recognizing-pain-on-a-horses-face">Recognizing Pain on a Horse's Face</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33646/ehv-1-confirmed-in-larimer-co-colo-horse">EHV-1 Confirmed in Larimer Co., Colo., Horse</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33601/oral-joint-supplement-efficacy-tested-in-senior-horses">Oral Joint Supplement Efficacy Tested in Senior Horses</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33604/spring-pasture-management-dos-and-donts">Spring Pasture Management Do's and Don'ts</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33630/iowa-animal-health-officials-investigating-ehv-1-case">Iowa Animal Health Officials Investigating EHV-1 Case</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33627/wild-horse-burro-advisory-board-to-meet-april-14-15">Wild Horse, Burro Advisory Board to Meet April 14-15</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33632/deworming-less-is-more">Deworming: Less is More</a>
+                        </li>
+				        <li>
+                            <a href="/articles/33629/texas-stock-horses-seized">Texas Stock Horses Seized</a>
+                        </li>
+				    <li class="moreLink"><a href="/news">View More</a></li>
+			    </ul>
+		    </div>
+	</div>
+</div>
+<script type="text/javascript">
+    // <![CDATA[
+    $(document).ready(function () {
+        $("ul.tabs").tabs("div.tabPanes > div");
+    });
+    // ]]>
+</script>   
+<div class="contentBlock ">
+	<h2>Resources
+		<ul class="inlineList">
+			<li><a href="/free-reports">Free Reports</a></li>
+			<li><a href="/videos/by-type/webcasts">Webcasts</a></li>
+			<li><a href="/ask-the-vet">Ask The Vet Live</a></li>
+			<li><a href="/videos/by-type/seminars">Seminars</a></li>
+		</ul>		
+	</h2>
+	<div class="tileScroller">
+		<div class="scrollable tileList">
+			<div class="panelList">
+					<div class="scrollPanel">
+							<div class="articleSummary audio)">
+									<div class="inset">
+										<a href="/podcasts/33653/blanketing-foals"><img src="//cdn.thehorse.com/images/cms/2014/03/th-lifestages-foals-podcast.jpg?preset=thumb" /></a>
+										<a href="/podcasts/33653/blanketing-foals" class="overlayIcon">View</a>
+									</div>
+						  <h4>Podcast</h4>
+						  <h3><a href="/podcasts/33653/blanketing-foals">Blanketing Foals </a></h3>
+						  <p>Do foals, especially those born early in the season or in cold climates, need to wear blankets? </p>
+					   </div>
+							<div class="articleSummary redirect)">
+									<div class="inset">
+										<a href="/media/33652?slug=that-cresty-neck-is-it-muscle-or-fat"><img src="//cdn.thehorse.com/images/cms/2014/04/lily-neck-crest.jpg?preset=thumb" /></a>
+										<a href="/media/33652?slug=that-cresty-neck-is-it-muscle-or-fat" class="overlayIcon">View</a>
+									</div>
+						  <h4>Blog</h4>
+						  <h3><a href="/media/33652?slug=that-cresty-neck-is-it-muscle-or-fat">That Cresty Neck: Is It Muscle or Fat?</a></h3>
+						  <p>How can you tell if a neck is round from muscling or cresty from fat accumulation?</p>
+					   </div>
+					</div>
+					<div class="scrollPanel">
+							<div class="articleSummary slideshow)">
+									<div class="inset">
+										<a href="/photos/slideshows/33641/2014-hairiest-horse-contest-editors-picks"><img src="//cdn.thehorse.com/images/cms/2014/04/hairiest-horse-contest-fans-choice.jpg?preset=thumb" /></a>
+										<a href="/photos/slideshows/33641/2014-hairiest-horse-contest-editors-picks" class="overlayIcon">View</a>
+									</div>
+						  <h4>Slideshow</h4>
+						  <h3><a href="/photos/slideshows/33641/2014-hairiest-horse-contest-editors-picks">2014 Hairiest Horse Contest: Editors' Picks</a></h3>
+						  <p>Here are a few of our favorite photos submitted by fans for The Horse's Hairiest Horse contest. </p>
+					   </div>
+							<div class="articleSummary audio)">
+									<div class="inset">
+										<a href="/podcasts/33647/mare-check-frequency-on-foal-watch"><img src="//cdn.thehorse.com/images/cms/2014/03/th-lifestages-foals-podcast.jpg?preset=thumb" /></a>
+										<a href="/podcasts/33647/mare-check-frequency-on-foal-watch" class="overlayIcon">View</a>
+									</div>
+						  <h4>Podcast</h4>
+						  <h3><a href="/podcasts/33647/mare-check-frequency-on-foal-watch">Mare Check Frequency on Foal Watch </a></h3>
+						  <p>How often should you check on a broodmare to see if she’s in labor? Dr. Wendy Vaala answers.</p>
+					   </div>
+					</div>
+			</div>
+	   </div>
+	   <div class="scrollNav paginate" style="display: block; "> 
+			<a class="previous prev">Previous</a> <span class="scrollPages"></span> <a class="next">Next</a> 
+		</div>
+	</div>
+</div>
+	<script type="text/javascript">
+		$(function () { $(".tileScroller > .scrollable").scrollable({ circular: true }).navigator({ indexed: true, navi: '.scrollPages' }); });
+	</script>
+
+<div class="splitWrapper">
+	<div class="grid_6">
+		<div class="contentBlock">
+	<h2><a href="http://cs.thehorse.com/blogs">Blog Stable</a></h2>
+		<div class="articleSummary">
+			<h4><a href="http://cs.thehorse.com/blogs/winning-edge-performance-horse-health/default.aspx">The Winning Edge</a></h4>
+				<h3><a href="http://cs.thehorse.com/blogs/winning-edge-performance-horse-health/archive/2014/04/02/is-your-horse-s-cresty-neck-muscle-or-fat.aspx">That Cresty Neck: Is It Muscle or Fat?</a></h3>
+				<p>I love a nice strong topline on a sport horse, but how can you tell if a neck is round from muscling or cresty from fat accumulation?</p>
+		</div>
+		<div class="articleSummary">
+			<h4><a href="http://cs.thehorse.com/blogs/old-horses-better-with-age/default.aspx">Old Horses: Better With Age</a></h4>
+				<a href="http://cs.thehorse.com/blogs/old-horses-better-with-age/archive/2014/04/01/spring-shots-for-senior-horses.aspx">Spring Shots for Senior Horses</a>
+		</div>
+		<div class="articleSummary">
+			<h4><a href="http://cs.thehorse.com/blogs/trail-riding/default.aspx">Trail Riding with The Horse</a></h4>
+				<a href="http://cs.thehorse.com/blogs/trail-riding/archive/2014/03/27/staying-found-even-when-you-feel-lost.aspx">Staying Found (Even When You Feel Lost)</a>
+		</div>
+	<div class="moreLink">
+		<a href="http://cs.thehorse.com/blogs">View More</a>
+	</div>
+</div>
+
+	</div>
+	<div class="grid_6">
+		<div class="contentBlock">
+	<h2>Horse Adoption</h2>
+	<div class="adoptLinks articleSummary">
+		<h3><a href="/free-horse-adoption">Horses Free to a Good Home</a></h3>
+		<p>
+			Want to adopt a free horse? Check out our free horse listings to find your match, then contact the owner to work out an adoption! 
+			Or if you have a horse to give away, <a href="/free-horse-adoption/add-listing">list it for free</a>. <a class="moreLink" href="/free-horse-adoption">Browse Free Horses</a>
+		</p>
+		<ul class="inlineList">
+			<li><a href="/free-horse-adoption/add-listing">Add a Horse</a></li>
+			<li><a href="/free-horse-adoption/found-home">Found a Home</a></li>
+			<li><a href="/free-horse-adoption">Learn More</a></li>
+		</ul>
+	</div>
+	<div class="petFinderWidget">
+		<h4>Featured Adoptable Horse</h4>
+		<p class="sponsorText">Powered by <a href="http://www.petfinder.com" target="_blank">Petfinder.com</a></p>
+		<script  type="text/javascript">
+			function fpm2(pet) {
+				var preload_image = new Image();
+				preload_image.src = pet.i.fpm;
+				document.write('<div class=\"featuredPet\">');
+				if (pet.id) {
+					document.write('<div class=\"petPic\"><a href=\"' + pet.u + '\"  target=\"_blank\"><img src=\"' + pet.i.fpm + '\" alt=\"' + pet.n + '\" /></a></div>');
+					document.write('<h3><a href=\"' + pet.u + '\"  target=\"_blank\">' + pet.n + '</a></h3>');
+					document.write('<p><a href=\"' + pet.sh.u + '\" target=\"_blank\">' + pet.sh.n + '</a></p>');
+					document.write('<p>' + pet.c + ', ' + pet.s2 + '</p>');
+				} else {
+					document.write('<p>Sorry, the Featured Pet is not available at this time.</p>');
+				}
+				document.write('</div>');
+			}
+		</script>
+		<noscript>
+			<p>The Featured Pet requires that Javascript is enabled on your browser. Check your browser's help file for information on how to enable Javascript.</p>
+		</noscript>
+		<script src="//fpm.petfinder.com/fp/petfeed.cgi?lang=json&amp;callback=fpm2&amp;state=&amp;shelter=&amp;animal=Horse&age=&amp;ref=AU6ik5Bq2dqeLQZ" type="text/javascript"></script>
+	</div>
+</div>
+
+	</div>
+</div>
+<div class="splitWrapper">
+	<div class="grid_6">
+			<div class="adBlock">
+				 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=748&amp;keywords=homepage&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=748&amp;keywords=homepage&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=748&amp;keywords=homepage&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+   
+	</div>
+
+	</div>
+	<div class="grid_6">
+			<div class="adBlock">
+				 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=748&amp;keywords=homepage&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=748&amp;keywords=homepage&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=748&amp;keywords=homepage&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+   
+	</div>
+
+	</div>
+</div>
+<div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/horse-care">Horse Care</a>
+		<ul class="inlineList">
+					<li><a href="/topics/horse-care/anatomy-physiology">Anatomy &amp; Physiology</a></li>
+					<li><a href="/topics/horse-care/behavior-handling">Behavior &amp; Handling </a></li>
+					<li><a href="/topics/horse-care/basic-care">Basic Care</a></li>
+			<li class="moreLink"><a href="/topics/horse-care">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/33654/eventing-champion-headley-britannia-euthanized">Eventing Champion Headley Britannia Euthanized</a></h3>
+			
+			<p>Headley Britannia was euthanized April 1 after a cross-country schooling accident. She was 21. <a class="moreLink" href="/articles/33654/eventing-champion-headley-britannia-euthanized">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33651/volunteers-care-for-horses-after-washington-mudslide">Volunteers Care for Horses after Washington Mudslide</a></li>
+				<li><a href="/articles/24610/exercises-health-benefits-for-horses">Exercise's Health Benefits for Horses</a></li>
+				<li><a href="/articles/33643/study-joint-injections-have-low-risk-of-synovial-sepsis">Study: Joint Injections have Low Risk of Synovial Sepsis</a></li>
+		  <li class="moreLink">
+				<a href="/topics/horse-care">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/diseases-and-conditions">Diseases and Conditions</a>
+		<ul class="inlineList">
+					<li><a href="/topics/diseases-and-conditions/neurologic-disease">Neurologic Disease</a></li>
+					<li><a href="/topics/diseases-and-conditions/eye-and-ear-problems">Eye and Ear Problems</a></li>
+			<li class="moreLink"><a href="/topics/diseases-and-conditions">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/24610/exercises-health-benefits-for-horses">Exercise's Health Benefits for Horses</a></h3>
+			
+			<p>Exercise is extremely important to a horse's overall health, whether the animal needs to lose weight or not. <a class="moreLink" href="/articles/24610/exercises-health-benefits-for-horses">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33646/ehv-1-confirmed-in-larimer-co-colo-horse">EHV-1 Confirmed in Larimer Co., Colo., Horse</a></li>
+				<li><a href="/articles/33617/infographic-respiratory-health">Infographic: Respiratory Health</a></li>
+				<li><a href="/articles/33630/iowa-animal-health-officials-investigating-ehv-1-case">Iowa Animal Health Officials Investigating EHV-1 Case</a></li>
+		  <li class="moreLink">
+				<a href="/topics/diseases-and-conditions">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/nutrition">Nutrition</a>
+		<ul class="inlineList">
+					<li><a href="/topics/nutrition/nutrition-basics">Nutrition Basics</a></li>
+					<li><a href="/topics/nutrition/nutrition-related-problems">Nutrition-Related Problems</a></li>
+					<li><a href="/topics/nutrition/supplements">Supplements</a></li>
+			<li class="moreLink"><a href="/topics/nutrition">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/24610/exercises-health-benefits-for-horses">Exercise's Health Benefits for Horses</a></h3>
+			
+			<p>Exercise is extremely important to a horse's overall health, whether the animal needs to lose weight or not. <a class="moreLink" href="/articles/24610/exercises-health-benefits-for-horses">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33616/5-facts-about-flax">5 Facts about Flax</a></li>
+				<li><a href="/articles/33604/spring-pasture-management-dos-and-donts">Spring Pasture Management Do's and Don'ts</a></li>
+				<li><a href="/articles/33605/optimizing-the-care-and-management-of-your-equine-athlete">Optimizing the Care and Management of Your Equine Athlete</a></li>
+		  <li class="moreLink">
+				<a href="/topics/nutrition">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/lameness">Lameness</a>
+		<ul class="inlineList">
+					<li><a href="/topics/lameness/limb-anatomy-physiology">Limb Anatomy &amp; Physiology </a></li>
+					<li><a href="/topics/lameness/bone-joint-problems">Bone &amp; Joint Problems </a></li>
+			<li class="moreLink"><a href="/topics/lameness">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/33654/eventing-champion-headley-britannia-euthanized">Eventing Champion Headley Britannia Euthanized</a></h3>
+			
+			<p>Headley Britannia was euthanized April 1 after a cross-country schooling accident. She was 21. <a class="moreLink" href="/articles/33654/eventing-champion-headley-britannia-euthanized">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33643/study-joint-injections-have-low-risk-of-synovial-sepsis">Study: Joint Injections have Low Risk of Synovial Sepsis</a></li>
+				<li><a href="/articles/33636/jockey-club-releases-equine-injury-database-statistics">Jockey Club Releases Equine Injury Database Statistics</a></li>
+				<li><a href="/articles/33612/blood-contaminated-joint-fluid-samples-might-still-be-useful">Blood-Contaminated Joint Fluid Samples Might Still be Useful</a></li>
+		  <li class="moreLink">
+				<a href="/topics/lameness">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/hoof-care">Hoof Care</a>
+		<ul class="inlineList">
+					<li><a href="/topics/hoof-care/hoof-care-and-balance">Hoof Care and Balance</a></li>
+					<li><a href="/topics/hoof-care/hoof-problems">Hoof Problems</a></li>
+			<li class="moreLink"><a href="/topics/hoof-care">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/33605/optimizing-the-care-and-management-of-your-equine-athlete">Optimizing the Care and Management of Your Equine Athlete</a></h3>
+			
+			<p>Here's how to keep your equine athlete happy, healthy, and at the top of his game. <a class="moreLink" href="/articles/33605/optimizing-the-care-and-management-of-your-equine-athlete">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33589/managing-axillary-wounds-in-horses">Managing Axillary Wounds in Horses</a></li>
+				<li><a href="/articles/33576/thoroughbred-racehorse-bond-holder-treated-for-laminitis">Thoroughbred Racehorse Bond Holder Treated for Laminitis</a></li>
+				<li><a href="/articles/33539/univ-of-florida-to-offer-online-horse-care-course">Univ. of Florida to Offer Online Horse Care Course</a></li>
+		  <li class="moreLink">
+				<a href="/topics/hoof-care">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/farm-and-barn">Farm and Barn</a>
+		<ul class="inlineList">
+					<li><a href="/topics/farm-and-barn/buildings-structures">Buildings &amp; Structures </a></li>
+					<li><a href="/topics/farm-and-barn/pastures">Pastures</a></li>
+			<li class="moreLink"><a href="/topics/farm-and-barn">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/33646/ehv-1-confirmed-in-larimer-co-colo-horse">EHV-1 Confirmed in Larimer Co., Colo., Horse</a></h3>
+			
+			<p>A Larimer County, Colo., horse has tested positive for equine herpesvirus-1 (EHV-1) and is recovering. <a class="moreLink" href="/articles/33646/ehv-1-confirmed-in-larimer-co-colo-horse">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33604/spring-pasture-management-dos-and-donts">Spring Pasture Management Do's and Don'ts</a></li>
+				<li><a href="/articles/33626/conn-court-decides-on-horses-propensity-to-cause-harm">Conn. Court Decides on Horses' Propensity to Cause Harm</a></li>
+				<li><a href="/articles/23755/weed-of-the-month-poison-hemlock">Weed of the Month: Poison Hemlock</a></li>
+		  <li class="moreLink">
+				<a href="/topics/farm-and-barn">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/breeding-and-reproduction">Breeding and Reproduction</a>
+		<ul class="inlineList">
+					<li><a href="/topics/breeding-and-reproduction/breeding-basics">Breeding Basics</a></li>
+					<li><a href="/topics/breeding-and-reproduction/mare-care-and-problems">Mare Care and Problems</a></li>
+			<li class="moreLink"><a href="/topics/breeding-and-reproduction">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/33646/ehv-1-confirmed-in-larimer-co-colo-horse">EHV-1 Confirmed in Larimer Co., Colo., Horse</a></h3>
+			
+			<p>A Larimer County, Colo., horse has tested positive for equine herpesvirus-1 (EHV-1) and is recovering. <a class="moreLink" href="/articles/33646/ehv-1-confirmed-in-larimer-co-colo-horse">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33631/recognizing-pain-on-a-horses-face">Recognizing Pain on a Horse's Face</a></li>
+				<li><a href="/articles/33630/iowa-animal-health-officials-investigating-ehv-1-case">Iowa Animal Health Officials Investigating EHV-1 Case</a></li>
+				<li><a href="/articles/33628/colt-born-at-new-bolton-center-with-world-watching">Colt Born at New Bolton Center with World Watching</a></li>
+		  <li class="moreLink">
+				<a href="/topics/breeding-and-reproduction">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/vet-and-professional">Vet and Professional</a>
+		<ul class="inlineList">
+					<li><a href="/topics/vet-and-professional/alternative-therapies">Alternative Therapies</a></li>
+			<li class="moreLink"><a href="/topics/vet-and-professional">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/33617/infographic-respiratory-health">Infographic: Respiratory Health</a></h3>
+			
+			<p>Learn more about equine respiratory-related health conditions with this easy-to-follow visual guide. <a class="moreLink" href="/articles/33617/infographic-respiratory-health">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33624/ava-responds-to-nsw-court-decision-on-vet-licensing">AVA Responds to NSW Court Decision on Vet Licensing</a></li>
+				<li><a href="/articles/33612/blood-contaminated-joint-fluid-samples-might-still-be-useful">Blood-Contaminated Joint Fluid Samples Might Still be Useful</a></li>
+				<li><a href="/articles/33600/first-uk-equine-research-crowdfunding-project-raises-6-000">First UK Equine Research Crowdfunding Project Raises $6,000</a></li>
+		  <li class="moreLink">
+				<a href="/topics/vet-and-professional">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/sports-medicine">Sports Medicine</a>
+		<ul class="inlineList">
+					<li><a href="/topics/sports-medicine/sports-nutrition">Sports Nutrition</a></li>
+					<li><a href="/topics/sports-medicine/injuries-lameness">Injuries &amp; Lameness</a></li>
+					<li><a href="/topics/sports-medicine/conditioning">Conditioning</a></li>
+			<li class="moreLink"><a href="/topics/sports-medicine">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/33654/eventing-champion-headley-britannia-euthanized">Eventing Champion Headley Britannia Euthanized</a></h3>
+			
+			<p>Headley Britannia was euthanized April 1 after a cross-country schooling accident. She was 21. <a class="moreLink" href="/articles/33654/eventing-champion-headley-britannia-euthanized">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/24610/exercises-health-benefits-for-horses">Exercise's Health Benefits for Horses</a></li>
+				<li><a href="/articles/33644/bromont-lexington-continue-in-2018-weg-bid-process">Bromont, Lexington Continue in 2018 WEG Bid Process </a></li>
+				<li><a href="/articles/33645/record-number-of-nations-declare-participation-in-2014-weg">Record Number of Nations Declare Participation in 2014 WEG</a></li>
+		  <li class="moreLink">
+				<a href="/topics/sports-medicine">View More</a>
+			</li>
+		</ul>
+</div><div class="contentBlock topicModule">
+	<h2>
+		<a href="/topics/welfare-and-industry">Welfare and Industry</a>
+		<ul class="inlineList">
+					<li><a href="/topics/welfare-and-industry/horse-industry-controversies">Horse Industry Controversies</a></li>
+			<li class="moreLink"><a href="/topics/welfare-and-industry">More</a></li>
+		</ul>
+	</h2>
+		<div class="articleSummary">
+			<h3><a href="/articles/33654/eventing-champion-headley-britannia-euthanized">Eventing Champion Headley Britannia Euthanized</a></h3>
+			
+			<p>Headley Britannia was euthanized April 1 after a cross-country schooling accident. She was 21. <a class="moreLink" href="/articles/33654/eventing-champion-headley-britannia-euthanized">Read More</a></p>
+		</div>
+		<ul class="articleList">
+				<li><a href="/articles/33651/volunteers-care-for-horses-after-washington-mudslide">Volunteers Care for Horses after Washington Mudslide</a></li>
+				<li><a href="/articles/33644/bromont-lexington-continue-in-2018-weg-bid-process">Bromont, Lexington Continue in 2018 WEG Bid Process </a></li>
+				<li><a href="/articles/33645/record-number-of-nations-declare-participation-in-2014-weg">Record Number of Nations Declare Participation in 2014 WEG</a></li>
+		  <li class="moreLink">
+				<a href="/topics/welfare-and-industry">View More</a>
+			</li>
+		</ul>
+</div>
+<div class="contentBlock magazineOFIE">
+    <iframe height="220" frameborder="0" title="The Horse Subscriptions" scrolling="no" width="630" src="/Ofie/Ofie?productId=SUB-TH-S-12-OFIE&amp;promoCode=CQ08Z37603">
+    </iframe>
+</div>
+				</div>
+			</div>
+			<div class="grid_6" role="complementary">
+				
+		<div class="adBlock">
+				 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=761&amp;keywords=homepage&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=761&amp;keywords=homepage&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=761&amp;keywords=homepage&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+   
+	</div>
+
+	<div class="contentBlock">
+    <h2>Featured Videos</h2>
+    <div class="scrollContainer" id="scrollContainer__635320667133503474">
+        <div class="scrollable">
+            <div class="panelList" style="left: -300px; ">
+                    <div class="scrollPanel">
+                            <div class="articleSummary video">
+                                    <div class="inset">
+                                        <a href="/videos/33648/mystery-lameness-part-1-dr-mark-revenaugh"><img alt="Mystery Lameness, Part 1: Dr. Mark Revenaugh" src="//cdn.thehorse.com/images/cms/2014/04/mystery-lameness-part-1.jpg?preset=thumb" /></a> 
+                                        <a href="/videos/33648/mystery-lameness-part-1-dr-mark-revenaugh" class="overlayIcon">Watch Video</a> 
+                                    </div>
+                                <h4>News/Interviews Video</h4>
+                                <h3><a href="/videos/33648/mystery-lameness-part-1-dr-mark-revenaugh">Mystery Lameness, Part 1: Dr. Mark Revenaugh</a></h3>
+                            </div>
+                            <div class="articleSummary video">
+                                    <div class="inset">
+                                        <a href="/videos/33620/inflammatory-airway-disease-in-horses-causes-and-treatments"><img alt="Inflammatory Airway Disease in Horses: Causes and Treatments" src="//cdn.thehorse.com/images/cms/2014/01/horse-cold-breath.jpg?preset=thumb" /></a> 
+                                        <a href="/videos/33620/inflammatory-airway-disease-in-horses-causes-and-treatments" class="overlayIcon">Watch Video</a> 
+                                    </div>
+                                <h4>Seminars Video</h4>
+                                <h3><a href="/videos/33620/inflammatory-airway-disease-in-horses-causes-and-treatments">Inflammatory Airway Disease in Horses: Causes and Treatments</a></h3>
+                            </div>
+                    </div>
+                    <div class="scrollPanel">
+                            <div class="articleSummary video">
+                                    <div class="inset">
+                                        <a href="/videos/30468/handle-encounters-on-a-trail"><img alt="Handle Encounters on a Trail" src="//cdn.thehorse.com/images/cms/2012/10/40d21240d7-BAEN-trail-ride.jpg?preset=thumb" /></a> 
+                                        <a href="/videos/30468/handle-encounters-on-a-trail" class="overlayIcon">Watch Video</a> 
+                                    </div>
+                                <h4>How-To Video</h4>
+                                <h3><a href="/videos/30468/handle-encounters-on-a-trail">Handle Encounters on a Trail</a></h3>
+                            </div>
+                            <div class="articleSummary video">
+                                    <div class="inset">
+                                        <a href="/videos/30422/how-to-introduce-your-horse-to-the-beach"><img alt="How to Introduce Your Horse to the Beach" src="//cdn.thehorse.com/images/cms/2012/10/7e6688de83-BAEN-beach.jpg?preset=thumb" /></a> 
+                                        <a href="/videos/30422/how-to-introduce-your-horse-to-the-beach" class="overlayIcon">Watch Video</a> 
+                                    </div>
+                                <h4>How-To Video</h4>
+                                <h3><a href="/videos/30422/how-to-introduce-your-horse-to-the-beach">How to Introduce Your Horse to the Beach</a></h3>
+                            </div>
+                    </div>
+                    <div class="scrollPanel">
+                            <div class="articleSummary video">
+                                    <div class="inset">
+                                        <a href="/videos/30475/help-your-horse-feel-safe-with-you"><img alt="Help Your Horse Feel Safe with You" src="//cdn.thehorse.com/images/cms/2012/10/8dba6b8740-BAEN-safe.jpg?preset=thumb" /></a> 
+                                        <a href="/videos/30475/help-your-horse-feel-safe-with-you" class="overlayIcon">Watch Video</a> 
+                                    </div>
+                                <h4>How-To Video</h4>
+                                <h3><a href="/videos/30475/help-your-horse-feel-safe-with-you">Help Your Horse Feel Safe with You</a></h3>
+                            </div>
+                            <div class="articleSummary video">
+                                    <div class="inset">
+                                        <a href="/videos/33489/teach-your-horse-to-stand-while-mounting"><img alt="Teach Your Horse to Stand While Mounting" src="//cdn.thehorse.com/images/cms/2014/03/stand-while-mounting-for-video-thumbnail.jpg?preset=thumb" /></a> 
+                                        <a href="/videos/33489/teach-your-horse-to-stand-while-mounting" class="overlayIcon">Watch Video</a> 
+                                    </div>
+                                <h4>How-To Video</h4>
+                                <h3><a href="/videos/33489/teach-your-horse-to-stand-while-mounting">Teach Your Horse to Stand While Mounting</a></h3>
+                            </div>
+                    </div>
+                    <div class="scrollPanel">
+                            <div class="articleSummary video">
+                                    <div class="inset">
+                                        <a href="/videos/33442/recognizing-equine-genetic-diseases-in-practice"><img alt="Recognizing Equine Genetic Diseases in Practice" src="//cdn.thehorse.com/images/cms/2013/07/mare-grazing-in-pasture-with-foal-lying-down.jpg?preset=thumb" /></a> 
+                                        <a href="/videos/33442/recognizing-equine-genetic-diseases-in-practice" class="overlayIcon">Watch Video</a> 
+                                    </div>
+                                <h4>Seminars Video</h4>
+                                <h3><a href="/videos/33442/recognizing-equine-genetic-diseases-in-practice">Recognizing Equine Genetic Diseases in Practice</a></h3>
+                            </div>
+                            <div class="articleSummary video">
+                                    <div class="inset">
+                                        <a href="/videos/33339/health-alert-west-nile-virus"><img alt="Health Alert: West Nile Virus" src="//cdn.thehorse.com/images/cms/2014/02/health-alert-westnilevirus.jpg?preset=thumb" /></a> 
+                                        <a href="/videos/33339/health-alert-west-nile-virus" class="overlayIcon">Watch Video</a> 
+                                    </div>
+                                <h4>News/Interviews Video</h4>
+                                <h3><a href="/videos/33339/health-alert-west-nile-virus">Health Alert: West Nile Virus</a></h3>
+                            </div>
+                    </div>
+            </div>
+        </div>
+            <div class="scrollNav paginate" id="scrollNav__635320667133503474" style="display: block;">
+                <a class="previous">Previous</a> 
+                <span class="scrollPages">
+                        <a href="#0"  class="active" >1</a>
+                        <a href="#1" >2</a>
+                        <a href="#2" >3</a>
+                        <a href="#3" >4</a>
+                </span> 
+                <a class="next">Next</a> 
+            </div>
+    </div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    $(document).ready(function () {
+        $("#scrollContainer__635320667133503474").scrollable({ circular: true, items: '.panelList', next: '.next', prev: '.previous' }).navigator({ indexed: true, navi: '.scrollPages' });
+        $("#scrollNav__635320667133503474").css('display', 'block');
+    });
+    //]]>
+</script>
+	<!-- BEGIN: ContentBox('TheHorse.Homepage.CurrentIssue') -->
+<div class='contentBlock currIssue'><h2>In the April 2014 Issue</h2><div class="articleSummary">
+	<div class="inset">
+		<img src="http://cdn.thehorse.com/images/cms/2014/03/th-4-14-cover.jpg?preset=xsmall" /></div>
+	<h4>
+		Cover Story</h4>
+	<h3>
+		<a href="http://www.thehorse.com/articles/33609">Creating a Parasite Control Program</a></h3>
+	<p>
+		Conscientous farm owners must consider their property&#39;s equine traffic, geographic location, and parasite control goals to create a program that works for them.</p>
+</div>
+<div class="articles">
+	<h4>
+		Also in this issue:</h4>
+	<ul class="articleList">
+		<li>
+			Worms vs. Drugs: The Fundamentals</li>
+		<li>
+			Intercepting Parasite Resistance</li>
+		<li>
+			Careful Cool-Down</li>
+		<li>
+			Storing Toxic Substances in Stables</li>
+		<li>
+			Spring Grass Safety</li>
+	</ul>
+</div>
+<div class="btnList">
+	<a class="buttonLink" href="http://the-horse-store.myshopify.com/products/the-horse-april-2014-issue" target="_blank">Buy This Issue</a> <a class="buttonLink" href="https://subscribe.thehorse.com/th_sub.aspx?productId=SUB-TH-S&amp;promo=CQ12Z472TH" target="_blank">Subscribe</a> <a class="buttonLink" href="https://subscribe.thehorse.com/gifts/th_gift.aspx?productId=GIFT-TH-S-12&amp;promo=CQ12Z47202" target="_blank">Give a Gift</a> <a class="buttonLink" href="https://subscribe.thehorse.com/eedition/th_ee.aspx?productId=SUB-TH-S-EE&amp;promo=CQ12Z472DE" target="_blank">Digital Edition</a></div>
+</div><!-- END: ContentBox('TheHorse.Homepage.CurrentIssue') -->
+		<div class="contentBlock">
+		<h2><a href="/farm-call">Farm Call: Your Questions Answered</a></h2>
+		<div class="atvQA">
+			<div class="articleSummary">
+				<h3>	<a href="/articles/33632/deworming-less-is-more">Deworming: Less is More</a>
+</h3>                      
+				<p><span class="dropText">Q.</span> Last Spring my veterinarian requested her clients stop deworming their horses. We now do no deworming and have her perform two fecal egg counts per year--one in the spring and one in the fall. Is this program of not deworming okay for my horses?</p>
+				<p><span class="dropText">A.</span> <a class="moreLink" href="/articles/33632/deworming-less-is-more">Read the Vet&#39;s Answer</a></p>
+			</div>
+			<div class="moreLink">
+				<a href="/farm-call">More Farm Call Articles</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="contentBlock">
+	<div class="newsletterOFIE">
+		<div class="ofieHeader">
+			<h2>Free Newsletters</h2>
+			<p>Sign up for the latest in:</p>
+		</div>
+        <form method="post" action="http://www.thehorse.com/account/newsletter-signup">
+				<fieldset class="options">
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType1" value="f97a126c-603d-412f-ad57-d73ab9ac921c" checked="checked" />
+							Horse Health
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType2" value="9422ba85-8ef4-4399-ba9f-911363f81da4"  />
+							Nutrition
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType3" value="1aef7433-3fe7-4e76-ad67-13c757e99386"  />
+							Soundness &amp; Lameness
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType4" value="b49dd559-fdf8-4a92-969a-4a0ddf42b027"  />
+							In-Depth
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType5" value="87cb473a-11df-4e23-8f38-bb294b9a707f"  />
+							Welfare &amp; Industry News
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType6" value="3a0d9e27-c391-4fc0-942a-994d82e8ba20"  />
+							Farm &amp; Barn
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType7" value="a099ad86-cbe9-45b1-b4b4-73f93ee834c3"  />
+							Breeding
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType8" value="a6813c85-aebf-4640-87ba-e08d09f4dfb3"  />
+							Older Horse Care
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType12" value="924f528e-14be-404a-8579-ae4635c6ef47"  />
+							Sports Medicine
+						</label>
+				</fieldset>
+				<fieldset class="options">
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType13" value="2460a72a-3d0a-4a46-83da-dbf732fe0368"  />
+							Vet &amp; Professional
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType16" value="e94413c5-c151-413c-906e-205acbfc838c"  />
+							Equine Behavior
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType17" value="814b5757-29ef-4621-b3c3-93555ce58495"  />
+							Reader Favorites
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType9" value="9f8ba8bf-6840-490a-91b6-e5234a3b0160" checked="checked" />
+							Important Messages from TheHorse.com
+						</label>
+							<h4>From our partners</h4>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType10" value="fd363d17-1a8b-4acd-a387-29adc72f474f"  />
+							Bluegrass Equine Digest
+						</label>
+						<label>
+								<input type="checkbox" name="SelectedNewsletterUniqueIds" id="chkNewsletterType11" value="76b12d46-0621-46ad-8146-4efdd74dacf2" checked="checked" />
+							TheHorse.com Partner Emails
+						</label>
+				</fieldset>
+                <fieldset class="info">
+			        <label>Email</label>
+			        <input type="text" name="Email" value="" />
+		        </fieldset>
+		    <fieldset class="actionBtns">
+			    <input id="submit" name="input" class="submitBtn" type="submit" value="Sign Up" />
+		    </fieldset>
+        </form>
+	</div>
+</div>
+
+		<div class="adBlock">
+				 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=786&amp;keywords=homepage&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=786&amp;keywords=homepage&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=786&amp;keywords=homepage&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+   
+	</div>
+
+	<div class="contentBlock">
+	<h2>POLL: Identification Methods</h2>
+	<p class="sponsorText">
+				 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=768&amp;keywords=identification-methods&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=768&amp;keywords=identification-methods&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=768&amp;keywords=identification-methods&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+
+	</p>
+	<div class="pollContainer">
+		<h3>What type of identification methods do you use for your horses?</h3>
+<form action="/polls/vote" method="post">				<label><input type="checkbox" value="3058" name="pollAnswerId" />Freeze branding</label>
+				<label><input type="checkbox" value="3059" name="pollAnswerId" />Hot branding</label>
+				<label><input type="checkbox" value="3060" name="pollAnswerId" />Microchip</label>
+				<label><input type="checkbox" value="3061" name="pollAnswerId" />Lip tattoo</label>
+				<label><input type="checkbox" value="3062" name="pollAnswerId" />None of the above</label>
+<input name="__RequestVerificationToken" type="hidden" value="gdlpcCQ9xlaJLYCPqSoMi1vazBo7XjSq0zrdu96IfvNqL1GvqOpzkm1iHVJ2/wdEyLRlolsY+YC6pxLL9SkkqTy0EWjl6Dkz+NG/f8MFEpLrcocfmWgs58QiHfDibcIBP2VclhYo0mJohwbLuQS3VXVmALE=" /><input id="pollId" name="pollId" type="hidden" value="651" /><input id="Email" name="Email" style="display: none;" type="text" value="" />			<label class="textField">Comments. <span>100 Characters Max</span>
+			<input type="text" name="comment" size="20" maxlength="100" /></label>		
+			<div class="pollFoot">
+				<input type="submit" value="Vote" name="B1" class="submitBtn" />
+				<a href="/polls/651/identification-methods?showResults=True">View Results</a>            
+			</div>
+</form>	</div>
+</div>
+
+		
+		<div class="adBlock">
+				 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=747&amp;keywords=homepage&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=747&amp;keywords=homepage&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=747&amp;keywords=homepage&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+   
+	</div>
+
+	<div class="contentBlock">
+	<h2><a href="/event-calendar">Calendar of Events</a></h2>
+	<div class="events">
+		    <div class="vevent">
+                <div class="eventDates">
+                    <abbr class="dtstart" title="2014-04-26">Apr 26</abbr>
+                </div>
+			    <div class="eventDesc">
+                    <a href="http://tinyurl.com/lb9ypmj" target="_blank" class="summary url">Low Cost Equine Castration Clinic</a>
+			        <span class="location">Oakdale, CA USA</span>
+                </div>
+		    </div>
+		    <div class="vevent">
+                <div class="eventDates">
+                    <abbr class="dtstart" title="2014-04-26">Apr 26</abbr>
+                         - <abbr class="dtend" title="2014-04-27">Apr 27</abbr>
+                </div>
+			    <div class="eventDesc">
+                    <a href="http://www.equineguelph.ca/pdf/workshop/Equine%20Anatomy%20Workshop%20Flyer%20-%202014.pdf" target="_blank" class="summary url">A Guided Tour of Equine Anatomy</a>
+			        <span class="location">Guelph,  CAN</span>
+                </div>
+		    </div>
+		    <div class="vevent">
+                <div class="eventDates">
+                    <abbr class="dtstart" title="2014-04-25">Apr 25</abbr>
+                         - <abbr class="dtend" title="2014-04-27">Apr 27</abbr>
+                </div>
+			    <div class="eventDesc">
+                    <a href="http://www.bwfa.net/calendar/calendar_of_events.html" target="_blank" class="summary url">EFT Equine Flexion Therapy</a>
+			        <span class="location">La Fayette, GA USA</span>
+                </div>
+		    </div>
+		    <div class="vevent">
+                <div class="eventDates">
+                    <abbr class="dtstart" title="2014-04-25">Apr 25</abbr>
+                         - <abbr class="dtend" title="2014-04-27">Apr 27</abbr>
+                </div>
+			    <div class="eventDesc">
+                    <a href="http://www.kentuckyreining.com/" target="_blank" class="summary url">Kentucky Reining Cup</a>
+			        <span class="location">Lexington, KY USA</span>
+                </div>
+		    </div>
+		    <div class="vevent">
+                <div class="eventDates">
+                    <abbr class="dtstart" title="2014-04-24">Apr 24</abbr>
+                         - <abbr class="dtend" title="2014-04-27">Apr 27</abbr>
+                </div>
+			    <div class="eventDesc">
+                    <a href="http://www.rk3de.org/" target="_blank" class="summary url">Rolex Kentucky Three-Day Event</a>
+			        <span class="location">Lexington, KY USA</span>
+                </div>
+		    </div>
+	</div>
+	<div class="moreLink">
+        <a href="/event-calendar">View More</a>
+    </div>
+</div>
+
+
+			</div>
+		</div>
+	</div>
+	<div class="pageFoot">
+	<div class="adBlock leaderboard">
+				 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=762&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=762&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=762&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+
+	</div>
+	<div class="footer">
+		<div class="sitePartners">
+			<h4>Partners in Equine Health</h4>
+			<ul>
+				<li id="aaepLogo"><a href="http://www.aaep.org/index.php" target="_blank">AAEP</a></li>
+				<li id="aaevtLogo"><a href="http://www.aaevt.org/index.php" target="_blank">AAEVT</a></li>
+				<li id="wevaLogo"><a href="http://wevaonline.org/" target="_blank">WEVA</a></li>
+			</ul>
+		</div>
+		<ul class="engagementLinks">
+			<li id="fbIcon"><a href="http://www.facebook.com/TheHorse" target="_blank">Facebook</a></li>
+			<li id="twiIcon"><a href="http://twitter.com/TheHorse" target="_blank">Twitter</a></li>
+			<li id="pinIcon"><a href="http://www.pinterest.com/TheHorseMag" target="_blank">Pinterest</a></li>
+			<li id="ytIcon"><a href="http://www.youtube.com/thehorsevideo" target="_blank">Youtube</a></li>
+			<li id="rssIcon"><a href="/pages/rss">RSS</a></li>
+			<li id="digiIcon"><a href="http://thehorse.epubxp.com/read/account_titles/155840">Digital Edition</a></li>
+			<li id="subIcon"><a href="https://subscribe.thehorse.com/th_sub.aspx?productId=SUB-TH-S&amp;promo=CQ12Z472TH">Subscribe</a></li>
+			<li id="newsIcon"><a href="/account/newsletter-signup">Newsletters</a></li>
+		</ul>
+		<ul>
+			<li><a href="/about-us">About Us</a></li>
+			<li><a href="/contact-us">Contact Us</a></li>
+			<li><a href="http://www.thehorse.com/mediakit">Advertise</a></li>
+			<li><a href="http://www.exclusivelyequine.com/BrowseProducts.aspx?parentCategory=Subscriptions&category=Single+Issues&categoryName=SingleIssues(BHP)">Buy A Copy</a></li>
+			<li><a href="/help">Help</a></li>
+			<li><a href="/site-map">Site Map</a></li>
+		</ul>
+		<ul>
+		    
+			<li><a href="/pages/meet-the-staff">Meet the Staff</a></li>
+			<li><a href="/pages/freelance">Freelance Info</a></li>
+				<li><a class="new" href="/pages/terms-of-use">Terms of Use</a></li>
+
+			<li><a href="/pages/privacy-policy">Privacy Policy</a></li>
+			<li><a href="/pages/community-policy">Community Policy</a></li>
+			<li><a href="/pages/privacy-policy#cookies">Cookie Policy</a></li>
+		</ul>
+		<div class="siteDisclaimer">
+			<h5>Seek the advice of a qualified veterinarian before proceeding with any diagnosis, treatment, or therapy. </h5>
+			<p>Copyright &copy; 2014 BLOOD-HORSE PUBLICATIONS. All rights reserved. Reproduction in whole or in part in any form or medium without written permission of BLOOD-HORSE PUBLICATIONS is prohibited. THE HORSE, THE HORSE logo, THEHORSE.COM and THEHORSE.COM logo are trademarks of BLOOD-HORSE PUBLICATIONS. </p>
+		</div>
+	</div>
+</div>
+	<!-- Compete CrossPoint Tag for thehorse.com -->
+<script type="text/javascript">
+	__compete_code = 'e11aacca78cbf7301ad71270b7a39200';
+	/* Set control variables below this line. */ 
+</script>
+<script type="text/javascript" src="//c.compete.com/bootstrap/s/e11aacca78cbf7301ad71270b7a39200/thehorse-com/bootstrap.js"></script>
+<noscript>
+    <img width="1" height="1" src="https://ssl-thehorse-com-e11aac.c-col.com"/>
+</noscript>
+<script src="http://cdn.thehorse.com/js/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+<script src="http://cdn.thehorse.com/js/jquery.tablesorter.min.js" type="text/javascript"></script>
+<script src="http://cdn.thehorse.com/js/jquery.tablesorter.widgets.min.js" type="text/javascript"></script>
+<script src="http://cdn.thehorse.com/js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
+<script src="http://cdn.thehorse.com/js/functions.js" type="text/javascript"></script>
+<script src="http://cdn.thehorse.com/js/jqModal.js" type="text/javascript"></script>
+<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript">
+	(function () {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/plusone.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	})();
+</script>
+			<!-- BEGIN ADVERTPRO CODE BLOCK -->
+		<script type="text/javascript">
+			if (!document.cookie || document.cookie.indexOf('AVPDCAP=') == -1) {
+				document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/dynamic/javascript/zone?zid=740&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+			}
+		</script>
+		<!-- END ADVERTPRO CODE BLOCK -->
+		 <script type="text/javascript">
+			document.write('<scr' + 'ipt src="//ads.thehorse.com/servlet/view/banner/javascript/zone?zid=775&amp;keywords=homepage&pid=0&random=' + Math.floor(89999999 * Math.random() + 10000000) + '&millis=' + new Date().getTime() + '&referrer=' + encodeURIComponent(document.location) + '" type="text/javascript"></scr' + 'ipt>');
+		</script>
+		 <noscript>
+			 <a href="//ads.thehorse.com/servlet/click/zone?zid=775&amp;keywords=homepage&amp;pid=0&amp;lookup=true&amp;position=1" rel="nofollow" target="_blank">
+				 <img src="//ads.thehorse.com/servlet/view/banner/image/zone?zid=775&amp;keywords=homepage&amp;pid=0&amp;position=1" height="250" width="300" hspace="0" vspace="0" border="0" alt="Click here!" />
+			 </a>
+		 </noscript>
+
+	
+</body>
+</html>

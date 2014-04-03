@@ -1,0 +1,1885 @@
+
+<!DOCTYPE HTML>
+<html class="" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<meta name="fb-app-id" content="325331260891611" />
+	<meta name="fb-channel-url" content="//www.wunderground.com/php/lib/fb_sdk/channel.php" />
+	<meta name="wui-member-logged-in" content="false" />
+		<meta name="description" content="Weather Underground provides local & long range Weather Forecast, weather reports, maps & tropical weather conditions for locations worldwide." />
+		<meta name="keywords" content="weather, weather forecast, local weather forecast, long range weather forecast, weather reports" />
+	<meta name="msapplication-task" content="name=Local Weather;action-uri=http://www.wunderground.com/;icon-uri=" />
+	<meta name="msapplication-task" content="name=Maps and Radar;action-uri=http://www.wunderground.com/maps/;icon-uri=" />
+	<meta name="msapplication-task" content="name=Severe;action-uri=http://www.wunderground.com/severe.asp;icon-uri=" />
+	<meta name="msapplication-task" content="name=Tropical;action-uri=http://www.wunderground.com/tropical/;icon-uri=" />
+	<meta name="msapplication-task" content="name=WunderPhotos;action-uri=http://www.wunderground.com/wximage/;icon-uri=" />
+	<meta name="application-name" content="Weather Underground"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<meta http-equiv="Refresh" content="600;URL=/?MR=1" />
+		<meta name="ICBM" content="42.273399, -83.713303" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "ICRAonline v2.0" l gen true for "http://www.wunderground.com" r (nz 0 vz 0 lz 0 oz 0 cz 0) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.wunderground.com"  r (n 0 s 0 v 0 l 0))' />
+		<title>Weather Forecast & Reports - Long Range & Local | Wunderground | Weather Underground</title>
+		<link rel="stylesheet" type="text/css" href="//style.wxug.com/css/wu3_base.css?v=2014040101" />
+		<link rel="stylesheet" type="text/css" href="//style.wxug.com/css/wu3_print.css?v=2012111501" media="print" />
+		<link rel="stylesheet" type="text/css" href="//style.wxug.com/css/wu3r_menu.css?v=2014040102" />
+		<link rel="stylesheet" type="text/css" href="//style.wxug.com/css/wu3r_index.css?v=2013112701" />
+		<link rel="stylesheet" type="text/css" href="http://style.wxug.com/css/wu3_videolist.css?cb=1396484306" />
+	<link rel="stylesheet" type="text/css" href="//icons-ak.wxug.com/css/slimbox2.css" media="screen" />
+	 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.19/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
+		<link href="http://style.wxug.com/scripts/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+		<link href="/scripts/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+		<script src="/scripts/respond.proxy.js"></script>
+	<script type="text/javascript">
+		$.noConflict();
+	</script>
+	<link href="https://plus.google.com/wunderground/" rel="publisher" />
+		<script type="text/javascript" src="/scripts/swfobject.js?v=2.2"></script>
+		<script type="text/javascript" src="//script.wxug.com/scripts/wui.global.min.js?v=1.3.14"></script>
+	<script type="text/javascript" src="//script.wxug.com/scripts/slimbox2.js"></script>
+		<script type="text/javascript" src="//script.wxug.com/scripts/wui.tripplanner.min.js?v=1.3.14"></script>
+		<script>
+		var crtg_nid="1458";
+		var crtg_cookiename="cto_wun";
+		var crtg_varname="crtg_content";
+		function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);}}return'';}
+		var crtg_content = crtg_getCookie(crtg_cookiename);var crtg_rnd=Math.floor(Math.random()*99999999999);
+		var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);crtg_url+='&cookieName='+escape(crtg_cookiename);crtg_url+='&rnd='+crtg_rnd;crtg_url+='&varName=' + escape(crtg_varname);
+		var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+		if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+</script>
+<script src="http://c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+<script>try{amznads.getAds('1004');}catch(e){}</script>
+	<script type="text/javascript">
+		<!--
+			function bodyOnLoad()
+			{
+			
+			}
+		//-->
+	</script>
+</head>
+	<body onload="document.getElementById('wuSearch').focus()" class="off-canvas hide-extras">
+	<section role="main">
+<center>
+	<div id="pageHeader" class="headerOff">
+		<div id="headerContent">
+		<div id="optionBar">
+		<div id="wuSites">
+		<span class="b">Main Site</span>
+		<a href="http://m.wund.com/">Mobile</a>
+		<a href="http://i.wund.com/">iPhone</a>
+		<a href="http://www.wund.com/">Lite</a>
+		<a href="http://www.fullscreenweather.com/">Full Screen</a>
+		<a href="/download/index.asp">Downloads</a>
+		</div>
+		<div id="unitPrefs">
+		<a id="cfToggle" class="cfToggleF" href="/cgi-bin/findweather/getForecast?setunits=metric" title="Switch to Metric"></a>
+		</div>
+		<div id="wuLinks">
+		<a href="/member/membersettings.html?page=prefs">Settings</a>
+		<a href="https://www.wunderground.com/members/signup.asp" title="Join the Weather Underground community">Join</a>
+		<a href="https://www.wunderground.com/login.asp">Sign In</a>
+		</div>
+		</div>
+		<div id="logo">
+		<a href="/blog/wuproductteam/show.html?entrynum=4"><img src="//icons.wxug.com/i/o/transformation/logo-02.png" alt="Weather Underground" title="Something new is coming. Watch this space..." /></a>
+		</div>
+		<div id="navContent" class="posRel">
+		<div id="favoritesBar">
+	<a class="favoritesTitle" href="/favorites/edit.html">Favorites</a>
+	<div class="favoritesScrollContainer" style="width:auto !important;">
+  <table cellspacing="0" cellpadding="0" class="favoritesScroll" >
+  <tr>
+  </tr>
+  </table>
+	</div>
+	<div class="favoritesScrollButtons">
+		<a href="javascript:void(0);" class="favoritesScrollRight disabled" onclick="wui.favorites.scroll.right();">&#x25BA;</a>
+  <a href="javascript:void(0);" class="favoritesScrollLeft disabled" onclick="wui.favorites.scroll.left();">&#x25C4;</a>
+  </div>
+<!-- Underscore partial for favorites table columns -->
+<script type="text/template" id="cellTemplate">
+  <td style="display: none;" id="<%= cityFavNum %>" class="nobr">
+  <a href="/cgi-bin/findweather/getForecast?query=zmw:<%= zmw %>" class="favoritesItem">
+  <img class="condIcon" alt="Unknown" title="Unknown" />
+  <span class="favCity"></span>
+  <span class="favTemp">&nbsp;<span class="nobr"><span class="b"></span>&nbsp;</span></span>
+  <img style="display: none;" src="//icons-ak.wxug.com/i/wu/alertTriOrange.png" width="18" height="16" class="warnIcon" />
+  </a>
+  </td>
+</script>
+<!-- Script to load favorites asynchronously -->
+<script type="text/javascript">
+  jQuery(".favoritesScrollContainer").touchwipe({
+  wipeLeft: function() { wui.favorites.scroll.right(); },
+  wipeRight: function() { wui.favorites.scroll.left(); },
+  //wipeUp: function() { alert("up"); },
+  //wipeDown: function() { alert("down"); },
+  min_move_x: 20,
+  min_move_y: 20,
+  preventDefaultEvents: false
+  });
+	//Load favorites based on ZMW, preloaded into table cells by
+	//the server
+	jQuery(document).ready(function($) {
+  wui.favorites.scroll.initialize();
+	});
+</script>
+</div>
+		<div id="welcome">
+		Welcome to Weather Underground!
+		</div>
+		<div id="featureMenu">
+	<div id="featuregroup" class="featureGroup">
+		<a href="/" id="grouptitle" class="groupTitle brTop5" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Weather [Tab]']);"><span>Weather</span></a>
+		<div id="fulllist" class="fullList g1 menuHide brBot5 uberMenu">
+		<div class="u1">
+		<div class="uTitle"><a href="/weatherstation/about.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'PWS Subhead [Weather]']);">PWS</a></div>
+		<ul class="uLinks">
+		<li><a href="/weatherstation/about.asp">About Weather Stations</a></li>
+		<li><a href="/wundermap/?lat=42.273399&lon=-83.713303&zoom=8&type=lightmap&rad=0&sat=0&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=1&wxsn.mode=temp&wxsn.opa=50&wxsn.bcdgtemp=0&wxsn.rf=1&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Weather Stations [Weather]']);">Map of Weather Stations</a></li>
+		<li><a href="/personal-weather-station/signup" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Sign Up Your Station [Weather]']);">Sign Up Your Station</a></li>
+		<li><a href="/personal-weather-station/mypws" class="newButton" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'My PWS [Weather]']);">My PWS</a></li>
+		</ul>
+		</div>
+		<div class="u1">
+		<div class="uTitle"><a href="/history/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'History Data Subhead [Weather]']);">Weather History</a></div>
+		<ul class="uLinks">
+		<li><a href="/history/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Airport History Data [Weather]']);">Airport Weather History</a></li>
+		<li><a href="/hurricane/at2013.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Hurricane Archive [Weather]']);">Hurricane Archive</a></li>
+		<li><a href="/climate/extremes.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Record Extremes [Weather]']);">Record Extremes</a></li>
+		<li><a href="/travelplanner/index.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Travel Planner (History) [Weather]']);">Travel Planner</a></li>
+		</ul>
+		</div>
+		<div class="u1">
+		<div class="uTitle"><a href="/travel/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Travel Subhead [Weather]']);">Travel</a></div>
+		<ul class="uLinks">
+		<li><a href="/roadtrip/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Road Trip Planner [Weather]']);">Road Trip Planner</a></li>
+		<li><a href="/travelplanner/index.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Travel Planner [Weather]']);">Travel Planner</a></li>
+		<li><a href="/beach-weather/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Beach Weather [Weather]']);">Beach Weather</a></li>
+		<li><a href="/travel/index.asp#parks" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'US National Parks [Weather]']);">U.S. National Parks</a></li>
+		<li><a href="/flights/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Flight Tracking [Weather]']);">Flight Tracking</a></li>
+		</ul>
+		</div>
+		<div class="u1">
+		<div class="uTitle"><a href="/ski/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Activities Subhead [Weather]']);">Activities</a></div>
+		<ul class="uLinks">
+		<li><a href="/ski/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Ski and Snow [Weather]']);">Ski &amp; Snow</a></li>
+		<li><a href="/sports/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Sports [Weather]']);">Sports</a></li>
+		<li><a href="/Aviation/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'General Aviation [Weather]']);">General Aviation</a></li>
+		<li><a href="/sailing-weather/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Sailing and Boating [Weather]']);">Sailing & Boating</a></li>
+		<li><a href="/garden-weather/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Agriculture [Weather]']);">Agriculture</a></li>
+		<li><a href="/sky/index.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Astronomy [Weather]']);">Astronomy</a></li>
+		</ul>
+		</div>
+		<div class="u1">
+		<div class="uTitle"><a href="/maps/health/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Health [Weather]']);">Health</a></div>
+		<ul class="uLinks">
+		<li><a href="/maps/us/2xAirQuality.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Air Quality [Weather]']);">Air Quality</a></li>
+		<li><a href="/DisplayPollen.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Pollen and Allergies [Weather]']);">Pollen &amp; Allergies</a></li>
+		<li><a href="/maps/us/2xUVForecast.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'UV Index [Weather]']);">UV Index</a></li>
+		<li><a href="/maps/health/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Flu Tracker [Weather]']);">Flu Tracker</a></li>
+		</ul>
+		</div>
+		<div class="u1e">
+		<div class="uTitle"><a href="/download/index.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Downloads Subhead [Weather]']);">Downloads</a></div>
+		<ul class="uLinks">
+		<li><a href="/download/index.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Wunderground Apps [Weather]']);">Wunderground Apps</a></li>
+		<li><a href="/weather/api/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Weather API for Devs [Weather]']);">Weather&trade; API for Developers</a></li>
+		<li><a href="/stickers/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Weather Stickers [Weather]']);">Weather Stickers&reg;</a></li>
+		<li><a href="/printer/cityforecast.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Forecast Flyer [Weather]']);">Daily Forecast Flyer</a></li>
+		</ul>
+		</div>
+		<div class="clear"></div>
+		</div>
+	</div>
+	<div id="featuregroup" class="featureGroup">
+		<a href="/wundermap/" id="grouptitle" class="groupTitle brTop5" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Maps & Radar [Tab]']);"><span>Maps & Radar</span></a>
+		<div id="fulllist" class="fullList g2 menuHide brBot5 uberMenu">
+		<div class="u2">
+		<div class="uTitle"><a href="/wundermap/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Wundermap Subhead [Maps & Radar]']);">WunderMap</a></div>
+		<div class="iLeft"><a href="/wundermap/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Wundermap Image [Maps & Radar]']);"><img src="http://icons-ak5.wxug.com/i/wm/misc/fmStatic.jpg" /></a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/wundermap/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Wundermap [Maps & Radar]']);">WunderMap</a></li>
+		<li><a href="http://www.fullscreenweather.com/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Fullscreen Weather [Maps & Radar]']);">Full Screen Weather</a></li>
+		<li><a href="/wundermap/?lat=42.273399&lon=-83.713303&zoom=10&type=lightmap&tl.play=0&tl.spd=2&extremes=0&fault=0&femaflood=0&fire=0&firewfas=0&fissures=0&fronts=0&hurrevac=0&hur=0&lightning=0&livesurge=0&mm=0&ndfd=0&rad=1&rad.num=1&rad.spd=25&rad.opa=81&rad.type=00Q&rad.type2=&rad.smo=1&rad.stm=0&dir=1&dir.mode=driving&sst=0&sat=0&seismicrisk=0&svr=0&ski=0&snowfall=0&stormreports=0&tor=0&tfk=0&tsunami=0&riv=0&wxsn=1&wxsn.mode=temp&wxsn.opa=50&wxsn.bcdgtemp=0&wxsn.rf=1&cams=0&pix=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Local Weather Wundermap [Maps & Radar]']);">Local Weather</a></li>
+		<li><a href="/wundermap?lat=39.74503&lon=-97.89816&zoom=5&type=lightmap&units=english&tl.play=0&tl.spd=2&extremes=0&fault=0&femaflood=0&fire=0&firewfas=0&fissures=0&fronts=0&hurrevac=0&hur=0&lightning=1&livesurge=0&mm=0&ndfd=0&rad=1&rad.num=1&rad.spd=25&rad.opa=81&rad.type=00Q&rad.type2=&rad.smo=1&rad.stm=0&dir=1&dir.mode=driving&sst=0&sat=0&seismicrisk=0&svr=1&svr.opa=70&ski=0&snowfall=0&stormreports=0&tor=0&tfk=0&tsunami=0&riv=0&wxsn=0&cams=0&pix=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Severe Storms Wundermap [Maps & Radar]']);">Severe Storms</a></li>
+		<li><a href="/wundermap?lat=29.99756&lon=-72.45383&zoom=5&type=lightmap&units=english&tl.play=0&tl.spd=2&extremes=0&fault=0&femaflood=0&fire=0&firewfas=0&fissures=0&fronts=0&hurrevac=0&hur=1&hur.wr=0&hur.cod=1&hur.fx=1&hur.obs=0&hur.hd=0&hur.mdl=0&hur.gpce=0&hur.img=0&hur.opa=70&hur.opa2=40&lightning=0&livesurge=0&mm=0&ndfd=0&rad=1&rad.num=1&rad.spd=25&rad.opa=81&rad.type=00Q&rad.type2=&rad.smo=1&rad.stm=0&dir=1&dir.mode=driving&sst=0&sat=0&seismicrisk=0&svr=0&ski=0&snowfall=0&stormreports=0&tor=0&tfk=0&tsunami=0&riv=0&wxsn=1&wxsn.mode=tw&wxsn.opa=50&wxsn.bcdgtemp=0&wxsn.rf=1&cams=0&pix=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Hurricanes Wundermap [Maps & Radar]']);">Hurricanes</a></li>
+		</ul>
+		</div>
+		<div class="u1">
+		<div class="uTitle"><a href="/radar/map.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Radar Subhead [Maps & Radar]']);">Radar</a></div>
+		<ul class="uLinks">
+		<li><a href="/radar/map.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'US Radar [Maps & Radar]']);">United States</a></li>
+		<li><a href="/radar/mosaic.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'US Regional Radar [Maps & Radar]']);">U.S. Regional Radar</a></li>
+		<li><a href="/radar/map.asp?region=ca" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Canada Radar [Maps & Radar]']);">Canada</a></li>
+		<li><a href="/radar/map.asp?region=au" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Australia Radar [Maps & Radar]']);">Australia</a></li>
+		<li><a href="/wundermap/?lat=51.70306&lon=10.69070&zoom=4&units=english&rad=1&rad.num=1&rad.spd=25&rad.opa=81&rad.type=00Q&rad.type2=&rad.smo=1&rad.stm=0&sat=0&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Europe Radar [Maps & Radar]']);">Europe</a></li>
+		</ul>
+		</div>
+		<div class="u1">
+		<div class="uTitle"><a href="/wundermap/?lat=42.273399&lon=-83.713303&zoom=5&type=lightmap&tl.play=0&tl.spd=2&extremes=0&fault=0&femaflood=0&fire=0&firewfas=0&fissures=0&fronts=0&hurrevac=0&hur=0&lightning=0&livesurge=0&mm=0&ndfd=0&rad=0&dir=1&dir.mode=driving&sst=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&seismicrisk=0&svr=0&ski=0&snowfall=0&stormreports=0&tor=0&tfk=0&tsunami=0&riv=0&wxsn=0&cams=0&pix=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Satellite Subhead [Maps & Radar]']);">Satellite</a></div>
+		<ul class="uLinks">
+		<li><a href="/wundermap/?lat=39.20228&lon=-97.06320&zoom=5&type=hybrid&units=english&rad=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'United States [Maps & Radar]']);">United States</a></li>
+		<li><a href="/wundermap/?lat=55.35712&lon=-102.95187&zoom=4&type=hybrid&units=english&rad=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Canada [Maps & Radar]']);">Canada</a></li>
+		<li><a href="/wundermap/?lat=-25.00121&lon=-225.91086&zoom=5&type=hybrid&units=english&rad=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Australia [Maps & Radar]']);">Australia</a></li>
+		<li><a href="/wundermap/?lat=50.06756&lon=-349.04562&zoom=4&type=hybrid&units=english&rad=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Europe [Maps & Radar]']);">Europe</a></li>
+		<li><a href="/wundermap/?lat=37.65319&lon=92.25320&zoom=3&type=hybrid&units=english&rad=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Asia [Maps & Radar]']);">Asia</a></li>
+		<li><a href="/wundermap/?lat=1.58707&lon=17.28250&zoom=4&type=hybrid&units=english&rad=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Africa [Maps & Radar]']);">Africa</a></li>
+		</ul>
+		</div>
+		<div class="u2e">
+		<div class="uTitle"><a href="/maps/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Maps Subhead [Maps & Radar]']);">Maps</a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/ndfdimage/viewimage" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Forecast Maps [Maps & Radar]']);">Forecast Maps</a></li>
+		<li><a href="/maps/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Current Conditions [Maps & Radar]']);">Current Conditions</a></li>
+		<li><a href="/severe.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'U.S. Severe Weather [Maps & Radar]']);">U.S. Severe Weather</a></li>
+		<li><a href="/severe/europe.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Europe Severe Weather [Maps & Radar]']);">Europe Severe Weather</a></li>
+		<li><a href="/hurricane/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Tropical & Hurricane [Maps & Radar]']);">Tropical &amp; Hurricane</a></li>
+		<li><a href="/tornado/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Tornadoes [Maps & Radar]']);">Tornadoes</a></li>
+		</ul>
+		<ul class="uLinks uSplit fRight">
+		<li><a href="/MAR/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Marine & Boating [Maps & Radar]']);">Marine &amp; Boating</a></li>
+		<li><a href="/Aviation/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Aviation [Maps & Radar]']);">Aviation</a></li>
+		<li><a href="/wundermap/?zoom=4&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=1&mm.mdl=GFS&mm.type=SURPRE&mm.hour=0&mm.opa=100&mm.clk=0&hur=0&fire=0&tor=0&ndfd=0&pix=0&dir=0&ads=0&tfk=0&fodors=0&ski=0&ls=0&rad2=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Weather Models [Maps & Radar]']);">Weather Models</a></li>
+		<li><a href="/resources/about/maps.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Map Help [Maps & Radar]']);">Map Help</a></li>
+		<li><a href="/resources/about/radar.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Radar Help [Maps & Radar]']);">Radar Help</a></li>
+		<li><a href="/resources/about/satellite.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Satellite Help [Maps & Radar]']);">Satellite Help</a></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+	<div id="featuregroup" class="featureGroup">
+		<a href="/severe.asp" id="grouptitle" class="groupTitle brTop5" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Severe Weather [Tab]']);"><span>Severe Weather</span></a>
+		<div id="fulllist" class="fullList g3 menuHide brBot5 uberMenu">
+		<div class="u1">
+		<div class="uTitle"><a href="/fire/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Fire Subhead [Severe]']);">Fire</a> &amp; <a href="/winter-storm/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Ice Subhead [Severe]']);">Ice</a></div>
+		<ul class="uLinks">
+		<li><a href="/fire/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Wildfires [Severe]']);">Wildfires</a></li>
+		<li><a href="/winter-storm/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Current Winter Storms & Archive [Severe]']);">Winter Storms</a></li>
+		</ul>
+		</div>
+		<div class="u2">
+		<div class="uTitle"><a href="/severe.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Severe Subhead [Severe]']);">Severe</a></div>
+		<div class="iLeft"><a href="/severe.asp" id="fmSevere" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Severe Image [Severe]']);"><img src="http://icons-ak1.wxug.com/data/640x480/us_severe_thumb.gif" /></a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/severe.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'U.S. Severe Weather [Severe]']);">U.S. Severe Weather</a></li>
+		<li><a href="/severe/europe.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Europe Severe Weather [Severe]']);">Europe Severe Weather</a></li>
+		<li><a href="/wundermap/?lat=40.28354&lon=-97.85422&zoom=4&rad=0&sat=0&stormreports=1&stormreports.type.tor=1&stormreports.type.hail=1&stormreports.type.wind=1&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'U.S. Storm Reports [Severe]']);">U.S. Storm Reports</a></li>
+		<li><a href="/severeconvective.asp">Convective Outlook</a></li>
+		<li><a href="/tornado/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Tornado [Severe]']);">Tornadoes</a></li>
+		<li class="none"><a href="/fire/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Wildfires [Severe]']);">Wildfires</a></li>
+		<li><a href="/climate/extremes.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Record Extremes [Severe]']);">Record Extremes</a></li>
+		</ul>
+		</div>
+		<div class="u2">
+		<div class="uTitle"><a href="/hurricane/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Tropical Subhead [Severe]']);">Hurricanes & Tropical Cyclones</a></div>
+		<div class="iRight"><a href="/hurricane/" id="fmTropical" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Tropical Image [Severe]']);"><img src="http://icons-ak2.wxug.com/data/images/sst_basin/gl_sst_thumb.gif" /></a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/hurricane/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Active Storms [Severe]']);">Active Storms</a></li>
+		<li><a href="/hurricane/accumulated_cyclone_energy.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Cyclone Energy [Severe]']);">Cyclone Energy</a></li>
+		<li><a href="/hurricane/at2014.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Hurricane Archive [Severe]']);">Hurricane Archive</a></li>
+		</ul>
+		</div>
+		<div class="u1e">
+		<div class="uTitle"><a href="/prepare/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Preparedness Subhead [Severe]']);">Preparedness</a></div>
+		<ul class="uLinks">
+		<li><a href="/prepare/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Be Prepared [Severe]']);">Be Prepared</a></li>
+		<li><a href="/education/winterdriving.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Winter Driving Tips [Severe]']);">Winter Driving Tips</a></li>
+		<li><a href="/wxradio/index.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Weather Radio Online [Severe]']);">Weather Radio Online</a></li>
+		<!--<li><a href="">[ Preparedness Mobile App ]</a></li>-->
+		<li><a href="/email/emailsettings.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Get Severe Weather Alerts [Severe]']);">Get Severe Weather Alerts</a></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+	<div id="featuregroup" class="featureGroup">
+		<a href="/photos/" id="grouptitle" class="groupTitle brTop5" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Photos & Video [Tab]']);"><span>Photos &amp; Video</span></a>
+		<div id="fulllist" class="fullList g5 menuHide brBot5 uberMenu">
+		<div class="u2">
+		<div class="uTitle"><a href="/video/">Videos</a></div>
+		<div class="iLeft"><a href='/video/?video=2773003598001' onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Video Image [Photos & Video]']);"><img src="http://i.imwx.com/web/multimedia/images/video/140323_equinox_650x366.jpg" /></a></div>
+		<ul class="uLinks uSplit">
+  <li><a href="/video/?video=2773003598001" class="newButton">Weekly Weather Roundup: Cold Springs Eternal</a></li>
+  <li><a href="/video/?video=2773027809001">The POWER of Tsunami Debris</a></li>
+  <li><a href="/video/?video=2773052497001">After Harsh Winter, Ice Dams A Huge Problem</a></li>
+  <li><a href="/video/?video=2773263200001">Weekly Weather Roundup: Vulcan</a></li>
+  <li><a href="/video/?video=2773197419001">Weekly Weather Roundup: The Niño</a></li>
+		<li><a href="/video/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All Videos [Photos & Video]']);"><span class="b">All Videos</span></a></li>
+		</ul>
+		</div>
+		<div class="u2">
+		<div class="uTitle"><a href="/wximage/">Photos</a></div>
+		<div class="iLeft iTrim"><a href='/wximage/freebird76/1075'><img src="http://icons-ak.wunderground.com//data/wximagenew/f/freebird76/1075-thumb250.jpg" /></a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/wximage/viewimages.html?gallery=EDITORSPICK" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Approvers Choice [Photos & Video]']);">Approvers' Choice</a></li>
+		<li><a href="/wximage/viewimages.html?gallery=VIPPICT" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'VIP Photos [Photos & Video]']);">VIP Photos</a></li>
+		<li><a href="/worldview/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'World View [Photos & Video]']);">World View</a></li>
+		<li><a href="/wximage/favorites.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'My Favorite Photos [Photos & Video]']);">My Favorite Photos</a></li>
+		<li><a href="/wximage/multiupload.html" onclick="_gaq.push(['_trackEvent', 'Upload Photos', 'Click', 'Feature Menu PhotoVideo']);">Upload a Photo</a></li>
+		<li><a href="/wximage/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All Galleries [Photos & Video]']);"><span class="b">All Galleries</span></a></li>
+		</ul>
+		</div>
+		<div class="u2e">
+		<div class="uTitle"><a href="/webcams/">Webcams</a></div>
+		<div class="iRight iTrim"><a href='/webcams/WunderYakuza/20/show.html'><img src="http://icons-ak4.wxug.com//webcamramdisk/w/u/WunderYakuza/20/citypage.jpg" /></a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/webcams/index.html?qlat=39.26628426150451&qlon=-96.94335937&qzoom=4" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'U.S. Webcams [Photos & Video]']);">U.S. Webcams</a></li>
+		<li class="none"><a href="/webcams/index.html?qlat=56.43820357888461&qlon=-98.26171874500004&qzoom=4" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Canada Webcams [Photos & Video]']);">Canada Webcams</a></li>
+		<li><a href="/webcams/index.html?qlat=48.60385747104044&qlon=11.601562505&qzoom=4" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Europe Webcams [Photos & Video]']);">Europe Webcams</a></li>
+		<li><a href="/webcams/index.html?qlat=-25.12539279935161&qlon=-224.73632812000008&qzoom=4" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Australia Webcams [Photos & Video]']);">Australia Webcams</a></li>
+		<li><a href="/webcams/index.html?qlat=32.87958699883&qlon=96.50390625499996&qzoom=3" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Asia Webcams [Photos & Video]']);">Asia Webcams</a></li>
+		<li><a href="/webcams/signup.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'My Webcams [Photos & Video]']);">My Webcams</a></li>
+		<li><a href="/webcams/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All Webcams [Photos & Video]']);"><span class="b">All Webcams</span></a></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+	<div id="featuregroup" class="featureGroup">
+		<a href="/blog/" id="grouptitle" class="groupTitle brTop5" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Community [Tab]']);"><span>Community</span></a>
+		<div id="fulllist" class="fullList g4 menuHide brBot5 uberMenu">
+		<div class="u2">
+		<div class="uTitle"><a href="/wximage/">Photos</a></div>
+		<div class="iRight iTrim"><a href='/wximage/Biskitten/3576' onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Photos Image [Community]']);"><img src="http://icons-ak.wunderground.com//data/wximagenew/b/Biskitten/3576-thumb250.jpg" /></a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/wximage/viewimages.html?gallery=EDITORSPICK" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Approvers Choice [Community]']);">Approvers' Choice</a></li>
+		<li><a href="/wximage/viewimages.html?gallery=VIPPICT" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'VIP Photos [Community]']);">VIP Photos</a></li>
+		<li><a href="/worldview/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'World View [Community]']);">World View</a></li>
+		<li><a href="/wximage/favorites.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Favorite Photos [Community]']);">Favorite Photos</a></li>
+		<li><a href="/wximage/multiupload.html" onclick="_gaq.push(['_trackEvent', 'Upload Photos', 'Click', 'Feature Menu Community']);">Upload a Photo</a></li>
+		<li><a href="/wximage/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All Galleries [Community]']);"><span class="b">All Galleries</span></a></li>
+		</ul>
+		</div>
+		<div class="u1">
+		<div class="uTitle"><a href="/social/">Social</a></div>
+		<ul class="uLinks">
+		<li><a href="http://www.twitter.com/wunderground" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Twitter [Community]']);">Twitter</a></li>
+		<li><a href="http://www.facebook.com/wunderground" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Facebook [Community]']);">Facebook</a></li>
+		<li><a href="http://plus.google.com/u/0/+weatherunderground/posts" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Google+ [Community]']);">Google+</a></li>
+		<li><a href="http://pinterest.com/wunderground/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Pinterest [Community]']);">Pinterest</a></li>
+		<li><a href="/community/chat.asp">Visitor Chat</a></li>
+		</ul>
+		</div>
+		<div class="u1">
+		<div class="uTitle"><a href="/community/">My Community</a></div>
+		<ul class="uLinks">
+		<li><a href="/members/signup.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'My Blog/Start a Blog [Community]']);">Start a Blog</a></li>
+		<li><a href="/community/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Community Activity [Community]']);">Community Activity</a></li>
+		<li><a href="/blog/index.html?range=favs#mem" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Favorite Blogs [Community]']);">Favorite Blogs</a></li>
+		<li><a href="/wximage/favorites.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Favorite Photos [Community]']);">Favorite Photos</a></li>
+		<li><a href="/wximage/myphotos.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'My Photos/Upload a Photo [Community]']);">Upload a Photo</a></li>
+		<li><a href="/webcams/signup.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'My Webcams [Community]']);">My Webcams</a></li>
+		</ul>
+		</div>
+		<div class="u2e">
+		<div class="uTitle"><a href="/blog/">Blogs</a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/blog/JeffMasters/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Dr. Jeff Masters [Community]']);">Dr. Jeff Masters</a></li>
+		<li><a href="/blog/shauntanner/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Shaun Tanner [Community]']);">Shaun Tanner</a></li>
+		<li><a href="/blog/24hourprof/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Lee Grenci [Community]']);">Lee Grenci</a></li>
+		<li><a href="/blog/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Meteorologists [Community]']);">Meteorologists</a></li>
+		<li><a href="/blog/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All Blogs [Community]']);"><span class="b">All Blogs</span></a></li>
+		</ul>
+		<ul class="uLinks uSplit fRight">
+		<li><a href="/blog/weatherhistorian/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Chris Burt [Community]']);">Christopher C. Burt</a></li>
+		<li><a href="/blog/RickyRood/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Ricky Rood [Community]']);">Dr. Ricky Rood</a></li>
+		<li><a href="/blog/angelafritz/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Angela Fritz [Community]']);">Angela Fritz</a></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+	<div id="featuregroup" class="featureGroup">
+		<a href="/news/" id="grouptitle" class="groupTitle brTop5" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'News [Tab]']);"><span>News</span></a>
+		<div id="fulllist" class="fullList g6 menuHide brBot5 uberMenu">
+		<div class="u2">
+		<div class="uTitle"><a href="/blog/">Blogs</a></div>
+		<ul class="uLinks uSplit">
+		<li><a href="/blog/JeffMasters/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Dr. Jeff Masters [News]']);">Dr. Jeff Masters</a></li>
+		<li><a href="/blog/shauntanner/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Shaun Tanner [News]']);">Shaun Tanner</a></li>
+		<li><a href="/blog/24hourprof/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Lee Grenci [News]']);">Lee Grenci</a></li>
+		<li><a href="/blog/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Meteorologists [News]']);">Meteorologists</a></li>
+		</ul>
+		<ul class="uLinks uSplit fRight">
+		<li><a href="/blog/weatherhistorian/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Chris Burt [News]']);">Christopher C. Burt</a></li>
+		<li><a href="/blog/RickyRood/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Ricky Rood [News]']);">Dr. Ricky Rood</a></li>
+		<li><a href="/blog/angelafritz/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Angela Fritz [News]']);">Angela Fritz</a></li>
+		<li><a href="/blog/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All Blogs [News]']);"><span class="b">All Blogs</span></a></li>
+		</ul>
+		</div>
+		<div class="u2">
+		<div class="uTitle"><a href="/news/">Popular Stories</a></div>
+		<ul class="uLinks">
+		<li><a href="/news/mars-soil-contains-surprising-amount-water-nasa-finds-20130927" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Popular Stories [News]']);" >Mars Soil Contains Surprising Amount of Water, NASA Finds</a></li>
+		<li><a href="/news/india-floods-displace-thousands-20130925" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Popular Stories [News]']);" >Monsoon Floods Kill 13 in India</a></li>
+		<li><a href="/news/most-extreme-weather-state-2013-20130920" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Popular Stories [News]']);" >The Most Extreme Weather State of 2013</a></li>
+		<li><a href="/news/colorado-flood-recovery-20130926" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Popular Stories [News]']);" >Colorado Flood Recovery: Construction Crews Arrive for Massing Rebuilding Project</a></li>
+		<li><a href="/news/comet-century-mars-20130925" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Popular Stories [News]']);" >'Comet of the Century' Set to Fly By Mars Next Week</a></li>
+		<li><a href="/news/" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All News [News]']);"><span class="b">All News</span></a></li>
+		</ul>
+		</div>
+		<div class="u2e">
+		<div class="uTitle"><a href="/news/">Recent Stories</a></div>
+		<ul class="uLinks">
+		<li><a href="/news/major-earthquake-sparks-tsunami-warnings-chile-video-20140401" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Recent [News]']);" >8.2 Earthquake Rocks Chile (VIDEO)</a></li>
+		<li><a href="/news/chile-earthquake-bigger-one-coming-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Recent [News]']);" >Chile Earthquake: Is a Bigger One Coming?</a></li>
+		<li><a href="/news/massive-mudslide-washington-community-20140323" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Recent [News]']);" >Washington Mudslide Update: Floodwaters Recede, Helping Search for Victims</a></li>
+		<li><a href="/news/michigan-firefighter-rescues-boa-constrictor-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Recent [News]']);" >Michigan Firefighter Rescues 7-Foot Boa Constrictor From Blaze: 'I Would Do It For Any Creature'</a></li>
+		<li><a href="/news/victims-washington-state-mudslide-20140331" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Recent [News]']);" >Victims of the Washington State Mudslide</a></li>
+		<li><a href="/news/" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Feature Menu News']); _gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All News [News]']);"><span class="b">All News</span></a></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+	<div id="featuregroup" class="featureGroup">
+		<a href="/climate/" id="grouptitle" class="groupTitle brTop5" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate [Tab]']);"><span>Climate Change</span></a>
+		<div id="fulllist" class="fullList g7 menuHide brBot5 uberMenu">
+		<div class="u1">
+		<div class="uTitle"><a href="/video/climate-and-going-green/">Videos</a></div>
+		<ul class="uLinks">
+		<li><a href="/video/?video=2773133302001" class="newButton">Key Warming and Cooling Influences</a></li>
+		<li><a href="/video/?video=2773371144001">Big News In Panda Poop!</a></li>
+		<li><a href="/video/?video=2773060073001">60 Years of Climate in 15 Sec</a></li>
+		<li><a href="/video/?video=2773163940001">Atmospheric CO2 Concentrations</a></li>
+		<li><a href="/video/?video=2773159675001">The Smell of Climate Change</a></li>
+		<li><a href="/video/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All Videos [Climate]']);"><span class="b">All Videos</span></a></li>
+		</ul>
+		</div>
+		<div class="u2">
+		<div class="uTitle"><a href="/climate/climateblogs.asp">Blogs</a></div>
+		<ul class="uLinks">
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=2656" title="IPCC: Climate Change Increasing Risk of Hunger, Thirst, Disease, Refugees, and War" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate Blogs [Climate]']);">IPCC: Climate Change Increasing Risk of Hunger, Thirst, Disease, Refugees, and War</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=2644" title="Save the Keeling Curve!" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate Blogs [Climate]']);">Save the Keeling Curve!</a></li>
+		<li><a href="/blog/JeffMasters/comment.html?entrynum=2641" title="Record Cold in a Warming World" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate Blogs [Climate]']);">Record Cold in a Warming World</a></li>
+		<li><a href="/blog/RickyRood/comment.html?entrynum=289" title="Enjoying the Cold" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate Blogs [Climate]']);">Enjoying the Cold</a></li>
+		<li><a href="/blog/RickyRood/show.html" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Ricky Rood [Climate]']);">Dr. Ricky Rood</a></li>
+		<li><a href="/climate/climateblogs.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All Climate Change Blogs [Climate]']);" class="b">All Climate Change Blogs</a></li>
+		</ul>
+		</div>
+		<div class="u2">
+		<div class="uTitle"><a href="/news/">News</a></div>
+		<ul class="uLinks">
+		<li><a href="/news/thailands-temple-dawn-closed-climate-change-photos-20130930" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate News [Climate]']);" >Thailand's Temple of Dawn Closed by Climate Change (PHOTOS)</a></li>
+		<li><a href="/news/melting-arctic-permafrost-looms-major-factor-warming-climate-change-20130927" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate News [Climate]']);" >Melting Arctic Permafrost Looms as Major Factor in Warming, Climate Change</a></li>
+		<li><a href="/news/landmark-climate-report-warming-extremely-likely-man-made-20130927" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate News [Climate]']);" >Landmark Climate Change Report: Warming 'Extremely Likely' Man-Made</a></li>
+		<li><a href="/news/ipcc-report-10-facts-20130927" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate News [Climate]']);" >IPCC Report on Climate Change: 10 Things to Know</a></li>
+		<li><a href="/news/melting-glacier-exposes-frozen-forest-20130924" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate News [Climate]']);" >Melting Glacier Exposes Frozen Forest</a></li>
+		<li><a href="/news/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'All News [Climate]']);"><span class="b">All News</span></a></li>
+		</ul>
+		</div>
+		<div class="u1e">
+		<div class="uTitle"><a href="/climate/">Climate Change</a></div>
+		<ul class="uLinks">
+		<li><a href="/climate/" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Climate Change [Climate]']);">Climate Change</a></li>
+		<li><a href="/climate/local.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Local Climate Change [Climate]']);">Local Climate Change</a></li>
+		<li><a href="/climate/evidence.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Evidence [Climate]']);">Evidence</a></li>
+		<li><a href="/climate/extremes.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Record Extremes [Climate]']);">Record Extremes</a></li>
+		<li><a href="/climate/facts.asp" onclick="_gaq.push(['_trackEvent', 'Feature Menu', 'Click', 'Feeling Skeptical? [Climate]']);">Feeling Skeptical?</a></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+  wui.featuremenu();
+</script>
+		</div>
+		</div>
+	</div>
+		<div id="quickMenuDropdown" class="brBot3 none">
+		<ul>
+		<li><a href="/email/mainmenu.php">My Email &amp; Text Alerts</a></li>
+		<li><a href="/webcams/signup.html" class="brBot3">My Webcams</a></li>
+		</ul>
+		</div>
+</center>
+<div id="mobile-header">
+	<a class="mobile-menu-button sidebar-button" id="sidebarButton" href="#sidebar" onclick="_gaq.push(['_trackEvent', 'Responsive Menu', 'Click', 'Mobile / Tablet']);"></a>
+	<div id="wuFormR-contain">
+		<form action="/cgi-bin/findweather/getForecast" name="wxsearch" id="wuFormR">
+		<div id="wuSearchR-contain">
+		<input type="search" name="query" value="" id="wuSearchR" placeholder="Search " x-webkit-speech />
+		</div>
+		<div id="wuSubmitR-contain">
+		<span class="postfix button radius" id="wuSubmitR" title="Search"></span>
+		</div>
+		</form>
+	</div>
+</div>
+<script>
+  jQuery(document).ready(function($) {
+  //Initializes in wui.js if AJAX favorites are turned on
+		var favorites = [];
+		wui.favorites.items.add(favorites);
+		if (wui && wui.autocomplete) {
+		var a = new wui.autocomplete({
+		appendTo: '#wuFormR',
+		autosubmit: true,
+		data: {
+		"ski": 1,
+		"features": 1
+		},
+		includeFavorites: true,
+		includePWS: true,
+		input: "#wuSearchR",
+		minLength: 0,
+		showConditions: true,
+		showFavoriteStars: true
+		});
+		}
+		$('#wuSubmitR').click(function() {
+		$('#wuFormR').submit();
+		});
+	});
+</script>
+<script type="text/template" id="autocomplete_item_template">
+	<li class="<% if (isCity) { %>is-city<% } %><% if (isFav) { %> is-fav<% } %><% if (hasConds) { %> has-conds<% } %>">
+		<a>
+		<% if (item.label) { %><span class="city-name"><%= item.label %></span><% } %>
+		<% if (hasConds) { %>
+		<span class="city-conds">
+		<%= item.condition.temp %> &deg;F <%= item.condition.weather %>
+		</span>
+  <span class="cond-icon-touch cond-set-<%= item.condition.iconPref %> cond-<%= item.condition.icon %>"></span>
+		<% } %>
+		<% if (isCity) { %><span class="city-star" title="<% if (isFav) { %>Remove From<% } else { %>Add To<% } %> Favorite Cities"></span><% } %>
+		</a>
+	</li>
+</script>
+		<center id="WX_Skin">
+		<div id="wuPage">
+		<div class="tm20" id="bannerTop" style="z-index:0;">
+		<center id="bannerTop_c">
+		<div id="WX_WindowShade">
+	<div id="div-gpt-ad-615639597871654305-top" class="">
+	</div>
+		</div>
+		</center>
+		</div>
+		<div id="innerContent" class="tm20">
+		<div class="homeWrapper">
+	<div class="primeContent636">
+		<div class="searchWrapper">
+		<div id="hpSearch">
+	<div id="title" class="brTop5">
+		<span class="nomo">WunderSearch<span class="sup">&reg;</span>
+		</span><span id="wuTitleBar" class="none">Weather Underground</span>
+	</div>
+	<div id="searchArea">
+		<div id="searchFields">
+		<form action="/cgi-bin/findweather/hdfForecast" name="wxsearch">
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td id="searchPrompt" class="b nobr">Enter a location</td>
+		<td><input type="text" name="query" value="" id="wuSearch" class="br5" x-webkit-speech /></td>
+		<td><input type="submit" value="Search" id="searchSubmit" class="br5" /></td>
+		</tr>
+		<tr>
+		<td id="searchInstrSpacing">&nbsp;</td>
+		<td colspan="2"><span>Type your <a href="/weather-by-zip-code.asp">zip code</a>, <a href="/weather-by-city.asp?L=A">city</a>, state, airport code or <a href="/weather-by-country.asp">country</a></span></td>
+		</tr>
+		</table>
+		</form>
+		</div>
+		<script type="text/javascript">
+		(function() {
+		if (wui && wui.autocomplete) {
+		var items = [];
+		wui.autocomplete.addItems(items);
+		// translation
+		wui.autocomplete.setGroupTitles({
+		"favorite": "Favorite Cities",
+		"recent": "Recent Cities",
+		"city": "City",
+		"state": "State",
+		"hurricane": "Hurricane",
+		"ski_resort": "Ski Resort",
+		"Site_feature": "Site Features",
+		"Beach": ""
+		});
+		}
+		})();
+		</script>
+	</div>
+		<div id="geoBox" class="brBot5" style="background: url(http://icons-ak.wxug.com/i/wpbg/ALL/640-nt_clear.jpg) no-repeat; background-position: top center;">
+		<div id="geoData" class="local br5 bs225x333">
+		<table cellspacing="0" cellpadding="6" id="bigStory">
+		<tr>
+		<td class="vaT nomob">
+		<a href="http://wxug.us/1elin" id="bigImage"><img src="http://icons.wxug.com//data/images/Caster/homepageinput_image_1396390132.jpg" class="imgBorder" /></a>
+		</td>
+		<td class="vaT">
+		<div><a href="http://wxug.us/1elin" id="bigTitle">Severe Thunderstorms Started to Form in Plains</a></div>
+		<div class="tm5">Thunderstorms are beginning to develop in eastern Kansas and adjacent areas of Missouri, Arkansas, and Oklahoma. These thunderstorms could become severe, and tornadoes will be possible into the evening. There is a moderate risk of severe weather for the same area Thursday.</div>
+		<div class="tm5 b none"><a href="http://wxug.us/1elin">More Information &raquo;</a></div>
+		</td>
+		</tr>
+		</table>
+		<table cellspacing="0" cellpadding="6" id="condTable">
+		<tr>
+		<td id="currentLocationLabel" class="nobr b vaT"><div class="textData">Current Location:</div></td>
+		<td class="vaT"><a href="" class="iconSwitchBig"><img src="http://icons-ak.wxug.com/i/c/k/nt_clear.gif" alt="Clear" class="condIcon" /></a></td>
+		<td id="currentLocationAndTemp" class="vaT full">
+		<div class="textData">
+		<a href="/cgi-bin/findweather/getForecast?query=48113" class="b">Ann Arbor, MI</a>
+		<span class="none">&ndash; Kimberley Hills, Ann Arbor, Michigan (PWS)</span>
+		</div>
+		<div class="textData">
+  <span class="nobr"><span class="b">46.9</span>&nbsp;&deg;F</span>
+ Clear</div>
+		</td>
+		<td id="currentLocationLink">
+		<a href="/cgi-bin/findweather/getForecast?query=48113" class="moreData">Full Conditions &amp; Forecast</a>
+		</td>
+		</tr>
+		</table>
+		<table cellspacing="0" cellpadding="0" id="nearbyTable" class="full nomob">
+		<tr>
+		<td class="vaT">
+		<table cellspacing="3" cellpadding="0" id="locTable">
+		<thead>
+		<tr>
+		<td colspan="5" class="b pb">Nearby Airports</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td class="locName"><a href="/cgi-bin/findweather/getForecast?query=KARB">Ann Arbor</a></td>
+		<td class="div">|</td>
+		<td class="nobr">Clear</td>
+		<td class="div">|</td>
+		<td class="nobr">
+  <span class="nobr"><span class="b">50</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td class="locName"><a href="/cgi-bin/findweather/getForecast?query=KYIP">Ypsilanti</a></td>
+		<td class="div">|</td>
+		<td class="nobr">Clear</td>
+		<td class="div">|</td>
+		<td class="nobr">
+  <span class="nobr"><span class="b">52</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td class="locName"><a href="/cgi-bin/findweather/getForecast?query=KDTW">Detroit Metro</a></td>
+		<td class="div">|</td>
+		<td class="nobr">Mostly Cloudy</td>
+		<td class="div">|</td>
+		<td class="nobr">
+  <span class="nobr"><span class="b">50</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td colspan="5" class="pt">
+		<div class="tm5"><a href="/member/membersettings.html?page=favorites" id="wrongLoc">Wrong location?</a></div>
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<script type="text/javascript">
+		(function(wui,$){
+		new wui.tooltip({
+		button: $('#wrongLoc'),
+		content: 'We tried to find your location, but sometimes the results are incorrect. If this isn\'t your location, search for your city instead. On the city page for your home city, click the home button: <a style="display: block; width: 26px; height: 24px; overflow: hidden; background: url(http://icons.wxug.com/i/wu/setHome.png) no-repeat;"></a>',
+		hoverClass: "hover",
+		position: {
+		collision: "fit none"
+		}
+		});
+		})(wui,jQuery);
+		</script>
+		</td>
+		<td class="vaT">
+		<table cellspacing="3" cellpadding="0" id="pwsTable">
+		<thead>
+		<tr>
+		<td colspan="5" class="b pb">Nearby Weather Stations</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td class="locName"><a href="/cgi-bin/findweather/getForecast?query=48113&amp;sp=KMIANNAR42" class="cap">Kimberley Hills</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">46.9</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td class="locName"><a href="/cgi-bin/findweather/getForecast?query=48113&amp;sp=KMIANNAR13" class="cap">Rudolf Steiner High School</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">46.9</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td class="locName"><a href="/cgi-bin/findweather/getForecast?query=48113&amp;sp=KMIANNAR38" class="cap">Carpenter Elementary</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">46.1</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td colspan="5" class="pt">
+		<div class="tm5">
+		<a href="/wundermap/?lat=42.273399&lon=-83.713303&zoom=10&wxsn=1">See all Weather Stations</a>
+		<span class="div">|</span>
+		<a href="/weatherstation/">About Weather Stations</a>
+		</div>
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<a href="/wximage/karalegal/2284" id="picCred" class="br5">
+		<span id="creditIcon"></span>
+		<span id="creditText"><span>Image uploaded by:</span> karalegal</span>
+		</a>
+	</div>
+	<div id="div-gpt-ad-615639597871654305-6" class="tm12 bm12 taC tdu636">
+	</div>
+</div>
+		</div>
+		<div class="partsWrapper">
+		<div id="wundermapWidget" class="fLeft contentMod cm420 br5 rm12 bm12">
+	<div class="cmTitle brTop5">WunderMap<span class="sup">&reg;</span></div>
+	<div class="cmTabs" id="sports_tab_box">
+		<a href="javascript:void(0);" class="brTop5 cmTabActive">Local Conditions</a>
+		<a href="/wundermap/?lat=40.71152&lon=-96.82129&zoom=4&fronts=1" class="brTop5 cmTab">U.S. Fronts</a>
+	</div>
+	<div class="h210">
+		<div id="map" class="cPointer" onClick="window.location.href='/wundermap/'; _gaq.push(['_trackEvent', 'Wundermap TDU', 'Click', 'Index Wundermap Module']);"></div>
+	</div>
+	<div class="cmFooter brBot5"><a href="/wundermap/" title="WunderMap" onClick="_gaq.push(['_trackEvent', 'Wundermap TDU', 'Click', 'Index Wundermap Module']);">Visit the WunderMap</a></div>
+</div>
+<script type="text/javascript" src="//script.wxug.com/scripts/wui.date.min.js?v=1.3.14"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&client=gme-weatherunderground&channel=Index"></script>
+	<script type="text/javascript" src="/stationmaps/infobox_packed.js?v=3.5.16"></script>
+	<script type="text/javascript" src="/stationmaps/wundermap.min.js?v=3.5.16"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+  var googlemap = false;
+  var startMap = function () {
+	 var mapTypeId = wundermap.getMapTypeId("lightmap");
+	 googlemap = new google.maps.Map($("#map")[0], {
+	 center: new google.maps.LatLng(42.273399, -83.713303),
+	 zoom: 8,
+	 //mapTypeId: google.maps.MapTypeId.ROADMAP,
+	 mapTypeId: mapTypeId,
+	 mapTypeControl: false,
+	 mapTypeControlOptions: {
+	 style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+	 },
+		draggable: false,
+	 scrollwheel: false,
+	 streetViewControl: false,
+	 zoomControl: false,
+	 zoomControlOptions: {
+	 style: google.maps.ZoomControlStyle.SMALL
+	 }
+	 });
+	 wundermap.setOptions({
+	 map: googlemap,
+	 refreshPeriod: 60000,
+	 customMapTypes: true,
+	 units: "english",
+	 //debug: 0,
+	 layers: [
+	 {
+	 layer: "WeatherStations",
+	 active: 1,
+	 defaultUI: 0,
+	 mode: "temp"
+	 },
+	 {
+	 layer: "Radar",
+	 active: 1,
+	 defaultUI: 0,
+	 useTiles: true,
+	 type: "00Q",
+	 type2: "",
+	 smooth: 1,
+	 animation: {
+	 num: 1
+	 }
+	 }
+	 ]
+	 });
+	 wundermap.initialize();
+  }
+  //Start wundermap if page width supports it
+  if( $(window).width() > 636 ) { startMap(); }
+  //Start wundermap if not started and page width supports it
+  $(window).resize(function() {
+  if(googlemap == false && $(window).width() > 636) {
+  startMap();
+  }
+  });
+	});
+</script>
+		<style type="text/css">
+		.photoSwipe {
+		overflow: hidden;
+		visibility: hidden;
+		position: relative;
+		}
+		.photo-swipe-wrap {
+		overflow: hidden;
+		position: relative;
+  background: #ccc;
+  opacity: 0.99;
+		}
+		.photo-swipe-wrap > div {
+		float:left;
+		width:100%;
+		position: relative;
+		}
+		#wunderPhotoSlider {
+		height: 150px;
+		}
+  .dots SPAN.inactive{
+  cursor: pointer;
+  }
+  .dots {
+  cursor: default;
+  }
+	@media only screen and (min-width: 1px) and (max-width: 639px) {
+		.wunderPhotoBox {
+		width: 250px !important;
+		}
+		#photostrip {
+		width: 250px;
+  }
+	}
+</style>
+	<div class="fLeft wunderPhotoBox contentMod cm204 br5 bm12">
+	<div class="cmTitle brTop5">WunderPhotos<span class="sup">&reg;</span></div>
+	<div id="wunderphotos_contain">
+		<div id="photostrip">
+		<div id="wunderPhotoSlider" class="photoSwipe">
+		<div class="photo-swipe-wrap">
+		<div class="elt" name="freebird76"><a href="/wximage/freebird76/1075?gallery=EDITORSPICK" id="thumb_0"><img src="http://icons-ak.wxug.com/data/wximagenew/f/freebird76/1075-thumb250.jpg" class="fitWidth" alt="Sunset at the Lake" /></a></div>
+		<div class="elt" name="Biskitten"><a href="/wximage/Biskitten/3576?gallery=EDITORSPICK" id="thumb_1"><img src="http://icons-ak.wxug.com/data/wximagenew/b/Biskitten/3576-thumb250.jpg" class="fitHeight" alt="Wispy Sunset" /></a></div>
+		<div class="elt" name="Denalidaze"><a href="/wximage/Denalidaze/539?gallery=EDITORSPICK" id="thumb_2"></a></div>
+		<div class="elt" name="newenglandlight"><a href="/wximage/newenglandlight/2732?gallery=EDITORSPICK" id="thumb_3"></a></div>
+		<div class="elt" name="BoazR"><a href="/wximage/BoazR/7501?gallery=EDITORSPICK" id="thumb_4"></a></div>
+		<div class="elt" name="bpwh"><a href="/wximage/bpwh/1443?gallery=EDITORSPICK" id="thumb_5"></a></div>
+		<div class="elt" name="katy99780"><a href="/wximage/katy99780/6086?gallery=EDITORSPICK" id="thumb_6"></a></div>
+		<div class="elt" name="beemeraz"><a href="/wximage/beemeraz/219?gallery=EDITORSPICK" id="thumb_7"></a></div>
+		<div class="elt" name="steelrail"><a href="/wximage/steelrail/164?gallery=EDITORSPICK" id="thumb_8"></a></div>
+		<div class="elt" name="Slavarussia"><a href="/wximage/Slavarussia/264?gallery=EDITORSPICK" id="thumb_9"></a></div>
+		</div>
+		</div>
+		<a href="javascript:void(0);" class="prev"><img src="http://icons-ak.wxug.com/i/w/wu3_PhotoLeft.png" alt="" /></a>
+		<a href="javascript:void(0);" class="next"><img src="http://icons-ak.wxug.com/i/w/wu3_PhotoRight.png" alt="" /></a>
+		<div class="photoData">
+		<div class="dots">
+  <span data-position="0" class="active">&bull;</span>
+  <span data-position="1" class="inactive">&bull;</span>
+  <span data-position="2" class="inactive">&bull;</span>
+  <span data-position="3" class="inactive">&bull;</span>
+  <span data-position="4" class="inactive">&bull;</span>
+  <span data-position="5" class="inactive">&bull;</span>
+  <span data-position="6" class="inactive">&bull;</span>
+  <span data-position="7" class="inactive">&bull;</span>
+  <span data-position="8" class="inactive">&bull;</span>
+  <span data-position="9" class="inactive">&bull;</span>
+		</div>
+		<div class="photoBy">Uploaded by: <a href="/wximage/freebird76/" id="photoByName">freebird76</a></div>
+		<div class="photoNum">1,697,490
+ photos uploaded!</div>
+		<div class="photoUp"><a href="/wximage/multiupload.html" onclick="_gaq.push(['_trackEvent', 'Upload Photos', 'Click', 'Index Page (Home)']);">Upload a photo now</a></div>
+		</div>
+		</div>
+		<script type="text/javascript">
+		(function(id,$){
+		//AMW 20130813
+		//This was moved to site-wide utils JS section
+		//Function masks the number of shards for this case
+		//Leftover from when the function was first written here
+		var urlAliasHash = function(urlToHash){
+		return wui.tools.domainShardSuffix(urlToHash, 8);
+		}
+		var wunderimages = [ { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/f/freebird76/1075-thumb250.jpg")+".wxug.com/data/wximagenew/f/freebird76/1075-thumb250.jpg", "height": "188", "title":"Sunset at the Lake", "loaded": true }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/b/Biskitten/3576-thumb250.jpg")+".wxug.com/data/wximagenew/b/Biskitten/3576-thumb250.jpg", "height": "177", "title":"Wispy Sunset", "loaded": true }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/d/Denalidaze/539-thumb250.jpg")+".wxug.com/data/wximagenew/d/Denalidaze/539-thumb250.jpg", "height": "171", "title":"American Goldfinch- Male", "loaded": false }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/n/newenglandlight/2732-thumb250.jpg")+".wxug.com/data/wximagenew/n/newenglandlight/2732-thumb250.jpg", "height": "188", "title":"April 1st Sunset", "loaded": false }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/b/BoazR/7501-thumb250.jpg")+".wxug.com/data/wximagenew/b/BoazR/7501-thumb250.jpg", "height": "167", "title":"A cloudy day", "loaded": false }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/b/bpwh/1443-thumb250.jpg")+".wxug.com/data/wximagenew/b/bpwh/1443-thumb250.jpg", "height": "168", "title":"Beautifull Blossom", "loaded": false }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/k/katy99780/6086-thumb250.jpg")+".wxug.com/data/wximagenew/k/katy99780/6086-thumb250.jpg", "height": "164", "title":"Glacial Upwelling", "loaded": false }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/b/beemeraz/219-thumb250.jpg")+".wxug.com/data/wximagenew/b/beemeraz/219-thumb250.jpg", "height": "200", "title":"Metallic Starlings", "loaded": false }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/s/steelrail/164-thumb250.jpg")+".wxug.com/data/wximagenew/s/steelrail/164-thumb250.jpg", "height": "129", "title":"Big Sky", "loaded": false }, { "image": "http://icons-ak"+urlAliasHash("/data/wximagenew/s/Slavarussia/264-thumb250.jpg")+".wxug.com/data/wximagenew/s/Slavarussia/264-thumb250.jpg", "height": "167", "title":"02.04.2014.", "loaded": false } ];
+		var prev = $("a[class=prev]",id);
+		var next = $("a[class=next]",id);
+		var photoby = $("a[id=photoByName]","#wunderphotos_contain");
+		var photos = $("div[class=elt]",id);
+		var dots = $("div[class=dots] span",id);
+		var pos = 0;
+		var pos_prev = 0;
+		var max = photos.length - 1;
+		$.loadwunderimage = function(index){
+		if(wunderimages[index]["loaded"])
+		return;
+		var img = new Image();
+		var imgclass="fitWidth";
+		if(wunderimages[index]["height"]<=185)
+						imgclass="fitHeight";
+					$(img).load(function () {
+						$('#thumb_'+index).append(this);
+						wunderimages[index]["loaded"]=true;
+					}).error(function () {
+						wunderimages[index]["loaded"]=false;
+						//console.log("Image ['"+images[index]["image"]+"'] Failed to Load");
+					}).attr({'src': wunderimages[index]["image"], 'class':imgclass, 'alt':wunderimages[index]["title"] });
+				};
+
+				var scrollBy = function(i) {
+					scrollLoc(pos + i);
+				};
+
+				var scrollLoc = function(i) {
+					pos_prev = pos;
+					if (i < 0)
+						pos = 0;
+					else if (i > max)
+		pos = max;
+		else
+		pos = i;
+		$.loadwunderimage(pos);
+		var elt = photos.eq(pos);
+		$(photoby).html(elt.attr("name"));
+		$(photoby).attr("href","/wximage/"+elt.attr("name")+"");
+		if (dots) {
+		$(dots[pos_prev]).removeClass("active").addClass("inactive");
+		$(dots[pos]).removeClass("inactive").addClass("active");
+		}
+		if(pos < max)
+						$.loadwunderimage(pos + 1);
+				};
+
+				$(prev).click(function(){
+					window.photoSwipe.prev();
+				});
+				$(next).click(function(){
+					window.photoSwipe.next();
+                  });
+                $("div[class=dots] span").click( function() {                                                                               
+                    var slideToPosition = $(this).data("position");                                                                             
+                    window.photoSwipe.slide(slideToPosition);                                                                                    
+                });   
+
+			$( function() {
+				window.photoSwipe = Swipe(document.getElementById('wunderPhotoSlider'), {
+					callback: function(index, elem) {
+						scrollLoc(parseInt(index));
+					}
+				});
+			});
+
+			})("#wunderphotos_contain",jQuery);	
+		</script>
+	</div>
+	<div class="cmFooter brBot5"><a title="WunderPhotos - Click Here for Latest Weather Photos" href="/wximage/">Visit WunderPhotos</a></div>
+</div>
+		<style type="text/css">
+  .newsDots {	display: none; }
+	@media only screen and (min-width: 1px) and (max-width: 639px) {
+		#localnews_contain { height: auto; }
+		.newsDots { text-align: center; font-size: 20px; }
+		.newsDots SPAN.active { color: #6475BA; }
+  .newsDots SPAN.inactive { cursor: pointer; color: #D5D5D5; }
+		.newsSwipe {
+		overflow: hidden;
+		visibility: hidden;
+		position: relative;
+		}
+		.news-swipe-wrap {
+		overflow: hidden;
+		position: relative;
+		}
+		.news-swipe-wrap > div {
+		float:left;
+		width:100%;
+		position: relative;
+		}
+		#localnews_contain .cmList .cmItem {
+		clear: none;
+		padding: 0;
+		border-bottom: 0px;
+		}
+		.cmItem .full {
+		width: 98%;
+		}
+		.cmItem .w100 {
+		padding-left: 5px;
+		}
+		.cmItem {
+		font-size: 12px !important;
+		}
+		#localnews_contain {
+		padding-bottom: 5px;
+		height: auto;
+		}
+		.h400 {
+		height: auto;
+		padding-bottom: 10px;
+		}
+		.newsDots {
+  display: block;
+  cursor: default;
+		}
+	}
+</style>
+<script>
+	jQuery(document).ready(function($) {
+		var dots = $("div[class=newsDots] span");
+		var lastPos = 0;
+  var setupNewsSwipe = function() {
+		window.newsSwipe = Swipe(document.getElementById('newsSlider'), {
+		callback: function(index, elem) {
+		if(dots) {
+		$(dots[lastPos]).removeClass('active').addClass('inactive');
+		$(dots[index]).removeClass('inactive').addClass('active');
+		lastPos = index;
+		}
+		}
+		});
+		window.addEventListener('onorientationchange', window.newsSwipe.setup);
+  $("div[class=newsDots] span").click( function() {
+  var slideToPosition = $(this).data("position");
+  window.newsSwipe.slide(slideToPosition);
+  });
+  }
+  if($(window).width() < 640) {
+            setupNewsSwipe();
+        }
+
+		/* Resize for scaling on desktop */
+		$(window).resize(function() {
+          if(!window.newsSwipe && $(window).width() < 640) {
+            setupNewsSwipe();
+          } else if (window.newsSwipe && $(window).width() >= 640) {
+  window.newsSwipe.kill();
+  $(".cmItem").attr('style', '');
+  } else if (window.newsSwipe && $(window).width() < 640) {
+             window.newsSwipe.setup(); 
+          }
+		});
+	});
+</script>
+	<div class="fLeft contentMod cm420 br5 rm12">
+		<div class="cmTitle brTop5">News</div>
+		<div id="localnews_contain" class="h400" style="overflow-y: scroll;">
+		<div class="cmList">
+		<div id="newsSlider" class="newsSwipe">
+		<div class="news-swipe-wrap">
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/major-earthquake-sparks-tsunami-warnings-chile-video-20140401" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="8.2 Earthquake Rocks Chile (VIDEO)"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/04/e0fa620d-2176-4f10-a496-fdfc3b606b06_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/major-earthquake-sparks-tsunami-warnings-chile-video-20140401" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">8.2 Earthquake Rocks Chile (VIDEO)</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">Tsunami alarms sound across the Chilean coast.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/chile-earthquake-bigger-one-coming-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="Chile Earthquake: Is a Bigger One Coming?"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/04/f3cf2f43-ff6d-487e-bb82-915ab728c603_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/chile-earthquake-bigger-one-coming-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">Chile Earthquake: Is a Bigger One Coming?</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">Yesterdays 8.2-magnitude earthquake off of northern Chile may not be the biggest one the region will see.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/massive-mudslide-washington-community-20140323" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="Washington Mudslide Update: Floodwaters Recede, Helping Search for Victims"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/04/76644472-e71f-47c4-b11b-03bfcf8248be_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/massive-mudslide-washington-community-20140323" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">Washington Mudslide Update: Floodwaters Recede, Helping Search for Victims</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">It is a grim step forward in the search for human remains at a mudslide that crushed a rural Washington community, but an important one: floodwaters are receding.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/michigan-firefighter-rescues-boa-constrictor-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="Michigan Firefighter Rescues 7-Foot Boa Constrictor From Blaze: 'I Would Do It For Any Creature'"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/04/5498c76f-556c-4048-afcc-36ead4b4453f_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/michigan-firefighter-rescues-boa-constrictor-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">Michigan Firefighter Rescues 7-Foot Boa Constrictor From Blaze: 'I Would Do It For Any Creature'</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">See what happened when a building caught fire and a firefighter went in for a rescue unlike any other.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/victims-washington-state-mudslide-20140331" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="Victims of the Washington State Mudslide"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/03/817bde11-25a3-4c75-a5af-e55859192339_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/victims-washington-state-mudslide-20140331" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">Victims of the Washington State Mudslide</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">Nineteen victims of the March 22 disaster have been identified.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/record-coldest-march-great-lakes-new-england-20140401" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="It Was a Record-Cold March From Northern Great Lakes to Northern New England"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/03/915dea90-6aa6-4f81-a35a-85128a69a737_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/record-coldest-march-great-lakes-new-england-20140401" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">It Was a Record-Cold March From Northern Great Lakes to Northern New England</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">Several cities from the Great Lakes to northern New England shivered through their coldest March on record.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/winter-weather-watch-2013-2014-20131002" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="Winter Weather Watch: Next Winter Storm Develops"><img class="borderAll full" src="http://s.b.imwx.com//dru/2013/10/e7c726bb-4f16-4b41-9380-485b61abf12b_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/winter-weather-watch-2013-2014-20131002" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">Winter Weather Watch: Next Winter Storm Develops</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">Our team of meteorologists, led by winter weather expert Tom Niziol, brings you the latest discussion on winter weather threats across the country.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/dazzling-meteor-streaks-over-maine-lighthouse-spectacular-photo-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="Dazzling Meteor Streaks Over Maine Lighthouse in Spectacular Photo"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/04/bc7fe516-f9a4-4ee7-9104-efa68aa8938b_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/dazzling-meteor-streaks-over-maine-lighthouse-spectacular-photo-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">Dazzling Meteor Streaks Over Maine Lighthouse in Spectacular Photo</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">A blazing meteor disintegrates across a glittering night sky in Maine.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/missing-malaysia-airlines-plane-flight-370-update-20140317" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="Missing Malaysia Flight 370: What If Nothing Turns Up? Pessimism Grows As Search Drags On"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/03/3fcb4b41-4951-4635-96bf-e1c7a27a939b_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/missing-malaysia-airlines-plane-flight-370-update-20140317" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">Missing Malaysia Flight 370: What If Nothing Turns Up? Pessimism Grows As Search Drags On</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">No one has the slightest idea where the Malaysia Airlines jet is, and officials are growing pessimistic that the mystery will ever be solved.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<div class="cmItem">
+		<table cellspacing="0" cellpadding="0" class="full tm5 rm10">
+		<tr>
+		<td class="vaT">
+		<div class="fLeft w100 rm10" ><a href="/news/midwest-winter-storm-april-snow-ice-great-lakes-plains-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="April Winter Storm Becomes Winter Storm Yona"><img class="borderAll full" src="http://s.b.imwx.com//dru/2014/04/bf9e4627-c8d7-4da2-a95f-023733774e1b_155x114.jpg"></a></div>
+		</td>
+		<td class="vaT full">
+		<div class="small b"><a href="/news/midwest-winter-storm-april-snow-ice-great-lakes-plains-20140402" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);">April Winter Storm Becomes Winter Storm Yona</a></div>
+		<div class="grey">April 2, 2014</div>
+		<div class="small taJ tm5">An early April storm has earned the name Yona.</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		</div>
+		</div>
+		<div class="newsDots">
+  <span data-position="0" class="singleDot active">&bull;</span>
+  <span data-position="1" class="singleDot inactive">&bull;</span>
+  <span data-position="2" class="singleDot inactive">&bull;</span>
+  <span data-position="3" class="singleDot inactive">&bull;</span>
+  <span data-position="4" class="singleDot inactive">&bull;</span>
+  <span data-position="5" class="singleDot inactive">&bull;</span>
+  <span data-position="6" class="singleDot inactive">&bull;</span>
+  <span data-position="7" class="singleDot inactive">&bull;</span>
+  <span data-position="8" class="singleDot inactive">&bull;</span>
+  <span data-position="9" class="singleDot inactive">&bull;</span>
+		</div>
+		</div>
+		</div>
+		<div class="cmFooter brBot5"><a href="/news/" onclick="_gaq.push(['_trackEvent', 'News', 'Click', 'Index News']);" title="News">More News Articles</a></div>
+	</div>
+	<div class="contentMod wunderBlogBox cm204 br5 fLeft">
+	<div class="cmTitle brTop5">WunderBlogs<span class="sup">&reg;</span></div>
+		<div class="h400">
+		<div class="blogCopy cmData">
+		<div id="blogTitle"><a href="/blog/JeffMasters/comment.html?entrynum=2657">Camille of 1969 Downgraded to Second Strongest Landfalling U.S. Hurricane</a></div>
+		<img src="http://icons-ak.wxug.com/i/w/jmasters_45x45.jpg" alt="Dr. Jeff Masters" id="blogPhoto" />
+		<div class="tm12">By Dr. Jeff Masters</div>
+		<div id="blogDate">10:48 AM EDT on April 02, 2014</div>
+		<p>On the night of August 17, 1969, mighty Category 5 Hurricane Camille smashed into the Mississippi coast with incredible fury, bringing the largest U.S. storm surge on record--an astonishing 24.6 feet in Pass Christian, M...</p>
+		<div class="taR sm b"><a href="/blog/JeffMasters/comment.html?entrynum=2657" class="nobr">Continue Reading</a> &raquo;</div>
+		</div>
+		<p class="titleSubtleBG br3">Featured Bloggers</p>
+		<div class="lm20 rm10">
+		<li><a href="/blog/weatherhistorian/show.html">Weather Historian's Blog</a></li>
+		<li><a href="/blog/RickyRood/show.html">Dr. Rood's Climate Blog</a></li>
+		<li><a href="/blog/24hourprof/show.html">From the Lee Side</a></li>
+		<li><a href="/blog/angelafritz/show.html">Angela Fritz's Blog</a></li>
+		<li><a href="/blog/shauntanner/show.html">Shaun Tanner's Blog</a></li>
+		<li><a href="/blog/Portlight/show.html">Portlight Disaster Relief</a></li>
+		</div>
+	</div>
+	<div class="cmFooter brBot5">
+		<a title="Wunderblog - Blogs on Weather Forecast" href="/blog/">Visit WunderBlogs</a>
+	</div>
+</div>
+		</div>
+	</div>
+	<div class="adsWrapper">
+		<div class="switch336">
+		<div class="adBox br5">
+		<div class="adCreative unit300x250" id="WX_Top300Variable">
+	<div id="div-gpt-ad-615639597871654305-1" class="">
+	</div>
+		</div>
+		</div>
+	<div id="div-gpt-ad-615639597871654305-5" class="tm12 bm12 taC tdu636">
+	</div>
+		<div class="contentMod cm336 br5 bm12" id="wxEvents">
+	<div class="cmTitle brTop5">Weather Events</div>
+		<div class="posRel h162">
+		<img src="http://icons-ak.wxug.com/i/wu/casterMap334.png" alt="Caster Map" />
+		<a href="http://www.wunderground.com/history/station/89625/2014/04/02/DailyHistory.html?EditMetar=1" class="casterMapMarker none" style="position:absolute; top:148.59px; left:281.49705555556px;">1</a>
+		<div class="none">
+		<div class="b bm10">World Lowest Temperature for April 2</div>
+		<div>The world's lowest temperature for April 2 was -93 degrees and occurred at Concordia, Antarctica</div>
+		</div>
+		<a href="http://www.wunderground.com/history/airport/DFFD/2014/04/02/DailyHistory.html?EditMetar=1" class="casterMapMarker none" style="position:absolute; top:69.885px; left:165.59905555556px;">2</a>
+		<div class="none">
+		<div class="b bm10">World Highest Temperature for April 2</div>
+		<div>The world's highest temperature for April 2 was 107 degrees and occurred at Ouagadougou, Burkina Faso</div>
+		</div>
+		<a href="http://www.wunderground.com/wundermap/?lat=7.8864&lon=-82.3499&zoom=7&type=hyb&units=english&pin.type=earthquake&pin=There was a 5.8 earthquake that occurred near Pedregal on April 02, 2014 at 11:13 am Eastern Time.  This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 27.9 km, which is a shallow-focus earthquake (0-70 km deep).&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=0&hur=0&fire=0&tor=0&ndfd=0&pix=0&dir=0&ads=0&tfk=0&ski=0" class="casterMapMarker none" style="position:absolute; top:73.90224px; left:90.597592777778px;">3</a>
+		<div class="none">
+		<div class="b bm10">5.8 earthquake Pedregal</div>
+		<div>There was a 5.8 earthquake that occurred near Pedregal on April 02, 2014 at 11:13 am Eastern Time. This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 27.9 km, which is a shallow-focus earthquake (0-70 km deep).</div>
+		</div>
+		<a href="http://www.wunderground.com/history/airport/KO54/2014/04/02/DailyHistory.html?req_city=NA&req_state=NA&req_statename=NA" class="casterMapMarker none" style="position:absolute; top:44.327736279px; left:52.955716876278px;">4</a>
+		<div class="none">
+		<div class="b bm10">Weaverville, CA set a record low temperature of 32 for Apr 02</div>
+		<div>Weaverville, CA set a daily record low temperature of 32 on April 02, 2014. The previous record low temperature was 35 degrees set in 2008.</div>
+		</div>
+		<a href="http://www.wunderground.com/wundermap/?lat=39.1955&lon=141.7657&zoom=7&type=hyb&units=english&pin.type=earthquake&pin=There was a 5.6 earthquake that occurred near Kamaishi on April 02, 2014 at 06:22 pm Eastern Time.  This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 55.64 km, which is a shallow-focus earthquake (0-70 km deep).&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=0&hur=0&fire=0&tor=0&ndfd=0&pix=0&dir=0&ads=0&tfk=0&ski=0" class="casterMapMarker none" style="position:absolute; top:45.72405px; left:298.52706611111px;">5</a>
+		<div class="none">
+		<div class="b bm10">5.6 earthquake Kamaishi</div>
+		<div>There was a 5.6 earthquake that occurred near Kamaishi on April 02, 2014 at 06:22 pm Eastern Time. This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 55.64 km, which is a shallow-focus earthquake (0-70 km deep).</div>
+		</div>
+		<a href="http://www.wunderground.com/history/airport/KGFK/2014/04/02/DailyHistory.html?req_city=NA&req_state=NA&req_statename=NA" class="casterMapMarker none" style="position:absolute; top:37.845675657px; left:76.842165251278px;">6</a>
+		<div class="none">
+		<div class="b bm10">Grand Forks, ND set a record low temperature of -6 for Apr 02</div>
+		<div>Grand Forks, ND set a daily record low temperature of -6 on April 02, 2014. The previous record low temperature was -2 degrees set in 1954.</div>
+		</div>
+		<a href="http://www.wunderground.com/wundermap/?lat=-20.3476&lon=-70.5332&zoom=7&type=hyb&units=english&pin.type=earthquake&pin=There was a 5.4 earthquake that occurred near Iquique on April 02, 2014 at 02:45 pm Eastern Time.  This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 21.15 km, which is a shallow-focus earthquake (0-70 km deep).&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=0&hur=0&fire=0&tor=0&ndfd=0&pix=0&dir=0&ads=0&tfk=0&ski=0" class="casterMapMarker none" style="position:absolute; top:99.31284px; left:101.56086444444px;">7</a>
+		<div class="none">
+		<div class="b bm10">5.4 earthquake Iquique</div>
+		<div>There was a 5.4 earthquake that occurred near Iquique on April 02, 2014 at 02:45 pm Eastern Time. This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 21.15 km, which is a shallow-focus earthquake (0-70 km deep).</div>
+		</div>
+		</div>
+		<div class="contentData">
+		<ol class="m0 p10">
+		<li class="lm10 p0">
+		<a href="http://www.wunderground.com/history/station/89625/2014/04/02/DailyHistory.html?EditMetar=1">World Lowest Temperature for April 2</a>
+		<span></span>
+		</li>
+		<li class="lm10 p0">
+		<a href="http://www.wunderground.com/history/airport/DFFD/2014/04/02/DailyHistory.html?EditMetar=1">World Highest Temperature for April 2</a>
+		<span></span>
+		</li>
+		<li class="lm10 p0">
+		<a href="http://www.wunderground.com/wundermap/?lat=7.8864&lon=-82.3499&zoom=7&type=hyb&units=english&pin.type=earthquake&pin=There was a 5.8 earthquake that occurred near Pedregal on April 02, 2014 at 11:13 am Eastern Time.  This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 27.9 km, which is a shallow-focus earthquake (0-70 km deep).&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=0&hur=0&fire=0&tor=0&ndfd=0&pix=0&dir=0&ads=0&tfk=0&ski=0">5.8 earthquake Pedregal</a>
+		<span></span>
+		</li>
+		<li class="lm10 p0">
+		<a href="http://www.wunderground.com/history/airport/KO54/2014/04/02/DailyHistory.html?req_city=NA&req_state=NA&req_statename=NA">Weaverville, CA set a record low temperature of 32 for Apr 02</a>
+		<span></span>
+		</li>
+		<li class="lm10 p0">
+		<a href="http://www.wunderground.com/wundermap/?lat=39.1955&lon=141.7657&zoom=7&type=hyb&units=english&pin.type=earthquake&pin=There was a 5.6 earthquake that occurred near Kamaishi on April 02, 2014 at 06:22 pm Eastern Time.  This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 55.64 km, which is a shallow-focus earthquake (0-70 km deep).&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=0&hur=0&fire=0&tor=0&ndfd=0&pix=0&dir=0&ads=0&tfk=0&ski=0">5.6 earthquake Kamaishi</a>
+		<span></span>
+		</li>
+		<li class="lm10 p0">
+		<a href="http://www.wunderground.com/history/airport/KGFK/2014/04/02/DailyHistory.html?req_city=NA&req_state=NA&req_statename=NA">Grand Forks, ND set a record low temperature of -6 for Apr 02</a>
+		<span></span>
+		</li>
+		<li class="lm10 p0">
+		<a href="http://www.wunderground.com/wundermap/?lat=-20.3476&lon=-70.5332&zoom=7&type=hyb&units=english&pin.type=earthquake&pin=There was a 5.4 earthquake that occurred near Iquique on April 02, 2014 at 02:45 pm Eastern Time.  This is considered a moderate earthquake with possible major damage to poorly constructed buildings and slight damage to well-designed buildings. This temblor occurred at a depth of 21.15 km, which is a shallow-focus earthquake (0-70 km deep).&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=0&hur=0&fire=0&tor=0&ndfd=0&pix=0&dir=0&ads=0&tfk=0&ski=0">5.4 earthquake Iquique</a>
+		<span></span>
+		</li>
+		</ol>
+		</div>
+	<div class="contentFooterPad brBot5 taC"><a href="/caster/">View all Weather Events</a></div>
+</div>
+		<div class="spotBox br5">
+		<div class="spotTitle">Partner Spotlight</div>
+		<div class="adCreative unit300x250">
+	<div id="div-gpt-ad-615639597871654305-2" class="">
+	</div>
+	<div id="div-gpt-ad-615639597871654305-3" class="tm10">
+	</div>
+	<div id="div-gpt-ad-615639597871654305-4" class="tm10">
+	</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+ <!--
+
+                                                      
+                 '@@@@@@@;                            
+               '@@@@@@@@@@@;                          
+              @@@@@@@@@@@@@@@                         
+             @@@@@@@@@@@@@@@@@     .:,                
+            +@@@@@@@@@@@@@@@@@@  @@@@@@@;             
+            @@@@@@@@@@@@@@@@@@@.@@@@@@@@@@            
+           +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           
+           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           
+           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#          
+       #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@          
+     @@@@@@@@@@@@@@@@ #@@@@@@@@@@@@,;@@@@@@@          
+    @@@@@@@@@@@@@@@@@@;`@@@@@@@@@@ @@@@@@@@@@@@@.     
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@    
+  `@@@@@@@@@@@@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@@@@@@@+   
+  @@@@@@@@@@@@@@@@@@' @@@@@@@@@@@@@  @@@@@@@@@@@@@@   
+  @@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@':@@@@@@@@@@@@@@+  
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@  
+  @@@@@@@@@@@@@@@@@@@@@@@@@@`@# @@@@@@@@@@@@@@@@@@@@  
+  '@@@@@@@@@@@@@@@@@@@@@@@@ @@@'@@@@@@@@@@@@@@@@@@@@  
+   @@@@@@@@@@@@@@@@@@@@@@@@.@@@#@@@@@@@@@@@@@@@@@@@#  
+   :@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   
+    +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#   
+     .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    
+       .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.     
+                      #@        @;                    
+                      @+       ;@                     
+                      @        @#                     
+                     '@       ,@                      
+                     @@       @@@@@@@                 
+                     @.       .:;;'@@                 
+                    ,@            ;@`                 
+                    @@            @+                  
+                    @@@#++;,     @@                   
+                    @@@@@@@@    @@                    
+                          @@   ,@.                    
+                          @'   @#                     
+                          @,  @@                      
+                          @` #@                       
+                          @ .@,                       
+                         `@ @@                        
+                         :@@@                         
+                         +@@                          
+                         @@:                          
+                         @@                  
+
+-->
+		</div>
+		<div id="preFooter">
+		&nbsp;
+		</div>
+		</div>
+		</center>
+		<div id="footer">
+	<div id="footerContents">
+		<div id="subNav">
+		<ul class="rb">
+		<li class="b"><a href="/">Local Weather</a></li>
+		<li><a href="/favorites/">My Favorites</a></li>
+		<li><a href="/history/">History Data</a></li>
+		<li><a href="/weatherstation/about.asp">Weather Stations</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/US/Region/US/Temperature.html">Maps &amp; Radar</a></li>
+		<li><a href="/radar/">Radar</a></li>
+		<li><a href="/wundermap/?sat=1">Satellite</a></li>
+		<li><a href="/wundermap/">WunderMap&trade;</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/severe.asp">Severe Weather</a></li>
+		<li><a href="/tropical/">Tropical &amp; Hurricane</a></li>
+		<li><a href="/stormreport.asp">Storm Reports</a></li>
+		<li><a href="/severe.asp">U.S. Severe Alerts</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/photos/">Photos &amp; Video</a></li>
+		<li><a href="/wximage/">Photo Galleries</a></li>
+		<li><a href="/worldview/">World View</a></li>
+		<li><a href="/webcams/">Webcams</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/blog/">Blogs</a></li>
+		<li><a href="/blog/JeffMasters/article.html">Dr. Jeff Masters</a></li>
+		<li><a href="/blog/#met">Meteorology Blogs</a></li>
+		<li><a href="/blog/index.html?range=updated&t=1396484306#mem">Member Blogs</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/travel/">Travel &amp; Activities</a></li>
+		<li><a href="/travelplanner/">Travel Planner</a></li>
+		<li><a href="/roadtrip/">Road Trip Planner</a></li>
+		<li><a href="/ski/">Ski &amp; Snow</a></li>
+		</ul>
+		<ul>
+		<li class="b"><a href="/education/">Climate</a></li>
+		<li><a href="/climate/">Climate Change</a></li>
+		<li><a href="/climate/evidence.asp">Evidence</a></li>
+		<li><a href="/climate/extremes.asp">Record Extremes</a></li>
+		</ul>
+		</div>
+		<div id="goodies">
+		<div id="actions">
+		<a href="/stickers/" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="//icons-ak.wxug.com/i/w/footer-sticker-color.png" /></td>
+		<td>Get Free Weather Stickers&reg;</td>
+		</tr>
+		</table>
+		</a>
+		<a href="/wximage/multiupload.html" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="//icons-ak.wxug.com/i/w/footer-photo-color.png" /></td>
+		<td>Upload Your Photos</td>
+		</tr>
+		</table>
+		</a>
+		<a href="/weather/api/" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="//icons-ak.wxug.com/i/w/footer-api-color.png" /></td>
+		<td>Weather&trade; API for Developers <span class="new">NEW!</span></td>
+		</tr>
+		</table>
+		</a>
+		<a href="/members/signup.asp" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="//icons-ak.wxug.com/i/w/footer-member-color.png" /></td>
+		<td>Become a Site Member</td>
+		</tr>
+		</table>
+		</a>
+		<a href="http://www.facebook.com/wunderground/" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="//icons-ak.wxug.com/i/w/footer-facebook.png" /></td>
+		<td>Find us on Facebook</td>
+		</tr>
+		</table>
+		</a>
+		<a href="http://twitter.com/wunderground" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="//icons-ak.wxug.com/i/w/footer-twitter.png" /></td>
+		<td>Follow us on Twitter</td>
+		</tr>
+		</table>
+		</a>
+		</div>
+		<div id="service">
+		<div class="b">Custom Weather Services</div>
+		<div>In addition to this website, we provide a number of free and professional weather services.</div>
+		<ul>
+		<li><a href="/weather/api/">Weather&trade; API for Developers - JSON</a></li>
+		<li><a href="/newspaper/index.asp">Newspapers</a></li>
+		<li><a href="http://wiki.wunderground.com/index.php/Weather_Stickers">Weather Stickers&reg;</a></li>
+		<li><a href="/about/data.asp">About Our Data</a></li>
+		</ul>
+		</div>
+		<div id="adsales">
+		<div class="b">Advertise On This Site</div>
+		<div>Weather Underground has extensive targeting capabilities to fulfill all of your client's advertising needs.</div>
+		<ul>
+		<li><a href="/about/adinfo.asp">Advertise With Us</a></li>
+		<li><a href="http://icons-ak.wxug.com/ads/mediaKitOneSheet.pdf" target="_blank">Media Kit</a> (PDF)</li>
+		<li><a href="/adchoices.asp" style="background: url(http://icons.wxug.com/i/misc/adChoices.png) no-repeat right; padding-right: 20px;">Ad Choices</a></li>
+		<li><a href="/business/advertise/" class="newButton">Self Service</a></li>
+		</ul>
+		</div>
+		<br class="clear" />
+		</div>
+		<div id="signoff">
+		<div id="moFoot" class="none">
+		<div class="taC tm5">Copyright &copy; 2014 Weather Underground, Inc.</div>
+		<div class="taC p10">
+		<span id="moAPI" class="none nobr"><a href="/weather/api/">Weather API</a> -</span>
+		<span class="nobr"><a href="/about/background.asp">About Us</a> -</span>
+		<span class="nobr"><a href="/about/contact.asp">Contact</a> -</span>
+		<span class="nobr"><a href="http://help.wunderground.com/" onclick="_gaq.push(['_trackEvent', 'Support', 'Click']);">Support</a> -</span>
+		<span class="nobr"><a href="/members/tos.asp">TOS</a> -</span>
+		<span class="nobr"><a href="/members/tos.asp#privacy">Privacy</a></span>
+		</div>
+		</div>
+		<table cellspacing="0" cellpadding="0" class="full nomo">
+		<tr>
+		<td id="copyright" class="nobr vaT">Copyright &copy; 2014 Weather Underground, Inc.</td>
+		<td id="moreInfo">
+		<span id="moAPI" class="none nobr"><a href="/weather/api/">Weather API</a> -</span>
+		<span class="nobr"><a href="/about/background.asp">About Us</a> -</span>
+		<span class="nobr"><a href="/about/contact.asp">Contact</a> -</span>
+		<span id="footer-feedback" class="none nobr">
+		<a href="http://help.wunderground.com/" onclick="_gaq.push(['_trackEvent', 'Feedback', 'Click']);">Feedback</a> -
+		</span>
+		<span class="nobr"><a href="http://help.wunderground.com/" onclick="_gaq.push(['_trackEvent', 'Support', 'Click']);">Support</a> -</span>
+		<span class="nobr"><a href="/about/employment.asp">Employment</a> -</span>
+		<span class="nobr"><a href="/about/pr/news.asp">Press Releases</a> -</span>
+		<span class="nobr"><a href="/members/tos.asp">Terms of Service</a> -</span>
+		<span class="nobr"><a href="/members/tos.asp#privacy">Privacy Statement</a> -</span>
+		<span class="nobr"><a href="http://store.wunderground.com/" target="new">WU Gear</a></span>
+		</td>
+		</tr>
+		</table>
+		</div>
+	</div>
+</div>
+	</section>
+		<section id="sidebar" role="complementary">
+	<nav id="sideMenu" role="navigation">
+		<ul id="sideProfile" class="signedOut">
+		<li>
+		<a href="https://www.wunderground.com/login.asp">Sign In</a>
+		</li>
+		</ul>
+		<ul id="sideMainNav" class="nav-bar">
+		<li class="nomob">
+		<a href="/wundermap/">WunderMap</a>
+		</li>
+		<li class="gotMore">
+		<a href="javascript:void(0);">Maps & Radar</a>
+		<ul class="sideSubNav">
+		<li class="sideGoBack"><a href="javascript:void(0);">Maps & Radar</a></li>
+		<li><a href="/wundermap/?units=english&rad=1&rad.num=1&rad.spd=25&rad.opa=81&rad.type=00Q&rad.type2=&rad.smo=1&rad.stm=0&sat=0&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0">WunderMap Radar</a></li>
+		<li><a href="/radar/map.asp">NEXRAD Radar</a></li>
+		<li><a href="/radar/mosaic.asp">U.S. Regional Radar</a></li>
+		<li><a href="/wundermap/?zoom=5&type=&tl.play=0&tl.spd=2&extremes=0&fault=0&femaflood=0&fire=0&firewfas=0&fissures=0&fronts=0&hurrevac=0&hur=0&lightning=0&livesurge=0&mm=0&ndfd=0&rad=0&dir=1&dir.mode=driving&sst=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&seismicrisk=0&svr=0&ski=0&snowfall=0&stormreports=0&tor=0&tfk=0&tsunami=0&riv=0&wxsn=0&cams=0&pix=0">Satellite</a></li>
+		<li><a href="/maps/">All Weather Maps</a></li>
+		</ul>
+		</li>
+		<li class="gotMore">
+		<a href="javascript:void(0);">Severe Weather</a>
+		<ul class="sideSubNav">
+		<li class="sideGoBack"><a href="javascript:void(0);">Severe Weather</a></li>
+		<li><a href="/email/emailsettings.asp">Weather Alerts</a></li>
+		<li><a href="/hurricane/">Hurricane &amp; Tropical Cyclones</a></li>
+		<li><a href="/severe.asp">US Severe Weather Map</a></li>
+		<li><a href="/severeconvective.asp">Convective Outlook</a></li>
+		<li><a href="/tornado/">Tornadoes</a></li>
+		<li><a href="/winter-storm/">Winter Storms</a></li>
+		<li><a href="/fire/">Wildfires</a></li>
+		<li><a href="/prepare/">Preparedness</a></li>
+		</ul>
+		</li>
+		<li class="gotMore">
+		<a href="javascript:void(0);">News &amp; Blogs</a>
+		<ul class="sideSubNav">
+		<li class="sideGoBack"><a href="javascript:void(0);">News &amp; Blogs</a></li>
+		<li><a href="/blog/JeffMasters/article.html">Dr. Jeff Masters</a></li>
+		<li><a href="/blog/">All Weather Blogs</a></li>
+		<li><a href="/news/">Recent News Stories</a></li>
+		</ul>
+		</li>
+		<li>
+		<a href="/history/">Historical Weather</a>
+		</li>
+		<li class="gotMore">
+		<a href="javascript:void(0);">Photos &amp; Video</a>
+		<ul class="sideSubNav">
+		<li class="sideGoBack"><a href="javascript:void(0);">Photos &amp; Video</a></li>
+		<li><a href="/wximage/">WunderPhotos</a></li>
+		<li><a href="/webcams/">Webcams</a></li>
+		<li><a href="/video/">Videos</a></li>
+		</ul>
+		</li>
+		<li>
+		<a href="/climate/">Climate Change</a>
+		</li>
+		<li class="gotMore">
+		<a href="javascript:void(0);">Activities</a>
+		<ul class="sideSubNav">
+		<li class="sideGoBack"><a href="javascript:void(0);">Activities</a></li>
+		<li><a href="/ski/">Ski &amp; Snow Reports</a></li>
+		<li><a href="/marine-weather/">Marine Weather</a></li>
+		<li><a href="/sailing-weather/">Sailing Weather</a></li>
+		<li><a href="/travelplanner/">Travel Planner</a></li>
+		<li><a href="/roadtrip/">Road Trip Planner</a></li>
+		</ul>
+		</li>
+		<li>
+		<a href="/sitemap/">Browse All</a>
+		</li>
+		</ul>
+		<div id="sideUnits">
+		<a href="/member/membersettings.html?page=prefs">Settings</a>
+		<div id="unitSwitch">
+		&deg;F | <a href="/cgi-bin/findweather/getForecast?setunits=metric" title="Switch to Metric">&deg;C</a>
+		</div>
+		</div>
+		<ul id="sideExtra">
+		<li><a href="/weatherstation/about.asp">Personal Weather Station Network</a>
+		<li><a href="/download/index.asp">Weather Underground Mobile Apps</a>
+		<li><a href="/weather/api/">Weather API for Developers</a>
+		<li><a href="/">Home</a>
+		</ul>
+	</nav>
+</section>
+<section id="sidebar-gutter"></section>
+		<div id="side-tab">
+	<div id="side-wrapper">
+		<a href="#" id="side-teaser">Try Our BETA</a>
+		<a href="//preview.wunderground.com/" id="side-message">
+		<div>We're updating<br />the WU experience.</div>
+		<div></br>Try it!</div>
+		</a>
+	</div>
+</div>
+<script>
+	(function(wui,$){
+	 $(function() {
+	 $( "#side-teaser" ).click(function() {
+	 $( "#side-tab" ).toggleClass( "openTab", 100 );
+	 return false;
+	 });
+	 });
+	})(wui,jQuery);
+</script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/swipe/2.0/swipe.min.js"></script>
+	<div id="iconspopcontainer"></div>
+	<script type="text/javascript">
+		(function($) {
+		jQuery("a[class^='iconSwitch']").click(function() {
+		icon = jQuery(this);
+		popcontain = jQuery('<div class="iconSwitchPop none"></div>').insertAfter('#iconspopcontainer');
+		jQuery(popcontain).load('/member/membersettings.html?responder=1&request=iconspopbox', function() {
+		jQuery(popcontain).removeClass("none");
+		jQuery(popcontain).position({ of: icon, my: "left top", at: "left top", offset: "0", collision: 'fit fit' });
+		});
+		return false;
+		});
+		$(".scrollAnchor").click(function(event){
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+		});
+		})(jQuery);
+	</script>
+	<!-- Start DFP ViewTargeting -->
+		<img src="http://www.wunderground.com/tag.php?ViewTarget_1=0.5" style="display:none;" />
+	<!-- End DFP ViewTargeting -->
+	<script src ="http://triggers1.weather.com/js/?resp_type=kv"></script>
+	<script>
+		if(window.innerWidth > 1024) {
+		var pos_top = "wx_bb";
+		var pos_mid = "wx_midldr";
+		var pos_bot = "wx_botldr";
+		}
+		else {
+		var pos_top = "mw_top";
+		var pos_mid = "wm_mid";
+		var pos_bot = "mw_bot";
+		}
+		//convert crtg_content into hash for utag_data
+		var criteo_array = (window['crtg_content']) ? crtg_content.split("|") : null;
+		var combined_hash = {};
+		for(var i in criteo_array){
+		var kv = criteo_array[i].split("=");
+		if(kv[1] == 1)
+		combined_hash[kv[0]] = kv[1];
+		}
+		//collect amazon keys
+		var amz_keys = (window['amznads']) ? amznads.getKeys() : null;
+		if(amz_keys){
+  for (var i = 0; i < amz_keys.length; i++) {
+        		combined_hash[amz_keys[i]] = "1";
+    		}
+		}
+
+	var utag_data = {
+		ad_placements :[
+			
+				["/7646/web_wunderground_us/home", [[728,90],[970,66],[970,250],[320,50]], "div-gpt-ad-615639597871654305-top", {"pos": pos_top, "atf": "1"}],
+			
+			
+			
+			
+				["/7646/web_wunderground_us/home", [[300,600],[300,250]], "div-gpt-ad-615639597871654305-1", {"pos": "wx_300var", "atf": "1",}],
+				
+			
+				["/7646/web_wunderground_us/home", [[300,80]], "div-gpt-ad-615639597871654305-2", {"pos": "wx_wp1", "atf": "1",}],
+				
+			
+				["/7646/web_wunderground_us/home", [[300,80]], "div-gpt-ad-615639597871654305-3", {"pos": "wx_wp2", "atf": "1",}],
+				
+			
+				["/7646/web_wunderground_us/home", [[300,80]], "div-gpt-ad-615639597871654305-4", {"pos": "wx_wp3", "atf": "1",}],
+				
+			
+				["/7646/web_wunderground_us/home", [[300,50]], "div-gpt-ad-615639597871654305-5", {"pos": "wx_hmd", "atf": "0"}],
+				
+			
+				["/7646/web_wunderground_us/home", [[636,50]], "div-gpt-ad-615639597871654305-6", {"pos": "wx_hsd", "atf": "0"}],
+				
+			
+			
+		],
+		ad_unit : "/7646/web_wunderground_us/home",
+		preempt : "y",
+	
+		site : "www",
+	
+	
+		layout : "wx_t3wsh",
+	
+	
+	
+	
+		exclude : "wund",
+	
+	
+	
+		page_view : "1",
+	
+	
+		twc_location_id : "48113$4",
+	
+		entry : "city",
+	
+		zip_code : "48113",
+	
+		claritas : "8",
+	
+		dma : "505",
+	
+		city : "Ann Arbor",
+	
+		state : "MI",
+	
+		country_code : "US",
+	
+		language : "EN",
+	
+		locale : "EN_US",
+	
+		temperature : "40h",
+	
+		temperature_range : "thaw",
+	
+		pollen : "hi",
+	
+		
+	
+		
+	
+		humidity : "lo",
+	
+		
+	
+		condition : "clr",
+	
+		
+	
+		forecast_high_increment : "50h",
+	
+		forecast_high_range : "cool",
+	
+		forecast_low_increment : "30l",
+	
+		forecast_low_range : "cold",
+	
+		forecast_day_1 : "ice",
+	
+		forecast_day_2 : "ice",
+	
+		forecast_day_3 : "rain",
+	
+		barometer : "rsng",
+	
+		weather_fx : (window['wfxtrigs']) ? wfxtrigs.split("=")[1] : null,
+		ad_bidding : combined_hash,
+	
+		page_name : "HomePage: /home",
+		channel : "HomePage",
+		content_type : "HomePage",
+		sub_section : "HomePage",
+		events : "",
+	
+	
+	
+	
+		search_type : "other",
+	
+	
+	
+		
+	
+		
+		page : "Index",
+		category : "Index",
+	
+		member_pws : "0",
+	
+	
+		member_webcam : "0",
+	
+	
+		member_translator : "0",
+	
+	
+		member_approver : "0",
+	
+	
+		member_zealot : "0",
+	
+	
+		member_moderator : "0",
+	
+	
+		member_favorites : "0",
+	
+		member_type : "non-member"
+	}
+	
+	</script>
+	<script>
+		(function(a,b,c,d){
+		a='//tags.tiqcdn.com/utag/weather/wunderground/prod/utag.js';
+		b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+		a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		})();
+	</script>
+</body>
+</html>
+<!-- WUICATEGORY | Index | Index -->
+<!-- SERVERHOSTNAME | 365-b8 | Apr  1 2014 14:40:59 -->

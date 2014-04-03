@@ -1,0 +1,277 @@
+
+
+<html>
+
+<head>
+<title>Ann Arbor Federation of Musicians</title>
+<style type="text/css" >
+<!--
+
+body {
+	background-color: #DADADA;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+td {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+	color: #4B4B4B;
+}
+
+a:active, a:link {
+ text-decoration:none;
+ color: #4E7DAB;
+}
+
+a:visited {
+ text-decoration:none;
+ color: #608AB2;
+}
+
+a:hover {
+ text-decoration:underline;
+ color: #4E7DAB;
+}
+
+.footer {
+  font-family: arial,sans-serif;
+  font-size: 11px;
+	color: #999999;
+}
+
+.ht2 {
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  font-weight:bold;
+	color: #8CB0D4;
+}
+
+.ft {
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  font-weight:bold;
+}
+
+.bandname {
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  font-weight:bold;
+	color: #748EA8;
+}
+
+.desc {
+  font-family: arial,sans-serif;
+  font-size: 11px;
+}
+
+.bb {
+	font-family: arial,sans-serif;
+	font-size: 8pt;
+}
+
+.bb2 {
+	font-family: arial,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+-->
+</style>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--
+
+boff = new Image();
+boff.src = "images/cube_grey.gif";
+bon = new Image();
+bon.src = "images/cube_blue.gif";
+
+function ImgFunc(imgDocID,imgObjName) {
+document.images[imgDocID].src = eval(imgObjName + ".src")
+}
+
+// -->
+
+</SCRIPT>
+
+</head>
+
+<body>
+
+<center>
+
+<table cellpadding="0" cellspacing="0" border="0" width="897">
+  <tr>
+	  <td><img src="images/header.jpg" alt="The Ann Arbor Federation of Musicians - Local 625" width="897" height="145"></td>
+	</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="897">
+  <tr>
+	  <td width="19" background="images/bkg_left.gif"><img src="images/spacer.gif" width="19" height="19"></td>
+		<td width="173" valign="top" align="center" style="background-image:url(http://annarbormusicians.org/images/bkg_nav.jpg);background-repeat:repeat-x;background-color:#BDCDDD;">
+		
+		<!-- NAVIGATION -->
+		
+		<table cellpadding="0" cellspacing="0" border="0">
+		  <tr>
+			  <td width="7"><img src="images/cube_grey.gif" name="b1"></td>
+				<td width="9"><img src="images/spacer.gif" width="9" height="9"></td>
+				<td><a href="index.asp" onMouseOver="ImgFunc('b1','bon')" onMouseOut="ImgFunc('b1','boff')"><img src="images/b_home.gif" border="0" alt="Home"></a></td>
+			</tr>
+			<tr>
+			  <td colspan="3"><img src="images/spacer.gif" width="10" height="10"></td>
+			</tr>
+		  <tr>
+			  <td width="7"><img src="images/cube_grey.gif" name="b2"></td>
+				<td width="9"><img src="images/spacer.gif" width="9" height="9"></td>
+				<td><a href="livemusic.asp" onMouseOver="ImgFunc('b2','bon')" onMouseOut="ImgFunc('b2','boff')"><img src="images/b_livemusic.gif" border="0" alt="Live Music"></a></td>
+			</tr>
+			<tr>
+			  <td colspan="3"><img src="images/spacer.gif" width="10" height="10"></td>
+			</tr>
+		  <tr>
+			  <td width="7"><img src="images/cube_grey.gif" name="b3"></td>
+				<td width="9"><img src="images/spacer.gif" width="9" height="9"></td>
+				<td><a href="instructors.asp" onMouseOver="ImgFunc('b3','bon')" onMouseOut="ImgFunc('b3','boff')"><img src="images/b_instructors.gif" border="0" alt="Instructors"></a></td>
+			</tr>
+			<tr>
+			  <td colspan="3"><img src="images/spacer.gif" width="10" height="10"></td>
+			</tr>
+		  <tr>
+			  <td width="7"><img src="images/cube_grey.gif" name="b4"></td>
+				<td width="9"><img src="images/spacer.gif" width="9" height="9"></td>
+				<td><a href="c_search.asp" onMouseOver="ImgFunc('b4','bon')" onMouseOut="ImgFunc('b4','boff')"><img src="images/b_classifieds.gif" border="0" alt="Classifieds"></a></td>
+			</tr>
+			<tr>
+			  <td colspan="3"><img src="images/spacer.gif" width="10" height="10"></td>
+			</tr>
+		  <tr>
+			  <td width="7"><img src="images/cube_grey.gif" name="b5"></td>
+				<td width="9"><img src="images/spacer.gif" width="9" height="9"></td>
+				<td><a href="board.asp" onMouseOver="ImgFunc('b5','bon')" onMouseOut="ImgFunc('b5','boff')"><img src="images/b_bb.gif" border="0" alt="Bulletin Board"></a></td>
+			</tr>
+			<tr>
+			  <td colspan="3"><img src="images/spacer.gif" width="10" height="10"></td>
+			</tr>
+		  <tr>
+			  <td width="7"><img src="images/cube_grey.gif" name="b6"></td>
+				<td width="9"><img src="images/spacer.gif" width="9" height="9"></td>
+				<td><a href="joinus.asp" onMouseOver="ImgFunc('b6','bon')" onMouseOut="ImgFunc('b6','boff')"><img src="images/b_joinus.gif" border="0" alt="Join Us"></a></td>
+			</tr>
+			<tr>
+			  <td colspan="3"><img src="images/spacer.gif" width="10" height="10"></td>
+			</tr>
+		  <tr>
+			  <td width="7"><img src="images/cube_grey.gif" name="b7"></td>
+				<td width="9"><img src="images/spacer.gif" width="9" height="9"></td>
+				<td><a href="about.asp" onMouseOver="ImgFunc('b7','bon')" onMouseOut="ImgFunc('b7','boff')"><img src="images/b_about.gif" border="0" alt="About the AAFM"></a></td>
+			</tr>
+			<tr>
+			  <td colspan="3"><img src="images/spacer.gif" width="10" height="10"></td>
+			</tr>
+		  <tr>
+			  <td width="7"><img src="images/cube_grey.gif" name="b8"></td>
+				<td width="9"><img src="images/spacer.gif" width="9" height="9"></td>
+				<td><a href="membersonly.asp" onMouseOver="ImgFunc('b8','bon')" onMouseOut="ImgFunc('b8','boff')"><img src="images/b_membersonly.gif" border="0" alt="Members Only"></a></td>
+			</tr>
+			<tr>
+			  <td colspan="3"><img src="images/spacer.gif" width="150" height="150"></td>
+			</tr>
+		</table>
+		</td>
+	  <td width="1" background="images/vr.gif"><img src="images/spacer.gif" width="1" height="1"></td>
+		<td bgcolor="#FFFFFF" style="padding-left:20px;padding-right:20px;align:left;" valign="top">
+
+
+		
+		<img src="images/h_welcome.gif" alt="Welcome!">
+		
+		<br /><br />
+		
+
+		
+		
+<table cellpadding="0" cellspacing="0" border="0">
+  <tr>
+	  <td>
+		
+    Whether planning a wedding, special event or seeking music instruction we encourage you to browse 
+    our comprehensive on-line directory of Ann Arbor area 
+    live music
+    <a href="livemusic.asp">performing groups</a>,
+    <a href="livemusic.asp">soloists</a>
+     and
+    <a href="instructors.asp">private instructors</a>.
+    
+    <P>
+    
+    If you are a musician, please go to
+    <a href="joinus.asp">Join Us</a> 
+    for more information on becoming a member. The 
+    <a href="about.asp">Ann Arbor Federation of Musicians</A> 
+     is the local office of the 
+    <a href="http://afm.org" TARGET="_blank">American Federation of Musicians</A>, 
+    which provides contract support to member musicians, and a free referral service for 
+    the public. We strive to serve both communities to the highest level. 
+		
+		</td>
+		
+    <td><img src="/images/artist4.jpg" style="margin-left:15px;border:1px #000000 solid"></td>
+  </tr>
+</table>
+		
+<br / ><br />
+
+<a href="Score_2013_4_FINAL.pdf" target="_blank"><img src="images/thescore.gif" alt="View the current issue of The Score, the AAFM's quarterly newsletter." border="0"></a>
+<br / ><br />
+
+<B>NEW! 2014 AAFM High School Scholarship <A HREF="/docs/2014/Scholarship_Award_info_2014.pdf" target="_new">Info</A> & <A HREF="/docs/2014/Scholarship_Application_2014.pdf" target="_new">Application</A></B>
+
+
+
+<br /><br />
+
+		</td>
+	  <td width="19" background="images/bkg_right.gif"><img src="images/spacer.gif" width="19" height="19"></td>
+	</tr>
+</table>
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="897">
+  <tr>
+	  <td width="19" background="images/bkg_left.gif"><img src="images/spacer.gif" width="19" height="19"></td>
+		<td width="173" bgcolor="#BDCDDD" valign="top">&nbsp;</td>
+	  <td width="1" background="images/vr.gif"><img src="images/spacer.gif" width="1" height="1"></td>
+		<td bgcolor="#E8ECF0" style="padding-top:20px;padding-left:20px;padding-right:20px;align:left;" valign="top" class="footer">
+		
+<A HREF="http://www.facebook.com/pages/Ann-Arbor-Federation-of-Musicians/259982420620" TARGET="_new"><IMG SRC="images/findusfb.gif" BORDER=0 ALIGN="right"></A>
+
+<B>Ann Arbor Federation of Musicians</B> - PO Box 980313 Ypsilanti, MI 48198<BR>
+Phone: (734) 668-8041 | Fax: (866) 225-2236 | E-Mail: <A HREF="mailto:local625@afm.org"><I>local625@afm.org</I></A><BR>
+Office Hours: Monday, Wednesday, Friday 9 a.m. - 1 p.m.
+<P>
+© Ann Arbor Federation of Musicians. All rights reserved. <A HREF="terms.asp"><B>Terms of Use</B></A> | <A HREF="privacy.asp"><B>Privacy Policy</B></A><BR>
+Site produced and hosted by <A HREF="http://ias.net"><B>IAS</B></A>.
+
+		</td>
+	  <td width="19" background="images/bkg_right.gif"><img src="images/spacer.gif" width="19" height="19"></td>
+	</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="897">
+  <tr>
+	  <td><img src="images/footer.jpg" alt="Footer"></td>
+	</tr>
+</table>
+
+</center>
+
+</body>
+
+</html>

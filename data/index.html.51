@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cotton: The Fabric of Our Lives</title>
+    <meta name="description" content="Your destination for everything from fashion inspiration to fiber information. See how cotton is the fabric of your life.">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- browser check -->
+    <script src="js/browsercheck.js"></script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+	
+    <div id="page-wrap">
+    	<header role="banner">
+        	<div class="branding"><a href="/" class="ir">The Fabric of Our Lives&reg;</a></div>
+            
+            <ul class="related-links unstyled clearfix">
+            	<li class="updates"><a href="#">Email Updates</a></li>
+                <!-- <li class="mysfab"><a href="http://www.mysteryfabric.com" target="_blank">Explore <em>Mysteryfabric.com</em></a></li> -->
+                <li class="instagram"><a href="http://instagram.com/discover_cotton" target="_blank" class="icon ir">Instagram</a></li>
+                <li class="facebook"><a href="https://www.facebook.com/cotton" target="_blank" class="icon ir">Facebook</a></li>
+                <li class="twitter"><a href="https://twitter.com/DiscoverCotton" target="_blank" class="icon ir">Twitter</a></li>
+                <li class="pinterest"><a href="http://pinterest.com/discovercotton" target="_blank" class="icon ir">Pinterest</a></li>
+            </ul>
+            
+            <div class="divider-light"></div>
+            
+            <nav role="navigation" id="primary-nav">
+            	<ul class="unstyled clearfix">
+                	<li><a href="campaign.html">The Campaign</a></li>
+                    <li><a href="http://cottonstylefiles.thefabricofourlives.com">Style Files Blog</a></li>
+                    <li class="last"><a href="http://cotton24hours.thefabricofourlives.com">24 Hour Runway Show</a></li>
+                </ul>
+            </nav>
+            
+            <div class="divider-light"></div>
+            
+            <nav role="navigation" id="secondary-nav">
+                <div class="email"><a href="#">Email this site</a></div>
+            </nav>
+            
+            <div class="divider-light"></div>
+            
+        </header>
+        
+        <main role="main">
+        	
+            <div id="home-flash-wrap">
+            	<div id="home-flash"></div>
+            </div>
+            
+        </main>
+        
+		<div class="divider-dark"></div>
+        
+        <footer>
+        	<nav role="navigation" id="footer-nav">
+            	<ul class="unstyled clearfix">
+                	<li class="first"><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="Contact-Us/">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <ul class="related-links unstyled clearfix">
+                <li class="instagram"><a href="http://instagram.com/discover_cotton" target="_blank" class="icon ir">Instagram</a></li>
+                <li class="facebook"><a href="https://www.facebook.com/cotton" target="_blank" class="icon ir">Facebook</a></li>
+                <li class="twitter"><a href="https://twitter.com/DiscoverCotton" target="_blank" class="icon ir">Twitter</a></li>
+                <li class="pinterest"><a href="http://pinterest.com/discovercotton" target="_blank" class="icon ir">Pinterest</a></li>
+            </ul>
+            
+            <p class="legal">AMERICA'S COTTON PRODUCERS AND IMPORTERS. Service Marks / Trademarks of Cotton Incorporated. &copy; <span class="year"></span> Cotton Incorporated.</p>
+        </footer>
+        
+        <div class="divider-dark"></div>
+        
+    </div><!-- end page-wrap -->
+	
+    <p class="secondaryLegal">This website uses the Instagram&trade; API and is not endorsed or certified by Instagram or Instagram, Inc. <br>
+    	All Instagram&trade; logos and trademarks displayed on this website are property of Instagram, Inc.</p>
+	
+    
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/vendor/jquery.jqURL.min.js"></script>
+    <script src="js/vendor/swfobject.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+
+    <script>
+        var _gaq=[['_setAccount','UA-314078-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    
+    
+<!-- Begin 33Across Tag -->
+<img src="http://pixel.33across.com/ps/?pid=123&amp;cgn=15314&amp;seg=21790"style="visibility:hidden;width:1px;height:1px;">
+<!-- End 33Across Tag -->
+
+</body>
+</html>

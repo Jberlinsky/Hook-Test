@@ -1,0 +1,2351 @@
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en">
+
+<head>
+		<title>Information for the World's Business Leaders - Forbes.com</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, maximum-scale=2.0" />
+		<meta name="description" content="Forbes is a leading source for reliable business news and financial information. Read news, politics, economics, business &amp; finance on Forbes.com" />
+		<meta name="keywords" content="Business news, market analysis, company profiles, personal finance, management, entrepreneurship, investments, financial advice, economy, technology news." />
+		<meta name="apple-itunes-app" content="app-id=588647136" />
+		<meta property="og:title" content="Information for the World&#39;s Business Leaders" />
+		<meta property="og:site_name" content="Forbes.com" />
+		<meta property="og:url" content="http://www.forbes.com/home_usa/" />
+		<meta property="og:image" content="http://images.forbes.com/media/assets/forbes_1200x1200.jpg" />
+		<meta property="og:description" content="Forbes is a leading source for reliable business news and financial information. Read news, politics, economics, business &amp; finance on Forbes.com" />
+		<meta property="fb:app_id" content="123694841080850" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@forbes" />
+		<link rel="canonical"   href="http://www.forbes.com/home_usa/" />
+		<link rel="alternate" type="application/rss+xml" title="Information for the World's Business Leaders - Forbes.com - RSS" href="http://www.forbes.com/real-time/feed2/" />
+	<script type="text/javascript" src="http://images.forbes.com/scripts/js_options.js"></script>
+		<script src="//cdn.optimizely.com/js/241505899.js"></script>
+	<script type="text/javascript">
+    	(function (){
+
+			window.displayedChannel = 'home';
+			window.displayedSection = 'Main';
+
+			// Check if welcome ad is not disabled
+			if(typeof forbes !== "undefined" && typeof forbes.js_options !== "undefined" && !forbes.js_options.welcome_ad_disable ){
+
+				var midnight = new Date(),
+					offset = -4 // if offset is not set, by default time is UTC 6:00am i.e EST 1am & EDT 12am for dailyWelcomeCookie expiration
+				;
+
+				if(midnight.getUTCHours() >= -offset)
+					midnight.setUTCDate(midnight.getUTCDate()+1)
+				;
+
+				midnight.setUTCHours(-offset);
+				midnight.setUTCMinutes(00);
+				midnight.setUTCSeconds(00);
+
+
+				var welcomeCookie = "welcomeAd=sessionCookie",
+					interstitial_cookie = '_forbes_exit_interstitial_timer',
+					tomorrow = new Date(),
+					month = tomorrow.getMonth(),
+					day = tomorrow.getDate(),
+					dailyWelcomeCookie = 'dailyWelcomeCookie=dailyCookie',
+					browser_user_agent = window.navigator.userAgent.toLowerCase(),
+					page_type = 'us',
+					swimlane = '',
+					brand_voice = 'false'
+				;
+
+				if ((document.cookie.indexOf(welcomeCookie)==-1 || document.cookie.indexOf(dailyWelcomeCookie) == -1)
+					&& (window.navigator.userAgent.indexOf("Mozilla")>-1)
+					&& (browser_user_agent.indexOf("googlebot")==-1)
+					&& (browser_user_agent.indexOf("google web preview")==-1)
+					&& (window.location.host.indexOf("forbes.com")!=-1)
+					&& (window.location.search.indexOf("partner=yahoo")==-1)
+					&& (window.location.search.indexOf("partner=msn")==-1)
+					&& (window.location.search.indexOf("partner=aol")==-1)
+					&& (window.location.search.indexOf("partner=omg")==-1)
+					&& (window.location.search.indexOf("partner=huffpo")==-1)
+					&& (window.location.search.indexOf('nowelcome')==-1)
+					&& (swimlane.indexOf("rico")!=0 || page_type != 'article')
+					&& brand_voice==='false'){
+
+					if(document.cookie.indexOf(welcomeCookie) == -1 ){
+						document.cookie = welcomeCookie +'__welcome'+(month+1)+day+'; path=/; domain=.forbes.com';
+					}
+
+					if(document.cookie.indexOf(dailyWelcomeCookie) == -1){
+						document.cookie = dailyWelcomeCookie+'_forDate'+(month+1)+day+'; path=/; domain=.forbes.com; expires=' + midnight.toGMTString();
+					}
+
+					// check if interstitial's cookie hasn't been set already
+					if(document.cookie.indexOf( interstitial_cookie ) == -1){
+
+						// it doesn't exist; let's create the interstitial cookie and set it
+						// with the current timestamp
+
+						var now = new Date(),
+							now_time = now.getTime(),
+							expiration_date = new Date()
+						;
+
+						expiration_date
+							.setDate( expiration_date.getDate() + 365)
+						;
+
+						// set interstitial cookie to the current time
+						document.cookie = interstitial_cookie + '='+ now_time +'; path=/; domain=.forbes.com; expires=' + expiration_date.toUTCString();
+					}
+
+					if (document.cookie.indexOf(welcomeCookie) != -1 || document.cookie.indexOf(dailyWelcomeCookie) != -1){
+
+						// this cookie is used by interstitial_ad.js to determine if the user received a
+						// welcome ad before viewing the current page.
+						document.cookie="last_welcomead_url"+ "=" +escape(document.URL)+";path=/; domain=.forbes.com";
+
+						document.cookie="toURL"+ "=" +escape(document.URL)+";path=/; domain=.forbes.com";
+						document.cookie="refURL"+ "=" +escape(document.referrer)+";path=/; domain=.forbes.com";
+						this.location='http://www.forbes.com/fdc/welcome_mjx.shtml';
+					}
+				}
+
+			}
+		})();
+	</script>
+		<link rel="stylesheet" type="text/css" href="http://i.forbesimg.com/scripts/combined/css/global.2238c3f0b9c95947af78c4e993bb73beca9d3795.css" />
+		<link rel="stylesheet" type="text/css" href="http://i.forbesimg.com/scripts/combined/css/home.2bffef85b004f83cab8af953a9ec3022ea153905.css" />
+		<script type="text/javascript" src="http://i.forbesimg.com/scripts/combined/js/head.e9389f10782625af1b972cd2ff1521d940724baa.js"></script>
+</head>
+
+<body class="body_homepage">
+
+	<!-- Header -->
+	
+<header class="global enable_sticky_header">
+	<div class="container minimum">
+		<nav>
+			<span class="edittools-goggles-hitmask">
+				<span class="edittools-goggles-hitarea">
+					<span class="edittools-goggles-toggle attach-click" title="Toggle Edit Tools"></span>
+				</span>
+			</span>
+			<span class="edittools-goggles-rule"></span>
+
+
+<div class="account_wrapper gradient_grey">
+		<a class="button account" href="http://blogs.forbes.com/account/" data-ga-event="Header,LinkFollowed,account" data-ga-event-trigger="click">
+			<span class="border left"></span>
+			<span class="icon arrow"></span>
+			<img src="http://i.forbesimg.com/assets/img/anon_avatar.png" alt="">
+		</a>
+
+	<div class="rollover rollover_box" style="display:none;">
+		<span class="icon arrow"></span>
+
+
+
+			<div class="one_column">
+
+				<div class="external_auth_options">
+					<h3>Log in with your social account:</h3>
+					<div id="gigya_accountdropdown_extralarge_div"></div>
+					<div class="clear"></div>
+				</div>
+
+				<hr class="dotted">
+
+				<h3>Or, you can
+					<a class="ajaxify unireg_login" href="http://blogs.forbes.com/account/login/" label="login">log in</a>
+					or
+					<a class="ajaxify unireg_register" href="http://blogs.forbes.com/account/register/" label="signup">sign up</a>
+					using Forbes.
+				</h3>
+			</div>
+
+
+	</div><!--end div.rollover_account-->
+</div><!-- end div.account_wrapper-->
+
+			<ul class="main gradient_grey">
+	<li class="home">
+		<a href="http://www.forbes.com" class="button logo" data-nav-ajax-url="/header/channels" data-ga-event="Header,LinkFollowed,home" data-ga-event-trigger="click">
+			<span class="border right"></span>
+			<span class="icon arrow"></span>
+			<img class="svg" style="display:none;" alt="Forbes" src="http://i.forbesimg.com/assets/img/forbes_logo/forbes_logo_white.svg">
+			<img class="png" alt="Forbes" src="http://i.forbesimg.com/assets/img/forbes_logo/forbes_logo_white.png">
+		</a>
+
+		<div class="rollover rollover_box"><!-- ie --></div>
+	</li>
+
+	<li class="menu menu1 gradient_grey">
+		<a href="http://www.forbes.com/real-time/" class="button" data-ga-event="Header,LinkFollowed,realtime" data-ga-event-trigger="click">
+			<span class="border left"></span>
+			<span class="border right"></span>
+			<span class="label main">New Posts</span>
+				<span class="label sub">+1 posts this hour</span>
+		</a>
+		<span class="gradient_edge"></span>
+	</li>
+
+	<li class="menu menu2 gradient_grey">
+
+
+				<a href="http://www.forbes.com/most-popular/" class="button" data-ga-event="Header,LinkFollowed,popular" data-ga-event-trigger="click">
+					<span class="border left"></span>
+					<span class="border right"></span>
+					<span class="label main"><span class="collapsable">Most </span>Popular</span>
+				</a>
+
+				<a href="http://www.forbes.com/sites/zackomalleygreenburg/2014/03/26/why-wu-tang-will-release-just-one-copy-of-its-secret-album/" class="label sub edittools-item" data-et-location="headersubnav1" data-et-context="headersubnav" data-et-item-type="link" data-et-item_id="headersubnav1" data-ga-event="Header,LinkFollowed,popularpromo" data-ga-event-trigger="click">
+					Wu-Tang's Secret Album
+				</a>
+		<span class="gradient_edge"></span>
+	</li>
+
+
+	<li class="menu menu3 gradient_grey">
+
+
+
+				<a href="http://www.forbes.com/lists/" class="button" data-ga-event="Header,LinkFollowed,lists" data-ga-event-trigger="click">
+					<span class="border left"></span>
+					<span class="border right"></span>
+					<span class="label main">Lists</span>
+				</a>
+
+				<a href="http://www.forbes.com/midas/" class="label sub edittools-item" data-et-location="headersubnav2" data-et-context="headersubnav" data-et-item-type="link" data-et-item_id="headersubnav2" data-ga-event="Header,LinkFollowed,listspromo" data-ga-event-trigger="click">
+					The Midas List
+				</a>
+		<span class="gradient_edge"></span>
+	</li>
+
+
+	<li class="menu menu4 gradient_grey">
+
+
+				<a href="http://www.forbes.com/video/" class="button" data-ga-event="Header,LinkFollowed,video" data-ga-event-trigger="click">
+					<span class="border left"></span>
+					<span class="border right"></span>
+					<span class="label main">Video</span>
+				</a>
+
+				<a href="http://www.forbes.com/video/2638649033001/" class="label sub edittools-item" data-et-location="headersubnav3" data-et-context="headersubnav" data-et-item-type="link" data-et-item_id="headersubnav3" data-ga-event="Header,LinkFollowed,videopromo" data-ga-event-trigger="click">
+					The Biz Behind Fenway
+				</a>
+		<span class="gradient_edge"></span>
+	</li>
+
+
+	<li class="search gradient_grey global_search_control typeahead_anchor">
+		<span class="border left"></span>
+		<span class="border right"></span>
+		<form class="form_global_search" action="/search/">
+			<div class="search_bar">
+				<div class="input_holder">
+					<input name="q" class="search_input" type="text" value="" placeholder="Search" data-placeholder-short="Search" data-placeholder-long="Search companies, people and lists" autocomplete="off">
+					<input class="form_submit" type="submit" value="submit">
+					<span class="loading_msg"></span>
+					<span class="loading_spinner"><img src="http://i.forbesimg.com/assets/img/loading_spinners/16px_grey.gif" height="16" width="16" alt=""></span>
+				</div>
+			</div>
+		</form>
+		
+		<div class="typeahead_results_holder">
+			<div class="box_topper"></div>
+			<div class="results"><ul></ul></div>
+		</div><!-- end div.typeahead_results_holder -->
+		
+	</li><!-- end li.search-->
+			</ul>
+		</nav>
+	</div><!-- end div.container (opened by js doc write) -->
+</header>
+
+
+<div class="top_link_strip">
+
+	<div class="left_promo">
+		<!-- promoted subscription link -->
+
+
+			<a data-et-item_id="headersubnavtopleftlink" data-et-item-type="link" data-et-context="headersubnav" data-et-location="headersubnavtopleftlink" class="edittools-item" href="http://bit.ly/1rXB627">
+			9 Stocks to Buy For the Aging Bull Market
+			</a>
+
+	</div>
+
+		<div id="header_userinfo">
+
+			<!-- login header -->		<div class="ribbon-item">			<a class="inlink inlink-topnav" href="http://blogs.forbes.com/help/">Help</a>		</div>		<span class="divider">|</span>		<div class="gigya_chicklet_mask">			<div class="ribbon-item ribbon-item-gigya">				<div class="login_options">					<span>Connect</span>				</div>				<div id="gigyalogindiv" class="gigya_chicklet_holder"></div>			</div>			<span class="divider">|</span>		</div>		<div class="last ribbon-item">			<a class="unireg_register ajaxify regbutton regbutton-signup" href="http://blogs.forbes.com/account/register/" title="Sign up for a Forbes account" data-ga-event="Account,Signup,headersignuptext" data-ga-event-trigger="click">Sign up</a></div><span class="divider">|</span><div class="ribbon-item"><a class="unireg_login ajaxify regbutton regbutton-login" href="http://blogs.forbes.com/account/login/" title="Log in to your Forbes account" data-ga-event="Account,Login,headerlogintext" data-ga-event-trigger="click">Log in</a>		</div><!-- end login header -->
+
+	</div><!--end div#header_userinfo -->
+
+	<div class="clear"></div>
+</div>
+
+    <div class="leaderboard above_header">
+		<script>(function() {var src = "http://ad.doubleclick.net/N7175/adj/fdc.forbes/home;id=home_usa;rb=yes;pos=top;sz=728x90,970x66,970x250,970x90;tile=1;";if(window.Krux && window.Krux.dfppKeyValues) { src = src+window.Krux.dfppKeyValues; }else if(window.parent && window.parent.Krux && window.parent.Krux.dfppKeyValues) { src = src+window.parent.Krux.dfppKeyValues; }src += ";ord=1370443921?";document.write('<script src="'+src+'"></s'+'cript>');})();</script>
+    </div>
+
+
+	<section class="stack top_stories">
+		<div class="stack_wrapper clearfix">
+			<h2>Top Stories</h2>
+			<div class="follow_links">
+				<span class="follow">Follow Forbes</span>
+				<ul>
+					<li><a target="_blank" href="http://www.youtube.com/forbes" class="youtube"></a></li>
+					<li><a target="_blank" href="https://plus.google.com/u/0/102281638880464201271/posts" class="google_plus"></a></li>
+					<li><a target="_blank" href="http://www.linkedin.com/today/forbes.com" class="linkedin"></a></li>
+					<li><a target="_blank" href="http://twitter.com/forbes" class="twitter"></a></li>
+					<li class="left"><a target="_blank" href="http://www.facebook.com/forbes" class="facebook"></a></li>
+				</ul>
+			</div><!-- end div.sharing_controls -->
+
+			<div class="forbesui navpills country_toggle">
+				<ul>
+					<li class="active">
+						<a href="http://www.forbes.com/home_usa/">U.S.</a>
+						<span class="arrow"><span class="icon"></span></span>
+					</li>
+					<li class="">
+						<a href="http://www.forbes.com/home_europe/">Europe</a>
+						<span class="arrow"><span class="icon"></span></span>
+					</li>
+					<li class="">
+						<a href="http://www.forbes.com/home_asia/">Asia</a>
+						<span class="arrow"><span class="icon"></span></span>
+					</li>
+				</ul>
+			</div><!-- end div.country_toggle -->
+
+
+	<!-- Getting '/shared/promo/mainstory_withheadlines.ftl' -->
+
+
+
+
+
+		<!-- /shared/promo/ -->
+		<!-- mainstory_withheadlines -->
+		<!-- /shared/promo/mainstory_withheadlines.ftl -->
+				<div class="edittools-promoblock mainstory_withheadlines" data-et-context="topstories" data-et-location-id="hometopfeature" data-et-panel-id="panel8">
+
+
+			<article data-et-content-id="content_533c38dde4b0c3d880cb1ddc" class="feature promostory promostory-1">
+
+				<a class="editable editable-img  " href="http://www.forbes.com/sites/michelinemaynard/2014/04/02/is-gm-ceo-mary-barra-being-thrown-under-the-bus/">
+					<img src="http://i.forbesimg.com/images/channels/hometopfeature_panel5_0_mainstory-1396472372.jpg" alt="Is GM CEO Mary Barra Being Thrown Under The Bus?" />
+					
+					
+				</a>
+
+
+	 					<h3 class="editable editable-hed"><a href="http://www.forbes.com/sites/michelinemaynard/2014/04/02/is-gm-ceo-mary-barra-being-thrown-under-the-bus/">Is GM CEO Mary Barra Being Thrown Under The Bus?</a></h3>
+
+				<p class="editable editable-dek">
+					For two days this week, Barra withstood a barrage of Congressional questioning over GM’s recall crisis. She apologized, repeatedly insisted that there is a 'new GM' and promised a full investigation.
+				</p>
+
+
+
+
+
+
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/207732" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/michelinemaynard/' class="avatar">
+					<img src='http://0.gravatar.com/avatar/809d3147c003c75b442f1094776a2af0?s=40&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Micheline Maynard" />
+				</a>
+
+				<span class="name_and_desc">
+<a href='http://www.forbes.com/sites/michelinemaynard/' class="user">Micheline Maynard</a>, Contributor				</span>
+		</cite>
+
+
+
+			</article>
+
+		<div class="headline_list">
+			<ul>
+
+						<li class="promostory promostory-2" data-et-content-id="content_533c5e71e4b0c3d880cb1f57">
+	 		 					<h4 class="editable editable-hed">
+	 		 					    <a href="http://www.forbes.com/sites/howardgleckman/2014/04/02/the-real-value-of-obamacare-has-nothing-to-do-with-enrollment/">The Real Value Of ObamaCare Has Nothing To Do With Enrollment</a>
+	 		 					</h4>
+
+
+
+
+
+
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/138531" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/howardgleckman/' class="avatar">
+					<img src='http://0.gravatar.com/avatar/6e28bc68dcaa04525a1c3e1096b274d0?s=40&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Howard Gleckman" />
+				</a>
+
+				<span class="name_and_desc">
+<a href='http://www.forbes.com/sites/howardgleckman/' class="user">Howard Gleckman</a>, Contributor				</span>
+		</cite>
+
+
+				    	</li>
+
+						<li class="promostory promostory-3" data-et-content-id="content_5314c8c2e4b039a5ff2d03b4">
+	 		 					<h4 class="editable editable-hed">
+	 		 					    <a href="http://www.forbes.com/sites/samanthasharf/2014/04/02/cant-control-your-spending-theres-an-app-for-that-but-does-it-work/">Can't Control Your Spending? There's An App For That, But Does It Work?</a>
+	 		 					</h4>
+
+
+
+
+
+
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/353268" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/samanthasharf/' class="avatar">
+					<img src='http://0.gravatar.com/avatar/c7041225ee8544653120d0732c9767f6?s=40&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Samantha Sharf" />
+				</a>
+
+				<span class="name_and_desc">
+<a href='http://www.forbes.com/sites/samanthasharf/' class="user">Samantha Sharf</a>, Forbes Staff				</span>
+		</cite>
+
+
+				    	</li>
+
+						<li class="promostory promostory-4" data-et-content-id="content_533c60e3e4b0c3d880cb1f6f">
+	 		 					<h4 class="editable editable-hed">
+	 		 					    <a href="http://www.forbes.com/sites/danielfisher/2014/04/02/hysteria-aside-mccutcheon-didnt-gut-campaign-finance-rules-yet/">Hysteria Aside, McCutcheon Didn't Gut Campaign-Finance Rules Yet</a>
+	 		 					</h4>
+
+
+
+
+
+
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/52" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/danielfisher/' class="avatar">
+					<img src='http://0.gravatar.com/avatar/6e170f61ef807656e700401eab2ed68c?s=40&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Daniel Fisher" />
+				</a>
+
+				<span class="name_and_desc">
+<a href='http://www.forbes.com/sites/danielfisher/' class="user">Daniel Fisher</a>, Forbes Staff				</span>
+		</cite>
+
+
+				    	</li>
+
+						<li class="promostory promostory-5" data-et-content-id="content_533c4855e4b0c3d880cb1e7e">
+	 		 					<h4 class="editable editable-hed">
+	 		 					    <a href="http://www.forbes.com/sites/kashmirhill/2014/04/02/google-goes-where-facebook-never-has-with-narcissism-stats/">Google+ Goes Where Facebook Never Has With Narcissism Stats</a>
+	 		 					</h4>
+
+
+
+
+
+
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/1069" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/kashmirhill/' class="avatar">
+					<img src='http://1.gravatar.com/avatar/1d11df86e86dd42305270b82b4bca597?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Kashmir Hill" />
+				</a>
+
+				<span class="name_and_desc">
+<a href='http://www.forbes.com/sites/kashmirhill/' class="user">Kashmir Hill</a>, Forbes Staff				</span>
+		</cite>
+
+
+				    	</li>
+
+						<li class="promostory promostory-6" data-et-content-id="content_533c37f3e4b0c3d880cb1dd3">
+	 		 					<h4 class="editable editable-hed">
+	 		 					    <a href="http://www.forbes.com/sites/mikeozanian/2014/04/02/buying-buffalo-bills-would-save-donald-trump-a-fortune-in-taxes/">Buying Buffalo Bills Would Save Donald Trump A Fortune In Taxes</a>
+	 		 					</h4>
+
+
+
+
+
+
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/8" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/mikeozanian/' class="avatar">
+					<img src='http://1.gravatar.com/avatar/53109ce94260546eb9ea6d359d5ec063?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Mike Ozanian" />
+				</a>
+
+				<span class="name_and_desc">
+<a href='http://www.forbes.com/sites/mikeozanian/' class="user">Mike Ozanian</a>, Forbes Staff				</span>
+		</cite>
+
+
+				    	</li>
+
+						<li class="promostory promostory-7" data-et-content-id="content_533c35ede4b0c3d880cb1db9">
+	 		 					<h4 class="editable editable-hed">
+	 		 					    <a href="http://www.forbes.com/ebooks/inside-obamacare-the-fix-for-americas-ailing-health-care-system/">Inside Obamacare: The New E-Book From FORBES</a>
+	 		 					</h4>
+
+
+
+
+
+
+
+
+
+
+				    	</li>
+			</ul>
+		</div><!-- end div.headline_list -->
+	</div>
+ 
+
+	<div class="video_block brightcove_wrapper">
+		<!-- Start of Brightcove Player -->
+		<div class="video_data" data-key-values="id=home_usa;" data-sz="300x255" data-volume="0.1" data-next-page=""></div>
+		<object id="homepage_video" class="BrightcoveExperience advanced buffer_limit rendition_selection">
+			<param name="bgcolor" value="#FFFFFF" />
+			<param name="width" value="300" />
+			<param name="height" value="540" />
+			<param name="playerID" value="2540257912001" />
+			<param name="playerKey" value="AQ~~,AAAB6EYTR0k~,fdb8Mwy5g9Ho0pTdnL5otGNLR2CRf73j" />
+			<param name="isVid" value="true" />
+			<param name="isUI" value="true" />
+			<param name="dynamicStreaming" value="true" />
+			<param name="autoStart" value="true" />
+			<param name="@playlistCombo" value="2563863406001"/>
+			<param name="includeAPI" value="true" />
+			<param name="wmode" value="transparent" />
+	  		<param name="templateLoadHandler" value="forbes.brightcove_video.homepage_video.onTemplateLoaded" />
+	  		<param name="templateReadyHandler" value="forbes.brightcove_video.homepage_video.onTemplateReady" />
+		</object>
+		<!-- End of Brightcove Player -->
+	</div>
+
+			<div class="clear"></div>
+		</div><!-- div.stack_wrapper -->
+	</section>
+
+	<section class="stack most_popular">
+		<div class="stack_wrapper clearfix">
+			<h2>Most Popular</h2>
+
+			<section class="popular_top_stories">
+				<ol>
+			<li class="edittools-contentitem first_item" data-et-id="content_533b1cbce4b0c3d880cb17e2">
+				<h3><a href="http://www.forbes.com/sites/rickungar/2014/04/01/hobby-lobby-401k-discovered-to-be-investor-in-numerous-abortion-and-contraception-products-while-claiming-religious-objection/">Hobby Lobby Invested In Numerous Abortion And Contraception Products While Claiming Religious Objection</a></h3>
+					<span class="reason" data-reason="FB">Active on Facebook<span class="icon"></span></span>
+			</li>
+			<li class="edittools-contentitem" data-et-id="content_533be5abe4b0c3d880cb1b32">
+				<h3><a href="http://www.forbes.com/sites/ewanspence/2014/04/02/the-mobile-browser-is-dead-long-live-the-app/">The Mobile Browser Is Dead, Long Live The App</a></h3>
+					<span class="reason" data-reason="LI">Active on LinkedIn<span class="icon"></span></span>
+			</li>
+			<li class="edittools-contentitem" data-et-id="content_533c2184e4b0c3d880cb1c91">
+				<h3><a href="http://www.forbes.com/sites/ryanellis/2014/04/02/hobby-lobby-owners-can-have-a-401k-and-first-amendment-rights/">Hobby Lobby Owners Can Have a 401(k) and First Amendment Rights</a></h3>
+					<span class="reason" data-reason="CM-D">+35 comments in last 24 hours<span class="icon"></span></span>
+			</li>
+			<li class="edittools-contentitem" data-et-id="content_533b0cf0e4b06efaf827218a">
+				<h3><a href="http://www.forbes.com/sites/alexmorrell/2014/04/01/facebooks-mark-zuckerberg-now-among-billionaire-ceos-earning-1-salary/">Facebook's Mark Zuckerberg Now Among Billionaire CEOs Earning $1 Salary</a></h3>
+					<span class="reason" data-reason="LI">Active on LinkedIn<span class="icon"></span></span>
+			</li>
+			<li class="edittools-contentitem" data-et-id="content_5338ef01e4b06efaf827128f">
+				<h3><a href="http://www.forbes.com/sites/glennllopis/2014/03/31/the-best-leaders-make-unforgettable-first-impressions/">The Best Leaders Make Unforgettable First Impressions</a></h3>
+					<span class="reason" data-reason="LI">Active on LinkedIn<span class="icon"></span></span>
+			</li>
+				</ol>
+
+				<div class="about_forbes_velocity">
+					<p>Calculated using Forbes Velocity, a combination of views, shares and comments.</p>
+				</div>
+
+				<a class="more" href="http://www.forbes.com/most-popular/">See More Popular Stories »</a>
+			</section>
+
+<section class="social_web use_large_icons">
+	<h4>Active on Social Web</h4>
+	<div class="icon_toggle clearfix">
+		<span class="icon facebook active"><span class="arrow"></span></span>
+		<span class="icon twitter"><span class="arrow"></span></span>
+		<span class="icon linked_in"><span class="arrow"></span></span>
+	</div>
+	<div class="list_wrapper">
+		<div class="list_inner_wrapper">
+			<ol class="facebook active">
+						<li class="first_item">
+							<a href="http://www.forbes.com/sites/rickungar/2014/04/01/hobby-lobby-401k-discovered-to-be-investor-in-numerous-abortion-and-contraception-products-while-claiming-religious-objection/">Hobby Lobby Invested In Numerous Abortion And Contraception Products While Claiming Religious Objection</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/johnzogby/2014/04/02/hillary-clinton-drubs-major-gop-candidates-for-2016/">Hillary Clinton Drubs Major GOP Candidates for 2016</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/brucedorminey/2014/04/01/drift-models-crucial-to-finding-malaysia-airlines-777-crash-site/">Computer Models Crucial To Finding Malaysia Airlines 777 Crash Site</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/helainahovitz/2014/04/01/after-graduation-more-awareness-and-funding-needed-for-young-adults-with-autism/">After Graduation, Support Is Scarce Yet Crucial For Young Adults With Autism</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/video/3422656033001/">Harvard Students Launch Domestic Peace Corps For MBAs</a>
+						</li>
+			</ol>
+			<ol class="twitter">
+						<li class="first_item">
+							<a href="http://www.forbes.com/sites/kashmirhill/2014/04/02/google-goes-where-facebook-never-has-with-narcissism-stats/">Google+ Goes Where Facebook Never Has With Narcissism Stats</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/johnzogby/2014/04/02/the-supreme-court-endorses-gluttony-in-mckutcheon-case/">The Supreme Court Endorses Gluttony In McKutcheon Case</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/chuckjones/2014/04/02/google-stock-split-in-larry-and-sergey-we-trust/">Google Stock Split: In Larry And Sergey We Trust</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/markmcsherry/2014/03/30/week-ahead-jobs-boost-could-calm-stocks-amid-tech-bio-wobble/">Week Ahead: Jobs Boost Could Calm Stocks Amid Tech Wobble</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/rakeshsharma/2014/04/02/apple-and-google-and-the-fight-for-the-mobile-ecosystem-a-conversation-and-review/">Apple And Google And The Fight For The Mobile Ecosystem: A Conversation And Review</a>
+						</li>
+			</ol>
+			<ol class="linked_in">
+						<li class="first_item">
+							<a href="http://www.forbes.com/sites/ewanspence/2014/04/02/the-mobile-browser-is-dead-long-live-the-app/">The Mobile Browser Is Dead, Long Live The App</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/alexmorrell/2014/04/01/facebooks-mark-zuckerberg-now-among-billionaire-ceos-earning-1-salary/">Facebook's Mark Zuckerberg Now Among Billionaire CEOs Earning $1 Salary</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/glennllopis/2014/03/31/the-best-leaders-make-unforgettable-first-impressions/">The Best Leaders Make Unforgettable First Impressions</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/brucebooth/2014/04/02/tradeoffs-and-timing-ipo-vs-ma-decision-making-in-biotech/">Tradeoffs and Timing: IPO vs. M&amp;A Decision-Making In Biotech</a>
+						</li>
+						<li class="">
+							<a href="http://www.forbes.com/sites/michaelsimmons/2014/04/02/this-will-completely-change-your-perspective-on-professional-relationships/">Why You Must Rethink How You Build Relationships</a>
+						</li>
+			</ol>
+			<div class="clear"></div>	
+		</div>
+	</div>
+</section><!--end section.social_web-->
+
+		</div><!-- div.stack_wrapper -->
+	</section>
+
+    <div class="leaderboard mid_page">
+		<script>(function() {var src = "http://ad.doubleclick.net/N7175/adj/fdc.forbes/home;id=home_usa;pos=hpbanner;sz=728x90,970x66,970x250,970x90;tile=2;";if(window.Krux && window.Krux.dfppKeyValues) { src = src+window.Krux.dfppKeyValues; }else if(window.parent && window.parent.Krux && window.parent.Krux.dfppKeyValues) { src = src+window.parent.Krux.dfppKeyValues; }src += ";ord=1370443921?";document.write('<script src="'+src+'"></s'+'cript>');})();</script>
+    </div>
+
+
+	<!--Start: Special Feature-->
+		<section class="edittools-promoblock special_feature promoblock" data-et-context="specialfeature" data-et-location-id="homespecialfeature" data-et-panel-id="panel1"></section>
+	<!--End: Special Feature-->
+
+	<!--Start: User Engagement Stack-->
+    <section class="stack user_engagement">
+        <div class="stack_wrapper clearfix">
+
+            <!--Start: Dashboard -->
+	<h2>Follow on Forbes</h2>
+	<div class="pitch">
+		<p>Follow Forbes writers, people, places, companies and organizations that interest you.</p>
+		<p class="smaller">
+			<a class="ajaxify unireg_login" href="http://blogs.forbes.com/account/login/">Log In</a>
+			or
+			<a class="ajaxify unireg_register" href="http://blogs.forbes.com/account/register/">Sign Up</a>
+			to follow.
+		</p>
+	</div>
+            <!--End: DashBoard-->
+			
+            <!--Start: Following-->
+
+    <div class="entity_holder">
+            
+    
+		
+		
+        <div class="forbesui navpills recommendations_toggle clearfix">
+            <ul>
+                <li class="active loaded">
+                        <a data-id="general" data-ajax-url="/ajax/homepage/user_engagement/" href="/find-more/writers/">Recommended</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+                <li>
+                        <a data-id="business" data-ajax-url="/ajax/homepage/user_engagement/?id=channel_1&name=business" href="/find-more/writers/">Business</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+                <li>
+                        <a data-id="investing" data-ajax-url="/ajax/homepage/user_engagement/?id=channel_2&name=investing" href="/find-more/writers/">Investing</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+                <li>
+                        <a data-id="technology" data-ajax-url="/ajax/homepage/user_engagement/?id=channel_3&name=technology" href="/find-more/writers/">Technology</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+                <li>
+                        <a data-id="entrepreneurs" data-ajax-url="/ajax/homepage/user_engagement/?id=channel_4&name=entrepreneurs" href="/find-more/writers/">Entrepreneurs</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+                <li>
+                        <a data-id="opinions" data-ajax-url="/ajax/homepage/user_engagement/?id=channel_5&name=opinions" href="/find-more/writers/">Op/Ed</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+                <li>
+                        <a data-id="leadership" data-ajax-url="/ajax/homepage/user_engagement/?id=channel_6&name=leadership" href="/find-more/writers/">Leadership</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+                <li>
+                        <a data-id="lifestyle" data-ajax-url="/ajax/homepage/user_engagement/?id=channel_7&name=lifestyle" href="/find-more/writers/">Lifestyle</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+		<li>
+                        <a data-id="lists" data-ajax-url="/ajax/homepage/user_engagement/?id=channel_8&name=lists" href="/find-more/writers/">Lists</a>
+                        <span class="arrow"><span class="icon"></span></span>
+                </li>
+            </ul>
+        </div><!-- end div.recommendations_toggle -->
+
+        <div class="avatars">
+            <div class="loading_scrim" style="display:none;"></div>
+            <div class="loading_spinner" style="display:none;"><img src="http://i.forbesimg.com/assets/img/loading_spinners/43px_on_transparent.gif" alt=""></div>
+    <ul id="recommendations_general" class="avatar_list clearfix">
+    <li class="info_card_anchor new_row">
+	
+		
+	        <span class="activity_count just_published">
+	                5
+	        </span>
+        <a href="http://blogs.forbes.com/jeffbercovici/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/5421" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/407e4ff6ba3b63d6334a59c2ec615514?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Jeff Bercovici">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                7
+	        </span>
+        <a href="http://blogs.forbes.com/erikkain/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/18639" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/0b95268a1a76ca3c83a2112b38af5958?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Erik Kain">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                4
+	        </span>
+        <a href="http://blogs.forbes.com/susanadams/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/250" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/440613347274ca1dd817225238b83bab?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Susan Adams">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                13
+	        </span>
+        <a href="http://blogs.forbes.com/samanthasharf/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/353268" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/c7041225ee8544653120d0732c9767f6?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Samantha Sharf">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                5
+	        </span>
+        <a href="http://blogs.forbes.com/kashmirhill/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/1069" data-entity-type="author">
+        	<img src="http://1.gravatar.com/avatar/1d11df86e86dd42305270b82b4bca597?s=62&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Kashmir Hill">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                5
+	        </span>
+        <a href="http://www.forbes.com/profile/sergey-brin/" class="enable_info_card box_link" data-entity-id="faris/7442" data-entity-type="person">
+        	<img src="http://i.forbesimg.com/media/lists/people/sergey-brin_65x65.jpg" alt="Sergey Brin">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                1
+	        </span>
+        <a href="http://blogs.forbes.com/steveforbes/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/576" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/2a285856910828b7dcef07cfaeefe22d?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Steve Forbes">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                6
+	        </span>
+        <a href="http://blogs.forbes.com/maggiemcgrath/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/940909" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/a4ddae946ce0a7463f0cc6278d84c538?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Maggie McGrath">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                2
+	        </span>
+        <a href="http://blogs.forbes.com/kathycaprino/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/144530" data-entity-type="author">
+        	<img src="http://1.gravatar.com/avatar/71973ecb1f9f1a86bd131c8f9535c2b1?s=62&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Kathy Caprino">
+        </a>
+    </li>
+    <li class="info_card_anchor new_row">
+	
+		
+	        <span class="activity_count ">
+	                6
+	        </span>
+        <a href="http://blogs.forbes.com/deborahljacobs/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/10954" data-entity-type="author">
+        	<img src="http://1.gravatar.com/avatar/96f135a1177e953587401d957028a482?s=62&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Deborah L. Jacobs">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                5
+	        </span>
+        <a href="http://blogs.forbes.com/dorothypomerantz/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/54" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/0e45452c1b29cf6495527fcedb507fd1?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Dorothy Pomerantz">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                1
+	        </span>
+        <a href="http://blogs.forbes.com/halahtouryalai/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/4341" data-entity-type="author">
+        	<img src="http://1.gravatar.com/avatar/120eb84c8ced87bc05e636feaf90500e?s=62&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Halah Touryalai">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                5
+	        </span>
+        <a href="http://blogs.forbes.com/clareoconnor/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/473" data-entity-type="author">
+        	<img src="http://1.gravatar.com/avatar/7d5d1ca9010854c0a1621c24c0dbd599?s=62&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Clare O'Connor">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                5
+	        </span>
+        <a href="http://blogs.forbes.com/zackomalleygreenburg/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/72" data-entity-type="author">
+        	<img src="http://1.gravatar.com/avatar/7c0dc769b20209dd0361cdbdd62f0631?s=62&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Zack O'Malley Greenburg">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                3
+	        </span>
+        <a href="http://blogs.forbes.com/parmyolson/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/81" data-entity-type="author">
+        	<img src="http://1.gravatar.com/avatar/729760248524d762af3a6f936f9aea27?s=62&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Parmy Olson">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                2
+	        </span>
+        <a href="http://blogs.forbes.com/andygreenberg/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/106" data-entity-type="author">
+        	<img src="http://1.gravatar.com/avatar/dafee4ca2ac32ddbe420a27c18d574df?s=62&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Andy Greenberg">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                5
+	        </span>
+        <a href="http://blogs.forbes.com/steveschaefer/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/70" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/20c61d477b12417d0083594f31846a1a?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Steve Schaefer">
+        </a>
+    </li>
+    <li class="info_card_anchor">
+	
+		
+	        <span class="activity_count ">
+	                3
+	        </span>
+        <a href="http://blogs.forbes.com/theapothecary/" class="enable_info_card box_link" data-entity-id="blogAuthorId/blog/author/308" data-entity-type="author">
+        	<img src="http://0.gravatar.com/avatar/c1bbf153b807b2002cee42d46d3ef22d?s=62&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D62&amp;r=G" alt="Avik Roy">
+        </a>
+    </li>
+
+    </ul>
+        </div>
+
+        <span class="find_more">
+                <a class="ajaxify launch_find_more_to_follow" href="/find-more/writers/">+ Find more to follow on Forbes</a>
+        </span>
+    </div>
+            <!--End: Following-->
+
+            <!--Start: News Feed-->
+            <!--End: News Feed-->
+
+		</div><!--end div.stack_wrapper-->
+    </section>
+	<!--End: User Engagement Stack-->
+
+    <section class="stack forbes_video">
+		<div class="stack_wrapper clearfix">
+			<h2>Forbes Video <span class="subnav"><a href="http://www.youtube.com/forbes">Forbes on YouTube</a></span></h2>
+
+	<!-- Getting '/shared/promo/largeimage_fourfeature.ftl' -->
+
+
+
+
+
+		<!-- /shared/promo/ -->
+		<!-- largeimage_fourfeature -->
+		<!-- /shared/promo/largeimage_fourfeature.ftl -->
+					<section data-et-context="videostack" data-et-location-id="homevideo" data-et-panel-id="panel2" class="editorial-promotions edittools-promoblock clearfix largeimage_fourfeature">
+
+
+					<div class="large_feature fleft col-sm-6 clearfix">
+
+						<article data-et-content-id="content_5332dcf7e4b06efaf826f62e" class="promostory promostory-1">
+
+
+								<a class="editable editable-img video " href="http://www.forbes.com/video/3391084854001/" data-ga-event="Promo,InsideForbes,1" data-ga-event-trigger="click">
+									<img src="http://i.forbesimg.com/images/channels/homevideo_panel6_0_mainvideo-1395844699.jpg" alt="The Top 10 VCs On 2014’s Midas List" />
+		 							
+									<span class="play_button"><div class="icon"></div></span>
+								</a>
+
+
+							<h4 class="editable editable-hed"><a href="http://www.forbes.com/video/3391084854001/" data-ga-event="Promo,InsideForbes,1" data-ga-event-trigger="click">
+							    The Top 10 VCs On 2014’s Midas List</a>
+							</h4>
+
+
+							<div class="editable editable-dek description">FORBES counts down this year's top 10 VCs, featuring a new number one.</div>
+							<!--a href="http://www.forbes.com/video/3391084854001/">See the full list &#187;</a-->
+						</article>
+					</div>
+
+			<div class="four_features fleft col-sm-6 clearfix">
+				<ul class="clearfix col-sm-6">
+							<li class="fleft clearfix">
+								<article data-et-content-id="content_5332dcf7e4b06efaf826f630" class="promostory promostory-2">
+
+
+										<a class="editable editable-img video " href="http://www.forbes.com/video/3390845894001/"  title="See Photos" data-ga-event="Promo,InsideForbes,1" data-ga-event-trigger="click">
+											<img alt="Behind Sequoia Capital’s Star-Studded Past" src="http://i.forbesimg.com/images/channels/homevideo_panel6_1_mainvideo-1395844884.jpg" />
+		 									
+		 									<span class="play_button"><span class="icon"></span></span>
+										</a>
+
+
+
+		 	 		 					<h4 class="editable editable-hed"><a href="http://www.forbes.com/video/3390845894001/" data-ga-event="Promo,InsideForbes, 2" data-ga-event-trigger="click">Behind Sequoia Capital’s Star-Studded Past</a></h4>
+								</article>
+		 					</li>
+							<li class="fleft clearfix">
+								<article data-et-content-id="content_533b3532e4b0c3d880cb18fd" class="promostory promostory-3">
+
+
+										<a class="editable editable-img video " href="http://www.forbes.com/video/3419357137001/"  title="See Photos" data-ga-event="Promo,InsideForbes,2" data-ga-event-trigger="click">
+											<img alt="Funding Innovation Beyond Silicon Valley" src="http://i.forbesimg.com/images/channels/homevideo_panel2_2_mainvideo-1396451430.jpg" />
+		 									
+		 									<span class="play_button"><span class="icon"></span></span>
+										</a>
+
+
+
+		 	 		 					<h4 class="editable editable-hed"><a href="http://www.forbes.com/video/3419357137001/" data-ga-event="Promo,InsideForbes, 3" data-ga-event-trigger="click">Funding Innovation Beyond Silicon Valley</a></h4>
+								</article>
+		 					</li>
+				</ul>
+
+				<ul class="clearfix col-sm-6">
+							<li class="fleft clearfix">
+
+								<article data-et-content-id="content_533ae509e4b06efaf8271fd0" class="promostory promostory-4">
+
+
+										<a class="editable editable-img video " href="http://www.forbes.com/video/3415288349001/"  data-ga-event="Promo,InsideForbes, 3" data-ga-event-trigger="click">
+		 									<img alt="Boston Power Play" src="http://i.forbesimg.com/images/channels/homevideo_panel2_3_mainvideo-1396451438.jpg" />
+		 									
+		 									<span class="play_button"><span class="icon"></span></span>
+										</a>
+
+
+		 								<h4 class="editable editable-hed"><a href="http://www.forbes.com/video/3415288349001/" data-ga-event="Promo,InsideForbes, 4" data-ga-event-trigger="click">Boston Power Play</a></h4>
+								</article>
+		  					</li>
+							<li class="fleft clearfix">
+
+								<article data-et-content-id="content_533c1bd7e4b0c3d880cb1c12" class="promostory promostory-5">
+
+
+										<a class="editable editable-img video " href="http://www.forbes.com/video/3419439402001/"  data-ga-event="Promo,InsideForbes, 4" data-ga-event-trigger="click">
+		 									<img alt="The Woman Behind Nigeria's Turnaround" src="http://i.forbesimg.com/images/channels/homevideo_panel2_4_mainvideo-1396451435.jpg" />
+		 									
+		 									<span class="play_button"><span class="icon"></span></span>
+										</a>
+
+
+		 								<h4 class="editable editable-hed"><a href="http://www.forbes.com/video/3419439402001/" data-ga-event="Promo,InsideForbes, 5" data-ga-event-trigger="click">The Woman Behind Nigeria's Turnaround</a></h4>
+								</article>
+		  					</li>
+				</ul>
+			</div>
+		</section>
+ 
+		</div><!-- div.stack_wrapper -->
+	</section>
+
+
+	<section class="stack markets">
+		<div class="stack_wrapper clearfix">
+			<h2>Markets</h2>
+
+			<div class="wikinvest">
+				<div id="nv_tickerboard" style="width:620px; height: 420px; position: relative; margin:0px; padding:0px">
+					<iframe scrolling="no" src="http://www.wikinvest.com/partner/Forbes/oauth/api/getwidewidgetframe?l=home" frameborder="0" width="620" height="420" marginheight="0" marginwidth="0" style="border: none;"></iframe>
+					<div class="nv_data_disclaimer" style="display:none;">
+						<a style="color:#AAAAAA" href="http://www.wikinvest.com/" target="_blank">Wikinvest</a> data is provided as-is, delayed, and subject to <a href="http://www.wikinvest.com/site/Terms_of_Service" target="_blank" style="color:#AAAAAA">Terms</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="investing_stories clearfix">
+				<h6>Top Investing Stories</h6>
+	<ul>
+		<li>
+			<h3><a href="http://www.forbes.com/sites/kenrapoza/2014/04/01/why-uae-and-qatar-have-the-worlds-best-airlines/">Why UAE And Qatar Have The 'World's Best' Airlines</a></h3>
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/20560" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/kenrapoza/' class="avatar">
+					<img src='http://1.gravatar.com/avatar/3af33dd80d50158ef6b2a73f153e0597?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Kenneth Rapoza" />
+				</a>
+			<span class="name_and_desc">
+				<a href='http://www.forbes.com/sites/kenrapoza/' class="user">Kenneth Rapoza</a>, Contributor
+			</span>
+		</cite>
+		</li>
+		<li>
+			<h3><a href="http://www.forbes.com/sites/johnwasik/2014/04/02/how-to-beat-the-rigged-flash-boys-stock-market/">How To Beat The Rigged, 'Flash Boys' Stock Market</a></h3>
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/181732" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/johnwasik/' class="avatar">
+					<img src='http://1.gravatar.com/avatar/5265a0aa552dff3c4fe1b03fd378fb28?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="John Wasik" />
+				</a>
+			<span class="name_and_desc">
+				<a href='http://www.forbes.com/sites/johnwasik/' class="user">John Wasik</a>, Contributor
+			</span>
+		</cite>
+		</li>
+		<li>
+			<h3><a href="http://www.forbes.com/sites/kellyphillipserb/2013/10/31/irs-announces-2014-tax-brackets-standard-deduction-amounts-and-more/">IRS Announces 2014 Tax Brackets, Standard Deduction Amounts And More</a></h3>
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/63313" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/kellyphillipserb/' class="avatar">
+					<img src='http://0.gravatar.com/avatar/e8bc935b76c1deaa34ea856ea8a1f96f?s=40&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Kelly Phillips Erb" />
+				</a>
+			<span class="name_and_desc">
+				<a href='http://www.forbes.com/sites/kellyphillipserb/' class="user">Kelly Phillips Erb</a>, Contributor
+			</span>
+		</cite>
+		</li>
+		<li>
+			<h3><a href="http://www.forbes.com/sites/robertwood/2014/04/01/top-10-tax-mistakes-to-avoid-at-all-costs/">Top 10 Tax Mistakes To Avoid At All Costs</a></h3>
+
+
+		<cite class="entity_block type_inline_block enable_info_card" data-entity-id="blogAuthorId/blog/author/2363" data-entity-type="author">
+				<a href='http://www.forbes.com/sites/robertwood/' class="avatar">
+					<img src='http://1.gravatar.com/avatar/73322cc02b364e29381c78fb97104c23?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' alt="Robert W. Wood" />
+				</a>
+			<span class="name_and_desc">
+				<a href='http://www.forbes.com/sites/robertwood/' class="user">Robert W. Wood</a>, Contributor
+			</span>
+		</cite>
+		</li>
+	</ul>
+			</div>
+
+			<div class="featured_brokers">
+		<script>(function() {var src = "http://ad.doubleclick.net/N7175/adj/fdc.forbes/home;id=home_usa;pos=tradingctr;sz=980x45;tile=3;";if(window.Krux && window.Krux.dfppKeyValues) { src = src+window.Krux.dfppKeyValues; }else if(window.parent && window.parent.Krux && window.parent.Krux.dfppKeyValues) { src = src+window.parent.Krux.dfppKeyValues; }src += ";ord=1370443921?";document.write('<script src="'+src+'"></s'+'cript>');})();</script>
+			</div><!-- end div.featured_brokers -->
+
+		</div><!-- div.stack_wrapper -->
+	</section>
+
+
+	<section class="stack features">
+		<div class="stack_wrapper clearfix">
+			<h2>Recommended</h2>
+
+	<!-- Getting '/shared/promo/eight_features.ftl' -->
+
+
+
+
+
+		<!-- /shared/promo/ -->
+		<!-- eight_features -->
+		<!-- /shared/promo/eight_features.ftl -->
+				<div class="edittools-promoblock eight_features" data-et-context="homefeatures" data-et-location-id="homefeatures" data-et-panel-id="panel2">
+
+
+				<div class="clear"></div>
+
+			<div class="first_item feature promostory promostory-1" data-et-content-id="content_5339c83ae4b06efaf82718f3">
+				<a href="http://www.forbes.com/sites/nathanvardi/2014/04/01/the-man-helping-bill-ackman-investigate-herbalife-in-china/" class="featured_image editable editable-img  ">
+					<img src="http://i.forbesimg.com/images/channels/homefeatures_panel11_0_feature-1396450648.jpg" alt="The Man Helping Ackman Investigate Herbalife">
+					
+					
+				</a>
+
+ 					<h3 class="editable editable-hed">
+ 					    <a href="http://www.forbes.com/sites/nathanvardi/2014/04/01/the-man-helping-bill-ackman-investigate-herbalife-in-china/">The Man Helping Ackman Investigate Herbalife</a>
+ 					</h3>
+			</div>
+
+
+
+			<div class="feature promostory promostory-2" data-et-content-id="content_533ae2f2e4b06efaf8271f9f">
+				<a href="http://www.forbes.com/sites/tomvanriper/2014/04/01/americas-richest-counties-2014/" class="featured_image editable editable-img  ">
+					<img src="http://i.forbesimg.com/images/channels/homefeatures_panel11_1_feature-1396450879.jpg" alt="D.C. Suburbs Dominate America's Richest Counties">
+					
+					
+				</a>
+
+ 					<h3 class="editable editable-hed">
+ 					    <a href="http://www.forbes.com/sites/tomvanriper/2014/04/01/americas-richest-counties-2014/">D.C. Suburbs Dominate America's Richest Counties</a>
+ 					</h3>
+			</div>
+
+
+
+			<div class="feature promostory promostory-3" data-et-content-id="content_5339b544e4b06efaf8271850">
+				<a href="http://www.forbes.com/sites/maggiemcgrath/2014/03/31/10-rules-for-decoding-college-financial-aid-award-letters/" class="featured_image editable editable-img  ">
+					<img src="http://i.forbesimg.com/images/channels/homefeatures_panel11_2_feature-1396450955.jpg" alt="Rules For Decoding College Financial Aid Award Letters">
+					
+					
+				</a>
+
+ 					<h3 class="editable editable-hed">
+ 					    <a href="http://www.forbes.com/sites/maggiemcgrath/2014/03/31/10-rules-for-decoding-college-financial-aid-award-letters/">Rules For Decoding College Financial Aid Award Letters</a>
+ 					</h3>
+			</div>
+
+
+
+			<div class="feature promostory promostory-4" data-et-content-id="content_533b07ffe4b06efaf827214f">
+				<a href="http://www.forbes.com/sites/zackomalleygreenburg/2014/04/01/what-michael-jackson-beyonce-and-jay-z-have-in-common/" class="featured_image editable editable-img  ">
+					<img src="http://i.forbesimg.com/images/channels/homefeatures_panel11_3_feature-1396451005.jpg" alt="What Michael Jackson, Beyonce Have In Common">
+					
+					
+				</a>
+
+ 					<h3 class="editable editable-hed">
+ 					    <a href="http://www.forbes.com/sites/zackomalleygreenburg/2014/04/01/what-michael-jackson-beyonce-and-jay-z-have-in-common/">What Michael Jackson, Beyonce Have In Common</a>
+ 					</h3>
+			</div>
+
+
+				<div class="clear"></div>
+
+			<div class="first_item feature promostory promostory-5" data-et-content-id="content_52f96985e4b0ba3c471ac58a">
+				<a href="http://www.forbes.com/sites/janetnovack/2014/02/12/the-forbes-2014-retirement-guide/" class="featured_image editable editable-img  ">
+					<img src="http://i.forbesimg.com/images/channels/homefeatures_panel10_4_feature-1396447591.jpg" alt="The Forbes 2014 Retirement Guide">
+					
+					
+				</a>
+
+ 					<h3 class="editable editable-hed">
+ 					    <a href="http://www.forbes.com/sites/janetnovack/2014/02/12/the-forbes-2014-retirement-guide/">The Forbes 2014 Retirement Guide</a>
+ 					</h3>
+			</div>
+
+
+
+			<div class="feature promostory promostory-6" data-et-content-id="content_52deedf3e4b07ff08fb37be4">
+				<a href="http://www.forbes.com/social-entrepreneurship/" class="featured_image editable editable-img  ">
+					<img src="http://i.forbesimg.com/images/channels/homefeatures_panel2_5_feature-1396474987.jpg" alt="Social Impact">
+					
+					
+				</a>
+
+ 					<h3 class="editable editable-hed">
+ 					    <a href="http://www.forbes.com/social-entrepreneurship/">Social Impact</a>
+ 					</h3>
+			</div>
+
+
+
+			<div class="feature promostory promostory-7" data-et-content-id="content_5176fc9a76e4938b028ade93">
+				<a href="http://www.forbes.com/transformational-tech/" class="featured_image editable editable-img  ">
+					<img src="http://i.forbesimg.com/images/channels/homefeatures_panel2_6_feature-1396474966.jpg" alt="Transformational Tech">
+					
+					
+				</a>
+
+ 					<h3 class="editable editable-hed">
+ 					    <a href="http://www.forbes.com/transformational-tech/">Transformational Tech</a>
+ 					</h3>
+			</div>
+
+
+
+			<div class="feature promostory promostory-8" data-et-content-id="content_5252c396e4b0e9928b25055c">
+				<a href="http://www.forbes.com/forbeswoman/" class="featured_image editable editable-img  ">
+					<img src="http://i.forbesimg.com/images/channels/homefeatures_panel10_7_feature-1396447600.jpg" alt="ForbesWoman">
+					
+					
+				</a>
+
+ 					<h3 class="editable editable-hed">
+ 					    <a href="http://www.forbes.com/forbeswoman/">ForbesWoman</a>
+ 					</h3>
+			</div>
+	</div>
+ 
+		</div><!-- div.stack_wrapper -->
+	</section>
+
+	<section class="stack lists">
+		<div class="stack_wrapper clearfix">
+			<h2>Forbes Lists</h2>
+
+	<div class="realtime_billionaires">
+		<div class="clearfix">
+			<h6>Billionaire Ticker</h6>
+			<span class="subnav"><a href="/billionaires/list/">Real-Time Billionaires &#187;</a></span>
+		</div>
+		<div class="realtime-ticker clearfix">
+			<div class="loading_spinner"><img alt="loading" src="http://i.forbesimg.com/assets/img/loading_spinners/16px_on_transparent.gif"></div>
+			<div class="prev"><a id="ticker-prev" class="ticker-controls"><span class="icon">&nbsp;</span></a></div>
+			<div id="ticker-container">
+				<div id="ticker">
+					<div class="inner">
+						<ul class="trendscontent">
+
+
+	<li data-item="sheldonadelson">
+
+		<a href="/profile/sheldon-adelson/">
+			<img alt="Sheldon Adelson" src="http://i.forbesimg.com/media/lists/people/sheldon-adelson_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Sheldon Adelson</span>
+				<div class="change">
+					<span class="up">$52 M 0.1%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="karlalbrecht">
+
+		<a href="/profile/karl-albrecht/">
+			<img alt="Karl Albrecht" src="http://i.forbesimg.com/media/lists/people/no-pic_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Karl Albrecht</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="theoalbrechtjr">
+
+		<a href="/profile/theo-albrecht-jr/">
+			<img alt="Theo Albrecht Jr" src="http://i.forbesimg.com/media/lists/people/no-pic_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Theo Albrecht Jr</span>
+				<div class="change">
+					<span class="up">$795 K 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="princealwaleedbintalalalsaud">
+
+		<a href="/profile/prince-alwaleed-bin-talal-alsaud/">
+			<img alt="Prince Alwaleed Bin Talal Alsaud" src="http://i.forbesimg.com/media/lists/people/prince-alwaleed-bin-talal-alsaud_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Prince Alwaleed Bin Talal Alsaud</span>
+				<div class="change">
+					<span class="up">$29 M 0.1%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="mukeshambani">
+
+		<a href="/profile/mukesh-ambani/">
+			<img alt="Mukesh Ambani" src="http://i.forbesimg.com/media/lists/people/mukesh-ambani_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Mukesh Ambani</span>
+				<div class="change">
+					<span class="up">$347 M 1.5%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="bernardarnault">
+
+		<a href="/profile/bernard-arnault/">
+			<img alt="Bernard Arnault" src="http://i.forbesimg.com/media/lists/people/bernard-arnault_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Bernard Arnault</span>
+				<div class="change">
+					<span class="down">$-45 M -0.1%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="steveballmer">
+
+		<a href="/profile/steve-ballmer/">
+			<img alt="Steve Ballmer" src="http://i.forbesimg.com/media/lists/people/steve-ballmer_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Steve Ballmer</span>
+				<div class="change">
+					<span class="down">$-23 M -0.1%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="lilianebettencourt">
+
+		<a href="/profile/liliane-bettencourt/">
+			<img alt="Liliane Bettencourt" src="http://i.forbesimg.com/media/lists/people/liliane-bettencourt_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Liliane Bettencourt</span>
+				<div class="change">
+					<span class="up">$77 M 0.2%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="jeffbezos">
+
+		<a href="/profile/jeff-bezos/">
+			<img alt="Jeff Bezos" src="http://i.forbesimg.com/media/lists/people/jeff-bezos_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Jeff Bezos</span>
+				<div class="change">
+					<span class="down">$-86 M -0.3%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="lenblavatnik">
+
+		<a href="/profile/len-blavatnik/">
+			<img alt="Len Blavatnik" src="http://i.forbesimg.com/media/lists/people/len-blavatnik_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Len Blavatnik</span>
+				<div class="change">
+					<span class="up">$148 M 0.8%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="michaelbloomberg">
+
+		<a href="/profile/michael-bloomberg/">
+			<img alt="Michael Bloomberg" src="http://i.forbesimg.com/media/lists/people/michael-bloomberg_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Michael Bloomberg</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="sergeybrin">
+
+		<a href="/profile/sergey-brin/">
+			<img alt="Sergey Brin" src="http://i.forbesimg.com/media/lists/people/sergey-brin_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Sergey Brin</span>
+				<div class="change">
+					<span class="up">$5 M 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="warrenbuffett">
+
+		<a href="/profile/warren-buffett/">
+			<img alt="Warren Buffett" src="http://i.forbesimg.com/media/lists/people/warren-buffett_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Warren Buffett</span>
+				<div class="change">
+					<span class="down">$-153 M -0.2%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="alikodangote">
+
+		<a href="/profile/aliko-dangote/">
+			<img alt="Aliko Dangote" src="http://i.forbesimg.com/media/lists/people/aliko-dangote_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Aliko Dangote</span>
+				<div class="change">
+					<span class="up">$1 K 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="michaeldell">
+
+		<a href="/profile/michael-dell/">
+			<img alt="Michael Dell" src="http://i.forbesimg.com/media/lists/people/michael-dell_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Michael Dell</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="leonardodelvecchio">
+
+		<a href="/profile/leonardo-del-vecchio/">
+			<img alt="Leonardo Del Vecchio" src="http://i.forbesimg.com/media/lists/people/leonardo-del-vecchio_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Leonardo Del Vecchio</span>
+				<div class="change">
+					<span class="down">$-138 M -0.7%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="larryellison">
+
+		<a href="/profile/larry-ellison/">
+			<img alt="Larry Ellison" src="http://i.forbesimg.com/media/lists/people/larry-ellison_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Larry Ellison</span>
+				<div class="change">
+					<span class="down">$-477 M -0.9%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="micheleferrero">
+
+		<a href="/profile/michele-ferrero/">
+			<img alt="Michele Ferrero" src="http://i.forbesimg.com/media/lists/people/michele-ferrero_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Michele Ferrero</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="mikhailfridman">
+
+		<a href="/profile/mikhail-fridman/">
+			<img alt="Mikhail Fridman" src="http://i.forbesimg.com/media/lists/people/mikhail-fridman_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Mikhail Fridman</span>
+				<div class="change">
+					<span class="up">$5 M 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="billgates">
+
+		<a href="/profile/bill-gates/">
+			<img alt="Bill Gates" src="http://i.forbesimg.com/media/lists/people/bill-gates_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Bill Gates</span>
+				<div class="change">
+					<span class="up">$33 M 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="carlicahn">
+
+		<a href="/profile/carl-icahn/">
+			<img alt="Carl Icahn" src="http://i.forbesimg.com/media/lists/people/carl-icahn_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Carl Icahn</span>
+				<div class="change">
+					<span class="down">$-153 M -0.7%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="abigailjohnson">
+
+		<a href="/profile/abigail-johnson/">
+			<img alt="Abigail Johnson" src="http://i.forbesimg.com/media/lists/people/abigail-johnson_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Abigail Johnson</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="susanneklatten">
+
+		<a href="/profile/susanne-klatten/">
+			<img alt="Susanne Klatten" src="http://i.forbesimg.com/media/lists/people/susanne-klatten_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Susanne Klatten</span>
+				<div class="change">
+					<span class="up">$88 M 0.5%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="philknight">
+
+		<a href="/profile/phil-knight/">
+			<img alt="Phil Knight" src="http://i.forbesimg.com/media/lists/people/phil-knight_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Phil Knight</span>
+				<div class="change">
+					<span class="up">$26 M 0.1%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="davidkoch">
+
+		<a href="/profile/david-koch/">
+			<img alt="David Koch" src="http://i.forbesimg.com/media/lists/people/david-koch_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">David Koch</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="charleskoch">
+
+		<a href="/profile/charles-koch/">
+			<img alt="Charles Koch" src="http://i.forbesimg.com/media/lists/people/charles-koch_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Charles Koch</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="leeshaukee">
+
+		<a href="/profile/lee-shau-kee/">
+			<img alt="Lee Shau Kee" src="http://i.forbesimg.com/media/lists/people/lee-shau-kee_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Lee Shau Kee</span>
+				<div class="change">
+					<span class="up">$291 M 1.4%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="jorgepaulolemann">
+
+		<a href="/profile/jorge-paulo-lemann/">
+			<img alt="Jorge Paulo Lemann" src="http://i.forbesimg.com/media/lists/people/jorge-paulo-lemann_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Jorge Paulo Lemann</span>
+				<div class="change">
+					<span class="up">$128 M 0.6%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="likashing">
+
+		<a href="/profile/li-ka-shing/">
+			<img alt="Li Ka-shing" src="http://i.forbesimg.com/media/lists/people/li-ka-shing_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Li Ka-shing</span>
+				<div class="change">
+					<span class="up">$772 M 2.3%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="luichewoo">
+
+		<a href="/profile/lui-che-woo/">
+			<img alt="Lui Che Woo" src="http://i.forbesimg.com/media/lists/people/lui-che-woo_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Lui Che Woo</span>
+				<div class="change">
+					<span class="down">$-225 M -1%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="jacquelinemars">
+
+		<a href="/profile/jacqueline-mars/">
+			<img alt="Jacqueline Mars" src="http://i.forbesimg.com/media/lists/people/jacqueline-mars_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Jacqueline Mars</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="johnmars">
+
+		<a href="/profile/john-mars/">
+			<img alt="John Mars" src="http://i.forbesimg.com/media/lists/people/no-pic_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">John Mars</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="forrestmarsjr">
+
+		<a href="/profile/forrest-mars-jr/">
+			<img alt="Forrest Mars Jr" src="http://i.forbesimg.com/media/lists/people/forrest-mars-jr_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Forrest Mars Jr</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="amancioortega">
+
+		<a href="/profile/amancio-ortega/">
+			<img alt="Amancio Ortega" src="http://i.forbesimg.com/media/lists/people/amancio-ortega_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Amancio Ortega</span>
+				<div class="change">
+					<span class="up">$249 M 0.4%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="michaelotto">
+
+		<a href="/profile/michael-otto/">
+			<img alt="Michael Otto" src="http://i.forbesimg.com/media/lists/people/michael-otto_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Michael Otto</span>
+				<div class="change">
+					<span class="up">$2 M 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="larrypage">
+
+		<a href="/profile/larry-page/">
+			<img alt="Larry Page" src="http://i.forbesimg.com/media/lists/people/larry-page_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Larry Page</span>
+				<div class="change">
+					<span class="up">$5 M 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="stefanpersson">
+
+		<a href="/profile/stefan-persson/">
+			<img alt="Stefan Persson" src="http://i.forbesimg.com/media/lists/people/stefan-persson_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Stefan Persson</span>
+				<div class="change">
+					<span class="up">$84 M 0.3%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="ginarinehart">
+
+		<a href="/profile/gina-rinehart/">
+			<img alt="Gina Rinehart" src="http://i.forbesimg.com/media/lists/people/gina-rinehart_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Gina Rinehart</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="dieterschwarz">
+
+		<a href="/profile/dieter-schwarz/">
+			<img alt="Dieter Schwarz" src="http://i.forbesimg.com/media/lists/people/no-pic_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Dieter Schwarz</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="carlosslimhelu">
+
+		<a href="/profile/carlos-slim-helu/">
+			<img alt="Carlos Slim Helu" src="http://i.forbesimg.com/media/lists/people/carlos-slim-helu_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Carlos Slim Helu</span>
+				<div class="change">
+					<span class="down">$-191 M -0.3%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="masayoshison">
+
+		<a href="/profile/masayoshi-son/">
+			<img alt="Masayoshi Son" src="http://i.forbesimg.com/media/lists/people/masayoshi-son_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Masayoshi Son</span>
+				<div class="change">
+					<span class="up">$241 M 1.3%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="georgesoros">
+
+		<a href="/profile/george-soros/">
+			<img alt="George Soros" src="http://i.forbesimg.com/media/lists/people/george-soros_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">George Soros</span>
+				<div class="change">
+					<span class="">$0 0%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="davidthomson">
+
+		<a href="/profile/david-thomson/">
+			<img alt="David Thomson" src="http://i.forbesimg.com/media/lists/people/david-thomson_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">David Thomson</span>
+				<div class="change">
+					<span class="up">$107 M 0.5%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="alisherusmanov">
+
+		<a href="/profile/alisher-usmanov/">
+			<img alt="Alisher Usmanov" src="http://i.forbesimg.com/media/lists/people/alisher-usmanov_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Alisher Usmanov</span>
+				<div class="change">
+					<span class="down">$-39 M -0.2%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="christywalton">
+
+		<a href="/profile/christy-walton/">
+			<img alt="Christy Walton" src="http://i.forbesimg.com/media/lists/people/christy-walton_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Christy Walton</span>
+				<div class="change">
+					<span class="up">$193 M 0.5%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="jimwalton">
+
+		<a href="/profile/jim-walton/">
+			<img alt="Jim Walton" src="http://i.forbesimg.com/media/lists/people/jim-walton_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Jim Walton</span>
+				<div class="change">
+					<span class="up">$169 M 0.5%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="alicewalton">
+
+		<a href="/profile/alice-walton/">
+			<img alt="Alice Walton" src="http://i.forbesimg.com/media/lists/people/alice-walton_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Alice Walton</span>
+				<div class="change">
+					<span class="up">$168 M 0.5%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="srobsonwalton">
+
+		<a href="/profile/s-robson-walton/">
+			<img alt="S. Robson Walton" src="http://i.forbesimg.com/media/lists/people/s-robson-walton_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">S. Robson Walton</span>
+				<div class="change">
+					<span class="up">$169 M 0.5%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="tadashiyanai">
+
+		<a href="/profile/tadashi-yanai/">
+			<img alt="Tadashi Yanai" src="http://i.forbesimg.com/media/lists/people/tadashi-yanai_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Tadashi Yanai</span>
+				<div class="change">
+					<span class="up">$347 M 1.9%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+	<li data-item="markzuckerberg">
+
+		<a href="/profile/mark-zuckerberg/">
+			<img alt="Mark Zuckerberg" src="http://i.forbesimg.com/media/lists/people/mark-zuckerberg_50x50.jpg">
+			<div class="ticker-info">
+				<span class="name">Mark Zuckerberg</span>
+				<div class="change">
+					<span class="up">$43 M 0.2%</span>
+				</div>
+			</div>
+		</a>
+	</li>
+
+
+						</ul>
+					</div> <!-- End: .inner -->
+					<span class="fade fade-left">&nbsp;</span></a><span class="fade fade-right">&nbsp;</span></a>
+				</div> <!-- End: #ticker -->
+			</div> <!-- End: #ticker-container -->
+			<div class="next"><a id="ticker-next" class="ticker-controls"><span class="icon">&nbsp;</span></a></div>
+		</div> <!-- End: .realtime-ticker -->
+	</div> <!-- End: .realtime_billionaires -->
+
+
+
+	<!-- Getting '/shared/promo/mainstory_twofeatures.ftl' -->
+
+
+
+
+
+		<!-- /shared/promo/ -->
+		<!-- mainstory_twofeatures -->
+		<!-- /shared/promo/mainstory_twofeatures.ftl -->
+				<div class="edittools-promoblock mainstory_twofeatures clearfix" data-et-context="liststack" data-et-location-id="homelists" data-et-panel-id="panel3">
+
+
+			<article data-et-content-id="content_518a88c276e43b3840e82902" class="feature promostory promostory-1">
+
+				<a class="editable editable-img  " href="http://www.forbes.com/midas/">
+					<img src="http://i.forbesimg.com/images/channels/homelists_panel3_0_list-1395848790.jpg" alt="Midas List: Tech's Top Investors" />
+					
+
+	 				
+				</a>
+	 					<h3 class="editable editable-hed"><a href="http://www.forbes.com/midas/">Midas List: Tech's Top Investors</a></h3>
+				<p class="editable editable-dek">
+					The Midas List features technology's best investors, whose savvy investments have a made a total of $95.2 billion in exits.
+				</p>
+
+			</article>
+
+		<div class="twofeatures">
+			<ul>
+
+
+						<li class="promostory promostory-2" data-et-content-id="content_5331b628e4b06efaf826effc">
+
+								<a class="editable editable-img  " href="http://www.forbes.com/sites/georgeanders/2014/03/26/inside-sequoia-capital-silicon-valleys-innovation-factory/">
+									<img src="http://i.forbesimg.com/images/channels/homelists_panel3_1_list-1395849473.jpg" alt="Inside Silicon Valley's Innovation Factory" />
+									
+			 						
+								</a>
+
+	 		 					<h4 class="editable editable-hed">
+	 		 					    <a href="http://www.forbes.com/sites/georgeanders/2014/03/26/inside-sequoia-capital-silicon-valleys-innovation-factory/">Inside Silicon Valley's Innovation Factory</a>
+	 		 					</h4>
+
+				    	</li>
+
+
+						<li class="promostory promostory-3" data-et-content-id="content_5011a37e76e4563630417072">
+
+								<a class="editable editable-img  " href="http://www.forbes.com/mlb-valuations/">
+									<img src="http://i.forbesimg.com/images/channels/homelists_panel3_2_list-1395849421.jpg" alt="The Business Of Baseball" />
+									
+			 						
+								</a>
+
+	 		 					<h4 class="editable editable-hed">
+	 		 					    <a href="http://www.forbes.com/mlb-valuations/">The Business Of Baseball</a>
+	 		 					</h4>
+
+				    	</li>
+			</ul>
+		</div><!-- end div.headline_list -->
+	</div>
+ 
+
+
+	<!-- Getting '/shared/promo/hometoplists.ftl' -->
+
+
+
+
+
+		<!-- /shared/promo/ -->
+		<!-- hometoplists -->
+		<!-- /shared/promo/hometoplists.ftl -->
+			
+<div class="top_lists">
+	<h6>Top Lists</h6>
+
+	<ul data-et-context="liststack" data-et-location="hometoplists" data-et-panel-id="" class="editorial-promotions edittools-list">
+		<li class="editable edittools-item" data-et-item_id="14" data-et-location="footernav" data-et-item-type="topic">
+			<a href="http://www.forbes.com/billionaires">The World's Billionaires</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="18" data-et-location="footernav" data-et-item-type="content">
+			<a href="http://www.forbes.com/most-promising-companies/">America's Most Promising Companies</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="16" data-et-location="footernav" data-et-item-type="link">
+			<a href="http://www.forbes.com/best-places-for-business/">The Best Places In America For Business And Careers</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="9" data-et-location="footernav" data-et-item-type="topic">
+			<a href="http://www.forbes.com/private">America's Largest Private Companies</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="19" data-et-location="footernav" data-et-item-type="link">
+			<a href="http://www.forbes.com/special-report/2014/30-under-30/finance.html">FORBES 30 Under 30</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="7" data-et-location="footernav" data-et-item-type="topic">
+			<a href="http://www.forbes.com/celebrities/">Celebrity 100</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="3" data-et-location="footernav" data-et-item-type="topic">
+			<a href="http://www.forbes.com/forbes400">Forbes 400 Richest Americans</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="6" data-et-location="footernav" data-et-item-type="topic">
+			<a href="http://www.forbes.com/global2000">Global 2000 Leading Companies</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="8" data-et-location="footernav" data-et-item-type="topic">
+			<a href="http://www.forbes.com/colleges">America's Best Colleges</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="10" data-et-location="footernav" data-et-item-type="link">
+			<a href="http://www.forbes.com/best-small-companies/">America's Best Small Companies</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="11" data-et-location="footernav" data-et-item-type="link">
+			<a href="http://www.forbes.com/nhl-valuations/">Hockey's Most Valuable Teams</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="12" data-et-location="footernav" data-et-item-type="link">
+			<a href="http://www.forbes.com/midas/">The Midas List: Top Tech Investors</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="13" data-et-location="footernav" data-et-item-type="link">
+			<a href="http://www.forbes.com/innovative-companies/">The World's Most Innovative Companies</a>
+		</li>
+		<li class="editable edittools-item" data-et-item_id="17" data-et-location="footernav" data-et-item-type="topic">
+			<a href="http://www.forbes.com/power-women">100 Most Powerful Women</a>
+		</li>
+	</ul>
+</div>
+
+
+ 
+
+		</div><!-- div.stack_wrapper -->
+	</section><!--end section.stack.lists-->
+
+
+    <!-- Start: footer -->
+        
+<footer class="universal-footer">
+	<div class="footer-center">
+
+		<!-- END EDITORIAL PROMOTIONS -->
+
+		<section class="lower-footer-links clearfix">
+
+
+			<div class="channels">
+				<ul data-et-context="footer" data-et-location="footernav" class="edittools-list">
+					<li class="home">
+						<a href="http://www.forbes.com/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Forbes</a>
+					</li>
+					<li class="editable edittools-item" data-et-item_id="14" data-et-location="footernav" data-et-item-type="topic">
+						<a href="http://www.forbes.com/business/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Business</a>
+					</li>
+					<li class="editable edittools-item" data-et-item_id="7" data-et-location="footernav" data-et-item-type="link">
+						<a href="http://www.forbes.com/investing/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Investing</a>
+					</li>
+					<li class="editable edittools-item" data-et-item_id="8" data-et-location="footernav" data-et-item-type="link">
+						<a href="http://www.forbes.com/technology/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Technology</a>
+					</li>
+					<li class="editable edittools-item" data-et-item_id="13" data-et-location="footernav" data-et-item-type="topic">
+						<a href="http://www.forbes.com/entrepreneurs/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Entrepreneurs</a>
+					</li>
+					<li class="editable edittools-item" data-et-item_id="9" data-et-location="footernav" data-et-item-type="link">
+						<a href="http://www.forbes.com/opinions/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Op/Ed</a>
+					</li>
+					<li class="editable edittools-item" data-et-item_id="10" data-et-location="footernav" data-et-item-type="link">
+						<a href="http://www.forbes.com/leadership/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Leadership</a>
+					</li>
+					<li class="editable edittools-item" data-et-item_id="11" data-et-location="footernav" data-et-item-type="link">
+						<a href="http://www.forbes.com/lifestyle/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Lifestyle</a>
+					</li>
+					<li class="editable edittools-item" data-et-item_id="12" data-et-location="footernav" data-et-item-type="link">
+						<a href="http://www.forbes.com/lists/" data-ga-event="Footer,LinkFollowed,channel" data-ga-event-trigger="click">Lists</a>
+					</li>
+				</ul>
+			</div>
+
+
+			<div class="conferences footer-list fleft">
+				<h5><a href="http://www.forbes.com/conferences/">Conferences</a></h5>
+
+				<ul data-et-context="footer" data-et-location="footerconferences" class="edittools-list">
+
+						<li class="editable edittools-item" data-et-item_id="11" data-et-location="footerconferences" data-et-item-type="link">
+	            			<a href="http://www.forbes.com/conferences/2014/ReinventingAmerica-2014.html" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Reinventing America Summit</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="5" data-et-location="footerconferences" data-et-item-type="link">
+	            			<a href="http://www.forbes.com/conferences/2014/forbeswomen-2014.html" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Women’s Summit</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="8" data-et-location="footerconferences" data-et-item-type="link">
+	            			<a href="http://www.forbes.com/conferences/2014/400-2014.html" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes 400 Philanthropy Summit</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="1" data-et-location="footerconferences" data-et-item-type="link">
+	            			<a href="http://www.forbes.com/conferences/2014/cmo-2014.html" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes CMO Summit</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="3" data-et-location="footerconferences" data-et-item-type="link">
+	            			<a href="http://www.forbes.com/conferences/2014/healthcare-2014.html" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Healthcare Summit</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="12" data-et-location="footerconferences" data-et-item-type="link">
+	            			<a href="http://www.forbes.com/conferences/2014/peacethroughprofits-2014.html" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Peace Through Profits Summit</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="4" data-et-location="footerconferences" data-et-item-type="link">
+	            			<a href="http://www.forbesasiaconferences.com/forbesglobalceoconference2013" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Global CEO Conference</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="13" data-et-location="footerconferences" data-et-item-type="link">
+	            			<a href="https://www.napfa.org/conferences/conference.asp?CONFERENCE_ID=136" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes and NAPFA Advisor iConference</a>
+	        			</li>
+				</ul>
+			</div>
+			<div class="products_newsletter footer-list fleft">
+				<h5>Education</h5>
+				<ul>
+					<li><a href="http://www.ashford.edu/degrees/online/business.htm/" target="_blank" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">Forbes School of Business at Ashford University</a></li>
+					<li><a href="http://forbes.stratagee.com/" target="_blank" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">College Planning Tool</a></li>
+				</ul>
+
+				
+
+			<!-- <div class="products_newsletter footer-list fleft">  -->
+				<h5><a href="http://www.newsletters.forbes.com/">Newsletters</a></h5>
+
+				<ul data-et-context="footer" data-et-location="footernewsletters" class="edittools-list">
+
+						<li class="editable edittools-item" data-et-item_id="1" data-et-location="footernewsletters" data-et-item-type="link">
+	            			<a href="http://www.newsletters.forbes.com/store/es_764/en_US/pd/ThemeID.36033000/productID.36116100" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Investor</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="2" data-et-location="footernewsletters" data-et-item-type="link">
+	            			<a href="https://www.specialsituationsurvey.com/newsletters/sss/" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Special Situation Survey</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="3" data-et-location="footernewsletters" data-et-item-type="link">
+	            			<a href="http://www.newsletters.forbes.com/store/es_764/en_US/pd/ThemeID.36033000/productID.252322600" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Dividend Investor</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="4" data-et-location="footernewsletters" data-et-item-type="link">
+	            			<a href="http://onforb.es/1dK9tEh" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Investing Portal</a>
+	        			</li>
+				</ul>
+			<!-- </div> -->
+				
+			</div>		
+
+			<div class="company-info footer-list fleft">
+				<h5>Products</h5>
+
+				<ul data-et-context="footer" data-et-location="footerproducts" class="edittools-list">
+
+						<li class="editable edittools-item" data-et-item_id="2" data-et-location="footerproducts" data-et-item-type="link">
+	            			<a href="https://www.forbeswineclub.com/" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Wine Club</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="3" data-et-location="footerproducts" data-et-item-type="link">
+	            			<a href="https://www.forbesid.com/" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Identity Protection</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="4" data-et-location="footerproducts" data-et-item-type="link">
+	            			<a href="http://www.forbesmagazine.com/newsfeeds/" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Forbes Newsfeeds</a>
+	        			</li>
+						<li class="editable edittools-item" data-et-item_id="5" data-et-location="footerproducts" data-et-item-type="link">
+	            			<a href="http://forbesreprints.magreprints.com/" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Reprints & Permissions</a>
+	        			</li>
+				</ul>
+				
+				<h5>Company Info</h5>
+				<ul>
+					<li><a href="http://www.forbesmedia.com/" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">Advertise</a></li>
+					<li><a href="http://www.forbes.com/sites/forbespr/" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click" class="exit_trigger_set ga_tracked">Forbes Press Room</a></li>
+					<li><a href="https://www2.apply2jobs.com/forbes/" target="_blank" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">Forbes Careers</a></li>
+					<li><a href="http://www.forbes.com/fdc/contact.html" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">Contact Us</a></li>
+					<li><a href="http://www.forbes.com/fdc/sitemap.html" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">Sitemap</a></li>
+					<li><a href="http://blogs.forbes.com/help/" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">Help</a></li>
+				</ul>
+			</div>
+				<div class="publications fleft">
+			<div class="clearfix">
+           		<a href="http://www.forbes.com/forbes" data-ga-event="Footer,LinkFollowed,magazine" data-ga-event-trigger="click" class="exit_trigger_set ga_tracked"><img src="http://images.forbes.com/media/current_covers/forbes_120x160.jpg" alt="Forbes Magazine"></a>
+            	<a href="http://www.forbes.com/forbes-life-magazine" data-ga-event="Footer,LinkFollowed,magazine" data-ga-event-trigger="click" class="exit_trigger_set ga_tracked"><img src="http://images.forbes.com/media/current_covers/forbeslife_120x160.jpg" alt="ForbesLife"></a>
+            	<a href="http://www.forbes.com/forbesasia/" data-ga-event="Footer,LinkFollowed,magazine" data-ga-event-trigger="click" class="exit_trigger_set ga_tracked"><img src="http://images.forbes.com/media/current_covers/forbesasia_120x160.jpg" alt="ForbesAsia"></a>
+            </div>
+				
+				<ul class="subscriptions">
+					<ul data-et-context="footer" data-et-location="footermagazine" class="edittools-list">
+							<li class="editable edittools-item" data-et-item_id="6" data-et-location="footermagazine" data-et-item-type="link">
+	            				<a href="https://subs.forbesmagazine.com/servlet/OrdersGateway?cds_mag_code=FRB&cds_page_id=150007" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">2 Free Issues</a>
+	        				</li>
+							<li class="editable edittools-item" data-et-item_id="4" data-et-location="footermagazine" data-et-item-type="link">
+	            				<a href="http://www.forbes.com/fdc/subservices.html" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Subscriber Services</a>
+	        				</li>
+							<li class="editable edittools-item" data-et-item_id="5" data-et-location="footermagazine" data-et-item-type="link">
+	            				<a href="https://www.forbesmagazine.com/backissues/" data-ga-event="Footer,LinkFollowed,conferences" data-ga-event-trigger="click">Buy Back Issues</a>
+	        				</li>
+					</ul>
+				</ul>
+
+				<div class="affiliate-sites">
+					<ul>
+						<li><a href="http://www.forbeschina.com/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes China</a></li>
+						<li><a href="http://www.forbesindia.com/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes India</a></li>
+						<li><a href="http://www.forbes.co.il/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes Israel</a></li>
+						<li><a href="http://www.forbes.com.mx/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes Mexico</a></li>
+						<li><a href="http://www.forbesmiddleeast.com/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes Middle East</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://www.forbes.pl/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes Poland</a></li>
+						<li><a href="http://www.forbes.ro/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes Romania</a></li>
+						<li><a href="http://www.forbesrussia.ru/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes Russia</a></li>
+						<li><a href="http://forbesmagazine.es/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">Forbes Spain</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://realclearpolitics.com/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">RealClear Politics</a></li>
+						<li><a href="http://www.realclearmarkets.com/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">RealClear Markets</a></li>
+						<li><a href="http://www.realclearworld.com/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">RealClear World</a></li>
+						<li><a href="http://www.realclearsports.com/" target="_blank" data-ga-event="Footer,LinkFollowed,site" data-ga-event-trigger="click">RealClear Sports</a></li>
+					</ul>
+				</div>
+			</div>
+
+        </section>
+
+		
+		<section class="legalese clearfix">
+			<small>2014 Forbes.com LLC&#153; &nbsp; All Rights Reserved</small>
+			<ul>
+				<li><a href="/terms" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">Terms and Conditions</a></li>
+				<li><a href="http://www.forbes.com/fdc/privacy.html" data-ga-event="Footer,LinkFollowed,companyinfo" data-ga-event-trigger="click">Privacy Statement</a></li>
+				<li><a href="http://corporate.morningstar.com/us/asp/subject.aspx?xmlfile=5501.xml" target="_blank" data-ga-event="Footer,LinkFollowed,partner" data-ga-event-trigger="click">Market Data by Morningstar</a></li>
+				<li><a onclick="(function(){forbes.event_tracking.track_ga_event(['Footer','LinkFollowed','partner']);var s=document.createElement('script');s.src='http://preferences.truste.com/js/buildJsFilev2.jsp?domain=forbes.com&amp;type=epref';s.onreadystatechange=function(){if(script.readyState=='loaded'||script.readyState=='complete'){view(trusteId);}};s.onload=function(){view(trusteId);};document.getElementsByTagName('head')[0].appendChild(s);})()" style="cursor:pointer;" target="_blank">AdChoices</a></li>
+			</ul>
+		</section>
+	</div>
+</footer>
+	<!-- End: footer -->
+
+        <script type="text/javascript">
+            //<![CDATA[
+                var ppi_AjaxURI = '/wp-admin/admin-ajax.php'
+                	,imagesBaseCdn = 'http://i.forbesimg.com'
+					,followBarLocation = ''; 
+            //]]>
+        </script>
+    <!--Start: Gigya Configs-->
+        <script type="text/javascript">
+            var gigya_conf = {
+                siteName: 'forbes.com',
+                APIkey: '3_8Fcn29ZQ5lcRRr8BsC6Y2q8eRKPl567JTM6IWXsqW4eqW57_fNx29GDl9YdzZLvH',
+                connectWithoutLoginBehavior: 'alwaysLogin',
+                enabledProviders: 'facebook,twitter,linkedin,googleplus,yahoo,messenger,wordpress,aol,blogger,openid,foursquare,typepad'
+            };
+
+            (function() {
+				var po = document.createElement('script');
+				po.type = 'text/javascript';
+				//po.async = true;
+				po.src = 'http://cdn.gigya.com/js/socialize.js?apiKey=3_8Fcn29ZQ5lcRRr8BsC6Y2q8eRKPl567JTM6IWXsqW4eqW57_fNx29GDl9YdzZLvH';
+
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(po, s);
+			})();
+
+			(function() {
+				var po = document.createElement('script');
+				po.type = 'text/javascript';
+				//po.async = true;
+				po.src = 'http://cdn.gigya.com/js/gigyaGAIntegration.js';
+
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(po, s);
+			})();
+        </script>
+    <!--End: Giya Configs -->
+	<script type="text/javascript">
+		var google_tag_channel = "";
+		var google_tag_section = "";
+		var google_tag_swimlane = "";
+		var google_tag_specialslot = "";
+		var google_tag_article_special_slot = "";
+		var google_tag_display_channel = "home";
+		var google_tag_display_section = "Main";
+		var google_tag_zone = "home";
+		var google_tag_article_id = "home_usa";
+	</script>
+		<script type="text/javascript" src="http://i.forbesimg.com/scripts/combined/js/global.ae92edc33315a21818e8ddfe2ab2dc3b320ae4c8.js"></script>
+		<script type="text/javascript" src="http://i.forbesimg.com/scripts/combined/js/home.46a880d88af1f7f8763b7eabe0bf142a5ea1c10c.js"></script>
+<span class="lazy_load_js" data-files="http://i.forbesimg.com/scripts/combined/js/globallazy.ec9aa08e52619f33ba8aebca43dae18daa0d1571.js"></span>
+    <script type="text/javascript">
+        forbes.bootstrap.init();
+    </script>
+
+</body>
+</html>

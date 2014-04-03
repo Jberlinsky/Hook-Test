@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Joseph Myers</title>
+<base href="http://www.polyomino.org.uk/">
+<link rel="canonical" href="http://www.polyomino.org.uk/">
+<link rev="made" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#115;&#109;&#64;&#112;&#111;&#108;&#121;&#111;&#109;&#105;&#110;&#111;&#46;&#111;&#114;&#103;&#46;&#117;&#107;">
+</head>
+<body>
+
+<h1>Joseph Myers</h1>
+
+<ul>
+<li><a href="contact/">Information on contacting me</a>.</li>
+<li><a href="computer/software/">Software I maintain</a>: <a
+href="computer/c/">GCC, glibc, EGLIBC and C standards development</a>, bsd-games, nppt.</li>
+<li><a href="publications/">My publications and preprints</a>.</li>
+<li><a href="mathematics/">My mathematics</a>.</li>
+<li>I have been involved in some manner in <a href="mathematics/#olymp">Mathematical Olympiad
+activities</a> since 1992.
+<ul>
+<li>I am the current maintainer of the web site for the <a
+href="http://www.bmoc.maths.org/">British Mathematical Olympiad
+Subtrust (BMOS) and Committee (BMOC)</a>, and am a member of BMOC.</li>
+<li>I maintain the web site for the <a
+href="https://www.egmo.org/">European Girls&rsquo; Mathematical
+Olympiad</a> (and do associated EGMO IT work), and that for <a
+href="http://www.egmo2012.org.uk/">EGMO 2012</a>, and was a member of
+the organising committee of
+EGMO&nbsp;2012, which was held in Cambridge in April 2012.</li>
+<li>I maintain the <cite><a href="http://www.imo-register.org.uk/">UK IMO Register</a></cite>, a listing of the
+details of past UK team members in the International Mathematical
+Olympiad (including both Cambridge&rsquo;s 1998 Fields Medalists).</li>
+<li>Also provided here are some <a href="mathematics/imo-scores/">past IMO scores
+data</a>.</li>
+</ul>
+</li>
+<li>I am or have been involved in some Cambridge student societies,
+and for some of these have made relevant documents available online:
+<ul>
+<li>As Eureka Online Editor for the <a
+href="http://www.archim.org.uk/">Archimedeans</a>
+(Cambridge University Mathematical Society), I made the
+first parts of <a
+href="http://www.archim.org.uk/eureka/backissues.html">Eureka
+Online</a> available.</li>
+<li>As Archivist for the Archimedeans, I have made <a
+href="http://www.archim.org.uk/archives/constitutions/">old versions of the
+Constitution, Standing Orders and Procedures</a> available.</li>
+<li>I am a member of the <a
+href="https://www.srcf.ucam.org/tms/">Trinity Mathematical
+Society</a>, and updated and made available online Paul Taylor&rsquo;s
+list of <a href="https://www.srcf.ucam.org/tms/talks-archive/">past
+Trinity Mathematical Society talks</a>.</li>
+<li>I am a member of <a
+href="http://www.srcf.ucam.org/astronomy/">CUAS</a> (Cambridge
+University Astronomical Society); I have never held any office in that
+society but have occasionally used the telescopes and have made available
+here information on the <a href="northumberland-telescope/">history of the Northumberland
+Telescope</a>.</li>
+<li>I&rsquo;ve done a fair amount of work on the <a
+href="https://www.srcf.ucam.org/cucps/">CUCPS</a> (Cambridge
+University Computer Preservation Society) web site, in
+particular the <a
+href="https://www.srcf.ucam.org/cucps/titan/">information about
+TITAN</a>.  Note that CUCPS is no longer active.</li>
+</ul></li>
+<li><a href="british-time/">Historical information on British Summer
+Time</a>.</li>
+<li>As part of my interest in computer history, I have also made
+available here the standard
+<a href="computer/ECMA-10/">ECMA-10&mdash;ECMA standard for Data Interchange on
+Punched Tape</a>.  The standards organisation <a
+href="http://www.ecma.ch/">ECMA</a> produce computer-related standards
+that are freely available both online and in printed form (even a
+complete set of current printed ECMA standards is free); unfortunately
+they cannot supply copies of obsolete standards such as this one, but
+since their standards are not copyright it can be distributed here.
+Many ECMA standards are essentially identical to expensive <a
+href="http://www.iso.org/">ISO</a> ones; there are several ISO
+standards for punched paper tape (numbers 1113, 1154, 1729, 2195 and
+3692) but I have not checked their equivalence to this one.</li>
+</ul>
+
+<hr>
+<p>
+</p>
+<hr>
+<address>Contact: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#115;&#109;&#64;&#112;&#111;&#108;&#121;&#111;&#109;&#105;&#110;&#111;&#46;&#111;&#114;&#103;&#46;&#117;&#107;">Joseph Myers
+(&#106;&#115;&#109;&#64;&#112;&#111;&#108;&#121;&#111;&#109;&#105;&#110;&#111;&#46;&#111;&#114;&#103;&#46;&#117;&#107;)</a><br>
+Last updated:
+<!--
+IGNORE DIFF --> 7 June 2013<!--
+--></address>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>WICKED The Musical | Official Site</title>
+	<style type="text/css">
+	body{
+		padding: 0;
+		margin: 0;
+                background-repeat:no-repeat;
+                background: url("http://wickedthemusical.com.s3.amazonaws.com/newwickedsite/img/splash_bg_4.jpg") no-repeat center center fixed; 
+                -webkit-background-size: 100%; 
+                -moz-background-size: 100%; 
+                -o-background-size: 100%; 
+                background-size: 100%; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://wickedthemusical.com.s3.amazonaws.com/newwickedsite/img/splash_bg_4.jpg', sizingMethod='scale');
+                -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://wickedthemusical.com.s3.amazonaws.com/newwickedsite/img/splash_bg_3.jpg', sizingMethod='scale')";
+	}
+	
+	#button{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -101px;
+		margin-left: -208px;
+		cursor: pointer;
+	}
+        
+        /* iPads (portrait) ----------- */
+            @media only screen 
+            and (min-device-width : 768px) 
+            and (max-device-width : 1024px) 
+            and (orientation : portrait) {
+         body{
+             background-size: 100% !important; 
+             background-color:#000;
+         }
+        }
+	</style>
+        <meta property="fb:admins" content="100001392050864" />
+        <meta name="bitly-verification" content="17ccd7e29709"/>
+        <meta name="p:domain_verify" content="0b014fa0bcab294fdecc609aa57d19ab" />
+        <meta name="google-site-verification" content="FxX7aWpy5NyBIXn3O7buGErf1gCZ0IE4bh0PGucEGTM" />
+</head>
+<meta name="description" content="The ONLY official source for WICKED ticket & show information. The best seat locations at the best prices." />
+<body>
+	<div id="button" onclick="_gaq.push([ '_trackEvent','Misc','Click_Enter','Splash']);">
+		<img src="http://wickedthemusical.com.s3.amazonaws.com/newwickedsite/img/splash_logo_button.png" />
+	</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){        
+	$('#button').click(function(){
+		window.location.href = '/broadway-tickets';
+	});
+	
+	setTimeout("window.location.href = '/broadway-tickets';", 5000);
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-900530-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src=""//www.googletagmanager.com/ns.html?id=GTM-NVGL""
+height=""0"" width=""0"" style=""display:none;visibility:hidden""></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVGL');</script>
+<!-- End Google Tag Manager -->
+</body>
+</html>

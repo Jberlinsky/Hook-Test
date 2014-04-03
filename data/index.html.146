@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+    <head prefix="og: http://ogp.me/ns#
+    fb: http://ogp.me/ns/fb#">
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<title>Indiewire Blogs, Film News and Reviews | Filmmakers, Film Industry, Film Festivals, Awards & Movie Reviews | Indiewire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="title"
+      content="Indiewire Blogs, Film News and Reviews | Filmmakers, Film Industry, Film Festivals, Awards & Movie Reviews | Indiewire"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+
+<meta property="pageHost" content=""/>
+<meta property="pageType" content=""/>
+<link rel="shortcut icon" href="http://d1oi7t5trwfj5d.cloudfront.net/36/9e/83a6781c4a9185774b29cb59594b/favicon.ico" />
+<link rel="apple-touch-icon" href="http://d1oi7t5trwfj5d.cloudfront.net/18/ff/b0b53a08499589fe022e46664b67/favicon.png" />
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=indiewire"></script>
+<link rel="stylesheet" href="/fonts/fonts.min.css?build=20140401-1706" />
+<link rel="stylesheet" href="http://d1oi7t5trwfj5d.cloudfront.net/resource/css/global.292f6ecf3f4b88703912902464b06ff4.css" />
+<link rel="stylesheet" media="print" href="http://d1oi7t5trwfj5d.cloudfront.net/resource/css/print.9ea318947ea3bb245d01842009dbc666.css" />
+
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery-1.7.2.min.fd9c3f401110f85ec685a85a336f03fa.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.cookie.c203f1f3ca2a51bd6a2c62cd52312139.js"></script>
+
+<script src="//cdn.optimizely.com/js/713751423.js"></script>
+
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.tools.min.6777c9308a64b5abcf10d728cedbf865.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/head.min.75ebe32e1ce54532b352cc9496580198.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.lightbox.bc8e362712ef3055f6b4578b3789f8b9.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/iw.bc7ea7ad1f4851866a619ae16e2079ef.js"></script>
+
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/criticwire/criticwire.83a9791165791fde26afc6a4f042fee3.js"></script>
+<div id="fb-root"></div>
+<script src="//connect.facebook.net/en_US/all.js" id="facebook-jssdk"></script>
+<script type="text/javascript">
+    
+    $.extend(IW, {
+        FB: {
+            params: {
+                appId: '132443425037',
+                status: true,
+                cookie: true,
+                xfbml: true
+            },
+            callbacks: {
+                init: [],
+                getLoginStatus: [],
+                authResponseChange: [],
+                loginSmallLoaded: [],
+                api: []
+            },
+            doCallback: function(response, fnName) {
+                for(var i in this.callbacks[fnName]) {
+                    CW.log('Calling callbacks[' + fnName + '][' + i + ']', response);
+                    this.callbacks[fnName][i](response);
+                }
+            }
+        }
+    });
+    
+    CW.log('window.fbAsyncInit()');
+
+    if(typeof(FB) == 'object') {
+        CW.log('FB.init()');
+        FB.init(IW.FB.params);
+        
+        IW.FB.callbacks.getLoginStatus.push(CW.user.init);
+        IW.FB.callbacks.getLoginStatus.push(CW.user.handleLoginResponse);
+        IW.FB.callbacks.authResponseChange.push(CW.user.handleLoginResponse);
+        IW.FB.callbacks.authResponseChange.push(CW.newsletter.check);
+
+        if(typeof(getSocialsCount) == 'function') {
+            IW.FB.callbacks.getLoginStatus.push(getSocialsCount);
+        }
+
+        FB.getLoginStatus(function(response) {
+            CW.log('top level FB.getLoginStatus() callback, calling other CBs');
+            IW.FB.doCallback(response, 'getLoginStatus');
+            FB.Event.subscribe('auth.authResponseChange', function(response) {
+                IW.FB.doCallback(response, 'authResponseChange');
+            });
+        });
+
+    } else {
+        CW.log('FB is not defined');
+    }
+    
+    IW.siteName = 'Indiewire';
+    
+</script><script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3922545-4']);
+    _gaq.push(['_setDomainName', '.indiewire.com']);
+
+    
+               _gaq.push(['_setCustomVar', 3, 'Site', 'Indiewire', 3 ]);
+           _gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+<!-- START Nielsen Online Async V6.0 -->
+	<script type="text/javascript">
+	 var _nol = { pvar: { cid: "us-306011h", content: "0", server: "secure-us"
+	 } };
+	 (function () { var s = document.createElement('script');
+	 s.type = 'text/javascript';
+	 s.async = true;
+	 s.src = '//secure-us.imrworldwide.com/v60a.js';
+	 var x = document.getElementsByTagName('script')[0];
+	 x.parentNode.insertBefore(s, x); })();
+	</script>
+	<!-- END Nielsen Online Async V6.0 -->
+
+	<!-- Begin comScore Tag -->
+	<script>
+	  var _comscore = _comscore || [];
+	  _comscore.push({ c1: "2", c2: "15332233" });
+	  (function() {
+	    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	    el.parentNode.insertBefore(s, el);
+	  })();
+	</script>
+	<noscript>
+		<img
+			src="http://b.scorecardresearch.com/p?c1=2&c2=15332233&cv=2.0&cj=1" />
+	</noscript>
+	<!-- End comScore Tag -->
+
+	<!-- Google Tag Manager -->
+	<noscript>
+		<iframe src="//www.googletagmanager.com/ns.html?id=GTM-WGR7HL"
+			height="0" width="0" style="display: none; visibility: hidden"></iframe>
+	</noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WGR7HL');</script>
+	<!-- End Google Tag Manager -->
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script> 
+    </head>
+    <body  > 
+<div class="trendWrap clrfix">
+    <div class="trending clrfix">
+        <a class="snag" href="http://www.snagfilms.com">SnagFilms</a>
+
+        <div class="trendBar">
+            <span>Trending:</span>
+            <a href="http://www.indiewire.com/box-office/"
+                   title="">Box Office</a>, &nbsp;&nbsp;<a href="http://www.indiewire.com/films"
+                   title="">New Releases</a>, &nbsp;&nbsp;<a href="http://www.indiewire.com/videos/"
+                   title="">Videos</a></div>
+        <!-- ends trendingBar -->
+    </div>
+    <!-- end trending -->
+</div>
+<!-- end trendWrap -->
+
+
+<div id="hat">
+    <div class="hat-ad">
+        <div class="ad">
+            <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+		window['adtech_adurl_' + "2ac1f87a-2577-42f6-aaec-4b736b563ad8"] = "http://adserver.adtechus.com/addyn/3.0/5182/619932/0/225/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
+		document.writeln('<DIV ID="ADTECH_AdContainer_' + "2ac1f87a-2577-42f6-aaec-4b736b563ad8" +'"><IFRAME ID="ADTECH_IFRAME_'+ "2ac1f87a-2577-42f6-aaec-4b736b563ad8" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+		
+
+	</script>
+
+</div>
+        <!-- end ad -->
+    </div>
+    <!-- end hat-ad -->
+
+    <!-- interstitial ad call -->
+
+            <div id="ad-interstitial">
+                <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+        document.write('<scr' + 'ipt src="http://adserver.adtechus.com/addyn/3.0/5182/842660/0/16/ADTECH;loc=100;target=_blank;key=1318114940725+Indiewire;;grp=' + window.adgroupid + ';misc=' + new Date().getTime() + '"></scri' + 'pt>');
+    </script>
+<!-- end interstitial ad call -->
+            </div>
+        <!-- skin ad call -->
+            <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+		window['adtech_adurl_' + "640b4251-50b2-4048-8ed8-f145e001fa5e"] = "http://adserver.adtechus.com/addyn/3.0/5182/2221508/0/16/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
+		document.writeln('<DIV ID="ADTECH_AdContainer_' + "640b4251-50b2-4048-8ed8-f145e001fa5e" +'"><IFRAME ID="ADTECH_IFRAME_'+ "640b4251-50b2-4048-8ed8-f145e001fa5e" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+		
+
+	</script>
+
+<!-- end skin ad call -->
+        </div>
+<!-- end header ad -->
+<div id="masthead">
+
+    <div class="head clrfix">
+        <div class="tag">
+            <span>Celebrating 17 Years of</span>
+            <span class="motto myriad">Film.Biz.Fans.</span>
+        </div>
+        <div class="social clrfix cw-head-social">
+            <p id="todays-date" class="date"></p>
+            <div id="login" style="display: none;">
+                 <div class="loginFB" style="">
+            <div class="fb-login-button" data-show-faces="false" data-width="150" data-max-rows="1" data-scope="user_about_me,user_likes,email">Log In With Facebook</div>
+        </div>
+    </div>
+            <div id="social-links">
+            
+                <div class="fb-like" data-href="http://www.facebook.com/indiewire" 
+                            data-send="false" data-layout="button_count" data-width="90" 
+                            data-show-faces="true" data-font="lucida grande"></div>
+                <a href="/newsletter" class="email-button"></a>
+                <a class="rss" href="/rss-page"></a>
+                <a href="http://www.twitter.com/indiewire" class="twitter"></a>
+                <a href="http://www.facebook.com/indiewire" class="facebook"></a>
+                </div>
+        </div><!-- end social -->
+        <a href="/" class="logo">Indiewire</a>
+    </div> <!-- end head -->
+    
+    <div id="navWrapper" class="clrfix">
+		<ul class="primaryNav clrfix">
+			<li class="tab1 drop"><a href="/articles/?l=indiewire">News</a>
+			<ul class="dropdown">
+					<li><a href="/articles/?l=indiewire" target="_self">Recent
+							News</a></li>
+					<li><a href="/feature/interviews"
+						target="_self">Interviews</a></li>
+					<li><a href="/ipop" target="_self">Photos</a></li>
+					<li><a href="/news/acquisitions" target="_self">Acquisitions</a></li>
+					<li><a href="/box-office/"
+						target="_self">Box Office</a></li>
+					<li><a href="/category/television"
+						target="_self">Television</a></li>
+					<li><a
+						href="http://www.indiewire.com/category/indiewire-video"
+						target="_self">Video</a></li>
+				</ul></li>
+			<li class="tab2 drop"><a href="/films">MOVIES</a>
+			<ul class="dropdown">
+			        <li><a href="/box-office" target="_self">Box Office Home</a></li>
+			        <li><a href="/films?t=cs" target="_self">Coming Soon</a></li>
+			        <li><a href="/movies?t=az&amp;filter=ab0123456789" target="_self">Find a Film</a></li>
+			        <li><a href="/home-entertainment" target="_self">Home Entertainment</a></li>
+			        <li><a href="/films" target="_self">In Theaters</a></li>
+			        <li><a href="/mod" target="_self">Now Playing: Movies on Demand</a></li>
+					<li><a href="/reviews" target="_self">Reviews</a></li>
+					<li><a href="/tag/vod" target="_self">Video On Demand</a></li>
+				</ul></li>
+			<li class="tab3 drop"><a href="/category/awards">AWARDS</a>
+			<ul class="dropdown">
+			        <li><a href="/article/2014-oscar-predictions" target="_self">Predictions</a></li>
+			        <li><a href="/article/save-the-dates-heres-the-2013-14-awards-calendar" target="_self">Awards Calendar</a></li>
+			        <li><a href="/tag/for-your-consideration" target="_self">Weekly Column</a></li>
+			        <li><a href="/article/for-your-consideration-a-studio-scorecard-for-2013" target="_self">Studio Breakdown</a></li>
+				</ul></li>
+			<li class="tab4 drop"><a href="/category/television/">Television</a>
+			<ul class="dropdown" style="display: none;">
+					<li><a href="/category/television/" target="_self">All TV
+							Coverage</a></li>
+					<li><a href="/tag/tv-news"
+						target="_self">News</a></li>
+					<li><a href="/tag/tv-reviews"
+						target="_self">Reviews</a></li>
+					<li><a href="/tag/tv-features"
+						target="_self">Features</a></li>
+					<li><a href="/tag/tv-videos"
+						target="_self">Videos</a></li>
+					<li><a href="/tag/tv-interviews"
+						target="_self">Interviews</a></li>
+				</ul></li>
+			<li class="tab5 drop"><a href="http://www.indiewire.com/blogs">Blogs</a>
+			<ul class="dropdown">
+			        <li><a href="http://blogs.indiewire.com/animationscoop/"
+                        target="_self">Animation Scoop</a></li>
+					<li><a href="http://blogs.indiewire.com/peterbogdanovich/"
+						target="_self">Blogdanovich</a></li>
+					<li><a href="http://blogs.indiewire.com/bent/"
+						target="_self">/bent</a></li>
+					<li><a href="http://blogs.indiewire.com/carynjames/"
+						target="_self">Caryn James</a></li>
+					<li><a href="http://blogs.indiewire.com/criticwire/"
+						target="_self">Criticwire</a></li>
+					<li><a href="http://blogs.indiewire.com/leonardmaltin/"
+						target="_self">Leonard Maltin's Movie Crazy</a></li>
+					<li><a href="http://blogs.indiewire.com/mediamatrix/"
+                        target="_self">Media Matrix</a></li>
+					<li><a href="http://blogs.indiewire.com/theplaylist/"
+						target="_self">The Playlist</a></li>
+					<li><a href="http://blogs.indiewire.com/pressplay/"
+						target="_self">Press Play</a></li>
+					<li><a href="http://blogs.indiewire.com/anthony/"
+						target="_self">ReelPolitik</a></li>
+					<li><a href="http://blogs.indiewire.com/shadowandact/"
+						target="_self">Shadow and Act</a></li>
+					<li><a href="http://blogs.indiewire.com/sydneylevine/"
+						target="_self">SydneysBuzz</a></li>
+					<li><a href="http://blogs.indiewire.com/thompsononhollywood/"
+						target="_self">Thompson on Hollywood</a></li>
+					<li><a href="http://blogs.indiewire.com/womenandhollywood/"
+						target="_self">Women and Hollywood</a></li>
+				</ul></li>
+			<li class="tab6 drop"><a
+				href="/category/filmmaker-toolkit">Filmmaking</a>
+			     <ul class="dropdown">
+					<li><a href="/category/filmmaker-toolkit" target="_self">Filmmaker Toolkit</a></li>
+					<li><a href="/tag/project-of-the-day" target="_self">Project of the Day</a></li>
+					<li><a href="/tag/project-of-the-week" target="_self">Project of the Week</a></li>
+					<li><a href="/article/congrats-to-dear-white-people-indiewire-tribeca-film-institutes-project-of-the-year" target="_self">Project of the Year</a></li>
+				</ul>
+			</li>
+		</ul>
+		<!-- end primary Nav -->
+		<div class="navad clrfix">
+            <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+		window['adtech_adurl_' + "504d1d05-b4af-4c44-b6df-0037418ee2b7"] = "http://adserver.adtechus.com/addyn/3.0/5182/642747/0/3331/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
+		document.writeln('<DIV ID="ADTECH_AdContainer_' + "504d1d05-b4af-4c44-b6df-0037418ee2b7" +'"><IFRAME ID="ADTECH_IFRAME_'+ "504d1d05-b4af-4c44-b6df-0037418ee2b7" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+		
+
+	</script>
+
+</div>
+    </div> <!-- end navWrapper -->
+
+    <div class="subNav clrfix">
+        <div class="more">more</div>
+        <ul class="clrfix">
+            <li><a href="/reviews/" target="_self">Reviews</a></li>
+            <li><a href="/box-office/" target="_self">Box Office</a></li>
+            <li><a href="/feature/interviews" target="_self">Interviews</a></li>
+            <li><a href="/category/festivals/" target="_self">Festivals</a></li>
+            <li><a href="/critic/" target="_self">Criticwire</a></li>
+            <li><a href="/tag/sundance-film-festival" target="_self">Sundance</a></li>
+            <li><a href="/videos" class="last" target="_self">Videos</a></li>
+            </ul>
+        <form class="searchBar" action="/search">
+            <input type="text" name="search" placeholder="Search" class="search-field">
+            <input class="search-btn" type="submit" value="search">
+        </form>
+    </div> <!-- end sub nav -->
+    <div class="pushdownAd">
+            <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+		window['adtech_adurl_' + "a64fbb29-3f45-4b20-bdc9-85f6138e8298"] = "http://adserver.adtechus.com/addyn/3.0/5182/2221507/0/0/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
+		document.writeln('<DIV ID="ADTECH_AdContainer_' + "a64fbb29-3f45-4b20-bdc9-85f6138e8298" +'"><IFRAME ID="ADTECH_IFRAME_'+ "a64fbb29-3f45-4b20-bdc9-85f6138e8298" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+		
+
+	</script>
+
+</div> <!-- end pushdown ad module -->
+    </div> <!-- end masthead -->
+<div id="pageWrapper"><div id="col1"><div class="category-header clrfix">
+<h1 class="page-title" style="width:250px"><span class="titleItalic">the</span> Blogs</h1>				
+	<div class="select jump">
+		<form id="frm-sorting" method="get">
+			<div class="select open">
+				<select id="slt-sort" class="ui-select jump" name="archive" style="display:none;" onchange="selectURL(this.options[this.selectedIndex].value);">
+                                        <option selected="blog" value="">a Blog</option>
+                                    
+					<option class="link" value="http://blogs.indiewire.com/bent/" data-value="/Bent">/Bent</option> <option class="link" value="http://blogs.indiewire.com/animationscoop/" data-value="Animation Scoop">Animation Scoop</option> <option class="link" value="/boxofficeinsider/" data-value="Box Office Insider">Box Office Insider</option> <option class="link" value="http://blogs.indiewire.com/carynjames/" data-value="Caryn James">Caryn James</option> <option class="link" value="http://blogs.indiewire.com/criticwire/" data-value="Criticwire">Criticwire</option> <option class="link" value="http://blogs.indiewire.com/kohn/" data-value="Eric Kohn">Eric Kohn</option> <option class="link" value="http://blogs.indiewire.com/tedhope/" data-value="Hope for Film">Hope for Film</option> <option class="link" value="http://www.indiewire.com/" data-value="Indiewire">Indiewire</option> <option class="link" value="http://blogs.indiewire.com/mediamatrix/" data-value="Jon Friedmans Media Matrix">Jon Friedmans Media Matrix</option> <option class="link" value="http://blogs.indiewire.com/leonardmaltin/" data-value="Leonard Maltin">Leonard Maltin</option> <option class="link" value="http://blogs.indiewire.com/peterbogdanovich/" data-value="Peter Bogdanovich">Peter Bogdanovich</option> <option class="link" value="http://blogs.indiewire.com/pressplay/" data-value="Press Play">Press Play</option> <option class="link" value="http://blogs.indiewire.com/anthony/" data-value="ReelPolitik">ReelPolitik</option> <option class="link" value="http://blogs.indiewire.com/shadowandact/" data-value="Shadow and Act">Shadow and Act</option> <option class="link" value="http://blogs.indiewire.com/sydneylevine/" data-value="SydneysBuzz">SydneysBuzz</option> <option class="link" value="http://blogs.indiewire.com/thelostboy/" data-value="The Lost Boys">The Lost Boys</option> <option class="link" value="http://blogs.indiewire.com/theplaylist/" data-value="The Playlist">The Playlist</option> <option class="link" value="http://blogs.indiewire.com/thompsononhollywood/" data-value="Thompson on Hollywood">Thompson on Hollywood</option> <option class="link" value="http://blogs.indiewire.com/womenandhollywood/" data-value="Women and Hollywood">Women and Hollywood</option> </select>
+			</div>
+		</form>                                                                      
+	</div> <!-- end select module -->
+</div> <!-- end category-header -->
+<div class="mod dynamic3">
+	<!-- Style: 3 Class: dynamic3 CMS Image Size: dynamic-lead-219x147  -->
+	<a class="prev browse left disabled">&laquo;</a>
+	<div class="scroll-hori">
+		<div class="items">
+			<ul>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/theplaylist/new-look-at-green-goblin-in-the-amazing-spider-man-2-plus-two-new-featurettes-more-20140326"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2bc8881/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F11%2F5a%2F66761dc2414d991a6f81acd5dfc8%2Fresizes%2F500%2Fthe-amazing-spider-man-2.jpg" width="219" height="147" data-size="dynamic-lead-219x147">New Look at 'Spider-Man 2'</a></li>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/theplaylist/watch-trailer-for-cinema-made-in-italy-bringing-the-great-beauty-honey-more-to-theatres-nationwide-20140325"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/d19dd87/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F51%2Ffe%2Fbfdfcf1b4feab0b2a9cf2bd26a17%2Fresizes%2F500%2Fthe-great-beauty.jpg" width="219" height="147" data-size="dynamic-lead-219x147">'Cinema Made in Italy' Trailer</a></li>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/theplaylist/watch-the-history-of-movie-trailers-explained-in-15-minutes-20140326"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/403e8e5/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fb7%2F05%2Faf064f1f458c958dbafaecd2dcc2%2Fresizes%2F500%2Fred-band-trailer-mpaa.jpg" width="219" height="147" data-size="dynamic-lead-219x147">The History of Movie Trailers</a></li>
+				</ul>
+				<ul>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/womenandhollywood/films-by-and-about-women"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/6def51e/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F16%2F69%2F3f631d8d4f93a03f662c555107cf%2Fresizes%2F500%2Flynn-shelton.jpg" width="219" height="147" data-size="dynamic-lead-219x147">Films By and About Women</a></li>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/theplaylist/the-25-greatest-movies-never-made-20140325"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2bb3665/2147483647/crop/638x426+42+11/resize/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd5%2F97%2F3aadeec642d5aafc07687cd67605%2Fdune-poster.jpg" width="219" height="146" data-size="dynamic-lead-219x147">The 25 Greatest Movies Never Made</a></li>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/thompsononhollywood/reasons-to-snark-at-cnn-video"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/7f7a049/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F17%2Fe4%2F73df9f81446395facc232959bd62%2Fresizes%2F500%2Fjon-stewart.jpeg" width="219" height="147" data-size="dynamic-lead-219x147">Reasons to Diss CNN (VIDEO)</a></li>
+				</ul>
+				</div>
+	</div>
+	<a class="next browse right">&raquo;</a>
+	<div class="navi"></div>
+			</div>
+<!-- end dynamic3 -->
+<div class="recent-posts">
+            <h3>recent <span>Posts</span></h3>
+    </div> <!-- end recent posts -->
+
+    <div class="review">
+            <ul>
+                <li class="clrfix">
+                        
+                            <div class="info" >
+
+                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">The Playlist</div></div></div></div>
+                                    <div class="comments"><span class="number">0</span> comments</div>
+
+                                    </div> <!-- end info -->
+                            <div class="summary">
+                                    <h3><a href="http://blogs.indiewire.com/theplaylist/zac-efron-to-star-in-john-grisham-thriller-the-associate-20140402">Zac Efron To Star In John Grisham Thriller 'The Associate'</a></h3> 
+
+                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/760abc9/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F59%2F5d%2F7bbea875419aa7cc6e5b49f31802%2Fresizes%2F500%2Fthe-associate-zac-efron.jpg" width="207" height="147" alt="The Associate Zac Efron" data-size="blog-image-207x147"><span class="byline">Kevin Jagernauth on 
+                                        Wed Apr 02 18:03:47 EDT 2014</span>
+                                    <p>Zac Efron isn't going to let fights with transients in L.A.'s Skid Row stop him from movin' on up. The actor has been eager to prove his dramatic chops with a string of recent films including "The Lucky One," "The Paperboy," "At Any Price" and "Parkland." Now he's hoping to follow folks like Tom Cruise and Matt Damon, and put a John Grisham thriller on his bookshelf.</p>
+                                    
+                                    <a class="more" href="http://blogs.indiewire.com/theplaylist/zac-efron-to-star-in-john-grisham-thriller-the-associate-20140402">Read More &raquo;</a>
+                                    
+                                    <div class="tags">
+                                        
+                                        <span>More:</span>
+                                            <a href="http://www.indiewire.com/actor/zac-efron">Zac Efron</a>, <a href="http://www.indiewire.com/tag/the-associate">The Associate</a></div> <!-- end tags -->
+                            </div> <!-- end summary -->
+                    </li>
+                <li class="clrfix">
+                        
+                            <div class="info" >
+
+                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">The Playlist</div></div></div></div>
+                                    <div class="comments"><span class="number">0</span> comments</div>
+
+                                    </div> <!-- end info -->
+                            <div class="summary">
+                                    <h3><a href="http://blogs.indiewire.com/theplaylist/get-ready-for-game-of-thrones-season-4-this-sunday-with-kingdoms-worth-of-new-pics-plus-3-featurettes-20140402">Get Ready For 'Game Of Thrones' Season 4 This Sunday With Kingdom's Worth Of New Pics Plus 3 Featurettes</a></h3> 
+
+                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/e8c8252/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fad%2F44%2F8593a96a4fe1b961d1fe70044e0b%2Fresizes%2F500%2Fgame-of-thrones-season-4-jamie-nikolaj-coster-waldau.jpg" width="207" height="147" alt="Game Of Thrones" data-size="blog-image-207x147"><span class="byline">Kevin Jagernauth on 
+                                        Wed Apr 02 17:40:50 EDT 2014</span>
+                                    <p>What are you doing this Sunday night? If your answer is anything but watching the season premiere of "Game Of Thrones," you're probably doing it wrong. Even if you haven't watch a single frame of the show, HBO2 has you covered: a marathon of every episode to date, back-to-back, twice, kicks off this Friday at 9 AM. But if you're already rarin' to go and need something to hold you over, perhaps this will help.</p>
+                                    
+                                    <a class="more" href="http://blogs.indiewire.com/theplaylist/get-ready-for-game-of-thrones-season-4-this-sunday-with-kingdoms-worth-of-new-pics-plus-3-featurettes-20140402">Read More &raquo;</a>
+                                    
+                                    <div class="tags">
+                                        
+                                        <span>More:</span>
+                                            <a href="http://www.indiewire.com/category/television">Television</a>, <a href="http://www.indiewire.com/tag/tv-news">TV News</a>, <a href="http://www.indiewire.com/tag/game-of-thrones-1">Game of Thrones</a>, <a href="http://www.indiewire.com/tag/game-of-thrones">HBO's Game of Thrones</a></div> <!-- end tags -->
+                            </div> <!-- end summary -->
+                    </li>
+                <li class="clrfix">
+                        
+                            <div class="info" >
+
+                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">Shadow and Act</div></div></div></div>
+                                    <div class="comments"><span class="number">0</span> comments</div>
+
+                                    </div> <!-- end info -->
+                            <div class="summary">
+                                    <h3><a href="http://blogs.indiewire.com/shadowandact/forest-whitaker-in-talks-to-jump-in-the-ring-w-jake-gyllenhaal-in-antoine-fuquas-southpaw">Forest Whitaker In Talks To Jump In The Ring w/ Jake Gyllenhaal In Antoine Fuqua's 'Southpaw'</a></h3> 
+
+                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/8f8da8d/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F47%2F37b3406ca211e19987123138165f92%2Ffile%2Fforest-whitaker.jpg" data-size="blog-image-207x147"><span class="byline">Tambay A. Obenson on 
+                                        Wed Apr 02 17:26:24 EDT 2014</span>
+                                    <p>Forest Whitaker In Talks To Jump In The Ring w/ Jake Gyllenhaal In Antoine Fuqua's 'Southpaw'</p>
+                                    
+                                    <a class="more" href="http://blogs.indiewire.com/shadowandact/forest-whitaker-in-talks-to-jump-in-the-ring-w-jake-gyllenhaal-in-antoine-fuquas-southpaw">Read More &raquo;</a>
+                                    
+                                    <div class="tags">
+                                        
+                                        <span>More:</span>
+                                            <a href="http://www.indiewire.com/actor/forest-whitaker">Forest Whitaker</a></div> <!-- end tags -->
+                            </div> <!-- end summary -->
+                    </li>
+                <li class="clrfix">
+                        
+                            <div class="info" >
+
+                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">The Playlist</div></div></div></div>
+                                    <div class="comments"><span class="number">0</span> comments</div>
+
+                                    </div> <!-- end info -->
+                            <div class="summary">
+                                    <h3><a href="http://blogs.indiewire.com/theplaylist/review-errol-morris-donald-rumsfeld-doc-the-unknown-known-both-insightful-unsatisfying-20140402">Review: Errol Morris' Donald Rumsfeld Doc 'The Unknown Known' Both Insightful & Unsatisfying</a></h3> 
+
+                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/cdaabc1/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fb7%2Fee%2Fa1b0d97345b0aa81ad1749bf41b7%2Fresizes%2F500%2Fthe-unknown-known-errol-morris.jpg" width="207" height="147" alt="The Unknown Known, Errol Morris" data-size="blog-image-207x147"><span class="byline">Oliver Lyttelton on 
+                                        Wed Apr 02 17:14:20 EDT 2014</span>
+                                    <p>As we inch towards another potential war in the Middle East, the last couple are still being pored over by filmmakers. We’re still likely some time away from the definitive takes on the wars in Iraq and Afghanistan, but we have seen a few solid films telling those stories in the last decade or so, albeit tending to focus on the men on the ground, rather than the architects of the conflict. The men who planned and executed the wars might have been out of office for some time, but they’re not showing any particular willingness to talk things over. Well, except one. Sort of.</p>
+                                    
+                                    <a class="more" href="http://blogs.indiewire.com/theplaylist/review-errol-morris-donald-rumsfeld-doc-the-unknown-known-both-insightful-unsatisfying-20140402">Read More &raquo;</a>
+                                    
+                                    <div class="tags">
+                                        
+                                        <span>More:</span>
+                                            <a href="http://www.indiewire.com/tag/the-unknown-known-the-life-and-times-of-donald-rumsfeld">The Unknown Known</a>, <a href="http://www.indiewire.com/director/errol-morris">Errol Morris</a>, <a href="http://www.indiewire.com/category/reviews">Reviews</a>, <a href="http://www.indiewire.com/tag/review">Review</a></div> <!-- end tags -->
+                            </div> <!-- end summary -->
+                    </li>
+                </ul>
+    </div> <!-- end review module -->
+
+    <div class="see-all-recent-posts">
+                    <h3><a href="http://www.indiewire.com/blogs?show=all">See all recent posts <span>&raquo;</span></a></h3>
+            </div> <!-- end see all recent posts -->
+        <div class="the-network">
+            <h3>the <span>Network</span></h3>
+            <ul>
+
+                <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/animationscoop/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/b83e8bb/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F14%2F91%2F9618e14a41cead40e0aa170da092%2Fanimation-scoop-medlogo-sized.jpg" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/animationscoop/">Animation Scoop</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/animationscoop/email">Email</a></li>
+                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=Animation%20Scoop" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/animationscoop/book-review-showa-a-history-of-japan-1926-1939">&raquo; BOOK REVIEW: "Showa: A History of Japan 1926-1939"</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/animationscoop/april-1st-contest-day-dvd-give-away-my-little-pony-a-dash-of-awesome">&raquo; APRIL 1st CONTEST DAY: DVD Give Away "My Little Pony - A Dash Of Awesome!"</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/animationscoop/war-of-the-worlds-goliath-bluray-contest">&raquo; APRIL 1st CONTEST DAY: "War Of The Worlds: Goliath" Bluray Contest</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/carynjames/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/77f4939/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F5f%2Ff38430ef5811e0927c12313931436e%2Ffile%2Fjames_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/carynjames/">Caryn James</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/carynjames/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/carynjames" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/carynjames/finding-vivian-maier">&raquo; The Emily Dickinson of Photographs or the Anti-Mary Poppins? 'Finding Vivian Maier'</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/carynjames/looking-at-the-bright-side-of-the-death-on-the-good-wife">&raquo; The Bright Side of the Death on 'The Good Wife'</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/carynjames/missingpicture">&raquo; Poetry, Politics and Memory in "The Missing Picture"</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/criticwire/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/459b342/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd0%2Fc38b21633811e19987123138165f92%2Ffile%2Fcriticwire_medlogo_IWBLUE.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/criticwire/">Criticwire</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/criticwire/email">Email</a></li>
+                                            <li><a class="rss" href="http://feeds.feedburner.com/Criticwire" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/criticwire/mad-men-season-7-reviews">&raquo; First Reviews of "Mad Men's" Season 7 Premiere</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/criticwire/fear-of-movies-on-demand">&raquo; Is Watching Movies Too Hard, or Are Audiences Getting Soft?</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/criticwire/twop-is-a-ok-television-without-pity-archives-will-stay-online">&raquo; TWoP Is A-OK: Television Without Pity Archives Will Stay Online</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/mediamatrix/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/55e62e9/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F7f%2Fb6%2Fc26700564cbb8508643bff9af685%2Fmediamatrix-medlogo.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/mediamatrix/">Jon Friedmans Media Matrix</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/mediamatrix/email">Email</a></li>
+                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=Jon%20Friedman's%20Media%20Matrix" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/mediamatrix/is-author-michael-lewis-too-smart-for-america">&raquo; Is Author Michael Lewis Too Smart For America?</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/mediamatrix/whats-behind-facebooks-billion-dollar-buying-binge">&raquo; What's Behind Facebook's Billion-Dollar Buying Binge?</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/mediamatrix/phil-jackson-and-the-new-york-knicks-8-burning-questions">&raquo; Phil Jackson and the New York Knicks: 5 Burning Questions</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/leonardmaltin/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/5d39496/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F89%2F522f20ef5811e0927c12313931436e%2Ffile%2Fleonard-logo-small.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/leonardmaltin/">Leonard Maltin</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/leonardmaltin/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/leonardmaltin" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/show-business-at-its-brightest">&raquo; Show Business At Its Brightest</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/movie-talk-with-doug-benson-and-samm-levine">&raquo; Movie Talk With Doug Benson And Samm Levine</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/breathe-in">&raquo; Breathe In</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/pressplay/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/f5e93cc/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fe7%2F44ef50ef5811e0927c12313931436e%2Ffile%2FScreen%20shot%202011-10-26%20at%202.44.03%20PM.png" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/pressplay/">Press Play</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/pressplay" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/pressplay/second-sight-how-channel-surfing-an-ipod-and-peggy-sue-got-married-restored-a-movie-critics-eyesight">&raquo; Second Sight: How Channel-Surfing, an iPod, and PEGGY SUE GOT MARRIED Restored a Movie Critic's Eyesight</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/pressplay/hannah-horvath-from-girls-is-the-last-thing-the-iowa-writers-workshop-needs">&raquo; Hannah Horvath from GIRLS Is the Last Thing the Iowa Writers' Workshop Needs</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/pressplay/arielle-bernstein-orphans-refugees-and-architectural-spaces-the-dream-of-the-grand-budapest-hotel">&raquo; ARIELLE BERNSTEIN: Orphans, Refugees, and Architectural Spaces: The Dream of THE GRAND BUDAPEST HOTEL</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/peterbogdanovich/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/84ee1ed/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fc6%2Fcfe9f0ef5811e0927c12313931436e%2Ffile%2Fbogdanovich-banner3.png" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/peterbogdanovich/">Peter Bogdanovich</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/peterbogdanovich" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/the-cukor-file-part-5">&raquo; The George Cukor File - Part 5</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/00000143-5a25-d395-a377-7e6faa680000">&raquo; The George Cukor File - Part 4</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/00000142-fda1-d395-a376-ffefa97f0000">&raquo; The George Cukor File - Part 3</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/anthony/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/371ad45/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fff%2F6558a0ef5711e0927c12313931436e%2Ffile%2Freelpolitik_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/anthony/">ReelPolitik</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/anthony" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/anthony/exploiting-vivian-maier-when-do-docs-invade-privacy">&raquo; Exploiting Vivian Maier: When Do Docs Invade Privacy? </a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/anthony/what-sergei-loznitsas-my-joy-tells-us-about-the-current-crisis-in-ukraine">&raquo; What Sergei Loznitsa's "My Joy" Tells Us About the Current Crisis in Ukraine  </a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/anthony/six-warnings-for-documentary-filmmakers">&raquo; Six Warnings for Documentary Filmmakers</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/shadowandact/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/da30eb3/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F2e%2F9e9ef0ef5911e0927c12313931436e%2Ffile%2Fshadowact_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/shadowandact/">Shadow and Act</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/shadowandact/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/shadowandact" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/shadowandact/forest-whitaker-in-talks-to-jump-in-the-ring-w-jake-gyllenhaal-in-antoine-fuquas-southpaw">&raquo; Forest Whitaker In Talks To Jump In The Ring w/ Jake Gyllenhaal In Antoine Fuqua's 'Southpaw'</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/shadowandact/apparently-bishops-look-in-x-men-days-of-future-past-was-inspired-by-busta-rhymes">&raquo; Apparently, Bishop's Look In 'X-Men: Days Of Future Past' Was Inspired By Busta Rhymes & Gary Coleman?</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/shadowandact/exclusive-clip-from-mandela-long-walk-to-freedom-and-dvd-blu-ray-giveaway">&raquo; DVD/Blu Ray Giveaway and Exclusive Clip from 'Mandela: Long Walk to Freedom'</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/sydneylevine/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/a4cacb1/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F76%2F73c020ef5911e0927c12313931436e%2Ffile%2Fsydney_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/sydneylevine/">SydneysBuzz</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/sydneylevine/email">Email</a></li>
+                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=SydneysBuzz" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/sydneylevine/review-captain-america-the-winter-soldier-lonely-heroes-need-friends-too">&raquo; Review: Captain America: The Winter Soldier- Lonely Heroes Need Friends Too </a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/sydneylevine/latinobuzz-kikimelendez-debut-feature-journey-of-a-female-comic-to-open-in-time-for-cinco-de-mayo-international-film-business">&raquo; LatinoBuzz: Kiki Melendez' Debut Feature “Journey of a Female Comic” to Open in Time for Cinco de Mayo</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/sydneylevine/finding-vivian-maier-international-film-business">&raquo; Finding Vivian Maier </a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/theplaylist/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2273fbe/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fcc%2Fa13680ef5911e0927c12313931436e%2Ffile%2Fplaylist_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/theplaylist/">The Playlist</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/theplaylist/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/theplaylist" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/theplaylist/zac-efron-to-star-in-john-grisham-thriller-the-associate-20140402">&raquo; Zac Efron To Star In John Grisham Thriller 'The Associate'</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/theplaylist/get-ready-for-game-of-thrones-season-4-this-sunday-with-kingdoms-worth-of-new-pics-plus-3-featurettes-20140402">&raquo; Get Ready For 'Game Of Thrones' Season 4 This Sunday With Kingdom's Worth Of New Pics Plus 3 Featurettes</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/theplaylist/review-errol-morris-donald-rumsfeld-doc-the-unknown-known-both-insightful-unsatisfying-20140402">&raquo; Review: Errol Morris' Donald Rumsfeld Doc 'The Unknown Known' Both Insightful & Unsatisfying</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/thompsononhollywood/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/c0ad249/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd8%2Fc6d700eec611e0ad0512313931436e%2Ffile%2F276478_128392760512326_6008885_n.jpeg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/thompsononhollywood/">Thompson on Hollywood</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/thompsononhollywood/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/thompsononhollywood" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/putting-money-on-the-bechdel-test">&raquo; Putting Money on the Bechdel Test (GRAPHS)</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/los-angeles-times-names-new-company-town-editor">&raquo; Los Angeles Times Names New Company Town Editor </a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/emily-blunt-sicario-denis-villeneuve">&raquo; Emily Blunt in Talks to Star in Denis Villeneuve's Next Film</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/womenandhollywood/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/bf3f7c2/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F9b%2F4a6b30f3e911e0b6b212313931436e%2Ffile%2Fwomenhollywood_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/womenandhollywood/">Women and Hollywood</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/womenandhollywood/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/womenandhollywood" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/peabody-winners-include-scandal-orange-is-the-new-black-orphan-black">&raquo; Orange is the New Black, Scandal, Borgen Among Peabody Winners</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/claire-danes-iman-idina-menzel-among-varietys-power-of-women">&raquo; Claire Danes, Iman, Idina Menzel Among Variety's Power of Women</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/the-continuing-case-for-having-more-women-in-film">&raquo; The Continuing Case for Having More Women in Film</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    </ul>
+    </div> <!-- end the network -->
+    
+</div> <!-- col1 --><div id="col2"><div class="mod rr-300x250-ad">
+    <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+		window['adtech_adurl_' + "245281ca-f4a6-4eeb-b5bc-cfb6068d2754"] = "http://adserver.adtechus.com/addyn/3.0/5182/619934/0/170/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
+		document.writeln('<DIV ID="ADTECH_AdContainer_' + "245281ca-f4a6-4eeb-b5bc-cfb6068d2754" +'"><IFRAME ID="ADTECH_IFRAME_'+ "245281ca-f4a6-4eeb-b5bc-cfb6068d2754" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+		
+
+	</script>
+
+</div> <!-- end mod rr-300x250-ad -->
+<script type="text/javascript">
+    jQuery(function() {
+        var url = window.location.href.split("#")[0].split("?")[0];
+        var successRedirect = url+'?nl_success=true';
+        var errorRedirect = url+'?nl_success=false';
+        jQuery('input[name=redirect]').val(successRedirect);
+        jQuery('input[name=errorredirect]').val(errorRedirect);
+    });
+</script>
+<div class="mod newsletter clrfix">
+    <a name="nlform"></a>
+    <h3><img src="http://d1oi7t5trwfj5d.cloudfront.net/resource/sprites/small-indie-logo.0159f9e9dd30abcabd13426bc2c13fe4.jpg" alt="Indiewire" /> <span>Newsletters</span></h3>
+    <hr/>
+    <form id="sign-up" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" accept-charset="UTF-8" >
+            <div class="checkwrap">
+                <input type="checkbox" id="listid:18151" name="listid:18151" checked="checked" />
+                <label for="listid:18151">Indiewire Today</label>
+            </div>
+            <div class="checkwrap">
+                <input type="checkbox" id="listid:18667" name="listid:18667"/>
+                <label for="listid:18667">News Alerts</label>
+            </div>
+                <input type="text" name="fields_email" placeholder="Email" class="email" />
+            <input class="blue-btn" type="submit" value="subscribe" name="Submit" />
+                <input type="hidden" name="redirect" value="" />
+            <input type="hidden" name="errorredirect" value="" />
+            <input type="hidden" name="listid" value="__multi" />
+            <input type="hidden" name="lists" value="18151:18667" />
+            <input type="hidden" name="specialid:18151" value="0RJP" />
+            <input type="hidden" name="specialid:18667" value="CB1B" />
+            <input type="hidden" name="clientid" value="736567" />
+            <input type="hidden" name="formid" value="1364" />
+            <input type="hidden" name="reallistid" value="1" />
+            <input type="hidden" name="doubleopt" value="0" />
+            <input type="hidden" name="fields_guid" value="756b2049-3db7-4999-9e6c-754dea5e49fb">
+        </form>
+    </div> <!-- end newsletter --><div class="mod rr-300x600-ad clrfix">
+    <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+		window['adtech_adurl_' + "59803356-fb2e-4554-a9fe-6c0a0da91cc3"] = "http://adserver.adtechus.com/addyn/3.0/5182/1042863//0/529/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
+		document.writeln('<DIV ID="ADTECH_AdContainer_' + "59803356-fb2e-4554-a9fe-6c0a0da91cc3" +'"><IFRAME ID="ADTECH_IFRAME_'+ "59803356-fb2e-4554-a9fe-6c0a0da91cc3" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+		
+
+	</script>
+
+</div> <!-- end 300x600 ad -->
+<div class="mod facebook clrfix">
+        <h3><img alt="Indiewire" src="http://d1oi7t5trwfj5d.cloudfront.net/resource/sprites/small-indie-logo.0159f9e9dd30abcabd13426bc2c13fe4.jpg" /> on <span>facebook</span></h3>
+            <hr />
+        <div class="fb-like-box" data-href="http://www.facebook.com/indiewire" data-border-color="#FFFFFF" data-width="300" data-height="260" data-show-faces="true" data-stream="false" data-header="false"></div>
+
+    </div> <!-- end facebook -->
+
+<div class="mod sf-films-widget vertical"></div><script src="http://v.snagfilms.com/js/widget-0.1.6.min.js"></script> </div> <!-- col2 -->		<div class="F6 clrfix"> 		</div> <!-- end F6 --></div> <!-- end pageWrapper --><div class="footer-ad">
+    <div class="ad">
+        <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+		window['adtech_adurl_' + "628d5c32-e4c7-4b16-bb78-399bf0b7cf9d"] = "http://adserver.adtechus.com/addyn/3.0/5182/619933/0/225/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
+		document.writeln('<DIV ID="ADTECH_AdContainer_' + "628d5c32-e4c7-4b16-bb78-399bf0b7cf9d" +'"><IFRAME ID="ADTECH_IFRAME_'+ "628d5c32-e4c7-4b16-bb78-399bf0b7cf9d" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+		
+
+	</script>
+
+</div>
+</div> <!-- end footer ad -->
+
+<div class="footWrap">
+  <div class="footer clrfix">
+    <div class="network clrfix">
+            <h3>the network</h3>
+            <div class="content clrfix">
+                <ul>
+                    <li><a href="http://blogs.indiewire.com/animationscoop/">Animation Scoop</a></li>
+                    <li><a href="http://blogs.indiewire.com/carynjames/">Caryn James</a></li>
+                    <li><a href="http://blogs.indiewire.com/criticwire/">Criticwire</a></li>
+	                <li><a href="http://blogs.indiewire.com/leonardmaltin/">Leonard Maltin</a></li>
+	                <li><a href="http://blogs.indiewire.com/mediamatrix/">Media Matrix</a></li>
+	             </ul>
+	             <ul>
+                    <li><a href="http://blogs.indiewire.com/peterbogdanovich/">Peter Bogdanovich</a></li>
+                    <li><a href="http://blogs.indiewire.com/theplaylist/">The Playlist</a></li>
+                    <li><a href="http://blogs.indiewire.com/pressplay/">Press Play</a></li>
+                    <li><a href="http://blogs.indiewire.com/anthony/">ReelPolitik</a></li>
+	             </ul>
+	             <ul>
+	                <li><a href="http://blogs.indiewire.com/shadowandact/">Shadow and Act</a></li>
+	                <li><a href="http://blogs.indiewire.com/sydneylevine/">Sydney Levine</a></li>
+	                <li><a href="http://blogs.indiewire.com/thompsononhollywood/">Thompson on Hollywood</a></li>
+	                <li><a href="http://blogs.indiewire.com/womenandhollywood/">Women and Hollywood</a></li>
+	             </ul>
+                </div> <!-- end content -->
+        </div> <!-- end left -->
+        <div class="indi-cats">
+            <div class="indie">
+                <h3>indiewire</h3>
+                <ul>
+                    <li><a href="http://www.indiewire.com/sitemap">Sitemap</a></li>
+                    <li><a href="http://www.indiewire.com/about">About</a></li>
+                    <li><a href="http://www.indiewire.com/team">Team</a></li>
+                    <li><a href="http://www.indiewire.com/advertise">Advertise</a></li>
+                    <li><a href="http://www.indiewire.com/indiewire-jobs">Indiewire Jobs </a></li>
+                    <li><a href="http://www.indiewire.com/privacy">Privacy</a></li>
+                    <li><a href="http://www.indiewire.com/legal">Terms of Service</a></li>
+                </ul>
+            </div> <!-- end indi -->
+            <div class="cats">
+                <h3>categories</h3>
+                <ul>
+                    <li><a href="http://www.indiewire.com/category/news">News  </a></li>                                                
+                    <li><a href="http://www.indiewire.com/reviews/">Reviews</a></li>                                                
+                    <li><a href="http://www.indiewire.com/category/awards">Awards</a></li>                                                
+                    <li><a href="http://www.indiewire.com/category/festivals">Festivals</a></li>                                                
+                    <li><a href="http://www.indiewire.com/box-office/">Box Office</a></li>                                                
+                    <li><a href="http://www.indiewire.com/category/filmmaker-toolkit">Filmmaker Toolkit</a></li>                                                
+                    </ul>
+            </div> <!-- end cats -->
+        </div> <!-- end indi cats -->
+        <ul class="about clrfix">
+            <li><a class="last" href="mailto:editors@indiewire.com">editors@indiewire.com</a></li>
+        </ul>
+    </div> <!-- end footer -->
+</div><script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery-ui-1.8.16.custom.min.5bd48ba2b4001b7b6b42b8472e32044a.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.eTruncate.min.2aa49af55e4b4fee51fb7ab512ada704.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.scrollTo.min.489552866960332676eed62725796b5a.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.placeholder.min.c61f42af124c56a36f959bc9b3ad9859.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/poll.bdd2098f79e1f5eacdeff019808ef801.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.tablesorter.min.70d9c2758b1ccbce4ce4e8b0817b08db.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/init.59e4c1bf01b4a52db905ae69ee56c6d1.js"></script>
+
+<script type="text/javascript">
+    function showAccountInfo() {
+        FB.api(
+            {
+                method: 'fql.query',
+                query: 'SELECT name, pic FROM user WHERE uid=' + FB.getUserID()
+            },
+            function(response) {
+                $('#account-info').html('<img src="' + response[0].pic + '" style="height: 30px;">');
+            }
+        );
+    }
+
+
+    function fbLoginStatus(response) {
+        CW.log('fbLoginStatus()' , response);
+        if (response.status == "connected") {
+            showAccountInfo();
+        } else {
+            //user is not logged in, display guest div
+
+            document.cookie = 'fbsr_132443425037 = ; expires=Thu, 01-Jan-70 00:00:01 GMT; path=/; domain=.indiewire.com';
+            refreshNav();
+        }
+    }
+    
+    function refreshNav(cb) {
+        $('#login').load('/ajax/loginSmall.jsp?_=' + (new Date()).getTime(),
+            $.proxy(function() {
+                FB.XFBML.parse($('#login').get()[0], function(){
+                	var iframe = $('iframe','#login').get()[0];
+                	if(iframe){
+                		iframe.src = iframe.src;
+                	}
+                	setTimeout(function(){
+                		$('#login').show();
+                	}, 500);
+                });
+                
+            }, cb)
+        );
+    }
+    
+    function iContactSignup() {
+        if(typeof(CW) == 'object') {
+            CW.log('iContactSignup()');
+        }
+        $.ajax({
+            type: 'get',
+            url: '/ajax/emailsignup.jsp',
+            success: function(data) {
+                if(typeof(CW) == 'object') {
+                    CW.log('emailsignup.jsp: ', data);
+                }
+            }
+        });
+    }
+    
+    var onLikeClicked = null;
+
+    function dropDown() {
+        $('.navBar .nav > li, .profile-dropdown').hover(
+            function() {
+                var dd = $(this).find('div.dropdown');
+                // checking dim the lights is necessary for IE
+                if (dd.length > 0 && ($('#snag-dimmerBG').filter(":visible").length < 1) ) {
+                    $(this).addClass('open');
+                    dd.show();
+                }
+            },
+            function() {
+                $(this).removeClass('open');
+                $(this).find('div.dropdown').hide();
+            }
+        );
+        $('.dropdown .queue-populated li a').click(function(event){
+            Snag.Tracking.GA.trackClick(event, "registration and profiles", "watch-q");
+        });
+    }
+
+    function logout() {
+        FB.logout(function(response) {
+            document.cookie = 'fbsr_132443425037 = ; expires=Thu, 01-Jan-70 00:00:01 GMT; path=/; domain=.indiewire.com';
+            setTimeout(function() {
+            	$('#login').hide();
+                $('#login').load('/ajax/loginSmall.jsp?_=' + (new Date()).getTime(), 
+                		function() {
+			                	FB.XFBML.parse($('#login').get()[0], function(){
+			                    	setTimeout(function(){
+			                    		$('#login').show();
+			                    	}, 100);
+			                    });
+                			});
+                if(typeof(CW) == 'object') {
+                    CW.user.loggedIn = false;
+                    CW.user.critic = false;
+                    CW.films.grading.init();
+                }
+            }, 1000);
+        });
+    }
+    if(IW.FB){
+    	IW.FB.callbacks.getLoginStatus.push(fbLoginStatus);
+    }
+</script>
+
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+</script>
+<script type="text/javascript">
+    _qevents.push({ qacct:"p-c1zCil38GHR-I"});
+</script>
+<noscript>
+    <div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-c1zCil38GHR-I.gif" height="1" width="1"
+                                     alt="Quantcast"/></div>
+</noscript>
+
+<script type="text/javascript">
+    var _sf_async_config = {uid:2953,domain:"indiewire.com"};
+    
+    (function() {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+                    (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+                            "js/chartbeat.js");
+            document.body.appendChild(e);
+        }
+
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() {
+            oldonload();
+            loadChartbeat();
+        };
+    })();
+</script>
+
+<script type="text/javascript" id="sailthru-setup">
+	
+	   // Sailthru Horizon -->
+    (function() {
+        function loadHorizon() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = location.protocol
+                    + '//ak.sail-horizon.com/horizon/v1.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        loadHorizon();
+        var oldOnLoad = window.onload;
+        window.onload = function() {
+            if (typeof oldOnLoad === 'function') {
+                oldOnLoad();
+            }
+    
+           	try {
+                   Sailthru.setup({
+                       domain: 'horizon.indiewire.com',
+                       concierge: { from: 'top', threshold: 800, filter: {tags: 'sailthru-indiewire'} }
+                   });
+               } catch (ex) {
+                   $.log(ex, 'Could not set up sailthru');
+               }
+            	
+        };
+    })();
+	
+</script>
+
+	<script type="text/javascript">
+	
+    </script>
+
+<div id="getsat-widget-5838"></div>
+<script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
+<script type="text/javascript">if (typeof GSFN !== "undefined"){ GSFN.loadWidget(5838,{"containerId":"getsat-widget-5838"});}</script>
+<!-- HC -->
+</body>
+</html>

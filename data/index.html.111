@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Welcome | City of Boston</title>
+<!-- TemplateEndEditable -->
+     <meta name="keywords" content="" />
+     <meta name="description" content=""/>
+
+     <script type="text/javascript" src="//m.cityofboston.gov/mobify/redirect.js"></script>
+     <script type="text/javascript">try{_mobify("http://m.cityofboston.gov/");} catch(err) {};</script>
+
+     <link rel="stylesheet" href="/system/css/reset-fonts-grids.css" type="text/css" media="all" />
+     <link rel="stylesheet" href="/system/css/style.css" type="text/css" media="all" />
+     <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+
+     <script type="text/javascript" src="/foresee/foresee-trigger.js"></script>
+     <script type="text/javascript" src="/system/js/jquery.js"></script>
+     <script type="text/javascript" src="/system/js/script.js"></script>
+
+
+<!--Gallery References-->
+<script type="text/javascript">  
+  
+ var $jquery = jQuery.noConflict();  
+  
+</script>  
+         <script type="text/javascript" src="/system/js/jq.js"></script>  
+         <script type="text/javascript" src="/system/js/jquery.galleryview-2.0-pack.js"></script>
+         <script type="text/javascript" src="/system/js/jquery.timers-1.1.2.js"></script>
+         <script type="text/javascript" src="/system/js/jquery.easing.1.3.js"></script>   
+         <link href="/system/css/galleryview.css" rel="stylesheet" type="text/css" />
+            <!--Gallery References End-->
+
+     <!--[if lte IE 6]><link rel="stylesheet" href="/system/css/ie.css" type="text/css"><![endif]--> 
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<!--Google Analytics-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];  
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-2187282-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body>
+
+
+
+
+       <div id="doc4" class="home">
+
+
+<div id="page_wrapper">
+<div id="page_wrapper_inner">
+<div id="hd">
+
+
+	   
+    
+        
+              <div id="hd_inner" style="background:url(/Images_Documents/home_tcm3-709.jpg) no-repeat 235px 0px;">  
+        
+        
+	
+	
+		
+<a href="http://www.cityofboston.gov/">
+<h1 id="branding">cityofboston.gov - Official Web Site of the City of Boston</h1>
+</a>
+<!--    Start Top Navigation    -->                           
+		<div id="nav_main">
+<div class="font_resizer">
+				Text size:
+				<a class="smallFont curFont" href="#">A</a>
+<a class="medFont" href="#">A</a>
+<a class="largeFont" href="#">A</a>
+</div>
+<ul>
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href=" http://www.cityofboston.gov/online_services ">Online Services </a>
+</li>
+<li>
+<a href="/residents">Residents</a>
+</li>
+<li>
+<a href="/business">Businesses</a>
+</li>
+<li>
+<a href="/visitors">Visitors</a>
+</li>
+<li>
+<a href="/students">Students</a>
+</li>
+<li>
+<a href="/government">Government</a>
+</li>
+</ul>
+</div>
+<!--    End Top Navigation    -->									 
+</div><!--close hd_inner div  -->
+</div><!--close hd div   -->
+<div id="bd_wrapper">
+                                                 
+
+
+      <div id="bd">
+  
+
+<div id="bd_inner">
+
+
+
+  <div id="content_main">
+
+			
+<div id="content_main_inner">
+<h2 class="page_title">Welcome!</h2>
+<div class="page_leader"><p class="page_date"><script type="text/javascript">getTodaysDate();</script>
+<script type="text/javascript">
+if(isMidday()) {
+                document.getElementById('hd_inner').style.backgroundImage="url('http://www.cityofboston.gov/Images/test1.jpg')";
+}
+if(isNighttime()) {
+                document.getElementById('hd_inner').style.backgroundImage="url('http://www.cityofboston.gov/images/banner_nightpano.jpg')";
+}
+</script>
+</p></div><script type="text/javascript" > 
+	        $(document).ready(function(){
+		        $('#gallery-27738').galleryView({
+			        panel_width: 443,
+			        panel_height: 320,
+			        frame_width: 75,
+			        frame_height: 75,
+      		        nav_theme: 'dark',
+      		        transition_speed: 20,
+      		        pause_on_hover: true
+
+	         });
+
+
+	        });
+</script>
+<ul id="gallery-27738">
+
+
+<li>
+                      <img src="/images_documents/NewLogo2(443)_tcm3-43058.jpg"  alt="image" title="Spring Food Truck Schedule is Now Live!"/>
+			<div class="panel-overlay">
+		                <br/>
+
+                                                <div class="panel-overlay2">Spring Food Truck Schedule is Now Live!</div>
+                                                       Boston's Food Trucks are open for the season, now offering more options than ever! Locate your favorite Food Truck, find late night dining options, and learn more about the cities finest dining on four wheels.
+				
+
+                <br/>
+        
+                 
+                   
+                
+
+                          
+              
+                  <a href="http://www.cityofboston.gov/foodtrucks/schedule-tabs.asp">Food Truck Schedule &raquo;</a><br/>
+
+                
+
+
+                
+
+               
+
+                          
+              
+                  <a href="http://www.cityofboston.gov/news/default.aspx?id=6550">Late-Night Food Truck Options &raquo;</a><br/>
+
+                
+
+
+                
+
+               
+
+                
+			
+                                                </div>
+	</li>
+<li>
+                      <img src="/images_documents/Boston%20Shines%20(443)_tcm3-43834.png"  alt="image" title="Boston Shines "/>
+			<div class="panel-overlay">
+		                <br/>
+
+                                                <div class="panel-overlay2">Boston Shines </div>
+                                                       Spring is coming and it's once again time for Boston Shines! Taking place over three weekends this Spring, this annual, city-wide clean-up has become a staple in the City of Boston, and we look forward to continuing this wonderful tradition in 2014.
+				
+
+                <br/>
+        
+                 
+                   
+                
+
+                          
+              
+                  <a href="/ons/BostonShines/">Event Details &raquo;</a><br/>
+
+                
+
+
+                
+
+               
+
+                          
+              
+                  <a href="/ons/bostonshines/register.asp">Sign up Today! &raquo;</a><br/>
+
+                
+
+
+                
+
+               
+
+                
+			
+                                                </div>
+	</li>
+<li>
+                      <img src="/images_documents/bfd%20memoriam_tcm3-43886.jpg"  alt="image" title="Back Bay Fire: Statement & Resources"/>
+			<div class="panel-overlay">
+		                <br/>
+
+                                                <div class="panel-overlay2">Back Bay Fire: Statement & Resources</div>
+                                                       Mayor Martin J. Walsh released a statement acknowledging the tragic loss of Lt. Ed Walsh and Firefighter Michael Kennedy, and thanking the Boston Fire Department, Boston Police Department, Boston Emergency Medical Services, and all other first responders and volunteers for their heroic work.
+<br /><br />
+Residents affected by the fire may call their Boston Police District at 617-343-4250 for assistance.
+<br /><br />
+The Lieutenant Walsh - Firefighter Kennedy Memorial Fund has also been established by the Boston Firefighters Credit Union.
+				
+
+                <br/>
+        
+                 
+                   
+                
+
+                          
+              
+                  <a href="http://www.cityofboston.gov/news/Default.aspx?id=6569">Read Full Statement &raquo;</a><br/>
+
+                
+
+
+                
+
+               
+
+                          
+              
+                  <a href="https://www.bosfirecu.com/" target="_blank" class="_external">Lieutenant Walsh - Firefighter Kennedy Memorial Fund  &raquo;</a><br/>
+
+                
+
+
+                
+
+               
+
+                
+			
+                                                </div>
+	</li>
+<li>
+                      <img src="/images_documents/Mondays%20with%20the%20Mayor%20(443)_tcm3-43896.png"  alt="image" title="Mondays with the Mayor"/>
+			<div class="panel-overlay">
+		                <br/>
+
+                                                <div class="panel-overlay2">Mondays with the Mayor</div>
+                                                       Mayor Walsh hosts "Mondays with the Mayor," a community town hall forum and question and answer session with the mayor.
+				
+
+                <br/>
+        
+                 
+                   
+                
+
+                          
+              
+                  <a href="http://www.cityofboston.gov/cable/video_library.asp?id=3491">3.24.14: Another Course to College, Brighton (Video) &raquo;</a><br/>
+
+                
+
+
+                
+
+               
+
+                
+			
+                                                </div>
+	</li>
+
+</ul><div class="sub_main_hd_noline">
+
+
+
+
+                   <div class="content">
+                   <h2></h2>
+                   
+	   </div>
+
+
+</div>
+
+
+
+
+<div class="content_main_sub">
+                      <div style="TEXT-ALIGN: center" class="bluebox"><h3 style="TEXT-ALIGN: center">Stay Informed   
+<br /><br /></h3><table border="0" cellspacing="0" cellpadding="0" width="50%" align="center"><tbody><tr><th><a href="http://www.facebook.com/cityofboston" target="_blank"><img src="/images_documents/facebook40_tcm3-19887.png"  style="WIDTH: 40px; HEIGHT: 40px" title="Facebook (40 x 40)" alt="Facebook (40 x 40)" width="40" height="40" /></a></th><th><a href="http://twitter.com/notifyboston" target="_blank"><img src="/images_documents/twitter40_tcm3-12370.png"  style="WIDTH: 40px; HEIGHT: 40px" title="Twitter (40 x 40)" alt="Twitter (40 x 40)" width="40" height="40" /></a></th><th><a href="http://bostonatwork.tumblr.com/" target="_blank"><img src="/images_documents/tumblr40_tcm3-36280.png"  style="WIDTH: 40px; HEIGHT: 40px" title="Tumblr ( 40 x 40)" alt="Tumblr ( 40 x 40)" width="40" height="40" /></a></th><th><a href="http://instagram.com/notifyboston" target="_blank"><img src="/images_documents/instagram40_tcm3-36282.png"  style="WIDTH: 40px; HEIGHT: 40px" title="Instagram (40 x 40)" alt="Instagram (40 x 40)" width="40" height="40" /></a></th><th><a href="http://www.linkedin.com/company/city-of-boston" target="_blank"><img src="/images_documents/linkedin40_tcm3-30397.png"  style="WIDTH: 40px; HEIGHT: 40px" title="LinkedIn (40 x 40)" alt="LinkedIn (40 x 40)" width="40" height="40" /></a></th></tr></tbody></table><br /><a href="http://www.cityofboston.gov/news/socialmedia.aspx">Social Media Center &#187;</a></div>
+</div>
+
+
+<div class='SegmentHolder'>
+
+                  
+</div>
+
+
+
+</div><!-- Close #content_main_inner -->
+</div><!-- Close #content_main  -->
+                 
+
+	<div id="nav_sub">
+
+
+
+<!--    Start OnLine Service component    -->
+
+	                                                                                
+        
+        
+			<h2 class="header">Service Requests</h2>
+        
+<ul>
+<li>
+        <a href="/mayor/24/"> 
+        <img src="/images_documents/citizensconnect.png" alt="citizens connect" />
+        </a>
+        <a href="/online_services/"> 
+        <img src="/images_documents/online_services.png" alt="online services" />
+        </a>
+<!-- BoldChat Live Chat Button HTML v4.00 (Type=Web,ChatButton=City of Boston Chat Button,Website=- None -) -->
+<div style="text-align: left; white-space: nowrap;">
+<a href="https://livechat.boldchat.com/aid/405217549826735998/bc.chat?resize=true&cbdid=4400851173497036657&vr=&vn=&vi=&ve=&vp=&iq=&curl=" target="_blank" onclick="window.open((window.pageViewer && pageViewer.link || function(link){return link;})(this.href + (this.href.indexOf('?')>=0 ? '&' : '?') + 'url=' + escape(document.location.href)), 'Chat405217549826735998', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=640,height=480');return false;">
+  <div><script language="JavaScript" type="text/javascript"> var bccbId = Math.random(); document.write(unescape('%3Cimg alt="Live chat by BoldChat" src="' + (('https:' == document.location.protocol) ? 'https:' : 'http:') + '//cbi.boldchat.com/aid/405217549826735998/bc.cbi?cbdid=4400851173497036657" border="0" id=' + bccbId + ' /%3E')); var bccb = {id: bccbId, bdid: '4400851173497036657', rdid: null, type: 'chat'}; var _bcvma = _bcvma || []; if(window.pageViewer && pageViewer.addButton) pageViewer.addButton(button); else _bcvma.push(['addButton', bccb]);</script></div>
+</a>
+</div>
+<!-- /BoldChat Live Chat Button HTML v4.00 -->
+</li>
+<li>
+ <a href="http://www.cityofboston.gov/online_services/">Top Requested</a>
+</li>
+
+	<li><form ><select onchange="parseNavigation(this)" class="menu_options"><option value="">Select a Payment</option><option value="/parking/payment.asp">Parking Ticket Payment</option><option value="https://payments.cityofboston.gov/realestate">Property Taxes</option><option value="https://payments.cityofboston.gov/excise/">Motor Excise Tax</option><option value="ext|http://www.kelleyryan.com/epay/">Motor Excise Tax (Delinquent)</option><option value="https://payments.cityofboston.gov/persproperty/">Personal-property Tax</option><option value="https://payments.cityofboston.gov/boats">Boat Excise Tax</option><option value="http://cityofboston.gov/online_services/payments/mooringpermit.asp">Boat Mooring Permit</option><option value="ext|http://www.bwsc.org/ACCOUNTS/accounts.asp">BWSC Water Bill</option><option value="http://www.cityofboston.gov/online_services/payments/">View All Payments</option></select></form></li><li><form ><select onchange="parseNavigation(this)" class="menu_options"><option value="">Select a Service Request</option><option value="http://www.cityofboston.gov/mayor/24?topic=bulk-item-pickup">Request Bulk Item Pickup</option><option value="http://www.cityofboston.gov/mayor/24?topic=trash-pickup">Missed Trash</option><option value="http://www.cityofboston.gov/mayor/24?topic=streetlight">Street Light Outage</option><option value="ext|http://www.cityofboston.gov/mayor/24?topic=recyclingsticker">Request Recycling Stickers</option><option value="ext|http://www.cityofboston.gov/mayor/24?topic=sidewalk-repair">Sidewalk Repair Request</option><option value="http://www.cityofboston.gov/mayor/24?topic=outdoor-rodent-activity">Report Rodent Activity (Outdoors)</option><option value="http://www.cityofboston.gov/mayor/24?topic=traffic-signal">Traffic Signal</option><option value="http://www.cityofboston.gov/mayor/24?topic=pavement-marking-new">New Sign, Crosswalk or Pavement Marking</option><option value="http://www.cityofboston.gov/online_services">View All Service Requests</option></select></form></li><li><form ><select onchange="parseNavigation(this)" class="menu_options"><option value="">Search Job Postings</option><option value="http://www.cityofboston.gov/ohr/careercenter.asp">City Job Postings</option><option value="ext|http://www.bostonpublicschools.org/jobs/">Schools Job Postings</option><option value="ext|http://www.bphc.org/Careers/Pages/Home.aspx">Public Health Job Postings</option><option value="ext|http://www.bostonredevelopmentauthority.org/jobs/jobdesc.asp">BRA Job Postings</option><option value="ext|http://www.bostonyouthzone.com/teenzone/employment/byf/">Youth Job Postings</option><option value="/internships">Internships</option></select></form></li>
+</ul>
+	
+<!--    End OnLine Service component    -->
+					
+
+	<!--    Start Contact component    -->                                                                             
+	
+
+<!--    End Contact component    -->
+
+	
+	<h2><a href="/government/citydept.asp" class="header">City Departments &raquo;</a></h2>
+		<ul>
+			<!--    Start Department component    -->
+			<li>
+<form action="">
+<select onchange="if (this.options[this.selectedIndex].value) {location.href=this.options[this.selectedIndex].value} ">
+<option value="#">Select a Department</option>
+<option value="/AdministrationFinance">Administration and Finance</option>
+<option value="/animals">Animal Care & Control</option>
+<option value="/archivesandrecords">Archives and Records</option>
+<option value="/arts">Arts, Tourism & Special Events</option>
+<option value="/assessing">Assessing</option>
+<option value="/auditing">Auditing</option>
+<option value="/bikes">Bikes</option>
+<option value="/BOA">Board of Appeals</option>
+<option value="/BCYF">Boston Centers for Youth & Families</option>
+<option value="/bha">Boston Housing Authority</option>
+<option value="/brjp">Boston Residents Jobs Policy</option>
+<option value="/BRA">BRA / EDIC</option>
+<option value="/budget">Budget Management</option>
+<option value="/cable">Cable Office</option>
+<option value="/cityclerk">City Clerk</option>
+<option value="/citycouncil">City Council</option>
+<option value="/consumeraffairs">Consumer Affairs & Licensing</option>
+<option value="/Disability">Disabilities Commission</option>
+<option value="/elderly">Elderly Affairs</option>
+<option value="/elections">Election Department</option>
+<option value="/EMS">Emergency Medical Services</option>
+<option value="/OEM">Emergency Management</option>
+<option value="/shelter">Emergency Shelter Commission</option>
+<option value="/environment">Environment</option>
+<option value="/eeos">Environment, Energy, & Open Space</option>
+<option value="/fairhousing">Fair Housing & Equity</option>
+<option value="/FJC">Family Justice Center</option>
+<option value="/fire">Fire</option>
+<option value="/food">Food Initiatives</option>
+<option value="/gaming">Gaming Accountability</option>
+<option value="/ohr">Human Resources</option>
+<option value="/humanservices">Human Services</option>
+<option value="/DoIT">Innovation & Technology</option>
+<option value="/isd">Inspectional Services</option>
+<option value="/intergovernmental">Intergovernmental Relations</option>
+<option value="/JCS">Jobs & Community Services</option>
+<option value="/labor">Labor Relations</option>
+<option value="/landmarks">Landmarks Commission</option>
+<option value="/law">Law Department</option>
+<option value="/library">Library</option>
+<option value="/licensing">Licensing Board</option>
+<option value="/mayor">Mayor's Office</option>
+<option value="/dnd">Neighborhood Development</option>
+<option value="/ons">Neighborhood Services</option>
+<option value="/newbostonians">New Bostonians</option>
+<option value="/Parking">Parking Clerk</option>
+<option value="/Parks">Parks & Recreation</option>
+<option value="/police">Police</option>
+<option value="/propertymanagement">Property & Construction Management</option>
+<option value="/publichealth">Public Health</option>
+<option value="/publicworks">Public Works</option>
+<option value="/purchasing">Purchasing</option>
+<option value="/registry">Registry Division</option>
+<option value="/retirement">Retirement Board</option>
+<option value="/bps">Schools</option>
+<option value="/slbe">Small & Local Business Enterprise</option>
+<option value="/transportation">Transportation</option>
+<option value="/treasury">Treasury</option>
+<option value="/veterans">Veterans' Services</option>
+<option value="/women">Women's Commission</option>
+<option value="/workerscomp">Worker's Compensation</option>
+<option value="/YouthCouncil">Youth Council</option>
+<option value="/YouthFund">Youth Fund</option>
+</select>
+</form>
+</li>
+<!--    End Department component    -->
+		</ul>
+
+	
+		
+		
+			<h2 class="header">Most Requested Pages</h2>
+		
+	
+
+		<ul>
+				
+          				
+                                                                        <li><a href="http://www.cityofboston.gov/assessing/search">Property Tax Information</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="/OHR/careercenter.asp">Apply for a Job</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="/parking">Parking Ticket</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="/visitors/thingstodo.asp">Things to Do</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="/maps">Maps</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="/myneighborhood">My Neighborhood</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="/mayor/24/faqs.asp">Frequently Asked Questions</a></li>
+                                                                
+
+                                                                
+			
+		<li><a href=""></a></li>
+		</ul>
+		<!-- TemplateEndRepeat -->
+
+
+
+
+
+</div><!-- Close #nav_sub -->
+
+<div id="content_sub">
+	<div id="search">
+      <form method="get" name="searchform" action=" http://search.cityofboston.gov/search">
+          <input type="hidden" name="site" value="All_Cityofboston"/>
+          <input type="hidden" name="client" value="cob_frontend"/>
+          <input type="hidden" name="proxystylesheet" value="cob_frontend"/>
+          <input type="hidden" name="output" value="xml_no_dtd"/>
+          <input type="hidden" name="partialfields" value=""/>
+          <label for="searchField">Search:</label>
+          <input type="text" name="q" size="15" id="searchField"/> 
+          <input type="submit" class="button" value="Go!" />
+      </form>
+	</div><!-- Close #search -->
+<a href="//www.cityofboston.gov/copyright/translate.asp"><h2 class="header">Translate &raquo;</h2></a><dl id="imap"><dd id="picp"><a href="//www.cityofboston.gov/copyright/translate.asp?language=espanol"></a></dd><dd id="picr"><a href="//www.cityofboston.gov/copyright/translate.asp?language=tiengviet"></a></dd><dd id="picj"><a href="//www.cityofboston.gov/copyright/translate.asp?language=chinese"></a></dd><dd id="picg"><a href="//www.cityofboston.gov/copyright/translate.asp?language=portugese"></a></dd><dd id="pich"><a href="//www.cityofboston.gov/copyright/translate.asp?language=francais"></a></dd><dd id="pick"><a href="//www.cityofboston.gov/copyright/translate.asp?language=more"></a></dd></dl>	
+		
+			<a href="http://www.cityofboston.gov/calendar"><h2 class="header">Calendar &#187;</h2></a>
+		
+                                
+					
+		<ul>
+			
+                                                
+			<li class="calendar">
+                                                  <a href="http://www.cityofboston.gov/calendar" class="iconLink"><img src="/images_documents/calendar_tcm3-702.gif" /></a>
+         			  <p>See a listing of City Events and Public Meetings.
+<br /><a href="http://www.cityofboston.gov/calendar">View Calendar &#187;</a></p>
+			</li>
+		                
+			
+		</ul>
+
+
+	<a href="/mayor"><h2 class="header">Mayor's Office &#187;</h2></a>
+
+
+
+<ul>
+
+
+          				
+                                                                        <li><a href="/mayor/bio.asp">Mayor's Biography</a></li>
+                                                                
+
+                                                                
+
+
+</ul>
+
+
+	<a href="http://www.cityofboston.gov/citycouncil"><h2 class="header">City Council &#187;</h2></a>
+
+
+
+<ul>
+
+
+          				
+                                                                        <li><a href="/citycouncil/councillors">Councillors</a></li>
+                                                                
+
+                                                                
+
+          				
+                                                                        <li><a href="/cityclerk/citycouncil">Meetings</a></li>
+                                                                
+
+                                                                
+
+
+</ul>
+<a href="/news"><h2 class="header">News & Press Releases &raquo;</h2></a>
+<br />
+<ul><li><a href="http://www.cityofboston.gov/news/default.aspx?id=6578">City of Boston Traffic Advisory </a></li><li><a href="http://www.cityofboston.gov/news/default.aspx?id=6577">Statement from Mayor Martin J. Walsh on Line of Duty Death Benefits </a></li></ul>
+
+
+	<h2 class="header">Related Links</h2>
+
+
+<ul>
+
+
+          				
+                                                                        <li><a href="http://www.Mass.gov" target="_blank" class="_external">Mass.gov</a></li>
+                                                                
+
+                                                                
+
+          				
+                                                                        <li><a href="http://www.usa.gov" target="_blank" class="_external">USA.gov</a></li>
+                                                                
+
+                                                                
+
+
+</ul>
+     
+</div><!-- Close #content_sub -->
+<div id="content_sub_footer"></div><!-- This adds the bottom border to the bottom of #content_sub -->
+</div></div><!-- Close #bd and #bd_inner -->
+<div id="nav_sub_footer"><!-- This adds the bottom border and addition links to the bottom of #nav_sub -->
+	<ul>
+      			
+          				
+                                                                        <li><a href="http://www.cityofboston.gov/contact">Contact Info</a></li>
+                                                                
+
+                                                                
+      			
+          				
+                                                                        <li><a href="/alerts/">Email Alert</a></li>
+                                                                
+
+                                                                
+      			
+          				
+                                                                        <li><a href="/copyright/troubleopeningfiles.asp">Trouble Opening Files</a></li>
+                                                                
+
+                                                                
+      
+	</ul><!-- Close #nav_sub_footer -->
+</div><!-- Close #nav_sub_footer -->
+</div><!-- Close #bd_wrapper -->
+
+<div id="ft_wrapper"><div id="ft">
+      <ul>
+          			
+          				
+                                                                        <li><a href="http://www.cityofboston.gov/copyright/privacyandsecurity.asp">Privacy & Security</a></li>
+                                                                
+
+                                                                
+          
+          <li><a href="/copyright/default.asp">&#169; 2014 City of Boston. All rights reserved.</a><a href=""></a></li>
+      </ul>
+</div><!-- Close #ft -->
+</div><!-- Close #ft_wrapper -->
+
+<!-- Start social media -->
+<div id="socialmedia_bar">
+	<div id="feedbackcode">
+		<a href="#" title="Give us your feedback!" onclick="FBY.showForm('1162');return false;"><img src="http://www.cityofboston.gov/images/feedbackifylg.png" class="feedbackify_btn"></a>
+	</div>
+	<div id="addthiscode">
+		<div class="addthis_toolbox addthis_default_style addthis_16x16_style">
+
+		<a class="addthis_button_email" title="email"></a>
+		<a class="addthis_button_print" title="print"></a> 
+		<a class="addthis_button_favorites" title="Add to Favorites"></a>
+		<a class="addthis_button_facebook" title="Share to Facebook"><img src="http://www.cityofboston.gov/images/addthis/facebook.png" /></a>
+		<a class="addthis_button_twitter" title="Tweet This"><img src="http://www.cityofboston.gov/images/addthis/twitter.png" /></a>
+		<a class="addthis_button_reddit" title="Reddit This"><img src="http://www.cityofboston.gov/images/addthis/reddit.png" /></a>
+		<a class="addthis_button_compact"></a>
+		</div>
+	</div>
+
+	
+<script type="text/javascript">var addthis_config = { data_ga_property: 'UA-2187282-1', data_ga_social: true }; </script>
+<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#username=cobwebmaster"></script>
+
+<script type="text/javascript">
+var fbJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + fbJsHost + "fby.s3.amazonaws.com/fby.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</div><!-- Close #socialmedia_bar -->
+</div><!-- Close #page_wrapper_inner -->
+</div><!-- Close #page_wrapper -->
+</div><!-- Close #home -->
+
+<!-- BoldChat Visitor Monitor HTML v4.00 (Website=- None -,ChatButton=- None -,ChatInvitation=- None -) -->
+<script type="text/javascript">
+  var _bcvma = _bcvma || [];
+  _bcvma.push(["setAccountID", "405217549826735998"]);
+  _bcvma.push(["pageViewed"]);
+  (function(){
+    var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+    vms.src = ('https:'==document.location.protocol?'https://':'http://') + "vmss.boldchat.com/aid/405217549826735998/bc.vms4/vms.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+  })();
+</script>
+<noscript>
+<a href="http://www.boldchat.com" title="Live Chat" target="_blank"><img alt="Live Chat" src="https://vms.boldchat.com/aid/405217549826735998/bc.vmi" border="0" width="1" height="1" /></a>
+</noscript>
+<!-- /BoldChat Visitor Monitor HTML v4.00 -->
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=1';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

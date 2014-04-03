@@ -1,0 +1,586 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<html lang="en-US">
+
+<link rel="icon" type="image/png" href="http://www.treebicycleco.com/wp-content/uploads/favicon.png" />
+
+<head>
+<!--[if !IE]><!-->
+<style type="text/css">
+
+#storebutton {
+	position: relative;
+	left: 13px;
+	float:right;
+	clear: both;
+	top:150px;
+	width:113px;
+	height:50px;
+	z-index:5;
+	border: 0px;
+	
+	
+}
+</style>
+
+<!--<![endif]-->
+
+<!--[if IE]>
+<style type="text/css">
+
+#storebutton {
+	position: relative;
+	left: 13px;
+	float: right;
+	clear: left;
+	top:150px;
+	width:113px;
+	height:50px;
+	z-index: 5;
+	border: 0px;
+
+	
+	
+}
+
+
+</style><![endif]-->
+
+
+
+<a name="top"></a>
+<meta name="keywords" content="Tree Bikes, Tree bike Co, Tree Bicycle Co, Tree Bicycle Co., Tree BMX, BMX, Bmx Bike, bmx bikes, Tree BMX Co., Tree cycle, Tree Cycleco., Tree, Treebicycleco., Tree bike co., Treebicycleco, Tree Bicycle Company, Tree Bicycle parts, Tree parts, Tree, Loyd, Justin Sexhour, Justin Sexauer, Justin Sex, Zak Early,�Zak Earley, Zack Early, Zack Earley, Nathan Parker, Naten Parker, Natheniel Parker, Eben Fischer, Eben Fisher, Bobbie Altizer, Bobbie Altiser, Bobby Altiser, Bobby Altizer, Altizer, Altiser, Eben Fishman, Black Rider, Derick Nelson, Clint David, J-Sex, Sam Schulte, Sammuel Schulte, Schulte, Sam the man, Andy Chapman, Lil Buddy, Spline drive, Stunt stumps, Trick Sticks, Bolt drive, Sequoia Bars, Handle bars, sprocket, bar ends, Branch Bars, Steam, Collet Stem, space stem, future stem, Big Bars, Headset Cap, Headset, Balsa Pegs, Light pegs, steel pegs, street pegs, park pegs, fast pegs, aluminum pegs, 7075 aluminum pegs, pegs, Twigs N' Berries, Spokes, Cog Guard, Hub Guard, Hub, Straight Pull, Straight Spokes, O.G. Sprocket, Spline drive sprocket, Front Brakes, Bmx Frames, Light sprocket Bolt, Light sprocket spline, heat treaded sprocket, New sprocket, Forks, Front brakes, brakes, strong sprockets, strong parts, Sword Shirt, Sword, Sword Thermal, Sword T, Cadet Hoodie, Cadet pull over, Creature Wallet, Creature Shirt, Roots Shirt, Roots T-shirt, Front Brake monster, Front brake shirt, Eben Fischer shirt, Phi t-shirt, PHI Shirt, tree logo shirt, Tree tree tree, Unite shirt, sam shirt, people shirt, Flower of life shirt, Nathen Shirt, Saved By the Beach, Zak Earley shirt, zak sig shirt, Free style BMX, Bikes, Free style, BMX bike, biking, freestyle biking, cool bike stuff, STL BMX, St. Louis BMX, St. Louis bikes, Missouri BMX, Missouri Bikes, Potosi Missouri, Potosi MO, Potosi BMX, bmx biking, Rampriders, Plan9, Plan nine, Rampriders skatepark, plan nine skatepark, Farmington, Farmington bmx, Chains, Bmx Chain, St. Louis Rampriders, Cool shit, bmx inventions, Bicycle moto X, best bmx company, Smart Bikes, Strong Parts, 2010 bmx, 2011 bmx, 2012 bmx, dew tour, woodward, Lightest bmx parts, strongest bmx parts, coolest bmx parts, 7075 aluminum, aluminum sprocket, c&c machinery, stainless steel, Steel sprockets, Strongest sprocket, 4130, 4130 chromoly, chromoly parts, chromoly machined, Nylon, t-6 aluminum, Machined bmx parts, Chromoly bmx parts, 4130 bmx parts, 7075 pegs" />
+<meta charset="UTF-8" />
+<meta name="google-site-verification" content="9l_W0fcMqrpixLUUkyIZm7zdu_7Dv_LONieffI6AGg0" />
+<meta name="Description" content="Tree Bicycle Co. is a rider owned and operated bike company dedicated to designing and creating the highest quality frames and components.">
+
+<title>Tree Bicycle Co.</title>
+    
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.treebicycleco.com/wp-content/themes/TreeBikes/style.css" />
+<link rel="pingback" href="http://www.treebicycleco.com/xmlrpc.php" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.treebicycleco.com/wp-content/themes/TreeBikes/css/shadowbox.css" />
+
+<link rel="alternate" type="application/rss+xml" title="Tree Bicycle Co. &raquo; Feed" href="http://www.treebicycleco.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tree Bicycle Co. &raquo; Comments Feed" href="http://www.treebicycleco.com/comments/feed/" />
+<link rel='stylesheet' id='instapress-css'  href='http://www.treebicycleco.com/wp-content/plugins/instapress/instapress.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.treebicycleco.com/wp-content/plugins/instapress/fancybox/jquery.fancybox.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='royalslider-frontend-css-css'  href='http://www.treebicycleco.com/wp-content/plugins/royalslider/css/royalslider.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='royalslider-skin-default-css'  href='http://www.treebicycleco.com/wp-content/plugins/royalslider/css/royalslider-skins/default/default.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='royalslider-skin-minimal-css'  href='http://www.treebicycleco.com/wp-content/plugins/royalslider/css/royalslider-skins/minimal/minimal.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simplyInstagram-css'  href='http://www.treebicycleco.com/wp-content/plugins/simply-instagram/css/simply-instagram.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.treebicycleco.com/wp-content/plugins/simply-instagram/css/simply-instagram-prettyPhoto.css?ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/instapress/fancybox/jquery.fancybox-1.3.4.pack.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/royalslider/js/jquery.royal-slider.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/royalslider/js/jquery.easing.1.3.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/simply-instagram/js/simply-instagram-jquery.prettyPhoto.js?ver=3.1.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.treebicycleco.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.treebicycleco.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<!-- BEGIN SimplyInstagram IE -->
+<!-- [if IE 9]>
+<style type="text/css">
+
+.comment-profile{
+	margin: 2px;
+	width: 45px;
+	float: left;
+}
+.comment-profile img{
+	vertical-align: top;
+}
+.comment-holder{
+	top: 0px;
+	width: 200px;
+	float: left !important;	
+}
+
+.comments-holder{
+	width: 210px;
+	float: left;
+}
+</style>
+<![endif]-->
+<!-- END SimplyInstagram IE -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=136659546436117";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--<script type="text/javascript" src="http://www.treebicycleco.com/blog_images/featuredProducts/src/swfobject.js"></script>
+	<script type="text/javascript">
+		swfobject.registerObject("gallery", "9.0.0", "http://www.treebicycleco.com/blog_images/featuredProducts/src/expressInstall.swf");
+		swfobject.registerObject("Rider_Shell", "9.0.0", "http://www.treebicycleco.com/blog_images/featuredProducts/src/expressInstall.swf");
+</script>-->
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!--<script type="text/javascript" src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/jquery.cycle.lite.js"></script>
+<script type="text/javascript" src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/application.js"></script>
+
+<script type="text/javascript" src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/js/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20297310-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body onload="MM_preloadImages('http://www.treebicycleco.com/blog_images/nav/mainNav/roll/home_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/parts_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/clothing_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/team_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/videos_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/distributors_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/info_roll.gif')">
+<a name="top"></a>
+<!--anchor for top-->
+<body class="home blog">
+<div id="container"><div id="storebutton"><a href="http://store.treebicycleco.com"><img src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/images/shop.png" width="113" height="50" border="0" /></a></div>
+
+<!--container goes here-->
+<div id="header">
+		<div id="masthead">
+		  <div id="branding" role="banner">
+				<h1>				<h1 id="site-title">
+					<span>
+						<a href="http://www.treebicycleco.com/" title="Tree Bicycle Co." rel="home">Tree Bicycle Co.</a>
+					</span>
+				</h1>
+				<div id="site-description"><h1></h1></div></h1>
+
+										
+										
+					  <div id="header_navigation">
+					<h2>TREE BICYCLE CO.</h2>
+					<div id="logo"><a href="/" target="_self"><img src="http://www.treebicycleco.com/blog_images/layout/TreeLogo.gif" width="315" height="150" border="0" /></a>						</div>
+					<h2>main navigation</h2>
+					<div id="socialIcons">
+						<a href="http://www.treebicycleco.com/feed/"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/rss.jpg" />
+						<a href="http://www.facebook.com/photo.php?pid=5853429&id=500415554#!/treebicycleco" target="_blank"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/facebook.jpg" /></a></a><a href="http://twitter.com/#!/TreeBikeCo" target="_blank"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/twitter.jpg" /></a><a href="http://vimeo.com/treebicycleco" target="_blank"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/vimeo.jpg" /></a><a href="http://www.youtube.com/user/TreeBicycleCo?feature=mhsn" target="_blank"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/you-tube.jpg" /></a><br />
+						<div id="like-buttons">
+							
+								<div class="twitter-like-button">
+								<a href="https://twitter.com/TreeBikeCo" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true">Follow @TreeBikeCo</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</div>
+								<div class="facebook-like-button">
+							
+									<div class="fb-like" data-href="https://www.facebook.com/treebicycleco" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false"></div>
+									</div>
+								
+				<div class="clear"></div>
+				</div>	
+						</div>
+					<ul id="navlist">
+					<li class="current_page_item"><a href="/" target="_self"><h2>HOME</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/home.gif" width="72" height="35" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/home_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/parts/" target="_self"><h2>PARTS</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/parts.gif" width="72" height="35" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/parts_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/epic/" target="_self"><h2>CLOTHING</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/clothing.gif" width="116" height="35" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/clothing_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/team/" target="_self"><h2>TEAM</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/team.gif" width="65" height="35" border="0" id="Image4" onmouseover="MM_swapImage('Image4','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/team_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/videos/" target="_self"><h2>VIDEOS</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/videos.gif" width="90" height="35" border="0" id="Image5" onmouseover="MM_swapImage('Image5','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/videos_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/distro/" target="_self"><h2>DISTRIBUTORS</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/distributors.gif" width="143" height="35" border="0" id="Image6" onmouseover="MM_swapImage('Image6','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/distributors_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/info/" target="_self"><h2>INFO</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/info.gif" width="67" height="35" border="0" id="Image7" onmouseover="MM_swapImage('Image7','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/info_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+					</ul>
+					</div>
+					<!--//top_navlist-->
+		  </div>
+		  <div id="newsletter-signup"><a href="/newsletter-signup/"><img src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/blog_images/newsletter-signup.gif" alt="" title="" /></a></div>
+
+			<!-- #branding -->
+		</div><!-- #masthead -->
+
+</div><!--//header-->
+
+	
+
+<!-- Begin #container2 this holds the content and sidebars-->
+<div id="container2">
+
+<!-- Begin #container3 keeps the left col and body positioned-->
+<div id="container3">
+
+<div id="blogColumn">
+
+
+
+
+
+
+
+	    <div id="blogPost">
+		<div id="post-3310" class="post-3310 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/kenny-foster-rips/" title="Permalink to Kenny Foster Rips" rel="bookmark">Kenny Foster Rips</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/kenny-foster-rips/" title="3:22 pm" rel="bookmark"><span class="entry-date">04/02/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p><a href="http://www.treebicycleco.com/wp-content/uploads/photo2.jpg"><img class="size-medium wp-image-3311 alignright" alt="photo" src="http://www.treebicycleco.com/wp-content/uploads/photo2-440x440.jpg" width="440" height="440" /></a>Long time Tree supporter and friend, Kenny Foster gets inverted in KC. Reminding us that age is just a number. Dude shreds!</p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3303" class="post-3303 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/byob-jam-series/" title="Permalink to BYOB Jam Series!" rel="bookmark">BYOB Jam Series!</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/byob-jam-series/" title="4:52 pm" rel="bookmark"><span class="entry-date">03/24/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Last year, Karl Hinkley threw the first annual Cork Huck It jam at his place in Unadilla Nebraska and despite unfavorable weather conditions it was still one hell of a time! This year he&#8217;s stepping the game up and throwing a three stop BYOB (Bring your own bike) contest series. With Hinkley&#8217;s down home, grass roots attitude this is sure to be sick! Grab your homies, grab your bikes, and make your way to the Midwest for some good old fashion bmx radness!<a href="http://www.treebicycleco.com/wp-content/uploads/NOWEAR-BYOB-Flyer-3-20.jpg"><img class="size-medium wp-image-3304 alignright" alt="NOWEAR BYOB Flyer 3-20" src="http://www.treebicycleco.com/wp-content/uploads/NOWEAR-BYOB-Flyer-3-20-400x600.jpg" width="400" height="600" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3288" class="post-3288 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/spring-cleaning-in-the-tree-house/" title="Permalink to Spring Cleaning In the Tree House!" rel="bookmark">Spring Cleaning In the Tree House!</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/spring-cleaning-in-the-tree-house/" title="9:42 pm" rel="bookmark"><span class="entry-date">03/20/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>The past few months have been crazy for us in the Tree office. Between designing new product, testing new ideas, traveling to Jams, people leaving shit in the Tree Mobile and a number of other things, we&#8217;ve accumulated a load of cool stuff! Head over to the Tree Web Store now and check out the Spring Cleaning link on the right hand side of the page. We have everything from Collet stems, to prototype parts that can&#8217;t be seen or bought anywhere else!  Sale items have an extremely limited availability (Some, only have 1 left) so check it out, stat!.</p>
+<p>Below are just a few of the items up for grabs <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_7478.jpg"><img class="size-medium wp-image-3292 alignright" alt="IMG_7478" src="http://www.treebicycleco.com/wp-content/uploads/IMG_7478-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/OG-Spline-drive-collage.jpeg"><img class="size-medium wp-image-3291 alignright" alt="OG Spline drive collage" src="http://www.treebicycleco.com/wp-content/uploads/OG-Spline-drive-collage-440x293.jpeg" width="440" height="293" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_4153.jpg"><img class="alignnone size-medium wp-image-3295" alt="IMG_4153" src="http://www.treebicycleco.com/wp-content/uploads/IMG_4153-440x290.jpg" width="440" height="290" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_5605.jpg"><img class="alignnone size-medium wp-image-3296" alt="IMG_5605" src="http://www.treebicycleco.com/wp-content/uploads/IMG_5605-440x293.jpg" width="440" height="293" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_5706.jpg"><img class="alignnone size-medium wp-image-3297" alt="IMG_5706" src="http://www.treebicycleco.com/wp-content/uploads/IMG_5706-440x293.jpg" width="440" height="293" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3280" class="post-3280 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/alex-keepin-it-trashy/" title="Permalink to Magallan Shreds." rel="bookmark">Magallan Shreds.</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/alex-keepin-it-trashy/" title="6:19 pm" rel="bookmark"><span class="entry-date">03/20/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Shane Weston snapped this gem of Sir Alex Magallan making something out of nothing in true BMX fashion. <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_3645.jpg"><img class="alignnone size-medium wp-image-3281" alt="IMG_3645" src="http://www.treebicycleco.com/wp-content/uploads/IMG_3645-440x507.jpg" width="440" height="507" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3275" class="post-3275 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/nina-rules-2/" title="Permalink to Nina Rules!" rel="bookmark">Nina Rules!</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/nina-rules-2/" title="4:19 pm" rel="bookmark"><span class="entry-date">03/17/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Just prior to last year&#8217;s Texas Toast we welcomed Nina to the team and she&#8217;s been doing her thing down in Austin, making the Tribe proud! Here&#8217;s a dope GoPro clip of Ms.B tablin&#8217; some tops!<a href="http://www.treebicycleco.com/wp-content/uploads/photo1.jpg"><img class="size-medium wp-image-3276 alignright" alt="photo" src="http://www.treebicycleco.com/wp-content/uploads/photo1-440x330.jpg" width="440" height="330" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3265" class="post-3265 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/the-greatest-timmy-theus/" title="Permalink to The Greatest- Timmy Theus" rel="bookmark">The Greatest- Timmy Theus</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/the-greatest-timmy-theus/" title="3:28 pm" rel="bookmark"><span class="entry-date">03/14/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Tribe member, Timmy Theus was just recently featured in issue 17 of The Albion. Be sure to pick one up and check it out! <a href="http://www.treebicycleco.com/wp-content/uploads/photo-5-e1394810022326.jpg"><img class="alignnone size-medium wp-image-3270" alt="photo 5" src="http://www.treebicycleco.com/wp-content/uploads/photo-5-e1394810022326-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-4-e1394809951300.jpg"><img class="alignnone size-medium wp-image-3269" alt="photo 4" src="http://www.treebicycleco.com/wp-content/uploads/photo-4-e1394809951300-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-3-e1394810053924.jpg"><img class="alignnone size-medium wp-image-3268" alt="photo 3" src="http://www.treebicycleco.com/wp-content/uploads/photo-3-e1394810053924-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-2-e1394810087298.jpg"><img class="alignnone size-medium wp-image-3267" alt="photo 2" src="http://www.treebicycleco.com/wp-content/uploads/photo-2-e1394810087298-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-1.jpg"><img class="alignnone size-medium wp-image-3266" alt="photo 1" src="http://www.treebicycleco.com/wp-content/uploads/photo-1-440x440.jpg" width="440" height="440" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3261" class="post-3261 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/clint-reynolds-and-team-credence-in-puerto-rico/" title="Permalink to Clint Reynolds and Team Credence in Puerto Rico" rel="bookmark">Clint Reynolds and Team Credence in Puerto Rico</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/clint-reynolds-and-team-credence-in-puerto-rico/" title="4:51 pm" rel="bookmark"><span class="entry-date">03/04/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Clint and his boys from Team Credence recently ventured down to Puerto Rico for some fun in the sun, good riding and to hang out with our good friend Carlos Santori. Check out this sweet little edit Clint threw together from their time spent down south.<br />
+<iframe width="420" height="315" src="//www.youtube.com/embed/U_cdXM7SkQk" frameborder="0" allowfullscreen></iframe></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3255" class="post-3255 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/an-update-from-tyson/" title="Permalink to An Update From Tyson" rel="bookmark">An Update From Tyson</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/an-update-from-tyson/" title="4:17 pm" rel="bookmark"><span class="entry-date">02/20/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Tyson Jones-Peni has been shredding all season long down in Australia despite the overwhelming weather conditions. Heat can&#8217;t keep this dude down! We received a short little update from him. Here&#8217;s what he had to say&#8230;</p>
+<p><a href="http://www.treebicycleco.com/wp-content/uploads/tyson_kerrsdownwhip.jpg"><img class="size-medium wp-image-3256 alignright" alt="tyson_kerrsdownwhip" src="http://www.treebicycleco.com/wp-content/uploads/tyson_kerrsdownwhip-440x293.jpg" width="440" height="293" /></a></p>
+<p>&#8220;Hey Sam,<br />
+Just thought I would say a quick g’day, let you know that things are going really well here. Hottest summer ever! In parts of Australia it’s been the hottest temperatures ever since temperature was recorded. Wild. We got some decent rain so Rhysty &amp; I went to another trail spot that has kind of been abandoned &amp; are fixing it up so it runs real good. Our spot is out in the open (but won’t get dozed..) so wind is kind of an issue. This spot we’re fixing has smaller sets but is in the trees, so when it’s windy, we can still ride trails.</p>
+<p>Anyway, hope all is well mate!</p>
+<p>Thanks,<br />
+Tyson Jones-Peni&#8221;</p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://www.treebicycleco.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+					<div class="nav-next"></div>
+				</div><!-- #nav-below -->
+
+
+</div><!-- //#blogContent -->
+
+<!-- #right column -->
+
+<!--//right column  -->
+
+
+</div><!--//container3-->
+
+		<div id="primary2" class="widget-area" role="complementary">
+		<ul class="xoxo">
+
+<li id="text-8" class="widget-container widget_text"><h3 class="widget-title">FEATURED PRODUCT</h3>			<div class="textwidget"><div id="royalslider-1" class="royalSlider default" style="width:424px; height:305px;"><ul class="royalSlidesContainer"><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/motofeature1.jpg"></li><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/motofeature2.jpg"></li><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/motofeature3.jpg"></li><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/Motofeature4.jpg"></li><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/Motobarlogov2-01.jpg"></li></ul></div><script type="text/javascript">jQuery(document).ready(function() {jQuery("#royalslider-1").royalSlider({"width":424,"height":305,"skin":"default","preloadSkin":true,"lazyLoading":true,"preloadNearbyImages":true,"slideshowEnabled":true,"slideshowDelay":3000,"slideshowPauseOnHover":true,"slideshowAutoStart":true,"keyboardNavEnabled":false,"dragUsingMouse":true,"slideSpacing":0,"startSlideIndex":0,"imageAlignCenter":false,"imageScaleMode":"none","autoScaleSlider":false,"autoScaleSliderWidth":960,"autoScaleSliderHeight":400,"slideTransitionType":"move","slideTransitionSpeed":400,"slideTransitionEasing":"easeInOutSine","directionNavEnabled":true,"directionNavAutoHide":true,"hideArrowOnLastSlide":true,"controlNavigationType":"bullets","auto-generate-images":false,"auto-generate-thumbs":false,"thumb-width":60,"thumb-height":60,"captionAnimationEnabled":true,"captionShowFadeEffect":true,"captionShowMoveEffect":"movetop","captionMoveOffset":20,"captionShowSpeed":400,"captionShowEasing":"easeInOutSine","captionShowDelay":200,"controlNavEnabled":true,"controlNavThumbs":false,"captionShowEffects":["fade","movetop"]});});</script>
+<p></p>
+</div>
+		</li><li id="text-5" class="widget-container widget_text"><h3 class="widget-title">FEATURED VIDEO</h3>			<div class="textwidget"><p></p>
+<iframe src="http://player.vimeo.com/video/54612424?byline=0&amp;color=187d24" width="440" height="248" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/54612424">Welcome To The Team Timmy Theus</a> from <a href="http://vimeo.com/treebicycleco">Tree Bicycle Co.</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p></div>
+		</li><li id="instagram-widget-2" class="widget-container instagram"><h3 class="widget-title">INSTAGRAM</h3><div class="instagram-image" id="instagram-image-1"><a href="http://distilleryimage7.s3.amazonaws.com/986f8d64baa711e3b66912c7a3d9dd33_8.jpg" rel="instagram-images" title="Winter is over!! You will most likely be spending more time in real life social situations away from your computer. To make a great impression I suggest that you make yourself look cool as hell by getting these Tree shirts! Available at mailorders and bike shops.  #bmx #positivity"><img src="http://distilleryimage7.s3.amazonaws.com/986f8d64baa711e3b66912c7a3d9dd33_5.jpg" width="50" height="50" border="0" title="Winter is over!! You will most likely be spending more time in real life social situations away from your computer. To make a great impression I suggest that you make yourself look cool as hell by getting these Tree shirts! Available at mailorders and bike shops.  #bmx #positivity" /></a></div><div class="instagram-image" id="instagram-image-2"><a href="http://distilleryimage5.s3.amazonaws.com/67a4e44cba7811e39320122adf243e91_8.jpg" rel="instagram-images" title="Our good friend and long time Tree supporter Kenny Foster getting inverted in KC! #takenoteskids #AgeIsJustANumber #bmx #bmxallday #positivity #Rideyourdangbikes"><img src="http://distilleryimage5.s3.amazonaws.com/67a4e44cba7811e39320122adf243e91_5.jpg" width="50" height="50" border="0" title="Our good friend and long time Tree supporter Kenny Foster getting inverted in KC! #takenoteskids #AgeIsJustANumber #bmx #bmxallday #positivity #Rideyourdangbikes" /></a></div><div class="instagram-image" id="instagram-image-3"><a href="http://distilleryimage3.s3.amazonaws.com/39961d1ab9aa11e3832a127e3c4e7c0f_8.jpg" rel="instagram-images" title="Our boy @scootieftnm with a sick 3 double tire wall tap at #insanityskatepark with @caskew13 behind the lens. #bmx #bmxallday"><img src="http://distilleryimage3.s3.amazonaws.com/39961d1ab9aa11e3832a127e3c4e7c0f_5.jpg" width="50" height="50" border="0" title="Our boy @scootieftnm with a sick 3 double tire wall tap at #insanityskatepark with @caskew13 behind the lens. #bmx #bmxallday" /></a></div><div class="instagram-image" id="instagram-image-4"><a href="http://distilleryimage7.s3.amazonaws.com/cbfc092cb90911e3a37212ebc75c3a93_8.jpg" rel="instagram-images" title="@teezus_theus taking advantage of some early season sunshine. #Hops #bmx #bmxallday #SteezusTheus #timmytheus #DentalWork"><img src="http://distilleryimage7.s3.amazonaws.com/cbfc092cb90911e3a37212ebc75c3a93_5.jpg" width="50" height="50" border="0" title="@teezus_theus taking advantage of some early season sunshine. #Hops #bmx #bmxallday #SteezusTheus #timmytheus #DentalWork" /></a></div><div class="instagram-image" id="instagram-image-5"><a href="http://distilleryimage11.s3.amazonaws.com/f9017946b8d911e3b76e126830c1a143_8.jpg" rel="instagram-images" title="Alex Magallan getting some shredding in with the warm weather yesterday!  @filthyrum615  #bmx #positivity #warmthgloriouswarmth!"><img src="http://distilleryimage11.s3.amazonaws.com/f9017946b8d911e3b76e126830c1a143_5.jpg" width="50" height="50" border="0" title="Alex Magallan getting some shredding in with the warm weather yesterday!  @filthyrum615  #bmx #positivity #warmthgloriouswarmth!" /></a></div><div class="instagram-image" id="instagram-image-6"><a href="http://distilleryimage2.s3.amazonaws.com/f2a75f22b81e11e38bf30e4fe8b5a856_8.jpg" rel="instagram-images" title="Our friend @mitchellproost getting rad at @p9stl ? @_mikey_swenson  #bmx"><img src="http://distilleryimage2.s3.amazonaws.com/f2a75f22b81e11e38bf30e4fe8b5a856_5.jpg" width="50" height="50" border="0" title="Our friend @mitchellproost getting rad at @p9stl ? @_mikey_swenson  #bmx" /></a></div><div class="instagram-image" id="instagram-image-7"><a href="http://distilleryimage11.s3.amazonaws.com/8b954efcb6e311e3a06f1283536b8c33_8.jpg" rel="instagram-images" title="#vintage"><img src="http://distilleryimage11.s3.amazonaws.com/8b954efcb6e311e3a06f1283536b8c33_5.jpg" width="50" height="50" border="0" title="#vintage" /></a></div><div class="instagram-image" id="instagram-image-8"><a href="http://distilleryimage11.s3.amazonaws.com/f9b265f8b6ae11e39a5612e85ac9a457_8.jpg" rel="instagram-images" title="@nina_burrito is down in Puerto Rico getting stoked on sun and fun. With the crew of 6 #bmxbabes @linzeehale @inkyclouds @rubberbandrea @_alexismabry @danilightningbolt  Living off coconuts and sleeping in skateparks by the beach.  These chicks bad - these chicks hood - these chicks do stuff yo chick wish she could. #bmx #bmxbabes #positivity"><img src="http://distilleryimage11.s3.amazonaws.com/f9b265f8b6ae11e39a5612e85ac9a457_5.jpg" width="50" height="50" border="0" title="@nina_burrito is down in Puerto Rico getting stoked on sun and fun. With the crew of 6 #bmxbabes @linzeehale @inkyclouds @rubberbandrea @_alexismabry @danilightningbolt  Living off coconuts and sleeping in skateparks by the beach.  These chicks bad - these chicks hood - these chicks do stuff yo chick wish she could. #bmx #bmxbabes #positivity" /></a></div><div class="instagram-image" id="instagram-image-9"><a href="http://distilleryimage2.s3.amazonaws.com/67da739cb47811e3a0f30e2ec771c42e_8.jpg" rel="instagram-images" title="Tree flatland sprockets on sale at flatlandfuel.com!! 18t and 20t sizes. 3/32&quot; teeth. Fits directly onto a 19mm spindle without a washer. Works with micro drive only. #bmx #flatland #flatlandfuel"><img src="http://distilleryimage2.s3.amazonaws.com/67da739cb47811e3a0f30e2ec771c42e_5.jpg" width="50" height="50" border="0" title="Tree flatland sprockets on sale at flatlandfuel.com!! 18t and 20t sizes. 3/32&quot; teeth. Fits directly onto a 19mm spindle without a washer. Works with micro drive only. #bmx #flatland #flatlandfuel" /></a></div><div class="instagram-image" id="instagram-image-10"><a href="http://distilleryimage3.s3.amazonaws.com/92a3e0eeb37511e395071278ba1dfd3f_8.jpg" rel="instagram-images" title="Last year, Karl Hinkley through the first annual Cork Huck It jam at his place in Unadilla Nebraska and despite unfavorable weather conditions it was still one hell of a time! This year he?s stepping the game up and throwing a three stop BYOB (Bring your own bike) contest series. With Hinkley?s down home, grass roots attitude this is sure to be sick! Grab your homies, grab your bikes, and make your way to the Midwest for some good old fashion #bmx radness! #bmxallday #grassroots #positivity #rideyourbikes"><img src="http://distilleryimage3.s3.amazonaws.com/92a3e0eeb37511e395071278ba1dfd3f_5.jpg" width="50" height="50" border="0" title="Last year, Karl Hinkley through the first annual Cork Huck It jam at his place in Unadilla Nebraska and despite unfavorable weather conditions it was still one hell of a time! This year he?s stepping the game up and throwing a three stop BYOB (Bring your own bike) contest series. With Hinkley?s down home, grass roots attitude this is sure to be sick! Grab your homies, grab your bikes, and make your way to the Midwest for some good old fashion #bmx radness! #bmxallday #grassroots #positivity #rideyourbikes" /></a></div><div class="instagram-image" id="instagram-image-11"><a href="http://distilleryimage0.s3.amazonaws.com/50980f26b1d211e38d27121ea1211db8_8.jpg" rel="instagram-images" title="Happy Birthday to the raddest, swaggiest, dopest, illest, weirdest boss on the planet! Seriously though, thanks for everything you do Sam, hope today rules! #swagalicious #bossmansam #treebicycleco #bmx #positivity"><img src="http://distilleryimage0.s3.amazonaws.com/50980f26b1d211e38d27121ea1211db8_5.jpg" width="50" height="50" border="0" title="Happy Birthday to the raddest, swaggiest, dopest, illest, weirdest boss on the planet! Seriously though, thanks for everything you do Sam, hope today rules! #swagalicious #bossmansam #treebicycleco #bmx #positivity" /></a></div><div class="instagram-image" id="instagram-image-12"><a href="http://distilleryimage4.s3.amazonaws.com/2f6e6a4cb10611e3a4f812053c906dc8_8.jpg" rel="instagram-images" title="The past few months have been crazy for us in the Tree office. Between designing new product, testing new ideas, traveling to Jams, people leaving shit in the Tree Mobile and a number of other things, we?ve accumulated a load of cool stuff! Head over to the Tree Web Store now and check out the Spring Cleaning link on the right hand side of the page. We have everything from Collet stems, to prototype parts that can?t be seen or bought anywhere else!  Sale items have an extremely limited availability (Some, only have 1 left) so check it out, stat!. #springcleaning #bmx #bmxallday #dealsondealsondeals"><img src="http://distilleryimage4.s3.amazonaws.com/2f6e6a4cb10611e3a4f812053c906dc8_5.jpg" width="50" height="50" border="0" title="The past few months have been crazy for us in the Tree office. Between designing new product, testing new ideas, traveling to Jams, people leaving shit in the Tree Mobile and a number of other things, we?ve accumulated a load of cool stuff! Head over to the Tree Web Store now and check out the Spring Cleaning link on the right hand side of the page. We have everything from Collet stems, to prototype parts that can?t be seen or bought anywhere else!  Sale items have an extremely limited availability (Some, only have 1 left) so check it out, stat!. #springcleaning #bmx #bmxallday #dealsondealsondeals" /></a></div><div class="instagram-image" id="instagram-image-13"><a href="http://distilleryimage11.s3.amazonaws.com/2f85a912b05e11e3a15a12133af8e61f_8.jpg" rel="instagram-images" title="@filthyrum615 with the tap, @shadyshane with the snap?"><img src="http://distilleryimage11.s3.amazonaws.com/2f85a912b05e11e3a15a12133af8e61f_5.jpg" width="50" height="50" border="0" title="@filthyrum615 with the tap, @shadyshane with the snap?" /></a></div><div class="instagram-image" id="instagram-image-14"><a href="http://distilleryimage3.s3.amazonaws.com/cfb63928af7e11e3a9f8126315c18a6f_8.jpg" rel="instagram-images" title="Spy photos. woodgrain finish available this summer. #bmx"><img src="http://distilleryimage3.s3.amazonaws.com/cfb63928af7e11e3a9f8126315c18a6f_5.jpg" width="50" height="50" border="0" title="Spy photos. woodgrain finish available this summer. #bmx" /></a></div><div class="instagram-image" id="instagram-image-15"><a href="http://distilleryimage11.s3.amazonaws.com/ea52ad64af7611e387720e8e429886c3_8.jpg" rel="instagram-images" title="Woodgrain top load canopy stems and front load timber stems. Available this summer. #bmx"><img src="http://distilleryimage11.s3.amazonaws.com/ea52ad64af7611e387720e8e429886c3_5.jpg" width="50" height="50" border="0" title="Woodgrain top load canopy stems and front load timber stems. Available this summer. #bmx" /></a></div><div class="instagram-image" id="instagram-image-16"><a href="http://distilleryimage2.s3.amazonaws.com/c2c73fdaaf7611e3b17a0e06f630054e_8.jpg" rel="instagram-images" title="Original sprocket #BMX"><img src="http://distilleryimage2.s3.amazonaws.com/c2c73fdaaf7611e3b17a0e06f630054e_5.jpg" width="50" height="50" border="0" title="Original sprocket #BMX" /></a></div><div class="instagram-image" id="instagram-image-17"><a href="http://distilleryimage8.s3.amazonaws.com/5e44f20aaf7611e381aa126fca151ab4_8.jpg" rel="instagram-images" title="Woodgrain"><img src="http://distilleryimage8.s3.amazonaws.com/5e44f20aaf7611e381aa126fca151ab4_5.jpg" width="50" height="50" border="0" title="Woodgrain" /></a></div><div class="instagram-image" id="instagram-image-18"><a href="http://distilleryimage3.s3.amazonaws.com/8507cdb2af7211e3969a0ebd25b736fb_8.jpg" rel="instagram-images" title="Tree Woodgrain finish is going to be available for all our parts this summer! Handlebars, stems, sprockets, sprocket guards, hubs, headset caps, headsets, seat post, pegs, forks, and barends.  #bmx #woodgrain"><img src="http://distilleryimage3.s3.amazonaws.com/8507cdb2af7211e3969a0ebd25b736fb_5.jpg" width="50" height="50" border="0" title="Tree Woodgrain finish is going to be available for all our parts this summer! Handlebars, stems, sprockets, sprocket guards, hubs, headset caps, headsets, seat post, pegs, forks, and barends.  #bmx #woodgrain" /></a></div><div class="instagram-image" id="instagram-image-19"><a href="http://distilleryimage1.s3.amazonaws.com/84b87600af7111e3915612c9c4c5bed5_8.jpg" rel="instagram-images" title="Clint Reynolds @credence_bikes with a Lawnmower from our Tree New England Roast road trip last summer. Photo borrowed from @ridebmx who is doing an interview with Clint this weekend for the magazine. ? @jeffzphoto"><img src="http://distilleryimage1.s3.amazonaws.com/84b87600af7111e3915612c9c4c5bed5_5.jpg" width="50" height="50" border="0" title="Clint Reynolds @credence_bikes with a Lawnmower from our Tree New England Roast road trip last summer. Photo borrowed from @ridebmx who is doing an interview with Clint this weekend for the magazine. ? @jeffzphoto" /></a></div><div class="instagram-image" id="instagram-image-20"><a href="http://distilleryimage11.s3.amazonaws.com/2b467250abd611e396fc1239744ce7ef_8.jpg" rel="instagram-images" title="Marco Calderon @marcocalderonbmx is owner of Zona Extrema distributor of Tree in Ecuador. #bmx"><img src="http://distilleryimage11.s3.amazonaws.com/2b467250abd611e396fc1239744ce7ef_5.jpg" width="50" height="50" border="0" title="Marco Calderon @marcocalderonbmx is owner of Zona Extrema distributor of Tree in Ecuador. #bmx" /></a></div><div class="instagram-image" id="instagram-image-21"><a href="http://distilleryimage3.s3.amazonaws.com/ffc49b40aba111e3a75b0eb115e847c3_8.jpg" rel="instagram-images" title="It's nice for someone to send US some stickers for once! Thanks @goride09 for supporting tree and being stoked! Definitely gonna slap one of these on the old yellow full cut! -Scott"><img src="http://distilleryimage3.s3.amazonaws.com/ffc49b40aba111e3a75b0eb115e847c3_5.jpg" width="50" height="50" border="0" title="It's nice for someone to send US some stickers for once! Thanks @goride09 for supporting tree and being stoked! Definitely gonna slap one of these on the old yellow full cut! -Scott" /></a></div><div class="instagram-image" id="instagram-image-22"><a href="http://distilleryimage4.s3.amazonaws.com/58b6fb40aa5c11e39aae122a3fda00c8_8.jpg" rel="instagram-images" title="Congratulations to Nina Buitrago @nina_burrito for recently being added to the  @empirebmx team!! #bmx #beingawesomehasitsrewards"><img src="http://distilleryimage4.s3.amazonaws.com/58b6fb40aa5c11e39aae122a3fda00c8_5.jpg" width="50" height="50" border="0" title="Congratulations to Nina Buitrago @nina_burrito for recently being added to the  @empirebmx team!! #bmx #beingawesomehasitsrewards" /></a></div><div class="instagram-image" id="instagram-image-23"><a href="http://distilleryimage9.s3.amazonaws.com/8e597c74aa0111e3bcd612e10e870195_8.jpg" rel="instagram-images" title="Another sneak peek! Working on a dust cap for headsets to be sold by separately to look smooth and replace all the washers. This was 3d printed out of plastic so we can check the fit and look.  We want to offer it in two sizes, this one is 15mm tall. Normal dust caps are 5mm tall. Let us know what your ideal stack height is including your dust cap and you can be apart of the development process.  #bmx #prototype"><img src="http://distilleryimage9.s3.amazonaws.com/8e597c74aa0111e3bcd612e10e870195_5.jpg" width="50" height="50" border="0" title="Another sneak peek! Working on a dust cap for headsets to be sold by separately to look smooth and replace all the washers. This was 3d printed out of plastic so we can check the fit and look.  We want to offer it in two sizes, this one is 15mm tall. Normal dust caps are 5mm tall. Let us know what your ideal stack height is including your dust cap and you can be apart of the development process.  #bmx #prototype" /></a></div><div class="instagram-image" id="instagram-image-24"><a href="http://distilleryimage6.s3.amazonaws.com/03e98ed6a8e811e3a03d12dffe73ba36_8.jpg" rel="instagram-images" title="Nina Buitrago @nina_burrito Anyone who can guess where she is in this pic will get a free high five. ? @linzeehale #bmx"><img src="http://distilleryimage6.s3.amazonaws.com/03e98ed6a8e811e3a03d12dffe73ba36_5.jpg" width="50" height="50" border="0" title="Nina Buitrago @nina_burrito Anyone who can guess where she is in this pic will get a free high five. ? @linzeehale #bmx" /></a></div><span class="instagram-images-clear version-1.5.4">&nbsp;</span></li><li id="text-6" class="widget-container widget_text">			<div class="textwidget"><table><tr>
+	<td><img src="http://www.treebicycleco.com/blog_images/home/sponsors/co-sponsored.gif" width="158" height="70" /></td>
+    <td><a href="http://www.sun-ringle.com/bmx/" target="_blank">
+    	<img src="http://www.treebicycleco.com/blog_images/home/sponsors/sunRingle.gif" width="87" height="70" border="0" /></a></td>
+	<td><a href="http://www.rawindulgence.com" target="_blank">
+    	<img src="http://www.treebicycleco.com/blog_images/home/sponsors/RI_Logo4C_NatOrg_wR df webstore2.jpg" alt="" border="0" /></a></td>
+</tr></table></div>
+		</li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+<div id="pushbottom"> </div><!--//this div will span across the 3 divs above it making sure the footer stays at the bottom of the longest column-->
+
+<!--//container2--></div>
+
+
+
+
+	<div id="footer" role="contentinfo">
+		
+			<div id="footerRight">
+<div id="footerText">
+<h3>Footer Navigation</h3>
+<a href="/">HOME</a> | 
+<a href="/lilbuddyframe/">PARTS</a> | 
+<a href="/floweroflife/">CLOTHING</a> | 
+<a href="/team/">TEAM</a> | 
+<a href="/videos/">VIDEOS</a> | 
+<a href="/distro/">DISTRIBUTORS</a> | 
+<a href="/info/">INFO</a>
+</div>
+</div><!--//footerRight-->
+
+<div id="footerLeft">
+<div id="footerText">
+&copy; TREE BICYCLE CO. 2010 
+</div>
+</div><!--//footerLeft-->
+
+	</div><!-- #footer -->
+
+</div><!--//container-->
+
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/instapress/instapress.js?ver=1.5.4'></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

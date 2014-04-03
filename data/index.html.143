@@ -1,0 +1,985 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Browse Jobs by Company, Location, Skills, Designation & Industry - Naukri.com</title>
+<meta name="description" content="Browse thousands of jobs in top companies & industries on basis of your skills or designation at Naukri.com. Register free to apply online & get selected" />
+<meta name="keywords" content="Browse jobs, browse job, find job, top jobs, job, jobs, jobs by skills, jobs by designation, jobs by functional area, jobs by companies, jobs by location, jobs by industries, skill jobs, company jobs, jobs in top companies, jobs by companies, best jobs, Naukri, Naukri.com, job openings, company openings, top companies, best companies, jobs online" />
+<meta name="classification" content="Job and Career:  find jobs, top jobs, jobs by location, jobs by industry, jobs by functional area, company jobs, jobs by skills, jobs by designation" />
+<meta name="copyright" content="2012 Naukri.com" />
+<link type="text/css" rel="stylesheet" href="http://static.naukimg.com/jobsrch/styles/srcCSS_16022014.css" />
+<link rel="stylesheet" type="text/css" href="http://static.naukimg.com/jobsrch/styles/newHeader_16022014.css" />
+<script type="text/javascript" src="http://static.naukimg.com/s/1/0//j/nLoggerJB_v1_min.js"></script>
+
+
+<script type="text/javascript">
+     nLogger.init({"boomerangReport":true,"appId":109,"errorURL":"http:\/\/logs.naukri.com\/nLogger\/errorLogger.php","boomURL":"http:\/\/logs.naukri.com\/nLogger\/boomLogger.php","userIP":"1143658160","imageURL":"http:\/\/static.naukimg.com\/rstatic\/images\/","logBW":false});BOOMR.addVar('tag', '');    </script><script language="JavaScript" src="http://static.naukimg.com/jobsrch/js/footer.js" type="text/javascript"></script>
+<script language="JavaScript" src="http://static.naukimg.com/jobsrch/js/js_18102012.js" type="text/javascript"></script>
+<script>
+var domain_cat="http://jobsearch.naukri.com/";
+</script>
+<script language="JavaScript" src="http://static.naukimg.com/jobsrch/js/search_15032013.js"></script>
+<!-- Google plus Button-->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{parsetags: 'explicit'}</script>
+<!-- Google plus Button-->
+<base target="_blank" />
+<!-- New GA code-->
+   <script type="text/javascript">
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-182658-1']);
+   _gaq.push(['_setDomainName', '.naukri.com']);
+   _gaq.push(['_trackPageview']);
+   (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+   })();
+   </script>
+   <!-- New GA code-->
+   </head>
+<body >
+<div id="header">
+        <div id="topBg">
+                <div class="wrapper">
+                        <div class="fl"><span class="login"><em class="lt">&nbsp;</em><a href="https://login.naukri.com/nLogin/Login.php?URL=http%3A%2F%2Fjobsearch.naukri.com%2Fmynaukri%2Fjs_recommends.php" target="_self">Login</a><em class="rt">&nbsp;</em></span> &nbsp;to view recommended jobs for you</div>
+            <div class="fr">Recruiters from USA, call  Toll Free # 866-557-3340</div>
+        </div>
+        </div>
+    <div class="wrapper">
+                <span class="logoCont">
+                <a href="http://www.naukri.com" id="logo" target="_self"></a>
+                </span>
+        <span id="rtBanner"></span>
+    </div>
+<!--<span class="wrapper"></span></div><div class="spacer">&nbsp;</div>-->
+</div>
+
+<div id="navBG">
+        <div class="wrapper" id="mNav">
+               <div class="mN_new w800nav">
+                <div class="lefNav">&nbsp;</div>
+            <ul>
+      <li class="homeSel"><a href="http://www.naukri.com" target="_self" title="Home"></a></li>
+<li><a href="http://jobsearch.naukri.com/mynaukri/mn_newsmartsearch.php?xz=2_0_62&id=" class="dropD" rel="searchJ">Search Jobs</a></li>
+<li><a href="http://recruiters.naukri.com/hr-recruiters-consultants">Search Recruiters</a></li>
+<li><a href="http://www.naukri.com/tieups/tieups.php?othersrcp=5424&id=" target="_self">Post Resume</a></li>
+
+
+<li><a href="http://my.naukri.com/" target="_self">Jobseeker Login</a></li>
+
+<li><a href="http://resume.naukri.com/resume-services?fftid=200001&id=" class="dropD" rel="resServ">FastForward</a></li>
+
+
+<li><a href="http://naukri.shiksha.com/" class="dropD" rel="learning">Learning</a></li>
+    <li><a href="javascript:void(0);" target="_self" class="dropD" rel="moreNav">More</a></li>
+        </ul><div class="rigNav">&nbsp;</div>
+            </div>
+            <div class="mN_new" id="empNavM" style="width:222px; float:right;">
+                 
+       <div class="lefNav">&nbsp;</div>
+            <ul>
+              <li class="bdrN"><a href="https://login.recruit.naukri.com/">Employer's Zone</a></li>
+                <li><a class="dropD" rel="buy" href="http://recruit.naukri.com/rCommerce/demo/buy">Buy Online</a></li>
+            </ul><div class="rigNav">&nbsp;</div>
+
+            </div>
+        </div>
+
+        <div class="mN_Box" id="searchJ">
+        <ul>
+<!--<li><a href="http://jobsearch.naukri.com/mynaukri/mn_newsmartsearch.php?xz=2_0_62&sh=a&id=" onclick='ChangeURL(this);'>Advanced Search</a></li>-->
+<li><a href="http://jobsearch.naukri.com/">Browse All Jobs</a></li>
+<li><a href="http://jobsearch.naukri.com/mynaukri/mn_newsmartsearch.php?xz=2_0_62&sh=a&id=">Advanced Search</a></li>
+<li><a href="http://jobsearch.naukri.com/top-company-jobs">Jobs by Company</a></li>
+        <li><a href="http://jobsearch.naukri.com/jobs-by-category">Jobs by Category</a></li>
+        <li><a href="http://jobsearch.naukri.com/jobs-by-location.php?id=">Jobs by Location</a></li>
+        <li><a href="http://jobsearch.naukri.com/top-skill-jobs">Jobs by Skill</a></li>
+       <li class="bdrmnone"><a href="http://jobsearch.naukri.com/top-jobs-by-designations">Jobs by Designation</a></li>
+
+    </ul>
+</div>
+
+<div class="mN_Box " id="mnaukNav">
+        <ul class="ulleft">
+        <li><strong>Update Profile</strong>
+        <div>
+<a href="http://my.naukri.com/Profile/edit?id=">Profile Snapshot</a>
+<a href="http://my.naukri.com/EmploymentDetails/add?id=">Add Employer/Designation</a>
+<a href="http://my.naukri.com/EducationDetails/edit?id=">Education</a>
+<a href="http://my.naukri.com/ITProjects/add?id=">Project Details</a>
+<a href="http://my.naukri.com/ITSkills/edit?id=">IT Skills</a>
+<a href="http://my.naukri.com/OtherInfo/edit?subAction=ot&id=">Desired Job Details</a>
+<a href="http://my.naukri.com/OtherInfo/edit?subAction=wa&id=">Personal Details</a>
+<a href="http://my.naukri.com/Photo/view?id=">Add/Edit Photo </a>
+	</div>
+        </li>
+
+<li class="bdrmnone"><strong>Jobs and Applications</strong>        
+  <div>
+     <a href="http://jobsearch.naukri.com/mynaukri/js_recommends.php?id=">Naukri Recommendations</a>
+      <a href="http://my.naukri.com/SavedJobs/view?id=">Saved Jobs</a> 
+      <a href="http://my.naukri.com/ApplyHistory/monthlyJobs?id=">Applications History</a>  
+  </div>        
+</li>
+</ul>
+
+
+<ul class="ulrt"> 
+      <li><strong>Attached Resume</strong>        
+          <div>
+            <a href="http://my.naukri.com/Profile/view?cvd=1&id=#ar">Download</a>
+            <a href="http://my.naukri.com/Profile/view?id=#ar">Upload New Resume</a>
+            <a href="http://my.naukri.com/Profile/view?id=#ar">Forward</a>
+        </div> 
+      </li> 
+      <li><strong>Create/Manage Profiles</strong> 
+          <div>
+              <a href="http://my.naukri.com/NewProfile/createPage1?id=">Create New Profile</a>
+              <a href="http://my.naukri.com/ManageProfiles/view?id=">Manage Profiles</a>
+         </div> 
+      </li> 
+     <li><strong>Account Settings</strong>
+        <div>
+            <a href="http://my.naukri.com/ManageProfiles/profileVisibility?altresid=&id=">Visibility Settings</a>
+            <a href="http://my.naukri.com/Mailers/edit?id=">Communication Settings</a>
+            <a href="http://my.naukri.com/BlockCompany/view?altresid=&id=">Block Companies</a>
+        </div>
+        </li><li class="bdrmnone"><strong>Others</strong> 
+          <div>
+            <a href="http://my.naukri.com/Profile/view?altresid=&id=">Recruiters View of  CV</a>
+            <a href="http://my.naukri.com/ProfilePerformance/preview?altresid=&id=">Views by Recruiters</a>  
+        </div> 
+      </li>
+</ul>
+
+</div>
+
+<!-- resume service tab -->
+<div class="mN_Box" id="resServ">
+<ul class="ulleft">
+              <li><strong>Resume Writing</strong>
+                  <div>
+                      <a href="http://resume.naukri.com/cv-for-freshers-entry-level?fftid=201001">Text Resume</a>
+                      <a href="http://resume.naukri.com/visual-resume-writing?fftid=201002" style="padding-top:0px;">Visual Resume </a>
+                      <a href="http://resume.naukri.com/resume-quality-score?fftid=201003">Resume Quality Report <span class="freeTag">Free</span></a>
+                      <a href="http://resume.naukri.com/sample-resume-for-freshers?fftid=201004">Resume Samples</a>
+                  </div>
+                </li>
+                <li class="bdrmnone">
+                  <strong>Profile Enhancement</strong>
+                  <div>
+                    <a href="http://resume.naukri.com/video-profile?fftid=201005">Video Profile <span class="nwtagRed">New</span></a>
+                    <a href="http://resume.naukri.com/online-courses?fftid=201006">e-Courses <span class="nwtagRed">New</span></a>
+                    <a href="http://resume.naukri.com/online-test?fftid=201007">Certifications</a>
+                    <a style="padding-top:0px;" href="http://resume.naukri.com/background-checks?fftid=201008">Background Check</a>
+                  </div>
+                </li>
+
+          </ul>
+          <ul class="ulrt">
+            <li>
+              <strong>Recruiter Reach</strong>
+            <div>
+              <a href="http://resume.naukri.com/job-placement-consultants?fftid=201009">Resume Display</a>
+              <a href="http://resume.naukri.com/contact-recruiters-hr?fftid=201010">RecruiterConnection <span class="nwtagRed">New</span></a>
+            </div>
+          </li>
+
+            <li>
+              <strong>Jobs4U</strong>
+            <div>
+              <a href="http://resume.naukri.com/job-alerts-on-mobile-mail?fftid=201011#jobmail">Job Mail</a>
+              <a href="http://resume.naukri.com/job-alerts-on-mobile-mail?fftid=201012#jobmove">Jobs on the Move</a>
+            </div>
+           </li>
+
+          <li>
+              <strong>Other</strong>
+          <div>
+            <a href="http://resume.naukri.com/frequently-asked-questions-faq?fftid=201013">Help/FAQ</a>
+            <a href="http://resume.naukri.com/articles?fftid=201014">Career Advice</a>
+            <a href="http://resume.naukri.com/contact-us?fftid=201015">Contact Us</a>
+          </div>
+          </li>
+          </ul>
+</div>
+<!-- learning -->
+<div class="mN_Box " id="learning">
+        <ul class="ulleft">
+        <li><strong>Management & Business</strong>
+        <div>
+<a href="http://naukri.shiksha.com/mba-colleges-in-india-categorypage-3-23-1-0-0-1-1-2-0-none-1-1">MBA</a>
+<a href="http://naukri.shiksha.com/mba-distance-learning-in-india-categorypage-3-24-1-0-0-1-1-2-0-none-1-1">Distance MBA</a>
+<a href="http://naukri.shiksha.com/part-time-mba-in-india-categorypage-3-26-1-0-0-1-1-2-0-none-1-1">Part-Time MBA</a>
+  </div>
+        </li>
+<li class="bdrmnone"><strong>Information Technology</strong>
+        <div>
+<a href="http://naukri.shiksha.com/mca-colleges-in-india-categorypage-10-98-1-0-0-1-1-2-0-none-1-1">MCA</a>
+<a href="http://naukri.shiksha.com/mca-distance-education-in-india-categorypage-10-97-1-0-0-1-1-2-0-none-1-1">Distance MCA</a>
+<a href="http://naukri.shiksha.com/computer-programming-language-courses-in-india-categorypage-10-105-1-0-0-1-1-2-0-none-1-1">Software Courses</a>
+<a href="http://naukri.shiksha.com/cisco-certification-courses-in-india-categorypage-10-101-1-0-0-1-1-2-0-none-1-1">Hardware Courses</a>
+  </div>
+        </li>
+
+    </ul>
+        <ul class="ulrt">
+        <li><strong>Animation, Multimedia</strong>
+        <div>
+<a href="http://naukri.shiksha.com/animation-courses-in-india-categorypage-12-89-1-0-0-1-1-2-0-none-1-1">Animation</a>
+<a href="http://naukri.shiksha.com/graphic-designing-courses-in-india-categorypage-12-92-1-0-0-1-1-2-0-none-1-1">Graphic Designing</a>
+<a href="http://naukri.shiksha.com/web-designing-courses-in-india-categorypage-12-93-1-0-0-1-1-2-0-none-1-1">Web Designing</a>
+  </div>
+        </li>
+<li class="bdrmnone"><img src="http://static.naukimg.com/jobsrch/images/shiksha-powered.png"></li>
+    </ul>
+</div>
+
+<!-- learning end -->
+
+<!-- More tab -->
+<div class="mN_Box" id="moreNav">
+<ul>
+<li><a href="http://careernavigator.naukri.com">PayCheck</a></li>
+<li><a href="http://www.naukri.com/tieups/tieups.php?othersrcp=9902&id=">Naukri On Mobile</a></li>
+<li><a href="http://blogs.naukri.com?p=314">NaukriOnChat</a></li>
+<li class="bdrmnone"><a href="http://blogs.naukri.com">Blog</a></li>
+</ul>
+</div>
+<!-- Buy Online -->
+<div class="mN_Box" id="buy" style="width:96px;padding:2px;">
+<ul style="width:96px !important;">
+<li><a href="http://recruit.naukri.com/rCommerce/demo/buy">Buy Online</a></li>
+<li class="bdrmnone"><a href="http://recruit.naukri.com/rCommerce/instaPost/default">Post an Insta Job</a></li>
+</ul>
+</div>
+</div>
+
+<SCRIPT language="JavaScript" src="http://static.naukimg.com/jobsrch/js/json.js"></SCRIPT>
+<SCRIPT language=JavaScript src="http://static.naukimg.com/jobsrch/js/js_jobsrch_1_01072013.js?ver=1"></SCRIPT>
+<SCRIPT language=JavaScript src="http://static.naukimg.com/jobsrch/js/js_jobsrch_3_15022013.js"></SCRIPT>
+<SCRIPT language=JavaScript src="http://static.naukimg.com/jobsrch/js/dd.js"></SCRIPT>
+
+<script>
+var a=0;var b=0;var suggestelement = "qp";var form_n = "quickbar";var sample = Array();
+var set = 9;
+var newflag = "";var disable = Array();
+getdata();
+var a11=0;var b11=0;var suggestelement1 = "ql";var form_n1 = "quickbar";var sample1 = Array();var newflag1 = "";var disable = Array();
+var val_qx = '-1';
+    ckName = "rcnt_srch";
+
+
+var cookieDomainName = ".naukri.com";
+var searchpath = "http://jobsearch.naukri.com/mynaukri/";
+var searchfilename  = "mn_newsmartsearch.php";
+</script>
+<iframe id="iframeFSch" style="display:none;"></iframe>
+
+
+
+<div id="autosuggest" style="display:none;"><ul></ul></div>
+<div id="autosuggest1" style="display:none;"><ul></ul></div>
+<form name="quickbar" method="post" action="http://jobsearch.naukri.com/mynaukri/mn_newsmartsearch.php" style="margin:0" target="_self" 
+onsubmit="if(validate11('qp,ql,qf[]','quickbar','Please enter Keywords or Location or select Job Category to search.',new Array('qp','ql','farea'))) { setRecentSearches('rcnt_srch'); return true;} else return false; ">
+<input type="hidden" id="js" name="js" value=0><script>document.getElementById('js').value=1;</script>
+<input id="xz" type="hidden" name="xz" value="1_0_62">
+<input type="hidden" name="id" value="">
+<input type="hidden" id="qctcFil" name="qctcFil" value="1">
+
+
+<div class="srcBg100">
+        <div class="wrapper">
+        <div class="srcBand">
+        <div class="srcNav">
+        <div class="srcNavL">&nbsp;</div>
+        <ul>
+                <li class="sel"><span></span><b><a href="http://www.naukri.com" target="_self">Search All Jobs</a></b><em></em></li>
+    <li><span></span><b><a href="http://www.naukri.com/premium.php" target="_self">NaukriPremium Jobs</a></b><em></em></li><li class="new"><span></span><b><a href="http://www.naukri.com/international-jobs" target="_self">International Jobs</a></b><em></em><small></small></li><li><span></span><b><a target="_self" href="http://jobsearch.naukri.com/psu-government-jobs/">PSU/Government Jobs</a></b><em></em></li>
+
+                </ul>
+        <div class="srcNavR">&nbsp;</div>
+    </div>
+    <div class="srcBg" id="srcBg">
+        <div class="lh10"></div>
+        <ul class="ulH60">
+                <li>
+                <p>Keywords</p>
+                <span id="spanid_qp"><input type="text" class="w166" value="" name="qp" id="qp" onfocus="defaultText('f','band');"  onkeypress="removeError(new Array('qp','ql','farea'),'quickbar',1);" maxlength="250" /> <script> if(a) createAutoSuggest('qp','quickbar','autosuggest');</script>  </span>
+            </li>
+                <li>
+                <p>Location</p>
+                <span id="spanid_ql"><input type="text" class="w156" value="" name="ql" id="ql" onfocus="defaultText1('f');" onkeypress="removeError(new Array('qp','ql','farea'),'quickbar',1);" onChange="removeError(new Array('ql'),'quickbar',2);" /><script> if(a11) { createAutoSuggest('ql','quickbar','autosuggest1');}</script></span>
+            </li>
+            <li><p>Job Category</p>
+            <span class="dd" id="spanid_farea"><input type="text" class="w78" value="Select" name="farea" id="farea" onclick="removeError(new Array('qp','ql','farea'),'quickbar',1);"/></span>
+            <strong><em>
+                                                                 <select name="qf[]"  size="15" class="textbox" id="fareaSL" ><option value="" selected>Select</option><optgroup label="Top Categories"></optgroup><option value="1" >Accounts, Finance, Tax, Company Secretary, Audit</option><option value="81" >Analytics & Business Intelligence</option><option value="6" >Financial Services, Banking, Investments, Insurance</option><option value="8" >ITES, BPO, KPO, LPO, Customer Service, Operations</option><option value="12" >HR, Recruitment, Administration, IR</option><option value="15" >Marketing, Advertising, MR, PR, Media Planning</option><option value="19" >Production, Manufacturing, Maintenance</option><option value="20" >Site Engineering, Project Management</option><option value="21" >Engineering Design, R&D</option><option value="22" >Sales, Retail, Business Development</option><option value="82" >Shipping</option><option value="24" >IT Software - All Jobs</option><optgroup label="IT Software Categories"></optgroup><option value="24.01" >IT Software - Application Programming, Maintenance</option><option value="24.02" >IT Software - Client/Server Programming</option><option value="24.03" >IT Software - DBA, Datawarehousing</option><option value="24.04" >IT Software - ERP, CRM</option><option value="24.05" >IT Software - Embedded, EDA, VLSI, ASIC, Chip Design</option><option value="24.06" >IT Software - Network Administration, Security</option><option value="24.08" >IT Software - QA & Testing</option><option value="24.09" >IT Software - System Programming</option><option value="24.10" >IT Software - Telecom Software</option><option value="24.11" >IT Software - Systems, EDP, MIS</option><option value="24.12" >IT Software - eCommerce, Internet Technologies</option><option value="24.13" >IT Software - Mainframe</option><option value="24.14" >IT Software - Mobile</option><option value="24.15" >IT Software - Middleware</option><option value="24.07" >IT Software - Other</option><optgroup label="More Categories"></optgroup><option value="catid_2" >Top Management - IT Jobs</option><option value="catid_1" >Top Management - Non IT</option><option value="2" >Architecture, Interior Design</option><option value="3" >Design, Creative, User Experience</option><option value="4" >Hotels, Restaurants</option><option value="5" >Journalism, Editing, Content</option><option value="7" >Strategy, Management Consulting, Corporate Planning</option><option value="9" >Self Employed, Entrepreneur, Independent Consultant</option><option value="10" >Export, Import, Merchandising</option><option value="11" >Executive Assistant, Front Office, Data Entry</option><option value="13" >Legal, Regulatory, Intellectual Property</option><option value="14" >Supply Chain, Logistics, Purchase, Materials</option><option value="16" >Medical, Healthcare, R&D, Pharmaceuticals, Biotechnology</option><option value="18" >Packaging</option><option value="36" >Teaching, Education, Training, Counselling</option><option value="37" >IT Hardware, Technical Support, Telecom Engineering</option><option value="42" >Fashion Designing, Merchandising</option><option value="43" >TV, Films, Production, Broadcasting</option><option value="44" >Travel, Tours, Ticketing, Airlines</option><option value="45" >Defence Forces, Security Services</option><option value="catid_28" >Government, Defence</option><option value="catid_29" >Overseas, International Jobs</option><option value="catid_57" >Retail, Wholesale</option><option value="catid_31" >Pharma, Biotechnology, Clinical Research</option><option value="catid_22" >Freshers</option><option value="41" >Other</option></select>
+                                         </em>
+            </strong>
+            </li>
+            <li><p>Exp.</p>
+            <span class="dd" id="spanid_exp"><input type="text" class="w34" value="Select" id="exp" /></span>
+            <strong><em>
+                                                         <select name="qe"  class="textbox" size="10" style="width:59px;" id="expSL" ><option value="" selected>Exp.</option><option value="0" >0</option><option value="1" >1</option><option value="2" >2</option><option value="3" >3</option><option value="4" >4</option><option value="5" >5</option><option value="6" >6</option><option value="7" >7</option><option value="8" >8</option><option value="9" >9</option><option value="10" >10</option><option value="11" >11</option><option value="12" >12</option><option value="13" >13</option><option value="14" >14</option><option value="15" >15</option><option value="16" >16</option><option value="17" >17</option><option value="18" >18</option><option value="19" >19</option><option value="20" >20</option><option value="21" >21</option><option value="22" >22</option><option value="23" >23</option><option value="24" >24</option><option value="25" >25</option><option value="26" >26</option><option value="27" >27</option><option value="28" >28</option><option value="29" >29</option><option value="30" >30</option></select>
+                                </em>
+            </strong>
+            </li>
+            <li><p>Salary Expectation</p>
+            <div class="fl"><span class="dd" id="spanid_minSal"><input type="text" class="w30" value="Min" id="minSal" /></span>&nbsp; &ndash;&nbsp;
+            <strong><em>
+                                        <select name="qm"  class="textbox" size="10" style="width:59px;" id="minSalSL" ><option value="-1" >Min</option><option value="12477" >&lt; .5</option><option value="1" >1</option><option value="2" >2</option><option value="3" >3</option><option value="4" >4</option><option value="5" >5</option><option value="6" >6</option><option value="7" >7</option><option value="8" >8</option><option value="9" >9</option><option value="10" >10</option><option value="11" >11</option><option value="12" >12</option><option value="13" >13</option><option value="14" >14</option><option value="15" >15</option><option value="16" >16</option><option value="17" >17</option><option value="18" >18</option><option value="19" >19</option><option value="20" >20</option><option value="21" >21</option><option value="22" >22</option><option value="23" >23</option><option value="24" >24</option><option value="25" >25</option><option value="26" >26</option><option value="27" >27</option><option value="28" >28</option><option value="29" >29</option><option value="30" >30</option><option value="31" >31</option><option value="32" >32</option><option value="33" >33</option><option value="34" >34</option><option value="35" >35</option><option value="36" >36</option><option value="37" >37</option><option value="38" >38</option><option value="39" >39</option><option value="40" >40</option><option value="41" >41</option><option value="42" >42</option><option value="43" >43</option><option value="44" >44</option><option value="45" >45</option><option value="46" >46</option><option value="47" >47</option><option value="48" >48</option><option value="49" >49</option><option value="50" >50</option></select>
+                 </em></strong></div>
+                <div class="fl"><span class="dd" id="spanid_maxSal"><input type="text" class="w30" value="Max" id="maxSal" /></span><strong><em><select name="qx" id="maxSalSL" size="2" style="width:56px;height:16px;" class="textbox" ><option>Max</option></select></em></strong></div>
+           
+ </li>
+            <li class="mp0"><button type="submit" id="search" value="Search" onclick="defaultText('s','band');"><div><p></p><b>Search</b><em></em></div></button></li>
+        </ul>
+<div class="res_block"><div class="fl w700"><div class="errorTxt" id="divInlineErrMsg"></div>
+<div id="recentSearch" class="recent_s"></div></div><div class="fr inLakh">In Lakhs per Annum</div><br style="clear:both"></div> </div>
+
+</div>
+    </div>
+</div>
+                <input id="uen" name="uen" value="" type="hidden">
+                <input id="usl" name="usl" value="" type="hidden">
+                <input type="hidden" id="fsug" name="fsug" value="">
+                
+<!--new search band-->
+<script type="text/javascript" src="http://static.naukimg.com/jobsrch/js/navDropdown2.js?ver=1"></script>
+
+</form>
+<div id="div_rcnt_srch_frm">
+</div>
+<script>defaultText('l','band');defaultText1('l');embedFnc();
+if(document.getElementById('fareaSL'))
+textColordd('fareaSL'); 
+if(document.getElementById('expSL'))
+textColordd('expSL');
+if(document.getElementById('maxSalSL'))
+textColordd('maxSalSL');
+if(document.getElementById('minSalSL'))
+textColordd('minSalSL');
+
+
+</script>
+<script type="text/javascript">
+var recentSearch = "";
+document.getElementById("recentSearch").innerHTML=recentSearch;
+</script>
+<iframe id="DivShim"  scrolling="no" frameborder="0" style="position:absolute; top:0px; left:0px; display:none;"> </iframe>
+<!--In Lacs Changes-->
+<!--In Lacs Changes-->
+<div class="cl">&nbsp;</div>
+
+<NOSCRIPT>
+<div class="jser javascript dspN">Javascript is disabled in your browser due to this certain functionalities will not work. <a href="http://jobsearch.naukri.com/mynaukri/js_enable.php?id=" target="_blank">Click Here</a>, to know how to enable it.</div>
+</NOSCRIPT>
+<div class="wrapper">
+	<!-- Left Section starts -->
+    <div id="colL_brw">
+        <h1 class="stateHd">Jobs by Locations<a href="http://jobsearch.naukri.com/jobs-by-location.php">View All</a></h1>
+        <div class="brwsComp w195 f1">
+        	<a href="http://jobsearch.naukri.com/jobs-in-delhi" title="Jobs in Delhi">Jobs in Delhi</a>
+            <a href="http://jobsearch.naukri.com/jobs-in-bangalore" title="Jobs in Bangalore">Jobs in Bangalore</a>
+            <a href="http://jobsearch.naukri.com/jobs-in-hyderabad" title="Jobs in Hyderabad">Jobs in Hyderabad</a>
+            <a href="http://jobsearch.naukri.com/jobs-in-chennai" title="Jobs in Chennai">Jobs in Chennai</a>
+  	    <a href="http://jobsearch.naukri.com/jobs-in-mumbai" title="Jobs in Mumbai">Jobs in Mumbai</a>
+	    <a href="http://jobsearch.naukri.com/jobs-in-pune" title="Jobs in Pune">Jobs in Pune</a>
+    	</div>
+    
+        <div class="brwsComp w195 f1">
+         <a href="http://jobsearch.naukri.com/jobs-in-kolkata" title="Jobs in Kolkata">Jobs in Kolkata</a>
+         <a href="http://jobsearch.naukri.com/jobs-in-chandigarh" title="Jobs in Chandigarh">Jobs in Chandigarh</a>
+         <a href="http://jobsearch.naukri.com/jobs-in-lucknow" title="Jobs in Lucknow">Jobs in Lucknow</a>
+         <a href="http://jobsearch.naukri.com/jobs-in-indore" title="Jobs in Indore">Jobs in Indore</a>
+         <a href="http://jobsearch.naukri.com/jobs-in-gurgaon" title="Jobs in Gurgaon">Jobs in Gurgaon</a>
+         <a href="http://jobsearch.naukri.com/jobs-in-ahmedabad" title="Jobs in Ahmedabad">Jobs in Ahmedabad</a>
+        </div>
+
+        <div class="brwsComp w195 f1">
+  <a href="http://jobsearch.naukri.com/jobs-in-noida" title="Jobs in Noida">Jobs in Noida</a>
+ <a href="http://jobsearch.naukri.com/jobs-in-bhopal" title="Jobs in Bhopal">Jobs in Bhopal</a>
+ <a href="http://jobsearch.naukri.com/jobs-in-goa" title="Jobs in Goa">Jobs in Goa</a>
+ <a href="http://jobsearch.naukri.com/jobs-in-vadodara-baroda" title="Jobs in Vadodara/Baroda">Jobs in Vadodara/Baroda</a>
+ <a href="http://jobsearch.naukri.com/jobs-in-surat" title="Jobs in Surat">Jobs in Surat</a>
+        </div>
+        <p class="sp20"></p>
+        <h2 class="stateHd">Jobs by Functional Areas<a href="http://jobsearch.naukri.com/jobs-by-category">View All</a></h2>
+        <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/bank-jobs?xz=3_0_78&qf[]=6" title="Bank Jobs">Bank Jobs</a>
+<a href="http://jobsearch.naukri.com/data-entry-jobs?xz=3_0_78&qf[]=11" title="Data Entry Jobs">Data Entry Jobs</a>
+<a href="http://jobsearch.naukri.com/hr-jobs?xz=3_0_78&qf[]=12" title="HR Jobs">HR Jobs</a>
+<a href="http://jobsearch.naukri.com/bpo-jobs?xz=3_0_78&qf[]=8" title="BPO Jobs">BPO Jobs</a>
+<a href="http://jobsearch.naukri.com/finance-jobs?xz=3_0_78&qf[]=1" title="Finance Jobs">Finance Jobs</a>
+<a href="http://jobsearch.naukri.com/teaching-jobs?xz=3_0_78&qf[]=36" title="Teacher Jobs">Teacher Jobs</a>
+<a href="http://jobsearch.naukri.com/legal-jobs?xz=3_0_78&qf[]=13" title="Legal Jobs">Legal Jobs</a> 
+            </div>
+            <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/marketing-jobs?xz=3_0_78&qf[]=15" title="Marketing Jobs">Marketing Jobs</a>
+<a href="http://jobsearch.naukri.com/defence-jobs?xz=3_0_78&qf[]=catid_28" title="Defence Jobs">Defence Jobs</a>
+<a href="http://jobsearch.naukri.com/internet-jobs?xz=3_0_78&qf[]=24.12" title="Internet Jobs">Internet Jobs</a>
+<a href="http://jobsearch.naukri.com/retail-jobs?xz=3_0_78&qf[]=catid_57" title="Retail Jobs">Retail Jobs</a>
+<a href="http://jobsearch.naukri.com/logistics-jobs?xz=3_0_78&qf[]=14" title="Logistics Jobs">Logistics Jobs</a>
+<a href="http://jobsearch.naukri.com/hotel-jobs?xz=3_0_78&qf[]=4" title="Hotel Jobs">Hotel Jobs</a>
+<a href="http://jobsearch.naukri.com/accounting-jobs?xz=3_0_78&qf[]=1" title="Accounting Jobs">Accounting Jobs</a>
+                  </div>
+            <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/content-writing-jobs?xz=3_0_78&qf[]=5" title="Content Writing Jobs">Content Writing Jobs</a>
+<a href="http://jobsearch.naukri.com/airline-jobs?xz=3_0_78&qf[]=44" title="Airline Jobs">Airline Jobs</a>
+<a href="http://jobsearch.naukri.com/dba-jobs?xz=3_0_78&qf[]=24.03" title="DBA Jobs">DBA Jobs</a>
+<a href="http://jobsearch.naukri.com/kpo-jobs?xz=3_0_78&qf[]=8" title="KPO Jobs">KPO Jobs</a>
+<a href="http://jobsearch.naukri.com/security-jobs?xz=3_0_78&qf[]=45" title="Security Jobs">Security Jobs</a>
+<a href="http://jobsearch.naukri.com/sales-jobs?xz=3_0_78&qf[]=22" title="Sales Jobs">Sales Jobs</a>
+<a href="http://jobsearch.naukri.com/vlsi-jobs?xz=3_0_78&qf[]=24.05" title="Vlsi Jobs">VLSI Jobs</a>
+        </div>
+<p class="sp20"></p>
+  <h3 class="stateHd">Jobs by Industries<a href="http://jobsearch.naukri.com/jobs-by-category">View All</a></h3>
+        <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/govt-jobs?xz=3_0_78&qi[]=42" title="Govt Jobs">Govt Jobs</a>
+<a href="http://jobsearch.naukri.com/railway-jobs?xz=3_0_78&qi[]=2" title="Railway Jobs">Railway Jobs</a>
+<a href="http://jobsearch.naukri.com/ngo-jobs?xz=3_0_78&qi[]=37" title="Ngo Jobs">Ngo Jobs</a>
+<a href="http://jobsearch.naukri.com/pharma-jobs?xz=3_0_78&qi[]=22" title="Pharma Jobs">Pharma Jobs</a>
+<a href="http://jobsearch.naukri.com/information-technology-jobs?xz=3_0_78&qi[]=25" title="IT Jobs">IT Jobs</a>
+<a href="http://jobsearch.naukri.com/agriculture-jobs?xz=3_0_78&qi[]=33" title="Agriculture Jobs">Agriculture Jobs</a>
+<a href="http://jobsearch.naukri.com/telecom-jobs?xz=3_0_78&qi[]=27" title="Telecom Jobs">Telecom Jobs</a>
+         </div>
+        <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/shipping-jobs?xz=3_0_78&qi[]=44" title="Shipping Jobs">Shipping Jobs</a>
+<a href="http://jobsearch.naukri.com/oil-and-gas-jobs?xz=3_0_78&qi[]=23" title="Oil And Gas Jobs">Oil And Gas Jobs</a>
+<a href="http://jobsearch.naukri.com/aviation-jobs?xz=3_0_78&qi[]=46" title="Aviation Jobs">Aviation Jobs</a>
+<a href="http://jobsearch.naukri.com/bpo-jobs?xz=3_0_78&qi[]=7" title="BPO Jobs">BPO Jobs</a>
+<a href="http://jobsearch.naukri.com/teaching-jobs?xz=3_0_78&qi[]=26" title="Teacher Jobs">Teacher Jobs</a>
+<a href="http://jobsearch.naukri.com/clinical-research-jobs?xz=3_0_78&qi[]=22" title="Clinical Research Jobs">Clinical Research Jobs</a>
+<a href="http://jobsearch.naukri.com/engineering-jobs?xz=3_0_78&qi[]=12" title="Engineering Jobs">Engineering Jobs</a>
+          </div>
+            <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/media-jobs?xz=3_0_78&qi[]=19" title="Media Jobs">Media Jobs</a>
+<a href="http://jobsearch.naukri.com/textiles-jobs?xz=3_0_78&qi[]=3" title="Textiles Jobs">Textiles Jobs</a>
+<a href="http://jobsearch.naukri.com/electrical-jobs?xz=3_0_78&qi[]=55" title="Electrical Jobs">Electrical Jobs</a>
+<a href="http://jobsearch.naukri.com/fmcg-jobs?xz=3_0_78&qi[]=9" title="FMCG Jobs<">FMCG Jobs</a>
+<a href="http://jobsearch.naukri.com/airline-jobs?xz=3_0_78&qi[]=2" title="Airlines Jobs">Airlines Jobs</a>
+<a href="http://jobsearch.naukri.com/information-technology-jobs?xz=3_0_78&qi[]=25" title="Software Jobs">Software Jobs</a>
+        </div>
+<p class="sp20"></p>
+        <h4 class="stateHd">Jobs by Companies<a href="http://jobsearch.naukri.com/top-company-jobs">View All</a></h4>
+        <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/tata-consultancy-services-jobs-careers-892542" title="TCS Careers">TCS Careers</a>   
+<a href="http://jobsearch.naukri.com/wipro-jobs-careers-1384" title="Wipro Careers">Wipro Careers</a>
+<a href="http://jobsearch.naukri.com/icici-bank-jobs-careers-10081" title="ICICI Bank Careers">ICICI Bank Careers</a>
+<a href="http://jobsearch.naukri.com/ibm-jobs-careers-16987" title="IBM Careers">IBM Careers</a>
+ <a href="http://jobsearch.naukri.com/accenture-jobs-careers-27117" title="Accenture Careers">Accenture Careers</a>
+<a href="http://jobsearch.naukri.com/cognizant-jobs-careers-2114" title="Cognizant Careers">Cognizant Careers</a>
+<a href="http://jobsearch.naukri.com/axis-bank-jobs-careers-16357" title="Axis Bank Careers">Axis Bank Careers</a>
+<a href="http://jobsearch.naukri.com/tata-steel-jobs-careers-28872" title="Tata Steel Careers">Tata Steel Careers</a>
+<a href="http://jobsearch.naukri.com/capgemini-jobs-careers-7053" title="Capgemini Careers">Capgemini Careers</a>
+  
+</div>
+        <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/hdfc-bank-jobs-careers-40927" title="HDFC Bank Careers">HDFC Bank Careers</a>
+<a href="http://jobsearch.naukri.com/tata-motors-jobs-careers-5247" title="Tata Motors Careers">Tata Motors Careers</a>
+<a href="http://jobsearch.naukri.com/yes-bank-jobs-careers-25670" title="Yes Bank Careers">Yes Bank Careers</a>
+<a href="http://jobsearch.naukri.com/siemens-jobs-careers-73816" title=">Siemens Careers">Siemens Careers</a>
+<a href="http://jobsearch.naukri.com/tech-mahindra-jobs-careers-100007" title="Tech Mahindra Careers">Tech Mahindra Careers</a>
+<a href="http://jobsearch.naukri.com/cisco-jobs-careers-59823" title="Cisco Careers">Cisco Careers</a>
+<a href="http://jobsearch.naukri.com/qatar-airways-jobs-careers-437087" title="Qatar Airways Careers">Qatar Airways Careers</a>
+<a href="http://jobsearch.naukri.com/honeywell-jobs-careers-8352" title="Honeywell Careers">Honeywell Careers</a> 
+<a href="http://jobsearch.naukri.com/syntel-jobs-careers-3577" title="Syntel Careers">Syntel Careers</a>
+     </div>
+        <div class="brwsComp w195 f1">
+<a href="http://jobsearch.naukri.com/samsung-jobs-careers-718151" title="Samsung Careers">Samsung Careers</a>
+<a href="http://jobsearch.naukri.com/vodafone-jobs-careers-647435" title="Vodafone Careers">Vodafone Careers</a>
+<a href="http://jobsearch.naukri.com/amazon-jobs-careers-194374" title="Amazon Careers">Amazon Careers</a>
+<a href="http://jobsearch.naukri.com/genpact-jobs-careers-30975" title="Genpact Careers">Genpact Careers</a>
+<a href="http://jobsearch.naukri.com/oracle-jobs-careers-16512" title="Oracle Careers">Oracle Careers</a>
+<a href="http://jobsearch.naukri.com/reliance-jobs-careers-30163" title="Reliance Careers">Reliance Careers</a>
+<a href="http://jobsearch.naukri.com/microsoft-jobs-careers-2265" title="Microsoft Careers">Microsoft Careers</a>
+     </div>
+<p class="sp20"></p>
+ <h5 class="stateHd">Jobs by Designations<a href="http://jobsearch.naukri.com/top-jobs-by-designations">View All</a></h5>
+        <div class="brwsComp w195 f1">
+   <a href="http://jobsearch.naukri.com/company-secretary-jobs" title="Company Secretary Jobs">Company Secretary Jobs</a>
+    <a href="http://jobsearch.naukri.com/business-analyst-jobs" title="Business Analyst Jobs">Business Analyst Jobs</a>
+ <a href="http://jobsearch.naukri.com/lecturer-jobs" title="Lecturer Jobs">Lecturer Jobs</a>
+ <a href="http://jobsearch.naukri.com/air-hostess-jobs" title="Air Hostess Jobs">Air Hostess Jobs</a>
+ <a href="http://jobsearch.naukri.com/clerk-jobs" title="Clerk Jobs">Clerk Jobs</a>
+ <a href="http://jobsearch.naukri.com/oracle-dba-jobs" title="Oracle DBA Jobs">Oracle DBA Jobs</a>
+ <a href="http://jobsearch.naukri.com/computer-operator-jobs" title="Computer Operator Jobs">Computer Operator Jobs</a>
+ <a href="http://jobsearch.naukri.com/librarian-jobs" title="Librarian Jobs">Librarian Jobs</a>
+</div>
+ <div class="brwsComp w195 f1">
+   <a href="http://jobsearch.naukri.com/management-trainee-jobs" title="Management Trainee Jobs">Management Trainee Jobs</a>
+    <a href="http://jobsearch.naukri.com/pharmacist-jobs" title="Pharmacist Jobs">Pharmacist Jobs</a>
+ <a href="http://jobsearch.naukri.com/accountant-jobs" title="Accountant Jobs">Accountant Jobs</a>
+ <a href="http://jobsearch.naukri.com/assistant-professor-jobs" title="Assistant Professor Jobs">Assistant Professor Jobs</a>
+ <a href="http://jobsearch.naukri.com/chartered-accountant-jobs" title="Chartered Accountant Jobs">Chartered Accountant Jobs</a>
+ <a href="http://jobsearch.naukri.com/graphic-designer-jobs" title="Graphic Designer Jobs">Graphic Designer Jobs</a>
+ <a href="http://jobsearch.naukri.com/lab-technician-jobs" title="Lab Technician Jobs">Lab Technician Jobs</a>
+ <a href="http://jobsearch.naukri.com/medical-representative-jobs" title="Medical Representative Jobs">Medical Representative Jobs</a>
+</div>
+ <div class="brwsComp w195 f1">
+   <a href="http://jobsearch.naukri.com/safety-officer-jobs" title="Safety Officer Jobs">Safety Officer Jobs</a>
+    <a href="http://jobsearch.naukri.com/pilot-jobs" title="Pilot Jobs">Pilot Jobs</a>
+ <a href="http://jobsearch.naukri.com/system-administrator-jobs" title="System Administrator Jobs">System Administrator Jobs</a>
+<a href="http://jobsearch.naukri.com/consultant-jobs" title="Consultant Jobs">Consultant Jobs</a>
+ <a href="http://jobsearch.naukri.com/security-officer-jobs" title="Security Officer Jobs">Security Officer Jobs</a>
+ <a href="http://jobsearch.naukri.com/cabin-crew-jobs" title="Cabin Crew Jobs">Cabin Crew Jobs</a>
+ <a href="http://jobsearch.naukri.com/surveyor-jobs" title="Surveyor Jobs">Surveyor Jobs</a>
+ <a href="http://jobsearch.naukri.com/web-designer-jobs" title="Web Designer Jobs">Web Designer Jobs</a>
+</div>
+<p class="sp20"></p>
+<h6 class="stateHd">Jobs by Skills<a href="http://jobsearch.naukri.com/top-skill-jobs">View All</a></h6>
+ <div class="brwsComp w195 f1">
+   <a href="http://jobsearch.naukri.com/biotechnology-jobs" title="Biotechnology Jobs">Biotechnology Jobs</a>
+    <a href="http://jobsearch.naukri.com/software-testing-jobs" title="Software Testing Jobs">Software Testing Jobs</a>
+ <a href="http://jobsearch.naukri.com/nursing-jobs" title="Nursing Jobs">Nursing Jobs</a>
+ <a href="http://jobsearch.naukri.com/networking-jobs" title="Networking Jobs">Networking Jobs</a>
+ <a href="http://jobsearch.naukri.com/mainframe-jobs" title="Mainframe Jobs">Mainframe Jobs</a>
+ <a href="http://jobsearch.naukri.com/sap-jobs" title="SAP Jobs">SAP Jobs</a>
+<a href="http://jobsearch.naukri.com/animation-jobs" title="Animation Jobs">Animation Jobs</a>
+</div>
+ <div class="brwsComp w195 f1">
+   <a href="http://jobsearch.naukri.com/dot-net-jobs" title=".Net Jobs">.Net Jobs</a>
+ <a href="http://jobsearch.naukri.com/accounting-jobs" title="Accounting Jobs">Accounting Jobs</a>
+ <a href="http://jobsearch.naukri.com/oracle-jobs" title="Oracle Jobs">Oracle Jobs</a>
+ <a href="http://jobsearch.naukri.com/php-jobs" title="PHP Jobs">PHP Jobs</a>
+ <a href="http://jobsearch.naukri.com/sap-basis-jobs" title="SAP Basis Jobs">SAP Basis Jobs</a>
+ <a href="http://jobsearch.naukri.com/back-office-operations-jobs" title="Back Office Jobs">Back Office Jobs</a>
+ <a href="http://jobsearch.naukri.com/java-jobs" title="Java Jobs">Java Jobs</a>
+</div>
+ <div class="brwsComp w195 f1">
+ <a href="http://jobsearch.naukri.com/marketing-jobs" title="Online Marketing Jobs">Online Marketing Jobs</a>
+ <a href="http://jobsearch.naukri.com/sap-sd-jobs" title="SAP SD Jobs">SAP SD Jobs</a>
+ <a href="http://jobsearch.naukri.com/sas-jobs" title="SAS Jobs">SAS Jobs</a>
+ <a href="http://jobsearch.naukri.com/graphic-design-jobs" title="Graphic Design Jobs">Graphic Design Jobs</a>
+ <a href="http://jobsearch.naukri.com/journalism-jobs" title="Journalism Jobs">Journalism Jobs</a>
+ <a href="http://jobsearch.naukri.com/writing-jobs" title="Writing Jobs">Writing Jobs</a>
+</div>
+<p class="sp30 pipeL"><a href="http://jobsearch.naukri.com/jobs-in-overseas-international?xz=31_0_62" title="Browse Jobs in International Locations">Browse Jobs in International Locations</a> | <a href="http://jobsearch.naukri.com/walkin-jobs" title="Browse Walk-in Jobs">Browse Walk-in Jobs</a></p>
+
+    </div>
+    <!-- Left Section ends -->
+    
+    <!-- Right Section starts -->
+
+    <div id="colR_brw">
+ 
+    	<!-- New to Naukri Starts -->
+        <div class="informTP"></div>
+        <form action="http://www.naukri.com/tieups/tieups.php?othersrcp=5423&id=" class="m0p0" method="get" target="_self">
+        <div class="informM">
+        	<h4 class="new_naukHd">New to Naukri?</h4>
+            <ul>
+                <li><em></em>Reach out to more than 35000 recruiters</li>
+                <li><em></em>Get relevant jobs in your inbox</li>
+                <li><em></em>Privacy features ensure confidential job search</li>
+            </ul>
+            <div class="blueBut">
+            	<input type="hidden" value="5423" name="othersrcp" />
+                <button type="submit">
+                	<div>
+                    	<p></p>
+                        <b>Post Your Resume</b>
+                        <em></em>
+                    </div>
+                </button>
+            </div>
+        </div>
+</form>
+        <div class="informBT"></div>
+        <!-- New to Naukri Ends -->
+        
+        <!-- Login Panel Starts -->
+        <script type="text/javascript">
+			function toggleRadio(){
+				var matchEmail=document.getElementById('matchEmail')
+			  var matchUsername=document.getElementById('matchUsername')
+			  if(matchEmail.checked){
+				matchEmail.parentNode.className = 'bold' ;
+				matchUsername.parentNode.className = '' ;
+			  }
+			  else{
+				matchEmail.parentNode.className = '' ;
+				matchUsername.parentNode.className = 'bold' ;
+			  }
+			}
+		</script>
+<form method="post" action="https://login.naukri.com/nLogin/Login.php" target="_self" class="m0p0">
+        <div class="informTP"></div>
+        <div class="informM">
+        	<p>
+            	<strong>Login with</strong>
+  				<label class="bold" for="matchEmail"><input type="radio" onclick="toggleRadio()" checked="checked" value="1" name="matchEmail" id="matchEmail" class="ml8"> Email ID</label>
+  				<label for="matchUsername"><input type="radio" onclick="toggleRadio()" value="2" name="matchEmail" id="matchUsername" class="ml8"> Username</label>
+            </p>
+           <table cellspacing="5" cellpadding="2" border="0" width="100%" class="loginSection">
+                <tbody>
+                 <tr>
+                   <td width="20%" align="right"><span id="uname">Email Id: </span></td>
+                        <td width="50%">                          
+                            <input type="text" id="username" maxlength="90" size="16" name="USERNAME" value="">
+                        </td>
+                        <td width="30%">&nbsp;</td>
+                 </tr>
+                 <tr>
+                        <td align="right"><span>Password: </span></td>
+                        <td><input type="password" id="password" name="PASSWORD" value=""></td>
+                        <td>&nbsp;</td>
+                 </tr>
+                    <tr>
+                       <td>&nbsp;</td>
+                        <td colspan="2">
+                          <div class="loginBut fl ml-1">
+                                <button name="Login" type="submit" value="Login" onclick="validateLogin();">
+                          <div>
+                     <p></p>
+                     <b>Login</b>
+                     <em></em>
+                           </div>
+                          </button>
+                           </div>
+                  <a href="https://login.naukri.com/nLogin/forgotpass.php" class="ft11 fl pt4">Forgot Login Details?</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="informBT"></div>
+</form>
+<script type="text/javascript">document.getElementById('matchEmail').checked=true;document.getElementById('matchEmail').parentNode.className = 'bold';</script>
+        <!-- Login panel Ends -->  
+         
+        <div class="sp20"></div>
+        <!-- FB Like Button-->
+        <p>
+        <iframe scrolling="no" frameborder="0" allowtransparency="true"
+        style="border: medium none; overflow: hidden;height:
+        43px;" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FNaukricom%
+2F143609916516&amp;layout=standard&amp;show_faces=false&amp;width=240&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=35"></iframe>
+        </p>
+        <!-- FB Like Button-->
+
+<!-- Google plus Button-->
+<div style="margin-bottom:10px;">
+<g:plusone annotation="inline" width="200"></g:plusone>
+<script type="text/javascript">gapi.plusone.go();</script>
+</div>
+<!-- Google plus Button-->
+ 
+        <div class="sp10"></div>
+        
+        <!-- RS-CV tabs starts -->
+        <script type="text/javascript">
+		function toggle(hide,unhide,sel,unsel)
+		{
+		  document.getElementById(hide).style.display='none';
+		  document.getElementById(unsel).className='';
+		  document.getElementById(sel).className='sel';
+		  document.getElementById(unhide).style.display='block';
+		}
+		</script>
+        <div class="dvTop"></div>
+        <div class="widgetRM">
+        	<h5 class="zoom"><span class="sel" id="rs"><a href="http://resume.naukri.com/resume-services?fftid=210009" target="_self">Naukri FastForward</a></span><span class="cl dispBlk floatNo"></span></h5>
+            <p id="resume" class="rs_res zoom">
+<em class="rDis"></em><strong class="ffOrder"><a href="http://resume.naukri.com/resume-writing-services?fftid=jobsearch_reswriting_120001&id=">Resume Writing</a><br />
+                Get a professional resume written by experts in text or visual format</strong>
+              <span><em class="rAssess"></em><strong class="ffOrder"><a href="http://resume.naukri.com/online-courses?fftid=jobsearch_profileenhancement_120002&id=">Profile Enhancement</a><br />
+                 Upgrade your skills using e-Courses. Add credibility to your profile using Background Check</strong></span>
+              <span><em class="rDev"></em><strong class="ffOrder"><a href="http://resume.naukri.com/contact-recruiters-hr?fftid=jobsearch_recruiterreach_120003&id=">Recuiter Reach</a><br />
+                Directly get in touch with recruiters of your choice. Increase your profile views by 2-3 times</strong></span>
+                <span><em class="rFlash"></em><strong class="ffOrder"><a href="http://resume.naukri.com/job-alerts-on-mobile-mail?fftid=jobsearch_jobs4u_120004&id=">Jobs4U</a><br />
+                Get jobs handpicked by experts and be an early applicant</strong></span>
+                <div class="p20lr"><a href="&id="><img src="http://static.naukimg.com/jobsrch/images/logo-fastforward.png" class="pt4" ></a></div>
+    <strong class="f13 dispBlk pt4">Call 1800-102-5557 now! (Toll-Free)</strong>
+            </p>
+        </div>
+        <div class="dvBtm"></div>
+        <!-- RS-CV tabs ends -->
+        
+        <div class="sp20"></div>
+
+        <!-- Paycheck starts -->
+        <div class="dvTop"></div>
+        <div class="widgetRM">
+          <div class="sectionHead">Naukri CareerNavigator</div>
+            <p>
+                <ul class="payCheck">
+                    <li><em></em>Find out what your peers are earning<b class="cl dispBlk"></b></li>
+                    <li><em></em>See salary trends for popular roles in top industries and companies.<b class="cl dispBlk"></b></li>
+                </ul>
+            </p>
+            <p><a href="http://careernavigator.naukri.com">Explore Now</a></p>
+        </div>
+        <div class="dvBtm"></div>
+        <!-- Paycheck ends -->
+
+        <div class="sp20"></div>
+
+        
+        <!-- Jobs Inbox starts -->
+ <div class="dvTop"></div>
+        <div class="widgetRM">
+        	<h6 class="sectionHead">Get jobs in your inbox</h6>
+            <p>
+            	Get the best Jobs matching your criteria in your Inbox.
+          		<span><a href="http://jobsearch.naukri.com/mynaukri/js_msngr.php?xz=0_0_5&ma=C&id=">Create New Job Alert</a></span>
+            </p>
+        </div>
+<div class="dvBtm"></div>
+
+        <!-- Jobs Inbox ends -->
+        
+        <div class="sp20"></div>
+        
+        <!-- Naukri Mobile starts -->
+        <div class="dvTop"></div>
+        <div class="widgetRM">
+        	<div class="sectionHead">Naukri on Mobile</div>
+            <p>
+            	<a class="naukMob" href="http://www.naukri.com/mobile"><em class="naukM"></em>Download Application<b class="cl dispBlk"></b></a>
+                <a href="http://dev2.infoedge.com:9000/fastforward/web/frontend.php/job-alerts-on-mobile-mail?" class="naukMob"><em class="jobM"></em>Jobs on Mobile</a>
+                </p>
+        </div>
+       <div class="dvBtm"></div> 
+        <!-- Naukri Mobile ends -->
+        
+
+        <div class="sp20"></div>
+        
+        <!-- Jobspeak starts -->
+        <div class="dvTop"></div>
+        <div class="widgetRM">
+        	<div class="sectionHead">Naukri Jobspeak</div>
+            <p>A monthly Job Index that provides insight into hiring trends in your city, job function and industry.</p>
+            <p class="pt10"><a href="http://w10.naukri.com/mailers/recruiter/JobSpeak_25nov09/">View the latest edition</a></p>
+             <form action="http://www.naukri.com/jobspeak/jobSpeak.php" class="pt9" method="get" target="_self">
+            <div class="loginBut subnow">
+            	<button type="submit" class="w110">
+                	<div>
+                    	<p></p>
+                        <b>Subscribe Now</b>
+                        <em></em>
+                    </div>
+                </button>
+            </div>
+        </form>
+        </div>
+        <div class="dvBtm"></div>
+        <!-- Jobspeak ends -->
+        
+        <div class="sp20"></div>
+        
+        <!-- More Resources starts -->
+        <div class="dvTop"></div>
+        <div class="widgetRM">
+        	<div class="sectionHead">More Resources</div>
+            <p>
+            	<a href="http://jobsearch.naukri.com/mynaukri/mn_newsmartsearch.php?rss=1" class="moreRes"><em class="jf"></em>RSS Job feeds<b class="cl dispBlk"></b></a>
+                <a href="http://my.naukri.com/faq/faq.php?pgid=17&" class="moreRes lh30"><em class="noc"></em>Naukri on Chat<b class="cl dispBlk"></b></a>
+                <a href="http://www.naukri.com/tieups/tieups.php?othersrcp=7" class="noBDR moreRes"><em></em> E-Campus</a>
+            </p>
+        </div>
+        <div class="dvBtm"></div>
+        <!-- More Resources ends -->
+        
+    </div>
+    <!-- Right Section ends -->
+</div>
+
+<style type="text/css">
+.lwft, .lwft1{width:152px;}
+.lwft a, .lwft1 a{width:137px;}
+</style>
+<script language="javascript"></script>
+<SCRIPT language=JavaScript src="http://static.naukimg.com/jobsrch/js/crou.js?ver=1"></SCRIPT>
+<div id="footN">
+	<div class="footNTp"> </div>
+    <div class="w765N">
+    	<div class="lwft1"><div class="mnjt11"><strong>Jobseekers</strong>
+        <a  href="http://www.naukri.com/tieups/tieups.php?othersrcp=9280" target="_self">Register Now</a>        <a target="_blank" href="http://jobsearch.naukri.com/mynaukri/mn_newsmartsearch.php">Search Jobs</a>
+        <a  href="http://my.naukri.com/" target="_self">Login</a>                <a target="_blank" href="http://w5.naukri.com/fdbck/main/feedback.php?app_id=15">Report A Problem</a>
+	<a target="_blank" href="http://blogs.naukri.com">Blogs</a>
+	<a target="_blank" href="http://my.naukri.com/faq/faq.php?pgid=9">Security Advice</a>
+<div class="cl ht6"></div>
+<strong>FastForward</strong>
+    <a href="http://resume.naukri.com/resume-writing-services?&id=&fftid=reswriting_220001&id=" >Resume Writing</a>
+    <a href="http://resume.naukri.com/online-courses?&id=&fftid=profileenhancement_220002&id=" >Profile Enhancement</a>
+    <a href="http://resume.naukri.com/contact-recruiters-hr?&id=&fftid=recruiter_reach_220003&id=" >Recruiter Reach</a>
+    <a href="http://resume.naukri.com/job-alerts-on-mobile-mail?&id=&fftid=jobs4u_220004&id=" >Jobs4U</a>
+        </div>
+        </div>
+        <div class="lwft"><div class="mnjt11">
+		<strong>Top Cities</strong>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-delhi">Jobs in Delhi</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-mumbai">Jobs in Mumbai</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-bangalore">Jobs in Bangalore</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-chennai">Jobs in Chennai</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-kolkata">Jobs in Kolkata</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-hyderabad">Jobs in Hyderabad</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-pune">Jobs in Pune</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-noida">Jobs in Noida</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-gurgaon">Jobs in Gurgaon</a>
+                <a target="_blank" href="http://jobsearch.naukri.com/jobs-in-chandigarh">Jobs in Chandigarh</a>
+        </div></div>
+
+        <div class="lwft"><div class="mnjt11"><strong>Top Categories</strong>
+        <a target="_blank" href="http://jobsearch.naukri.com/information-technology-jobs">IT Software jobs</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/bpo-jobs">BPO jobs</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/sales-jobs">Sales jobs</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/bank-jobs"</a>Finance jobs
+        <a target="_blank" href="http://jobsearch.naukri.com/marketing-jobs">Marketing jobs</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/fresher-jobs">Fresher jobs</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/design-engineer-jobs">Engineering jobs</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/hr-jobs">HR Administration jobs</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/govt-jobs">Govt jobs</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/telecom-jobs">Telecom jobs</a>
+        </div></div>
+
+        <div class="lwft"><div class="mnjt11">
+		<strong>Employers</strong>
+		<a target="_blank" href="http://recruit.naukri.com/mnrpg/client/pfTemplates.php?cid=&demo_val=job-posting-learnmore.htm">Post Jobs</a>
+		<a target="_blank" href="http://recruit.naukri.com/mnrpg/client/pfTemplates.php?cid=&demo_val=resdex-learnmore.htm">Access Database</a>
+		<a target="_blank" href="http://my.naukri.com/faq/faq.php?pgid=13">Manage Responses</a>
+		<a target="_blank" href="http://recruit.naukri.com/mnrpg/client/demo.php">Buy Online</a>
+		<a target="_blank" href="http://w5.naukri.com/fdbck/main/feedback.php?app_id=18">Report A Problem</a>
+        </div>
+<div class="mnjt11"> <strong>Browse Jobs</strong>
+     <a target="_blank" href="http://jobsearch.naukri.com/">Browse All Jobs</a>
+     <a target="_blank" href="http://www.naukri.com/premium.php">Naukri Premium Jobs</a>
+     <a target="_blank" href="http://jobsearch.naukri.com/international-jobs">International Jobs</a>
+     <a target="_blank" href="http://jobsearch.naukri.com/top-company-jobs">Jobs by Company</a>
+     <a target="_blank" href="http://jobsearch.naukri.com/jobs-by-category ">Jobs by Category</a>
+     <a target="_blank" href="http://jobsearch.naukri.com/top-jobs-by-designations">Jobs by Designation</a>
+     <a target="_blank" href="http://jobsearch.naukri.com/jobs-by-location.php">Jobs by Location</a>
+     <a target="_blank" href="http://jobsearch.naukri.com/top-skill-jobs ">Jobs by Skill</a>
+     </div>
+
+</div>
+        <div class="lwft"><div class="mnjt11"><strong>Information</strong>
+        <a target="_blank" href="http://www.infoedge.in/">About Us</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/mynaukri/mn_termsconditions.php">Terms & Conditions</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/mynaukri/mn_privacypolicy.php">Privacy Policy</a>
+        <a target="_blank" href="http://jobsearch.naukri.com/mynaukri/mn_resources.php">Resources</a>
+        <a target="_blank" href="http://www.naukri.com/careerinfoedge/">Careers With Us</a>
+        <a target="_blank" href="http://www.naukri.com/sitemap/sitemap.php">Site Map</a>
+        <a target="_blank" href="http://www.naukri.com/mynaukri/mn_contactus.php">Contact Us</a>
+        <a target="_blank" href="http://my.naukri.com/faq/faq.php">FAQs</a>
+        </div></div> 
+      <div align="center" class="cls p105">Follow us: <a href="http://www.facebook.com/pages/Naukricom/143609916516">Facebook</a> | <a href="http://twitter.com/naukri"> Twitter</a></div>
+ 
+    </div>
+    <div class="crNbg">
+    	<div class="w765N"><div class="p20lr">
+        	<div class="mnjt11"><strong>Partner Sites</strong></div>
+            <a target="_self" onmouseover="move2ftM();" class="lfic" href="javascript:void(0);"> </a>
+            	<div class="pcic">
+                	<div id="crouDiv" class="divCF">
+                    <div style="float: left;" id="crouDivin" style="left: -680px;">
+                	<div class="c1F">
+                    	<div class="padL20F">
+                        	<a target="_blank" class="acrF" href="http://www.99acres.com/">99 Acres</a> 
+                            Real Estate in India
+                        </div>
+                    </div>
+                
+                	<div class="c1F">
+                    	<div class="padL20F">
+                        	<a target="_blank" class="jsF" href="http://www.jeevansathi.com/">Jeevansathi</a> 
+                            Indian Matrimony Site
+                        </div>
+                    </div>
+                    
+                    <div class="c1F">
+                    	<div class="padL20F">
+                        	<a target="_blank" class="ngF" href="http://www.naukrigulf.com/">Naukri Gulf</a> 
+                            Jobs in Middle East
+                        </div>
+                    </div>
+                    
+                    <div class="c1F">
+                    	<div class="padL20F">
+                        	<a target="_blank" class="fnF" href="http://www.firstnaukri.com/">Firstnaukri</a> 
+                            Jobs for Freshers
+                        </div>
+                    </div>
+                    
+                    <div class="c1F">
+                    	<div class="padL20F">
+                        	<a target="_blank" class="bjF" href="http://www.brijj.com/">Brijj</a> 
+                            Professional Networking
+                        </div>
+                    </div>
+                    
+                    <div class="c1F">
+                    	<div class="padL20F">
+                        	<a target="_blank" class="acdF" href="http://www.allcheckdeals.com/">AllCheckDeals</a> 
+                            Real Estate in India
+                        </div>
+                    </div>
+                    
+                    <div class="c1F">
+                    	<div class="padL20F">
+                        	<a target="_blank" class="shkF" href="http://www.shiksha.com/">Shiksha</a> 
+                            Education &amp; Career
+                        </div>
+                    </div>
+                    
+                    <div class="c1F">
+                    	<div class="padL20F">
+                        	<a target="_blank" class="pbzF" href="http://www.policybazaar.com/">Policybazaar</a> 
+                            Compare Insurance
+                        </div>
+                    </div>
+                  <div class="c1F">
+                      <div class="padL20F">
+                          <a target="_blank" class="mrtF" href="http://www.meritnation.com/">Meritnation</a>
+                            Study Material
+                        </div>
+                    </div>
+                  <div class="c1F">
+                      <div class="padL20F">
+                          <a target="_blank" class="zmtF" href="http://www.zomato.com/">Zomato</a>
+                            Food Guide
+                        </div>
+                    </div>
+                      <div class="c1F">
+                        <div class="padL20F">
+                                <a href="http://www.mydala.com/" class="mdF" target="_blank">mydala.com</a>
+                       We Bargain You Gain.
+                         </div>
+                       </div>
+
+                   </div>
+                </div></div>
+            <a target="_self" onmouseover="move1ftM();" href="javascript:void(0);" class="rfic"> </a>
+            <div class="cls ht6"> </div>
+            	</div>
+        </div>
+    </div>
+    <div class="copy t10">All rights reserved &copy; 2013 Info Edge India Ltd. </div>
+</div>
+
+<script>setTimeout('autoMvFt()', 10000);</script>
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6035313" });
+  (function() {
+    var s = document.createElement("script"), el =
+document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" :
+"http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035313&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script type="text/javascript" src="http://static.naukimg.com/jobsrch/js/newHeader.js?ver=1"></script>
+
+ 
+</body>
+</html>

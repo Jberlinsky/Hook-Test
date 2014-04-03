@@ -1,0 +1,345 @@
+<!doctype html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta property="fb:page_id" content="8824080753"/><title>Money Glitch on HubPages</title><link rel="canonical"  href="http://moneyglitch.hubpages.com/"/><link rel="stylesheet" type="text/css" href="http://z.hubimg.com/s/hp-hub67652908.css"/><link rel="stylesheet" type="text/css" href="http://z.hubimg.com/s/hp-base206480414.css"/><link rel="stylesheet" type="text/css" href="http://z.hubimg.com/s/profile193351719.css"/><link rel="alternate" type="application/rss+xml" title="Money Glitch on HubPages" href="http://moneyglitch.hubpages.com/hubs/latest?rss"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript" >jq = $.noConflict();</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
+
+<script type="text/javascript">
+	var hpstdata = {
+hp_tracking_type: 'p',
+hp_tracking_id: 709861,
+tracking: '',
+extradata: '',
+tratio: 1.0,
+aid: 0,
+mviews: 0
+};
+
+	window.google_analytics_uacct = "UA-9902721-6";
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(
+['t2._setAccount', 'UA-286186-1'],
+['t2._setDomainName', '.hubpages.com'],
+['t2._setCustomVar', 5, 'Auth', 'not loggedin', 2],
+['t2._trackPageview'],
+['t1._setAccount', 'UA-9902721-6'],
+['t1._trackPageview']
+);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script><script type="text/javascript" async src="http://z.hubimg.com/s/tt186063629.js"></script>
+<script type="text/javascript" src="http://z.hubimg.com/s/js114145706.js"></script>
+<!--[if lt IE 9]><script src="http://z.hubimg.com/s/ht56118478.js"></script><![endif]-->		<noscript></noscript>
+		<script type="text/javascript">
+			var pm;
+			jq(document).ready(function(){
+				var profileContainer = jq('#container');
+
+				profileContainer.data('moreRequest', '0');
+				profileContainer.data('moreArticle', '0');
+				profileContainer.data('moreTopic', '1');
+				profileContainer.data('bio', '<p>Hello and welcome to HubPages!</p>\n<p>Money glitch to game players is a flaw in computer games that renders millions of dollars when you follow “the rules” and complete certain feats. In accounting a glitch would occur if money just suddenly disappeared the way it did in ’07 during the near financial market crash.</p>\n<p>After becoming <strong>“A Phoenix”</strong> in July’09 and finding myself with only non-existent job opportunities due to the recession; I decided to ris... <a href=\"#\" id=\"read_bio\">Read More</a></p>');
+				profileContainer.data('send_email', '1');
+
+				pm = new ProfileManager(709861, 'Money Glitch', 0, profileContainer, '<img src="http://z.hubimg.com/x/spinner.gif" alt="Please wait" class="spinner"/>');
+			});
+		</script>		<style type="text/css">
+			.newprofile a.edit_button { color:#555555; background: -webkit-linear-gradient(top, #ffffff 0%,#d9d9d9 100%); background: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 100%); background: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 100%); background: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 100%); background: linear-gradient(top, #ffffff 0%,#d9d9d9 100%); }
+
+			#header, #browse, #browse ul, #masthead, #container, #aboutmenu, #menu, .entry, #forum_list, #forum_topics, #forum_topics table, #promo, #right_column, #todolist, #todolist ol { width: 972px !important; }
+			#content { width: 610px !important; font-size: 1em !important; padding: 20px !important; }
+			ul.simpleHubList li img { width: 50px !important; height: 50px !important; }
+		</style><meta name="format-detection" content="telephone=no" /><meta name="description" content="  Hello and welcome to HubPages!
+Money glitch to game players is a flaw in computer games that renders millions of dollars when you follow &ldquo;the..."/>
+<script type="text/javascript">
+var _qevents = _qevents || [];
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+</script></head><body itemscope itemtype="http://schema.org/WebPage" class="newprofile"><!--[if lt IE 8]><script type="text/javascript">
+			jQuery("body").addClass("browser_ie7");
+		</script><![endif]--><noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035233&amp;cv=2.0&amp;cj=1" alt="comscore"/>
+</noscript>
+<script type="text/javascript">
+	initializeFollowButtons();
+	setupNavMenu();
+</script>
+<div id="header_wrap"><div id="header"><div id="site_title"><a tabindex="20" href="http://hubpages.com/" title="HubPages">HubPages</a></div><div id="header_search"><form action="/search/" name="search_form" id="search_form"><input tabindex="21" id="search_input" name="s" accesskey="s" type="text" size="24" value="Search" onfocus="if(this.value=='Search'){jq(this).attr('value',''); jq(this).css('color','#333');}"/><input tabindex="22" id="search_button" type="submit" value="search"/></form><script type="text/javascript">
+jq('#search_form').bind('submit',function(event) {
+	if (jq.trim(jq('#search_input').val())=='') {
+		event.stopPropagation(); return false;
+	}}
+);
+initAutoComplete(10);
+</script></div><ul id="nav" class="hoverok"><li id="header_explore" class="singleton"><a tabindex="24" href="http://hubpages.com/topics/all/1">explore</a></li><li id="header_signin" class="singleton"><a tabindex="46" id="signin_span" href="https://hubpages.com/signin/">sign in</a></li><li id="header_join" class="singleton"><a tabindex="47" id="join_span" href="https://hubpages.com/user/new/">join now</a></li><li id="header_help" class="singleton rightmost"><a tabindex="46" id="help_span" href="http://hubpages.com/help-wizard/">help</a></li></ul></div></div><div id="container_wrap"><style type="text/css" media="screen">html, body {background-image:url() !important; background-attachment:fixed !important; background-color: #E4E7E0 !important; background-repeat: no-repeat} !important</style><div id="container" class="newprofile"><div id="profile_header"><div class="big_bio"><div class="bio_hub_score"><span title="HubScore">90</span></div><img src="http://s1.hubimg.com/u/2841260_177.jpg"   alt="Money Glitch profile image" title="Money Glitch profile image"/></div><div class="bio_stats"><h1 class='username'>Money Glitch</h1><em></em><p class="meta">Joined 4 years ago from Texas</p></div><div id="profile_buttons">		<div id="edit_btn">
+			<a class="button small green_bg f_button follow_709861" style="float: right" id="follow_709861" href="http://hubpages.com/signin?explain=follow+Hubbers&url=http%3A%2F%2Fmoneyglitch.hubpages.com%2F" title="Follow this Hubber"><span class="follow_hack">&nbsp;</span><span class="icon arrow_right"></span>Follow (1.2k)</a>
+		</div>
+		<div id="user_stats">
+			<p>
+				<label>Hubs:</label>
+				<strong>79</strong>
+			</p>
+			<p> 
+				<label>Followers:</label>
+				<strong>1,228</strong>
+			</p>
+			<p> 
+				<label>Following:</label>
+				<strong>276</strong> 
+			</p>
+		</div>
+		<div id="social_buttons">
+			
+		</div></div><div id="flag_profile"><div class="flag_button_box" id="flag_box_709861"><a class="flag_button" href="#" onclick="showFlagProfile(709861); return false;"><span class="icon flag"></span><span class="line-correction"></span>report</a></div></div><div class='bio_container'><p>Hello and welcome to HubPages!</p>
+<p>Money glitch to game players is a flaw in computer games that renders millions of dollars when you follow “the rules” and complete certain feats. In accounting a glitch would occur if money just suddenly disappeared the way it did in ’07 during the near financial market crash.</p>
+<p>After becoming <strong>“A Phoenix”</strong> in July’09 and finding myself with only non-existent job opportunities due to the recession; I decided to rise up out of the ashes assuming the persona of <strong>Money Glitch</strong> and voice my opinions concerning various subjects in an avant-garde manor.</p>
+<p>Aka Money Glitch started to utilize her writing skills in grad school, through <strong>blogging</strong>, writing for EzinesArticles, and creating HubPages; in which, she has been selected as one of the <strong>"Top 200 New Hubbers in 2009" </strong>and voted by peers as one of the <strong>Top 10 Honorable Mentions! </strong> </p>
+<p>MG joined a community of writers called the HubMob on HubPages where she is improving her freelance writing skills; learning to produce hubs on different subject matters. Since the subjects are diverse and all cannot be viewed at one time here are the <strong>topics grouped via</strong> <strong>categories</strong>:</p>
+<p> </p>
+<p><strong>Health</strong> <strong>| </strong><strong>Vitamin Supplements</strong><strong> | </strong><strong>Herbal Remedies</strong><strong>  | </strong><strong>Fitness</strong><strong> | </strong><strong>Breast Cancer</strong><strong> |</strong></p>
+<p><strong>Poetry</strong><strong> | </strong><strong>Children</strong><strong> | </strong><strong>Domestic Violence</strong><strong> | </strong><strong>Charity</strong><strong> | </strong><strong>Toys</strong><strong> | </strong><strong>Holidays</strong><strong> | </strong><strong>Misc Hubs</strong>  <strong></strong></p>
+<p>Some of her highly favored and featured hubs are:</p>
+<p><strong>Virtual You: Protection Steps for 2010</strong></p>
+<p><strong>Tattoos for Breast Cancer Survivors</strong></p>
+<p><strong>Deadly Secrets - Will Kill Your Man</strong></p>
+<p> </p>
+<p>If you think you would like to join the HubMob then read Princessa’s Hub to learn, <strong>“What is a HubMob and how to join one.”</strong>  Once you have the 411 then you can just <strong>open up your own HubPages </strong>account and start writing!  It is just that simple; come join us.<strong></strong></p>
+<p> </p>
+<p>If you’re not a writer but love to read then please join MG’s fan  club below or and let's interact within different social media groups.</p>
+<p><strong>Follow me on  Twitter</strong></p>
+<p><strong>Join  me on LInkedIn</strong></p>
+<p><strong>I recently joined Shetoldme a site</strong> which you can earn money while sharing your link and joining the community  <strong>== &gt;&gt;  </strong><strong>here!</strong></p>
+<p>This content platform/social networking site to earn income as well--be sure to find me at <strong> ==&gt;&gt;</strong>  <strong>Redgage</strong></p>
+<p>Ping list for Shark Feed<br /></p>
+<p>Note: You will not be spammed and will only receive notifications of when MG’s next hubs are published.  Thank you being a reader and a follower.  </p>
+<p><strong>Namaste!</strong></p>
+<p> </p>
+<p><strong>~~~ OMG, what have I done?  Can I do it? What will be given up? Follow my passage through the 60 Day Challenge – The Return!  </strong><strong>&lt;&lt;Here&gt;&gt;</strong></p>
+<p> </p></div><div class="clear"></div></div><div class="profile_body"><div id="content"><div id="profile_content_container"><div id="section_mycontent"><h2>My Content: Hubs, Answers, and Forums</h2><div id="teaser"><div id="teaser_2214369" class="categoryTeaser" style="width: 100%;">
+<div class="featured_hub_img">
+<a href="http://moneyglitch.hubpages.com/hub/Ganoderma-or-Reishi-Mushroom-Hype-or-a-Healing-Miracle" style="background-color: #e5e5e5"><img src="http://s1.hubimg.com/u/4723708_f496.jpg" width="496" height="372" class="categoryTeaserImg" alt="" title="Ganoderma or Reishi  Mushroom – Hype or a Healing Miracle?"/></a>
+</div>
+<div class="featured_hub_desc">
+<span class="featuredhub">In the Spotlight</span>
+<h3><a href="http://moneyglitch.hubpages.com/hub/Ganoderma-or-Reishi-Mushroom-Hype-or-a-Healing-Miracle">Ganoderma or Reishi  Mushroom &ndash; Hype or a Healing Miracle?</a></h3>
+<p>For over a year now I&rsquo;ve seen the words
+ganoderma or reishi and decided to perform my own research to see if the Ganoderma or Reishi
+Mushroom was Hype or a Healing Miracle like it is being advertised.   If you
+are like me, MLMs come by your way...
+</p>
+</div>
+</div></div><div class="separator"></div><div class="content_nav"><ul id="tabs"><li class="active" id="hubs_items_item"><a href="#" onclick="content_items.activate('hubs_items'); return false;">Hubs</a></li><li id="forums_items_item"><a href="http://moneyglitch.hubpages.com/?filter=forums" onclick="content_items.activate('forums_items'); return false;">Forums</a></li></ul><div id="show_only"><span></span><strong>Show:</strong> All</div><ul class="filter_by_topic" id="forums_topic_menu">
+<li class="category_all" data-id="all" data-hash="all">All</li><li data-id="item_2848" data-hash="hubpages_tutorials_and_community">HubPages Tutorials and Community (12)</li><li data-id="item_5338" data-hash="technology">Technology (2)</li></ul><ul class="filter_by_topic" id="hubs_topic_menu">
+<li class="category_all" data-id="all" data-hash="all">All</li><li data-id="item_522" data-hash="books_literature_and_writing">Books, Literature, and Writing (1)</li><li data-id="item_809" data-hash="business_and_employment">Business and Employment (1)</li><li data-id="item_3398" data-hash="education_and_science">Education and Science (2)</li><li data-id="item_637" data-hash="entertainment_and_media">Entertainment and Media (1)</li><li data-id="item_1117" data-hash="fashion_and_beauty">Fashion and Beauty (1)</li><li data-id="item_1491" data-hash="food_and_cooking">Food and Cooking (12)</li><li data-id="item_1761" data-hash="games_toys_and_hobbies">Games, Toys, and Hobbies (2)</li><li data-id="item_1955" data-hash="gender_and_relationships">Gender and Relationships (2)</li><li data-id="item_2155" data-hash="health">Health (29)</li><li data-id="item_2566" data-hash="holidays_and_celebrations">Holidays and Celebrations (7)</li><li data-id="item_2848" data-hash="hubpages_tutorials_and_community">HubPages Tutorials and Community (1)</li><li data-id="item_5482" data-hash="travel_and_places">Travel and Places (1)</li></ul></div><div id="content_hubs_items" class="content_items"><ul class="contentitem_listing"><li ><div class="padding"><img src="http://s1.hubimg.com/u/4723708_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>42</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Ganoderma-or-Reishi-Mushroom-Hype-or-a-Healing-Miracle"> Ganoderma or Reishi  Mushroom &ndash; Hype or a Healing Miracle?</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">For over a year now I&rsquo;ve seen the words
+ganoderma or reishi and decided to perform my own research to see if the Ganoderma or Reishi
+Mushroom was Hype or a Healing Miracle like it is being advertised.   If you
+are...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/4061813_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>48</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/New-Xbox-360-Wii-and-PS3-Fitness-Games-for-Christmas"> New Xbox 360, Wii, and PS3 Fitness Games for Christmas</a></h3><p class="meta"><span class="timestamp">3 years ago</span></p><p class="summary">New Xbox 360, Wii,
+and PS3 Fitness Games for Christmas will reveal that you do have other options if
+you don&rsquo;t have or can&rsquo;t purchase the X-Box 360 to play the hottest Kinect games
+this year.  Everyone knows...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/4082308_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>8</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/A-Christmas-Collection-of-Memories-Hallmark-Recordable-Storybooks"> A Christmas Collection of Memories | Hallmark Recordable Storybooks</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">A Christmas Collection of Memories | Hallmark Recordable Storybooks will show how Hallmark is contributing to connecting families and creating memories this Christmas. I believe Hallmark will make another year of...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3993023_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>56</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Eat-to-Defeat-Breast-Cancer"> Eat to Defeat Breast Cancer</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Eat to Defeat Breast
+Cancer is being written during Breast Cancer Awareness Month; however this
+hub will contain information that women should want to do not only for the
+month of October, but for a lifetime.  For
+years...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3931877_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>75</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Colds-Viruses-and-Flu-Herbal-Remedies"> Colds Viruses and Flu: Herbal Remedies</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Colds Viruses and
+Flu: Herbal Remedies is part 3 in a series of providing information for
+treating a cold viruses and flu this season.  
+Hopefully, this series will assist individuals in taking proactive
+measures to...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3884341_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>70</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Insomnia-Why-Women-Cant-Sleep"> Insomnia: Why Women Can&rsquo;t Sleep?</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Insommia: Why Women Can't Sleep will disclose some of the underlying, sometime silent problems women are unaware of that is causing them to miss out on a good night's sleep.  Nearly 50 percent of all American women over...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3842178_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>113</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Colds-Viruses-and-Flu-Simple-Remedies-that-Works"> Colds Viruses and Flu: Simple Remedies that Works</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Colds
+Viruses and Flu: Simple Remedies that Works offers what some
+may call generational or folk remedies. 
+As you may know doctors often dismiss &lsquo;folk remedies&rsquo; as quaint, not
+effective or potentially...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3818000_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>14</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Therapeutic-Essential-Oils-for-Cold-and-Flu"> Therapeutic Essential Oils for Colds, Flu, and Sinus Allergies</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">I decided it was time to
+research Therapeutic Essential Oils for
+Colds, Flu, and Sinus Allergies while sitting at work today listening to everyone around me
+cough, hack, sneeze, snort, and blow their noses. To me there...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3803001_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>33</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Osteoporosis-A-Silent-Thief"> Osteoporosis - A Silent Thief</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Osteoporosis:
+A Silent Thief provides an interesting approach in
+explaining this disease and what can be done as prevention and takes a broad
+look at what can be done in the way of treatments.   If you like what you...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3785782_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>42</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Anti-Angiogenic-Foods-Eat-to-Help-Fight-Cancer"> Anti-Angiogenic Foods: Eat to Help Fight Cancer</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Anti-Angiogenic Foods: Eat to Help Fight Cancer was created to share the news of
+cancer research that is being performed to discover foods an individual can eat
+to help fight the cancer cells that can be found within...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3751602_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>19</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/The-Skinny-on-Calcium-and-Weight-Loss"> The &quot;Skinny&quot; on Calcium and Weight Loss</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">The Skinny on Calcium and Weight Loss provides valuable
+information about calcium and the role it plays in weight loss and the
+reduction of omentum fat.  This is part
+of my Battling Belly Fat series that reveals natural...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3744037_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>45</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Holistic-Treatments-for-Seasonal-Depression"> Holistic Treatments for Seasonal Depression</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Holistic Treatments
+for Seasonal Depression will reveal natural and or herbal remedies that can
+assist sufferers from the winter blues called SAD.  Maybe you or a loved one suffers from
+seasonal depression sometimes...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3735204_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>20</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/How-to-Use-Essential-Oils-for-Christmas"> How to Use Essential Oils for Christmas</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Christmas time is a perfect time to become experienced in diffusing and
+blending essential oils.&nbsp; By learning How to Use Essential Oils for Christmas one
+can assist in getting everyone into the festive spirit of...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3704763_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>14</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Learn-How-to-Buy-Therapeutic-Essential-Oils"> Learn How to Buy Therapeutic Essential Oils</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Learn How to Buy Therapeutic Essential Oils will be a recap
+and review of the importance of purchasing organic, pure, and natural
+therapeutic essential oils. Therapeutic
+grade essential oils are high-quality oils and...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3690894_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>22</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/How-to-Use-Essential-Oils-for-Halloween"> How to Use Essential Oils for Halloween</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Venturing Out for the
+Halloween Festivities 
+
+ How to Use Essential Oils for Halloween will start with what
+normally happens when one ventures out for the holiday festivities.   Most
+are prone to getting bitten by...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3651106_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>32</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Holistic-Healing-Benefits-of-Therapeutic-Essential-Oils"> Holistic Healing Benefits of Therapeutic Essential Oils</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">The use of plant aromatics for the holistic healing of mind, body, and spirit is called aromatherapy. The
+Holistic Healing Benefits of Therapeutic Essential Oils are that the essential
+oil products can assist the human...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3640055_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>44</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Therapeutic-Essential-Oils-and-Healing-Naturally"> Therapeutic Essential Oils and Healing Naturally</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Therapeutic Essential Oils and Healing Naturally is the second
+hub and a continuation to revealing some
+&ldquo;must have&rdquo; essential oils that individuals should consider keeping on hand for
+family emergencies and...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3412326_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>128</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Natural-Anti-inflammatory-Remedies-for-Arthritis"> Natural Anti-inflammatory Remedies for Arthritis</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Natural
+Anti-inflammatory Remedies for Arthritis is a continuation from the hub Anti-Inflammatory Herbs for Arthritis  that
+revealed a list of herbs that can assist with the pain and swelling of
+arthritis.  There were...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3357644_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>44</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/The-Tex-Mex-of-Fusion-Cuisine"> The Tex-Mex of Fusion Cuisine</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Flautas The Tex-Mex of Fusion
+Cuisine will describe the terms of fusion cuisine and Tex-Mex; and then
+provide some delightful recipes. Fusion cuisine or as it is playfully termed &ldquo;confusion
+cuisine&rdquo; is just...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3352052_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>47</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Longevity-and-the-Diet-of-Okinawa-Japan"> Longevity and the Diet of Okinawa Japan</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Okinawa, Japan has been deemed one of the Blue Zones&rsquo;
+locations that promote longevity.  Longevity and the Diet of Okinawa, Japan
+will disclose some of the basic foods of Okinawa, share some recipes, and
+reveal...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3340475_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>30</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Longevity-and-Healthy-Diet-of-Costa-Rica"> Longevity and Healthy Diet of Costa Rica</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Longevity and Healthy
+Diet of Costa Rica will reveal some of the basic foods of the Costa Rican&rsquo;s
+diet that has been tied to longevity. Based on your health status today, do you
+feel that if you lived to be a 100...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3323481_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>30</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Crockpot-Cooking-Vegetarian-and-Vegan-Recipes"> Crockpot Cooking: Vegetarian and Vegan Recipes</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Something for everyone can be found on Crockpot Cooking: Vegetarian and Vegan
+Recipes because vegetables are not only for vegans and vegetarians, but for
+meat lovers too.&nbsp;&nbsp;&nbsp; Cooking vegetables in
+a...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3313501_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>32</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Crockpot-Cooking-Spiced-Wine-Hot-or-Cold"> Crockpot Cooking: Spiced Wine Hot or Cold</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Depending where you are from
+spiced wine maybe referred to as mulled wine and is often served during the
+holidays in the fall and winter only. 
+However, Crockpot Cooking: Spiced
+Wine Hot or Cold will explore a variety...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3308949_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>24</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Crockpot-Cooking-Slow-Cooked-Dessert-Recipes"> Crockpot Cooking: Slow Cooked Dessert Recipes</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Warning, this hub contains dessert recipes that are
+guaranteed to raise your sugar level while satisfying a sweet tooth; so please
+enter at your own risk.   Crockpot Cooking: Slow Cooked Dessert
+Recipes will ruin a...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3304522_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>15</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Crockpot-Cooking-Recipes-for-Cheap-Cuts-of-Beef-Lamb-or-Pork"> Crockpot Cooking: Recipes for Cheap Cuts of Beef, Lamb, or Pork</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">During last week&rsquo;s Hubalicious writing contest, I created a hub
+titled Crockpot Cooking: Cheap Cuts of Beef, Lamb, or Pork which was a
+contender for this week&rsquo;s best and people choice awards.  Since this...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3299895_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>15</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Crockpot-Cooking-Appetizers-and-Snacks"> Crockpot Cooking: Appetizers and Snacks</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Crockpot Cooking: Appetizers
+and Snacks will assist in preparing healthier food for one&rsquo;s family and
+friends for those special occasions.&nbsp;
+When events like game playoffs, holidays, and other festive events...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3287454_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>14</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Crockpot-Cooking-Utensils-and-Accessories"> Crockpot Cooking: Utensils and Accessories</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Official Crock Pot brand cooking utensils.  If by chance you've read any of my
+other crockpot cooking hubs; then you may have notice it is time for me to
+suggest some Crockpot Cooking: Utensils and Accessories that
+an...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3283234_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>9</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Crockpot-Cooking-Baking-Tips-and-Techniques"> Crockpot Cooking: Baking Tips and Techniques</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">After reading Crockpot
+Cooking: Baking Tips and Techniques if you have not been using a crock pot
+slower cooker it is my belief that you will be ready to give this type of
+cooking a try this summer.   Yes, that is...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3257784_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>26</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Crockpot-Cooking-Organic-Beans-and-Rice"> Crockpot Cooking: Organic Beans and Rice</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Crockpot Cooking: Organic Beans and Rice will provide some
+quick and easy cooking techniques for organic beans and rice.  I&rsquo;d
+like to consider myself a &ldquo;modern cook&rdquo; in that meals must be healthy,...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3238140_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>30</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Eat-Vegetables-that-Increase-Longevity"> Eat Vegetables that Increase Longevity</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Photo courtesy of: flickr.com/photos/SandraMora I can still hear that loving voice of my mom saying,
+&ldquo;Remember you have to eat your vegetables.&rdquo;  Perhaps you can relate to that rebelling
+child spirit of mine...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3146007_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>33</span><h3><a class="title" href="http://hubpages.com/hub/Assistive-Technology-for-the-Disabled"> Assistive Technology for the Disabled</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Speak with anyone that is disable and you will find that
+there are obstacles that still hinder them from doing all the things they are
+capable of doing for themselves.  Assistive Technology for the Disabled
+reveals some...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/3118756_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>47</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Nutrition-Supplements-for-Breast-Cancer-Prevention"> Nutrition Supplements for Breast Cancer Prevention</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Nutrition Supplements
+for Breast Cancer Prevention will discuss natural and herbal supplements
+that have been found not to cure, but can perhaps help to enhance an individual
+immune system against breast cancer.  As
+you...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/3004783_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>22</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Psyllium-Seeds-Husks-and-Supplements"> Psyllium: Seeds, Husks, and Supplements</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Like many plants the entire stalk of psyllium can be used
+for its herb nutritive value; hence the title Psyllium: Seeds, Husks, and
+Supplements.  Psyllium husks are the
+outer coatings of the seeds found in the plant and...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2927721_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>26</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Favorite-Traditions-of-St-Andrews-Day"> Favorite Traditions of St. Andrew's Day</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Favorite Traditions of St.
+Andrew&rsquo;s Day will be the final Patron of Saints Celebration that occurs
+within the UK.  It is written that St.
+Andrew was Christ&rsquo;s first disciple and he is the Patron Saint of...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2880923_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>81</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Favorite-Traditions-to-Celebrate-St-Georges-Day"> Favorite Traditions to Celebrate St. George's Day</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">The Patron Saint of England is St. George and his national
+holiday is celebrated on April 23rd of every year. &nbsp;However, while researching Favorite Traditions to Celebrate St. George&rsquo;s
+Day I was surprised to...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2840393_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>36</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Money-Glitch-says-Thank-You-and-Morphs"> Money Glitch says &ldquo;Thank You&rdquo; and Morphs</a></h3><p class="meta"><span class="timestamp">3 years ago</span></p><p class="summary">Money Glitch says&ldquo;Thank You&rdquo; and Morphs is my 50th hub and like many Hubbers that have reached this milestone; I feel it's necessary to stop, reflect back, and say thank you.  Over the last 7 months...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2813090_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>104</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Vitamin-Supplements-for-Perimenopause-and-Menopause"> Vitamin Supplements for Perimenopause and Menopause</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">As the baby boomers continue to grow older more and more
+women will need to know the importance of taking Vitamin Supplements for Perimenopause and Menopause.  However, every woman should know about these
+vitamin...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2800640_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>77</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Increase-Your-Cardio-Workouts-at-Home-using-Wii"> Increase Your Cardio Workouts at Home using Wii</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">If your lifestyle makes you feel too busy to exercise in a gym.  Then consider doing cardio workouts from home using Wii.   Photo courtesy of: flickr.com/photos/simondavidson If for some reason you are not
+comfortable...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2781380_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>182</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Healthy-Body-Sculpting-Exercise-for-Women"> Healthy Body Sculpting Exercise for Women</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">This
+hub is going to focus on &ldquo;old fashioned&rdquo; Healthy Body Sculpting Exercise for
+Women that has been proven to have many great benefits.  In the suck it, tuck it, quick fix world of today
+body sculpting has...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2761545_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>67</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Weight-Loss-Tips-101-Make-Lifestyle-Changes"> Weight Loss Tips 101: Make Lifestyle Changes</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Weight Loss Tips 101: Make Lifestyle Changes is a hodgepodge of weight
+loss tips that have worked over the years for my friends and or me in achieving
+our weight loss regimens.  The purpose of
+this hub is to share those...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2734102_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>49</span><h3><a class="title" href="http://hubpages.com/hub/Need-a-Healthy-Diet-Eat-Blue-Zones-Superfoods"> Need a Healthy Diet: Eat Blue Zones&rsquo; Superfoods</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Some people set weight loss goals based on what they see on
+the outside, but perhaps this year everyone should begin to set goals based on
+what is nutritionally healthy for one&rsquo;s body.  Need a
+Healthy Diet: Eat...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2715192_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>33</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Aromatherapy-Essential-Oils-to-Spice-Up-a-Love-Life"> Aromatherapy Essential Oils to Spice Up a Love Life</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Ladies did you know the simple smell of pumpkin spice might
+be enough to increase your man&rsquo;s desire for you?  Men would you like to know how to get your
+special lady in the mood?  Well let&rsquo;s
+take a look at...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2697053_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>14</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Traditional-Chinese-Medicine-for-Seasonal-Allergy-Relief"> Traditional Chinese Medicine (TCM) for Seasonal Allergy Relief</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">High tree pollen counts are already being reported in areas
+like Texas as some trees have already started to bloom.  Hence allergy sufferers will be looking to
+seek relief from the allergens that ails them. 
+Traditional...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2686584_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>15</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Home-Remedies-for-Seasonal-Allergies"> Home Remedies for Seasonal Allergies</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">goldenrod and ragweed red oak pollen more pollen  tree pollen food mold cat dander mildew and mold An allergy is described as what happens when your body detects a foreign
+substance it does not like.  I...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2686685_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>232</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Anti-inflammatory-Herbs-for-Arthritis"> Anti-inflammatory Herbs for Arthritis</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">If you were born in the baby boomer years when you
+see the word &ldquo;herbs,&rdquo; marijuana might be one of the words that come to mind.  Well, medical marijuana is listed as one of the
+Anti-inflammatory Herbs for...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2691439_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>79</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Favorite-Traditions-of-St-Patricks-Day"> Favorite Traditions of St. Patrick&rsquo;s Day</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Yes, just like the kitty in the video many people will be attempting to tap into their Irish roots on March 17th.   However, prior to reviewing the Favorite Traditions of St. Patrick&rsquo;s Day, let's learn who Saint...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2613951_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>22</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Wales-and-St-Davids-Celebration"> Wales and St. David&rsquo;s Celebration</a></h3><p class="meta"><span class="timestamp">4 years ago</span></p><p class="summary">In Wales, on March 1st everyone will be
+celebrating St. David&rsquo;s Day.  Writing
+about Wales and St. David&rsquo;s Celebration is
+not something that I have experienced first-hand, however, after spending
+hours...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2573392_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>23</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Favorite-Rituals-on-Chinese-New-Years-Eve"> Favorite Rituals on Chinese New Year&rsquo;s Eve</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">This hub was
+composed to highlight favorite rituals
+on Chinese New Year&rsquo;s Eve for individuals like myself that desire to learn
+more about the traditions, rituals, and symbolisms of this Asian holiday.  The Chinese...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2537663_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>38</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Make-money-providing-doula-services"> Make Money providing Doula Services</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">In my opinion one can definitely make money
+providing doula services affordably.  Anyone
+seeking to become an entrepreneur via opening a small business should research
+providing such services. Start up costs can be...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2500401_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>335</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Butt-Naked-Ice-Swimming"> Butt Naked Ice Swimming</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Researching Butt Naked Ice Swimming has been fun, and just
+downright hilarious with some of the information my research discovered.  Ice swimming is exactly what the two
+words denotes: swimming which requires cutting a...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2404752_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>71</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/University-of-Phoenix-Online-A-Success-Story-or-Joke"> University of Phoenix Online-A Success Story or Joke?</a></h3><p class="meta"><span class="timestamp">8 months ago</span></p><p class="summary">The title University
+of Phoenix Online-A Success Story or Joke was originated because there
+appears to be mostly negativity getting attention when you Google the school
+name for information.&nbsp; Some people seemed to...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2420593_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>22</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Raising-a-Heart-Healthy-Child-with-Congenital-Heart-Disease"> Raising a Heart Healthy Child with Congenital Heart Disease &ndash; Interview</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Many may see the title, raising
+a heart healthy child with congenital heart disease, as an oxymoron in that
+you may believe that if the heart is healthy it will be free from defect or disease.  Well, in the natural...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2513132_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>27</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/My-Lover-My-Friend"> My Lover, My Friend </a></h3><p class="meta"><span class="timestamp">4 years ago</span></p><p class="summary">My lover, my friend
+is a poem about setting &ldquo;the essence of love&rdquo; free and allowing it to become
+what it was destined to be.  When you are
+young you want love to last forever.  One
+never thinks about the...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2226812_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>19</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Challenges-Educating-Girls-A-Priority-For-The-Future"> Challenges - Educating Girls: A Priority for The Future</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Educating girls must be a priority of the future could
+possibly be viewed as a statement of gender bashing; however that is not my
+intention.  For the past few years, I&rsquo;ve
+heard similar statements concerning the...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2420040_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>43</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/I-Have-Strange-Feelings-For-You"> I Have Strange Feelings For You</a></h3><p class="meta"><span class="timestamp">3 years ago</span></p><p class="summary">Strange feelings about someone maybe viewed as something weird, unnatural, and or bad.  However, many times strange feelings will happen when one chooses not to believe the truth about a situation. Strange feelings...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2603699_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>20</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Faces-of-Domestic-Violence-Precious-the-Movie"> Faces of Domestic Violence &ndash; &ldquo;Precious&rdquo; the Movie</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">&ldquo;Precious&rdquo; the movie
+is part 3 of a series that is dedicated to the Faces of Domestic Violence. In
+part 1 of this series I began telling my friend Sara&rsquo;s story that involved
+emotional and verbal abuse...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/2063937_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>8</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Faces-of-Domestic-Violence"> Faces of Domestic Violence - Pt. 1</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">But they worked it out. The above photo as horrible as it is; reveals a re-enactment of the faces of domestic violence. Every day, three women die as result of abuse&mdash;that's nearly 1,100 killed every year. ...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/2024610_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>19</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/No-Christmas-This-Year"> No Christmas This Year &ndash; I&rsquo;m Unemployed!</a></h3><p class="meta"><span class="timestamp">3 years ago</span></p><p class="summary">&ldquo;No Christmas this year,&rdquo; may be on the lips of many more families than usual this year. As the holiday seasons began many are still unemployed and unsure of how soon jobs will reappear and life will begin...</p></div></li><li ><div class="padding"><img src="http://s2.hubimg.com/u/1944893_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>29</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Tattoos-for-Breast-Cancer-Survivors"> Tattoos for Breast Cancer Survivors</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Body art like healthcare renders strong opinions that can
+create heated arguments from those for tattooing and those that are against
+it.  Some of the opinions for body art are that it&rsquo;s your body and you can do...</p></div></li><li ><div class="padding"><img src="http://s1.hubimg.com/u/1932882_100.jpg" alt=""/><span class="comment_count"><span class="icon forum"></span>3</span><h3><a class="title" href="http://moneyglitch.hubpages.com/hub/Vintage-Toy-Replicas"> Vintage Toy Replicas and Memories of Yester Years</a></h3><p class="meta"><span class="timestamp">2 years ago</span></p><p class="summary">Raggedy Ann &amp; Andy Gumby &amp; Pokey Old Model T The Little Engine Spinning Top Wooden Toys Mr Smarty Pants The pictures above are of vintage toy replicas and memories of yester years. If you were born in the baby...</p></div></li></ul></div><div id="content_forums_items" class="content_items"><ul class="contentitem_listing"></ul></div><script type="text/javascript">
+var content_items = new Carousel($A(new Array('answers_items', 'forums_items', 'hubs_items')), 'hubs_items');</script><button id="load_more_btn" class='load_more_button'>Load More</button></div></div></div><script type="text/javascript">initializeProfilePage();</script><div id="sidebar"><div class="sidebar_box">				<ul class="profile_links">
+					<li class="active"><a href="#mycontent" id="profile_mycontent_link"><span class="links_icon"></span>My Content</a></li>
+					<li><a href="#activity" id="profile_activity_link"><span class="links_icon"></span>My Activity</a></li>
+					<li><a href="#following" id="profile_following_link"><span class="links_icon"></span>Following</a></li>
+					<li><a href="#followers" id="profile_followers_link"><span class="links_icon"></span>Followers</a></li>
+					<li><a href="#fanmail" id="profile_fanmail_link"><span class="links_icon"></span>Fan Mail</a></li>
+					<li class="recent_images"><span class="links_icon"></span><h3>Recent Images</h3><img src="http://s1.hubimg.com/u/4723728_50.jpg" alt=""/><img src="http://s1.hubimg.com/u/4723708_50.jpg" alt=""/><img src="http://s2.hubimg.com/u/4723701_50.jpg" alt=""/></li>
+				</ul></div><div class="sidebar_box"><div class="padding"><h2>Accolades</h2><div class="content_box_i"><ul id="trophies"><li><a href="#" id="trophy_anniversary" class="anniversary hptip" data-tip="/tip/trophy_anniversary?dir=left&amp;u=Money+Glitch&amp;n=4"><span>4</span></a></li><li><a href="#" id="trophy_hubs" class="hubs hptip" data-tip="/tip/trophy_hubs?dir=left&amp;u=Money+Glitch&amp;n=50"><span>50</span></a></li><li><a href="#" id="trophy_featuredhubs" class="featuredhubs hptip" data-tip="/tip/trophy_featuredhubs?dir=left&amp;u=Money+Glitch&amp;n=50"><span>50</span></a></li><li><a href="#" id="trophy_fans" class="fans hptip" data-tip="/tip/trophy_fans?dir=left&amp;u=Money+Glitch&amp;n=1%2C000"><span>1000</span></a></li><li><a href="#" id="trophy_views" class="views hptip" data-tip="/tip/trophy_views?dir=left&amp;u=Money+Glitch&amp;n=100%2C000"><span>100K</span></a></li><li><a href="#" id="trophy_requestsanswered" class="requestsanswered hptip" data-tip="/tip/trophy_requestsanswered?dir=left&amp;u=Money+Glitch&amp;n=50"><span>50</span></a></li></ul><div class="hub_praise"><strong>Hub Feedback: </strong>378 Useful / 36 Interesting / 161 Awesome / 56 Beautiful / 26 Funny</div></div></div></div><div class="adslot_300x250 sidebar_adslot_1">
+<div style="margin-left: auto; margin-right: auto; width:300px;">
+<script type="text/javascript"><!--
+google_ad_host = "pub-6958755572607374";
+google_ad_client = "ca-pub-5324878829785981"; 
+google_alternate_ad_url = "http://hubpages.com/google_adsense_script.html";
+google_ad_width = 300;
+google_ad_height = 250;
+google_ad_format = "300x250_as";
+google_ad_type = "image";
+google_ad_channel = "";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "297CCF";
+google_color_url = "333333";
+google_color_text = "333333";
+google_ui_features = "rc:0";
+
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div><div class="sidebar_box similar_users_box"><div class="padding"><h2>Others you might like &hellip;</h2><div class="content_box_i"></div></div></div><div class="adslot_300x250 sidebar_adslot_2">
+
+</div></div><div class="clear"></div></div></div><script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6035233" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script></div><div id="footer_wrap"><div id="footer"><a id="footer_home" href="http://hubpages.com/" title="To the HubPages home page">HubPages</a><ul id="footerlist"><li><a href="http://hubpages.com/about/us">about us</a></li><li><a href="http://hubpages.com/help-wizard/">help</a></li><li><a href="http://blog.hubpages.com">blog</a></li><li><a href="#" onclick="showLinkArticle('http://moneyglitch.hubpages.com/','Money Glitch on HubPages'); return false;">link to this page</a></li><li><a href="http://hubpages.com/help/copyright_infringement">copyright</a></li><li><a href="http://hubpages.com/directory">directory</a></li></ul><div class="glam_logo"></div><p>Copyright &copy; 2014 HubPages Inc. and respective owners.</p><p class="disclaimer">Other product and company names shown may be trademarks of their respective owners.</p><p>HubPages<sup>&reg;</sup> is a registered Service Mark of HubPages, Inc.</p><p>HubPages and Hubbers (authors) earn revenue on this page based on affiliate relationships and advertisements with partners including Amazon, eBay, Google, and others.</p><p><a href="http://hubpages.com/help/user_agreement">terms of use</a> <a href="http://hubpages.com/help/privacy_policy">privacy policy</a> (0.41 sec)</p></div></div>	<div id="ajaxing"><div id="ajaxing_box"><img src="http://z.hubimg.com/x/spinner.gif" alt="Please wait" class="spinner"/> <span>working</span></div></div>
+	<script type="text/javascript">jQuery(document).ready(tip_init);</script><script type="text/javascript">
+_qevents.push({
+qacct:"p-40hb1Sup4Jk_U"});
+</script>
+<noscript>
+<img src="//pixel.quantserve.com/pixel/p-40hb1Sup4Jk_U.gif" style="display:none" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+</body>
+</html>
+<!-- rendered by hubwbe04 at Wed, 02 Apr 14 17:20:06 -0700 -->
+<!-- uncategorized hpads-authorshare -->
