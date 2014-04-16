@@ -1,3 +1,14 @@
+www.usgo.org
+golang.org
+curl.haxx.se
+www.command.com
+www.microsoft.com
+linuxcommand.org
+aws.amazon.com
+dictionary.reference.com
+www.ietf.org
+soundcloud.com
+searchsoa.techtarget.com
 www.geeksquad.com
 www.collegehumor.com
 www.cracked.com
@@ -140,11 +151,6 @@ news.cnet.com
 www.businessweek.com
 www.businessinsider.com
 www.fandango.com
-www.joyofbaking.com
-www.verybestbaking.com
-jobsearch.naukri.com
-p0ppysmic.wordpress.com
-everythingchangesbook.com
 blogs.indiewire.com
 blog.lesoir.be
 www.londonfreelance.org

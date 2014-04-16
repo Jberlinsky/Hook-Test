@@ -1,864 +1,483 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Band Boston Official Site</title>
 
-<title>New York State Department of State</title>
-
-<link href="css/nav02.css" rel="stylesheet" type="text/css">
-<link href="css/dos_home05hp.css" rel="stylesheet" type="text/css">
-<link href="css/jquery-ui-1.8.11.custom.css" rel="stylesheet" type="text/css">
-<link href="css/jquery.ui.accordion2.css" rel="stylesheet" type="text/css">
-
-<script type="text/javascript" src="js/jquery-1.5.1.js"></script>
-<script type="text/javascript" src="js/jquery.featureList-1.0.0.js"></script>
-<script type="text/javascript" src="js/jquery.ui.core.js"></script>
-<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
-<script type="text/javascript" src="js/jquery.ui.accordion.js"></script>
- <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<!--
-
-<script type="text/javascript" src="js/jquery-ui-1.8.11.custom.min"></script>
-<script type="text/javascript" src="development-bundle/jquery-1.5.1.js"></script>
-<script type="text/javascript" src="development-bundle/ui/jquery.ui.core.js"></script>
-<script type="text/javascript" src="development-bundle/ui/jquery.ui.widget.js"></script>
-<script type="text/javascript" src="development-bundle/ui/jquery.ui.accordion.js"></script>
-	-->
-
-<script type="text/javascript">
-		$(document).ready(function() {
-
-			$.featureList(
-				$("#tabs li a"),
-				$("#output li"), {
-					start_item	:	1
-				}
-			);
-			
-			
-					/*
-			
-			// Alternative
-
-			
-			$('#tabs li a').featureList({
-				output			:	'#output li',
-				start_item		:	1
-			});
-
-			*/
-
-		});
-
-</script>
-
-
-	<script type="text/javascript">
-	$(function() {
-		$( "#accordion" ).accordion({
-			event: "mouseover"
-		});
-	});
-	</script>
-
- <script type="text/javascript">
-$(document).ready(function(){ 
-  $('input[type=text]').focus(function(){ 
-    if($(this).val() == $(this).attr('defaultValue'))
-    {
-      $(this).val('');
-    }
-  });
-  
-  $('input[type=text]').blur(function(){
-    if($(this).val() == '')
-    {
-      $(this).val($(this).attr('defaultValue'));
-    } 
-  });
-}); 
-</script>
-
-<!-- buttons -->
-
-
-
-<script type="text/javascript">
-
-jQuery(function(){
-     $(".img-swap").hover(
-          function(){this.src = this.src.replace("_off","_on");},
-          function(){this.src = this.src.replace("_on","_off");
-     });
-});
-
-
-
-</script>
-
-
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-8374227-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-
-
-<style type="text/css">
-
-
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	
-		.panelhead {
-			margin: 0;	
-			padding: 7px 0 0 0;
-			font-size: 13px;
-			color: #fff;
-			font-weight: bold;
-			font-family:tahoma;
-			
-		}
-
-		div#feature_list {
-			width: 700px;
-			height: 320px;
-			overflow: hidden;
-			position: relative;
-		}
-
-		div#feature_list ul {
-			position: absolute;
-			top: 0;
-			list-style: none;
-				
-			padding: 0;
-			margin: 0;
-		}
-
-		ul#tabs {
-	left: 0;
-	z-index: 2;
-	width: 300px;
-		}
-
-		ul#tabs li {
-			font-size: 10px;
-			font-family: Tahoma;
-			
-		}
-		
-		ul#tabs li img {
-			padding: 0px 5px 0px 0px;
-			border: none;
-			float: left;
-			margin: 0px;
-		}
-
-		ul#tabs li a {
-			color: #fff;
-			text-decoration: none;	
-			display: block;
-			padding: 12px 40px 8px 12px;
-			height: 60px;
-			outline: none;
-			
-		}
-
-		ul#tabs li a:hover {
-			text-decoration: none;
-			background:  url('images/feature-tab-currentXfaded2.png');
-		}
-
-		ul#tabs li a.current {
-			background:  url('images/feature-tab-currentX.png');
-			color: #FFF;
-		}
-
-		ul#tabs li a.current:hover {
-			text-decoration: none;
-			cursor: default;
-		}
-
-		ul#output {
-			right: 0;
-			width: 435px;
-			height: 320px;
-			position: relative;
-			left: 286px;
-		}
-
-		ul#output li {
-	position: absolute;
-	width: 435px;
-	height: 320px;
-	left: -21px;
-		}
-
-		ul#output li a {
-	position: absolute;
-	bottom: 8px;
-	right: 9px;
-	padding: 8px 12px;
-	text-decoration: none;
-	font-size: 11px;
-	color: #FFF;
-	background: #003366;
-	-moz-border-radius: 10px;
-		}
-		
-		ul#output li a:hover {
-			background: #f69727;
-		}
-	</style>
-<style type="text/css">
-/*Twitter box and mask modifications*/
-
-/*Contents background color for homepgae only*/
-.container {
-	background: #ebe6d6;
-	}
-/*END Contents background color for homepgae only*/
-
-.ui-state-error {
-	font-size: 12px;
-	line-height:160%;
-	text-align: center;
-	font-weight: bold;
-	border-bottom-style:solid;
-	border-bottom: 4px;
-	border-bottom-color:#e11c1e;
-}
-
-ul#css3menu1 a{padding:7px 10px;}
-
-#homepagealert2 {
-	background-color:#EADCAE;
-	/*background-image: url(../images/clipart-4_grey_field_lite.gif);*/
-	padding: 7px 5px 7px 5px;
-	text-align:center;
-	color:#660000;
-	font-size: 12px;
-	font-family:"Arial Black", Gadget, sans-serif;
-	font-weight:bold;
-	line-height:120%;
-}
-#homepagealert2 a{
-
-	/*color:#003366;*/
-	color:#660000;
-	font-size: 14px;
-	/*font-family:Arial, Helvetica, sans-serif;*/
-	font-family:"Arial Black", Gadget, sans-serif;
-	font-weight:bold;
-line-height:100%;
-}
-.sidebar1 {
-	height: auto;
-}
-</style>
-
-<!--BEGIN QUALTRICS SITE INTERCEPT-->
-<script type='text/javascript'>
-(function(){var g=function(e,h,f,g){
-this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
-this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
-this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
-this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}};
-this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}};
-try{(new g(100,"r","QSI_S_ZN_6eSONGWExC3sowR","//zn_6esongwexc3sowr-rga.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_6eSONGWExC3sowR&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})();
-</script>
-<!--END SITE INTERCEPT-->
-
-
-
+	<link rel="stylesheet" type="text/css" href="index.css">
+    
+    <link rel="stylesheet" type="text/css" href="styles/bostonhtmlstyle.css"/>
 </head>
 
-<body> 
+<body background="img6/starfield.gif" topmargin="0" bgcolor="#000000">
 
-<div class="container">
-  <div class="header">
-  <!--NEW BANNER-->
-<div id="newbanner-grid">
-<div style="height: 28px; background-color: #003366;">
-   <a href="http://www.ny.gov/"><img style="float: left; border:none;" src="http://dos.ny.gov/images/nysbanner/banner_img1.png" alt="NY.gov Portal" /></a>
-   <a href="http://www.nysegov.com/citGuide.cfm?superCat=102&amp;cat=449&amp;content=main"><img style="float: left;border:none;" src="http://dos.ny.gov/images/nysbanner/banner_img2.png" alt="State Agency Listing" /></a>
-   <!-- search graphic-->
-   <a href="#" onclick="document.getElementById('sw_searchbox').style.visibility= 'visible'; document.getElementById('searchgraphic').style.visibility= 'hidden';"><img id="searchgraphic" style="float: right; border:none;visibility: hidden;" src="http://dos.ny.gov/images/nysbanner/banner_img3.png" alt="Search all of NY.gov" /></a> 
-    <!--state wide search box-->
-      <form id="sw_searchbox" style="float: right; position: relative; top: 2px; left: 155px; visibility: background: transparent;" action="http://www.search.its.ny.gov/search" method="get">
-        <input value="date:D:L:d1" name="sort" type="hidden" />
-          <input value="xml_no_dtd" name="output" type="hidden" />
-          <input value="UTF-8" name="ie" type="hidden" />
-          <input value="UTF-8" name="oe" type="hidden" />
-          <input value="default_frontend" name="client" type="hidden" />
-          <input value="default_frontend" name="proxystylesheet" type="hidden"/>
-          <input value="default_collection" name="site" type="hidden" />
-             
-                    <label for="searchbox"><input style="cursor: pointer;" type="text" size="15" name="q" maxlength="256" id="searchbox" title="Search" /></label>
-                   <label for="searchbutton"><input type="submit" style="width: 110px;" id="searchbutton" value="Search NY.GOV" /></label>
-          
-      </form>
-   <!--end wide search box-->
-       <script type="text/javascript">
-              // If JavaScript is on, manipulate search control objects.  
-              // Otherwise this will be ignored and search controls will be shown by default
-              document.getElementById('sw_searchbox').style.visibility = 'hidden';
-              document.getElementById('searchgraphic').style.visibility= 'visible';         
-       </script>   
-</div>
-</div>
-<!-- END NEW BANNER-->
-          <!-- Sportsman Banner --><!-- End Sportsman Banner -->
 
-  <img src="images/banners/dosBanner960x82.jpg" alt="DOS Banner Graphic" width="960" height="82">
+<table width="100%" height="600" border="0" align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    
+    <td width="1024" height="600" align="center">
+    <table width="1024" height="590" background="img/website_TOUR1024a.jpg">
+      <tr><td height="48" align="center">
+    <table><tr>
+    <td ><a href="http://www.bandboston.com/html/home_html.html"><img src="dialupwhite.jpg" alt="dialup" width="134" height="31" border="0" id="Image1" onMouseOver="MM_swapImage('Image1','','dialupglow.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/bandboston"><img src="img6/FB.png" width="31" height="31" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="http://www.bandboston.com/flashsite8_7_08.html"><img src="fastwhite.jpg" alt="fast" width="121" height="35" border="0" id="Image2" onMouseOver="MM_swapImage('Image2','','fastglow.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+    </tr></table>
+    
+    <div align="center"></div></td>
+    
+  </tr>
  
- <!--end  DOS Header Graphic-->
- </div>
- <div class="nav"> 
-  <ul id="css3menu1" class="topmenu">
-	<li class="topmenu"><a href="http://www.dos.ny.gov/index.html" title="Home" style="width:38px;height:16px;line-height:14px;"><span> DOS</span></a>
-    <ul>
-   	<li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/aboutus.html">&nbsp;&nbsp;About DOS </a></li>
-    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/sos/sosmain.html">&nbsp;&nbsp;About the Secretary </a></li>
-    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/newsroom.html">&nbsp;&nbsp;Newsroom & Webcasts </a></li>
-    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/calendar.html">&nbsp;&nbsp;Calendar of Events </a></li>
-    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/funding/">&nbsp;&nbsp;Funding/Bid Opportunities </a></li>
-    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/translation.html">&nbsp;&nbsp;Translation</a></li>
-    <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/contact.asp">&nbsp;&nbsp;Contact Us </a></li>
-       <li>&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/recordsmaster.doc">&nbsp;&nbsp;Subject Matter List of Available Records (doc) </a></li>
-    
-    
-    
-    </ul>
-    
-    
-    </li>
-	<li class="topmenu"><a href="#" title="For Individuals" style="width:70px;height:16px;line-height:14px;"><span> Individuals</span></a>
-	<ul>
-		<li><a href="http://www.dos.ny.gov/acp/">&nbsp;&nbsp;Address Confidentiality Program</a></li>
-        <li><a href="http://www.dos.ny.gov/ooah/decisions.htm" title="Administrative Hearing Decisions">&nbsp;&nbsp;Administrative Hearing Decisions</a></li>
-		<li><a href="http://www.dos.ny.gov/corps/apostille.html" title="Apostille">&nbsp;&nbsp;Apostille</a></li>
-		<li><a href="http://www.dos.ny.gov/licensing/index.html" title="Apply for a License">&nbsp;&nbsp;Apply for a License</a></li>
-		<li><a href="http://www.dos.ny.gov/DCEA" title="Building and Energy Codes">&nbsp;&nbsp;Building and Energy Codes</a></li>
-		<li><a href="http://www.dos.ny.gov/cmty/index.html" title="Cemeteries">&nbsp;&nbsp;Cemeteries</a></li>
-		<li><a href="http://www.dos.ny.gov/corps/child_support_search.html" title="Child Support Enforcement Warrants">&nbsp;&nbsp;Child Support Enforcement Warrants</a></li>
-		<li><a href="http://www.dos.ny.gov/consumerprotection/" title="Consumer Protection">&nbsp;&nbsp;Consumer Protection</a></li>
-		<li><a href="http://www.dos.ny.gov/licensing/eaccessny.html" title="eAccessNY (real estate)">&nbsp;&nbsp;eAccessNY (real estate)</a></li>
-		<li><a href="http://www.dos.ny.gov/about/foil.html" title="Freedom of Information Law Requests">&nbsp;&nbsp;Freedom of Information Law Requests</a></li>
-		<li><a href="http://www.dos.ny.gov/kids_room/" title="Kid's Room">&nbsp;&nbsp;Kid's Room</a></li>
-        <li><a href="http://www.dos.ny.gov/athletic/index.html" title="Athletic">&nbsp;&nbsp;Athletic Commission</a></li>
-		<li><a href="#" title="NYS Rules and Regulations"><span>&nbsp;&nbsp;NYS Rules and Regulations</span></a>
-		<ul>
-			<li><a href="http://www.dos.ny.gov/info/nycrr.html" title="NYCRR">&nbsp;&nbsp;NYCRR</a></li>
-			<li><a href="http://www.dos.ny.gov/info/register.htm" title="NYS Register">&nbsp;&nbsp;NYS Register</a></li>
-			<li><a href="http://www.dos.ny.gov/info/regulatory_activity/index.html" title="Regulatory Activity">&nbsp;&nbsp;Regulatory Activity</a></li>
-		</ul>
-
-		</li>
-		<li><a href="http://www.dos.ny.gov/info/constitution.htm" title="NYS Constitution">&nbsp;&nbsp;NYS Constitution</a></li>
-		<li><a href="#" title="Search Licensees"><span>&nbsp;&nbsp;Search Licensees</span></a>
-		<ul>
-			<li><a href="https://APPEXT20.dos.ny.gov/nydos/selSearchType.do" title="Real Estate Industry">&nbsp;&nbsp;Real Estate Industry</a></li>
-			<li><a href="http://appext20.dos.ny.gov/lcns_public/chk_load" title="All other License Types">&nbsp;&nbsp;All other License Types</a></li>
-		</ul>
-
-		</li>
-		<li><a href="http://www.dos.ny.gov/corps/" title="State Records">&nbsp;&nbsp;State Records</a></li>
-		<li><a href="http://www.dos.ny.gov/corps/tax_warrant_search.html" title="Tax Warrants">&nbsp;&nbsp;Tax Warrants</a></li>
-		<li><a href="http://www.dos.ny.gov/licensing/index.html" title="Whom we License">&nbsp;&nbsp;Whom we License</a></li>
-	</ul>
-
-	</li>
-	<li class="topmenu"><a href="#" title="For Businesses" style="width:70px;height:16px;line-height:14px;"><span> Businesses</span></a>
-	<ul>
-		<li><a href="http://www.dos.ny.gov/DCEA" title="Building and Energy Codes">&nbsp;&nbsp;Building and Energy Codes</a></li>
-		<li><a href="http://www.dos.ny.gov/corps/bus_entity_search.html" title="Business Search">&nbsp;&nbsp;Business Search</a></li>
-		
-		<li><a href="http://www.dos.ny.gov/corps/index.html" title="Corporation and Business Filings">&nbsp;&nbsp;Corporation and Business Filings</a></li>
-		<li><a href="http://www.dos.ny.gov/licensing/eaccessny.html" title="eAccessNY (real estate)">&nbsp;&nbsp;eAccessNY (real estate)</a></li>
-		<li><a href="http://www.dos.ny.gov/corps/bcfaq.asp" title="FAQ Listing"><span>&nbsp;&nbsp;FAQ Listing</span></a>
-		<ul>
-			<li><a href="http://www.dos.ny.gov/corps/bcfaq.asp" title="Business Corporation FAQ">&nbsp;&nbsp;Business Corporation FAQ</a></li>
-			<li><a href="http://www.dos.ny.gov/corps/nfpfaq.asp" title="Not-For-Profit FAQ">&nbsp;&nbsp;Not-For-Profit FAQ</a></li>
-			<li><a href="http://www.dos.ny.gov/corps/llcfaq.asp" title="Limited Liability FAQ">&nbsp;&nbsp;Limited Liability FAQ</a></li>
-			<li><a href="http://www.dos.ny.gov/corps/lpfaq.asp" title="Limited Partnership FAQ">&nbsp;&nbsp;Limited Partnership FAQ</a></li>
-			<li><a href="http://www.dos.ny.gov/corps/llpfaq.asp" title="Limited Liability Partnership FAQ">&nbsp;&nbsp;Limited Liability Partnership FAQ</a></li>
-			<li><a href="http://www.dos.ny.gov/licensing/faq_list.html" title="Licensed Professionals &amp; Occupations FAQ">&nbsp;&nbsp;Licensed Professionals &amp; Occupations FAQ</a></li>
-		</ul>
-
-		</li>
-        <li><a href="http://www.dos.ny.gov/funding/" title="Funding Opportunities">&nbsp;&nbsp;Funding Opportunities</a></li>
-		<li><a href="http://www.dos.ny.gov/licensing/relatedsites.html" title="Help for Small Businesses">&nbsp;&nbsp;Help for Small Businesses</a></li>
-		<li><a href="http://www.dos.ny.gov/info/nycrr.html" title="NYS Rules and Regulations"><span>&nbsp;&nbsp;NYS Rules and Regulations</span></a>
-		<ul>
-			<li><a href="http://www.dos.ny.gov/info/nycrr.html" title="NYCRR">&nbsp;&nbsp;NYCRR</a></li>
-			<li><a href="http://www.dos.ny.gov/info/register.htm" title="NYS Register">&nbsp;&nbsp;NYS Register</a></li>
-			<li><a href="http://www.dos.ny.gov/info/regulatory_activity/index.html" title="Regulatory Activity">&nbsp;&nbsp;Regulatory Activity</a></li>
-		</ul>
-
-		</li>
-		<li><a href="http://www.dos.ny.gov/corps/uccforms.html" title="UCC Forms">&nbsp;&nbsp;UCC Forms</a></li>
-	</ul>
-
-	</li>
-    
-    
-    
-	<li class="topmenu"><a href="#" title="DOS Divisions" style="width:59px;height:16px;line-height:14px;"><span> Divisions</span></a>
-	 
-<ul>
-      
-
-<li><a href="http://www.dos.ny.gov/ooah/index.htm" title="Administrative Hearings" >&nbsp;&nbsp;Administrative Hearings</a></li>
-
-<li><a href="http://www.dos.ny.gov/info/index.html" title="Administrative Rules">&nbsp;&nbsp;Administrative Rules</a></li>
-
-
-<li><a href="http://www.dos.ny.gov/DCEA" title="Building Standards and Codes" >&nbsp;&nbsp;Building Standards and Codes</a></li>
-
-
-<li><a href="http://www.dos.ny.gov/cmty/index.html" title="Cemeteries">&nbsp;&nbsp;Cemeteries</a></li>
-
-
-<li><a href="http://www.dos.ny.gov/dcs/index.htm" title="Community Services">&nbsp;&nbsp;Community Services</a></li>
-
-<li><a href="http://www.dos.ny.gov/consumerprotection/" title="Consumer Protection">&nbsp;&nbsp;Consumer Protection</a></li>
-
-<li><a href="http://www.dos.ny.gov/corps/index.html" title="Corportations, State Records and UCC">&nbsp;&nbsp;Corporations, State Records and UCC</a>&nbsp; &nbsp; &nbsp; &nbsp; </li>
-
-<li><a href="http://www.dos.ny.gov/cnsl/counsel.htm" title="General Counsel">&nbsp;&nbsp;General Counsel</a></li>
-
-<li><a href="http://www.dos.ny.gov/licensing/" title="Licensing Services">&nbsp;&nbsp;Licensing Services</a></li>
-   
-<li><a href="http://www.dos.ny.gov/lg/" title="Local Government Services">&nbsp;&nbsp;Local Government Services</a></li>   
-
-<li><a href="http://www.dos.ny.gov/opd" title="Office of Planning and Development">&nbsp;&nbsp;Office of Planning and Development</a></li>
-
-
-</ul>
-
-	</li>
-	
-    
-    
-    <li class="topmenu"><a href="#" title="Committees and Commissions" style="width:176px;height:16px;line-height:14px;"><span> Commissions &amp; Committees</span></a>
-	
-<ul>
-
-
-
-<li><a href="http://www.dos.ny.gov/amistad/index.html" title="Amistad Commission">&nbsp;&nbsp;Amistad Commission</a></li>
-
-<li><a href="http://www.dos.ny.gov/LG/arc/index.html" title="Appalachian Regional Commission">&nbsp;&nbsp;Appalachian Regional Commission</a></li>
-
-<li><a href="http://www.abo.ny.gov/" title="Authorities Budget Office">&nbsp;&nbsp;Authorities Budget Office</a></li>
-
-<li><a href="http://www.dos.ny.gov/athletic/index.html" title="New York State Athletic Commission">&nbsp;&nbsp;New York State Athletic Commission </a></li>
-
-<li><a href="http://www.dos.ny.gov/coog/index.html" title="Committee on Open Government">&nbsp;&nbsp;Committee on Open Government</a></li>
-
-<li><a href="http://www.lgpc.state.ny.us/" title="Lake George Park Commission">&nbsp;&nbsp;Lake George Park Commission</a></li>
-	
-<li><a href="http://www.tughill.org/" title="New York State Tug Hill Commission">&nbsp;&nbsp;New York State Tug Hill Commission</a></li>
-
-<li><a href="http://www.dos.ny.gov/watershed/" title="Watershed Protection and Partnership Council">&nbsp;&nbsp;Watershed Protection and Partnership Council</a></li>
-           
-</ul>
-
-	</li>
-    <li class="topmenu"><a href="http://www.dos.ny.gov/translation.html" title="Translation" style="width:72px;height:16px;line-height:14px;"> <span> Translation </span></a>
-    <ul>
-    
-   <li> <a href="http://www.dos.ny.gov/translation.html#spanish">&nbsp;&nbsp;Espa&ntilde;ol</a></li>
-     <li> <a href="http://www.dos.ny.gov/translation.html#korean">&nbsp;&nbsp;한국어</a></li>
-    <li> <a href="http://www.dos.ny.gov/translation.html#haitian">&nbsp;&nbsp; Krey&ograve;l Ayisyen</a></li>
-    <li> <a href="http://www.dos.ny.gov/translation.html#italian">&nbsp;&nbsp;Italiano</a></li>
-    <li> <a href="http://www.dos.ny.gov/translation.html#chinese">&nbsp;&nbsp;中文</a></li>
-    
-     
-     <li> <a href="http://www.dos.ny.gov/translation.html#russian">&nbsp;&nbsp;ру́сский </a></li>
-    <li> </li>
-    <li> </li>
-    
-    </ul>
-    
-    
-    
-    </li>
-    
-    
-    
-	<li class="topmenu"><a href="http://www.dos.ny.gov/about/services/home.html" title="A to Z Program Index" style="width:75px;height:16px;line-height:14px;"> A to Z Index</a></li>
-	
-</ul>
-<div id="searchboxdos_1col">
-
-<form action="http://search.dos.ny.gov/search" method="get" name="SearchDOSwebsite" id="SearchDOSwebsite">
-<label for="q">
-<input type="text" tabindex="1" name="q" id="q" size="25" maxlength="40" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search DOS Website" >&nbsp;&nbsp;</label>
-<input type="submit" tabindex="1" name="btnG" id="btnG" value="Search!">
-<input type="hidden" name="ie" value="">
-<input type="hidden" name="site" value="NYSDOS">
-<input type="hidden" name="output" value="xml_no_dtd">
-<input type="hidden" name="client" value="NYSDOS">
-<input type="hidden" name="lr" value="">
-<input type="hidden" name="proxystylesheet" value="NYSDOS">
-<input type="hidden" name="oe" value="">
-</form>
-</div>
-  
-  
-<!-- end .header --></div>
-
-
-
-<!--<div id="homepagealert">
-  
- <strong>Weather Alert:  The Division of Licensing Services has cancelled all written examinations scheduled for Tuesday, Dec. 17 <br>
- at our Newburgh exam site.  Please continue to monitor this site for any additional weather related examination cancellations. </strong>
-  
-</div>  -->
-
-  <div class="sidebar1">
-  <!--<div id="homepagealert2">
-
- <a href="corps/notice_of_claim.html"> New in Corporations: <br> Notice of Claim Online Form</a> 
- <br> 
-
-
-
-</div> -->
-<!-- All rollover buttons generated from images/homepage-buttons1-14.psd file -->
-
-<a href="http://www.dos.ny.gov/translation.html" target="_blank"><img src="images/freelangassist_off.gif" width="240" height="50" alt="Free Language Assistance" class="img-swap"></a> 
-
-
-<a href="http://www.dos.ny.gov/newnyleaders/index.html" target="_blank"><img src="images/animatedbuttons/newnyleaders_off.png" width="230" height="60" alt="New New York Leaders" class="img-swap"></a>
-
-<a href="http://stormrecovery.ny.gov/sandy-social-services-block-grant-ssbg-funding" target="_blank"><img src="images/animatedbuttons/ssbg_off.png" width="230" height="60" alt="NYRising" class="img-swap"></a><a href="about/complaintforms.html"><img src="images/animatedbuttons/complaintforms_off.png" width="230" height="60" alt="Complaint Forms" class="img-swap"></a>
-      
-<a href="https://grantsgateway.ny.gov/IntelliGrants_NYSGG/module/nysgg/goportal.aspx"><img src="images/animatedbuttons/grantsgateway_off.png" width="230" height="60" alt="Grants Gateway" class="img-swap"></a>
-
-
-<div id="governorswidget"><iframe src="http://www.governor.ny.gov/sites/default/themes/governor/govwidget.html" width="240" height="375" style="border:none" scrolling="no"> 
-</iframe>
-</div>
-
-<a href="http://www.twitter.com/#/NYSDOS"><img src="images/animatedbuttons/twitter_off.png" width="230" height="60" alt="Follow DOS on Twitter" class="img-swap"></a>
-
-<a href="http://executiveorder38.ny.gov"><img src="images/animatedbuttons/execorder38_off.png" width="230" height="60" alt="Executive Order 38 Website" class="img-swap"></a>
-<!-- end .sidebar1 -->
-</div>
-    
-    
-  <div class="topcontent">
-   
-
-   
-   
-   
-  <div id="feature_list">
-		  <ul id="tabs">
-			
-            
-            <!--  
-            
-           HOMEPAGE SLIDER UPDATES:  Small panel - text of story, not to exceed 4 line spaces. Thumbnail, 75px width.
-           Large panel image- 435 by 320. Link to featured story item (what the slider is linking to - is on the large
-           panel. 
-            
-            
-            -->
-            
-                 <!--     SMALL PANEL   --> 
-             
-             
-             
-                         <li>
-			<a href="javascript:;">
-            <img src="featurestories/images/aboutdos3thumb.jpg" alt="About the Peoples Department" width="75" height="55" />
-            <span class="panelhead">Discover How "The People's Department" Works for You </span></a>
-			</li>
-             
-                                       
-            <li>
-			<a href="javascript:;">
-            <img src="featurestories/ONA_logo_large_whitefield_thumb.jpg" alt="New York State Office for New Americans Marks its One-Year Anniversary" width="76" height="56" />
-            <span class="panelhead"> New York State <br>
-            Office for New Americans Marks its One-Year Anniversary</span></a>
-			</li>
-             
-                   
-            <li>
-			<a href="javascript:;">
-            <img src="featurestories/images/elicense-sm.jpg" alt="Appearance Enhancement and E-Licensing" width="75" height="55" />
-            <span class="panelhead">Appearance Enhancement &amp; Barber<br>
-            E-Licensing
-            </span></a>
-			</li>
-             
-             
-           <li>
-			<a href="javascript:;">
-            <img src="images/corp21114_thumb.jpg" alt="Corporations" width="75" height="55" />
-            <span class="panelhead">Instant Filing Now Available Online for New Business Corporations & LLC's!</span></a>
-			</li>
-                  
-           
-             
-             
-                            
-       
-                 
-            
-             
-
-                 
-             
-             
-
-             
-
-  
-
-      </ul>
-       
-       
-        <!--      LARGE PANEL   -->        
  
-			<ul id="output">
-            
-                        
-                                <li>
-              <img src="featurestories/images/aboutdos3.jpg" alt="Discover how the people's department works for you."/>
-			  <a href="http://www.dos.ny.gov/about/aboutus.html">Read More </a>
-			  </li>
-                    
-                                  
-                               
-                     
-                                                       
-              <li>
-              <img src="featurestories/ONA_logo_large_whitefield.jpg" alt="New York State Office for New Americans Marks its One-Year Anniversary"/>
-			  <a href="http://www.governor.ny.gov/press/03212014-immigrant-assistance">Read More </a>
-			  </li>
-                    
+
+
+
+
+<tr>
+<td width="889" align="center">
+
+<table><tr><td width="513" class="text">
+      <strong>BOSTON to tour in 2014!</strong>      <br />
+      <br />
+      Tom Scholz' band BOSTON will embark on a highly anticipated summer tour following the successful release of their latest album, <em><strong>Life, Love &amp; Hope</strong></em>. The tour will kick off on June 5 at the Seminole Hard Rock Live in Hollywood, FL.  Always a huge crowd pleaser with their high-energy stage show, out-of-this-world sound, and remarkable musicianship and singing, BOSTON will feature the personnel and music from their highly acclaimed 2012 tour with some exciting additions.  The band prides itself on performing a totally live show without the use of prerecorded music or technical enhancements, delivering the exceptional sound that is faithful to their studio recordings. <br />
+      <br />
+
+BOSTON burst onto the music scene with their eponymous best-selling debut album in 1976, and never looked back.  With over 17 million copies sold, Boston generated hits such as "More Than a Feeling," "Peace of Mind," and "Smokin'," rock staples that are still in heavy rotation today.  Their second effort, Don't Look Back was another chart-topper that confirmed their place in rock history, followed by Third Stage, which hit #1 on the charts, with the top single of 1986, "Amanda."  With over 31 million albums sold to date, their music has stood the test of time, as evidenced by live BOSTON audiences that span generations. <br />
+      <br />
+
+Last December, BOSTON released their newest studio album, <em><strong>Life, Love &amp; Hope</strong></em> on Frontiers Records. More than a decade in the making, <em><strong>Life, Love &amp; Hope</strong></em> features 11 tracks embodying the classic and beloved BOSTON sound, as well as the latest in the evolution of Tom Scholz' musical artistry.   <br />
+      <br />
+
+Scholz has been a longstanding advocate of the vegetarian lifestyle, and prevention of cruelty and suffering to animals both nonhuman and human.  This summer, at selected concerts on the tour, there will be a promotional sale of the BOSTON CD, Greatest Hits.  Every CD sold comes with a chance to win an Epiphone guitar signed by Tom Scholz.  The winner from each show will be announced later that night.  Net proceeds of the guitar contest will be split between <a href="http://www.seashepherd.org/" target="_blank" class="white">Sea Shepherd Conservation Society</a> and the <a href="http://www.shrinershospitalsforchildren.org/" target="_blank" class="white">Shriners Hospitals for Children</a>. <br />
+      <br />
+
+Sea Shepherd Conservation Society's mission is to end the destruction of habitat and slaughter of wildlife in the world’s oceans in order to conserve and protect ecosystems and species.  "What greater legacy can you leave than because of you a species survived, because of you a habitat was protected," said Sea Shepherd Conservation Society founder, Captain Paul Watson. <br />
+      <br />
+
+The Shriners operate a network of 22 Hospitals for Children specializing in orthopedic, cleft lip and palette, spinal cord injury and burn care regardless of the patients’ ability to pay. <br />
+      <br />
+
+SiriusXM will broadcast an exclusive special on the making of BOSTON's 6th studio album, <em><strong>Life, Love &amp; Hope</strong></em>, to its listeners across North America this week.  “BOSTON’s <em><strong>Life, Love &amp; Hope</strong></em> Album Track-By-Track Special” with Tom Scholz and SiriusXM host Meg Griffin will air on SiriusXM’s Classic Rewind channel on March 10 at 6pm ET, with replays scheduled throughout the week.  In addition, SiriusXM's U.S. subscribers will have the chance to win a trip to Las Vegas to see BOSTON's concert at The Joint at Hard Rock Hotel &amp; Casino.  For more information, visit <a href="http://www.siriusxm.com/classicrewind" target="_blank" class="white">www.siriusxm.com/classicrewind</a>. <br />
+      <br />
+
+BOSTON is also offering a variety of VIP packages on their upcoming tour.  Packages include premium tickets, pre-show party, exclusive merchandise &amp; more.  For more detail, visit <a href="http://www.Facebook.com/bandBOSTON" target="_blank" class="white">www.Facebook.com/bandBOSTON</a>. <br />
+      <br />
+
+For the latest confirmed tour dates, please visit the official website: www.BandBOSTON.com.  To receive updated tour information and interact with BOSTON fans, please join our FaceBook page at <a href="http://www.Facebook.com/bandBOSTON" target="_blank" class="white">www.Facebook.com/bandBOSTON</a>.
+
+
+</td>
+<td width="359"></td>
+</tr></table>
+
+ <table class="text" width="888" border="0" cellspacing="2" cellpadding="0">
+ 
+<tr>
+										<td colspan="4">&nbsp;</td>
+										
+			</tr>
+        <tr>
+			 <td colspan="4">&nbsp;</td>
+										
+		</tr>
+                                    <tr>
+										<td width="111"><b>Date</b></td>
+									  <td width="175"><b>City</b></td>
+									  <td width="305"><b>Venue</b></td>
+									  <td width="287">&nbsp;</td>
+			</tr>
+									<tr>
+										<td width="111">June 5 2014</td>
+									  <td width="175">Hollywood, FL</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0D004C5B8530654D" target="_blank" class="white">Seminole Hard Rock Live </a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+										<td width="111">June 6 2014</td>
+									  <td width="175">Clearwater, FL</td>
+									  <td width="305"><a href="http://www.rutheckerdhall.com/event/boston/14818/?loc=mini-cal" target="_blank" class="white">Ruth Eckerd Hall</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                   
+                                    <tr>
+										<td width="111">June 7 2014</td>
+									  <td width="175">St. Augustine, FL</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/22004C63A6756EB4" target="_blank" class="white">The Saint Augustine Amphitheatre</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
                                     
-                                                                 
-              <li>
-              <img src="featurestories/images/elicense.jpg" alt="Appearance Enhancement and Barber E-Licensing<"/>
-			  <a href="http://licensecenter.ny.gov/business-individual-licenses">Read More </a>
-			  </li>
-                    
-            
-              
-                                  
-                                  
-                                  
-                                        
-                                 
-                         <li>
-              <img src="images/corp21114.jpg" alt="Instant filing available for Corporations"/>
-			  <a href="http://www.governor.ny.gov/press/02102014-accelerate-business-filings">Read More </a>
-			  </li>
-                    
-                     
-                     
-                     
-                     
-                     
-          
-            
-                     
-  
+                                    <tr>
+										<td width="111">June 10 2014</td>
+									  <td width="175">Charlotte, NC</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0E004C63EFAED21B" target="_blank" class="white">Uptown Amphitheatre at the Music Factory</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">June 11 2014</td>
+									  <td width="175">Chattanooga, TN</td>
+									  <td width="305"><a href="http://www.riverbendfestival.com/" target="_blank" class="white">Riverbend Festival</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+										<td width="111">June 13 2014</td>
+									  <td width="175">Biloxi, MS</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/1B004C5B98558A17" target="_blank" class="white">Hard Rock Biloxi Hotel</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+										<td width="111">June 14 2014</td>
+									  <td width="175">Atlanta, GA</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0E004C52DAFE55B7" target="_blank" class="white">Verizon Wireless Amphitheater</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">June 15 2014</td>
+									  <td width="175">Southaven, MS</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/1B004C64D21597E7" target="_blank" class="white">Snowden Grove Amphitheatre</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">June 17 2014</td>
+									  <td width="175">Houston, TX</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0C004C65D1EF5227" target="_blank" class="white">Cynthia Woods</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">June 18 2014</td>
+									  <td width="175">Allen, TX</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0C004C5CBB46DE01" target="_blank" class="white">Allen Event Center</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">June 20 2014</td>
+									  <td width="175">St. Louis, MO</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/" target="_blank" class="white">Verizon Wireless Amph. St. Louis</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">June 21 2014</td>
+									  <td width="175">Chicago, IL</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/04004C6478EB3C7F" target="_blank" class="white">Montrose Beach</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                     <tr>
+										<td width="111">June 23 2014</td>
+									   <td width="175">Toronto, ON</td>
+									  <td width="305"><a href="http://concerts.livenation.com/event/10004C638B06307F?crosssite=TM_US:734623:131073" target="_blank" class="white">Molson Canadian Amphitheater</a></td>
+									   <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+										<td width="111">June 24 2014</td>
+									  <td width="175">Detroit, MI</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/boston-heaven-on-earth-tour-clarkston-michigan-06-24-2014/event/08004C5C1590AC58?artistid=734623&majorcatid=10001&minorcatid=1" target="_blank" class="white">DTE</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+										<td width="111">June 27 2014</td>
+									  <td width="175">Bethel, NY</td>
+									  <td width="305"><a href="https://www.bethelwoodscenter.org/bwevents/eventdetail.aspx?id=468" target="_blank" class="white">Bethel Woods </a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">June 28 2014</td>
+									  <td width="175">Uncasville, CT</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/1D004C69BD075FBA" target="_blank" class="white">Mohegan Sun Arena</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">June 29 2014</td>
+									  <td width="175">Holmdel, NJ</td>
+									  <td width="305"><a href="https://www.ticketmaster.com/event/02004C411CACE1FD" target="_blank" class="white">PNC Bank Arts Center</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 1 2014</td>
+									  <td width="175">Long Island, NY</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/1D004C3E035EA793" target="_blank" class="white">Nikon at Jones Beach Theater</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 2 2014</td>
+									  <td width="175">Bangor, ME</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/01004C643A06100D?brand=bangorwp&camefrom=CFC_BWP_07_02_Boston_Web" target="_blank" class="white">Bangor Waterfront</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                     <tr>
+										<td width="111">July 3 2014</td>
+									  <td width="175">Gilford, NH</td>
+									  <td width="305"><a href="http://www.meadowbrook.net/?page=event_info&show_code=070314" target="_blank" class="white">Meadowbrook</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 8 2014</td>
+									  <td width="175">Lewiston, NY</td>
+									  <td width="305"><a href="http://www.artpark.net/content/pages/tuesday-in-the-park-boston" target="_blank" class="white">Artpark</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                      <tr>
+										<td width="111">July 9 2014</td>
+									  <td width="175">Verona, NY</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/00004C7FEB8A838A" target="_blank" class="white">Turning Stone Resort Casino</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                     <tr>
+										<td width="111">July 12 2014</td>
+									  <td width="175">Big Flats, NY</td>
+									  <td width="305"><a href="http://tagstickets.com/index.asp?pageId=15&pId=218" target="_blank" class="white">Tag's Summer Stage</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 13 2014</td>
+									  <td width="175">Bethlehem, PA</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/02004C66B11AAFCB" target="_blank" class="white">Sands Bethlehem Event Center</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 15 2014</td>
+									  <td width="175">Pittsburgh, PA</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/16004C5A8C645959?brand=promowestns" target="_blank" class="white">Stage AE - Outdoors</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                     <tr>
+										<td width="111">July 19 2014</td>
+									  <td width="175">Durant, OK</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0C004C73BE29E867" target="_blank" class="white">Choctaw Event Center</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                     <tr>
+										<td width="111">July 20 2014</td>
+									  <td width="175">Cedar Park, TX</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0C004C6EAC9FE26A" target="_blank" class="white">Cedar Park Center</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                   
+									<tr>
+										<td width="111">July 22 2014</td>
+			  							<td width="175">Albuquerque, NM</td>
+			  							<td width="305"><a href="http://www.ticketmaster.com/event/1E004C66A52D4B8E" target="_blank" class="white">Sandia Amphitheatre</a></td>
+			  							<td>&nbsp;</td>
+                    				</tr>
+                    				
+                                    <tr>
+										<td width="111">July 25 2014</td>
+									  <td width="175">Phoenix, AZ</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/19004C5BEB2395DC" target="_blank" class="white">Comerica</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 26 2014</td>
+									  <td width="175">Las Vegas, NV</td>
+									  <td width="305"><a href="http://www.pechanga.com/tickets/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::name=BostonB" target="_blank" class="white">The Joint at Hard Rock Hotel</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 27 2014</td>
+									  <td width="175">Temecula, CA</td>
+									  <td width="305"><a href="http://www.pechanga.com/tickets/Online/default.asp?doWork%3A%3AWScontent%3A%3AloadArticle=Load&BOparam%3A%3AWScontent%3A%3AloadArticle%3A%3Aname=BostonB" target="_blank" class="white">Pechanga Resort & Casino</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 29 2014</td>
+									  <td width="175">Los Angeles, CA</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/09004C67F5E8C7B8" target="_blank" class="white">The Forum</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">July 30 2014</td>
+									  <td width="175">San Diego, CA</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0A004C67B1144EC6" target="_blank" class="white">Humphrey's</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                   
+									<tr>
+										<td width="111">Aug 2 2014</td>
+			 							 <td width="175">San Francisco, CA</td>
+			 							 <td width="305"><a href="http://www.ticketmaster.com/event/1C004C5CE307AE97" target="_blank" class="white">Shoreline Amphitheater</a></td>
+			 						    <td>&nbsp;</td>
+                   					 </tr>
+                   					 
+                                    <tr>
+										<td width="111">Aug 3 2014</td>
+									  <td width="175">Tahoe, CA</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/17004C4BB0B5AD15" target="_blank" class="white">Harveys Outdoor Arena</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                    
+                                    <tr>
+										<td width="111">Aug 5 2014</td>
+									  <td width="175">Salt Lake City, UT</td>
+									  <td width="305"><a href="http://www.ticketingcentral.com/V2/Home.aspx?I=ZhmDAAAAAAC5yxZ4AQAAAABE%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fAAD%2f%2f%2f%2f%2f%2f%2f%2f%2f%2fw%3d%3d" target="_blank" class="white">Usana Amphitheatre</a></td>
+									  <td>&nbsp;</td>
+                                    </tr>
+                                    
+                                     <tr>
+										<td width="111">Aug 6 2014</td>
+									  <td width="175">Denver, CO</td>
+									  <td width="305"><a href="http://www.axs.com/events/249112/boston-tickets" target="_blank" class="white">Fiddlers Green Amphitheatre</a></td>
+									  <td rowspan="3"><strong><br />
+									  </strong></td>
+									  
+									  <tr>
+										<td width="111">Aug 8 2014</td>
+									  <td width="175">Lancaster, NE</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/boston-heaven-on-earth-tour-lincoln-nebraska-08-08-2014/event/06004C74E9BFF06E?artistid=734623&majorcatid=10001&minorcatid=1" target="_blank" class="white">Pinewood Bowl</a></td>
+									  <td rowspan="3"><strong><br />
+									  </strong></td>
+            </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 9 2014</td>
+									  <td width="175">Sparta, WI</td>
+									  <td width="305"><a href="http://mccoymwr.com/home/concert-tour-home.html" target="_blank" class="white">Fort McCoy Army Base</a></td>
+									  <td rowspan="3"><strong><br />
+									  </strong></td>
+            </tr>
+                                    
+                                      <tr>
+										<td width="111">Aug 12 2014</td>
+									  <td width="175">Springfield, IL</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/07004C65D5FAB59E" target="_blank" class="white">Illinois State Fair</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 14 2014</td>
+									  <td width="175">Kansas City, MO</td>
+									  <td width="305"><a href="https://tickets.kcstarlight.com/single/EventListing.aspx" target="_blank" class="white">Starlight Theatre</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 15 2014</td>
+									  <td width="175">Springfield, IL</td>
+									  <td width="305"><a href="http://www.arkansasmusicpavilion.com/events/boston" target="_blank" class="white">Arkansas Music Pavilion</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 16 2014</td>
+									  <td width="175">Rogers, AR</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/boston-heaven-on-earth-tour-nashville-tennessee-08-16-2014/event/1B004C757EA05E96?artistid=734623&majorcatid=10001&minorcatid=1" target="_blank" class="white">The Woods at Fontanel</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 17 2014</td>
+									  <td width="175">Cincinatti, OH</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/16004C78CCA99395" target="_blank" class="white">Horseshoe Cincinnati - The Shoe</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 19 2014</td>
+									  <td width="175">Cleveland, OH</td>
+									  <td width="305"><a href="http://concerts.livenation.com/event/05004C770D1CB555?crosssite=TM_US:734623:40979" target="_blank" class="white">Jacob's Pavilion at Nautica</a></td>
+									 
+                                    </tr>
+                                      
+                                       <tr>
+										<td width="111">Aug 20 2014</td>
+									  <td width="175">Columbus, OH</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/boston-heaven-on-earth-tour-columbus-ohio-08-20-2014/event/05004C74B7D95A16?artistid=734623&majorcatid=10001&minorcatid=1&tm_link=artist_msg-0_05004C74B7D95A16" target="_blank" class="white">LC Pavilion</a></td>
+									 
+                                    </tr>
+                                      
+                                      <tr>
+										<td width="111">Aug 22 2014</td>
+									  <td width="175">Raleigh, NC</td>
+									  <td width="305"><a href="http://www.ticketmaster.com/event/0E004C7F2A4197BC" target="_blank" class="white">The Red Hat Amphitheatre</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 24 2014</td>
+									  <td width="175">Vienna, VA</td>
+									  <td width="305"><a href="http://purchase.tickets.com/buy/TicketPurchase?orgid=44689&pid=7708967&mkt_code=WOLFTRAP" target="_blank" class="white">The Filene Center</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 26 2014</td>
+									  <td width="175">Baltimore, MD</td>
+									  <td width="305"><a href="http://www.ticketfly.com/purchase/event/531901?utm_medium=bks" target="_blank" class="white">Pier Six Pavilion</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Aug 31 2014</td>
+									  <td width="175">Huron, SD</td>
+									  <td width="305"><a href="http://www.sdstatefair.com/events/grandstand.asp" target="_blank" class="white">South Dakota State Fair</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Oct 2 2014</td>
+									  <td width="175">Tokyo, Japan</td>
+									  <td width="305"><a href="http://udo.jp/Artists/Boston/index.html" target="_blank" class="white">Budokan</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Oct 4 2014</td>
+									  <td width="175">Nagoya, Japan</td>
+									  <td width="305"><a href="http://udo.jp/Artists/Boston/index.html" target="_blank" class="white">Aichiken Gym</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Oct 6 2014</td>
+									  <td width="175">Osaka, Japan</td>
+									  <td width="305"><a href="http://udo.jp/Artists/Boston/index.html" target="_blank" class="white">Chuo Gym</a></td>
+									 
+                                    </tr>
+                                    
+                                    <tr>
+										<td width="111">Oct 9 2014</td>
+									  <td width="175">Tokyo, Japan</td>
+									  <td width="305"><a href="http://udo.jp/Artists/Boston/index.html" target="_blank" class="white">Budokan</a></td>
+									 
+                                    </tr>
+                                    
+                                     <tr>
+										<td width="111">&nbsp;</td>
+									  <td width="175">&nbsp;</td>
+									  <td width="305">&nbsp;</td>
+									 
+                                    </tr>
+                                    
+                                     
+                  </table>
+</td>
 
-            
-
- 
-
-   
-    
-
-            
-            
-                        
-
-
-            
-
-
-            
-            
-      
-                      
-            
-            
-
-                
-      </ul>
-
-  </div>
-   
-  </div>
-
-
-<div class="accordionbox">
-  
-  <div id="accordion">
-
-<h3><a href="http://www.dos.ny.gov/info/index.html">Department of State</a></h3>
-	
-    <div style="text-align:center; line-height:200%; font-size:11px;">
-	&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/aboutus.html">About DOS</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/sos/sosmain.html">About the Secretary</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/newsroom.html">Newsroom & Webcasts</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/calendar.html">Calendar of Events</a>&nbsp;&nbsp;<br>&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/funding/">Funding/Bid Opportunities</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/translation.html">Translation</a>&nbsp;&nbsp;&#8226;&nbsp;&nbsp;<a href="http://www.dos.ny.gov/about/contact.asp">Contact Us</a>
-    
-	</div>
-
-<h3><a href="http://www.dos.ny.gov/info/index.html">Administrative Rules </a></h3>
-	
-    <div style="font-size:11px">
-	  The Division publishes information on official state documents and the weekly State Register on rule making activities of state agencies.
-	</div>
-
-
-	<h3><a href="http://www.dos.ny.gov/cmty/index.html">Cemeteries </a></h3>
-	<div style="font-size:11px">
-	  The Division oversees the establishment, maintenance,  and preservation of burial grounds for all not-for-profit cemeteries in New  York.
-	</div>
-
-
-	<h3><a href="http://www.dos.ny.gov/DCEA/">Building Standards &amp; Codes</a></h3>
-	<div style="font-size:11px">The Division works to ensure the health and life safety of all New Yorkers by providing services related to building construction,<br>fire prevention, and energy conservation. Learn how building and energy codes help keep you and your loved ones safe.</div>
-
-	<h3><a href="http://www.dos.ny.gov/about/commissions.html">Commissions &amp; Committees </a></h3>
-	<div style="font-size:11px">The Department provides administrative support to several commissions and committees. In addition, there are three independent entities that reside within DOS:<span class="highlightdarkgrey">&nbsp;&nbsp;&#8226; <a href="http://www.abo.state.ny.us/">Authorities Budget Office </a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/athletic/index.html">New York State Athletic Commission </a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/coog/index.html">Committee on Open Government </a></span></div>
-	
-    
-    <h3><a href="http://www.dos.ny.gov/opd">Office of Planning and Development </a></h3>
-	<div style="font-size:11px">Staff helps local communities plan for and make better use of their land and water resources.
-    <span class="highlightdarkgrey"><br>
-    &#8226; <a href="http://www.dos.ny.gov/grants.html">Apply  for a Grant </a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/revitalize.html">Revitalize Your Community </a>
-    &nbsp;&nbsp;&#8226; <a href="http://www.nyswaterfronts.com/waterfront_natural.asp">Protect and Restore Natural Resources</a></span>
-
-</div>
-    <h3><a href="http://www.dos.ny.gov/consumerprotection">Consumer Protection</a></h3>
-	<div style="font-size:11px">The state's top consumer watchdog and think tank is committed to advocating for and empowering all New Yorkers.<br>   
-	  <span class="highlightdarkgrey">&#8226; <a href="http://www.dos.ny.gov/consumerprotection/scams/consumeralerts_recalls/recall_alerts.htm">Consumer Alerts &amp; Recalls </a> 
-      &nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/consumerprotection/do_not_call/">Do Not Call </a>
-      &nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/consumerprotection/identity_theft/index.htm">Identity Theft </a>
-      &nbsp;&nbsp;&#8226; <a href="https://www.dos.ny.gov/consumerprotection/form/complaintform.asp">Complaint Form </a>
-      &nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/consumerprotection/scams/index.htm">Scam Prevention </a>
-       &nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/consumerprotection/reports/energy_utility_intervention/index.html">Utility Intervention Unit </a>
-      
-      </span>
-  </div>
-    
-
-  <h3><a href="http://www.dos.ny.gov/corps/index.html">Corporations, State Records &amp; Uniform Commercial Code </a></h3>
-  <div style="font-size:11px">
-  <div style="float:left; height:29px; padding: 0px 2px 0px 0px;">&#8226; Search Corporation/Business Entity Database:<br>
-  <span class="subhead3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&middot; <a href="http://www.dos.ny.gov/corps/bus_entity_search.html">Customize Search Criteria &raquo;</a></span>
-     </div>
-  
-  <div id="searchdos2A" style="float:left; height:25px; padding: 4px 0px 0px 0px;">   
-  <form action="http://appext20.dos.ny.gov/corp_public/CORPSEARCH.SELECT_ENTITY" method="post" target="_blank" >
-  <label for="p_entity_name">
-  <input type="text" name="p_entity_name" id="p_entity_name" size="21" class="input2" maxlength="100"></label>
-  <input type="submit" value="Search!" id="gobutt" class="submit2" >
-  <input type="hidden" name="p_name_type" id="p_name_type" value="A">
-  <input type="hidden" name="p_search_type" id="p_search_type" value="BEGINS" >
-  </form></div>
-
-<div style="float:left; width:210px; height:29px; padding: 0px 0px 0px 10px; font-size:11px;">&#8226; <a href="http://www.dos.ny.gov/corps/index.html">Corporation &amp; Business Entity Filings &raquo;</a><br>
-<span class="subhead3">&nbsp;&nbsp;(Corporation, Not-for-Profit, LLC, LLP, LP)</span>
-      </div></div>
-    
-<h3><a href="http://www.dos.ny.gov/licensing/">Licensing </a></h3>
-	<div>
-
-<div style="float:left; width:300px; height:20px; padding: 0px 0px 0px 0px; height: 30px; font-size:11px;">&#8226; Search the Licensee Database:&nbsp;&nbsp;<span class="highlightdarkgrey">&middot; <a href="https://APPEXT20.dos.ny.gov/nydos/selSearchType.do">Real Estate Industry &raquo;</a><br>
-&middot; <a href="http://appext20.dos.ny.gov/lcns_public/chk_load">All Other License Types <span class="subhead3">(Including Real Estate Appraisers)</span> &raquo;</a></span>
-
-      </div>
-
-      <div style="float:left; width:250px; height:25px; padding: 0px 0px 0px 00px; font-size:11px;">&#8226; <a href="http://www.dos.ny.gov/licensing/complaint.html">File a Complaint Against a Licensee  &raquo;</a><br>&#8226; <a href="http://www.dos.ny.gov/licensing/eaccessny.html">eAccessNY <span class="subhead3">(Real Estate Licensing Management)</span>  &raquo;</a></div>
-      
-</div>
-    	
-<h3><a href="http://www.dos.ny.gov/lg/index.html">Local Government</a></h3>
-	
-    <div style="font-size:11px">
-	  A principal resource for New York local governments seeking training and technical assistance.<br>
-      <span class="highlightdarkgrey">&#8226; <a href="http://www.dos.ny.gov/grants.html">Apply  for a Grant</a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/lg/lut/index.html">Training Opportunities for Local Officials</a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/lg/index.html">Reduce Local Government Costs </a>&nbsp;&nbsp;&#8226; <a href="http://www.dos.ny.gov/lg/publications.html">Publications </a></span>
-	</div>
-    
-</div>
-</div>
-
-
-      <!-- 
-<div id="phones_box">
-<div style="height: 30px; padding: 5px 0px 4px 10px; border-bottom: 1px dashed #eadcae;background-image:url(images/ochrearrow.png); background-repeat:no-repeat; background-position:left;">
-<strong><span class="highlightdarkorange"> &nbsp;&nbsp;Want to incorporate? </span><br>
-&nbsp;</strong> (518) 473-2492</div>
-
-
-<div style="height: 30px; padding: 5px 0px 4px 10px; border-bottom: 1px dashed #eadcae; background-image:url(images/ochrearrow.png); background-repeat:no-repeat; background-position:left;">
- <strong><span class="highlightdarkorange"> &nbsp;&nbsp;Need a license? </span></strong><br>
-&nbsp; (518) 474-4429<br></div>
-
-
-<div style="height: 30px; padding: 5px 0px 4px 10px; border-bottom: 1px dashed #eadcae; background-image:url(images/ochrearrow.png); background-repeat:no-repeat; background-position:left;">
-<strong><span class="highlightdarkorange"> &nbsp;&nbsp;Need consumer protection advice? </span></strong><br>
-&nbsp;&nbsp;(518) 474-8583 / 1 (800) 697-1220<br></div>   
-
-    
-</div>
-
--->
+</tr></table>
 
 
 
-
-<br class="clearfloat">
-  
-  <div class="footer_508">
-   <a href="http://www.dos.ny.gov">DOS Home</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/services/home.html">A to Z Index</a> 
-    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/applications.html">Applications</a> 
-    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/access.html">Accessibility</a> 
-    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/privacy.html">Privacy Policy</a> 
-    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/disclaimer.html">Disclaimer</a> 
-    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.dos.ny.gov/about/contact.asp">Contact Us</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://get.adobe.com/reader/" target="_blank"><img src="images/get_adobe_reader3.png" alt="adobe reader"  width="84" height="24"></a>
-    <!--&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://twitter.com/NYDeptofState" target="_blank"><img src="../images/twitter_logo24x24.png" alt="Twitter" width="24" height="24" align="absmiddle"></a>--> 
-  
-        <script type="application/javascript">
-$(document).ready(function() {
-    // Declare the array variable
-    var imgSwap = [];
-    // Select all images used in the image swap function - in our case class "img-swap"
-    $(".img-swap").each(function(){
-        // Loop through all images which are used in our image swap function
-        // Get the file name of the active images to be loaded by replacing _off with _on
-        imgUrl = this.src.replace("_off","_on");
-        // Store the file name in our array
-        imgSwap.push(imgUrl);
-    });
-    // Pass the array to our preload function
-    $(imgSwap).preload();
-});
-</script>
-  
-  
-  
-</div>
-<!-- end .container --></div>
-<div id='ZN_6eSONGWExC3sowR'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
 </body>
 </html>

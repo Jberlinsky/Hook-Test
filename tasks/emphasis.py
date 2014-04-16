@@ -1,15 +1,11 @@
-from __main__ import *
-
-import os
 from bs4 import BeautifulSoup
+from __main__ import funcs, attrNames
 
-index = 0
-filename = "index.html"
+attrNames.append('hasEmphasis')
 
-while os.path.isfile("./data/" + filename):
+def addEmphasisAttr(info, fileObject):
 
-	f = open("./data/" + filename)
-	soup = BeautifulSoup(f)
+	soup = BeautifulSoup(fileObject)
 
 	i = 0
 	for em in soup.find_all('em'):
@@ -19,10 +15,7 @@ while os.path.isfile("./data/" + filename):
 	if i:
 		hasEmphasis = True
 
-	infoList[index].append(hasEmphasis)
+	info.append(hasEmphasis)
+	return
 
-	f.close()
-	index = index + 1
-	filename = "index.html." + str(index)
-
-featureNames.append('hasEmphasis')
+funcs.append(addEmphasisAttr)

@@ -1,1215 +1,777 @@
-
 <!DOCTYPE html>
-<html xmlns:og="http://opengraphprotocol.org/schema/"
-      xmlns:fb="http://www.facebook.com/2008/fbml">
+<html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-<script type="text/javascript">var IMDbTimer={starttime: new Date().getTime()};</script>
-<script>(function(t){ (t.events = t.events || {})["csm_head_pre_title"] = new Date().getTime(); })(IMDbTimer);</script>
-<script>
-var addClickstreamHeadersToAjax = function(xhr) {
-    xhr.setRequestHeader("x-imdb-parent-id", "15D1VJX4JSRKJJJH2PWT");
-};
-</script>
+<title>craigslist: ann arbor classifieds for jobs, apartments, personals, for sale, services, community, and events</title>
 
-<title>IMDb - Movies, TV and Celebrities</title>
-<script>(function(t){ (t.events = t.events || {})["csm_head_post_title"] = new Date().getTime(); })(IMDbTimer);</script>
-<link rel="canonical" href="http://www.imdb.com/" /><meta property="og:url" content="http://www.imdb.com/" />
-
-<meta name="title" content="IMDb - Movies, TV and Celebrities">
-<meta name="description" content="IMDb, the world&#x27;s most popular and authoritative source for movie, TV and celebrity content.">
-
-<meta name="keywords" content="movies,films,movie database,actors,actresses,directors,hollywood,stars,quotes">
-<script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
-<link rel="stylesheet" type="text/css" href="http://i.media-imdb.com/images/SF18c9c4eef70b944791c40eef50c0df79/css/min/consumerhome.css" ><link rel="stylesheet" type="text/css" href="http://i.media-imdb.com/images/SF7b8b11c6ebd55d6d832218bf519571ff/css2/site/consumer-navbar-mega.css" ><!--[if IE]><link rel="stylesheet" type="text/css" href="http://i.media-imdb.com/images/SF21a5aa0c95fa4c17a008ed83af713e69/wheel/ie.css" ><![endif]--><script>(function(t){ (t.events = t.events || {})["csm_head_post_css"] = new Date().getTime(); })(IMDbTimer);</script>
-
-
-<meta name="application-name" content="IMDb" />
-<meta name="msapplication-tooltip" content="IMDb Web App" />
-<meta name="msapplication-window" content="width=1500;height=900" />
-<meta name="msapplication-task" content="name=Find Movie Showtimes;action-uri=/showtimes/;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
-<meta name="msapplication-task" content="name=Watch HD Trailers;action-uri=/features/hdgallery;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
-<meta name="msapplication-task" content="name=What's On TV Tonight;action-uri=/sections/tv/;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
-<meta name="msapplication-task" content="name=Get Latest Entertainment News;action-uri=/news/top;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
-<meta name="msapplication-task" content="name=Sign-in;action-uri=/register/login;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
-<script>(function(t){ (t.events = t.events || {})["csm_head_pre_icon"] = new Date().getTime(); })(IMDbTimer);</script>
-<link rel="icon" type="image/ico" href="http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico" />
-<link rel="shortcut icon" type="image/x-icon" href="http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/desktop-favicon.ico" />
-<link href="http://i.media-imdb.com/images/SFf8f1b67827a5df7f13bdfc19d935ed62/mobile/apple-touch-icon-web.png" rel="apple-touch-icon"> 
-<link href="http://i.media-imdb.com/images/SF7992061047d0cfee4f580f432264f5a5/mobile/apple-touch-icon-web-76x76.png" rel="apple-touch-icon" sizes="76x76"> 
-<link href="http://i.media-imdb.com/images/SF6ff760bc2f74d7aa806c6cdea88da4ee/mobile/apple-touch-icon-web-120x120.png" rel="apple-touch-icon" sizes="120x120"> 
-<link href="http://i.media-imdb.com/images/SFf1bafc988ae4011ee3f42c0144284ce4/mobile/apple-touch-icon-web-152x152.png" rel="apple-touch-icon" sizes="152x152"> 
-<link rel="search" type="application/opensearchdescription+xml"
-      href="http://i.media-imdb.com/images/SFccbe1e4d909ef8b8077201c3c5aac349/imdbsearch.xml" title="IMDb" />
-<script>(function(t){ (t.events = t.events || {})["csm_head_post_icon"] = new Date().getTime(); })(IMDbTimer);</script>
- <link rel="alternate" type="application/rss+xml" title="Born On This Date" href="http://rss.imdb.com/daily/born/" /><link rel="alternate" type="application/rss+xml" title="Died On This Date" href="http://rss.imdb.com/daily/died/" />
-<meta property="fb:app_id" content="115109575169727" />
-<meta property="og:title" content="IMDb - Movies, TV and Celebrities" />
-<meta property="og:site_name" content="IMDb" />
-<script>(function(t){ (t.events = t.events || {})["csm_head_pre_ads"] = new Date().getTime(); })(IMDbTimer);</script>
-<!-- start m/s/a/_g_a_s , head -->
-<!-- end m/s/a/_g_a_s , head -->
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="craigslist provides local classifieds and forums for jobs, housing, for sale, personals, services, local community, and events">
+<meta name="google-site-verification" content="Ie0Do80edB2EurJYj-bxqMdX7zkMjx_FnjtQp_XMFio">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=1">
+<link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/cl.css?v=d7ddfec158454296b1f84075dfbb9ce7">
+<link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=c95646bf9b5502bbfb2b7a587b0e53e4">
+<link rel="prefetch" href="//www.craigslist.org/js/tocs.min.js?v=a05c567d7468ddde733416fdd1571fa0">
+<!--[if lt IE 9]>
+<script  src="//www.craigslist.org/js/html5shiv.min.js?v=42e8031bc7ca9d67a48f4a5feff7bf29" type="text/javascript" ></script>
+<![endif]-->
+<!--[if lte IE 7]>
+<script  src="//www.craigslist.org/js/json2.min.js?v=178d4ad319e0e0b4a451b15e49b71bec" type="text/javascript" ></script>
+<![endif]-->
 </head>
+<body class="homepage">
+<script type="text/javascript"><!--
+    function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+    var pagetype, pagemode;
+    (function(){
+        var h = document.documentElement;
+        h.className = h.className.replace('nojs', 'js');
+        var b = document.body;
+        var bodyClassList = b.className.split(/\s+/);;
+        pagetype = bodyClassList[0];
+        var fmt = C('cl_fmt');
+        if (fmt) {
+            pagemode = fmt;
+            bodyClassList.push(fmt);
+        } else if (screen.width <= 480) {
+            pagemode = 'mobile';
+            bodyClassList.push(pagemode);
+        }
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        if (width > 1000) { bodyClassList.push('w1024'); }
+        if (typeof catType !== 'undefined') {
+            var mode = (decodeURIComponent(C('cl_tocmode') || '').match(new RegExp(catType + ':([^,]+)', 'i')) || {})[1];
+            for (var i = 0, len = bodyClassList.length; i < len; i++){
+                if (bodyClassList[i] === 'map') { mode = undefined; }
+            }
+            if (mode) { bodyClassList.push(mode); }
+        }
+        b.className = bodyClassList.join(' ');
+    }());
+--></script>
 
-<body bgcolor="#ffffff" text="#000000" id="styleguide-v2" class="fixed">
-<!-- start m/s/a/_g_a_s , body -->
-<!-- end m/s/a/_g_a_s , body -->
-
-<div id="wrapper">
-  
-<div id="root">
-<layer name="root">
-  
-
-
-
-
-<div id="nb20" class="navbarSprite">
-    <div id="supertab">
-
-
-<!-- _get_ad_for_slot(TOP_AD) -->
+<div id="mobileformatnotice" style="display: none;">
+	Welcome to the mobile format of craigslist. Looking for the <span class="desktopmode">standard format</span>?
 </div>
-	<div id="navbar">
-        <noscript><link rel="stylesheet" type="text/css" href="http://i.media-imdb.com/images/SF52e6b9f11712d3ec552179f6c869b63a/css2/site/consumer-navbar-no-js.css"></noscript>
-		<span id="home_img_holder">            <a    onclick="(new Image()).src='/rg/home/navbar/images/b.gif?link=%2F%3Fref_%3Dnv_home';"     href="/?ref_=nv_home"    id='home_img' class='navbarSprite home' title='Home' ></a>
+<article id="pagecontainer">
+	<section class="body">
+	<table cellspacing="0" cellpadding="0" summary="page" id="container">
+		<tr>
+			<td id="leftbar">
 
-            <span class="alt_logo">
-                <a    onclick="(new Image()).src='/rg/home/navbar/images/b.gif?link=%2F%3Fref_%3Dnv_home';"     href="/?ref_=nv_home"    title='Home' >IMDb</a>
-            </span>
-        </span>
+	
+		<div id="logo">
+			<a href="//www.craigslist.org/about/sites">craigslist</a> 
+		</div>
 
+		<ul id="postlks">
+			<li><a id="post" href="https://post.craigslist.org/c/aaa?lang=en">post to classifieds</a></li>
+			<li><a href="https://accounts.craigslist.org">my account</a></li>
+		</ul>
 
-<form    onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"    action="/find"    method="get" id="navbar-form" class="nav-searchbar-inner" accept-charset="utf-8" >
+		<form id="search" action="/search/" method="GET">
+			<div>search craigslist</div>
+            <input type="hidden" name="sort" value="rel">
+			<input type="hidden" name="areaID" id="areaID" value="172">
+			<input type="hidden" name="subAreaID" id="subAreaID" value="">
+			<input id="query" name="query" data-suggest="search" autocorrect="off" autocapitalize="off"><br>
+			<select id="catAbb" name="catAbb">
+				<option value="ccc">community</option>
+				<option value="eee">events</option>
+				<option value="ggg">gigs</option>
+				<option value="hhh">housing</option>
+				<option value="jjj">jobs</option>
+				<option value="ppp">personals</option>
+				<option value="res">resumes</option>
+				<option value="sss" selected="selected">for sale</option>
+				<option value="bbb">services</option>
+			</select>
+			<input id="go" type="submit" value="&gt;">
+		</form>
 
-<div id="nb_search" >
+		
+		<h4 id="calban"><a href="eve/">event calendar</a></h4>
+		<table class="cal" summary="calendar">
+			<tr class="dys"><th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr>
 
-  <noscript><div id="more_if_no_javascript"><a href="/search/">More</a></div></noscript>
-  <button id="navbar-submit-button" class="primary btn" type="submit"><div class="magnifyingglass navbarSprite"></div></button>
-  <input type="text" autocomplete="off" value="" name="q" id="navbar-query" placeholder="Find Movies, TV shows, Celebrities and more..." >
-  <div class="quicksearch_dropdown_wrapper">
+			<tr>
+<td><a href="eve/index20140413.html">13</a></td>
+<td><a href="eve/index20140414.html">14</a></td>
+<td class="tdy"><a href="eve/index20140415.html">15</a></td>
+<td><a href="eve/index20140416.html">16</a></td>
+<td><a href="eve/index20140417.html">17</a></td>
+<td><a href="eve/index20140418.html">18</a></td>
+<td><a href="eve/index20140419.html">19</a></td>
+</tr>
+<tr>
+<td><a href="eve/index20140420.html">20</a></td>
+<td><a href="eve/index20140421.html">21</a></td>
+<td><a href="eve/index20140422.html">22</a></td>
+<td><a href="eve/index20140423.html">23</a></td>
+<td><a href="eve/index20140424.html">24</a></td>
+<td><a href="eve/index20140425.html">25</a></td>
+<td><a href="eve/index20140426.html">26</a></td>
+</tr>
+<tr>
+<td><a href="eve/index20140427.html">27</a></td>
+<td><a href="eve/index20140428.html">28</a></td>
+<td><a href="eve/index20140429.html">29</a></td>
+<td><a href="eve/index20140430.html">30</a></td>
+<td><a href="eve/index20140501.html">1</a></td>
+<td><a href="eve/index20140502.html">2</a></td>
+<td><a href="eve/index20140503.html">3</a></td>
+</tr>
+<tr>
+<td><a href="eve/index20140504.html">4</a></td>
+<td><a href="eve/index20140505.html">5</a></td>
+<td><a href="eve/index20140506.html">6</a></td>
+<td><a href="eve/index20140507.html">7</a></td>
+<td><a href="eve/index20140508.html">8</a></td>
+<td><a href="eve/index20140509.html">9</a></td>
+<td><a href="eve/index20140510.html">10</a></td>
+</tr>
 
-<select
-    class="quicksearch_dropdown navbarSprite"
-    name="s"
-    id="quicksearch"
-    onchange="jumpMenu(this); suggestionsearch_dropdown_choice(this);">
+		</table>
+	
 
-    <option  
-     value="all">All</option>
-    <option  
-     value="tt">Titles</option>
-    <option  
-     value="ep">TV Episodes</option>
-    <option  
-     value="nm">Names</option>
-    <option  
-     value="co">Companies</option>
-    <option  
-     value="kw">Keywords</option>
-    <option  
-     value="ch">Characters</option>
-    <option  
-     value="vi">Videos</option>
-    <option  
-     value="qu">Quotes</option>
-    <option  
-     value="bi">Bios</option>
-    <option  
-     value="pl">Plots</option>
-</select>
+		<ul class="leftlinks" id="user_resources">
 
-  </div>
+			
+			
+			<li><a href="//www.craigslist.org/about/help/">help, faq, abuse, legal</a></li>
+			<li><a href="//www.craigslist.org/about/scams">avoid scams &amp; fraud</a></li>
+			<li><a href="//www.craigslist.org/about/safety">personal safety tips</a></li>
+			<li><a href="//www.craigslist.org/about/terms.of.use">terms of use <span class="update">new</span></a></li>
+			<li><a href="//www.craigslist.org/about/privacy.policy">privacy policy <span class="update">updated</span></a></li>
+			<li><a href="//www.craigslist.org/about/help/system-status">system status</a></li>
+		</ul>
 
-<div id="navbar-suggestionsearch"></div>
-</div>
+		<ul class="leftlinks" id="about_craigslist">
+			<li><a href="//www.craigslist.org/about/">about craigslist</a></li>
+            <li><a href="//www.craigslist.org/about/craigslist_is_hiring" style="color: #0b0">craigslist is hiring in sf</a></li>
+			<li><a href="//www.craigslist.org/about/open_source">craigslist open source</a></li>
+			<li><a href="http://blog.craigslist.org/">craigslist blog</a></li>
+			<li><a href="//www.craigslist.org/about/best/all">best-of-craigslist</a></li>
+			<li><a href="http://blip.tv/craigslisttv">craigslist TV</a></li>
+			<li><a href="http://www.craigslistjoe.com/">"craigslist joe"</a></li>
+			<li><a href="http://craigconnects.org/">craig connects</a></li>
+			
+			
 
-</form>
+		</ul>
 
+		
+			</td>
 
-<div id="megaMenu">
-    <ul id="consumer_main_nav" class="main_nav">
-        <li class="spacer"></li>
-        <li class="css_nav_item" id="navTitleMenu" aria-haspopup="true">
-            <p class="navCategory">
-                <a     href="/movies-in-theaters/?ref_=nv_tp_inth_1"    >Movies</a>,
-                <a     href="/tv/?ref_=nv_tp_tvhm_2"    >TV</a><br />
-                & <a     href="/showtimes/?ref_=nv_tp_sh_3"    >Showtimes</a></p>
-            <span class="downArrow"></span>
-            <div id="navMenu1" class="sub_nav">
-                <div id="titleAd"></div>
-                <div class="subNavListContainer">
-                    <h5>MOVIES</h5>
-                    <ul>
-                        
-                        <li><a     href="/movies-in-theaters/?ref_=nv_mv_inth_1"    >In Theaters</a></li>
-                        <li><a     href="/showtimes/?ref_=nv_mv_sh_2"    >Showtimes & Tickets</a></li>
-                        <li><a     href="/trailers/?ref_=nv_mv_tr_3"    >Latest Trailers</a></li>
-                        <li><a     href="/movies-coming-soon/?ref_=nv_mv_cs_4"    >Coming Soon</a></li>
-                        <li><a     href="/calendar/?ref_=nv_mv_cal_5"    >Release Calendar</a></li>
-                    </ul>
-                    <h5>CHARTS & TRENDS</h5>
-                    <ul>
-                        <li><a     href="/search/title?count=100&title_type=feature,tv_series&ref_=nv_ch_mm_1"    >Popular Movies & TV</a></li>
-                        <li><a     href="/chart/?ref_=nv_ch_cht_2"    >Box Office</a></li>
-                        <li><a     href="/search/title?count=100&groups=oscar_best_picture_winners&sort=year,desc&ref_=nv_ch_osc_3"    >Oscar Winners</a></li>
-                        <li><a     href="/chart/top?ref_=nv_ch_250_4"    >Top 250</a></li>
-                        <li><a     href="/genre/?ref_=nv_ch_gr_5"    >Most Popular by Genre</a></li>
-                    </ul>
-                </div>
-                <div class="subNavListContainer">
-                    <h5>TV & VIDEO</h5>
-                    <ul>
-                        <li><a     href="/tv/?ref_=nv_tvv_hm_1"    >TV Home</a></li>
-                        <li><a     href="/tvgrid/?ref_=nv_tvv_ls_2"    >On Tonight</a></li>
-                        <li><a     href="/watchnow/?ref_=nv_tvv_wn_3"    >Watch Now on Amazon</a></li>
-                        <li><a     href="/sections/dvd/?ref_=nv_tvv_dvd_4"    >DVD & Blu-Ray</a></li>
-                        <li><a     href="/tv/blog?ref_=nv_tvv_blog_5"    >TV Blog</a></li>
-                    </ul>
-                    <h5>SPECIAL FEATURES</h5>
-                    <ul>
-                        <li><a     href="/sxsw/?ref_=nv_sf_sxsw_1"    >SXSW Film Festival</a></li>
-                        <li><a     href="/oscars/?ref_=nv_sf_rto_2"    >Road to the Oscars 2014</a></li>
-                        <li><a     href="/x-ray/?ref_=nv_sf_xray_3"    >X-Ray for Movies & TV</a></li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-        <li class="spacer"></li>
-        <li class="css_nav_item" id="navNameMenu" aria-haspopup="true">
-            <p class="navCategory">
-                <a     href="/search/name?gender=male,female&ref_=nv_tp_cel_1"    >Celebs</a>,
-                <a     href="/event/?ref_=nv_tp_ev_2"    >Events</a><br />
-                & <a     href="/media/index/rg1176148480?ref_=nv_tp_ph_3"    >Photos</a></p>
-            <span class="downArrow"></span>
-            <div id="navMenu2" class="sub_nav">
-                <div id="nameAd"></div>
-                <div class="subNavListContainer">
-                    <h5>CELEBS</h5>
-                    <ul>
-                        <li><a     href="/search/name?birth_monthday=4-2&refine=birth_monthday&ref_=nv_cel_brn_1"    >Born Today</a></li>
-                        <li><a     href="/news/celebrity?ref_=nv_cel_nw_2"    >Celebrity News</a></li>
-                        <li><a     href="/search/name?gender=male,female&ref_=nv_cel_m_3"    >Most Popular Celebs</a></li>
-                    </ul>
-                    <h5>PHOTOS</h5>
-                    <ul>
-                        <li><a     href="/media/index/rg1176148480?ref_=nv_ph_ls_1"    >Latest Stills</a></li>
-                        <li><a     href="/media/index/rg1528338944?ref_=nv_ph_lp_2"    >Latest Posters</a></li>
-                        <li><a     href="/sections/photos/premieres/?ref_=nv_ph_prem_3"    >Movie & TV Premieres</a></li>
-                        <li><a     href="/sections/photos/red_carpet/?ref_=nv_ph_red_4"    >On the Red Carpet</a></li>
-                        <li><a     href="/sections/photos/special_galleries/?ref_=nv_ph_sp_5"    >Special Galleries</a></li>
-                    </ul>
-                </div>
-                <div class="subNavListContainer">
-                    <h5>EVENTS</h5>
-                    <ul>
-                        <li><a     href="/sxsw/?ref_=nv_ev_sxsw_1"    >SXSW Film Festival</a></li>
-                        <li><a     href="/oscars/?ref_=nv_ev_rto_2"    >Road to the Oscars</a></li>
-                        <li><a     href="/emmys/?ref_=nv_ev_rte_3"    >Road to the Emmys</a></li>
-                        <li><a     href="/comic-con/?ref_=nv_ev_comic_4"    >Comic-Con</a></li>
-                        <li><a     href="/cannes/?ref_=nv_ev_can_5"    >Cannes</a></li>
-                        <li><a     href="/tribeca/?ref_=nv_ev_tri_6"    >Tribeca</a></li>
-                        <li><a     href="/sundance/?ref_=nv_ev_sun_7"    >Sundance</a></li>
-                        <li><a     href="/event/?ref_=nv_ev_all_8"    >More Popular Events</a></li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-        <li class="spacer"></li>
-        <li class="css_nav_item" id="navNewsMenu" aria-haspopup="true">
-            <p class="navCategory">
-                <a     href="/news/top?ref_=nv_tp_nw_1"    >News</a> &<br />
-                <a     href="/boards/?ref_=nv_tp_bd_2"    >Community</p>
-            <span class="downArrow"></span>
-            <div id="navMenu3" class="sub_nav">
-                <div id="latestHeadlines">
-                    <div class="subNavListContainer">
-                        <h5>LATEST HEADLINES</h5>
-                        
-<ul>
-    <li itemprop="headline">
-        <a     href="/news/ni57016029/?ref_=nb_nwt_1"    >
-            Aaron Paul&#x2019;s &#x2018;Hellion&#x2019; Heading for Cannes</a><br />
-            <span class="time">7 hours ago
-</span>
-    </li>
-    <li itemprop="headline">
-        <a     href="/news/ni57017161/?ref_=nb_nwt_2"    >
-            Publicist and Festival Programmer Lewis Tice Dies at 44</a><br />
-            <span class="time">2 hours ago
-</span>
-    </li>
-    <li itemprop="headline">
-        <a     href="/news/ni57017278/?ref_=nb_nwt_3"    >
-            MTV Movie Awards to Honor Channing Tatum With Trailblazer Award</a><br />
-            <span class="time">2 hours ago
-</span>
-    </li>
+			<td id="center">
+				<header id="topban" class="ban">
+					<h2>ann arbor</h2>&nbsp;<sup><a href="http://en.wikipedia.org/wiki/Ann_Arbor">w</a></sup>
+					
+				</header>
+				<table summary="main" id="main">
+					<tr>
+						<td>
+
+							
+		<div id="ccc" class="col">
+		<h4 class="ban"><a href="ccc/" data-alltitle="all community">community</a></h4>
+		<div class="cats">
+	<ul id="ccc0">
+<li><a href="act/">activities</a></li>
+<li><a href="ats/">artists</a></li>
+<li><a href="kid/">childcare</a></li>
+<li><a href="com/">general</a></li>
+<li><a href="grp/">groups</a></li>
+<li><a href="pet/">pets</a></li>
+<li><a href="eve/">events</a></li>
 </ul>
-
-                    </div>
-                </div>
-                <div class="subNavListContainer">
-                    <h5>NEWS</h5>
-                    <ul>
-                        <li><a     href="/news/top?ref_=nv_nw_tp_1"    >Top News</a></li>
-                        <li><a     href="/news/movie?ref_=nv_nw_mv_2"    >Movie News</a></li>
-                        <li><a     href="/news/tv?ref_=nv_nw_tv_3"    >TV News</a></li>
-                        <li><a     href="/news/celebrity?ref_=nv_nw_cel_4"    >Celebrity News</a></li>
-                        <li><a     href="/news/indie?ref_=nv_nw_ind_5"    >Indie News</a></li>
-                    </ul>
-                    <h5>COMMUNITY</h5>
-                    <ul>
-                        <li><a     href="/boards/?ref_=nv_cm_bd_1"    >Message Boards</a></li>
-                        <li><a     href="/czone/?ref_=nv_cm_cz_2"    >Contributor Zone</a></li>
-                        <li><a     href="/games/guess?ref_=nv_cm_qz_3"    >Quiz Game</a></li>
-                        <li><a     href="/poll/?ref_=nv_cm_pl_4"    >Polls</a></li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-        <li class="spacer"></li>
-        <li class="css_nav_item" id="navWatchlistMenu" aria-haspopup="true">
-            
-<p class="navCategory singleLine watchlist"><a     href="/list/watchlist?ref_=nv_wl_all_0"    >Watchlist</a>
-</p>
-<span class="downArrow"></span>
-<div id="navMenu4" class="sub_nav">
-    <h5>
-        RECENTLY ADDED
-    </h5> 
-    <ul id="navWatchlist">
-    </ul>
-    <script>
-    if (!('imdb' in window)) { window.imdb = {}; }
-    window.imdb.watchlistTeaserData = [
-        {
-            href : "/register/login",
-            id : "wlLogin",
-        src  : "http://i.media-imdb.com/images/SF77aec4b719e703a39cac8d5566a9a0e0/navbar/watchlist_slot1_logged_out.jpg"
-        }
-,        {
-        href : "/search/title?count=100&title_type=feature,tv_series",
-        src  : "http://i.media-imdb.com/images/SF58fa0cd127839460ec17b7302830564f/navbar/watchlist_slot2_popular.jpg"
-        }
-,        {
-        href : "/chart/top",
-        src  : "http://i.media-imdb.com/images/SFe1df4328a14bfcbe6b5cf6fad771c2e4/navbar/watchlist_slot3_top250.jpg"
-        }
-    ];
-    </script>
-</div>
-
-        </li>
-        <li class="spacer"></li>
-    </ul>
-    <script>
-    if (!('imdb' in window)) { window.imdb = {}; }
-    window.imdb.navbarAdSlots = {"nameAd":{"clickThru":"http://www.imdb.com/name/nm0000204/","imageUrl":"http://ia.media-imdb.com/images/M/MV5BMjI2NDQxNzUwM15BMl5BanBnXkFtZTcwNDg0MzcyNw@@._V1._SX250_CR0,0,250,315_.jpg","rank":85,"headline":"Natalie Portman"},"titleAd":{"clickThru":"http://www.imdb.com/title/tt0021749/","imageUrl":"http://ia.media-imdb.com/images/M/MV5BNTIzODMwODU2NF5BMl5BanBnXkFtZTcwNzY3NzE5Ng@@._V1._SY315_CR0,0,410,315_.jpg","titleYears":"1931","titleDisplayBase":{"displayTitleTypeOriginal":"movie","primaryTitleText":"City Lights","titleId":"tt0021749","displayTitleType":"movie","regionalTitleTexts":[{"region":"AR","title":"Luces de la ciudad"},{"region":"AT","title":"Lichter der Großstadt"},{"language":"qbn","region":"BE","title":"Stadslichten"},{"language":"bg","region":"BG","title":"Светлините на града"},{"region":"BR","title":"Luzes da Cidade"},{"language":"cs","region":"CSHH","title":"Svetla velkomesta"},{"region":"DE","title":"Lichter der Großstadt"},{"region":"DK","title":"Byens lys"},{"region":"ES","title":"Luces de la ciudad"},{"region":"FI","title":"Kaupungin valot"},{"region":"FR","title":"Les lumières de la ville"},{"region":"GR","title":"Τα φώτα της πόλης"},{"region":"HR","title":"Svjetla velegrada"},{"region":"HU","title":"Nagyvárosi fények"},{"language":"he","region":"IL","title":"Orot Ha-Krah"},{"region":"IT","title":"Luci della città"},{"region":"JP","title":"Machi no hi"},{"region":"MX","title":"Luces de la ciudad"},{"region":"NO","title":"Byens lys"},{"region":"PE","title":"Luces de la ciudad"},{"region":"PL","title":"Swiatla wielkiego miasta"},{"region":"PT","title":"Luzes na Cidade"},{"region":"RO","title":"Luminile orasului"},{"region":"RS","title":"Svetla velegrada"},{"region":"RU","title":"Огни большого города"},{"region":"SE","title":"Stadens ljus"},{"language":"tr","region":"TR","title":"Sehir Isiklari"},{"region":"US","title":"City Lights"}],"year":"1931"},"rank":34,"headline":"City Lights"}};
-    </script>
-</div>
-
-
-
-<div id="nb_extra">
-    <ul id="nb_extra_nav" class="main_nav">
-        <li class="css_nav_item" id="navProMenu" aria-haspopup="true">
-            <p class="navCategory">
-                <a    onclick="(new Image()).src='/rg/imdbprohome/navbar/images/b.gif?link=%2Fr%2FIMDbTabNV%2F';"     href="/r/IMDbTabNV/"    >
-                    <img alt="IMDbPro Menu" src="http://i.media-imdb.com/images/SF4a741137cf9a260e127fef64455ebfbc/navbar/imdbpro_logo_nb.png" />
-                </a>
-            </p>
-            <span class="downArrow"></span>
-            <div id="navMenuPro" class="sub_nav">
-                <a    onclick="(new Image()).src='/rg/imdbprohome/navbar/images/b.gif?link=%2Fr%2FIMDbTabNV%2F';"     href="/r/IMDbTabNV/"    id='proLink' >
-                    <div id="proAd">
-                    </div>
-                    <div class="subNavListContainer">
-                        <img alt="Go to IMDbPro" title="Go to IMDbPro" src="http://i.media-imdb.com/images/SF8104186305d957dd4ee4455f5434b40c/navbar/imdbpro_logo_menu.png" />
-                        <h5>GET INFORMED</h5>
-                        <p>Industry information at your fingertips</p>
-                        <h5>GET CONNECTED</h5>
-                        <p>Over 200,000 Hollywood insiders</p>
-                        <h5>GET DISCOVERED</h5>
-                        <p>Enhance your IMDb Page</p>
-                        <p><strong>Go to IMDbPro &raquo;</strong></p>
-                    </div>
-                </a>
-            </div>
-        </li>
-        <li><span class="ghost">|</span></li>
-        <li>
-            <a     href="/apps/?ref_=nb_app"    >
-                IMDb Apps</a>
-        </li>
-        <li><span class="ghost">|</span></li>
-        <li>
-            <a     href="/help/?ref_=nb_hlp"    >
-                Help</a>
-        </li>
-    </ul>
-    <script>
-        if (!('imdb' in window)) { window.imdb = {}; }
-        window.imdb.proMenuTeaser = {
-            imageUrl : "http://i.media-imdb.com/images/SF2345fb7eb51cd4cf2158ed364c263a05/navbar/imdbpro_menu_user.jpg"
-        };
-    </script> 
-</div>
-
-
-<div id="nb_personal">
-
-<ul id="consumer_user_nav" class="main_nav">
-    <li class="css_nav_item" id="navUserMenu" aria-haspopup="true">
-        <p class="navCategory singleLine">        
-            <a    id="nblogin"    rel=login href="/register/login?ref_=nv_usr_lgin_1"    >
-                Login
-            </a>
-        </p>
-        <span class="downArrow"></span>
-        <div class="sub_nav">
-            <div class="subNavListContainer">
-                <br />
-                <ul>
-                    <li>
-                        <a     href="https://secure.imdb.com/register-imdb/form-v2?ref_=nv_usr_reg_2"    >
-                            Register
-                        </a>
-                    </li>
-                    <li>
-                        <a    id="nblogin"    rel=login href="/register/login?ref_=nv_usr_lgin_3"    >
-                            Login
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </li>
+<ul id="ccc1">
+<li><a href="laf/">lost+found</a></li>
+<li><a href="muc/">musicians</a></li>
+<li><a href="vnn/">local&nbsp;news</a></li>
+<li><a href="pol/">politics</a></li>
+<li><a href="rid/">rideshare</a></li>
+<li><a href="vol/">volunteers</a></li>
+<li><a href="cls/">classes</a></li>
 </ul>
-
-
+</div>
 </div>
 
-    </div>
+
+							
+		<div id="ppp" class="col">
+		<h4 class="ban">personals</h4>
+		<div class="cats">
+	<ul id="ppp0">
+<li><a href="/i/personals?category=stp">strictly platonic</a></li>
+<li><a href="/i/personals?category=w4w">women seek women</a></li>
+<li><a href="/i/personals?category=w4m">women seeking men</a></li>
+<li><a href="/i/personals?category=m4w">men seeking women</a></li>
+<li><a href="/i/personals?category=m4m">men seeking men</a></li>
+<li><a href="/i/personals?category=msr">misc romance</a></li>
+<li><a href="/i/personals?category=cas">casual encounters</a></li>
+<li><a href="/i/personals?category=mis">missed connections</a></li>
+<li><a href="/i/personals?category=rnr">rants and raves</a></li>
+</ul>
+</div>
 </div>
 
-        
+
+							
+		<div id="forums" class="col">
+		<h4 class="ban"><a href="/forums" data-alltitle="">discussion forums</a></h4>
+		<div class="cats">
+	<ul id="forums0">
+<li><a href="/forums/?forumID=2232">adopt</a></li>
+<li><a href="/forums/?forumID=3232">apple</a></li>
+<li><a href="/forums/?forumID=49">arts</a></li>
+<li><a href="/forums/?forumID=78">atheist</a></li>
+<li><a href="/forums/?forumID=5">autos</a></li>
+<li><a href="/forums/?forumID=88">beauty</a></li>
+<li><a href="/forums/?forumID=95">bikes</a></li>
+<li><a href="/forums/?forumID=47">celebs</a></li>
+<li><a href="/forums/?forumID=34">comp</a></li>
+<li><a href="/forums/?forumID=83">crafts</a></li>
+<li><a href="/forums/?forumID=122">diet</a></li>
+<li><a href="/forums/?forumID=76">divorce</a></li>
+<li><a href="/forums/?forumID=130">dying</a></li>
+<li><a href="/forums/?forumID=99">eco</a></li>
+<li><a href="/forums/?forumID=90">educ</a></li>
+<li><a href="/forums/?forumID=8">feedbk</a></li>
+<li><a href="/forums/?forumID=41">film</a></li>
+<li><a href="/forums/?forumID=92">fitness</a></li>
+<li><a href="/forums/?forumID=64">fixit</a></li>
+<li><a href="/forums/?forumID=22">food</a></li>
+<li><a href="/forums/?forumID=2007">frugal</a></li>
+<li><a href="/forums/?forumID=85">gaming</a></li>
+<li><a href="/forums/?forumID=54">garden</a></li>
+</ul>
+<ul id="forums1">
+<li><a href="/forums/?forumID=575">haiku</a></li>
+<li><a href="/forums/?forumID=43">health</a></li>
+<li><a href="/forums/?forumID=9">help</a></li>
+<li><a href="/forums/?forumID=81">history</a></li>
+<li><a href="/forums/?forumID=6">housing</a></li>
+<li><a href="/forums/?forumID=7">jobs</a></li>
+<li><a href="/forums/?forumID=1257">jokes</a></li>
+<li><a href="/forums/?forumID=200269">kink</a></li>
+<li><a href="/forums/?forumID=73">legal</a></li>
+<li><a href="/forums/?forumID=1991">linux</a></li>
+<li><a href="/forums/?forumID=72">m4m</a></li>
+<li><a href="/forums/?forumID=79">manners</a></li>
+<li><a href="/forums/?forumID=1926">marriage</a></li>
+<li><a href="/forums/?forumID=133">media</a></li>
+<li><a href="/forums/?forumID=53">money</a></li>
+<li><a href="/forums/?forumID=1947">motocy</a></li>
+<li><a href="/forums/?forumID=24">music</a></li>
+<li><a href="/forums/?forumID=501">nonprofit</a></li>
+<li><a href="/forums/?forumID=4">open</a></li>
+<li><a href="/forums/?forumID=16">outdoor</a></li>
+<li><a href="/forums/?forumID=50">over 50</a></li>
+<li><a href="/forums/?forumID=39">parent</a></li>
+<li><a href="/forums/?forumID=26">pets</a></li>
+</ul>
+<ul id="forums2">
+<li><a href="/forums/?forumID=71">philos</a></li>
+<li><a href="/forums/?forumID=5500">photo</a></li>
+<li><a href="/forums/?forumID=84">p.o.c.</a></li>
+<li><a href="/forums/?forumID=20">politics</a></li>
+<li><a href="/forums/?forumID=29">psych</a></li>
+<li><a href="/forums/?forumID=46">queer</a></li>
+<li><a href="/forums/?forumID=12">recover</a></li>
+<li><a href="/forums/?forumID=59">religion</a></li>
+<li><a href="/forums/?forumID=28">romance</a></li>
+<li><a href="/forums/?forumID=96">science</a></li>
+<li><a href="/forums/?forumID=93">spirit</a></li>
+<li><a href="/forums/?forumID=32">sports</a></li>
+<li><a href="/forums/?forumID=1040">tax</a></li>
+<li><a href="/forums/?forumID=42">travel</a></li>
+<li><a href="/forums/?forumID=98">tv</a></li>
+<li><a href="/forums/?forumID=2400">vegan</a></li>
+<li><a href="/forums/?forumID=69">w4w</a></li>
+<li><a href="/forums/?forumID=15">wed</a></li>
+<li><a href="/forums/?forumID=120">wine</a></li>
+<li><a href="/forums/?forumID=94">women</a></li>
+<li><a href="/forums/?forumID=7000">words</a></li>
+<li><a href="/forums/?forumID=27">writing</a></li>
+<li><a href="/forums/?forumID=8620">yoga</a></li>
+</ul>
+</div>
+</div>
+
+						</td>
+
+						<td>
+							
+		<div id="hhh" class="col">
+		<h4 class="ban"><a href="hhh/" data-alltitle="all housing">housing</a></h4>
+		<div class="cats">
+	<ul id="hhh0">
+<li><a href="apa/">apts / housing</a></li>
+<li><a href="roo/">rooms / shared</a></li>
+<li><a href="sub/">sublets / temporary</a></li>
+<li><a href="hsw/">housing wanted</a></li>
+<li><a href="swp/">housing swap</a></li>
+<li><a href="vac/">vacation rentals</a></li>
+<li><a href="prk/">parking / storage</a></li>
+<li><a href="off/">office / commercial</a></li>
+<li><a href="rea/">real estate for sale</a></li>
+</ul>
+</div>
+</div>
+
+
+							
+		<div id="sss" class="col">
+		<h4 class="ban"><a href="sss/" data-alltitle="all for sale">for sale</a></h4>
+		<div class="cats">
+	<ul id="sss0">
+<li><a href="ata/">antiques</a></li>
+<li><a href="baa/">baby+kid</a></li>
+<li><a href="bar/">barter</a></li>
+<li><a href="bia/">bikes</a></li>
+<li><a href="boo/">boats</a></li>
+<li><a href="bka/">books</a></li>
+<li><a href="bfa/">business</a></li>
+<li><a href="sya/">computer</a></li>
+<li><a href="zip/">free</a></li>
+<li><a href="fua/">furniture</a></li>
+<li><a href="foa/">general</a></li>
+<li><a href="hsa/">household</a></li>
+<li><a href="jwa/">jewelry</a></li>
+<li><a href="maa/">materials</a></li>
+<li><a href="rva/">rvs+camp</a></li>
+<li><a href="sga/">sporting</a></li>
+<li><a href="tia/">tickets</a></li>
+<li><a href="tla/">tools</a></li>
+<li><a href="waa/">wanted</a></li>
+</ul>
+<ul id="sss1">
+<li><a href="ppa/">appliances</a></li>
+<li><a href="ara/">arts+crafts</a></li>
+<li><a href="sna/">atv/utv/sno</a></li>
+<li><a href="pta/">auto parts</a></li>
+<li><a href="haa/">beauty+hlth</a></li>
+<li><a href="/i/autos">cars+trucks</a></li>
+<li><a href="ema/">cds/dvd/vhs</a></li>
+<li><a href="moa/">cell phones</a></li>
+<li><a href="cla/">clothes+acc</a></li>
+<li><a href="cba/">collectibles</a></li>
+<li><a href="ela/">electronics</a></li>
+<li><a href="gra/">farm+garden</a></li>
+<li><a href="/search/gms">garage sale</a></li>
+<li><a href="hva/">heavy equip</a></li>
+<li><a href="/i/motorcycles">motorcycles</a></li>
+<li><a href="msa/">music instr</a></li>
+<li><a href="pha/">photo+video</a></li>
+<li><a href="taa/">toys+games</a></li>
+<li><a href="vga/">video gaming</a></li>
+</ul>
+</div>
+</div>
+
+							
+		<div id="bbb" class="col">
+		<h4 class="ban"><a href="bbb/" data-alltitle="all services">services</a></h4>
+		<div class="cats">
+	<ul id="bbb0">
+<li><a href="bts/">beauty</a></li>
+<li><a href="crs/">creative</a></li>
+<li><a href="cps/">computer</a></li>
+<li><a href="cys/">cycle</a></li>
+<li><a href="evs/">event</a></li>
+<li><a href="fns/">financial</a></li>
+<li><a href="lgs/">legal</a></li>
+<li><a href="lss/">lessons</a></li>
+<li><a href="mas/">marine</a></li>
+<li><a href="pas/">pet</a></li>
+</ul>
+<ul id="bbb1">
+<li><a href="aos/">automotive</a></li>
+<li><a href="fgs/">farm+garden</a></li>
+<li><a href="hss/">household</a></li>
+<li><a href="lbs/">labor/move</a></li>
+<li><a href="sks/">skill'd trade</a></li>
+<li><a href="rts/">real estate</a></li>
+<li><a href="biz/">sm biz ads</a></li>
+<li><a href="thp/">therapeutic</a></li>
+<li><a href="trv/">travel/vac</a></li>
+<li><a href="wet/">write/ed/tr8</a></li>
+</ul>
+</div>
+</div>
+
+
+						</td>
+
+						<td>
+
+							
+		<div id="jjj" class="col">
+		<h4 class="ban"><a href="jjj/" data-alltitle="all jobs">jobs</a></h4>
+		<div class="cats">
+	<ul id="jjj0">
+<li><a href="acc/">accounting+finance</a></li>
+<li><a href="ofc/">admin / office</a></li>
+<li><a href="egr/">arch / engineering</a></li>
+<li><a href="med/">art / media / design</a></li>
+<li><a href="sci/">biotech / science</a></li>
+<li><a href="bus/">business / mgmt</a></li>
+<li><a href="csr/">customer service</a></li>
+<li><a href="edu/">education</a></li>
+<li><a href="fbh/">food / bev / hosp</a></li>
+<li><a href="lab/">general labor</a></li>
+<li><a href="gov/">government</a></li>
+<li><a href="hum/">human resources</a></li>
+<li><a href="eng/">internet engineers</a></li>
+<li><a href="lgl/">legal  /  paralegal</a></li>
+<li><a href="mnu/">manufacturing</a></li>
+<li><a href="mar/">marketing / pr / ad</a></li>
+<li><a href="hea/">medical / health</a></li>
+<li><a href="npo/">nonprofit sector</a></li>
+<li><a href="rej/">real estate</a></li>
+<li><a href="ret/">retail / wholesale</a></li>
+<li><a href="sls/">sales / biz dev</a></li>
+<li><a href="spa/">salon / spa / fitness</a></li>
+<li><a href="sec/">security</a></li>
+<li><a href="trd/">skilled trade / craft</a></li>
+<li><a href="sof/">software / qa / dba</a></li>
+<li><a href="sad/">systems / network</a></li>
+<li><a href="tch/">technical support</a></li>
+<li><a href="trp/">transport</a></li>
+<li><a href="tfr/">tv / film / video</a></li>
+<li><a href="web/">web / info design</a></li>
+<li><a href="wri/">writing / editing</a></li>
+<li><a href="etc/">[ETC]</a></li>
+<li><a href="/search/jjj?is_parttime=1">[ part-time ]</a></li>
+</ul>
+</div>
+</div>
+
+
+							
+		<div id="ggg" class="col">
+		<h4 class="ban"><a href="ggg/" data-alltitle="all gigs">gigs</a></h4>
+		<div class="cats">
+	<ul id="ggg0">
+<li><a href="cwg/">crew</a></li>
+<li><a href="evg/">event</a></li>
+<li><a href="lbg/">labor</a></li>
+<li><a href="tlg/">talent</a></li>
+</ul>
+<ul id="ggg1">
+<li><a href="cpg/">computer</a></li>
+<li><a href="crg/">creative</a></li>
+<li><a href="dmg/">domestic</a></li>
+<li><a href="wrg/">writing</a></li>
+</ul>
+</div>
+</div>
+
+		<div id="res" class="col">
+		<h4 class="ban"><a href="res/" data-alltitle="all resumes">resumes</a></h4>
+		<div class="cats">
+	</div>
+</div>
 
 
 
+						</td>
+					</tr>
+				</table>
+			</td>
 
+			<td id="rightbar">
+				
+				<ul class="menu collapsible"><li class=" expand s"><h5 class="ban">nearby cl</h5><ul class="acitem">
+<li class="s"><a href="http://akroncanton.craigslist.org">akron-canton</a>
+<li class="s"><a href="http://annarbor.craigslist.org">ann arbor</a>
+<li class="s"><a href="http://ashtabula.craigslist.org">ashtabula</a>
+<li class="s"><a href="http://battlecreek.craigslist.org">battle creek</a>
+<li class="s"><a href="http://centralmich.craigslist.org">central mi</a>
+<li class="s"><a href="http://chatham.craigslist.ca">chatham-kent</a>
+<li class="s"><a href="http://cleveland.craigslist.org">cleveland</a>
+<li class="s"><a href="http://detroit.craigslist.org">detroit metro</a>
+<li class="s"><a href="http://flint.craigslist.org">flint</a>
+<li class="s"><a href="http://fortwayne.craigslist.org">fort wayne</a>
+<li class="s"><a href="http://grandrapids.craigslist.org">grand rapids</a>
+<li class="s"><a href="http://holland.craigslist.org">holland</a>
+<li class="s"><a href="http://jxn.craigslist.org">jackson</a>
+<li class="s"><a href="http://kalamazoo.craigslist.org">kalamazoo</a>
+<li class="s"><a href="http://lansing.craigslist.org">lansing</a>
+<li class="s"><a href="http://limaohio.craigslist.org">lima-findlay</a>
+<li class="s"><a href="http://londonon.craigslist.ca">london</a>
+<li class="s"><a href="http://mansfield.craigslist.org">mansfield</a>
+<li class="s"><a href="http://monroemi.craigslist.org">monroe</a>
+<li class="s"><a href="http://muskegon.craigslist.org">muskegon</a>
+<li class="s"><a href="http://nmi.craigslist.org">northern mi</a>
+<li class="s"><a href="http://porthuron.craigslist.org">port huron</a>
+<li class="s"><a href="http://saginaw.craigslist.org">saginaw</a>
+<li class="s"><a href="http://sandusky.craigslist.org">sandusky</a>
+<li class="s"><a href="http://sarnia.craigslist.ca">sarnia</a>
+<li class="s"><a href="http://southbend.craigslist.org">south bend</a>
+<li class="s"><a href="http://swmi.craigslist.org">southwest mi</a>
+<li class="s"><a href="http://thumb.craigslist.org">the thumb</a>
+<li class="s"><a href="http://toledo.craigslist.org">toledo</a>
+<li class="s"><a href="http://windsor.craigslist.ca">windsor</a>
+</ul>
+</li><li class=" s"><h5 class="ban">us cities</h5><ul class="acitem">
+<li class="s"><a href="http://atlanta.craigslist.org/">atlanta</a>
+<li><a href="http://austin.craigslist.org/">austin</a>
+<li class="s"><a href="http://boston.craigslist.org/">boston</a>
+<li class="s"><a href="http://chicago.craigslist.org/">chicago</a>
+<li><a href="http://dallas.craigslist.org/">dallas</a>
+<li><a href="http://denver.craigslist.org/">denver</a>
+<li class="s"><a href="http://detroit.craigslist.org/">detroit</a>
+<li><a href="http://houston.craigslist.org/">houston</a>
+<li class="s"><a href="http://lasvegas.craigslist.org/">las&nbsp;vegas</a>
+<li class="s"><a href="http://losangeles.craigslist.org/">los&nbsp;angeles</a>
+<li><a href="http://miami.craigslist.org/">miami</a>
+<li><a href="http://minneapolis.craigslist.org/">minneapolis</a>
+<li class="s"><a href="http://newyork.craigslist.org/">new&nbsp;york</a>
+<li><a href="http://orangecounty.craigslist.org/">orange&nbsp;co</a>
+<li class="s"><a href="http://philadelphia.craigslist.org/">philadelphia</a>
+<li><a href="http://phoenix.craigslist.org/">phoenix</a>
+<li class="s"><a href="http://portland.craigslist.org/">portland</a>
+<li><a href="http://raleigh.craigslist.org/">raleigh</a>
+<li><a href="http://sacramento.craigslist.org/">sacramento</a>
+<li><a href="http://sandiego.craigslist.org/">san&nbsp;diego</a>
+<li><a href="http://seattle.craigslist.org/">seattle</a>
+<li class="s"><a href="http://sfbay.craigslist.org/">sf&nbsp;bayarea</a>
+<li><a href="http://washingtondc.craigslist.org/">wash dc</a>
+<li class="s more"><a href="http://geo.craigslist.org/iso/us">more ...</a></li>
+</ul>
+</li><li class=""><h5 class="ban">us states</h5><ul class="acitem">
+<li><a href="http://geo.craigslist.org/iso/us/al">alabama</a>
+<li><a href="http://geo.craigslist.org/iso/us/ak">alaska</a>
+<li><a href="http://geo.craigslist.org/iso/us/az">arizona</a>
+<li><a href="http://geo.craigslist.org/iso/us/ar">arkansas</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/ca">california</a>
+<li><a href="http://geo.craigslist.org/iso/us/co">colorado</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/ct">connecticut</a>
+<li><a href="http://geo.craigslist.org/iso/us/dc">dc</a>
+<li><a href="http://geo.craigslist.org/iso/us/de">delaware</a>
+<li><a href="http://geo.craigslist.org/iso/us/fl">florida</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/ga">georgia</a>
+<li><a href="http://micronesia.craigslist.org">guam</a>
+<li><a href="http://geo.craigslist.org/iso/us/hi">hawaii</a>
+<li><a href="http://geo.craigslist.org/iso/us/id">idaho</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/il">illinois</a>
+<li><a href="http://geo.craigslist.org/iso/us/in">indiana</a>
+<li><a href="http://geo.craigslist.org/iso/us/ia">iowa</a>
+<li><a href="http://geo.craigslist.org/iso/us/ks">kansas</a>
+<li><a href="http://geo.craigslist.org/iso/us/ky">kentucky</a>
+<li><a href="http://geo.craigslist.org/iso/us/la">louisiana</a>
+<li><a href="http://geo.craigslist.org/iso/us/me">maine</a>
+<li><a href="http://geo.craigslist.org/iso/us/md">maryland</a>
+<li><a href="http://geo.craigslist.org/iso/us/ma">mass</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/mi">michigan</a>
+<li><a href="http://geo.craigslist.org/iso/us/mn">minnesota</a>
+<li><a href="http://geo.craigslist.org/iso/us/ms">mississippi</a>
+<li><a href="http://geo.craigslist.org/iso/us/mo">missouri</a>
+<li><a href="http://geo.craigslist.org/iso/us/mt">montana</a>
+<li><a href="http://geo.craigslist.org/iso/us/nc">n carolina</a>
+<li><a href="http://geo.craigslist.org/iso/us/ne">nebraska</a>
+<li><a href="http://geo.craigslist.org/iso/us/nv">nevada</a>
+<li><a href="http://geo.craigslist.org/iso/us/nj">new jersey</a>
+<li><a href="http://geo.craigslist.org/iso/us/nm">new mexico</a>
+<li><a href="http://geo.craigslist.org/iso/us/ny">new york</a>
+<li><a href="http://geo.craigslist.org/iso/us/nh">n hampshire</a>
+<li><a href="http://geo.craigslist.org/iso/us/nd">north dakota</a>
+<li><a href="http://geo.craigslist.org/iso/us/oh">ohio</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/ok">oklahoma</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/or">oregon</a>
+<li><a href="http://geo.craigslist.org/iso/us/pa">pennsylvania</a>
+<li><a href="http://geo.craigslist.org/iso/pr">puerto rico</a>
+<li><a href="http://geo.craigslist.org/iso/us/ri">rhode island</a>
+<li><a href="http://geo.craigslist.org/iso/us/sc">s carolina</a>
+<li><a href="http://geo.craigslist.org/iso/us/sd">south dakota</a>
+<li><a href="http://geo.craigslist.org/iso/us/tn">tennessee</a>
+<li><a href="http://geo.craigslist.org/iso/us/tx">texas</a>
+<li><a href="http://geo.craigslist.org/iso/us/ut">utah</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/vt">vermont</a>
+<li><a href="http://geo.craigslist.org/iso/us/va">virginia</a>
+<li><a href="http://geo.craigslist.org/iso/us/wa">washington</a>
+<li><a href="http://geo.craigslist.org/iso/us/wv">west virginia</a>
+<li><a href="http://geo.craigslist.org/iso/us/wi">wisconsin</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/wy">wyoming</a>
+<li class="s more"><a href="http://geo.craigslist.org/iso/us">more ...</a></li>
+</ul>
+</li><li class=" s"><h5 class="ban">canada</h5><ul class="acitem">
+<li><a href="http://calgary.craigslist.ca">calgary</a>
+<li><a href="http://edmonton.craigslist.ca">edmonton</a>
+<li><a href="http://halifax.craigslist.ca">halifax</a>
+<li class="s"><a href="http://montreal.craigslist.ca">montreal</a>
+<li><a href="http://ottawa.craigslist.ca">ottawa</a>
+<li><a href="http://saskatoon.craigslist.ca">saskatoon</a>
+<li class="s"><a href="http://toronto.craigslist.ca">toronto</a>
+<li><a href="http://vancouver.craigslist.ca">vancouver</a>
+<li><a href="http://victoria.craigslist.ca">victoria</a>
+<li><a href="http://winnipeg.craigslist.ca">winnipeg</a>
+<li class="s more"><a href="http://geo.craigslist.org/iso/ca">more ...</a></li>
+</ul>
+</li><li><h5 class="ban">cl worldwide</h5><ul class="acitem collapsible">
 
+				<li class="cont s">
+					<h5>africa</h5>
+					<ul class="acitem">
+			<li class="s"><a href="http://geo.craigslist.org/iso/eg">egypt</a>
+<li><a href="http://geo.craigslist.org/iso/et">ethiopia</a>
+<li><a href="http://geo.craigslist.org/iso/gh">ghana</a>
+<li><a href="http://geo.craigslist.org/iso/ke">kenya</a>
+<li><a href="http://geo.craigslist.org/iso/ma">morocco</a>
+<li><a href="http://craigslist.co.za">south africa</a>
+<li><a href="http://geo.craigslist.org/iso/tn">tunisia</a>
+</ul></li>
 
+				<li class="cont s">
+					<h5>americas</h5>
+					<ul class="acitem">
+			<li><a href="http://geo.craigslist.org/iso/ar">argentina</a>
+<li><a href="http://geo.craigslist.org/iso/bo">bolivia</a>
+<li class="s"><a href="http://rio.craigslist.org">brazil</a>
+<li><a href="http://www.craigslist.org/about/sites#CA">canada</a>
+<li class="s"><a href="http://caribbean.craigslist.org">caribbean</a>
+<li><a href="http://geo.craigslist.org/iso/cl">chile</a>
+<li><a href="http://geo.craigslist.org/iso/co">colombia</a>
+<li><a href="http://geo.craigslist.org/iso/cr">costa rica</a>
+<li><a href="http://geo.craigslist.org/iso/do">dom republic</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/ec">ecuador</a>
+<li><a href="http://geo.craigslist.org/iso/sv">el salvador</a>
+<li><a href="http://geo.craigslist.org/iso/gt">guatemala</a>
+<li class="s"><a href="http://mexicocity.craigslist.com.mx">mexico</a>
+<li><a href="http://geo.craigslist.org/iso/ni">nicaragua</a>
+<li><a href="http://geo.craigslist.org/iso/pa">panama</a>
+<li class="s"><a href="http://craigslist.com.pe">peru</a>
+<li><a href="http://geo.craigslist.org/iso/pr">puerto rico</a>
+<li><a href="http://www.craigslist.org/about/sites#US">united states</a>
+<li><a href="http://geo.craigslist.org/iso/uy">uruguay</a>
+<li><a href="http://geo.craigslist.org/iso/vi">us virgin islands</a>
+<li><a href="http://geo.craigslist.org/iso/ve">venezuela</a>
+</ul></li>
 
-  
+				<li class="cont s">
+					<h5>asia</h5>
+					<ul class="acitem">
+			<li class="s"><a href="http://geo.craigslist.org/iso/bd">bangladesh</a>
+<li><a href="http://shanghai.craigslist.com.cn">china</a>
+<li><a href="http://craigslist.hk">hong kong</a>
+<li class="s"><a href="http://bangalore.craigslist.co.in">india</a>
+<li><a href="http://geo.craigslist.org/iso/id">indonesia</a>
+<li><a href="http://geo.craigslist.org/iso/ir">iran</a>
+<li><a href="http://geo.craigslist.org/iso/iq">iraq</a>
+<li><a href="http://telaviv.craigslist.org">israel</a>
+<li class="s"><a href="http://tokyo.craigslist.jp">japan</a>
+<li><a href="http://geo.craigslist.org/iso/kw">kuwait</a>
+<li><a href="http://geo.craigslist.org/iso/lb">lebanon</a>
+<li><a href="http://geo.craigslist.org/iso/my">malaysia</a>
+<li><a href="http://geo.craigslist.org/iso/pk">pakistan</a>
+<li><a href="http://manila.craigslist.com.ph">philippines</a>
+<li class="s"><a href="http://moscow.craigslist.org">russia</a>
+<li><a href="http://craigslist.com.sg">singapore</a>
+<li><a href="http://geo.craigslist.org/iso/kr">south korea</a>
+<li class="s"><a href="http://craigslist.com.tw">taiwan</a>
+<li><a href="http://geo.craigslist.org/iso/th">thailand</a>
+<li><a href="http://craigslist.com.tr">turkey</a>
+<li><a href="http://geo.craigslist.org/iso/ae">uae</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/vn">vietnam</a>
+<li><a href="http://geo.craigslist.org/iso/ps">west bank</a>
+</ul></li>
 
+				<li class="cont s">
+					<h5>europe</h5>
+					<ul class="acitem">
+			<li><a href="http://craigslist.at">austria</a>
+<li><a href="http://craigslist.be">belgium</a>
+<li><a href="http://geo.craigslist.org/iso/bg">bulgaria</a>
+<li><a href="http://geo.craigslist.org/iso/hr">croatia</a>
+<li><a href="http://geo.craigslist.org/iso/cz">czech republic</a>
+<li><a href="http://craigslist.dk">denmark</a>
+<li><a href="http://craigslist.fi">finland</a>
+<li><a href="http://paris.craigslist.fr">france</a>
+<li><a href="http://berlin.craigslist.de">germany</a>
+<li><a href="http://craigslist.gr">greece</a>
+<li><a href="http://geo.craigslist.org/iso/hu">hungary</a>
+<li><a href="http://geo.craigslist.org/iso/is">iceland</a>
+<li><a href="http://geo.craigslist.org/iso/ie">ireland</a>
+<li class="s"><a href="http://rome.craigslist.it">italy</a>
+<li><a href="http://geo.craigslist.org/iso/lu">luxembourg</a>
+<li><a href="http://geo.craigslist.org/iso/nl">netherlands</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/no">norway</a>
+<li><a href="http://craigslist.pl">poland</a>
+<li class="s"><a href="http://craigslist.pt">portugal</a>
+<li><a href="http://geo.craigslist.org/iso/ro">romania</a>
+<li class="s"><a href="http://moscow.craigslist.org">russia</a>
+<li class="s"><a href="http://madrid.craigslist.es">spain</a>
+<li><a href="http://craigslist.se">sweden</a>
+<li><a href="http://zurich.craigslist.ch">switzerland</a>
+<li><a href="http://craigslist.com.tr">turkey</a>
+<li><a href="http://geo.craigslist.org/iso/ua">ukraine</a>
+<li><a href="http://craigslist.co.uk">united kingdom</a>
+</ul></li>
 
+				<li class="cont s">
+					<h5>middle east</h5>
+					<ul class="acitem">
+			<li class="s"><a href="http://geo.craigslist.org/iso/eg">egypt</a>
+<li><a href="http://geo.craigslist.org/iso/iq">iraq</a>
+<li><a href="http://telaviv.craigslist.org">israel</a>
+<li><a href="http://geo.craigslist.org/iso/kw">kuwait</a>
+<li><a href="http://geo.craigslist.org/iso/lb">lebanon</a>
+<li><a href="http://craigslist.com.tr">turkey</a>
+<li><a href="http://geo.craigslist.org/iso/ae">uae</a>
+<li><a href="http://geo.craigslist.org/iso/ps">west bank</a>
+</ul></li>
 
-<!-- _get_ad_for_slot(INJECTED_NAVSTRIP) -->
+				<li class="cont s">
+					<h5>oceania</h5>
+					<ul class="acitem">
+			<li><a href="http://sydney.craigslist.com.au">australia</a>
+<li><a href="http://geo.craigslist.org/iso/gu">guam</a>
+<li><a href="http://auckland.craigslist.org">new zealand</a>
+<li><a href="http://manila.craigslist.com.ph">philippines</a>
+</ul></li>
+</ul>
+</li>
+		</ul>
+		<br>
+		<p class="more">
+			<a href="http://www.craigslist.org/about/sites"><em>more...</em></a>
+		</p>
+	
+			</td>
 
-<div id="pagecontent">
+		</tr>
+	</table>
+	</section>
 
+	<footer>
+	
+	<ul class="clfooter">
+		<li>&copy; 2014 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+		<li><a href="//www.craigslist.org/about/help/">help</a></li>
+		<li><a href="//www.craigslist.org/about/scams">safety</a></li>
+		<li class="desktop"><a href="//www.craigslist.org/about/privacy.policy">privacy</a></li>
+		<li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+		<li class="desktop"><a href="//www.craigslist.org/about/craigslist_is_hiring">cl jobs</a></li>
+		<li><a href="//www.craigslist.org/about/terms.of.use">terms</a></li>
+		<li><a href="//www.craigslist.org/about/">about</a></li>
+		<li class="fsel desktop" data-mode="mobile"><a href="#">mobile</a></li>
+		<li class="fsel mobile" data-mode="regular"><a href="#">desktop</a></li>
+	</ul>
+</footer>
+</article>
 
+        <script type="text/javascript"><!--
+            var allText = "all";
 
-<!-- _get_ad_for_slot(INJECTED_BILLBOARD) -->
-
-<div id="content-2-wide">
-    <div class="top-rhs">
-                          
-        
-        
-
-
-<!-- _get_ad_for_slot(TOP_RHS) -->
-
-        
-    </div>
-    <div id="main" class="homepage_center">
-        <div id="homepage_center_top">
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <script>
-if ('csm' in window){
-    csm.measure('csm_center_1_slot_start');
-}
-</script>
-
-            <!-- sid : 112759 : 'CENTER_1' -->
-
-<div class="">
-
-
-
-<ul class="tpack">
+        --></script>
     
-
-<li style="background:url(http://ia.media-imdb.com/images/M/MV5BMTU1MDEwMDg4Nl5BMl5BanBnXkFtZTgwOTk3NTcxMTE@._V1._SY317_CR0,0,214,317_.jpg) top no-repeat #000000;"
-    id="tpack1" >
-  <a     href="/list/ls052112278?ref_=hm_3p_vi1"   title="In this exclusive featurette, the filmmakers behind Under the Skin discuss their unique hidden camera filming technique."
-   class="video-colorbox"
-   data-rid="1THP1EZS3GPS1J49EFCZ" data-video="vi3333926169" data-tconst="tt1441395" data-type="playlist" data-source="bylist" data-start="0" data-id="ls052112278" >
-   <div class="overlay">
-      <div class="background"></div>
-      <div class="blkbtn play"><span>&#9658;</span></div>
-      <span class="title">Under the Skin
-          <span class="info threepack" >
-             <span id="hd_icon">&nbsp;</span> Exclusive Featurette
-          </span>
-      </span>
-   </div>
-  </a>
-
-</li>  
-
-        
-
-<li style="background:url(http://ia.media-imdb.com/images/M/MV5BNTU3MjYxMDE3N15BMl5BanBnXkFtZTgwNjE3OTc3MDE@._V1._SX214_CR0,0,214,317_.jpg) top no-repeat #000000;"
-    id="tpack2" >
-  <a     href="/list/ls055032891?ref_=hm_3p_vi2"   title="Watch a TV spot for Dawn of the Planet of the Apes, in which survivors of the simian plague trigger an all-out war between humanity and Caesar&#x27;s growing forces."
-   class="video-colorbox"
-   data-rid="1THP1EZS3GPS1J49EFCZ" data-video="vi2712907033" data-tconst="tt2103281" data-type="playlist" data-source="bylist" data-start="0" data-id="ls055032891" >
-   <div class="overlay">
-      <div class="background"></div>
-      <div class="blkbtn play"><span>&#9658;</span></div>
-      <span class="title">Dawn of the Planet of the Apes
-          <span class="info threepack" >
-             <span id="hd_icon">&nbsp;</span> TV Spot
-          </span>
-      </span>
-   </div>
-  </a>
-
-</li>  
-
-        
-
-<li style="background:url(http://ia.media-imdb.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1._SY317_CR1,0,214,317_.jpg) top no-repeat #000000;"
-    id="tpack3" >
-  <a     href="/list/ls002309697?ref_=hm_3p_vi3"   title="Watch a clip from Captain America: The Winter Soldier."
-   class="video-colorbox"
-   data-rid="1THP1EZS3GPS1J49EFCZ" data-video="vi3065687321" data-tconst="tt1843866" data-type="playlist" data-source="bylist" data-start="0" data-id="ls002309697" >
-   <div class="overlay">
-      <div class="background"></div>
-      <div class="blkbtn play"><span>&#9658;</span></div>
-      <span class="title">Captain America: The Winter Soldier
-          <span class="info threepack" >
-             <span id="hd_icon">&nbsp;</span> "Here to Ask a Favor"
-          </span>
-      </span>
-   </div>
-  </a>
-
-</li>  
-
-</ul>
-<div class="clear"></div>
-<div class="sub_tpack">
-    <a     href="/features/hdgallery?ref_=hm_3p_sm"    >
-    <span>See featured HD Trailers</span>&nbsp;&raquo;</a>
-</div>
-
-
-</div>
-
-
-            <script>
-if ('csm' in window){
-    csm.measure('csm_center_1_slot_end');
-}
-</script>
-
-            
-            
-            <!-- sid : 112834 : 'CENTER_2' -->
-
-<div class="article">
-
-<h2>Spotlight: CinemaCon 2014</h2>
-
-<div class="photo_strip">
-
-<a href="http://www.imdb.com/list/ls058783103/?ref_=hm_ad_i1"> <img style="margin: 0px 7px 0px 0px;"src="http://ia.media-imdb.com/images/M/MV5BMTA2MDU0MjUxNDNeQTJeQWpwZ15BbWU4MDEwOTAwNTAx._V1_SX150_CR0,0,150,150_.jpg" alt="CinemaCon 2014" border="0"></a>
- 
-
-<a href="http://www.imdb.com/list/ls058783103/?ref_=hm_ad_i2"> <img style="margin: 0px 7px 0px 0px;"src="http://ia.media-imdb.com/images/M/MV5BMTA0ODYwODcyMDBeQTJeQWpwZ15BbWU4MDUyODYzMDAx._V1_SY150_CR28,0,150,150_.jpg" alt="CinemaCon 2014" border="0"></a> 
-
-
-
-
-<p>
-
-Our <a href="http://www.boxofficemojo.com/?ref_=hm_ad_i1" target="_blank">Box Office Mojo</a> editor Ray Subers attended CinemaCon in Las Vegas last week, where the movie studios show off their upcoming slates to exhibitors. Browse his <a href="http://www.imdb.com/list/ls058783103/?ref_=hm_ad_i2">list of choices for the Top 10 presentations</a> (listed alphabetically), and be sure to read his <a href="http://www.imdb.com/blog/?ref_=hm_ad_i3">CinemaCon blog posts</a> and <a href="http://www.boxofficemojo.com/news/?id=3809&p=.htm?ref_=hm_ad_i4" target="_blank">box office analysis</a> for full coverage of the event.
-
-
-
-</p>
-
-
-
-<div class="see-more clear"><a href="http://www.imdb.com/list/ls058783103/?ref_=hm_ad_t5">Read the full CinemaCon: Top 10 Movies list</a>&nbsp;&raquo;</div>
-
-
-</div>
-
-</div>
-
-
-            
-            <script>
-if ('csm' in window){
-    csm.measure('csm_shadow_2_slot_start');
-}
-</script>
-
-            <!-- sid : 111919 : 'SHADOW_2' -->
-
-<div class="article">
-
-
-<div class="newsWidget">
-<h2 id="ndheadline">NewsDesk</h2>
-<ul class="newsTabs">
-<li ><a href="/news/celebrity">Celebrity News</a></li>
-<li ><a href="/news/tv">TV News</a></li>
-<li ><a href="/news/movie">Movie News</a></li>
-<li class="active"><a href="/news/top">Top News</a></li>
-</ul>
-<div class="newsTabs">
-<div class="newsTab active">
-<div class="newsItem primary">
-<img src="http://ia.media-imdb.com/images/M/MV5BMTgxMTIxMTc5OV5BMl5BanBnXkFtZTgwMTk5NTc4MDE@._V1._SY90_.jpg" width="141" height="90" style="margin:4px 10px 0 0;" />
-
-
-<div class="headline">
-<h3>    <a     href="/news/ni57016029/?ref_=hm_nw_tp_t1"    >Aaron Paul&#x2019;s &#x2018;Hellion&#x2019; Heading for Cannes</a>
-</h3>
-<small>
-7 hours ago
-
-|     <a     href="/news/ns0052791/?ref_=hm_nw_tp_t1"    >Variety - Film News</a>
-</small>
-</div>
-
-<p style="margin-top:6px;">
- <a href="/company/co0360120/">Vmi Worldwide</a> has acquired <a href="/name/nm0666739/">Aaron Paul</a>&#x2019;s drama &#x201C;<a href="/title/tt3186318/">Hellion</a>&#x201D; for all international territories and will introduce the movie during the Cannes Film Market. Directed by <a href="/name/nm0133773/">Kat Candler</a>, &#x201C;<a href="/title/tt3186318/">Hellion</a>&#x201D; premiered at the Sundance Film Festival and played at South by Southwest in the Festival Favorites section. Besides Paul, the 
-<span class="nobr">    <a     href="/news/ni57016029/?ref_=hm_nw_tp_t1"    >See more</a> &raquo;</span>
-</p>
-
-
-</p>
-</div>
-<br clear="left" />
-<table>
-<tr><td width="48%" valign="top">
-
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57017161/?ref_=hm_nw_tp_t2"    >Publicist and Festival Programmer Lewis Tice Dies at 44</a>
-
-<small>
-2 hours ago
-
-|     <a     href="/news/ns0052791/?ref_=hm_nw_tp_t2"    >Variety - Film News</a>
-</small>
-</div>
-
-</div>
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57017278/?ref_=hm_nw_tp_t3"    >MTV Movie Awards to Honor Channing Tatum With Trailblazer Award</a>
-
-<small>
-2 hours ago
-
-|     <a     href="/news/ns0000236/?ref_=hm_nw_tp_t3"    >The Wrap</a>
-</small>
-</div>
-
-</div>
-</td><td>&nbsp;</td><td width="48%" valign="top" style="border-left:1px dotted #D5D5D5; padding-left: 2%;">
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57016488/?ref_=hm_nw_tp_t4"    >Wil Wheaton Announces &#x201C;The Wil Wheaton Project&#x201D;</a>
-
-<small>
-5 hours ago
-
-|     <a     href="/news/ns0000237/?ref_=hm_nw_tp_t4"    >IMDb Television Blog</a>
-</small>
-</div>
-
-</div>
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57015677/?ref_=hm_nw_tp_t5"    >Warner Bros. Wins $2.75 Mil in &#x2018;Wizard of Oz,&#x2019; &#x2018;Gone With the...</a>
-
-<small>
-8 hours ago
-
-|     <a     href="/news/ns0052791/?ref_=hm_nw_tp_t5"    >Variety - Film News</a>
-</small>
-</div>
-
-</div>
-</td></tr></table>
-<p class="see-more">
-    <a     href="/news/top?ref_=hm_nw_tp_sm"    >See all Top News</a> &raquo;
-</p>
-</div>
-<div class="newsTab">
-<div class="newsItem primary">
-<img src="http://ia.media-imdb.com/images/M/MV5BMjE4NjExMjI1OF5BMl5BanBnXkFtZTcwODc0MjY2OQ@@._V1._SY90_.jpg" width="60" height="90" style="margin:4px 10px 0 0;" />
-
-
-<div class="headline">
-<h3>    <a     href="/news/ni57015247/?ref_=hm_nw_mv_t1"    >Amy Adams May Star in Denis Villeneuve&#x2019;s Sci-Fi Thriller Story Of Your...</a>
-</h3>
-<small>
-9 hours ago
-
-|     <a     href="/news/ns0000152/?ref_=hm_nw_mv_t1"    >Collider.com</a>
-</small>
-</div>
-
-<p style="margin-top:6px;">
-<a href="/name/nm0010736/">Amy Adams</a> deserves to be the true lead in a film again.&#xA0; She&#x27;s still been a force in numerous films over the past several years including <a href="/title/tt0964517/">The Fighter</a>, The Master, <a href="/title/tt0770828/">Man of Steel</a>, <a href="/title/tt1798709/">Her</a>, and <a href="/title/tt1800241/">American Hustle</a> to name a few.&#xA0;
-<span class="nobr">    <a     href="/news/ni57015247/?ref_=hm_nw_mv_t1"    >See more</a> &raquo;</span>
-</p>
-
-
-</p>
-</div>
-<br clear="left" />
-<table>
-<tr><td width="48%" valign="top">
-
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57015677/?ref_=hm_nw_mv_t2"    >Warner Bros. Wins $2.75 Mil in &#x2018;Wizard of Oz,&#x2019; &#x2018;Gone With the...</a>
-
-<small>
-8 hours ago
-
-|     <a     href="/news/ns0052791/?ref_=hm_nw_mv_t2"    >Variety - Film News</a>
-</small>
-</div>
-
-</div>
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57017515/?ref_=hm_nw_mv_t3"    >Amazon enters TV wars</a>
-
-<small>
-29 minutes ago
-
-|     <a     href="/news/ns0056136/?ref_=hm_nw_mv_t3"    >ScreenDaily</a>
-</small>
-</div>
-
-</div>
-</td><td>&nbsp;</td><td width="48%" valign="top" style="border-left:1px dotted #D5D5D5; padding-left: 2%;">
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57017444/?ref_=hm_nw_mv_t4"    >Amazon enters the TV wars</a>
-
-<small>
-29 minutes ago
-
-|     <a     href="/news/ns0056136/?ref_=hm_nw_mv_t4"    >ScreenDaily</a>
-</small>
-</div>
-
-</div>
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57017635/?ref_=hm_nw_mv_t5"    >Why Did Halle Berry&#x2019;s &#x2018;Frankie &#x26; Alice&#x2019; Languish on the Shelf?</a>
-
-<small>
-43 minutes ago
-
-|     <a     href="/news/ns0052791/?ref_=hm_nw_mv_t5"    >Variety - Film News</a>
-</small>
-</div>
-
-</div>
-</td></tr></table>
-<p class="see-more">
-    <a     href="/news/movie?ref_=hm_nw_mv_sm"    >See all Movie News</a> &raquo;
-</p>
-</div>
-<div class="newsTab">
-<div class="newsItem primary">
-<img src="http://ia.media-imdb.com/images/M/MV5BMTU3MTYyNzA4Ml5BMl5BanBnXkFtZTcwNDAzMjM3NA@@._V1._SY90_.jpg" width="64" height="90" style="margin:4px 10px 0 0;" />
-
-
-<div class="headline">
-<h3>    <a     href="/news/ni57016488/?ref_=hm_nw_tv_t1"    >Wil Wheaton Announces &#x201C;The Wil Wheaton Project&#x201D;</a>
-</h3>
-<small>
-5 hours ago
-
-|     <a     href="/news/ns0000237/?ref_=hm_nw_tv_t1"    >IMDb Television Blog</a>
-</small>
-</div>
-
-<p style="margin-top:6px;">
-Claiming to be a geek or a nerd is fashionable these days&#x2026; although as real-life nerds will tell you, life as a nerd is not as crazy-sexy-cool as pop culture leads the world to believe. The vast gulf between perception and reality notwithstanding, if there&#x2019;s social currency in being a 
-<span class="nobr">    <a     href="/news/ni57016488/?ref_=hm_nw_tv_t1"    >See more</a> &raquo;</span>
-</p>
-
-
-</p>
-</div>
-<br clear="left" />
-<table>
-<tr><td width="48%" valign="top">
-
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57015656/?ref_=hm_nw_tv_t2"    >Steve Buscemi to star in new AOL original series</a>
-
-<small>
-8 hours ago
-
-|     <a     href="/news/ns0000345/?ref_=hm_nw_tv_t2"    >EW.com - Inside TV</a>
-</small>
-</div>
-
-</div>
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57015626/?ref_=hm_nw_tv_t3"    >Nickelodeon denies &#x27;Sam &#x26; Cat&#x27; cancellation rumors</a>
-
-<small>
-8 hours ago
-
-|     <a     href="/news/ns0000345/?ref_=hm_nw_tv_t3"    >EW.com - Inside TV</a>
-</small>
-</div>
-
-</div>
-</td><td>&nbsp;</td><td width="48%" valign="top" style="border-left:1px dotted #D5D5D5; padding-left: 2%;">
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57015644/?ref_=hm_nw_tv_t4"    >Hulu Grabs Exclusive Rights to NBCU, Fox Series Including &#x2018;Brooklyn Nine-Nine&#x2019;</a>
-
-<small>
-8 hours ago
-
-|     <a     href="/news/ns0052792/?ref_=hm_nw_tv_t4"    >Variety - TV News</a>
-</small>
-</div>
-
-</div>
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57017556/?ref_=hm_nw_tv_t5"    >Nickelodeon&#x2019;s &#x2018;Sam and Cat&#x2019; On Hiatus Amid Tension Behind the Scenes</a>
-
-<small>
-51 minutes ago
-
-|     <a     href="/news/ns0052792/?ref_=hm_nw_tv_t5"    >Variety - TV News</a>
-</small>
-</div>
-
-</div>
-</td></tr></table>
-<p class="see-more">
-    <a     href="/news/tv?ref_=hm_nw_tv_sm"    >See all TV News</a> &raquo;
-</p>
-</div>
-<div class="newsTab">
-<div class="newsItem primary">
-<img src="http://ia.media-imdb.com/images/M/MV5BMTg4MzQxMjIyNV5BMl5BanBnXkFtZTcwOTA3NTk1Nw@@._V1._SY90_.jpg" width="124" height="90" style="margin:4px 10px 0 0;" />
-
-
-<div class="headline">
-<h3>    <a     href="/news/ni57017044/?ref_=hm_nw_cel_t1"    >Kate Winslet&#x27;s Nude Scene in Titanic: &#x22;It&#x27;s Still Haunting Me&#x22;</a>
-</h3>
-<small>
-3 hours ago
-
-|     <a     href="/news/ns0000141/?ref_=hm_nw_cel_t1"    >E! Online</a>
-</small>
-</div>
-
-<p style="margin-top:6px;">
-It seems like only yesterday we watched a nude <a href="/name/nm0000701/">Kate Winslet</a> don the stunning Heart of the Ocean necklace for <a href="/name/nm0000138/">Leonardo DiCaprio</a> as he memorably sketched her in <a href="/title/tt0120338/">Titanic</a>. Memories, memories. Even though the epic romantic blockbuster was filmed 17 (gasp!) years ago, this particular scene, as 
-<span class="nobr">    <a     href="/news/ni57017044/?ref_=hm_nw_cel_t1"    >See more</a> &raquo;</span>
-</p>
-
-
-</p>
-</div>
-<br clear="left" />
-<table>
-<tr><td width="48%" valign="top">
-
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57015752/?ref_=hm_nw_cel_t2"    >Bradley Cooper&#x27;s Plan to Save Obamacare: Actor Set Up Obama&#x27;s Between Two...</a>
-
-<small>
-7 hours ago
-
-|     <a     href="/news/ns0000141/?ref_=hm_nw_cel_t2"    >E! Online</a>
-</small>
-</div>
-
-</div>
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57009290/?ref_=hm_nw_cel_t3"    >Keri Russell and Matthew Rhys Are a Couple</a>
-
-<small>
-1 April 2014 7:00 AM, PDT
-
-|     <a     href="/news/ns0000018/?ref_=hm_nw_cel_t3"    >PEOPLE.com</a>
-</small>
-</div>
-
-</div>
-</td><td>&nbsp;</td><td width="48%" valign="top" style="border-left:1px dotted #D5D5D5; padding-left: 2%;">
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57017731/?ref_=hm_nw_cel_t4"    >Shailene Woodley Takes a Fashion Risk in a Sort of See-Through Dress</a>
-
-<small>
-just now
-
-|     <a     href="/news/ns0000141/?ref_=hm_nw_cel_t4"    >E! Online</a>
-</small>
-</div>
-
-</div>
-<div class="newsItem">
-
-<div class="headline">
-    <a     href="/news/ni57017730/?ref_=hm_nw_cel_t5"    >Jon Cryer Writing a Memoir: What Will He Say About Charlie Sheen?!</a>
-
-<small>
-16 minutes ago
-
-|     <a     href="/news/ns0000141/?ref_=hm_nw_cel_t5"    >E! Online</a>
-</small>
-</div>
-
-</div>
-</td></tr></table>
-<p class="see-more">
-    <a     href="/news/celebrity?ref_=hm_nw_cel_sm"    >See all Celebrity News</a> &raquo;
-</p>
-</div>
-</div>
-
-<div class="newsWidgetFooter">
-
-</div>
-
-</div>
-
-
-
-</div>
-
-
-            <script>
-if ('csm' in window){
-    csm.measure('csm_shadow_2_slot_end');
-}
-</script>
-
-        </div>
-        <script>
-if ('csm' in window){
-    csm.measure('csm_atf_main');
-}
-</script>
-
-        
-        <div id="homepage_center_bottom" class="ajaxContent">
-            <noscript>
-                <iframe src="/homepage/center.html?parent_request_id=15D1VJX4JSRKJJJH2PWT"                     
-                    marginheight="0" marginwidth="0" frameborder="0"
-                    allowtransparency="true" scrolling="no" height="3300px"
-                    width="646px"></iframe>
-            </noscript>
-        </div>
-    </div>
-    <div id="sidebar" class="homepage_sidebar">
-        <div id="homepage_sidebar_top">
-            <!-- sid : 111010 : 'RIGHT_1' -->  
-
-            
-            <script>
-if ('csm' in window){
-    csm.measure('csm_right_2_slot_start');
-}
-</script>
-
-            <!-- sid : 99389 : 'RIGHT_2' -->  
-
-<div class="aux-content-widget-2">
-
-
-
-
-<h3>Box Office</h3> 
-<table class="list-table" border="0" width="100%" cellspacing="0">
-<tr valign="top">
-<td>1. </td>
-<td>
-<a     href="/title/tt1959490/?ref_=hm_cht_t1"    >Noah</a></td>
-<td width="20%" align="right">$43.7M</td></tr>
-<tr valign="top">
-<td>2. </td>
-<td>
-<a     href="/title/tt1840309/?ref_=hm_cht_t2"    >Divergent</a></td>
-<td width="20%" align="right">$25.6M</td></tr>
-<tr valign="top">
-<td>3. </td>
-<td>
-<a     href="/title/tt2281587/?ref_=hm_cht_t3"    >Muppets Most Wanted</a></td>
-<td width="20%" align="right">$11.3M</td></tr>
-<tr valign="top">
-<td>4. </td>
-<td>
-<a     href="/title/tt0864835/?ref_=hm_cht_t4"    >Mr. Peabody &#x26; Sherman</a></td>
-<td width="20%" align="right">$9.07M</td></tr>
-<tr valign="top">
-<td>5. </td>
-<td>
-<a     href="/title/tt2528814/?ref_=hm_cht_t5"    >God&#x27;s Not Dead</a></td>
-<td width="20%" align="right">$8.8M</td></tr>
-</table>
-<br />
-<p class="see-more"><a     href="/chart/?ref_=hm_cht_sm"    >See more box office results</a> &raquo;</p>
-
-
-</div>
-
-
-            <script>
-if ('csm' in window){
-    csm.measure('csm_right_2_slot_end');
-}
-</script>
-
-            
-            
-            <script>
-if ('csm' in window){
-    csm.measure('csm_right_3_slot_start');
-}
-</script>
-
-            
-            <script>
-if ('csm' in window){
-    csm.measure('csm_right_3_slot_end');
-}
-</script>
-
-        </div>
-        <script>
-if ('csm' in window){
-    csm.measure('csm_atf_sidebar');
-}
-</script>
-
-        <div id="homepage_sidebar_bottom" class="ajaxContent">
-            <noscript>
-                <iframe src="/homepage/rhs.html?parent_request_id=15D1VJX4JSRKJJJH2PWT" 
-                    marginheight="0" marginwidth="0" frameborder="0"
-                    allowtransparency="true" scrolling="no" height="2500px"
-                    width="300px"></iframe>
-            </noscript>
-        </div>
-    </div>
-</div> 
-<script>
-(function() {
-// javascript strict mode
-"use strict";
-if (!('imdb' in window)) { window.imdb = {}; }
-if (!('homepage' in imdb)) { imdb.homepage = {}; }
-// set a hompage ajax timeout limit
-imdb.homepage.ajaxTimeout = 10000;
-imdb.homepage.parentRequestId = "15D1VJX4JSRKJJJH2PWT";
-})();
-</script>
-
-<div id="servertime" time="210.854" treatment="control"></div>
-
-<br style="clear:both;" />
-</div>
-<div id="footer" class="ft">
-<hr width="100%" size=1>
-  <div id="rvi-div">
-    <div class="recently-viewed">&nbsp;</div>
-    <br class="clear">
-    <hr width="100%" size="1">            
-  </div>
-
-
-
-<!-- _get_ad_for_slot(BOTTOM_AD) -->
-
-
-<p class="footer" align="center">
-<a    onclick="(new Image()).src='/rg/home/footer/images/b.gif?link=%2F';"     href="/"    >Home</a>
-  | <a    onclick="(new Image()).src='/rg/search/footer/images/b.gif?link=%2Fsearch';"     href="/search"    >Search</a>
-  | <a    onclick="(new Image()).src='/rg/siteindex/footer/images/b.gif?link=%2Fa2z';"     href="/a2z"    >Site Index</a>
-  | <a    onclick="(new Image()).src='/rg/intheaters/footer/images/b.gif?link=%2Fmovies-in-theaters%2F';"     href="/movies-in-theaters/"    >In Theaters</a>
-  | <a    onclick="(new Image()).src='/rg/comingsoon/footer/images/b.gif?link=%2Fmovies-coming-soon%2F';"     href="/movies-coming-soon/"    >Coming Soon</a>
-  | <a    onclick="(new Image()).src='/rg/topmovies/footer/images/b.gif?link=%2Fchart%2F';"     href="/chart/"    >Top Movies</a>
-  | <a    onclick="(new Image()).src='/rg/top250/footer/images/b.gif?link=%2Fchart%2Ftop';"     href="/chart/top"    >Top 250</a>
-  | <a    onclick="(new Image()).src='/rg/tv/footer/images/b.gif?link=%2Fsections%2Ftv%2F';"     href="/sections/tv/"    >TV</a>
-  | <a    onclick="(new Image()).src='/rg/news/footer/images/b.gif?link=%2Fnews%2F';"     href="/news/"    >News</a>
-  | <a    onclick="(new Image()).src='/rg/messageboards/footer/images/b.gif?link=%2Fboards%2F';"     href="/boards/"    >Message Boards</a>
-  | <a    onclick="(new Image()).src='/rg/pressroom/footer/images/b.gif?link=%2Fpressroom%2F';"     href="/pressroom/"    >Press Room</a>
-<br>
-
-<a    onclick="(new Image()).src='/rg/register-v2/footer/images/b.gif?link=https%3A%2F%2Fsecure.imdb.com%2Fregister-imdb%2Fform-v2';"     href="https://secure.imdb.com/register-imdb/form-v2"    >Register</a>
-
-  | <a    onclick="(new Image()).src='/rg/advertising/footer/images/b.gif?link=%2Fadvertising%2F';"     href="/advertising/"    >Advertising</a>
-  | <a    onclick="(new Image()).src='/rg/helpdesk/footer/images/b.gif?link=%2Fhelpdesk%2Fcontact';"     href="/helpdesk/contact"    >Contact Us</a>
-  | <a    onclick="(new Image()).src='/rg/jobs/footer/images/b.gif?link=%2Fjobs';"     href="/jobs"    >Jobs</a>
-  | <a href="https://secure.imdb.com/r/IMDbFooter/register/subscribe?c=a394d4442664f6f6475627" onClick="(new Image()).src='/rg/IMDbFooter/prosystem/images/b.gif?link=https://secure.imdb.com/register/subscribe?c=a394d4442664f6f6475627';">IMDbPro</a>
-  | <a href="http://www.boxofficemojo.com" onClick="(new Image()).src='/rg/BOXOFFICEMOJO/FOOTER/images/b.gif?link=http://www.boxofficemojo.com';">Box Office Mojo</a>
-  | <a href="http://www.withoutabox.com" onClick="(new Image()).src='/rg/WITHOUTABOX/FOOTER/images/b.gif?link=http://www.withoutabox.com';">Withoutabox</a>
- <br /><br />
- IMDb Mobile: 
-    <a    onclick="(new Image()).src='/rg/mobile-ios/footer/images/b.gif?link=%2Fapps%2Fios%2F';"     href="/apps/ios/"    >iPhone/iPad</a>
-  | <a    onclick="(new Image()).src='/rg/mobile-android/footer/images/b.gif?link=%2Fandroid';"     href="/android"    >Android</a>
-  | <a    onclick="(new Image()).src='/rg/mobile-web/footer/images/b.gif?link=http%3A%2F%2Fm.imdb.com';"     href="http://m.imdb.com"    >Mobile site</a>
-  | <a    onclick="(new Image()).src='/rg/mobile-win7/footer/images/b.gif?link=%2Fwindowsphone';"     href="/windowsphone"    >Windows Phone 7</a>
-  | IMDb Social:
-    <a    onclick="(new Image()).src='/rg/facebook/footer/images/b.gif?link=http%3A%2F%2Fwww.facebook.com%2Fimdb';"     href="http://www.facebook.com/imdb"    >Facebook</a>
-  | <a    onclick="(new Image()).src='/rg/twitter/footer/images/b.gif?link=http%3A%2F%2Ftwitter.com%2Fimdb';"     href="http://twitter.com/imdb"    >Twitter</a>
-<br><br>
-</p>
-<p class="footer" align="center">
-
-<a href="/help/show_article?conditions">Copyright &copy;</a> 1990-2014
-<a href="/help/">IMDb.com, Inc.</a>
-<br>
-<a href="/help/show_article?conditions">Conditions of Use</a> | <a href="/privacy">Privacy Policy</a> | <a href="//www.amazon.com/InterestBasedAds">Interest-Based Ads</a>
-<br>
-
-An <img id="amazon_logo" align="middle" style="width:80px;height:19px;border:0 none" src="http://i.media-imdb.com/images/SF9bb191c6827273aa978cab39a3587950/b.gif"/> company.
-
-</p>
-
-
-
-<table class="footer" id="amazon-affiliates">
-  <tr>
-    <td colspan="8">
-      Amazon Affiliates
-    </td>
-  </tr>
-  <tr>
-    <td class="amazon-affiliate-site-first">
-      <a class="amazon-affiliate-site-link"
-      href="http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20">
-        <span class="amazon-affiliate-site-name">Amazon Instant Video</span><br>
-        <span class="amazon-affiliate-site-desc">Watch Movies &<br>TV Online</span>
-      </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-      <a class="amazon-affiliate-site-link"
-      href="http://www.amazon.com/b?ie=UTF8&node=2676882011&tag=imdbpr1-20">
-        <span class="amazon-affiliate-site-name">Prime Instant Video</span><br>
-        <span class="amazon-affiliate-site-desc">Unlimited Streaming<br>of Movies & TV</span>
-      </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-      <a class="amazon-affiliate-site-link"
-      href="http://www.amazon.de/b?ie=UTF8&node=284266&tag=imdbpr1-de-21">
-        <span class="amazon-affiliate-site-name">Amazon Germany</span><br>
-        <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
-      </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-      <a class="amazon-affiliate-site-link"
-      href="http://www.amazon.it/b?ie=UTF8&node=412606031&tag=imdbpr1-it-21">
-        <span class="amazon-affiliate-site-name">Amazon Italy</span><br>
-        <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
-      </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-      <a class="amazon-affiliate-site-link"
-      href="http://www.amazon.fr/b?ie=UTF8&node=405322&tag=imdbpr1-fr-21">
-        <span class="amazon-affiliate-site-name">Amazon France</span><br>
-        <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
-      </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-      <a class="amazon-affiliate-site-link"
-      href="http://www.amazon.in/movies-tv-shows/b/?ie=UTF&node=976416031&tag=imdbpr1-in-21">
-        <span class="amazon-affiliate-site-name">Amazon India</span><br>
-        <span class="amazon-affiliate-site-desc">Buy Movie and<br>TV Show DVDs</span>
-      </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-      <a class="amazon-affiliate-site-link" href="http://www.dpreview.com">
-        <span class="amazon-affiliate-site-name">DPReview</span><br>
-        <span class="amazon-affiliate-site-desc">Digital<br>Photography</span>
-      </a>
-    </td>
-    <td class="amazon-affiliate-site-item-nth">
-      <a class="amazon-affiliate-site-link" href="http://www.audible.com">
-        <span class="amazon-affiliate-site-name">Audible</span><br>
-      <span class="amazon-affiliate-site-desc">Download<br>Audio Books</span></a>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-  
-  
-  
-</layer>
-</div>
-<img src="/rd/?q=50703000000030a090f29616f226e276966600000010c6a0a22303134303430323c29393338393c2131313931393c2131323735393c2131323833343c21313130313030000001037a040379646370000001047&cb=139648431014393" width="1" height="1" alt="" border="0">
-</div> <!-- id="wrapper" -->
-<!-- h=iop706 i=2014-04-02 s=legacy(default) t='Wed Apr  2 17:18:29 2014' -->
-<script src="http://i.media-imdb.com/images/SFf43d8253d656f5bc7c92c0aff9720ee0/js/cc/gateway.js" ></script><script type="text/imdblogin-js" id="login">
-    jQuery(document).ready(function(){
-        window.imdb.login_lightbox("https://secure.imdb.com",
-                       "http://www.imdb.com/");
-    });
-</script>
-<script src="http://i.media-imdb.com/images/SFe6b8b05cea724dcd192ca6c674f606cc/js/framecheck.js" ></script>
+<script  src="//www.craigslist.org/js/general-concat.min.js?v=131ea39aadf7e242aaae7c0638847116" type="text/javascript" ></script>
+<script type="text/javascript"><!--
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = '//www.' + CL.url.baseDomain + '/static/localstorage.html?v=df3e26b8dc7dec459e3415594e32b1a3';
+        document.body.insertBefore(iframe, null);
+    --></script>
+<script  src="//www.craigslist.org/js/homepage.min.js?v=fd3d555f72f04ee52664eaac5a6ddca9" type="text/javascript" ></script>
 </body>
 </html>

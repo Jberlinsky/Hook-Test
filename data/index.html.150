@@ -1,509 +1,683 @@
-<!DOCTYPE html>
-<!--[if IE 8]>
-<html id="ie8" lang="en">
-<![endif]-->
-<!--[if !(IE 8) ]><!-->
-<html lang="en">
-<!--<![endif]-->
-<!--
-	generated in 0.336 seconds
-	62498 bytes batcached for 300 seconds
--->
-<head>
-<meta charset="UTF-8" />
-<title>Glenn Pendlay | Deep thoughts, and some not so deep!</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="http://glennpendlay.wordpress.com/xmlrpc.php" />
-<link rel="alternate" type="application/rss+xml" title="Glenn Pendlay &raquo; Feed" href="http://glennpendlay.wordpress.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Glenn Pendlay &raquo; Comments Feed" href="http://glennpendlay.wordpress.com/comments/feed/" />
-<script type="text/javascript">
-/* <![CDATA[ */
-function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
-/* ]]> */
-</script>
-<link rel='stylesheet' id='all-css-0' href='http://s2.wp.com/_static/??-eJx9kN0OwjAIRl/ISvyNXhifZXbYMWlpBs2yt7eaqDGa3X205wABxuy8JMNkEIvLXAIlBY3EOOVBevT2XS296gL+a0w3VOjRcuNv7ln94BeW8BEkBGylmLsKs4wwUhtwdgalKyWy6R3mYO1kMC9t3apSoEw1djK698ec7WXA+h5zYw8iYksNMsaKzWkx71/WI3b1Fr9nsK72UcjlArVlaJK5MJQUENQmfq51jqfV5rjfbg7r1a6/A1zroLg=' type='text/css' media='all' />
-<!--[if lt IE 8]>
-<link rel='stylesheet' id='elegant-grunge-ie-css'  href='http://s0.wp.com/wp-content/themes/pub/elegant-grunge/ie.css?m=1288065825g&#038;ver=3.9-beta2-27714' type='text/css' media='all' />
-<![endif]-->
-<link rel='stylesheet' id='all-css-2' href='http://s0.wp.com/_static/??-eJx9jsEKwjAQRH/IuGisxYP4LWmzbiJJNmRT+vuNpYeC0tPMMLxhYM5q5FQxVYiTymEinwQKDoGpWYJR9vHc4gn+Q5mlqncwvoA4U77wpkcUYcLiW7G3P0B1GFHA3YACDyYcLc7eElZZnxOzLWjsuviKz4t+dL3W92v/WQDxF110' type='text/css' media='all' />
-<link rel='stylesheet' id='print-css-2' href='http://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1387483371g' type='text/css' media='print' />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+<meta name="language" content="en, sv" />
+<title>
+forgetomori </title>
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+<meta name="language" content="en, sv" />
+<meta name="generator" content="WordPress 3.6" />
+<!-- leave this for stats please -->
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://forgetomori.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://forgetomori.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://forgetomori.com/feed/atom/" />
+<link rel="pingback" href="http://forgetomori.com/xmlrpc.php" />
+	<link rel='archives' title='May 2013' href='http://forgetomori.com/2013/05/' />
+	<link rel='archives' title='January 2013' href='http://forgetomori.com/2013/01/' />
+	<link rel='archives' title='November 2012' href='http://forgetomori.com/2012/11/' />
+	<link rel='archives' title='September 2012' href='http://forgetomori.com/2012/09/' />
+	<link rel='archives' title='June 2012' href='http://forgetomori.com/2012/06/' />
+	<link rel='archives' title='May 2012' href='http://forgetomori.com/2012/05/' />
+	<link rel='archives' title='April 2012' href='http://forgetomori.com/2012/04/' />
+	<link rel='archives' title='February 2012' href='http://forgetomori.com/2012/02/' />
+	<link rel='archives' title='January 2012' href='http://forgetomori.com/2012/01/' />
+	<link rel='archives' title='December 2011' href='http://forgetomori.com/2011/12/' />
+	<link rel='archives' title='November 2011' href='http://forgetomori.com/2011/11/' />
+	<link rel='archives' title='October 2011' href='http://forgetomori.com/2011/10/' />
+	<link rel='archives' title='September 2011' href='http://forgetomori.com/2011/09/' />
+	<link rel='archives' title='August 2011' href='http://forgetomori.com/2011/08/' />
+	<link rel='archives' title='July 2011' href='http://forgetomori.com/2011/07/' />
+	<link rel='archives' title='May 2011' href='http://forgetomori.com/2011/05/' />
+	<link rel='archives' title='April 2011' href='http://forgetomori.com/2011/04/' />
+	<link rel='archives' title='March 2011' href='http://forgetomori.com/2011/03/' />
+	<link rel='archives' title='February 2011' href='http://forgetomori.com/2011/02/' />
+	<link rel='archives' title='January 2011' href='http://forgetomori.com/2011/01/' />
+	<link rel='archives' title='December 2010' href='http://forgetomori.com/2010/12/' />
+	<link rel='archives' title='November 2010' href='http://forgetomori.com/2010/11/' />
+	<link rel='archives' title='October 2010' href='http://forgetomori.com/2010/10/' />
+	<link rel='archives' title='September 2010' href='http://forgetomori.com/2010/09/' />
+	<link rel='archives' title='August 2010' href='http://forgetomori.com/2010/08/' />
+	<link rel='archives' title='July 2010' href='http://forgetomori.com/2010/07/' />
+	<link rel='archives' title='June 2010' href='http://forgetomori.com/2010/06/' />
+	<link rel='archives' title='May 2010' href='http://forgetomori.com/2010/05/' />
+	<link rel='archives' title='April 2010' href='http://forgetomori.com/2010/04/' />
+	<link rel='archives' title='March 2010' href='http://forgetomori.com/2010/03/' />
+	<link rel='archives' title='February 2010' href='http://forgetomori.com/2010/02/' />
+	<link rel='archives' title='January 2010' href='http://forgetomori.com/2010/01/' />
+	<link rel='archives' title='December 2009' href='http://forgetomori.com/2009/12/' />
+	<link rel='archives' title='November 2009' href='http://forgetomori.com/2009/11/' />
+	<link rel='archives' title='October 2009' href='http://forgetomori.com/2009/10/' />
+	<link rel='archives' title='September 2009' href='http://forgetomori.com/2009/09/' />
+	<link rel='archives' title='August 2009' href='http://forgetomori.com/2009/08/' />
+	<link rel='archives' title='July 2009' href='http://forgetomori.com/2009/07/' />
+	<link rel='archives' title='June 2009' href='http://forgetomori.com/2009/06/' />
+	<link rel='archives' title='May 2009' href='http://forgetomori.com/2009/05/' />
+	<link rel='archives' title='April 2009' href='http://forgetomori.com/2009/04/' />
+	<link rel='archives' title='March 2009' href='http://forgetomori.com/2009/03/' />
+	<link rel='archives' title='February 2009' href='http://forgetomori.com/2009/02/' />
+	<link rel='archives' title='January 2009' href='http://forgetomori.com/2009/01/' />
+	<link rel='archives' title='December 2008' href='http://forgetomori.com/2008/12/' />
+	<link rel='archives' title='November 2008' href='http://forgetomori.com/2008/11/' />
+	<link rel='archives' title='October 2008' href='http://forgetomori.com/2008/10/' />
+	<link rel='archives' title='September 2008' href='http://forgetomori.com/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://forgetomori.com/2008/08/' />
+	<link rel='archives' title='July 2008' href='http://forgetomori.com/2008/07/' />
+	<link rel='archives' title='June 2008' href='http://forgetomori.com/2008/06/' />
+	<link rel='archives' title='May 2008' href='http://forgetomori.com/2008/05/' />
+	<link rel='archives' title='April 2008' href='http://forgetomori.com/2008/04/' />
+	<link rel='archives' title='March 2008' href='http://forgetomori.com/2008/03/' />
+	<link rel='archives' title='February 2008' href='http://forgetomori.com/2008/02/' />
+	<link rel='archives' title='January 2008' href='http://forgetomori.com/2008/01/' />
+	<link rel='archives' title='December 2007' href='http://forgetomori.com/2007/12/' />
+	<link rel='archives' title='November 2007' href='http://forgetomori.com/2007/11/' />
+	<link rel='archives' title='October 2007' href='http://forgetomori.com/2007/10/' />
+	<link rel='archives' title='September 2007' href='http://forgetomori.com/2007/09/' />
+	<link rel='archives' title='August 2007' href='http://forgetomori.com/2007/08/' />
+	<link rel='archives' title='July 2007' href='http://forgetomori.com/2007/07/' />
+<meta name="description" content="forgetomori: Extraordinary claims. Ordinary investigations." />
+<meta name="keywords" content="forgetomori" />
+<meta name="robots" content="index,follow,noodp,noydir" />
+<link rel='stylesheet' id='comfeed-css'  href='http://forgetomori.com/wp-content/plugins/sexybookmarks/css/comfeed.css?ver=6.0.0.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://forgetomori.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://forgetomori.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
+var SHRSB_Globals = {"src":"http:\/\/forgetomori.com\/wp-content\/uploads\/shareaholic\/spritegen","perfoption":null,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","locale":"0","shortener":"google","shortener_key":"","pubGaSocial":"0","pubGaKey":""};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://s0.wp.com/_static/??-eJyFkNsOwiAMQH9IRpzRZQ/Gb9mlI0WgSEGiXy8mM2qc2VOb9qSnrcxeDOQiuCg1S0s9GhCJIXSq1AS6iSrNG1k4dINJI/AT1JcE4TaHVUBYVKGLUFl0L/jD6omjBeaiXOh+q9BdEfIqpiH6bjiLAIz3n6m9ISW8SQody5IrGClFMZExlGXGUUFcOor9e///35ipkz1ud+3+0DRtXesHiaqG6Q=='></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://glennpendlay.wordpress.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://glennpendlay.wordpress.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress.com" />
-<link rel='shortlink' href='http://wp.me/2zZ4' />
+<script type='text/javascript' src='http://forgetomori.com/wp-content/uploads/shareaholic/spritegen/jquery.shareaholic-publishers-sb.min.js?ver=6.0.0.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://forgetomori.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://forgetomori.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6" />
 
-<!-- Jetpack Open Graph Tags -->
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Glenn Pendlay" />
-<meta property="og:description" content="Deep thoughts, and some not so deep!" />
-<meta property="og:url" content="http://glennpendlay.wordpress.com/" />
-<meta property="og:site_name" content="Glenn Pendlay" />
-<meta property="og:image" content="http://wordpress.com/i/blank.jpg?m=1383295312g" />
-<meta name="twitter:site" content="@wordpressdotcom" />
-<meta property="fb:app_id" content="249643311490" />
-<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
-<link rel="shortcut icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1311975824g" sizes="16x16 24x24 32x32 48x48" />
-<link rel="icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1311975824g" sizes="16x16 24x24 32x32 48x48" />
-<link rel="apple-touch-icon-precomposed" href="http://s0.wp.com/i/webclip.png?m=1391188133g" />
-<link rel='openid.server' href='http://glennpendlay.wordpress.com/?openidserver=1' />
-<link rel='openid.delegate' href='http://glennpendlay.wordpress.com/' />
-<link rel="search" type="application/opensearchdescription+xml" href="http://glennpendlay.wordpress.com/osd.xml" title="Glenn Pendlay" />
-<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
-<meta name="application-name" content="Glenn Pendlay" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Deep thoughts, and some not so deep!" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://glennpendlay.wordpress.com/feed/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="Glenn Pendlay on WordPress.com" />
-<meta name="description" content="Deep thoughts, and some not so deep!" />
+<!-- Powered by AdSense-Deluxe WordPress Plugin v0.8 - http://www.acmetech.com/blog/adsense-deluxe/ -->
 
-	<style type="text/css">
-			#header div a,
-		#header h1,
-		#header h2,
-		#blog-description {
-			color: #d3d3d3;
-		}
-		</style>
+<script type="text/javascript">var AKPC_IDS = "";</script>
+	
 
-<script type='text/javascript'>/*<![CDATA[*/if(typeof(addLoadEvent)!='undefined'){addLoadEvent(function(){if(top==self){i=document.createElement('img');i.src='http://botd2.wordpress.com/botd.gif?blog=614982&post=0&lang=en&date=1395440861&ip=68.42.214.176&url=http://glennpendlay.wordpress.com/';i.id='botd2';i.style.width='0px';i.style.height='0px';i.style.overflow='hidden';document.body.appendChild(i);}});}/*]]>*/</script>
-<style type="text/css" id="syntaxhighlighteranchor"></style>
+<!-- Start SHR Open Graph Tags -->
+
+	<!-- Shareaholic Notice: There is no featured image set -->
+
+<!-- END SHR Open Graph Tags -->
+
+<style type="text/css" media="screen">
+		<!-- @import url( http://forgetomori.com/wp-content/themes/@1SummerBurst/style.css ); -->
+</style>
 </head>
-<body class="home blog mp6 two-column content-sidebar no-svg highlander-enabled highlander-light infinite-scroll neverending">
-	<div id="page">
-			<div id="menu">
-			<div class="menu-header"><ul><li class="current_page_item"><a href="http://glennpendlay.wordpress.com/">Home</a></li><li class="page_item page-item-2"><a href="http://glennpendlay.wordpress.com/about/">About</a></li></ul></div>
-			<div class="clear"></div>
-		</div><!-- #menu -->
-		<div id="header-wrap">
-						<div id="header">
-				<div>
-					<a href="http://glennpendlay.wordpress.com/" title="Glenn Pendlay" rel="home">
-											<h1>Glenn Pendlay</h1>
-											<p id="blog-description">Deep thoughts, and some not so deep!</p>
-					</a>
-				</div>
-			</div>
-		</div><!-- #header-wrap --><div id="content-container">
-	<div id="content">
-		<div id="content-body">
-										
-<div class="post-762 post type-post status-publish format-standard hentry category-uncategorized" id="post-762">
-	<div class="post-date">
-		<a href="http://glennpendlay.wordpress.com/2014/03/21/a-problem-for-crossfitters/" title="Permalink to A Problem For&nbsp;Crossfitters" rel="bookmark">
-			March 21, 2014		</a>
-	</div>
-	<h2 class="entry-title"><a href="http://glennpendlay.wordpress.com/2014/03/21/a-problem-for-crossfitters/" rel="bookmark">A Problem For&nbsp;Crossfitters</a></h2>
-	<div class="post-author">
-		<span class="author vcard">By <a class="url fn n" href="http://glennpendlay.wordpress.com/author/glennpendlay/" title="View all posts by glennpendlay">glennpendlay</a></span>	</div>
-	<div class="entry">
-		<p><img alt="" src="http://cdn3.volusion.com/dtwfe.bjanx/v/vspfiles/photos/LifeSpanRower-2.jpg?1342081724" /></p>
-<p>The problem with cross fitter athletes from a weightlifting standpoint they are extremely unbalanced.  Their strengths are very strong, but they often also have even more glaring weak points. An athlete might have great strength, but very limited flexibility.  He or she might  have superb conditioning   but low strength levels.  This is a result of not having done weight lifting specific training.  Often this will take  a lot of patience for the athlete to overcome. This can be doubly frustrating to some because they are use to working hard and wining at things that are related to weight lifting.  It is difficult  to adopt the mind set of a beginner, but that is required if the athlete is going to even out there development and make it more conducive to weightlifting. Often an athlete is tempted to play to their strengths, and the things they are good at.   It takes a very devoted lifter with a great work ethic to do the hard work necessary to increase the total.   But if you take the time you will be rewarded.</p>
-			</div>
-	<div class="clear"></div>
-	<p class="metadata">
-		<a href="http://glennpendlay.wordpress.com/2014/03/21/a-problem-for-crossfitters/#comments" title="Comment on A Problem For&nbsp;Crossfitters">5 Comments</a>						| posted in <a href="http://glennpendlay.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>					</p>
-	<div class="hr"><hr /></div>
-</div>							
-<div class="post-756 post type-post status-publish format-standard hentry category-uncategorized" id="post-756">
-	<div class="post-date">
-		<a href="http://glennpendlay.wordpress.com/2013/07/21/how-we-train/" title="Permalink to How We Train." rel="bookmark">
-			July 21, 2013		</a>
-	</div>
-	<h2 class="entry-title"><a href="http://glennpendlay.wordpress.com/2013/07/21/how-we-train/" rel="bookmark">How We Train.</a></h2>
-	<div class="post-author">
-		<span class="author vcard">By <a class="url fn n" href="http://glennpendlay.wordpress.com/author/glennpendlay/" title="View all posts by glennpendlay">glennpendlay</a></span>	</div>
-	<div class="entry">
-		<p><a href="http://glennpendlay.files.wordpress.com/2013/07/dsc_0444.jpg"><img src="http://glennpendlay.files.wordpress.com/2013/07/dsc_0444.jpg?w=490&#038;h=285" alt="DSC_0444" width="490" height="285" class="aligncenter size-large wp-image-757" /></a></p>
-<p>Although I have explained this before in various places, I keep getting the same basic question, (what is your program?) and I am going to tackle the question again, hopefully in a more effective way than I have done in the past. </p>
-<p>Step One:  The backbone of our program is 3 main workouts, Monday, Wednesday, and Friday afternoon.  These our our 3 heaviest workouts on the snatch and clean and jerk.  Friday is always the competitive lifts, while the other two might be some variation, like lifts off a box or from the hang. But whatever variations are done these are definitely the three heaviest workouts, the sessions where we definitely expect lifts over 90 percent to be lifted, the emphasis is usually to get to the heaviest single possible on the lifts we are doing, then do some back-off sets.  Exact sets and reps on the two lifts can change depending on the lifter, or the particular needs of a lifter, but we are always going heavy on the competitive lifts or close variations.</p>
-<p>Step Two: We do a morning workout Monday through Friday.  These workouts are normally not as heavy, and normally concentrate more on doubles rather singles.  We often do the power versions of the lifts on these workouts, and often go to max.  But, max on a power version is usually only 80 to 90 percent of a full lift.  And when we do the full lifts or any other variation we will not normally go heavier than what the athlete can do for a power version.  We also end these workouts with an overhead strength exercise.  Push presses are the most widely used, but based on the individual lifter it could be presses, push presses, power jerks, or jerks. These workouts add a lot of the overall training volume, and the exercises are more variable than in the afternoon, to address the individual needs of particular athletes.</p>
-<p>Step Three:  Now we are talking about squats.  Although they are last here, they certainly are not last in importance.  Squatting is usually programmed with one thing in mind, what is going to keep the squat moving upwards with the least interference with the rest of training as possible.  Often a program like the Texas Method can make this happen, but, we do add one more session to accomplish this.  A Saturday session where squatting is prioritized and done first, followed only by overhead strength work like pressing or push pressing, or jerk practice.  We do the volume workout on Monday, the &#8220;light&#8221; workout on Wednesday, and the intensity day on Saturday where we are always trying to make some sort of a PR.  The first two squat sessions can be done in either the morning or the afternoon sessions, whichever fits that particular lifter the best.</p>
-<p>If we get to the point that TM squatting is not increasing the squat, we go to something different, often something that might at least temporarily interfere with the competitive lifts.  But the squat has to move up, so then if that needs to happen, so be it.  There are a lot of options.  The Smolov program is one.  It is a 4 day a week program of back squats, and it is high enough in volume that it needs to be done during the Mon, Wed, Fri morning training sessions during the week, then Saturday.  Another option is frequent max  effort front squats.  Find what works to get your squat up.  There is no one best way here, just find what works and remember, the squat HAS to move up or you need to find another way.</p>
-<p>There it is in a nutshell. </p>
-			</div>
-	<div class="clear"></div>
-	<p class="metadata">
-		<a href="http://glennpendlay.wordpress.com/2013/07/21/how-we-train/#comments" title="Comment on How We Train.">26 Comments</a>						| posted in <a href="http://glennpendlay.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>					</p>
-	<div class="hr"><hr /></div>
-</div>							
-<div class="post-749 post type-post status-publish format-standard hentry category-blogroll category-uncategorized category-worthwhile-posts" id="post-749">
-	<div class="post-date">
-		<a href="http://glennpendlay.wordpress.com/2013/01/14/the-politics-of-weightlifting/" title="Permalink to The Politics of&nbsp;Weightlifting" rel="bookmark">
-			January 14, 2013		</a>
-	</div>
-	<h2 class="entry-title"><a href="http://glennpendlay.wordpress.com/2013/01/14/the-politics-of-weightlifting/" rel="bookmark">The Politics of&nbsp;Weightlifting</a></h2>
-	<div class="post-author">
-		<span class="author vcard">By <a class="url fn n" href="http://glennpendlay.wordpress.com/author/glennpendlay/" title="View all posts by glennpendlay">glennpendlay</a></span>	</div>
-	<div class="entry">
-		<p><a href="http://glennpendlay.files.wordpress.com/2013/01/dsc_0172.jpg"><img src="http://glennpendlay.files.wordpress.com/2013/01/dsc_0172.jpg?w=490&#038;h=356" alt="DSC_0172"   class="aligncenter size-large wp-image-751" /></a></p>
-<p>Those of you who follow this blog know that I normally stay out of the politics of weightlifting.  I usually do my own little thing and leave the governance of the sport to people who like that sort of thing.  Or at least dislike it less than I do.  And when I do feel strongly about something, normally it is only the lifters I coach and a few friends that hear about it.</p>
-<p>But I am going to address a current issue publicly now because I think it is important.</p>
-<p>The 2013 International Event Qualification Procedures are being voted on by the Board of Directors on Wednesday, January 16th and I have a big disagreement with some of it.</p>
-<p>As it stands now, we have several qualification competitions for each international event.  The US team for an international event like the World Championships is determined by how athletes do at these qualifying competitions.  It is pretty cut and dried, the person who lifts the most wins.  Comparing between weight classes is done using a formula that is predetermined.  At the end of the last qualifying competition, everyone knows who made the team, and who did not.</p>
-<p>That is about to change if the 2013 Qualification Procedures is passed by the Board of Directors in its current form.</p>
-<p>The current language allows athletes who have &#8220;made&#8221; the team via the qualifying competitions, along with athletes who failed to make the team, to all be invited to a training camp at the OTC during the time period between the last qualifier and the competition.</p>
-<p>During this training camp, athletes who did not make the team via the qualification competitions can displace athletes who did and take their place on the team.  In the event that an athlete is not able to travel to and attend the training camp, he or she can be displaced on the team by an athlete who was able to travel to and attend the camp.</p>
-<p>I believe this is discriminatory against athletes who do not live at the OTC, and may not be able to come to the camps to &#8220;defend&#8221; their place on a team.  Most athletes outside of the OTC (and most of the athletes who make international teams do NOT live at the OTC) go to school, or have jobs.  Many of these athletes simply cannot drop out of their normal life to go to Colorado Springs for one or two weeks.  Most of the coaches of these athletes cannot drop out of their normal lives to go spend time in Colorado Springs.  The athletes who do not attend are left without a fair chance to defend the team slot that they have earned through the qualification competitions.  Athletes who might be able to attend, but their coach cannot, are also left at a disadvantage when in competition for a team slot with athletes whose coaches can attend.</p>
-<p>In addition to that, opening up the qualifying procedures to events outside of open, sanctioned weightlifting competitions also could add a degree of subjectivity to the selection process.  Even the best of us can favor individuals we like or are even just more familiar with without being conscious of it.  Who are the athletes most likely hurt by any subjectivity that might creep in?  Athletes who are not OTC residents, and athletes who might not have a coach that is able to make the trip.  The same people who are least likely to be able to attend the camps.</p>
-<p>I understand that this language is being inserted to deal with some perceived problems with our present selection process.  But there are other ways to fix problems without opening the can of worms that this proposal opens.  For instance, some feel that our qualifying meets are too far away from the international competitions.  A reasonable solution would be to move the qualifying competitions closer in time to the international competitions, or if that is not possible, introduce another sanctioned competition closer international meet in question.</p>
-<p>Whatever we do, let&#8217;s keep our qualifying procedures for international competition limited to sanctioned competitions where everyone has an equal chance to compete and win or lose on the platform.  Let us NOT introduce procedures that lead to an athletes place of residence,  job situation, financial situation, as well as their coaches situation give them an advantage or disadvantage.</p>
-<p>Here is the URL for the 2013 International Event Qualification Procedures if you want to read it for yourself.</p>
-<p><a href="http://0205632.netsolhost.com/2013USAWInternationalCompetitionReferenceGuideForAthletes1.2.13.pdf" rel="nofollow">http://0205632.netsolhost.com/2013USAWInternationalCompetitionReferenceGuideForAthletes1.2.13.pdf</a></p>
-<p>Here are the names and contact info for the Board of Directors.  They are meeting Wednesday, January 16.  If you agree with me please contact someone on the board, and let them know how you feel.</p>
-<p>Name 	Membership Area Represented 	E-mail<br />
-CJ Bennett 	Grassroots 	cjbennettdc@charter.net<br />
-Terry Grow 	Grassroots 	terrygrow@sbcglobal.net<br />
-David Boffa 	Athlete Rep 	davidboffa@gmail.com<br />
-Ari Sherwin	Independent 	ari@sport-tech.org<br />
-Artie Drechsler  At Large, Chair  wlinfo2@earthlink.net<br />
-Ursula Papandrea  Technical 	upapandrea@suddenlink.net<br />
-Les Simonton 	Technical 	lessimonton@gmail.com<br />
-Jennifer Ullman   Independent 	jensullman@gmail.com<br />
-Emmy Vargas 	Athlete Rep / AAC Rep 	evargas.4.our.usaw@gmail.com<br />
-Michael Graber 	At Large 	mlgraber62@gmail.com </p>
-			</div>
-	<div class="clear"></div>
-	<p class="metadata">
-		<a href="http://glennpendlay.wordpress.com/2013/01/14/the-politics-of-weightlifting/#comments" title="Comment on The Politics of&nbsp;Weightlifting">7 Comments</a>						| posted in <a href="http://glennpendlay.wordpress.com/category/blogroll/" title="View all posts in Blogroll" rel="category tag">Blogroll</a>, <a href="http://glennpendlay.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>, <a href="http://glennpendlay.wordpress.com/category/worthwhile-posts/" title="View all posts in worthwhile posts" rel="category tag">worthwhile posts</a>					</p>
-	<div class="hr"><hr /></div>
-</div>							
-<div class="post-745 post type-post status-publish format-standard hentry category-uncategorized" id="post-745">
-	<div class="post-date">
-		<a href="http://glennpendlay.wordpress.com/2013/01/06/prepare-to-prepare/" title="Permalink to Prepare to prepare." rel="bookmark">
-			January 6, 2013		</a>
-	</div>
-	<h2 class="entry-title"><a href="http://glennpendlay.wordpress.com/2013/01/06/prepare-to-prepare/" rel="bookmark">Prepare to prepare.</a></h2>
-	<div class="post-author">
-		<span class="author vcard">By <a class="url fn n" href="http://glennpendlay.wordpress.com/author/glennpendlay/" title="View all posts by glennpendlay">glennpendlay</a></span>	</div>
-	<div class="entry">
-		<p><a href="http://glennpendlay.files.wordpress.com/2013/01/ikangaa_83.jpg"><img src="http://glennpendlay.files.wordpress.com/2013/01/ikangaa_83.jpg?w=490&#038;h=785" alt="ikangaa_83"   class="aligncenter size-large wp-image-746" /></a></p>
-<p>Juma Ikangaa became a sentimental favorite among fans at the Boston marathon after taking second place 3 years in a row, from 1988 to 1990.  In spite of this he is better remembered for the quote &#8220;the will to win means nothing without the will to prepare.&#8221;</p>
-<p>The will to prepare.  It has become almost a cliche.  How many time have you heard a football coach say that championships are won in August?  </p>
-<p>The will to work hard in the off season, to put forth great effort when no one is looking, when competition is still far off.  Yes, it is necessary to have this in order to be the best you can be.  But is it really as special as we have come to view it?  Is is really deserving of praise?  Is it really what sets the great athletes, the winners, apart from those who fade in the heat of competition?</p>
-<p>I say, NO.  I say that it is not special at all, nor is it sufficient to make you the best that you can be. </p>
-<p>Gold&#8217;s gyms all over the country are full of teenage boys doing forced reps and drop sets and super sets and whatever other painful routine Joe Weider told them to do not to go to the Olympics, not to win Nationals, but simply to get their pecs a bit more &#8220;defined&#8221; in a misguided attempt to get laid.  They may be misguided, but a lot of them are working pretty damn hard, and for relatively little reward.</p>
-<p>Have you seen an aerobics room at a commercial gym lately?  I defy you to find me one that does not have 20 or 30 women engaged in some form of self torture.  Hours spent daily on masochistic machines like elliptical&#8217;s and treadmills, and for what?  Once again, not for a gold medal, but simply to fit into a pair of jeans a couple of sizes smaller.  It may be misguided, but the amount of work and misery invested for small reward or even no reward is mind boggling.</p>
-<p>And then there is CrossFit.  Most CrossFitters are not going to the CrossFit games or appearing in magazines or getting sponsored by supplement companies.  They are normal folks, with normal lives, normal jobs, kids, and mortgages.  And yet there they are, in &#8220;boxes&#8221; all over the country, pushing themselves through workouts that end in complete exhaustion.  Puking, or collapsing on the floor, and for what?  Simply to be more fit.</p>
-<p>So is the &#8220;will to prepare&#8221; really going to set you apart from the pack if you are a competitive athlete?  I don&#8217;t think so.  Not when hundreds of thousands of people are at Golds gym or a CrossFit box &#8220;preparing&#8221; and working their butts off even though they are NOT competitive athletes, are NOT trying to win Nationals or go to the Olympics.  Even though they will never make a dime for their efforts, or be on the cover of a magazine, even though the world will never know their name let alone congratulate them or recognize their efforts.</p>
-<p>What then, sets apart the competitive athlete who is indeed willing to do anything, pay any price, for victory?  Well, it is nothing so easy as simply getting to the gym and putting in your time year round, in season and out of season, when people are watching and even when no one is watching.  It is nothing so glamorous as the superhuman efforts you put in while training.  Anyone can do that, and almost everyone does that.</p>
-<p>No, it is none of that.  It is something much harder.  You have to prepare to prepare.</p>
-<p>That is the hard part.  That is the thing most are unwilling to do.  What is preparing to prepare?  A part of it is simple.  Turning off the TV or computer at 10pm 7 days a week to get regular sleep.  Taking the extra effort to prepare healthy food instead of stopping for fast food.  Saying no to your friends who want to go to the bar, or to a party.   </p>
-<p>Then there are some things which are not so simple.  What do you have to do to live where the best coach is, where the best teammates are?  Does this require sacrifices in your job, and your lifestyle?  What job fits best with your training schedule?  It probably won&#8217;t be the highest paying one, or the one with the best future prospects.  You might not be able to afford the nicest car, or the newest cell phone.</p>
-<p>Does that seem a little extreme?  Consider this.  Somewhere out there is a guy working a crappy part time job, chosen because it does not interfere with training.  He is talking on a 4 year old cell phone and driving a 10 year old car because earning the money for newer, more expensive things would require working more hours and that would interfere with his training.  He is going to bed at 10pm every night, hasn&#8217;t been to a bar in several years and he trained on Christmas day, and on his birthday.  He is busy preparing his meals ahead of time instead of watching &#8220;Two and a half men&#8221; or some other asinine TV program.</p>
-<p>He is doing everything he can OUTSIDE the training hall, to allow himself to prepare harder and more thoroughly INSIDE the training hall.  And he is going to be very, very hard for you to beat unless you do the same.</p>
-			</div>
-	<div class="clear"></div>
-	<p class="metadata">
-		<a href="http://glennpendlay.wordpress.com/2013/01/06/prepare-to-prepare/#comments" title="Comment on Prepare to prepare.">23 Comments</a>						| posted in <a href="http://glennpendlay.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>					</p>
-	<div class="hr"><hr /></div>
-</div>							
-<div class="post-744 post type-post status-publish format-standard hentry category-uncategorized" id="post-744">
-	<div class="post-date">
-		<a href="http://glennpendlay.wordpress.com/2012/11/21/744/" title="Permalink to " rel="bookmark">
-			November 21, 2012		</a>
-	</div>
-	<h2 class="entry-title"><a href="http://glennpendlay.wordpress.com/2012/11/21/744/" rel="bookmark"></a></h2>
-	<div class="post-author">
-		<span class="author vcard">By <a class="url fn n" href="http://glennpendlay.wordpress.com/author/glennpendlay/" title="View all posts by glennpendlay">glennpendlay</a></span>	</div>
-	<div class="entry">
-		<div class="wpcom-reblog-snapshot"><div class="reblogger-note"><p class="reblogger-headline"><img alt='' src='http://1.gravatar.com/avatar/ddcc3dfb6375dc6130ac4e0e29fe5b66?s=32&#038;d=identicon&#038;r=G' class='avatar avatar-32' height='32' width='32' /><a href="http://glennpendlay.wordpress.com/author/glennpendlay/">glennpendlay</a>:</p><div class='reblogger-note-content'><blockquote><p>As timely now as when I wrote it&#8230;</p>
-</blockquote></div></div><div class="reblog-post"><p class="reblog-from"><img alt='' src='http://1.gravatar.com/avatar/ddcc3dfb6375dc6130ac4e0e29fe5b66?s=48&#038;d=identicon&#038;r=G' class='avatar avatar-48' height='48' width='48' />Originally posted on <a href="http://glennpendlay.wordpress.com/2011/08/03/some-straw-men-are-pretty-tough/">Glenn Pendlay</a>:</p><div class="reblogged-content">
-<p>There is a notion that is gaining popularity among the general strength training crowd, the notion that Olympic lifters in the United States do not care about strength training.  That we put a low priority on getting strong.  Now, it is so patently ridiculous to think that those in a sport where success is based on how heavy a barbell you can pick up and put over your head don’t believe strength is important that I did not think the idea would ever gain all that much traction.  In fact, it is so ridiculous that I thought it would probably come back and bite the folks saying it in the ass once people just thought about it a little.  </p>
+<body>
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-309052-2";
+</script>
+<div id="pages">    
+<h1><a href="http://forgetomori.com">Extraordinary claims. Ordinary investigations.</a></h1>
+<ul>
+          </ul>
+</div>
+<div id="wrap">
+<div id="logo">
+</div>
+<div align="center"><script type="text/javascript"><!--
+google_ad_client = "pub-5342471149075356";
+/* 728x15, created 1/25/09 */
+google_ad_slot = "8348509106";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
 
-<p>I was wrong.</p>
 
-<p>This argument is a classic straw man argument. Falsely claim another is supporting position “A”, then win the argument by pointing out that position “A” is incorrect, and…</p>
-</div><p class="reblog-source"><a href="http://glennpendlay.wordpress.com/2011/08/03/some-straw-men-are-pretty-tough/">View original</a> <span class="more-words">1,184 more words</span></p></div></div>					<a href="http://glennpendlay.wordpress.com/2012/11/21/744/" title="Permalink to " rel="bookmark">Continue reading</a>
-			</div>
-	<div class="clear"></div>
-	<p class="metadata">
-		<a href="http://glennpendlay.wordpress.com/2012/11/21/744/#respond" title="Comment on ">Leave a comment</a>						| posted in <a href="http://glennpendlay.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>					</p>
-	<div class="hr"><hr /></div>
-</div>							
-<div class="post-731 post type-post status-publish format-standard hentry category-blogroll category-uncategorized category-worthwhile-posts" id="post-731">
-	<div class="post-date">
-		<a href="http://glennpendlay.wordpress.com/2012/11/19/strength-vs-technique/" title="Permalink to Strength vs. Technique?" rel="bookmark">
-			November 19, 2012		</a>
-	</div>
-	<h2 class="entry-title"><a href="http://glennpendlay.wordpress.com/2012/11/19/strength-vs-technique/" rel="bookmark">Strength vs. Technique?</a></h2>
-	<div class="post-author">
-		<span class="author vcard">By <a class="url fn n" href="http://glennpendlay.wordpress.com/author/glennpendlay/" title="View all posts by glennpendlay">glennpendlay</a></span>	</div>
-	<div class="entry">
-		<div id="attachment_732" style="width: 500px" class="wp-caption aligncenter"><a href="http://glennpendlay.files.wordpress.com/2012/11/zsavickas.jpg"><img src="http://glennpendlay.files.wordpress.com/2012/11/zsavickas.jpg?w=490&#038;h=733" alt="" title="Zsavickas"   class="size-large wp-image-732" /></a><p class="wp-caption-text">Bill Kazmaier called him the strongest man who has ever lived.  He will NOT win a gold medal in Olympic weightlifting.</p></div>
-<p>Although within the sport of weightlifting this &#8220;debate&#8221; is ridiculous and has been recognized as such from the start, it still persists on various message boards around the internet.  Wherever a shortage of experience and common sense exist, it rears it&#8217;s ugly head.  This will be yet another attempt to slay this beast, and it will no doubt fail.  Nevertheless, let us continue.</p>
-<p>Let us imagine that the level of a lifters strength and  technique are both illustrated by having a certain number of pebbles.  Let us suppose that one could have between 0 and 100 &#8220;strength pebbles&#8221;.  Zero indicates an inability to do a squat with your own body weight, no bar or weight added.  100 indicates a complete and total realization of any and all strength you could possibly have given your genetic potential.  The technique pebbles operate along the same lines, and it is the person WITH THE MOST TOTAL PEBBLES THAT WILL LIFT THE MOST WEIGHT!</p>
-<p>Now to make this realistic, let&#8217;s add a couple more conditions.  First of all, let us assume that as you accumulate pebbles, whether they are strength pebbles or technique pebbles, each pebble of that particular variety becomes harder and harder to pick up and hold on to.  So it is relatively easy to pick up the first 20 strength pebbles, and even easier to retain them.  This might represent going from not being able to squat your own body down and up unassisted to being able to squat with a 150lb bar.  Very easy to achieve that, and given any level of activity or training whatsoever, easy to maintain.  But with each pebble you accumulate, picking it up becomes harder, as well as retaining it.  So much so that picking up the last 10 is more difficult than the first 90.  After all, isn&#8217;t going from a 500lb squat to a 600lb squat harder, and more time consuming, than getting up to 500lbs in the first place?  It is for most people.</p>
-<p>Second, let us suppose that once either strength or technique get a certain amount ahead of the other, further increases are useless and don&#8217;t count.  After all, you might have the most beautiful pull in the world, and a transition to going under the bar that is poetry in motion, but if you are not strong enough to stand up with the weight, it is wasted.  And if you are pulling the bar in a manner that makes bicep strength the limiting factor, is increasing the squat going to help you?  Are your biceps ever going to be strong enough to break a world record?  No, there is after all a reason why Zydrunas Savickas is not the Olympic gold medalist in weightlifting.</p>
-<p>Think about these conditions and what they mean.  If your imagination is lacking, let me help you out!</p>
-<p>1.)  To lift the largest weights, it takes a high level of strength AND a high level of technique.</p>
-<p>2.)  A relative lack of either quality makes subsequent focus on the other quality inefficient and self-limiting.   </p>
-<p>3.)  Achieving a balance of both qualities is always the easiest and quickest way to a given level of performance.</p>
-<p>4.)  We should all be trying to increase both qualities, with a focus on whichever is lacking the most.</p>
-<p>5.)  There is no reasonable argument to be made that either quality should be prioritized to the point of letting the other fall behind.</p>
-<p>So there it is, simple and logical.  And it will make no difference whatsoever to those engaged in this silly debate.</p>
-			</div>
-	<div class="clear"></div>
-	<p class="metadata">
-		<a href="http://glennpendlay.wordpress.com/2012/11/19/strength-vs-technique/#comments" title="Comment on Strength vs. Technique?">18 Comments</a>						| posted in <a href="http://glennpendlay.wordpress.com/category/blogroll/" title="View all posts in Blogroll" rel="category tag">Blogroll</a>, <a href="http://glennpendlay.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>, <a href="http://glennpendlay.wordpress.com/category/worthwhile-posts/" title="View all posts in worthwhile posts" rel="category tag">worthwhile posts</a>					</p>
-	<div class="hr"><hr /></div>
-</div>							
-<div class="post-723 post type-post status-publish format-standard hentry category-blogroll category-uncategorized category-worthwhile-posts" id="post-723">
-	<div class="post-date">
-		<a href="http://glennpendlay.wordpress.com/2012/11/16/transitioning-to-olympic-weightlifting-from-a-general-strength-background/" title="Permalink to Transitioning to Olympic weightlifting from a general strength&nbsp;background." rel="bookmark">
-			November 16, 2012		</a>
-	</div>
-	<h2 class="entry-title"><a href="http://glennpendlay.wordpress.com/2012/11/16/transitioning-to-olympic-weightlifting-from-a-general-strength-background/" rel="bookmark">Transitioning to Olympic weightlifting from a general strength&nbsp;background.</a></h2>
-	<div class="post-author">
-		<span class="author vcard">By <a class="url fn n" href="http://glennpendlay.wordpress.com/author/glennpendlay/" title="View all posts by glennpendlay">glennpendlay</a></span>	</div>
-	<div class="entry">
-		<p><a href="http://glennpendlay.files.wordpress.com/2012/11/1243720070_21231.jpg"><img src="http://glennpendlay.files.wordpress.com/2012/11/1243720070_21231.jpg?w=490&#038;h=275" alt="" title="Oly Weightlifting"   class="aligncenter size-large wp-image-727" /></a></p>
-<p>It seems that with the recent increase in popularity of weightlifting in the USA, I have seen a lot more questions about the best way for an experienced weight trainer to transition into the sport.  You know, the guy or gal who has done bench presses and squats for a while, who already has a reasonable amount of basic strength and and a bit of muscle to go with it.</p>
-<p>Such folks are often frustrated by normal beginner routines.  Why?  They are used to training hard, and because they often start off with the ability to snatch or clean and jerk only very low percentages of their squat, deadlift, or bench press, they often don&#8217;t feel like they are getting much of a workout.  This can become very frustrating for a person used to pushing themselves to the limit several times a week on general strength exercises.  And their strength and size, especially in the upper body, often temporarily regresses because the majority of the work they are doing, while challenging technically, is not really challenging from a muscular perspective.  </p>
-<p>This isn&#8217;t a problem for your typical beginner with little or no weight training experience.  For such a person, snatches and clean and jerks, even with weights limited more by technique than strength, along with a bit of pressing and squatting adds strength and muscle.  But for the guy with a 300lb bench, a 450lb squat, and 2-3 years of hard training under his belt, it is unlikely this will be the case.</p>
-<p>These people might be well served by an introduction into the sport that is a little different, something that lets them transition from their old style of training a bit slower, and allows them to maintain and hopefully even improve their level of basic strength and muscle size as they learn to do the snatch and clean and jerk.  I have used a program several times that I believe accomplishes this fairly well.</p>
-<p>The basis for this program is in the programs written by Dr. Mike Stone in the 1980&#8242;s, and the basic template is still in use today at various places with a few minor changes.  Maybe the most notable is LSUS, where it is used by Kendrick Farris and his teammates training under Kyle Pierce.  Justin Lascek recommends a similar program to the &#8220;70&#8242;s big&#8221; community, a very weightlifting friendly bunch of folks who&#8217;s main goal is getting, well, 70&#8242;s big, as well as growing facial hair and wearing flannel.  I have used the program here and there from the late 1990&#8242;s till today with various lifters ranging from those transitioning from powerlifting to weightlifting, to competitive lifters who want a &#8220;rest&#8221; cycle after a major contest, and want to back off a bit on the competitive lifts temporarily but still maintain progress when it comes to overall strength.</p>
-<p><strong>This is a 4 day a week program, and the premise is very simple, as is usually the case with good programming.  Two days a week you practice the snatch and clean and jerk, and 2 days a week you squat and press.</strong></p>
-<p>And honestly, that is the only sentence in this whole blog that is really important.  Sure, I started out by explaining the need for this program, then building some credibility by explaining where it comes from and who has used it.  And I will finish by supplying some details because no one would pay much attention to a blog containing two sentences.</p>
-<p>But the reality is people who are in the position to use this program, experienced weight trainers who have built a decent amount of muscle and strength, already have the experience necessary to fill in the details themselves.  In spite of this, here are the details.</p>
-<p>I think the best way to set this up is to do your snatches and clean and jerks on Monday and Thursday, and your squatting and strength exercises on Tuesday and Saturday.  This does not mean that you have to do it on those days, but those days have worked for me.</p>
-<p>Practice on the Olympic lifts means just that, there is no magical rep scheme.  If you normally work out for 90 minutes, aim to practice for 90 minutes, split up between the two lifts.  If you lack mobility then much of this time, at least initially, might be taken up by work on mobility.  In some circumstances, your time working on snatch might initially be taken up just trying to attain an overhead squat position.  It is possible that initially the bulk of your time in the gym on these days you might just have an empty bar in your hands.  But as is always the case, you will get better as time goes on and at some point you will gradually start to handle more and more challenging weights.  Use your common sense when doing these workouts, challenge you yourself but don&#8217;t do so much as to interfere with your strength training.</p>
-<p>When it comes to your squatting and pressing, if you can&#8217;t figure this out for yourself, then you are not really in the population that I am aiming at with this blog. If you are in the target population, you have already raised your squat at least a hundred pounds and probably more, use your head and do what you have to in order to keep gaining.  Experiment with including front squats.  Most people who do general strength routines bench press, whatever has been working, keep it up.  But consider adding an emphasis to overhead stuff like presses and push presses, and de-emphasising the bench press.</p>
-<p>When do you advance beyond such a routine?  Well, my experience tells me that the need for such a &#8220;hybrid&#8221; program fades when a lifter is snatching 50% or more of his or her backsquat, or clean and jerking 65% of more of his or her back squat.  But let common sense be your guide.  At some point the weights on the snatch and clean and jerk will be heavy enough that it will no longer simply be &#8220;practice&#8221;, it will be real live strength training!  And if you had 2-3 years of strength training behind you before you started Olympic lifting, and then have taken enough time to achieve decent form and decent weights on the competitive lifts using this routine, you should be equipped with enough experience and knowledge to know where to go from here. </p>
-			</div>
-	<div class="clear"></div>
-	<p class="metadata">
-		<a href="http://glennpendlay.wordpress.com/2012/11/16/transitioning-to-olympic-weightlifting-from-a-general-strength-background/#comments" title="Comment on Transitioning to Olympic weightlifting from a general strength&nbsp;background.">25 Comments</a>						| posted in <a href="http://glennpendlay.wordpress.com/category/blogroll/" title="View all posts in Blogroll" rel="category tag">Blogroll</a>, <a href="http://glennpendlay.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>, <a href="http://glennpendlay.wordpress.com/category/worthwhile-posts/" title="View all posts in worthwhile posts" rel="category tag">worthwhile posts</a>					</p>
-	<div class="hr"><hr /></div>
-</div>						<div class="navigation">
-				<div class="next">
-					<a href="http://glennpendlay.wordpress.com/page/2/" >&laquo; Older Entries</a>				</div>
-				<div class="previous">
-									</div>
-			</div>
-					</div>
-		
+<div id="content">
 
-<div id="sidebar" class="sidebar">
+  
+  <div class="entry  firstpost">
+
+    <h3 class="entrytitle" id="post-2063"> <a href="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/" rel="bookmark">
+
+      Don&#8217;t you forget Forgetomori
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+May 19th, 2013 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5342471149075356";
+/* 468x60, created 1/20/09 */
+google_ad_slot = "6509005654";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+      <p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="please-stand-by" border="0" alt="please-stand-by" src="http://forgetomori.com/wp-content/uploads/2013/05/pleasestandby.jpg" width="500" height="285" /> </p>
+<p>In the last couple of years the author of this blog became partner of an Internet startup company that has since been acquired by a multinational Internet group. This has no relation whatsoever to Fortean things, and had the author made millions in the process he may have been blogging occasionally about Forteana in some paradisiacal island.</p>
+<p>As that is not the current situation, alas this blog and related research have been relegated to secondary considerations while things not related to frogs falling from the sky keep the author busy. But it’s still a subject cherished dearly, and normal activities will resume some time in the future.</p>
+<p>Many thanks for the messages and those worried, all is fine, just fine. <em>Memento mori</em>, but there’s still plenty of time to live and be puzzled by.</p>
+<script type="text/javascript">AKPC_IDS += "2063,";</script><p class="akpc_pop">Popularity: 3% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/#comments" class="comments-link "  title="Comment on Don&#8217;t you forget Forgetomori">4 comments </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/"
+    dc:identifier="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/"
+    dc:title="Don&#8217;t you forget Forgetomori"
+    trackback:ping="http://forgetomori.com/2013/uncategorized/dont-you-forget-forgetomori/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <div class="entry ">
+
+    <h3 class="entrytitle" id="post-2061"> <a href="http://forgetomori.com/2013/science/all-the-water-on-earth/" rel="bookmark">
+
+      All the Water on Earth
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2013/science/all-the-water-on-earth/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+January 23rd, 2013 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5342471149075356";
+/* 468x60, created 1/20/09 */
+google_ad_slot = "6509005654";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+      <p><iframe width="500" height="281" src="http://www.youtube.com/embed/OiVwfAPSEH8" frameborder="0" allowfullscreen></iframe></p>
+<p>“If you could pull all the water in the ocean, the atmosphere, and on top of or beneath the surface of Earth into a ball, it would measure only about 950 (1,500km) miles across. By comparison, the moon is 2,160 (3,475km) in diameter. Of this, only about 3 percent if freshwater, and of that only about two-thirds is in a form or a location that is easily accessible to humans.”</p>
+<p>Animation by <strong>Jack Cook</strong>, <em>Woods Hole Oceanographic Institution, t</em>his is a wonderfully clear video version of <a href="http://forgetomori.com/2008/science/rocha-levemente-mida/" target="_blank"><strong>Adam Nieman</strong>’s award winning graphic</a>. [via <a href="http://cgr20.blogspot.com.br/2013/01/todo-el-agua-de-la-tierra.html" target="_blank">cgr v2.0</a>]</p>
+<script type="text/javascript">AKPC_IDS += "2061,";</script><p class="akpc_pop">Popularity: 5% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/science/" title="View all posts in Science" rel="category tag">Science</a> | <a href="http://forgetomori.com/2013/science/all-the-water-on-earth/#comments" class="comments-link "  title="Comment on All the Water on Earth">2 comments </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2013/science/all-the-water-on-earth/"
+    dc:identifier="http://forgetomori.com/2013/science/all-the-water-on-earth/"
+    dc:title="All the Water on Earth"
+    trackback:ping="http://forgetomori.com/2013/science/all-the-water-on-earth/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <div class="entry ">
+
+    <h3 class="entrytitle" id="post-2057"> <a href="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/" rel="bookmark">
+
+      Swarm of Vortex Rings
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+January 9th, 2013 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5342471149075356";
+/* 468x60, created 1/20/09 */
+google_ad_slot = "6509005654";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+      <p align="center"><iframe width="500" height="281" src="http://www.youtube.com/embed/Nypb8_HTenE?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>A SST Truck (Stadium Super Trucks) driven by <strong>Adrian Cenni</strong> exploding while entering Turn 2 at Crandon International Raceway. The explosions going all the way through the pipe created each a <a href="http://en.wikipedia.org/wiki/Vortex_ring" target="_blank">vortex ring</a>.</p>
+<p>One of the most amazing UFO photos has been identified as a giant vortex ring: <a href="http://forgetomori.com/2007/ufos/ufo-photos-viborg-jellyfish/" target="_blank">the Viborg “Jellyfish”</a>.</p>
+<p><a href="http://forgetomori.com/2007/ufos/ufo-photos-viborg-jellyfish/" target="_blank"><img style="border-bottom: 0px;border-left: 0px;border-top: 0px;border-right: 0px" title="viborgjutlanddenmark17ner4" border="0" alt="viborgjutlanddenmark17ner4" src="http://forgetomori.com/wp-content/uploads/2013/01/viborgjutlanddenmark17ner4.jpg" width="500" height="375" /></a></p>
+<script type="text/javascript">AKPC_IDS += "2057,";</script><p class="akpc_pop">Popularity: 5% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/fortean/" title="View all posts in Fortean" rel="category tag">Fortean</a>,<a href="http://forgetomori.com/category/ufos/" title="View all posts in UFOs" rel="category tag">UFOs</a> | <a href="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/#comments" class="comments-link "  title="Comment on Swarm of Vortex Rings">1 comment </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/"
+    dc:identifier="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/"
+    dc:title="Swarm of Vortex Rings"
+    trackback:ping="http://forgetomori.com/2013/ufos/swarm-of-vortex-rings/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <div class="entry ">
+
+    <h3 class="entrytitle" id="post-2055"> <a href="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/" rel="bookmark">
+
+      Spectacular Anticrepuscular Ray in Brazil
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+January 6th, 2013 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+</div>
+
+      <p align="center"><iframe width="500" height="375" src="http://www.youtube.com/embed/DMqK7MkDmsw?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<blockquote><p>“According to <em>O Parana</em> newspaper, anomalous light rays appeared in the sky of Palotina city, Parana state, [Brazil] at Monday (Dec 17) night. Tiago Testa, who lives in the community of Esquina Progresso recorded the event in photo and called SIMEPAR for a more thorough analysis.” [via <em><a href="http://minhamestria.blogspot.com.br/2012/12/a-luz-chegou.html" target="_blank">Minha Maestria</a></em>]</p>
+</blockquote>
+<p>This phenomenon is in short <em>just</em> sunlight. But it was captured here in very special conditions, at sunset near the summer solstice, in the video the sun starts behind the camera even though it seems to be right beyond the horizon at front. The puzzled cameraman says the Sun is opposite to where the column of light seems to come from.</p>
+<p><img style="border-bottom: 0px; border-left: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px" title="luz-palotina-pr" border="0" alt="luz-palotina-pr" src="http://forgetomori.com/wp-content/uploads/2013/01/luzpalotinapr.jpg" width="400" height="250" /> </p>
+<p>To understand this, one first has to understand first a <a href="http://en.wikipedia.org/wiki/Crepuscular_rays" target="_blank">crepuscular ray</a>: the contrast between the rays of sunlight that went through gaps in the clouds and the already darkening ground would already make up for these intense light columns.</p>
+<p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="Crepuscular_Rays_Panorama_HD_-_Copy" border="0" alt="Crepuscular_Rays_Panorama_HD_-_Copy" src="http://forgetomori.com/wp-content/uploads/2013/01/Crepuscular_Rays_Panorama_HD__Copy.jpg" width="500" height="344" /> </p>
+<p>When these parallel rays go all the way crossing the sky above our heads and beyond the antisolar point, opposite to the sun, they converge again due to perspective at the vanishing point. This convergence is only apparent, the sun rays actually kept parallel and went all the way through the atmosphere. But the illusion gives the impression the rays are coming the opposite way. Thus, <a href="http://en.wikipedia.org/wiki/Anticrepuscular_rays" target="_blank">anticrepuscular rays</a>.</p>
+<p>Below, a panorama of an anticrepuscular ray captured in Chandler, Arizona, illustrating the perspective effect of the phenomenon.</p>
+<p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="Anticrepuscularpano" border="0" alt="Anticrepuscularpano" src="http://forgetomori.com/wp-content/uploads/2013/01/Anticrepuscularpano.jpg" width="500" height="80" /></p>
+<p>And here’s another video example from Arizona last year:</p>
+<p align="center"><iframe width="420" height="315" src="http://www.youtube.com/embed/DxN3xmyqYBk?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>And yet another one.</p>
+<p align="center"><iframe width="420" height="236" src="http://www.youtube.com/embed/j7BbrVsjlqM?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p>None of them is quite as spectacular as the recent Palotina video.</p>
+<script type="text/javascript">AKPC_IDS += "2055,";</script><p class="akpc_pop">Popularity: 5% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/fortean/" title="View all posts in Fortean" rel="category tag">Fortean</a>,<a href="http://forgetomori.com/category/science/" title="View all posts in Science" rel="category tag">Science</a> | <a href="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/#comments" class="comments-link "  title="Comment on Spectacular Anticrepuscular Ray in Brazil">1 comment </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/"
+    dc:identifier="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/"
+    dc:title="Spectacular Anticrepuscular Ray in Brazil"
+    trackback:ping="http://forgetomori.com/2013/science/spectacular-anticrepuscular-ray-in-brazil/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <div class="entry ">
+
+    <h3 class="entrytitle" id="post-2050"> <a href="http://forgetomori.com/2012/science/heroes-of-science-action-figures/" rel="bookmark">
+
+      Heroes of Science: Action Figures
+      </a> </h3>
+<script src="http://feeds.feedburner.com/~s/forgetomori?i=http://forgetomori.com/2012/science/heroes-of-science-action-figures/" type="text/javascript" charset="utf-8"></script>
+	  <div class="entrymeta">
+
+November 18th, 2012 by Mori
+
+		</div>
+
+    <div class="entrybody">
+
+<div align="center">
+</div>
+
+      <p><a href="http://datazoid.deviantart.com/art/Heroes-of-Science-Action-Figures-337514889" target="_blank"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="heroesciencethumbcrop" border="0" alt="heroesciencethumbcrop" src="http://forgetomori.com/wp-content/uploads/2012/11/heroesciencethumbcrop.jpg" width="500" height="705" /></a> </p>
+<p>Click for the full set on <em>DeviantArt</em> – sadly this is just a concept art, but one amazingly well-done by <a href="http://datazoid.deviantart.com/art/Heroes-of-Science-Action-Figures-337514889" target="_blank">Russell “datazoid”</a>.</p>
+<script type="text/javascript">AKPC_IDS += "2050,";</script><p class="akpc_pop">Popularity: 5% <span class="akpc_help">[<a href="http://alexking.org/projects/wordpress/popularity-contest" title="What does this mean?">?</a>]</span></p>
+      
+
+Posted in <a href="http://forgetomori.com/category/people/" title="View all posts in People" rel="category tag">People</a>,<a href="http://forgetomori.com/category/science/" title="View all posts in Science" rel="category tag">Science</a> | <a href="http://forgetomori.com/2012/science/heroes-of-science-action-figures/#comments" class="comments-link "  title="Comment on Heroes of Science: Action Figures">3 comments </a>
+      
+
+    </div>
+
+    <!--
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://forgetomori.com/2012/science/heroes-of-science-action-figures/"
+    dc:identifier="http://forgetomori.com/2012/science/heroes-of-science-action-figures/"
+    dc:title="Heroes of Science: Action Figures"
+    trackback:ping="http://forgetomori.com/2012/science/heroes-of-science-action-figures/trackback/" />
+</rdf:RDF>
+	-->
+
+  </div>
+
+  
+  
+  <p>
+
+<div class="Nav" style="margin-bottom: 20px;"><div class='wp-pagenavi'>
+<span class='pages'>Page 1 of 106</span><span class='current'>1</span><a href='http://forgetomori.com/page/2/' class='page larger'>2</a><a href='http://forgetomori.com/page/3/' class='page larger'>3</a><a href='http://forgetomori.com/page/4/' class='page larger'>4</a><a href='http://forgetomori.com/page/5/' class='page larger'>5</a><span class='extend'>...</span><a href='http://forgetomori.com/page/2/' class='nextpostslink'>»</a><a href='http://forgetomori.com/page/106/' class='last'>Last »</a>
+</div></div>
+
+  </p>
+
+</div>
+
+<div id="sidebar">
+
+  <h2>Search this site</h2>
+
+  <div id="searchdiv">
+
+    <form id="searchform" method="get" action="/index.php">
+
+      <input type="text" name="s" id="s" size="20"/>
+
+      <input name="sbutt" type="submit" value="Go" alt="Submit"  />
+
+    </form>
+
+  <ul>
+
+  </div>
+
+  <h2>
+Most popular
+  </h2>
+
+  <ul>
+<li><a href="http://forgetomori.com/2010/fortean/time-traveler-caught-in-museum-photo/">Time Traveler Caught in Museum Photo?</a></li><li><a href="http://forgetomori.com/2007/criptozoology/ningen-a-bizarre-japanese-cryptid/">&quot;Ningen&quot;: a bizarre Japanese cryptid</a></li><li><a href="http://forgetomori.com/2007/criptozoology/alien-corpse-in-thailand/">&quot;Alien&quot; corpse in Thailand</a></li><li><a href="http://forgetomori.com/2010/fortean/another-photo-of-hipster-time-traveller-found/">Another photo of Hipster &ldquo;Time Traveller&rdquo; found</a></li><li><a href="http://forgetomori.com/2007/ufos/the-billy-meier-hoax-photographs/">The Billy Meier hoax photographs</a></li><li><a href="http://forgetomori.com/2007/skepticism/the-el-khaimah-djinn/">The El Khaimah &quot;Djinn&quot;</a></li><li><a href="http://forgetomori.com/2012/ufos/the-fbikgbss-alien-photo-found/">The FBI/KGB/SS Alien Photo: Found</a></li><li><a href="http://forgetomori.com/2010/aliens/the-metepec-creature-author-confess-hoax/">The Metepec Creature: author confess hoax</a></li><li><a href="http://forgetomori.com/2010/criptozoology/the-louisiana-swamp-monster/">The Louisiana Swamp Monster</a></li><li><a href="http://forgetomori.com/2009/skepticism/demnio-capturado-no-mxico/">The Screamin&rsquo; Demon of Mexico: Monkey Business</a></li>  </ul>
+
+ 
+
+ 
+
+  <h2>
+
+    Archives
+  </h2>
+
+  <ul>
+
+<select name="archive-dropdown" onChange='document.location.href=this.options[this.selectedIndex].value;'>
+<option value="">Select Month</option>
+	<option value='http://forgetomori.com/2013/05/'> May 2013 </option>
+	<option value='http://forgetomori.com/2013/01/'> January 2013 </option>
+	<option value='http://forgetomori.com/2012/11/'> November 2012 </option>
+	<option value='http://forgetomori.com/2012/09/'> September 2012 </option>
+	<option value='http://forgetomori.com/2012/06/'> June 2012 </option>
+	<option value='http://forgetomori.com/2012/05/'> May 2012 </option>
+	<option value='http://forgetomori.com/2012/04/'> April 2012 </option>
+	<option value='http://forgetomori.com/2012/02/'> February 2012 </option>
+	<option value='http://forgetomori.com/2012/01/'> January 2012 </option>
+	<option value='http://forgetomori.com/2011/12/'> December 2011 </option>
+	<option value='http://forgetomori.com/2011/11/'> November 2011 </option>
+	<option value='http://forgetomori.com/2011/10/'> October 2011 </option>
+	<option value='http://forgetomori.com/2011/09/'> September 2011 </option>
+	<option value='http://forgetomori.com/2011/08/'> August 2011 </option>
+	<option value='http://forgetomori.com/2011/07/'> July 2011 </option>
+	<option value='http://forgetomori.com/2011/05/'> May 2011 </option>
+	<option value='http://forgetomori.com/2011/04/'> April 2011 </option>
+	<option value='http://forgetomori.com/2011/03/'> March 2011 </option>
+	<option value='http://forgetomori.com/2011/02/'> February 2011 </option>
+	<option value='http://forgetomori.com/2011/01/'> January 2011 </option>
+	<option value='http://forgetomori.com/2010/12/'> December 2010 </option>
+	<option value='http://forgetomori.com/2010/11/'> November 2010 </option>
+	<option value='http://forgetomori.com/2010/10/'> October 2010 </option>
+	<option value='http://forgetomori.com/2010/09/'> September 2010 </option>
+	<option value='http://forgetomori.com/2010/08/'> August 2010 </option>
+	<option value='http://forgetomori.com/2010/07/'> July 2010 </option>
+	<option value='http://forgetomori.com/2010/06/'> June 2010 </option>
+	<option value='http://forgetomori.com/2010/05/'> May 2010 </option>
+	<option value='http://forgetomori.com/2010/04/'> April 2010 </option>
+	<option value='http://forgetomori.com/2010/03/'> March 2010 </option>
+	<option value='http://forgetomori.com/2010/02/'> February 2010 </option>
+	<option value='http://forgetomori.com/2010/01/'> January 2010 </option>
+	<option value='http://forgetomori.com/2009/12/'> December 2009 </option>
+	<option value='http://forgetomori.com/2009/11/'> November 2009 </option>
+	<option value='http://forgetomori.com/2009/10/'> October 2009 </option>
+	<option value='http://forgetomori.com/2009/09/'> September 2009 </option>
+	<option value='http://forgetomori.com/2009/08/'> August 2009 </option>
+	<option value='http://forgetomori.com/2009/07/'> July 2009 </option>
+	<option value='http://forgetomori.com/2009/06/'> June 2009 </option>
+	<option value='http://forgetomori.com/2009/05/'> May 2009 </option>
+	<option value='http://forgetomori.com/2009/04/'> April 2009 </option>
+	<option value='http://forgetomori.com/2009/03/'> March 2009 </option>
+	<option value='http://forgetomori.com/2009/02/'> February 2009 </option>
+	<option value='http://forgetomori.com/2009/01/'> January 2009 </option>
+	<option value='http://forgetomori.com/2008/12/'> December 2008 </option>
+	<option value='http://forgetomori.com/2008/11/'> November 2008 </option>
+	<option value='http://forgetomori.com/2008/10/'> October 2008 </option>
+	<option value='http://forgetomori.com/2008/09/'> September 2008 </option>
+	<option value='http://forgetomori.com/2008/08/'> August 2008 </option>
+	<option value='http://forgetomori.com/2008/07/'> July 2008 </option>
+	<option value='http://forgetomori.com/2008/06/'> June 2008 </option>
+	<option value='http://forgetomori.com/2008/05/'> May 2008 </option>
+	<option value='http://forgetomori.com/2008/04/'> April 2008 </option>
+	<option value='http://forgetomori.com/2008/03/'> March 2008 </option>
+	<option value='http://forgetomori.com/2008/02/'> February 2008 </option>
+	<option value='http://forgetomori.com/2008/01/'> January 2008 </option>
+	<option value='http://forgetomori.com/2007/12/'> December 2007 </option>
+	<option value='http://forgetomori.com/2007/11/'> November 2007 </option>
+	<option value='http://forgetomori.com/2007/10/'> October 2007 </option>
+	<option value='http://forgetomori.com/2007/09/'> September 2007 </option>
+	<option value='http://forgetomori.com/2007/08/'> August 2007 </option>
+	<option value='http://forgetomori.com/2007/07/'> July 2007 </option>
+ </select>
+
+  </ul>
+
+  <h2>
+  <h2>
+
+    Categories
+  </h2>
+
+  <ul>
+
+    	<li class="cat-item cat-item-8"><a href="http://forgetomori.com/category/aliens/" title="Not only illegal: inhuman.">Aliens</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://forgetomori.com/category/criptozoology/" title="From Yeti to the Loch Ness Monster. Who would win this battle?">Criptozoology</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://forgetomori.com/category/fortean/" title="One measures a Moebius strip, beggining anywhere. ">Fortean</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://forgetomori.com/category/paranormal/ghosts/" title="Spirits and other Scooby Doo material">Ghosts</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://forgetomori.com/category/miscelaneous/" title="So bizarre it doesn&#039;t have a category">Miscelaneous</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://forgetomori.com/category/paranormal/" title="Using more than 10% of the brain. Like every human does.">Paranormal</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://forgetomori.com/category/people/" title="UFO and psi celebs. Not that hot.">People</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://forgetomori.com/category/science/" title="View all posts filed under Science">Science</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://forgetomori.com/category/skepticism/" title="Skeptical inquiry: ubi dubium ibi libertas">Skepticism</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://forgetomori.com/category/ufos/ufo-photos/" title="Images, films, videos, etc.">UFO photos</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://forgetomori.com/category/ufos/" title="Unidentified flying objects, flying saucers and extraterrestrial spacecrafts. From Venus.">UFOs</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://forgetomori.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+
+  </ul>
+
+
+  <ul>
+
+      <li id="linkcat-2" class="linkcat"><h2>Blogroll</h2>
 	<ul>
-			<li>
-			<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-2"><a href="http://glennpendlay.wordpress.com/about/">About</a></li>
-</ul></li>		</li>
-		<li>
-			<h2>Archives</h2>
-			<ul>
-					<li><a href='http://glennpendlay.wordpress.com/2014/03/'>March 2014</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2013/07/'>July 2013</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2013/01/'>January 2013</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/11/'>November 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/09/'>September 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/08/'>August 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/07/'>July 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/06/'>June 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/05/'>May 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/04/'>April 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/03/'>March 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2012/02/'>February 2012</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2011/12/'>December 2011</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2011/11/'>November 2011</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2011/10/'>October 2011</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2011/09/'>September 2011</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2011/08/'>August 2011</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2011/07/'>July 2011</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2011/06/'>June 2011</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2011/03/'>March 2011</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2007/03/'>March 2007</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2007/01/'>January 2007</a></li>
-	<li><a href='http://glennpendlay.wordpress.com/2006/12/'>December 2006</a></li>
-			</ul>
-		</li>
-				<li>
-			<li id="linkcat-1356" class="linkcat"><h2>Blogroll</h2>
-	<ul class='xoxo blogroll'>
-<li><a href="http://wordpress.com/">WordPress.com</a></li>
-<li><a href="http://wordpress.org/">WordPress.org</a></li>
+<li><a href="http://cosmiclog.msnbc.msn.com/" title="Quantum fluctuations in space, science, exploration and other cosmic fields&#8230;">Alan Boyle: Cosmic Log</a></li>
+<li><a href="http://apothdrawer.blogspot.com/" title="eclectic topics near the triple point of science, arts, and culture">Apothecary&#8217;s Drawer Weblog</a></li>
+<li><a href="http://www.badastronomy.com/">Bad Astronomy</a></li>
+<li><a href="http://www.badscience.net">Bad Science</a></li>
+<li><a href="http://badufos.blogspot.com/" title="Skepticism, UFOs, and The Universe " target="_blank">Bad UFOs</a></li>
+<li><a href="http://www.wunderkabinett.co.uk/damndata/">Cabinet of Wonders</a></li>
+<li><a href="http://www.caelestia.be/" title="a research initiative for unidentified aerial phenomena " target="_blank">Caelestia</a></li>
+<li><a href="http://www.coasttocoastam.com/" target="_blank">Coast to Coast AM</a></li>
+<li><a href="http://www.resurch.org/" title="CRITICAL THINKING RESOURCES FROM THE SKEPDAD BLOG" target="_blank">Critical Thinking Resources</a></li>
+<li><a href="http://www.cryptomundo.com/">Cryptomundo</a></li>
+<li><a href="http://www.csicop.org/whatsnew/" title=" Committee for Skeptical Inquiry">CSI</a></li>
+<li><a href="http://derrenbrown.co.uk/blog/" title="All your mind are belong to us" target="_blank">Derren Brown Blog</a></li>
+<li><a href="http://www.lhup.edu/~dsimanek/home.htm">Donald Simanek&#8217;s Pages</a></li>
+<li><a href="http://fogonazos.blogspot.com/2003/11/most-popular.html">Fogonazos</a></li>
+<li><a href="http://www.forteantimes.com/blogs/editorial-blogs/news/" title="A daily round-up of the world&#8217;s weird news">Fortean Times | Breaking News</a></li>
+<li><a href="http://fotocat.blogspot.com/">FOTOCAT blog</a></li>
+<li><a href="http://www.randi.org/" title="James Randi Educational Foundation">JREF</a></li>
+<li><a href="http://www.laputanlogic.com/" title="Fanciful. Preposterous. Absurd.">Laputan Logic</a></li>
+<li><a href="http://magonia.haaan.com/" title="Interpreting Contemporary Vision and Belief" target="_blank">Magonia</a></li>
+<li><a href="http://pelicanist.blogspot.com/" title="Notes, quotes, views, news and reviews" target="_blank">Magonia Blog</a></li>
+<li><a href="http://www.museumofhoaxes.com/" title="Dedicated to promoting knowledge about the phenomenon of hoaxes.">Museum of Hoaxes</a></li>
+<li><a href="http://posthumanblues.blogspot.com/" title="Official blog of Mac Tonnies, author, futurist and fortean">Posthuman Blues</a></li>
+<li><a href="http://sprott.physics.wisc.edu/pickover/pc/realitycarnival.html" title="&#8220;News that shatters the ice of our unconscious!&#8221; 	">RealityCarnival</a></li>
+<li><a href="http://www.reall.org/" title="Rational Examination Association of Lincoln Land">REALL</a></li>
+<li><a href="http://www.sciencehumor.org/">Science Humor</a></li>
+<li><a href="http://www.anomalist.com/" title="THE ANOMALIST IS A DAILY REVIEW OF WORLD NEWS ON MAVERICK SCIENCE, UNEXPLAINED MYSTERIES, UNORTHODOX THEORIES, STRANGE TALENTS, AND UNEXPECTED DISCOVERIES.">The Anomalist</a></li>
+<li><a href="http://graylien.110mb.com/" title="High Strangeness UFO and entity encounters">The Cosmic Jokers</a></li>
+<li><a href="http://www.dailygrail.com/">The Daily Grail</a></li>
+<li><a href="http://www.theironskeptic.com/">The Iron Skeptic</a></li>
+<li><a href="http://www.uapsg.org/" title="Unusual Aerial Phenomena Study Group" target="_blank">UAPSG</a></li>
+<li><a href="http://www.ufo-blog.com/ufo-blog/" target="_blank">UFO-Blog</a></li>
+<li><a href="http://www.ufomystic.com/">UFOmystic</a></li>
+<li><a href="http://www.weirduniverse.net/" title="Not only &#8220;stranger than we imagine, but stranger than we can imagine.&#8221; " target="_blank">Weird Universe</a></li>
 
 	</ul>
 </li>
-		</li>
-		<li>
-			<h2>Meta</h2>
-			<ul>
-				<li><a href="http://wordpress.com/signup/?ref=wplogin">Register</a></li>				<li><a href="http://glennpendlay.wordpress.com/wp-login.php">Log in</a></li>
-							</ul>
-		</li>
-				</ul>
-</div><!-- #sidebar-1 -->
+  <li id="linkcat-14" class="linkcat"><h2>world WIDE web</h2>
+	<ul>
+<li><a href="http://myblog.greguti.com/" title="Le blog de Grégory Gutierez">French: Greguti’s Blog</a></li>
+<li><a href="http://www.rr0.org/">French: RR0</a></li>
+<li><a href="http://blog.ufofu.org/" title="Blog d&#8217;actualité sur le phénomène OVNI:">French: ufofu</a></li>
+<li><a href="http://www.focus.it/Community/cs/blogs/ufo/default.aspx">Italian: A caccia di UFO</a></li>
+<li><a href="http://www.cisu.org/index1.htm">Italian: Centro Italiano Studi Ufologici</a></li>
+<li><a href="http://francescograssi.blogspot.com/" title="Crop circles, UFO, Scienza, Pseudoscienza, 11 Settembre, Misteri e altro&#8230;" target="_blank">Italian: Francesco Grassi</a></li>
+<li><a href="http://notezetetiche.blogspot.com/">Italian: Note zetetiche</a></li>
+<li><a href="http://umafan.blog72.fc2.com" title="Criptozoology">Japanese: UMAfan</a></li>
+<li><a href="http://lablogatorios.com.br/100nexos/">Portuguese: 100nexos</a></li>
+<li><a href="http://www.ceticismoaberto.com/news/" title="navegando no insólito">Portuguese: CeticismoAberto notícias</a></li>
+<li><a href="http://cgr20.blogspot.com/" title="cgredan" target="_blank">Spanish: cgr v2.0</a></li>
+<li><a href="http://www.dios.com.ar">Spanish: Dios!</a></li>
+<li><a href="http://charlatanes.blogspot.com/">Spanish: El retorno de los charlatanes</a></li>
+<li><a href="http://factorelblog.com/" target="_blank">Spanish: Factor 302.4</a></li>
+<li><a href="http://navelocos.blogspot.com/">Spanish: La Nave de los Locos</a></li>
+<li><a href="http://blogs.elcorreodigital.com/index.php/magonia/">Spanish: magonia</a></li>
+<li><a href="http://marcianitosverdes.haaan.com/">Spanish: Marcianitos Verdes</a></li>
+<li><a href="http://mihteriohdelasiensia.blogspot.com/">Spanish: mihterioh de la siensia</a></li>
+<li><a href="http://www.pensar.org/">Spanish: Pensar</a></li>
 
-	</div>
-	<div class="clear"></div>
+	</ul>
+</li>
+
+  </ul>
+
+<p align="center">We read<br><a href="http://www.anomalist.com/" target="_blank"><img border="0" src="http://forgetomori.com/anomalistgp.gif"></a></p>
+
+
+<h2></h2>
+
+<div align="right"><a href="http://forgetomori.com/feed/"><img border="0" src="http://forgetomori.com/feed.png"> Subscribe to the <strong>RSS feed</strong></a>
+
+<p>Edited by <a href="http://www.cloudflare.com/email-protection#3a515f544e5b485514575548537a5d575b535614595557">Kentaro Mori</a></p>
 </div>
-</div><!-- #content-body -->
-<div id="footer-wrap-outer">
-	<div id="footer-wrap">
-		<div id="footer">
-			<div id="subscribe-rss">
-				<a href="http://glennpendlay.wordpress.com/feed/">Subscribe to RSS</a>
-			</div>
-						<div class="clear"></div>
-			<div class="credit">
-				<a href="http://wordpress.com/?ref=footer">Blog at WordPress.com</a>.
-				<a href="http://theme.wordpress.com/themes/elegant-grunge/" title="Learn more about this theme">The Elegant Grunge Theme</a>.			</div>
-		</div>
-	</div>
-</div><!-- #footer-wrap-outer -->
-		<script type="text/javascript">
-		//<![CDATA[
-		var infiniteScroll = {"settings":{"id":"content-body","ajaxurl":"http:\/\/glennpendlay.wordpress.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":true,"text":"Older posts","totop":"Scroll back to top","currentday":"16.11.12","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"glennpendlay.wordpress.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":7,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2012-11-16 08:30:30","stats":"blog=614982&v=wpcom&tz=-7&user_id=0&subd=glennpendlay&x_pagetype=infinite"}};
-		//]]>
-		</script>
-		<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201414x'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var WPGroHo = {"my_hash":""};
-/* ]]> */
+
+</div>
+<!-- The main column ends  -->
+
+<!-- begin footer -->
+<div align="center"></div>
+<div id="footer">
+<!-- Site Meter -->
+<script type="text/javascript" src="http://s41.sitemeter.com/js/counter.js?site=s41forgetomori">
 </script>
-<script type='text/javascript' src='http://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+<noscript>
+<a href="http://s41.sitemeter.com/stats.asp?site=s41forgetomori" target="_top">
+<img src="http://s41.sitemeter.com/meter.asp?site=s41forgetomori" alt="Site Meter" border="0"/></a>
+</noscript>
+<!-- Copyright (c)2006 Site Meter -->
 
-	<script>
-		//initialize and attach hovercards to all gravatars
-		jQuery( document ).ready( function( $ ) {
-			Gravatar.profile_cb = function( hash, id ) {
-				WPGroHo.syncProfileData( hash, id );
-			};
-			Gravatar.my_hash = WPGroHo.my_hash;
-			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
-		});
-	</script>
+</div>
 
-		<div style="display:none">
-	<div class="grofile-hash-map-ddcc3dfb6375dc6130ac4e0e29fe5b66">
-	</div>
-	</div>
-		<div id="infinite-footer">
-			<div class="container">
-				<div class="blog-info">
-					<a id="infinity-blog-title" href="http://glennpendlay.wordpress.com/" rel="home">
-						Glenn Pendlay					</a>
-				</div>
-				<div class="blog-credits">
-					<a href="http://wordpress.com/?ref=footer">Blog at WordPress.com</a>. <a href="http://theme.wordpress.com/themes/elegant-grunge/" title="Learn more about this theme">The Elegant Grunge Theme</a>				</div>
-			</div>
-		</div><!-- #infinite-footer -->
-		
-	<div id="bit" class="loggedout-follow-normal">
-		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
-		<div id="bitsubscribe">
+</div>
 
-					<h3><label for="loggedout-follow-field">Follow &ldquo;Glenn Pendlay&rdquo;</label></h3>
 
-			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
-			<p>Get every new post delivered to your Inbox.</p>
-
-			<p id="loggedout-follow-error" style="display: none;"></p>
-
-						<p class="bit-follow-count">Join 5,488 other followers</p>
-			<p><input type="email" name="email" value="Enter your email address" onfocus='this.value=(this.value=="Enter your email address") ? "" : this.value;' onblur='this.value=(this.value=="") ? "Enter email address" : this.value;'  id="loggedout-follow-field"/></p>
-
-			<input type="hidden" name="action" value="subscribe"/>
-			<input type="hidden" name="blog_id" value="614982"/>
-			<input type="hidden" name="source" value="http://glennpendlay.wordpress.com/"/>
-			<input type="hidden" name="sub-type" value="loggedout-follow"/>
-
-			<input type="hidden" id="_wpnonce" name="_wpnonce" value="338db34908" /><input type="hidden" name="_wp_http_referer" value="/" />
-			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
-			</form>
-					<div id='bsub-credit'><a href="http://wordpress.com/signup/?ref=lof">Powered by WordPress.com</a></div>
-		</div><!-- #bitsubscribe -->
-	</div><!-- #bit -->
-	<script type="text/javascript">
-	var skimlinks_pub_id = "725X584219"
-	var skimlinks_sitename = "glennpendlay.wordpress.com";
-	</script>
-	<script type="text/javascript" src="http://s.skimresources.com/js/725X1342.skimlinks.js"></script>
-	<div id="carousel-reblog-box">
-		<form action="" name="carousel-reblog">
-			<textarea id="carousel-reblog-content" name="carousel-reblog-content" onclick="if ( this.value == 'Add your thoughts here... (optional)' ) { this.value = ''; }" onblur="if ( this.value == '' || this.value == '' ) { this.value = 'Add your thoughts here... (optional)'; }">Add your thoughts here... (optional)</textarea>
-			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
-			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
-						</select>
-
-			<div class="submit">
-				<span class="canceltext"><a href="" class="cancel">Cancel</a></span>
-				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
-				<input type="hidden" id="carousel-reblog-blog-id" value="614982" />
-				<input type="hidden" id="carousel-reblog-blog-url" value="http://glennpendlay.wordpress.com" />
-				<input type="hidden" id="carousel-reblog-blog-title" value="Glenn Pendlay" />
-				<input type="hidden" id="carousel-reblog-post-url" value="" />
-				<input type="hidden" id="carousel-reblog-post-title" value="" />
-			</div>
-
-			<input type="hidden" id="_wpnonce" name="_wpnonce" value="4fff16c5e5" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
-
-		<div class="arrow"></div>
-	</div>
-<link rel='stylesheet' id='all-css-0' href='http://s1.wp.com/_static/??/wp-content/mu-plugins/carousel/jetpack-carousel.css,/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1393501585j' type='text/css' media='all' />
-<script type='text/javascript'>
-/* <![CDATA[ */
-var jetpackSlideshowSettings = {"spinner":"http:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"614982","blog_subdomain":"glennpendlay","user_id":"0"};
-/* ]]> */
-</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/glennpendlay.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"0ceab3586d","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"http:\/\/glennpendlay.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fglennpendlay.wordpress.com%2F2012%2F11%2F16%2Ftransitioning-to-olympic-weightlifting-from-a-general-strength-background%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=614982&v=wpcom&tz=-7&user_id=0&subd=glennpendlay","is_public":"1"};
-var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/glennpendlay.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"0ceab3586d","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"http:\/\/glennpendlay.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fglennpendlay.wordpress.com%2F2012%2F11%2F16%2Ftransitioning-to-olympic-weightlifting-from-a-general-strength-background%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=614982&v=wpcom&tz=-7&user_id=0&subd=glennpendlay","is_public":"1"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://s2.wp.com/_static/??-eJyNjtEOgjAMRX/IsRAh0Qfjt2Ap0jm2uXYgfy+SjBgfiG+37T0n1VNQ4J2gE21YtzgSYHgVhg/66zQkFWy6k2NNriNHMm9hp8u9jwK+Rf7IzTNhnAuYweLfEFtaUu8nte0zSw5syrWp8zeDIL/ibB0XjdcNM8oKrHOIyLzzCjTRJ0arDUpo4KHyYmGuw6U8nutTWVV1ad5MAXtg'></script>
-<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=20111117'></script>
-<script type='text/javascript' src='http://s1.wp.com/_static/??-eJyVyzEOwjAMAMAPYQykSGFAvKVNrMjBNVHqNOL3sHaqOt5w2AuEjxqp4dygSEusC1pnM6owyRjeE9cIhQmVVqqkkTWd83LCI7fsPxaKkEYRqt+t/us1P6/ucfN354dL/gENTUPW'></script>
 <script type="text/javascript">
-// <![CDATA[
-(function() {
-try{
-  if ( window.external &&'msIsSiteMode' in window.external) {
-    if (window.external.msIsSiteMode()) {
-      var jl = document.createElement('script');
-      jl.type='text/javascript';
-      jl.async=true;
-      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(jl, s);
-    }
-  }
-}catch(e){}
-})();
-// ]]>
-</script><script src="http://s.stats.wordpress.com/w.js?21" type="text/javascript"></script>
+jQuery(function() {
+	
+	jQuery.post("index.php",{ak_action:"api_record_view", ids: AKPC_IDS, type:"home"}, false, "json");
+});
+</script>
+	<script type="text/javascript">var SHRSB_Settings = [];</script>
 <script type="text/javascript">
-st_go({'blog':'614982','v':'wpcom','tz':'-7','user_id':'0','subd':'glennpendlay'});
-ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRUSk0wbVRfODlnNUZzfkViQl1rMG1aVyUxUGZTN2s/eTZyW3pzYUU9RURiV3drWTA4Ml1SYzguOHViemZIdWsxK1ExaXpFZUMlTTN3aW1Ycy95Ky9MM3N2cDh4Yk40dCZtMERWRHZldWt5LHprU2QlSU9QVFZRYS55UGRjL3BiVHptfjZoM3Y2QXxNL1E/bDBLbmcvPVpuLzAsaDFqfEdbRU5MYi0uL2hdb2gsaFhoOUNZQUxiJSswW35wcWN3dDd3K215ZUI5TlpxX3NbK1F0W1Zs'});
-addLoadEvent(function(){linktracker_init('614982',0);});
-	</script>
-<noscript><img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
-<script>
-if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-309052-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
 
-	wpcom_mobile_user_agent_info.init();
-	var mobileStatsQueryString = "";
-	
-	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
-		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
-	
-	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
-		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
-	
-	if( wpcom_mobile_user_agent_info.isIPad() )
-		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&"www.cloudflare.com/email-protection"==a.substr(7 ,35)){s='';j=43;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
 
-	if( "" != mobileStatsQueryString ) {
-		new Image().src = document.location.protocol + '//stats.wordpress.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
-	}
-	
-}
-</script><script type="text/javascript">
-			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","mobile-useragent-info","jquery-core","jquery-migrate","postmessage","jquery_inview","jetpack_resize","loggedout-subscribe","spin","jquery.spin","grofiles-cards","wpgroho","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
-			jQuery.extend( infiniteScroll.settings.styles, ["smileyproject","jetpack_likes","loggedout-subscribe","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","elegant-grunge","reblogging","a8c-global-print","sharedaddy","genericons","h4-global","widget-goodreads","elegant-grunge-ie","jetpack-carousel","tiled-gallery"] );
-		</script></body>
 </html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+ Served from: forgetomori.com @ 2014-04-15 17:44:32 by W3 Total Cache -->

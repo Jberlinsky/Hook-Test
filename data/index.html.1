@@ -1,988 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>CollegeHumor - Funny Videos, Funny Pictures, Funny Links!</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta name="robots" content="index, follow">
-	<link rel="apple-touch-icon" href="http://0.static.collegehumor.cvcdn.com/images/touch/touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="http://1.static.collegehumor.cvcdn.com/images/touch/touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="http://0.static.collegehumor.cvcdn.com/images/touch/touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="http://1.static.collegehumor.cvcdn.com/images/touch/touch-icon-152x152.png">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:site_name" content="CollegeHumor">
-	<meta property="fb:app_id" content="271750421132">
-	<meta name="twitter:site" content="CollegeHumor">
-	<meta name="author" content="Connected Ventures LLC. Copyright 1999-2014.">
-	<meta name="keywords" content="articles, funny articles, college articles, college stories, humor articles, essays, writing, rants, humour articles, satire, weekly wyr, stupid questions hall of fame, jokes">
-	<meta property="url" content="http://www.collegehumor.com">
-	<meta property="og:type" content="">
-	<meta property="og:title" content="CollegeHumor - Funny Videos, Funny Pictures, Funny Links!">
-	<meta property="og:image" content="http://1.static.collegehumor.cvcdn.com/images/header/logo-collegehumor.png">
-	<meta property="og:description" content="">
-			<link rel="stylesheet" type="text/css" href="http://0.static.collegehumor.cvcdn.com/css/packages/aae9bb17b14a2f2cbba2b1c26acbcb01.css">
-	<noscript><link rel="stylesheet" type="text/css" href="http://1.static.collegehumor.cvcdn.com/jument/css/noscript.css"></noscript>
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="canonical" href="http://www.collegehumor.com">
-	<script>
-	var _metrics = _metrics || [];
-		_metrics.push(['_setConfig', 'api_key', '1743998f92cedc07da4e071792f9a558f6dc37e7']);
-	_metrics.push(['_setConfig', 'api_url', 'http://api.metrics.chmedia.com']);
-	_metrics.push(['_setConfig', 'pixel_url', 'http://metrics.chmedia.com/pixel.gif']);
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <title>The Go Programming Language</title>
+
+<link type="text/css" rel="stylesheet" href="/lib/godoc/style.css">
+
+<link rel="search" type="application/opensearchdescription+xml" title="godoc" href="/opensearch.xml" />
+
+<script type="text/javascript">window.initFuncs = [];</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(["_setAccount", "UA-11222381-2"]);
+_gaq.push(["_trackPageview"]);
 </script>
-	<script>
-		var jument = window.jument || {}, _gaq = _gaq || [];
-		jument.home_url = "http://www.collegehumor.com";
-		_gaq.push(['_setAccount', 'UA-76641-6']);
-	</script>
-	<script type="text/javascript" src="http://0.static.collegehumor.cvcdn.com/js/packages/7cb9eae5d69ce44e0f944ca2335c57db.js"></script>
-			<script type="text/javascript" src="http://metrics.chmedia.com/2.1/track.min.js"></script>
-	<script type="text/javascript" src="http://voss.collegehumor.com/js/voss.min.js"></script>
-	<script>
-var adslots = {};
-var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; (function() { var gads = document.createElement("script"); gads.async = true; gads.type = "text/javascript"; var useSSL = "https:" == document.location.protocol; gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js"; var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(gads, node); })();
-googletag.cmd.push(function() {
-	adslots['1x1'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [[1,1]], "div-gpt-ad-25495050").addService(googletag.pubads());
-
-
-var mapping = googletag.sizeMapping().addSize([320, 0], [320, 50]).addSize([768, 0], [768, 50]).addSize([970, 0], [970, 66]).build();
-	adslots['opa_pushdown'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [970, 66], "opa-pushdown").defineSizeMapping(mapping).addService(googletag.pubads());
-
-
-	adslots['4x4-100x30'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [[4,4],[100,30]], "ad-nav-tab").addService(googletag.pubads());
-
-
-	adslots['300x250-position:top'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [[300,250]], "div-gpt-ad-29984376").addService(googletag.pubads());
-
-
-	adslots['300x250-position:top'].setTargeting("position", "top");
-	adslots['5x5-100x31'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [[5,5],[100,31]], "div-gpt-ad-73824819").addService(googletag.pubads());
-
-
-});
-googletag.cmd.push(function() { googletag.pubads().setTargeting("rating", "unrated");googletag.pubads().setTargeting("referrer", jument.analytics.referer());googletag.pubads().enableSingleRequest();googletag.pubads().enableAsyncRendering();googletag.enableServices(); });
-</script>	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="/jument/css/ie8-and-below.css">
-		<script src="http://0.static.collegehumor.cvcdn.com/jument/js/lib.html5shiv.js"></script>
-		<script src="http://1.static.collegehumor.cvcdn.com/jument/js/lib.respond.min.js"></script>
-	<![endif]-->
 </head>
-<body class="notouch listing listing-home listing-ajax">
-	<div class="hide"><div id="div-gpt-ad-25495050"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("div-gpt-ad-25495050"); }); }</script></div></div>
-	<div id="skin-banner" class="top-banner">
-		<div class="ad-pushdown cf">
-			<div id="opa-pushdown"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("opa-pushdown"); }); }</script></div>		</div>
-	</div>
-	<div class="container container-main">
-		<header class="navbar site-header" role="banner">
-	<div class="navbar-header cf">
-		<a href="#" class="expand-nav menu-item hide ga-feature-usage ga-interaction ga-interaction-click-only" data-ga-feature="Open Menu"><span>Open Menu</span></a>
-		<a href="/" class="logo navbar-brand ga-feature-usage ga-target-self" data-ga-feature="Logo">CollegeHumor</a>
-		<div class="pull-right">
-			<a href="#" class="search menu-item hide" data-show=".navbar-search"><span>Search</span></a>
-			<a href="#" class="user menu-item ga-feature-usage ga-interaction ga-interaction-click-only" data-ga-feature="Open Header Signin Form" data-show=".user-options"><span>My Profile</span></a>
-		</div>
-	</div>
-	<div class="navbar-form navbar-search">
-		<form action="/search" role="search" class="form ga-feature-usage ga-target-self" data-ga-feature="Search Module">
-			<div class="form-group col-md-7 col-sm-12 col-xs-12 cf">
-				<input type="search" name="q" class="form-control" placeholder="Search">
-				<button type="submit">Go</button>
-			</div>
-		</form>
-	</div>
-	<div class="navbar-form user-options signed-out">
-					<form action="/signin" method="post" id="form0" class="form ga-feature-usage ga-target-self" data-ga-feature="User Login Module">
-				<input type="hidden" name="form0_submitted" value="1">
-									<input type="hidden" name="referer" value ="JTJG">
-								<div class="form-group cf">
-					<input type="text" name="email" class="form-control" placeholder="Username">
-				</div>
-				<div class="form-group cf">
-					<input type="password" name="password" class="form-control" placeholder="Password">
-				</div>
-				<div class="bottom">
-					<button type="submit" name="submit" class="btn btn-alert">Log In</button>
-					<a href="#" class="fbconnect small requires-fbconnect" >Connect with Facebook</a>
-					<section>
-						<a href="/signup">Sign Up</a> | <a href="/user/reset">Forgot Password?</a>
-					</section>
-				</div>
-			</form>
-			</div>
-	<nav class="nav-menu cf ga-feature-usage" data-ga-feature="Navigation" role="navigation">
-		<ul class="nav navbar-nav nav-tabs-5 cf">
-							<li class="videos dropdown ga-feature-usage ga-interaction" data-ga-feature="Navigation Drop Down - Videos">
-					<a href="/videos" class="dropdown-toggle" data-toggle="dropdown">
-						Videos													<div class="open-menu">
-								<span class="caret"></span>
-							</div>
-											</a>
-											<div class="dropdown-menu ga-feature-usage" data-ga-feature="Navigation Dropdown">
-							<div class="dropdown-list">
-																	<ul>
-																					<li>
-												<a href="/originals">
-													<i></i>
-													All Originals												</a>
-											</li>
-																					<li>
-												<a href="/jakeandamir">
-													<i></i>
-													Jake and Amir												</a>
-											</li>
-																					<li>
-												<a href="/shorts">
-													<i></i>
-													Shorts												</a>
-											</li>
-																					<li>
-												<a href="/troopers">
-													<i></i>
-													Troopers												</a>
-											</li>
-																					<li>
-												<a href="/hardlyworking">
-													<i></i>
-													Hardly Working												</a>
-											</li>
-																			</ul>
-																	<ul>
-																					<li>
-												<a href="/verymarykate">
-													<i></i>
-													Very Mary-Kate												</a>
-											</li>
-																					<li>
-												<a href="/dinosaur-office">
-													<i></i>
-													Dinosaur Office												</a>
-											</li>
-																					<li>
-												<a href="/badman">
-													<i></i>
-													Batman												</a>
-											</li>
-																					<li>
-												<a href="/bleepbloop">
-													<i></i>
-													Bleep Bloop												</a>
-											</li>
-																					<li>
-												<a href="/preciousplum">
-													<i></i>
-													Precious Plum												</a>
-											</li>
-																			</ul>
-															</div>
-						</div>
-									</li>
-							<li class="pictures dropdown ga-feature-usage ga-interaction" data-ga-feature="Navigation Drop Down - Pictures">
-					<a href="/pictures" class="dropdown-toggle" data-toggle="dropdown">
-						Pictures													<div class="open-menu">
-								<span class="caret"></span>
-							</div>
-											</a>
-											<div class="dropdown-menu ga-feature-usage" data-ga-feature="Navigation Dropdown">
-							<div class="dropdown-list">
-																	<ul>
-																					<li>
-												<a href="/pictures/galleries">
-													<i></i>
-													Galleries												</a>
-											</li>
-																					<li>
-												<a href="/pictures/sexy">
-													<i></i>
-													Sexy pics												</a>
-											</li>
-																					<li>
-												<a href="/pictures/wtf">
-													<i></i>
-													WTF is going on												</a>
-											</li>
-																					<li>
-												<a href="/pictures/college">
-													<i></i>
-													College!!!1												</a>
-											</li>
-																			</ul>
-																	<ul>
-																					<li>
-												<a href="/pictures/facebook">
-													<i></i>
-													Idiots on Facebook												</a>
-											</li>
-																					<li>
-												<a href="/pictures/animals">
-													<i></i>
-													Animals												</a>
-											</li>
-																					<li>
-												<a href="/tv-movies">
-													<i></i>
-													TV/Movies												</a>
-											</li>
-																			</ul>
-															</div>
-						</div>
-									</li>
-							<li class="articles dropdown ga-feature-usage ga-interaction" data-ga-feature="Navigation Drop Down - Articles">
-					<a href="/articles" class="dropdown-toggle" data-toggle="dropdown">
-						Articles													<div class="open-menu">
-								<span class="caret"></span>
-							</div>
-											</a>
-											<div class="dropdown-menu ga-feature-usage" data-ga-feature="Navigation Dropdown">
-							<div class="dropdown-list">
-																	<ul>
-																					<li>
-												<a href="/articles/column/almost-reading">
-													<i></i>
-													Almost Reading												</a>
-											</li>
-																					<li>
-												<a href="/articles/column/the-graphic-truth">
-													<i></i>
-													The Graphic Truth												</a>
-											</li>
-																					<li>
-												<a href="/articles/column/the-troll">
-													<i></i>
-													The Troll												</a>
-											</li>
-																					<li>
-												<a href="/articles/column/twidiots">
-													<i></i>
-													Twidiots												</a>
-											</li>
-																			</ul>
-																	<ul>
-																					<li>
-												<a href="/articles/column/tldnr">
-													<i></i>
-													TLDNR												</a>
-											</li>
-																					<li>
-												<a href="/articles/column/regret-everything">
-													<i></i>
-													Regret Everything												</a>
-											</li>
-																					<li>
-												<a href="/articles/column/collegehumor-interview">
-													<i></i>
-													CollegeHumor Interview												</a>
-											</li>
-																					<li>
-												<a href="/articles/column/leaked">
-													<i></i>
-													Exclusive Leaks												</a>
-											</li>
-																			</ul>
-															</div>
-						</div>
-									</li>
-							<li class="submit dropdown ga-feature-usage ga-interaction" data-ga-feature="Navigation Drop Down - Submit">
-					<a href="/submit/picture" class="dropdown-toggle" data-toggle="dropdown">
-						Submit													<div class="open-menu">
-								<span class="caret"></span>
-							</div>
-											</a>
-											<div class="dropdown-menu ga-feature-usage" data-ga-feature="Navigation Dropdown">
-							<div class="dropdown-list">
-																	<ul>
-																					<li>
-												<a href="/submit/picture" class="picture">
-													<i></i>
-													picture												</a>
-											</li>
-																					<li>
-												<a href="/submit/video" class="video">
-													<i></i>
-													video												</a>
-											</li>
-																			</ul>
-																	<ul>
-																					<li>
-												<a href="/submit/gallery" class="gallery">
-													<i></i>
-													gallery												</a>
-											</li>
-																					<li>
-												<a href="/submit/article" class="article">
-													<i></i>
-													article												</a>
-											</li>
-																			</ul>
-															</div>
-						</div>
-									</li>
-						<li><div class="ad"><div id="ad-nav-tab"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("ad-nav-tab"); }); }</script></div></div></li>
-		</ul>
-	</nav>
-</header>		<div class="content cf">
-			
-<div class="primary" data-listing-type="home">
-						<article class="pod pod-lead cf ga-feature-usage" data-ga-feature="Featured Content Item">
-					<a href="/video/6961470/the-ultimate-game-of-thrones-recap" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="615" height="250" class="lazy" alt="The Ultimate Game of Thrones Recap" data-src="http://0.media.collegehumor.cvcdn.com/69/70/69a692662a8ec0f3d33137624a64cd3a.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/69/70/0326a29d9ce216d284e2edce7faa62ab.jpg">
-									<span class="play-btn large"><i></i></span>
-							</a>
-				<div class="side">
-			<div class="bottom">
-					<span class="badge ">Original</span>
-				<h2 class="title"><a href="/video/6961470/the-ultimate-game-of-thrones-recap">The Ultimate Game of Thrones Recap</a></h2>
-				<p>This is a must watch before Sunday.</p>
-			</div>
-		</div>
-	</article>
-	
-	
-		<div class="to-affix">
-		<div class="ajax-load pods-media row cf ga-feature-usage" data-ga-feature="Listing" data-current-page="1">
-			
-							<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-0 pod-post cf">
-		<article>
-			<a href="/post/6961926/7-awesome-pickup-lines-i-learned-from-cartoons" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="7 Awesome Pickup Lines I Learned From Cartoons" data-src="http://2.media.collegehumor.cvcdn.com/38/60/fe5f07fc1a1cff3a5a89032184735338.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/38/60/f6a945943972be873ca2564a025c26fa.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961926/7-awesome-pickup-lines-i-learned-from-cartoons">7 Awesome Pickup Lines I Learned From Cartoons</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																									<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-1 pod-post cf">
-		<article>
-			<a href="/post/6961614/7-pleasant-experiences-assholes-find-a-way-to-ruin" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="7 Pleasant Experiences Assholes Find a Way to Ruin" data-src="http://1.media.collegehumor.cvcdn.com/21/84/c1bdf78db684b9edd857e59ca5ed9ace.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/21/84/7aa5f164ee72ec8e57a324998fcf1448.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961614/7-pleasant-experiences-assholes-find-a-way-to-ruin">7 Pleasant Experiences Assholes Find a Way to Ruin</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-2 pod-post cf">
-		<article>
-			<a href="/post/6962052/16-people-who-look-like-characters-from-the-simpsons" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="16 People Who Look Like Characters From &#039;The Simpsons&#039;" data-src="http://2.media.collegehumor.cvcdn.com/29/66/f2a22228963119bb5207da26bb28dc83.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/29/66/989cc0de691358a170d6f5ce614697be.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6962052/16-people-who-look-like-characters-from-the-simpsons">16 People Who Look Like Characters From 'The Simpsons'</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-3 pod-post cf">
-		<article>
-			<a href="/post/6961995/its-true-everything-is-better-with-explosions" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="It&#039;s True: Everything is Better with Explosions" data-src="http://2.media.collegehumor.cvcdn.com/21/78/26cbbdc92d5afe5ffd3756a3c880b275.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/21/78/63372b21de7abfd60f4031eae068fe8f.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961995/its-true-everything-is-better-with-explosions">It's True: Everything is Better with Explosions</a></h3>
-			</div>
-		</article>
-	</div>
-</div>									<div class="col-sm-6 col-md-4">
-						<div class="pod pod-large pod-ad cf">
-							<article>
-								<div id="div-gpt-ad-29984376"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("div-gpt-ad-29984376"); }); }</script></div>							</article>
-						</div>
-					</div>
-																<!-- sponsored ad -->
-									<div class="hide"><iframe src="/jument/ads/dfp.html?zone=%2F8422%2Fcollegehumor.com%2Fhomepage&amp;size=%5B%5B1%2C2%5D%5D&amp;targeting%5Brating%5D=unrated" width="0" height="0" class="ad-iframe"></iframe></div>
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-4 pod-video cf">
-		<article>
-			<a href="/video/6961906/hes-such-a-mcconaughey" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="He&#039;s Such a McConaughey" data-src="http://0.media.collegehumor.cvcdn.com/34/42/8a1d63fc2166069f4a3a1c54d3b39ecb-hes-such-a-mcconaughey.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/34/42/258f327d498cdf4e453252e79d7d1e9d.jpg">
-									<span class="play-btn"><i></i></span>
-							</a>
-			<div class="caption">
-					<span class="badge is_series">Original</span>
-				<h3><a href="/video/6961906/hes-such-a-mcconaughey">He's Such a McConaughey</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-5 pod-post cf">
-		<article>
-			<a href="/post/6962003/say-cheese-10-people-whose-smile-will-ruin-your-dreams" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Say Cheese: 10 People Whose Smile Will Ruin Your Dreams" data-src="http://0.media.collegehumor.cvcdn.com/61/31/55f3c5caa414fc1105342c83456031bb.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/61/31/aeb95ebb8785c83be34cc8b4ddb1d0dd.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6962003/say-cheese-10-people-whose-smile-will-ruin-your-dreams">Say Cheese: 10 People Whose Smile Will Ruin Your Dreams</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-6 pod-post cf">
-		<article>
-			<a href="/post/6961617/7-stages-of-being-the-designated-driver" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="The 7 Stages of Being the Designated Driver" data-src="http://0.media.collegehumor.cvcdn.com/50/71/f93eb7e0ff112035f9743fa99adb8b4f.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/50/71/9b2dfeea1421faa67990507d6a2961ce.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961617/7-stages-of-being-the-designated-driver">The 7 Stages of Being the Designated Driver</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-7 pod-post cf">
-		<article>
-			<a href="/post/6961609/how-to-survive-danger-if-you-are-a-crime-show-character" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="How to Survive Danger if You Are a Crime Show Character" data-src="http://1.media.collegehumor.cvcdn.com/76/67/dd46d12dfe88e780b33e016093c221ad.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/76/67/7ec9470dabc9fb0e5c5332e3e5ea9237.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961609/how-to-survive-danger-if-you-are-a-crime-show-character">How to Survive Danger if You Are a Crime Show Character</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-8 pod-post cf">
-		<article>
-			<a href="/post/6961660/flowchart-are-you-an-introvert" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Flowchart: Are You an Introvert?" data-src="http://2.media.collegehumor.cvcdn.com/38/34/a29ecb9dc33f7ab93b5cf47c52efbe0c.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/38/34/a004e52ee58ebf3eee042f2b06a81ab8.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961660/flowchart-are-you-an-introvert">Flowchart: Are You an Introvert?</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-9 pod-post cf">
-		<article>
-			<a href="/post/6961836/facebooks-targeted-ads-just-keep-getting-creepier" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Facebook&#039;s Targeted Ads Just Keep Getting Creepier" data-src="http://1.media.collegehumor.cvcdn.com/79/37/557f57de09b7776acd557775245f8a80.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/79/37/ef978e326aa9e3acea01cbf235a06439.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961836/facebooks-targeted-ads-just-keep-getting-creepier">Facebook's Targeted Ads Just Keep Getting Creepier</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-10 pod-post cf">
-		<article>
-			<a href="/post/6961867/how-to-prank-your-stupid-cat" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="How to Prank Your Stupid Cat" data-src="http://2.media.collegehumor.cvcdn.com/36/38/43227045cf38e57da3b7e62c0b297cb8.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/36/38/367ff138d7671f763e043aecf3eb2384.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961867/how-to-prank-your-stupid-cat">How to Prank Your Stupid Cat</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-11 pod-post cf">
-		<article>
-			<a href="/post/6961641/what-conservatives-think-birth-control-is-apparently" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="What Conservatives Think Birth Control Is, Apparently" data-src="http://0.media.collegehumor.cvcdn.com/89/20/42cd0a2319db46b237013438e519f41c.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/89/20/429b780b4e3fb125037c91413b6d907c.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961641/what-conservatives-think-birth-control-is-apparently">What Conservatives Think Birth Control Is, Apparently</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-12 pod-post cf">
-		<article>
-			<a href="/post/6957112/all-time-best-1980s-news-gaffes" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="The 10 Best News Gaffes of the 1980s" data-src="http://1.media.collegehumor.cvcdn.com/66/20/544e5309222e9a865d76f6071ad2924e.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/66/20/5f4bfa950c6218d1aea7087fc1ecd073.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6957112/all-time-best-1980s-news-gaffes">The 10 Best News Gaffes of the 1980s</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-13 pod-post cf">
-		<article>
-			<a href="/post/6961649/the-10-most-adorable-unlikely-animal-pairs" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="The 10 Most ADORABLE Unlikely Animal Pairs!!!" data-src="http://1.media.collegehumor.cvcdn.com/39/26/59fc47815089173d4a579337ada1dddf.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/39/26/70c3b7f12f0027101655c7f737e4730a.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/post/6961649/the-10-most-adorable-unlikely-animal-pairs">The 10 Most ADORABLE Unlikely Animal Pairs!!!</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-14 pod-video cf">
-		<article>
-			<a href="/video/6961726/jake-and-amir-april-fools-soup" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Jake and Amir: April Fools Soup" data-src="http://0.media.collegehumor.cvcdn.com/83/45/c56c961250f5f29fe1d3a115e06c59bd.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/83/45/bdb1508bbb0703aa0869ac9fea9c4816.jpg">
-									<span class="play-btn"><i></i></span>
-							</a>
-			<div class="caption">
-					<span class="badge is_series">Original</span>
-				<h3><a href="/video/6961726/jake-and-amir-april-fools-soup">Jake and Amir: April Fools Soup</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-sm-6 col-md-4">
-	<div class="pod pod-post pod-large pod-15 pod-toplist cf">
-		<article>
-			<a href="/toplist/6961191/the-worst-parents-ever" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="The Worst Parents Ever" data-src="http://2.media.collegehumor.cvcdn.com/46/61/d92f5ee6cceed6dc49c17056013ff80e.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/46/61/cbebfcc7db8b15a3530a4dad30d4e01a.jpg">
-							</a>
-			<div class="caption">
-								<h3><a href="/toplist/6961191/the-worst-parents-ever">The Worst Parents Ever</a></h3>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-									</div>
-									<button id="load-more" class="btn ga-feature-usage ga-interaction ga-interaction-click-only" data-ga-feature="Load More">See More Posts<span class="caret"></span></button>
-										<div class="pagination"><span class="total">Page 1 of 175</span><span class="selected">1</span><a href="/page:2">2</a><a href="/page:3">3</a><a href="/page:4">4</a><a href="/page:5">5</a><a href="/page:6">6</a><a href="/page:7">7</a><a href="/page:8">8</a><span class="ellipses">&hellip;</span><a href="/page:175">175</a><a class="next" href="/page:2">&raquo;</a></div>						</div>
+<body>
 
-<p class="text-muted hide">Nothing found...</p>
-	<script type="text/x-handlebars-template" id="template-pod">
-		{{#each items}}
-			<div class="col-sm-6 col-md-4">
-				<div class="pod pod-post pod-large {{cssClasses}} cf">
-					<article>
-						{{#if ad}}
-							{{{ad}}}
-						{{else}}
-							<a href="{{url}}" class="thumb">
-								<img src="{{thumb}}" width="300" height="170" alt="{{alt_text}}" class="img-responsive">
-								{{#isVideo media_type}}
-									<span class="play-btn"><i></i></span>
-								{{/isVideo}}
-							</a>
-							<div class="caption">
-								{{#if is_original}}
-									<span class="badge">Original</span>
-								{{/if}}
-								<h3><a href="{{url}}">{{{title}}}</a></h3>
-							</div>
-						{{/if}}
-					</article>
-				</div>
-			</div>
-		{{/each}}
-		<div class="hide"><iframe src="/jument/ads/dfp.html?zone=%2F8422%2Fcollegehumor.com%2Fhomepage&amp;size=%5B%5B1%2C2%5D%5D&amp;targeting%5Brating%5D=unrated" width="0" height="0" class="ad-iframe"></iframe></div>
-	</script>
+<div id="topbar"><div class="container">
+
+<form method="GET" action="/search">
+<div id="menu">
+<a href="/doc/">Documents</a>
+<a href="/pkg/">Packages</a>
+<a href="/project/">The Project</a>
+<a href="/help/">Help</a>
+<a href="/blog/">Blog</a>
+
+<a id="playgroundButton" href="http://play.golang.org/" title="Show Go Playground">Play</a>
+
+<input type="text" id="search" name="q" class="inactive" value="Search" placeholder="Search">
+</div>
+<div id="heading"><a href="/">The Go Programming Language</a></div>
+</form>
+
+</div></div>
+
+
+<div id="playground" class="play">
+	<div class="input"><textarea class="code">package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, 世界")
+}</textarea></div>
+	<div class="output"></div>
+	<div class="buttons">
+		<a class="run" title="Run this code [shift-enter]">Run</a>
+		<a class="fmt" title="Format this code">Format</a>
+		<a class="share" title="Share this code">Share</a>
+	</div>
 </div>
 
-<div class="row">
-	<div class="col-sm-5 col-md-4">
-			<section class="module module-small module-hotlinks ga-feature-usage" data-ga-feature="Hotlinks">
-		<h4>Best Around the Web</h4>
-					<article class="pod cf ">
-				<a href="/o/6961857/url/we-cant-handle-how-cute-this-is" rel="external" title="We can&#039;t handle how cute this is" data-tracking-label="/link/6961857" class="thumb">
-					<span class="num">1</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="We can&#039;t handle how cute this is" data-src="http://2.media.collegehumor.cvcdn.com/73/74/0ea889b09f46c7772592cbebec33644a.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/73/74/9d0a17f071017d60ae2807a71aac3a13.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6961857/url/we-cant-handle-how-cute-this-is" rel="external">We can't handle how cute this is</a></h5>
-									<cite class="source">via Huffington Post</cite>
-							</article>
-					<article class="pod cf ">
-				<a href="/o/6961858/url/things-not-to-wear-on-a-date" rel="external" title="Things not to wear on a date" data-tracking-label="/link/6961858" class="thumb">
-					<span class="num">2</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="Things not to wear on a date" data-src="http://0.media.collegehumor.cvcdn.com/37/39/3ee1b70c84b8d67bcf4e91e12f30e745.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/37/39/d9d98dee608cd7010dfae3300303fe05.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6961858/url/things-not-to-wear-on-a-date" rel="external">Things not to wear on a date</a></h5>
-									<cite class="source">via Cheezburger</cite>
-							</article>
-					<article class="pod cf ">
-				<a href="/o/6961625/url/yup-seems-legit" rel="external" title="Yup, seems legit" data-tracking-label="/link/6961625" class="thumb">
-					<span class="num">3</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="Yup, seems legit" data-src="http://2.media.collegehumor.cvcdn.com/16/15/297addc9c3fd48fd693325a9f8815e57.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/16/15/f5526aa8841dc92d4696eda944483770.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6961625/url/yup-seems-legit" rel="external">Yup, seems legit</a></h5>
-									<cite class="source">via The Chive</cite>
-							</article>
-					<article class="pod cf ">
-				<a href="/o/6962040/url/this-cyber-stalking-prank-will-freak-you-out" rel="external" title="This cyber stalking prank will freak you out" data-tracking-label="/link/6962040" class="thumb">
-					<span class="num">4</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="This cyber stalking prank will freak you out" data-src="http://2.media.collegehumor.cvcdn.com/22/51/31cf318f8fb7cb1c993e9e1c92195379.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/22/51/1811c660f1d1ab0c2c05d03b47484351.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6962040/url/this-cyber-stalking-prank-will-freak-you-out" rel="external">This cyber stalking prank will freak you out</a></h5>
-									<cite class="source">via Huffington Post</cite>
-							</article>
-					<article class="pod cf ">
-				<a href="/o/6961624/url/do-it-for-denmark" rel="external" title="Do it for Denmark!" data-tracking-label="/link/6961624" class="thumb">
-					<span class="num">5</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="Do it for Denmark!" data-src="http://2.media.collegehumor.cvcdn.com/59/21/55bb7ec27255fc9bd639d0c34f29a435.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/59/21/0f956bb6c9e3998763184b8621c25713.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6961624/url/do-it-for-denmark" rel="external">Do it for Denmark!</a></h5>
-									<cite class="source">via Cheezburger</cite>
-							</article>
-					<article class="pod cf ">
-				<a href="/o/6962039/url/the-internet-reacts-to-the-how-i-met-your-mother-finale" rel="external" title="The internet reacts to the &#039;How I Met Your Mother&#039; finale" data-tracking-label="/link/6962039" class="thumb">
-					<span class="num">6</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="The internet reacts to the &#039;How I Met Your Mother&#039; finale" data-src="http://2.media.collegehumor.cvcdn.com/83/14/661934f0289dc4324fa051ac0b09d898.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/83/14/3c61772309173da5bf6b5ac7b27099ba.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6962039/url/the-internet-reacts-to-the-how-i-met-your-mother-finale" rel="external">The internet reacts to the 'How I Met Your Mother' finale</a></h5>
-									<cite class="source">via Uproxx</cite>
-							</article>
-					<article class="pod cf ">
-				<a href="/o/6961854/url/you-better-believe-in-your-selfie" rel="external" title="You better believe in your selfie" data-tracking-label="/link/6961854" class="thumb">
-					<span class="num">7</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="You better believe in your selfie" data-src="http://1.media.collegehumor.cvcdn.com/27/23/93bb74edf33024b0f896b093b7a4fb57.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/27/23/7ec01cca29b09650bf8da0bcacf15a46.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6961854/url/you-better-believe-in-your-selfie" rel="external">You better believe in your selfie</a></h5>
-									<cite class="source">via The Chive</cite>
-							</article>
-					<article class="pod cf ">
-				<a href="/o/6962028/url/if-13-disney-movies-were-written-for-twentysomethings" rel="external" title="If 13 Disney movies were written for twentysomethings" data-tracking-label="/link/6962028" class="thumb">
-					<span class="num">8</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="If 13 Disney movies were written for twentysomethings" data-src="http://0.media.collegehumor.cvcdn.com/25/79/1b3c0454a112e8475a56d715cddbf81b.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/25/79/7ac3c3c895e2a069c1ab5798540d0e5e.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6962028/url/if-13-disney-movies-were-written-for-twentysomethings" rel="external">If 13 Disney movies were written for twentysomethings</a></h5>
-									<cite class="source">via BuzzFeed</cite>
-							</article>
-					<article class="pod cf ">
-				<a href="/o/6962037/url/a-womans-abs-are-something-like-magic" rel="external" title="A woman&#039;s abs are something like magic" data-tracking-label="/link/6962037" class="thumb">
-					<span class="num">9</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="A woman&#039;s abs are something like magic" data-src="http://1.media.collegehumor.cvcdn.com/47/64/34a65ecd709b9ba4fd0a441af9e72586.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/47/64/e4726ee93b89d655be5f921ee1164787.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6962037/url/a-womans-abs-are-something-like-magic" rel="external">A woman's abs are something like magic</a></h5>
-									<cite class="source">via The Chive</cite>
-							</article>
-					<article class="pod cf double-digit">
-				<a href="/o/6962041/url/from-vampire-strippers-to-zombie-safe-houses-21-weird-and-wonderful-theme-bars" rel="external" title="From vampire strippers to zombie safe houses: 21 weird and wonderful theme bars" data-tracking-label="/link/6962041" class="thumb">
-					<span class="num">10</span>
-					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="From vampire strippers to zombie safe houses: 21 weird and wonderful theme bars" data-src="http://1.media.collegehumor.cvcdn.com/94/82/98bca1fc3f8a7a13b020dc01b3d5e850.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/94/82/985abb3adc907b729e13c27c320ad3dc.jpg">
-				</a>
-				<h5 class="title"><a href="/o/6962041/url/from-vampire-strippers-to-zombie-safe-houses-21-weird-and-wonderful-theme-bars" rel="external">From vampire strippers to zombie safe houses: 21 weird and wonderful theme ...</a></h5>
-									<cite class="source">via Thrillist</cite>
-							</article>
-			</section>
-	</div>
-	<div class="col-xs-12 col-sm-7 col-md-8">
-					<div class="module module-large module-halloffame blue ga-feature-usage" data-ga-feature="Best of CH">
-	<h2><a href="/originals">Best of CH</a></h2>
-		<div class="to-affix">
-		<div class="ajax-load pods-media row cf ga-feature-usage" data-ga-feature="Listing" data-current-page="1">
-			
-							<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-0 pod-video cf">
-		<article>
-			<a href="/video/6789072/dora-the-explorer-movie-trailer-with-ariel-winter" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Dora the Explorer Movie Trailer (with Ariel Winter)" data-src="http://2.media.collegehumor.cvcdn.com/91/24/8b8bc811ef7b7f9062f1b8f0d4bad74e-dora-the-explorer-movie-trailer-with-ariel-winter.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/dev/18/26/85bc38466466d8809d599f41df53ce22.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/6789072/dora-the-explorer-movie-trailer-with-ariel-winter">Dora the Explorer Movie Trailer (with Ariel Winter)</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-1 pod-video cf">
-		<article>
-			<a href="/video/3895433/pov-hot-girl" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="POV: Hot Girl" data-src="http://2.media.collegehumor.cvcdn.com/66/59/28f51ee52cb343d4294995a368944a9e.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/83/86/90b5b9cece404f1c30b1a053bda63d73.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/3895433/pov-hot-girl">POV: Hot Girl</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-2 pod-video cf">
-		<article>
-			<a href="/video/5635400/pixar-intro-parody" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Pixar Intro Parody" data-src="http://0.media.collegehumor.cvcdn.com/13/34/df42ed67916e2c3cb025b9da20679afd.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/45/16/ed1d5e4490ffdf2eeea0e5eeeaed2a32.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/5635400/pixar-intro-parody">Pixar Intro Parody</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-3 pod-video cf">
-		<article>
-			<a href="/video/6648229/siri-argument" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Siri Argument" data-src="http://0.media.collegehumor.cvcdn.com/dev/61/31/d01f96cf24160c4f0c2a2d8f4580bead.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/dev/93/75/bd485e9496c50af7ab68b58ee71bf98e.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/6648229/siri-argument">Siri Argument</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-4 pod-video cf">
-		<article>
-			<a href="/video/5771122/ive-gotta-feeling-parody" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="I&#039;ve Gotta Feeling Parody" data-src="http://0.media.collegehumor.cvcdn.com/82/63/1f07aead4a3fc0ff74e839865c4e063e.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/7/5/771ebdfdb8d2521eef3252caf972814d.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/5771122/ive-gotta-feeling-parody">I've Gotta Feeling Parody</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-5 pod-video cf">
-		<article>
-			<a href="/video/6846855/gay-men-will-marry-your-girlfriends" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Gay Men Will Marry Your Girlfriends" data-src="http://0.media.collegehumor.cvcdn.com/42/77/defd7113e54f8dd58d14b1632b708519-the-gays-will-marry-your-girlfriends.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/dev/36/37/6f766a9a891111a96f759fcfca659425.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/6846855/gay-men-will-marry-your-girlfriends">Gay Men Will Marry Your Girlfriends</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-6 pod-video cf">
-		<article>
-			<a href="/video/6853117/look-at-this-instagram-nickelback-parody" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Look at this Instagram (Nickelback Parody)" data-src="http://2.media.collegehumor.cvcdn.com/28/91/676c5c3c2794fde1513787758e1d1f54-instagram-nickelback-parody.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/13/80/61bd1a34e8f851d86caa61c5beb088ca.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/6853117/look-at-this-instagram-nickelback-parody">Look at this Instagram (Nickelback Parody)</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-7 pod-video cf">
-		<article>
-			<a href="/video/5314892/n00b-boyfriend" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="N00b Boyfriend" data-src="http://0.media.collegehumor.cvcdn.com/59/18/51624caa6058825e1d27ddf09643908f.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/dev/48/54/f1753364fb1bb8259eaff1c0a4e832b9.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/5314892/n00b-boyfriend">N00b Boyfriend</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-8 pod-video cf">
-		<article>
-			<a href="/video/3922232/prank-war-7-the-half-million-dollar-shot" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Prank War 7: The Half Million Dollar Shot" data-src="http://0.media.collegehumor.cvcdn.com/14/81/46ed8b408e8c586b0fad03ccd968aaa5.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/23/96/74eb8d667e18846b6fbcb335bb744cd2.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/3922232/prank-war-7-the-half-million-dollar-shot">Prank War 7: The Half Million Dollar Shot</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-9 pod-video cf">
-		<article>
-			<a href="/video/5383697/mario-and-princess-sex-tape" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Mario and Princess Sex Tape" data-src="http://2.media.collegehumor.cvcdn.com/19/64/ccdf0cef4b3204373e4e9c0b417ac8a3.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/dev/98/82/4e3725b609499c0a768685492efa4be5.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/5383697/mario-and-princess-sex-tape">Mario and Princess Sex Tape</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-10 pod-video cf">
-		<article>
-			<a href="/video/3474480/realistic-hollywood-sex-scene" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Realistic Hollywood Sex Scene" data-src="http://1.media.collegehumor.cvcdn.com/49/54/9e09f6307aa15b42d5ddd204affe8b57.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/58/29/2a22159c098d8a6f2c41b5a3ab716546.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/3474480/realistic-hollywood-sex-scene">Realistic Hollywood Sex Scene</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-11 pod-video cf">
-		<article>
-			<a href="/video/6830834/mitt-romney-style-gangnam-style-parody" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Mitt Romney Style (Gangnam Style Parody)" data-src="http://2.media.collegehumor.cvcdn.com/62/99/20502ca0d5b2172421002b52f437dcf8-mitt-romney-style-gangnam-style-parody.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/dev/99/13/53d041f53300927805fd390ae2babb1b.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/6830834/mitt-romney-style-gangnam-style-parody">Mitt Romney Style (Gangnam Style Parody)</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-12 pod-video cf">
-		<article>
-			<a href="/video/6957821/jake-and-amir-bitcoin" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Jake and Amir: Bitcoin" data-src="http://1.media.collegehumor.cvcdn.com/73/78/c73d7909cc119cdf28f70853b6167c3f.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/73/78/7895ebff583b0b9a308d1524217d413e.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/6957821/jake-and-amir-bitcoin">Jake and Amir: Bitcoin</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-13 pod-video cf">
-		<article>
-			<a href="/video/6955666/the-guy-who-has-never-seen-or-heard-of-anything" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="The Guy Who Has Never Seen or Heard of Anything" data-src="http://1.media.collegehumor.cvcdn.com/98/73/b96668f4614fcea44ce8118984823b64.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/98/73/6381d2000a5ba5df915606464ae3bcf9.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/6955666/the-guy-who-has-never-seen-or-heard-of-anything">The Guy Who Has Never Seen or Heard of Anything</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-											<div class="col-xs-6 col-md-4">
-	<div class="pod pod-post pod-medium pod-14 pod-video cf">
-		<article>
-			<a href="/video/6957307/rust-cohles-kids-safety-video-true-detective-parody" class="thumb">
-				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Rust Cohle&#039;s Kids&#039; Safety Video (True Detective Parody)" data-src="http://1.media.collegehumor.cvcdn.com/30/57/05bc12b09c4c574000571fbb0b0d489c.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/30/57/a074c17257bd52482d2bac79668d2038.jpg">
-			</a>
-			<div class="caption">
-				<h4><a href="/video/6957307/rust-cohles-kids-safety-video-true-detective-parody">Rust Cohle's Kids' Safety Video (True Detective Parody)</a></h4>
-			</div>
-		</article>
-	</div>
-</div>																<!-- sponsored ad -->
-									</div>
-			</div>
 
-<p class="text-muted hide">Nothing found...</p></div>
-			</div>
+<div id="page">
+<div class="container">
+
+
+
+
+
+<div id="nav"></div>
+
+
+
+
+<div class="left">
+
+<div id="learn">
+<a class="popout share">Pop-out</a>
+<div class="rootHeading">Try Go</div>
+<div class="input">
+<textarea spellcheck="false" class="code">// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, 世界")
+}</textarea>
 </div>
-		</div>
-	</div>
-	<footer class="site-footer">
-	<div class="container cf">
-		<div class="row">
-			<div class="col-md-6 col-sm-5 col-xs-5 left-side">
-				<ul class="social-links ga-feature-usage" data-ga-feature="Footer Social Links">
-					<li><a href="http://www.facebook.com/CollegeHumor" target="_blank"><span class="icon icon-facebook"></span></a></li>
-					<li><a href="http://www.twitter.com/CollegeHumor" target="_blank"><span class="icon icon-twitter"></span></a></li>
-					<li><a href="http://blog.collegehumor.com" target="_blank"><span class="icon icon-tumblr"></span></a></li>
-					<li><a href="http://www.youtube.com/CollegeHumor?sub_confirmation=1" target="_blank"><span class="icon icon-youtube"></span></a></li>
-				</ul>
-				<ul class="footer-links ga-feature-usage" data-ga-feature="Footer Links">
-					<li><a href="/about">About</a></li>
-					<li><a href="/contact">Contact</a></li>
-					<li><a href="/privacy">Privacy Policy</a></li>
-					<li><a href="/terms">Terms &amp; Conditions</a></li>
-					<li class="more-link"><a href="#">More &#43;</a></li>
-				</ul>
-				<ul class="footer-links more hide ga-feature-usage" data-ga-feature="Footer Links">
-					<li><a href="http://www.jest.com" target="_blank">Jest</a></li>
-					<li><a href="http://www.dorkly.com" target="_blank">Dorkly</a></li>
-					<li><a href="/sitemap">Site Map</a></li>
-					<li><a href="/sitemap/index">Site Index</a></li>
-					<li><a href="mailto:ads@collegehumor.com" target="_blank">Advertise</a></li>
-					<li><a href="http://iac.com/careers/job-listings" target="_blank">Jobs</a></li>
-				</ul>
-			</div>
-			<div class="col-md-5 col-sm-5 col-xs-5 right-side">
-				<div id="newsletter">
-					<form action="http://click.collegehumor.com/s" method="post" class="newsletter-form cf ga-feature-usage ga-target-self" data-ga-feature="Footer Newsletter">
-						<input type="hidden" name="redirect" value="http://www.collegehumor.com/newsletter-success"  />
-						<input type="hidden" name="template" value="CollegeHumor Double Opt-in Template"  />
-						<input type="hidden" name="vars[source]" value="Newsletter Page"  />
-						<div class="newsletter"><i></i>Newsletter Sign-Up</div>
-						<div class="newsletter-hidden">
-							<span class="message"></span>
-							<i id="envelope"></i>
-							<input type="text" id="email" name="email" value="">
-							<button type="submit"><i id="arrow"></i></button>
-						</div>
-					</form>
-				</div>
-				<div class="ad"><div id="div-gpt-ad-73824819"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("div-gpt-ad-73824819"); }); }</script></div></div>
-				<div class="site-copyright cf">CHMEDIA &copy;2014 Connected Ventures, LLC.<br>All Rights Reserved.
-				</div>
-			</div>
-			<div class="top-block">
-				<a href="#" class="scroll-to back-to-top ga-feature-usage ga-interaction ga-interaction-click-only" data-ga-feature="Scroll Top">Top</a>
-			</div>
-		</div>
-	</div>
-</footer>	<div class="hide">
-	<script>
-		_gaq.push(['_trackPageview']);
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
+<div class="output">
+<pre>
+Hello, 世界
+</pre>
+</div>
+<div class="buttons">
+<a class="run" href="#" title="Run this code [shift-enter]">Run</a>
+<a class="share" href="#" title="Share this code">Share</a>
+<a class="tour" href="http://tour.golang.org/" title="Learn Go from your browser">Tour</a>
+</div>
+<div class="toys">
+<select>
+	<option value="hello.go">Hello, World!</option>
+	<option value="life.go">Conway's Game of Life</option>
+	<option value="fib.go">Fibonacci Closure</option>
+	<option value="peano.go">Peano Integers</option>
+	<option value="pi.go">Concurrent pi</option>
+	<option value="sieve.go">Concurrent Prime Sieve</option>
+	<option value="solitaire.go">Peg Solitaire Solver</option>
+	<option value="tree.go">Tree Comparison</option>
+</select>
+</div>
+</div>
 
-	<!-- Begin comScore Tag -->
-	<script>document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script>
-	<script>
-	COMSCORE.beacon({
-		c1:2,
-		c2:6511178,
-		c3:"",
-		c4:"",
-		c5:"",
-		c6:"",
-		c15:""
-	});
-	</script>
-	<noscript><img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6511178&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" width="0" height="0" alt=""></noscript>
-	<!-- End comScore Tag -->
+</div>
 
-	<!-- Start Quantcast tag -->
-	<script src="http://edge.quantserve.com/quant.js"></script>
-	<script>_qacct="p-95EV338Ps8Si6";quantserve();</script>
-	<noscript>
-	<a href="http://www.quantcast.com/p-95EV338Ps8Si6"><img src="http://pixel.quantserve.com/pixel/p-95EV338Ps8Si6.gif" height="1" width="1" alt="Quantcast"></a>
-	</noscript>
-	<!-- End Quantcast tag -->
+<div class="right">
 
-	<!-- Compete XL Code for collegehumor.com -->
-	<script>
-		__compete_code = 'c7fc4ffea17061ffb3e2c0bfb1424e48';
-		/* Set control variables below this line. */
-	</script>
-	<script src="//c.compete.com/bootstrap/s/c7fc4ffea17061ffb3e2c0bfb1424e48/collegehumor-com/bootstrap.js"></script>
-	<noscript><img src="https://ssl-collegehumor-com-c7fc4f.c-col.com" width="1" height="1" alt=""></noscript>
+<div id="about">
+Go is an open source programming language that makes it easy to build
+simple, reliable, and efficient software.
+</div>
 
-	<!-- Exelator -->
-	<script src="http://loadus.exelator.com/load/?p=424&amp;g=001&amp;c=285365&amp;kw=&amp;refkw="></script>
-</div>	<script type="text/javascript" src="http://1.static.collegehumor.cvcdn.com/js/packages/2db151cb86c23d6e6cacfdf24a75c560.js"></script>
-	
-			<div id="fb-root"></div>
-<script>
-	// setting facebook comment to take the width of the browser when we are on small device
-	$( document ).ready(function() {
-		var $browser_width = $( window ).width();
-		if($browser_width >= 600){ 
-			$browser_width = 600;
-		}
-		$('.fb-comments').attr('data-width',$browser_width - 30);
-	});
+<div id="gopher"></div>
 
-	window.fbAsyncInit = function() {
-		FB.init({
-			appId: 271750421132, 
-			status: true, 
-			cookie: true, 
-			oauth : true, 
-			xfbml: true
+<a href="/doc/install" id="start">
+<span class="big">Download Go</span>
+<span class="desc">
+Binary distributions available for<br>
+Linux, Mac OS X, Windows, and more.
+</span>
+</a>
+
+</div>
+
+<div style="clear: both"></div>
+
+<div class="left">
+
+<div id="video">
+<div class="rootHeading">Featured video</div>
+<iframe width="415" height="241" src="//www.youtube.com/embed/ytEkHepK08c" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</div>
+
+<div class="right">
+
+<div id="blog">
+<div class="rootHeading">Featured articles</div>
+<div class="read"><a href="http://blog.golang.org/">Read more</a></div>
+</div>
+
+</div>
+
+<div style="clear: both;"></div>
+
+<script type="text/javascript">
+
+function readableTime(t) {
+	var m = ["January", "February", "March", "April", "May", "June", "July",
+		"August", "September", "October", "November", "December"];
+	var p = t.substring(0, t.indexOf("T")).split("-");
+	var d = new Date(p[0], p[1]-1, p[2]);
+	return d.getDate() + " " + m[d.getMonth()] + " " + d.getFullYear();
+}
+
+function feedLoaded(result) {
+	var blog = document.getElementById("blog");
+	var read = blog.getElementsByClassName("read")[0];
+	for (var i = 0; i < result.length && i < 2; i++) {
+		var entry = result[i];
+		var title = document.createElement("a");
+		title.className = "title";
+		title.href = entry.Link;
+		title.innerHTML = entry.Title;
+		blog.insertBefore(title, read);
+		var extract = document.createElement("div");
+		extract.className = "extract";
+		extract.innerHTML = entry.Summary;
+		blog.insertBefore(extract, read);
+		var when = document.createElement("div");
+		when.className = "when";
+		when.innerHTML = "Published " + readableTime(entry.Time);
+		blog.insertBefore(when, read);
+	}
+}
+
+window.initFuncs.push(function() {
+	// Set up playground if enabled.
+	if (window.playground) {
+		window.playground({
+			"codeEl":        "#learn .code",
+			"outputEl":      "#learn .output",
+			"runEl":         "#learn .run",
+			"shareEl":       "#learn .share",
+			"shareRedirect": "http://play.golang.org/p/",
+			"toysEl":        "#learn .toys select"
 		});
-		$('body').trigger('fbinit');
-	};
-	(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/en_US/all.js";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script>	
-			</body>
+	} else {
+		$('#learn').hide()
+	}
+
+	// Load blog feed.
+	$('<script/>').attr('text', 'text/javascript')
+		.attr('src', 'http://blog.golang.org/.json?jsonp=feedLoaded')
+		.appendTo('body');
+
+	// Set the video at random.
+	var videos = [
+		{h: 241, s: "//www.youtube.com/embed/ytEkHepK08c"}, // Tour of Go
+		{h: 241, s: "//www.youtube.com/embed/f6kdp27TYZs"}, // Concurrency Patterns
+		{h: 233, s: "//player.vimeo.com/video/69237265"}    // Simple environment
+	];
+	var v = videos[Math.floor(Math.random()*videos.length)];
+	$('#video iframe').attr('height', v.h).attr('src', v.s);
+});
+
+</script>
+
+
+<div id="footer">
+Build version go1.2.1.<br>
+Except as <a href="https://developers.google.com/site-policies#restrictions">noted</a>,
+the content of this page is licensed under the
+Creative Commons Attribution 3.0 License,
+and code is licensed under a <a href="/LICENSE">BSD license</a>.<br>
+<a href="/doc/tos.html">Terms of Service</a> | 
+<a href="http://www.google.com/intl/en/policies/privacy/">Privacy Policy</a>
+</div>
+
+</div><!-- .container -->
+</div><!-- #page -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="/lib/godoc/playground.js"></script>
+
+<script type="text/javascript" src="/lib/godoc/godocs.js"></script>
+
+<script type="text/javascript">
+(function() {
+  var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+  ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+  var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
 </html>
+

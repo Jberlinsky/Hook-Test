@@ -1,618 +1,827 @@
- 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-
-<head>
-<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-<meta name="description" content="Providing educators and students access to the highest quality practices and resources in reading and language arts instruction." />
-<meta name="keywords" content="home" />
-<link rel="image_src" href="http://www.readwritethink.org/images/logo.gif" />
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<title>Homepage - ReadWriteThink</title>
-
-<meta property="og:title" content="Homepage - ReadWriteThink" />
-<meta property="og:site_name" content="readwritethink.org" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="" />
-<link rel="image_src" href="" />
-<meta property="og:url" content="http://www.readwritethink.org/"/>
-<meta property="og:description" content="Providing educators and students access to the highest quality practices and resources in reading and language arts instruction."/>
 
 
-<script type="text/javascript" src="/js/analytics.js?2011-02-01"></script>
-<script type="text/javascript" src="/js/jquery/jquery-1.3.2.min.js"></script>
-<script type="text/javascript" src="/js/jquery/ui/ui.core.js"></script>
-<script type="text/javascript" src="/js/jquery/jquery.tools.min.js"></script>
-<script type="text/javascript" src="/js/jquery/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="/js/jquery/jquery.cookie.js"></script>
-<script type="text/javascript" src="/js/jquery/jquery.form.js"></script>
-<script type="text/javascript" src="/js/poll.js"></script>
-<script type="text/javascript" src="/js/plugins.js"></script>
-<script type="text/javascript" src="/js/swfobject/swfobject2.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
-<script type="text/javascript" src="/js/dev.js?2011-02-01"></script>
-<script type="text/javascript" src="/js/jquery.colorbox-min.js?1326211345"></script>
-
-
-<script type="text/javascript" src="/js/AC_RunActiveContent.js"></script>
-
-<link rel="stylesheet" type="text/css" media="print" href="/css/eprint.css?1337087186" />
-<link rel="stylesheet" type="text/css" href="/css/style.css?1381926854" />
-<link rel="stylesheet" type="text/css" href="/css/colorbox.css?1326211345" />
-
-
-<!--[if IE]>
-<style type="text/css">
-ul {
-	display: inline-block;
-}
-</style>
-<![endif]-->
-
-
-</head>
-
-<body bgcolor="#ffffff" onload="">
-
-	
-<!--googleoff: index-->		
+<!DOCTYPE html>
+<html>
+	<head><meta http-equiv="X-UA-Compatible" content="IE=edge;requiresActiveX=true" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><meta name="application-name" content="Geek Squad" /><meta name="msapplication-task" content="name=All Services;action-uri=/services/;icon-uri=/assets/0/73/128/129/042074b8-79eb-4786-afbe-ff0f96efc3dc.ico" /><meta name="msapplication-task" content="name=Track Your Repair;action-uri=/repair-status/;icon-uri=/assets/0/73/128/129/2f73d531-9e73-4bb0-a1f5-e1470b500095.ico" /><meta name="msapplication-task" content="name=Chat With an Agent;action-uri=http://support.geeksquad.com/support/externalStartSession.s2?ju=c4me;icon-uri=/assets/0/73/128/129/51786916-566a-482b-8c87-b05f8e909f6f.ico" /><meta name="msapplication-task" content="name=Schedule In-Home Appointment;action-uri=http://scheduling.geeksquad.com;icon-uri=/assets/0/73/128/129/bf43df15-2717-4e68-b6e5-77be98a6d147.ico" /><meta name="msapplication-task" content="name=Find a Location;action-uri=/find-a-location/;icon-uri=/assets/0/73/128/129/11452dee-3bfd-4471-9cc0-9d7bd55fc9cc.ico" /><meta name="msapplication-navbutton-color" content="#E8741F" /><meta name="msapplication-tooltip" content="Geek Squad â€“ Computers, Home Theaters, Appliances, Online Support &amp; More" /><title>
+	Geek Squad â€“ Computers, Home Theaters, Appliances, Online Support &amp; More
+</title><link rel="stylesheet" type="text/css" href="/styles/styles.css" /><link rel="stylesheet" type="text/css" href="/csisurvey/colorbox/colorbox-min.css" /><link rel="stylesheet" type="text/css" href="/styles/headerfooter_gs.css" />
+        <script type="text/javascript" src="/scripts/libs/modernizr-2.0.6.min.js"></script>
+		<script type="text/javascript" src="/scripts/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="/scripts/jquery.nyroModal-1.6.2.min.js"></script>
+		<script type="text/javascript" src="/scripts/isFontFaceSupported.js"></script>
+		<script type="text/javascript" src="/scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/scripts/jquery.columnizer.js"></script>
+		<script type="text/javascript" src="/scripts/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" src="/scripts/scripts.js"></script>
 		
-<!--[if !IE]> BEGIN MAIN CONTAINER <![endif]-->
-<div id="main-container">
-
-<!--[if !IE]> BEGIN MAIN LOGO AND UTILITY AREA <![endif]-->
-<p id="logo"><a href="/" name="top" title="ReadWriteThink"><img src="/images/logo.gif" width="415" height="64" border="0" alt="ReadWriteThink" /></a><a href="http://www.reading.org/" target="_blank" title="International Reading Association"><img src="/images/l-ira.gif" width="94" height="30" border="0" alt="International Reading Association" /></a><a href="http://www.ncte.org/" target="_blank" title="NCTE"><img src="/images/l-ncte.gif" width="60" height="30" border="0" alt="NCTE" /></a></p>
-
-<div id="print-only">
-<p id="page-url" class="gray-9">http://www.readwritethink.org/</p>
-<p>
-<span class="print-page-button"><img src="/images/icon-print.gif" width="21" height="13" border="0" alt="" id="icon-print" /><a href="javascript:void(0)" onclick="window.print()">Print This Page</a></span>
-<img src="/images/logo-print.gif" width="364" height="35" border="0" alt="ReadWriteThink" />
-<img src="/images/logo-print-line.gif" width="658" height="1" border="0" alt="ReadWriteThink" />
-</p></div>
-
-<p id="util"><a href="#content" title="Skip to content"><img src="/images/s.gif" width="1" height="1" border="0" alt="Skip to content" /></a><a href="/util/contribute-to-rwt.html" id="u-contribute">Contribute to ReadWriteThink</a> / <a href="/util/rss.html" id="u-rss">RSS</a> / <a href="/util/faq.html" id="u-faq">FAQs</a> / <a href="/util/site-demonstrations.html" id="u-demonstrations">Site Demonstrations</a> / <a href="/util/contact.html" id="u-contact">Contact Us</a> / <a href="/about/" id="u-about">About Us</a></p>
-
-<p id="header-r"  style="padding-top:12px;"><a href="http://www.thinkfinity.org" style="text-decoration:none;" onmouseover="document.tflogo.src='/images/f-thinkfinity-verizon.gif';" onmouseout="document.tflogo.src='/images/f-thinkfinity-verizon.gif';"><img id="tflogo" name="tflogo" src="/images/f-thinkfinity-verizon.gif" width="151" height="26" border="0" alt="Thinkfinity/Verizon" /></a></p>
-
-<div id="util-bottom" class="clearit">&#160;</div>
-
-<!--[if !IE]> END MAIN LOGO AND UTILITY AREA <![endif]-->
-
-<!--[if !IE]> BEGIN MAIN NAVIGATION <![endif]-->
-<p id="nav"><a href="/classroom-resources/" title="Classroom Resources" onmouseover="navOn('class');showMenu('cr-menu');" onmouseout="navOff('class');hideMenu('cr-menu');"><img src="/images/nav-class-off.gif" width="240" height="39" border="0" alt="Classroom Resources" id="class" /></a><img src="/images/nav-divider.gif" width="1" height="39" border="0" alt="" /><a href="/professional-development/" title="Professional Development" onmouseover="navOn('dev');showMenu('pd-menu');" onmouseout="navOff('dev');hideMenu('pd-menu');"><img src="/images/nav-dev-off.gif" width="281" height="39" border="0" alt="Professional Development" id="dev" /></a><img src="/images/nav-divider.gif" width="1" height="39" border="0" alt="" /><a href="/videos/" title="Videos" onmouseover="navOn('videos');showMenu('v-menu');" onmouseout="navOff('videos');hideMenu('v-menu');"><img src="/images/nav-videos-off.gif" width="137" height="39" border="0" alt="Videos" id="videos" /></a><a href="/parent-afterschool-resources/" title="Parent &amp; Afterschool Resources" onmouseover="navOn('parent');showMenu('par-menu');" onmouseout="navOff('parent');hideMenu('par-menu');"><img src="/images/nav-parent-off.gif" width="297" height="39" border="0" alt="Parent &amp; Afterschool Resources" id="parent" /></a></p>
-<!--[if !IE]> END MAIN NAVIGATION <![endif]-->
-
-	<!--[if !IE]> BEGIN DROPDOWN NAVIGATION MENUS <![endif]-->
-	<div id="cr-menu" class="dd-menu" onmouseover="navOn('class');showMenu('cr-menu');" onmouseout="navOff('class');hideMenu('cr-menu');">
-		<ul>
-			<li class="menu-top"><img src="/images/cr-menu-top.gif" width="31" height="10" border="0" alt="" /></li>
-						<li id="cr0" class="gr-off" onmouseover="grMenuOn('cr0')" onmouseout="grMenuOff('cr0')" onclick="document.location.href='/classroom-resources/lesson-plans/'"><a href="/classroom-resources/lesson-plans/">Lesson Plans</a></li>
-						<li id="cr1" class="gr-off" onmouseover="grMenuOn('cr1')" onmouseout="grMenuOff('cr1')" onclick="document.location.href='/classroom-resources/student-interactives/'"><a href="/classroom-resources/student-interactives/">Student Interactives</a></li>
-						<li id="cr2" class="gr-off" onmouseover="grMenuOn('cr2')" onmouseout="grMenuOff('cr2')" onclick="document.location.href='/classroom-resources/mobile-apps/'"><a href="/classroom-resources/mobile-apps/">Mobile Apps</a></li>
-						<li id="cr3" class="gr-off" onmouseover="grMenuOn('cr3')" onmouseout="grMenuOff('cr3')" onclick="document.location.href='/classroom-resources/calendar-activities/'"><a href="/classroom-resources/calendar-activities/">Calendar Activities</a></li>
-						<li id="cr4" class="gr-off" onmouseover="grMenuOn('cr4')" onmouseout="grMenuOff('cr4')" onclick="document.location.href='/classroom-resources/printouts/'"><a href="/classroom-resources/printouts/">Printouts</a></li>
-					</ul>
-		<p class="menu-bottom"><img src="/images/cr-menu-bottom.gif" width="240" height="10" border="0" alt="" /></p>
-	</div>
-
-	<div id="pd-menu" class="dd-menu" onmouseover="navOn('dev');showMenu('pd-menu');" onmouseout="navOff('dev');hideMenu('pd-menu');">
-		<ul>
-			<li class="menu-top"><img src="/images/pd-menu-top.gif" width="28" height="10" border="0" alt="" /></li>
-						<li id="pd0" class="gr-off " onmouseover="grMenuOn('pd0')" onmouseout="grMenuOff('pd0')" onclick="document.location.href='/professional-development/strategy-guides/'"><a href="/professional-development/strategy-guides/">Strategy Guides</a></li>
-						<li id="pd1" class="gr-off " onmouseover="grMenuOn('pd1')" onmouseout="grMenuOff('pd1')" onclick="document.location.href='/professional-development/professional-library/'"><a href="/professional-development/professional-library/">Professional Library</a></li>
-						<li id="pd2" class="gr-off " onmouseover="grMenuOn('pd2')" onmouseout="grMenuOff('pd2')" onclick="document.location.href='/professional-development/meetings-events/'"><a href="/professional-development/meetings-events/">Meetings &amp; Events</a></li>
-						<li id="pd3" class="gr-off last" onmouseover="grMenuOn('pd3')" onmouseout="grMenuOff('pd3')" onclick="document.location.href='/professional-development/online-pd/'"><a href="/professional-development/online-pd/">Online Professional Development</a></li>
-					</ul>
-		<p class="menu-bottom"><img src="/images/pd-menu-bottom.gif" width="281" height="10" border="0" alt="" /></p>
-	</div>
-
-	<div id="v-menu" class="dd-menu" onmouseover="navOn('videos');showMenu('v-menu');" onmouseout="navOff('videos');hideMenu('v-menu');">
-		<ul>
-			<li class="menu-top"><img src="/images/pd-menu-top.gif" width="28" height="10" border="0" alt="" /></li>
-						<li id="v0" class="gr-off " onmouseover="grMenuOn('v0')" onmouseout="grMenuOff('v0')" onclick="document.location.href='/videos/literacy-in-action.html'"><a href="/videos/literacy-in-action.html">Literacy in Action</a></li>
-						<li id="v1" class="gr-off " onmouseover="grMenuOn('v1')" onmouseout="grMenuOff('v1')" onclick="document.location.href='/videos/presentations.html'"><a href="/videos/presentations.html">Presentations</a></li>
-						<li id="v2" class="gr-off " onmouseover="grMenuOn('v2')" onmouseout="grMenuOff('v2')" onclick="document.location.href='/videos/using-rwt.html'"><a href="/videos/using-rwt.html">Using RWT</a></li>
-						<li id="v3" class="gr-off last" onmouseover="grMenuOn('v3')" onmouseout="grMenuOff('v3')" onclick="document.location.href='/videos/just-for-fun.html'"><a href="/videos/just-for-fun.html">Just for Fun</a></li>
-					</ul>
-		<p class="menu-bottom"><img src="/images/au-menu-bottom.gif" width="230" height="10" border="0" alt="" /></p>
-	</div>
-	
-	<div id="par-menu" class="dd-menu-co" onmouseover="navOn('parent');showMenu('par-menu');" onmouseout="navOff('parent');hideMenu('par-menu');">
-
-	<ul>
-	<li class="menu-top"><img src="/images/par-menu-top.gif" width="19" height="10" border="0" alt="" /></li>
-		<li id="par1" class="co-off" onmouseover="coMenuOn('par1')" onmouseout="coMenuOff('par1')" onclick="document.location.href='/parent-afterschool-resources/grade/kindergarten/'"><a href="/parent-afterschool-resources/grade/kindergarten/">Kindergarten</a></li>
-		<li id="par2" class="co-off" onmouseover="coMenuOn('par2')" onmouseout="coMenuOff('par2')" onclick="document.location.href='/parent-afterschool-resources/grade/1-2/'"><a href="/parent-afterschool-resources/grade/1-2/">Grades 1 - 2</a></li>
-		<li id="par3" class="co-off" onmouseover="coMenuOn('par3')" onmouseout="coMenuOff('par3')" onclick="document.location.href='/parent-afterschool-resources/grade/3-4/'"><a href="/parent-afterschool-resources/grade/3-4/">Grades 3 - 4</a></li>
-		<li id="par4" class="co-off" onmouseover="coMenuOn('par4')" onmouseout="coMenuOff('par4')" onclick="document.location.href='/parent-afterschool-resources/grade/5-6/'"><a href="/parent-afterschool-resources/grade/5-6/">Grades 5 - 6</a></li>
-		<li id="par5" class="co-off" onmouseover="coMenuOn('par5')" onmouseout="coMenuOff('par5')" onclick="document.location.href='/parent-afterschool-resources/grade/7-8/'"><a href="/parent-afterschool-resources/grade/7-8/">Grades 7 - 8</a></li>
-		<li id="par6" class="co-off" onmouseover="coMenuOn('par6')" onmouseout="coMenuOff('par6')" onclick="document.location.href='/parent-afterschool-resources/grade/9-10/'"><a href="/parent-afterschool-resources/grade/9-10/">Grades 9 - 10</a></li>
-		<li id="par7" class="co-off" onmouseover="coMenuOn('par7')" onmouseout="coMenuOff('par7')" onclick="document.location.href='/parent-afterschool-resources/grade/11-12/'"><a href="/parent-afterschool-resources/grade/11-12/">Grades 11 - 12</a></li>
-		</ul>
-
-	<p class="menu-bottom"><img src="/images/par-menu-bottom.gif" width="297" height="10" border="0" alt="" /></p>
-
-	</div>
-	<!--[if !IE]> END DROPDOWN NAVIGATION MENUS <![endif]-->
-
-<!--googleon: index-->
+		<script type="text/javascript" src="/scripts/headerfooter.js"></script>
+		<script type="text/javascript" src="/scripts/ie6_popup.js"></script>
+		<script type="text/javascript" src="/scripts/swfobject.js"></script>
+		<script type="text/javascript" src="/csi-survey/csiassets/scripts/libs/require.js"></script>
+		<script type="text/javascript" src="/csi-survey/csiassets/scripts/controllers/client.js"></script>
+		<script type="text/javascript" src="/csisurvey/colorbox/jquery.colorbox-min.js"></script>
 		
-	<!--[if !IE]> BEGIN HOME FLASH <![endif]-->
-	<div id="home-flash">
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<!--[if lt IE 7]>
+				<link rel="stylesheet" type="text/css" href="/styles/ie6.css" />
+                <script type="text/javascript" src="/scripts/supersleight.js"></script>
+		<![endif]-->
+        <script type="text/javascript">
+var headerFooterBasePathLink = 'http://www.geeksquad.com';
+var headerFooterBasePathContent = 'http://www.geeksquad.com';
+var csiSurveyDomain = 'geeksquad.com';
+</script>
+	   <script type="text/javascript">
+	   		var _gaq = _gaq || [];
+	   		_gaq.push(['_setAccount', 'UA-6804456-10']);
+	   		_gaq.push(['_setDomainName', 'geeksquad.com']);
+	   		_gaq.push(['_trackPageview']);
 
-		<script language="JavaScript" type="text/javascript">
-		<!--
-		// -----------------------------------------------------------------------------
-		// Globals
-		// Major version of Flash required
-		var requiredMajorVersion = 9;
-		// Minor version of Flash required
-		var requiredMinorVersion = 0;
-		// Minor version of Flash required
-		var requiredRevision = 124;
-		// -----------------------------------------------------------------------------
-		// -->
-
-		<!--
-		// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-		var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-		// Version check based upon the values defined in globals
-		var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-		if ( hasProductInstall && !hasRequestedVersion ) {
-			// DO NOT MODIFY THE FOLLOWING FOUR LINES
-			// Location visited after installation is complete if installation is required
-			var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-			var MMredirectURL = window.location;
-		    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-		    var MMdoctitle = document.title;
-
-			AC_FL_RunContent(
-				"src", "playerProductInstall",
-				"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-				"width", "960",
-				"height", "316",
-				"align", "middle",
-				"id", "RWT",
-				"quality", "high",
-				"bgcolor", "#ffffff",
-				"name", "RWT",
-				"wmode", "transparent",
-				"allowScriptAccess","sameDomain",
-				"type", "application/x-shockwave-flash",
-				"FlashVars","name=&id=",
-				"pluginspage", "http://www.adobe.com/go/getflashplayer"
-			);
-		} else if (hasRequestedVersion) {
-			// if we've detected an acceptable version
-			// embed the Flash Content SWF when all tests are passed
-			AC_FL_RunContent(
-					"src", "flash/RWT",
-					"width", "960",
-					"height", "316",
-					"align", "middle",
-					"id", "RWT",
-					"quality", "high",
-					"bgcolor", "#ffffff",
-					"name", "RWT",
-					"wmode", "transparent",
-					"allowScriptAccess","sameDomain",
-					"type", "application/x-shockwave-flash",
-					"pluginspage", "http://www.adobe.com/go/getflashplayer"
-			);
-		  } else {  // flash is too old or we can't detect the plugin
-			var alternateContent = '';
-			document.write(alternateContent);  // insert non-flash content
-		  }
-		// -->
+	   		(function () {
+	   			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	   			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	   			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	   		})();
 		</script>
-
-		<noscript>
-			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="960" height="316" id="RWT" align="middle">
-			<param name="allowScriptAccess" value="sameDomain" />
-			<param name="allowFullScreen" value="false" />
-			<param name="movie" value="flash/RWT.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#000000" /> <param name="wmode" value="transparent"> <embed src="flash/RWT.swf" quality="high" bgcolor="#000000" width="960" height="316" name="RWT" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" />
-			</object>
-		</noscript>
-
-	</div>
-	<!--[if !IE]> END HOME FLASH <![endif]-->
-
-	<!--[if !IE]> BEGIN LEFT CONTENT <![endif]-->
-	<div class="content-l">
-	    <!--googleoff: index-->
-		<form id="search" name="search"  action="/search/" onsubmit="if(document.getElementById('srch').value == 'Enter Keyword') document.getElementById('srch').value='';">
-
-						<input type="hidden" name="sort_order" id="sort_order" value="relevance">
-
-			<p class="search-box-dark-top"><img src="/images/search-box-dark-top.gif" width="193" height="8" border="0" alt="" /></p>
-
-			<h3>SEARCH BY KEYWORD</h3>
-			<div class="search-box-light">
-				<p id="search-field"><input type="text" id="srch" name="q" value="Enter Keyword" onclick="if(this.value=='Enter Keyword')this.value='';" /></p>
-				<p id="searchgo"><input type="image" id="srchgo" name="srchgo" src="/images/search-go.gif" alt="Go" /></p>
-				<input type="hidden" name="old_q" value="" />
-				<div class="clearit">&#160;</div>
-							</div>
-
-			<p class="no-pad"><img src="/images/search-box-light-bottom.gif" width="193" height="8" border="0" alt="" /></p>
-
-			
-			
-		    				<p class="search-box-dark-top"><img src="/images/search-box-dark-top.gif" width="193" height="8" border="0" alt="" /></p>
-
-				<h3>START FILTERING BY</h3>
-
-						<div class="search-box-medium">
-			<h4>Grade Level</h4>
-						<div id="filter-grade-container" class="search-box-indent">
-				<p id="filter-grade-close" class="search-close"  style="display: none"><a href="javascript: void(0)" onclick="collapseFilter('filter-grade')" style="text-decoration: none; background: none;">close <img src="/images/icon-close-ko.gif" width="11" height="11" border="0" alt="" class="inline3" /></a></p> 								<div class="search-box-first">
-					<div class="defaul-items">
-						<p><a href="/search/?grade=7" onclick="window.location.href='/search/?grade=7'">Kindergarten</a>&nbsp;<span id="gk-amt">(457)</span></p><p><a href="/search/?grade=11" onclick="window.location.href='/search/?grade=11'">1st</a>&nbsp;<span id="gk-amt">(497)</span></p><p><a href="/search/?grade=9" onclick="window.location.href='/search/?grade=9'">2nd</a>&nbsp;<span id="gk-amt">(508)</span></p>					</div>
-										<div class="search-box-l"  style="display: none">
-						<p><a href="/search/?grade=8" onclick="window.location.href='/search/?grade=8'">3rd</a>&nbsp;<span id="gk-amt">(745)</span></p><p><a href="/search/?grade=12" onclick="window.location.href='/search/?grade=12'">4th</a>&nbsp;<span id="gk-amt">(743)</span></p><p><a href="/search/?grade=13" onclick="window.location.href='/search/?grade=13'">5th</a>&nbsp;<span id="gk-amt">(820)</span></p><p><a href="/search/?grade=14" onclick="window.location.href='/search/?grade=14'">6th</a>&nbsp;<span id="gk-amt">(882)</span></p><p><a href="/search/?grade=15" onclick="window.location.href='/search/?grade=15'">7th</a>&nbsp;<span id="gk-amt">(889)</span></p><p><a href="/search/?grade=16" onclick="window.location.href='/search/?grade=16'">8th</a>&nbsp;<span id="gk-amt">(906)</span></p><p><a href="/search/?grade=17" onclick="window.location.href='/search/?grade=17'">9th</a>&nbsp;<span id="gk-amt">(875)</span></p><p><a href="/search/?grade=20" onclick="window.location.href='/search/?grade=20'">10th</a>&nbsp;<span id="gk-amt">(856)</span></p><p><a href="/search/?grade=18" onclick="window.location.href='/search/?grade=18'">11th</a>&nbsp;<span id="gk-amt">(841)</span></p>					</div>
-									</div>
-
-								<div class="search-box-r" style="display: none">
-						<p><a href="/search/?grade=19" onclick="window.location.href='/search/?grade=19'">12th</a>&nbsp;<span id="gk-amt">(839)</span></p>				</div>
-				
-				<div class="clearit">&#160;</div>
-
-								<div class="indent">
-					<p class="search-more" id="filter-grade-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-grade', 384)">more</a></p>
-					<p class="search-more" id="filter-grade-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-grade')">less</a></p>
-				</div>
-				
-			</div>
-
-				</div>
-				<div class="search-box-medium">
-			<h4>Resource Type</h4>
-						<div id="filter-2resource_type-container" class="search-box-indent">
-								<h5 class="over">Classroom Resources</h5><p class="search-box-h5-bottom-over"><img src="/images/search-box-h5-bottom.gif" width="176" height="10" border="0" alt="" /></p>
-				<div class="search-box-first">
-					<div class="defaul-items">
-						<p><a href="/search/?resource_type=6" onclick="window.location.href='/search/?resource_type=6'">Lesson Plans</a>&nbsp;<span id="gk-amt">(859)</span></p><p><a href="/search/?resource_type=16" onclick="window.location.href='/search/?resource_type=16'">Student Interactives</a>&nbsp;<span id="gk-amt">(59)</span></p><p><a href="/search/?resource_type=126" onclick="window.location.href='/search/?resource_type=126'">Mobile Apps</a>&nbsp;<span id="gk-amt">(9)</span></p>					</div>
-										<div class="search-box-l"  style="display: none">
-						<p><a href="/search/?resource_type=20" onclick="window.location.href='/search/?resource_type=20'">Calendar Activities</a>&nbsp;<span id="gk-amt">(245)</span></p><p><a href="/search/?resource_type=18" onclick="window.location.href='/search/?resource_type=18'">Printouts</a>&nbsp;<span id="gk-amt">(43)</span></p>					</div>
-									</div>
-
-				
-				<div class="clearit">&#160;</div>
-
-								<div class="indent">
-					<p class="search-more" id="filter-2resource_type-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-2resource_type', 192)">more</a></p>
-					<p class="search-more" id="filter-2resource_type-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-2resource_type')">less</a></p>
-				</div>
-				
-			</div>
-
-					<div id="filter-3resource_type-container" class="search-box-indent">
-								<h5 class="over">Professional Development</h5><p class="search-box-h5-bottom-over"><img src="/images/search-box-h5-bottom.gif" width="176" height="10" border="0" alt="" /></p>
-				<div class="search-box-first">
-					<div class="defaul-items">
-						<p><a href="/search/?resource_type=56" onclick="window.location.href='/search/?resource_type=56'">Strategy Guides</a>&nbsp;<span id="gk-amt">(55)</span></p><p><a href="/search/?resource_type=58" onclick="window.location.href='/search/?resource_type=58'">Professional Library</a>&nbsp;<span id="gk-amt">(225)</span></p><p><a href="/search/?resource_type=66" onclick="window.location.href='/search/?resource_type=66'">Meetings & Events</a>&nbsp;<span id="gk-amt">(10)</span></p>					</div>
-										<div class="search-box-l"  style="display: none">
-						<p><a href="/search/?resource_type=68" onclick="window.location.href='/search/?resource_type=68'">Online Professional Development</a>&nbsp;<span id="gk-amt">(68)</span></p>					</div>
-									</div>
-
-				
-				<div class="clearit">&#160;</div>
-
-								<div class="indent">
-					<p class="search-more" id="filter-3resource_type-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-3resource_type', 192)">more</a></p>
-					<p class="search-more" id="filter-3resource_type-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-3resource_type')">less</a></p>
-				</div>
-				
-			</div>
-
-					<div id="filter-4resource_type-container" class="search-box-indent">
-								<h5 class="over">Parent &amp; Afterschool Resources</h5><p class="search-box-h5-bottom-over"><img src="/images/search-box-h5-bottom.gif" width="176" height="10" border="0" alt="" /></p>
-				<div class="search-box-first">
-					<div class="defaul-items">
-						<p><a href="/search/?resource_type=70" onclick="window.location.href='/search/?resource_type=70'">Activities & Projects</a>&nbsp;<span id="gk-amt">(105)</span></p><p><a href="/search/?resource_type=72" onclick="window.location.href='/search/?resource_type=72'">Games & Tools</a>&nbsp;<span id="gk-amt">(23)</span></p><p><a href="/search/?resource_type=74" onclick="window.location.href='/search/?resource_type=74'">Tips & How-To's</a>&nbsp;<span id="gk-amt">(25)</span></p>					</div>
-										<div class="search-box-l"  style="display: none">
-						<p><a href="/search/?resource_type=76" onclick="window.location.href='/search/?resource_type=76'">Printouts</a>&nbsp;<span id="gk-amt">(26)</span></p><p><a href="/search/?resource_type=80" onclick="window.location.href='/search/?resource_type=80'">Podcast Series</a>&nbsp;<span id="gk-amt">(2)</span></p><p><a href="/search/?resource_type=82" onclick="window.location.href='/search/?resource_type=82'">Podcast Episodes</a>&nbsp;<span id="gk-amt">(132)</span></p>					</div>
-									</div>
-
-				
-				<div class="clearit">&#160;</div>
-
-								<div class="indent">
-					<p class="search-more" id="filter-4resource_type-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-4resource_type', 192)">more</a></p>
-					<p class="search-more" id="filter-4resource_type-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-4resource_type')">less</a></p>
-				</div>
-				
-			</div>
-
-				</div>
-				<div class="search-box-medium">
-			<h4>Learning Objective</h4>
-						<div id="filter-learning_objective-container" class="search-box-indent">
-				<p id="filter-learning_objective-close" class="search-close"  style="display: none"><a href="javascript: void(0)" onclick="collapseFilter('filter-learning_objective')" style="text-decoration: none; background: none;">close <img src="/images/icon-close-ko.gif" width="11" height="11" border="0" alt="" class="inline3" /></a></p> 								<div class="search-box-first">
-					<div class="defaul-items">
-						<p><a href="/search/?learning_objective=35" onclick="window.location.href='/search/?learning_objective=35'">Collaboration</a>&nbsp;<span id="gk-amt">(477)</span></p><p><a href="/search/?learning_objective=8" onclick="window.location.href='/search/?learning_objective=8'">Comprehension</a>&nbsp;<span id="gk-amt">(567)</span></p><p><a href="/search/?learning_objective=44" onclick="window.location.href='/search/?learning_objective=44'">Critical Thinking</a>&nbsp;<span id="gk-amt">(693)</span></p>					</div>
-										<div class="search-box-l"  style="display: none">
-						<p><a href="/search/?learning_objective=52" onclick="window.location.href='/search/?learning_objective=52'">Digital Literacy</a>&nbsp;<span id="gk-amt">(188)</span></p><p><a href="/search/?learning_objective=11" onclick="window.location.href='/search/?learning_objective=11'">Grammar</a>&nbsp;<span id="gk-amt">(63)</span></p><p><a href="/search/?learning_objective=54" onclick="window.location.href='/search/?learning_objective=54'">Inquiry / Research</a>&nbsp;<span id="gk-amt">(369)</span></p><p><a href="/search/?learning_objective=34" onclick="window.location.href='/search/?learning_objective=34'">Listening</a>&nbsp;<span id="gk-amt">(207)</span></p><p><a href="/search/?learning_objective=42" onclick="window.location.href='/search/?learning_objective=42'">Literary Analysis</a>&nbsp;<span id="gk-amt">(393)</span></p><p><a href="/search/?learning_objective=29" onclick="window.location.href='/search/?learning_objective=29'">Media Literacy</a>&nbsp;<span id="gk-amt">(225)</span></p><p><a href="/search/?learning_objective=45" onclick="window.location.href='/search/?learning_objective=45'">Metacognition</a>&nbsp;<span id="gk-amt">(333)</span></p><p><a href="/search/?learning_objective=43" onclick="window.location.href='/search/?learning_objective=43'">Multicultural Awareness</a>&nbsp;<span id="gk-amt">(103)</span></p><p><a href="/search/?learning_objective=53" onclick="window.location.href='/search/?learning_objective=53'">Multimodal Literacy</a>&nbsp;<span id="gk-amt">(269)</span></p>					</div>
-									</div>
-
-								<div class="search-box-r" style="display: none">
-						<p><a href="/search/?learning_objective=37" onclick="window.location.href='/search/?learning_objective=37'">Oral Communication</a>&nbsp;<span id="gk-amt">(251)</span></p><p><a href="/search/?learning_objective=50" onclick="window.location.href='/search/?learning_objective=50'">Phonological Awareness</a>&nbsp;<span id="gk-amt">(91)</span></p><p><a href="/search/?learning_objective=38" onclick="window.location.href='/search/?learning_objective=38'">Print Awareness</a>&nbsp;<span id="gk-amt">(119)</span></p><p><a href="/search/?learning_objective=32" onclick="window.location.href='/search/?learning_objective=32'">Reading Fluency</a>&nbsp;<span id="gk-amt">(104)</span></p><p><a href="/search/?learning_objective=40" onclick="window.location.href='/search/?learning_objective=40'">Reading Genres</a>&nbsp;<span id="gk-amt">(335)</span></p><p><a href="/search/?learning_objective=17" onclick="window.location.href='/search/?learning_objective=17'">Spelling</a>&nbsp;<span id="gk-amt">(67)</span></p><p><a href="/search/?learning_objective=55" onclick="window.location.href='/search/?learning_objective=55'">Text Structure / Story Structure</a>&nbsp;<span id="gk-amt">(274)</span></p><p><a href="/search/?learning_objective=19" onclick="window.location.href='/search/?learning_objective=19'">Vocabulary</a>&nbsp;<span id="gk-amt">(228)</span></p><p><a href="/search/?learning_objective=41" onclick="window.location.href='/search/?learning_objective=41'">Writing Genres</a>&nbsp;<span id="gk-amt">(428)</span></p><p><a href="/search/?learning_objective=31" onclick="window.location.href='/search/?learning_objective=31'">Writing Process</a>&nbsp;<span id="gk-amt">(449)</span></p>				</div>
-				
-				<div class="clearit">&#160;</div>
-
-								<div class="indent">
-					<p class="search-more" id="filter-learning_objective-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-learning_objective', 384)">more</a></p>
-					<p class="search-more" id="filter-learning_objective-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-learning_objective')">less</a></p>
-				</div>
-				
-			</div>
-
-				</div>
-				<div class="search-box-medium-last">
-			<h4>Theme</h4>
-						<div id="filter-theme-container" class="search-box-indent">
-				<p id="filter-theme-close" class="search-close"  style="display: none"><a href="javascript: void(0)" onclick="collapseFilter('filter-theme')" style="text-decoration: none; background: none;">close <img src="/images/icon-close-ko.gif" width="11" height="11" border="0" alt="" class="inline3" /></a></p> 								<div class="search-box-first">
-					<div class="defaul-items">
-						<p><a href="/search/?theme=10" onclick="window.location.href='/search/?theme=10'">Arts</a>&nbsp;<span id="gk-amt">(211)</span></p><p><a href="/search/?theme=16" onclick="window.location.href='/search/?theme=16'">Careers</a>&nbsp;<span id="gk-amt">(45)</span></p><p><a href="/search/?theme=11" onclick="window.location.href='/search/?theme=11'">Community</a>&nbsp;<span id="gk-amt">(247)</span></p>					</div>
-										<div class="search-box-l"  style="display: none">
-						<p><a href="/search/?theme=13" onclick="window.location.href='/search/?theme=13'">Drama</a>&nbsp;<span id="gk-amt">(86)</span></p><p><a href="/search/?theme=18" onclick="window.location.href='/search/?theme=18'">English-Language Learners</a>&nbsp;<span id="gk-amt">(66)</span></p><p><a href="/search/?theme=17" onclick="window.location.href='/search/?theme=17'">Family</a>&nbsp;<span id="gk-amt">(123)</span></p><p><a href="/search/?theme=6" onclick="window.location.href='/search/?theme=6'">Fiction</a>&nbsp;<span id="gk-amt">(515)</span></p><p><a href="/search/?theme=19" onclick="window.location.href='/search/?theme=19'">Mathematics</a>&nbsp;<span id="gk-amt">(44)</span></p><p><a href="/search/?theme=25" onclick="window.location.href='/search/?theme=25'">Mobile Learning</a>&nbsp;<span id="gk-amt">(19)</span></p><p><a href="/search/?theme=9" onclick="window.location.href='/search/?theme=9'">Nonfiction</a>&nbsp;<span id="gk-amt">(306)</span></p><p><a href="/search/?theme=7" onclick="window.location.href='/search/?theme=7'">Poetry</a>&nbsp;<span id="gk-amt">(195)</span></p><p><a href="/search/?theme=5" onclick="window.location.href='/search/?theme=5'">Science</a>&nbsp;<span id="gk-amt">(130)</span></p>					</div>
-									</div>
-
-								<div class="search-box-r" style="display: none">
-						<p><a href="/search/?theme=23" onclick="window.location.href='/search/?theme=23'">Seasons / Holidays</a>&nbsp;<span id="gk-amt">(74)</span></p><p><a href="/search/?theme=15" onclick="window.location.href='/search/?theme=15'">Social Action</a>&nbsp;<span id="gk-amt">(114)</span></p><p><a href="/search/?theme=22" onclick="window.location.href='/search/?theme=22'">Social Studies / History</a>&nbsp;<span id="gk-amt">(330)</span></p><p><a href="/search/?theme=21" onclick="window.location.href='/search/?theme=21'">Sports</a>&nbsp;<span id="gk-amt">(28)</span></p><p><a href="/search/?theme=24" onclick="window.location.href='/search/?theme=24'">STEM</a>&nbsp;<span id="gk-amt">(14)</span></p>				</div>
-				
-				<div class="clearit">&#160;</div>
-
-								<div class="indent">
-					<p class="search-more" id="filter-theme-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-theme', 384)">more</a></p>
-					<p class="search-more" id="filter-theme-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-theme')">less</a></p>
-				</div>
-				
-			</div>
-
-				</div>
+		<meta name="description" content="Geek Squad Agents are available 24/7 for technology service and repairs on computers, iPods, TV and home theater, appliances, cameras, gaming, mobile phones, gps and more" /><meta name="keywords" content="Geek Squad,GeekSquad,Tech Support,computer support,pc help,pc troubleshooting,laptop help,Technology service,installation,repairs,computer,home theater,appliances,camcorders,cameras,gaming,mobile,mobile phones,gps,speakers,ipod,netbook,laptop" /><meta name="copyright" content="Geek Squad Copyright 2014" /><link rel="canonical" href="/default.aspx" /></head>
+	<body>
+		<!-- Begin Qualaroo snippet -->
+		<script type="text/javascript">var _kiq = _kiq || [];</script>
+		<script type="text/javascript" src="//s3.amazonaws.com/ki.js/41853/84j.js" async="true"></script>
+		<!-- End Qualaroo snippet -->
 		
-				<p class="no-pad"><img src="/images/search-box-medium-bottom.gif" width="193" height="8" border="0" alt="" /></p>
 
-		    
-		</form>
-		<p class="pad5b"><img src="/images/search-bottom.gif" width="209" height="8" border="0" alt="" /></p>
+		
 
-		<!--googleon: index-->
-			</div>
-	<!--[if !IE]> END LEFT CONTENT  <![endif]-->
-
-	<!--[if !IE]> BEGIN RIGHT CONTENT <![endif]-->
-	<div class="content-cr-home" onclick="checkSearch()">
-
-		<div class="l341-22 pad5b">
-		    <p class="hdr-341-link"><img src="/images/hdr-link-divider.gif" width="8" height="16" border="0" alt="Classroom Resources" class="hdr-link-divider" /><a href="/classroom-resources/" title="Classroom Resources" class="arrow-sm">more</a></p>
-		    <h2 class="hdr-341-green"><a href="/classroom-resources/" title="Classroom Resources">Classroom Resources</a></h2>
-            <div class="clearit">&#160;</div>
-
-			<div class="indent-15-l">
-			    <div class="l205-10">
-		            <p class="no-pad" style="background: url(/files/homepage/home-cr-img_1.jpg) no-repeat;"><a href="/classroom-resources/" class="img" title="Classroom Resources"><img src="/images/img-mask-205-90.png" width="205" height="90" border="0" alt="Classroom Resources" /></a></p>
+<!-- Begin Header -->
+<!-- hfReference:18332-->
+<div id="mcHeader">
+	<div id="wrapper">
+		<div id="topBar">
+			<div class="contentContainer">
+				<div id="dd_men">
+					<!-- myGeek squad menu -->
+					<h2>
+						My Geek Squad</h2>
+					<ul class="topLvl">
+						<!-- myGeek squad menu items-->
+						
+								<li>
+									<a href="/my-account/">
+									<div class="imgWrap">
+										<img alt="My Account Spritesheet" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_myAcct.png" />
+									</div>
+									My Account</a> </li>
+							
+								<li>
+									<a href="/repair-status">
+									<div class="imgWrap">
+										<img title="mygs_trackRepair" style="border: 0px solid;" alt="mygs_trackRepair" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_trackRepair(1).png" border="0" />
+									</div>
+									Track Your Repair</a> </li>
+							
+								<li>
+									<a href="/find-a-location">
+									<div class="imgWrap">
+										<img width="16" height="30" title="mygs_findlocation" style="border: 0px solid; width: 16px; height: 30px;" alt="mygs_findlocation" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_findLocation(1).png" border="0" />
+									</div>
+									Find a Location</a> </li>
+							
+								<li>
+									<a href="/scheduling">
+									<div class="imgWrap">
+										<img alt="In-Home Scheduling Spritesheet" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_inHome.png" />
+									</div>
+									Scheduling</a> </li>
+							
+								<li>
+									<a href="/chat-with-an-agent/?&utm_campaign=Chat%20With%20An%20Agent&utm_source=WWW%20Header&utm_medium=My%20GeekSquad">
+									<div class="imgWrap">
+										<img alt="Chat with an Agent Spritesheet" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_chat.png" />
+									</div>
+									Chat with an Agent</a> </li>
+							
+								<li>
+									<a href="/pin">
+									<div class="imgWrap">
+										<img width="16" height="30" title="mygs_techHelp" style="border: 0px solid; width: 16px; height: 30px;" alt="mygs_techHelp" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_techHelp.png" border="0" />
+									</div>
+									Top Secret Passcode</a> </li>
+							
+					</ul>
+					<!-- END myGeek squad items -->
 				</div>
-			    <div class="l205-10-r">
-			        <p class="lg dark">Lessons, interactives, calendar activities, and more, right at your fingertips.</p>
-				</div>
-
-			    <p class="clearit">&#160;</p>
-
-                <p class="divider"><span class="dark">most viewed</span></p>
-			                            <!--<p class="pad3b"><span class="dark">Grades &#160; <strong>K &ndash; 4</strong></span>-->
-                        <p class="pad3b"><span class="dark">Grades &#160; <strong>K - 12</strong></span>
-						&#160;|&#160; <span class="gray-6">Student Interactive &nbsp;|&nbsp; Organizing &amp; Summarizing</span></p>
-			            <p class="lg"><a href="/classroom-resources/student-interactives/story-30008.html"  class="arrow-lg boldit" title="Story Map">Story Map</a></p>                        <!--<p class="pad3b"><span class="dark">Grades &#160; <strong>5 &ndash; 8</strong></span>-->
-                        <p class="pad3b"><span class="dark">Grades &#160; <strong>K - 12</strong></span>
-						&#160;|&#160; <span class="gray-6">Student Interactive &nbsp;|&nbsp; Writing Poetry</span></p>
-			            <p class="lg"><a href="/classroom-resources/student-interactives/acrostic-poems-30045.html"  class="arrow-lg boldit" title="Acrostic Poems">Acrostic Poems</a></p>                        <!--<p class="pad3b"><span class="dark">Grades &#160; <strong>9 &ndash; 12</strong></span>-->
-                        <p class="pad3b"><span class="dark">Grades &#160; <strong>1 - 12</strong></span>
-						&#160;|&#160; <span class="gray-6">Student Interactive &nbsp;|&nbsp; Organizing &amp; Summarizing</span></p>
-			            <p class="lg"><a href="/classroom-resources/student-interactives/plot-diagram-30040.html"  class="arrow-lg boldit" title="Plot Diagram">Plot Diagram</a></p>			</div>
-		</div>
-
-		<div class="l341-home pad5b">
-		    <p class="hdr-341-link"><img src="/images/hdr-link-divider.gif" width="8" height="16" border="0" alt="Professional Development" class="hdr-link-divider" /><a href="/professional-development/" title="Professional Development" class="arrow-sm">more</a></p>
-		    <h2 class="hdr-341-green"><a href="/professional-development/" title="Professional Development">Professional Development</a></h2>
-		    <div class="clearit">&#160;</div>
-
-			<div class="indent-15-l">
-				<div class="l205-10">
-		            <p class="no-pad" style="background: url(/files/homepage/home-pd-img_1.jpg) no-repeat;"><a href="/professional-development/" class="img" title="Professional Development"><img src="/images/img-mask-205-90.png" width="205" height="90" border="0" alt="Professional Development" /></a></p>
-				</div>
-
-				<div class="l205-10-r-home">
-			        <p class="lg no-pad dark">Energize and inform your teaching with publications, training, and networking.<br />
-<br />
-</p>
-				</div>
-
-			    <p class="clearit">&#160;</p>
-
-			                        <p class="divider"><span class="dark">upcoming event</span></p>
-
-
-                                            <div class="l100-10">
-                            <p class="no-pad" style="background: url(/thumb/?src=/files/resources/IRA_ConferenceLogo_220.png&amp;w=100&amp;h=75&amp;hash=7d2ba6540fd601c015c8cff83b17c416) no-repeat;"><img src="/images/img-mask-100-75.png" width="100" height="75" border="0" alt="International Reading Association 59th Annual Conference" /></p>
-	                    </div>
-                    
-				    <div class="l100-10-r">
-			            <h3><a href="http://www.iraconference.org/"  class="arrow-lg boldit" title="International Reading Association 59th Annual Conference">International Reading Association 59th Annual Conference</a></h3>
-			            <p class="lg"><strong>Reading... The Teachable Moment</strong></p>
-			            <p>May 09&ndash;12, 2014 | New Orleans, Louisiana</p>
-				    </div>
-
-                    <p class="clearit">&#160;</p>
-			        <p>The International Reading Association’s 59th Annual Conference is the premier event for literacy professionals worldwide. This year’s program offers hundreds of sessions, many of which focus on the Common Core; assessment; beginning, elementary, and adolescent learners; and research.</p>			</div>
-		</div>
-
-	    <p class="clearit">&#160;</p>
-
-		<div class="l341-22">
-		    <p class="hdr-341-link"><img src="/images/hdr-link-divider.gif" width="8" height="16" border="0" alt="Parent &amp; Afterschool Resources" class="hdr-link-divider" /><a href="/parent-afterschool-resources/" title="Parent &amp; Afterschool Resources" class="arrow-sm">more</a></p>
-		    <h2 class="hdr-341-coral"><a href="/parent-afterschool-resources/" title="Parent &amp; Afterschool Resources" class="no-wrap">Parent &amp; Afterschool Resources</a></h2>
-		    <div class="clearit">&#160;</div>
-
-			<div class="indent-15-l">
-			    <div class="l205-10">
-		            <p class="no-pad" style="background: url(/files/homepage/home-pa-img_1.jpg) no-repeat;"><a href="/parent-afterschool-resources/" class="img" title="Parent &amp; Afterschool Resources"><img src="/images/img-mask-205-90.png" width="205" height="90" border="0" alt="Parent &amp; Afterschool Resources" /></a></p>
-				</div>
-
-				<div class="l205-10-r">
-			        <p class="lg dark">From fun activities to suggested books, we&#039;ve got your out-of-school time covered.</p>
-				</div>
-
-			    <p class="clearit">&#160;</p>
-			    <p class="divider"><span class="dark">most viewed</span></p>
-			    
-						<!--<p class="pad3b"><span class="dark">Grades &#160; <strong>K &ndash; 4</strong></span>-->
-                        <p class="pad3b"><span class="dark">Grades &#160; <strong>3 - 8</strong></span>
-						&#160;|&#160; <span class="gray-6">Game &amp; Tool</span></p>
-			            <p class="lg"><a href="/parent-afterschool-resources/games-tools/trading-card-creator-a-30181.html"  class="arrow-lg boldit" title="Trading Card Creator">Trading Card Creator</a></p>
-						<!--<p class="pad3b"><span class="dark">Grades &#160; <strong>5 &ndash; 8</strong></span>-->
-                        <p class="pad3b"><span class="dark">Grades &#160; <strong>6 - 8</strong></span>
-						&#160;|&#160; <span class="gray-6">Activity &amp; Project</span></p>
-			            <p class="lg"><a href="/parent-afterschool-resources/activities-projects/design-travel-brochure-30297.html"  class="arrow-lg boldit" title="Design a Travel Brochure">Design a Travel Brochure</a></p>
-						<!--<p class="pad3b"><span class="dark">Grades &#160; <strong>9 &ndash; 12</strong></span>-->
-                        <p class="pad3b"><span class="dark">Grades &#160; <strong>9 - 12</strong></span>
-						&#160;|&#160; <span class="gray-6">Game &amp; Tool</span></p>
-			            <p class="lg"><a href="/parent-afterschool-resources/games-tools/profile-publisher-a-30243.html"  class="arrow-lg boldit" title="Profile Publisher">Profile Publisher</a></p>			</div>
-		</div>
-
-		<div class="l341">
-		    <p class="hdr-341-link"><img src="/images/hdr-link-divider.gif" width="8" height="16" border="0" alt="Community Stories" class="hdr-link-divider" /><a href="/about/community-stories/" title="Community Stories" class="arrow-sm">more</a></p>
-		    <h2 class="hdr-341-yellow"><a href="/about/community-stories/" title="Community Stories">Community Stories</a></h2>
-
-			<div class="indent-15-l">
-			    <p class="lg dark">Get inspired and make connections with diverse and talented literacy professionals.</p>
-		        <p><a href="/about/community-stories/share-story.html" title="Share Your Story" class="arrow-sm">Share Your Story</a></p>
-			    <p class="no-pad">&#160;</p>
-
-                                    <p class="divider"><span class="dark">featured story</span></p>
-			        <div class="l100-10">
-			            <p class="no-pad" style="background: url(/thumb/?src=/files/about/community-stories/demmon_200w.jpg&amp;w=100&amp;h=75&amp;hash=5bbbd2074920ba70f07870cef7870e6c) no-repeat;"><a href="/about/community-stories/making-your-lessons-sparkle-52.html" class="img" title="Making Your Lessons “Sparkle”: Adventures of a Preservice Teacher"><img src="/images/img-mask-100-75.png" width="100" height="75" border="0" alt="Making Your Lessons “Sparkle”: Adventures of a Preservice Teacher" /></a></p>
-				    </div>
-
-				    <div class="l100-10-r">
-			            <p class="lg pad5b"><a href="/about/community-stories/making-your-lessons-sparkle-52.html" class="arrow-lg boldit">Making Your Lessons “Sparkle”: Adventures of a Preservice Teacher</a></p>
-				        <p class="lg pad3b"><strong>Carrie Demmon</strong></p>
-			            <p> Teacher<br />Ames, IA</p>
-				    </div>
-                
-				<p class="clearit">&#160;</p>
-			</div>
-		</div>
-
-	    <p class="clearit">&#160;</p>
-
-
-		<div style="padding-top:20px;">
-
-	    <p class="no-pad"><img src="/images/teacher-resources-grade-top.gif" width="700" height="11" border="0" alt="" /></p>
-		<table cellspacing="0" width="700" summary="teacher resource links by grade">
-		<tbody>
-		<tr>
-			<td bgcolor="#eeeeee" style="padding-left:12px;">
-				<table cellpadding="0" cellspacing="0" border="0">
-					<tbody>
-					<tr>
-						<td rowspan="2" style="padding-top:6px;"><p class="img-flush-left"><img src="/images/teacher-resources-grade-logo.gif" width="51" height="64" border="0" alt="" /></p></td>
-						<td colspan="7" style="padding-top:7px;"><h2 style="color:#6da653; font-size:1.3em;">Explore Teacher Resources by Grade</h3></td>
-					</tr>
-					<tr>
-						<td>
-							<table cellpadding="0" cellspacing="0" border="0">
-							<tr>
-								<td valign="bottom" onclick="window.location='/classroom-resources/grade/kindergarten/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-k-top.gif" width="100" height="8" border="0" alt="" /></td>
-								<td rowspan="3" width="6px"></td>
-								<td valign="bottom" onclick="window.location='/classroom-resources/grade/1-2/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
-								<td rowspan="3" width="6px"></td>
-								<td valign="bottom" onclick="window.location='/classroom-resources/grade/3-4/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
-								<td rowspan="3" width="6px"></td>
-								<td valign="bottom" onclick="window.location='/classroom-resources/grade/5-6/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
-								<td rowspan="3" width="6px"></td>
-								<td valign="bottom" onclick="window.location='/classroom-resources/grade/7-8/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
-								<td rowspan="3" width="6px"></td>
-								<td valign="bottom" onclick="window.location='/classroom-resources/grade/9-10/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
-								<td rowspan="3" width="6px"></td>
-								<td valign="bottom" onclick="window.location='/classroom-resources/grade/11-12/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
-							</tr>
-							<tr>
-								<td bgcolor="#6da653" onclick="window.location='/classroom-resources/grade/kindergarten/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/kindergarten/" style="color:#ffffff">Kindergarten</a></center></td>
-								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/1-2/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/1-2/" style="color:#ffffff">1st-2nd</a></center></td>
-								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/3-4/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/3-4/" style="color:#ffffff">3rd-4th</a></center></td>
-								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/5-6/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/5-6/" style="color:#ffffff">5th-6th</a></center></td>
-								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/7-8/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/7-8/" style="color:#ffffff">7th-8th</a></center></td>
-								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/9-10/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/9-10/" style="color:#ffffff">9th-10th</a></center></td>
-								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/11-12/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/11-12/" style="color:#ffffff">11th-12th</a></center></td>
-							</tr>
-							<tr>
-								<td onclick="window.location='/classroom-resources/grade/kindergarten/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-k-bottom.gif" width="100" height="7" border="0" alt="" /></td>
-								<td onclick="window.location='/classroom-resources/grade/1-2/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
-								<td onclick="window.location='/classroom-resources/grade/3-4/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
-								<td onclick="window.location='/classroom-resources/grade/5-6/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
-								<td onclick="window.location='/classroom-resources/grade/7-8/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
-								<td onclick="window.location='/classroom-resources/grade/9-10/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
-								<td onclick="window.location='/classroom-resources/grade/11-12/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
-							</tr>
-							</table>
-						</td>
-					</tr>
-
-					</tbody>
-				</table>
-			</td>
-		</tr>
-		</tbody>
-		</table>
-		<p class="no-pad"><img src="/images/teacher-resources-grade-bottom.gif" width="700" height="11" border="0" alt="" /></p>
-		</div>
-	</div>
-	<!--[if !IE]> END RIGHT CONTENT  <![endif]-->
-
-
-	<!--googleoff: index-->
-		<div class="clearit">&#160;</div>
-
-		<div id="footer">
-			<p id="footer-l">&#169; 2014 IRA/NCTE. All rights reserved.<br />
-			<a href="/util/help.html" id="f-help">Technical Help</a> &#160;|&#160; <a href="/util/legal.html" id="f-legal">Legal</a> &#160;|&#160; <a href="http://www.reading.org/" target="_blank" title="International Reading Association" id="f-ira">International Reading Association</a> &#160;|&#160; <a href="http://www.ncte.org/" target="_blank" title="National Council of Teachers of English" id="f-ncte">National Council of Teachers of English</a></p>
-			<p id="footer-r"><a href="http://www.thinkfinity.org/" target="_blank" title="Thinkfinity/Verizon" id="f-thinkfinity"><img src="/images/f-thinkfinity-verizon.gif" width="151" height="26" border="0" alt="Thinkfinity/Verizon" /></a></p>
-			<div class="clearit">&#160;</div>
-		</div>
-	<!--googleon: index-->	
+				<!-- END myGeek squad menu -->
+				<div class="right">
+					<span class="white">Call
+						1-800-433-5778</span>
+					</span>
+					
+<div class="search">
+    <a class="search_btn disable" href="#"></a>
+    <input name="search" type="text" maxlength="1000" value="Search..." class="search_box" />
+    <div class="search_load">
+    </div>
+    <div class="search_dd">
+        <div class="searchResults">
+        </div>
+        <script class="resultTemplate" type="text/html">
+        <div>
+            <p>
+            <a 
+            {{if Class}}
+            class="{{= Class}}"
+            {{/if}}
+            {{if Target}}
+            target="{{= Target}}"
+            {{/if}}
+            href="{{= Url}}">
+            <span class="name">{{= Title}}</span><br />
+            {{= Summary}}
+            </a>
+            </p>
+        </div>
+        </script>
+        
+        <div class="view_all">
+    
+            <a href="#">View All Search Results</a>    
+        </div>
+    </div>
 
 </div>
-<!--[if !IE]> END MAIN CONTAINER <![endif]-->
+
+				</div>
+			</div>
+			<!-- end content container -->
+		</div>
+		<!-- End TOP BAR -->
+		<div id="primary" class="clearfix">
+			<!-- Primary nav -->
+			<div class="contentContainer">
+				<ul id="menuBlocks">
+					<li><a href="/">
+						<img class="navLogo" src="/images/headerfooter/primarynav_logo.png" width="138" height="88"
+							alt="logo"></a></li>
+					<li><span rel="dd_categories" class="gs-nav-menu-link">
+						Categories</span><div
+							class="blockState">
+						</div>
+					</li>
+					<li><span rel="dd_support" href="#" class="gs-nav-menu-link">
+						Support Plans</span><div
+							class="blockState">
+						</div>
+					</li>
+					<li><span rel="dd_help" class="bRight gs-nav-menu-link" href="#">
+						Self Help</span><div
+							class="blockState">
+						</div>
+					</li>
+				</ul>
+				<ul class="helpLinks">
+					
+							<li>
+								<a href="/chat-with-an-agent">
+								<div class="imgWrap">
+									<img alt="Chat with an Agent Spritesheet" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_chat.png" />
+								</div>
+								Chat With an Agent</a> </li>
+						
+							<li>
+								<a href="/find-a-location">
+								<div class="imgWrap">
+									<img title="mygs_findlocation" style="border: 0px solid;" alt="mygs_findlocation" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_findLocation(1).png" border="0" />
+								</div>
+								Find a Location</a> </li>
+						
+							<li>
+								<a href="/repair-status">
+								<div class="imgWrap">
+									<img title="mygs_trackRepair" style="border: 0px solid;" alt="mygs_trackRepair" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/myGs_trackRepair(1).png" border="0" />
+								</div>
+								Track Your Repair</a> </li>
+						
+				</ul>
+			</div>
+			<!-- end content container -->
+		</div>
+		<!-- END PRIMARY NAV -->
+		<div id="dd_sub" class="clearfix">
+			<!-- Drop Down  sub nav nav container -->
+			<div class="contentContainer">
+				<div id="mcOverlay">
+				</div>
+				<div id="close">
+				</div>
+				<ul id="dd_categories">
+					
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl00_hlMenu1" href="/services/computers-networking/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl00_imgMenu1" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/cat_computers.png" alt="computersnetworking" /></div>
+									Computers & Networking</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl01_hlMenu1" href="/services/tv-video/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl01_imgMenu1" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/cat_tvVideo.png" alt="tv_video" /></div>
+									TV & Video</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl02_hlMenu1" href="/services/phones-tablets/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl02_imgMenu1" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/cat_phone.png" alt="phones_tablets" /></div>
+									Phones & Tablets</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl03_hlMenu1" href="/services/audio-ipod/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl03_imgMenu1" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/cat_audio(1).png" alt="audio_ipod" /></div>
+									Audio & iPod</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl04_hlMenu1" href="/services/car-gps/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl04_imgMenu1" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/cat_carGps.png" alt="car_gps" /></div>
+									Car & GPS</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl05_hlMenu1" href="/services/gaming/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl05_imgMenu1" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/cat_gamming.png" alt="gaming" /></div>
+									Gaming</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl06_hlMenu1" href="/services/camera-camcorder/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl06_imgMenu1" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/cat_camera.png" alt="camera_camcorder" /></div>
+									Camera & Camcorder</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl07_hlMenu1" href="/services/appliances/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_CategoriesRepeater_ctl07_imgMenu1" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/cat_appliances.png" alt="appliances" /></div>
+									Appliances</a>
+							</li>
+						
+				</ul>
+				<!-- end category list -->
+				<!-- start support -->
+				<ul id="dd_support">
+					
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_ProtectionPlanRepeater_ctl00_hlMenu2" href="/protection-plans/geek-squad-protection/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_ProtectionPlanRepeater_ctl00_imgMenu2" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/support_tech(1).png" />
+									</div>
+									<h3>Geek SquadÂ® Protection</h3>
+									<span>
+										Plans that cover 24/7 repair & service.</span>
+								</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_ProtectionPlanRepeater_ctl01_hlMenu2" href="/protection-plans/tech-support/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_ProtectionPlanRepeater_ctl01_imgMenu2" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/support_tie.png" />
+									</div>
+									<h3>Tech Support</h3>
+									<span>
+										Get unlimited answers via  online chats, phone & more.</span>
+								</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_ProtectionPlanRepeater_ctl02_hlMenu2" href="/protection-plans/home-networking-made-simple/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_ProtectionPlanRepeater_ctl02_imgMenu2" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/support_networking(1).png" />
+									</div>
+									<h3>Home Networking Made Simple</h3>
+									<span>
+										Everything you need to connect your home.</span>
+								</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_ProtectionPlanRepeater_ctl03_hlMenu2" href="/protection-plans/internet-security-software/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_ProtectionPlanRepeater_ctl03_imgMenu2" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/internet_security.png?n=7062" />
+									</div>
+									<h3>Internet Security Software</h3>
+									<span>
+										Protection against virus, spyware and malware.</span>
+								</a>
+							</li>
+						
+				</ul>
+				<!--End SUPPORT SUB -->
+				<!-- start help  -->
+				<ul id="dd_help">
+					
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_SelfHelpRepeater_ctl00_hlMenu3" class="track_outgoing_link" href="/do-it-yourself/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_SelfHelpRepeater_ctl00_imgMenu3" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/help_tools.png" />
+									</div>
+									<h3>Tools & Downloads</h3>
+									<span>Check for viruses, test your Internet speed and more.</span>
+								</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_SelfHelpRepeater_ctl01_hlMenu3" class="track_outgoing_link" href="http://www.geeksquad.com/intelligence/blog/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_SelfHelpRepeater_ctl01_imgMenu3" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/help_intelligence.png" />
+									</div>
+									<h3>Geek Squad Intelligence</h3>
+									<span>News and Best Practices from Our Network of Field Agents.</span>
+								</a>
+							</li>
+						
+							<li>
+								<a id="ctl00_dynamicGeekSquadHeader_SelfHelpRepeater_ctl02_hlMenu3" class="track_outgoing_link" href="/do-it-yourself/">
+									<div class="imgWrap">
+										<img id="ctl00_dynamicGeekSquadHeader_SelfHelpRepeater_ctl02_imgMenu3" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/help_tech.png" />
+									</div>
+									<h3>Tech Tips</h3>
+									<span>Step-by-step instructions for the digital do-it-yourselfer.</span>
+								</a>
+							</li>
+						
+				</ul>
+				<!--End SELF HELP SUB -->
+			</div>
+			<!-- end content container -->
+		</div>
+		<!--END Drop Down Sub nav container -->
+	</div>
+	<!-- END HEADER -->
+	<div id="mcGsCont">
+		<!-- End Header -->
+		<!-- Begin Content -->
 
 
+		<!-- load 00:00:00.8112014, build 00:00:01.6068028 -->
+		<form method="post" action="/" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1MzE5NDY5MTgPZBYCZg9kFgoCAQ9kFgICFg8WAh4EVGV4dAXNATxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCnZhciBoZWFkZXJGb290ZXJCYXNlUGF0aExpbmsgPSAnaHR0cDovL3d3dy5nZWVrc3F1YWQuY29tJzsNCnZhciBoZWFkZXJGb290ZXJCYXNlUGF0aENvbnRlbnQgPSAnaHR0cDovL3d3dy5nZWVrc3F1YWQuY29tJzsNCnZhciBjc2lTdXJ2ZXlEb21haW4gPSAnZ2Vla3NxdWFkLmNvbSc7DQo8L3NjcmlwdD5kAgUPZBYSZg8WAh4LXyFJdGVtQ291bnQCBhYMZg9kFgJmDxUDFzxhIGhyZWY9Ii9teS1hY2NvdW50LyI+cDxpbWcgYWx0PSJNeSBBY2NvdW50IFNwcml0ZXNoZWV0IiBzcmM9Ii91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL215R3NfbXlBY2N0LnBuZyIgLz4KTXkgQWNjb3VudGQCAQ9kFgJmDxUDGTxhIGhyZWY9Ii9yZXBhaXItc3RhdHVzIj6xATxpbWcgdGl0bGU9Im15Z3NfdHJhY2tSZXBhaXIiIHN0eWxlPSJib3JkZXI6IDBweCBzb2xpZDsiIGFsdD0ibXlnc190cmFja1JlcGFpciIgc3JjPSIvdXBsb2FkZWRJbWFnZXMvd3d3Z2Vla3NxdWFkY29tL3VwbG9hZGVkX2Fzc2V0cy9pY29ucy9teUdzX3RyYWNrUmVwYWlyKDEpLnBuZyIgYm9yZGVyPSIwIiAvPhFUcmFjayBZb3VyIFJlcGFpcmQCAg9kFgJmDxUDGzxhIGhyZWY9Ii9maW5kLWEtbG9jYXRpb24iPuYBPGltZyB3aWR0aD0iMTYiIGhlaWdodD0iMzAiIHRpdGxlPSJteWdzX2ZpbmRsb2NhdGlvbiIgc3R5bGU9ImJvcmRlcjogMHB4IHNvbGlkOyB3aWR0aDogMTZweDsgaGVpZ2h0OiAzMHB4OyIgYWx0PSJteWdzX2ZpbmRsb2NhdGlvbiIgc3JjPSIvdXBsb2FkZWRJbWFnZXMvd3d3Z2Vla3NxdWFkY29tL3VwbG9hZGVkX2Fzc2V0cy9pY29ucy9teUdzX2ZpbmRMb2NhdGlvbigxKS5wbmciIGJvcmRlcj0iMCIgLz4PRmluZCBhIExvY2F0aW9uZAIDD2QWAmYPFQMWPGEgaHJlZj0iL3NjaGVkdWxpbmciPng8aW1nIGFsdD0iSW4tSG9tZSBTY2hlZHVsaW5nIFNwcml0ZXNoZWV0IiBzcmM9Ii91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL215R3NfaW5Ib21lLnBuZyIgLz4KU2NoZWR1bGluZ2QCBA9kFgJmDxUDeDxhIGhyZWY9Ii9jaGF0LXdpdGgtYW4tYWdlbnQvPyZ1dG1fY2FtcGFpZ249Q2hhdCUyMFdpdGglMjBBbiUyMEFnZW50JnV0bV9zb3VyY2U9V1dXJTIwSGVhZGVyJnV0bV9tZWRpdW09TXklMjBHZWVrU3F1YWQiPnY8aW1nIGFsdD0iQ2hhdCB3aXRoIGFuIEFnZW50IFNwcml0ZXNoZWV0IiBzcmM9Ii91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL215R3NfY2hhdC5wbmciIC8+EkNoYXQgd2l0aCBhbiBBZ2VudGQCBQ9kFgJmDxUDDzxhIGhyZWY9Ii9waW4iPtcBPGltZyB3aWR0aD0iMTYiIGhlaWdodD0iMzAiIHRpdGxlPSJteWdzX3RlY2hIZWxwIiBzdHlsZT0iYm9yZGVyOiAwcHggc29saWQ7IHdpZHRoOiAxNnB4OyBoZWlnaHQ6IDMwcHg7IiBhbHQ9Im15Z3NfdGVjaEhlbHAiIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL3d3d2dlZWtzcXVhZGNvbS91cGxvYWRlZF9hc3NldHMvaWNvbnMvbXlHc190ZWNoSGVscC5wbmciIGJvcmRlcj0iMCIgLz4TVG9wIFNlY3JldCBQYXNzY29kZWQCAQ8WAh8ABQ4xLTgwMC00MzMtNTc3OGQCAw8WAh8ABQpDYXRlZ29yaWVzZAIEDxYCHwAFDVN1cHBvcnQgUGxhbnNkAgUPFgIfAAUJU2VsZiBIZWxwZAIGDxYCHwECAxYGZg9kFgJmDxUDHjxhIGhyZWY9Ii9jaGF0LXdpdGgtYW4tYWdlbnQiPnY8aW1nIGFsdD0iQ2hhdCB3aXRoIGFuIEFnZW50IFNwcml0ZXNoZWV0IiBzcmM9Ii91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL215R3NfY2hhdC5wbmciIC8+EkNoYXQgV2l0aCBhbiBBZ2VudGQCAQ9kFgJmDxUDGzxhIGhyZWY9Ii9maW5kLWEtbG9jYXRpb24iPrQBPGltZyB0aXRsZT0ibXlnc19maW5kbG9jYXRpb24iIHN0eWxlPSJib3JkZXI6IDBweCBzb2xpZDsiIGFsdD0ibXlnc19maW5kbG9jYXRpb24iIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL3d3d2dlZWtzcXVhZGNvbS91cGxvYWRlZF9hc3NldHMvaWNvbnMvbXlHc19maW5kTG9jYXRpb24oMSkucG5nIiBib3JkZXI9IjAiIC8+D0ZpbmQgYSBMb2NhdGlvbmQCAg9kFgJmDxUDGTxhIGhyZWY9Ii9yZXBhaXItc3RhdHVzIj6xATxpbWcgdGl0bGU9Im15Z3NfdHJhY2tSZXBhaXIiIHN0eWxlPSJib3JkZXI6IDBweCBzb2xpZDsiIGFsdD0ibXlnc190cmFja1JlcGFpciIgc3JjPSIvdXBsb2FkZWRJbWFnZXMvd3d3Z2Vla3NxdWFkY29tL3VwbG9hZGVkX2Fzc2V0cy9pY29ucy9teUdzX3RyYWNrUmVwYWlyKDEpLnBuZyIgYm9yZGVyPSIwIiAvPhFUcmFjayBZb3VyIFJlcGFpcmQCBw8WAh8BAggWEGYPZBYCAgEPDxYCHgtOYXZpZ2F0ZVVybAUfL3NlcnZpY2VzL2NvbXB1dGVycy1uZXR3b3JraW5nL2QWBAIBDw8WBB4ISW1hZ2VVcmwFRy91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL2NhdF9jb21wdXRlcnMucG5nHg1BbHRlcm5hdGVUZXh0BRNjb21wdXRlcnNuZXR3b3JraW5nZGQCAw8WAh8ABRZDb21wdXRlcnMgJiBOZXR3b3JraW5nZAIBD2QWAgIBDw8WAh8CBRMvc2VydmljZXMvdHYtdmlkZW8vZBYEAgEPDxYEHwMFRS91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL2NhdF90dlZpZGVvLnBuZx8EBQh0dl92aWRlb2RkAgMPFgIfAAUKVFYgJiBWaWRlb2QCAg9kFgICAQ8PFgIfAgUZL3NlcnZpY2VzL3Bob25lcy10YWJsZXRzL2QWBAIBDw8WBB8DBUMvdXBsb2FkZWRJbWFnZXMvd3d3Z2Vla3NxdWFkY29tL3VwbG9hZGVkX2Fzc2V0cy9pY29ucy9jYXRfcGhvbmUucG5nHwQFDnBob25lc190YWJsZXRzZGQCAw8WAh8ABRBQaG9uZXMgJiBUYWJsZXRzZAIDD2QWAgIBDw8WAh8CBRUvc2VydmljZXMvYXVkaW8taXBvZC9kFgQCAQ8PFgQfAwVGL3VwbG9hZGVkSW1hZ2VzL3d3d2dlZWtzcXVhZGNvbS91cGxvYWRlZF9hc3NldHMvaWNvbnMvY2F0X2F1ZGlvKDEpLnBuZx8EBQphdWRpb19pcG9kZGQCAw8WAh8ABQxBdWRpbyAmIGlQb2RkAgQPZBYCAgEPDxYCHwIFEi9zZXJ2aWNlcy9jYXItZ3BzL2QWBAIBDw8WBB8DBUQvdXBsb2FkZWRJbWFnZXMvd3d3Z2Vla3NxdWFkY29tL3VwbG9hZGVkX2Fzc2V0cy9pY29ucy9jYXRfY2FyR3BzLnBuZx8EBQdjYXJfZ3BzZGQCAw8WAh8ABQlDYXIgJiBHUFNkAgUPZBYCAgEPDxYCHwIFES9zZXJ2aWNlcy9nYW1pbmcvZBYEAgEPDxYEHwMFRS91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL2NhdF9nYW1taW5nLnBuZx8EBQZnYW1pbmdkZAIDDxYCHwAFBkdhbWluZ2QCBg9kFgICAQ8PFgIfAgUbL3NlcnZpY2VzL2NhbWVyYS1jYW1jb3JkZXIvZBYEAgEPDxYEHwMFRC91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL2NhdF9jYW1lcmEucG5nHwQFEGNhbWVyYV9jYW1jb3JkZXJkZAIDDxYCHwAFEkNhbWVyYSAmIENhbWNvcmRlcmQCBw9kFgICAQ8PFgIfAgUVL3NlcnZpY2VzL2FwcGxpYW5jZXMvZBYEAgEPDxYEHwMFSC91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL2NhdF9hcHBsaWFuY2VzLnBuZx8EBQphcHBsaWFuY2VzZGQCAw8WAh8ABQpBcHBsaWFuY2VzZAIIDxYCHwECBBYIZg9kFgICAQ8PFgIfAgUoL3Byb3RlY3Rpb24tcGxhbnMvZ2Vlay1zcXVhZC1wcm90ZWN0aW9uL2QWBgIBDw8WAh8DBUkvdXBsb2FkZWRJbWFnZXMvd3d3Z2Vla3NxdWFkY29tL3VwbG9hZGVkX2Fzc2V0cy9pY29ucy9zdXBwb3J0X3RlY2goMSkucG5nZGQCAw8WAh8ABRdHZWVrIFNxdWFkwq4gUHJvdGVjdGlvbmQCBQ8WAh8ABSdQbGFucyB0aGF0IGNvdmVyIDI0LzcgcmVwYWlyICYgc2VydmljZS5kAgEPZBYCAgEPDxYCHwIFHy9wcm90ZWN0aW9uLXBsYW5zL3RlY2gtc3VwcG9ydC9kFgYCAQ8PFgIfAwVFL3VwbG9hZGVkSW1hZ2VzL3d3d2dlZWtzcXVhZGNvbS91cGxvYWRlZF9hc3NldHMvaWNvbnMvc3VwcG9ydF90aWUucG5nZGQCAw8WAh8ABQxUZWNoIFN1cHBvcnRkAgUPFgIfAAU2R2V0IHVubGltaXRlZCBhbnN3ZXJzIHZpYSAgb25saW5lIGNoYXRzLCBwaG9uZSAmIG1vcmUuZAICD2QWAgIBDw8WAh8CBS4vcHJvdGVjdGlvbi1wbGFucy9ob21lLW5ldHdvcmtpbmctbWFkZS1zaW1wbGUvZBYGAgEPDxYCHwMFTy91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL3N1cHBvcnRfbmV0d29ya2luZygxKS5wbmdkZAIDDxYCHwAFG0hvbWUgTmV0d29ya2luZyBNYWRlIFNpbXBsZWQCBQ8WAh8ABSlFdmVyeXRoaW5nIHlvdSBuZWVkIHRvIGNvbm5lY3QgeW91ciBob21lLmQCAw9kFgICAQ8PFgIfAgUtL3Byb3RlY3Rpb24tcGxhbnMvaW50ZXJuZXQtc2VjdXJpdHktc29mdHdhcmUvZBYGAgEPDxYCHwMFUi91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL2ludGVybmV0X3NlY3VyaXR5LnBuZz9uPTcwNjJkZAIDDxYCHwAFGkludGVybmV0IFNlY3VyaXR5IFNvZnR3YXJlZAIFDxYCHwAFLlByb3RlY3Rpb24gYWdhaW5zdCB2aXJ1cywgc3B5d2FyZSBhbmQgbWFsd2FyZS5kAgkPFgIfAQIDFgZmD2QWAgIBDw8WAh8CBRAvZG8taXQteW91cnNlbGYvFgIeBWNsYXNzBRN0cmFja19vdXRnb2luZ19saW5rFgYCAQ8PFgIfAwVEL3VwbG9hZGVkSW1hZ2VzL3d3d2dlZWtzcXVhZGNvbS91cGxvYWRlZF9hc3NldHMvaWNvbnMvaGVscF90b29scy5wbmdkZAIDDxYCHwAFEVRvb2xzICYgRG93bmxvYWRzZAIFDxYCHwAFNUNoZWNrIGZvciB2aXJ1c2VzLCB0ZXN0IHlvdXIgSW50ZXJuZXQgc3BlZWQgYW5kIG1vcmUuZAIBD2QWAgIBDw8WAh8CBStodHRwOi8vd3d3LmdlZWtzcXVhZC5jb20vaW50ZWxsaWdlbmNlL2Jsb2cvFgIfBQUTdHJhY2tfb3V0Z29pbmdfbGluaxYGAgEPDxYCHwMFSy91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL2hlbHBfaW50ZWxsaWdlbmNlLnBuZ2RkAgMPFgIfAAUXR2VlayBTcXVhZCBJbnRlbGxpZ2VuY2VkAgUPFgIfAAU5TmV3cyBhbmQgQmVzdCBQcmFjdGljZXMgZnJvbSBPdXIgTmV0d29yayBvZiBGaWVsZCBBZ2VudHMuZAICD2QWAgIBDw8WAh8CBRAvZG8taXQteW91cnNlbGYvFgIfBQUTdHJhY2tfb3V0Z29pbmdfbGluaxYGAgEPDxYCHwMFQy91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL2ljb25zL2hlbHBfdGVjaC5wbmdkZAIDDxYCHwAFCVRlY2ggVGlwc2QCBQ8WAh8ABTtTdGVwLWJ5LXN0ZXAgaW5zdHJ1Y3Rpb25zIGZvciB0aGUgZGlnaXRhbCBkby1pdC15b3Vyc2VsZmVyLmQCBw8WAh8ABTY8IS0tIGxvYWQgMDA6MDA6MDAuODExMjAxNCwgYnVpbGQgMDA6MDA6MDEuNjA2ODAyOCAtLT5kAgkQZGQWCAIBD2QWAgIBD2QWBmYPFgIfAAUuPGEgaHJlZj0iL2J1eXRlY2hzdXBwb3J0LyIgdGl0bGU9IkxlYXJuIE1vcmUiPmQCAg9kFgYCAQ8WAh8FBRR0b3BJbm5lciBoZWFkU3ViSWNvbhYGAgEPFgQeCWlubmVyaHRtbAUXR2VlayBTcXVhZCBUZWNoIFN1cHBvcnQeB1Zpc2libGVnZAIDDxYEHwYFL1VubGltaXRlZCBBbnN3ZXJzIE9ubGluZSwgQnkgUGhvbmUgYW5kIEluLVN0b3JlHwdnZAIFDxYCHwdnFgICAQ8PFgIfAwVML3VwbG9hZGVkSW1hZ2VzL3d3d2dlZWtzcXVhZGNvbS91cGxvYWRlZF9hc3NldHMvaWNvbnMvbGFuZGluZ0hlYWRJY29uX3RzLnBuZ2RkAgMPFgIfAAUgQWdlbnRzIHN1cHBvcnRpbmcgeW91ciB0ZWNoIDI0LzdkAgUPFgIfAAUKTGVhcm4gTW9yZWQCBA8WAh8ABQQ8L2E+ZAIDD2QWBgIBDxYCHwECBRYKZg9kFgQCAQ8WAh8ABR88ZGl2IGNsYXNzPSJwcm9tb1JvdyBjbGVhcmZpeCI+ZAIDD2QWAmYPZBYMAgEPFgIfAAUXPGEgaHJlZj0iL3NjaGVkdWxpbmcvIj5kAgMPZBYCZg8WAh8ABTJQaWNraW5nIHVwIGFuZCBkcm9wcGluZyBvZmYgcmVwYWlycyBpcyBub3cgZWFzaWVyLmQCBQ8WAh8HaGQCBw8WAh8ABY8BPGltZyBzcmM9Ii91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vc2lkZWJhcl9jb250ZW50L3ByZWNpbmN0Y3JvcC5wbmc/bj0xMzI2IiBhbHQ9InByZWNpbmN0IHBpYyBmb3IgaG9tZSIgdGl0bGU9InByZWNpbmN0IHBpYyBmb3IgaG9tZSIgLz5kAgkPFgIfAAUVU2NoZWR1bGUgQXBwb2ludG1lbnRzZAILDxYCHwAFI0FycmFuZ2UgaW4tc3RvcmUgb3IgaW4taG9tZSB2aXNpdHMuZAIBD2QWAgIDD2QWAmYPZBYMAgEPFgIfAAUVPGEgaHJlZj0iL3hwc3VwcG9ydCI+ZAIDD2QWAmYPFgIfAAUeTGVhcm4gaG93IEdlZWsgU3F1YWQgY2FuIGhlbHAuZAIFDxYCHwdoZAIHDxYCHwAFiwE8aW1nIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL3d3d2dlZWtzcXVhZGNvbS9zaWRlYmFyX2NvbnRlbnQveHBfYmxpc3NfYndfc20ucG5nP249OTY1MCIgYWx0PSJ4cCBibGlzcyB3YWxscGFwZXIiIHRpdGxlPSJ4cCBibGlzcyB3YWxscGFwZXIiIC8+ZAIJDxYCHwAFDUVuZCBvZiBhbiBFcmFkAgsPFgIfAAVBQWZ0ZXIgQXByaWwgOCwgMjAxNCwgTWljcm9zb2Z0IHdpbGwgbm8gbG9uZ2VyIHN1cHBvcnQgV2luZG93cyBYUC5kAgIPZBYEAgMPZBYCZg9kFgwCAQ8WAh8ABRU8YSBocmVmPSIvd2luZG93cy04Ij5kAgMPZBYCZg8WAh8ABSFHZXQgc3VwcG9ydCByaWdodCBvdXQgb2YgdGhlIGJveC5kAgUPFgIfB2hkAgcPFgIfAAVbPGltZyBzcmM9Ii91cGxvYWRlZEltYWdlcy93d3dnZWVrc3F1YWRjb20vdXBsb2FkZWRfYXNzZXRzL3dpbmRvd3NfOC5wbmciIGFsdD0id2luZG93c184IiAvPmQCCQ8WAh8ABRFXaW5kb3dzIDggTGVzc29uc2QCCw8WAh8ABUJHZXR0aW5nIHRvIGtub3cgV2luZG93cyA4PzxiciAvPgpMZXQgdXMgc2hvdyB5b3UgdGhlIGlucyBhbmQgb3V0cy5kAgUPFgIfAAUGPC9kaXY+ZAIDD2QWBAIBDxYCHwAFKDxkaXYgY2xhc3M9InByb21vUm93IGNsZWFyZml4IHR3b0l0ZW1zIj5kAgMPZBYCZg9kFgwCAQ8WAh8ABSU8YSBocmVmPSJodHRwOi8vYWFycC5nZWVrc3F1YWQuY29tLyI+ZAIDD2QWAmYPFgIfAAUxUmVjZWl2ZSBhIHNwZWNpYWwgcHJpY2Ugb24gc3VwcG9ydCBmcm9tIHRoZSBwcm9zLmQCBQ8WAh8HaGQCBw8WAh8ABWs8aW1nIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL3d3d2dlZWtzcXVhZGNvbS91cGxvYWRlZF9hc3NldHMvdGVjaF9zdXBwb3J0X2FhcnAucG5nIiBhbHQ9InRlY2hfc3VwcG9ydF9hYXJwIiAvPmQCCQ8WAh8ABRNBQVJQIE1FTUJFUiBTQVZJTkdTZAILDxYCHwAFOkV4Y2x1c2l2ZSBkaXNjb3VudHMgb24gVGVjaCBTdXBwb3J0wqAmYW1wOyBHdWlkYW5jZSBQbGFucy5kAgQPZBYEAgMPZBYCZg9kFgwCAQ8WAh8ABSQ8YSBocmVmPSJodHRwOi8vZ2Vla3NxdWFkY2FyZXMuY29tIj5kAgMPZBYCZg8WAh8ABRJQcm92aWRlIEZlZWRiYWNrLiBkAgUPFgIfB2hkAgcPFgIfAAWJATxpbWcgc3JjPSIvdXBsb2FkZWRJbWFnZXMvd3d3Z2Vla3NxdWFkY29tL3NpZGViYXJfY29udGVudC9zY2hlZGluaG9tZWNyb3AucG5nP249NzYxIiBhbHQ9ImluaG9tZXNjaGVkX3Byb21vIiB0aXRsZT0iaW5ob21lc2NoZWRfcHJvbW8iIC8+ZAIJDxYCHwAFEEdlZWsgU3F1YWQgQ2FyZXNkAgsPFgIfAAU1UmVjZW50bHkgaGFkIGEgcmVwYWlyPyBUZWxsIHVzIGFib3V0IHlvdXIgZXhwZXJpZW5jZS5kAgUPFgIfAAUGPC9kaXY+ZAIDDxYCHwAFH1F1aWNrIExpbmtzIFRvIENvbW1vbiBTb2x1dGlvbnNkAgUPFgIfAQIDFgZmD2QWAgIBD2QWCAIBDxYCHwAF2wE8aW1nIHdpZHRoPSIzMCIgaGVpZ2h0PSIyMiIgYm9yZGVyPSIwIiB0aXRsZT0ibWVkX29yYW5nZV9jb21wdXRlcnMiIHN0eWxlPSJib3JkZXI6IDBweCBzb2xpZDsgd2lkdGg6IDMwcHg7IGhlaWdodDogMjJweDsiIGFsdD0ibWVkX29yYW5nZV9jb21wdXRlcnMiIHNyYz0iL2Fzc2V0cy8wLzczLzEyOC8xMjkvOGIyZDlmZjEtNGU0ZS00MDE4LWE0YWQtNTdiNWEyMTM2NTY1LnBuZyIgLz5kAgMPFgIfAAUJQ29tcHV0ZXJzZAIFDxYCHwECBRYKZg9kFgICAQ8WAh8ABXI8YSB0aXRsZT0iTWFrZSBZb3VyIFBDIEZhc3RlciIgaHJlZj0iL3NlcnZpY2VzL2NvbXB1dGVycy1uZXR3b3JraW5nL2NvbXB1dGVyLXR1bmUtdXAuYXNweCI+TWFrZSBZb3VyIFBDIEZhc3RlcjwvYT5kAgEPZBYCAgEPFgIfAAWJATxhIHRpdGxlPSJSZW1vdmUgVmlydXNlcyBhbmQgU3B5d2FyZSIgaHJlZj0iL3NlcnZpY2VzL2NvbXB1dGVycy1uZXR3b3JraW5nL3ZpcnVzLWFuZC1zcHl3YXJlLXJlbW92YWwuYXNweCI+UmVtb3ZlIFZpcnVzZXMgYW5kIFNweXdhcmU8L2E+ZAICD2QWAgIBDxYCHwAFfDxhIGhyZWY9Ii9zZXJ2aWNlcy9jb21wdXRlcnMtbmV0d29ya2luZy9kYXRhLWJhY2t1cC1zdGFuZGFyZC5hc3B4IiB0aXRsZT0iQmFja3VwIEltcG9ydGFudCBGaWxlcyI+QmFja3VwIEltcG9ydGFudCBGaWxlczwvYT5kAgMPZBYCAgEPFgIfAAWNATxhIHRpdGxlPSJEbyBNb3JlIFdpdGggYSBXaXJlbGVzcyBOZXR3b3JrIiBocmVmPSIvc2VydmljZXMvY29tcHV0ZXJzLW5ldHdvcmtpbmcvd2lyZWxlc3MtbmV0d29ya2luZy5hc3B4Ij5EbyBNb3JlIFdpdGggYSBXaXJlbGVzcyBOZXR3b3JrPC9hPmQCBA9kFgICAQ8WAh8ABUU8YSB0aXRsZT0iVGVjaCBTdXBwb3J0IiBocmVmPSIvdGVjaHN1cHBvcnQjb3ZlcnZpZXciPlRlY2ggU3VwcG9ydDwvYT5kAgcPFgIfAAVFPGEgdGl0bGU9Ik1vcmUuLi4iIGhyZWY9Ii9zZXJ2aWNlcy9jb21wdXRlcnMtbmV0d29ya2luZy8iPk1vcmUuLi48L2E+ZAIBD2QWAgIBD2QWCAIBDxYCHwAFXzxpbWcgYWx0PSJtZWRfb3JhbmdlX3R2IiBzcmM9Ii9hc3NldHMvMC83My8xMjgvMTI5L2FmNDQ4ZTU1LTk0NGEtNDdkNC1hZjVlLTU2YThhMmY2YzhiMS5wbmciIC8+ZAIDDxYCHwAFClRWICYgVmlkZW9kAgUPFgIfAQIEFghmD2QWAgIBDxYCHwAFfDxhIHRpdGxlPSJHZXQgdGhlIEJlc3QgUGljdHVyZSBvbiBZb3VyIFRWIiBocmVmPSIvc2VydmljZXMvdHYtdmlkZW8vdHYtY2FsaWJyYXRpb24uYXNweCI+R2V0IHRoZSBCZXN0IFBpY3R1cmUgb24gWW91ciBUVjwvYT5kAgEPZBYCAgEPFgIfAAWCATxhIHRpdGxlPSJDb250cm9sIFdpdGggSnVzdCBPbmUgUmVtb3RlIiBocmVmPSIvc2VydmljZXMvdHYtdmlkZW8vcmVtb3RlLWNvbnRyb2wtcHJvZ3JhbW1pbmcuYXNweCI+Q29udHJvbCBXaXRoIEp1c3QgT25lIFJlbW90ZTwvYT5kAgIPZBYCAgEPFgIfAAVvPGEgaHJlZj0iL3NlcnZpY2VzL3R2LXZpZGVvL2hvbWUtdGhlYXRlci1uZXR3b3JraW5nLmFzcHgiIHRpdGxlPSJOZXR3b3JrIFlvdXIgVGhlYXRlciI+TmV0d29yayBZb3VyIFRoZWF0ZXI8L2E+ZAIDD2QWAgIBDxYCHwAFSzxhIGhyZWY9Ii9zZXJ2aWNlcy90di12aWRlby90di1yZXBhaXIuYXNweCIgdGl0bGU9IlRWIFJlcGFpciI+VFYgUmVwYWlyPC9hPmQCBw8WAh8ABTk8YSB0aXRsZT0iTW9yZS4uLiIgaHJlZj0iL3NlcnZpY2VzL3R2LXZpZGVvLyI+TW9yZS4uLjwvYT5kAgIPZBYEAgEPZBYIAgEPFgIfAAViPGltZyBhbHQ9Im1lZF9vcmFuZ2VfYXVkaW8iIHNyYz0iL2Fzc2V0cy8wLzczLzEyOC8xMjkvMmUzMDM3ODgtNTIyMi00NWMyLWJiYjItOGIzMTAwZDM5NzhiLnBuZyIgLz5kAgMPFgIfAAUMQXVkaW8gJiBpUG9kZAIFDxYCHwECAxYGZg9kFgICAQ8WAh8ABW48YSB0aXRsZT0iU2V0dXAgU3Vycm91bmQgU291bmQiIGhyZWY9Ii9zZXJ2aWNlcy9hdWRpby1pcG9kL3NwZWFrZXItaW5zdGFsbGF0aW9uLmFzcHgiPlNldHVwIFN1cnJvdW5kIFNvdW5kPC9hPmQCAQ9kFgICAQ8WAh8ABYMBPGEgdGl0bGU9IlBsYXkgTXVzaWMgaW4gTXVsdGlwbGUgUm9vbXMiIGhyZWY9Ii9zZXJ2aWNlcy9hdWRpby1pcG9kL2hvbWUtdGhlYXRlci1jb25zdWx0YXRpb24uYXNweCI+UGxheSBNdXNpYyBpbiBNdWx0aXBsZSBSb29tczwvYT5kAgIPZBYCAgEPFgIfAAVmPGEgdGl0bGU9IlB1dCBNdXNpYyBvbiBZb3VyIGlQb2QiIGhyZWY9Ii9zZXJ2aWNlcy9hdWRpby1pcG9kL3RyYWluaW5nLmFzcHgiPlB1dCBNdXNpYyBvbiBZb3VyIGlQb2Q8L2E+ZAIHDxYCHwAFNDxhIHRpdGxlPSJNb3JlLi4uIiBocmVmPSIvc2VydmljZXMvYXVkaW8taXBvZC8iPjwvYT5kAgMPDxYCHwdnZBYEAgEPFgIfAAUrR2V0IHN1cHBvcnQgZm9yIHlvdXIgZnVsbCBnYW11dCBvZiBnYWRnZXRzLmQCAw8WAh8ABSs8YSBocmVmPSIvc2VydmljZXMiPlZpZXcgQWxsIENhdGVnb3JpZXM8L2E+ZAIFDxYCHwAFkAY8IS0tIEJlZ2luIEF0bGFzIFRhZyAtLT4KPGlmcmFtZSBzcmM9Ii8vdmlldy5hdGRtdC5jb20vaWFjdGlvbi9iZXN0YnV5X2dlZWtzcXVhZC92My9wYWdlbmFtZS5HZWVrJTIwU3F1YWQlMjAlRTIlODAlOTMlMjBDb21wdXRlcnMlMkMlMjBIb21lJTIwVGhlYXRlcnMlMkMlMjBBcHBsaWFuY2VzJTJDJTIwT25saW5lJTIwU3VwcG9ydCUyMCUyNiUyME1vcmUvcGFnZXVybC53d3cuZ2Vla3NxdWFkLmNvbSIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZnJhbWVib3JkZXI9IjAiIHNjcm9sbGluZz0iTm8iIG1hcmdpbmhlaWdodD0iMCIgbWFyZ2lud2lkdGg9IjAiIHRvcG1hcmdpbj0iMCIgbGVmdG1hcmdpbj0iMCI+PC9pZnJhbWU+CjwhLS0gRW5kIEF0bGFzIFRhZyAtLT4KPCEtLSBCZWdpbiBCbHVlS2FpIFRhZyAtLT4KPGlmcmFtZSBuYW1lPSJfX2JrZnJhbWUiIGhlaWdodD0iMCIgd2lkdGg9IjAiIGZyYW1lYm9yZGVyPSIwIiBzcmM9ImphdmFzY3JpcHQ6dm9pZCgwKSI+PC9pZnJhbWU+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Ii8vdGFncy5ia3J0eC5jb20vanMvYmstY29yZXRhZy5qcyI+PC9zY3JpcHQ+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KCmJrX2FkZFBhZ2VDdHgoInRpdGxlIiwgZG9jdW1lbnQudGl0bGUpOyAKYmtfYWRkUGFnZUN0eCgidXJsIiwgZG9jdW1lbnQubG9jYXRpb24uaHJlZik7IAoKYmtfaWdub3JlX21ldGEgPSB0cnVlOwpia19kb0pTVGFnKDEzOTQxLCAxMCk7Cgo8L3NjcmlwdD4KPCEtLSBFbmQgQmx1ZUthaSBUYWcgLS0+ZAIJD2QWDgIDDxYCHwAFEUdvIGFoZWFkLiBVc2UgdXMuZAIFDxYCHwECBBYIZg9kFgICAQ8WAh8ABVA8YSBocmVmPSIvY2hhdC13aXRoLWFuLWFnZW50LyIgdGl0bGU9IkNoYXQgd2l0aCBhbiBBZ2VudCI+Q2hhdCB3aXRoIGFuIEFnZW50PC9hPmQCAQ9kFgICAQ8WAh8ABUc8YSBocmVmPSIvZmluZC1hLWxvY2F0aW9uLyIgdGl0bGU9IkZpbmQgYSBMb2NhdGlvbiI+RmluZCBhIExvY2F0aW9uPC9hPmQCAg9kFgICAQ8WAh8ABWE8YSBocmVmPSIvc2NoZWR1bGluZy8iIHRpdGxlPSJTY2hlZHVsZSBhbiBPbi1TaXRlIG9yIEluLVN0b3JlIEFwcG9pbnRtZW50Ij5TY2hlZHVsZSBhIFNlcnZpY2U8L2E+ZAIDD2QWAgIBDxYCHwAFOTxhIGhyZWY9Ii9jb250YWN0LmFzcHgiIHRpdGxlPSJDb250YWN0IFVzIj5Db250YWN0IFVzPC9hPmQCBw8WAh8BAgQWCGYPZBYEZg8VAQlGb2xsb3cgVXNkAgEPFgIfAQIFFgpmD2QWAgIBDxYCHwAFdTxhIHRpdGxlPSJGYWNlYm9vayIgY2xhc3M9InRyYWNrX291dGdvaW5nX2xpbmsiIGhyZWY9Imh0dHA6Ly93d3cuZmFjZWJvb2suY29tL0dlZWtTcXVhZCIgdGFyZ2V0PSJfYmxhbmsiPkZhY2Vib29rPC9hPmQCAQ9kFgICAQ8WAh8ABXI8YSB0aXRsZT0iVHdpdHRlciIgY2xhc3M9InRyYWNrX291dGdvaW5nX2xpbmsiIGhyZWY9Imh0dHA6Ly93d3cudHdpdHRlci5jb20vR2Vla1NxdWFkIiB0YXJnZXQ9Il9ibGFuayI+VHdpdHRlcjwvYT5kAgIPZBYCAgEPFgIfAAV5PGEgdGl0bGU9IllvdVR1YmUiIGNsYXNzPSJ0cmFja19vdXRnb2luZ19saW5rIiBocmVmPSJodHRwOi8vd3d3LnlvdXR1YmUuY29tL3VzZXIvR2Vla1NxdWFkSFEiIHRhcmdldD0iX2JsYW5rIj5Zb3VUdWJlPC9hPmQCAw9kFgICAQ8WAh8AZWQCBA9kFgICAQ8WAh8ABYABPGEgdGl0bGU9IlN1YnNjcmliZSIgY2xhc3M9InRyYWNrX291dGdvaW5nX2xpbmsiIGhyZWY9Imh0dHA6Ly9mZWVkcy5mZWVkYnVybmVyLmNvbS9nZWVrc3F1YWQvVVRmbCIgdGFyZ2V0PSJfYmxhbmsiPlN1YnNjcmliZTwvYT5kAgEPZBYEZg8VAQ5XaHkgR2VlayBTcXVhZGQCAQ8WAh8BAgcWDmYPZBYCAgEPFgIfAAUyPGEgdGl0bGU9IkFib3V0IFVzIiBocmVmPSIvYWJvdXQtdXMvIj5BYm91dCBVczwvYT5kAgEPZBYCAgEPFgIfAAVBPGEgdGl0bGU9IldoeSBDaG9vc2UgVXMiIGhyZWY9Ii93aHktY2hvb3NlLXVzLyI+V2h5IENob29zZSBVczwvYT5kAgIPZBYCAgEPFgIfAAVQPGEgdGl0bGU9IlRlc3RpbW9uaWFscyIgaHJlZj0iL3doeS1jaG9vc2UtdXMvdGVzdGltb25pYWxzLmFzcHgiPlRlc3RpbW9uaWFsczwvYT5kAgMPZBYCAgEPFgIfAAVbPGEgdGl0bGU9Ik1lZXQgT3VyIEFnZW50cyIgaHJlZj0iaHR0cDovL3N1cHBvcnQuZ2Vla3NxdWFkLmNvbS9zdXBwb3J0LyI+TWVldCBPdXIgQWdlbnRzPC9hPmQCBA9kFgICAQ8WAh8ABUE8YSB0aXRsZT0iUHJpY2luZyIgaHJlZj0iL3doeS1jaG9vc2UtdXMvcHJpY2luZy5hc3B4Ij5QcmljaW5nPC9hPmQCBQ9kFgICAQ8WAh8ABVM8YSB0aXRsZT0iT3VyIEd1YXJhbnRlZSIgaHJlZj0iL3doeS1jaG9vc2UtdXMvb3VyLWd1YXJhbnRlZS5hc3B4Ij5PdXIgR3VhcmFudGVlPC9hPmQCBg9kFgICAQ8WAh8ABWU8YSB0aXRsZT0iU2FmZXR5ICZhbXA7IFNlY3VyaXR5IiBocmVmPSIvd2h5LWNob29zZS11cy9zYWZldHktc2VjdXJpdHkuYXNweCI+U2FmZXR5ICZhbXA7IFNlY3VyaXR5PC9hPmQCAg9kFgRmDxUBCVNlbGYgSGVscGQCAQ8WAh8BAgYWDGYPZBYCAgEPFgIfAAWQATxhIHRpdGxlPSJSZWN5Y2xlIE15IEVsZWN0cm9uaWNzIiBjbGFzcz0idHJhY2tfb3V0Z29pbmdfbGluayIgaHJlZj0iaHR0cDovL3d3dy5iZXN0YnV5LmNvbS9yZWN5Y2xpbmciIHRhcmdldD0iX2JsYW5rIj5SZWN5Y2xlIE15IEVsZWN0cm9uaWNzPC9hPmQCAQ9kFgICAQ8WAh8ABZwBPGEgdGl0bGU9IlRyYWRlIE9sZCBHZWFyIEZvciBHaWZ0IENhcmRzIiBjbGFzcz0idHJhY2tfb3V0Z29pbmdfbGluayIgaHJlZj0iaHR0cDovL3d3dy5iZXN0YnV5LmNvbS90cmFkZWluIiB0YXJnZXQ9Il9ibGFuayI+VHJhZGUgT2xkIEdlYXIgRm9yIEdpZnQgQ2FyZHM8L2E+ZAICD2QWAgIBDxYCHwAFezxhIHRpdGxlPSJGaW5kIERyaXZlcnMgYW5kIFVwZGF0ZXMiIGhyZWY9Ii9kby1pdC15b3Vyc2VsZi90b29scy9maW5kLWRyaXZlcnMtYW5kLXVwZGF0ZXMuYXNweCI+RmluZCBEcml2ZXJzIGFuZCBVcGRhdGVzPC9hPmQCAw9kFgICAQ8WAh8ABYcBPGEgdGl0bGU9IlNjYW4gZm9yIFZpcnVzZXMgYW5kIFNweXdhcmUiIGhyZWY9Ii9kby1pdC15b3Vyc2VsZi90b29scy9zY2FuLWZvci12aXJ1c2VzLWFuZC1zcHl3YXJlLmFzcHgiPlNjYW4gZm9yIFZpcnVzZXMgYW5kIFNweXdhcmU8L2E+ZAIED2QWAgIBDxYCHwAFfjxhIHRpdGxlPSJUZXN0IFlvdXIgQnJvYWRiYW5kIFNwZWVkIiBocmVmPSIvZG8taXQteW91cnNlbGYvdG9vbHMvdGVzdC15b3VyLWJyb2FkYmFuZC1zcGVlZC5hc3B4Ij5UZXN0IFlvdXIgQnJvYWRiYW5kIFNwZWVkPC9hPmQCBQ9kFgICAQ8WAh8ABXw8YSB0aXRsZT0iTWFudWZhY3R1cmVyIFJlc3RvcmUgRGlzY3MiIGhyZWY9Ii9kby1pdC15b3Vyc2VsZi90b29scy9jb21wdXRlci1yZXN0b3JlLWRpc2MuYXNweCI+TWFudWZhY3R1cmVyIFJlc3RvcmUgRGlzY3M8L2E+ZAIDD2QWBGYPFQENQWNjb3VudCBUb29sc2QCAQ8WAh8BAgYWDGYPZBYCAgEPFgIfAAUlPGEgaHJlZj0iL215LWFjY291bnQvIj5NeSBBY2NvdW50PC9hPmQCAQ9kFgICAQ8WAh8ABUE8YSB0aXRsZT0iUmVwYWlyIFN0YXR1cyIgaHJlZj0iL3JlcGFpci1zdGF0dXMvIj5SZXBhaXIgU3RhdHVzPC9hPmQCAg9kFgICAQ8WAh8ABUo8YSB0aXRsZT0iUHJvdGVjdGlvbiBQbGFucyIgaHJlZj0iL3Byb3RlY3Rpb24tcGxhbnMvIj5Qcm90ZWN0aW9uIFBsYW5zPC9hPmQCAw9kFgICAQ8WAh8ABUs8YSB0aXRsZT0iVmlldyBNeSBBcHBvaW50bWVudHMiIGhyZWY9Ii9zY2hlZHVsaW5nIj5WaWV3IE15IEFwcG9pbnRtZW50czwvYT5kAgQPZBYCAgEPFgIfAAU7PGEgaHJlZj0iaHR0cDovL2pvaW4uZ2Vla3NxdWFkLmNvbS8iPkpvaW4gUGhvbmUgU2Vzc2lvbjwvYT5kAgUPZBYCAgEPFgIfAAVEPGEgdGl0bGU9IlJlbW90ZSBMb2dpbiIgaHJlZj0iL3BpbiIgdGFyZ2V0PSJfYmxhbmsiPlJlbW90ZSBMb2dpbjwvYT5kAgkPFgIfAQIBFgJmD2QWAgIBDxYCHwAFzQI8YSB0aXRsZT0iVHJ1c3RlIENlcnRpZmllZCBQcml2YWN5IiBocmVmPSIvL3ByaXZhY3kudHJ1c3RlLmNvbS9wcml2YWN5LXNlYWwvQmVzdC1CdXktQ28tLC1JbmMtL3ZhbGlkYXRpb24/cmlkPWMxNzNmY2UyLTY2ZWYtNGFhNS05OGU5LWJkMDA4N2Q4ODk2OSIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgc3JjPSJodHRwOi8vd3d3LmdlZWtzcXVhZC5jb20vdXBsb2FkZWRJbWFnZXMvd3d3Z2Vla3NxdWFkY29tL3NpdGVfc2V0dGluZ3MvdHJ1c3RlLmdpZj9uPTY3ODMiIGFsdD0iVHJ1c3RlIENlcnRpZmllZCBQcml2YWN5IiB0aXRsZT0iVHJ1c3RlIENlcnRpZmllZCBQcml2YWN5IiAvPjwvYT5kAgsPFgIfAQIGFgxmD2QWAgIBDxYCHwAFLzxhIHRpdGxlPSJDYXJlZXJzIiBocmVmPSIvY2FyZWVycy8iPkNhcmVlcnM8L2E+ZAIBD2QWAgIBDxYCHwAFdjxhIHRpdGxlPSJOZXdzICZhbXA7IFByZXNzIiBjbGFzcz0idHJhY2tfb3V0Z29pbmdfbGluayIgaHJlZj0iaHR0cDovL3ByLmJieS5jb20vIiB0YXJnZXQ9Il9ibGFuayI+TmV3cyAmYW1wOyBQcmVzczwvYT5kAgIPZBYCAgEPFgIfAAU1PGEgdGl0bGU9IlNpdGUgTWFwIiBocmVmPSIvc2l0ZW1hcC5hc3B4Ij5TaXRlIE1hcDwvYT5kAgMPZBYCAgEPFgIfAAVVPGEgdGl0bGU9IkdlZWsgU3F1YWQgU2l0ZXMiIGhyZWY9Ii9tb3JlLXNpdGVzL2dlZWstc3F1YWQtc2l0ZXMvIj5HZWVrIFNxdWFkIFNpdGVzPC9hPmQCBA9kFgICAQ8WAh8ABUw8YSB0aXRsZT0iUGFydG5lciBTaXRlcyIgaHJlZj0iL21vcmUtc2l0ZXMvcGFydG5lci1zaXRlcy8iPlBhcnRuZXIgU2l0ZXM8L2E+ZAIFD2QWAgIBDxYCHwAFNTxhIHRpdGxlPSJTaXRlIEhlbHAiIGhyZWY9Ii9zaXRlLWhlbHAvIj5TaXRlIEhlbHA8L2E+ZAINDxYCHwAFDjEtODAwLTQzMy01Nzc4ZAIPDxYCHwAFxwJVc2Ugb2YgdGhpcyBzaXRlIHNpZ25pZmllcyB5b3VyIGFjY2VwdGFuY2Ugb2YgdGhlIDxhIHRpdGxlPSJMZWdhbCBUZXJtcyBvZiBVc2UiIGhyZWY9Ii90ZXJtcy1vZi11c2UuYXNweCI+TGVnYWwgVGVybXMgb2YgVXNlPC9hPsKgYW5kwqA8YSB0aXRsZT0iUHJpdmFjeSBQb2xpY3kiIGhyZWY9Ii9wb2xpY3ktZm9yLXByaXZhY3kuYXNweCI+UHJpdmFjeSBQb2xpY3k8L2E+LiDCoDxhIGhyZWY9Ii9wb2xpY3ktZm9yLXByaXZhY3ktQ0EuYXNweCI+Q2FsaWZvcm5pYSBQcml2YWN5IFJpZ2h0czwvYT48YnIgLz7CqTIwMTQgR2VlayBTcXVhZC4gQWxsIFJpZ2h0cyBSZXNlcnZlZC5kAgsPFgIfAAVfPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPgoJdmFyIHRyYWNrID0gbmV3IE9iamVjdCgpOwoJdHJhY2suY2F0TmFtZSA9ICdIb21lJzsgCjwvc2NyaXB0PgpkZNyYcy86degXTMfIUPzEioHiULQy8YMyzhr7/KMFwa44" />
+</div>
+
+			<div id="skip"><a href="#skipcontent">Skip to Content</a></div>
+			<div id="mcGsMain" role="main">
+				
 	
 
-	    
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-7976532-1']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-
-		setupAnalyticsTracking();
-	</script>
-
+<div id="landingHead">
+	<a href="/buytechsupport/" title="Learn More">
+		<div id="landingHeadInner" style="background-image:url('/uploadedImages/wwwgeeksquadcom/sidebar_content/header_image(1).png');" >
+			<img id="ctl00_PrimaryHomePromoPlaceholder_homePagePromo_imgGradient" class="gradientOverlay" src="images/landingHead_gradientOverlay.png" />
+			<div id="ctl00_PrimaryHomePromoPlaceholder_homePagePromo_pnlLandingHeadControlled" class="landingHeadContent">
 	
+				<div class="top">
+					<div id="ctl00_PrimaryHomePromoPlaceholder_homePagePromo_headerTopInner" class="topInner headSubIcon">
+						<h1 id="ctl00_PrimaryHomePromoPlaceholder_homePagePromo_headerText">Geek Squad Tech Support</h1>
+						<h2 id="ctl00_PrimaryHomePromoPlaceholder_homePagePromo_subHeaderText">Unlimited Answers Online, By Phone and In-Store</h2>
+						<div id="ctl00_PrimaryHomePromoPlaceholder_homePagePromo_headerIcon" class="icon">
+							<img id="ctl00_PrimaryHomePromoPlaceholder_homePagePromo_headerIconImage" src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/icons/landingHeadIcon_ts.png" />
+						</div>
+					</div>
+				</div>
+				<div class="btm">
+					<h3>Agents supporting your tech 24/7</h3>
+					<p class="button">
+						<span>Learn More</span>
+					</p>
+				</div>
+			
+</div>
+			
+		</div>
+	</a>
+</div>
+
+				<div id="container" class="gscom">
+						<a id="skipcontent" name="skipcontent"></a>
+						
+	
+			<div class="promoRow clearfix">
+				<div class="promoContainer">
+					
+
+<div class="promo">
+	<a href="/scheduling/">
+		<div class="promo_image">
+			<div id="ctl00_MainPlaceholder_promosRepeater_ctl00_ctl00_captionDiv" class="caption">Picking up and dropping off repairs is now easier.</div>
+			
+			<img src="/uploadedImages/wwwgeeksquadcom/sidebar_content/precinctcrop.png?n=1326" alt="precinct pic for home" title="precinct pic for home" />
+		</div>
+		<h3>Schedule Appointments</h3>
+		Arrange in-store or in-home visits.
+	</a>
+</div>
+
+				</div>
+			
+		
+			
+				<div class="promoContainer">
+					
+
+<div class="promo">
+	<a href="/xpsupport">
+		<div class="promo_image">
+			<div id="ctl00_MainPlaceholder_promosRepeater_ctl01_ctl00_captionDiv" class="caption">Learn how Geek Squad can help.</div>
+			
+			<img src="/uploadedImages/wwwgeeksquadcom/sidebar_content/xp_bliss_bw_sm.png?n=9650" alt="xp bliss wallpaper" title="xp bliss wallpaper" />
+		</div>
+		<h3>End of an Era</h3>
+		After April 8, 2014, Microsoft will no longer support Windows XP.
+	</a>
+</div>
+
+				</div>
+			
+		
+			
+				<div class="promoContainer">
+					
+
+<div class="promo">
+	<a href="/windows-8">
+		<div class="promo_image">
+			<div id="ctl00_MainPlaceholder_promosRepeater_ctl02_ctl00_captionDiv" class="caption">Get support right out of the box.</div>
+			
+			<img src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/windows_8.png" alt="windows_8" />
+		</div>
+		<h3>Windows 8 Lessons</h3>
+		Getting to know Windows 8?<br />
+Let us show you the ins and outs.
+	</a>
+</div>
+
+				</div>
+			</div>
+		
+			<div class="promoRow clearfix twoItems">
+				<div class="promoContainer">
+					
+
+<div class="promo">
+	<a href="http://aarp.geeksquad.com/">
+		<div class="promo_image">
+			<div id="ctl00_MainPlaceholder_promosRepeater_ctl03_ctl00_captionDiv" class="caption">Receive a special price on support from the pros.</div>
+			
+			<img src="/uploadedImages/wwwgeeksquadcom/uploaded_assets/tech_support_aarp.png" alt="tech_support_aarp" />
+		</div>
+		<h3>AARP MEMBER SAVINGS</h3>
+		Exclusive discounts on Tech SupportÂ &amp; Guidance Plans.
+	</a>
+</div>
+
+				</div>
+			
+		
+			
+				<div class="promoContainer">
+					
+
+<div class="promo">
+	<a href="http://geeksquadcares.com">
+		<div class="promo_image">
+			<div id="ctl00_MainPlaceholder_promosRepeater_ctl04_ctl00_captionDiv" class="caption">Provide Feedback. </div>
+			
+			<img src="/uploadedImages/wwwgeeksquadcom/sidebar_content/schedinhomecrop.png?n=761" alt="inhomesched_promo" title="inhomesched_promo" />
+		</div>
+		<h3>Geek Squad Cares</h3>
+		Recently had a repair? Tell us about your experience.
+	</a>
+</div>
+
+				</div>
+			</div>
+		
+	<div class="hrule"></div>
+	<div class="content clearfix">
+		<h1>Quick Links To Common Solutions</h1>
+		<div id="home_categories">
+			
+					
+<div class="home_category">
+    <a href="">
+        <div class="med_icon">
+            <img width="30" height="22" border="0" title="med_orange_computers" style="border: 0px solid; width: 30px; height: 22px;" alt="med_orange_computers" src="/assets/0/73/128/129/8b2d9ff1-4e4e-4018-a4ad-57b5a2136565.png" /><h2>
+            Computers</h2>
+        </div>
+    </a>
+    <ul>
+        
+                <li>
+                    <a title="Make Your PC Faster" href="/services/computers-networking/computer-tune-up.aspx">Make Your PC Faster</a></li>
+                
+                <li>
+                    <a title="Remove Viruses and Spyware" href="/services/computers-networking/virus-and-spyware-removal.aspx">Remove Viruses and Spyware</a></li>
+                
+                <li>
+                    <a href="/services/computers-networking/data-backup-standard.aspx" title="Backup Important Files">Backup Important Files</a></li>
+                
+                <li>
+                    <a title="Do More With a Wireless Network" href="/services/computers-networking/wireless-networking.aspx">Do More With a Wireless Network</a></li>
+                
+                <li>
+                    <a title="Tech Support" href="/techsupport#overview">Tech Support</a></li>
+                
+        <li><strong>
+            <a title="More..." href="/services/computers-networking/">More...</a></strong></li>
+    </ul>
+</div>
+					
+				
+					
+<div class="home_category">
+    <a href="">
+        <div class="med_icon">
+            <img alt="med_orange_tv" src="/assets/0/73/128/129/af448e55-944a-47d4-af5e-56a8a2f6c8b1.png" /><h2>
+            TV & Video</h2>
+        </div>
+    </a>
+    <ul>
+        
+                <li>
+                    <a title="Get the Best Picture on Your TV" href="/services/tv-video/tv-calibration.aspx">Get the Best Picture on Your TV</a></li>
+                
+                <li>
+                    <a title="Control With Just One Remote" href="/services/tv-video/remote-control-programming.aspx">Control With Just One Remote</a></li>
+                
+                <li>
+                    <a href="/services/tv-video/home-theater-networking.aspx" title="Network Your Theater">Network Your Theater</a></li>
+                
+                <li>
+                    <a href="/services/tv-video/tv-repair.aspx" title="TV Repair">TV Repair</a></li>
+                
+        <li><strong>
+            <a title="More..." href="/services/tv-video/">More...</a></strong></li>
+    </ul>
+</div>
+					
+				
+					
+<div class="home_category">
+    <a href="">
+        <div class="med_icon">
+            <img alt="med_orange_audio" src="/assets/0/73/128/129/2e303788-5222-45c2-bbb2-8b3100d3978b.png" /><h2>
+            Audio & iPod</h2>
+        </div>
+    </a>
+    <ul>
+        
+                <li>
+                    <a title="Setup Surround Sound" href="/services/audio-ipod/speaker-installation.aspx">Setup Surround Sound</a></li>
+                
+                <li>
+                    <a title="Play Music in Multiple Rooms" href="/services/audio-ipod/home-theater-consultation.aspx">Play Music in Multiple Rooms</a></li>
+                
+                <li>
+                    <a title="Put Music on Your iPod" href="/services/audio-ipod/training.aspx">Put Music on Your iPod</a></li>
+                
+        <li><strong>
+            <a title="More..." href="/services/audio-ipod/"></a></strong></li>
+    </ul>
+</div>
+					<div id="ctl00_MainPlaceholder_categories_ctl02_pnlViewAllCategories" class="home_category viewAllCategories">
+	
+                        <h6>Get support for your full gamut of gadgets.</h6>
+                        <h3><a href="/services">View All Categories</a>&nbsp;&nbsp;<img src="/images/arrow.png"/></h3>
+                    
+</div>
+				
+		</div>
+	</div>
+
+						<div class="hidden"><!-- Begin Atlas Tag -->
+<iframe src="//view.atdmt.com/iaction/bestbuy_geeksquad/v3/pagename.Geek%20Squad%20%E2%80%93%20Computers%2C%20Home%20Theaters%2C%20Appliances%2C%20Online%20Support%20%26%20More/pageurl.www.geeksquad.com" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe>
+<!-- End Atlas Tag -->
+<!-- Begin BlueKai Tag -->
+<iframe name="__bkframe" height="0" width="0" frameborder="0" src="javascript:void(0)"></iframe>
+<script type="text/javascript" src="//tags.bkrtx.com/js/bk-coretag.js"></script>
 <script type="text/javascript">
-	setupExternalLinks();
+
+bk_addPageCtx("title", document.title); 
+bk_addPageCtx("url", document.location.href); 
+
+bk_ignore_meta = true;
+bk_doJSTag(13941, 10);
+
+</script>
+<!-- End BlueKai Tag --></div>
+						<div class="clear"></div>
+				</div>
+				
+			</div>
+			
+<!-- End Content -->
+<!-- Begin Footer -->
+</div>
+<footer id="mcFooter">
+	<div class="contentContainer">
+		
+<div class="search">
+    <a class="search_btn disable" href="#"></a>
+    <input name="search" type="text" maxlength="1000" value="Search..." class="search_box" />
+    <div class="search_load">
+    </div>
+    <div class="search_dd">
+        <div class="searchResults">
+        </div>
+        <script class="resultTemplate" type="text/html">
+        <div>
+            <p>
+            <a 
+            {{if Class}}
+            class="{{= Class}}"
+            {{/if}}
+            {{if Target}}
+            target="{{= Target}}"
+            {{/if}}
+            href="{{= Url}}">
+            <span class="name">{{= Title}}</span><br />
+            {{= Summary}}
+            </a>
+            </p>
+        </div>
+        </script>
+        
+        <div class="view_all">
+    
+            <a href="#">View All Search Results</a>    
+        </div>
+    </div>
+
+</div>
+
+
+        <h1>Go ahead. Use us.</h1>
+
+		<div class="footer_center clearfix">
+			<ul class="left footer_primary">
+            <li><h3>Popular Links</h3></li>
+				
+						<li><a href="/chat-with-an-agent/" title="Chat with an Agent">Chat with an Agent</a></li>
+					
+						<li><a href="/find-a-location/" title="Find a Location">Find a Location</a></li>
+					
+						<li><a href="/scheduling/" title="Schedule an On-Site or In-Store Appointment">Schedule a Service</a></li>
+					
+						<li><a href="/contact.aspx" title="Contact Us">Contact Us</a></li>
+					
+			</ul>
+
+			
+					<ul class="right">
+						<li><h3>Follow Us</h3></li>
+						
+								<li><a title="Facebook" class="track_outgoing_link" href="http://www.facebook.com/GeekSquad" target="_blank">Facebook</a></li>
+							
+								<li><a title="Twitter" class="track_outgoing_link" href="http://www.twitter.com/GeekSquad" target="_blank">Twitter</a></li>
+							
+								<li><a title="YouTube" class="track_outgoing_link" href="http://www.youtube.com/user/GeekSquadHQ" target="_blank">YouTube</a></li>
+							
+								<li></li>
+							
+								<li><a title="Subscribe" class="track_outgoing_link" href="http://feeds.feedburner.com/geeksquad/UTfl" target="_blank">Subscribe</a></li>
+							
+					</ul>
+				
+					<ul class="right">
+						<li><h3>Why Geek Squad</h3></li>
+						
+								<li><a title="About Us" href="/about-us/">About Us</a></li>
+							
+								<li><a title="Why Choose Us" href="/why-choose-us/">Why Choose Us</a></li>
+							
+								<li><a title="Testimonials" href="/why-choose-us/testimonials.aspx">Testimonials</a></li>
+							
+								<li><a title="Meet Our Agents" href="http://support.geeksquad.com/support/">Meet Our Agents</a></li>
+							
+								<li><a title="Pricing" href="/why-choose-us/pricing.aspx">Pricing</a></li>
+							
+								<li><a title="Our Guarantee" href="/why-choose-us/our-guarantee.aspx">Our Guarantee</a></li>
+							
+								<li><a title="Safety &amp; Security" href="/why-choose-us/safety-security.aspx">Safety &amp; Security</a></li>
+							
+					</ul>
+				
+					<ul class="right">
+						<li><h3>Self Help</h3></li>
+						
+								<li><a title="Recycle My Electronics" class="track_outgoing_link" href="http://www.bestbuy.com/recycling" target="_blank">Recycle My Electronics</a></li>
+							
+								<li><a title="Trade Old Gear For Gift Cards" class="track_outgoing_link" href="http://www.bestbuy.com/tradein" target="_blank">Trade Old Gear For Gift Cards</a></li>
+							
+								<li><a title="Find Drivers and Updates" href="/do-it-yourself/tools/find-drivers-and-updates.aspx">Find Drivers and Updates</a></li>
+							
+								<li><a title="Scan for Viruses and Spyware" href="/do-it-yourself/tools/scan-for-viruses-and-spyware.aspx">Scan for Viruses and Spyware</a></li>
+							
+								<li><a title="Test Your Broadband Speed" href="/do-it-yourself/tools/test-your-broadband-speed.aspx">Test Your Broadband Speed</a></li>
+							
+								<li><a title="Manufacturer Restore Discs" href="/do-it-yourself/tools/computer-restore-disc.aspx">Manufacturer Restore Discs</a></li>
+							
+					</ul>
+				
+					<ul class="right">
+						<li><h3>Account Tools</h3></li>
+						
+								<li><a href="/my-account/">My Account</a></li>
+							
+								<li><a title="Repair Status" href="/repair-status/">Repair Status</a></li>
+							
+								<li><a title="Protection Plans" href="/protection-plans/">Protection Plans</a></li>
+							
+								<li><a title="View My Appointments" href="/scheduling">View My Appointments</a></li>
+							
+								<li><a href="http://join.geeksquad.com/">Join Phone Session</a></li>
+							
+								<li><a title="Remote Login" href="/pin" target="_blank">Remote Login</a></li>
+							
+					</ul>
+				
+
+			
+		</div><!-- end footer center -->
+
+        <div class="right">                                                                   
+           
+					<a title="Truste Certified Privacy" href="//privacy.truste.com/privacy-seal/Best-Buy-Co-,-Inc-/validation?rid=c173fce2-66ef-4aa5-98e9-bd0087d88969" target="_blank"><img src="http://www.geeksquad.com/uploadedImages/wwwgeeksquadcom/site_settings/truste.gif?n=6783" alt="Truste Certified Privacy" title="Truste Certified Privacy" /></a>
+				        
+        </div>
+
+        <ul class="bottom_links">
+			
+					<li><a title="Careers" href="/careers/">Careers</a></li>
+				
+					<li><a title="News &amp; Press" class="track_outgoing_link" href="http://pr.bby.com/" target="_blank">News &amp; Press</a></li>
+				
+					<li><a title="Site Map" href="/sitemap.aspx">Site Map</a></li>
+				
+					<li><a title="Geek Squad Sites" href="/more-sites/geek-squad-sites/">Geek Squad Sites</a></li>
+				
+					<li><a title="Partner Sites" href="/more-sites/partner-sites/">Partner Sites</a></li>
+				
+					<li><a title="Site Help" href="/site-help/">Site Help</a></li>
+				
+	    </ul>
+        <h3 class="left">Call 1-800-433-5778<span></span></h3>		 
+		<p class="copyright">Use of this site signifies your acceptance of the <a title="Legal Terms of Use" href="/terms-of-use.aspx">Legal Terms of Use</a>Â andÂ <a title="Privacy Policy" href="/policy-for-privacy.aspx">Privacy Policy</a>. Â <a href="/policy-for-privacy-CA.aspx">California Privacy Rights</a><br />Â©2014 Geek Squad. All Rights Reserved.</p>
+	</div><!-- end content container -->
+</div> <!-- end of #wrapper -->
+
+
+
+
+</footer>
+<!-- End Footer -->
+		
+
+<script type="text/javascript">
+//<![CDATA[
+jQuery('#mcGsMain').addClass('homepg');//]]>
+</script>
+</form>
+    
+		<script type="text/javascript">
+	var track = new Object();
+	track.catName = 'Home'; 
 </script>
 
+		<script type="text/javascript" src="/scripts/tracking/liveManager.js?v=201009171521"></script>
 
-</body>
+		<div id="ie6ModalBlocker">
+		</div>
+		<div id="ieModalContainer">
+			<div id="ieModalClose"></div>
+			<div id="ie6Modal">
+				<div id="ieModalHeader">
+					<h4>There's no easy way to say this, but...</h4>
+					<h1>Your Browser Is Holding You Back.<span> It's Time To Move on.</span></h1>
+					<h4>Click one of the icons below to upgrade to a new browser.</h4>
+				</div>
+				<div id="ieModalIcons">
+					<a href="http://www.mozilla.com/en-US/firefox/new/"><img src="/images/ff_icon.jpg" width="105" height="92" alt="Firefox" /></a>
+					<a href="http://www.google.com/chrome"><img src="/images/chrome_icon.jpg" width="105" height="92" alt="Google Chrome" /></a>
+					<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home"><img src="/images/ie_icon.jpg" width="105" height="92" alt="Internet Explorer" /></a>
+					<a href="http://www.apple.com/safari/download/"><img src="/images/safari_icon.jpg" width="105" height="92" alt="Safari" /></a>
+				</div>
+				<div id="ieModalFooter">
+					<h4>No thanks, I understand this site may not display properly.</h4><img id="ie6CloseWindowButton" src="/images/closeWindowButton.jpg" alt="close window" />
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

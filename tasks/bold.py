@@ -1,15 +1,11 @@
-from __main__ import *
-
-import os
 from bs4 import BeautifulSoup
+from __main__ import funcs, attrNames
 
-index = 0
-filename = "index.html"
+attrNames.append('hasBold')
 
-while os.path.isfile("./data/" + filename):
+def addBoldAttr(info, fileObject):
 
-	f = open("./data/" + filename)
-	soup = BeautifulSoup(f)
+	soup = BeautifulSoup(fileObject)
 
 	i = 0
 	for bold in soup.find_all('b'):
@@ -19,10 +15,8 @@ while os.path.isfile("./data/" + filename):
 	if i:
 		hasBold = True
 
-	infoList[index].append(hasBold)
+	info.append(hasBold)
+	
+	return
 
-	f.close()
-	index = index + 1
-	filename = "index.html." + str(index)
-
-featureNames.append('hasBold')
+funcs.append(addBoldAttr)

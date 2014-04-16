@@ -1,1712 +1,722 @@
-<!doctype html>
-<html>
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="viewport" content="width=1068" />
-<meta charset="utf-8" />
-
-<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 
 
 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        
+
+    <meta name="CMS" content="CQ" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>New York University</title>
+    <meta http-equiv="keywords" content="">
+    <link href="/etc/designs/default.css" rel="stylesheet" type="text/css">
 
 
-<meta name="description" content="TLC TV network opens doors to extraordinary lives. At TLC.com, get exclusive photos and video, play games and more!" />
-<meta name="keywords" content="tlc, tlc channel, tlc network, here comes honey boo boo, gypsy sisters, long island medium, extreme couponing, sister wives, what not to wear, cake boss, say yes to the dress" />
-<meta name="robots" content="" />
+    <meta name="author" content="NYU Web Communications" />
+    <link rel="icon" href="/common/images/favicon.ico" type="image/x-icon"/>
 
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="/common/css/base.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/common/css/homePage.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/common/css/channels.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/common/css/print.css" type="text/css" media="print"/>
+    
+    <style type="text/css">@media screen,projection{.cufon-canvas{display:inline;display:inline-block;position:relative;vertical-align:middle;font-size:1px;line-height:1px}.cufon-canvas .cufon-alt{display:none}  .cufon-canvas canvas{position:relative}}@media print{.cufon-canvas{padding:0 !important}  .cufon-canvas canvas{display:none}.cufon-canvas .cufon-alt{display:inline}} </style>
 
-<meta property="fb:admins" content="100001675325868" />    
-<meta property="fb:app_id" content="157869477569917" />     
-<meta property="og:title" content="TLC &quot;Schedules, Videos, Photos, Games and Sweepstakes&quot;" />
-<meta property="og:description" content="TLC TV network opens doors to extraordinary lives. At TLC.com, get exclusive photos and video, play games and more!" />
-<meta property="og:url" content="http://www.tlc.com/" />
-<meta property="og:site_name" content="TLC" />
-<meta property="og:image" content="http://static.ddmcdn.com/gif/tlc-podcasts.jpg" />
+    <!-- PHOTO GALLERY -->
+    <link rel="stylesheet" href="/common/css/jquery.lightbox-0.5.css" type="text/css" media="screen"/>
 
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="/etc/designs/nyu/clientlibs/jquery.js"></script>
 
-<meta name="twitter:site" content="@TLC" />
-<meta name="twitter:site:id" content="21313855" />
-<meta name="twitter:creator" content="@TLC" />
-<meta name="twitter:url" content="http://www.tlc.com/" />
-<meta name="twitter:title" content="TLC &quot;Schedules, Videos, Photos, Games and Sweepstakes&quot;" />
-<meta name="twitter:description" content="TLC TV network opens doors to extraordinary lives. At TLC.com, get exclusive photos and video, play games and more!" />
-<meta name="twitter:image" content="http://static.ddmcdn.com/gif/tlc-podcasts.jpg" />
+    <script type="text/javascript" src="/common/js/utils.js"></script>
 
-    <meta name="twitter:card" content="summary" />
-    <meta property="template" content="home_page/home_page" />
+    <!-- LIGHT BOX -->
+    <script type="text/javascript" src="/common/js/jquery.lightbox-0.5.js"></script>
 
+    <!-- CUFON -->
+    <script type="text/javascript" src="/common/js/cufon-yui.js"></script>
 
+    <!-- Cufon: fonts -->
+    <script type="text/javascript" src="/common/js/gothamBook.js"></script>
+    <script type="text/javascript" src="/common/js/gothamMedium.js"></script>
+    <script type="text/javascript" src="/common/js/cufonConfig.js"></script>
 
+    <!--[if IE 8]>
+        <link rel="stylesheet" href="/common/css/v60.ie8.css" type="text/css" media="screen" />
+    <![endif]-->
 
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="/common/css/v60.ie7.css" type="text/css" media="screen" />
+    <![endif]-->
 
-<script src="//cdn.optimizely.com/js/324735397.js"></script>
+    <!--[if IE 6]>
+        <link rel="stylesheet" href="/common/css/v60.ie6.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/common/js/unitpngfix.js"></script>
+        <script type="text/javascript">
+            sfHover = function() {
+                var sfEls = document.getElementById("utilities").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        </script>
+    <![endif]-->
+        <!-- Google Analytics (publisher only) -->
+        
+            <script type="text/javascript">
+ var _gaq = _gaq || [];
+ var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-1592055-1']);
+  _gaq.push(['_setDomainName', 'nyu.edu']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_addIgnoredOrganic', 'www.nyu.edu']);
+  _gaq.push(['_addIgnoredOrganic', 'nyu.edu']);
 
-
-<script language="javascript" src="http://www.uk.tlc.com/wp-content/themes/dni_wp_theme_tlc_uk/js/dni-popup-tlc.js.php"></script>
-
-
-<script> 
-    var mobile = (/iphone|ipod|android|blackberry|opera mini|opera mobi|skyfire|maemo|windows phone|palm|iemobile|symbian|symbianos|fennec/i.test(navigator.userAgent.toLowerCase()));    
-    if (mobile) {var userAgent = navigator.userAgent.toLowerCase();if ((userAgent.search("android") > -1) && (userAgent.search("mobile") > -1) || (userAgent.search("blackberry") > -1) || (userAgent.search("iphone") > -1) || (userAgent.search("ipod") > -1))            if (window.location.search.indexOf('mobile=false') > -1) {document.cookie = 'disableTLCMobile=true;path=/;max-age='+60*60*24*3+';';}else {if (document.cookie.indexOf('disableTLCMobile=true') < 0) {setTimeout(function(){window.location.replace('http://m.tlc.com?mobile=true');},100);}}}
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
-
-
-
-
-<!-- Start JS Tag / Flyover Bonus Inventory -->
-<!--script src="http://mono.vizu.com/cdn/00/00/84/38/beacon_flyover.js?vzsid=discoverydigitalmedianetwork&ord=[RANDOM]" type="text/javascript"></script -->
-<!-- End JS Tag / Flyover Bonus Inventory -->
-
-
-<title>TLC &quot;Schedules, Videos, Photos, Games and Sweepstakes&quot;</title>
-
-<link rel="shortcut icon" href="http://static.ddmcdn.com/en-us/tlc/images/ico/favicon.ico" type="image/vnd.microsoft.icon" />
-<link rel="icon" href="http://static.ddmcdn.com/en-us/tlc/images/ico/favicon.ico" type="image/x-icon" />
-<link rel="canonical" href="http://www.tlc.com/" />
-
-
-<link rel="stylesheet" href="http://static.ddmcdn.com/en-us/tlc/cache/css/19ffcdbfda6b.css" type="text/css" />
-
-    <link rel="stylesheet" href="http://static.ddmcdn.com/en-us/tlc/cache/css/707f9341f34e.css" type="text/css" />
-
-
-</head>
-
-<body  class="home-page" data-ctype="home-page">
-
-
-
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-59TBMB"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-59TBMB');</script>
-
-
-
-
-
-
-<div class="container content-wrapper">
         
-        
-    
-    <div class="row top-ad-banner-container">
-        <div class="span6 topbar-ad-unit">
-                <!-- AD : FREEWHEEL -->
-<div id="page-ad-container-bannerTop" class="ad-tag iab-leaderboard " data-admanager-position="banner" data-admanager-units="billboard,leaderboard,opaPushdown,pushdown"></div>
-                
-        </div>
-</div>
-    
-<div class="topbar">
-        <div class="logo">
-                <a href="http://www.tlc.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAAA4CAYAAADDwrcOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNTUxQjJGQzgxOEIxMUUxODg0MkUxRUU3QTYyNTNCQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFNTUxQjJGRDgxOEIxMUUxODg0MkUxRUU3QTYyNTNCQiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU1NTFCMkZBODE4QjExRTE4ODQyRTFFRTdBNjI1M0JCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU1NTFCMkZCODE4QjExRTE4ODQyRTFFRTdBNjI1M0JCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+4QKlSAAAJIVJREFUeNqsfXus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" alt="TLC" /></a>
-        </div>
-        <div class="menus">
-                <p class="company">A DISCOVERY COMPANY</p>
-                <form class="form-inline" id="search-form" action="http://www.tlc.com/search.htm">
-                        <label>SITE SEARCH</label>
-                        <input type="text" class="input-medium" name="terms" value="SEARCH" onfocus="this.value='';" />
-                        <button type="submit" class="btn">SEARCH</button>
-                </form>
-                <ul class="navigation-menus content-menu">
-                        <li><a href="http://www.tlc.com/tv-shows">shows</a></li>
-                        <li><a href="http://www.tlc.com/tv-shows/tv-schedule.htm">TV SCHEDULE</a></li>
-                        <li><a href="http://www.tlc.com/videos" class="last">videos</a></li> 
-                </ul>
-                <ul class="navigation-menus guides-menu">
-                        <li><a href="http://games.tlc.discovery.com/">games</a></li>
-                        <li><a href="http://www.tlc.com/sweepstakes.htm">sweepstakes</a></li>
-                        <li><a href="http://blogs.discovery.com/tlc-new-now/">news</a></li>
-                        <li><a href="http://www.tlc.com/brideday">BrideDay</a></li>
-                        <li><a href="http://www.tlc.com/fashion" class="last">FASHION</a></li>
-                </ul>
-        </div>
-        <div class="promotions">
-                <a class="store" href="http://store.discovery.com/?v=tlc&amp;ecid=PRF-TV1-500126&amp;pa=PRF-TV1-500126">tlc store</a>
+    </head>
+    <body>
+        <!--[if IE]>
+        <span id="screenreader_msg" class="offLeft">If you are using a Kurzweil text-to-speech reader, the <strong>Read the Web</strong> function in Firefox performs more accurately than in Internet Explorer. The Kurzweil utility was created specifically for use in Firefox. We recommend that you use Firefox.</span>
+        <![endif]-->
+        <noscript><div id="noScript">
+            <div>NYU.edu requires JavaScript be enabled in your browser in order to use important features of the site. JavaScript is either disabled or not supported by your browser. For instructions on how to enable JavaScript in your browser, <a href="http://www.nyu.edu/employees/resources-and-services/media-and-communications/digital-communications/browser-support/enable-javascript.html">click here</a>.</div>
+        </div></noscript>
 
-                
-                <div class="main-nav-section"><div id="region-selector"></div></div>
-                
-        </div>
+        <div class="adminSettings">
 </div>
 
-    
-    
-    
-    <section id="highlite-content" style="margin-top:5px;">
-<div class="row">
-        
-        <div class="span6 full-column">
-                <div class="module-right-now">
-                        
-                        <img class="thumbnail" src="http://static.ddmcdn.com/gif/lim-tweet-to-win-1-100x60.jpg" />
-                        <a href="/tv-shows/long-island-medium/games-and-more/be-theresas-guest-to-the-finale-party-sweeps.htm" class="event-click-tracking" data-track-rule="module" data-module-name="right-now" data-module-location="0" data-link-position="0">
-                                <h3 class="title">Win $$$ and Be a Long Island Medium VIP! </h3>
-                                <span class="description">Watch Sunday nights and you could win cash and a trip to the finale party!   	</span>
-                                <span class="action">Details &gt; </span>
-                        </a>
-                        
-                </div>
-        </div>
-</div>
-</section>
-    
-    
-    
-    <section id="drl-content" style="margin-top:5px;">
-    <div class="row">
+        <div id="masterContainer" class="homePage">
             
-            <div class="span6 full-column">
-                    <div class="module-drl">
-                            <div class="module-body">
-                                    <!-- slides -->
-                                    <div id="drl" class="drl-wrapper" data-location="0" data-style="auto">
-                                            <div class="drl-filmstrip">
-                                                    
-<div class="slide 1x right" data-id="10394773">
-        
-            <div class="still">
-                    <a href="/tv-shows/my-big-fat-american-gypsy-wedding" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="0" data-link-position="0"><img src="http://r.ddmcdn.com/w_668/h_375/gif/mbfagw-season-3-updated-logo-premieres-668x375.jpg" data-original="http://r.ddmcdn.com/w_668/h_375/gif/mbfagw-season-3-updated-logo-premieres-668x375.jpg" alt="star-crossed gypsy lovers" width="668" height="375" /></a>
-            </div>
-            <div class="details">
-                    <h2 class="headline"><a href="/tv-shows/my-big-fat-american-gypsy-wedding" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="0" data-link-position="1">Star-Crossed Gypsy Lovers</a></h2>
-                    
-                        <h3 class="sub-headline"><a href="/tv-shows/my-big-fat-american-gypsy-wedding" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="0" data-link-position="2">Returns Thursday 9|8c</a></h3>
-                    
-                    
-                        <p class="description">Two teens from feuding gypsy families are determined to marry.</p>
-                    
-                    
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                            <p class="promo">Watch:  <a href="/tv-shows/my-big-fat-american-gypsy-wedding/videos/blinged-to-life.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="0" data-link-position="6">Blinged to Life</a></p>
-                        
-                    
-                        
-                            <p class="promo">Look: <a href="/tv-shows/my-big-fat-american-gypsy-wedding/photos/my-big-fat-american-gypsy-wedding-pictures.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="0" data-link-position="7">Gypsy Mega Gallery</a></p>
-                        
-                    
-                    <div class="related">
-                            <h4 class="related-title">RELATED VIDEOS</h4>
-                            
-                            
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/my-big-fat-american-gypsy-wedding/videos/putting-on-this-gypsy-wedding-dress-is-too-hard.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="0" data-link-position="5">
-                                                    <img src="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/8ca4316c00b5ecc2d48e9763164da6546d3ae556_8ca4316c00b5ecc2d48e9763164da6546d3ae556.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/8ca4316c00b5ecc2d48e9763164da6546d3ae556_8ca4316c00b5ecc2d48e9763164da6546d3ae556.jpg" alt="My Big Fat American Gypsy Wedding: Putting on This Gypsy Wedding Dress Is Too Hard" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/my-big-fat-american-gypsy-wedding/videos/blinged-to-life.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="0" data-link-position="6">
-                                                    <img src="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/6fbb2462230a9568f730bfa3986620dd6d976f0d_6fbb2462230a9568f730bfa3986620dd6d976f0d.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/6fbb2462230a9568f730bfa3986620dd6d976f0d_6fbb2462230a9568f730bfa3986620dd6d976f0d.jpg" alt="Blinged to Life" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                            
-                                
-                            
-                    </div>
-            </div>
-        
-</div>
-                                                    
-<div class="slide 1x right" data-id="10394777">
-        
-            <div class="still">
-                    <a href="/tv-shows/americas-worst-tattoos" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="1" data-link-position="0"><img src="http://r.ddmcdn.com/w_668/h_375/gif/americas-worst-tattoos-no-tune-in-megan-1-668x375.jpg" data-original="http://r.ddmcdn.com/w_668/h_375/gif/americas-worst-tattoos-no-tune-in-megan-1-668x375.jpg" alt="tattooed in a bathroom" width="668" height="375" /></a>
-            </div>
-            <div class="details">
-                    <h2 class="headline"><a href="/tv-shows/americas-worst-tattoos" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="1" data-link-position="1">Tattooed in a Bathroom</a></h2>
-                    
-                        <h3 class="sub-headline"><a href="/tv-shows/americas-worst-tattoos" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="1" data-link-position="2">Thursdays 10|9c</a></h3>
-                    
-                    
-                        <p class="description">Tattoo artist Megan Massacre covers up a client&#39;s mistake with a movie star portrait.</p>
-                    
-                    
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                            <p class="promo">Watch:  <a href="/tv-shows/americas-worst-tattoos/videos/worst-tattoos-ever.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="1" data-link-position="6">Worst Tattoos Ever </a></p>
-                        
-                    
-                        
-                            <p class="promo">Look:  <a href="/tv-shows/americas-worst-tattoos/photos/americas-worst-tattoos-artist-photos.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="1" data-link-position="7">Meet the Artists</a></p>
-                        
-                    
-                    <div class="related">
-                            <h4 class="related-title">RELATED VIDEOS</h4>
-                            
-                            
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/americas-worst-tattoos/videos/biomechanical-tattoo-from-megan-massacre.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="1" data-link-position="5">
-                                                    <img src="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/29d68621f292397e3ea911ca8f598e971ef4fafb_29d68621f292397e3ea911ca8f598e971ef4fafb.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/29d68621f292397e3ea911ca8f598e971ef4fafb_29d68621f292397e3ea911ca8f598e971ef4fafb.jpg" alt="America&#39;s Worst Tattoos Ever Videos" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/americas-worst-tattoos/videos/megan-massacre-tips-and-tales-first-tattoos-and-prices.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="1" data-link-position="6">
-                                                    <img src="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/8ad5e3b121366a0471f2a6e462196c55ce030d69_8ad5e3b121366a0471f2a6e462196c55ce030d69.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/8ad5e3b121366a0471f2a6e462196c55ce030d69_8ad5e3b121366a0471f2a6e462196c55ce030d69.jpg" alt="America&#39;s Worst Tattoos: Megan Massacre Tips and Tales: First Tattoos and Prices" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                            
-                                
-                            
-                    </div>
-            </div>
-        
-</div>
-                                                    
-<div class="slide 1x right" data-id="10394795">
-        
-            <div class="still">
-                    <a href="www.tlc.com/tv-shows/hoarding-buried-alive" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="2" data-link-position="0"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_668/h_375/gif/hoarding_drl_notunein_668x375_v5.jpg" alt="double the junk" width="668" height="375" /></a>
-            </div>
-            <div class="details">
-                    <h2 class="headline"><a href="www.tlc.com/tv-shows/hoarding-buried-alive" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="2" data-link-position="1">Double the Junk</a></h2>
-                    
-                        <h3 class="sub-headline"><a href="www.tlc.com/tv-shows/hoarding-buried-alive" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="2" data-link-position="2">Wednesday at 9|8c</a></h3>
-                    
-                    
-                        <p class="description">In the season finale, a man has one month to clean up his extreme hoards or he will lose not one, but two cluttered homes.</p>
-                    
-                    
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                            <p class="promo">Watch:  <a href="/tv-shows/hoarding-buried-alive/videos/hoarders-home-tours-videos.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="2" data-link-position="6">Home Tours</a></p>
-                        
-                    
-                        
-                            <p class="promo">Pictures: <a href="/tv-shows/hoarding-buried-alive/photos/hoarding-pictures.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="2" data-link-position="7">Buried Alive</a></p>
-                        
-                    
-                    <div class="related">
-                            <h4 class="related-title">RELATED VIDEOS</h4>
-                            
-                            
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/hoarding-buried-alive/videos/this-will-never-pass-inspection.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="2" data-link-position="5">
-                                                    <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/5db277cfd8dc16a6ccb292f71ff970ddd1a2d72b_5db277cfd8dc16a6ccb292f71ff970ddd1a2d72b.jpg" alt="Hoarding: Buried Alive: We&#39;re Done For Good" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/hoarding-buried-alive/videos/how-dire-the-situation-is.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="2" data-link-position="6">
-                                                    <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/e72ae7dae4caeccafb434cf58fbca6f8de888fee_e72ae7dae4caeccafb434cf58fbca6f8de888fee.jpg" alt="Hoarding: Buried Alive: How Dire The Situation Is" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                            
-                                
-                            
-                    </div>
-            </div>
-        
-</div>
-                                                    
-<div class="slide 1x right" data-id="10394779">
-        
-            <div class="still">
-                    <a href="/tv-shows/my-600-lb-life" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="3" data-link-position="0"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_668/h_375/gif/600-lb-life-no-tune-in-2-668x375.jpg" alt="free at last?" width="668" height="375" /></a>
-            </div>
-            <div class="details">
-                    <h2 class="headline"><a href="/tv-shows/my-600-lb-life" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="3" data-link-position="1">Free at Last?</a></h2>
-                    
-                        <h3 class="sub-headline"><a href="/tv-shows/my-600-lb-life" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="3" data-link-position="2">Wednesday 8|7c </a></h3>
-                    
-                    
-                        <p class="description">A 22-year-old woman, who hasn&#39;t left her house in two years, undergoes surgery to control her weight.</p>
-                    
-                    
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                            <p class="promo">Watch:  <a href="/tv-shows/my-600-lb-life/videos/must-see-highlights.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="3" data-link-position="6">Must-See Highlights</a></p>
-                        
-                    
-                        
-                            <p class="promo">Pictures: <a href="/tv-shows/my-600-lb-life/photos/my-600-lb-life-pictures.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="3" data-link-position="7">600-lb Struggles</a></p>
-                        
-                    
-                    <div class="related">
-                            <h4 class="related-title">RELATED VIDEOS</h4>
-                            
-                            
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/my-600-lb-life/videos/7-000-calories-a-day.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="3" data-link-position="5">
-                                                    <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/e1f9311e6a07c38985b80d9778bde4a04891e6c6_e1f9311e6a07c38985b80d9778bde4a04891e6c6.jpg" alt="My 600-lb Life: 7,000 Calories a Day" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/my-600-lb-life/videos/my-600-lb-life-its-gonna-take-time.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="3" data-link-position="6">
-                                                    <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/1ffb800ab0c9d4770e3e0318b4562e564402e0ab_1ffb800ab0c9d4770e3e0318b4562e564402e0ab.jpg" alt="My 600-lb Life: It&#39;s Gonna Take Time" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                            
-                                
-                            
-                    </div>
-            </div>
-        
-</div>
-                                                    
-<div class="slide 1x right" data-id="10394796">
-        
-            <div class="still">
-                    <a href="/tv-shows/little-couple" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="4" data-link-position="0"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_668/h_375/gif/little-couple-new-season-tuesday-2-668x375.jpg" alt="full house" width="668" height="375" /></a>
-            </div>
-            <div class="details">
-                    <h2 class="headline"><a href="/tv-shows/little-couple" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="4" data-link-position="1">Full House</a></h2>
-                    
-                        <h3 class="sub-headline"><a href="/tv-shows/little-couple" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="4" data-link-position="2">Tuesdays 10|9c</a></h3>
-                    
-                    
-                        <p class="description">Life in &quot;The Little Couple&quot; household has changed dramatically since returning from India with Zoe.</p>
-                    
-                    
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                            <p class="promo">Watch:  <a href="/tv-shows/little-couple/videos/bill-jen-reflections.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="4" data-link-position="6">Jen and Bill&#39;s Reflections</a></p>
-                        
-                    
-                        
-                            <p class="promo">Look: <a href="/tv-shows/little-couple/photos/little-couple-family-photos.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="4" data-link-position="7">NEW Family Photos!</a></p>
-                        
-                    
-                    <div class="related">
-                            <h4 class="related-title">RELATED VIDEOS</h4>
-                            
-                            
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/little-couple/videos/sitting-down-like-a-family.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="4" data-link-position="5">
-                                                    <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/142bcf8f5449dc6170cb4fa976ec6cbc7c55b3ca_142bcf8f5449dc6170cb4fa976ec6cbc7c55b3ca.jpg" alt="The Little Couple: Sitting Down Like A Family" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                                    <div class="thumbnail">
-                                            <a href="/tv-shows/little-couple/videos/bonus-scene-mom-calls-an-er-doctor.htm" class="event-click-tracking" data-track-rule="module" data-module-name="drl" data-module-location="4" data-link-position="6">
-                                                    <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_147/h_84/s_n/feeds/brightcove/asset-thumbnails/tlc/66abb6aee6a1128e5a4f380c31d62765e54d281e_66abb6aee6a1128e5a4f380c31d62765e54d281e.jpg" alt="Jen and Bill&#39;s Reflections" width="147" height="84" />
-                                                    <span class="play-button-still">play</span>
-                                            </a>
-                                    </div>
-                                
-                            
-                                
-                            
-                                
-                            
-                    </div>
-            </div>
-        
-</div>
-                                            </div>
-                                    </div>
-                                    
-                                    <!-- arrows -->
-                                    <div class="drl-page drl-prev-arrow">
-                                            <a href="#" class="drl-scroll-action" data-carousel-to="prev" data-carousel-parent="drl"></a>
-                                    </div>
-                                    <div class="drl-page drl-next-arrow">
-                                            <a href="#" class="drl-scroll-action" data-carousel-to="next" data-carousel-parent="drl"></a>
-                                    </div>
-                                    
-                                    <!-- buttons -->
-                                    <nav class="drl-buttons">
-                                            <ul>
-                                                    
-<li class="drl-jump-action active" data-jump="0">&nbsp;</li>
-                                                    
-<li class="drl-jump-action " data-jump="1">&nbsp;</li>
-                                                    
-<li class="drl-jump-action " data-jump="2">&nbsp;</li>
-                                                    
-<li class="drl-jump-action " data-jump="3">&nbsp;</li>
-                                                    
-<li class="drl-jump-action " data-jump="4">&nbsp;</li>
-                                            </ul>
-                                    </nav>
-                            </div>
-                    </div>
-            </div>
-    </div>
-    </section>
-    
-    
-    
-    <section id="shows-carousel" style="margin-top:5px;">
-    <div class="row">
-            
-            <div class="span6 full-column">
-                    
+<span class="offLeft">New York University</span>
 
-<div class="module-shows-carousel">
-        <div class="module-body">
-                
-                
-                <div id="msc" class="wrapper" data-carousel-total="43" data-carousel-style="filmstrip" data-carousel-show="8" data-carousel-set="0">
-                        <div class="module-carousel-filmstrip">
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/19-kids-and-counting" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="0"><img src="http://r.ddmcdn.com/w_110/h_82/gif/19-kids-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/19-kids-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/americas-worst-tattoos" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="1"><img src="http://r.ddmcdn.com/w_110/h_82/gif/americasworsttattoos-badge-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/americasworsttattoos-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/long-island-medium" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="2"><img src="http://r.ddmcdn.com/w_110/h_82/gif/long-island-medium-badge-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/long-island-medium-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/little-couple" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="3"><img src="http://r.ddmcdn.com/w_110/h_82/gif/little-couple-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/little-couple-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-big-fat-american-gypsy-wedding" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="4"><img src="http://r.ddmcdn.com/w_110/h_82/gif/mbfagw-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/mbfagw-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-five-wives" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="5"><img src="http://r.ddmcdn.com/w_110/h_82/gif/my-five-wives-updated-badge-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/my-five-wives-updated-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/women-of-homicide" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="6"><img src="http://r.ddmcdn.com/w_110/h_82/gif/women-of-homicide-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/women-of-homicide-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/say-yes-to-the-dress" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="7"><img src="http://r.ddmcdn.com/w_110/h_82/gif/say-yes-new-badge-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/say-yes-new-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/something-borrowed-something-new" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="8"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/something-borrowed-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/90-day-fiance" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="9"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/90-day-fiance-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/alaskan-women-looking-for-love" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="10"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/alaskan-women-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/brideday" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="11"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/bride-day-badge-160x120a.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/breaking-amish" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="12"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/breaking-amish-brave-new-world-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/breaking-amish-la" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="13"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/breaking-amish-la-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/buying-naked" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="14"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/buying-naked-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/cake-boss" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="15"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/cake-boss-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/dc-cupcakes" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="16"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/dc-cupcakes-pink-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/extreme-cheapskates" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="17"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/extremecheapskates-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/extreme-couponing" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="18"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/extreme-couponing-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/four-houses" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="19"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/four-houses-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/four-weddings" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="20"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/four-weddings-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/gypsy-sisters" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="21"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/gypsy-sisters-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/here-comes-honey-boo-boo" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="22"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/honey-boo-boo-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/hoarding-buried-alive" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="23"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/hoarding-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/i-found-the-gown" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="24"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/found-gown-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/little-people-big-world" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="25"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/lpbw-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-600-lb-life" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="26"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/my-600lb-life-160x120a.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-crazy-obsession" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="27"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/my-crazy-obsession-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-first-home" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="28"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/myfirsthome_badge_160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-strange-addiction" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="29"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/my-strange-addiction-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/next-great-baker" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="30"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/next-great-baker-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/ny-ink" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="31"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/ny-ink-badge-160x120_v2.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/outrageous-911" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="32"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/outrageous-911-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/quints-by-surprise" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="33"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/quints-by-surprise-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/say-yes-to-the-dress-atlanta" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="34"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/syttd-atlanta-160x120-new.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/say-yes-to-the-dress-bridesmaids" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="35"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/syttd-bridesmaids-160x120-new.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/sex-sent-me-to-the-er" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="36"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/sex_er_badge.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/sister-wives" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="37"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/sister-wives-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/strange-sex" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="38"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/strange-sex-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/untold-stories-of-the-er-on-tlc" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="39"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/untold-stories-er-icon.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/virgin-diaries" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="40"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/virgin-diaries-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/welcome-to-myrtle-manor" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="41"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/myrtle-manor-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/who-do-you-think-you-are" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="42"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/wdytya-badge-tm160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                        </div>
-                </div>
-                
-                
-                
-                <div class="navigation-condensed previous">
-                        <a href="#" class="carousel-scroll-action" data-carousel-to="prev" data-carousel-parent="msc"></a>
-                </div>
-                <div class="navigation-condensed next">
-                        <a href="#" class="carousel-scroll-action" data-carousel-to="next" data-carousel-parent="msc"></a>
-                </div>
-                
-                
-        </div>
+<!-- JUMP LINKS -->
+<a class="offLeft" href="#contentWrapper">Skip to Content</a>
+<a class="offLeft" href="#searchField">Skip to Search</a>
+
+<!-- BEGIN HEADER CONTAINER -->
+	<div id="headerContainer">	
+		
+		<!-- BEGIN UTILITIES CONTAINER -->
+		<div class="utilsContainer">			
+			<div id="utilities" class="utils">
+				<!-- ROLES -->			
+				<div class="nyuRoles">
+			<!-- ROLES -->
+			<div class="login">
+			 <p>
+			     <a href="http://home.nyu.edu">NYUHome Login</a>
+			 </p>
+			</div>
+			<div class="utilsLeft"></div>
+			<p class="utilsLinks">
+					<a href="/content/nyu/en/students.html">Students</a>									<span class="utilsPipe">|</span>
+<a href="/content/nyu/en/faculty.html">Faculty</a>									<span class="utilsPipe">|</span>
+<a href="/content/nyu/en/alumni.html">Alumni</a>									<span class="utilsPipe">|</span>
+<a href="/content/nyu/en/employees.html">Employees</a>									<span class="utilsPipe">|</span>
+<a href="/content/nyu/en/community.html">Community</a>
+			
+            </p><div class="utilsRight"></div><!--end .utilsLinks--></div>
+			
+			
+				<!-- DROP DOWNS -->
+				<div class="nyuDropdowns">
+<ul id="dropDowns">
+<li id="schools">
+    <a class="downArrow" href="">Schools</a>
+    <ul>
+        <li class="bg first"><a href="http://as.nyu.edu">Arts and Science</a></li>
+        <li class=""><a href="http://cas.nyu.edu">College of Arts and Science</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/dental/">College of Dentistry</a></li>
+        <li class=""><a href="http://nursing.nyu.edu/">College of Nursing</a></li>
+        <li class="bg"><a href="http://www.cims.nyu.edu/">Courant Institute of Mathematical Sciences</a></li>
+        <li class=""><a href="http://gallatin.nyu.edu/">Gallatin School of Individualized Study</a></li>
+        <li class="bg"><a href="http://gsas.nyu.edu">Graduate School of Arts and Science</a></li>
+        <li class=""><a href="http://www.nyu.edu/gsas/dept/fineart/">Institute of Fine Arts</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/isaw/">Institute for the Study of the Ancient World</a></li>
+        <li class=""><a href="http://www.stern.nyu.edu/">Leonard N. Stern School of Business</a></li>
+        <li class=""><a href="http://www.liberalstudies.nyu.edu/">Liberal Studies Program</a></li>
+        <li class="bg"><a href="http://nyuad.nyu.edu/">NYU Abu Dhabi</a></li>
+        <li class=""><a href="http://shanghai.nyu.edu">NYU Shanghai</a></li>
+        <li class="bg"><a href="http://www.poly.edu/">Polytechnic School of Engineering</a></li>
+        <li class=""><a href="http://wagner.nyu.edu/">Robert F. Wagner Graduate School of Public Service</a></li>
+        <li class="bg"><a href="http://www.scps.nyu.edu/">School of Continuing and Professional Studies</a></li>
+        <li class=""><a href="http://www.law.nyu.edu/">School of Law</a></li>
+        <li class="bg"><a href="http://school.med.nyu.edu/">School of Medicine</a></li>
+        <li class=""><a href="http://www.nyu.edu/socialwork/">Silver School of Social Work</a></li>
+        <li class="bg"><a href="http://steinhardt.nyu.edu/">Steinhardt School of Culture, Education, and Human Development</a></li>
+        <li class=""><a href="http://www.tisch.nyu.edu/">Tisch School of the Arts</a></li>
+    </ul>
+</li>
+
+
+<li id="quickLinks">
+    <a class="downArrow" href="">QuickLinks</a>
+    <ul>
+        <li class="bg first"><a href="http://www.nyu.edu/registrar/calendars/">Academic Calendars</a></li>
+        <li class=""><a href="http://www.nyu.edu/about/leadership-university-administration.html">Administrative Units</a></li>
+        <li class="bg"><a href="http://home.nyu.edu/academics/">Albert</a></li>
+        <li class=""><a href="http://www.nyu.edu/about/working-at-nyu/apply-for-jobs.html">Apply for Jobs</a></li>
+        <li class="bg"><a href="http://www.gonyuathletics.com/">Athletics</a></li>
+        <li class=""><a href="http://www.bookstores.nyu.edu/">Bookstores</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/bursar">Bursar</a></li>
+        <li class=""><a href="http://www.nyu.edu/footer/map.html">Campus Map</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/life/resources-and-services/employment-and-careerdevelopment.html">Career Development</a></li>
+        <li class=""><a href="http://www.nyu.edu/life/safety-health-andwellness/info-alerts.html">Emergencies</a></li>
+        <li class="bg"><a href="http://events.nyu.edu/">Events</a></li>
+        <li class=""><a href="http://www.nyu.edu/giving/">Giving to NYU</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/life/living-at-nyu.html">Housing</a></li>
+        <li class=""><a href="http://www.nyu.edu/its/">ITS</a></li>
+        <li class="bg"><a href="http://library.nyu.edu/">Libraries</a></li>
+        <li class=""><a href="http://www.nyu.edu/about/news-publications/news.html">News</a></li>
+        <li class="bg"><a href="http://nyubook.collegestoreonline.com/">NYU Apparel</a></li>
+        <li class=""><a href="http://www.nyu.edu/about/policies-guidelines-compliance.html">Policies</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/public.safety/">Public Safety</a></li>
+        <li class=""><a href="http://www.nyu.edu/registrar/">Registrar</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/shc/">Student Health Center</a></li>
+        <li class=""><a href="http://www.nyu.edu/life/resources-and-services.html">Student Resources</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/999/">Wellness Exchange</a></li>
+    </ul>
+</li>
+
+
+<li id="az">
+    <a class="downArrow" href="">A-Z</a>
+
+    <ul id="azlist">
+        <li class="bg first"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=A">A</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=B">B</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=C">C</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=D">D</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=E">E</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=F">F</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=G">G</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=H">H</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=I">I</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=J">J</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=K">K</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=L">L</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=M">M</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=N">N</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=O">O</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=P">P</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=Q">Q</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=R">R</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=S">S</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=T">T</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=U">U</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=V">V</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=W">W</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=X">X</a></li>
+        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=Y">Y</a></li>
+        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=Z">Z</a></li>
+    </ul>
+</li>
+
+</ul></div>
+					
+			</div>
+			<!-- END UTILS (center) -->									
+		</div>
+		<!-- END UTILITIES CONTAINER -->
+
+
+		<!-- BEGIN NYU LOGO AND SEARH BOX -->
+		<div class="nyuLogoContainer">			
+			<!-- LOGO -->
+			<div class="nyuTorchLogo">
+<div class="nyuLogo" title="New York University Homepage"><a href="/nyu/en.html"><span class="offLeft">New York University</span></a></div></div>
+
+			
+			<!-- SEARCH -->
+			<div class="nyuSearch">
+<form id="searchForm" action="/content/nyu/en/search.html" method="get">
+<div id="searchBar">					
+	<label for="searchField" class="offLeft">Search NYU</label>
+	<input type="text" id="searchField" name="search" value="Search..." />					
 </div>
 
-            </div>
-    </div>
-    </section>
-    
-    
-    
-    
-    
-    
-<section id="schedule-content" style="margin-top:5px;">
-<div class="row">
-        
-        <div class="span6 full-column">
-                <div class="module-tv-now">
-                        <h2 class="bar">What's On TLC</h2>
-                        <div class="module-tabs">
-                                <span class="now">now!</span>
-                                <span class="primetime active">primetime</span>
-                                <span class="full-schedule"><a href="http://www.tlc.com/tv-shows/tv-schedule.htm">Full Schedule</a></span>
-                        </div>
-                        <div class="module-body now-schedule-data">
-                                
-                                
-                                
-                                <div class="show" >
-                                        <p class="airing">9:00 PM</p>
-                                        <p class="title">Hoarding: Buried Alive</p>
-                                </div>
-                                
-                                <div class="show" >
-                                        <p class="airing">10:00 PM</p>
-                                        <p class="title">Dr. G: Inside the Caylee Anthony Case</p>
-                                </div>
-                                
-                                <div class="show" >
-                                        <p class="airing">11:00 PM</p>
-                                        <p class="title">Hoarding: Buried Alive</p>
-                                </div>
-                                
-                                <div class="show" >
-                                        <p class="airing">12:00 AM</p>
-                                        <p class="title">Dr. G: Inside the Caylee Anthony Case</p>
-                                </div>
-                                
-                                <div class="show" >
-                                        <p class="airing">1:00 AM</p>
-                                        <p class="title">My 600-lb Life</p>
-                                </div>
-                                
-                                <div class="show" style="margin-right:0;">
-                                        <p class="airing">2:00 AM</p>
-                                        <p class="title">The Little Couple</p>
-                                </div>
-                                
-                        </div>
-                        <div class="module-body primetime-schedule-data">
-                                
-                                
-                                
-                                <div class="show" >
-                                        <p class="airing">8:00 PM</p>
-                                        <p class="title">My 600-lb Life</p>
-                                </div>
-                                
-                                <div class="show" >
-                                        <p class="airing">9:00 PM</p>
-                                        <p class="title">Hoarding: Buried Alive</p>
-                                </div>
-                                
-                                <div class="show" >
-                                        <p class="airing">10:00 PM</p>
-                                        <p class="title">Dr. G: Inside the Caylee Anthony Case</p>
-                                </div>
-                                
-                                <div class="show" >
-                                        <p class="airing">11:00 PM</p>
-                                        <p class="title">Hoarding: Buried Alive</p>
-                                </div>
-                                
-                                <div class="show" >
-                                        <p class="airing">12:00 AM</p>
-                                        <p class="title">Dr. G: Inside the Caylee Anthony Case</p>
-                                </div>
-                                
-                                <div class="show" style="margin-right:0;">
-                                        <p class="airing">1:00 AM</p>
-                                        <p class="title">My 600-lb Life</p>
-                                </div>
-                                
-                        </div>
-                </div>
-        </div>
-</div>
-</section>
+<button id="searchBtn" type="submit"></button>
 
-    
-    
-    
-    <section id="editorial-content">
-    <div class="row">
-            
-            <div class="span4 left-column">
-                    
-                    
-
-<h1 class="bar">Now on TLC.com</h1>
-        
-            
-<article>
-        <figure>
-                <a href="http://blogs.discovery.com/tlc-new-now/2014/04/ls-daa-touching-april-fooy-prank-that-will-make-you-grab-your-hanky.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="0">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/gif/waiter-secrets1-250x150.jpg" class="load-images-onready " alt="An April Fools&#39; Day Prank That Will Warm Your Heart" title="An April Fools&#39; Day Prank That Will Warm Your Heart" width="250" height="150" />
-                        
-                </a>
-        </figure>
-        <header>
-                <h2><a href="http://blogs.discovery.com/tlc-new-now/2014/04/ls-daa-touching-april-fooy-prank-that-will-make-you-grab-your-hanky.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="0">An April Fools&#39; Day Prank That Will Warm Your Heart</a></h2>
-                <p>Watch do-gooder waitress Chelsea Roth get pranked in the best way possible.
-</p>                
-                <a href="http://blogs.discovery.com/tlc-new-now/2014/04/ls-daa-touching-april-fooy-prank-that-will-make-you-grab-your-hanky.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="0">Watch Now &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/women-of-homicide/videos/homicide-puppy-break.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="1">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/s_n/feeds/brightcove/asset-stills/tlc/139629192589214465000301197_WOH_SB_WEB_Puppies.jpg" class="load-images-onready video-asset" alt="Homicide Puppy Break" title="Homicide Puppy Break" width="250" height="150" />
-                        <span class="play-video">Play</span>
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/women-of-homicide/videos/homicide-puppy-break.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="1">Homicide Puppy Break</a></h2>
-                <p>One of the &quot;Women of Homicide&quot; takes a break from an intense day at work by visiting the Atlanta Humane Society. Don&#39;t miss the premiere April 9th!</p>                
-                <a href="/tv-shows/women-of-homicide/videos/homicide-puppy-break.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="1">Watch Now &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="http://blogs.discovery.com/tlc-new-now/2014/04/tlc-is-committed-to-new-relationship-and-bridal-series.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="2">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/gif/alan-and-kirlyam-250x150.jpg" class="load-images-onready " alt="Big News: More Love Coming to TLC" title="Big News: More Love Coming to TLC" width="250" height="150" />
-                        
-                </a>
-        </figure>
-        <header>
-                <h2><a href="http://blogs.discovery.com/tlc-new-now/2014/04/tlc-is-committed-to-new-relationship-and-bridal-series.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="2">Big News: More Love Coming to TLC</a></h2>
-                <p>TLC is vowing to bring back some of its most popular relationship and bridal series -- and is courting some new ones.
-
-
-</p>                
-                <a href="http://blogs.discovery.com/tlc-new-now/2014/04/tlc-is-committed-to-new-relationship-and-bridal-series.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="2">Get the Scoop&gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/19-kids-and-counting/videos/courtships-a-wedding-and-more.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="3">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/s_n/feeds/brightcove/asset-stills/tlc/139603183316514463100100197_Dug_801_Supertease.jpg" class="load-images-onready video-asset" alt="&#39;19 Kids &amp; Counting&#39;: Courtship, Side Hugs and A New Baby?" title="&#39;19 Kids &amp; Counting&#39;: Courtship, Side Hugs and A New Baby?" width="250" height="150" />
-                        <span class="play-video">Play</span>
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/19-kids-and-counting/videos/courtships-a-wedding-and-more.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="3">&#39;19 Kids &amp; Counting&#39;: Courtship, Side Hugs and A New Baby?</a></h2>
-                <p>The Duggars are back with courtships, a wedding and much more. </p>                
-                <a href="/tv-shows/19-kids-and-counting/videos/courtships-a-wedding-and-more.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="3">Watch Now &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/my-big-fat-american-gypsy-wedding/games-and-more/blingtastic-gypsy-dress-poll.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="4">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/gif/my-big-fat-american-gypsy-wedding-250x150.jpg" class="load-images-onready " alt="What&#39;s the Most Blingtastic Gypsy Dress?" title="What&#39;s the Most Blingtastic Gypsy Dress?" width="250" height="150" />
-                        
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/my-big-fat-american-gypsy-wedding/games-and-more/blingtastic-gypsy-dress-poll.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="4">What&#39;s the Most Blingtastic Gypsy Dress?</a></h2>
-                <p>Vote for your favorite blinged-out gown from &quot;My Big Fat American Gypsy Wedding&quot; now and don&#39;t miss the premiere Thursday night!</p>                
-                <a href="/tv-shows/my-big-fat-american-gypsy-wedding/games-and-more/blingtastic-gypsy-dress-poll.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="4">Take the Poll &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/my-600-lb-life/photos" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="5">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/gif/my-600lb-life-204-christina-250x150.jpg" class="load-images-onready " alt="Walk a Mile in Their Shoes" title="Walk a Mile in Their Shoes" width="250" height="150" />
-                        
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/my-600-lb-life/photos" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="5">Walk a Mile in Their Shoes</a></h2>
-                <p>See shocking and solemn pictures of the individuals featured on TLC&#39;s &quot;My 600-lb Life.&quot;</p>                
-                <a href="/tv-shows/my-600-lb-life/photos" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="5">Take a Look &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/my-600-lb-life/videos/7-000-calories-a-day.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="6">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/s_n/feeds/brightcove/asset-stills/tlc/139145905709014314200801197_M6L_EP205_Christina_clip04.jpg" class="load-images-onready video-asset" alt="7,000 Calories a Day!" title="7,000 Calories a Day!" width="250" height="150" />
-                        <span class="play-video">Play</span>
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/my-600-lb-life/videos/7-000-calories-a-day.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="6">7,000 Calories a Day!</a></h2>
-                <p>See how food pushers were enabling this overweight woman to consume more than three times the calories she should.
-</p>                
-                <a href="/tv-shows/my-600-lb-life/videos/7-000-calories-a-day.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="6">Watch Now &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/long-island-medium/games-and-more/be-theresas-guest-to-the-finale-party-sweeps.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="7">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/gif/140498_lim_finale_large_banner_250x1501.jpg" class="load-images-onready " alt="Win $$$ and Be a Long Island Medium VIP!  " title="Win $$$ and Be a Long Island Medium VIP!  " width="250" height="150" />
-                        
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/long-island-medium/games-and-more/be-theresas-guest-to-the-finale-party-sweeps.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="7">Win $$$ and Be a Long Island Medium VIP!  </a></h2>
-                <p>Watch Sunday nights and you could win cash and a trip to the finale party to meet Theresa!   
-
-
-
-</p>                
-                <a href="/tv-shows/long-island-medium/games-and-more/be-theresas-guest-to-the-finale-party-sweeps.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="7">Details &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/americas-worst-tattoos/videos/megan-massacre-tips-and-tales-first-tattoos-and-prices.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="8">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/s_n/feeds/brightcove/asset-stills/tlc/139569874899214458100101197_Megan_Massacre.jpg" class="load-images-onready video-asset" alt="Don&#39;t Make These Tattoo Mistakes" title="Don&#39;t Make These Tattoo Mistakes" width="250" height="150" />
-                        <span class="play-video">Play</span>
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/americas-worst-tattoos/videos/megan-massacre-tips-and-tales-first-tattoos-and-prices.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="8">Don&#39;t Make These Tattoo Mistakes</a></h2>
-                <p>Megan Massacre of &quot;America&#39;s Worst Tattoos&quot; shares all the do&#39;s and don&#39;ts of getting your first tattoo. Don&#39;t miss new episodes Thursday nights! </p>                
-                <a href="/tv-shows/americas-worst-tattoos/videos/megan-massacre-tips-and-tales-first-tattoos-and-prices.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="8">Watch Now &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/ny-ink/games-and-more/share-your-ink.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="9">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/gif/25-ny-ink-season-1-tattoos-250x150.jpg" class="load-images-onready " alt="Do You Have One of &#39;America&#39;s Worst Tattoos&#39;?" title="Do You Have One of &#39;America&#39;s Worst Tattoos&#39;?" width="250" height="150" />
-                        
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/ny-ink/games-and-more/share-your-ink.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="9">Do You Have One of &#39;America&#39;s Worst Tattoos&#39;?</a></h2>
-                <p>If you have a tattoo you wish you didn&#39;t, share it here! You could be selected for a do-over. 
-
-</p>                
-                <a href="/tv-shows/ny-ink/games-and-more/share-your-ink.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="9">Share Yours &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="http://blogs.discovery.com/tlc-new-now/2014/04/why-is-johnny-depp-wearing-amber-heards-engagement-ring.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="10">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/gif/johnny-depp-ring-250x150.jpg" class="load-images-onready " alt="Why is Johnny Depp Wearing a Man-gagement Ring?" title="Why is Johnny Depp Wearing a Man-gagement Ring?" width="250" height="150" />
-                        
-                </a>
-        </figure>
-        <header>
-                <h2><a href="http://blogs.discovery.com/tlc-new-now/2014/04/why-is-johnny-depp-wearing-amber-heards-engagement-ring.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="10">Why is Johnny Depp Wearing a Man-gagement Ring?</a></h2>
-                <p>He&#39;s known for being eccentric, but his newest fashion statement has us scratching our heads.</p>                
-                <a href="http://blogs.discovery.com/tlc-new-now/2014/04/why-is-johnny-depp-wearing-amber-heards-engagement-ring.html" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="10">Read More &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/little-couple/videos/bonus-scene-mom-calls-an-er-doctor.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="11">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/s_n/feeds/brightcove/asset-stills/tlc/139568339514814152402701197_LC_611_bonus.jpg" class="load-images-onready video-asset" alt="&#39;Little Couple&#39; Jen Has a Classic Mom Moment" title="&#39;Little Couple&#39; Jen Has a Classic Mom Moment" width="250" height="150" />
-                        <span class="play-video">Play</span>
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/little-couple/videos/bonus-scene-mom-calls-an-er-doctor.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="11">&#39;Little Couple&#39; Jen Has a Classic Mom Moment</a></h2>
-                <p>Jen, like any mom, is extra cautious when Zoe hits her head. See how she keeps her cool and don&#39;t miss new episodes Tuesday nights!</p>                
-                <a href="/tv-shows/little-couple/videos/bonus-scene-mom-calls-an-er-doctor.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="11">Watch Now &gt;</a>
-        </header>
-</article>
-            
-<article>
-        <figure>
-                <a href="/tv-shows/little-couple/games-and-more/little-couple-puzzles.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="12">
-                        <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_250/h_150/gif/little-couple-puzzles-250x150.jpg" class="load-images-onready " alt="How Quickly Can You Solve This &#39;Little Couple&#39; Puzzle?" title="How Quickly Can You Solve This &#39;Little Couple&#39; Puzzle?" width="250" height="150" />
-                        
-                </a>
-        </figure>
-        <header>
-                <h2><a href="/tv-shows/little-couple/games-and-more/little-couple-puzzles.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="12">How Quickly Can You Solve This &#39;Little Couple&#39; Puzzle?</a></h2>
-                <p>Assemble the puzzle pieces to reveal a photo of Bill and Jen from &quot;The Little Couple&quot;.</p>                
-                <a href="/tv-shows/little-couple/games-and-more/little-couple-puzzles.htm" class="event-click-tracking" data-track-rule="module" data-module-name="homepage-content-well" data-module-location="0" data-link-position="12">Try Now &gt;</a>
-        </header>
-</article>
-
-
-
-            </div>
+<ul id="searchTypes" style="display:none;">
+	<li><a class="searchTypeSelected" href="/content/nyu/en/search.html">Pages</a><span class="searchTypePipe">|</span></li>
+	<li><a href="/content/nyu/en/search.directory.html">People</a></li>
+</ul>					
+</form></div>
+			
+		</div>
+		<!-- END NYU LOGO AND SEARH BOX -->
+		
+	</div>
+<!-- END HEADER CONTAINER -->
             
             
-            <div class="span2 rail-column">
-                    <div class="column-wrapper">
-                            
-                            <div class="module-advertisement module-bottom-buffer">
-                                    <div class="module-body">
-                                            <!-- AD : FREEWHEEL -->
-<div id="page-ad-container-rectangleRailTop" class="ad-tag iab-rectangle " data-admanager-position="rectangle" data-admanager-units="mediumRectangle"></div>
-                                            
-                                            <div class="advertisment-slug">ADVERTISEMENT</div>
-                                    </div>
-                            </div>
 
-                                                        
-                            <aside id="social-media-links">
-        <h2 class="bar">Follow TLC</h2>
-        <ul>
-            <li><a href="http://www.facebook.com/TLC" target="_blank"><span class="facebook">TLC on Facebook</span></a></li>
-            <li><a href="http://www.twitter.com/tlc" target="_blank"><span class="twitter">TLC on Twitter</span></a></li>
-            <li><a href="http://pinterest.com/tlc/" target="_blank"><span class="pintrest">TLC on Pintrest</span></a></li>
-            <li><a href="http://www.youtube.com/user/TLC" target="_blank"><span class="youtube">TLC on YouTube</span></a></li>
-            <li><a href="http://www.tlc.com/tv-shows/tlc-newsletters.htm"><span class="email">TLC by Email</span></a></li>
-        </ul>
-</aside>
-                            
-                            
-                            
-
-<aside id="popular-videos-today">
-        <h2 class="bar">Popular Videos Today</h2>
-        <figure id="popular-video-image">
-                
-                <a href="/tv-shows/19-kids-and-counting/videos/courtships-a-wedding-and-more.htm" id="popular-video-thumb-1" class="event-click-tracking active" data-track-rule="module" data-module-name="" data-module-location="0" data-link-position="0">
-                    <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_301/h_170/s_n/feeds/brightcove/asset-stills/tlc/139603183316514463100100197_Dug_801_Supertease.jpg" alt="19 Kids and Counting: Courtships, a Wedding and More" title="19 Kids and Counting: Courtships, a Wedding and More" class="load-images-onready"  width="301" height="170" />
-                    <span class="play-video">Play</span>
-                </a>
-                
-                <a href="/tv-shows/little-couple/videos/bill-jen-reflections.htm" id="popular-video-thumb-2" class="event-click-tracking" data-track-rule="module" data-module-name="" data-module-location="0" data-link-position="1">
-                    <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_301/h_170/s_n/feeds/brightcove/asset-stills/tlc/139638720186114452800501197_TypicalDay.jpg" alt="Jen and Bill&#39;s Reflections" title="Jen and Bill&#39;s Reflections" class="load-images-onready"  width="301" height="170" />
-                    <span class="play-video">Play</span>
-                </a>
-                
-                <a href="/tv-shows/little-couple/videos/what-is-it-like-to-lose-your-hair.htm" id="popular-video-thumb-3" class="event-click-tracking" data-track-rule="module" data-module-name="" data-module-location="0" data-link-position="2">
-                    <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_301/h_170/s_n/feeds/brightcove/asset-stills/tlc/139526336551414452800201197_Reflections_Wig.jpg" alt="The Little Couple: What Is It Like To Lose Your Hair?" title="The Little Couple: What Is It Like To Lose Your Hair?" class="load-images-onready"  width="301" height="170" />
-                    <span class="play-video">Play</span>
-                </a>
-                
-                <a href="/tv-shows/19-kids-and-counting/videos/michelle-duggar-video-blog.htm" id="popular-video-thumb-4" class="event-click-tracking" data-track-rule="module" data-module-name="" data-module-location="0" data-link-position="3">
-                    <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_301/h_170/s_n/feeds/brightcove/asset-stills/tlc/139595277289214018601901197_19KIDS_MICHELLESTAKES_MODESTY.jpg" alt="Michelle Duggar&#39;s Take Video Blog" title="Michelle Duggar&#39;s Take Video Blog" class="load-images-onready"  width="301" height="170" />
-                    <span class="play-video">Play</span>
-                </a>
-                
-                <a href="/tv-shows/19-kids-and-counting/videos/michelles-take-modesty-and-courtship.htm" id="popular-video-thumb-5" class="event-click-tracking" data-track-rule="module" data-module-name="" data-module-location="0" data-link-position="4">
-                    <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_301/h_170/s_n/feeds/brightcove/asset-stills/tlc/139628834684519KIDS_MICHELLESTAKES_MODESTY.jpg" alt="19 Kids and Counting: Michelle&#39;s Take: Modesty and Courtship" title="19 Kids and Counting: Michelle&#39;s Take: Modesty and Courtship" class="load-images-onready"  width="301" height="170" />
-                    <span class="play-video">Play</span>
-                </a>
-                
-                <a href="/tv-shows/little-couple/videos/bonus-scene-mom-calls-an-er-doctor.htm" id="popular-video-thumb-6" class="event-click-tracking" data-track-rule="module" data-module-name="" data-module-location="0" data-link-position="5">
-                    <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_301/h_170/s_n/feeds/brightcove/asset-stills/tlc/139568339514814152402701197_LC_611_bonus.jpg" alt="The Little Couple: Bonus Scene: Mom Calls An ER Doctor" title="The Little Couple: Bonus Scene: Mom Calls An ER Doctor" class="load-images-onready"  width="301" height="170" />
-                    <span class="play-video">Play</span>
-                </a>
-                
-                <a href="/tv-shows/19-kids-and-counting/videos/double-date-with-the-parents.htm" id="popular-video-thumb-7" class="event-click-tracking" data-track-rule="module" data-module-name="" data-module-location="0" data-link-position="6">
-                    <img src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_301/h_170/s_n/feeds/brightcove/asset-stills/tlc/139636950943914463100301197_Double.jpg" alt="19 Kids and Counting: Double Date With the Parents" title="19 Kids and Counting: Double Date With the Parents" class="load-images-onready"  width="301" height="170" />
-                    <span class="play-video">Play</span>
-                </a>
-                                
-        </figure>
-        <ul>
             
-            <li data-img-count="1" class="active">19 Kids and Counting: Courtships, a Wedding and More</li>
-            
-            <li data-img-count="2">The Little Couple: Jen and Bill&#39;s Reflections</li>
-            
-            <li data-img-count="3">The Little Couple: What Is It Like To Lose Your Hair?</li>
-            
-            <li data-img-count="4">19 Kids and Counting: Michelle Duggar&#39;s Take Video Blog</li>
-            
-            <li data-img-count="5">19 Kids and Counting: Michelle&#39;s Take: Modesty and Courtship</li>
-            
-            <li data-img-count="6">The Little Couple: Bonus Scene: Mom Calls An ER Doctor</li>
-            
-            <li data-img-count="7">19 Kids and Counting: Double Date With the Parents</li>
-            
-        </ul>
-        <a href="/videos"  class="event-click-tracking view-all" data-track-rule="module" data-module-name="" data-module-location="0" data-link-position="8">View All Popular Videos &gt;</a>
-</aside>
-                            
-                            
-                            <aside id="clickable-image">
-        
-            
-            <a href="/tv-shows/tlc-casting-call.htm" class="event-click-tracking" data-track-rule="module" data-module-name="clickable-image" data-module-location="0" data-link-position="0">
-                    <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://static.ddmcdn.com/gif/next-tlc-star-326.jpg" alt="Casting Call" title="Casting Call" />
-            </a>
-            
-        
-</aside>
-                            
-                            
-                            
-
-<aside id="top-games">
-        <h2 class="bar">Top Games </h2>
-        <section>
-                <ol>
-                
-                    
-                        <li>
-                                <a href="/games-quizzes/raindrops-game.htm" class="event-click-tracking" data-track-rule="module" data-module-name="Top Games" data-module-location="0" data-link-position="0">
-                                        <figure>
-                                            <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_100/h_60/gif/raindrops-game-100x60.jpg" alt="Raindrops " title="Raindrops " width="100" height="60" />
-                                            <figcaption>Raindrops </figcaption>
-                                        </figure>
-                                </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                                <a href="/games-quizzes/lost-in-migration-game.htm" class="event-click-tracking" data-track-rule="module" data-module-name="Top Games" data-module-location="0" data-link-position="1">
-                                        <figure>
-                                            <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_100/h_60/gif/lost-in-migration-game-100x60.jpg" alt="Lost in Migration " title="Lost in Migration " width="100" height="60" />
-                                            <figcaption>Lost in Migration </figcaption>
-                                        </figure>
-                                </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                                <a href="/games-quizzes/speed-match-game.htm" class="event-click-tracking" data-track-rule="module" data-module-name="Top Games" data-module-location="0" data-link-position="2">
-                                        <figure>
-                                            <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_100/h_60/gif/speed-match-game-100x60.jpg" alt="Speed Match " title="Speed Match " width="100" height="60" />
-                                            <figcaption>Speed Match </figcaption>
-                                        </figure>
-                                </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                                <a href="/games-quizzes/memory-matrix-game.htm" class="event-click-tracking" data-track-rule="module" data-module-name="Top Games" data-module-location="0" data-link-position="3">
-                                        <figure>
-                                            <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_100/h_60/gif/memory-matrix-game-100x60.jpg" alt="Memory Matrix " title="Memory Matrix " width="100" height="60" />
-                                            <figcaption>Memory Matrix </figcaption>
-                                        </figure>
-                                </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                                <a href="/games-quizzes/word-bubbles-game.htm" class="event-click-tracking" data-track-rule="module" data-module-name="Top Games" data-module-location="0" data-link-position="4">
-                                        <figure>
-                                            <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_100/h_60/gif/word-bubbles-game-100x60.jpg" alt="Word Bubbles " title="Word Bubbles " width="100" height="60" />
-                                            <figcaption>Word Bubbles </figcaption>
-                                        </figure>
-                                </a>
-                        </li>
-                    
-                
-                </ol>
-        </section>
-        <a href="" class="view-all"></a>
-</aside>
-                            
-                            
-                            <aside id="clickable-image">
-        
-            
-            <a href="http://store.discovery.com/cake-boss/index.php?v=tlc_shows_cake-boss&amp;nvbar=Shows:Cake+Boss&amp;ecid=PRF-TLC-500307&amp;pa=PRF-TLC-500307" class="event-click-tracking" data-track-rule="module" data-module-name="clickable-image" data-module-location="0" data-link-position="0">
-                    <img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://static.ddmcdn.com/gif/cakeboss-v2-326x290.jpg" alt="TLC Store" title="TLC Store" />
-            </a>
-            
-        
-</aside>
-                            
-                            
-                            
-                    </div>
-            </div>
-    </div>
-    </section>
-    
-    
-    
-    <section id="modular-content" style="margin-top:10px;">
-    <div class="row">
-            
-            <div class="span6 full-column">
-                    
-
-<div class="module-shows-carousel">
-        <div class="module-body">
-                
-                
-                <div id="msc" class="wrapper" data-carousel-total="43" data-carousel-style="filmstrip" data-carousel-show="8" data-carousel-set="0">
-                        <div class="module-carousel-filmstrip">
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/19-kids-and-counting" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="0"><img src="http://r.ddmcdn.com/w_110/h_82/gif/19-kids-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/19-kids-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/americas-worst-tattoos" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="1"><img src="http://r.ddmcdn.com/w_110/h_82/gif/americasworsttattoos-badge-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/americasworsttattoos-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/long-island-medium" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="2"><img src="http://r.ddmcdn.com/w_110/h_82/gif/long-island-medium-badge-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/long-island-medium-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/little-couple" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="3"><img src="http://r.ddmcdn.com/w_110/h_82/gif/little-couple-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/little-couple-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-big-fat-american-gypsy-wedding" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="4"><img src="http://r.ddmcdn.com/w_110/h_82/gif/mbfagw-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/mbfagw-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-five-wives" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="5"><img src="http://r.ddmcdn.com/w_110/h_82/gif/my-five-wives-updated-badge-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/my-five-wives-updated-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/women-of-homicide" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="6"><img src="http://r.ddmcdn.com/w_110/h_82/gif/women-of-homicide-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/women-of-homicide-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/say-yes-to-the-dress" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="7"><img src="http://r.ddmcdn.com/w_110/h_82/gif/say-yes-new-badge-160x120.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/say-yes-new-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/something-borrowed-something-new" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="8"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/something-borrowed-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/90-day-fiance" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="9"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/90-day-fiance-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/alaskan-women-looking-for-love" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="10"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/alaskan-women-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/brideday" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="11"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/bride-day-badge-160x120a.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/breaking-amish" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="12"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/breaking-amish-brave-new-world-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/breaking-amish-la" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="13"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/breaking-amish-la-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/buying-naked" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="14"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/buying-naked-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/cake-boss" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="15"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/cake-boss-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/dc-cupcakes" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="16"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/dc-cupcakes-pink-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/extreme-cheapskates" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="17"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/extremecheapskates-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/extreme-couponing" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="18"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/extreme-couponing-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/four-houses" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="19"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/four-houses-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/four-weddings" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="20"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/four-weddings-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/gypsy-sisters" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="21"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/gypsy-sisters-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/here-comes-honey-boo-boo" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="22"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/honey-boo-boo-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/hoarding-buried-alive" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="23"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/hoarding-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/i-found-the-gown" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="24"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/found-gown-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/little-people-big-world" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="25"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/lpbw-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-600-lb-life" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="26"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/my-600lb-life-160x120a.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-crazy-obsession" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="27"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/my-crazy-obsession-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-first-home" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="28"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/myfirsthome_badge_160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/my-strange-addiction" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="29"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/my-strange-addiction-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/next-great-baker" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="30"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/next-great-baker-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/ny-ink" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="31"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/ny-ink-badge-160x120_v2.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/outrageous-911" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="32"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/outrageous-911-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/quints-by-surprise" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="33"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/quints-by-surprise-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/say-yes-to-the-dress-atlanta" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="34"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/syttd-atlanta-160x120-new.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/say-yes-to-the-dress-bridesmaids" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="35"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/syttd-bridesmaids-160x120-new.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/sex-sent-me-to-the-er" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="36"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/sex_er_badge.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/sister-wives" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="37"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/sister-wives-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/strange-sex" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="38"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/strange-sex-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/untold-stories-of-the-er-on-tlc" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="39"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/untold-stories-er-icon.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/virgin-diaries" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="40"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/virgin-diaries-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/welcome-to-myrtle-manor" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="41"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/myrtle-manor-badge-160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                                <div class="item">
-                                        <a href="/tv-shows/who-do-you-think-you-are" class="event-click-tracking" data-track-rule="module" data-module-name="shows-carousel" data-module-location="0" data-link-position="42"><img class="load-images-onready" src="http://static.ddmcdn.com/en-us/tlc/images/network-default-still.jpg" data-original="http://r.ddmcdn.com/w_110/h_82/gif/wdytya-badge-tm160x120.jpg" width="110" height="82" /></a>
-                                </div>
-                                
-                        </div>
-                </div>
-                
-                
-                
-                <div class="navigation-condensed previous">
-                        <a href="#" class="carousel-scroll-action" data-carousel-to="prev" data-carousel-parent="msc"></a>
-                </div>
-                <div class="navigation-condensed next">
-                        <a href="#" class="carousel-scroll-action" data-carousel-to="next" data-carousel-parent="msc"></a>
-                </div>
-                
-                
-        </div>
-</div>
-
-            </div>
-    </div>
-    </section>
-
-        
-        
-        <footer id="parade" class="row">
-        <div class="span1">
-                <div class="column divider">
-                        <strong>SHOWS</strong><br />
-                        <a href="http://www.tlc.com/tv-shows">TLC Shows</a><br />
-                        <br />
-                        
-                        <strong>VIDEO</strong><br />
-                        <a href="http://www.tlc.com/videos">TLC Video</a><br />
-                                              
-                        <a href="http://www.tlc.com/tv-shows/tlc-casting.htm">TLC Casting</a><br />
-                        <br />
-                        <strong>MOBILE</strong><br />
-                        <a href="http://www.discovery.com/apps.htm">Mobile Applications</a><br />
-                </div>
-        </div>
-        <div class="span1">
-                <div class="column divider">
-                        <strong>STAY CONNECTED</strong><br />
-                        <a href="http://www.twitter.com/tlc">Twitter</a><br />
-                        <a href="http://www.facebook.com/TLC">Facebook</a><br />
-                        <a href="http://www.discovery.com/news/rss.html">RSS</a><br />
-                </div>                
-        </div>
-        <div class="span1">
-                <div class="column">
-                        <strong>OUR SITES</strong><br />
-                        <a href="http://www.ahctv.com">American Heroes Channel</a><br />
-                        <a href="http://www.animalplanet.com/">Animal Planet</a><br />
-                        <a href="http://www.animalist.com/">Animalist</a><br />
-                        <a href="http://www.destinationamerica.com/">Destination America</a><br />
-                        <a href="http://www.discovery.com/">Discovery Channel</a><br />
-                        <a href="http://www.tudiscovery.com/">Discovery en Espa&ntilde;ol</a><br />
-                        <a href="http://tv.discoveryfamilia.com/">Discovery Familia</a><br />
-                        <a href="http://kids.discovery.com/">Discovery Kids</a><br />
-                        <a href="http://www.discoveryfitandhealth.com">Discovery Fit &#x26; Health</a><br />
-                        <a href="http://www.hubworld.com">HUB</a><br />
-                        <a href="http://www.investigationdiscovery.com">Investigation Discovery</a><br />
-                        <a href="http://www.oprah.com/own">Oprah Winfrey Network</a><br />
-                        <a href="http://www.sciencechannel.com/">Science Channel</a><br />
-                        <a href="http://www.tlc.com/">TLC</a><br />
-                        <a href="http://www.velocity.com/">Velocity</a><br />
-                        <a href="http://www.3net.com/">3net</a><br />
-                </div>
-        </div>
-        <div class="span1">
-                <div class="column divider">
-                        <strong>&nbsp;</strong><br />
-                        <a href="http://www.apl.tv">Animal Planet Live</a><br />
-                        <a href="http://news.discovery.com/">Discovery News</a><br />
-                        <a href="http://www.howstuffworks.com/">HowStuffWorks</a><br />
-                        <a href="http://revision3.com/">Revision3</a><br />
-                        <a href="http://testtube.com/">TestTube</a><br />
-                        <a href="http://www.discoveryeducation.com/">Discovery Education</a><br />
-                        <a href="http://www.discoverymusicsource.com/">Discovery Music Source</a><br />
-                        <a href="http://www.discoveryaccess.com">Discovery Access</a><br />
-                </div>
-        </div>
-        <div class="span1">
-                <div class="column divider">
-                        <strong>SHOP</strong><br />
-                        <a href="http://store.discovery.com/?v=tlc">TLC Store</a><br />
-                        <a href="http://store.discovery.com/?v=tlc_dvds-books">DVDs &#x26; Books</a><br />
-                        <a href="http://www.discoveryadventures.com">Discovery Adventures</a><br />
-                        <a href="http://discoveryretreats.com/">Discovery Retreats</a><br />
-                        <a href="http://discoverystudentadventures.com/">Student Adventures</a><br />
-                        <a href="http://www.discoveryeducation.com/featured-programs/">Student Competitions</a><br />
-                        <a href="http://corporate.discovery.com/contact/advertising/">Discovery Advertising Sales</a><br />
-                        <a href="http://www.discoverytsx.com">Discovery Times Square</a><br />
-                        <a href="http://store.discovery.com/great-gifts/index.php?v=discovery_gifts&network=tlc">Gift Sets</a><br />
-                        <a href="http://store.discovery.com/sale/index.php?v=discovery_sale&network=tlc">Sale</a><br />
-                </div>
-        </div>
-        <div class="span1">
-                <div class="column">
-                        <strong>CORPORATE</strong><br />
-                        <a href="http://corporate.discovery.com">Discovery Communications, LLC</a><br />
-                        <a href="http://corporate.discovery.com/contact/viewer-relations/" rel="nofollow">Viewer Relations</a><br />
-                        <a href="http://corporate.discovery.com/contact/advertising/" rel="nofollow">Advertising</a><br />
-                        <a href="http://careers.discovery.com/">Careers @ Discovery</a><br />
-                        <a href="http://corporate.discovery.com/privacy-policy/" rel="nofollow">Privacy Policy</a><br />
-                        <a href="http://corporate.discovery.com/online-closed-captioning/" rel="nofollow">Online Closed Captioning</a><br />
-                        <a href="http://corporate.discovery.com/visitor-agreement/" rel="nofollow">Visitor Agreement</a><br />
-                </div>
-        </div>
-        <div class="span6">
-                <div class="credits">
-                        <strong>Image Credits</strong> DCI<br />
-                        Copyright &#xA9; 2014 Discovery Communications, LLC. The World’s #1 Nonfiction Media Company.<br />
-                </div>
-        </div>
-</footer>
-</div>
-
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-
-
-
-
-
-
-
-<!--
-    METRICS PAGE DATA 
-    vendor:         DDM
-    purpose:        metrics
--->
-<script>
-// set page metrics data object
-var pageMetricsData = {
-    org         : "us nets",
-    name        : "tlc",
-    id          : "tlc",
-    domain      : "tlc.com",
-    account     : "UA-42377220-11",
-    suites      : "hswprodtlc",
-    title       : "tlc",
-    tax         : "tlc",
-    aType       : "home page",
-    cType       : "home-page",
-    sType       : "",
-    search      : {},
-    content     : "",
-    sponsor     : "",
-    source      : "tlc",
-    author      : "",
-    show        : "",
-    pubDate     : "2010-04-21",
-    uuid        : "551349",
-    model       : "homepage",
-    view        : "homepage/home-page.html" + (("undefined" !== typeof abTestId) ? "-ab-"+abTestId+"-"+abTestInstance : ""),
-    width       : "998",
-    video       : "",
-    page        : "0"
-};
-</script>
-
-
-
-
-
-<div id="fb-root"></div>
-
-<script>var viewingEnvironment = "prod";</script>
-
-
-<script src="http://static.ddmcdn.com/ddm/javascript/apis/1.8.6/all.ugly.js"></script>
-<script type="text/javascript" src="http://static.ddmcdn.com/en-us/tlc/cache/js/7edf4b3f61cd.js"></script>
-
-
-<!-- LOCAL SCRIPTS -->
-
-    
-    <script>$(document).ready(function(){$("body").css("background","#1E1E1E url(http://static.howstuffworks.com/gif/little-couple-new-skin-no-tune-in-v2.jpg) no-repeat center top");});</script>
-    
-    
-    <script type="text/javascript" src="http://static.ddmcdn.com/en-us/tlc/cache/js/d395bf0891c1.js"></script>
-    
-    
-    <!-- AD SERVER : FREEWHEEL : FRONT END -->
-<script>
-DDM.adManager.initialize({
-    attributes  : {
-        siteSection : "tlc.discovery.com/homepage/index.htm",
-        videoRefId  : false,
-        networkId   : "91559",
-        server      : "165a7",
-        refresh     : 0,
-    }
-});
-</script>
-    
-    
-    
-	<!-- AD : FREEWHEEL -->
-<script>DDM.adManager.render({tag:"outofpage",type:"active",position:"outofpage"});</script>
-
-    
-    
-    
-	<!-- AD : FREEWHEEL -->
-<script>DDM.adManager.render({tag:"brandscape",type:"active",position:"brandscape"});</script>
-
-    
-
-
-<script>$("img.lazy").lazyload({threshold:200,effect:"fadeIn"});</script>
-
-
-
-<!--
-    JAVASCRIPT API
-    vendor:         comscore
-    purpose:        metrics
--->
-<script>
-var _comscore = _comscore || [];
-_comscore.push({c1:"2",c2:"6036284",c3:"",c4:"",c5:"",c6:"",c15:""});
-(function(){var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async=true; s.src = "http://b.scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s,el);})();
-</script>
-
-
-<!--
-    JAVASCRIPT API
-    vendor:         nielsen
-    purpose:        Online SiteCensus V6.0
--->
-<script>(function(){var d=new Image(1,1);d.onerror=d.onload=function(){d.onerror=d.onload= null;};d.src=["http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-204250h&cg=0&cc=1&si=",escape(window.location.href),"&rp=",escape(document.referrer),"&ts=compact&rnd=",(new Date()).getTime()].join('');})();</script>
-
-
-
-<!--
-    JAVASCRIPT API
-    vendor:         audience science
-    purpose:        metrics
--->
-<script src="http://js.revsci.net/gateway/gw.js?csid=J08778"></script> 
-<script> 
-DM_cat(pageMetricsData.id+" > "+pageMetricsData.tax+" > "+pageMetricsData.aType+" > "+pageMetricsData.cType);
-DM_tag(); 
-</script>
-
-
-
-<!--
-    JAVASCRIPT API
-    vendor:         suitesmart
-    purpose:        metrics
--->
-<script src="http://as1.suitesmart.com/115459/G22583.js?GID=22583"></script>
-
-
-<!--
-    JAVASCRIPT API
-    vendor:         dynamic logic
-    purpose:        survey
--->
-<script src="http://content.dl-rms.com/rms/mother/19087/nodetag.js"></script>
-
-
-<!--
-    JAVASCRIPT API
-    vendor:         remo
-    purpose:        survey
--->
-<script>
-function sitePerformedInvite(id){var r = /(REMO_INVITE)=([^;]*)/gi.exec(document.cookie);return (r && unescape(r[2]));}
-function siteInvited(id){id != undefined || ( id = '1');var ex = new Date(new Date().getTime() + (86400000*30)); document.cookie = 'REMO_INVITE' + '=' + escape(id) + ((!ex || !(ex instanceof Date))? '' : ('; expires=' + ex.toGMTString()))+ ';path=/; domain=tlc.com';}
-</script>
-
-
-<!--
-    JAVASCRIPT API
-    vendor:         blue kai
-    purpose:        dmp pixel campaigns
--->
-<iframe name="__bkframe" height="0" width="0" frameborder="0" src="javascript:void(0)"></iframe>
-<script src="http://tags.bkrtx.com/js/bk-coretag.js"></script>
-<script>try{var bkMetaArray = document.getElementsByTagName("meta");for(var i=0;i<bkMetaArray.length;i++){if(bkMetaArray[i].getAttribute("property")){if(bkMetaArray[i].getAttribute("property").indexOf("og:type")>-1){bk_addPageCtx("metatype",bkMetaArray[i].getAttribute("content"));}}if(bkMetaArray[i].getAttribute("property")){if(bkMetaArray[i].getAttribute("property").indexOf("og:site_name")>-1){bk_addPageCtx("metasite",bkMetaArray[i].getAttribute("content"));}}if(bkMetaArray[i].getAttribute("property")){if(bkMetaArray[i].getAttribute("property").indexOf("og:title")>-1){bk_addPageCtx("metatitle",bkMetaArray[i].getAttribute("content"));}}}}catch(e){}bk_js_list=pageMetricsData;bk_doJSTag(13305,4);</script>
-
-
-
-<!--
-    JAVASCRIPT API
-    vendor:         insight express
-    purpose:        tracking px
--->
-<script src="http://core.insightexpressai.com/adServer/adServerESI.aspx?bannerID=226907"></script>
-
-
-
-
-<script language="javascript" src="http://icompass.insightexpressai.com/490.js"></script>
-
-<!-- Google Code for Remarketing Tag -->
-<!--------------------------------------------------
-Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
---------------------------------------------------->
+            <script type="text/javascript" src="/common/js/alerts.js"></script>
 <script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 978350068;
-var google_custom_params = window.google_tag_params;
-var google_remarketing_only = true;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/978350068/?value=0&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
+	$(document).ready(function() {
+		getAlerts('/common/alerts/admin/alerts.response.home.html');
+	});
+	</script>
+<div id="alertsContainer"></div>
+            
+            
+            
 
-</body>
+<script type="text/javascript">
+$("body").addClass("homepage");
+</script>
+<div>  
+
+<div id="carouselContainer" class="quintBox">   
+<div class="carousel homepage">
+
+
+<!-- TODO Move CSS styles into appropriate stylesheets and out of JSP -->
+
+
+	
+	<script type="text/javascript" src="/common/js/jcarousellite_1.0.1.customized.min.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$(".carousel div").jCarouselLite({
+			btnNext: $(".carousel .next"),
+			btnPrev: $(".carousel .previous"),
+			btnGo: $(".carousel #carouselSlideLinks img"),
+			start: 0,
+			speed: 500.0,
+			
+			
+			auto: true,
+			timeout: 7000,
+			circular: true,
+			pause: true,
+			
+			
+			
+			visible: 1,
+			scroll: 1,
+			afterEnd: function(el) {
+				var current = $(this).children().index(el);
+				var nubbins = $(".carousel #carouselSlideLinks img");
+				var count = nubbins.length;
+				
+				
+				
+				nubbins.each(function(i) {
+					((current > count && i == current - count - 1) || i == current - 1) ?
+						$(this).attr("src", "/common/images/home/dotActive.gif") :
+						$(this).attr("src", "/common/images/home/dotInactive.gif");
+				});
+				
+				
+				
+			}
+		});
+	});
+	</script>
+	
+	<style type="text/css">
+	.carousel {margin: 0 auto; float: none;}
+	.carousel ul.slides {margin: 0;}
+	.carousel:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+	.carousel ul.slides li.slide {display: block;}
+	.carousel ul.slides li.slide:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+	.carousel div:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+	.carousel img {z-index: 0 !important;}
+	#carouselSlideLinks img {cursor: pointer;}
+	</style>
+	
+	
+
+<style type="text/css">
+.carousel ul.slides {height: 308px;}
+.carousel ul.slides li.slide {height: 308px; width: 960px;}
+</style>
+
+
+
+
+<div>
+<ul class="slides">
+<li class="slide"><div class="nyuOpenCode">
+
+<!-- Timer (start) -->
+
+
+    <a href="http://www.nyu.edu/admissions/summer-sessions.html"><img style="margin-left: 0px;" src="/content/dam/nyu/nyuToday/images/homepage/home-20140409-Summer.png" alt="SummerSession" title="SummerSession"/></a>
+
+
+
+	<!-- Timer /content/nyu/en/jcr:content/carousel/nyuopencode_0 : 0 ms -->
+</div>
+</li><li class="slide"><div class="nyuOpenCode">
+
+<!-- Timer (start) -->
+
+
+    <a href="http://www.nyu.edu/about/news-publications/news/2014/03/12/fed-chair-janet-yellen--yankees-pitching-great-mariano-rivera--u.html"><img style="margin-left: 0px;" src="/content/dam/nyu/nyuToday/images/homepage/home-20140313-Commencement_2.png" alt="Commencement" title="Commencement"/></a>
+
+
+
+	<!-- Timer /content/nyu/en/jcr:content/carousel/nyuopencode_1 : 0 ms -->
+</div>
+</li><li class="slide"><div class="nyuOpenCode">
+
+<!-- Timer (start) -->
+
+
+    <a href="http://www.alumni.nyu.edu/nyuaa-awards"><img style="margin-left: 0px;" src="/content/dam/nyu/nyuToday/images/homepage/home-20140331-AlumniAwards_3r.gif" alt="AlumniAwards" title="AlumniAwards"/></a>
+
+
+
+	<!-- Timer /content/nyu/en/jcr:content/carousel/nyuopencode : 0 ms -->
+</div>
+</li><li class="slide"><div class="homepage">
+
+
+
+
+
+<style type="text/css" media="screen">
+    #carousel_homepage {
+        background-image: url("/content/dam/nyu/nyuToday/images/homepage/newsTemplates/bgHomepagePromo8.jpg");
+        }
+</style>
+
+<div class="promoSlide" id="carousel_homepage">
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="promoText newsList">
+            <h1>News at <strong>NYU</strong></h1>
+            
+                <p class="">
+                    <strong>NYU’s Literary Mews Festival Brings Sebastian Barry, Lydia Davis, George Prochnik &amp; Others to Celebrate International Literature</strong> |
+                    <a href="/content/nyu/en/about/news-publications/news/2014/04/07/nyu_s-literary-mews-festival-brings-sebastian-barry--lydia-davis.html">Details &raquo;</a>
+                </p>
+            
+                <p class="">
+                    <strong>Rights Pioneers Edith Windsor and Rachel Robinson Are Among  Four NYU Alums to Be Honored at Annual Lunch</strong> |
+                    <a href="/content/nyu/en/about/news-publications/news/2014/04/03/rights-pioneers-edith-windsor-and-rachel-robinson-are-among--fou.html">Details &raquo;</a>
+                </p>
+            
+                <p class="">
+                    <strong>Yellen, Rivera, Kagan, Franklin, and Edelman to Receive Honorary Degrees at 2014 Commencement</strong> |
+                    <a href="/content/nyu/en/about/news-publications/news/2014/03/12/fed-chair-janet-yellen--yankees-pitching-great-mariano-rivera--u.html">Details &raquo;</a>
+                </p>
+            
+                <p class="last">
+                    <strong>Magnet Hospitals Have Higher Quality of Care, NYU Researcher Finds</strong> |
+                    <a href="/content/nyu/en/about/news-publications/news/2014/03/11/magnet-hospitals-have-higher-quality-of-care--nyu-researcher-fin.html">Details &raquo;</a>
+                </p>
+            
+            
+            <div class="moreButton">
+                <p><a href="/content/nyu/en/about/news-publications/news.html">more news</a></p>
+            </div>
+        </div>
+    
+    
+    
+    
+</div>
+
+</div>
+</li><li class="slide"><div class="nyuOpenCode">
+
+<!-- Timer (start) -->
+
+
+    <a href="http://engineering.nyu.edu/engineeringis/"><img style="margin-left: 0px;" src="/content/dam/nyu/nyuToday/images/homepage/home-20131218-Poly.png" alt="engineering" title="engineering"/></a>
+
+
+
+	<!-- Timer /content/nyu/en/jcr:content/carousel/nyuopencode_2 : 1 ms -->
+</div>
+</li><li class="slide"><div class="nyuOpenCode">
+
+<!-- Timer (start) -->
+
+
+    <a href="http://www.nyu.edu/about/university-initiatives/entrepreneurship-at-nyu/leslie-elab.html"><img style="margin-left: 0px;" src="/content/dam/nyu/nyuToday/images/homepage/home-20140304-ELab.png" alt="Elab" title="Elab"/></a>
+
+
+
+	<!-- Timer /content/nyu/en/jcr:content/carousel/nyuopencode_3 : 0 ms -->
+</div>
+</li>
+</ul>
+</div>
+
+
+
+
+<div id="carouselNav" class="header"> 
+     <div class="carouselArrow arrowLeft">
+          <a class="prev previous"><img src="/common/images/home/arrowsLeft.gif" title="Previous Slide" alt="Previous Slide"/></a>
+     </div>   
+
+     <div id="carouselSlideLinks">
+     
+          
+          
+               <img src="/common/images/home/dotActive.gif" width="13" height="13" alt="Slide #1"/>
+          
+          
+          
+     
+          
+          
+          
+               <img src="/common/images/home/dotInactive.gif" width="13" height="13" alt="Slide #2"/>
+          
+          
+     
+          
+          
+          
+               <img src="/common/images/home/dotInactive.gif" width="13" height="13" alt="Slide #3"/>
+          
+          
+     
+          
+          
+          
+               <img src="/common/images/home/dotInactive.gif" width="13" height="13" alt="Slide #4"/>
+          
+          
+     
+          
+          
+          
+               <img src="/common/images/home/dotInactive.gif" width="13" height="13" alt="Slide #5"/>
+          
+          
+     
+          
+          
+          
+               <img src="/common/images/home/dotInactive.gif" width="13" height="13" alt="Slide #6"/>
+          
+          
+     
+     </div>
+   
+     <div class="carouselArrow arrowRight">
+          <a class="next"><img src="/common/images/home/arrowsRight.gif" title="Next Slide" alt="Next Slide"/></a> 
+     </div>
+</div>
+</div>
+
+</div>
+
+<div id="contentWrapper">
+<div class="par parsys"><div class="nyuOpenCode section">
+
+<!-- Timer (start) -->
+
+
+    <div class="channel about">
+	<h3><a href="/nyu/en/about.html">About NYU</a></h3>
+
+	<ul>
+		<li><a href="/nyu/en/about/leadership-university-administration.html">Leadership and University <br/>Administration</a></li>
+		<li><a href="/nyu/en/about/university-initiatives.html">University<br />Initiatives</a></li>
+		<li><a href="/nyu/en/about/news-publications.html">News, Publications, <br/>and Facts</a></li>
+		<li><a href="/nyu/en/about/working-at-nyu.html">Working at NYU</a></li>
+		<li><a href="/nyu/en/about/visitor-information.html">Visitor Information</a></li>
+		<li><a href="/nyu/en/about/policies-guidelines-compliance.html">Policies and Guidelines</a></li>
+		<li><a href="http://www.nyu.edu/giving">Giving</a></li>
+	</ul>
+</div>
+	
+<div class="channel admissions">
+	<h3><a href="/nyu/en/admissions.html">Admissions</a></h3>
+	
+	<ul>
+		<li><a href="/nyu/en/admissions/undergraduate-admissions.html">Undergraduate<br />Admissions</a></li>
+		<li><a href="/nyu/en/admissions/graduate-admissions.html">Graduate<br />Admissions</a></li>
+		<li><a href="http://www.nyu.edu/admissions/study-abroad.html">Study Abroad</a></li>
+		<li><a href="/nyu/en/admissions/financial-aid-and-scholarships.html">Financial Aid and<br />Scholarships</a></li>
+		<li><a href="http://www.nyu.edu/visiting-students/">Visiting Students</a></li>
+		<li><a href="http://www.nyu.edu/fall/">Fall in NY</a></li>
+		<li><a href="http://www.nyu.edu/winter/">January Term</a></li>
+		<li><a href="http://www.nyu.edu/spring/">Spring in NY</a></li>
+		<li><a href="http://www.nyu.edu/summer/">Summer<br /> Sessions</a></li>
+		<li><a href="http://www.nyu.edu/precollege/">Precollege</a></li>		
+		
+	</ul>
+</div>		
+
+<div class="channel academics">
+	<h3><a href="/nyu/en/academics.html">Academics</a></h3>
+		
+	<ul>
+		<li><a href="/nyu/en/academics/undergraduate-education.html">Undergraduate <br />Education</a></li>
+		<li><a href="/nyu/en/academics/graduate-education.html">Graduate <br />Education</a></li>
+                <li><a href="/nyu/en/academics/continuing-education.html">Continuing <br />Education</a></li>
+		<li><a href="/nyu/en/academics/schools-and-colleges.html">Schools and<br />Colleges</a></li>
+		<li><a href="/nyu/en/academics/libraries.html">Libraries</a></li>
+		<li><a href="/nyu/en/academics/centers-and-institutes.html">Centers and<br />Institutes</a></li>
+		<li><a href="/nyu/en/academics/awards-and-highlights.html">Awards and Highlights</a></li>
+		<li><a href="/nyu/en/academics/academic-resources.html">Academic Resources</a></li>
+                <li><a href="/nyu/en/academics/open-education.html">Open Education</a></li>
+	</ul>
+</div>		
+
+<div class="channel uLife">
+	<h3><a href="/nyu/en/life.html">University Life</a></h3>
+
+	<ul>
+		<li><a href="/nyu/en/life/events-traditions.html">Events and Traditions</a></li>
+		<li><a href="/nyu/en/life/student-life.html">Student Life</a></li>
+		<li><a href="/nyu/en/life/living-at-nyu.html">Living at NYU</a></li>
+		<li><a href="/nyu/en/life/resources-and-services.html">Resources and<br />Services</a></li>
+		<li><a href="http://www.gonyuathletics.com/">Athletics</a></li>
+		<li><a href="/nyu/en/life/safety-health-wellness.html">Safety, Health, and<br />Wellness</a></li>
+		<li><a href="/nyu/en/life/travel-and-transportation.html">Travel and Transportation</a></li>
+		<li><a href="/nyu/en/life/diversity-nyu.html">Diversity at NYU</a></li>
+	</ul>
+</div>		
+
+<div class="channel research">
+	<h3><a href="/nyu/en/research.html">Research</a></h3>
+
+	<ul>
+		<li><a href="/nyu/en/research/resources-and-support-offices.html">Resources and<br />Support Offices</a></li>
+		<li><a href="/nyu/en/research/research-news.html">Research News</a></li>
+		<li><a href="/nyu/en/research/institutesandresearchatschools.html">Centers,<br />Institutes, and<br />Research at <br />Schools</a></li>
+                <li><a href="/nyu/en/research/provosts-global-research-initiatives.html">Provost's Global<br /> Research Initiatives</a></li>
+	</ul>
+</div>		
+
+<div class="channel global">
+	<h3><a href="/nyu/en/global.html">Global</a></h3>
+	
+	<ul>
+		<li><a href="/nyu/en/global/global-academic-centers.html">Global Academic Centers</a></li>
+		<li><a href="/nyu/en/global/the-global-network-university.html">The Global Network<br />University</a></li>
+		<li><a href="/nyu/en/global/nyu-abu-dhabi.html">NYU Abu Dhabi</a></li>
+                <li><a href="/nyu/en/global/nyu-shanghai.html">NYU Shanghai</a></li>
+                <li><a href="/nyu/en/global/tisch-asia.html">Tisch Asia</a></li>
+		<li><a href="/nyu/en/global/international-immigration-services.html">International Immigration Services</a></li>
+		<li><a href="/nyu/en/global/all-nyu-programs.html">All NYU Programs</a></li>
+	</ul>
+</div>
+
+
+
+	<!-- Timer /content/nyu/en/jcr:content/par/nyuopencode : 0 ms -->
+</div>
+<div class="nyuOpenCode section">
+
+<!-- Timer (start) -->
+
+
+    <script src="//www.nyu.edu/scripts/web.communications/ee/ee.js"></script>
+
+
+
+	<!-- Timer /content/nyu/en/jcr:content/par/nyuopencode_0 : 0 ms -->
+</div>
+
+</div>
+       
+</div>
+            
+
+<!-- Begin Footer -->
+<div class="nyuFooter">
+
+
+
+
+
+<script type="text/javascript" src="/common/js/feedback.js"></script>
+
+<!-- DIVIDER -->
+<hr class="invisible" />
+
+    <!-- FOOTER -->
+    <div id="footerContainer">
+        <h6 class="offLeft">NYU Footer</h6>
+        <ul>
+            <li class="first"><a href="/nyu/en/search.html">Search</a></li>
+            <li><a href="/nyu/en/search.directory.html">Directory</a></li>
+            <li><a href="/nyu/en/footer/map.html">Campus Map</a></li>
+            <li><a href="http://events.nyu.edu">Events</a></li>
+            <li><a href="/nyu/en/footer/contact-us.html">Contact Us</a></li>
+            <li><a href="/nyu/en/footer/site-map.html">Site Map</a></li>
+            <li><a href="/nyu/en/footer/copyright-and-fair-use.html">Copyright and Fair Use</a></li>
+            <li class="last"><a href="http://www.nyu.edu/scripts/feedback/forms/feedback.html?pagePath=%2fcontent%2fnyu%2fen&amp;pageTitle=English" onclick="return popitup(this.href)">Feedback</a></li>
+        </ul>
+        <p id="copyright">Unless otherwise noted, all content copyright New York University. All rights reserved.<br />Designed by The Office of Web Communications</p>
+
+<!--social footer links-->
+<ul id="social">
+    <li id="btn-social-facebook"><a href="http://www.facebook.com/nyu" target="_blank" title="NYU on Facebook" onclick="_gaq.push(['_trackSocial', 'Facebook', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'Facebook',0,true]);">Facebook</a></li>
+    <li id="btn-social-youtube"><a href="http://www.youtube.com/nyu" target="_blank" title="NYU on YouTube" onclick="_gaq.push(['_trackSocial', 'YouTube', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'YouTube',0,true]);">YouTube</a></li>
+    <li id="btn-social-linkedin"><a href="http://www.linkedin.com/company/3159?trk=tyah" target="_blank" title="NYU on LinkedIn" onclick="_gaq.push(['_trackSocial', 'LinkedIn', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'LinkedIn',0,true]);">LinkedIn</a></li>
+    <li id="btn-social-instagram"><a href="http://instagram.com/nyuniversity" target="_blank" title="NYU on Instagram" onclick="_gaq.push(['_trackSocial', 'Instagram', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'Instagram',0,true]);">Instagram</a></li>
+    <li id="btn-social-foursquare"><a href="https://foursquare.com/nyuniversity" target="_blank" title="NYU on Foursquare" onclick="_gaq.push(['_trackSocial', 'foursquare', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'foursquare',0,true]);">Foursquare</a></li>
+    <li id="btn-social-twitter"><a href="http://www.twitter.com/nyuniversity" target="_blank" title="NYU on Twitter" onclick="_gaq.push(['_trackSocial', 'Twitter', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'Twitter',0,true]);">Twitter</a></li>
+</ul>
+<!--/social footer links-->
+
+    </div>
+    <!-- END FOOTER -->
+
+    <script type="text/javascript"> Cufon.now(); </script></div>
+
+<!-- End Footer --> 
+
+        </div>
+        <!-- Urchin and Optional Remarketing Code (publisher only) -->
+        
+            
+
+
+<!-- Begin HTML stats included-->
+<div id='analyticsSnippet'>
+
+</div>
+<!-- End HTML stats -->
+            <script type="text/javascript">
+var topUrl = window.top.location.href;
+if(topUrl.indexOf('\/cf#\/') == -1){
+    var UH = UH || [];
+    UH.push([ '_trackPageview' ]);
+    (function(d){
+        var s = d.createElement('script'); s.src = 'http://www.nyu.edu/common/js/uh.v72.js';
+        d.body.appendChild(s);
+    })
+    (document)
+}
+</script>
+        
+    </body>
 </html>

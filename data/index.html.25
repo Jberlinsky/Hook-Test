@@ -1,912 +1,1049 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-		<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie8"><![endif]-->
-		<!--[if IE 9]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie9"><![endif]-->
-		<!--[if gt IE 9]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->		<head>
-			<!-- Using MVC -->
-			<title>Flights, Hotels, Cruises, Car Rentals - Compare Prices - BookingBuddy</title>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="description" content="The secure mobility solution that unlocks your mobile potential.">
+                  <meta name="keywords" content="mobile security,mobility solution,mobile service management,mobile device management,mobile transformation,secure mobility">
+  <title>Good Technology</title>
+  <link rel="shortcut icon" href="http://media.www1.good.com/designimages/favicon.ico" />
+  <!-- GoogleFontCSS -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=BenchNine:400,700' rel='stylesheet' type='text/css'>
 
-			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-			<meta http-equiv="Content-Language" content="en-us" />
-			<meta name="viewport" content="width=1000" />
+  <!-- GroundworkCSS -->
+    	<link href="http://www1.good.com/includes/Good-Screen.min.css" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+  <link type="text/css" rel="stylesheet" href="http://www1.good.com/includes/Good-IE.css">
+  <![endif]-->
+  <!--[if IE 9]>
+  <link type="text/css" rel="stylesheet" href="http://www1.good.com/includes/Good-ie9.css">
+  <![endif]-->
+ <!-- Modernizr -->
+  <!-- jQuery -->
+    	<script type="text/javascript" src="http://www1.good.com/includes/Good-Modernizr-2.6.2.min.js"></script>
+  	<script type="text/javascript" src="http://www1.good.com/includes/Good-Jquery-1.9.1.min.js"></script>
+  	<script type="text/javascript" src="http://www1.good.com/includes/Good-Allscr.min.js"></script>
+   <!--[if lt IE 9]>
+  <script type="text/javascript" src="http://www1.good.com/includes/Good-Html5shiv.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 7]><script src="http://www1.good.com/includes/Good-Lte-ie7.js"></script><![endif]-->
+<meta name="google-site-verification" content="XKQ-mRCAPy15qHM545TjIO3JWszDK45mk9rCpxsq9zw" />
 
-			<meta name="description" content="Find and book cheap flights, hotels, vacation packages, car rentals, cruises, and more with BookingBuddy. Compare prices and save!" />
-			<meta name="keywords" content="cheap airfares, cheap airline tickets, cheap flights, cheap tickets, compare prices, discount airlines, discount car rental, discount flights, domestic airline tickets, flight, international airline tickets, major airlines, online travel agencies, plane ticket prices, travel, travel search, travel search engine, bookingbuddy, booking, buddy, air travel, airfare, airfare deals, airline, airline tickets" />
-						<link rel="canonical" href="http://www.bookingbuddy.com" />
-			<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-			<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WS54ZL');</script>
+<!-- End Google Tag Manager -->
 
-			<script type="text/javascript">
-								var useRefactoredOmni = true;
-			</script>
+<script type="text/javascript" src="/includes/analytics.js"></script>
 
-			<link rel="stylesheet" href="http://c.slimg.com/css/site/bb_affiliate/bookingbuddy_com.css?nano=1&amp;v=20140402103802" media="screen, projection" type="text/css" />
-<link rel="stylesheet" href="http://c.slimg.com/css/site/bb_affiliate/bb-external-libs.css?nano=1&amp;v=20140402103802" media="screen, projection" type="text/css" /><script type="text/javascript" src="http://j.slimg.com/js/lib/stm/builds/desktop/2014-02-24.min.js?v=20140402103802"></script>
-<script type="text/javascript" src="http://j.slimg.com/js/site/bookingbuddy_refactor.js?nano=1&amp;v=20140402103802"></script>
-<script type="text/javascript">/* <![CDATA[*/
-BookingBuddy.Strings.ServerTime = "Thu, 03 Apr 2014 00:17:45 +0000";
-/* ]]>*/</script>
-<script type="text/javascript">/* <![CDATA[*/
-BookingBuddy.queryString = {};
-/* ]]>*/</script>
-			<script type="text/javascript">
-								stm.OmnitureConfig = {"account":"slbbbcom","trackingServer":"stats.bookingbuddy.com","pageName":"Home","channel":"home","searchMode":"home","substate":false,"tieredPricingData":"SOURCEnone","expediaSource":"SOURCEnone","evars":[{"name":"s_eVar38","value":"Other Device | Full Site"}],"events":[],"adImpressionIds":[]};
-				var d0 = d0 || function (data) {
-	var htmlspecialcharsdecode = function(url) {
-		return url.replace("&amp;","&").replace("&quot;","\"").replace("&#039;","'").replace("&lt;","<").replace("&gt;",">");
-	}
-	data = decodeURIComponent(data);
-	var len = data.length;
-	var mid = Math.floor(len/2);
-	var add = mid % 2 == 0 ? 1 : 0;
-	var sub = len % 2 == 0 ? 1 : 0;
-	var strAr = [], tmp = '';
+<script src="http://www1.good.com/includes/mbox.js" type="text/javascript"></script>
 
-	for(var i=0;i<len;i++) {
-		strAr[i] = data.charAt(i);
-	}
+<script src="http://www1.good.com/includes/eloqua.js"></script>
 
-	for(var i=0,swpIdx = 0; i<mid;i++) {
-		if(i%2 == 0) { // even
-			swpIdx = i+mid+add;
-		} else { // odd
-			swpIdx = len-i-sub;
-		}
-		tmp = strAr[i];
-		strAr[i] = strAr[swpIdx];
-		strAr[swpIdx] = tmp;
-	}
-	return htmlspecialcharsdecode(strAr.join(''));
-};
-			</script>
+<script type="text/javascript" language="javascript">llactid=16188</script>
+<script type="text/javascript" language="javascript" src="http://t1.trackalyzer.com/trackalyze.js"></script>
+<script type="text/javascript">llfrmid=16188</script>
+<script type="text/javascript" src="http://formalyzer.com/formalyze_init.js"></script>
+<script type="text/javascript" src="http://formalyzer.com/formalyze_call.js"></script> 
 
-					<script src="//cdn.optimizely.com/js/536963401.js"></script>
-			</head>
-			<body class="" >
-		<!-- Rendered at 2014-04-03T00:17:45+00:00 -->
-		<!-- MVC Model -->
-			<script>
-			STM_GTM = [];
-		</script>
-		<!-- Google Tag Manager -->
-			<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-95FJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-			<script>
-			(function(w,d,s,l,i){
-				w[l]=w[l]||[];
-				w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-				var f=d.getElementsByTagName(s)[0],
-					j=d.createElement(s),
-					dl=l!='dataLayer'?'&l='+l:'';
-				j.async=true;
-				j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;
-				f.parentNode.insertBefore(j,f);
-			})(window,document,'script','STM_GTM','GTM-95FJ');
-		    </script>
-	    <!-- End Google Tag Manager -->
-				<div id="page_mask" style="display: none;"></div>
-				<div class="" id="page_wrapper">
-			<div id="pagetop">
-			  <div id="pagetop-logo">
-			    <a href="/" class="">
-			      <span class="logo"><br></span>
-			    </a>
-			  </div>
-			  <div id="pagetop-user-area">		<div id="user_area" style="display: none;">
-			 <div class="user_welcome">Welcome Back!</div>
-			 <div class="user_action">
-			   <a href="#" onmousedown="try{this.href=d0('chi.tnoispprpsb%2Fsug%2Fahcnbesu');}catch(e){};;return true;">Manage Your Subscriptions</a>			   <span class="arrow">&raquo;</span>
-			 </div>
-			 <div class="user_action">
-			   <span class="logout fine_print">
-			     <span id="not_you">Not you?</span>
-				 <span class="redirect hide">%2F</span>
-				 Log out			   </span>
-			 </div>
-		</div>
-					<div id="billboard">
-			  <form action="/sub/join.php" method="post" class="smartForm" id="topjoin_form">
-			    <div class="top">
-			      <div id="dhtmlsignup_marker"></div>
-			      <div class="subinputs">
-			        <div class="formlabel">
-			          Sign up for weekly Top Travel Deals!			          <a href="#" class="sampleNL">view sample</a>
-			        </div>
-				    <div class="forminput">
-					  <input id="topjoin_e1" type="text" title="EMail" value="enter your email address" maxlength="50" class="SubDealsFormInput smartElement common defaultClear required" size="40" name="email"  />
-				    </div>
-			        <div class="formbutton">
-					  <div class="left"></div>
-					  <input type="submit" value="Go" />
-					  <input type="submit" class="submit_arrow" value="" />
-					  <input type="submit" class="submit_arrow_right" value="" />
-					  <div class="right"></div>
-				    </div>
-			      </div>
-		        </div>
-			    <div class="bottom"></div>
-			  </form>
-			</div>
-			</div>
-			  <div id="nav">
-						<div id="nav">
-		  <a class="navtab home_active" href="/"> Home </a>
-		  <a class="navtab air" href="/flight.php"> Flights </a>
-		<a href="/hotel.php" class="navtab hotel ">Hotels</a><a href="/vacation.php" class="navtab vacation ">Vacation Packages</a><a href="/car.php" class="navtab car ">Cars</a><a href="/cruise.php" class="navtab cruise ">Cruises</a><a href="/vacation-rentals.php" class="navtab vacation_rental ">Vacation Rentals</a><a href="#" onmousedown="try{this.href=d0('-seald%2F%2Feravtl');}catch(e){};;return true;" class="navtab deals ">Deals</a><a href="#" onmousedown="try{this.href=d0('4Fb%257o7.9d9u%26gmi%3Bodbrg%3DltFp%2532%25AF%252tbhol.uorkpnab6d7y6cdmd2h1t2%3Ab%2FbdfBbo7i0g2ubd7.5od%2F7h8%3Dt0%3F4m7cay9d1Benck6o2.fr0%2Fbp1t');}catch(e){};;return true;" class="navtab news"> Private Sale </a><a href="#" onmousedown="try{this.href=d0('ipnp.shot%2Faeitsnd');}catch(e){};;return true;" class="navtab destinations "> Destinations </a>			<div class="clear"></div>
-		</div>
-						<div style="clear: both;"></div>
-			  </div>
-			  <h1>Flights, Hotels, Cruises, Car Rentals - Compare Prices - BookingBuddy</h1>			</div>
-					<div id="billboard_column" class="billboard">
+</head>
 
-			<div id="search_widget" class="home">
-				<div class="top_row_shadow top_row"></div>
-				<div class="middle_row">
-					<div id="pagetop_left_div">
-						<div id="step_1_widget" class="step_1_widget two_column home_tpt">
-							<div class="top">
-								<div class="left"></div>
-								<div class="middle">
-									<div class="middle_background"></div>
-								</div>
-								<div class="right"></div>
-							</div>
-							<div class="content_wrapper">
-								<div class="content">
-											<div class="title">
-			<div class="mode_logo travel"></div>
-			<h2 class="large_headline">
-				Save Big on Your Trip				<span class="description"></span>
-			</h2>
-			<div class="clear"></div>
-		</div>
-				<div id="bb_widget" class="air">
-			<div class="section_searchtype">
-									<label for="air_widget_form_show-searchforms">
-						<input id="air_widget_form_show-searchforms" class="BBInputRadio toggle" type="radio" name="home_booking" checked="checked" />&nbsp; Flights<br /> 
-					</label>
-										<label for="hotel_widget_form_show-searchforms">
-						<input id="hotel_widget_form_show-searchforms" class="BBInputRadio toggle" type="radio" name="home_booking" />&nbsp; Hotels<br /> 
-					</label>
-					<div class="book_together">					<label for="vacation_widget_form_show-searchforms">
-						<input id="vacation_widget_form_show-searchforms" class="BBInputRadio toggle" type="radio" name="home_booking" />&nbsp; Flight + Hotel<br /> 
-					</label>
-					</div>					<label for="car_widget_form_show-searchforms">
-						<input id="car_widget_form_show-searchforms" class="BBInputRadio toggle" type="radio" name="home_booking" />&nbsp; Cars<br /> 
-					</label>
-								</div>
+<body>
+<!-- Begin imware.tracker -->
+<script language="Javascript" >var js="0.0";</script><script language="Javascript1.0" >js="1.0";</script><script language="Javascript1.1">js="1.1";</script><script language="Javascript1.2" >js="1.2";</script><script language="Javascript1.3">js="1.3";</script><script language="Javascript1.4" >js="1.4";</script><script language="Javascript1.5">js="1.5";</script><script language="Javascript1.6">js="1.6";</script><script language="Javascript1.7">js="1.7";</script><script language="Javascript1.8">js="1.8";</script><script language="Javascript1.9">js="1.9";</script><script language="javascript1.1" type="text/javascript"> 
+<!-- 
+var bb=new Image();var _ti=910;var _q="";var na=(navigator.appName=="Netscape");var ns=(navigator.appName.substring(0,9)=="Microsoft");var _qDate=new Date();var _r=(document.referrer.indexOf(getdomain(location))>-1?"":document.referrer);_q+="&5="+parseInt(_qDate.getTimezoneOffset());_q+="&35="+parseInt(_qDate.toString().indexOf("aylight")>-1?1:0);_q+="&6=901725301";_q+="&7=1725301";_q+="&8="+encodeURIComponent(document.location);_q+="&9="+encodeURIComponent(_r);_q+="&10="+encodeURIComponent(document.title);_q+="&11="+encodeURIComponent(navigator.userAgent);_q+="&12="+encodeURIComponent((na?navigator.language:navigator.userLanguage));_q+="&13="+((navigator.javaEnabled()?'1':'0'));_q+="&14="+encodeURIComponent(js);if(document.cookie.indexOf("cc")==-1)document.cookie="cc=t;";_q+="&15="+((document.cookie.indexOf("cc")==-1)?"0":"1");_q+="&16="+encodeURIComponent((screen.width+'x'+screen.height));_q+="&17="+encodeURIComponent(((ns)?screen.colorDepth:screen.pixelDepth));_q+="&18="+encodeURIComponent(Math.random());_q+="&19="+_ti;bb.src="http://s.clickability.com/s?"+_q;
+function setonclicks(a,b){var i=0;var retval=true;while(document.links[i]!=a){i++;}if(b.li[i])retval=b.li[i].oldonclick();bye(a);return retval;}
+function newonld(){if(hasonload)oldonld();lnks=new Object();var sze=document.links.length;lnks.li=new Array(sze);for (var i=0; i<sze; i++){if(document.links[i].onclick){lnks.li[i]=document.links[i];lnks.li[i].oldonclick=document.links[i].onclick;}eval("document.links[i].onclick=function(){return setonclicks(this,lnks);}");}}function bye(a){if(a.href.toLowerCase().indexOf('http')!=0)return true;if(getdomain(location)==getdomain(a))return true;if(a.href.toLowerCase().indexOf('http')!=0)return true;var _qc="http://s.clickability.com/s?19=912";_qc+="&6=901725301";_qc+="&7=1725301";_qc+="&18="+encodeURIComponent(Math.random());_qc+="&100="+a.href;_qc+="&101="+encodeURIComponent(a.text);var cc=new Image();if(na){cc.src=_qc;pc(100);}else cc.src=_qc;return true;}function pc(a){d = new Date(); while (1){m =new Date(); df = m-d;if( df > a ) {break;}}}function getdomain(a){var i=a.host.indexOf(":");return (i>=0)?a.host.substring(0,i):a.host;}if(self['setupalready']){var dosetup = false;alert('There are two $imware.tracker calls on this page. Please alert Client Services');}else{var dosetup = true;var hasonload=false;}if(dosetup && ((window.screen)||((new Array()).toSource)||((new Array()).shift&&ns))&&(navigator.userAgent.indexOf('Mac')<0)){if(window.onload){oldonld=window.onload;hasonload=true;}window.onload=newonld;var setupalready = true;}//-->
+</script><noscript>
+<img width="1" height="1" src="http://s.clickability.com/s?19=990&14=0&6=901725301&7=1725301&25=0&18=0.9754917851810081">
+</noscript>
 
-			<div class="section_inputs leftDotted home">
-						<form id='air_widget_form' class='search_widget_main air' method='GET' action='/step2.php' data-stm-role='stm.bb.Views.searchForm.OpenTabBrowsingAndSubmit.Air' target='_self'>
-					<div class="mvcView searchWidget flights">
-						<div data-stm-role="errors" class="smartFormErrorMessages"></div>
-			<input data-stm-role="mode" type="hidden" class="hidden" name="search_mode" value="air" />
-		<input type="hidden" class="hidden" name="af" value="1274192" />
-		<input type="hidden" name="r" />
-				<div class="search_type">
-			<label>
-						<input data-stm-role="searchType" type="radio" name="st" value="roundtrip" />
-						Round Trip			</label>
-			&nbsp;
-			<label>
-						<input data-stm-role="searchType" type="radio" name="st" value="oneway" />
-						One-Way			</label>
-		</div>
-			<div class="non_stop">
-			<label>
-						<input data-stm-role="nonstop" type="checkbox" name="non_stop" value="1" />
-						Prefer non-stop
-			</label>
-		</div>
-				<div class="cities two-child">
-			<div class="departure_city">
-				<label>From:</label><br />
-						<input data-stm-role="location1" name="departure_city" type="text" class="noFirstClick" />
-		<input data-stm-role="location1Id" name="slocation1" type="hidden" value="" />
-					</div>
+<!-- End imware.tracker -->
 
-			<div class="arrival_city">
-				<label>To:</label><br />
-						<input data-stm-role="location2" name="arrival_city" type="text" class="noFirstClick" />
-		<input data-stm-role="location2Id" name="slocation2" type="hidden" value="" />
-					</div>
-		</div>
-				<div class="dates two-child">
-			<div class="departure_date">
-				<label>Depart:</label><br />
-			 			<input data-stm-role="date1" name="departure_date" type="text" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" />
-				<select data-stm-role="time1" name="departure_time" >
-			<option value="anytime">Anytime</option>
-<option value="morning">Morning</option>
-<option value="noon">Afternoon</option>
-<option value="evening">Evening</option>
-<option value="0">12:00 AM</option>
-<option value="1">1:00 AM</option>
-<option value="2">2:00 AM</option>
-<option value="3">3:00 AM</option>
-<option value="4">4:00 AM</option>
-<option value="5">5:00 AM</option>
-<option value="6">6:00 AM</option>
-<option value="7">7:00 AM</option>
-<option value="8">8:00 AM</option>
-<option value="9">9:00 AM</option>
-<option value="10">10:00 AM</option>
-<option value="11">11:00 AM</option>
-<option value="12">12:00 PM</option>
-<option value="13">1:00 PM</option>
-<option value="14">2:00 PM</option>
-<option value="15">3:00 PM</option>
-<option value="16">4:00 PM</option>
-<option value="17">5:00 PM</option>
-<option value="18">6:00 PM</option>
-<option value="19">7:00 PM</option>
-<option value="20">8:00 PM</option>
-<option value="21">9:00 PM</option>
-<option value="22">10:00 PM</option>
-<option value="23">11:00 PM</option>
-		</select>
-					</div>
+<!-- Begin - FB Script -->
 
-			<div class="return_date" data-stm-role="date2Block">
-				<label>Return:</label><br />
-			 			<input data-stm-role="date2" name="return_date" type="text" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" />
-				<select data-stm-role="time2" name="return_time" >
-			<option value="anytime">Anytime</option>
-<option value="morning">Morning</option>
-<option value="noon">Afternoon</option>
-<option value="evening">Evening</option>
-<option value="0">12:00 AM</option>
-<option value="1">1:00 AM</option>
-<option value="2">2:00 AM</option>
-<option value="3">3:00 AM</option>
-<option value="4">4:00 AM</option>
-<option value="5">5:00 AM</option>
-<option value="6">6:00 AM</option>
-<option value="7">7:00 AM</option>
-<option value="8">8:00 AM</option>
-<option value="9">9:00 AM</option>
-<option value="10">10:00 AM</option>
-<option value="11">11:00 AM</option>
-<option value="12">12:00 PM</option>
-<option value="13">1:00 PM</option>
-<option value="14">2:00 PM</option>
-<option value="15">3:00 PM</option>
-<option value="16">4:00 PM</option>
-<option value="17">5:00 PM</option>
-<option value="18">6:00 PM</option>
-<option value="19">7:00 PM</option>
-<option value="20">8:00 PM</option>
-<option value="21">9:00 PM</option>
-<option value="22">10:00 PM</option>
-<option value="23">11:00 PM</option>
-		</select>
-					</div>
-		</div>
-				<div class="service_class">
-			<label>Class:</label>
-					<select data-stm-role="serviceClass" name="sc">
-			<option value="business">Business</option>
-			<option value="economy_coach">Economy/Coach</option>
-			<option value="first_class">First Class</option>
-		</select>
-				</div>
-				<div class="travelers">
-			<label>Travelers:</label>
-					<select data-stm-role="travelers" name="num_travelers">
-			<option value="1">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-<option value="5">5</option>
-<option value="6">6</option>
-		</select>
-				</div>
-				<div class="nl_sub_inline hide mvcView inlineSubStep1" data-stm-role="inlineSubscription">
-			 		<div class="hide smRoomAbove nl_sub_inline_departure" data-stm-role="inlineSubscriptionDeparture">
-		  <label>
-		    <input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_departure" /> 
-		    <span class="left label nl_sub_inline_departure_desc"></span>
-		  </label>
-		  <br class="clear" />
-		</div>
-				<div class="hide smRoomAbove nl_sub_inline_route" data-stm-role="inlineSubscriptionRoute">
-		  <label>
-		    <input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_route" /> 
-		    <span class="left label nl_sub_inline_route_desc"></span>
-		  </label>
-		  <br class="clear" />
-		</div>
-				<div class="hide nl_sub_inline_e1_div" data-stm-role="inlineSubscriptionEmail">
-		  <input
-				type="text"
-				class="text smartElement defaultClear nl_sub_inline_e1"
-				name="e1"
-				value="enter your email address"
-				placeholder="enter your email address" />
-		</div>
-				</div>
-				<div class="submit">
-					<div data-stm-role="submit" class="submit_btn orange large noFirstClick">
-			<input type="button" class="btn submitTrigger noFirstClick" value="SEARCH" />
-			<input type="button" class="submitTrigger submit_arrow noFirstClick" value="" />
-		</div>
-			</div>
-				<div class="group_link">
-			<a class="noFirstClick" href="#" data-tracking-info='{"imp_id":"9f9df321-c44e-4270-b39a-2f8a276c4e22","test_recipe":"excluded","scoring_origin":1,"scoring_destination":1,"ad_lineup":"14267724","site_page":"Step 1","r":"i14267724","search_mode":"air"}'>
-				Flying to several cities? Find the most multi-city routes on SmartFares
-			</a>
-		</div>
-				</div>
-				</form>
-				<form id='hotel_widget_form' class='search_widget_main air' method='GET' action='/step2.php' data-stm-role='stm.bb.Views.searchForm.OpenTabBrowsingAndSubmit.Hotel' target='_self'>
-					<div class="mvcView searchWidget hotels">
-					<div data-stm-role="errors" class="smartFormErrorMessages"></div>
-			<input data-stm-role="mode" type="hidden" class="hidden" name="search_mode" value="hotel" />
-		<input type="hidden" class="hidden" name="af" value="1274192" />
-		<input type="hidden" name="r" />
-				<div class="cities">
-			<div class="destination_city">
-				<label>City:</label><br />
-						<input data-stm-role="location2" name="arrival_city" type="text" class="noFirstClick" />
-		<input data-stm-role="location2Id" name="slocation2" type="hidden" value="" />
-					</div>
-		</div>
-				<div class="dates two-child">
-			<div class="arrival_date">
-				<label>Check-in:</label><br />
-						<input data-stm-role="date1" name="arrival_date" type="text" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" />
-					</div>
-			<div class="return_date">
-				<label>Check-out:</label><br />
-						<input data-stm-role="date2" name="departure_date" type="text" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" />
-					</div>
-		</div>
-				<div class="num_guests">
-			<label>Guests:</label><br />
-					<select data-stm-role="travelers" name="num_travelers">
-			<option value="1">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-<option value="5">5</option>
-<option value="6">6</option>
-<option value="7">7</option>
-<option value="8">8</option>
-		</select>
-				</div>
-				<div class="num_rooms">
-			<label>Rooms:</label><br />
-					<select data-stm-role="rooms" name="num_rooms">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3+</option>
-		</select>
-				</div>
-				<div class="provider">
-			<label>Specific Hotel</label> (Optional):<br />
-					<input data-stm-role="provider" name="provider" type="text" />
-				</div>
-				<div class="nl_sub_inline hide mvcView inlineSubStep1" data-stm-role="inlineSubscription">
-			 		<div class="hide smRoomAbove nl_sub_inline_hotel_watch" data-stm-role="inlineSubscriptionHotel">
-			<label>
-				<input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_hotel_watch" />
-				<span class="left label nl_sub_inline_hotel_watch_desc"></span>
-			</label>
-			<br class="clear" />
-		</div>
-				<div class="hide nl_sub_inline_e1_div" data-stm-role="inlineSubscriptionEmail">
-		  <input
-				type="text"
-				class="text smartElement defaultClear nl_sub_inline_e1"
-				name="e1"
-				value="enter your email address"
-				placeholder="enter your email address" />
-		</div>
-				</div>
-				<div class="submit">
-					<div data-stm-role="submit" class="submit_btn orange large noFirstClick">
-			<input type="button" class="btn submitTrigger noFirstClick" value="SEARCH" />
-			<input type="button" class="submitTrigger submit_arrow noFirstClick" value="" />
-		</div>
-			</div>
-				<div class="group_link">
-			<a data-tracking-info='{"imp_id":"4f00a5ac-712e-4b4e-aa3f-1016f3eec20c","test_recipe":"excluded","scoring_origin":1,"scoring_destination":1,"ad_lineup":"14267715","site_page":"Step 1","r":"i14267715","search_mode":"hotel"}' href="#" rel="nofollow">Groups: Need 3+ rooms? Try HotelPlanner.com</a>
-		</div>
-				</div>
-				</form>
-				<form id='vacation_widget_form' class='search_widget_main air' method='GET' action='/step2.php' data-stm-role='stm.bb.Views.searchForm.OpenTabBrowsingAndSubmit.Vacation' target='_self'>
-					<div class="mvcView searchWidget vacations">
-					<div data-stm-role="errors" class="smartFormErrorMessages"></div>
-			<input data-stm-role="mode" type="hidden" class="hidden" name="search_mode" value="vacation" />
-		<input type="hidden" class="hidden" name="af" value="1274192" />
-		<input type="hidden" name="r" />
-				<div class="cities two-child">
-			<div class="departure_city">
-	    	<label>From:</label><br />
-						<input data-stm-role="location1" name="departure_city" type="text" class="noFirstClick" />
-		<input data-stm-role="location1Id" name="slocation1" type="hidden" value="" />
-					</div>
-			<div class="destination_city">
-	    	<label>To:</label><br />
-						<input data-stm-role="location2" name="arrival_city" type="text" class="noFirstClick" />
-		<input data-stm-role="location2Id" name="slocation2" type="hidden" value="" />
-					</div>
-		</div>
-				<div class="dates two-child">
-		 	<div class="arrival_date">
-				<label>Depart:</label><br />
-						<input data-stm-role="date1" name="departure_date" type="text" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" />
-					</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-			<div class="vacation_date2">
-				<label>Return:</label><br/>
-						<input data-stm-role="date2" name="return_date" type="text" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" />
-					</div>
-		</div>
-				<div class="num_travelers">
-			<label>Travelers:</label>
-					<select data-stm-role="travelers" name="num_travelers">
-			<option value="1">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-<option value="5">5</option>
-<option value="6">6</option>
-		</select>
-				</div>
-				<div class="submit">
-					<div data-stm-role="submit" class="submit_btn orange large noFirstClick">
-			<input type="button" class="btn submitTrigger noFirstClick" value="SEARCH" />
-			<input type="button" class="submitTrigger submit_arrow noFirstClick" value="" />
-		</div>
-			</div>
-				</div>
-				</form>
-				<form id='car_widget_form' class='search_widget_main air' method='GET' action='/step2.php' data-stm-role='stm.bb.Views.searchForm.OpenTabBrowsingAndSubmit.Car' target='_self'>
-					<div class="mvcView searchWidget cars">
-					<div data-stm-role="errors" class="smartFormErrorMessages"></div>
-			<input data-stm-role="mode" type="hidden" class="hidden" name="search_mode" value="car" />
-		<input type="hidden" class="hidden" name="af" value="1274192" />
-		<input type="hidden" name="r" />
-				<div class="cities">
-			<div class="destination_city">
-				<label>Pick-up City:</label><br />
-						<input data-stm-role="location2" name="pickup_city" type="text" class="noFirstClick" />
-		<input data-stm-role="location2Id" name="slocation2" type="hidden" value="" />
-					</div>
-		</div>
-				<div class="dates two-child">
-			<div class="arrival_date">
-				<label>Pick-up:</label><br />
-						<input data-stm-role="date1" name="pickup_date" type="text" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" />
-						<span class="date_input">
-							<select data-stm-role="time1" name="pickup_time" >
-			<option value="anytime">Anytime</option>
-<option value="morning">Morning</option>
-<option value="noon">Afternoon</option>
-<option value="evening">Evening</option>
-<option value="0">12:00 AM</option>
-<option value="1">1:00 AM</option>
-<option value="2">2:00 AM</option>
-<option value="3">3:00 AM</option>
-<option value="4">4:00 AM</option>
-<option value="5">5:00 AM</option>
-<option value="6">6:00 AM</option>
-<option value="7">7:00 AM</option>
-<option value="8">8:00 AM</option>
-<option value="9">9:00 AM</option>
-<option value="10">10:00 AM</option>
-<option value="11">11:00 AM</option>
-<option value="12">12:00 PM</option>
-<option value="13">1:00 PM</option>
-<option value="14">2:00 PM</option>
-<option value="15">3:00 PM</option>
-<option value="16">4:00 PM</option>
-<option value="17">5:00 PM</option>
-<option value="18">6:00 PM</option>
-<option value="19">7:00 PM</option>
-<option value="20">8:00 PM</option>
-<option value="21">9:00 PM</option>
-<option value="22">10:00 PM</option>
-<option value="23">11:00 PM</option>
-		</select>
-						</span>
-			</div>
+<!-- End - FB Script -->
 
-			<div class="return_date">
-				<label>Drop-off:</label><br />
-						<input data-stm-role="date2" name="dropoff_date" type="text" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" />
-						<span class="date_input">
-							<select data-stm-role="time2" name="dropoff_time" >
-			<option value="anytime">Anytime</option>
-<option value="morning">Morning</option>
-<option value="noon">Afternoon</option>
-<option value="evening">Evening</option>
-<option value="0">12:00 AM</option>
-<option value="1">1:00 AM</option>
-<option value="2">2:00 AM</option>
-<option value="3">3:00 AM</option>
-<option value="4">4:00 AM</option>
-<option value="5">5:00 AM</option>
-<option value="6">6:00 AM</option>
-<option value="7">7:00 AM</option>
-<option value="8">8:00 AM</option>
-<option value="9">9:00 AM</option>
-<option value="10">10:00 AM</option>
-<option value="11">11:00 AM</option>
-<option value="12">12:00 PM</option>
-<option value="13">1:00 PM</option>
-<option value="14">2:00 PM</option>
-<option value="15">3:00 PM</option>
-<option value="16">4:00 PM</option>
-<option value="17">5:00 PM</option>
-<option value="18">6:00 PM</option>
-<option value="19">7:00 PM</option>
-<option value="20">8:00 PM</option>
-<option value="21">9:00 PM</option>
-<option value="22">10:00 PM</option>
-<option value="23">11:00 PM</option>
-		</select>
-						</span>
-			</div>
-		</div>
-				<div class="note">(Not all providers offer all pick-up and drop-off times. Please check the rental times before booking on a provider's site.)</div>
-				<div class="submit">
-					<div data-stm-role="submit" class="submit_btn orange large noFirstClick">
-			<input type="button" class="btn submitTrigger noFirstClick" value="SEARCH" />
-			<input type="button" class="submitTrigger submit_arrow noFirstClick" value="" />
-		</div>
-			</div>
-				<div class="group_link">
-			<a href="#" data-tracking-info='{"imp_id":"ed8c3c37-fa8f-41a8-bd35-849c95a273b2","test_recipe":"excluded","scoring_origin":1,"scoring_destination":1,"ad_lineup":"14267677","site_page":"Step 1","r":"i14267677","search_mode":"car"}'>Groups:Need 5+ cars? Try HotelPlanner.com</a>
-		</div>
-				</div>
-				</form>
-					</div>
-		</div>
-		
-<div id="hotelplanner_popup" class="rev_popup_error" style="display: none" data-stm-role="stm.bb.Views.Hotelplanner">
-	<div class="top">
-		<div id="hotelplanner_popup_close" class="closePopup" data-stm-role="closeLayer"></div>
+<!-- Begin Twitter Script -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- End Twitter Script -->
+ 
+<div class="header-wrapper row">
+
+<div class="container">
+<header class="row">
+<div class="one fourth mobile"><a href="http://www1.good.com"><img src="http://media.www1.good.com/images/goodLogo.gif"></a></div> 
+<div class="top-wrap three fourths mobile">
+<div class="top-nav whole hide-on-mobile">
+	<ul>
+	  		<li>
+					<a href="https://begood.good.com/marketplace.jspa"   target="_blank" >
+				Marketplace
+							<span class="divider">|</span>
+							</a>
+				</li>
+	  		<li>
+					<a href="https://begood.good.com/community/gdn"   target="_blank" >
+				Developer Network
+							<span class="divider">|</span>
+							</a>
+				</li>
+	  		<li>
+					<a href="https://begood.good.com/welcome"   target="_blank" >
+				Community
+									</a>
+				</li>
+	  	</ul>
+</div>
+<div class="row">
+	<div class="two thirds">
+	<div class="top-subnav">
+	   <ul>
+				 <li>
+						1-866-7BE-GOOD
+					</li>
+				 <li>
+							<a href="/request-a-demo.html" >
+						Demo
+							</a>
+					</li>
+				 <li>
+							<a href="/forms/free-trial.html"   target="_blank" >
+						Free Trial
+							</a>
+					</li>
+				 <li>
+							<a href="/about/contact-us.html" >
+						Contact Us
+							</a>
+					</li>
+			    </ul>
 	</div>
-	<div class="middle">
-		<div class="contents">
+	</div>
+		
+	
+	<form method="get" id="cse-search-box" action="/search" class="search one third">
+		<!--input id="search" type="text" name="q"-->
+		<input type="text" class="field" name="q" id="q" placeholder="Search here">
+		<input type="hidden" value="003434307236861653310:jpnii2iiwhs" name="cx">
+		<input type="hidden" value="FORID:11" name="cof">
+		<input type="hidden" value="UTF-8" name="ie">
+		<input type="submit" >
+		<script src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en&sitesearch=true" type="text/javascript"></script>
+	</form>
+</div> 
+</div>
+</header>
+</div><div class="nav-wrap">
+<span aria-hidden="true" class="icon-menu slide-trigger"  data-icon="&#xe003" ></span>
+<div class="row container main-nav">
+<ul> 
 			
-		<div class="welcome">To find great deals on 3+ rooms, we need to <br />send you to our partner site, HotelPlanner.com.</div>
-		<div class="desc">Can we open that site in a new window for you?</div>
-		<div class="prefs">
-			<div class="submit_btn">
-				<div class="submit_left"></div>
-				<a data-tracking-info='{"imp_id":"c7f69ff4-0a53-4980-83f3-28f4716e2519","test_recipe":"excluded","scoring_origin":1,"scoring_destination":1,"ad_lineup":"5826303","site_page":"Step 1","r":"i5826303","search_mode":"hotel"}' id="hotelplanner_go" class="btn" target="_hplink" data-stm-role="closeLayer" rel="nofollow"><span class="yes">Yes!</span> Open HotelPlanner.com</a>
-				<div class="submit_right"></div>
-			</div>
-		</div>
-		<div class="browse"><a href="javascript:void(0)" id="hotelplanner_stay" class="closePopup" data-stm-role="closeLayer">No - Take me back to BookingBuddy</a></div>
-			</div>
-	</div>
-	<div class="bottom"></div>
-</div>
-								</div>
-								<div class="clear"></div>
-							</div>
-							<div class="bottom">
-								<div class="left"></div>
-								<div class="middle"></div>
-								<div class="right"></div>
-							</div>
+			<li class="one seventh"><a href="/applications/products-overview.html">Products</a>
+		<div class="mega-menu">
+		<div class="row">
+								
+		
+				
+										
+							<div class="one third">
+			        									<h5><a href="/applications">Applications</a></h5>
+													<p>Business Professional</p>
+																																		<ul>
+																											<li><a href="/applications/good-pro" >Good Pro</a></li>
+																		</ul>
+																							<p><br>Enterprise</p>
+																																		<ul>
+																											<li><a href="/applications/collaboration-suite/" >Collaboration Suite</a></li>
+																																<li><a href="/applications/collaboration-suite/good-for-enterprise" >Good For Enterprise</a></li>
+																																<li><a href="/applications/collaboration-suite/good-connect" >Good Connect</a></li>
+																																<li><a href="/applications/collaboration-suite/good-share" >Good Share</a></li>
+																																<li><a href="/applications/collaboration-suite/good-access" >Good Access</a></li>
+																		</ul>
+																							<p><br>Good Secured</p>
+																																		<ul>
+																											<li><a href="/applications/good-secure-isv.html" >ISV Apps</a></li>
+																																<li><a href="https://community.good.com/marketplace.jspa"  target="_blank" class="offsite" >Good Dynamics Marketplace</a></li>
+																		</ul>
+													</div>
+					<div class="one third">
+			        									<h5><a href="/good-dynamics-platform/">Platform</a></h5>
+													<p>Build and Secure</p>
+																																		<ul>
+																											<li><a href="/about/security.html" >Security</a></li>
+																																<li><a href="/secure-mobility-solution/mobile-application-containerization" >Containerization</a></li>
+																																<li><a href="/good-dynamics-platform/shared-services.html" >Shared Services</a></li>
+																		</ul>
+																							<p><br>Deploy</p>
+																																		<ul>
+																											<li><a href="/good-dynamics-platform/enterprise-app-store.html" >App Store</a></li>
+																																<li><a href="/good-dynamics-platform/deployment-options.html" >Deployment Options</a></li>
+																		</ul>
+																							<p><br>Manage</p>
+																																		<ul>
+																											<li><a href="/secure-mobility-solution/mobile-device-management.html" >Mobile Device Management (MDM)</a></li>
+																																<li><a href="/good-dynamics-platform/mobile-app-management.html" >Mobile Application Management (MAM)</a></li>
+																																<li><a href="/good-dynamics-platform/mobility-application-analytics.html" >Mobile Analytics</a></li>
+																																<li><a href="/good-dynamics-platform/mobile-service-management.html" >Mobile Service Management (MSM)</a></li>
+																		</ul>
+													</div>
+					<div class="one third">
+			        									<h5>Compare</h5>
+																																						<ul>
+																											<li><a href="/applications/products-overview.html" >Good Product Comparison</a></li>
+																																<li><a href="/about/comparison-chart.html" >Competitive Comparison</a></li>
+																																<li><a href="/about/blackberry-comparison.html" >BlackBerry Comparison</a></li>
+																		</ul>
+																																																					</div>
 						</div>
-						<div class="clear"></div>
-					</div>
-					<div id="pagetop_right_div">
-						<div id="box_bullets"></div>
-					</div>
-				</div>
-				<div class="bottom_row_shadow bottom_row"></div>
-			</div>
 		</div>
+	</li>
+			
+			<li class="one seventh"><a href="/secure-mobility-solution/">Solutions</a>
+		<div class="mega-menu">
+		<div class="row">
+							<h4><a href="/secure-mobility-solution/">Secure Mobility Solutions and Services</a></h4>
+							<p>Unlock your mobile potential with Good's comprehensive solution for your <a href="/secure-mobility-solution/enterprise-mobility-management.html">enterprise mobility management</a> needs.</p>
+				
+		
+				
+										
+							<div class="half">
+			        									<h5><a href="/secure-mobility-solution/">Solutions</a></h5>
+													<p>Secure enterprise mobility management solutions for every business.</p>
+																																		<ul>
+																											<li><a href="/secure-mobility-solution/mobile-application-containerization/" >App Wrapping & Containerization</a></li>
+																																<li><a href="/secure-mobility-solution/secure-mobile-collaboration.html" >Mobile Collaboration</a></li>
+																																<li><a href="/secure-mobility-solution/mobile-content-management.html" >Mobile Content Management</a></li>
+																																<li><a href="/secure-mobility-solution/mobile-device-management.html" >Mobile Device Management (MDM)</a></li>
+																																<li><a href="/secure-mobility-solution/mobile-identity-and-access-management.html" >Mobile Identity and Access Management (IAM)</a></li>
+																																<li><a href="/secure-mobility-solution/enterprise-mobility-management.html" >Enterprise Mobility Management</a></li>
+																																<li><a href="/secure-mobility-solution/bring-your-own-device.html" >Bring Your Own Device Solution</a></li>
+																																<li><a href="/secure-mobility-solution/blackberry-migration-planning.html" >BlackBerry Migration Planning</a></li>
+																		</ul>
+																																																					</div>
+					<div class="half">
+			        									<h5><a href="/secure-mobility-solution/professional-services">Services</a></h5>
+													<p>Education, deployment, and consulting services for your enterprise.</p>
+																																		<ul>
+																											<li><a href="/secure-mobility-solution/professional-services" >Professional Services</a></li>
+																																<li><a href="/secure-mobility-solution/byod-policy-service.html" >BYOD Policy Construction Service</a></li>
+																		</ul>
+																																																					</div>
+						</div>
+		</div>
+	</li>
+			
+			<li class="one seventh"><a href="/industries/">Industries</a>
+		<div class="mega-menu">
+		<div class="row">
+							<h4><a href="/industries/">Good Secure Mobility for Industries</a></h4>
+							<p>Secure mobility, device management, and line of business collaboration for any industry.</p>
+				
+		
+				
+										
+							<div class="half">
+			        																																						<ul>
+																											<li><a href="/industries/financial-services.html" >Financial Services</a></li>
+																																<li><a href="/industries/public-sector.html" >Public Sector</a></li>
+																																<li><a href="/industries/healthcare.html" >Healthcare</a></li>
+																																<li><a href="/industries/legal-ps.html" >Legal &amp; Professional Services</a></li>
+																																<li><a href="/industries/insurance.html" >Insurance</a></li>
+																																<li><a href="/industries/life-sciences.html" >Life Sciences</a></li>
+																		</ul>
+																																																					</div>
+					<div class="half">
+			        																																																															</div>
+						</div>
+		</div>
+	</li>
+			
+			<li class="one seventh"><a href="/customers/">Customers</a>
+		<div class="mega-menu">
+		<div class="row">
+							<h4><a href="/customers/">Good Customer Success</a></h4>
+							<p>More than 5,000 organizations in 130 countries use Good Technology solutions, including FORTUNE 100™ leaders in commercial banking, insurance, healthcare, retail, government, and aerospace and defense.</p>
+				
+		
+				
+										
+							<div class="half">
+			        																																						<ul>
+																											<li><a href="/support/" >Support</a></li>
+																																<li><a href="/support/technical-support-resources.html" >Documentation</a></li>
+																																<li><a href="/support/technical-support-resources.html" >Downloads</a></li>
+																																<li><a href="/support/devices-supported.html" >Supported Devices</a></li>
+																																<li><a href="/support/knowledgebase.html" >Knowledgebase</a></li>
+																																<li><a href="https://begood.good.com/welcome"  target="_blank" class="offsite" >Community</a></li>
+																																<li><a href="/customers/" >Case Studies</a></li>
+																		</ul>
+																																																					</div>
+					<div class="half">
+			        																																																															</div>
+						</div>
+		</div>
+	</li>
+			
+			<li class="one seventh"><a href="/partners/">Partners</a>
+		<div class="mega-menu">
+		<div class="row">
+							<h4><a href="/partners/">Good Partner Success</a></h4>
+							<p>Independent software vendors (ISVs), systems integrators, consultants, device manufacturers, and resellers are partnering with Good to deliver a secure, comprehensive mobile ecosystem for our mutual customers. </p>
+				
+		
+				
+										
+							<div class="half">
+			        																																						<ul>
+																											<li><a href="/partners/" >Overview</a></li>
+																																<li><a href="/partners/become-a-partner.html" >Become a Partner</a></li>
+																																<li><a href="/partners/deal-registration.html" >Deal Registration</a></li>
+																																<li><a href="https://partners.good.com/"  target="_blank" class="offsite" >Partner Portal</a></li>
+																																<li><a href="/partners/find-a-partner.html" >Find a Partner</a></li>
+																																<li><a href="https://community.good.com/marketplace.jspa"  target="_blank" class="offsite" >Find Partner Apps</a></li>
+																		</ul>
+																																																					</div>
+					<div class="half">
+			        																																																															</div>
+						</div>
+		</div>
+	</li>
+			
+			<li class="one seventh"><a href="/resources/">Resources</a>
+		<div class="mega-menu">
+		<div class="row">
+								
+		
+				
+										
+							<div class="half">
+			        									<h5>Resource Center</h5>
+																																						<ul>
+																											<li><a href="/customers/" >Case Studies</a></li>
+																																<li><a href="/about/events/" >Events & Webinars</a></li>
+																																<li><a href="/resources#videos" >Videos</a></li>
+																																<li><a href="/resources#whitepapers" >Whitepapers</a></li>
+																																<li><a href="/resources#brochures" >Datasheets & Brochures</a></li>
+																																<li><a href="/support/technical-support-resources.html" >Technical Resources</a></li>
+																																<li><a href="/about/comparison-chart.html" >Competitive Comparison</a></li>
+																		</ul>
+																																																					</div>
+					<div class="half">
+			        									<h5>Get Started</h5>
+																																						<ul>
+																											<li><a href="/forms/free-trial.html"  target="_blank" class="offsite" >Sign up for a Free Trial</a></li>
+																																<li><a href="/request-a-demo.html" >Request a Demo</a></li>
+																																<li><a href="/applications/products-overview.html" >Compare Products</a></li>
+																																<li><a href="/about/contact-us.html" >Contact Good</a></li>
+																																<li><a href="/partners/find-a-partner.html" >Find a Partner</a></li>
+																																<li><a href="/support/devices-supported.html" >Find Supported Devices</a></li>
+																																<li><a href="/partners/become-a-partner.html" >Become a Partner</a></li>
+																		</ul>
+																																																					</div>
+						</div>
+		</div>
+	</li>
+			
+			<li class="one seventh end"><a href="/about/">About Us</a>
+		<div class="mega-menu">
+		<div class="row">
+									<p>Good Technology is transforming how mobile work gets done, through secure app-to-app workflows that include integrated email, communications, document management, business intelligence, social business, wireless printing, and more.</p>
+				
+		
+				
+										
+							<div class="half">
+			        																																						<ul>
+																											<li><a href="/about/press-releases" >Press</a></li>
+																																<li><a href="/about/articles-and-news" >Articles & News</a></li>
+																																<li><a href="/about/leadership#executiveteam" >Executive Leadership</a></li>
+																																<li><a href="/about/leadership#boardofdirectors" >Board of Directors</a></li>
+																																<li><a href="/about/awards" >Awards</a></li>
+																																<li><a href="/about/office-locations.html" >Office Locations</a></li>
+																		</ul>
+																																																					</div>
+					<div class="half">
+			        																																						<ul>
+																											<li><a href="/about/security.html" >Security</a></li>
+																																<li><a href="/about/innovation.html" >Innovation</a></li>
+																																<li><a href="/about/career-opportunities/" >Careers</a></li>
+																																<li><a href="https://begood.good.com/welcome"  target="_blank" class="offsite" >Community</a></li>
+																																<li><a href="/about/investors.html" >Investors</a></li>
+																																<li><a href="https://begood.good.com/community/blogs"  target="_blank" class="offsite" >Blogs</a></li>
+																		</ul>
+																																																					</div>
+						</div>
+		</div>
+	</li>
+
+</ul>
+</div>
+</div><!-- end nav-wrap -->
+</div><!-- end of header--><div id="mainSlider" class="cycle-slideshow" data-cycle-slides="> .banner-wrap" data-cycle-timeout="8000" data-cycle-pager="#custom-pager" data-cycle-pager-template="<strong><a href=#> {{slideNum}} </a></strong>">
+  <div class="pager-wrap container">
+      <div id="custom-pager"></div>
+  </div>
+      <div id="banner1" class="banner-wrap" data-bgcolor="#ffffff">
+        <section class="container">
+          <div class="background-slide">
+            <img src="http://media.www1.good.com/images/bnr-hero-home-boxtone-good-1000x400.jpg" alt="" />
+          </div>
+          <div class="main-slide">
+                        		  		  		  		  		  		  		  		  
+<div class="headline animated fadeInRight" data-headline="#79ccc9">
+            <h2>Boxtone is now part of Good</h2>
+          </div>
+          <div class="learn-more animated-late fadeInRight">
+                                        <a data-linkcolor="#79CCC9" href="http://www1.good.com/good-dynamics-platform/boxtone.html" >Learn More  <span class="icon-right-arrow" data-icon="&#xe005"></span></a>
+                      </div>
+        </div>
+      </section>
+    </div><!-- end of banner -->
+      <div id="banner2" class="banner-wrap" data-bgcolor="#828282">
+        <section class="container">
+          <div class="background-slide">
+            <img src="http://media.www1.good.com/images/bnr-hero-home2-vms-apr29-1000x400.jpg" alt="" />
+          </div>
+          <div class="main-slide">
+                        		  		  		  		  		  		  		  		  
+<div class="headline animated fadeInRight" data-headline="#ed1c24">
+            <h2>Good is Coming <br>To You - Virtual <br>Mobility Summit On April 29</h2>
+          </div>
+          <div class="learn-more animated-late fadeInRight">
+                                        <a data-linkcolor="#FFFFFF" href="http://www1.good.com/forms/vms-save-april.html"  target="_blank" >Register Now  <span class="icon-right-arrow" data-icon="&#xe005"></span></a>
+                      </div>
+        </div>
+      </section>
+    </div><!-- end of banner -->
+      <div id="banner3" class="banner-wrap" data-bgcolor="#e8e9eb">
+        <section class="container">
+          <div class="background-slide">
+            <img src="http://media.www1.good.com/images/Good-banner-world-tour-2014.jpg" alt="" />
+          </div>
+          <div class="main-slide">
+                        		  		  		  		  		  		  		  		  
+<div class="headline animated fadeInRight" data-headline="#808284">
+            <h2>Where can you unleash your mobile potential?</h2>
+          </div>
+          <div class="learn-more animated-late fadeInRight">
+                                        <a data-linkcolor="#00AEEF" href="http://www1.good.com/about/events/world-tour"  target="_blank" >Learn more  <span class="icon-right-arrow" data-icon="&#xe005"></span></a>
+                      </div>
+        </div>
+      </section>
+    </div><!-- end of banner -->
+      <div id="banner4" class="banner-wrap" data-bgcolor="#ffffff">
+        <section class="container">
+          <div class="background-slide">
+            <img src="http://media.www1.good.com/images/bnr-hero-home-tech-data-1000x400.jpg" alt="" />
+          </div>
+          <div class="main-slide">
+                        		  		  		  		  		  		  		  		  
+<div class="headline animated fadeInRight" data-headline="#f05a28">
+            <h2>Good and <br>Tech Data <br>Partner to <br>Deliver Secure <br>Mobility</h2>
+          </div>
+          <div class="learn-more animated-late fadeInRight">
+                                        <a data-linkcolor="#F05A28" href="/about/press-releases/tech-data-partners-offers-comprehensive-mobility-security-solutions.html" >Learn More  <span class="icon-right-arrow" data-icon="&#xe005"></span></a>
+                      </div>
+        </div>
+      </section>
+    </div><!-- end of banner -->
+      <div id="banner5" class="banner-wrap" data-bgcolor="#30639c">
+        <section class="container">
+          <div class="background-slide">
+            <img src="http://media.www1.good.com/images/bnr-hero-gartner-nimble-1000x400.jpg" alt="" />
+          </div>
+          <div class="main-slide">
+                        		  		  		  		  		  		  		  		  
+<div class="headline animated fadeInRight" data-headline="#f05a28">
+            <h2>New Video: <br>How Enterprises Win with <br>Mobility</h2>
+          </div>
+          <div class="learn-more animated-late fadeInRight">
+                                        <a data-linkcolor="#FFFFFF" href="http://www1.good.com/forms/gartner-video-collaboration.html"  target="_blank" >Watch Now  <span class="icon-right-arrow" data-icon="&#xe005"></span></a>
+                      </div>
+        </div>
+      </section>
+    </div><!-- end of banner -->
+  </div>
+<div id="sticky">
+	<div class="tagline">
+		<h2>The secure mobility solution that unlocks your mobile potential</h2>
+	</div>
+<div class="pageNav-wrap">
+	<div class="container">
+	<span aria-hidden="true" class="icon-menu page-nav-trigger" data-icon="&#xe003"></span>
+		<nav class="page-nav inline">
+		<ul>
+   		   			   			   						<li class="one fifth small-tablet"><a  href="#resources" >Resources</a></li>
+  		    			   			   						<li class="one fifth small-tablet"><a  href="#benefits" >Benefits</a></li>
+  		    			   			   						<li class="one fifth small-tablet"><a  href="#customers" >Customers</a></li>
+  		    			   			   						<li class="one fifth small-tablet"><a  href="#news" >News</a></li>
+  		    			   			   			   						<li class="one fifth small-tablet"><a  href="/campaign-forms/free-trial" >Free Trial</a></li>
+  		 		</ul>
+		</nav>
+	</div>
+</div><!-- end of pageNav-wrap -->
+</div>
+<div class="sticky-holder"></div>
+
+<section class="featured way-trigger" id="resources">
+		<div class="container">
+							<h3>Good Resources</h3>
+							<div class="row"><section class="resource one third">
+<div class="image-wrap"><img title="New Video Featuring Gartner" src="http://media.www1.good.com/images/img-hp-promo-gartner-nimble-281x135.png" alt="New Video Featuring Gartner" height="135" width="281" /></div>
+<h4>New Video Featuring Gartner</h4>
+<div class="resource-content">
+<p>How Enterprises Win With Mobility.</p>
+<div class="link"><a href="http://www1.good.com/forms/gartner-video-collaboration.html" class="download" title="Gartner Nimble Video" target="_blank">Watch New Video<span class="icon-right-arrow-filled" data-icon="">&nbsp;</span></a></div>
+</div>
+</section> <section class="resource one third">
+<div class="image-wrap"><img title="Unleash Your Sales Pipeline April 9th" src="http://media.www1.good.com/images/img-hp-promo-webinar-pipeline-281x135.png" alt="Unleash Your Sales Pipeline April 9th" height="135" width="281" /></div>
+<h4>Unleash Your Sales Pipeline</h4>
+<div class="resource-content">
+<p>On-Demand: Learn how to streamline sales with mobility.</p>
+<div class="link"><a href="http://www1.good.com/forms/webinar-unleashing-your-pipeline.html" class="download" title="Live Webinar" target="_blank">Watch Now <span class="icon-right-arrow-filled" data-icon="">&nbsp;</span></a></div>
+</div>
+</section> <section class="resource one third">
+<div class="image-wrap"><img title="Virtual Mobility Summit April 29th" src="http://media.www1.good.com/images/img-hp-promo-vms-apr29-281x135.png" alt="Virtual Mobility Summit April 29th" height="135" width="281" /></div>
+<h4>Virtual Mobility Summit April 29th</h4>
+<div class="resource-content">
+<p>Join us online for this unique interactive event.</p>
+<div class="link"><a href="http://www1.good.com/forms/vms-save-april.html" class="download" title="Virtual Mobility Summit" target="_blank">Save the Date!  <span class="icon-right-arrow-filled" data-icon=""></span></a></div>
+</div>
+</section></div>
+					  <div class="more row">
+										<a href="/resources">More Resources <span class="icon-right-arrow" data-icon="&#xe005"></span></a>
+					  </div>
+		</div>
+	</section>
+		<section class="featured way-trigger" id="benefits">
+		<div class="container">
+							<h3>Good For</h3>
+							<div class="row"><section class="benefits one fourth">
+<div class="image-wrap"><img alt="Developers" src="http://media.www1.good.com/designimages/icon-hp-goodfor-appdev-126x126.png" /></div>
+<h5>Developers</h5>
+<p>Create custom mobile apps on a secure platform.</p>
+<p><a title="App Developers" href="developers.html">Learn More <span data-icon="" class="icon-right-arrow"></span></a></p>
+</section> <section class="benefits one fourth">
+<div class="image-wrap"><img alt="Mobile IT" src="http://media.www1.good.com/designimages/icon-hp-goodfor-it-126x126.png" /></div>
+<h5>IT</h5>
+<p>Support new mobile business models, while protecting corporate IP.</p>
+<p><a title="IT" href="it.html">Learn More <span data-icon="" class="icon-right-arrow"></span></a></p>
+</section> <section class="benefits one fourth">
+<div class="image-wrap"><img alt="Business Users" src="http://media.www1.good.com/designimages/icon-hp-goodfor-users-126x126.png" /></div>
+<h5>Users</h5>
+<p>Get fast, secure access to your apps and data.</p>
+<p><a title="Users" href="users.html">Learn More <span data-icon="" class="icon-right-arrow"></span></a></p>
+</section> <section class="benefits one fourth">
+<div class="image-wrap"><img alt="App Providers" src="http://media.www1.good.com/designimages/icon-hp-goodfor-isv-126x126.png" /></div>
+<h5>Partners</h5>
+<p>Team with the secure mobility leader on bold business solutions.</p>
+<p><a title="Partners" href="/partners/">Learn More <span data-icon="" class="icon-right-arrow"></span></a></p>
+</section></div>
+					  <div class="more row">
+								  </div>
+		</div>
+	</section>
+<!-- end of Resources section -->
+<!-- end of Benefits section --><section class="featured way-trigger" id="customers">
+  <div class="container">
+         <h3>Good Customers</h3>
+	<div class="row">
+	  <h5>More than <strong>5,000 organizations</strong> in <strong>130 countries</strong> use Good Technology.</h5>
+				
+								<div class="logos">
+																	<div class="row">
+													<div class="logo one fourth two-up-small-tablet two-up-mobile">
+					 	<img src="http://media.www1.good.com/images/logo-cust-unionbank-149x85.png" alt="customer logo" >
+					</div>
+																												<div class="logo one fourth two-up-small-tablet two-up-mobile">
+					 	<img src="http://media.www1.good.com/images/logo-cust-astrazeneca-149x85.png" alt="customer logo" >
+					</div>
+																												<div class="logo one fourth two-up-small-tablet two-up-mobile">
+					 	<img src="http://media.www1.good.com/images/customer2.jpg" alt="customer logo" >
+					</div>
+																												<div class="logo one fourth two-up-small-tablet two-up-mobile">
+					 	<img src="http://media.www1.good.com/images/customer1.jpg" alt="customer logo" >
+					</div>
+									</div>
+					<div class="row">
+																												<div class="logo one fourth two-up-small-tablet two-up-mobile">
+					 	<img src="http://media.www1.good.com/images/logo-cust-locog-145x85.jpg" alt="customer logo" >
+					</div>
+																												<div class="logo one fourth two-up-small-tablet two-up-mobile">
+					 	<img src="http://media.www1.good.com/images/logo-cust-nationwide-149x85.png" alt="customer logo" >
+					</div>
+																												<div class="logo one fourth two-up-small-tablet two-up-mobile">
+					 	<img src="http://media.www1.good.com/images/logo-cust-airforce-149x85.png" alt="customer logo" >
+					</div>
+																												<div class="logo one fourth two-up-small-tablet two-up-mobile">
+					 	<img src="http://media.www1.good.com/images/logo-cust-vodafone-149x85.png" alt="customer logo" >
+					</div>
+									</div>
+					<div class="row">
+										 	</div>
+  	 </div>
+	<div class="more row">
+							<a href="/customers">More Customers <span class="icon-right-arrow" data-icon="&#xe005"></span></a>
+			</div>
+  </div>
+</section>
+<!-- end of Customers section --><section class="featured way-trigger" id="news">
+<div class="container">
+      <h3>Good News</h3>
+
+  
+      
+  
+    		  	  	  	      
+   
+  		<div class="row">
+	  <section class="news one third">
+		<div class="news-header press">
+			<h5>Press</h5>
+		</div>
+		<div class="news-content">
+			<p>Good Technology and MobilityLab Announce Availability of MobileSputnik for Good</p>
+			<p><a href="http://www1.good.com/about/press-releases/good-technology-and-mobilitylab-announce-availability-of-mobilesputnik.html">Learn More <span class="icon-right-arrow" data-icon="&#xe005"></span></a></p>
+		</div>
+	  </section>
+	  <section class="news one third">
+		<div class="news-header events">
+			<h5>Events</h5>
+		</div>	
+								<div class="news-content">
+			<p>Sydney Mobility Summit</p>
+							<p><a href="http://www1.good.com/forms/sydney-mobility-summit.html" target="_blank">Learn More <span class="icon-right-arrow" data-icon="&#xe005"></span></a></p>
+					</div>
+	  </section>
+	  
+	   <section class="news one third">
+		<div class="news-header blog">
+			<h5>Good Blog</h5>
+		</div>
+        <div class="news-content">
+						<p>The Courting of Secure Mobility and the Internet of Things</p>
+			<p><a href="https://community.good.com/blogs/product_blog/2014/02" target="_blank">Read Blog <span class="icon-right-arrow" data-icon="&#xe005"></span></a></p>
+		</div>
+	  </section>
+	</div>
+	<div class="more row">
+								<a href="/about/articles-and-news">More News <span class="icon-right-arrow" data-icon="&#xe005"></span></a>
+			</div>
+</div>
+</section><!-- end of news section --> <div class="scroll-down" id="nav_down">
+	    	<img src="http://media.www1.good.com/designimages/down-arrow.png" alt="Scroll Down" class="down-arrow"/>
+    		<img src="http://media.www1.good.com/designimages/up-arrow.png" alt="Scroll Up" class="up-arrow"/>
+ </div>
+ 
+<footer>
+<div class="container">
+<div class="row">
+		<div class="links one fourth two-up-small-tablet two-up-mobile">
+																<p class="link-title">Applications</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="/applications/collaboration-suite/" >Collaboration Suite</a></li>
+								<ul class="sublist">
+																				
+									
+									
+									
+							<li><a href="/applications/collaboration-suite/good-for-enterprise" >Good for Enterprise</a></li>
+																				
+									
+									
+									
+							<li><a href="/applications/collaboration-suite/good-connect" >Good Connect</a></li>
+																				
+									
+									
+									
+							<li><a href="/applications/collaboration-suite/good-share" >Good Share</a></li>
+																				
+									
+									
+									
+												</ul>
+													<li><a href="/applications/good-secure-isv.html" >Custom ISV Applications</a></li>
+																						</ul>
+								<p class="link-title">Platform</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="/good-dynamics-platform/" >Mobile Application Management</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/mobile-application-containerization/" >Mobile Application Security</a></li>
+																
+									
+									
+									
+											<li><a href="/good-dynamics-platform/mobility-application-analytics.html" >Mobile Application Analytics</a></li>
+																
+									
+									
+									
+											<li><a href="/good-dynamics-platform/mobile-service-management.html" >Mobile Service Management</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/mobile-device-management.html" >Mobile Device Management</a></li>
+																						</ul>
+								<p class="link-title">Industries</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="/industries/financial-services.html" >Financial Services</a></li>
+																
+									
+									
+									
+											<li><a href="/industries/public-sector.html" >Public Sector</a></li>
+																
+									
+									
+									
+											<li><a href="/industries/healthcare.html" >Healthcare</a></li>
+																
+									
+									
+									
+											<li><a href="/industries/legal-ps.html" >Legal &amp; Professional Services</a></li>
+																
+									
+									
+									
+											<li><a href="/industries/" >Insurance</a></li>
+																
+									
+									
+									
+											<li><a href="/industries/life-sciences.html" >Life Sciences</a></li>
+							</div>
+		<div class="links one fourth two-up-small-tablet two-up-mobile">
+																		<p class="link-title">Solutions</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="/secure-mobility-solution/secure-mobile-collaboration.html" >Mobile Collaboration</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/mobile-content-management.html" >Mobile Content Management</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/mobile-device-management.html" >Mobile Device Management</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/mobile-identity-and-access-management.html" >Mobile IAM</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/enterprise-mobility-management.html" >Enterprise Mobility Management</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/bring-your-own-device.html" >Bring Your Own Device (BYOD)</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/data-loss-prevention.html" >Data Protection</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/mobile-business-intelligence-security.html" >Secure Business Intelligence</a></li>
+																						</ul>
+								<p class="link-title">Customers</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="/support/" >Support</a></li>
+																
+									
+									
+									
+											<li><a href="/secure-mobility-solution/professional-services" >Professional Services</a></li>
+																
+									
+									
+									
+											<li><a href="https://begood.good.com/welcome"  target="_blank" class="offsite" >Community</a></li>
+																
+									
+									
+									
+											<li><a href="/customers/" >Testimonials</a></li>
+																
+									
+									
+									
+											<li><a href="/support/devices-supported.html" >Supported Devices</a></li>
+							</div>
+		<div class="links one fourth two-up-small-tablet two-up-mobile">
+																		<p class="link-title">International</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="http://www1.good.com/" >United States</a></li>
+																
+									
+									
+									
+											<li><a href="http://uk.good.com/" >United Kingdom</a></li>
+																
+									
+									
+									
+											<li><a href="http://au.good.com/" >Australia</a></li>
+																
+									
+									
+									
+											<li><a href="http://de.good.com/" >Germany</a></li>
+																
+									
+									
+									
+											<li><a href="http://fr.good.com/" >France</a></li>
+																
+									
+									
+									
+											<li><a href="/worldwide/spain.html" >Spain</a></li>
+																
+									
+									
+									
+											<li><a href="/worldwide/italy.html" >Italy</a></li>
+																
+									
+									
+									
+											<li><a href="/worldwide/china.html" >China</a></li>
+																						</ul>
+								<p class="link-title">Partners</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="/partners/find-a-partner.html" >Find a Partner</a></li>
+																
+									
+									
+									
+											<li><a href="/partners/become-a-partner.html" >Become a Partner</a></li>
+																
+									
+									
+									
+											<li><a href="/partners/deal-registration.html" >Deal Registration</a></li>
+																						</ul>
+								<p class="link-title">Developers</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="https://begood.good.com/community/gdn"  target="_blank" class="offsite" >Developer Network</a></li>
+							</div>
+		<div class="links one fourth two-up-small-tablet two-up-mobile">
+																		<p class="link-title">Company</p>
+					<ul>
+						
+									
+									
+									
+											<li><a href="https://begood.good.com/community/blogs"  target="_blank" class="offsite" >Blogs</a></li>
+								<ul class="sublist">
+																				
+									
+									
+									
+							<li><a href="https://begood.good.com/marketplace.jspa"  target="_blank" class="offsite" >Good Dynamic Marketplace</a></li>
+																				
+									
+									
+									
+												</ul>
+													<li><a href="/about/press-releases" >Press &amp; News</a></li>
+								<ul class="sublist">
+																				
+									
+									
+									
+							<li><a href="/about/events" >Events</a></li>
+																				
+									
+									
+									
+							<li><a href="/about/career-opportunities/" >Careers</a></li>
+																				
+									
+									
+									
+												</ul>
+													<li><a href="/about/leadership" >Leadership</a></li>
+								<ul class="sublist">
+																				
+									
+									
+									
+							<li><a href="/about/investors.html" >Investors</a></li>
+																				
+									
+									
+									
+												</ul>
+													<li><a href="/about/office-locations.html" >Locations</a></li>
+																
+									
+									
+									
+											<li><a href="/patent-litigation" >Litigation</a></li>
+																
+									
+									
+									
+											<li><a href="/resources" >Resources</a></li>
+																
+									
+									
+									
+											<li><a href="/about/contact-us.html" >Contact Us</a></li>
+																
+									
+									
+									
+											<li><a href="https://begood.good.com/welcome"  target="_blank" class="offsite" >Join Good Communities</a></li>
+																
+									
+									
+									
+											<li><a href="https://begood.good.com/community/gdn"  target="_blank" class="offsite" >Join Developer Network</a></li>
+								<div class="social-media">
+			<ul>
+								         					<li><a href="https://www.facebook.com/goodformobile"  target="_blank" ><img src="http://media.www1.good.com/designimages/facebook-icon.png" alt="Facebook" /></a></li>
+								         					<li><a href="https://twitter.com/GOOD_technology"  target="_blank" ><img src="http://media.www1.good.com/designimages/twitter-icon.png" alt="Twitter" /></a></li>
+								         					<li><a href="http://www.linkedin.com/company/good-technology"  target="_blank" ><img src="http://media.www1.good.com/designimages/linkedin-icon.png" alt="LinkedIn" /></a></li>
+								         					<li><a href="http://www.youtube.com/user/GoodForMobile"  target="_blank" ><img src="http://media.www1.good.com/designimages/youtube-icon.png" alt="YouTube" /></a></li>
+							</ul>
+		</div>
+			</div>
+	</div>
+
+<div class="legal">
+<div class="row">
+  <div class="half">
+	  <ul class="row">
+					<li class="one fourth"><a href="/legal/legal.html">Legal</a></li>
+					<li class="one fourth"><a href="/legal/privacy.html">Privacy Statement</a></li>
+					<li class="one fourth"><a href="/about/contact-us.html">Contact Us</a></li>
+			  </ul>
+  </div>
+  <div class="copyright half">
+	<p>&copy; 2014 Good Technology. All Rights Reserved</p>
+  </div>
+</div>
+</div>
 	
-		<div id="left_column" class="left_column">
-				<div class="module  ">
-			<div class="top">
-				<div class="left">&nbsp;</div>
-				<div class="right">&nbsp;</div>
-				<div class="middle">&nbsp;</div>
-			</div>
-			<div class="title">Destination Spotlight: Las Vegas</div>
-			<div class="contents">
-				<div id="rev_spotlight">
-	<a href="/travel-deals/las-vegas-nv/travel/deals/"><img src="http://i.slimg.com/sc/bk/graphic/v/ve/vegas_spotlight.jpg" alt="Vegas" /></a>
-	<br />
-	<div class="headline">Explore Las Vegas</div>
-	<div class="body">
-		<p>Get your glitz, glitter, and gambling fix at that diamond in the dust, Las Vegas. Even not-so-high rollers can score pretty great travel deals to good old Sin City.</p>
-		<p><span class='arrow'>&raquo;</span>&nbsp;<a href="/travel-deals/las-vegas-nv/travel/deals/">Get our best Las Vegas Deals</a></p>
-		<p><span class='arrow'>&raquo;</span>&nbsp;<a href="/hotel_listings.php?tid=45963">Compare Las Vegas Hotels</a></p>
-		<p><span class='arrow'>&raquo;</span>&nbsp;<a href="destinations/Las+Vegas-NV-travel-information.html?arrival_city=Las+Vegas%2C+NV&amp;city=1435">Find more information about Las Vegas</a></p>
-	</div>
-</div>			</div>
-			<div class="bottom">
-				<div class="left">&nbsp;</div>
-				<div class="right">&nbsp;</div>
-				<div class="middle">&nbsp;</div>
-			</div>
-		</div>
-				<div class="module  ">
-			<div class="top">
-				<div class="left">&nbsp;</div>
-				<div class="right">&nbsp;</div>
-				<div class="middle">&nbsp;</div>
-			</div>
-			<div class="title">More Cheap Flights Deals</div>
-			<div class="contents">
-				
-			<table class="popular_links_module"><tbody>
-				<tr>
-					<td><a href="/cheap-flights/to-New+York-NY/">Cheap Flights to New York City</a></td><td><a href="/cheap-flights/to-Los+Angeles-CA/">Cheap Flights to Los Angeles</a></td></tr><tr><td><a href="/cheap-flights/to-Chicago-IL/">Cheap Flights to Chicago</a></td><td><a href="/cheap-flights/to-San+Francisco-CA/">Cheap Flights to San Francisco</a></td></tr><tr><td><a href="/cheap-flights/to-Boston-MA/">Cheap Flights to Boston</a></td><td><a href="/cheap-flights/to-Atlanta-GA/">Cheap Flights to Atlanta</a></td></tr><tr><td><a href="/cheap-flights/to-Seattle-WA/">Cheap Flights to Seattle</a></td><td><a href="/cheap-flights/to-Orlando-FL/">Cheap Flights to Orlando</a></td></tr><tr><td><a href="/cheap-flights/to-Denver-CO/">Cheap Flights to Denver</a></td><td><a href="/cheap-flights/to-Minneapolis-MN/">Cheap Flights to Minneapolis</a></td></tr><tr><td><a href="/cheap-flights/to-Dallas-TX/">Cheap Flights to Dallas</a></td><td><a href="/cheap-flights/to-Philadelphia-PA/">Cheap Flights to Philadelphia</a></td></tr><tr><td><a href="/cheap-flights/to-Phoenix-AZ/">Cheap Flights to Phoenix</a></td><td><a href="/cheap-flights/to-Portland-OR/">Cheap Flights to Portland</a></td></tr><tr><td><a href="/cheap-flights/to-Las+Vegas-NV/">Cheap Flights to Las Vegas</a></td><td><a href="/cheap-flights/to-Newark-NJ/">Cheap Flights to Newark</a></td></tr><tr><td><a href="/cheap-flights/to-Tampa-FL/">Cheap Flights to Tampa</a></td><td><a href="/cheap-flights/to-Washington-DC/">Cheap Flights to Washington</a></td></tr><tr><td><a href="/cheap-flights/to-Detroit-MI/">Cheap Flights to Detroit</a></td><td><a href="/cheap-flights/to-San+Diego-CA/">Cheap Flights to San Diego</a></td></tr><tr>				</tr>
-			</tbody></table>
-
-					</div>
-			<div class="bottom">
-				<div class="left">&nbsp;</div>
-				<div class="right">&nbsp;</div>
-				<div class="middle">&nbsp;</div>
-			</div>
-		</div>
-				</div>
-
-		<div id="right_column" class="right_column">
-				<div id="top_deals_box" class="module deals_module top_deals" style="display:none;">
-			 <div class="top">
-			   <div class="left">&nbsp;</div>
-			   <div class="right">&nbsp;</div>
-			   <div class="middle">&nbsp;</div>
-			 </div>
-			 <div id="BB-top-deals-title" class="title">Our Top Travel Deals</div>
-			 <div class="deals_module_tag"></div>
-			 <div class="contents">
-			   <div id="top-deals-header">
-				 <div class="text-header">
-				   <span class="price-title">Price</span>
-				   <span class="destination-title">Destination</span>
-				   <span class="description-title">Description</span>
-				 </div>
-				 <div class="separator-period"></div>
-			   </div>
-			   <div id="BB-deals-section" class="deals-section"> </div>
-
-			   			   <div id="dealssub" class="deals_sub wide">
-				 <div class="top">
-				   <div class="left">&nbsp;</div>
-				   <div class="right">&nbsp;</div>
-				   <div class="middle">&nbsp;</div>
-				 </div>
-				 <div class="contents">
-				   <div class="new_reg hide">
-				     <p class="sub_header">Thanks and Welcome!</p>
-					 <p class="message">New ways to save with top travel deals are on their way to you soon!</p>
-				   </div>
-				   <div class="existing_reg hide">
-					 <p class="sub_header">Welcome Back!</p>
-					 <p class="message">You are currently subscribed to our Top Deals Alert.</p>
-				   </div>
-				   <div class="unsubscribed">
-					 <p class="sub_header">Free! Get deals like these emailed each week!</p>
-					 <form action="" method="post" class="smartForm" id="dealssub_form">
-					   <div id="dealssub_form_errorMessages" class="smartFormErrorMessages"></div>
-					   <input type="hidden" name="nlp[]" value="nl_product_bbtd" />
-					   <input type="hidden" name="nlp[]" value="nl_product_tji" />
-					   <input type="hidden" name="nlp[]" value="nl_product_bb_tripreminder" />
-					   <input type="hidden" name="e2" value="" class="autoConfirmEmail" />
-
-					   <label for="dealssub_e1">Email Address:
-						 <input name="e1" type="text" title="Email Address" class="smartElement required noFirstClick" id="dealssub_e1" maxlength="50" size="40" />
-					   </label>
-
-					   <label for="dealssub_ac1">Home Airport:
-						 <input name="ac1" type="text" title="Home Airport" class="smartElement locationSuggest airport ipLocAirport required noFirstClick" id="dealssub_ac1" autocomplete="off" />
-					   </label>
-
-					   <div class="clear"></div>
-
-					   <div class="formbutton">
-						 <div class="left"></div>
-						 <input type="submit" class="noFirstClick" value="SIGN UP" />
-						 <input type="submit" class="submit_arrow noFirstClick" value="" />
-						 <input type="submit" class="submit_arrow_right noFirstClick" value="" />
-						 <div class="right"></div>
-					   </div>
-
-					   <div class="signup_terms">
-						 <a href="#" class="privacy">Privacy Policy</a>
-					   </div>
-					   <div class="clear"></div>
-					 </form>
-				   </div>
-				 </div>
-				 <div class="bottom">
-				   <div class="left">&nbsp;</div>
-				   <div class="right">&nbsp;</div>
-				   <div class="middle">&nbsp;</div>
-			     </div>
-			   </div>
-			   
-			   <div class='more_news'><a href="/travel-deals/" target="_self">More Deals <span class='arrow'>&raquo;</span></a></div>
-			 </div>
-			 <div class="bottom">
-			   <div class="left">&nbsp;</div>
-			   <div class="right">&nbsp;</div>
-			   <div class="middle">&nbsp;</div>
-			 </div>
-	    </div>
-				<div class="mvcView bBDartAd module dart_ad" style="display: none;">
-			<div class="ad_container">
-				<div class="ad_label">Advertisement</div>
-				<div class="ad_frame">
-					<div class="meta_data">{&quot;width&quot;:300,&quot;height&quot;:250,&quot;request&quot;:&quot;http:\/\/ad.doubleclick.net\/N5349\/adj\/ta.bb.com\/homepage_tier_1;ptag=homepage_tier_1_s;dcopt=ist;sz=300x250,250x250;tile=1;dc_ref=http%3A%2F%2Fwww.bookingbuddy.com%2F;ord=312509613?&quot;,&quot;endpoint&quot;:&quot;\/ad_wrapper.php&quot;}</div>
-				</div>
-			</div>
-		</div>
-		<noscript>
-		<a href="http://ad.doubleclick.net/N5349/jump/ta.bb.com/homepage_tier_1;ptag=homepage_tier_1_s;dcopt=ist;sz=300x250,250x250;tile=1;dc_ref=http%3A%2F%2Fwww.bookingbuddy.com%2F;ord=312509613?">
-			<img alt="" src="http://ad.doubleclick.net/N5349/ad/ta.bb.com/homepage_tier_1;ptag=homepage_tier_1_s;dcopt=ist;sz=300x250,250x250;tile=1;dc_ref=http%3A%2F%2Fwww.bookingbuddy.com%2F;ord=312509613?" />
-		</a>
-		</noscript>
-			<div class="module  ">
-			<div class="top">
-				<div class="left">&nbsp;</div>
-				<div class="right">&nbsp;</div>
-				<div class="middle">&nbsp;</div>
-			</div>
-			<div class="title">Travel News</div>
-			<div class="contents">
-				
-<div class="blog_entry">
-	<a href="http://rd.BookingBuddy.com/?ht=027be6552a7ff1580541c0bff4349a9375ffecad&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F5pdj3eQY3qg%2F10-terrifying-bridges-you-need-to-see-to-believe.html"><img class="left" src="http://i.slimg.com/bookingbuddy/blog/6a00e5500ce6be8834019b00478ec9970c-800wi" alt="Blog Photo" /></a>	<div class="blog_title">
-		<a href="http://rd.BookingBuddy.com/?ht=027be6552a7ff1580541c0bff4349a9375ffecad&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F5pdj3eQY3qg%2F10-terrifying-bridges-you-need-to-see-to-believe.html">10 Terrifying Bridges You Need to See to Believe</a>
-	</div>
-	<div class="byline">
-		Posted October 24, 2013 by SmarterTravel.com	</div>
-	<div class="text">
-		If you suffer from gephyrophobia (fear of bridges), click away now. From bridges so frightening that people will pay someone else to drive their car across to bridges that are just plain dangerous, these 10 bridges are the world's scariest.... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=027be6552a7ff1580541c0bff4349a9375ffecad&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F5pdj3eQY3qg%2F10-terrifying-bridges-you-need-to-see-to-believe.html">&raquo;</a>
-	</div>
-	<div class="comments">
-		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=1ab78a88172690e4ab710da55fcf54ae46002e4b&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F5pdj3eQY3qg%2F10-terrifying-bridges-you-need-to-see-to-believe.html%23comments">Post a Comment</a> 
-		
-				
-	</div>
 </div>
-<div class="blog_entry">
-		<div class="blog_title">
-		<a href="http://rd.BookingBuddy.com/?ht=c7f340dc9a7b375958f2c6eb8fd34fc7758ee357&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F9F8IaK3dLGQ%2F10-cures-for-the-chronic-overpacker.html">10 Cures for the Chronic Overpacker</a>
-	</div>
-	<div class="byline">
-		Posted October 9, 2013 by SmarterTravel.com	</div>
-	<div class="text">
-		Can't seem to travel without an overstuffed bag? We're here to help. If you're a chronic overpacker, these 10 tips will cure you of your bad packing habits forever. Start with a Carry-On Unless you're traveling with kids, we argue... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=c7f340dc9a7b375958f2c6eb8fd34fc7758ee357&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F9F8IaK3dLGQ%2F10-cures-for-the-chronic-overpacker.html">&raquo;</a>
-	</div>
-	<div class="comments">
-		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=3724d0da9588ea1deb430085a49a9b16610e338f&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F9F8IaK3dLGQ%2F10-cures-for-the-chronic-overpacker.html%23comments">Post a Comment</a> 
-		
-				
-	</div>
-</div>
-<div class="blog_entry">
-		<div class="blog_title">
-		<a href="http://rd.BookingBuddy.com/?ht=97b09c4d07efaa5124da064c72a7c3570bfe6257&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F1ECc2C5o4bU%2F10-tips-for-sleeping-safely-at-the-airport.html">10 Tips for Sleeping Safely at the Airport</a>
-	</div>
-	<div class="byline">
-		Posted September 3, 2013 by SmarterTravel.com	</div>
-	<div class="text">
-		Whether it's due to a long layover or bad weather, or just to save money, sometimes you need to be able to catch a few Z's at the airport. Unfortunately, it's not just a matter of closing your eyes and... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=97b09c4d07efaa5124da064c72a7c3570bfe6257&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F1ECc2C5o4bU%2F10-tips-for-sleeping-safely-at-the-airport.html">&raquo;</a>
-	</div>
-	<div class="comments">
-		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=7c5973f5e3893f27db8626d26cec8c9f5899171b&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F1ECc2C5o4bU%2F10-tips-for-sleeping-safely-at-the-airport.html%23comments">Post a Comment</a> 
-		
-				
-	</div>
-</div>
-<div class="blog_entry">
-		<div class="blog_title">
-		<a href="http://rd.BookingBuddy.com/?ht=df8a4cf2a0703d1840fdd25ec9975fe990cc8ada&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FULlfUrtOqWw%2Feasy-things-you-should-pack-but-probably-wont.html">Easy Things You Should Pack but Probably Won't</a>
-	</div>
-	<div class="byline">
-		Posted August 28, 2013 by SmarterTravel.com	</div>
-	<div class="text">
-		Yes, your passport and wallet (and probably some clean underwear) deserve to be at the top of your packing list. But in the rush to remember the essentials, travelers sometimes underestimate the power of the nice-to-haves. Humble objects, ranging from... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=df8a4cf2a0703d1840fdd25ec9975fe990cc8ada&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FULlfUrtOqWw%2Feasy-things-you-should-pack-but-probably-wont.html">&raquo;</a>
-	</div>
-	<div class="comments">
-		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=bd466f6a14a2b56104ebe8cc178149b175a0e99b&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FULlfUrtOqWw%2Feasy-things-you-should-pack-but-probably-wont.html%23comments">Post a Comment</a> 
-		
-				
-	</div>
-</div>
-<div class="blog_entry">
-		<div class="blog_title">
-		<a href="http://rd.BookingBuddy.com/?ht=d0e00f43e08784feaff09d2caea54514f2b2045a&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FbivwpVEFE90%2Fworlds-top-10-scariest-cliff-walks.html">World's Top 10 Scariest Cliff Walks</a>
-	</div>
-	<div class="byline">
-		Posted August 27, 2013 by SmarterTravel.com	</div>
-	<div class="text">
-		Warning: If you're scared of heights, tread lightly-just looking at the pictures in this gallery will make your stomach drop! Read on if you think you can handle these 10 scary cliff walks. They may be high risk, but these... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=d0e00f43e08784feaff09d2caea54514f2b2045a&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FbivwpVEFE90%2Fworlds-top-10-scariest-cliff-walks.html">&raquo;</a>
-	</div>
-	<div class="comments">
-		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=d14ba9c83957b03acdb1f082b20d3157c311e971&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FbivwpVEFE90%2Fworlds-top-10-scariest-cliff-walks.html%23comments">Post a Comment</a> 
-		
-				
-	</div>
-</div><div class="more_news"><a href="http://rd.BookingBuddy.com/?ht=8074d75a79b12e0c76b2ffb0bb2141bd7d769796&amp;rdurl=http%3A%2F%2Fblog.bookingbuddy.com%2F">More News <span class="arrow">&raquo;</span></a></div>			</div>
-			<div class="bottom">
-				<div class="left">&nbsp;</div>
-				<div class="right">&nbsp;</div>
-				<div class="middle">&nbsp;</div>
-			</div>
-		</div>
-				</div>
-		<div class="clear"></div>
+</footer>
 
-			</div>
-		<div id="page_wrapper_bottom"></div>
-		<div id="footer">
-					<div id="footer-div">
-		  <div class="boxcontent">
-			<span>Cheap flights, cheap tickets, and more at BookingBuddy.com. The fastest way to search your favorite travel sites.</span>
-			<br /><br />
-			<a href="/flight.php">Cheap Flights</a>
-| <a href="/hotel.php">Cheap Hotels</a>
-| <a href="/vacation.php">Cheap Vacation Packages</a>
-| <a href="/car.php">Cheap Car Rental</a>
-| <a href="/vacation-rentals.php">Cheap Vacation Rentals</a>
-| <a href="/cruise.php">Cheap Cruises</a>
-| <a href="#" onmousedown="try{this.href=d0('ipnp.shot%2Faeitsnd');}catch(e){};;return true;">Destinations</a>
-<br /> <a href="#" onmousedown="try{this.href=d0('apep.sh%2Ftflifia');}catch(e){};;return true;">Become an Affiliate</a>
-| <a href="http://blog.bookingbuddy.com/" onmousedown="try{this.href=d0('4Fb%257o7.9d9u%26gmi%3Bodbrg%3DltFp%2532%25AF%252tbhol.uorkpnab6d7y6cdmd2h1t2%3Ab%2FbdfBbo7i0g2ubd7.5od%2F7h8%3Dt0%3F4m7cay9d1Benck6o2.fr0%2Fbp1t');}catch(e){};;return true;">Travel News Blog</a>
-| <a href="#" onmousedown="try{this.href=d0('-seald%2F%2Feravtl');}catch(e){};;return true;">Travel Deals</a>
-| <a href="#" onmousedown="try{this.href=d0('chi.tnoispprpsb%2Fsug%2Fahcnbesu');}catch(e){};;return true;">Change Subscriptions</a>
-| <a href="#" onmousedown="try{this.href=d0('.phpp%2Fleh');}catch(e){};;return true;">Help</a>
-| <a href="#" onmousedown="try{this.href=d0('cp.phka%2Fbeedf');}catch(e){};;return true;">Feedback</a>
-| <a href="#" onmousedown="try{this.href=d0('itgouadm.coy%2Fdbbunkhotb%3Ak%2Foetwnr%2F.pot');}catch(e){};;return true;">Advertise on BookingBuddy Deals Network</a>
-<br /> <a href="#" onmousedown="try{this.href=d0('thp.p%2Fobau');}catch(e){};;return true;">About BookingBuddy</a>
-| <a href="#" onmousedown="try{this.href=d0('shp.p%2Ferps');}catch(e){};;return true;">Press Mentions</a>
-| <a href="#" onmousedown="try{this.href=d0('iplp.shan%2Foeitsmt');}catch(e){};;return true;">Testimonials</a>
-| <a href="#" onmousedown="try{this.href=d0('ths.pup%2Faontcc');}catch(e){};;return true;">Advertise</a>
-| <a href="#" onmousedown="try{this.href=d0('yhp.pca%2Firpv');}catch(e){};;return true;">Privacy Policy</a>
-| <a href="#" onmousedown="try{this.href=d0('shp.p%2Fretm');}catch(e){};;return true;">Terms of Use</a>
-| <a href="#" onmousedown="try{this.href=d0('vsleeric.moc%2Faademreahrtr%3At%2Faws.wmwr%2Feptt');}catch(e){};;return true;">Jobs</a>
-| <a href="#" onmousedown="try{this.href=d0('php.pam%2Ftise');}catch(e){};;return true;">Sitemap</a>
-<br /> <a href="http://www.bookingbuddy.co.uk">BookingBuddy UK</a>
-| BookingBuddy is part of the TripAdvisor Media Group | <a href="http://www.tingo.com" >Tingo</a> | <a href="https://plus.google.com/110032894085135989375" rel="publisher" target="_blank">Find us on Google+</a>			<br/>
-			&copy; 2003-2014 Smarter Travel Media LLC. All Rights Reserved. |
-			Also part of the Smarter Travel Media LLC Network:			<a href="http://www.smartertravel.com">www.SmarterTravel.com</a> | <a href="http://www.airfarewatchdog.com">www.AirfareWatchdog.com</a>
-		    <br/>
-		  </div>
-		</div>
-				</div>
-		<span class="hide" id="affiliateName">bookingbuddy_com</span>
-		<span class="hide" id="searchModeName">home</span>
-		<span class="hide" id="siteDomainBase">bookingbuddy.com</span>
-		<span class="hide" id="siteRedirectUrl">http://rd.BookingBuddy.com/?&ucid=42837&ad_user_tracking=%5Bsource%3D%2Ctaparam%3D%2Csupmt%3D%5D</span>
-		<span class="hide" id="TACheckRatesMCID">17866</span>
-		<span class="hide" id="TAHotelPhotosMCID">12410</span>
-		<span class="hide" id="TAReviewsMCID">12064</span>
-		 		<span class="hide" id="firstClickBBDPopunder"></span>
-	
-		<!-- IE8 webslice -->
-		<span style="display: none" id="BookingBuddySlice" class="hslice">
-			<span style="display: none" class="entry-title">Booking Buddy</span>
-			<a style="display: none" href="http://ie8php.hosting0.smoothfusion.com/bookingbuddy/MVCView.php" rel="entry-content"></a>
-		</span>
+<script type="text/javascript">
+$(document).ready(function() {
+// Added by MT
+// Pop up the light box via AJAX call
+	$('.video-link').click(function(e) {
+		var videoObject = $(this);
+		var videoID = videoObject.attr("id");
+		var playlistID = videoObject.attr("playlist-id");
+		var dataDivID = videoObject.attr("data-div-id");
+		var title = videoObject.attr("title");
+		var pageURL = window.location.href;
+		//alert("video ID >> " + videoID);
+		//alert("playlist ID >> " + playlistID);
+		//alert("DIV " + dataDivID);
+		//alert("Title " + title);
+		var getVideoURL = '/templates/Good-Link_Lightbox_Helper?videoID='+videoID+'&playlistID='+playlistID+'&dataDivID='+dataDivID+'&title='+title+'&pageURL='+pageURL;
+		jQuery.ajax({
+			url: getVideoURL,
+				cache: false,
+				type: "GET",
+				dataType: "html",
+				success: function(data){
+					//alert("success");
+					//alert(data);
+					//alert("Div id " +videoObject.attr('data-div-id'));					
+					var divID = videoObject.attr("data-div-id");
+					videoObject.after(data);
+					// To Reinitialize the FB-Like Button
+					FB.XFBML.parse(); 
+					// To Reinitialize the Twitter Button
+					twttr.widgets.load();
+					
+					$('body').css({'overflow':'hidden'});
+					$('.overlay').show();
+					//var divID =  $(this).attr("data-div-id");
+					
+					//alert("DIV " + divID);
+					var container = $('#' + divID).children('.container').detach();
+					//alert("container >>"+container);
+					$('div.lightbox').html('').attr('data-div-id', divID);
+					container.appendTo('div.lightbox');
+					$('div.lightbox').show();
+		}
+		});
+	});
+});
+</script>
+<script>setTimeout(function(){$('body').css('font-size','99.999%');}, 50);</script>
+<div class="overlay"></div>
+<div class="lightbox"></div>
 
-				<script type="text/javascript">
-			stm.pageData = {
-    "queryString": [
-
-    ],
-    "deviceInfo": {
-        "os": "unknown",
-        "version": "",
-        "isMobile": false,
-        "isTablet": false,
-        "browser": null
-    },
-    "mode": "air"
-};
-		</script>
-	</body></html>
+</body>
+</html>

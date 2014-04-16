@@ -1,309 +1,518 @@
-<!DOCTYPE html>
-<html data-mobile-support="" data-newsletter-subscription="" data-search="" data-platform-downloads="">
-<head>
-<title>Spring</title>
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no" id="Viewport" name="viewport"/>
-<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png"/>
-<link href="https://fonts.googleapis.com/css?family=Varela+Round|Montserrat:400,700" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" type="text/css" href="/css/main.css"/>
-<script>
-        var baseUrl = '/';
-  </script>
-<script async="" src="/lib/curl/src/curl.js" data-curl-run="/run.js"></script>
-<meta content="7qGntFPD9lWAVCtUu5U77v4l68PsTHf6xpzgjQv2j2M" name="google-site-verification"/>
-<script>
-    //
-      var _gaq = _gaq || [];
-      var pluginUrl =
-       '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-      _gaq.push(
-        ['_require', 'inpage_linkid', pluginUrl],
-        ['_setAccount', 'UA-2728886-20'],
-        ['_trackPageview'],
-        ['b._require', 'inpage_linkid', pluginUrl],
-        ['b._setAccount', 'UA-2728886-19'],
-        ['b._trackPageview']
-      );
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-  </script>
-</head>
-<body>
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" dir="ltr"> <!--<![endif]-->
+<head>
+<meta name="Description" content="Discover everything that is Pure Michigan. Find attractions, events, shopping, dining and lodging. Plan your outdoor adventure or weekend trip, at michigan.org." />
+
+<!--<script src="//cdn.optimizely.com/js/143569436.js"></script>-->
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>
+	Michigan's Official Travel and Tourism Site | Pure Michigan
+</title><meta content="ZyWGS1WLrKBFJ5QLhW/Z7hwaHnnAS9MtzRnPUA7L1qc=" name="verify-v1" /><meta name="google-site-verification" content="9mlpOqvjMLXIuVUGE7ShW_W0txYcJHx6jInckSvBN5g" /><meta name="p:domain_verify" content="d1ff8cbcf5c6d27b8eb494ea4b522a33" /><link href="https://plus.google.com/110001387520466723232" rel="publisher" />
+	
+
+<!--	== mobile meta
+			================================================================ -->
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!--	== css
+			================================================================ -->
+			<link rel='stylesheet' href='/css/layout.css?v=6.041900'>
+<link rel='stylesheet' href='/css/common.css?v=6.04190'>
+<!--[if IE 9]><link rel='stylesheet' type='text/css' media='screen, projection' href='/css/ie9.css?v=6.04190' /><![endif]-->
+<!--[if IE 8]><link rel='stylesheet' type='text/css' media='screen, projection' href='/css/ie8.css?v=6.04190' /><![endif]-->
+<!--[if IE 7]><link rel='stylesheet' type='text/css' media='screen, projection' href='/css/ie7.css?v=6.04190' /><![endif]-->
+
+			<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<!--	== typography
+			================================================================ 	-->
+		                <link href="http://fast.fonts.com/cssapi/cde5db42-50ac-4cb4-b40b-d7ab71e45bba.css" rel="stylesheet" type="text/css" />
+<!--	== favicons
+			================================================================ -->
+			<link rel="shortcut icon" href="/images/site_graphics/favicon.ico">
+			<link rel="apple-touch-icon" href="/images/site_graphics/apple-touch-icon.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="/images/site_graphics/apple-touch-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="/images/site_graphics/apple-touch-icon-114x114.png">
+
+<!--	== javascript
+			================================================================ -->
+            <script>
+var global_is_tablet = false;
+var global_is_mobile = false;
+var global_browser = 'wget';
+</script>
+<script src='/js/head.min.js?v=6.04190'></script>
+<script>
+head.js('/js/jquery-1.7.2.min.js', '/js/core.js?v=6.04190');
+</script><script type='text/javascript' src='/foresee/foresee-trigger.js?v=6.04190'></script>
+
+	<script type="text/javascript">	    var switchTo5x = false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({ publisher: "1090444a-7afc-4d5b-803c-f656ec8c786f", tracking: 'google', onhover: false, shorten:false  });</script>
+			<link href="/Rss/tm/Default.ashx" rel="alternate" title="michigan.org Traveler News" type="application/rss+xml" />
+
+<!-- 1pSblUcYGFQKSA -->
+<!-- Quantcast Tag, part 1 --> 
 <script type="text/javascript">
-    // Work around Google font rendering issues in webkit browsers on Windows 7
-    if (navigator.userAgent.indexOf("NT 6.1") != -1) {
-      document.body.style.WebkitTextStroke = "0.5px";
-    }
-  </script>
-<div class="viewport">
-<header class="navbar header--navbar desktop-only">
-<div class="navbar-inner">
-<div class="container-fluid">
-<div class="spring-logo--container">
-<a class="spring-logo" href="/"><span></span></a>
-</div>
-<ul class="nav pull-right">
-<li class="navbar-link">
-<a href="/docs">Docs</a>
-</li>
-<li class="navbar-link">
-<a href="/guides">Guides</a>
-</li>
-<li class="navbar-link">
-<a href="/projects">Projects</a>
-</li>
-<li class="navbar-link">
-<a href="/blog">Blog</a>
-</li>
-<li class="navbar-link">
-<a href="http://forum.spring.io">Forum</a>
-</li>
-<li class="navbar-link nav-search">
-<i class="icon-search navbar-search--icon js-search-input-open"></i>
-<div class="search-input-close js-search-input-close">x</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="search-dropdown--container js-search-dropdown">
-<div class="container-fluid">
-<div class="search-form--container">
-<form action="/search" class="form-inline form-search" method="get">
-<input class="search-query search-form--form js-search-input" name="q" placeholder="Search for documentation, guides, and posts..." type="text" value=""/>
-<button class="search-form--submit" type="submit"><i class="icon-search"></i></button>
-</form>
-</div>
-</div>
-</div>
-</header>
+  var _qevents = _qevents || [];
+  (function() {
+   var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+               + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);  
+  })();
+</script></head>
+<body class=home>
+<form name="aspnetForm" method="post" action="/" id="aspnetForm" style="margin:0" class="frmCls">
 <div>
-<div class="mobile-navigation--wrapper mobile-only">
-<div class="navigation-drawer--container">
-<div class="mobile-search--container">
-<form action="/search" class="form-inline form-search" method="get">
-<button class="search-form--submit" type="submit"><i class="icon-search"></i></button>
-<input class="search-query search-form--form js-search-input" name="q" placeholder="Search..." type="text" value=""/>
-</form>
-</div>
-<div class="navigation-item-list">
-<div class="navbar-link active">
-<a href="/">
-Home
-<i class="icon-chevron-right pull-right"></i>
-</a>
-</div>
- 
-<div class="navbar-link">
-<a href="/guides">
-Guides
-<i class="icon-chevron-right pull-right"></i>
-</a>
-</div>
-<div class="navbar-link">
-<a href="/projects">
-Projects
-<i class="icon-chevron-right pull-right"></i>
-</a>
-</div>
-<div class="navbar-link">
-<a href="/blog">
-Blog
-<i class="icon-chevron-right pull-right"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="mobile-nav">
-<div class="nav-icon js-open-nav-drawer">
-<i class="icon-reorder"></i>
-</div>
-<div class="header-center-icon">
-<a href="/">
-<div class="icon icon-spring-logo-mobile"></div>
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="header--container"></div>
-<div class="container-fluid"></div>
-<div>
-<div class="homepage--body">
-<div class="billboard--wrapper homepage-billboard">
- 
-<div class="billboard--container">
-<div class="container-fluid">
-<div class="icon icon-spring-logo-big homepage-icon"></div>
-<div class="homepage-title--container">
-<div class="homepage-title">
-Let's build a better Enterprise.
-</div>
-<div class="homepage-subtitle--container desktop-only">
-<div class="homepage-subtitle">
-Spring helps development teams everywhere build simple, portable,
-</div>
-<div class="homepage-subtitle">
-fast and flexible JVM-based systems and applications.
-</div>
-</div>
-<div class="homepage-subtitle--container mobile-only">
-<div class="homepage-subtitle">
-Spring helps development teams everywhere build simple, portable, fast and flexible JVM-based systems and applications.
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="key-feature--wrapper">
-<div class="container-fluid">
-<div class="row-fluid">
-<div class="span4 key-feature--container">
-<div class="key-feature--icon--container">
-<div class="key-feature--icon icon icon-build-anything"></div>
-</div>
-<div class="key-feature--title">Build Anything</div>
-<div class="key-feature--text">
-Write clean, testable code against the infrastructure components of your choice and accomplish any task &ndash; without re-inventing the wheel.
-</div>
-</div>
-<div class="span4 key-feature--container">
-<div class="key-feature--icon--container">
-<div class="key-feature--icon icon icon-run-anywhere"></div>
-</div>
-<div class="key-feature--title">Run Anywhere</div>
-<div class="key-feature--text">
-Keep it portable &ndash; Spring-based apps run anywhere the JVM does. Deploy standalone, in an app server, on a PaaS or all of the above.
-</div>
-</div>
-<div class="span4 key-feature--container">
-<div class="key-feature--icon--container">
-<div class="key-feature--icon icon icon-rest-assured"></div>
-</div>
-<div class="key-feature--title">Rest Assured</div>
-<div class="key-feature--text">
-Code with confidence &ndash; Spring provides an open programming model that is comprehensive, cohesive, widely understood and well-supported.
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="platform--wrapper">
-<div class="platform--icon"></div>
-<div class="platform--title">The Spring IO Platform</div>
-<div class="platform--text">
-<div class="container-fluid">
-Announced at this year's SpringOne/2GX, Spring IO brings together the Spring family of projects into a cohesive and versioned foundational platform for modern applications. On top of this foundation it also provides domain-specific execution environments for a variety of enterprise workloads.
-</div>
-</div>
-<p><a class="platform--link" href="/platform">Preview the Platform<i class="icon-chevron-right"></i></a></p>
-</div>
-<div class="offset-feature--wrapper">
-<div class="offset-feature--container feature-guides">
-<div class="container-fluid">
-<div class="row-fluid feature--content">
-<div class="span8 mobile-left-pane">
-<div class="offset-feature--title">Guides</div>
-<div class="offset-feature--text">
-Whether you're an expert or a newcomer our task-focused Getting Started Guides and Tutorials are designed to get you productive with Spring as quickly as possible.
-</div>
-<a class="offset-feature--link" href="/guides">
-Browse the Guides
-<i class="icon-chevron-right"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="offset-feature--container feature-sts desktop-only">
-<div class="container-fluid">
-<div class="row-fluid feature--content">
-<div class="tool-suite span8 offset4 mobile-left-pane">
-<div class="offset-feature--title">Spring Tool Suite&trade;</div>
-<div class="offset-feature--text">
-Your tools should be as refined as the code you write. STS is our Eclipse-based IDE crafted to serve the needs of building applications with Spring. We're always working on new features and performance in our mission to make STS the most productive Eclipse distribution available.
-</div>
-<a class="offset-feature--link" href="/tools/sts">
-Learn more about STS
-<i class="icon-chevron-right"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="offset-feature--container feature-projects">
-<div class="container-fluid">
-<div class="row-fluid feature--content">
-<div class="span8 mobile-left-pane">
-<div class="offset-feature--title">Spring Projects</div>
-<div class="offset-feature--text">
-From configuration to security, web apps to big data &ndash; whatever the infrastructure needs of your application may be, there is a Spring Project to help you build it. Start small and use just what you need &ndash; Spring is modular by design.
-</div>
-<a class="offset-feature--link" href="/projects">
-Explore the Projects
-<i class="icon-chevron-right"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="support--wrapper">
-<div class="container-fluid">
-<div class="row-fluid">
-<div class="span6 support--container mobile-left-pane">
-<div class="icon icon-community-support"></div>
-<div class="support--title">
-Community Support
-</div>
-<div class="support-links">
-<a href="http://forum.spring.io">Forum</a>
-<a href="http://stackoverflow.com/questions/tagged/spring">Stack Overflow</a>
-</div>
-</div>
-<div class="span6 support--container mobile-left-pane">
-<div class="icon icon-professional-support"></div>
-<div class="support--title">
-Professional Support
-</div>
-<div class="support-links">
-<a href="/services">Support</a>
-<a href="http://www.gopivotal.com/contact/spring-training">Training</a>
-<a href="http://www.gopivotal.com/contact/spring-consulting">Consulting</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="body--container container-fluid "></div>
-<footer class="footer">
-<div class="container-fluid">
-<div class="row-fluid">
-<div class="span8">
-<div class="navbar">
+<input type="hidden" name="ctl00_sm1_HiddenField" id="ctl00_sm1_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTEyNTE2ODU3NWRkajU2MgIH57l7MqNnOxQWnzIv1So=" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=bzWuyb-9AuOPsuTBgGkGxHhCHaZBFmfFo2zQuTvhOgDuNizj7D_YP-drCqFdKYPtD4t37fhPWGG8mvg7xaQ7V6m2_BVZqhCc1aIwokwzWn1Co3q30&amp;t=445829a9" type="text/javascript"></script>
+<img class="print_logo" src="/images/content_images/pure_michigan_logo.jpg" alt="pure_michigan_logo" width="450" height="120">
+<input type="hidden" name="ctl00$sm1" id="ctl00_sm1" />
+
+
+
+    <script type="text/javascript" language="JavaScript">
+        if ("undefined" != typeof($ektron)) {
+            Ektron.PBMasterSettings = { 'isMasterLayout': false, 'pathToLock': '/WorkArea/PageBuilder/PageControls/Themes/TrueBlue/images/lock.png', 'hasMasterLayout': false }
+        }
+    </script>
+
+
+    <script type="text/javascript" language="JavaScript">
+        if ("undefined" != typeof ($ektron)) {
+            Ektron.PBSettings = { 'dontClose': true }
+        }
+    </script>
+
+
+
+
+
+
+<script language="javascript">
+function SearchSite() {  
+    var f = document.getElementById('aspnetForm');
+    document.location.href='http://www.michigan.org/search/?q=' + escape(document.getElementById('q').value) ;   
+}
+</script>
+
+<div id=skiplink>
+<a href='#contentBegin' tabindex='1'>Skip to page content</a>
+</div>
+<div id="header" class="nocontent">
+
+<div id="home_slideshow_container" class="flexslider">
+	
+<div  id=home_nav class="container">
+	<div class="sixteen columns">
+		<ul id="utility_navigation">
+			<li>
+			<div class="item_count"></div>
+			<a href="/trip-planner/" class="tpLink"><div class="luggage_icon" ></div></a>
+			</li>
+			<li class="align-left-li"><a href="/trip-planner/" class="tpLink">Trip Planner</a></li>
+			<li><a href="/travel-guide/">Official Travel Guide</a></li>			
+			<li><a href="/about-us/">About Us</a></li>				
+			<li><a href="/contact-us/">Contact Us</a></li>				
+			</ul>
+	</div>
+	<div class="sixteen columns">
+		<div id="navigation">
+		      
+		<div class="site_search">
+										<!--in practice, this a tag needs to be a link to a page containing the form for non-js users-->
+										<a id="search_icon" class="search" href="#" title="Search the site"></a>
+										<div id="search_form_dialog">
+										<input id="q" class="search_box" type="text" onkeypress="return SubmitOnEnter(this,event)" value="" name="q">
+										<input id="search_icon_submit" class="search" type="button" alt="Search the site" title="Search the site" onclick="SearchSite();" name="search_icon" value="Search">
+										</div>
+									</div><!-- site_search -->
+			<div class="menu_wrap">
+			    <div class="main_nav">	
+            <ul class="sf-menu">
+<li id="home"><a href="/">Home</a></li>
+<li id="play"><a href="#" aria-haspopup="true">Play</a><ul>
+<li><a href="/attractions/" title="Attractions">Attractions</a></li><li><a href="/outdoors/" title="Outdoors">Outdoors</a></li><li><a href="/events/" title="Events">Events</a></li><li><a href="/dining/" title="Dining">Dining</a></li></ul>
+</li><li id="stay"><a href="#" aria-haspopup="true">Stay</a><ul>
+<li><a href="/bed-breakfasts/" title="Bed and Breakfasts">Bed and Breakfasts</a></li><li><a href="/campgrounds-rv-parks/" title="Campgrounds and RV Parks">Campgrounds and RV Parks</a></li><li><a href="/hotels-motels/" title="Hotels and Motels">Hotels and Motels</a></li><li><a href="/resorts/" title="Resorts">Resorts</a></li><li><a href="/vacation-rentals/" title="Vacation Rentals">Vacation Rentals</a></li></ul>
+</li><li id="plan"><a href="#" aria-haspopup="true">Plan</a><ul>
+<li><a href="/trip-planner/" title="Trip Planner">Trip Planner</a></li><li><a href="/hot-spots/" title="Hot Spots">Hot Spots</a></li><li><a href="/road-trips/" title="Road Trips">Road Trips</a></li><li><a href="/local-info/" title="Local Info">Local Info</a></li><li><a href="/travel-news/" title="Travel News">Travel News</a></li><li><a href="/first-time-visitor/" title="First Time Visitor">First Time Visitor</a></li></ul>
+</li><li id="shop"><a href="#" aria-haspopup="true">Shop</a><ul>
+<li><a href="http://www.puremichiganstore.org/" title="Pure Michigan Store">Pure Michigan Store</a></li><li><a href="/deals/" title="Deals and Packages">Deals and Packages</a></li><li><a href="/shopping/" title="Shopping">Shopping</a></li></ul>
+</li><li id="blog"><a href="#" aria-haspopup="true">Blog</a><ul>
+<li><a href="/blog/" title="Pure Michigan Blog">Pure Michigan Blog</a></li><li><a href="/blog/be-a-guest-blogger/" title="Be a Guest Blogger">Be a Guest Blogger</a></li></ul>
+</li><li id="map"><a href="#" aria-haspopup="true">Map</a><ul>
+<li><a href="/interactive-map/" title="Interactive Map">Interactive Map</a></li><li><a href="/find-a-michigan-city/" title="Find a Michigan City">Find a Michigan City</a></li></ul>
+</li></ul>
+
+           </div><!-- /main_nav -->
+		</div><!-- /menu wrap -->
+             
+         </div><!-- /navigation -->
+	</div><!-- /sixteen columns -->
+</div><!-- /container -->
+<div id=background_container><div id=background_cycler><ul class=slides><li style='width: 100%; float: left; margin-right: -100%; display: list-item;'><div class=slide_home_info_container><div class='slide_controls dark'><div class=slide_info><div class=slide_info_image><img src="/lib/images/slideshows/outline-maps/thumb_thumb_picturedrocks.png" alt="Pictured Rocks" title="Pictured Rocks"/></div><div class=slide_info_copy>Warm Weather<a href="/warm-weather/" title="Warm Weather">Learn More</a></div><div class=clear_both></div></div></div></div><img class='slide_home' src="/lib/images/slideshows/home/Pictured_Rocks.jpg" alt="Pictured Rocks National Lakeshore" title="Pictured Rocks National Lakeshore"/></li></ul></div><ol class=flex-control-nav></ol><div class=slide_info_nav></div></div>
+</div>
+
+</div><!-- /header -->
+
+
+
+<div class="content_container"><div class="round_corner_left"></div><div class="round_corner_right"></div>
+<div id="content">
 <div class="container">
-<ul class="nav">
-<li><a href="/team">Team</a></li>
-<li><a href="/services">Services</a></li>
-<li><a href="/tools">Tools</a></li>
+<div class="sixteen columns">
+<a name=contentBegin></a>
+<div id=features_module_home class=features><div id=feat_nav class=cycle_nav_container></div><div class=features_slides><div class='slidewrap slidewrap_initial'><div class=slider><ul class='slide slide_inital'><li class='feature feature_initial'><div class=slide_image_container_features><img src="/lib/images/features/landing/Warm_Weather/parks_pictur.jpg" alt="Miners Castle near Munising. Photo courtesy of Laurie Leaman" title="Miners Castle near Munising. Photo courtesy of Laurie Leaman"/></div><h6>Warm Weather</h6><p>Information on warm weather activitie<a class=slideshow_more_link href="/warm-weather/" title="Warm Weather">More</a></p></div></li></ul></div></div></div><div id=car_featid class=hidden_val>204</div><div class=clear_both></div>
+</div>
+<div class="row">
+	<div class="sixteen columns">
+	 <div class="welcome_message">
+			<h1>What's New in Pure Michigan</h1>
+			
+		</div>
+	</div><!-- /sixteen  columns -->
+
+	<div class="sixteen columns">
+		<div class="whats_new">
+		<ul><li>The Official <a href="http://www.michigan.org/travel-guide/" target="_self">2014 Michigan Travel Guide</a> publication is now available. Order your copy today!</li><li><a href="http://www.michigan.org/winter/" target="_self"></a><a href="/warm-weather/">Warm weather activities include golfing, camping, lighthouses and more.</a></li><li>Traverse City is a favorite destination for thousands of migratory <a href="/news/birding-in-traverse-city/">birds</a> and for the return of its snowbirds.</li><li>Share your Pure Michigan love letter or poem for a chance to <a href="/alovesogrand/">win a trip for two</a> to Mackinac Island. </li><li>If you’re looking to take your career to the next level, or maybe just getting started, <a href="/redir.asp?url=http%3A%2F%2Fwww%2Epuremichigandreamjob%2Ecom%2F#MIDreamJob&amp;p=G22258&amp;app=TM_Content&amp;campaign=dreamjobs">Pure Michigan DREAMJOB 2014</a> could be the ideal opportunity for you.</li></ul>				
+		</div><!-- /whats new -->			
+	</div><!-- /sixteen  columns -->
+</div><!-- /row -->
+
+<div class="sixteen columns">				
+<div id="hot_spots_list" class="roundbox_module">
+<div class=roundbox_module_header><div class=roundbox_module_innershadow></div><h4>Hot Spots</h4></div><div class=hot_spots><div class=hsh_slides><ul class=hot_spots_national><li class=hot_spots_link><img src="/lib/images/hotspots/warm_weather_hotspots/ann_arbor.jpg" alt="Ann Arbor 2014" title="Ann Arbor 2014"><a class="hot_spots_link_image" href="/hot-spots/ann-arbor/" title="Ann Arbor">Ann Arbor</a></li><li class=hot_spots_link><img src="/lib/images/hotspots/warm_weather_hotspots/glb.jpg" alt="Great Lakes Bay Region 2014" title="Great Lakes Bay Region 2014"><a class="hot_spots_link_image" href="/hot-spots/great-lakes-bay-region/" title="Great Lakes Bay Region">Great Lakes Bay Region</a></li><li class=hot_spots_link><img src="/lib/images/hotspots/warm_weather_hotspots/grand_rapids.jpg" alt="Grand Rapids 2014" title="Grand Rapids 2014"><a class="hot_spots_link_image" href="/hot-spots/grand-rapids/" title="Grand Rapids">Grand Rapids</a></li><li class=hot_spots_link><img src="/lib/images/hotspots/warm_weather_hotspots/mackinac_island.jpg" alt="Mackinac Island 2014" title="Mackinac Island 2014"><a class="hot_spots_link_image" href="/hot-spots/mackinac-island/" title="Mackinac Island">Mackinac Island</a></li><li class=hot_spots_link><img src="/lib/images/hotspots/winter_hotspots/rosabus.jpg" alt="The Henry Ford - Rosa Bus" title="The Henry Ford - Rosa Bus"><a class="hot_spots_link_image" href="/hot-spots/the-henry-ford/" title="The Henry Ford">The Henry Ford</a></li><li class=hot_spots_link><img src="/lib/images/hotspots/warm_weather_hotspots/traversecity(1).jpg" alt="Traverse City" title="Traverse City"><a class="hot_spots_link_image" href="/hot-spots/traverse-city/" title="Traverse City">Traverse City</a></li></ul><ul class=hot_spots_partner><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/air-zoo/" title="Air Zoo">Air Zoo</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/alpena/" title="Alpena">Alpena</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/beachtowns/" title="Beachtowns">Beachtowns</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/binder-park-zoo/" title="Binder Park Zoo/Battle Creek">Binder Park Zoo/Battle Creek</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/blue-water-area/" title="Blue Water Area">Blue Water Area</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/cadillac/" title="Cadillac">Cadillac</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/charlevoix/" title="Charlevoix">Charlevoix</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/cheboygan/" title="Cheboygan">Cheboygan</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/coldwater-country/" title="Coldwater Country">Coldwater Country</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/detroit/" title="Detroit">Detroit</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/escanaba/" title="Escanaba">Escanaba</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/flint-genesee-county/" title="Flint &amp; Genesee County">Flint &amp; Genesee County</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/frankenmuth/" title="Frankenmuth">Frankenmuth</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/gaylord/" title="Gaylord">Gaylord</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/holland/" title="Holland">Holland</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/kalamazoo/" title="Kalamazoo">Kalamazoo</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/keweenaw-peninsula/" title="Keweenaw Peninsula">Keweenaw Peninsula</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/lansing/" title="Lansing">Lansing</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/ludington-ss-badger/" title="Ludington &amp; S.S. Badger">Ludington &amp; S.S. Badger</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/mackinaw-city/" title="Mackinaw City">Mackinaw City</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/manistee/" title="Manistee">Manistee</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/marquette/" title="Marquette">Marquette</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/michigan-agriculture/" title="Michigan Agriculture">Michigan Agriculture</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/michigan-wines/" title="Michigan Wines">Michigan Wines</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/michigans-adventure/" title="Michigan's Adventure">Michigan's Adventure</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/mount-bohemia/" title="Mount Bohemia Adventure Resort">Mount Bohemia Adventure Resort</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/mt-pleasant/" title="Mt. Pleasant">Mt. Pleasant</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/muskegon/" title="Muskegon">Muskegon</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/petoskey/" title="Petoskey Area">Petoskey Area</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/the-soo/" title="Sault Ste. Marie">Sault Ste. Marie</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/silver-lake-sand-dunes/" title="Silver Lake Sand Dunes">Silver Lake Sand Dunes</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/south-haven/" title="South Haven">South Haven</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/st-ignace/" title="St. Ignace">St. Ignace</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/sunrise-coast/" title="Sunrise Coast">Sunrise Coast</a></li><li class=hot_spots_link><a class=hot_spots_link_text href="/hot-spots/tecumseh" title="Tecumseh">Tecumseh</a></li></ul></div></div><div id=car_hshid class=hidden_val></div><div class=clear_both></div>
+
+</div><!-- /hot_spots -->
+</div><!-- /sixteen columns -->
+
+</div><!-- /Container -->	
+
+<div class="container">
+<div id="container_home_left" class="container_home_left">
+	<div class="four columns">
+        <div id="events_module" class="roundbox_module box_height_match">
+        
+
+<div class="roundbox_module_header"><div class="roundbox_module_innershadow"></div><h4>Events</h4></div>
+
+<div class="input_form">
+<div class="date_pickers">
+<div id="form_error_container"></div>
+<div class="form_input_container">						
+<label for="filter_date_start">Start Date:</label>								
+<input id="filter_date_start" class="form_date_events" type="date"  name="filter_date_start" min="2014-04-15" value="2014-04-15" />								
+</div>
+<div class="form_input_container">
+<label for="filter_date_end">End Date:</label>
+<input id="filter_date_end" class="form_date_events" type="date" name="filter_date_end" min="2014-04-15" value="2014-04-22" />
+</div>
+</div><!-- /date_pickers -->
+<div class="events_submit_button">
+<div class="events_submit_button_right">
+<button id=search_events_btn class="events_submit_button" value="submit">Find Events</button>
+</div>
+</div>
+</div>	
+			
+<div class="upcoming_events">
+<h5>Featured Events</h5>
+<ul><li><a href="http://www.michigan.org/events/lansing-microbrew-and-music-festival/">Lansing Microbrew &amp; Music Festival</a><span>4/18/2014 - 4/19/2014</span></li>
+<li><a href="/events/national-trout-festival-1/">National Trout Festival, Kalkaska</a><span>4/23/2014 - 4/27/2014</span></li>
+<li><a href="/events/shepherd-maple-syrup-festival/">Shepherd Maple Syrup Festival</a><span>4/24/2014 - 4/27/2014</span></li>
 </ul>
+		
 </div>
+<div class="events_button"><div class="events_view_all_button">
+<a href="/events/"><span>View All Events</span></a>
+</div><!-- events button --></div><!-- /events_view_all_button -->
+<!-- </div> -->
+ 
+  <script language="javascript">
+
+      head.ready(function()
+      {
+          head.js('/js/jquery-ui-1.8.18.custom.min.js', function()
+          {
+              var dts = new Date($("#filter_date_start").val());
+              var dte = new Date($("#filter_date_end").val());
+             
+              
+              if (!global_is_mobile_safari && !global_is_chrome) {
+
+                  var cal_months = 1;
+                  if (screen.width > 481 && !global_is_android) {
+                      cal_months = 2;
+                  } //if
+                 
+                  //dte = $.datepicker.parseDate("mm/dd/yy", dte);
+                  dte.setDate(dte.getDate() + 1);
+
+                 
+                  $("#filter_date_start").datepicker({
+                      showOn: "focus",
+                      numberOfMonths: cal_months,
+                      minDate: $.datepicker.formatDate('mm/dd/yy', new Date()),
+                      dayNamesMin: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+                      dateFormat: "mm/dd/yy"
+                  }).datepicker('setDate', dts)
+
+                  $("#filter_date_end").datepicker({
+                      showOn: "focus",
+                      numberOfMonths: cal_months,
+                      minDate: $.datepicker.formatDate('mm/dd/yy', new Date()),
+                      dayNamesMin: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+                      dateFormat: "mm/dd/yy"
+                  }).datepicker('setDate', dte)
+
+              } //if
+
+
+          });
+
+      });
+    
+      
+  </script>
+
+
+
+		</div><!-- /events_spots -->
+	</div><!-- /four columns -->
+				
+	<div class="four columns">
+	<div id="weather_module" class="roundbox_module box_height_match" >
+	<div class=roundbox_module_header><div class=roundbox_module_innershadow></div><h4>Weather</h4></div><div id=w_nav class=cycle_nav_container><ul class=slidecontrols role=navigation><li role=presentation><a class=carousel_weather-next></a></li><li class=count_carousel_weather></li><li role=presentation><a class=carousel_weather-prev></a></li></ul><!-- /slidecontrols --></div><div class=w_slides><div class=weather><div class=inner_wrap><span class=weather_module_temp>23°<img src="/images/weather/07.gif" title="CLOUDY" alt="CLOUDY"></span><span class=weather_module_temp_city>Traverse City</span></div><div class='inner_wrap weather_suggestion'><p>Named to National Geographic's "Top 10 Summer Trips for 2012"<br><a href="/hot-spots/traverse-city/" title="Traverse City">More</a></p></div><table class=table_weather><thead><tr><th></th><th class=meta>Apr</th><th class=meta>May</th></tr></thead><tbody><tr><td class=meta>Avg High</td><td class=data>53°</td><td class=data>67°</td></tr><tr><td class=meta>Avg Low</td><td class=data>32°</td><td class=data>41°</td></tr></tbody></table></div></div><div class=inner_wrap><p>Get Weather by Location</p><p style='color:rgb(80,80,82);font-style:italic;'>ZIP Code or City, MI</p><div class=get_weather><input id=zip_box name=zip_box type=text placeholder='City or ZIP' /> <input id='get_weather_button' name=submit type=button value='Get Weather' /></div><div class=clear_both></div></div><div id=car_wid class=hidden_val>1948</div>
+
+
+
+
+	</div><!-- /weather_module -->
+	</div><!-- /four columns -->
+</div><!-- /container_home_1 -->	
+<div id="container_home_right" class="container_home_right">
+
+	            
+	            	<div class="four columns home_enews_facebook">
+				<div id="special_facebook"  class="roundbox_module box_height_match_2">
+					<div class="roundbox_module_header"><div class="roundbox_module_innershadow"></div>
+						<h4>Facebook</h4>
+					</div><!-- /module header -->
+						<div id="facebook_widget_container">										
+							<div id="fb-root"></div>
+							<fb:like-box href="https://www.facebook.com/PureMichigan" width="218" height="365" header="false" show_faces="true" stream="false"></fb:like-box>
+						</div><!-- /facebook_widget_container -->
+				</div><!-- /facebook_special_module -->
+				</div><!-- /four columns -->	
+				
+				<div class="four columns">
+					<div id="enewsletter_module" class="roundbox_module box_height_match_2">
+		 
+
+
+
+
+<div class="roundbox_module_header">
+    <div class="roundbox_module_innershadow">
+    </div>
+    <h4>
+        E-Newsletter</h4>
 </div>
-&copy; <span>2014</span> <a href="http://gopivotal.com">Pivotal Software</a>, Inc. All Rights Reserved.
-<a href="http://www.gopivotal.com/terms-of-use">Terms of Use</a> and
-<a href="http://www.gopivotal.com/privacy-policy">Privacy</a>
+<!-- /module header -->
+<div class="inner_wrap">
+
+<img src="/images/content_images/enewsletter_thumb.png" alt="E-Newsletter" width="180" height="112"/>
+
+<p>
+ Join 500,000 other
+people who receive the free Pure Michigan e-newsletter. 
+</p>
+
+
+
+
+    <div class="newsletter_signup" id="newsletterMsg">
+        <input id="newsletter_box" name="newsletter" type="text" placeholder="Email Address" />
+        <input id="sign_up_icon" name="submitEnews" type="button" value="Sign Up" />
+    </div>
+    <div class="travel_guide">
+       <a href="/travel-guide/"  title="Get the Official Michigan Travel Guide">  <img src="/lib/images/travel-guide/spring_summer_guide.jpg" alt="Travel Guide"
+            width="65" height="85" /></a>
+          
+        <p>
+            Get the Official</p>
+        <a href="/travel-guide/"  title="Get the Official Michigan Travel Guide">Michigan Travel Guide</a>
+        <div class="clear_both"></div>
+    </div>
 </div>
-<div class="span4 footer-newsletter--wrapper pull-right">
+<!-- /inner_wrap -->
+
+<!-- /newsletter_module -->
+
+
+
+		 </div>
+		 <!-- /newsletter_module -->
+		
+		 
+	</div><!-- /four columns -->
+</div><!-- /container_home_2 -->
+</div><!-- /container -->
+</div><!-- /content -->
+</div><!-- /content_container -->
+
+<div class="footer_container nocontent">
+<div class="container">	
+<div class="footer">
+<div class="footer_links">
+<div class='two columns'><h6>Play</h6><ul>
+<li><a href="/attractions/" title="Attractions">Attractions</a></li><li><a href="/outdoors/" title="Outdoors">Outdoors</a></li><li><a href="/events/" title="Events">Events</a></li><li><a href="/dining/" title="Dining">Dining</a></li></ul>
+</div><div class='two columns'><h6>Stay</h6><ul>
+<li><a href="/bed-breakfasts/" title="Bed and Breakfasts">Bed and Breakfasts</a></li><li><a href="/campgrounds-rv-parks/" title="Campgrounds and RV Parks">Campgrounds and RV Parks</a></li><li><a href="/hotels-motels/" title="Hotels and Motels">Hotels and Motels</a></li><li><a href="/resorts/" title="Resorts">Resorts</a></li><li><a href="/vacation-rentals/" title="Vacation Rentals">Vacation Rentals</a></li></ul>
+</div><div class='two columns'><h6>Plan</h6><ul>
+<li><a href="/trip-planner/" title="Trip Planner">Trip Planner</a></li><li><a href="/hot-spots/" title="Hot Spots">Hot Spots</a></li><li><a href="/road-trips/" title="Road Trips">Road Trips</a></li><li><a href="/local-info/" title="Local Info">Local Info</a></li><li><a href="/travel-news/" title="Travel News">Travel News</a></li><li><a href="/first-time-visitor/" title="First Time Visitor">First Time Visitor</a></li></ul>
+</div><div class='two columns'><h6>Shop</h6><ul>
+<li><a href="http://www.puremichiganstore.org/" title="Pure Michigan Store">Pure Michigan Store</a></li><li><a href="/deals/" title="Deals and Packages">Deals and Packages</a></li><li><a href="/shopping/" title="Shopping">Shopping</a></li></ul>
+</div><div class='two columns'><h6>Blog</h6><ul>
+<li><a href="/blog/" title="Pure Michigan Blog">Pure Michigan Blog</a></li><li><a href="/blog/be-a-guest-blogger/" title="Be a Guest Blogger">Be a Guest Blogger</a></li></ul>
+</div><div class='two columns'><h6>Map</h6><ul>
+<li><a href="/interactive-map/" title="Interactive Map">Interactive Map</a></li><li><a href="/find-a-michigan-city/" title="Find a Michigan City">Find a Michigan City</a></li></ul>
+</div><div class='four columns'><h6>Quick Links</h6><ul><li><a title="Add Your Deal/Package" href="/add-deal/" target="_self">Add Your Deal/Package</a></li><li><a title="Add Your Event" href="/add-event/" target="_self">Add Your Event</a></li><li><a title="Add Your Property" href="http://ref.michigan.org/travel/profiles/" target="_self">Add Your Property</a></li><li><a href="http://www.michigan.org/travel/admin/">Update Your Property</a></li><li><a title="Featured Deals" href="/this-months-featured-deals/">Featured Deals</a></li><li><a href="http://www.michiganadvantage.org/Logo-Request/" target="_blank">Logo Request</a></li><li><a title="Media" href="/media/">Media</a></li><li><a title="Michigan Strategic Plan" href="/industry/michigan-tourism-strategic-plan/.">Michigan Tourism Strategic Plan</a></li><li><a title="Michigan Economic Development Corporation" href="http://www.michiganadvantage.org">Michigan Economic Development Corporation</a></li><li><a title="Travel News" href="/travel-news/">Travel News</a></li><li><a title="Travel Professionals" href="/travel-professionals/">Travel Professionals</a></li><li><a title="Travel Commission" href="/industry/travel-commission/" target="_blank">Travel Commission</a></li><li><a title="View Our Ads" href="https://www.youtube.com/user/puremichigan">View Our Ads</a></li></ul>
+</div>											
+</div><!-- /footer_links -->
+</div><!-- /footer -->
+</div><!-- container -->
+
+
+<div class="mobile_utility_navigation nocontent">
+<ul id="mobile_footer_utility_navigation">
+<li><a href="/">Home</a></li>
+<li><a class="trip_planner" href="/trip-planner/">Trip Planner</a></li>
+<li><a href="/travel-guide/">Travel Guide</a></li>
+<li><a href="/about-us/">About</a></li>
+<li><a href="/contact-us/">Contact</a></li>
+</ul>
+</div><!-- /mobile_utility_navigation -->
+</div><!-- /footer_container -->
+
+<div class="mid_footer nocontent">
+<div class="container">
+<div class="sixteen columns">
+					<div class="follow_us_icons">
+					    <div class="follow_us_toolbox follow_us_icons_style">
+						<h4>Follow Us</h4>	
+						<a class="follow_us_facebook" href="https://www.facebook.com/puremichigan" target="_blank" title="Follow on Facebook"></a>
+						<a class="follow_us_twitter" href="https://twitter.com/puremichigan" target="_blank" title="Follow on Twitter"></a>
+						<a class="follow_us_youtube" href="http://www.youtube.com/user/puremichigan" target="_blank" title="Follow on YouTube"></a>
+						<a class="follow_us_flickr" href="http://www.flickr.com/photos/puremichigan" target="_blank" title="Follow on Flickr"></a>
+						<a class="follow_us_google" href="https://plus.google.com/110001387520466723232" target="_blank" title="Follow on Google"></a>
+						<a class="follow_us_pinterest" href="http://pinterest.com/puremichigan/" target="_blank" title="Follow on Pinterest"></a>
+						</div>
+					</div><!-- /follow_us_icons -->
+				</div><!-- /sixteen columns -->
+		</div><!-- /container -->									
+</div><!-- /mid_footer -->
+<div class="sub_footer nocontent">
+<div class="container">
+<div class="ten columns">
+<ul id="utility_nav">
+<li><a href="/sitemap/">Site Map</a></li>
+<li><a href="/terms-and-conditions/">Legal/Privacy</a></li>
+<li><a href="/about-us/">About Us</a></li>
+<li><a href="/contact-us/">Contact Us</a></li>
+<li><a href="/rss/">RSS</a></li>
+</ul>
+</div><!-- /ten columns -->	
+<div class="six columns">
+<p>© 2014 Michigan Economic Development Corporation</p>
+<p>300 N. Washington Sq., Lansing, MI 48913</p>
+<p>(888) 78-GREAT | (888) 784-7328</p>
+</div>	
+</div><!-- /container -->
+</div><!-- /sub_footer -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_sm1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+Sys.Application.setServerId("ctl00_sm1", "ctl00$sm1");
+
+Sys.Application._enableHistoryInScriptManager();
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-2548927-3', 'michigan.org'); 
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+<!-- Quantcast Tag, part 2 -->
+<script type="text/javascript">
+    _qevents.push( { qacct:"p-3bzAIx4EyGA3o"} );
+</script>
+<noscript>
+<div style="display: none;">
+    <img src="http://pixel.quantserve.com/pixel/p-3bzAIx4EyGA3o" height="1" width="1" alt="Quantcast"/>
 </div>
-</div>
-</div>
-</footer>
-<div id="scrim"></div>
-</div>
-</body></html>
+</noscript>
+
+<!--Cadreon Total Tag Start. Install just before closing body tag--><!--Homepage--><iframe src="http://d1qpxk1wfeh8v1.cloudfront.net/tags/1234571992.html" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe><!--Cadreon Beacon End-->
+
+
+
+ <a class="hide" href="https://plus.google.com/107691241161328198933?rel=author">Google</a>
+
+<!-- Sojern -->
+<script>
+(function () {
+    var pl = document.createElement('script');
+    pl.type = 'text/javascript';
+    pl.async = true;
+    pl.src = 'https://beacon.sojern.com/pixel/p/363';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(pl);
+})();
+</script>
+<!-- End Sojern -->
+ 
+ <script type="text/javascript">
+     (function()
+     {
+         var t = document.createElement('script'); t.type = 'text/javascript'; t.async = true;
+         t.src = "//turnsocial.com/bar/1bfc6b601af8032cb54e1ab1ae22b2ce.js";
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(t, s);
+     })();
+</script>
+
+ 
+
+ <div id="fb-root"></div>
+</body>
+</html>

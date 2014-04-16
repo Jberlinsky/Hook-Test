@@ -1,1248 +1,807 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.google.com">
 <html>
-<head>
-
-  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f<d.length;f++)e(d[f]);return e}({"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&&a.agent&&a.licenseKey&&a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&&e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],loader:[function(a,b){b.exports=a("YLUGVp")},{}]},{},["YLUGVp"]);</script>
+	<!---START - Preload-->
 
 
-  <meta name="description" content="Find real estate, homes for sale, properties for rent, school and neighborhood information and much more. Find timely and comprehensive information about newest listings in your market.">
-
-
-  <meta name="keywords" content="real estate, homes for sale, homes, home, houses for sale, new homes for sale, real estate for sale, real estate listings, find a home, Trulia, real estate search, apartments for rent, apartment rentals, homes for rent, local crime data, local schools">
-
-
+<!--Mobile Redirect-->
     
-    <meta property="og:image" content="http://static.trulia-cdn.com/images/logos/trulia-logo-200x200.png">
-  
-  <meta property="fb:admins" content="5953837487">
-  <meta property="fb:app_id" content="183577541666001">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://static.trulia-cdn.com/images/icons/apple-touch-icon-144x144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://static.trulia-cdn.com/images/icons/apple-touch-icon-72x72-precomposed.png">
-
-  <title>
-  Real Estate, Homes for Sale, Apartments for Rent, Local data - Trulia</title>
-  
+<!--end Mobile Redirect-->
 
 
-  <link rel="stylesheet" href="http://css.trulia-cdn.com/css/GOAT11_34c/css/sbase-html5,typography,lib-oocss,lib-jquery_ui,pg_homepage.css">
+<!---END - Preload-->
+<head>
+	<!---START - Head-->
+<script type="text/javascript" src="//nexus.ensighten.com/teleflora2/efloristprod/Bootstrap.js"></script> <title>Ann Arbor Michigan (MI) Flowers, Florist, Norton's Flowers & Gifts, Michigan Flower Delivery, Buy Flowers, Ypsilanti Michigan (MI) Florist, Flowers, Saline MI, Dexter MI, Belleville MI, Canton MI, Milan MI</title>
+
+<META NAME="description" CONTENT="Norton's Flowers & Gifts - Order online safely and securely! Flowers and other gifts available from your local florist.  Order your flowers today and have them delivered conveniently to those you love.">
+
+<META NAME="keyWords" CONTENT="Norton's Flowers & Gifts  Ann Arbor MI Flower, flower, Flor, flor, Flowers, flowers, Flores, flores, Flower Arrangements, flower arrangements, Florist, florist, Florists, florists, Floral, floral, Florals, florals, buy flowers online, order flowers online, Ann Arbor MI, Gift, gift, Gifts, gifts, Gift Baskets, gift baskets, Bouquet, bouquet, Bouquets, bouquets, Rose, rose, Roses, roses, Dried Flowers, dried flowers, Presents, presents, Sweetest Day, sweetest day, Halloween, halloween, Birthday, birthday, Birthdays, birthdays, Anniversary, anniversary, Anniversaries, anniversaries, Mother's Day, mother''s day, Mothers Day, mothers day, Mother Day, mother day, Mom''s Day, mom's day, Valentine''s Day, valentine's day, Valentines Day, valentines day, Christmas, christmas, Thanksgiving, thanksgiving, Easter, easter, New Baby, new baby, Get Well, get well, Secretaries Day, Bosses' Day, bosses Day, Congratulations, congratulations, Friendship, friendship, Romance, romance, Romantic, romantic, Sympathy, sympathy, Sorry, sorry, Thank You, thank you, Graduation, graduation, Corporate Gifts, corporate gifts, Gourmet, gourmet, Housewarming, housewarming, Garden, garden, Tulips, tulips, Daisy, daisy, Daisies, daisies, mixed flowers,  roses, lilies, carnations, sunflowers, plants, mothers day, xmas, Teddy Bears, teddy bears">
 
 
-
-  <script>var trulia = {page_name: 'home'};</script>
-  <script src="http://static.trulia-cdn.com/javascript/GOAT11_34c/include/js/first_step.js?v=GOAT11_34c"></script>
-            <script src="//cdn.optimizely.com/js/707992661.js"></script>
-      
+<meta name="verify-v1" content="WaKGH/KIanIBtP6A9k9/6Ia68kVrEwoT9vrh/gnlNrA=" />
 
 
-<script>
-trulia.ads_filters.push(function filterTopSpanAdABTest(key, data)
-{
-  if (key == 'top_span_ad' && typeof test_ads_topspan == 'string' && test_ads_topspan == 'b')
-  {
-    return true;
-  }
-});
-trulia.ads_targets.push(function addTopSpanAdABTestTrackingTargeting(ad)
-{
-  // just to be safe
-  if (!ad.setTargeting) return;
-
-  if (typeof test_ads_topspan == 'string')
-  {
-    ad.setTargeting('vers', test_ads_topspan);
-  }
-});
+<link rel="canonical" href="http://www.nortonsflowers.com/" />
+		
+	    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.nortonsflowers.com/Home?url=www.nortonsflowers.com&vendorid=6302&vendortypeid=1&templateid=" />
+<script language="JavaScript">
+				var optrial = new Object;
+				optrial.HomepageFlag = 'homepages\ws_innards05_6scrollinghero_3tiles_with_product_left.asp';
+				optrial.HomepageItemFlag = 25;
+				optrial.LockdownFlag = 'No';
 </script>
+<script language="javascript">
+	<!--
+		var strURLjs = "http://www.nortonsflowers.com"
+		var vidjs = "6302"
+		var SecureURLjs = "https://secure2.eflorist.com"
+		var SkinPathjs = "730"
+		var vtjs = "Eflorist"
+		var vtidjs = "1"
+		var pricepointsjs = ""
+		var SrcCodejs = ""
+	-->
+</script>
+<link rel="stylesheet" type="text/css" href="/skins/730/css/main.css">    
 
 
+	<link rel="stylesheet" type="text/css" href="http://teleflora.edgesuite.net/skins/css/eflorist.css">
+	<script type="text/javascript" src="http://teleflora.edgesuite.net/js/popjs.js"></script>
+	<script type="text/javascript" src="http://teleflora.edgesuite.net/js/footerEmailSignupValidation.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<!---START - Global Fix Library-->
+<!---END - Global Fix Library-->
+<!---END - Head-->
 </head>
-<body class="polarbear newTXL ">
+
+<body>
+	<!--START - Body Include-->
+
+<!-- Maxymiser script start -->
+<script type="text/javascript" src="//service.maxymiser.net/cdn/eflorist/js/mmcore.js"> </script>
+<!-- Maxymiser script end -->
+
+
+<!---END - Body Include-->    	
+	<LINK href="/skins/788/css/homepage.css" rel="stylesheet" type="text/css">
+	<BODY BGCOLOR="white" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+
+		
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" ID="Table1" height="100%">
+
+	<tr>
+
+		<td width="30%" bgcolor="01574C"></td>
+
+		<td width="700" align="center">
+
+<table align="center" width="700" cellpadding="0" cellspacing="0" border="8" borderColor="86332D" height="100%" ID="Table2">
+
+	<tr>
+
+		<td valign="top" bgcolor="A8C0A0">
+
+			<table id="Table_01" width="700" border="0" cellpadding="0" cellspacing="0">
+
+				<tr>
+
+					<td>
+
+						<img src="/skins/227/graphics/florist_01.jpg" width="700" height="109" alt="Norton's Florist"></td>
+
+				</tr>
+
+				<tr>
+
+					<td>
+
+						<div style="width: 700px; height: 116px; overflow: hidden;">
+
+						<object
+
+						classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+
+						codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+
+						id="trochtas"
+
+						width="700" height="116">
+
+						<param name="movie" value="/skins/227/graphics/nortons-flash.swf">
+
+						<param name="bgcolor" value="#FFFFFF">
+
+						<param name="quality" value="high">
+
+						<param name="allowscriptaccess" value="samedomain">
+
+						<embed
+
+						  type="application/x-shockwave-flash"
+
+						  pluginspage="http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+
+						  name="Norton's Florist"
+
+						  width="700" height="116"
+
+						  src="/skins/227/graphics/nortons-flash.swf"
+
+						  bgcolor="#FFFFFF"
+
+						  quality="high"
+
+						  allowscriptaccess="samedomain"
+
+						>
+
+						  <noembed>
+
+						  </noembed>
+
+						</embed>
+
+					  </object>
+
+					  </div>
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<td>
+
+						<img src="/skins/227/graphics/florist_03.jpg" width="700" height="39" alt=" Norton's Flowers"></td>
+
+				</tr>
+
+			</table>
+
+			<table border="0" cellpadding="0" cellspacing="0" align="center">
+
+				<tr>
+
+					<form method=post action="https://secure2.eflorist.com/secure/myacctlogin.asp" name="shopperidform" ID="Form2">
+
+					<input type=hidden name=ShopperID value="-1832386222" ID="Hidden3">
+
+					<input type=hidden name=SID value="-1832386222" ID="Hidden4">	
 
 
 
-  
+					<TD width="140"><A HREF="http://www.nortonsflowers.com" onMouseOver="imgOn('img11')" onMouseOut="imgOff('img11')">
 
-  <script type="text/javascript">
-document.write('<iframe src="http://4376290.fls.doubleclick.net/activityi;src=4376290;type=truli300;cat=homep015;ord=1;num=' + (Math.random() * 10000000000000) + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+						<IMG name="img11" BORDER=0  SRC="/skins/227/graphics/home-up2.jpg"></A></TD>
+
+					<TD width="140"><A HREF="http://www.nortonsflowers.com/Feature.asp" onMouseOver="imgOn('img12')" onMouseOut="imgOff('img12')">
+
+						<IMG name="img12" BORDER=0  SRC="/skins/227/graphics/f&g-up2.jpg"></A></TD>
+
+					<TD width="140"><A HREF="http://www.nortonsflowers.com/ann-arbor-florist/local-budget-pleasers-59655c.asp" onMouseOver="imgOn('img13')" onMouseOut="imgOff('img13')">
+
+						<IMG name="img13" BORDER=0  SRC="/skins/227/graphics/local-bargains-up2.jpg"></A></TD>
+
+					<TD width="140"><A HREF="http://www.nortonsflowers.com/basket.asp" onMouseOver="imgOn('img14')" onMouseOut="imgOff('img14')">
+
+						<IMG name="img14" BORDER=0  SRC="/skins/227/graphics/view-cart-up2.jpg"></A></TD>
+
+					<Td width="140"><A HREF="http://www.nortonsflowers.com/info.asp?id=2143" onMouseOver="imgOn('img15')" onMouseOut="imgOff('img15')">
+
+						<IMG name="img15" BORDER=0  SRC="/skins/227/graphics/guarantee-up2.jpg"></A></TD>
+
+				</tr>
+
+				<tr>
+
+					<TD width="140"><A HREF="http://www.nortonsflowers.com/info.asp?id=2153" onMouseOver="imgOn('img16')" onMouseOut="imgOff('img16')">
+
+						<IMG name="img16" BORDER=0  SRC="/skins/227/graphics/delivery-up2.jpg"></A></TD>
+
+					<TD width="140"><A HREF="http://www.nortonsflowers.com//info.asp?id=2153#10" onMouseOver="imgOn('img17')" onMouseOut="imgOff('img17')">
+
+						<IMG name="img17" BORDER=0  SRC="/skins/227/graphics/world-delivery-up2.jpg"></A></TD>
+
+					<TD width="140"><A HREF="http://www.nortonsflowers.com/aboutus.asp" onMouseOver="imgOn('img18')" onMouseOut="imgOff('img18')">
+
+						<IMG name="img18" BORDER=0  SRC="/skins/227/graphics/about-us-up2.jpg"></A></TD>
+
+					<TD width="140"><A HREF="http://www.nortonsflowers.com/searchrequest.asp" onMouseOver="imgOn('img19')" onMouseOut="imgOff('img19')">
+
+						<IMG name="img19" BORDER=0  SRC="/skins/227/graphics/search-up2.jpg"></A></TD>
+
+					<TD width="140"><A HREF="http://www.nortonsflowers.com/info.asp?id=2143" onMouseOver="imgOn('img20')" onMouseOut="imgOff('img20')">
+
+						<IMG name="img20" BORDER=0  SRC="/skins/227/graphics/FAQ-up2.jpg"></A></TD>
+
+					</form>
+
+				</tr>
+
+			</table>
+
+			<table border="0" cellpadding="0" cellspacing="0" align="center">
+
+				<tr>
+
+					<td>
+
+						<img src="/skins/227/graphics/florist_05.jpg" width="700" height="15" alt="Local Delivery Florist">
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<td align="center" width="700">
+
+						<table width="700px" cellpadding="0" cellspacing="0" align="center">
+
+	<tr>
+
+		<td align="right">
+
+			<a href="/Feature.asp"><img src="/images/vendors/33804500/winter_2011.jpg" border="0"></a>
+
+		</td>
+
+		<td align="center">
+
+			<img src="/skins/227/graphics/Wow-Footer-logo-sm.jpg" border="0"><br><a href="http://www.floralapp.com/nortonsflowers"> <img src="/images/vendors/33804500/floralapp-rs.png"> </a>
+
+
+
+		</td>
+
+		<td align="left">
+
+			<a href="/ypsilanti-florist/Wedding-Flowers.asp"><img src="/skins/227/graphics/wedding-banner.jpg" border="0"></a>
+
+		</td>
+
+	</tr>
+
+</table>
+
+						<br />
+
+						<a href="/aboutus.asp#10" style="color: #16453D; font-size: 14px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 800;">Meet our Professional Affiliates & Recommended Partners</a>
+
+					</td>
+
+				</tr>
+
+				<tr>	
+
+					<td align="center" width="700">
+
+						<table border="0" cellpadding="0" cellspacing="0" align="center">
+
+							<tr>
+
+								<td>
+
+									
+
+<!-------- Start Footer Template 1 -------->
+
+
+
+		
+
+		<tr>	
+
+			<!-- Start Email SignUp -->
+
+			
+
+			
+
+			
+
+			<td colspan="3" class="footerFontClass">
+
+				<br />
+
+				<table border="0" cellpadding="0" cellspacing="0" width="95%" ID="Table1"> 
+
+				
+
+						
+
+					<script type="text/javascript" src="/js/footerEmailSignupValidation.js"></script>
+
+					<tr>
+
+						<td valign="top">
+
+							<table id="Table2" align="center" border="0" cellpadding="0" cellspacing="0">
+
+								<tbody><tr>
+
+									<td a="" width="252">
+
+									
+
+											<span style="text-align: right;" class="footerFontClass">
+
+									
+
+												Sign&nbsp;up&nbsp;for&nbsp;email&nbsp;specials.&nbsp;Enter&nbsp;your&nbsp;email&nbsp;address:</span></td>
+
+								</tr>
+
+									
+
+							</tbody></table>
+
+							<table border="0" align="center" cellspacing="0" cellpadding="0" id="table4">
+
+								<tr>
+
+									<td>
+
+									<p align="center">
+
+									
+
+											<span style="text-align: right;" class="footerFontClass">
+
+									
+
+												<input name="EmailSignUpInput" size="20" maxlength="50" id="EmailSignUpInput" type="text">
+
+												<input onClick="if (validateEmailSignUp(document.getElementById('EmailSignUpInput')))window.open('/popups/EmailSignUpConfirmation.asp?email='+document.getElementById('EmailSignUpInput').value,'EmailSignup','width=450,height=200,toolbar=no,menubar=no,scrollbars=no, resizable=no');" value="Submit" id="Button2" name="Button1" type="button">
+
+		
+
+												
+
+													<br>
+
+													<a href="javascript:footerprivacyPopUp()"><u>We respect your privacy.</u></a>
+
+													<br>
+
+												
+
+											</span>
+
+										</p>
+
+									</td>
+
+								</tr>
+
+							</table>
+
+						</td>
+
+					</tr>
+
+					<tr>
+
+					<td valign="top">
+
+						<p align="left">
+
+							<span style="text-align: right" class="footerFontClass">
+
+								
+
+							</span>
+
+						</p>
+
+					</td>
+
+				</tr>
+
+				
+
+				
+
+				<!-- End Email SignUp -->
+
+			
+
+				<tr>
+
+					<td align="left" class="footerFontClass">
+
+		
+
+						<style>
+
+						.homePageFooterText 
+
+						{
+
+						width: 770px;
+
+						margin: 50px 0 0 0 ;
+
+						font-size: 12px;
+
+						color: #808080;
+
+						}
+
+						.homePageFooterTextDark
+
+						{
+
+						width: 770px;
+
+						margin: 50px 0 0 0 ;
+
+						font-size: 12px;
+
+						color: #000000;
+
+						}
+
+						</style>
+
+						<br /><div align="center" class=categorylinksnarrow>&nbsp;<a href=http://www.nortonsflowers.com>Ypsilanti&nbsp;Flowers</a></span></div><br />
+
+						<!-- End Category Footer Links -->
+
+					
+
+						<table border="0" width="555" style="border-collapse: collapse">
+
+	<tr>
+
+		<td align="center"><b><font face="Arial" size="2">Ypsilanti Store<br>
+
+Fountain Square Plaza<br>
+
+		2900 Washtenaw Ave.<br>
+
+		Ypsilanti, MI 48197<br>
+
+		800-682-8667 * 734-434-2700<br>
+
+		8:00am - 7:00pm (Mon-Sat)<br>
+
+		11:00am – 3:00pm (Sunday)</font></b></td>
+
+		<td align="center">
+
+		<p><b><font face="Arial" size="2">Ann Arbor Store<br>
+        
+        2558 West Stadium <br>
+
+		Ann Arbor, MI 48103<br>
+
+		734-769-9100<br>
+
+		9:00am – 6:00pm (Mon-Sat)<br>
+
+		Closed Sunday</font></b></td>
+
+	</tr>
+
+</table>
+
+
+
+<table border="0" width="555" style="border-collapse: collapse">
+
+<tr>
+
+<td><align="center">
+
+<p align="center">
+
+<a href="/sitemap.asp">
+
+<font size="4" color="#412637" face="Tahoma">Site Map</font></a></p>
+
+</p>
+
+</td></tr>
+
+<table width='550' cellpadding='10'></align="center">
+
+<tr><td>
+
+<center><font size='2'><b>
+
+No matter what the occasion - Valentine’s Day, Mother’s Day, Christmas, Bosses Day, Sweetest Day, Prom, Homecoming, an Anniversary, a Birthday or just because you care - let Norton’s Flowers & Gifts help you say it with flowers from your Ann Arbor Florist!  Delivering daily to the Ann Arbor Michigan (MI) area including Ypsilanti, Canton, Saline, University of Michigan, Eastern Michigan University, Belleville, Dexter, Milan, Whittaker and Willis.  Order your flowers online or give us a call.  We guarantee your satisfaction!</b></font></center></td></tr></table>
+
+
+
+
+
+						<br />
+
+						<a href="javascript: footerhome()">Home  |</a><a href="/sitemap.asp">Site Map  |</a><a href="javascript:footersafeShoppingPopUp()">  Safe Shopping   |</a><a href="javascript:footerprivacyPopUp()">  Privacy   |</a><a href="javascript:footerdeliveryPopUp()">  Delivery   |</a><a href="javascript: footersubPolicyPopup()">  Substitutions  </a>
+
+
+
+						<br /><br />
+
+						
+
+					</td>
+
+					
+
+				</tr>
+
+			</table>
+
+		</td>
+
+	</tr>
+
+
+
+	
+
+		<tr>
+
+			<td colspan="3" valign="top" background="">
+
+			<img src="/skins/shared/shim.gif" height="5" border="0"></td>
+
+		</tr>
+
+	
+
+<script language="javascript" src="/js/footer1.js">
+
 </script>
-<noscript>
-<iframe src="http://4376290.fls.doubleclick.net/activityi;src=4376290;type=truli300;cat=homep015;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
-</noscript>
-  <img class="hideVisually" height="1" width="1" src="http://d.audienceiq.com/r/dd/id/L21rdC80NC9jaWQvMjg0NDA3ODIvdC8yL2NhdC8yOTc5MTEwOQ" />  
-  <header class="globalNav oocss" data-role="global_nav">
 
-  <div class="backgroundHighlight txtL">
-    <nav class="container containerResponsive line h6 typeWeightNormal mvn" role="navigation" data-role="global_nav_menu">
-              <div class="col phn">
-          <div class="pvm globalNavMenuItem globalNavMenuItemWithSubmenu dropdown" role="button" data-role="global_nav_menu_item global_nav_menu_item__buy">
-            <div class="typeReversed">
-                          <span data-action="%2FMI%2FAnn_Arbor%2F" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link" data-track="Buy">Buy</span>
-                        </div>
-            <div class="dropdownBox box boxBasic backgroundLowlight zIndexNavigation">
-              <ul class="dropdownList" data-role="global_nav_menu_submenu">
-                                                      <li>
-                                              <span class="dropdownLink" data-action="%2FMI%2FAnn_Arbor%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|homesforsale" data-track="Buy|City|HomesForSale">Homes for Sale</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Ffor_sale%2FAnn_Arbor%2CMI%2Fp_oh%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|openhouse" data-track="Buy|City|OpenHouse">Open Houses</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Ffor_sale%2FAnn_Arbor%2CMI%2Fforeclosure_lt%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|foreclosure" data-track="Buy|City|Foreclosure">Foreclosures</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Ffor_sale%2FAnn_Arbor%2CMI%2Fnew_homes_lt%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|newhome" data-track="Buy|City|NewHome">New Homes</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fsold%2FAnn_Arbor%2CMI%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|recentlysold" data-track="Buy|City|RecentlySold">Recently Sold Homes</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Fadvanced%2Fcity%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__advancedsearch" data-track="Buy|AdvancedSearch">More Search Options</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fsubmit_listings%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__sls" data-track="Buy|SLS">FREE List a property</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Fsitemap%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__allhomesforsale" data-track="Buy|AllHomesForSale">All homes for sale</span>
-                                          </li>
-                                                                    </ul>
-            </div>
-          </div>
-        </div>
-              <div class="col phn">
-          <div class="pvm globalNavMenuItem globalNavMenuItemWithSubmenu dropdown" role="button" data-role="global_nav_menu_item global_nav_menu_item__sell">
-            <div class="typeReversed">
-                          <span data-action="%2Fsell%2F%3Fts%3Dtrulia%26tscamp%3Dglobal_nav_sell" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link" data-track="Sell">Sell</span>
-                        </div>
-            <div class="dropdownBox box boxBasic backgroundLowlight zIndexNavigation">
-              <ul class="dropdownList" data-role="global_nav_menu_submenu">
-                                                      <li>
-                                              <span class="dropdownLink" data-action="%2Fsell%2F%3Fts%3Dtrulia%26tscamp%3Dglobal_nav_whats_my_home_worth" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__whats my home worth" data-track="Sell|Whats My Home Worth">What's My Home Worth</span>
-                                          </li>
-                                                                    </ul>
-            </div>
-          </div>
-        </div>
-              <div class="col phn">
-          <div class="pvm globalNavMenuItem globalNavMenuItemWithSubmenu dropdown" role="button" data-role="global_nav_menu_item global_nav_menu_item__rent">
-            <div class="typeReversed">
-                          <span data-action="%2Ffor_rent%2FAnn_Arbor%2CMI%2F" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link" data-track="Rent">Rent</span>
-                        </div>
-            <div class="dropdownBox box boxBasic backgroundLowlight zIndexNavigation">
-              <ul class="dropdownList" data-role="global_nav_menu_submenu">
-                                                      <li>
-                                              <span class="dropdownLink" data-action="%2Ffor_rent%2FAnn_Arbor%2CMI%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|apartment" data-track="Rent|City|Apartment">Apartments for Rent</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Ffor_rent%2FAnn_Arbor%2CMI%2FSINGLE-FAMILY_HOME_type%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|home" data-track="Rent|City|Home">Homes for Rent</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Fadvanced%2Frent%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__advancedsearch" data-track="Rent|AdvancedSearch">More Search Options</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fpost-rental%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__sls" data-track="Rent|SLS">FREE List a property</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Frent-sitemap%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__allapartmentsforrent" data-track="Rent|AllApartmentsForRent">All apartments for rent</span>
-                                          </li>
-                                                                    </ul>
-            </div>
-          </div>
-        </div>
-              <div class="col phn">
-          <div class="pvm globalNavMenuItem globalNavMenuItemWithSubmenu dropdown" role="button" data-role="global_nav_menu_item global_nav_menu_item__voices">
-            <div class="typeReversed">
-                          <span data-action="%2Fvoices%2Fqa%2FAnn_Arbor---4032" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link" data-track="Voices">Advice</span>
-                        </div>
-            <div class="dropdownBox box boxBasic backgroundLowlight zIndexNavigation">
-              <ul class="dropdownList" data-role="global_nav_menu_submenu">
-                                                      <li>
-                                              <span class="dropdownLink" data-action="%2Fvoices%2Fqa%2FAnn_Arbor---4032" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__locationqa" data-track="Voices|LocationQA">Q&amp;A</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fvoices%2Fblogs%2FAnn_Arbor---4032" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__locationblogs" data-track="Voices|LocationBlogs">Blogs</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fvoices%2FAnn_Arbor---4032" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__locationadvice" data-track="Voices|locationAdvice">Advice</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Fvoices%2Fqa%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__qa" data-track="Voices|QA">Q&amp;A</span>
-                                          </li>
-                                                          <li>
-                                              <a href="/voices/" class="dropdownLink" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__voices" data-track="Voices|Voices">Advice</a>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fvoices%2Fblogs%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__blogs" data-track="Voices|Blogs">Blogs</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fvoices%2Fguides%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__guides" data-track="Voices|Guides">Guides</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fguides-afi%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__amfamguides" data-track="Voices|AmFamGuides">AmFam Insurance Guide</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="http%3A%2F%2Factiverain.com" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__activerainblogs" data-track="Voices|activeRainBlogs">ActiveRain Blogs</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Fask%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__ask" data-track="Voices|Ask">Ask a Question</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fblog%2Fpost%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__writeblog" data-track="Voices|WriteBlog">Write a Blog Post</span>
-                                          </li>
-                                                                    </ul>
-            </div>
-          </div>
-        </div>
-              <div class="col phn">
-          <div class="pvm globalNavMenuItem globalNavMenuItemWithSubmenu dropdown" role="button" data-role="global_nav_menu_item global_nav_menu_item__mortgage">
-            <div class="typeReversed">
-                          <span data-action="%2Floan%2FAnn_Arbor%2CMI%2F" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link" data-track="Mortgage">Mortgage</span>
-                        </div>
-            <div class="dropdownBox box boxBasic backgroundLowlight zIndexNavigation">
-              <ul class="dropdownList" data-role="global_nav_menu_submenu">
-                                                      <li>
-                                              <span class="dropdownLink" data-action="%2Floan%2FAnn_Arbor%2CMI%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__homeloan" data-track="Mortgage|HomeLoan">Home Loans</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fmortgages%2FAnn_Arbor%2CMI%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__mortgage" data-track="Mortgage|Mortgage">Mortgage</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Frefinance%2FAnn_Arbor%2CMI%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__refinance" data-track="Mortgage|Refinance">Refinance</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fmortgage-advice%2FAnn_Arbor%2CMI%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__mortgageadvice" data-track="Mortgage|MortgageAdvice">Chase Mortgage Guide</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Fmortgage-calculators%2F06%2Frent-or-buy%2FAnn_Arbor%2CMI%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__calculators" data-track="Mortgage|Calculators">Rent vs Buy Calculator</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fmortgage-calculators%2FAnn_Arbor%2CMI%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__calculators" data-track="Mortgage|Calculators">Mortgage Calculators</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Floan%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__mortgage" data-track="Mortgage|Mortgage">Mortgage</span>
-                                          </li>
-                                                                    </ul>
-            </div>
-          </div>
-        </div>
-              <div class="col phn">
-          <div class="pvm globalNavMenuItem globalNavMenuItemWithSubmenu dropdown" role="button" data-role="global_nav_menu_item global_nav_menu_item__local|home">
-            <div class="typeReversed">
-                          <span data-action="%2Freal_estate%2FAnn_Arbor-Michigan%2F" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link" data-track="Local|Home">Local Info</span>
-                        </div>
-            <div class="dropdownBox box boxBasic backgroundLowlight zIndexNavigation">
-              <ul class="dropdownList" data-role="global_nav_menu_submenu">
-                                                      <li>
-                                              <span class="dropdownLink" data-action="%2Flocal%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__local|home" data-track="Local|Home|Local|Home">Local Home</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Freal_estate%2FAnn_Arbor-Michigan%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|overview" data-track="Local|Home|City|Overview">Real Estate Overview</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Freal_estate%2FAnn_Arbor-Michigan%2Fmarket-trends%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|trends" data-track="Local|Home|City|Trends">Market Trends</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Freal_estate%2FAnn_Arbor-Michigan%2Fschools%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|schools" data-track="Local|Home|City|Schools">Schools</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fhome_prices%2FMichigan%2FAnn_Arbor-heat_map%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|heatmap" data-track="Local|Home|City|Heatmap">Home Prices</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Freal_estate%2FAnn_Arbor-Michigan%2Fcommunity-info%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__city|community" data-track="Local|Home|City|Community">Community Info</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Fcity%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__local" data-track="Local|Home|Local">Directory</span>
-                                          </li>
-                                                                    </ul>
-            </div>
-          </div>
-        </div>
-              <div class="col phn">
-          <div class="pvm globalNavMenuItem globalNavMenuItemWithSubmenu dropdown" role="button" data-role="global_nav_menu_item global_nav_menu_item__findpro">
-            <div class="typeReversed">
-                          <span data-action="%2Fdirectory%2FAnn_Arbor-agent--4032%2F" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link" data-track="FindPro">Find an Agent</span>
-                        </div>
-            <div class="dropdownBox box boxBasic backgroundLowlight zIndexNavigation">
-              <ul class="dropdownList" data-role="global_nav_menu_submenu">
-                                                      <li>
-                                              <span class="dropdownLink" data-action="%2Fdirectory%2FAnn_Arbor-agent--4032%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__agents" data-track="FindPro|Agents">Real Estate Agents</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fdirectory%2FAnn_Arbor-broker--4032%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__brokers" data-track="FindPro|Brokers">Real Estate Brokers</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fdirectory%2FAnn_Arbor-mortgage_broker_or_lender--4032%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__lenders" data-track="FindPro|Lenders">Mortgage Brokers or Lenders</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fdirectory%2FAnn_Arbor-builder_developer--4032%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__builders" data-track="FindPro|Builders">Builders/Developers</span>
-                                          </li>
-                                                          <li>
-                                              <span class="dropdownLink" data-action="%2Fdirectory%2FAnn_Arbor-property_manager--4032%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__managers" data-track="FindPro|Managers">Property Managers</span>
-                                          </li>
-                                          <li class="dropdownDivider"></li>
-                                                                                            <li>
-                                              <span class="dropdownLink" data-action="%2Fdirectory%2F" data-role="global_nav_link global_nav_menu_submenu_item global_nav_menu_submenu_item__findpro" data-track="FindPro|FindPro">Agent Directory</span>
-                                          </li>
-                                                                    </ul>
-            </div>
-          </div>
-        </div>
-                  <div class="globalNavMenuItem colExt typeReversed phn pvm" data-role="global_nav_menu_item global_nav_menu_item__extra">
-                <span data-action="%2Fmobile%2F" class="globalNavMenuItemLink pam clickable iconMobile" data-role="global_nav_link global_nav_menu_item_link global_nav_menu_item_link__mobile" data-track="Mobile">Mobile</span>
-              </div>
-            <div class="globalNavMenuItem colExt typeReversed phn pvm" data-role="global_nav_menu_item global_nav_menu_item__extra">
-                <span data-action="%2Ftruliapro%2F%3Fsrc%3D000022" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link global_nav_menu_item_link__pro" data-track="Pro">For Professionals</span>
-              </div>
-            <div class="globalNavMenuItem colExt typeReversed phn pvm" data-role="global_nav_menu_item global_nav_menu_item__extra">
-                <span data-action="%2Fsubmit_listings%2F" class="globalNavMenuItemLink pam clickable" data-role="global_nav_link global_nav_menu_item_link global_nav_menu_item_link__listings" data-track="Listings">Submit Listings</span>
-              </div>
-          </nav>
-  </div>
+<!-------- End Footer1 -------->
 
-  <div class="backgroundBasic txtL" id="global-sub-nav">
-    <div class="container containerResponsive pvs">
-      <div class="line mln">
-        <div class="col ptm pbn mvn phn">
-          <a href="/" class="globalNavLogo" data-role="global_nav_logo" title="Trulia real estate, homes for sale and apartments for rent">Trulia</a>
-        </div>
-                                  <div id="global_nav_searchbox" class="col
-                      cols11
-                    ptm pbn pls hideFully">
-            <form id="globalSearchBox" class="form line man" action="/validate.php">
-              <input type="hidden" name="hsb" value="1">
-              <input type="hidden" name="tst" value="h">
-              <input type="hidden" name="locationId" value="">
-              <input type="hidden" name="pid" value="" >
-              <input type="hidden" name="propertyIndex" value="" >
-              <input type="hidden" name="topnav_extra" value="">
-              <input type="hidden" name="display" value="" />
-              <div class="col
-                                  cols21
-                                field man pls">
-                                <input type="hidden" name="q" value="">
-                <span class="fieldItem fieldAppend text">
-                  <input type="text" aria-labelledby="searchButton" class="searchInput text searchByLocation h6 typeWeightNormal man" name="search" placeholder="Search by neighborhood, city, zip or address" autocomplete="off" value="" data-role="global_nav_search_field global_nav_search_by_location">
-                </span>
-                
-                <div class="dropdown">
-                  <div class="box dropdownBox boxBasic backgroundLowlight dropdownBoxHighlight dropdownArrowLeft mtm pvs">
-                    <ul class="autoSuggestList listBorderedHover backgroundBasic clickable h7 lvs lhl pln"></ul>
-                                      </div>
-                </div>
 
-                
-              </div>
-              <div class="col cols1 pln">
-                <input type="submit" class="globalNavSearchButton" data-role="global_nav_search_button" value="Search">
-              </div>
-              <div class="col lastCol">
-                            </div>
-            </form>
-          </div>
 
-                  
-                <div class="colExt phm ptm pbn mts" data-role="global_saved_properties">
-          <style type="text/css">
-  /**
-  * To fix position of propertyContainer, DO NOT add anything else!!!
-  */
-  #propertyDropdown { position: relative; }
-  .propertyDropdownContainer { top: 20px; right: -10px; position: absolute; width: 330px; display: none; }
-  .propertyDropdownContainer .dropdownArrowRight::before { left: 92%; }
-  .propertyBoxPropertyTitle { width: 250px; }
-  .propertyBoxPropertyType { width: 250px; }
+								</td>
+
+							</tr>
+
+						</table>
+
+					</td>
+
+				</tr>
+
+			</table>
+
+			<table border="0" cellpadding="0" cellspacing="0" align="center" width="675">
+
+				<tr>
+
+					<td>
+
+						<style type="text/css"> 
+
+.norton-footer {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+}
+
+
+
+.norton-footer a, .norton-footer a:active, .norton-footer a:visited, .norton-florist a:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	color: #000000;
+
+	text-decoration: underline;
+
+}
+
 </style>
 
-<div id="propertyDropdown">
-  <span class="globalNavStar clickable"><i class="iconStarDefault"></i></span>
-  <div class="propertyDropdownContainer dropdownContent zIndexPopup">
-    <div id="propertyDropdownBody"></div>
-  </div>
-</div>
-
-<script type="text/template" id="iconStarTemplate">
-  <i class="<%= iconStarClass %>"></i>
-</script>
-
-<script type="text/template" id="propertyRowTemplate">
-  <li class="pan">
-    <div class="media mbn pbs clickable" id="<%= propertyId %>">
-      <a href="<%= pdpUrl %>" class="mediaImg pls">
-        <img src="<%= thumbnail %>" width="50" height="50" alt="<%= description %>">
-      </a>
-      <div class="mediaBody prs">
-        <div class="h7 typeEmphasize typeTruncate propertyBoxPropertyTitle mbn"><%= topTitle %></div>
-        <div class="h7 typeLowlight typeTruncate propertyBoxPropertyType mtn"><%= description %></div>
-      </div>
-    </div>
-  </li>
-</script>
-
-<script type="text/template" id="suggestedPropertyRowTemplate">
-  <li class="mhs">
-    <div class="starMenuCarouselImage imageContainer120x80">
-      <a class="overlayContainer" href="<%= pdpUrl %>">
-        <img src="<%= photoUrl %>">
-        <div class="overlayLowlight overlayFull txtC h7 mvn phs pvl hideVisually">
-          <%= formattedBedAndBath.replace(/\//g, '|').replace(/(^|)(\d+)(|$)/g, '$1<b>$2</b>$3') %> <br>
-          <%= formattedSqft.replace(/(^|)(\d+)(|$)/g, '$1<b>$2</b>$3') %>
-        </div>
-      </a>
-    </div>
-    <div class="pbs txtL">
-      <div class="h7 typeEmphasize typeTruncate mbn" style="width: 120px;"><%= addressShort %></div>
-      <div class="h7 typeLowlight typeTruncate mtn" style="width: 120px;"><%= formattedPrice %></div>
-    </div>
-  </li>
-</script>
-
-<script type="text/template" id="suggestedHomesLinkTemplate">
-  <li class="mhs" style="vertical-align: top;">
-   <div class="backgroundLowlight txtC typeEmphasize h7 mvn phm pvl">
-      <a id="viewAllSuggestedHomesSlide" data-tracking-string="ViewAllSuggestedHomesSlide" href="<%= site_root %>account/suggestions/">
-        View All <br>
-        Suggested Homes
-      </a>
-    </div>
-  </li>
-</script>
-
-<script type="text/template" id="suggestedPropertyContainerTemplate">
-
-  <div class="boxHeadBasic boxFootBasic plm pvs mhn typeEmphasize typeLowlight backgroundLowlight">
-    <span>Suggested just for you</span>
-    <a id="viewAllSuggestedHomesLink" data-tracking-string="ViewAllSuggestedHomesLink" class="h8 typeEmphasize typeCaps" href="<%= site_root %>account/suggestions/">View All</a>
-  </div>
-
-  <ul id="suggestedPropertyList" class="carouselContainer plm listInline lhn mbn">
-    <li class="mbl"><div class="btn mbl phn prev btnDisabled"><i class="iconLeftOpen"></i></div></li>
-    <li class="carousel typeTruncate mbn">
-      <ol class="listInline lhn mbn">
-
-      </ol>
-    </li>
-    <li class="mbl"><div class="btn mbl phn next"><i class="iconRightOpen"></i></div></li>
-  </ul>
-
-</script>
-
-<script type="text/template" id="suggestedPropertyEmptyContainerTemplate">
-  <div class="txtC boxFootBasic h7 typeEmphasize typeCaps man pam">
-    <a href="<%= site_root %>account/suggestions/">
-      <i class="iconThumbsUp h5 mvn"></i>Unlock your personalized home suggestions
-    </a>
-  </div>
-</script>
-
-<script type="text/template" id="myHomesContainerTemplate">
-  <div class="savedPropertiesDropdownBox box dropdownArrowRight dropdownBoxHighlight backgroundLowlight txtL">
-    <div class="boxHead boxHeadBasic typeLowlight line man pvm h6">
-      <div class="col cols14 plm">
-        <%= header %>
-        <a id="viewAllFollowedHomesLink" href="<%= site_root %>account/properties/" class="h8 typeEmphasize typeCaps"><%= viewAllLinkText %></a>
-      </div>
-      <div class="colExt txtR">
-        <ul id="globalNavMyHomesTabHeader" class="tabs tabDefault pln man" data-body="#searchHistoryList">
-
-        </ul>
-      </div>
-    </div>
-    <div class="boxBody backgroundBasic pan">
-
-      <div id="starMenuSavedMessage" class="typeHighlight h7 typeEmphasize phs pts mtn hideFully"></div>
-      <div id="savedPropertyList">
-        <ul class="listBorderedHover mvn pan">
-
-        </ul>
-      </div>
-
-      <div id="suggestedPropertyContainer"></div>
-
-    </div>
-
-    <div id="globalNavMyHomesFooter" class="boxFoot boxFootBasic mhn pvs h7 txtC"></div>
-  </div>
-</script>
-
-<script type="text/template" id="myHomesActiveTab">
-  <li class="pvn phm man"><a href="#" data-tab="<%= tabName %>"><%= tabName %></a></li>
-</script>
-<script type="text/template" id="myHomesInactiveTab">
-  <li class="pvn phm man"><span class="typeLowlight"><%= tabName %></span></li>
-</script>
-
-<script type="text/template" id="savedRentalContainerFooterTemplate">
-  <div class="pas mts" style="white-space: normal;line-height: 1.3;">
-    <i class="h6 iconTrophy"></i>Smart renters contact multiple properties <br> and find a place to live sooner.
-  </div>
-  <div class="mts mbl">
-    <a href="<%= viewAllRentalHomesLink %>" class="btn btnPrimary btnSml btn-primary viewSavedProperties">View All Saved Homes</a>
-  </div>
-</script>
-
-<script type="text/template" id="loggedOutOrNoPropertyContainerTemplate">
-  <div class="box dropdownArrowRight dropdownBoxHighlight backgroundBasic txtL ">
-    <div class="boxBody txtC pvm">
-      <p class="h5 typeWeightNormal txtC mvm">Keep track of your favorite homes from one easy location.</p>
-
-      <% if (is_logged_in) { %>
-        <p class="h5 typeWeightNormal txtC">Save a home to get started.</p>
-      <% } else { %>
-        <p class="txtC mvl phl">
-          <button class="signUpButton btn btnPrimary btn-primary"><span class="phl">Sign in</span></button>
-        </p>
-      <% } %>
-
-    </div>
-  </div>
-</script>
-
-<script type="text/template" id="loadingSavedPropertiesContainerTemplate">
-  <div class="box boxHighlight backgroundBasic txtL">
-    <p class="txtC typeWeightNormal h6 txtM"><i class="iconSpinner"></i>Loading</p>
-  </div>
-</script>
-
-<script type="text/template" id="firstTimeUserContainerTemplate">
-  <div class="box dropdownArrowRight dropdownBoxHighlight backgroundLowlight txtL">
-    <div class="boxBody backgroundBasic pan">
-      <img src="http://static.trulia-cdn.com/images/global_nav/saved_properties/one_time_howto_20130903.jpg"/>
-      <div class="pal ptm">
-        <p class="h4 txtC">
-          <span class="typeHighlight typeEmphasize">New.</span> Keep track of your favorite homes.
-        </p>
-        <div class="txtC ptm">
-          <a href="#" class="btn btnDefault">Got It</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</script>
-
-        </div>
-                          <div class="globalUserCard colExt phm ptm pbn mvn" data-role="global_user_card">
-              <div class="globalUserCardLinks" data-role="global_user_card_links">
-    <span class="globalUserCardLink globalUserCardSigninLink" data-action="%2Flogin" data-role="global_user_card_link global_user_card_signin_link" data-track="UpperRightUniversalLinks|LogIn_Link">Sign In</span>
-  </div>
-          </div>
-        
-        <script type="text/template" id="emptyListItemTemplate">
-	<li class="pvn mvn"></li>
-</script>
-<script type="text/template" id="autoSuggestItemTemplate">
-  <li class="man pvs" data-title="<%= title %>" data-value="<%= value %>" data-location-id="<%= locationId %>" data-pid="<%= pid %>" data-property-Index="<%= propertyIndex %>">
-    <div class="line man">
-    		<div class="col cols21 pan typeTruncate">
-    			<%= display %>
-    		</div>
-    	<div class="colExt txtR typeLowlight pan"><%= suffix %></div>
-    </div>
-  </li>
-</script>
-      </div>
-    </div>
-  </div>
-</header>
-  <script type="text/javascript">
-    trulia.ready(function()
-    {
-      var sticky = trulia.GlobalNavSticky;
-
-      sticky.init({
-        'fade_duration': 500
-      });
-    });
-  </script>
-
-
-
-
-  
-
-    <div id="content">
-    <section id="search" class="line backgroundHighlight" data-defer-background-image="http://static.trulia-cdn.com/images/homepage/hero_banner_v3.jpg">
-      <div class="preload-cover backgroundHighlight"></div>
-<div class="container containerResponsive">
-  <div class="col cols24 pln">
-    <div class="banner txtC">
-      <div style="height: 1px;"></div>
-
-                        <a href="#" title="Get Our Apps" class="get_our_apps interactive"></a>
-              
-      <div class="box-holder">
-        <h1 class="typeReversed man typeWeightNormal h0">Trulia. Your Home for Real Estate.</h1>
-        <div class="searchbox">
-          <form id="searchbox_form" class="form man" method="get" action="/validate.php" autocomplete="off">
-            <div class="field man">
-
-              <span class="select">
-                <div id="homepage-select" class="selectPretty">
-                  <select id="search_options" class="h5 man txtL" name="display" data-previous-selection="">
-                    <option value="for_sale">Buy</option>
-                                          <option value="for_rent">Rent</option>
-                                        <option value="sold">Recently sold</option>
-                  </select>
-                  <div class="selectDisplay btn btnLrg btnDefault rrn backgroundBasic pts plm">
-                    <span class="selectLabel h5">Buy</span>
-                    <span class="selectTrigger pts"><i class="iconDownOpen"></i></span>
-                  </div>
-                </div>
-              </span>
-              <span class="text">
-                <input id="searchbox_form_location" type="text" name="search"
-                  class="searchInput text searchByLocation typeWeightNormal h5 man"
-                  value=""
-                  placeholder="Search by neighborhood, city, zip or address"
-                />
-                <input type="hidden" name='locationId' value=""/>
-                <input type="hidden" name="tst" id="searchbox_form_type" value="h" />
-                <input type="hidden" name="display" id="searchbox_form_type_display" value="for sale" />
-                <button class="btn btnPrimary submit"><span class="h5 typeEmphasize"><i class="iconSearch h4"></i>SEARCH</span></button>
-              </span>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    </section>
-          <section id="modulesTop" class="line backgroundLowlight">
-        <div class="container pvl mvm">
-  <div class="col col24 pln">
-          <div class="module col col8 txtC phl" id="module_top_1">
-  <p class="h2 typeWeightNormal txtC"><a href="/" title="Start Exploring" class="activeLink">Search like a local</a></p>
-  <p class="txtC"><a href="/" title="Start Exploring"><img class="roundPic" src="http://static.trulia-cdn.com/images/homepage/product_marketing_module_1_v3.png"></a></p>
-  <p class="txtC h5 typeDeemphasize">Get the scoop on nearby schools, crime, and moreâ€”right down to the closest grocery store.</p>
-  <p class="txtC typeEmphasize"><a href="/" title="Start Exploring">Start Exploring</a></p>
-</div>
-          <div class="module col col8 txtC phl" id="module_top_2">
-  <p class="h2 typeWeightNormal txtC"><a href="/directory/" title="Get Connected" class="activeLink">Find your agent</a></p>
-  <p class="txtC"><a href="/directory/" title="Get Connected"><img class="roundPic" src="http://static.trulia-cdn.com/images/homepage/product_marketing_module_2_v3.png"></a></p>
-  <p class="txtC h5 typeDeemphasize">The right agent makes buying a home a lot less scary. That's why we only match you with the best.</p>
-  <p class="txtC typeEmphasize"><a href="/directory/" title="Get Connected">Get Connected</a></p>
-</div>
-          <div class="module col col8 txtC phl" id="module_top_3">
-  <p class="h2 typeWeightNormal txtC"><a href="/rent_vs_buy/" title="Compare Costs" class="activeLink">Rent or buy?</a></p>
-  <p class="txtC"><a href="/rent_vs_buy/" title="Compare Costs"><img class="roundPic" src="http://static.trulia-cdn.com/images/homepage/product_marketing_module_3_v3.png"></a></p>
-  <p class="txtC h5 typeDeemphasize">Not sure if you should rent or buy? We can help you do the mathâ€”and make the right decision.</p>
-  <p class="txtC typeEmphasize"><a href="/rent_vs_buy/" title="Compare Costs">Compare Costs</a></p>
-</div>
-      </div>
-</div>
-
-      </section>
-      <section id="mobile" class="line backgroundBasic" data-defer-background-image="http://static.trulia-cdn.com/images/homepage/background_mobile.png">
-        <div class="container pvl mvl">
-  <div class="col col24 pln">
-      <div class="col cols10 ptl">
-        <h1 class="typeDeemphasize txtL noWrap h0">Find homes on the go</h1>
-        <p class="h5 typeDeemphasize mbl">
-          Trulia's top-rated mobile app shows homes for sale near youâ€”anytime, anywhere. With hi-res photo galleries and detailed neighborhood maps, your future home will be at your fingertips.
-          <a href="http://www.trulia.com/mobile/iphone/" class="typeEmphasize" title="Learn More">Learn More</a>
-        </p>
-                  <form class="form" id="form-mobile" onsubmit="return false;">
-            <div class="field mbl pbs">
-              <label class="fieldLabel">Enter your mobile number and we'll text you the link</label>
-              <div class="h7 sms-status"></div>
-              <ul class="fieldGroup fieldGroupInline">
-                <li class="cols4">
-                  <span class="fieldItem text">
-                    <input type="text" class="txtC fieldLrg" id="sms_phone1" name="sms_phone1" maxlength=3 />
-                  </span>
-                </li>
-                <li class="h5 typeLowlight mls"> â€” </li>
-                <li class="cols4 mls">
-                  <span class="fieldItem text">
-                    <input type="text" class="txtC fieldLrg" id="sms_phone2" name="sms_phone2" maxlength=3 />
-                  </span>
-                </li>
-                <li class="h5 typeLowlight mls"> â€” </li>
-                <li class="cols5 mls">
-                  <span class="fieldItem text">
-                    <input type="text" class="txtC fieldLrg" id="sms_phone3" name="sms_phone3" maxlength=4 />
-                  </span>
-                </li>
-              </ul>
-              <input type="hidden" name="sms_phone" id="sms_phone" />
-              <input type="hidden" name="sms_tpl" value=""/>
-              <input type="hidden" name="sms_auth" value="4d0b9d1269de5c260b91d56223932d52"/>
-            </div>
-            <button class="btn btnPrimary btnLrg typeCaps typeEmphasize btnFullWidth mbm cols17" id="sms_submit">DOWNLOAD THE FREE APP</button>
-          </form>
-
-          <p class="h8 mbm typeLowlight">US mobile numbers only. Message and data rates may apply.</p>
-                          <div class="download-btns txtM ptl">
-          <a href="https://itunes.apple.com/us/app/trulia-real-estate-search/id288487321" title="App Store" target="_blank" class="btn-app-store"><img data-lazy-src="http://static.trulia-cdn.com/images/homepage/download_app_store.png" title="App Store" alt="App Store"/></a>
-          <a href="https://play.google.com/store/apps/details?id=com.trulia.android" title="Google Play" target="_blank" class="btn-google-play mlm"><img data-lazy-src="http://static.trulia-cdn.com/images/homepage/download_google_play.png" title="Google Play" alt="Google Play"/></a>
-        </div>
-      </div>
-
-      <div class="col cols14 pln">
-        <img class="mobile-devices" data-lazy-src="http://static.trulia-cdn.com/images/homepage/mobile_devices_v4.png" alt="Mobile App"/>
-      </div>
-  </div>
-</div>
-
-      </section>
-      <section id="mortgage" class="line backgroundMidnight" data-defer-background-image="http://static.trulia-cdn.com/images/homepage/mortgage_bkg_v3.jpg">
-        <div class="container pvl mvl">
-  <div class="col cols24 txtC">
-    <h1 class="typeDeemphasize typeReversed man mbm h0">How much home can you afford?</h1>
-    <h3 class="typeReversed man pvn phl">
-      Buying a home is a big deal. We can help you figure out how much money you have to work with and bring clarity to your mortgage process.
-    </h3>
-    <img class="txtC" data-lazy-src="http://static.trulia-cdn.com/images/homepage/mortgage_illustration_v3.png" alt="Mortgage" />
-    <a class="btn btnPrimary typeCaps typeEmphasize mbl" href="/mortgages" title="Take the first step">Take the first step</a>
-  </div>
-</div>      </section>
-      <section id="monetization" class="line backgroundBasic">
-        <div class="container pvl mvm">
-  <div class="module col col8 phl" id="module_bottom_1">
-  <p class="h3 typeWeightNormal txtL">Get expert real estate advice</p>
-  <p class="txtL h5 typeDeemphasize mvl">From neighborhood insights to how to start your home search, our team of local experts is here to answer your questions. Check out these hot topics in the Trulia Community.</p>
-            <p class="txtL mtn mbs">
-        <a href="http://www.trulia.com/voices/Home_Buying/My_husband_and_I_would_like_to_buy_our_first_home_-618578" title="What are requirements to buy your first home">
-          What are requirements to buy your first home<span class="iconRightOpen"></span>
-        </a>
-      </p>
-          <p class="txtL mtn mbs">
-        <a href="http://www.trulia.com/voices/Home_Buying/What_is_the_average_time_frame_to_purchase_a_home_-624793?answerId=2135541" title="How long does it take to buy a home">
-          How long does it take to buy a home<span class="iconRightOpen"></span>
-        </a>
-      </p>
-          <p class="txtL mtn mbs">
-        <a href="http://www.trulia.com/voices/Home_Buying/I_am_looking_at_a_house_that_is_short_sale_What_i-619618" title="What are advantages to buying a short sale or foreclosure">
-          What are advantages to buying a short sale or foreclosure<span class="iconRightOpen"></span>
-        </a>
-      </p>
-      </div>  <div class="module col col8 phl" id="module_bottom_2">
-  <p class="h3 typeWeightNormal txtL">Want to sell your home?</p>
-  <p class="txtL h5 typeDeemphasize mvl">There's a lot to think about when selling, and we're here to help. Check out these tips and tricks for sellers, courtesy of Trulia's Real Estate Realist.</p>
-            <p class="txtL mtn mbs">
-        <a href="http://www.trulia.com/blog/taranelson/2013/06/sellers_5_things_not_to_do_at_your_open_house" title="5 Things not to do at your open house">
-          5 Things not to do at your open house<span class="iconRightOpen"></span>
-        </a>
-      </p>
-          <p class="txtL mtn mbs">
-        <a href="http://www.trulia.com/blog/taranelson/2013/08/7_things_buyers_love_sellers_fail_to_mention" title="7 Things buyers love and sellers forget to mention">
-          7 Things buyers love and sellers forget to mention<span class="iconRightOpen"></span>
-        </a>
-      </p>
-          <p class="txtL mtn mbs">
-        <a href="http://www.trulia.com/blog/taranelson/2013/08/5_ridiculous_seller_sayings" title="5 Ridiculous seller sayings">
-          5 Ridiculous seller sayings<span class="iconRightOpen"></span>
-        </a>
-      </p>
-      </div>  <div class="module col col8 pll lastCol" id="module_bottom_houzz">
-  <p class="h3 typeWeightNormal txtL">From our friends<br>at Houzz</p>
-    <div id="houzz_module">
-      <div class="mvm">
-        <span>
-          <a href="http://www.houzz.com/" target="_blank" title="Interior Design on Houzz">
-            Interior Design
-          </a>
-          on Houzz
-        </span>
-      </div>
-              <div id="houzz_selects">
-  <select id="hzSpace" style="float:left;margin-left:12px" onchange="reloadHouzzWidget()">
-      <option value="">All Spaces</option>
-      <option value="bathroom">Bathroom</option>
-      <option value="bedroom">Bedroom</option>
-      <option value="closet">Closet</option>
-      <option value="dining-room">Dining Room</option>
-      <option value="entry">Entry</option>
-      <option value="exterior">Exterior</option>
-      <option value="family-room">Family Room</option>
-      <option value="hall">Hall</option>
-      <option value="home-office">Home Office</option>
-      <option value="kids">Kids</option>
-      <option value="kitchen">Kitchen</option>
-      <option value="landscape">Landscape</option>
-      <option value="laundry-room">Laundry Room</option>
-      <option value="living-room">Living Room</option>
-      <option value="media-room">Media Room</option>
-      <option value="patio">Patio</option>
-      <option value="pool">Pool</option>
-      <option value="porch">Porch</option>
-      <option value="powder-room">Powder Room</option>
-      <option value="staircase">Staircase</option>
-      <option value="wine-cellar">Wine Cellar</option>
-  </select>
-  <select id="hzStyle" style="float:right;margin-right:12px" onchange="reloadHouzzWidget()">
-      <option value="">All Styles</option>
-      <option value="asian">Asian</option>
-      <option value="contemporary">Contemporary</option>
-      <option value="eclectic">Eclectic</option>
-      <option value="mediterranean">Mediterranean</option>
-      <option value="modern">Modern</option>
-      <option value="traditional">Traditional</option>
-      <option value="tropical">Tropical</option>
-  </select>
-</div>
-<iframe name="HouzzWidget0.6426350718289512" id="hzFrame" border="0" frameborder="0" scrolling="no" src=""></iframe>
-<script>
-// at this point jQuery should be loaded already
-function reloadHouzzWidget()
-{
-    var cat = $("#hzSpace").val();
-    var st = $("#hzStyle").val();
-    $("#hzFrame")[0].src = "http://www.houzz.com/jsGalleryWidget/browse/new_window=yes/width=298/cat="+cat+"/st="+st;
-}
-setTimeout(function()
-{
-    document.getElementById('hzFrame').src = 'http://www.houzz.com/jsGalleryWidget/browse/new_window=yes/title_on=yes/width=298';
-}, 50);
-</script>
-          </div>
-</div>
-
-
-</div>      </section>
-      <section id="socialStripe" class="line backgroundLowlight">
-        <div class="container mvm pts">
-  <div class="col col24 txtC pln">
-    <div class="social-stripe">
-      <a href="https://www.facebook.com/trulia" target="_blank" title="Visit us in Facebook">
-        <img class="mhm phs" data-lazy-src="http://static.trulia-cdn.com/images/icons/icon_facebook.png" alt="Facebook"/>
-      </a>
-    </div>
-    <div class="social-stripe">
-      <a href="https://twitter.com/trulia" target="_blank" title="Visit us in Twitter">
-        <img class="mhm phs" data-lazy-src="http://static.trulia-cdn.com/images/icons/icon_twitter.png" alt="Twitter"/>
-      </a>
-    </div>
-    <div class="social-stripe">
-      <a href="http://www.linkedin.com/company/trulia" target="_blank" title="Visit us in LinkedIn">
-        <img class="mhm phs" data-lazy-src="http://static.trulia-cdn.com/images/icons/icon_linkedin.png" alt="LinkedIn"/>
-      </a>
-    </div>
-    <div class="social-stripe">
-      <a href="https://plus.google.com/+trulia" target="_blank" title="Visit us in Google Plus">
-        <img class="mhm phs" data-lazy-src="http://static.trulia-cdn.com/images/icons/icon_google.png" alt="Google Plus"/>
-      </a>
-    </div>
-    <div class="social-stripe">
-      <a href="http://www.pinterest.com/trulia/" target="_blank" title="Visit us in Pinterest">
-        <img class="mhm phs" data-lazy-src="http://static.trulia-cdn.com/images/icons/icon_pinterest.png" alt="Pinterest"/>
-      </a>
-    </div>
-  </div>
-</div>      </section>
-      </div>
-    
-
-  
-  <footer id="footer">
-  
-                
-  
-  <dl class="local_links">
-   <dt class="most_popular_cities">Most popular cities</dt>
-   <dd>
-    <a href="/CA/San_Francisco/">San Francisco real estate</a>
-    <a href="/NY/Brooklyn/">Brooklyn real estate</a>
-    <a href="/NY/New_York/">Manhattan real estate</a>
-    <a href="/CA/Los_Angeles/">Los Angeles real estate</a>
-    <a href="/CA/San_Diego/">San Diego real estate</a>
-  </dd>
-  <dd>
-    <a href="/FL/Miami/">Miami real estate</a>
-    <a href="/IL/Chicago/">Chicago real estate</a>
-    <a href="/NV/Las_Vegas/">Las Vegas real estate</a>
-    <a href="/NY/Queens/">Queens real estate</a>
-    <a href="/TX/Austin/">Austin real estate</a>
-  </dd>
-
-  <dt class="foreclosures">Foreclosures</dt>
-  <dd>
-    <a href="/for_sale/Las_Vegas,NV/foreclosure_lt/">Las Vegas foreclosures</a>
-    <a href="/for_sale/Phoenix,AZ/foreclosure_lt/">Phoenix foreclosures</a>
-    <a href="/for_sale/Chicago,IL/foreclosure_lt/">Chicago foreclosures</a>
-    <a href="/for_sale/Sacramento,CA/foreclosure_lt/">Sacramento foreclosures</a>
-    <a href="/for_sale/Detroit,MI/foreclosure_lt/">Detroit foreclosures</a>
-  </dd>
-  <dd>
-    <a href="/for_sale/San_Diego,CA/foreclosure_lt/">San Diego foreclosures</a>
-    <a href="/for_sale/Miami,FL/foreclosure_lt/">Miami foreclosures</a>
-    <a href="/for_sale/Los_Angeles,CA/foreclosure_lt/">Los Angeles foreclosures</a>
-    <a href="/for_sale/Stockton,CA/foreclosure_lt/">Stockton foreclosures</a>
-    <a href="/for_sale/Bakersfield,CA/foreclosure_lt/">Bakersfield foreclosures</a>
-  </dd>
-
-  <dt class="rentals">Rentals</dt>
-  <dd>
-    <a href="/for_rent/Houston,TX/">Houston apartments</a>
-    <a href="/for_rent/Las_Vegas,NV/">Las Vegas apartments</a>
-    <a href="/for_rent/San_Antonio,TX/">San Antonio apartments</a>
-    <a href="/for_rent/Phoenix,AZ/">Phoenix apartments</a>
-    <a href="/for_rent/Indianapolis,IN/">Indianapolis apartments</a>
-  </dd>
-  <dd>
-    <a href="/for_rent/Atlanta,GA/">Atlanta apartments</a>
-    <a href="/for_rent/Austin,TX/">Austin apartments</a>
-    <a href="/for_rent/Charlotte,NC/">Charlotte apartments</a>
-    <a href="/for_rent/Dallas,TX/">Dallas apartments</a>
-    <a href="/for_rent/Orlando,FL/">Orlando apartments</a>
-  </dd>
-  </dl>
-  
-
-  
-  <dl class="real_estate">
-   <dt>Residential Real Estate</dt>
-   <dd>
-    <a href="/CA/San_Francisco/">San&nbsp;Francisco&nbsp;real&nbsp;estate</a>
-    <a href="/NY/New_York/">New&nbsp;York&nbsp;real&nbsp;estate</a>
-    <a href="/CA/Los_Angeles/">Los&nbsp;Angeles&nbsp;real&nbsp;estate</a>
-    <a href="/FL/Orlando/">Orlando&nbsp;real&nbsp;estate</a>
-    <a href="/FL/Miami/">Miami&nbsp;real&nbsp;estate</a>
-    <a href="/PA/Philadelphia/">Philadelphia&nbsp;real&nbsp;estate</a>
-    <a href="/AZ/Phoenix/">Phoenix&nbsp;real&nbsp;estate</a>
-    <a href="/CA/San_Diego/">San&nbsp;Diego&nbsp;real&nbsp;estate</a>
-    <a href="/CA/San_Jose/">San&nbsp;Jose&nbsp;real&nbsp;estate</a>
-    <a href="/IL/Chicago/">Chicago&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/Arizona-real-estate/">Arizona&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/California-real-estate/">California&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/Florida-real-estate/">Florida&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/Illinois-real-estate/">Illinois&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/Massachusetts-real-estate/">Massachusetts&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/New_Jersey-real-estate/">New&nbsp;Jersey&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/Pennsylvania-real-estate/">Pennsylvania&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/Texas-real-estate/">Texas&nbsp;real&nbsp;estate</a>
-    <a href="/sitemap/">Other&nbsp;local&nbsp;real&nbsp;estate</a>
-    <a href="/rent-sitemap/California-apartments/">California&nbsp;apartments</a>
-    <a href="/rent-sitemap/New-York-apartments/">New&nbsp;York&nbsp;apartments</a>
-    <a href="/rent-sitemap/Texas-apartments/">Texas&nbsp;apartments</a>
-    <a href="/rent-sitemap/">Apartments&nbsp;for&nbsp;rent</a>
-    <a href="/home_prices/">Home&nbsp;price&nbsp;maps</a>
-    <a href="/voices/sitemap/">Real&nbsp;estate&nbsp;community</a>
-    <a href="/property-sitemap/">U.S. Property records</a>
-    <a href="/mortgage-sitemap/">Mortgage site map</a>
-    <a href="/sitemap/popular-cities">More Popular Cities</a>
-    <a href="/new-for-sale-properties/">New Properties</a>
-    <a href="/new-for-rent-properties/">New Rentals</a>
-   </dd>
-  </dl>
-  
-
-  
-<dl class="explore">
- <dt>Explore Trulia</dt>
- <dd>
-  <a href="/">Homes for Sale</a>
-  <a href="/rent/">Homes for Rent</a>
-  <a href="/city/">Stats &amp; Trends</a>
-  <a href="/voices/">Real Estate Advice</a>
-  <a href="/mobile/">Real Estate Apps</a>
-  <a href="/explore/">Trulia Labs</a>
-  <a href="http://developer.trulia.com/">Trulia API</a>
-  <a href="/trulia_estimates/">Trulia Estimates</a>
- </dd>
-
- <dt>For Professionals</dt>
- <dd>
-  <a href="/agents/">Agents</a>
-  <a href="/advertisers/brokers/">Brokers</a>
-  <a href="/mls/">MLS</a>
-  <a href="/advertisers/">Advertisers &amp; Partners</a>
-  <a href="/tools/">Tools &amp; Extras</a>
-  <a class="submit_listings" href="/submit_listings/">Submit Your Listings</a>
-  <a href="/truliapro/">Real Estate Leads</a>
-  <a href="/sitemap/agent">Agent Site Map</a>
-  <a href="/sitemap/directory">Directory Site Map</a>
-  <a href="http://activerain.com" target="_blank">ActiveRain</a>
- </dd>
-
- <dt>Corporate</dt>
- <dd>
-  <a href="/about/" target="_self">About Trulia</a>
-  <a href="http://info.trulia.com/">News Room</a>
-  <a href="http://www.truliablog.com/">Trulia Blog</a>
-  <a href="/jobs/">Careers</a>
-  <a href="http://ir.trulia.com/">Investor Relations</a>
-  <a href="/privacy/" target="_self">Privacy</a>
-  <a href="/terms/" target="_self">Terms of Use</a>
-  <a href="/ad/terms/" target="_self">Subscription Terms</a>
-  <a href="/guidelines/" target="_self">Community Guidelines</a>
- </dd>
- <dd style="display: block">
-  <a href="/terms/advertisers/" target="_self">Advertising Terms</a>
- </dd>
-</dl>
-
-    <dl class="best_place">
-   <dt>The best place to start your real estate search.</dt>
-   <dd>
-    Trulia is an all-in-one real estate site that gives you the local scoop about <a href="/sitemap/">homes for sale</a>,
-    <a href="/rent-sitemap/">apartments for rent</a>, neighborhood insights, and real estate markets and trends
-    to help you figure out exactly what, where, and when to buy, sell, or rent. You can also find a real estate agent,
-    view prices of recently sold homes, and see home values in your community. Get advice and opinions from local real estate agents,
-    brokers, and other local experts on Trulia Voices, Trulia's online real estate community.
-   </dd>
-  </dl>
-  
-<p class="copyright">
- Copyright &copy; 2014 Trulia, Inc. All rights reserved.
- <a rel="nofollow" target="_blank" href="http://www.hud.gov/offices/fheo/index.cfm">Fair Housing and Equal Opportunity</a>
-</p>
-<p class="help_center">
- Have a question? Visit our <a href="/help/">Help Center</a> to find the answer
-</p>
-      
-  </footer>
-  
-  
- <script>
-// TODO: return function ready to repopulate the page
-(function()
-{
-  var el, data, attr, newEl, parent, children;
-
-  function getAttr(el, name)
-  {
-    if (navigator.userAgent.match(/MSIE/))
-    {
-        var item = el.attributes.getNamedItem(name);
-        return (!item || !item.value) ? null : item.value;
-    }
-    return el.getAttribute(name);
-  }
-  function setAttr(el, name, value)
-  {
-    if (navigator.userAgent.match(/MSIE/))
-    {
-      var item = document.createAttribute(name);
-      item.value = value;
-      return el.attributes.setNamedItem(item);
-    }
-    return el.setAttribute(name, value);
-  }
-
-  // construct seo data object
-  var PageData = {"searchbox_form_location":""};
-
-  // process seo data object
-  for (var id in PageData)
-  {
-    if (typeof PageData[id] == 'object')
-    {
-      data = {};
-      for (var key in PageData[id])
-      {
-        data[key] = unescape(PageData[id][key]);
-      }
-    }
-    else
-    {
-      data = unescape(PageData[id]);
-    }
-
-    if (el = document.getElementById(id))
-    {
-
-      if (attr = getAttr(el, 'data-transform'))
-      {
-        newEl = document.createElement(attr);
-        parent = el.parentNode;
-        parent.insertBefore(newEl, el);
-        newEl.innerHTML = el.innerHTML;
-        parent.removeChild(el);
-        // copy id, class and title for now
-        if (getAttr(el, 'id')) setAttr(newEl, 'id', getAttr(el, 'id'));
-        if (getAttr(el, 'class')) setAttr(newEl, 'class', getAttr(el, 'class'));
-        if (getAttr(el, 'title')) setAttr(newEl, 'title', getAttr(el, 'title'));
-        el = newEl;
-      }
-
-      switch (el.tagName)
-      {
-        case 'INPUT':
-          el.value = data;
-          break;
-
-        case 'A':
-          if (typeof data == 'object')
-          {
-            if ('href' in data) setAttr(el, 'href', data['href']);
-            if ('text' in data) el.innerHTML = data['text'];
-          }
-          else
-          {
-            setAttr(el, 'href', data);
-          }
-          break;
-
-        default:
-          el.innerHTML = data;
-      }
-    }
-  }
-
-})();
- </script>
-  
-
-
-  <script type="text/javascript">
-                                      var _supports_my_trulia = 1;
-                        var _property_recs_enabled = 1;
-                        var site_root = "/";
-                        var _SITE_ROOT = "/";
-                        var _IMAGE_SERVER_ROOT = "http://static.trulia-cdn.com";
-                        var _ENVIRONMENT = "PROD";
-                        var _IS_SHOWING_MODAL = false;
-                        var _feature_auth_popup_center_text_enabled = false;
-                        var _feature_auth_popup_form_toggle_buttons_enabled = false;
-                        var _feature_save_name_share_search_v1_enabled = false;
-                        var _feature_save_name_share_search_v2_enabled = false;
-                        var _feature_save_name_share_search_v3_enabled = false;
-                        var _feature_save_name_share_search_v4_enabled = false;
-              
-      var qpn_NAMES =
-    {
-      'site':                'Trulia',
-      'site_possessive':     'Trulia\'s',
-      'mytrulia':            'My Trulia',
-      'email_domain':        'trulia.com',
-      'truliamap':           'TruliaMap',
-      'voices':              'Trulia Voices',
-      'account_source':      'trulia',
-      'secondary_subdomain': ''
-    },
-    _js_server_root       = 'http://static.trulia-cdn.com/javascript/GOAT11_34c/',
-    _release_version_tab  = 'GOAT11_34c',
-    _fb_app_home_story_id = '316162141778005',
-    _fb_app_id            = '183577541666001';
-
-    
-  </script>
-  
-  
-  <script src="http://static.trulia-cdn.com/javascript/GOAT11_34c/include/js/global_nav.js?v=GOAT11_34c"></script>
-  
-
-  <script src="http://static.trulia-cdn.com/javascript/GOAT11_34c/include/js/site_js.js?v=GOAT11_34c"></script>
-  
-
-  <script src="http://static.trulia-cdn.com/javascript/GOAT11_34c/include/js/pg_homepage.js"></script>
-  <script type="text/javascript">
-    trulia.ready(function()
-    {
-      var args = {
-        isDefault: '1',
-        agentAds: {
-          hide_forever_cookie_name: ''
-        }
-      };
-      trulia.homepage.init(args);
-    });
-  </script>
-
-
-
-
-
-
-    <script src='http://b.scorecardresearch.com/beacon.js'></script>
-<script>
-function runBeacon()
-{
-  try {
-    var tempurl = window.location.href;
-    var regex = new RegExp("((http|https)://)([a-zA-Z0-9]+\.)(.*)");
-    var comurl = tempurl.match(regex);
-    var beacon_url = comurl[3]+comurl[4];
-
-    try {
-      var id = getCookie('tlftmusr');
-    } catch (e) {
-      var id = '';
-    }
-
-    COMSCORE.beacon({
-      c1:2,
-      c2:6036483,
-      c3:"",
-      c4:beacon_url,
-      c5:"",
-      c6:"",
-      c15:id
-    });
-  } catch (e) {}
-};
-runBeacon();
-</script>
-<noscript>
-  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036483&c3=&c4=&c5=&c6=&c15=&cj=1" />
-</noscript>
-
-
-  
-
-
-
-<script src="http://static.trulia-cdn.com/javascript/GOAT11_34c/include/js/library/3rd_party/jquery-ui/jquery-ui-1.8.10.min.js"></script>
-
-  <!--[if !IE]> Script below Copyright 1997-2004 Omniture, Inc. <![endif]-->
-<script type="text/javascript">
-
-s.pageName=unescape('home%3AB');
-s.eVar15=unescape('344');
-s.eVar18=unescape('133b1b4494d06588864606110d0f0d13');
-s.events=unescape('event5');
-s.eVar19=unescape('cbs000');
-s.eVar6=unescape('2014.14');
-s_campaign=unescape('');
-s.eVar5=unescape('140402133b1b4494d06588864606110d0f0d13');
-s.prop38=unescape('home%3AB%7CUnregistered');
-s.eVar25=unescape('20140402');
-s.eVar39=unescape('NULL');
-s.eVar40=unescape('NULL');
-s.eVar41=unescape('NULL');
-s.channel=unescape('Home%20Page');
-
-s_campaign = typeof s_campaign === 'undefined' ? '' : s_campaign;
-
-if (typeof s.doPlugins == 'function')
-{
-  s.doPlugins(s, s_campaign);
-}
-
-if (typeof s.t == 'function')
-{
-  var s_code=s.t();if(s_code)document.write(s_code);
-}
-
-
-</script>
-
-<!-- Google Analytics tracking -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
-{ (i[r].q=i[r].q||[]).push(arguments)}
-,i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-47944506-1', 'trulia.com');
-ga('send', 'pageview');
-</script>
-
-<script type="text/javascript">
-  trulia.PixelTracking.firePixel(trulia.PixelTracking.TYPE_GLOBAL_REMARKETING);
-</script>
-  
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","licenseKey":"28d67b3a7a","applicationID":"531331","transactionName":"ZANTYEFXXBIFVE1cDl1JckFAQl0MS39WWARDB1ZRcFlcFRZYVVkEQVwLUUtTURQQUmZcD1cDSQ==","queueTime":0,"applicationTime":126,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-361.min.js"}</script></body>
+
+
+<p class="norton-footer">For flowers in Ann Arbor, MI and Ypsilanti, MI, discriminating consumers choose <a href="/aboutus.asp">Norton’s Flowers & Gifts</a>. Norton’s features <a href="/info.asp?id=2153#1">same day delivery</a> and the freshest flowers available. We offer a large variety of elegant, exotic, and vibrant flower selections, imported from <a href="/info.asp?id=2143#11">around the world</a>. Norton’s floral design team is the largest in Washtenaw County with a wide variety of talents and specialties. Perfectly fresh flowers and premier talent enables Norton’s to offer precious designs that are cutting edge contemporary, elegantly traditional, and English Garden fashionable. Our friendly floral gift counselors will help you decide which of Norton’s specialties is right for <a href="/feature.asp">your occasion</a>. Our goal is to help you make the greatest emotional impact possible, whether <a href="/ann-arbor-florist/spectacular-59662c.asp">your needs are spectacular</a> or <a href="/ann-arbor-florist/modest-59655c.asp">your budget requires a special local bargain</a>.
+
+<br><br>
+
+When you want to celebrate with <a href="/category.asp?rcid=84">birthday flowers</a>, <a href="/category.asp?rcid=86">anniversary flowers</a>, or <a href="/category.asp?rcid=6299">new baby flowers</a>, Norton’s Flowers will add the festive touch. If you want an appropriate <a href="/category.asp?rcid=87">sympathy flowers remembrance</a> for the family or <a href="/ann-arbor-florist/sympathy-funeral-flowers-87c.asp">funeral flowers</a> for the service, Norton’s understands what you’re trying to say. Or maybe you just want to <a href="/category.asp?rcid=83">send roses</a> in Ann Arbor for no special reason, except that it’s for a very special person. Call <a href="/info.asp?id=2153#1">Norton’s Flowers & Gifts</a> for same day delivery, because we believe every order is for a very special person. You can shop for all occasions, all products and all budgets, from <a href="/ann-arbor-florist/modest-59655c.asp">cheap flowers</a> to <a href="/ann-arbor-florist/oh-mywow!-59664c.asp">extravagant designs</a>. 
+
+<br><br>
+
+<a href="/info.asp?id=2143#1">Norton’s is a real Ann Arbor florist</a> with <a href="/info.asp?id=2135">2 stores in Ann Arbor and Ypsilanti, Michigan</a>. Founded in 1892, Norton’s has provided more than a century of community-friendly service and commitment to helping people express their feelings with flowers. Our conveniently located stores offer just the right blend of flowers, <a href="/aboutus.asp#5">greeting cards and gifts</a>. For shoppers on the west side and in downtown Ann Arbor, we have a store in the <a href="/info.asp?id=2135">Westgate Shopping Center</a> at Jackson Rd and Stadium Blvd. Shoppers on the north and east sides of town will be delighted with <a href="/info.asp?id=2135">Norton’s original store</a>, a 15,000 square foot shopper’s paradise on Washtenaw Avenue, 1 mile east of US-23. For your convenience, Norton’s Flowers and Gifts is a 24-hour florist, available to you through our <a href="http://www.nortonsflowers.com/">24-hour online ordering website</a> or by telephone (round the clock) at 1-800-682-8667.
+
+<br><br>
+
+Both Norton’s stores feature fully stocked flower coolers, thousands of greeting cards and eclectic gifts from around the world. Whether you’re seeking a gift with exactly the right sentiment, or a personal accessory to indulge yourself, Norton’s is a fun place to shop. We have tens of thousands of greeting cards from <a href="/aboutus.asp#5"><i>Recycled, African-American Expressions, Paramount, Blue Mountain Arts and others</i></a>, as well as wrapping paper and festive gift bags to make any gift presentation memorable. From <a href="/aboutus.asp#5"><i>Ganz, Unipak and Melissa & Doug</i></a>, we have baby gifts and the softest stuffed animal toys imaginable. We display <a href="/aboutus.asp#5"><i>Crystal Clear glassware, Badash Crystal and Czechoslovakian art-glass</i></a> to fit budgets from modest to extravagant. If you’re looking for traditional or contemporary <a href="/aboutus.asp#5">picture frames</a> for your home or as a gift, Norton’s carries the finest <a href="/aboutus.asp#5"><i>Malden, Annie Lee and Umbra</i></a> frames and accessories. For an <a href="/aboutus.asp#5">inspirational or religious gift</a> that sends the perfect, emotional message, you have to see our pieces from <a href="/aboutus.asp#5"><i>Heartsteps, Fontanini, Books of Love, Hugs and African American Expressions</i></a>! Customers call and visit from all over to shop our fragrances department. Norton’s proudly sells dozens of colors, scents and styles from <a href="/aboutus.asp#5">Colonial Candles, Northern Lights, Seagull and Green Leaf</a>.  
+
+<br><br>
+
+Everyone always complains how hard it is to buy for a man, but you won’t hear that at Norton’s. We <a href="/category.asp?rcid=59100">have snack baskets, fruit and gourmet baskets</a>, a huge variety of <a href="/category.asp?rcid=509">green plants</a>, the popular forged iron <a href="/aboutus.asp#5"><i>Tavern Puzzles</i></a>, and much more. <a href="/info.asp?id=2135">Norton’s main store</a> is a 15,000 square foot shopper’s paradise on Washtenaw Avenue, 1 mile east of US-23. From this high-tech sales and production facility, Norton’s serves all of Washtenaw County and the western suburbs of Wayne County. Norton’s delivers flowers <a href="/info.asp?id=2143#4">7 days a week</a> with their staff of professional drivers and <a href="/info.asp?id=2153">“We Deliver the WOW!” delivery vans</a>. Local same day delivery service includes Ann Arbor, Ypsilanti, Dexter, Saline, Milan, Whittaker, Willis, Belleville, and Canton. 
+
+<br><br>
+
+Planning a wedding? Maybe you saw our ad in the Bride’s Magazine or The Knot? Norton’s Florist creates extraordinary <a href="/ypsilanti-florist/Wedding-Flowers.asp">wedding bouquet flowers, spectacular event flowers and centerpieces</a>, and of course, classy and tasteful <a href="/ann-arbor-florist/prom/homecoming-109260c.asp">prom, dance and homecoming corsages and boutonnieres</a>. Be sure to visit the <a href="/ann-arbor-florist/prom/homecoming-109260c.asp">Prom/Homecoming pages</a> and the <a href="/ypsilanti-florist/Wedding-Flowers.asp">Weddings & Events section</a> of our website for ideas or to <a href="/ypsilanti-florist/Wedding-Planner.asp">book a professional consultation online</a>. Whether your dreams are modest or extravagant, Norton’s is completely committed to making your wedding perfect, so it is exciting to work together towards the fulfillment and enhancement of your vision.
+
+<br><br>
+
+For <a href="/info.asp?id=2153#10">flower delivery nationwide</a>, trust Norton’s preferred network of quality, dependable flower shops, all backed by Norton’s <a href="/info.asp?id=2143#2">100% satisfaction guarantee</a>. Norton’s is a premier, Top 100 Teleflora florist. Norton’s is also one of the nation’s oldest FTD florists, having joined in 1920. <a href="/info.asp?id=2153#10">Norton’s Flowers & Gifts is committed to ethical standards</a> for the floral industry. We are active in <a href="http://floristsacrossamerica.com/">industry associations and committees</a>, working to ensure fair practices and consumer confidence. We always transmit your out-of-town order to the filling florist at <a href="/info.asp?id=2153#10">100% value</a> of your product purchase plus an additional amount to cover delivery expenses. Our century-old reputation with consumers and industry peers is on the line with every order. <strong>You can trust us!</strong>
+
+					</td>
+
+				</tr>
+
+			</table>
+
+		</td>
+
+	</tr>
+
+</table>
+
+		</td>
+
+		<td width="30%" bgcolor="01574C">
+
+		</td>
+
+	</tr>
+
+</table>
+
+
+
+					
+
+			
+
+			<script>
+
+			var s_account="efloristcom,tf33804500";
+
+			var s_code_URL="nortonsflowers.com";
+
+			</script>
+
+			<script language="JavaScript" src="http://teleflora.edgesuite.net/images/vendors/00005557/omniture/s_code.js" type="text/javascript"></script>
+
+			<script language="JavaScript" type="text/javascript"><!--
+
+
+
+				s.pageName="Home";
+
+			
+
+			s.prop1="Home";
+
+			s.prop2="Home";
+
+			s.prop3="Home";
+
+
+
+				s.server="www.nortonsflowers.com";
+
+			
+
+			s.channel="Custom";
+
+			s.pageType="";
+
+			
+
+
+
+			s.prop4="";
+
+			s.prop5="";
+
+			s.prop6="";
+
+			
+
+				s.prop9 = "";
+
+				s.prop10 = "";
+
+						s.prop11="Custom";
+
+
+
+					s.prop16="/feature.asp";
+
+
+
+				s.prop25="";
+
+		
+
+			
+
+			
+
+			
+
+			/* E-commerce Variables Testing*/
+
+			s.state="";
+
+			s.zip="";
+
+			s.events="";
+
+			
+
+				
+
+			s.products="";	
+
+			s.purchaseID="";
+
+			s.eVar1="";
+
+			s.eVar2="";
+
+			s.eVar18 = "";
+
+
+
+					//s.eVar3 = "";
+
+				s.eVar5="";
+
+			
+
+				s.eVar42="homepages\Innards01with6scrollinghero.asp_4";
+
+				s.prop42 =s.eVar42;
+
+				
+
+				s.prop22 = "190.101";
+
+				
+
+				s.eVar30 = "";
+
+				
+
+					s.eVar40 = "";
+
+				
+
+			s.eVar41 = "";
+
+			s_account="efloristcom,tf33804500";
+
+			
+
+			var s_code=s.t();if(s_code)document.write(s_code)
+
+			//--></script>
+
+			
+
+			
+
+</body>
+
+</body>
 </html>
+	<!---START - PageEnd-->
+<!--#Start of pixels-->
 
-<!-- T:128.388881683 H:344 S:67647 M:14155776 P:14417920 -->
+
+<!--#End of pixels-->
+<!---END - PageEnd-->

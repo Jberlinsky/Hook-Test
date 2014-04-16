@@ -1,700 +1,1646 @@
-<!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<!--[if lt IE 9]>
-		<meta http-equiv="refresh" content="0; url=/html/unsupported.html" />
-		<![endif]-->
-		<title>ABC TV Network - Shows, Episodes, Schedules - ABC.com</title>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]>    <html class="lt-ie8 no-js"  lang="en" dir="ltr"> <![endif]-->
+<!--[if gte IE 8]><!--> <html class="no-js"  lang="en" dir="ltr" > <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+<meta name="twitter:site:id" content="26585095" />
+<meta name="twitter:site" content="@nbc" />
+<meta property="og:site_name" content="NBC" />
+<meta name="twitter:url" content="http://www.nbc.com/homepage" />
+<meta name="twitter:title" content="NBC" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=1260" />
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><link rel="shortcut icon" href="http://www.nbc.com/sites/nbcunbc/themes/aurora_nbc/favicon.ico" />
+<meta name="robots" content="noodp, noydir" />
+<meta name="twitter:seeit:campaignid" content="NBCFall2013" />
+<link rel="shortlink" href="http://www.nbc.com/" />
+<link rel="canonical" href="http://www.nbc.com/" />
+<meta name="description" content="Check out NBC.com for full episodes &amp; clips, the latest on your favorite shows and exclusive online features." />
+<meta property="og:title" content="NBC" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="seeit" />
+<meta property="og:url" content="http://www.nbc.com/" />
+<meta name="twitter:seeit:idspace" content="s" />
+    <title>NBC TV Network | Watch Primetime, Daytime, Late Night &amp; Classic Television</title>
 
-<meta name="google-site-verification" content="U_5rA3lHEyQuPWd3EHhOBfNDoweYB-btpslPdxUKpCs" />
-<meta name="msvalidate.01" content="0EABD001D404EA9DDE2025E9E4F14CAF" />
-<link href="http://cdn.media.abc.com/m/abclogo_57x57.png" rel="apple-touch-icon" />
-<link href="http://cdn.abc.go.com/favicon.ico" rel="shortcut icon" />
-<meta property="fb:app_id" content="374095054754" />
-<meta property="og:site_name" content="ABC" />
-<meta name="msapplication-TileImage" content="http://cdn.media.abc.com/m/images/favicon_ie10.png"/>
-<meta name="msapplication-TileColor" content="#2D2D2D"/>
-<meta name="msApplication-ID" content="App" />
-<meta name="msApplication-PackageFamilyName" content="ABC.ABCPlayer" />
-<!--[if lt IE 9]><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><![endif]-->
-<!--[if gt IE 8]><!--><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!--<![endif]-->
+    <link rel="stylesheet" href="http://www.nbc.com/sites/nbcunbc/files/files/css/css_GpIBpdnkaTOScx7LmEUApkJYuuSRpjEtWGQgwjd9TLo.css" />
+<link rel="stylesheet" href="http://www.nbc.com/sites/nbcunbc/files/files/css/css_3gkPD_5um9ig7oSRgpKpqVqwcARxdDcmqCgaELdQLLs.css" />
+<link rel="stylesheet" href="http://www.nbc.com/sites/nbcunbc/files/files/css/css_lrhYk6ntYFfcc7Dar1IpIVtnGfBnhcTuOs1YD94xVPc.css" />
+    <script src="http://www.nbc.com/sites/nbcunbc/libraries/modernizr/modernizr.min.js?n413rm"></script>
+<script src="http://www.nbc.com/sites/nbcunbc/files/files/js/js_0gj6QcpfRH2jzTbCQqf7kEkm4MXY0UA_sRhwPc8jC1o.js"></script>
+<script src="//www.nbcudigitaladops.com/hosted/global_header.js"></script>
+<script src="http://www.nbc.com/sites/nbcunbc/files/files/js/js_B3Z_c9FetlBJ-n9aOQcbBVsT9a3ta9FFbfI5eHFXCcM.js"></script>
+<script defer="defer">jQuery(function($) {
+Drupal.templates = {}
+video_carousel_item_nbc_global =Drupal.templates["video-carousel-item-nbc-global"] = $.template("video-carousel-item-nbc-global", "<div class=\"${cssClass}\" data-player-url=\"${player_url}\" data-is-full-episode=\"${isFullEpisode ? 'true' : 'false'}\" data-external=\"${external ? 'true' : 'false'}\">\n  <a class=\"mpx-thumbnail-link\"{{if external}} target=\"_blank\"{{\/if}} href=\"${link}\">\n    <span class=\"now-playing\"><\/span>\n    <span class=\"play-icon\"><\/span>\n\n    <img src=\"${thumb}\" alt=\"${thumbAltText}\">\n  <\/a>\n  <div class=\"video-meta\">\n\n    <div class=\"video-meta-items\">\n      {{if showShortName}}\n        <div class=\"video-show\"><span>${showShortName}<\/span><\/div>\n      {{\/if}}\n\n      {{if airdate}}\n        <div class=\"video-airdate\"><span>${airdate}<\/span><\/div>\n      {{\/if}}\n    <\/div>\n\n    <div class=\"video-title\"><a href=\"${link}\">${shortTitle}<\/a><\/div>\n  <\/div>\n<\/div>\n");
+video_carousel_item_show =Drupal.templates["video-carousel-item-show"] = $.template("video-carousel-item-show", "<div class=\"${cssClass}\" data-player-url=\"${player_url}\" data-is-full-episode=\"${isFullEpisode ? 'true' : 'false'}\" data-external=\"${external ? 'true' : 'false'}\">\n  <a class=\"mpx-thumbnail-link\"{{if external}} target=\"_blank\"{{\/if}} href=\"${link}\">\n    <span class=\"now-playing\"><\/span>\n    <span class=\"play-icon\"><\/span>\n\n    <img src=\"${thumb}\" alt=\"${thumbAltText}\">\n  <\/a>\n  <div class=\"video-meta\">\n\n    <div class=\"video-meta-items\">\n      {{if isFullEpisode}}\n        {{if season}}\n          <div class=\"video-season\">\n            <span>S${season}{{if episode}} E${episode}{{\/if}}<\/span>\n          <\/div>\n        {{\/if}}\n\n        {{if airdate}}\n          <div class=\"video-airdate\"><span>${airdate}<\/span><\/div>\n        {{\/if}}\n      {{else}}\n\n        {{if category}}\n          <div class=\"video-category\"><span>${contentType}<\/span><\/div>\n        {{\/if}}\n\n        {{if airdate}}\n          <div class=\"video-airdate\"><span>${airdate}<\/span><\/div>\n        {{\/if}}\n\n        {{if duration}}\n          <div class=\"video-duration\"><span>${duration}<\/span><\/div>\n        {{\/if}}\n      {{\/if}}\n    <\/div>\n\n    <div class=\"video-title\"><a href=\"${link}\">${shortTitle}<\/a><\/div>\n  <\/div>\n<\/div>\n");
+})</script>
+<script src="http://www.nbc.com/sites/nbcunbc/files/files/js/js_T0tCZ0I4_J4_c0zJ70H4fQ6NFksr3F6jb5ySyVYl-Os.js"></script>
+<script>var nbc=nbc||{};!function(a){var b=null;if(a.sessionstorage&&(b=sessionStorage.getItem("nbc.timezone")),!b){var c=jstz.determine();b=c.name(),"America/Phoenix"===b?b="America/Denver":"America/New_York"!==b&&"America/Chicago"!==b&&"America/Denver"!==b&&"America/Los_Angeles"!==b&&(b="America/New_York"),a.sessionstorage&&sessionStorage.setItem("nbc.timezone",b)}nbc.timezone=b;var d=" tz-"+b.toLowerCase().replace("/","-");document.documentElement.className+=d}(Modernizr);</script>
+<script src="http://www.nbc.com/sites/nbcunbc/files/files/js/js_ESYxUeXeAiMRBw9DGnSxCHYEHxb-AiUlwE8dN-D5GNo.js"></script>
+<script>if (typeof eTandomAd == "undefined") eTandomAd = "none";
+var dart_url = "http://ad.doubleclick.net";
+var tile = 1;
+var ord = 1000000000 + Math.floor(Math.random() * 900000000);</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"aurora_nbc","theme_token":"QZIRx5L0QhmrunThEGZ5kdG5mIl2dwGaxGUSujjtvpY","jquery_version":"1.7","js":{"sites\/nbcunbc\/libraries\/modernizr\/modernizr.min.js":1,"profiles\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"jquery_templates":1,"profiles\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"profiles\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"profiles\/all\/modules\/contrib\/dart\/js\/dart.js":1,"0":1,"\/\/embed.api.tv\/lib\/acomplete\/1.1\/build\/ramp-ac-standalone.min.js":1,"\/\/www.nbcudigitaladops.com\/hosted\/global.js":1,"profiles\/all\/modules\/contrib\/fb\/fb.js":1,"profiles\/all\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"profiles\/all\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"profiles\/all\/modules\/contrib\/environment_indicator\/color.js":1,"sites\/nbcunbc\/modules\/contrib\/media_colorbox\/media_colorbox.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/consolefix.js":1,"profiles\/all\/modules\/contrib\/fb\/fb_stream.js":1,"sites\/nbcunbc\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/nbcunbc\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/nbcunbc\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"profiles\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/nbcunbc\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"profiles\/all\/modules\/contrib\/gigya\/js\/gigya.js":1,"profiles\/all\/modules\/contrib\/gigya\/js\/gigya.behaviors.js":1,"misc\/progress.js":1,"profiles\/all\/modules\/contrib\/ctools\/js\/ajax-responder.js":1,"sites\/nbcunbc\/libraries\/masonry\/jquery.masonry.min.js":1,"sites\/nbcunbc\/modules\/contrib\/masonry\/masonry.js":1,"sites\/nbcunbc\/modules\/custom\/nbc_views_load_more\/views_load_more.js":1,"profiles\/all\/modules\/contrib\/views\/js\/base.js":1,"profiles\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/nbcunbc\/libraries\/jquery.easing\/jquery.easing.1.3.min.js":1,"sites\/nbcunbc\/libraries\/jquery.animatetimeline\/jquery.animatetimeline.min.js":1,"sites\/nbcunbc\/modules\/custom\/features\/nbc_dynamic_lead\/js\/nbc_dynamic_lead.min.js":1,"profiles\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/nbcunbc\/modules\/custom\/features\/nbc_schedule\/js\/schedule.min.js":1,"sites\/nbcunbc\/libraries\/jquery.iosslider\/jquery.iosslider.min.js":1,"sites\/nbcunbc\/modules\/custom\/features\/nbc_video\/js\/nbc_video.carousel.min.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/home-video-tabs.js":1,"sites\/nbcunbc\/libraries\/site_canvas\/parent.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/iframe.autosize.js":1,"sites\/nbcunbc\/modules\/custom\/features\/nbc_breaking_news\/js\/nbc_breaking_news.js":1,"profiles\/all\/modules\/custom\/pub_sps\/pub_sps.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/bower_components\/jquery.dotdotdot\/jquery.dotdotdot.min.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/behavior.dotdotdot.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/form.placeholder.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/form.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/bio-pagination.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/nbc_global_header.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/behavior.stretchable.js":1,"sites\/nbcunbc\/themes\/aurora_nbc\/js\/link.label.js":1,"\/\/www.nbcudigitaladops.com\/hosted\/global_header.js":1,"sites\/nbcunbc\/libraries\/jsTimezoneDetect\/jsTimezoneDetect.js":1,"sites\/nbcunbc\/modules\/contrib\/jquery_tmpl\/jquery.tmpl.min.js":1,"1":1,"2":1},"css":{"modules\/system\/system.messages.css":1,"profiles\/all\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"profiles\/all\/modules\/custom\/pub_sps\/pub_sps.css":1,"profiles\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/nbcunbc\/themes\/aurora_nbc\/stylesheets\/style.css":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} | {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"98%","maxHeight":"85%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":false,"loop":false},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"gigya":{"enabledProviders":"Facebook, Twitter, GooglePlus","lang":"en","connectWithoutLoginBehavior":"loginExistingUser","mv":"mayor","loginMode":"drupal_and_gigya"},"masonry":{".view-nbc-features.view-display-id-panel_pane_4 .view-content":{"item_selector":".masonry-item","column_width":350,"column_width_units":"px","gutter_width":15,"resizable":false,"animated":true,"animation_duration":500,"fit_width":false,"rtl":false,"images_first":true}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:4f6b86faeab54e020cc3d9c1a1679875":{"view_name":"nbc_features","view_display_id":"panel_pane_4","view_args":"1","view_path":"node\/1","view_base_path":"node\/%\/manage_features","view_dom_id":"4f6b86faeab54e020cc3d9c1a1679875","pager_element":"0"}}},"dotdotdot":{".masonry-item .field-name-field-feature-headline a":true,".dotdotdot":true},"NBCDynamicLead":{"autoSlide":true,"autoSlideTimer":5000},"field_group":{"div":"nbc_dynamic_slide"},"video_carousel":{"nbc_mpx_carousel_3076":{"id":"3076","feedUrl":"\/data\/queues\/3076\/video_carousel","anchorNavigation":false,"defaultImages":{"small":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_255x143.jpg","medium":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_350x197.jpg","big":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_530x298.jpg"},"openInPlayer":false,"layout_type":"4up_medium","videoTemplate":"video-carousel-item-nbc-global"},"nbc_mpx_carousel_3081":{"id":"3081","feedUrl":"\/data\/queues\/3081\/video_carousel","anchorNavigation":false,"defaultImages":{"small":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_255x143.jpg","medium":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_350x197.jpg","big":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_530x298.jpg"},"openInPlayer":false,"layout_type":"4up_medium","videoTemplate":"video-carousel-item-nbc-global"},"nbc_mpx_carousel_3086":{"id":"3086","feedUrl":"\/data\/queues\/3086\/video_carousel","anchorNavigation":false,"defaultImages":{"small":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_255x143.jpg","medium":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_350x197.jpg","big":"http:\/\/www.nbc.com\/sites\/nbcunbc\/modules\/custom\/features\/feature_pub_mpx_file_types\/images\/default-video-thumbnail_530x298.jpg"},"openInPlayer":false,"layout_type":"4up_medium","videoTemplate":"video-carousel-item-nbc-global"}},"DART":{"bgAdVars":[]}});</script>
+  </head>
+  <body class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page nbc-homepage" >
+    <div id="skip-link">
+      <a href="#main" class="element-invisible element-focusable" role="link">Skip to main content</a>
+    </div>
+    <div id="breaking-news-container" class="breaking-news-container breaking-news-empty"></div>
+    
+<div class="tabs admin-tabs"></div>
+  <div id="header" role="banner" class="clearfix">
 
-<link href="http://cdn.beta.abc.com/g4/c43987a93a1a02b7caafe351f6de5413.css?cb=cb04_01_2014_v1#assets=mixins,reset,global,theme,scheme,scheme-base,global-cols,ads,global-header-base,global-header-themes&amp;platform=base&amp;show=abccom" media="screen" rel="stylesheet" type="text/css" />
-<link href="http://cdn.beta.abc.com/g4/7737353eaa9a2a890c1432e929a78d05.css?cb=cb04_01_2014_v1#assets=mixins,contenthero-base,contenthero-themes,datg-utils-sliderstrip,ontonight-base,ontonight-themes,cast-listing-base,shows-listing-base,around-listing-base&amp;platform=base&amp;show=abccom" media="screen" rel="stylesheet" type="text/css" />
+    <div class="wrapper">
+        <div id="block-views-nbc-tracking-codes-floodlight" class="block block-views">
 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-<script type="text/javascript" src="//cdn.optimizely.com/js/9823262.js"></script>
-<script type="text/javascript" src="http://cdn.beta.abc.com/g4/6b4d351c9ba5661993cb84c2ec5d2be4.js?cb=cb04_01_2014_v1#assets=j-cookie,d,d-utils,p-image,p-ads,p,d-ads,d-adblock,j-purl,d-site,v-browser,v-cookie,v-windowManager,v-class,v-event,v-listen,v-broadcast,p-api,p-watch,d-distroCheck,v-text,v-syndication,v-pageTracker,d-adobepass,v-adobePass,d-ellipsis,d-ieFix,d-shareBar&amp;platform=base&amp;show=abccom"></script>
-<script type="text/javascript" src="http://cdn.beta.abc.com/g4/c339230d5e0acb4a26d9fe2eb901e2cf.js?cb=cb04_01_2014_v1#assets=d-mvpdLogo&amp;platform=base&amp;show=abccom"></script>
-
-<meta name="keywords" content="abc, abc tv, abc shows, abc online, abc tv shows, abc network, abc store, abc schedule, abc tv shows, abc episodes, abc television shows, abc programming, abc programs, watch abc" />
-<meta name="description" content="Visit The official ABC TV site offers free full episodes of TV shows, with show information, stars, schedules and more at ABC.com" />
-<meta name="twitter:site" content="" />
-<meta property="og:title" content="Hey Facebook!  Come watch ABC Home Schedule And Shows Pages" />
-<meta property="og:image" content="http://cdn.media.abc.com/m/images/global/generic/shows_1x1-hirez/abccom.jpg" />
-<meta http-equiv="pragma" content="no-cache" />
-<meta http-equiv="Cache-Control" content="no-cache" />
-<meta http-equiv="expires" content="now" />
-
-<script type="text/javascript">
-var fwmrmRandomNumber = Math.floor(Math.random() * 100000) + 10000;
-
-datg.Prefs.fwads = {"largerectangle": "http://2912a.v.fwmrm.net/ad/g/1?nw=168234&csid=abc_homepage&sfid=109036&pvrn=" + fwmrmRandomNumber + "&resp=ad;;ptgt=s&envp=g_js&slid=largerectangle&slau=Rectangle%20300x250|Rectangle%20300x600&w=300&h=250&cd=300,250|300,600", "largerectanglefallback": "http://2912a.v.fwmrm.net/ad/g/1?nw=168234&csid=abc_homepage&sfid=109036&pvrn=" + fwmrmRandomNumber + "&resp=ad;;ptgt=s&envp=g_js&slid=largerectanglefallback&slau=Rectangle%20300x250&w=300&h=250&cd=300,250", "sponsoredby": "http://2912a.v.fwmrm.net/ad/g/1?nw=168234&csid=abc_homepage&sfid=109036&pvrn=" + fwmrmRandomNumber + "&resp=ad;;ptgt=s&envp=g_js&slid=sponsoredbylogo&slau=SponsoredByLogo%20300x60&w=300&h=60&cd=300,60", "thinbanner": "http://2912a.v.fwmrm.net/ad/g/1?nw=168234&csid=abc_homepage&sfid=109036&pvrn=" + fwmrmRandomNumber + "&resp=ad;;ptgt=s&envp=g_js&slid=thinbanner&slau=Thin%20Banner%20970x66|Billboard%20970x250&w=970&h=66&cd=970,66|970,250"};
-
-//]]>
+    
+  <div class="content">
+    <div class="view view-nbc-tracking-codes view-id-nbc_tracking_codes view-display-id-floodlight view-dom-id-a786616087ed6dd2267c821b3fadec7d">
+        
+  
+  
+      <div class="view-content">
+      <script type="text/javascript">
+  <!-- DoubleClick Floodlight Tag -->
+  var axel = Math.random() + "";
+  var a = axel * 10000000000000;
+  document.write('<iframe src="//2086659.fls.doubleclick.net/activityi;src=2086659;type=nbcsh251;cat=nbcho697;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
 </script>
-				<script type="text/javascript">
-			var datg = datg || {};
-			datg.SiteInfo = datg.SiteInfo || {};
-			datg.SiteInfo.baseserver = 'http://abc.go.com';
-			datg.SiteInfo.cdnserver = 'http://cdn.beta.abc.com';
-			datg.SiteInfo.source = 'abccom';
-			datg.SiteInfo.show = 'ABC Home Schedule and Shows Pages';
-		</script>
+<noscript>
+  <iframe src="//2086659.fls.doubleclick.net/activityi;src=2086659;type=nbcsh251;cat=nbcho697;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-dart-dart-tag-top-ad" class="block block-dart">
+
+    
+  <div class="content">
+    <div  class="dart-tag dart-name-top_ad">
+  
+            <script type="text/javascript">Drupal.DART.tag('{"disabled":false,"api_version":1,"machinename":"top_ad","name":"Top Ad","pos":"1","sz":"970x66","block":1,"settings":{"overrides":{"site":"","zone":"","slug":""},"options":{"scriptless":0,"method":"adj"},"key_vals":[{"key":"dcopt","val":"ist","eval":0}]},"export_module":"nbc_ads","type":"Default","export_type":2,"in_code_only":true,"table":"dart_tags","key_vals":{"pos":[{"val":"1","eval":false}],"sz":[{"val":"970x66","eval":false}],"site":[{"val":"nbc","eval":0}],"sect":[{"val":"home","eval":0}],"sub":[{"val":"","eval":0}],"!c":[{"val":"nbc","eval":0},{"val":"home","eval":0},{"val":"","eval":0},{"val":"","eval":0},{"val":"","eval":0},{"val":"","eval":0}],"tandomad":[{"val":"eTandomAd","eval":1}],"\u003Cnone\u003E":[{"val":"top.__nbcudigitaladops_dtparams || \u0027\u0027","eval":1}],"genre":[{"val":"","eval":0}],"pageid":[{"val":"1","eval":0}],"sub2":[{"val":"","eval":0}],"sub3":[{"val":"","eval":0}],"daypart":[{"val":"","eval":0}],"sub4":[{"val":"","eval":0}],"dcopt":[{"val":"ist","eval":0}],"tile":[{"val":"tile++","eval":true}],"ord":[{"val":"ord","eval":true}]},"prefix":"nbcu","site":"nbc","zone":"home_","slug":"","network_id":"N2620","noscript":{"src":"http:\/\/ad.doubleclick.net\/N2620\/ad\/nbcu.nbc\/home_;pos=1;sz=970x66;site=nbc;sect=home;sub=;!c=nbc;!c=home;!c=;!c=;!c=;!c=;genre=;pageid=1;sub2=;sub3=;daypart=;sub4=;dcopt=ist;tile=17;ord=5906656355?","href":"http:\/\/ad.doubleclick.net\/N2620\/jump\/nbcu.nbc\/home_;pos=1;sz=970x66;site=nbc;sect=home;sub=;!c=nbc;!c=home;!c=;!c=;!c=;!c=;genre=;pageid=1;sub2=;sub3=;daypart=;sub4=;dcopt=ist;tile=17;ord=5906656355?"}}');</script>
+      <noscript><a href="http://ad.doubleclick.net/N2620/jump/nbcu.nbc/home_;pos=1;sz=970x66;site=nbc;sect=home;sub=;!c=nbc;!c=home;!c=;!c=;!c=;!c=;genre=;pageid=1;sub2=;sub3=;daypart=;sub4=;dcopt=ist;tile=17;ord=5906656355?"><img src="http://ad.doubleclick.net/N2620/ad/nbcu.nbc/home_;pos=1;sz=970x66;site=nbc;sect=home;sub=;!c=nbc;!c=home;!c=;!c=;!c=;!c=;genre=;pageid=1;sub2=;sub3=;daypart=;sub4=;dcopt=ist;tile=17;ord=5906656355?" alt="" /></a></noscript>      </div>
+  </div>
+</div>
+<div id="block-pub-ads-ad-728x90-1" class="block block-pub-ads">
+
+    
+  <div class="content">
+    <div id="ad_728x90_1" class="companion"></div>  </div>
+</div>
+    </div>
+
+    <div class="logo-panel">
+      <div class="wrapper">
+        <div class="header-main-menu-wrapper">
+
+                  <a href="/" title="Home" rel="home" id="logo">
+            <img src="http://www.nbc.com/sites/nbcunbc/files/files/Peacock-GlobalHeader_1.png" alt="Home" />
+          </a>
+        
+        <ul id="main-menu"><li class="shows first"><a href="/shows" data-target="#dropdown-global-shows" data-parent="#dropdowns-global" class="dropdown-global-link">Shows</a></li>
+<li class="video"><a href="/video/full-episodes" data-target="#dropdown-global-video" data-parent="#dropdowns-global" class="dropdown-global-link">Full episodes</a></li>
+<li class="schedule"><a href="/schedule" data-target="#dropdown-global-schedule" data-parent="#dropdowns-global" class="dropdown-global-link">Schedule</a></li>
+<li class="news-sports"><a href="/news-sports" data-target="#dropdown-global-news" data-parent="#dropdowns-global" class="dropdown-global-link">News &amp; Sports</a></li>
+<li class="shops last"><a href="/shops" data-target="#dropdown-global-shops" data-parent="#dropdowns-global" class="dropdown-global-link">Shop</a></li>
+</ul>
+        <div class="header-search search">
+          <form action="/search" method="GET">
+            <input name="q" type="text" class="header-search-field" autocomplete="off" placeholder="Search NBC.com" id="header-search-field">
+            <button type="submit" class="header-search-submit"></button>
+          </form>
+          <div data-ramp-ac data-ramp-ac-input="header-search-field" data-ramp-ac-config="//embed.ramp.com/sites/nbc/ac.json"></div>
+        </div>
+
+                </div>
+      </div>
+      <div id="secondary-navigation"></div>
+    </div>
+
+    <div class="site-title-panel">
+      <div class="wrapper">
+
+                  <hgroup id="name-and-slogan">
+
+                      </hgroup>
+        
+          <div id="block-views-nbc-tracking-codes-sponsor-ad" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-nbc-tracking-codes view-id-nbc_tracking_codes view-display-id-sponsor_ad view-dom-id-b5fffb4775e0c53a1cb49bf61da460b6">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+      </div>
+    </div>
+
+    <div class="navigation"></div>
+
+  </div>
+
+  <!-- #content-prefix -->
+  
+  
+  <div id="main" role="main" class="clearfix">
+
+      <div id="content" role="article" class="column">
+
+                    <a id="main-content"></a>
+          
+                                                    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="panel-2col-stacked-narrow-sidebar-on-middle panel-col-header">
+
+  <div class="main-content-wrapper">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-nbc-dynamic-lead-slider-page-dl-slider pane-nbc-dynamic-lead-slider-dl-slider" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-nbc-dynamic-lead-slider view-id-nbc_dynamic_lead_slider view-display-id-page_dl_slider dl-slider view-dom-id-debb0b321c4c6d84dbce10940ea1f749">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 dynamic-lead-slide">
+    <div class="ds-1col node node-dl-slide view-mode-nbc_dynamic_slide clearfix ">
+
+  
+  
+  <div class="field field-name-field-dl-slide-image field-type-file field-label-hidden">
+    <a href="http://www.nbc.com/the-voice"><span class="dynamic-lead-image" style="background-image:url(http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_image/public/images/2014/4/14/2014_0414_NBCHome_TheVoice_Hero_FL.jpg?itok=g5kqZi5g)"></span></a>  </div>
+<div id="node_dl_slide_nbc_dynamic_slide_group_dl_wrap"class = "dynamic-lead-slide-content"><div id="node_dl_slide_nbc_dynamic_slide_group_dl_desc"class = "dynamic-lead-slide-text group-dynamic-lead-description">
+  <div class="field field-name-field-dl-logo field-type-file field-label-hidden">
+    <a href="http://www.nbc.com/the-voice"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_logo/public/new-logo-hero.png?itok=JgnHrFX2" alt="The Voice logo" title="The Voice logo" /></a>  </div>
+
+  <div class="field field-name-field-dl-headline field-type-text field-label-hidden">
+    <p>LAST UP: TEAM USHER</p>  </div>
+
+  <div class="field field-name-field-dl-copy field-type-text field-label-hidden">
+    <p>New Tonight 8/7c. Usher’s final five face the pressure cooker of the final playoff round.</p>  </div>
+
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <a href="http://www.nbc.com/the-voice/video">Watch Full Episodes Online</a>  </div>
+  </div>
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <a href="http://www.nbc.com/the-voice/music/">Get the Music at iTunes</a>  </div>
+  </div>
+</div></div></div>  </div>
+  <div class="views-row views-row-2 dynamic-lead-slide">
+    <div class="ds-1col node node-dl-slide view-mode-nbc_dynamic_slide clearfix ">
+
+  
+  
+  <div class="field field-name-field-dl-slide-image field-type-file field-label-hidden">
+    <a href="http://www.nbc.com/about-a-boy"><span class="dynamic-lead-image" data-src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_image/public/images/2014/4/11/boy_top_money.jpg?itok=QQpzhxs9"></span></a>  </div>
+<div id="node_dl_slide_nbc_dynamic_slide_group_dl_wrap"class = "dynamic-lead-slide-content"><div id="node_dl_slide_nbc_dynamic_slide_group_dl_desc"class = "dynamic-lead-slide-text group-dynamic-lead-description">
+  <div class="field field-name-field-dl-logo field-type-file field-label-hidden">
+    <a href="http://www.nbc.com/about-a-boy"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_logo/public/images/2014/3/01/2014_0128_About-A-Boy_White_1920x1080_CA_1.png?itok=SU5XAvT1" alt="About a Boy" title="About a Boy" /></a>  </div>
+
+  <div class="field field-name-field-dl-headline field-type-text field-label-hidden">
+    <div  style="color:#000000 !important"><p>SHAKE YOUR MONEY MAKER	</p></div>  </div>
+
+  <div class="field field-name-field-dl-copy field-type-text field-label-hidden">
+    <div  style="color:#000000 !important"><p>New Tonight 9/8c. Will bribes his way into a date while Marcus becomes a clandestine counterfeiter, upsetting a school social experiment.</p></div>  </div>
+
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <div  style="color:#000000 !important"><a href="http://www.nbc.com/about-a-boy/video/" style="color:#000000 !important">Watch Full Episodes Online</a></div>  </div>
+  </div>
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <div  style="color:#000000 !important"><a href="http://www.nbc.com/about-a-boy/video/jaws-joins-the-dating-pool/2771418" style="color:#000000 !important">WATCH A SNEAK PEEK</a></div>  </div>
+  </div>
+</div></div></div>  </div>
+  <div class="views-row views-row-3 dynamic-lead-slide">
+    <div class="ds-1col node node-dl-slide view-mode-nbc_dynamic_slide clearfix ">
+
+  
+  
+  <div class="field field-name-field-dl-slide-image field-type-file field-label-hidden">
+    <a href="http://www.nbc.com/growing-up-fisher"><span class="dynamic-lead-image" data-src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_image/public/images/2014/4/07/2014_0408_Growing_Up_Fisher_Hero1_CA.jpg?itok=MzMXSyRX"></span></a>  </div>
+<div id="node_dl_slide_nbc_dynamic_slide_group_dl_wrap"class = "dynamic-lead-slide-content"><div id="node_dl_slide_nbc_dynamic_slide_group_dl_desc"class = "dynamic-lead-slide-text group-dynamic-lead-description">
+  <div class="field field-name-field-dl-logo field-type-file field-label-hidden">
+    <a href="http://www.nbc.com/growing-up-fisher"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_logo/public/images/2014/3/25/guf_NEW-logo-black.png?itok=7c4SJGFv" alt="Growing Up Fisher" title="Growing Up Fisher" /></a>  </div>
+
+  <div class="field field-name-field-dl-headline field-type-text field-label-hidden">
+    <div  style="color:#000000 !important"><p>SECRET PARTY FAVORS</p></div>  </div>
+
+  <div class="field field-name-field-dl-copy field-type-text field-label-hidden">
+    <div  style="color:#000000 !important"><p>New Tonight 9:30/8:30c. With a secret house party on the line, Katie must find Mel a friend to keep him out of town.</p></div>  </div>
+
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <div  style="color:#ffffff !important"><a href="http://www.nbc.com/growing-up-fisher/video" style="color:#ffffff !important">Watch Full Episodes Online</a></div>  </div>
+  </div>
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <div  style="color:#ffffff !important"><a href="http://www.nbc.com/growing-up-fisher/photos/sneak-peek-the-man-with-the-spider-tattoo/1670646" style="color:#ffffff !important">Sneak Peek Photos</a></div>  </div>
+  </div>
+</div></div></div>  </div>
+  <div class="views-row views-row-4 dynamic-lead-slide">
+    <div class="ds-1col node node-dl-slide view-mode-nbc_dynamic_slide clearfix ">
+
+  
+  
+  <div class="field field-name-field-dl-slide-image field-type-file field-label-hidden">
+    <a href="http://www.nbc.com/chicago-fire"><span class="dynamic-lead-image" data-src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_image/public/images/2014/4/15/2014_0411_NBCHome_ChicagoFire_04_2400x430_AC.jpg?itok=S_EmRACc"></span></a>  </div>
+<div id="node_dl_slide_nbc_dynamic_slide_group_dl_wrap"class = "dynamic-lead-slide-content"><div id="node_dl_slide_nbc_dynamic_slide_group_dl_desc"class = "dynamic-lead-slide-text group-dynamic-lead-description">
+  <div class="field field-name-field-dl-logo field-type-file field-label-hidden">
+    <a href="http://www.nbc.com/chicago-fire"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_logo/public/images/2014/3/17/2013_1015_ChicagoFire_Logo_Color-tall_1920x1080.png?itok=rHU6gusf" alt="Chicago Fire" title="Chicago Fire" /></a>  </div>
+
+  <div class="field field-name-field-dl-headline field-type-text field-label-hidden">
+    <p>A HEAVY WEIGHT</p>  </div>
+
+  <div class="field field-name-field-dl-copy field-type-text field-label-hidden">
+    <p>Firehouse 51 struggles to cope after the tragic death of candidate Rebecca Jones.</p>  </div>
+
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <a href="http://www.nbc.com/chicago-fire/episodes">WATCH ALL OF SEASON 2 ONLINE</a>  </div>
+  </div>
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <a href="http://www.nbc.com/chicago-fire/video/preview-a-heavy-weight/2771508">Watch a Sneak Preview</a>  </div>
+  </div>
+</div></div></div>  </div>
+  <div class="views-row views-row-5 dynamic-lead-slide">
+    <div class="ds-1col node node-dl-slide view-mode-nbc_dynamic_slide clearfix ">
+
+  
+  
+  <div class="field field-name-field-dl-slide-image field-type-file field-label-hidden">
+    <a href="http://www.nbcolympics.com"><span class="dynamic-lead-image" data-src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_image/public/images/2014/4/11/2014-0411_DotCom_NBCApp_Header2_UG.jpg?itok=eowz-oVl"></span></a>  </div>
+<div id="node_dl_slide_nbc_dynamic_slide_group_dl_wrap"class = "dynamic-lead-slide-content"><div id="node_dl_slide_nbc_dynamic_slide_group_dl_desc"class = "dynamic-lead-slide-text group-dynamic-lead-description">
+  <div class="field field-name-field-dl-logo field-type-file field-label-hidden">
+    <a href="http://www.nbcolympics.com"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_dynamic_slide_logo/public/images/2014/4/11/2014-0411-NBCApp-Logo.png?itok=k7iwXuYI" alt="NBC App with Airplay Mirroring" title="NBC App with Airplay Mirroring" /></a>  </div>
+
+  <div class="field field-name-field-dl-headline field-type-text field-label-hidden">
+    <div  style="color:#000000 !important"><p>Watch Full Episodes On the Go</p></div>  </div>
+
+  <div class="field field-name-field-dl-copy field-type-text field-label-hidden">
+    <div  style="color:#0a0a0a !important"><p>Now with Airplay mirroring! Download the NBC full episode app and watch shows anywhere.</p></div>  </div>
+
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <div  style="color:#000000 !important"><a href="http://www.nbc.com/nbc-app" style="color:#000000 !important">Download the google app</a></div>  </div>
+  </div>
+  <div class="field field-name-field-dl-call-to-action field-type-field-collection field-label-hidden">
+    
+  <div class="field field-name-field-dl-call-link field-type-link-field field-label-hidden">
+    <div  style="color:#000000 !important"><a href="http://www.nbc.com/nbc-app" style="color:#000000 !important">DOWNLOAD THE IOS APP</a></div>  </div>
+  </div>
+</div></div></div>  </div>
+    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="dynamic-lead-pagination"><div class="dynamic-lead-page dynamic-lead-page-0 active" data-index="0"></div><div class="dynamic-lead-page dynamic-lead-page-1" data-index="1"></div><div class="dynamic-lead-page dynamic-lead-page-2" data-index="2"></div><div class="dynamic-lead-page dynamic-lead-page-3" data-index="3"></div><div class="dynamic-lead-page dynamic-lead-page-4" data-index="4"></div></div>    </div>
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+
+  
+<div class="panel-pane pane-full-schedule-link"  id="full-schedule-link-homepage">
+  
+      
+  
+  <div class="pane-content">
+    
+<h2><a href="/schedule" title="See the full schedule." class="full-schedule-link">View full schedule<span class="icon icon-cta"></span></a></h2>
+  </div>
+
+  
+  </div>
+  
+
+<div class="panel-pane pane-nbc-page-title tonight-on-nbc-title" >
+  <h1  class="pane-title">Tonight <span class="strong">on NBC</span></h1></div>
 
 
-					<link rel="canonical" href="http://abc.go.com" />
-			</head>
-	<body class="responsive abccom abccom Homepage"  data-template="Home page                                                                                                " >
-		<div id="wrapper">
-			
-
-<!-- Region: {view-rendered} 	 Module: {view-rendered}  -->
-
-
-	<nav class="globalNav" data-module="nav">
-		<header>
-			<div id="navAuth">
-				<ul class="navProvider">
-					
-					<li id="mvpdLogo"></li>
-				</ul>
-			</div>
-            <script type="text/javascript">
-                try {
-                    datg.MVPD.checkMVPD();
-                } catch (e) {}
-            </script>
-			<ul>
-				<li class="logo" title="abc.com">
-					
-						<a href="/"><h1>abc.com</h1></a>
-					
-				</li>
-				<li class="details">
-					<h1 class="title"></h1>
-					<p class="tuneIn"></p>
-				</li>
-				<li class="links">
-					<ul>
-						
-							<li class="shadow">
-								<span class="shows">Shows</span>
-							</li>
-						
-							<li class="shadow">
-								<span class="watch-live">watch live</span>
-							</li>
-						
-						<li class="menu">
-							<a class="dropdownTrigger" href="#"><span class="menu">menu</span></a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-		</header>
-		<div class="dropdownMenu">
-			<div class="panelContainer">
-				<div class="panel left">
-					
-						<div class="search">
-							<h3 class="title"><a href="/">abc.com</a></h3>
-							<a class="icon search" href="#">Search</a>
-							<hr />
-
-							<form class="searchForm" method="get" action="http://abc.go.com/search">
-								<input type="text" name="search" maxlength="30" autocomplete="off" />
-							</form>
-						</div>
-						<ul class="subnav">
-							
-								
-									<li class="primary shows">
-										<a class="item showsTrigger" href="http://abc.go.com/shows">Shows</a>
-
-										<div class="showsListing">
-											<h3 class="title">shows</h3>
-											<hr />
-											<div class="listing">
-												<ul>
-													
-														<li><a class="item" href="http://abc.go.com/shows/castle">Castle</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/the-chew">The Chew</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/dancing-with-the-stars">Dancing with the Stars</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/general-hospital">General Hospital</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/greys-anatomy">Grey&#x27;s Anatomy</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/jimmy-kimmel-live">Jimmy Kimmel Live</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/marvels-agents-of-shield">Marvel&#x27;s Agents of S.H.I.E.L.D.</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/modern-family">Modern Family</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/nashville">Nashville</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/once-upon-a-time">Once Upon a Time</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/resurrection">Resurrection</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/revenge">Revenge</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/scandal">Scandal</a></li>
-													
-														<li><a class="item" href="http://abc.go.com/shows/the-view">The View</a></li>
-													
-													<li><a class="item allShows" href="http://abc.go.com/shows">all shows &#62;</a></li>
-												</ul>
-											</div>
-										</div>
-									</li>
-								
-							
-								
-									<li class="primary">
-										<a class="item watch-live" href="http://abc.go.com/watch-live">watch live</a>
-									</li>
-								
-							
-							<li class="navListing">
-								<div class="listing">
-									<ul>
-										
-											
-												<li>
-													<a class="item" href="http://abc.go.com/my-profile">my profile</a>
-												</li>
-											
-												<li>
-													<a class="item" href="http://abc.go.com/schedule">schedule</a>
-												</li>
-											
-												<li>
-													<a class="item" href="http://www.oscar.com">oscar.com</a>
-												</li>
-											
-												<li>
-													<a class="item" href="http://abc.go.com/shows/abc-apps">apps</a>
-												</li>
-											
-												<li>
-													<a class="item" href="http://abc.go.com/music-lounge">music</a>
-												</li>
-											
-												<li>
-													<a class="item" href="http://abctvstore.cafepress.com/abcstore?utm_source=abc&amp;utm_medium=globalheader&amp;utm_campaign=none&amp;cmp=abc_globalheader">shop</a>
-												</li>
-											
-												<li>
-													<a class="item" href="http://abc.go.com/faq">faq</a>
-												</li>
-											
-										
-										
-									</ul>
-								</div>
-							</li>
-						</ul>
-					
-				</div>
-				<div class="panel right">
-					
-					<ul>
-						
-					</ul>
-					<div class="mySite">
-						<h3 class="title">my abc</h3>
-						<hr />
-						<div id="div-register" class="myLinks">
-
-							<a class="out" href="#" onclick="abcdm.abccom.Register.init('slt', {'action': 'register'});return false;">Join</a>
-							<span class="out divider">|</span>
-							<a class="out" href="#" onclick="abcdm.abccom.Register.init('slt', {'action': 'login'});return false;">Sign In</a>
-							<a class="in" href="#" onclick="abcdm.abccom.Register.logout();return false;">Sign Out</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-
-			<div id="content">
-				<section id="primaryContent">
-					
-<div class="primaryRow even clearfix" data-region="primary">
-		
-
-<!-- Region: primary 	 Module: hero 	 hero:index -->
-
-<div class="module contentHero heroView slideshow " data-module="">
-	<div class="slideshowContainer">
-		<ul class="pageThis slides">
-			
-				
-					
-					<li class="show-nashville">
-							<a href="http://abc.go.com/shows/nashville/news/the-latest-on-nashville/20140325-nashville-cover-art-contest-rayna-jaymes?cid=abc_ss1_nsh_albumcover">
-								<img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"59cbc9e0-bbd0-4957-8367-89e9ba18a9e8","alt":""}}' />
-							</a>
-							<div class="slideInfo ">
-								<span class="logo">nashville</span>
-								<span class="title">ALL NEW <strong>TONIGHT</strong> 10|9c</span>
-                                
-                                    <a class="description" href="http://abc.go.com/shows/nashville/news/the-latest-on-nashville/20140325-nashville-cover-art-contest-rayna-jaymes?cid=abc_ss1_nsh_albumcover">Want a chance to design a Rayna Jaymes album cover?</a>
-                                    <a class="cta ctaLink" href="http://abc.go.com/shows/nashville/news/the-latest-on-nashville/20140325-nashville-cover-art-contest-rayna-jaymes?cid=abc_ss1_nsh_albumcover"><span class="copy">get the scoop</span></a>
-								
-							</div>
-						</li><li class="show-marvel-s-agents-of-s-h-i-e-l-d-">
-							<a href="http://watchabc.go.com/marvels-agents-of-shield/SH55300807/VDKA0_bp57nfeu/end-of-the-beginning?cid=abc_ss3_shd_watch">
-								<img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"2d56f92e-b3c8-4124-9086-e43e4c80e89c","alt":""}}' />
-							</a>
-							<div class="slideInfo ">
-								<span class="logo">marvel-s-agents-of-s-h-i-e-l-d-</span>
-								<span class="title"><strong>TUESDAYS</strong> 8|7c</span>
-                                
-                                    <a class="description" href="http://watchabc.go.com/marvels-agents-of-shield/SH55300807/VDKA0_bp57nfeu/end-of-the-beginning?cid=abc_ss3_shd_watch">See last night&#x27;s all-new episode without signing in!</a>
-                                    <a class="cta ctaLink" href="http://watchabc.go.com/marvels-agents-of-shield/SH55300807/VDKA0_bp57nfeu/end-of-the-beginning?cid=abc_ss3_shd_watch"><span class="copy">watch now</span></a>
-								
-							</div>
-						</li><li class="show-jimmy-kimmel-live">
-							<a href="http://abc.go.com/shows/jimmy-kimmel-live/video?cid=abc_ss6_jkl">
-								<img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"858adf2d-f924-49dd-9a74-fffa11afebcb","alt":""}}' />
-							</a>
-							<div class="slideInfo ">
-								<span class="logo">jimmy-kimmel-live</span>
-								<span class="title"><strong>WEEKNIGHTS</strong> 11:35|10:35c</span>
-                                
-                                    <a class="description" href="http://abc.go.com/shows/jimmy-kimmel-live/video?cid=abc_ss6_jkl">Tonight: Former President Bill Clinton!</a>
-                                    <a class="cta ctaLink" href="http://abc.go.com/shows/jimmy-kimmel-live/video?cid=abc_ss6_jkl"><span class="copy">see the latest highlights</span></a>
-								
-							</div>
-						</li><li class="show-nashville">
-							<a href="http://abc.go.com/shows/nashville/episode-guide?cid=abc_ss3_nsh_watch">
-								<img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"ed72975d-a497-4e31-a66e-1cae75a64821","alt":""}}' />
-							</a>
-							<div class="slideInfo ">
-								<span class="logo">nashville</span>
-								<span class="title">ALL NEW <strong>TONIGHT</strong> 10|9c</span>
-                                
-                                    <a class="description" href="http://abc.go.com/shows/nashville/episode-guide?cid=abc_ss3_nsh_watch">See the whole season from the very beginning</a>
-                                    <a class="cta ctaLink" href="http://abc.go.com/shows/nashville/episode-guide?cid=abc_ss3_nsh_watch"><span class="copy">get started</span></a>
-								
-							</div>
-						</li><li class="show-abc-home-schedule-and-shows-pages">
-							<a href="http://abc.go.com/shows/trophy-wife/news/the-scoop/140331-trophy-wife-full-episodes-binge-watch-week?cid=abc_ss2_binge_watch_week_all">
-								<img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"adae9333-4e43-4608-8b70-d269dcba1310","alt":""}}' />
-							</a>
-							<div class="slideInfo ">
-								<span class="logo">abc-home-schedule-and-shows-pages</span>
-								<span class="title">  </span>
-                                
-                                    <a class="description" href="http://abc.go.com/shows/trophy-wife/news/the-scoop/140331-trophy-wife-full-episodes-binge-watch-week?cid=abc_ss2_binge_watch_week_all">See the entire season of lots of your favorite shows online!</a>
-                                    <a class="cta ctaLink" href="http://abc.go.com/shows/trophy-wife/news/the-scoop/140331-trophy-wife-full-episodes-binge-watch-week?cid=abc_ss2_binge_watch_week_all"><span class="copy">binge watch now</span></a>
-								
-							</div>
-						</li><li class="show-once-upon-a-time-in-wonderland">
-							<a href="http://abc.go.com/shows/once-upon-a-time-in-wonderland/episode-guide?cid=abc_ss6_ouw_bingewatch">
-								<img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"952be95e-6b78-4d0e-8955-63ef877d87ba","alt":""}}' />
-							</a>
-							<div class="slideInfo ">
-								<span class="logo">once-upon-a-time-in-wonderland</span>
-								<span class="title">SERIES FINALE <strong>TOMORROW</strong> 8|7c</span>
-                                
-                                    <a class="description" href="http://abc.go.com/shows/once-upon-a-time-in-wonderland/episode-guide?cid=abc_ss6_ouw_bingewatch">See the whole season from the very beginning</a>
-                                    <a class="cta ctaLink" href="http://abc.go.com/shows/once-upon-a-time-in-wonderland/episode-guide?cid=abc_ss6_ouw_bingewatch"><span class="copy">binge watch now</span></a>
-								
-							</div>
-						</li>
-				
-			
-			
-		</ul>
-		
-			<a class="prev browse" href="#">Previous</a>
-			<a class="next browse" href="#">Next</a>
-			<ul class="heroThumbNails"><li></li><li></li><li></li><li></li><li></li><li></li></ul>
-		
-	</div>	
+<div class="panel-pane pane-schedule tonight-on-nbc schedule-eastern">
+<div class="pane-content"><div class="schedule-section"><div class="view view-nbc-schedule view-id-nbc_schedule view-display-id-primetime view-dom-id-23d53ab43986d4a72938fc0a6da76e75 schedule-item-count-7">
+        
+  
+  
+      <div class="view-content">
+        <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-60771404160000109" class="listing listing-id-41706 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">8:00PM</div>
+  <div class="show-title"><a href="/the-voice">The Voice</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-60771404160101109" class="listing listing-id-41701 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">9:00PM</div>
+  <div class="show-title"><a href="/about-a-boy">About a Boy</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-60771404160131109" class="listing listing-id-41691 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">9:30PM</div>
+  <div class="show-title"><a href="/growing-up-fisher">Growing Up Fisher</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-60771404160200109" class="listing listing-id-41696 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">10:00PM</div>
+  <div class="show-title"><a href="/chicago-fire">Chicago Fire</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-60771404160300109" class="listing listing-id-41756 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">11:00PM</div>
+  <div class="show-title"><a href="/local-stations">Local Programming</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-60771404160334109" class="listing listing-id-41686 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">11:35PM</div>
+  <div class="show-title"><a href="/the-tonight-show">Tonight Show: Jimmy Fallon</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-60771404160436109" class="listing listing-id-41681 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">12:35AM</div>
+  <div class="show-title"><a href="/late-night-with-seth-meyers">Late Night: Seth Meyers</a></div>
+</div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div class="schedule-description"><i class="arrow"></i><div class="schedule-description-inner"></div></div></div></div>
 </div>
 
-<!-- Region: primary 	 Module: whats on tonight 	 tonight:index -->
 
-<div class="module onTonight slide home sliderStrip cols-4-3-2-1" data-module="" data-module-configs="">
-	<div class="modWrapper">
-		<header class="moduleHeader">
-			<h2 class="title">tonight</h2>
-			<a class="link" href="/schedule">Full Schedule</a>
-		</header><section class="schedule"><article class="item">
-			
-				<a href="/shows/the-middle">
-			
-					<span class="time">
-						8|7c
-					</span>
-					
-					<span class="showTitle truncate">
-						The Middle
-					</span>
-			
-				</a>
-			
-			</article><article class="item">
-			
-				<a href="/shows/suburgatory">
-			
-					<span class="time">
-						8:30|7:30c
-					</span>
-					
-					<span class="showTitle truncate">
-						Suburgatory
-					</span>
-			
-				</a>
-			
-			</article><article class="item">
-			
-				<a href="/shows/modern-family">
-			
-					<span class="time">
-						9|8c
-					</span>
-					
-					<span class="showTitle truncate">
-						Modern Family
-					</span>
-			
-				</a>
-			
-			</article><article class="item">
-			
-				<a href="/shows/mixology">
-			
-					<span class="time">
-						9:31|8:31c
-					</span>
-					
-					<span class="showTitle truncate">
-						Mixology
-					</span>
-			
-				</a>
-			
-			</article></section>
-	</div>
+<div class="panel-pane pane-schedule tonight-on-nbc schedule-central">
+<div class="pane-content"><div class="schedule-section"><div class="view view-nbc-schedule view-id-nbc_schedule view-display-id-primetime view-dom-id-4c889905914804258ea0c1ed2cea046d schedule-item-count-7">
+        
+  
+  
+      <div class="view-content">
+        <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59541404160000109" class="listing listing-id-41806 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">7:00PM</div>
+  <div class="show-title"><a href="/the-voice">The Voice</a></div>
 </div>
-</div><!-- .primaryRow -->
-
-				</section>				<section id="secondaryContent">
-					
-<div class="secondaryRow even clearfix" data-region="secondary">
-		
-
-<!-- Region: secondary 	 Module: show listing 	 listings:index -->
-
-<!-- Generic Listing Index > mode > site -->
-
-	
-<div class="module listing site cols-3-2-2-1 hasFeatured" data-module="show listing" data-module-configs="">
-	
-	<header>
-		
-		
-			<h2 class="title">
-				
-					trending shows
-				
-			</h2>
-		
-	</header>
-	
-	<section class="moduleBody"><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/resurrection" title="Resurrection"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"c86d2d37-2a34-4646-ba97-e49bea5f96b8","alt":"Resurrection"}}' />Resurrection</a><section class="tuneInBar"><a href="http://abc.go.com/shows/resurrection" title="SUNDAYS 9|8c"><h4 class="tunein"><strong>SUNDAYS</strong> 9|8c</h4></a><span class="description hidden">The people of Arcadia, Missouri are forever changed when their deceased loved ones suddenly start to return. An 8-year-old American boy wakes up alone in China with no idea how he got there. Details start to emerge when the boy, who calls himself Jacob, recalls that his hometown is Arcadia, and an Immigration agent, J. Martin Bellamy, takes him there. The home he claims as his own is occupied by an elderly couple, Henry and Lucille Langston, who lost their son, Jacob... more than 30 years ago.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/betrayal" title="Betrayal"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"a9cab946-530b-449a-8abd-dfafa7356e13","alt":"Betrayal"}}' />Betrayal</a><section class="tuneInBar"><a href="http://abc.go.com/shows/betrayal" title="WATCH FULL EPISODES ONLINE"><h4 class="tunein">WATCH FULL EPISODES ONLINE</h4></a><span class="description hidden">Two lovers' worlds collide, culminating in a powerful and compelling story of sex, love, loyalty, marriage and treachery in this provocative, sensual and gripping new drama. A chance meeting between Sara Hanley, a professional photographer, and Jack McAllister, a top attorney, leads to an instant and undeniable attraction. As they struggle with their feelings and their guilt, their families face the consequences of surrounding corruption, lies and murder.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/greys-anatomy" title="Grey&#x27;s Anatomy"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"7ca0a802-8dc2-4fb9-b70c-3f486617ec0b","alt":"Grey%27s%20Anatomy"}}' />Grey&#x27;s Anatomy</a><section class="tuneInBar"><a href="http://abc.go.com/shows/greys-anatomy" title="THURSDAYS 9|8c"><h4 class="tunein"><strong>THURSDAYS</strong> 9|8c</h4></a><span class="description hidden">Grey's Anatomy is the recipient of the 2007 Golden Globe&reg; Award for Best Television Series - Drama, and multiple Emmy nominations, including two for Outstanding Drama Series.
-The doctors of Grey Sloan Memorial Hospital deal with life-or-death consequences on a daily basis -- it's in one another that they find comfort, friendship and, at times, more than friendship. Together they're discovering that neither medicine nor relationships can be defined in black and white. Real life only comes in shades of grey.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/jimmy-kimmel-live" title="Jimmy Kimmel Live"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"ce5b12ff-cf70-43ec-828f-0ebda260fd1e","alt":"Jimmy%20Kimmel%20Live"}}' />Jimmy Kimmel Live</a><section class="tuneInBar"><a href="http://abc.go.com/shows/jimmy-kimmel-live" title="WEEKNIGHTS 11:35|10:35c"><h4 class="tunein"><strong>WEEKNIGHTS</strong> 11:35|10:35c</h4></a><span class="description hidden">Jimmy Kimmel serves as host and executive producer of Jimmy Kimmel Live, ABC Television Network's late-night talk show. Now in its tenth season, JKL is packed with hilarious comedy bits and features a diverse lineup of guests including celebrities, athletes, musicians, comedians and humorous human interest subjects. Every night, Kimmel delivers his up-to-the minute take on the latest news and pop culture topics from the day's events in his monologue. Kimmel has welcomed such notables as Martin Scorsese, Meryl Streep, Eddie Murphy, Tom Cruise, Woody Harrelson, Jamie Foxx, Robert Downey Jr., Mark Wahlberg, Zach Galifianakis, Charlize Theron, Tim Allen, Simon Cowell, Adam Sandler, Ellen DeGeneres, Mickey Rourke, Taylor Lautner, Robert Pattinson, Channing Tatum, John Krasinski, David Beckham, Shaquille O'Neal and many more, including Matt Damon&hellip; well, almost Matt Damon.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/killer-women" title="Killer Women"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"9666cc15-15f5-471b-84ee-7e509f426487","alt":"Killer%20Women"}}' />Killer Women</a><section class="tuneInBar"><a href="http://abc.go.com/shows/killer-women" title="WATCH FULL EPISODES ONLINE"><h4 class="tunein">WATCH FULL EPISODES ONLINE</h4></a><span class="description hidden">Of all the notorious lawmen who have ever patrolled the violent Texas frontier, none are more storied than the Texas Rangers. But being the only female ranger in this elite squad isn't going to stop badass Molly Parker (Tricia Helfer). Molly is committed to finding the truth and seeing justice served. While she's surrounded by law enforcement colleagues who want to see her fail, the Rangers have her back.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/marvels-agents-of-shield" title="Marvel&#x27;s Agents of S.H.I.E.L.D."><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"0db44cd1-acd3-4a2e-9064-121b55ec3750","alt":"Marvel%27s%20Agents%20of%20S.H.I.E.L.D."}}' />Marvel&#x27;s Agents of S.H.I.E.L.D.</a><section class="tuneInBar"><a href="http://abc.go.com/shows/marvels-agents-of-shield" title="TUESDAYS 8|7c"><h4 class="tunein"><strong>TUESDAYS</strong> 8|7c</h4></a><span class="description hidden">Clark Gregg reprises his role of Agent Phil Coulson from Marvel&rsquo;s feature films, as he assembles a small, highly select group of Agents from the worldwide law-enforcement organization known as S.H.I.E.L.D. Together they investigate the new, the strange, and the unknown across the globe, protecting the ordinary from the extraordinary. Coulson's team consists of Agent Grant Ward, highly trained in combat and espionage; Agent Melinda May, expert pilot and martial artist; Agent Leo Fitz, brilliant engineer; and Agent Jemma Simmons, genius bio-chemist. Joining them on their journey into mystery is new recruit and computer hacker, Skye.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/modern-family" title="Modern Family"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png?cb=46488" alt="loading" data-properties='{"image":{"src":"0c753259-5f34-42f4-96b3-2fc8d6269519","alt":"Modern%20Family"}}' />Modern Family</a><section class="tuneInBar"><a href="http://abc.go.com/shows/modern-family" title="WEDNESDAYS  9|8c"><h4 class="tunein"><strong>WEDNESDAYS</strong>  9|8c</h4></a><span class="description hidden">Modern Family stars the Pritchett-Dunphy-Tucker clan, a wonderfully large and blended family. Together these three families give us an honest and often hilarious look into the sometimes warm, sometimes twisted, embrace of the modern family.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/nashville" title="Nashville"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"02056cb6-571b-49b2-a7ec-e42f41f5d2fa","alt":"Nashville"}}' />Nashville</a><section class="tuneInBar"><a href="http://abc.go.com/shows/nashville" title="WEDNESDAYS 10|9c"><h4 class="tunein"><strong>WEDNESDAYS</strong> 10|9c</h4></a><span class="description hidden">Music legend and entertainment icon Rayna Jaymes has been one of the industry&rsquo;s top female vocalists for two decades. After working tirelessly to elevate her game, Rayna suddenly discovers her passion for the business is not enough to compete with the new generation of talent lighting up the charts. She's forced to accept the harsh reality that she&rsquo;ll have to start over and reinvent herself if she plans on being relevant.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/the-neighbors" title="The Neighbors"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"da5e4c31-25b3-49ec-aee1-e3c85271157b","alt":"The%20Neighbors"}}' />The Neighbors</a><section class="tuneInBar"><a href="http://abc.go.com/shows/the-neighbors" title="FRIDAYS 8:30|7:30c"><h4 class="tunein"><strong>FRIDAYS</strong> 8:30|7:30c</h4></a><span class="description hidden">When the Weavers move to a gated community in New Jersey, they discover that the entire neighborhood is comprised of aliens from the planet Zabvron. But as the Weavers and the aliens face the struggles of everyday life together, they discover that some things -- the ups and downs of marriage, the desire to be a good parent and raise a happy family -- are universal. Intergalactic, even.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/once-upon-a-time-in-wonderland" title="Once Upon a Time in Wonderland"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"e6c13bb3-593e-44af-8bd1-963c3ee1acd2","alt":"Once%20Upon%20a%20Time%20in%20Wonderland"}}' />Once Upon a Time in Wonderland</a><section class="tuneInBar"><a href="http://abc.go.com/shows/once-upon-a-time-in-wonderland" title="SEASON FINALE TOMORROW 8|7c"><h4 class="tunein">SEASON FINALE <strong>TOMORROW</strong> 8|7c</h4></a><span class="description hidden">In Victorian England, young and beautiful Alice tells an impossible tale of a strange new land that exists on the other side of a rabbit hole. Her doctors intend to cure her with a treatment that will make her forget&mdash;everything. Alice seems ready to put it all behind her, especially the painful memory of the genie she fell in love with and lost forever, Cyrus. But just in the nick of time the sardonic Knave of Hearts and the irrepressible White Rabbit arrive to save her from her fate. Together the trio will take a tumble down the rabbit hole to a Wonderland where nothing is impossible.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/scandal" title="Scandal"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png?cb=6567" alt="loading" data-properties='{"image":{"src":"3e6435f2-7047-45f2-91fe-0ec04110a348","alt":"Scandal"}}' />Scandal</a><section class="tuneInBar"><a href="http://abc.go.com/shows/scandal" title="THURSDAYS 10|9c"><h4 class="tunein"><strong>THURSDAYS</strong> 10|9c</h4></a><span class="description hidden">Everyone has secrets and Olivia Pope (Kerry Washington) has dedicated her life to protecting and defending the public images of the elite by keeping those secrets under wraps. Pope and her team are at the top of their game when it comes to getting the job done for their clients, but it becomes apparent that these &ldquo;gladiators in suits,&rdquo; who specialize in fixing the lives of other people, have trouble fixing those closest at hand -- their own.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/the-taste" title="The Taste"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"afabe6a4-5ae0-40b4-8cb5-06f248792529","alt":"The%20Taste"}}' />The Taste</a><section class="tuneInBar"><a href="http://abc.go.com/shows/the-taste" title="watch full episodes online"><h4 class="tunein">watch full episodes online</h4></a><span class="description hidden">In this exhilarating cooking competition series, The Taste puts 16 culinary competitors -- who range from home cooks and professional chefs to everything in between -- in the kitchen, where four of the world&rsquo;s most notable masters of the food world judge their creations based on a blind taste. In this pressure-packed contest, a single spoonful can catapult a contender to the top or send them packing.</span></section></div></article><article class="item  fepAvailable"><div class="imageContainer"><a href="http://abc.go.com/shows/trophy-wife" title="Trophy Wife"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"07fd71a1-be8a-42e9-972a-d84541ff73d8","alt":"Trophy%20Wife"}}' />Trophy Wife</a><section class="tuneInBar"><a href="http://abc.go.com/shows/trophy-wife" title="TUESDAYS 9:30|8:30c"><h4 class="tunein"><strong>TUESDAYS</strong> 9:30|8:30c</h4></a><span class="description hidden">They say the third time's the charm, and reformed party girl Kate (Malin Akerman) is hoping that's true when she becomes the third wife of a slightly older man, Pete (Bradley Whitford). They fell into each others' arms (literally) at a karaoke bar, and flash forward a year later, Kate finds herself with an instafamily complete with three stepchildren and two ex-wives. But Kate is determined to make this work and become a part of the family no matter what.</span></section></div></article>
-<div class="adStub"></div><div class="allShows"><a class="" href="/shows">all shows</a></div></section>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59541404160101109" class="listing listing-id-41801 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">8:00PM</div>
+  <div class="show-title"><a href="/about-a-boy">About a Boy</a></div>
 </div>
-	
-</div><!-- .secondaryRow -->
-
-				</section>				<section id="tertiaryContent">
-					
-<div class="tertiaryRow even clearfix" data-region="tertiary">
-		
-
-<!-- Region: tertiary 	 Module: around 	 listings:index -->
-
-<!-- Generic Listing Index > mode > around -->
-
-	
-<div class="module listing around cols-6-4-3-2 sliderStrip" data-module="around" data-module-configs="">
-	
-	<header>
-		
-		
-			<h3 class="title">
-				
-					around abc
-				
-			</h3>
-		
-	</header>
-	
-	<section class="moduleBody"><article class="item">
-			<section>
-				<a class="imageContainer" href="http://abc.com/nashvillealldaybeauty?cid=abchp_around_nsh_video_neutrogena" title="Nashville All Day Beauty"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"362a91da-7db4-473d-96a1-92f1f2ebb230","alt":"Nashville%20All%20Day%20Beauty"}}' /></a>
-				<div class="itemDetails">
-					<h4 class="title truncate"><a href="http://abc.com/nashvillealldaybeauty?cid=abchp_around_nsh_video_neutrogena">Nashville All Day Beauty</a></h4>
-					<p class="description truncate">Follow Hayden throughout her daily life in Nashville</p>
-				</div>
-			</section>
-		</article><article class="item">
-			<section>
-				<a class="imageContainer" href="http://abc.go.com/shows/marvels-agents-of-shield/video/declassified/_m_VDKA0_0k72gk48?cid=abchp_around_shd_video_dcl_16" title="NEW Declassified"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png?cb=61557" alt="loading" data-properties='{"image":{"src":"91032d56-666f-4d0f-8fce-e427680edaf7","alt":"NEW%20Declassified"}}' /></a>
-				<div class="itemDetails">
-					<h4 class="title truncate"><a href="http://abc.go.com/shows/marvels-agents-of-shield/video/declassified/_m_VDKA0_0k72gk48?cid=abchp_around_shd_video_dcl_16">NEW Declassified</a></h4>
-					<p class="description truncate">Level 7 access granted for the latest video</p>
-				</div>
-			</section>
-		</article><article class="item">
-			<section>
-				<a class="imageContainer" href="http://abc.go.com/shows/mixology/video/barcabulary" title="Mixology Bar-cabulary"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"69aebefc-3e0b-4d60-98b6-828f12573dfc","alt":"Mixology%20Bar-cabulary"}}' /></a>
-				<div class="itemDetails">
-					<h4 class="title truncate"><a href="http://abc.go.com/shows/mixology/video/barcabulary">Mixology Bar-cabulary</a></h4>
-					<p class="description truncate">Learn the meaning of "Bronsoning" and more</p>
-				</div>
-			</section>
-		</article><article class="item">
-			<section>
-				<a class="imageContainer" href="http://abc.go.com/shows/the-chew/videos/most-recent/_m_VDKA0_2yr2upra?cid=abchp_around_chw_recipes_video_stuffedmushrooms" title="Cheesy Stuffed Mushrooms"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"02b120c6-b651-4815-90ce-b7a14e034b9b","alt":"Cheesy%20Stuffed%20Mushrooms"}}' /></a>
-				<div class="itemDetails">
-					<h4 class="title truncate"><a href="http://abc.go.com/shows/the-chew/videos/most-recent/_m_VDKA0_2yr2upra?cid=abchp_around_chw_recipes_video_stuffedmushrooms">Cheesy Stuffed Mushrooms</a></h4>
-					<p class="description truncate">Chew on the latest recipes</p>
-				</div>
-			</section>
-		</article><article class="item">
-			<section>
-				<a class="imageContainer" href="http://abc.go.com/shows/once-upon-a-time/news/storybook/20140331-magical-moments-quiet-minds?cid=abchp_around_out_blog_magical_moments_quiet-minds" title="Magical Moments"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"9bbf9fc9-1784-426c-83c1-e090e8916916","alt":"Magical%20Moments"}}' /></a>
-				<div class="itemDetails">
-					<h4 class="title truncate"><a href="http://abc.go.com/shows/once-upon-a-time/news/storybook/20140331-magical-moments-quiet-minds?cid=abchp_around_out_blog_magical_moments_quiet-minds">Magical Moments</a></h4>
-					<p class="description truncate">See the latest highlights from Once Upon a Time</p>
-				</div>
-			</section>
-		</article><article class="item">
-			<section>
-				<a class="imageContainer" href="http://abc.com/watchabc-overview?cid=abchp_around_watchoverview" title="WATCH ABC"><img class="replaceable" src="http://static.east.abc.go.com/service/image/index/id/be898432-e0b3-4f60-991e-7dbc73a88186/dim/16x9.png" alt="loading" data-properties='{"image":{"src":"561c1074-72ea-4494-9802-09a8a1dfcbee","alt":"WATCH%20ABC"}}' /></a>
-				<div class="itemDetails">
-					<h4 class="title truncate"><a href="http://abc.com/watchabc-overview?cid=abchp_around_watchoverview">WATCH ABC</a></h4>
-					<p class="description truncate">Never miss a moment of ABC. Learn more.</p>
-				</div>
-			</section>
-		</article><div class="adStub"></div></section>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59541404160131109" class="listing listing-id-41791 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">8:30PM</div>
+  <div class="show-title"><a href="/growing-up-fisher">Growing Up Fisher</a></div>
 </div>
-	
-</div><!-- .tertiaryRow -->
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59541404160200109" class="listing listing-id-41796 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">9:00PM</div>
+  <div class="show-title"><a href="/chicago-fire">Chicago Fire</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59541404160300109" class="listing listing-id-41856 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">10:00PM</div>
+  <div class="show-title"><a href="/local-stations">Local Programming</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59541404160334109" class="listing listing-id-41786 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">10:35PM</div>
+  <div class="show-title"><a href="/the-tonight-show">Tonight Show: Jimmy Fallon</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59541404160436109" class="listing listing-id-41781 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">11:35PM</div>
+  <div class="show-title"><a href="/late-night-with-seth-meyers">Late Night: Seth Meyers</a></div>
+</div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div class="schedule-description"><i class="arrow"></i><div class="schedule-description-inner"></div></div></div></div>
+</div>
 
-				</section>				<section id="miscContent">
-					
 
-					
-<div class="adBlock largerectangle"><script type="text/javascript">var datg = datg || {}; try {datg.nameSpaceGen(['fnWriteAd']);} catch (e) {} datg.fnWriteAd("largerectangle");</script></div><div class="adBlock largerectanglefallback"><script type="text/javascript">var datg = datg || {}; try {datg.nameSpaceGen(['fnWriteAd']);} catch (e) {} datg.fnWriteAd("largerectanglefallback");</script></div><div class="adBlock sponsoredby"><script type="text/javascript">var datg = datg || {}; try {datg.nameSpaceGen(['fnWriteAd']);} catch (e) {} datg.fnWriteAd("sponsoredby");</script></div><div class="adBlock thinbanner"><script type="text/javascript">var datg = datg || {}; try {datg.nameSpaceGen(['fnWriteAd']);} catch (e) {} datg.fnWriteAd("thinbanner");</script></div>	<script type="text/javascript">var fwtag = '<scr'+ 'ipt type="text/javascript" src="http://2912a.v.fwmrm.net/ad/g/1?nw=168234&csid=abc_homepage&sfid=109036&pvrn=' + fwmrmRandomNumber + '&resp=ad;;ptgt=s&envp=g_js&slid=overpage&slau=Overpage&w=1&h=1"></scr' + 'ipt>';if(typeof fwWriteJs == 'function') {
-	fwWriteJs(fwtag);
-} else{ 
-	document.write(fwtag);
-}
-</script>	<script type="text/javascript">var fwtag = '<scr'+ 'ipt type="text/javascript" src="http://2912a.v.fwmrm.net/ad/g/1?nw=168234&csid=abc_homepage&sfid=109036&pvrn=' + fwmrmRandomNumber + '&resp=ad;;ptgt=s&envp=g_js&slid=survey&slau=Survey&w=1&h=1"></scr' + 'ipt>';if(typeof fwWriteJs == 'function') {
-	fwWriteJs(fwtag);
-} else{ 
-	document.write(fwtag);
-}
-</script>	<script type="text/javascript">var fwtag = '<scr'+ 'ipt type="text/javascript" src="http://2912a.v.fwmrm.net/ad/g/1?nw=168234&csid=abc_homepage&sfid=109036&pvrn=' + fwmrmRandomNumber + '&resp=ad;;ptgt=s&envp=g_js&slid=interstitial&slau=Interstitial&w=1&h=1"></scr' + 'ipt>';if(typeof fwWriteJs == 'function') {
-	fwWriteJs(fwtag);
-} else{ 
-	document.write(fwtag);
-}
-</script>
-				</section>				<footer>
-					
+<div class="panel-pane pane-schedule tonight-on-nbc schedule-mountain">
+<div class="pane-content"><div class="schedule-section"><div class="view view-nbc-schedule view-id-nbc_schedule view-display-id-primetime view-dom-id-dababbbf8a198f625a26e509c2721293 schedule-item-count-7">
+        
+  
+  
+      <div class="view-content">
+        <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59551404160100109" class="listing listing-id-41906 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">7:00PM</div>
+  <div class="show-title"><a href="/the-voice">The Voice</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59551404160201109" class="listing listing-id-41901 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">8:00PM</div>
+  <div class="show-title"><a href="/about-a-boy">About a Boy</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59551404160231109" class="listing listing-id-41891 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">8:30PM</div>
+  <div class="show-title"><a href="/growing-up-fisher">Growing Up Fisher</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59551404160300109" class="listing listing-id-41896 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">9:00PM</div>
+  <div class="show-title"><a href="/chicago-fire">Chicago Fire</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59551404160400109" class="listing listing-id-41946 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">10:00PM</div>
+  <div class="show-title"><a href="/local-stations">Local Programming</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59551404160434109" class="listing listing-id-41886 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">10:35PM</div>
+  <div class="show-title"><a href="/the-tonight-show">Tonight Show: Jimmy Fallon</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59551404160536109" class="listing listing-id-41881 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">11:35PM</div>
+  <div class="show-title"><a href="/late-night-with-seth-meyers">Late Night: Seth Meyers</a></div>
+</div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div class="schedule-description"><i class="arrow"></i><div class="schedule-description-inner"></div></div></div></div>
+</div>
 
-										
-<div class="footerElements">
-	<ul class="footerLinks">
-		<li>
-			<a href="/info" title="Company Info" target="_blank">Company Info</a>
-		</li><li>
-			<a href="/feedback" title="Contact" target="_blank">Contact</a>
-		</li><li>
-			<a href="http://preferences-mgr.truste.com/?type=abc&amp;affiliateId=115" target="_blank" title="Interest-Based Ads">Interest-Based Ads</a>
-		</li><li>
-			<a href="http://disneytermsofuse.com" target="_blank" title="Terms of Use">Terms of Use</a>
-		</li><li>
-			<a class="policyCA" href="/vp2/s/cc/abc.html" target="_blank" title="Closed Captioning">Closed Captioning</a>
-		</li><li>
-			<a href="http://disneyprivacycenter.com" target="_blank" title="Privacy Policy">Privacy Policy</a>
-		</li><li>
-			<a href="http://disneyprivacycenter.com/notice-to-california-residents" target="_blank" title="Your California Privacy Rights">Your California Privacy Rights</a>
-		</li>
-	</ul>	<ul class="footerSocialLinks">
-		<li>
-			<a class="twitterSocial" href="https://twitter.com/ABCNetwork" target="_blank" title="Twitter">Twitter</a>
-		</li><li>
-			<a class="facebookSocial" href="https://www.facebook.com/ABCNetwork?ref=ts" target="_blank" title="Facebook">Facebook</a>
-		</li><li>
-			<a class="googlePlusSocial" href="https://plus.google.com/+ABCNetwork" target="_blank" title="Google+">Google+</a>
-		</li>
-	</ul></div>
-<!--Heatmap -->
-<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/8430.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
-														</footer>			</div>		</div>
-		<!-- Facebook JS SDK -->
-		<div id="fb-root"></div>
-<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
-<script type="text/javascript" src="http://cdn.beta.abc.com/g4/a41e17c3273194c397852ff83eede9ed.js?cb=cb04_01_2014_v1#assets=t-modernizr,j-touchevents,t-hbRuntime,d-hbHelpers,d-view,j-dots,d-twitter,j-imgLoaded,d-imgReplace&amp;platform=base&amp;show=abccom"></script>
-<script type="text/javascript" src="http://cdn.beta.abc.com/g4/d55a189bc1ed5771590447eed18c4bf1.js?cb=cb04_01_2014_v1#assets=d-globalHeader,d-mobilepage,d-slideshow,d-ssLogo,d-listing,d-ctrl,d-sliderstrip,j-scroll,d-pageMoreLess,d-clickHelper&amp;platform=base&amp;show=abccom"></script>
-<script type="text/javascript" src="http://cdn.beta.abc.com/g4/0355a81f7f0681713f07714cc20f0210.js?cb=cb04_01_2014_v1#assets=d-hbTemplates&amp;platform=base&amp;show=abccom"></script>
-            <!-- Start Buzzfeed -->
-            <div id="BF_WIDGET_1">&nbsp;</div>
-            <script type="text/javascript">
-            (function( ){
-            BF_WIDGET_JS=document.createElement("script"); BF_WIDGET_JS.type="text/javascript";
-            BF_WIDGET_SRC="http://ct.buzzfeed.com/wd/UserWidget?u=abc.com&to=1&or=vb&wid=1&cb=" + (new Date()).getTime();
-            setTimeout(function() {document.getElementById("BF_WIDGET_1").appendChild(BF_WIDGET_JS);BF_WIDGET_JS.src=BF_WIDGET_SRC},1);
-            })();
-            </script>
-            <!-- End Buzzfeed -->	<!-- START Nielsen Online SiteCensus V6.0 -->
-	<!-- COPYRIGHT 2010 Nielsen Online -->
-	<script type="text/javascript">
-	  (function () {
-	    var d = new Image(1, 1);
-	    d.onerror = d.onload = function () {
-	      d.onerror = d.onload = null;
-	    };
-	    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-504159h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
-	  })();
-	</script>
-	<noscript>
-	  <div>
-	    <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-504159h&amp;cg=0&amp;cc=1&amp;ts=noscript"
-	    width="1" height="1" alt="" />
-	  </div>
-	</noscript>
-	<!-- END Nielsen Online SiteCensus V6.0 --><script type="text/javascript">
-var _sf_async_config={uid:23253,domain:"abc.go.com",sections:"abccom,homepage"};
-(function(){
-  function loadChartbeat() {
-    window._sf_endpt=(new Date()).getTime();
-    var e = document.createElement('script');
-    e.setAttribute('language', 'javascript');
-    e.setAttribute('type', 'text/javascript');
-    e.setAttribute('src',
-       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
-       "js/chartbeat.js");
-    document.body.appendChild(e);
-  }
-  var oldonload = window.onload;
-  window.onload = (typeof window.onload != 'function') ?
-     loadChartbeat : function() { oldonload(); loadChartbeat(); };
-})();
-</script><script type="text/javascript">
-    //<![CDATA[
-var s_account = 'wdgabccom';
-    //]]>
-</script>
-<script type="text/javascript" src="http://a.abc.com/service/gremlin/js/files/s_code.js?v=h27"></script>
-<script type="text/javascript">
-    //<![CDATA[
-	s_omni.pageName	= 'abccom:homepage:index';
-	s_omni.pageType	= '';
-	s_omni.server	= '10.169.1.150';
-	s_omni.channel	= 'abccom:homepage';
-	s_omni.prop1	= 'abccom';
-	s_omni.prop5	= 'abccom:homepage';
-	s_omni.prop6	= 'abccom:homepage';
-	try { 
-		s_omni.prop9	= (s_omni.prop9 ? (s_omni.prop9 + '|' + s_omni.pageName) : '').replace(/(abccom:|abccomdev:|afm:|afmdev:|afm:|fam:|famdev:|oscars:|oscarsdev:|primetime:|daytime:)/g, '');
-	} catch(err) { } 
-	s_omni.prop14	= 'abccom:homepage:index';
-	s_omni.prop13	= '';
-	s_omni.prop26	= '';
-	try { 
-		s_omni.prop48	= navigator.userAgent;
-	} catch(err) { } 
-	try { 
-		s_omni.prop49	= abcdm.abccom.Utils.getDevicePlatform+':'+abcdm.abccom.Utils.getDeviceType();
-	} catch(err) { } 
-	try { 
-		s_omni.eVar48	= navigator.userAgent;
-	} catch(err) { } 
-	try { 
-		s_omni.eVar49	= abcdm.abccom.Utils.getDevicePlatform+':'+abcdm.abccom.Utils.getDeviceType();
-	} catch(err) { } 
-	s_omni.eVar19	= 'abccom:homepage';
-	s_omni.eVar20	= '';
-	try { 
-		s_omni.eVar26	= s_omni.getQueryParam('k_clickid');
-	} catch(err) { } 
-	try { 
-		s_omni.eVar31	= (s_omni.eVar31 ? (s_omni.eVar31 + '|' + s_omni.pageName) : '').replace(/(abccom:|abccomdev:|afm:|afmdev:|afm:|fam:|famdev:|oscars:|oscarsdev:|primetime:|daytime:)/g, '');
-	} catch(err) { } 
-	try { 
-		s_omni.prop21	= abcdm.abccom.Utils.getVarA();
-	} catch(err) { } 
-	try { 
-		s_omni.prop22	= abcdm.abccom.Utils.getVarG();
-	} catch(err) { } 
-	try { 
-		s_omni.prop27	= abcdm.abccom.Utils.getSluc();
-	} catch(err) { } 
-	try { 
-		s_omni.prop31	= abcdm.abccom.Utils.getFlashVersion();
-	} catch(err) { } 
-	try { 
-		s_omni.prop2	= abcdm.abccom.Utils.getSwid();
-	} catch(err) { } 
-	s_omni.hier1	= 'abccom:homepage:index';
-	s_omni.evar22	= 'responsive-index';
-	s_omni.prop11	= 'abccom:shows:ABC Home Schedule and Shows Pages:index';
 
+<div class="panel-pane pane-schedule tonight-on-nbc schedule-pacific">
+<div class="pane-content"><div class="schedule-section"><div class="view view-nbc-schedule view-id-nbc_schedule view-display-id-primetime view-dom-id-7d4a6b41fd763b0568798ee5d8a8b69c schedule-item-count-7">
+        
+  
+  
+      <div class="view-content">
+        <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59561404160300109" class="listing listing-id-42006 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">8:00PM</div>
+  <div class="show-title"><a href="/the-voice">The Voice</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59561404160401109" class="listing listing-id-41991 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">9:00PM</div>
+  <div class="show-title"><a href="/about-a-boy">About a Boy</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59561404160431109" class="listing listing-id-42001 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">9:30PM</div>
+  <div class="show-title"><a href="/growing-up-fisher">Growing Up Fisher</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59561404160500109" class="listing listing-id-41986 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">10:00PM</div>
+  <div class="show-title"><a href="/chicago-fire">Chicago Fire</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59561404160600109" class="listing listing-id-42031 schedule-item-with-description slots-1 schedule-homepage clearfix">
+  <div class="airing-date">11:00PM</div>
+  <div class="show-title"><a href="/local-stations">Local Programming</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59561404160634109" class="listing listing-id-41996 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">11:35PM</div>
+  <div class="show-title"><a href="/the-tonight-show">Tonight Show: Jimmy Fallon</a></div>
+</div>
+    </div>
+  <div class="schedule-item contextual-links-region">
+      
+  <div class="views-field views-field-contextual-links">        <span class="field-content"></span>  </div>  
+          <div id="listing-59561404160736109" class="listing listing-id-41981 schedule-item-with-description slots-2 schedule-homepage clearfix">
+  <div class="airing-date">12:35AM</div>
+  <div class="show-title"><a href="/late-night-with-seth-meyers">Late Night: Seth Meyers</a></div>
+</div>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div><div class="schedule-description"><i class="arrow"></i><div class="schedule-description-inner"></div></div></div></div>
+</div>
+</div>
+  </div>
+
+</div>
+
+<div class="panel-2col-stacked-narrow-sidebar-on-middle clearfix panel-display">
+
+  <div class="main-content-wrapper">
+
+    
+    <div class="panel-2col-middle">
+      <div class="center-wrapper clearfix">
+        <div class="panel-panel panel-col-first">
+          <div class="inside"><div class="panel-pane pane-panels-mini pane-nbc-home-page-video-block home-page-featured-video" >
+  
+        <h2 class="pane-title">VIDEOS</h2>
+    
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-nbc_home_page_video_block">
+
+  <div class="main-content-wrapper">
+
+    <div class="panel-panel panel-col">
+      <div><div class="panel-pane pane-views-panes pane-nbc-home-videos-panel-pane-2 home-page-featured-video-tabs" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-nbc-home-videos view-id-nbc_home_videos view-display-id-panel_pane_2 view-dom-id-14f0ccbe29bde44c2030b23879d4433d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row">
+      
+  <h3>        Full Episodes  </h3>  </div>
+  <div class="views-row">
+      
+  <h3>        Trending  </h3>  </div>
+  <div class="views-row">
+      
+  <h3>        Clips  </h3>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <h3><a href="/video" rel="nofollow">More videos</a></h3>    </div>
+  
+  
+</div>  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-views-panes pane-nbc-home-videos-panel-pane-1 home-page-featured-video-content" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-nbc-home-videos view-id-nbc_home_videos view-display-id-panel_pane_1 view-dom-id-a28d67e466a9f426f1b60e469d1f1828">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="ds-1col entity entity-queues queues-nbc-video-home-queue view-mode-default clearfix ">
+
+  
+  <div class="field field-name-field-mpx-video-carousel field-type-ds field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">  <div class="nbc_mpx_carousel loading nbc-carousel-4up_medium-template" id="nbc_mpx_carousel_3076">
+      <div class="nbc_mpx_filters_holder nbc_dropdown"></div>
+
+    <span class="ajax-spinner"></span>
+    <div class="no-content-msg"><span>Sorry, there is no content for this category.</span></div>
+    <div class="content">
+            <div class="carousel_container nmc_carousel_container"></div>
+    </div>
+  </div>
+</div>
+      </div>
+</div>
+</div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="ds-1col entity entity-queues queues-nbc-video-home-queue view-mode-default clearfix ">
+
+  
+  <div class="field field-name-field-mpx-video-carousel field-type-ds field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">  <div class="nbc_mpx_carousel loading nbc-carousel-4up_medium-template" id="nbc_mpx_carousel_3081">
+      <div class="nbc_mpx_filters_holder nbc_dropdown"></div>
+
+    <span class="ajax-spinner"></span>
+    <div class="no-content-msg"><span>Sorry, there is no content for this category.</span></div>
+    <div class="content">
+            <div class="carousel_container nmc_carousel_container"></div>
+    </div>
+  </div>
+</div>
+      </div>
+</div>
+</div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div class="ds-1col entity entity-queues queues-nbc-video-home-queue view-mode-default clearfix ">
+
+  
+  <div class="field field-name-field-mpx-video-carousel field-type-ds field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">  <div class="nbc_mpx_carousel loading nbc-carousel-4up_medium-template" id="nbc_mpx_carousel_3086">
+      <div class="nbc_mpx_filters_holder nbc_dropdown"></div>
+
+    <span class="ajax-spinner"></span>
+    <div class="no-content-msg"><span>Sorry, there is no content for this category.</span></div>
+    <div class="content">
+            <div class="carousel_container nmc_carousel_container"></div>
+    </div>
+  </div>
+</div>
+      </div>
+</div>
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+</div>
+        </div>
+
+        <section class="panel-panel panel-col-last">
+          <div class="inside"><div class="panel-pane pane-block pane-dart-dart-tag-right-side-ad" >
+  
+      
+  
+  <div class="pane-content">
+    <div  class="dart-tag dart-name-right_side_ad">
+  
+            <script type="text/javascript">Drupal.DART.tag('{"disabled":false,"api_version":1,"machinename":"right_side_ad","name":"Right Side Ad","pos":"3","sz":"300x250","block":1,"settings":{"overrides":{"site":"","zone":"","slug":""},"options":{"scriptless":0,"method":"adj"},"key_vals":[]},"export_module":"nbc_ads","type":"Default","export_type":2,"in_code_only":true,"table":"dart_tags","key_vals":{"pos":[{"val":"3","eval":false}],"sz":[{"val":"300x250","eval":false}],"site":[{"val":"nbc","eval":0}],"sect":[{"val":"home","eval":0}],"sub":[{"val":"","eval":0}],"!c":[{"val":"nbc","eval":0},{"val":"home","eval":0},{"val":"","eval":0},{"val":"","eval":0},{"val":"","eval":0},{"val":"","eval":0}],"tandomad":[{"val":"eTandomAd","eval":1}],"\u003Cnone\u003E":[{"val":"top.__nbcudigitaladops_dtparams || \u0027\u0027","eval":1}],"genre":[{"val":"","eval":0}],"pageid":[{"val":"1","eval":0}],"sub2":[{"val":"","eval":0}],"sub3":[{"val":"","eval":0}],"daypart":[{"val":"","eval":0}],"sub4":[{"val":"","eval":0}],"tile":[{"val":"tile++","eval":true}],"ord":[{"val":"ord","eval":true}]},"prefix":"nbcu","site":"nbc","zone":"home_","slug":"","network_id":"N2620","noscript":{"src":"http:\/\/ad.doubleclick.net\/N2620\/ad\/nbcu.nbc\/home_;pos=3;sz=300x250;site=nbc;sect=home;sub=;!c=nbc;!c=home;!c=;!c=;!c=;!c=;genre=;pageid=1;sub2=;sub3=;daypart=;sub4=;tile=16;ord=5906656355?","href":"http:\/\/ad.doubleclick.net\/N2620\/jump\/nbcu.nbc\/home_;pos=3;sz=300x250;site=nbc;sect=home;sub=;!c=nbc;!c=home;!c=;!c=;!c=;!c=;genre=;pageid=1;sub2=;sub3=;daypart=;sub4=;tile=16;ord=5906656355?"}}');</script>
+      <noscript><a href="http://ad.doubleclick.net/N2620/jump/nbcu.nbc/home_;pos=3;sz=300x250;site=nbc;sect=home;sub=;!c=nbc;!c=home;!c=;!c=;!c=;!c=;genre=;pageid=1;sub2=;sub3=;daypart=;sub4=;tile=16;ord=5906656355?"><img src="http://ad.doubleclick.net/N2620/ad/nbcu.nbc/home_;pos=3;sz=300x250;site=nbc;sect=home;sub=;!c=nbc;!c=home;!c=;!c=;!c=;!c=;genre=;pageid=1;sub2=;sub3=;daypart=;sub4=;tile=16;ord=5906656355?" alt="" /></a></noscript>      </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-block pane-pub-ads-ad-300x250-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="ad_300x250_1" class="companion"></div>  </div>
+
+  
+  </div>
+
+
+<div class="panel-pane pane-entity-field pane-node-field-tv-external-links pane-external-links pane-social-links dark">
+<h3 class="pane-title">Stay <span>connected</span></h3>
+
+<div class="pane-content"><div class="field-name-field-tv-external-links social-accounts-show-page"><a href="http://facebook.com/nbc" target="_blank" title="Facebook" class="row-0 icon icon-social-facebook"></a><a href="http://www.twitter.com/nbc" target="_blank" title="Twitter" class="row-1 icon icon-social-twitter"></a><a href="http://nbctv.tumblr.com/" target="_blank" title="Tumblr" class="row-2 icon icon-social-tumblr"></a><a href="http://www.pinterest.com/nbctv" target="_blank" title="Pinterest" class="row-3 icon icon-social-pinterest"></a><a href="https://plus.google.com/110741260330832413403" target="_blank" title="Google+" class="row-4 icon icon-social-googleplus"></a><a href="http://www.youtube.com/nbc" target="_blank" title="YouTube" class="row-5 icon icon-social-youtube"></a></div></div>
+</div>
+</div>
+        </section>
+      </div>
+    </div>
+
+    <div class="panel-middle-wrapper">
+      <div class="panel-panel panel-col-bottom">
+        <div class="inside"><div class="panel-pane pane-views-panes pane-nbc-features-panel-pane-4 pane-nbc-features" >
+  
+        <h2 class="pane-title">Latest <span class="strong">Features</span></h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-nbc-features view-id-nbc_features view-display-id-panel_pane_4 view-dom-id-4f6b86faeab54e020cc3d9c1a1679875">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="masonry-item views-row views-row-1">
+    
+<article id="node-onion-179726" class="node node-feature nbc-onion-skin label-type-shop linkto-nbcuniversalstore  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbcuniversalstore.com/chicago-fire-mollys-pub-v-neck-t-shirt/detail.php?p=521988&amp;ecid=SMM-NBC-03596&amp;pa=SMM-NBC-03596"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/4/11/2014_0318_ChicagoFire_Features_01_1050x1400_AC.jpg?itok=jaF2qmk0" alt="NBC - CHICAGO FIRE - FEATURE - L - SHOP - 219" /></a></div>
+  <div class="onion-skin-skin">
+          <div class="onion-skin-subtype"><span>Chicago Fire</span> | Shop</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbcuniversalstore.com/chicago-fire-mollys-pub-v-neck-t-shirt/detail.php?p=521988&amp;ecid=SMM-NBC-03596&amp;pa=SMM-NBC-03596">Show your love for Chicago Fire with an exclusive Molly’s Pub T-shirt!</a></div>
+
+      </div>
+</article>
+  </div>
+  <div class="masonry-item views-row views-row-2">
+    
+<article id="node-onion-149161" class="node node-feature nbc-onion-skin label-type-video linkto-nbc  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbc.com/the-voice/music"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/4/13/vox_lf_audra.jpg?itok=2PLTmAvZ" alt="The Voice -  Audra McLaughlin" title="The Voice -  Audra McLaughlin" /></a></div>
+  <div class="onion-skin-skin onion-skin-skin-icon">
+          <div class="onion-skin-subtype"><span>The Voice</span> | Video</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbc.com/the-voice/music">Get favorite performances from the season on iTunes.</a></div>
+
+          <div class="onion-skin-icon"><span class="icon icon-play"></span></div>
+      </div>
+</article>
+  </div>
+  <div class="masonry-item views-row views-row-3">
+    
+<article id="node-onion-179461" class="node node-feature nbc-onion-skin label-type-video linkto-nbc  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbc.com/the-voice/video/coaches-off-camera/2769592"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/4/07/M-2014_0407_TheVoice_Feature-3-1050x1050-CS.jpg?itok=1A4EPbza" alt="" /></a></div>
+  <div class="onion-skin-skin onion-skin-skin-icon">
+          <div class="onion-skin-subtype"><span>The Voice</span> | Video</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbc.com/the-voice/video/coaches-off-camera/2769592">Online exclusive! See the coaches caught off-camera.</a></div>
+
+          <div class="onion-skin-icon"><span class="icon icon-play"></span></div>
+      </div>
+</article>
+  </div>
+  <div class="masonry-item views-row views-row-4">
+    
+<article id="node-onion-143776" class="node node-feature nbc-onion-skin label-type-exclusives linkto-nbc  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbc.com/casting#bl16"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/3/25/bl_lf_casting.jpg?itok=e2UfAqV1" alt="The Biggest Loser - Casting" title="The Biggest Loser - Casting" /></a></div>
+  <div class="onion-skin-skin">
+          <div class="onion-skin-subtype"><span>The Biggest Loser</span> | Exclusives</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbc.com/casting#bl16">Now casting for The Biggest Loser&#039;s Season 16!</a></div>
+
+      </div>
+</article>
+  </div>
+  <div class="masonry-item views-row views-row-5">
+    
+<article id="node-onion-159291" class="node node-feature nbc-onion-skin label-type-exclusives linkto-nbccomedyplayground  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbccomedyplayground.com/" target="_blank"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/4/08/Comedy_playground_Feature_3x4_1050x1400_feature.jpg?itok=HAczULFd" alt="NBC Comedy Playground" title="NBC Comedy Playground" /></a></div>
+  <div class="onion-skin-skin">
+          <div class="onion-skin-subtype"><span>NBC Comedy Playground</span> | Exclusives</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbccomedyplayground.com/" target="_blank">Find out how to submit your big comedy idea to NBC, starting May 1!</a></div>
+
+      </div>
+</article>
+  </div>
+  <div class="masonry-item views-row views-row-6">
+    
+<article id="node-onion-138396" class="node node-feature nbc-onion-skin label-type-video linkto-nbc  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbc.com/parenthood/insidescoop"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/4/14/phd_lf_finale3a.jpg?itok=MGjeHyra" alt="Parenthood - The Inside Scoop" title="Parenthood - The Inside Scoop" /></a></div>
+  <div class="onion-skin-skin onion-skin-skin-icon">
+          <div class="onion-skin-subtype"><span>Parenthood</span> | Video</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbc.com/parenthood/insidescoop">Get the inside scoop on Thursday&#039;s season finale of Parenthood.</a></div>
+
+          <div class="onion-skin-icon"><span class="icon icon-play"></span></div>
+      </div>
+</article>
+  </div>
+  <div class="masonry-item views-row views-row-7">
+    
+<article id="node-onion-179481" class="node node-feature nbc-onion-skin label-type-other linkto-nbcnews  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbcnews.com/storyline/boston-bombing-anniversary/twice-strong-brothers-rebound-after-boston-bombing-n78416" target="_blank"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/4/14/nbcnews-norden-bros-040414.jpg?itok=IAPWEfjl" alt="NBC News - &#039;Twice as Strong&#039;: Brothers Rebound After Boston Bombing - 04/14/2014" title="NBC News - &#039;Twice as Strong&#039;: Brothers Rebound After Boston Bombing - 04/14/2014" /></a></div>
+  <div class="onion-skin-skin">
+          <div class="onion-skin-subtype"><span>NBC News</span> | Other</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbcnews.com/storyline/boston-bombing-anniversary/twice-strong-brothers-rebound-after-boston-bombing-n78416" target="_blank">&#039;Twice as Strong&#039;: Brothers Rebound After Boston Bombing</a></div>
+
+      </div>
+</article>
+  </div>
+  <div class="masonry-item views-row views-row-8">
+    
+<article id="node-onion-179456" class="node node-feature nbc-onion-skin label-type-exclusives linkto-nbc  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbc.com/american-dream-builders/chase"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/4/13/adb_take-away-tips.jpg?itok=Cfhn0OBH" alt="American Dream Builders - Take Away Tips" title="American Dream Builders - Take Away Tips" /></a></div>
+  <div class="onion-skin-skin">
+          <div class="onion-skin-subtype"><span>American Dream Builders</span> | Exclusives</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbc.com/american-dream-builders/chase">Get online exclusive videos of the designers revealing their secrets!</a></div>
+
+      </div>
+</article>
+  </div>
+  <div class="masonry-item views-row views-row-9">
+    
+<article id="node-onion-157981" class="node node-feature nbc-onion-skin label-type-video linkto-nbc  clearfix" role="article">
+  <div class="onion-skin-image"><a href="http://www.nbc.com/rosemarys-baby/video/rosemarys-baby-fear-is-born/2769960"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_mosaic/public/images/2014/4/09/preview-key-art.jpg?itok=EWCJM8XE" alt="Rosemary&#039;s Baby" title="Rosemary&#039;s Baby" /></a></div>
+  <div class="onion-skin-skin onion-skin-skin-icon">
+          <div class="onion-skin-subtype"><span>Rosemary&#039;s Baby</span> | Video</div>
+    
+    <div class="onion-skin-type dotdotdot"><a href="http://www.nbc.com/rosemarys-baby/video/rosemarys-baby-fear-is-born/2769960">The miniseries event begins Sunday, May 11. Preview now.</a></div>
+
+          <div class="onion-skin-icon"><span class="icon icon-play"></span></div>
+      </div>
+</article>
+  </div>
+    </div>
+  
+      <ul class="pager pager-load-more"><li class="pager-next first last"><a href="/homepage?page=1">Load more</a></li>
+</ul>  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-block pane-nbc-news-news-and-sports-footer pane-news-sports-footer news-and-sports" >
+  
+        <h2 class="pane-title">NEWS &amp; SPORTS</h2>
+    
+  
+  <div class="pane-content">
+    <ul><li class="first"><div  class="news news">
+  <div class="image">
+    <a href="http://www.nbcnews.com/video/nbc-news/52445187" target="_blank"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_news_sports/public/news-feeds/6d1bc0c32f16f948f6163a3c3b3c0af8.jpg?itok=DNESjlc3" alt="On day of Boston bombing, ‘I knew who did it’" /></a>  </div>
+  <div class="meta">
+    <div class="title dotdotdot"><a href="http://www.nbcnews.com/video/nbc-news/52445187" data-content="More »">On day of Boston bombing, ‘I knew who did it’</a></div>
+    <div class="action"><a href="http://www.nbcnews.com/video/nbc-news/52445187" target="_blank">More</a></div>
+  </div>
+    <h3 class="section-title"><a href="http://www.nbcnews.com/video/nbc-news/52445187" target="_blank">NBC News</a></h3>
+</div></li>
+<li><div  class="news sports">
+  <div class="image">
+    <a href="http://www.nbcsports.com/hockey/nhl/red-wings-take-down-blues-season-finale" target="_blank"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_news_sports/public/news-feeds/3fc33ce74c20abd08b66bfd92ff45697.jpg?itok=U9mlHsPj" alt="Red Wings take down Blues in season finale" /></a>  </div>
+  <div class="meta">
+    <div class="title dotdotdot"><a href="http://www.nbcsports.com/hockey/nhl/red-wings-take-down-blues-season-finale" data-content="More »">Red Wings take down Blues in season finale</a></div>
+    <div class="action"><a href="http://www.nbcsports.com/hockey/nhl/red-wings-take-down-blues-season-finale" target="_blank">More</a></div>
+  </div>
+    <h3 class="section-title"><a href="http://www.nbcsports.com/hockey/nhl/red-wings-take-down-blues-season-finale" target="_blank">NBC Sports</a></h3>
+</div></li>
+<li><div  class="news today play-icon">
+  <div class="image">
+    <a href="http://www.today.com/video/today/54958101" target="_blank"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_news_sports/public/news-feeds/01d33cb69eb959399e851c2945f3b883.jpg?itok=a1cWgbiu" alt="Boy, 14, ‘still remembers’ trip to heaven " /></a>  </div>
+  <div class="meta">
+    <div class="title dotdotdot"><a href="http://www.today.com/video/today/54958101" data-content="Watch »">Boy, 14, ‘still remembers’ trip to heaven </a></div>
+    <div class="action"><a href="http://www.today.com/video/today/54958101" target="_blank">Watch</a></div>
+  </div>
+      <a href="http://www.today.com/video/today/54958101"><span class="play-icon"></span></a>
+    <h3 class="section-title"><a href="http://www.today.com/video/today/54958101" target="_blank">Today</a></h3>
+</div></li>
+<li class="last"><div  class="news entertainment">
+  <div class="image">
+    <a href="http://www.today.com/entertainment/shakira-id-get-kicked-out-first-week-voice-contestant-2D79501126" target="_blank"><img src="http://www.nbc.com/sites/nbcunbc/files/files/styles/nbc_news_sports/public/news-feeds/dd25ef13805e53e9a77cca1f14c4e4f7.jpg?itok=_69n9aeZ" alt="Shakira: I&#039;d &#039;get kicked out the first week&#039; as a &#039;Voice&#039; contestant" /></a>  </div>
+  <div class="meta">
+    <div class="title dotdotdot"><a href="http://www.today.com/entertainment/shakira-id-get-kicked-out-first-week-voice-contestant-2D79501126" data-content="More »">Shakira: I'd 'get kicked out the first week' as a 'Voice' contestant</a></div>
+    <div class="action"><a href="http://www.today.com/entertainment/shakira-id-get-kicked-out-first-week-voice-contestant-2D79501126" target="_blank">More</a></div>
+  </div>
+    <h3 class="section-title"><a href="http://www.today.com/entertainment/shakira-id-get-kicked-out-first-week-voice-contestant-2D79501126" target="_blank">Entertainment News</a></h3>
+</div></li>
+</ul>  </div>
+
+  
+  </div>
+</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </div>
+</div>
+          
+      </div>
+
+
+      
+
+      
+
+  </div><!-- #main -->
+
+
+
+<footer id="footer" role="contentinfo">
+
+  <header class="sub-header">
+    <div class="wrapper">
+
+      <div class="logo">
+        <a href="/">
+          <img src="/sites/nbcunbc/themes/aurora_nbc/Peacock-GlobalFooter.png" alt="Home" />
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="sub-footer">
+            <div id="block-panels-mini-nbc-footer-content" class="block block-panels-mini">
+
+    
+  <div class="content">
+    <div class="panel-display panel-4col clearfix" id="mini-panel-nbc_footer_content">
+  <div class="wrapper">
+    <div class="cols pane-row pane-row-middle footer-shows-list">
+              <div class="panel-panel panel-col global-footer block">
+          <div class="panel-pane pane-views-panes pane-nbc-global-shows-panel-pane-category" >
+  
+        <div class="pane-title">Current shows</div>
+    
+  
+  <div class="pane-content">
+    <div class="view view-nbc-global-shows view-id-nbc_global_shows view-display-id-panel_pane_category view-dom-id-5f96dfc824af8832a730afa44fc50882">
+        
+  
+  
+      <div class="view-content">
+      <div class="nav nav-list"><ul>    <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div>        <div><a href="http://www.nbc.com/about-a-boy">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    About a Boy  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-2 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/american-dream-builders">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    American Dream Builders  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-3 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/believe">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Believe  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-4 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/the-biggest-loser">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Biggest Loser  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-5 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/the-blacklist">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Blacklist  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-6 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/chicago-fire">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Chicago Fire  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-7 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/chicago-pd">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Chicago P.D.  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-8 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/community">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Community  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-9 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/crisis">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Crisis   </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-10 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/dateline">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Dateline  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-11 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/days-of-our-lives">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Days of our Lives  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-12 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/dracula">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Dracula  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-13 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/grimm">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Grimm  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-14 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/growing-up-fisher">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Growing Up Fisher  </div>
+</a></div>  </div></li>
+  </ul><ul>  <li class="views-row views-row-15 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/hannibal">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Hannibal  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-16 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/hollywood-game-night">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Hollywood Game Night  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-17 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/jay-lenos-garage">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Jay Leno’s Garage  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-18 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/last-call-with-carson-daly">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Last Call: Carson Daly  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-19 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/late-night-with-seth-meyers">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Late Night: Seth Meyers  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-20 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/law-order-special-victims-unit">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Law &amp; Order: SVU  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-21 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/the-michael-j-fox-show">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Michael J. Fox Show  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-22 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/parenthood">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Parenthood  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-23 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/parks-and-recreation">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Parks and Recreation  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-24 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/revolution">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Revolution   </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-25 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/saturday-night-live">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Saturday Night Live  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-26 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/today">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    TODAY  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-27 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/the-tonight-show">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Tonight Show: Jimmy Fallon  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-28 views-row-even views-row-last">  
+  <div>        <div><a href="http://www.nbc.com/the-voice">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Voice  </div>
+</a></div>  </div></li>
+</ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+        </div>
+      
+            <div class="panel-panel panel-col global-footer block">
+        <div class="panel-pane pane-views-panes pane-nbc-global-shows-panel-pane-category" >
+  
+        <div class="pane-title">Upcoming shows</div>
+    
+  
+  <div class="pane-content">
+    <div class="view view-nbc-global-shows view-id-nbc_global_shows view-display-id-panel_pane_category view-dom-id-07a35933fb905f0d4307a57e58029a6a">
+        
+  
+  
+      <div class="view-content">
+      <div class="nav nav-list"><ul>    <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div>        <div><a href="http://www.nbc.com/americas-got-talent">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    America&#039;s Got Talent  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-2 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/american-comedy-awards">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    American Comedy Awards  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-3 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/american-ninja-warrior">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    American Ninja Warrior  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-4 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/crossbones">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Crossbones  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-5 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/food-fighters">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Food Fighters  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-6 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/iheartradio-music-awards">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    iHeartRadio Music Awards  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-7 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/last-comic-standing">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Last Comic Standing  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-8 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/miss-usa">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Miss USA  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-9 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/the-night-shift">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Night Shift   </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-10 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/rosemarys-baby">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Rosemary&#039;s Baby  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-11 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/undateable">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Undateable  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-12 views-row-even views-row-last">  
+  <div>        <div><a href="http://www.nbc.com/welcome-to-sweden">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Welcome to Sweden  </div>
+</a></div>  </div></li>
+</ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+      </div>
+      
+            <div class="panel-panel panel-col global-footer block">
+        <div class="panel-pane pane-views-panes pane-nbc-global-shows-panel-pane-category" >
+  
+        <div class="pane-title">Classics</div>
+    
+  
+  <div class="pane-content">
+    <div class="view view-nbc-global-shows view-id-nbc_global_shows view-display-id-panel_pane_category view-dom-id-e471241f84f7fae7b5d409d561af0a09">
+        
+  
+  
+      <div class="view-content">
+      <div class="nav nav-list"><ul>    <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div>        <div><a href="http://www.nbc.com/30-rock">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    30 Rock  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-2 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/the-a-team">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The A-Team  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-3 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/battlestar-galactica-classic">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Battlestar Galactica  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-4 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/bent">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Bent  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-5 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/best-friends-forever">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Best Friends Forever  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-6 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/the-cape">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Cape  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-7 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/charles-in-charge">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Charles in Charge  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-8 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/deception">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Deception  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-9 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/do-no-harm">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Do No Harm  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-10 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/emergency">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Emergency!  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-11 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/the-event">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Event  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-12 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/heroes">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Heroes  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-13 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/kings">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Kings  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-14 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/knight-rider">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Knight Rider  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-15 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/knight-rider-classic">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Knight Rider Classic  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-16 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/life">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Life  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-17 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/lipstick-jungle">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Lipstick Jungle  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-18 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/mercy">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Mercy  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-19 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/miami-vice">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Miami Vice  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-20 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/the-office">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Office  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-21 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/outlaw">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Outlaw  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-22 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/outsourced">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Outsourced  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-23 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/perfect-couples">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Perfect Couples  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-24 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/quantum-leap">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Quantum Leap  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-25 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/simon-and-simon">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Simon &amp; Simon  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-26 views-row-even">  
+  <div>        <div><a href="http://www.nbc.com/the-sound-of-music-live">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    The Sound Of Music Live!  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-27 views-row-odd">  
+  <div>        <div><a href="http://www.nbc.com/the-tonight-show/classic/jay-leno">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Jay Leno  </div>
+</a></div>  </div></li>
+    <li class="views-row views-row-28 views-row-even views-row-last">  
+  <div>        <div><a href="http://www.nbc.com/classic-tv/trauma">
+  <div class="field field-name-field-short-title field-type-text field-label-hidden">
+    Trauma  </div>
+</a></div>  </div></li>
+</ul></div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/shows/classic">
+    more +  </a>
+</div>
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+      </div>
+      
+              <div class="panel-panel panel-col global-footer block">
+          <div class="panel-pane pane-block pane-menu-menu-nbc-quick-links" >
+  
+        <div class="pane-title">NBC QUICK LINKS</div>
+    
+  
+  <div class="pane-content">
+    <ul class="menu"><li class="first leaf"><a href="/casting" title="">Casting</a></li>
+<li class="leaf"><a href="/local-stations" title="">Local Stations</a></li>
+<li class="leaf"><a href="/nbc-app" title="">NBC Full Episode App</a></li>
+<li class="leaf"><a href="/nbc-kids" title="">NBC Kids: Saturday Mornings on NBC</a></li>
+<li class="leaf"><a href="http://www.nbcuniversalstore.com" title="">NBC Store</a></li>
+<li class="leaf"><a href="/parental-guidelines-tv-ratings" title="">Parental Guidelines and TV Ratings</a></li>
+<li class="last leaf"><a href="/tickets-and-nbc-studio-tour" title="">Tickets and NBC Studio Tour</a></li>
+</ul>  </div>
+
+  
+  </div>
+        </div>
+          </div>
+  </div>
+
+  <div class="panel-panel pane-row pane-row-footer global-footer corporate-links-menu block">
+    <div class="wrapper">
+      <div class="panel-pane pane-block pane-menu-menu-nbc-global-corporate-links" >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="menu"><li class="first leaf"><a href="http://www.nbc.com/contact/general" title="">Contact Us</a></li>
+<li class="leaf"><a href="http://www.nbcuni.com/" title="">Corporate Info</a></li>
+<li class="leaf"><a href="http://www.nbcunicareers.com/" title="">Jobs</a></li>
+<li class="leaf"><a href="http://www.nbcuni.com/privacy/" title="">Privacy</a></li>
+<li class="leaf"><a href="http://www.nbc.com/terms" title="">TERMS – NEW</a></li>
+<li class="leaf"><a href="http://www.nbc.com/advertise" title="">Advertise</a></li>
+<li class="leaf"><a href="http://nbcpeacock.rresults.com/?s=1001" title="">Viewer Panel</a></li>
+<li class="leaf"><a href="http://www.nbc.com/closed-captioning" title="">Closed Captioning</a></li>
+<li class="last leaf"><a href="http://www.nbc.com/contact/general" title="">Technical Support</a></li>
+</ul>  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-global-footer-links" >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="copyright">
+  <li>A Division of <strong>NBCUniversal</strong></li>
+  <li><a title="Independent Programming Report" href="http://www.comcast.com/independentprogramming" rel="nuWin" target="_new">Independent Programming Report</a></li>
+  <li><a id="_bapw-link" style="cursor:pointer !important;"><img id="_bapw-icon" style="vertical-align: middle;"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>(function(){var e=document,b,a=(e.location.protocol=="https:"?"https":"http"),c=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");e.getElementById("_bapw-icon").src=c+"icon1.png";e.getElementById("_bapw-link").onclick=function(){var f=this;function d(i,l){var j=e.getElementsByTagName("head")[0]||e.documentElement,h=false,g=e.createElement("script");function k(){g.onload=g.onreadystatechange=null;j.removeChild(g);l()}g.src=i;g.onreadystatechange=function(){if(!h&&(this.readyState=="loaded"||this.readyState=="complete")){h=true;k()}};g.onload=k;j.insertBefore(g,j.firstChild)}this.onclick="return false";d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",function(){d(c+"pub1.js",function(){BAPW.i(f,{pid:187,ocid:908},false)})});return false};b=new Image();b.src=a+"://l.betrad.com/pub/p.gif?pid=187&ocid=908&ii=1&r="+Math.random()}());</script>
+  </li>
+  <li>&copy; 2014 NBC Universal</li>
+</ul>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+
+</div>
+  </div>
+</div>
+<div id="block-views-nbc-tracking-codes-tracking" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-nbc-tracking-codes view-id-nbc_tracking_codes view-display-id-tracking view-dom-id-cd49a76d930a0dbd09aca0dac1f9c0e0">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+      </div>
+
+</footer>
+    <!-- SiteCatalyst code version: H 25
+Copyright 1996-2014 Adobe, Inc. -->
+<script type="text/javascript" language="JavaScript">var s_account="nbcuglobal,nbcunetworkbu";</script>
+<script type="text/javascript" src="/sites/nbcunbc/modules/custom/features/nbc_analytics/js/s_code_h25.js?n413rm"></script>
+<script type="text/javascript"><!--
+<!-- do not edit this code -->
+/*
+* Plugin: detectRIA v0.1 - detect and set Flash, Silverlight versions
+*/
+s.detectRIA=new Function("cn", "fp", "sp", "mfv", "msv", "sf", ""
++"cn=cn?cn:'s_ria';msv=msv?msv:2;mfv=mfv?mfv:10;var s=this,sv='',fv=-"
++"1,dwi=0,fr='',sr='',w,mt=s.n.mimeTypes,uk=s.c_r(cn),k=s.c_w('s_cc',"
++"'true',0)?'Y':'N';fk=uk.substring(0,uk.indexOf('|'));sk=uk.substrin"
++"g(uk.indexOf('|')+1,uk.length);if(k=='Y'&&s.p_fo('detectRIA')){if(u"
++"k&&!sf){if(fp){s[fp]=fk;}if(sp){s[sp]=sk;}return false;}if(!fk&&fp)"
++"{if(s.pl&&s.pl.length){if(s.pl['Shockwave Flash 2.0'])fv=2;x=s.pl['"
++"Shockwave Flash'];if(x){fv=0;z=x.description;if(z)fv=z.substring(16"
++",z.indexOf('.'));}}else if(navigator.plugins&&navigator.plugins.len"
++"gth){x=navigator.plugins['Shockwave Flash'];if(x){fv=0;z=x.descript"
++"ion;if(z)fv=z.substring(16,z.indexOf('.'));}}else if(mt&&mt.length)"
++"{x=mt['application/x-shockwave-flash'];if(x&&x.enabledPlugin)fv=0;}"
++"if(fv<=0)dwi=1;w=s.u.indexOf('Win')!=-1?1:0;if(dwi&&s.isie&&w&&exec"
++"Script){result=false;for(var i=mfv;i>=3&&result!=true;i--){execScri"
++"pt('on error resume next: result = IsObject(CreateObject(\"Shockwav"
++"eFlash.ShockwaveFlash.'+i+'\"))','VBScript');fv=i;}}fr=fv==-1?'flas"
++"h not detected':fv==0?'flash enabled (no version)':'flash '+fv;}if("
++"!sk&&sp&&s.apv>=4.1){var tc='try{x=new ActiveXObject(\"AgControl.A'"
++"+'gControl\");for(var i=msv;i>0;i--){for(var j=9;j>=0;j--){if(x.is'"
++"+'VersionSupported(i+\".\"+j)){sv=i+\".\"+j;break;}}if(sv){break;}'"
++"+'}}catch(e){try{x=navigator.plugins[\"Silverlight Plug-In\"];sv=x'"
++"+'.description.substring(0,x.description.indexOf(\".\")+2);}catch('"
++"+'e){}}';eval(tc);sr=sv==''?'silverlight not detected':'silverlight"
++" '+sv;}if((fr&&fp)||(sr&&sp)){s.c_w(cn,fr+'|'+sr,0);if(fr)s[fp]=fr;"
++"if(sr)s[sp]=sr;}}");
+s.p_fo=new Function("n",""
++"var s=this;if(!s.__fo){s.__fo=new Object;}if(!s.__fo[n]){s.__fo[n]="
++"new Object;return 1;}else {return 0;}");
+
+s.prop13 = s.getNewRepeat();
+s.detectRIA('s_ria','prop40');
+s.prop3="Home";
+s.eVar32="Home";
+s.channel="web";
+s.prop6="http://www.nbc.com/homepage";
+s.prop8="TV Entertainment";
+s.prop9="NBC Network";
+s.event="event6";
+s.hier3="www.nbc.com | homepage";
+s.linkInternalFilters="javascript:,nbcvoicelive.com,latenightwithjimmyfallon.com,nbc.com,prod-www.nbc.com,acc-www.nbc.com,9thwonders.com,startomorrow.com,studio60theseries.com,fridaynightlightstheseries.com,itsyourshowtv.com,jaylenosgarage.com,my.nbc.com,votenow.tv,heroeswiki.com,rentaswag.com,ronswansongrill.com,dundermifflin.com,pawneeindiana.com,areyouontheblacklist.com,millionsecondquiz.com,greendalecommunitycollege.com,universalmediastudios.com,nbcumv.com,30rock5nightsaweek.com,activatingevolution.org,buy-more.net,minionmail.com,stevewilkos.com,awesomesaucewedding.com,cozitv.com,dukesilver.com,entertainment720.com,halpertbeesly.com,kabletown.com,knope2012.com,primatechpaper.com,robertisbothered.com,scarecrowboat.com,snakeholelounge.com,standupnbc.com,threatlevelmidnight.com,wuphf.com,nbccomedyplayground.com,whoareyouinacrisis.com,believe-ability.com";
+s.pageName="global:home";
+s.prop2="Online";
+s.prop10="Front Door";
+s.eVar36="Front Door";
+s.eVar49="Online";
+s.hier1="TV Entertainment | NBC Network | Homepage";
+s.hier2="Online | global:home | Front Door";
+s.prop11="Front Door | global:home";
+s.prop12="NBC Network | Front Door";
 /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
-var s_code=s_omni.t();if(s_code)document.write(s_code)
-<!-- Start Quantcast tag -->
-	_qoptions={
-	qacct:"p-9e_QHc34iBt22"
-	};
-<!-- End Quantcast tag -->
-    //]]>
-</script>
-<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><div><a href="http://www.omniture.com" title="Web Analytics"><img src="/2856459"
+height="1" width="1" alt="" /></a></div></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H 25 -->
+<div id="fb-root" class="fb_module"></div>
+<script type="text/javascript">
+  jQuery.extend(Drupal.settings, {"fb":{"base_url":"http:\/\/www.nbc.com","ajax_event_url":"http:\/\/www.nbc.com\/fb\/ajax","is_anonymous":true,"fb_init_settings":{"xfbml":false,"status":false,"oauth":true,"cookie":true,"channelUrl":"http:\/\/www.nbc.com\/fb\/channel"},"test_login_status":true,"get_login_status":true,"controls":"","js_sdk_url":"\/\/connect.facebook.net\/en_US\/all.js#xfbml=1"}});
 
-			<script type="text/javascript">
-				(function ($){
-					$.ajax({
-						"url": "//fonts.abc.com/ehe0uev.js",
-						"dataType": "script",
-						"cache": true,
-						"success" : function () {
-							if (Typekit && typeof Typekit.load === 'function') {
-								Typekit.load();
-							}
-						}
-					});
-				}(jQuery));
-			</script>
-		</body>
+if (typeof(FB) == 'undefined') {
+  var e = document.createElement('script');
+  e.async = true;
+  e.src = Drupal.settings.fb.js_sdk_url;
+  document.getElementById('fb-root').appendChild(e);
+}
+
+
+
+</script>
+<script src="http://cdn.gigya.com/JS/socialize.js?apikey=2_hal5ikuv_4ajvvN9jBCJBm3YVc37tz238I_0SOekB6mrKJjn_s-2Euw1ABuJJ-Zl">{"enabledProviders":"Facebook, Twitter, GooglePlus","lang":"en","connectWithoutLoginBehavior":"loginExistingUser"}</script><script src="//embed.api.tv/lib/acomplete/1.1/build/ramp-ac-standalone.min.js"></script>
+<script src="//www.nbcudigitaladops.com/hosted/global.js"></script>
+<script src="http://www.nbc.com/sites/nbcunbc/files/files/js/js_odiq_QjoniZs54BDz-HgQcd_p4n_mfOZ5K-5cQJeEYw.js"></script>
+<script src="http://www.nbc.com/sites/nbcunbc/files/files/js/js_OfCsn-UQbC4yHLJ1_dnfpIFiVkz4iJZ0ahcPmB9dqD4.js"></script>
+<script src="http://www.nbc.com/sites/nbcunbc/files/files/js/js_jJ6DfA1Pghd0vcsTWkLCdeJ5uMlgj0NMYL2I1jrd0ww.js"></script>
+  <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-2.newrelic.com","fb1e76f207","2881511","bgdTMhRZWhcAAkZYWldNcAUSUVsKThFTVlBmD1AIB19RFj4PXVVQZhRYAxFnRAUGBA==",0,2519,new Date().getTime(),"","","","",""]);</script></body>
 </html>

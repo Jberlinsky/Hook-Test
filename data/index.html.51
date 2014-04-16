@@ -1,114 +1,1104 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Cotton: The Fabric of Our Lives</title>
-    <meta name="description" content="Your destination for everything from fashion inspiration to fiber information. See how cotton is the fabric of your life.">
-    <meta name="viewport" content="width=device-width">
-    
-    <!-- browser check -->
-    <script src="js/browsercheck.js"></script>
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-</head>
-<body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="htmlHead"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	USA Swimming - Home
+</title>
+	<script type="text/javascript" src="/include/swfobject.js"></script>
+<META NAME="KEYWORDS" CONTENT="<swimming><swimming world><Swimming><usa swimming><usaswimming><us swimming><usaswimming.org><usaswim><www.usaswimming.org><uss swimming><swimming world>"/>
+<META NAME="DESCRIPTION" CONTENT="Swimming"/>
+<Swimming><swimming world><usa swimming><usaswimming><us swimming><usaswimming.org><usaswim><www.usaswimming.org><uss swimming><swimming world>
+<style type="text/css">
+   @font-face{
+       font-family:'Klavika bold';
+       src:url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_EOT/KlavikaWebBasicBold.eot');
+       src:url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_EOT/KlavikaWebBasicBold.eot?#iefix') format('embedded-opentype'),
+           url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_WOFF/KlavikaWebBasicBold.woff') format('woff');
+ }
+</style>
+<link href='/styles/radEditor.css' type='text/css' rel='stylesheet' />
+<link href='/styles/master.css?v=7.200' type='text/css' rel='stylesheet' />
+<!--[if lte IE 6]> <style type='text/css'>@import '/styles/fix-ie6.css?v=3';</style> <![endif]-->
+<link href='/styles/modules.css?v=2' type='text/css' rel='stylesheet' />
+<link href='/styles/header.css?v=2' type='text/css' rel='stylesheet' />
+<script language=javascript src='/include/BrowserCompatCommon.js'></script>
+<script src='/include/telerikAdditions.js' type='text/javascript'></script>
+<script src='/include/jquery-1.6.1.min.js' type='text/javascript'></script>
+<link href="/Telerik.Web.UI.WebResource.axd?compress=1&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Web.UI%2c+Version%3d2013.1.220.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen%3a3e3b0da6-8c39-4d10-9111-25eaee1f7355%3aed2942d4%3a580b2269%3a6de05185%3af730aca1" type="text/css" rel="stylesheet" /></head>
+<body id="htmlBody">
+	<form method="post" action="DesktopDefault.aspx" id="form1" class="mainform">
+<input type="hidden" name="RadScriptManager1_TSM" id="RadScriptManager1_TSM" value="" />
+<input type="hidden" name="RadStyleSheetManager1_TSSM" id="RadStyleSheetManager1_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ8WBB4LVXJsUmVmZXJyZXIFTGh0dHA6Ly93d3cudXNhc3dpbW1pbmcub3JnL0Rlc2t0b3BEZWZhdWx0LmFzcHg/VGFiSWQ9MCZBbGlhcz1SYWluYm93Jkxhbmc9ZW4eE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYCZg9kFgICAw9kFgICAQ9kFgYCCQ9kFgICCA8PFgQeBFRleHQFDE15IERlY2sgUGFzcx4LTmF2aWdhdGVVcmwFHy9EZXNrdG9wRGVmYXVsdC5hc3B4P1RhYklkPTIxNDNkZAIPD2QWAmYPZBYIAgMPDxYCHwIFCTQvMTUvMjAxNGRkAgUPDxYCHwIFIjIwIFF1ZXN0aW9uIFR1ZXNkYXk6IEJyZWVqYSBMYXJzb25kZAIHD2QWAgIBDw8WCB4ISW1hZ2VVcmwFOC9fUmFpbmJvdy9pbWFnZXMvXzIwMTMgTmF0aW9uYWxzL0JyZWVqYS1MYXJzb24tc21hbGwuanBnHgZIZWlnaHQbAAAAAAAAW0ABAAAAHgVXaWR0aBsAAAAAAABiQAEAAAAeBF8hU0ICgAMWAh4Fc3R5bGUFJWZsb2F0OnJpZ2h0OyBwYWRkaW5nOjBweCAwcHggMHB4IDEwcHhkAgkPFgIfCAUXZmxvYXQ6bGVmdDsgd2lkdGg6MjQ2cHgWBAIBD2QWAgIBDw8WAh8CBY4CQnJlZWphIExhcnNvbiBoYWQgcXVpdGUgYSBjYXJlZXIgYXQgVGV4YXMgQSZNLiBBZnRlciB0aGUgMjAxMiBPbHltcGljcyBhbmQgaGVyIGZpbmFsIHllYXIgYXMgYW4gQWdnaWUgc3dpbW1lciBsYXN0IG1vbnRoIGF0IE5DQUFzLCB3aGVyZSBzaGUgY2xhaW1lZCBhbm90aGVyIHRpdGxlLCBzaGXigJlzIGxvb2tpbmcgZm9yd2FyZCB0byB0aGUgZnV0dXJlLiBTaGUgdGFsa3MgYWJvdXQgdGhhdCBhbmQgbW9yZSBpbiB0aGlzIHdlZWvigJlzIDIwIFF1ZXN0aW9uIFR1ZXNkYXkuZGQCAw9kFgICAQ8PFgIfAwVjaHR0cDovL3d3dy51c2Fzd2ltbWluZy5vcmcvVmlld05ld3NBcnRpY2xlLmFzcHg/VGFiSWQ9MCZBbGlhcz1SYWluYm93Jkxhbmc9ZW4mSXRlbUlkPTYwMDcmbWlkPTEyNjYwZGQCEQ9kFgJmD2QWBAICDxYCHgtfIUl0ZW1Db3VudAIIFhBmD2QWBGYPDxYCHwMFM34vVmlld05ld3NBcnRpY2xlLmFzcHg/VGFiSWQ9MCZpdGVtaWQ9NjAwNiZtaWQ9ODcxMhYCHgVjbGFzcwUJbmV3c1RpdGxlFgJmDxUCCjA0LzE0LzIwMTQvMTIteWVhci1vbGQgRXhwbGFpbnMgV2h5IEhlciAjQ29hY2hlc0FyZSBIZXJvZXNkAgEPFQFSMTIteWVhci1vbGQgU2hydXN0aSBKb3NoaSBvZiBTdGluZ3JheXMgU3dpbW1pbmcgd3JvdGUgd2h5IGhlciAjQ29hY2hlc0FyZSBoZXJvZXMuIGQCAQ9kFgRmDw8WAh8DBTN+L1ZpZXdOZXdzQXJ0aWNsZS5hc3B4P1RhYklkPTAmaXRlbWlkPTYwMDQmbWlkPTg3MTIWAh8KBQluZXdzVGl0bGUWAmYPFQIKMDQvMTQvMjAxNCBGaXggTGF0ZSBCcmVhdGhpbmcgaW4gRnJlZXN0eWxlIGQCAQ8VAcABQnJlYXRoaW5nIHRvbyBsYXRlIGluIGZyZWVzdHlsZSBpcyBvbmUgb2YgdGhlIG1vc3QgY29tbW9uIGFuZCBwcm9ibGVtYXRpYyBpc3N1ZXMgaW4gYWxsIG9mIHN3aW1taW5nLiBJZiB5b3UgaGF2ZSBubyBpZGVhIHdoYXQgaXQgbWVhbnMgdG8gYnJlYXRoZSBsYXRlLCB0aGVuIHlvdeKAmXJlIHByb2JhYmx5IGd1aWx0eSBvZiBpdCB0b28uZAICD2QWBGYPDxYCHwMFM34vVmlld05ld3NBcnRpY2xlLmFzcHg/VGFiSWQ9MCZpdGVtaWQ9NjAwNSZtaWQ9ODcxMhYCHwoFCW5ld3NUaXRsZRYCZg8VAgowNC8xNC8yMDE0RU9seW1waWMgR29sZCBNZWRhbGlzdCBNYXR0IEJpb25kaSBTcGVha3MgYXQgTmF0aW9uYWwgSnVuaW9yIFRlYW0gQ2FtcGQCAQ8VAWZPbHltcGljIGdvbGQgbWVkYWxpc3QgTWF0dCBCaW9uZGkgc3Bva2UgYXQgdGhlIFVTQSBTd2ltbWluZyBOYXRpb25hbCBKdW5pb3IgVGVhbSBTZWxlY3QgQ2FtcCBBcHJpbCAxMi5kAgMPZBYEZg8PFgIfAwUzfi9WaWV3TmV3c0FydGljbGUuYXNweD9UYWJJZD0wJml0ZW1pZD02MDAzJm1pZD04NzEyFgIfCgUJbmV3c1RpdGxlFgJmDxUCCjA0LzE0LzIwMTQkTWlrZSdzIE1haWxiYWc6IEhpZ2ggU2Nob29sIHZzLiBDbHViZAIBDxUBiQFFdmVyeSBNb25kYXkgSSBhbnN3ZXIgcXVlc3Rpb25zIGZyb20gc3dpbW1lcnMgYXJvdW5kIHRoZSBjb3VudHJ5LiBJZiB5b3UgaGF2ZSBhIHF1ZXN0aW9uIHBsZWFzZSBlbWFpbCBtZSBhdCBzd2ltbWluZ3N0b3JpZXNAZ21haWwuY29tLiANCmQCBA9kFgRmDw8WAh8DBTN+L1ZpZXdOZXdzQXJ0aWNsZS5hc3B4P1RhYklkPTAmaXRlbWlkPTYwMDImbWlkPTg3MTIWAh8KBQluZXdzVGl0bGUWAmYPFQIKMDQvMTQvMjAxNFBQaGVscHMsIExvY2h0ZSBhbmQgTGVkZWNreSBFeHBlY3RlZCB0byBIaWdobGlnaHQgQXJlbmEgR3JhbmQgUHJpeCBhdCBNZXNhIEZpZWxkIGQCAQ8VAe4BT2x5bXBpYyBnb2xkIG1lZGFsaXN0cyBhbmQgd29ybGQgcmVjb3JkIGhvbGRlcnMgTWljaGFlbCBQaGVscHMsIFJ5YW4gTG9jaHRlIGFuZCBLYXRpZSBMZWRlY2t5IGFyZSBleHBlY3RlZCB0byBoZWFkbGluZSBhIHN0YXItc3R1ZGRlZCBmaWVsZCBmb3IgbmV4dCB3ZWVr4oCZcyBBcmVuYSBHcmFuZCBQcml4IGF0IE1lc2EsIHNsYXRlZCBmb3IgQXByaWwgMjQtMjYgYXQgdGhlIFNreWxpbmUgQXF1YXRpYyBDZW50ZXIuIGQCBQ9kFgRmDw8WAh8DBTN+L1ZpZXdOZXdzQXJ0aWNsZS5hc3B4P1RhYklkPTAmaXRlbWlkPTYwMDEmbWlkPTg3MTIWAh8KBQluZXdzVGl0bGUWAmYPFQIKMDQvMTIvMjAxNDJNZXllciwgVHdpY2hlbGwgVGFrZSBJbmF1Z3VyYWwgQ3JpcHBlbiBDdXAgVGl0bGVzIGQCAQ8VAZsCVVNBIFN3aW1taW5nIE5hdGlvbmFsIFRlYW0gbWVtYmVycyBBbGV4IE1leWVyIGFuZCBBc2hsZXkgVHdpY2hlbGwgb3V0ZGlzdGFuY2VkIG1vcmUgdGhhbiA1MCBBbWVyaWNhbiBhbmQgaW50ZXJuYXRpb25hbCBvcGVuIHdhdGVyIHN0YW5kb3V0cyBTYXR1cmRheSB0byBjbGFpbSB0aGUgaW5hdWd1cmFsIENyaXBwZW4gQ3VwIDEwLWtpbG9tZXRlciBNYXJhdGhvbiBJbnZpdGF0aW9uYWwgdGl0bGVzIGluIEZvcnQgTXllcnMsIEZsYS4sIGF0IE1pcm9tYXIgTGFrZXMgQmVhY2ggYW5kIEdvbGYgQ2x1YmQCBg9kFgRmDw8WAh8DBTN+L1ZpZXdOZXdzQXJ0aWNsZS5hc3B4P1RhYklkPTAmaXRlbWlkPTU5OTgmbWlkPTg3MTIWAh8KBQluZXdzVGl0bGUWAmYPFQIKMDQvMTEvMjAxNCBCbG9nOiBOYXRpb25hbCBKdW5pb3IgVGVhbSBDYW1wIGQCAQ8VAZYBSGVhciBmaXJzdGhhbmQgZnJvbSB0aGUgYXRobGV0ZXMgYW5kIGNvYWNoZXMgYXR0ZW5kaW5nIHRoaXMgd2VlaydzIE5hdGlvbmFsIEp1bmlvciBUZWFtIENhbXAgYXQgdGhlIFUuUy4gT2x5bXBpYyBUcmFpbmluZyBDZW50ZXIgaW4gQ29sb3JhZG8gU3ByaW5ncy4gZAIHD2QWBGYPDxYCHwMFM34vVmlld05ld3NBcnRpY2xlLmFzcHg/VGFiSWQ9MCZpdGVtaWQ9NTk5OSZtaWQ9ODcxMhYCHwoFCW5ld3NUaXRsZRYCZg8VAgowNC8xMS8yMDE0JEVtbWEgUmVhbmV5OiBUaGUgQmVzdCBpcyBZZXQgdG8gQ29tZWQCAQ8VAagBRW1tYSBSZWFuZXkgYWRtaXRzIHNoZSBkb2VzbuKAmXQgaGF2ZSBtYW55IHByZS1yYWNlIHJpdHVhbHMsIGJ1dCBzaGUgZG9lcyBoYXZlIG9uZSB0aGF0IHNoZSBoYXMgdG8gZG8g4oCTIHdpdGhvdXQgZmFpbCDigJMgaWYgaGVyIGRhZCwgTWFyaywgaXMgaW4gdGhlIHN0YW5kcyB3YXRjaGluZy4gZAIGDxYCHgdWaXNpYmxlaGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFg0FGmN0bDAwJEhlYWRlcjEkcm1Qb3J0YWxUYWJzBSZjdGwwMCRIZWFkZXIxJHJtUG9ydGFsVGFicyRpMCRpMCRjdGwwMAUmY3RsMDAkSGVhZGVyMSRybVBvcnRhbFRhYnMkaTEkaTAkY3RsMDAFJmN0bDAwJEhlYWRlcjEkcm1Qb3J0YWxUYWJzJGkyJGkwJGN0bDAzBSZjdGwwMCRIZWFkZXIxJHJtUG9ydGFsVGFicyRpMiRpMCRjdGwwNwUmY3RsMDAkSGVhZGVyMSRybVBvcnRhbFRhYnMkaTMkaTAkY3RsMDAFJmN0bDAwJEhlYWRlcjEkcm1Qb3J0YWxUYWJzJGk0JGkwJGN0bDAwBSZjdGwwMCRIZWFkZXIxJHJtUG9ydGFsVGFicyRpNSRpMCRjdGwwMAUmY3RsMDAkSGVhZGVyMSRybVBvcnRhbFRhYnMkaTYkaTAkY3RsMDAFJmN0bDAwJEhlYWRlcjEkcm1Qb3J0YWxUYWJzJGk3JGkwJGN0bDAwBSZjdGwwMCRIZWFkZXIxJHJtUG9ydGFsVGFicyRpOCRpMCRjdGwwMAUmY3RsMDAkSGVhZGVyMSRybVBvcnRhbFRhYnMkaTkkaTAkY3RsMDAFF2N0bDAwJGN0bDA3JFJhZFJvdGF0b3IxWWtT/SQoxjYOlonygPfbKRJpgKTdON7NY16Ktd/pa6A=" />
+
+<script type="text/javascript">var clickCalledAfterRadconfirm = false;var lastClickedItem = null;function OnClientItemClickingHandler(sender, eventArgs){   if (!clickCalledAfterRadconfirm)      {	   eventArgs.set_cancel(true);	   lastClickedItem = eventArgs.get_item();      if (lastClickedItem.get_text() == "Delete")      {	      radconfirm("Are you sure you want to delete this item?", confirmCallbackFunction);      }      else      {	      if (lastClickedItem.get_navigateUrl() != "" && lastClickedItem.get_navigateUrl() != "#")	      {	      	   window.location.href = lastClickedItem.get_navigateUrl();	      }   	   else if (lastClickedItem.get_navigateUrl() != "#")	      {	   	      lastClickedItem.click();   	   }      }	}}function confirmCallbackFunction(args)   {   if (args)   {	   clickCalledAfterRadconfirm = true;	   lastClickedItem.click();   }   else	   clickCalledAfterRadconfirm = false;   lastClickedItem = null;}</script>
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=RadScriptManager1_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3ac9cbdec3-c810-4e87-846c-fb25a7c08002%3aea597d4b%3bTelerik.Web.UI%2c+Version%3d2013.1.220.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen%3a3e3b0da6-8c39-4d10-9111-25eaee1f7355%3a16e4e7cd%3aed16cbdc%3af7645509%3a24ee1bba%3ae330518b%3a2003d0b8%3a1e771326%3ac8618e41%3aa1a4383a%3a19620875%3a3f6e8f3f" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAASDRgNAkGR36MmiI5FA6HXUWZUfao0wZb0Gi64qpnWy8ssERR1tQ+fACxCAc0xOimQttuhWrG1WxzW4ViG2VKuuXooXYc9UNCo4svNH5sroDMXBjWsTclTHMWC11oA0toE=" />
 	
-    <div id="page-wrap">
-    	<header role="banner">
-        	<div class="branding"><a href="/" class="ir">The Fabric of Our Lives&reg;</a></div>
+	
+	<!-- RadAjaxManager needs to be on Master Page so Controls can use it (only 1 allowed per page). -->
+	<!-- 2013.1.220.45 --><div id="RadAjaxManager1SU">
+	<span id="ctl00_RadAjaxManager1" style="display:none;"></span>
+</div>
+	
+	
+	<div id="wrapper">
+		<div id="body-container">
+			<!-- Header Block -->
+			
+
+
+
+
+<!-- Header Block -->
+<div id="header-menu">
+    <div id="logo">
+        <a href="./" id="Header1_aUsasLogo">
+            <img src="images/usas_logo.png?v=2" id="Header1_imgUSASLogo" alt="USA Swimming Home" /></a>
+    </div>
+    <div id="header-links-and-search" style="float: left;">
+        <div id="meta-info">
+            <a href="/DesktopDefault.aspx?TabId=1822&Alias=Rainbow&Lang=en" id="Header1_aContactUs">Contact Us</a> | <a id="Header1_hlMyUSAS" href="/DesktopDefault.aspx?TabId=2143">My Deck Pass</a> |
+            <span id="Header1_PortalHeaderMenu"><span>
+                    <a href='https://www.usaswimming.org/Secure/Logon.aspx?fromLink=true&returnUrl=%2fDesktopDefault.aspx?TabId=0&Alias=Rainbow&Lang=en'>Sign In</a>
+                </span></span>
+        </div>
+        <div id="header-search">
+            <div id="Header1_SearchPanel">
+	
+                <div style="float: right; padding: 0px 0px 0px 3px;">
+                    <a id="Header1_lbSearch" href="javascript:__doPostBack(&#39;ctl00$Header1$lbSearch&#39;,&#39;&#39;)"><img id="Header1_imgFolder" src="images/buttons/search_btn.jpg" /></a>
+                </div>
+                <div style="float: right;">
+                    <input name="ctl00$Header1$txtSearch" type="text" id="Header1_txtSearch" value="SEARCH" onfocus="javascript:this.value=&#39;&#39;;" tabindex="9999" style="border: 1px solid #A9A9A9; font-size: 11px; color: #999999; height:13px" size="34" onKeyPress="if (event.keyCode == 13){event.returnValue=false;event.cancelBubble = true;document.getElementById(&#39;Header1_lbSearch&#39;).click();}" /></div>
             
-            <ul class="related-links unstyled clearfix">
-            	<li class="updates"><a href="#">Email Updates</a></li>
-                <!-- <li class="mysfab"><a href="http://www.mysteryfabric.com" target="_blank">Explore <em>Mysteryfabric.com</em></a></li> -->
-                <li class="instagram"><a href="http://instagram.com/discover_cotton" target="_blank" class="icon ir">Instagram</a></li>
-                <li class="facebook"><a href="https://www.facebook.com/cotton" target="_blank" class="icon ir">Facebook</a></li>
-                <li class="twitter"><a href="https://twitter.com/DiscoverCotton" target="_blank" class="icon ir">Twitter</a></li>
-                <li class="pinterest"><a href="http://pinterest.com/discovercotton" target="_blank" class="icon ir">Pinterest</a></li>
-            </ul>
-            
-            <div class="divider-light"></div>
-            
-            <nav role="navigation" id="primary-nav">
-            	<ul class="unstyled clearfix">
-                	<li><a href="campaign.html">The Campaign</a></li>
-                    <li><a href="http://cottonstylefiles.thefabricofourlives.com">Style Files Blog</a></li>
-                    <li class="last"><a href="http://cotton24hours.thefabricofourlives.com">24 Hour Runway Show</a></li>
-                </ul>
-            </nav>
-            
-            <div class="divider-light"></div>
-            
-            <nav role="navigation" id="secondary-nav">
-                <div class="email"><a href="#">Email this site</a></div>
-            </nav>
-            
-            <div class="divider-light"></div>
-            
-        </header>
-        
-        <main role="main">
-        	
-            <div id="home-flash-wrap">
-            	<div id="home-flash"></div>
+</div>
+            <div class="clear-float">
             </div>
-            
-        </main>
-        
-		<div class="divider-dark"></div>
-        
-        <footer>
-        	<nav role="navigation" id="footer-nav">
-            	<ul class="unstyled clearfix">
-                	<li class="first"><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                    <li><a href="Contact-Us/">Contact Us</a></li>
+        </div>
+        <div style="width: 851px;">
+            <div id="ctl00_Header1_rmPortalTabs" class="RadMenu RadMenu_USASTopMenu">
+	<ul class="rmRootGroup rmHorizontal">
+		<li class="rmItem rmFirst"><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">Home</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i0_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1135&amp;Alias=Rainbow&amp;Lang=en">Terms of Use</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1863&amp;Alias=Rainbow&amp;Lang=en">RSS Feed</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=865&amp;Alias=Rainbow&amp;Lang=en">Media</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1892&amp;Alias=Rainbow&amp;Lang=en">Privacy</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i0_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i0_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1398&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">About</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i1_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2502&amp;Alias=Rainbow&amp;Lang=en">SwimToday</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2078&amp;Alias=Rainbow&amp;Lang=en">Find a Local Club</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1412&amp;Alias=Rainbow&amp;Lang=en">Mission & Vision</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1636&amp;Alias=Rainbow&amp;Lang=en">Rules & Regulations</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1995&amp;Alias=Rainbow&amp;Lang=en">Headquarters Staff</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1570&amp;Alias=Rainbow&amp;Lang=en">Affiliations & Alliances</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1574&amp;Alias=Rainbow&amp;Lang=en">Marketing Partners</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1822&amp;Alias=Rainbow&amp;Lang=en">Contact Us</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i1_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i1_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1399&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">Member Resources</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div class="mega-div"><div class="mega-left"><h4 class="mega-head">FOR EVERYONE</h4><div id="ctl00_Header1_rmPortalTabs_i2_i0_ctl03" class="RadSiteMap RadSiteMap_MegaNavLeft">
+						<ul class="rsmList rsmLevel rsmTwoLevels">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1501&amp;Alias=Rainbow&amp;Lang=en">Programs & Services</a><ul class="rsmList rsmLevel1">
+								<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1955&amp;Alias=Rainbow&amp;Lang=en">Safe Sport</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1578&amp;Alias=Rainbow&amp;Lang=en">Deck Pass</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2001&amp;Alias=Rainbow&amp;Lang=en">Member Welcome Kit</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1938&amp;Alias=Rainbow&amp;Lang=en">Member Travel Portal</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1579&amp;Alias=Rainbow&amp;Lang=en">Awards & Recognition</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1584&amp;Alias=Rainbow&amp;Lang=en">Swim Camps</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1652&amp;Alias=Rainbow&amp;Lang=en">Conferences, Clinics & Workshops</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1588&amp;Alias=Rainbow&amp;Lang=en">Newsletters & Magazines</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1587&amp;Alias=Rainbow&amp;Lang=en">Sports Medicine </a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1651&amp;Alias=Rainbow&amp;Lang=en">Insurance & Risk Management</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1653&amp;Alias=Rainbow&amp;Lang=en">Diversity & Inclusion</a></li>
+							</ul></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i2_i0_ctl03_ClientState" name="ctl00_Header1_rmPortalTabs_i2_i0_ctl03_ClientState" type="hidden" />
+					</div></div><div class="mega-right"><h4 class="mega-head">FOR YOU</h4><div id="ctl00_Header1_rmPortalTabs_i2_i0_ctl07" class="RadSiteMap RadSiteMap_MegaNavRight">
+						<ul class="rsmList rsmMultiColumn rsmLevel rsmTwoLevels">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1502&amp;Alias=Rainbow&amp;Lang=en">Swimmers</a><ul class="rsmList rsmLevel1">
+								<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2118&amp;Alias=Rainbow&amp;Lang=en">America's Swim Team</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2046&amp;Alias=Rainbow&amp;Lang=en">Featured Articles</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2064&amp;Alias=Rainbow&amp;Lang=en">Swimmers Video Series</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1536&amp;Alias=Rainbow&amp;Lang=en">Age Group Swimming</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1537&amp;Alias=Rainbow&amp;Lang=en">Senior Swimming</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1540&amp;Alias=Rainbow&amp;Lang=en">Open Water</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1541&amp;Alias=Rainbow&amp;Lang=en">Disability</a></li>
+							</ul></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1503&amp;Alias=Rainbow&amp;Lang=en">Parents</a><ul class="rsmList rsmLevel1">
+								<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2580&amp;Alias=Rainbow&amp;Lang=en">Growing Champions For Life</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1696&amp;Alias=Rainbow&amp;Lang=en">Swimming 101</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2208&amp;Alias=Rainbow&amp;Lang=en">Education for Parents</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1700&amp;Alias=Rainbow&amp;Lang=en">Levels of Swimming</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1698&amp;Alias=Rainbow&amp;Lang=en">Learn to Swim</a></li>
+							</ul></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1504&amp;Alias=Rainbow&amp;Lang=en">Coaches</a><ul class="rsmList rsmLevel1">
+								<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1677&amp;Alias=Rainbow&amp;Lang=en">Coach Membership Requirements</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2159&amp;Alias=Rainbow&amp;Lang=en">Coaching Resources</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1688&amp;Alias=Rainbow&amp;Lang=en">Online Learning</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1692&amp;Alias=Rainbow&amp;Lang=en">Clinics & Workshops</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2538&amp;Alias=Rainbow&amp;Lang=en">Coach Features</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1859&amp;Alias=Rainbow&amp;Lang=en">Job Board</a></li>
+							</ul></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1505&amp;Alias=Rainbow&amp;Lang=en">Swim Clubs</a><ul class="rsmList rsmLevel1">
+								<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1606&amp;Alias=Rainbow&amp;Lang=en">Starting a Club</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1615&amp;Alias=Rainbow&amp;Lang=en">Recognition Programs</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1608&amp;Alias=Rainbow&amp;Lang=en">Club Marketing & Fundraising</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1619&amp;Alias=Rainbow&amp;Lang=en">Business & Administration</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1622&amp;Alias=Rainbow&amp;Lang=en">Risk Management & Safety</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1628&amp;Alias=Rainbow&amp;Lang=en">Clinics & Workshops</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1802&amp;Alias=Rainbow&amp;Lang=en">Club Portal Search</a></li>
+							</ul></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1506&amp;Alias=Rainbow&amp;Lang=en">Officials</a><ul class="rsmList rsmLevel1">
+								<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1516&amp;Alias=Rainbow&amp;Lang=en">Officials Tracking System</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1510&amp;Alias=Rainbow&amp;Lang=en">Testing & Certification</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2557&amp;Alias=Rainbow&amp;Lang=en">The Official Blog</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1508&amp;Alias=Rainbow&amp;Lang=en">Education & Training</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1511&amp;Alias=Rainbow&amp;Lang=en">Applications & Forms</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1803&amp;Alias=Rainbow&amp;Lang=en">Recognition Programs</a></li>
+							</ul></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2018&amp;Alias=Rainbow&amp;Lang=en">Governance & LSCs</a><ul class="rsmList rsmLevel1">
+								<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1557&amp;Alias=Rainbow&amp;Lang=en">Swimming Governance</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1517&amp;Alias=Rainbow&amp;Lang=en">LSC Management</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1520&amp;Alias=Rainbow&amp;Lang=en">Conferences & Workshops</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1522&amp;Alias=Rainbow&amp;Lang=en">LSC Websites & Portals</a></li>
+							</ul></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2021&amp;Alias=Rainbow&amp;Lang=en">   </a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2016&amp;Alias=Rainbow&amp;Lang=en">Volunteers</a><ul class="rsmList rsmLevel1">
+								<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1523&amp;Alias=Rainbow&amp;Lang=en">Local Opportunities</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2066&amp;Alias=Rainbow&amp;Lang=en">National Opportunities</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2359&amp;Alias=Rainbow&amp;Lang=en">Zone Workshop Presentations</a></li>
+							</ul></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i2_i0_ctl07_ClientState" name="ctl00_Header1_rmPortalTabs_i2_i0_ctl07_ClientState" type="hidden" />
+					</div></div></div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1400&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">Tips & Training</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i3_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2175&amp;Alias=Rainbow&amp;Lang=en">High Performance Tips</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1891&amp;Alias=Rainbow&amp;Lang=en">In-Water Training Videos</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2119&amp;Alias=Rainbow&amp;Lang=en">Coaches In The Know Videos </a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1545&amp;Alias=Rainbow&amp;Lang=en">Strength & Conditioning</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1546&amp;Alias=Rainbow&amp;Lang=en">Nutrition Center</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1555&amp;Alias=Rainbow&amp;Lang=en">Mental Training</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1551&amp;Alias=Rainbow&amp;Lang=en">Injury Prevention</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1553&amp;Alias=Rainbow&amp;Lang=en">Doping Control</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i3_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i3_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1401&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">Events</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i4_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1420&amp;Alias=Rainbow&amp;Lang=en">Arena Grand Prix Series</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2072&amp;Alias=Rainbow&amp;Lang=en">YMCA Short Course Nationals</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1418&amp;Alias=Rainbow&amp;Lang=en">Nationals</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2146&amp;Alias=Rainbow&amp;Lang=en">Junior Nationals</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1419&amp;Alias=Rainbow&amp;Lang=en">International</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2559&amp;Alias=Rainbow&amp;Lang=en">Mutual of Omaha Duel in the Pool</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1422&amp;Alias=Rainbow&amp;Lang=en">Open Water</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1421&amp;Alias=Rainbow&amp;Lang=en">Speedo Champions Series</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1423&amp;Alias=Rainbow&amp;Lang=en">Zone Championships</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1731&amp;Alias=Rainbow&amp;Lang=en">IM Xtreme Games</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1424&amp;Alias=Rainbow&amp;Lang=en">Online Meet Entry </a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2022&amp;Alias=Rainbow&amp;Lang=en">TV/Webcast Schedule</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1427&amp;Alias=Rainbow&amp;Lang=en">Meet Results </a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2127&amp;Alias=Rainbow&amp;Lang=en">TYR Fran Crippen Memorial Swim Meet </a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2501&amp;Alias=Rainbow&amp;Lang=en">Novaquatics Speedo Grand Challenge</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i4_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i4_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1402&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">Times</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i5_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1464&amp;Alias=Rainbow&amp;Lang=en">Times Search</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1465&amp;Alias=Rainbow&amp;Lang=en">Time Standards</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1475&amp;Alias=Rainbow&amp;Lang=en">Records & History</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1486&amp;Alias=Rainbow&amp;Lang=en">Age Group Rankings</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1492&amp;Alias=Rainbow&amp;Lang=en">IMX & Power Point</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1494&amp;Alias=Rainbow&amp;Lang=en">NCAA Information</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1788&amp;Alias=Rainbow&amp;Lang=en">Times Information</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i5_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i5_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1403&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">News</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i6_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2536&amp;Alias=Rainbow&amp;Lang=en">Org News & Blogs</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1558&amp;Alias=Rainbow&amp;Lang=en">Member</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1561&amp;Alias=Rainbow&amp;Lang=en">Event</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1563&amp;Alias=Rainbow&amp;Lang=en">National Team</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1564&amp;Alias=Rainbow&amp;Lang=en">SwimCam Galleries</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i6_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i6_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1801&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">National Team</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i7_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1454&amp;Alias=Rainbow&amp;Lang=en">National Team Rosters</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1457&amp;Alias=Rainbow&amp;Lang=en">National Junior Team Rosters</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1453&amp;Alias=Rainbow&amp;Lang=en">National Team Bios</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1456&amp;Alias=Rainbow&amp;Lang=en">National Junior Team Bios</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2049&amp;Alias=Rainbow&amp;Lang=en">National Team Features</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2050&amp;Alias=Rainbow&amp;Lang=en">National Team Videos</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2033&amp;Alias=Rainbow&amp;Lang=en">Swimmers in the Community</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2141&amp;Alias=Rainbow&amp;Lang=en">Featured Blogs</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1466&amp;Alias=Rainbow&amp;Lang=en">Selection Procedures</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1869&amp;Alias=Rainbow&amp;Lang=en">Athlete Services</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1695&amp;Alias=Rainbow&amp;Lang=en">National Team Coaches</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i7_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i7_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem "><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1450&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">Olympic Trials</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i8_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2129&amp;Alias=Rainbow&amp;Lang=en">Video Archive</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2347&amp;Alias=Rainbow&amp;Lang=en">SwimCam Gallery</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2133&amp;Alias=Rainbow&amp;Lang=en">About Omaha</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2069&amp;Alias=Rainbow&amp;Lang=en">Past Trials Results</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i8_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i8_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li><li class="rmItem rmLast"><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2079&amp;Alias=Rainbow&amp;Lang=en" class="rmLink rmRootLink"><span class="rmText">Foundation</span></a><div class="rmSlide">
+			<ul class="rmVertical rmGroup rmLevel1">
+				<li class="rmItem rmFirst rmLast rmTemplate"><div class="rmText">
+					<div id="ctl00_Header1_rmPortalTabs_i9_i0_ctl00" class="RadSiteMap RadSiteMap_MegaNav" style="width:auto;">
+						<ul class="rsmList rsmLevel rsmOneLevel">
+							<li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2080&amp;Alias=Rainbow&amp;Lang=en">What is the Foundation</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2085&amp;Alias=Rainbow&amp;Lang=en">Support the Foundation</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2092&amp;Alias=Rainbow&amp;Lang=en">Saving Lives Through Make a Splash</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2096&amp;Alias=Rainbow&amp;Lang=en">Building Champions</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2097&amp;Alias=Rainbow&amp;Lang=en">National Team Alumni</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2101&amp;Alias=Rainbow&amp;Lang=en">Foundation Events</a></li><li class="rsmItem"><a class="rsmLink" href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2102&amp;Alias=Rainbow&amp;Lang=en">Golden Goggle Awards & Silent Auction</a></li>
+						</ul><input id="ctl00_Header1_rmPortalTabs_i9_i0_ctl00_ClientState" name="ctl00_Header1_rmPortalTabs_i9_i0_ctl00_ClientState" type="hidden" />
+					</div>
+				</div></li>
+			</ul>
+		</div></li>
+	</ul><input id="ctl00_Header1_rmPortalTabs_ClientState" name="ctl00_Header1_rmPortalTabs_ClientState" type="hidden" />
+</div>
+            <div class="clear-float">
+            </div>
+        </div>
+    </div>
+</div>
+
+			<!-- FrontPage Flash Movie -->
+			<div id="home-flash-container">
+				<div id="FlashPane">
+	
+				<div class='ModuleBody_USAS'>
+			
+<script src="/Include/slides.min.jquery.js"></script>
+<style type="text/css">
+    @font-face {
+		font-family: 'Klavika medium';
+		src: url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_EOT/KlavikaWebBasicMedium.eot'); 
+		src: url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_EOT/KlavikaWebBasicMedium.eot?#iefix') format('embedded-opentype'),
+			 url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_WOFF/KlavikaWebBasicMedium.woff') format('woff');
+	}
+	
+	#slides {
+		width:975px;
+		position:relative;
+		z-index:0;
+	}
+
+	.slides_container {
+		width:100%;
+		height:550px;
+		overflow:hidden;
+		display:none;
+		background:#fff url('./images/loadingwheel.gif') no-repeat 50% 50%;
+		position:relative;
+		margin:0 auto;
+		box-shadow: 0px 1px 5px #999999;
+		transform: translate3d(0,0,0);
+		-ms-transform:translate3d(0,0,0);
+		-moz-transform:translate3d(0,0,0);
+		-o-transform:translate3d(0,0,0);
+	}
+
+	.slides_container img {
+		position:absolute;
+		border:none;
+	}
+
+	.slides_container div.slide {
+		width:975px;
+		height:550px;
+		display:block;
+	}
+	
+	div.usas-caption-container {
+	    font-family: 'Klavika medium', Arial, Helvetica, sans-serif;
+	    font-size: 24pt;
+	    color:#eee;
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		height: 160px;
+		z-index:4;
+	}
+
+	.pagination {
+		bottom: 20px; 
+		position:absolute;
+		z-index:5;
+		background: rgb(190, 190, 190);
+		background: rgba(190, 190, 190, 0.6);
+		padding: 6px 6px 7px 5px;
+	}
+
+	.pagination li {
+		width:11px; 
+		height:11px;
+		float:left;
+		overflow:hidden;
+		vertical-align:middle;
+		cursor:pointer;
+		margin: 0px 6px 0px 6px;
+		_position:relative;/*IE6 hack*/
+	}
+	
+	.pagination li a {
+		display:block;
+		width:11px;
+		height:0;
+		padding-top:11px;
+		background:transparent url('./Images/bullet.png') no-repeat 0 0;
+	}
+	.pagination li.current a {
+		background-position:0 -11px;
+	}
+	
+	div.usas-caption {
+		font-size:1.45em;
+		line-height:1.33;
+		text-transform: uppercase;
+		z-index: 3;
+		text-shadow: 10px 10px 20px #999,
+		            -10px 10px 20px #999,
+		            -10px -10px 20px #999,
+		            10px -10px 20px #999;
+	}
+
+	div.usas-sub-caption {
+		font-size:12pt;
+		top: 55px;
+		width: 600px;
+		z-index: 4;
+		text-shadow: 10px 10px 20px #999,
+		            -10px 10px 20px #999;
+	}
+
+	div.usas-caption,
+	div.usas-sub-caption {
+		color: #fff;
+		position: absolute;
+		filter: Shadow(direction=135,strength=10,color=999999);
+	}
+	
+	a.usas-caption-button, 
+	a.usas-caption-button:link, 
+	a.usas-caption-button:visited, 
+	a.usas-caption-button:hover,
+	a.usas-caption-button:active,
+	div.usas-caption-title {
+		color: #fff;
+		font-style: italic;
+		font-weight: normal;
+		text-shadow: none;
+		text-decoration: none;
+		height: 16px;
+	}
+
+	a.usas-caption-button {
+		position:absolute;
+		bottom: 33px;
+		font-size: 11px;
+	}
+
+	a.usas-caption-button:hover {
+		background: rgb(204, 0, 51); 
+	}
+
+	div.usas-caption-title {
+		position:absolute;
+		bottom: 33px;
+		padding: 4px 15px 4px 15px;
+		background-color: #000;
+		font-size: 12px;
+	}
+</style>
+<style type="text/css">.pagination {right: 0px;}</style>
+<div id="slides">
+  <div class="slides_container">
+      <div class="slide">
+            <img src="/_Rainbow/images/_Homepage Flash/DeckPassMobile.jpg" alt="Programs & Services" class="slideImage" />
+          <div class="usas-caption-container">
+                <div class="usas-caption">Deck Pass Plus</div>
+                <div class="usas-sub-caption">Sign up now to earn patches for your achievements, compete and connect. </div>
+                <a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2151&Alias=Rainbow&Lang=en" class="usasbutton usas-caption-button">Learn More</a>
+                <div class="usas-caption-title">Programs & Services</div>
+          </div>
+      </div>
+      <div class="slide">
+            <img src="/_Rainbow/images/_Homepage Flash/Swimmers_3-28-12.jpg" alt="Swimmers" class="slideImage" />
+          <div class="usas-caption-container">
+                <div class="usas-caption">Swimmers</div>
+                <div class="usas-sub-caption">Fix Late Breathing in Freestyle</div>
+                <a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2175&Alias=Rainbow&Lang=en" class="usasbutton usas-caption-button">Learn More</a>
+                <div class="usas-caption-title">Swimmers</div>
+          </div>
+      </div>
+      <div class="slide">
+            <img src="/_Rainbow/images/_Homepage Flash/Volunteers_1-5-11.jpg" alt="Swim Clubs" class="slideImage" />
+          <div class="usas-caption-container">
+                <div class="usas-caption">Swim Clubs</div>
+                <div class="usas-sub-caption">Club Excellence Spotlight: Davis Aquadarts</div>
+                <a href="http://www.usaswimming.org/ViewNewsArticle.aspx?TabId=0&itemid=5994&mid=8712" class="usasbutton usas-caption-button">Learn More</a>
+                <div class="usas-caption-title">Swim Clubs</div>
+          </div>
+      </div>
+      <div class="slide">
+            <img src="/_Rainbow/images/_Homepage Flash/SwimAThonFrontPage2014-(4).jpg" alt="Foundation" class="slideImage" />
+          <div class="usas-caption-container">
+                <div class="usas-caption">Swim-a-Thon™</div>
+                <div class="usas-sub-caption">Join the hundreds of clubs and teams across the country that are raising money and having fun when they host a  USA Swimming Foundation Swim-a-Thon™!</div>
+                <a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1613&Alias=Rainbow&Lang=en" class="usasbutton usas-caption-button">Learn More</a>
+                <div class="usas-caption-title">Foundation</div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script type="text/javascript">var sCaptionSide = 'left'</script>
+<script type="text/javascript">
+    $(document).ready(
+        function() {
+            var offsetPx = 10 + (23 * $('.slideImage').length);
+            var sPaginationSide = sCaptionSide == 'right' ? 'left' : 'right';
+            $('.usas-caption-title').css(sPaginationSide, offsetPx.toString() + 'px');
+            $('a.usas-caption-button').css(sCaptionSide, '22px');
+            $('div.usas-caption').css(sCaptionSide, '22px');
+            $('div.usas-caption').css('text-align', sCaptionSide);
+            $('div.usas-sub-caption').css(sCaptionSide, '22px');
+            $('div.usas-sub-caption').css('text-align', sCaptionSide);
+        }
+    );
+    $(function() {
+        $('#slides').slides({
+            preload: true,
+            preloadImage: './images/loadingwheel.gif',
+            effect: 'fade',
+            play: 6000, /*600 = 1 second*/
+            pause: 1800,
+            hoverPause: true
+        });
+    });
+</script>
+
+
+				</div>
+			
+</div>
+			</div>
+			<!-- Left Column -->
+			<div id="home-left-column">
+				<div id="LeftPane">
+	
+				<div class='ModuleBody_USAS'>
+			
+
+<link href="/styles/jquery-ui-1.9.2.custom.css?v=7.88" rel="stylesheet">
+<script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+<style type="text/css">#accordion {width: 223;height: 435px;}#accordion .ui-state-default, #accordion .ui-widget-content .ui-state-default, #accordion .ui-widget-header .ui-state-default {background: #CC0033 url('/Images/backgrounds/RedBarBackground.png') 50% 50% repeat-x;}#accordion .ui-state-active, #accordion .ui-widget-content .ui-state-active, #accordion .ui-widget-header .ui-state-active,#accordion .ui-accordion-content-active {background: #CC0033 url('/Images/backgrounds/RedSwimmerBackground.png') repeat-x;}</style>
+<style type="text/css">
+    @font-face {
+		font-family: 'Klavika medium';
+		src: url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_EOT/KlavikaWebBasicMedium.eot'); 
+		src: url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_EOT/KlavikaWebBasicMedium.eot?#iefix') format('embedded-opentype'),
+			 url('/Fonts/KlavikaWebBasic/KlavikaWebBasic_WOFF/KlavikaWebBasicMedium.woff') format('woff');
+	}
+	
+    #accordion {
+	    font-family: 'Klavika medium', Arial, Helvetica, sans-serif;
+        margin: auto;
+	    color: #ffffff;
+	    overflow: hidden;
+    }
+    #accordion .ui-icon  {
+        background-image: url('/Images/jquery-ui/ui-icons_ffffff_512x480.png'); 
+        width: 32px;
+        height: 32px;
+    }
+    #accordion .ui-state-default, #accordion .ui-widget-content .ui-state-default, #accordion .ui-widget-header .ui-state-default { 
+       border-style: none;
+    }
+    #accordion .ui-state-active, #accordion .ui-widget-content .ui-state-active, #accordion .ui-widget-header .ui-state-active  {
+        border-style: none;
+        background-position: left 13px;
+    }
+    #accordion .ui-widget-content a { color: #ffffff; }
+    #accordion .ui-accordion-header .ui-accordion-header-icon {
+        position:absolute;
+        right: -4px;
+        top: 5px;
+        left: auto;
+    }
+    #accordion .ui-state-active .ui-accordion-header-icon {
+        top: 17px;
+    }
+    #accordion .ui-icon-triangle-1-e  {
+        background-position: -32px -32px;
+    }
+    #accordion .ui-icon-triangle-1-s  {
+        background-position: -96px -32px;
+    }
+    #accordion .ui-accordion-header {
+        padding-left:10px;
+        padding-right:10px;
+        margin-top: 0px;
+    }
+    #accordion h3 {
+	    font-family: 'Klavika medium', Arial, Helvetica, sans-serif;
+        font-size: 13pt;
+        font-weight: normal;
+        display: block;
+        height: 40px;
+        vertical-align: middle;
+        padding-bottom:0px;
+    }
+    #accordion .ui-state-active .accordion-title {
+        display: none;
+    }
+    #accordion .ui-accordion-content-active { 
+        border-style: none;
+        background-position: left -35px;
+        padding-left: 5px;
+        padding-right: 5px;
+        overflow: visible !important;
+    }
+    #accordion .accordion-content-text {
+        position: relative;
+        float: left;
+        top: -45px;
+        width: 100%;
+    }
+    #accordion .accordion-content-text-header {
+        font-size: 18pt;
+        text-transform:uppercase;
+        line-height: 1;
+	    color: #ffffff;
+    }
+    #accordion .accordion-content-text-subhead {
+        font-size: 12pt;
+        line-height: 1;
+        text-transform:uppercase;
+        font-weight:normal;
+        margin-top: 5px;
+	    color: #ffffff;
+    }
+    #accordion .accordion-content-text-description {
+	    font-family: Arial, Helvetica, sans-serif;
+	    font-weight: lighter;
+        font-size: 10pt;
+        line-height: 1;
+        font-weight:normal;
+        margin: 10px 0px 10px 0px;
+	    color: #ffffff;
+    }
+    #accordion a.usasbutton, #accordion a.usasbutton-red {
+	    font-family: Arial, Helvetica, sans-serif;
+	    font-size: 11px;
+    }
+    
+</style>
+
+<div id="accordion">
+    <h3><span class="accordion-title">SwimToday</span></h3>
+  <div>
+      <div class="accordion-content-text">
+            <span class="accordion-content-text-header">Join The Fun!</span>
+            <div class="accordion-content-text-subhead">Sign Up Now!</div>
+            <div class="accordion-content-text-description">Join the campaign that will show the “fun” side and the benefits of swimming, and encourage parents to consider putting their child on a swim team. Click below to sign your club up now to receive a free promotional kit! Supplies are limited so apply for the kit today. </div>
+            <div style="height: 16px;width: 100px;"><a href="http://swimtoday.org" class="usasbutton-red">SwimToday</a></div>
+      </div>
+  </div>
+    <h3><span class="accordion-title">Find a Club</span></h3>
+  <div>
+      <div class="accordion-content-text">
+            <span class="accordion-content-text-header">Join Today</span>
+            <div class="accordion-content-text-subhead">Become a part of America's Swim Team</div>
+            <div class="accordion-content-text-description">Want to be a teammate of Ryan Lochte and Natalie Coughlin? Find a USA Swimming club near you and dive into the world of competitive swimming for fun, friends and exclusive member benefits.</div>
+            <div style="height: 16px;width: 100px;"><a href="/DesktopDefault.aspx?TabId=1577" class="usasbutton-red">Find a Club</a></div>
+      </div>
+  </div>
+    <h3><span class="accordion-title">Learn to Swim</span></h3>
+  <div>
+      <div class="accordion-content-text">
+            <span class="accordion-content-text-header">Help Your Child</span>
+            <div class="accordion-content-text-subhead">Learn to Swim</div>
+            <div class="accordion-content-text-description">Introduce your child to the lifelong benefits swimming can provide and keep them safe around the water. Find a nearby learn-to-swim program.</div>
+            <div style="height: 16px;width: 100px;"><a href="http://swimfoundation.org/Page.aspx?pid=347" class="usasbutton-red">Find Lessons</a></div>
+      </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+    $(function() {
+        $("#accordion").accordion({
+            event: "click hoverintent",
+            animate: 600,
+            heightStyle: "fill",
+            changestart: function(event, ui) {
+                $('#' + ui.newContent[0].id + ' .accordion-content-text').css({ 'visibility': 'hidden' });
+                $('#' + ui.oldContent[0].id + ' .accordion-content-text').css({ 'visibility': 'hidden' });
+            },
+            change: function(event, ui) {
+            $('#' + ui.newContent[0].id + ' .accordion-content-text').fadeIn(1200, function() { $('#' + ui.newContent[0].id + ' .accordion-content-text').css({ 'visibility': 'visible' }); });
+                $('#' + ui.oldContent[0].id + ' .accordion-content-text').css({ 'visibility': 'visible' });
+            }
+        });
+    });
+
+    var cfg = ($.hoverintent = {
+        sensitivity: 7,
+        interval: 10
+    });
+
+    $.event.special.hoverintent = {
+        setup: function() {
+            $(this).bind("mouseover", jQuery.event.special.hoverintent.handler);
+        },
+        teardown: function() {
+            $(this).unbind("mouseover", jQuery.event.special.hoverintent.handler);
+        },
+        handler: function(event) {
+            var that = this,
+                args = arguments,
+                target = $(event.target),
+                cX, cY, pX, pY;
+
+            function track(event) {
+                cX = event.pageX;
+                cY = event.pageY;
+            };
+
+            pX = event.pageX;
+            pY = event.pageY;
+
+            function clear() {
+                target.unbind("mousemove", track)
+                      .unbind("mouseout", arguments.callee);
+                clearTimeout(timeout);
+            }
+
+            function handler() {
+                if ((Math.abs(pX - cX) + Math.abs(pY - cY)) < cfg.sensitivity) {
+                    clear();
+                    event.type = "hoverintent";
+                    // prevent accessing the original event since the new event
+                    // is fired asynchronously and the old event is no longer
+                    // usable (#6028)
+                    event.originalEvent = {};
+                    jQuery.event.handle.apply(that, args);
+                } else {
+                    pX = cX;
+                    pY = cY;
+                    timeout = setTimeout(handler, cfg.interval);
+                }
+            }
+
+            var timeout = setTimeout(handler, cfg.interval);
+            target.mousemove(track).mouseout(clear);
+            return true;
+        }
+    };
+</script>
+
+
+				</div>
+			
+</div>
+			</div>
+			<!-- Middle Column -->
+			<div id="home-middle-column">
+				<div id="home-newsbox">
+					<div class="home-newsbox-stars"></div>
+					<div class="headline-white">
+						<div id="TopPane">
+	
+				<div class='ModuleBody_USASAlt2'>
+			
+			<span id="ctl04_DesktopModuleTitle">
+				
+			<div class='ModuleHeadTitle_USASAlt2'><h2>
+			Featured Story
+			</h2>
+			
+					</div><div class="clear-float"></div>
+			</span>
+			
+<div id="divArticle" class="clearfix">
+    <div id="divSubtitle">
+        <span id="ctl04_lblDate" class="NormalBold">4/15/2014</span>&nbsp;
+        <span id="ctl04_lblTitle" class="NormalBold">20 Question Tuesday: Breeja Larson</span>
+    </div>
+    <div class="clear-float" style="height: 10px">
+    </div>
+    <div id="divStoryImage" style="vertical-align: top;">
+        <div id="ctl04_divImage">
+            <img id="ctl04_imgImage" src="/_Rainbow/images/_2013%20Nationals/Breeja-Larson-small.jpg" height="108" width="144" style="float:right; padding:0px 0px 0px 10px" />
+        </div>
+        <div id="ctl04_divStoryButton" style="float:left; width:246px">
+            <div id="ctl04_divStoryBody" style="float: left">
+                <span id="ctl04_lblStory" class="Normal">Breeja Larson had quite a career at Texas A&M. After the 2012 Olympics and her final year as an Aggie swimmer last month at NCAAs, where she claimed another title, she’s looking forward to the future. She talks about that and more in this week’s 20 Question Tuesday.</span>
+            </div>
+            <div id="ctl04_divButton">
+                <ul class="button">
+                    <li>
+                        <a id="ctl04_lnkReadMore" href="http://www.usaswimming.org/ViewNewsArticle.aspx?TabId=0&amp;Alias=Rainbow&amp;Lang=en&amp;ItemId=6007&amp;mid=12660">Read More</a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
+            <div class="clear-float">
+            </div>
+        </div>
+    </div>
+</div>
+
+			
+				
+				</div>
+			
+			
+</div>
+						<div class="clear-float"></div>
+					</div>
+					<div class="home-newsbox-stars"></div>
+					<div>
+						<div id="ContentPane">
+	
+				<div class='ModuleBody_USASAlt2'>
+			
+			<span id="ctl05_DesktopModuleTitle">
+				
+			<div class='ModuleHeadTitle_USASAlt2'><h2>
+			News
+			</h2>
+			
+					</div><div class="clear-float"></div>
+			</span>
+			
+
+<div class="italics-links">
+    
+            <a id="ctl05_rptNewsArticles_hlTitle_0" class="newsTitle" href="ViewNewsArticle.aspx?TabId=0&amp;itemid=6006&amp;mid=8712">
+                <span class="ellipse">
+                    <font class="newsDate"> 04/14/2014&nbsp;</font>
+                    12-year-old Explains Why Her #CoachesAre Heroes
+                </span>
+            </a>
+            <div id="divAbstract" class="newsAbstractHidden">
+                12-year-old Shrusti Joshi of Stingrays Swimming wrote why her #CoachesAre heroes. 
+                <div style="height: 10px">
+                </div>
+            </div>
+        
+            <a id="ctl05_rptNewsArticles_hlTitle_1" class="newsTitle" href="ViewNewsArticle.aspx?TabId=0&amp;itemid=6004&amp;mid=8712">
+                <span class="ellipse">
+                    <font class="newsDate"> 04/14/2014&nbsp;</font>
+                    Fix Late Breathing in Freestyle 
+                </span>
+            </a>
+            <div id="divAbstract" class="newsAbstractHidden">
+                Breathing too late in freestyle is one of the most common and problematic issues in all of swimming. If you have no idea what it means to breathe late, then you’re probably guilty of it too.
+                <div style="height: 10px">
+                </div>
+            </div>
+        
+            <a id="ctl05_rptNewsArticles_hlTitle_2" class="newsTitle" href="ViewNewsArticle.aspx?TabId=0&amp;itemid=6005&amp;mid=8712">
+                <span class="ellipse">
+                    <font class="newsDate"> 04/14/2014&nbsp;</font>
+                    Olympic Gold Medalist Matt Biondi Speaks at National Junior Team Camp
+                </span>
+            </a>
+            <div id="divAbstract" class="newsAbstractHidden">
+                Olympic gold medalist Matt Biondi spoke at the USA Swimming National Junior Team Select Camp April 12.
+                <div style="height: 10px">
+                </div>
+            </div>
+        
+            <a id="ctl05_rptNewsArticles_hlTitle_3" class="newsTitle" href="ViewNewsArticle.aspx?TabId=0&amp;itemid=6003&amp;mid=8712">
+                <span class="ellipse">
+                    <font class="newsDate"> 04/14/2014&nbsp;</font>
+                    Mike's Mailbag: High School vs. Club
+                </span>
+            </a>
+            <div id="divAbstract" class="newsAbstractHidden">
+                Every Monday I answer questions from swimmers around the country. If you have a question please email me at swimmingstories@gmail.com. 
+
+                <div style="height: 10px">
+                </div>
+            </div>
+        
+            <a id="ctl05_rptNewsArticles_hlTitle_4" class="newsTitle" href="ViewNewsArticle.aspx?TabId=0&amp;itemid=6002&amp;mid=8712">
+                <span class="ellipse">
+                    <font class="newsDate"> 04/14/2014&nbsp;</font>
+                    Phelps, Lochte and Ledecky Expected to Highlight Arena Grand Prix at Mesa Field 
+                </span>
+            </a>
+            <div id="divAbstract" class="newsAbstractHidden">
+                Olympic gold medalists and world record holders Michael Phelps, Ryan Lochte and Katie Ledecky are expected to headline a star-studded field for next week’s Arena Grand Prix at Mesa, slated for April 24-26 at the Skyline Aquatic Center. 
+                <div style="height: 10px">
+                </div>
+            </div>
+        
+            <a id="ctl05_rptNewsArticles_hlTitle_5" class="newsTitle" href="ViewNewsArticle.aspx?TabId=0&amp;itemid=6001&amp;mid=8712">
+                <span class="ellipse">
+                    <font class="newsDate"> 04/12/2014&nbsp;</font>
+                    Meyer, Twichell Take Inaugural Crippen Cup Titles 
+                </span>
+            </a>
+            <div id="divAbstract" class="newsAbstractHidden">
+                USA Swimming National Team members Alex Meyer and Ashley Twichell outdistanced more than 50 American and international open water standouts Saturday to claim the inaugural Crippen Cup 10-kilometer Marathon Invitational titles in Fort Myers, Fla., at Miromar Lakes Beach and Golf Club
+                <div style="height: 10px">
+                </div>
+            </div>
+        
+            <a id="ctl05_rptNewsArticles_hlTitle_6" class="newsTitle" href="ViewNewsArticle.aspx?TabId=0&amp;itemid=5998&amp;mid=8712">
+                <span class="ellipse">
+                    <font class="newsDate"> 04/11/2014&nbsp;</font>
+                    Blog: National Junior Team Camp 
+                </span>
+            </a>
+            <div id="divAbstract" class="newsAbstractHidden">
+                Hear firsthand from the athletes and coaches attending this week's National Junior Team Camp at the U.S. Olympic Training Center in Colorado Springs. 
+                <div style="height: 10px">
+                </div>
+            </div>
+        
+            <a id="ctl05_rptNewsArticles_hlTitle_7" class="newsTitle" href="ViewNewsArticle.aspx?TabId=0&amp;itemid=5999&amp;mid=8712">
+                <span class="ellipse">
+                    <font class="newsDate"> 04/11/2014&nbsp;</font>
+                    Emma Reaney: The Best is Yet to Come
+                </span>
+            </a>
+            <div id="divAbstract" class="newsAbstractHidden">
+                Emma Reaney admits she doesn’t have many pre-race rituals, but she does have one that she has to do – without fail – if her dad, Mark, is in the stands watching. 
+                <div style="height: 10px">
+                </div>
+            </div>
+        
+</div>
+<div class="clear-float">
+</div>
+
+
+<div class="clear-float">
+</div>
+<div id="ctl05_divMoreButton">
+    <ul class="button">
+        <li>
+            <a id="ctl05_lbMore" href="javascript:__doPostBack(&#39;ctl00$ctl05$lbMore&#39;,&#39;&#39;)">More News</a>
+        </li>
+    </ul>
+</div>
+
+
+			
+				
+				</div>
+			
+			
+</div>
+					</div>
+					<div class="home-newsbox-stars clear-float"></div>
+				</div>
+			</div>
+			<!-- Right Column -->
+			<div id="home-right-column">
+				<div id="RightPane">
+	
+				<div class='ModuleBody_USASAlt2'>
+			<div id="ctl06_divSidebarDivider" class="sidebar-divider sidebar_padding">
+</div>
+<div id="ctl06_divMain" class="sidebar-content-box clearfix">
+    
+    <div id="ctl06_divContent" class="sidebar-callout-content">
+        <div id="ctl06_divTitle">
+            <h2>
+                <span id="ctl06_lblSidebarTitle" style="vertical-align: top;">Next Webinar April 16</span>
+            </h2>
+        </div>
+        <div id="ctl06_divTopImage" class="sidebar-callout-image clearfix" style="visibility: collapse">
+            <br />
             
-            <ul class="related-links unstyled clearfix">
-                <li class="instagram"><a href="http://instagram.com/discover_cotton" target="_blank" class="icon ir">Instagram</a></li>
-                <li class="facebook"><a href="https://www.facebook.com/cotton" target="_blank" class="icon ir">Facebook</a></li>
-                <li class="twitter"><a href="https://twitter.com/DiscoverCotton" target="_blank" class="icon ir">Twitter</a></li>
-                <li class="pinterest"><a href="http://pinterest.com/discovercotton" target="_blank" class="icon ir">Pinterest</a></li>
+        </div>
+        <div id="ctl06_divBody" style="position: relative;top: -12px;">
+            <br />
+            <span id="ctl06_lblSidebarText">Grow your program by at least 50%, while improving swimmer quality. How to set club goals for growth and use specific principles to achieve them. The webinar will begin at 10 a.m. MT</span>
+        </div>
+        <div id="ctl06_divBottomImage" class="sidebar-callout-image" style="visibility: collapse">
+            
+        </div>
+        <div id="ctl06_divButton" style="visibility:visible; clear:both;">
+            <ul class="button">
+                <li><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1920&Alias=Rainbow&Lang=en" id="ctl06_lnkButton" target="_self">Register Now</a></li>
             </ul>
-            
-            <p class="legal">AMERICA'S COTTON PRODUCERS AND IMPORTERS. Service Marks / Trademarks of Cotton Incorporated. &copy; <span class="year"></span> Cotton Incorporated.</p>
-        </footer>
-        
-        <div class="divider-dark"></div>
-        
-    </div><!-- end page-wrap -->
-	
-    <p class="secondaryLegal">This website uses the Instagram&trade; API and is not endorsed or certified by Instagram or Instagram, Inc. <br>
-    	All Instagram&trade; logos and trademarks displayed on this website are property of Instagram, Inc.</p>
-	
-    
+        </div>
+        <div id="ctl06_divImageButton" style="visibility:collapse; clear:both;">
+            <ul class="button">
+                    
+            </ul>
+        </div>
+    </div>
+</div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="js/vendor/jquery.jqURL.min.js"></script>
-    <script src="js/vendor/swfobject.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/home.js"></script>
+				</div>
+			<span id="ctl07_DesktopModuleTitle"><table width="100%">
+		<tr>
+			<td width="100%"></td>
+		</tr>
+	</table></span>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td valign="middle">
+                        
+                    </td>
+                    <td>
+                        <div id="ctl00_ctl07_RadRotator1" class="RadRotator RadRotator_Default">
+		<div class="rrRelativeWrapper">
+			<div class="rrClipRegion">
+				<ul class="rrItemsList">
+					<li class="rrItem"><div id="ctl00_ctl07_RadRotator1_i0">
+						
+                                <img src="/_Rainbow/images/_Deck Pass/DeckPass300x250ad.gif" id="ctl00_ctl07_RadRotator1_i0_radRotImage" alt="" class="radRotateImage" onclick="javascript:window.open(&#39;http://www.usaswimming.org/DesktopDefault.aspx?TabId=2151&amp;Alias=Rainbow&amp;Lang=en&#39;, &#39;RotatingImageSite&#39;);" />
+                                
+                            
+					</div></li><li class="rrItem"><div id="ctl00_ctl07_RadRotator1_i1">
+						
+                                <img src="/_Rainbow/images/_Program Logos/USASwimming_OfficialGear_30.gif" id="ctl00_ctl07_RadRotator1_i1_radRotImage" alt="" class="radRotateImage" onclick="javascript:window.open(&#39;http://shop.usaswimming.org/&#39;, &#39;RotatingImageSite&#39;);" />
+                                
+                            
+					</div></li><li class="rrItem"><div id="ctl00_ctl07_RadRotator1_i2">
+						
+                                <img src="/_Rainbow/images/_AST Recruiting/ASTjoinusButtons-01.jpg" id="ctl00_ctl07_RadRotator1_i2_radRotImage" alt="" class="radRotateImage" onclick="javascript:window.open(&#39;http://www.usaswimming.org/DesktopDefault.aspx?TabId=1577&amp;Alias=Rainbow&amp;Lang=en&#39;, &#39;RotatingImageSite&#39;);" />
+                                
+                            
+					</div></li><li class="rrItem"><div id="ctl00_ctl07_RadRotator1_i3">
+						
+                                <img src="/_Rainbow/images/_Foundation/SwimaThonAd300x250_March2014.jpg" id="ctl00_ctl07_RadRotator1_i3_radRotImage" alt="" class="radRotateImage" onclick="javascript:window.open(&#39;http://www.usaswimming.org/DesktopDefault.aspx?TabId=1613&amp;Alias=Rainbow&amp;Lang=en&#39;, &#39;RotatingImageSite&#39;);" />
+                                
+                            
+					</div></li><li class="rrItem"><div id="ctl00_ctl07_RadRotator1_i4">
+						
+                                <img src="/_Rainbow/images/_Store Images/13-14_USABannerV422.gif" id="ctl00_ctl07_RadRotator1_i4_radRotImage" alt="" class="radRotateImage" onclick="javascript:window.open(&#39;http://www.swimoutlet.com/Make_A_Splash_s/8946.htm&#39;, &#39;RotatingImageSite&#39;);" />
+                                
+                            
+					</div></li>
+				</ul>
+			</div><a class="rrButton rrButtonUp" href="javascript:void(0);">&nbsp;</a><a class="rrButton rrButtonLeft" href="javascript:void(0);">&nbsp;</a><a class="rrButton rrButtonRight" href="javascript:void(0);">&nbsp;</a><a class="rrButton rrButtonDown" href="javascript:void(0);">&nbsp;</a>
+		</div><input id="ctl00_ctl07_RadRotator1_ClientState" name="ctl00_ctl07_RadRotator1_ClientState" type="hidden" />
+	</div>
+                    </td>
+                    <td valign="middle">
+                        
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
 
-    <script>
-        var _gaq=[['_setAccount','UA-314078-2'],['_trackPageview']];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
+</div>
+			</div>
+			<div class="clear-float"></div>
+		
+            <script type="text/javascript">
+                setTimeout(function () {
+                    var a = document.createElement("script");
+                    var b = document.getElementsByTagName("script")[0];
+                    a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0012/9585.js?" + Math.floor(new Date().getTime() / 3600000);
+                    a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+                }, 1);
+            </script>
+        
+        </div>
+	</div>
+	<!-- Footer -->
+	
+<div id="footer">
+	<div id="footer-left">
+		<div id="footer-left-content">
+			<a href="/DesktopDefault.aspx?TabId=865&Alias=Rainbow&Lang=en">Media Center</a> | <a href="/DesktopDefault.aspx?TabId=1135&Alias=Rainbow&Lang=en">Terms of Use</a> | <a href="/DesktopDefault.aspx?TabId=1892&Alias=Rainbow&Lang=en">Privacy Statement</a> | <a href="/DesktopDefault.aspx?TabId=1822&Alias=Rainbow&Lang=en">Contact Us</a>
+			<br />
+			&copy; 2010 USA Swimming
+		</div>
+		<div id="footer-sponsors" style="text-align:center;vertical-align:middle">
+			<a href="http://www.arenausa.com" target="_blank"><img src="images/sponsors/Arena-footer.gif" id="Footer1_imgArena" alt="Arena" align="absmiddle" /></a>
+			<a href="http://uverseonline.att.net/sports/teamusa/sport/swimming" target="_blank"><img src="images/sponsors/atnt_sm.jpg" id="Footer1_imgAtt" alt="ATT" align="absmiddle" /></a>
+			<a href="http://www.BMWusa.com" target="_blank"><img src="images/sponsors/bmw_sm.jpg" id="Footer1_imgBMW" alt="ATT" align="absmiddle" /></a>
+			<a href="http://www.cerave.com/" target="_blank"><img src="Images/sponsors/cerave95x46.png" id="Footer1_imgCeraVe" alt="CeraVe" align="absmiddle" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.dpbolvw.net/click-4003508-10840029" target="_top"><img src="Images/sponsors/MarriottWebsite.png" id="Footer1_imgMarriott" alt="Marriott" align="absmiddle" /></a><img src="http://www.ftjcfx.com/image-4003508-10840029" width="1" height="1" border="0"/>
+			<a href="http://www.mutualofomaha.com/" target="_blank"><img src="images/sponsors/mutual_sm.jpg" id="Footer1_imgMoo" alt="Mutual of Omaha" align="absmiddle" /></a><br />
+			<a href="http://www.myrthapoolsusa.com/" target="_blank"><img src="images/sponsors/Myrtha95x46-for-footer_Revi.gif" id="Footer1_imgMyrtha" alt="Myrtha Pools" align="absmiddle" /></a>
+			<a href="http://www.omegatiming.com/" target="_blank"><img src="images/sponsors/omega_sm.jpg" id="Footer1_imgOmega" alt="Omega Timing" align="absmiddle" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.phillips66.com/" target="_blank"><img src="images/sponsors/Phillips66Website.png" id="Footer1_imgConoco" alt="Phillips 66" align="absmiddle" /></a>
+			<a href="http://www.SpeedoUSA.com/" target="_blank"><img src="images/sponsors/speedo_sm.jpg" id="Footer1_imgSpeedo" alt="Speedo" align="absmiddle" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.tyr.com/" target="_blank"><img src="images/sponsors/tyr95x46.png" id="Footer1_imgTyr" alt="TYR" align="absmiddle" /></a>&nbsp;&nbsp;&nbsp;
+            <a href="http://universalsports.com/" target="_blank"><img src="images/sponsors/Universal-Sports-Logo-3.png" id="Footer1_imgUS" alt="Universal Sports" align="absmiddle" /></a>
+	    </div>
+	</div>
+	<div id="footer-right">
+		<div id="footer-right-content">
+			<h3>
+				PARTNER SITES</h3>
+			<div class="footer-partners clear-float">
+				    <a href="http://shop.usaswimming.org/" target="_blank">
+					    <img src="images/partners/usas_footer.jpg" id="Footer1_imgUsas" alt="USA Swimming Store" />
+					</a>
+					<div>
+					    <a href="http://shop.usaswimming.org/" target="_blank">
+						    <strong>USA SWIMMING STORE</strong><br />
+						    <em>Get the Gear</em>
+						</a>
+					</div>
+			</div>
+			<div class="footer-partners clear-float">
+				    <a href="http://www.usaswimming.org/protect/" target="_blank">
+					    <img src="images/partners/SafeSport63x63.png" id="Footer1_imgUsasf" alt="Safe Sport" />
+					</a>
+					<div>
+						<a href="http://www.usaswimming.org/protect/" target="_blank">
+						    <strong>USA Swimming Safe Sport</strong><br />
+						    <em>Safeguarding our members</em>
+						</a>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+<input type="hidden" id="SName" value="VSSWIMSWEB-5" /> 
+
+<script language="javascript" type="text/javascript">
+    function getInternetExplorerVersion()
+    // Returns the version of Internet Explorer or a -1
+    // (indicating the use of another browser).
+    {
+        var rv = -1; // Return value assumes failure.
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            var ua = navigator.userAgent;
+            var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+            if (re.exec(ua) != null)
+                rv = parseFloat(RegExp.$1);
+        }
+        return rv;
+    }
+    var ver = getInternetExplorerVersion();
+</script>
+
+
+	
+
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('RadStyleSheetManager1_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Web.UI, Version=2013.1.220.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:en:3e3b0da6-8c39-4d10-9111-25eaee1f7355:ed2942d4:580b2269:6de05185:f730aca1';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxManager, {"_updatePanels":"","ajaxSettings":[],"clientEvents":{OnRequestStart:"",OnResponseEnd:""},"defaultLoadingPanelID":"","enableAJAX":true,"enableHistory":false,"links":[],"styles":[],"uniqueID":"ctl00$RadAjaxManager1","updatePanelsRenderMode":0}, null, null, $get("ctl00_RadAjaxManager1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i0_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i1_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i2_i0_ctl03"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i2_i0_ctl07"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i3_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i4_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i5_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i6_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i7_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i8_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_Header1_rmPortalTabs_i9_i0_ctl00"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadMenu, {"_childListElementCssClass":null,"_skin":"USASTopMenu","clientStateFieldID":"ctl00_Header1_rmPortalTabs_ClientState","collapseAnimation":"{\"type\":2,\"duration\":0}","collapseDelay":0,"defaultGroupSettings":"{\"offsetX\":-60}","expandAnimation":"{\"type\":3,\"duration\":150}","expandDelay":0,"itemData":[{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1398\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1399\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1400\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1401\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1402\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1403\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1801\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=1450\u0026Alias=Rainbow\u0026Lang=en"},{"items":[{"templated":true}],"navigateUrl":"http://www.usaswimming.org/DesktopDefault.aspx?TabId=2079\u0026Alias=Rainbow\u0026Lang=en"}]}, null, null, $get("ctl00_Header1_rmPortalTabs"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadRotator, {"_itemHeight":"250px","_itemWidth":"300px","clientStateFieldID":"ctl00_ctl07_RadRotator1_ClientState","controlButtons":{"UpButtonID":"","DownButtonID":"","LeftButtonID":"ctl07_imgBtnLeft","RightButtonID":"ctl07_imgBtnRight","OnClientButtonClick":"","OnClientButtonOver":"","OnClientButtonOut":""},"enableDragScrolling":false,"frameDuration":10000,"items":[{},{},{},{},{}],"rotatorType":4,"scrollDuration":1000,"skin":"Default","slideShowAnimationSettings":{"duration":500,"type":2}}, null, null, $get("ctl00_ctl07_RadRotator1"));
+});
+//]]>
+</script>
+</form>
+	<!-- Google Analytics -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
-    
-    
-<!-- Begin 33Across Tag -->
-<img src="http://pixel.33across.com/ps/?pid=123&amp;cgn=15314&amp;seg=21790"style="visibility:hidden;width:1px;height:1px;">
-<!-- End 33Across Tag -->
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-1619352-3");
+            pageTracker._trackPageview();
+        } catch (err) { }
+    </script>
 
 </body>
 </html>

@@ -1,654 +1,618 @@
+ 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!--[if IE 6]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" class="no-js intl-en_US mvt-336 mvt-336-one-brand-price-color-enabled mvt-336-one-brand-font-enabled grid lt-ie9 lt-ie8 lt-ie7 ie6" ><![endif]-->
-<!--[if IE 7]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" class="no-js intl-en_US mvt-336 mvt-336-one-brand-price-color-enabled mvt-336-one-brand-font-enabled grid lt-ie9 lt-ie8 ie7" ><![endif]-->
-<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" class="no-js intl-en_US mvt-336 mvt-336-one-brand-price-color-enabled mvt-336-one-brand-font-enabled grid lt-ie9 ie8" ><![endif]-->
-<!--[if IE 9]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" class="no-js intl-en_US mvt-336 mvt-336-one-brand-price-color-enabled mvt-336-one-brand-font-enabled grid ie9" ><![endif]-->
-<!--[if gt IE 9]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" class="no-js intl-en_US mvt-336 mvt-336-one-brand-price-color-enabled mvt-336-one-brand-font-enabled grid" ><!--<![endif]-->
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7" />
-    <title>hotels.com | Cheap Hotels, Discounts, Hotel Deals and Offers</title>
-<link rel="canonical" href="http://www.hotels.com/" />
-<link href="http://a2.cdn-hotels.com/static/common/47.0/hcom-common-HCOM_US-www_hotels_com-en_US.css" type="text/css" rel="stylesheet" media="screen,print" />
-<link href="http://a2.cdn-hotels.com/static/common/47.0/hcom-social-homepage-HCOM_US-www_hotels_com-en_US.css" type="text/css" rel="stylesheet" media="screen,print" />
-<link rel="stylesheet" type="text/css" href="http://a2.cdn-hotels.com/da/assets/cat/css/1.21/b2by27zbh1wk8y682ixxxmtmf-awp6d8qw5komu5bf85dljvlu9-4h6jy8x9jlug9qnkh53dp4em4-1vnrc3dyn1gm3aiq2nmi618vo-bjmkegnaulkwtojl4ypidpcyx"><!--[if IE]>
-<link href="http://a2.cdn-hotels.com/static/common/47.0/hcom-ie-HCOM_US-www_hotels_com-en_US.css" type="text/css" rel="stylesheet" media="screen,print" />
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Providing educators and students access to the highest quality practices and resources in reading and language arts instruction." />
+<meta name="keywords" content="home" />
+<link rel="image_src" href="http://www.readwritethink.org/images/logo.gif" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<title>Homepage - ReadWriteThink</title>
+
+<meta property="og:title" content="Homepage - ReadWriteThink" />
+<meta property="og:site_name" content="readwritethink.org" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="" />
+<link rel="image_src" href="" />
+<meta property="og:url" content="http://www.readwritethink.org/"/>
+<meta property="og:description" content="Providing educators and students access to the highest quality practices and resources in reading and language arts instruction."/>
+
+
+<script type="text/javascript" src="/js/analytics.js?2011-02-01"></script>
+<script type="text/javascript" src="/js/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery/ui/ui.core.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="/js/poll.js"></script>
+<script type="text/javascript" src="/js/plugins.js"></script>
+<script type="text/javascript" src="/js/swfobject/swfobject2.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/dev.js?2011-02-01"></script>
+<script type="text/javascript" src="/js/jquery.colorbox-min.js?1326211345"></script>
+
+
+<script type="text/javascript" src="/js/AC_RunActiveContent.js"></script>
+
+<link rel="stylesheet" type="text/css" media="print" href="/css/eprint.css?1337087186" />
+<link rel="stylesheet" type="text/css" href="/css/style.css?1381926854" />
+<link rel="stylesheet" type="text/css" href="/css/colorbox.css?1326211345" />
+
+
+<!--[if IE]>
+<style type="text/css">
+ul {
+	display: inline-block;
+}
+</style>
 <![endif]-->
-<link href="http://a2.cdn-hotels.com/static/common/47.0/hcom-snapgrid-screen-min-HCOM_US-www_hotels_com-en_US.css" type="text/css" rel="stylesheet" media="only screen and (min-width: 1259px),print" />
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-<meta name="title" content="hotels.com | Cheap Hotels, Discounts, Hotel Deals and Offers" />
-<meta name="keywords" content="business hotels, corporate hotels, room reservations, room bookings, worldwide, international, england, UK, ireland, wales,luxury, pet friendly, romantic hotels, budget, discount, hotel deals" />
-<meta name="description" content="Find cheap hotels and discounts when you book on hotels.com. Compare hotel deals, offers and read unbiased reviews on hotels." />
-<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
-<meta property="fb:app_id" content="105208249622845" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="hotels.com | Cheap Hotels, Discounts, Hotel Deals and Offers" />
-  <meta property="og:url" content="http://www.hotels.com" />
-  <meta property="og:description" content="Find cheap hotels and discounts when you book on hotels.com. Compare hotel deals, offers and read unbiased reviews on hotels." />
-  <meta property="og:image" content="http://www.hotels.com/external/images/hermesContent-e960b850-9b7e-46f3-a088-b7c212e4e4b3-v1.0.jpg" />
-<link rel="alternate" href="hotelsapp://www.hotels.com/" />
-<link rel="alternate" hreflang="en-GB" href="http://uk.hotels.com/" />
-<link rel="alternate" hreflang="en-AU" href="http://au.hotels.com/" />
-<link rel="alternate" hreflang="en-CA" href="http://ca.hotels.com/" />
-<link rel="alternate" hreflang="en-IE" href="http://ie.hotels.com/" />
-<link rel="alternate" hreflang="en-SG" href="http://sg.hotels.com/" />
-<link rel="alternate" hreflang="en-IN" href="http://in.hotels.com/" />
-<link rel="alternate" hreflang="en-NZ" href="http://nz.hotels.com/" />
-<link rel="alternate" hreflang="en-ZA" href="http://za.hotels.com/" />
-<link href="/favicon_onebrand.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-<script type="text/javascript"><!--//--><![CDATA[//><!--
 
-  (function () {
-    var docElm = document.documentElement;
-    docElm.className = docElm.className.replace('no-js','js');
-  })();
 
-//--><!]]></script>
-<!-- h_ctx=en_US|HCOM_US -->
 </head>
 
-  <body class="LTR">
-    <div role="banner" id="header-full"><div id="header-selector" aria-live="polite"></div><div id="header-toggle"data-templates="hcom.templates.modules.header.snippet.posselector-hcom.templates.modules.header.snippet.currencyselector" data-currency="USD" data-pos="HCOM_US" data-locale="en_US"><a id="header-toggle-pos" href="/global_sites.html"><span class="sprite sprite-flags sprite-flags-usa"></span><span class="pos">English (United States)</span></a></div><div id="header-bar"><div class="g"><a href="/" role="banner"><img class="logo" src="http://a2.cdn-hotels.com/da/assets/s/1.21/images/modules/header/logos/hotels_com_logo_en_US.png" width="229" height="52" alt="Go to the Hotels.com home page" /></a><p><span class="msg">Book online or call</span> <span class="phone phone-1 widget-tooltip widget-tooltip-delay" data-widget-tooltip-delay="400">800-246-8357<span class="sprite sprite-info"> </span><span class="widget-tooltip-bd">This call is free. 24 hours a day; 7 days a week.</span></span></p></div></div><div role="navigation" id="menu-bar" class="cont-shadow"><div class="g"><ul class="nav"><li><a href="http://www.hotels.com/" class="clickreport" rel="clickReportc..GO0K0p-rZ05ntMR7ek-MKDuzG9gytnIzQDGLsGq7V9Yq32F9Cpdc-W7bmDO5DuYcdGJiAjbRPdFrZwcK89KHGg..">Hotels</a></li><li><a href="http://www.hotels.com/hotel-deals/" class="clickreport" rel="clickReportc..GO0K0p-rZ05ntMR7ek-MKHK4cqzO9xJnfqwjOLMad27lE3eZ3SMYUB4SLVmq48e4Wy8xysKmIWk.">Hotel Deals</a></li><li><a href="http://www.hotels.com/hotel/packages.html" class="clickreport" rel="clickReportc..GO0K0p-rZ05ntMR7ek-MKLxjyzwrRtLubtDOnP0pdysq32F9Cpdc-W7bmDO5DuYcttZJRlh7_NTAH_XPU3wFyA..">Packages &amp; Flights</a></li><li><a href="http://groups.hotels.com/GroupForm.cfm" class="clickreport" rel="clickReportc..GO0K0p-rZ05ntMR7ek-MKCo0i6d7zuIoqJUGWlk0TpAfqdPQiC8wlCPotHxmiCeEu-ADnFzASpY.">Groups</a></li><li><a href="http://www.hotels.com/customer_care/pillar/welcomerewards.html" class="clickreport" rel="nofollow">Welcome Rewards®</a></li></ul><ul class="nav-secondary"><li class="popup-menu"><a href="http://www.hotels.com/customer_care/index.html" aria-haspopup="true">Customer Service</a><ul class="cont-shadow" role="menu"><li><a href="http://www.hotels.com/account/manage_bookings.html" role="menuitem">Manage your bookings</a></li><li><a href="http://www.hotels.com/customer_care/index.html" role="menuitem">FAQs</a></li><li><a href="http://www.hotels.com/customer_care/index.html" role="menuitem">Contact us</a></li><li><a href="http://www.hotels.com/account/manage_bookings.html?section=COMPLETED" role="menuitem">Review a hotel</a></li><li><a href="mailto:userexperience@hotels.com?subject=Site feedback: N/A|en_US|HCOM_US|www.hotels.com" role="menuitem" data-opinionlab="true">Website feedback</a></li></ul></li><li class="customer popup-menu"><a href="https://ssl.hotels.com/profile/summary.html" aria-haspopup="true">Bookings &amp; Account</a><ul class="cont-shadow" role="menu"><li><a href="https://ssl.hotels.com/profile/signin.html?target=H4sIAAAAAAAAANMHANTS03kBAAAA">Sign in</a></li><li><a href="https://ssl.hotels.com/account/manage_bookings.html?section=COMPLETED">Find your booking</a></li><li><a href="https://ssl.hotels.com/profile/signup.html">Create an account</a></li><li><a href="/hotel/saved_hotels.html">See saved hotels</a></li></ul></li></ul></div></div></div><script>window.dio = window.dio || {}; window.dio.module = window.dio.module || {}; dio.module.header = {"conf" : {"data" : {"path" : "//a2.cdn-hotels.com/da", "appbuild" : "/2.0-567-345457"}, "template" : {"path" : "http://a2.cdn-hotels.com/da/assets/cat/js/1.21/"}}}; dio.common = dio.common || {}; dio.common.request = {"targetUrl" : "H4sIAAAAAAAAANMHANTS03kBAAAA"};</script>
-<!-- 
-Rendered the page in 571 μs.
--->
-<!--[if lt IE 7]><div id="page_container_ie6"><![endif]-->
-<div class="g" id="g">
-      <div class="c24 f">
-        <div class="page_header">
-          <a href="#main_content" class="skiplink">Skip to main content.</a>
-</div>
-      </div>
-      <div id="main_content" role="main" class="skiplink">Start of main content. Read on from here or press tab to access the next link</div>
-<div class="container container-homepage c12 f"><div class="container-with-hotel-image-bg container-with-hotel-image-bg-homepage joined c12 f s fc cont-shadow"><div class="query-form query-form-homepage c4 f fc lc"><div class="cont qf-cont qf-cont-overlay arrow-bottom"><form action="/search.do" method="get" id="searchForm" class="dropdown"><fieldset class="qf-fieldset qf-destination-fieldset"><h1 class="qf-header">Hotel search</h1><div class="qf-destination qf-error-cont"><span class="form-error form-error-message"></span><div><input type="text" autocorrect="off" autocomplete="off" name="destination" id="destination" data-current-location="true" data-label="Current location" data-position-unavailable-msg="Unable to acquire current position" data-timeout-occured-msg="Timeout occured while acquiring current position " data-unknown-location-error-msg="Unknown error occured while acquiring current position" /></div><label for="destination">Destination, hotel, landmark or address</label></div></fieldset><fieldset class="qf-fieldset qf-date-fieldset arrow-bottom-right dates"><span class="form-error form-error-message"></span><div class="qf-date qf-arrival qf-error-cont"><label for="arrival_date" class="qf-arrival-label">Check in</label><input type="text" autocorrect="off" autocomplete="off" name="arrivalDate" class="hcomDate hcomCheckin" id="arrival_date" value="" placeholder="mm/dd/yy" data-readonly="false" /><span class="qf-date-input-icon hcomDatePicker"></span><span class="qf-day qf-arrival-day date-input-day"></span></div><div class="qf-date qf-departure qf-error-cont"><label for="departure_date" class="qf-departure-label">Check out</label><input type="text" autocorrect="off" autocomplete="off" name="departureDate" class="hcomDate hcomCheckout" id="departure_date" value="" placeholder="mm/dd/yy" data-readonly="false" /><span class="qf-date-input-icon hcomDatePicker"></span><span class="qf-day qf-departure-day date-input-day"></span></div><div class="qf-nights hidden"><span class="qf-nights-number nights-value"></span><span class="qf-nights-label nights-label"></span></div></fieldset><fieldset class="qf-fieldset qf-compact-occupancy-dropdown-fieldset"><div class="qf-co-box"><div class="qf-rooms"><p class="qf-compact-occupancy-label">Rooms</p><select id="compact_occupancy_dropdown" name="searchParams.rooms.compact_occupancy_dropdown"><option value="compact_occupancy_1_1" data-room="1" data-adult="1">1 room, 1 adult</option><option value="compact_occupancy_1_2" data-room="1" data-adult="2" selected="selected">1 room, 2 adults</option><option value="compact_occupancy_more_options">More options…</option></select></div></div></fieldset><fieldset class="qf-fieldset qf-occupancy-fieldset qf-room-fieldset js_hidden"><div class="qf-rooms"><label for="rooms">Rooms</label><select id="rooms" name="rooms"><option value="1" selected=&quot;selected&quot;>1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9+</option></select><span class="qf-room-number hidden">Room <span>1</span>:</span></div><div class="qf-adults-children"><div class="qf-adults"><label for="adults_0">Adults</label><select id="adults_0" name="searchParams.rooms[0].numberOfAdults"><option value="1">1</option><option value="2" selected="selected">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option></select><div>Aged 18+</div></div><div class="qf-children"><label for="children_0">Children</label><select id="children_0" name="children[0]"><option value="0" selected="selected">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select><div>0-17</div></div></div></fieldset><fieldset class="qf-fieldset qf-occupancy-fieldset qf-children-fieldset hidden js_hidden"><div class="qf-child-age-header">Age at check in:</div><span class="form-error form-error-message"></span><div class="qf-child-age hidden"><label for="children_0_0">Child <span>1</span>:</label><select id="children_0_0" name="searchParams.rooms[0].childrenAges[0]" disabled="disabled"><option value="-1">-?-</option><option value="0">&lt;1</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option></select></div><div class="qf-child-age hidden"><label for="children_0_1">Child <span>2</span>:</label><select id="children_0_1" name="searchParams.rooms[0].childrenAges[1]" disabled="disabled"><option value="-1">-?-</option><option value="0">&lt;1</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option></select></div><div class="qf-child-age hidden"><label for="children_0_2">Child <span>3</span>:</label><select id="children_0_2" name="searchParams.rooms[0].childrenAges[2]" disabled="disabled"><option value="-1">-?-</option><option value="0">&lt;1</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option></select></div></fieldset><fieldset class="qf-fieldset qf-submit-fieldset"><button type="submit" class="cta cta-strong" id="qf-submit">Search</button></fieldset></form></div></div><div class="main-image-carousel js_hidden webkit-radius-fix" data-image="/external/images/hermesContent-e960b850-9b7e-46f3-a088-b7c212e4e4b3-v1.0.jpg"><noscript><img src="/external/images/hermesContent-e960b850-9b7e-46f3-a088-b7c212e4e4b3-v1.0.jpg" class="carousel-image" /></noscript><a class="carousel-text" href="/hotel/details.html?tab=description&amp;hotelId=389212&amp;validate=false&amp;previousDateful=false&amp;reviewOrder=date_newest_first">Hotel Wilshire, a Kimpton Hotel<br />Los Angeles</a><span class="gradient-layout"></span></div></div><div class="welcome-rewards welcome-rewards-homepage joined c12 f s  cont-shadow"><div class="wr-wrapper control" data-wr-status-free-nights="0" data-wr-status-collected-nights="0" data-wr-status-usertier="" data-wr-status-free-wording="" data-interactive-wr-module-enabled="false" data-user-status-is-returning="false"><div class="punch-card c4 f"><div class="free-nights-box"><div class="night-icons"><ol><li><span data-order="0" class="wr-sprite night-icon">1</span></li><li><span data-order="1" class="wr-sprite night-icon">2</span></li><li><span data-order="2" class="wr-sprite night-icon">3</span></li><li><span data-order="3" class="wr-sprite night-icon">4</span></li><li><span data-order="4" class="wr-sprite night-icon">5</span></li><li><span data-order="5" class="wr-sprite night-icon">6</span></li><li><span data-order="6" class="wr-sprite night-icon">7</span></li><li><span data-order="7" class="wr-sprite night-icon">8</span></li><li><span data-order="8" class="wr-sprite night-icon">9</span></li><li><span data-order="9" class="wr-sprite night-icon">10</span></li></ol></div><div class="wr-sprite separator"></div><div class="night-summary"><div class="number"><span class="wr-sprite moon"></span><span class="text">FREE</span></div></div></div></div><div class="message-box c5"><p class="offer">Collect 10 nights get 1 free*</p><p class="loyalty"><span class="wr-sprite reward"></span><span class="reward-level">Our loyalty program</span></p></div><div class="wr-logo-box c3 l"><div class="wr-button-box"><a class="wr-button" href="customer_care/pillar/welcomerewards.html">Find out more</a></div></div></div></div><div class="container container-homepage simple c12 f s  cont-shadow"><div class="teaser teaser-homepage c4 f fc"><a href="http://www.hotels.com/deals/deal-of-the-day/?intlid=us_dealoftheday_hp"><img src="/external/images/hermesContent-e1ad4b0f-4ab1-4bc3-a5aa-10c8ac4182a3-v1.0.jpg" alt="Deal of the Day" /></a></div><div class="teaser teaser-homepage c4"><a href="http://www.hotels.com/hotel-deals/48hours/?intlid=us_48hours_hp"><img src="/external/images/hermesContent-fc78ad7f-c238-463a-b904-c49141a6a1a7-v1.0.jpg" alt="48 Hour Hotel Sale" /></a></div><div class="ad-banner ad-banner-homepage c4 l"><div class="ad-banner-homepage">
-      <script type="text/javascript">
-          window.adBannerWidget = window.adBannerWidget || {};
-          window.adBannerWidget.banners = window.adBannerWidget.banners || {};
-          window.adBannerWidget.banners["553b8c2e-e37f-4a49-89ff-d626a9d0117f"] = {368: '<iframe id="bannerAdRIGHT1" style="display:block; margin: 0pt auto;" name="bannerAdRIGHT1" width="368" height="100" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="http://media.hotels.com/html.cms/TPID=42&LOCATION=HOME&SUBLOCATION=SEARCH&PLACEMENT=RIGHT1&LANGID=1033&ADSIZE=368X100"></iframe>', 300: '<iframe id="bannerAdRIGHT1" style="display:block; margin: 0pt auto;" name="bannerAdRIGHT1" width="300" height="82" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="http://media.hotels.com/html.cms/TPID=42&LOCATION=HOME&SUBLOCATION=SEARCH&PLACEMENT=RIGHT1&LANGID=1033&ADSIZE=300X82"></iframe>'};
-      </script>
-    <div class="ad-banner-box" data-uuid="553b8c2e-e37f-4a49-89ff-d626a9d0117f"></div></div></div><div class="top-destinations top-destinations-homepage c12 f lc"><h2 class="top-destination-title">Popular cities with US travelers</h2><div class="top-destination c6 f"><div class="top-destination-header clearfix"><h3>New York</h3><span>95,465 people are looking for hotels today</span><a href="http://www.hotels.com/de1506246/hotels-new-york-new-york/">More hotels in New York</a></div><a class="hcom-img" href="http://www.hotels.com/de1506246/hotels-new-york-new-york/"><img alt="New York" src="/external/images/hermesContent-e30f0af7-8774-4e4b-a8f4-02acf32404cf-v1.0.jpg" width="90" height="66" /></a><ul><li><span class="inc-price">From <ins class="lowrate">$148</ins></span><span class="sprites_star_rating rate_8"></span><a href="http://www.hotels.com/ho109277/park-central-new-york-new-york-united-states-of-america/" title="Park Central New York">Park Central New York</a></li><li><span class="inc-price">From <ins class="lowrate">$179</ins></span><span class="sprites_star_rating rate_8"></span><a href="http://www.hotels.com/ho112922/new-york-hilton-midtown-new-york-united-states-of-america/" title="New York Hilton Midtown">New York Hilton Midtown</a></li><li><span class="inc-price">From <ins class="lowrate">$129</ins></span><span class="sprites_star_rating rate_5"></span><a href="http://www.hotels.com/ho142043/hotel-pennsylvania-new-york-united-states-of-america/" title="Hotel Pennsylvania">Hotel Pennsylvania</a></li></ul></div><div class="top-destination c6 l"><div class="top-destination-header clearfix"><h3>Las Vegas</h3><span>69,375 people are looking for hotels today</span><a href="http://www.hotels.com/de1504033/hotels-las-vegas-nevada/">More hotels in Las Vegas</a></div><a class="hcom-img" href="http://www.hotels.com/de1504033/hotels-las-vegas-nevada/"><img alt="Las Vegas" src="/external/images/hermesContent-f1b46705-6cf7-4376-9745-af8ec8fe5a4a-v1.0.jpg" width="90" height="66" /></a><ul><li><span class="inc-price">From <ins class="lowrate">$21</ins></span><span class="sprites_star_rating rate_6"></span><a href="http://www.hotels.com/ho118583/circus-circus-hotel-casino-las-vegas-united-states-of-america/" title="Circus Circus Hotel &amp; Casino">Circus Circus Hotel &amp; Casino</a></li><li><span class="inc-price">From <ins class="lowrate">$38</ins></span><span class="sprites_star_rating rate_6"></span><a href="http://www.hotels.com/ho135542/excalibur-hotel-casino-las-vegas-united-states-of-america/" title="Excalibur Hotel Casino">Excalibur Hotel Casino</a></li><li><span class="inc-price">From <ins class="lowrate">$30</ins></span><span class="sprites_star_rating rate_6"></span><a href="http://www.hotels.com/ho118903/stratosphere-hotel-casino-resort-hotel-las-vegas-united-states-of-america/" title="Stratosphere Hotel - Casino &amp; Resort Hotel">Stratosphere Hotel - Casino &amp; Resort Hotel</a></li></ul></div><div class="top-destination c6 f"><div class="top-destination-header clearfix"><h3>Orlando</h3><span>37,770 people are looking for hotels today</span><a href="http://www.hotels.com/de1404711/hotels-orlando-florida/">More hotels in Orlando</a></div><a class="hcom-img" href="http://www.hotels.com/de1404711/hotels-orlando-florida/"><img alt="Orlando" src="/external/images/hermesContent-cbd02891-2be9-4b57-ae9b-7f6324cb3c61-v1.0.jpg" width="90" height="66" /></a><ul><li><span class="inc-price">From <ins class="lowrate">$139</ins></span><span class="sprites_star_rating rate_8"></span><a href="http://www.hotels.com/ho182220/the-buena-vista-palace-hotel-spa-lake-buena-vista-united-states-of-america/" title="The Buena Vista Palace Hotel &amp; Spa">The Buena Vista Palace Hotel &amp; Spa</a></li><li><span class="inc-price">From <ins class="lowrate">$159</ins></span><span class="sprites_star_rating rate_7"></span><a href="http://www.hotels.com/ho109506/radisson-hotel-orlando-lake-buena-vista-orlando-united-states-of-america/" title="Radisson Hotel Orlando-Lake Buena Vista">Radisson Hotel Orlando-Lake Buena Vista</a></li><li><span class="inc-price">From <ins class="lowrate">$99</ins></span><span class="sprites_star_rating rate_8"></span><a href="http://www.hotels.com/ho112876/hilton-orlando-lake-buena-vista-lake-buena-vista-united-states-of-america/" title="Hilton Orlando Lake Buena Vista">Hilton Orlando Lake Buena Vista</a></li></ul></div><div class="top-destination c6 l"><div class="top-destination-header clearfix"><h3>Los Angeles</h3><span>22,625 people are looking for hotels today</span><a href="http://www.hotels.com/de1439028/hotels-los-angeles-california/">More hotels in Los Angeles</a></div><a class="hcom-img" href="http://www.hotels.com/de1439028/hotels-los-angeles-california/"><img alt="Los Angeles" src="/external/images/hermesContent-9c850abd-adb2-478c-9e5b-fcbc5946dd76-v1.0.jpg" width="90" height="66" /></a><ul><li><span class="inc-price">From <ins class="lowrate">$63</ins></span><span class="sprites_star_rating rate_3"></span><a href="http://www.hotels.com/ho194913/oceanview-motel-huntington-beach-huntington-beach-united-states-of-america/" title="Oceanview Motel - Huntington Beach">Oceanview Motel - Huntington Beach</a></li><li><span class="inc-price">From <ins class="lowrate">$150</ins></span><span class="sprites_star_rating rate_5"></span><a href="http://www.hotels.com/ho115284/pacific-inn-seal-beach-united-states-of-america/" title="Pacific Inn">Pacific Inn</a></li><li><span class="inc-price">From <ins class="lowrate">$94</ins></span><span class="sprites_star_rating rate_5"></span><a href="http://www.hotels.com/ho181451/best-western-los-alamitos-inn-los-alamitos-united-states-of-america/" title="Best Western Los Alamitos Inn">Best Western Los Alamitos Inn</a></li></ul></div></div></div><div class="container container-homepage simple c12 f s  cont-shadow"><div class="customer-rating-image customer-rating-image-homepage c6 f fc"><h2><p>How our customers rate us</p></h2><img src="/external/images/hermesContent-6aaa49b7-5c2f-4839-a45c-73f50f3a6f69-v1.0.png" alt="feefo rating" title="feefo rating"></img></div><div class="awards-image awards-image-homepage c6 l lc"><img src="/external/images/hermesContent-f7bc2627-6fc6-458e-ac4d-66436c436d09-v1.0.jpg" alt="Awards" title="Awards"></img></div></div><div class="container container-homepage footer-bar c12 f lc"><div class="trust-message trust-message-homepage c4 f fc"><div class="trust clearfix"><span class="logo"></span><span class="text"><p><strong>260,000 hotels</strong></p>
-<p>We help you find perfect hotels from over 260,000 worldwide.</p></span></div></div><div class="download-our-apps download-our-apps-homepage c4"><div class="apps"><span class="text">Download our app:</span><span class="logo"><a href="https://itunes.apple.com/app/hotels.com-hd-hotel-reservation/id461327349" target="_blank" class="ios"><span class="text-popup">Download our iPhone/iPad app<span class="slant-arrow"></span></span></a><a href="https://market.android.com/details?id=com.hcom.android" target="_blank" class="android"><span class="text-popup">Download our Android app<span class="slant-arrow"></span></span></a><a href="http://www.windowsphone.com/en-GB/search?q=hotels.com" target="_blank" class="windowsphone"><span class="text-popup">Download our Windows Phone app<span class="slant-arrow"></span></span></a></span></div></div><div class="connect-with-us connect-with-us-homepage c4 l"><div class="social"><span class="text">Connect with us:</span><span class="logo"><a href="http://www.facebook.com/Hotels.comUS" target="_blank" class="facebook"><span class="text-popup">Find us on Facebook<span class="slant-arrow"></span></span></a><a href="http://www.twitter.com/hotelsdotcom" target="_blank" class="twitter"><span class="text-popup">Follow us on Twitter<span class="slant-arrow"></span></span></a><a href="https://plus.google.com/+hotelscom/" target="_blank" class="googleplus"><span class="text-popup">Find us on Google +<span class="slant-arrow"></span></span></a><a href="http://www.youtube.com/user/hotelsdotcom" target="_blank" class="youtube"><span class="text-popup">Find us on YouTube<span class="slant-arrow"></span></span></a></span></div></div><div class="marketing-copy marketing-copy-homepage c12 f lc"><p><p>"This is tiny copy about<strong> Hotels.com. </strong>If you're reading this, you're probably looking to <strong>book a hotel</strong> on <strong>Hotels.com</strong>, although not immediately because you're reading this. the good news is <strong>Hotels.com</strong> is the website you're on right now. And the following info is also about <strong>Hotels.com</strong>. Their genuine guest reviews are written by guests who actually <strong>stayed</strong> here, which are more helpful than reviews written by liars. Their <strong>Welcome Rewards Program</strong> rewards you with a free night for every 10 you <strong>stay</strong>. And they have mobile apps which you're not using right now, but could use if you download them. All of these things make Hotels.com my <strong>obvious choice</strong> for <strong>hotels</strong>. And probably yours too. But I can't be sure. I don't know you."</p>
-<p>- Captain Obvious</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p></p></div></div></div><div class="clear-both"></div><div class="c24 f footer-container clearfix">
-        <div class="flexible_seo_footer seo_footer clearfix">
-    <ul class="footer_links_container clearfix">
-      <li class="top_destinations_container">
-    <h3 class="toggle_top_destinations">
-      <a href="#">
-        <span class="icon_sprite_commons js_visible">
-          <span class="right_arrow"><!-- IE6 --></span>
-        </span>
-        Top Destinations</a>
-    </h3>
-    <div class="top_destinations clearfix">
-      <div class="link_list">
-        <ul>
-          <li>
-              <a id="top_destination_1506246" href="http://www.hotels.com/de1506246/hotels-new-york-new-york/" title="Hotels in New York"><strong>Hotels in New York</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1504033" href="http://www.hotels.com/de1504033/hotels-las-vegas-nevada/" title="Hotels in Las Vegas"><strong>Hotels in Las Vegas</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1497539" href="http://www.hotels.com/de1497539/hotels-chicago-illinois/" title="Hotels in Chicago"><strong>Hotels in Chicago</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1493604" href="http://www.hotels.com/de1493604/hotels-san-francisco-california/" title="Hotels in San Francisco"><strong>Hotels in San Francisco</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1467359" href="http://www.hotels.com/de1467359/hotels-washington-district-of-columbia/" title="Hotels in Washington"><strong>Hotels in Washington</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1401516" href="http://www.hotels.com/de1401516/hotels-boston-massachusetts/" title="Hotels in Boston"><strong>Hotels in Boston</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1483250" href="http://www.hotels.com/de1483250/hotels-san-diego-california/" title="Hotels in San Diego"><strong>Hotels in San Diego</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1404711" href="http://www.hotels.com/de1404711/hotels-orlando-florida/" title="Hotels in Orlando"><strong>Hotels in Orlando</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_549499" href="http://www.hotels.com/de549499/hotels-london-united-kingdom/" title="Hotels in London"><strong>Hotels in London</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1456744" href="http://www.hotels.com/de1456744/hotels-new-orleans-louisiana/" title="Hotels in New Orleans"><strong>Hotels in New Orleans</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1439028" href="http://www.hotels.com/de1439028/hotels-los-angeles-california/" title="Hotels in Los Angeles"><strong>Hotels in Los Angeles</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1490932" href="http://www.hotels.com/de1490932/hotels-san-antonio-texas/" title="Hotels in San Antonio"><strong>Hotels in San Antonio</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_504261" href="http://www.hotels.com/de504261/hotels-paris-france/" title="Hotels in Paris"><strong>Hotels in Paris</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1481165" href="http://www.hotels.com/de1481165/hotels-seattle-washington/" title="Hotels in Seattle"><strong>Hotels in Seattle</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1496137" href="http://www.hotels.com/de1496137/hotels-atlanta-georgia/" title="Hotels in Atlanta"><strong>Hotels in Atlanta</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1434435" href="http://www.hotels.com/de1434435/hotels-philadelphia-pennsylvania/" title="Hotels in Philadelphia"><strong>Hotels in Philadelphia</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1496344" href="http://www.hotels.com/de1496344/hotels-austin-texas/" title="Hotels in Austin"><strong>Hotels in Austin</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1512961" href="http://www.hotels.com/de1512961/hotels-atlantic-city-new-jersey/" title="Hotels in Atlantic City"><strong>Hotels in Atlantic City</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_712491" href="http://www.hotels.com/de712491/hotels-rome-italy/" title="Hotels in Rome"><strong>Hotels in Rome</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1447135" href="http://www.hotels.com/de1447135/hotels-myrtle-beach-south-carolina/" title="Hotels in Myrtle Beach"><strong>Hotels in Myrtle Beach</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1486134" href="http://www.hotels.com/de1486134/hotels-dallas-texas/" title="Hotels in Dallas"><strong>Hotels in Dallas</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1410382" href="http://www.hotels.com/de1410382/hotels-houston-texas/" title="Hotels in Houston"><strong>Hotels in Houston</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1440421" href="http://www.hotels.com/de1440421/hotels-denver-colorado/" title="Hotels in Denver"><strong>Hotels in Denver</strong></a>
-            </li>
-          <li>
-              <a id="top_destination_1516192" href="http://www.hotels.com/de1516192/hotels-miami-florida/" title="Hotels in Miami"><strong>Hotels in Miami</strong></a>
-            </li>
-          </ul>
-      </div>
-    </div>
-  </li>
-<li class="top_countries_container">
-    <h3 class="toggle_top_countries">
-      <a href="#">
-        <span class="icon_sprite_commons js_visible">
-          <span class="right_arrow"><!-- IE6 --></span>
-        </span>
-        Top Countries</a>
-    </h3>
-    <div class="top_countries clearfix">
-      <div class="link_list">
-        <ul>
-          <li>
-              <a id="top_country_225" href="http://www.hotels.com/co225/hotels-in-united-states/" title="Hotels in United States"><strong>Hotels in United States</strong></a>
-            </li>
-          <li>
-              <a id="top_country_38" href="http://www.hotels.com/co38/hotels-in-canada/" title="Hotels in Canada"><strong>Hotels in Canada</strong></a>
-            </li>
-          <li>
-              <a id="top_country_224" href="http://www.hotels.com/co224/hotels-in-united-kingdom/" title="Hotels in United Kingdom"><strong>Hotels in United Kingdom</strong></a>
-            </li>
-          <li>
-              <a id="top_country_74" href="http://www.hotels.com/co74/hotels-in-france/" title="Hotels in France"><strong>Hotels in France</strong></a>
-            </li>
-          <li>
-              <a id="top_country_197" href="http://www.hotels.com/co197/hotels-in-spain/" title="Hotels in Spain"><strong>Hotels in Spain</strong></a>
-            </li>
-          <li>
-              <a id="top_country_106" href="http://www.hotels.com/co106/hotels-in-italy/" title="Hotels in Italy"><strong>Hotels in Italy</strong></a>
-            </li>
-          <li>
-              <a id="top_country_82" href="http://www.hotels.com/co82/hotels-in-germany/" title="Hotels in Germany"><strong>Hotels in Germany</strong></a>
-            </li>
-          <li>
-              <a id="top_country_44" href="http://www.hotels.com/co44/hotels-in-china/" title="Hotels in China"><strong>Hotels in China</strong></a>
-            </li>
-          <li>
-              <a id="top_country_104" href="http://www.hotels.com/co104/hotels-in-ireland/" title="Hotels in Ireland"><strong>Hotels in Ireland</strong></a>
-            </li>
-          <li>
-              <a id="top_country_151" href="http://www.hotels.com/co151/hotels-in-netherlands/" title="Hotels in Netherlands"><strong>Hotels in Netherlands</strong></a>
-            </li>
-          </ul>
-      </div>
-    </div>
-  </li>
-<li class="change_language_container">
-    <h3 class="toggle_change_language">
-      <a href="#">
-        <span class="icon_sprite_commons js_visible">
-          <span class="right_arrow"><!-- IE6 --></span>
-        </span>
-        Change language</a>
-    </h3>
-    <div id="change_language" class="change_language clearfix">
-      <div class="link_list">
-  <ul>
-    <li><a href="http://el.hotels.com" title="Ελληνικά" lang="el" hreflang="el">Ελληνικά</a></li>
-        <li><a href="http://it.hotels.com" title="Italiano" lang="it" hreflang="it">Italiano</a></li>
-        <li><a href="http://fr.hotels.com" title="Français" lang="fr" hreflang="fr">Français</a></li>
-        <li><a href="http://kr.hotels.com" title="한국어" lang="ko" hreflang="ko">한국어</a></li>
-        <li><a href="http://de.hotels.com" title="Deutsch" lang="de" hreflang="de">Deutsch</a></li>
-        <li><a href="http://ru.hotels.com" title="Русский" lang="ru" hreflang="ru">Русский</a></li>
-        <li><a href="http://id.hotels.com" title="Bahasa indonesia" lang="in" hreflang="in">Bahasa indonesia</a></li>
-        <li><a href="http://lv.hotels.com" title="Latviešu" lang="lv" hreflang="lv">Latviešu</a></li>
-        <li><a href="http://is.hotels.com" title="Íslensku" lang="is" hreflang="is">Íslensku</a></li>
-        <li><a href="http://tr.hotels.com" title="Türkçe" lang="tr" hreflang="tr">Türkçe</a></li>
-        <li><a href="http://pl.hotels.com" title="Polski" lang="pl" hreflang="pl">Polski</a></li>
-        <li><a href="http://www.hotels.com/?pos=HCOM_US&locale=en_US" title="English" lang="en-US" hreflang="en-US">English</a></li>
-        <li><a href="http://www.hoteles.com/?pos=HCOM_LATAM&locale=es_MX" title="Español" lang="es-MX" hreflang="es-MX">Español</a></li>
-        <li><a href="http://he.hotels.com" title="עברית" lang="he" hreflang="he">עברית</a></li>
-        <li><a href="http://www.hoteis.com/?pos=HCOM_BR&locale=pt_BR" title="Português" lang="pt-BR" hreflang="pt-BR">Português</a></li>
-        <li><a href="http://da.hotels.com" title="Dansk" lang="da" hreflang="da">Dansk</a></li>
-        <li><a href="http://ar.hotels.com" title="العربية" lang="ar" hreflang="ar">العربية</a></li>
-        <li><a href="http://ua.hotels.com" title="Українська" lang="uk" hreflang="uk">Українська</a></li>
-        <li><a href="http://sv.hotels.com" title="Svenska" lang="sv" hreflang="sv">Svenska</a></li>
-        <li><a href="http://cs.hotels.com" title="Česky" lang="cs" hreflang="cs">Česky</a></li>
-        <li><a href="http://sk.hotels.com" title="Slovenčina" lang="sk" hreflang="sk">Slovenčina</a></li>
-        <li><a href="http://hu.hotels.com" title="Magyar" lang="hu" hreflang="hu">Magyar</a></li>
-        <li><a href="http://www.hotels.cn" title="简体中文" lang="zh-CN" hreflang="zh-CN">简体中文</a></li>
-        <li><a href="http://fi.hotels.com" title="Suomi" lang="fi" hreflang="fi">Suomi</a></li>
-        <li><a href="http://lt.hotels.com" title="Lietuvių" lang="lt" hreflang="lt">Lietuvių</a></li>
-        <li><a href="http://et.hotels.com" title="Eesti" lang="et" hreflang="et">Eesti</a></li>
-        <li><a href="http://jp.hotels.com" title="日本語" lang="ja" hreflang="ja">日本語</a></li>
-        <li><a href="http://ms.hotels.com" title="Bahasa melayu" lang="ms" hreflang="ms">Bahasa melayu</a></li>
-        <li><a href="http://hr.hotels.com" title="Hrvatski" lang="hr" hreflang="hr">Hrvatski</a></li>
-        <li><a href="http://nl.hotels.com" title="Nederlands" lang="nl" hreflang="nl">Nederlands</a></li>
-        <li><a href="http://no.hotels.com" title="Norsk" lang="no" hreflang="no">Norsk</a></li>
-        <li><a href="http://vi.hotels.com" title="Tiếng việt" lang="vi" hreflang="vi">Tiếng việt</a></li>
-        <li><a href="http://th.hotels.com" title="ภาษาไทย" lang="th" hreflang="th">ภาษาไทย</a></li>
-        <li class="hidden"><a href="http://uk.hotels.com" title="English" lang="en-GB" hreflang="en-GB">English</a></li>
-        <li class="hidden"><a href="http://au.hotels.com" title="English" lang="en-AU" hreflang="en-AU">English</a></li>
-        <li class="hidden"><a href="http://ca.hotels.com" title="English" lang="en-CA" hreflang="en-CA">English</a></li>
-        <li class="hidden"><a href="http://ie.hotels.com" title="English" lang="en-IE" hreflang="en-IE">English</a></li>
-        <li class="hidden"><a href="http://es.hotels.com" title="Español" lang="es-US" hreflang="es-US">Español</a></li>
-        <li class="hidden"><a href="http://sg.hotels.com" title="English" lang="en-SG" hreflang="en-SG">English</a></li>
-        <li class="hidden"><a href="http://nz.hotels.com" title="English" lang="en-NZ" hreflang="en-NZ">English</a></li>
-        <li class="hidden"><a href="http://pt.hoteis.com" title="Português" lang="pt-PT" hreflang="pt-PT">Português</a></li>
-        <li class="hidden"><a href="http://zh.hotels.com" title="繁體中文" lang="zh" hreflang="zh">繁體中文</a></li>
-        <li class="hidden"><a href="http://es.hoteles.com" title="Español" lang="es-ES" hreflang="es-ES">Español</a></li>
-        <li class="hidden"><a href="http://za.hotels.com" title="English" lang="en-ZA" hreflang="en-ZA">English</a></li>
-        <li class="hidden"><a href="http://in.hotels.com" title="English" lang="en-IN" hreflang="en-IN">English</a></li>
-        </ul>
-</div>
-</div>
-  </li>
-<li class="global_sites_container">
-    <h3 class="toggle_global_sites">
-      <a href="#">
-      <span class="icon_sprite_commons js_visible">
-        <span class="right_arrow"><!-- IE6 --></span>
-      </span>
-      Global sites</a>
-    </h3>
-    <div class="global_sites clearfix">
-      <div class="link_list">
-        <ul>
-          <li><a href="http://en-ph.hotels.com" title="">Philippines</a></li>
-          <li><a href="http://en-il.hotels.com" title="">Israel</a></li>
-          </ul>
-      </div>
-    </div>
-  </li>
-</ul>
-  </div>
-</div>
-      <div class="c24" id="flexible_footer"><div id="footer">
-  <div class="rounded_corners">
-    <div class="rounded_corner_left">
-      <div>&nbsp;</div>
-      <div class="b">&nbsp;</div>
-      <div class="c">&nbsp;</div>
-    </div>
-    <div class="rounded_corner_right">
-      <div>&nbsp;</div>
-      <div class="b">&nbsp;</div>
-      <div class="c">&nbsp;</div>
-    </div>
-  </div>
-  <div class="footer_logos_pmi footer_pmi"><div class="col_3_adbanner banner_fix">
-        <div class="footer_banner_content">
-          <iframe id="bannerAdCCOL1" style="display:block; margin: 0pt auto;" name="bannerAdCCOL1" width="300" height="250" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="http://media.hotels.com/html.cms/TPID=42&LOCATION=HOME&SUBLOCATION=SEARCH&PLACEMENT=CCOL1&LANGID=1033&ADSIZE=300X250&IPGEO=505.YPSILANTI"></iframe></div>
-    </div>
-  <div class="footer_security_certificate_logo">
-      <table width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose VeriSign SSL for secure e-commerce and confidential communications.">
-        <tr>
-          <td width="135" align="right" valign="top">
-            <script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=www.hotels.com&amp;size=S&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script>
-            <br />
-            <a href="http://www.verisign.com/ssl-certificate/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">ABOUT SSL CERTIFICATES</a>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div class="footer_webuser_logo" title="2009 Webuser Gold Award"><!-- IE6 --></div>
-    <div class="footer_hitwise_logo" title="Top 10 Website - Hitwise 2011"><!-- IE6 --></div>
-    <div class="footer_tuv_logo" title="footer.tuv_logo_title"></div>
-  </div><div class="content clearfix">
-  <div id="footer_links_1" class="top_50_cities">
-      <ul>
-        <li>
-          <a href="/alltop50cities/" title="Top 50 Cities">
-            Top 50 Cities</a>
-        </li>
-        <li>
-          <a href="/allcountries/" title="All countries">
-            All countries</a>
-        </li>
-        <li>
-          <a href="/hi1/hotel-index/" title="All hotels">
-            All hotels</a>
-        </li>
-      </ul>
-    </div>
-    <div class="hr"><!-- IE6 --></div>
-  <div role="contentinfo" class="footer-container">
-  <ul id="basic_footer_links">
-  <li id="basic_footer_link_home">
-    <a href="/" title="Hotels">
-          Hotels</a>
-      </li>
-  <li id="basic_footer_tg">
-      <a href="/articles/" title="Travel Guides">
-        Travel Guides</a>
-    </li>
-  <li id="basic_footer_travel_blog">
-      <a href="http://www.hotels.com/blog/" title="Travel blog" rel="nofollow" target="_blank">
-        Travel blog</a>
-    </li>
-  <li id="basic_footer_link_aboutus">
-      <a href="/customer_care/about_us.html" title="About Us" rel="nofollow">
-        About Us</a>
-    </li>
-  <li id="basic_footer_link_emailus">
-      <a href="/customer_care/index.html" title="Contact Us" rel="nofollow">
-        Contact Us</a>
-    </li>
-  <li id="basic_footer_link_jobs">
-      <a href="http://jobs.hotels.com/" title="Jobs" rel="nofollow">
-        Jobs</a>
-    </li>
-  <li id="basic_footer_link_faq">
-      <a href="/customer_care/faq.html" title="FAQs" rel="nofollow">
-        FAQs</a>
-    </li>
-  <li id="basic_footer_link_privacy">
-      <a href="/customer_care/privacy.html" title="Privacy Policy" rel="nofollow" class="hcomPopup" target="_blank">
-        Privacy Policy</a>
-    </li>
-  <li id="basic_footer_link_cookie_policy">
-      <a href="/customer_care/cookie_policy.html" title="Cookie Policy" rel="nofollow" class="hcomPopup" target="_blank">
-        Cookie Policy</a>
-    </li>
-  <li id="basic_footer_link_aboutOurAds">
-      <a href="/customer_care/about_our_ads.html" title="About our ads" rel="nofollow" class="hcomPopup" target="_blank">
-        About our ads</a>
-    </li>
-  <li id="basic_footer_link_feedback">
-      <a id="toplinks_mailto_or_oo" href="mailto:userexperience@hotels.com?subject=Site feedback: home page|en_US|HCOM_US|www.hotels.com " rel="nofollow" title="Love or hate this site? Tell us what you think." showoo="true">
-  Site Feedback</a></li>
-  <li id="basic_footer_link_siteindex">
-      <a href="/site-index/" title="Site Index">
-        Site Index</a>
-    </li>
-  <li id="basic_footer_link_terms" class="basic_footer_link_terms  footer_last_li">
-      <a href="/customer_care/terms_conditions.html" title="Terms & Conditions" rel="nofollow" class="hcomPopup" target="_blank">
-        Terms & Conditions</a>
-    </li>
-  </ul>
-<h3 id="partner_links">
-    Our Partners</h3>
-  <ul>
-    <li class="">
-        <a href="http://www.expedia.com/" title="Expedia">Expedia</a>
-      </li>
-    <li class="">
-        <a href="http://www.hotwire.com/us/index.jsp" title="Hotwire">Hotwire</a>
-      </li>
-    <li class="footer_last_li">
-        <a href="http://www.venere.com/" title="Venere">Venere</a>
-      </li>
-    </ul>
-<h3 id="for_suppliers">
-  For Suppliers, Affiliates and the Media</h3>
-<ul>
-  <li>
-    <script type="text/javascript"><!--//--><![CDATA[//><!--
+<body bgcolor="#ffffff" onload="">
 
-    function url(link) {
-        link.href = link.hash.substr(1);
-    }
-  
-//--><!]]></script>
-<a href="/html/blank.html#https://joinexpedia.com/default.asp?lang=uk" class="js_link" rel="nofollow" title="Hotels.com - Hotel rooms with reviews. Discounts and Deals on 85,000 hotels worldwide" onclick="url(this);">Add Hotel</a>
-</li>
-  <li>
-    <a href="/html/blank.html#/deals/travel-affiliate-program/" class="js_link" target="_blank" rel="nofollow" title="Hotels.com - Hotel rooms with reviews. Discounts and Deals on 85,000 hotels worldwide" onclick="url(this);">Affiliate with us</a>
-</li>
-  <li>
-    <a href="/html/blank.html#http://www.expediaaffiliate.com/" class="js_link" rel="nofollow" title="Hotels.com - Hotel rooms with reviews. Discounts and Deals on 85,000 hotels worldwide" onclick="url(this);">Private Label</a>
-</li>
-  <li>
-    <a href="/html/blank.html#http://www.advertising.expedia.com" class="js_link" rel="nofollow" title="Hotels.com - Hotel rooms with reviews. Discounts and Deals on 85,000 hotels worldwide" onclick="url(this);">Promote with Us</a>
-</li>
-  <li>
-    <a href="/html/blank.html#http://www.agentrez.com/" class="js_link" rel="nofollow" title="Hotels.com - Hotel rooms with reviews. Discounts and Deals on 85,000 hotels worldwide" onclick="url(this);">Travel Agents</a>
-</li>
-  <li class="footer_last_li">
-    <a href="/html/blank.html#http://press.hotels.com/en-us/" class="js_link" id="press_office_link" target="_blank" title="Hotels.com - Hotel rooms with reviews. Discounts and Deals on 85,000 hotels worldwide" onclick="url(this);">Press Office</a>
-</li>
-</ul>
-<div>
-  © 2002-2014 Hotels.com L.P. All rights reserved. – An Expedia Inc. brand<br />
-  Hotels.com, Hotels.com logo, Smart character, Welcome Rewards™, and ’Smart. So Smart.’ are trademarks and/or service marks of Hotels.com L.P.</div><a href="/customer_care/pillar/welcomerewards.html">
-      * Learn more about Welcome Rewards&trade;</a>
-  </div>
-</div>
-</div>
-</div></div>
-<!--[if lt IE 7]></div><![endif]-->
-<script type="text/javascript"><!--//--><![CDATA[//><!--
+	
+<!--googleoff: index-->		
+		
+<!--[if !IE]> BEGIN MAIN CONTAINER <![endif]-->
+<div id="main-container">
 
-    window.hcom = window.hcom || {};
+<!--[if !IE]> BEGIN MAIN LOGO AND UTILITY AREA <![endif]-->
+<p id="logo"><a href="/" name="top" title="ReadWriteThink"><img src="/images/logo.gif" width="415" height="64" border="0" alt="ReadWriteThink" /></a><a href="http://www.reading.org/" target="_blank" title="International Reading Association"><img src="/images/l-ira.gif" width="94" height="30" border="0" alt="International Reading Association" /></a><a href="http://www.ncte.org/" target="_blank" title="NCTE"><img src="/images/l-ncte.gif" width="60" height="30" border="0" alt="NCTE" /></a></p>
 
-    window.hcom.configuration =
-      {"DEFAULT_DATE_FORMAT":"MM/dd/yy","LOCALIZED_DATE_FORMAT":"mm/dd/yy","FIRST_DAY_OF_WEEK":0,"HOTEL_REVIEW_SCALE_SIZE":"5","HCOM_POS":"HCOM_US","DAYNAME_MONTHNAME_DATE_YEAR_FORMAT":"EEEE, MMMM d, yyyy","DROP_DOWN_CALENDAR_YEAR_MONTH_LABEL_TEMPLATE":"","DROP_DOWN_CALENDAR_DAY_LABEL_TEMPLATE":"","CURRENCY_CODE":"USD","MAX_ADVANCE_DAYS":"500","SELECTORS_URL":"/selectors/HWA.82.0.1-346-378033/en_US/","MOBILE_CURRENCIES_URL":"/mobile/ajax_currencies/HWA.82.0.1-346-378033/en_US/","DISPLAY_DAY_TEXT_ON_SEARCH_DD":"true"};
+<div id="print-only">
+<p id="page-url" class="gray-9">http://www.readwritethink.org/</p>
+<p>
+<span class="print-page-button"><img src="/images/icon-print.gif" width="21" height="13" border="0" alt="" id="icon-print" /><a href="javascript:void(0)" onclick="window.print()">Print This Page</a></span>
+<img src="/images/logo-print.gif" width="364" height="35" border="0" alt="ReadWriteThink" />
+<img src="/images/logo-print-line.gif" width="658" height="1" border="0" alt="ReadWriteThink" />
+</p></div>
 
-    window.hcom.locale =
-      {"url":"www.hotels.com","secureUrl":"ssl.hotels.com","direction":"LTR","rules":{"GOOGLE_MAPS_API_VERSION":"3","GOOGLE_MAPS_LANGUAGE_CODE":"en","COUNTRIES_WITHOUT_POSTAL_CODE":"HK,IE","REQUEST_CHANNEL_TYPE":"WEB_DESKTOP","OMNITURE_S_ACCOUNT":"hotelsallprod","OMNITURE_S_LNK_INT_FLTR":"javascript:,hotels.com,hoteis.com,hoteles.com,hotels.cn","JAVASCRIPT_DEVELOPMENT":false,"OMNITURE_S_SURVEY_ACCOUNT":"hotelsallprod"},"firstDayOfWeek":0,"showMonthAfterYear":false,"showNumericMonth":false,"monthUnit":"","yearUnit":"","dateFormatSymbols":{"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekDays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"shortWeekdays":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"dayWeekdayFormat":"d E","language":"en_US","facebookLocale":"en_US","autosuggest":{"asURL":"/suggest","srsURL":"http://lookup.hotels.com/2/suggest/v1/json","countryURL":"/co{0}/","regionURL":"/re{0}/","stateURL":"/sa{0}/","continentURL":"/cn{0}/","destinationLandingPageUrl":"/de{0}/","isAutoSuggestActive":true,"isHotelSearchActive":true,"activationCharLength":"3","i18nMessages":{"categories":{"cities":"Cities/Areas","hotels":"Hotels","landmarks":"Landmarks","airports":"Airports","airports_stations":"Airports/Stations"},"error":"Please type the name of a destination or hotel","noSuggestionMatch":"No suggestions match","close":"close","moreSuggestion":"...and more, keep typing to refine search","noSuggestion":"no suggestions"}},"common":{"expandBlockButtonLabel":"view more","tooLongStay":"Your stay cannot be longer than {0} nights.","numberOfNightsSingle":"one night","numberOfNightsPlural":"{0} nights"},"search":{"i18nMessages":{"resetToolTip":"Reset this filter"},"resolution":{"countryURL":"/co{0}/","regionURL":"/re{0}/","stateURL":"/sa{0}/","continentURL":"/cn{0}/","destinationLandingPageUrl":"/de{0}/"}},"clipboard_path":"/static/common/47.0/images/flash/clipper.swf"};
-  
-//--><!]]></script>
-<script type="text/javascript"><!--//--><![CDATA[//><!--
+<p id="util"><a href="#content" title="Skip to content"><img src="/images/s.gif" width="1" height="1" border="0" alt="Skip to content" /></a><a href="/util/contribute-to-rwt.html" id="u-contribute">Contribute to ReadWriteThink</a> / <a href="/util/rss.html" id="u-rss">RSS</a> / <a href="/util/faq.html" id="u-faq">FAQs</a> / <a href="/util/site-demonstrations.html" id="u-demonstrations">Site Demonstrations</a> / <a href="/util/contact.html" id="u-contact">Contact Us</a> / <a href="/about/" id="u-about">About Us</a></p>
 
-    var commonDataBlock = {"user":{"sessionId":"aOabQ_h220jwhUMug64XoagSJX.prod2-hwa-07","guid":"d6ef6834-cd37-431c-aba6-c3e57bdc1d7e","wrStatus":"New Visitor","pos":"HCOM_US","locale":"en_US","geolocation":{"latitude":"42.1967","longitude":"-83.6251"},"platformId":"Desktop"},"page":{"pageName":"home page","siteSection":"home page","random10Alpha":"4izqefue5t","random10Numeric":"0976711640","currency":"USD"},"search":{},"booking":{},"marketing":{},"property":{},"event":{"eventType":"hwa"}};
-  
-//--><!]]></script>
-<script type="text/javascript"><!--//--><![CDATA[//><!--
+<p id="header-r"  style="padding-top:12px;"><a href="http://www.thinkfinity.org" style="text-decoration:none;" onmouseover="document.tflogo.src='/images/f-thinkfinity-verizon.gif';" onmouseout="document.tflogo.src='/images/f-thinkfinity-verizon.gif';"><img id="tflogo" name="tflogo" src="/images/f-thinkfinity-verizon.gif" width="151" height="26" border="0" alt="Thinkfinity/Verizon" /></a></p>
 
-    window.hcom = window.hcom || {};
-    window.hcom.configuration = window.hcom.configuration || {};
-    window.hcom.configuration.CHECK_AVAILABILITY_CUTOFF_TIME_OFFSET = 0;
+<div id="util-bottom" class="clearit">&#160;</div>
 
-//--><!]]></script>
-<script type="text/javascript"><!--//--><![CDATA[//><!--
+<!--[if !IE]> END MAIN LOGO AND UTILITY AREA <![endif]-->
 
-//--><!]]></script>
-<script type="text/javascript"><!--//--><![CDATA[//><!--
+<!--[if !IE]> BEGIN MAIN NAVIGATION <![endif]-->
+<p id="nav"><a href="/classroom-resources/" title="Classroom Resources" onmouseover="navOn('class');showMenu('cr-menu');" onmouseout="navOff('class');hideMenu('cr-menu');"><img src="/images/nav-class-off.gif" width="240" height="39" border="0" alt="Classroom Resources" id="class" /></a><img src="/images/nav-divider.gif" width="1" height="39" border="0" alt="" /><a href="/professional-development/" title="Professional Development" onmouseover="navOn('dev');showMenu('pd-menu');" onmouseout="navOff('dev');hideMenu('pd-menu');"><img src="/images/nav-dev-off.gif" width="281" height="39" border="0" alt="Professional Development" id="dev" /></a><img src="/images/nav-divider.gif" width="1" height="39" border="0" alt="" /><a href="/videos/" title="Videos" onmouseover="navOn('videos');showMenu('v-menu');" onmouseout="navOff('videos');hideMenu('v-menu');"><img src="/images/nav-videos-off.gif" width="137" height="39" border="0" alt="Videos" id="videos" /></a><a href="/parent-afterschool-resources/" title="Parent &amp; Afterschool Resources" onmouseover="navOn('parent');showMenu('par-menu');" onmouseout="navOff('parent');hideMenu('par-menu');"><img src="/images/nav-parent-off.gif" width="297" height="39" border="0" alt="Parent &amp; Afterschool Resources" id="parent" /></a></p>
+<!--[if !IE]> END MAIN NAVIGATION <![endif]-->
 
-    window.hcom.userTime = '1396462662428' * 1;
-    window.hcom.serverTime = '' * 1;
-    window.hcom.locale.priceFormatSeparators = ",.";
-    window.hcom.locale.isPlusNextToPrice = false;
+	<!--[if !IE]> BEGIN DROPDOWN NAVIGATION MENUS <![endif]-->
+	<div id="cr-menu" class="dd-menu" onmouseover="navOn('class');showMenu('cr-menu');" onmouseout="navOff('class');hideMenu('cr-menu');">
+		<ul>
+			<li class="menu-top"><img src="/images/cr-menu-top.gif" width="31" height="10" border="0" alt="" /></li>
+						<li id="cr0" class="gr-off" onmouseover="grMenuOn('cr0')" onmouseout="grMenuOff('cr0')" onclick="document.location.href='/classroom-resources/lesson-plans/'"><a href="/classroom-resources/lesson-plans/">Lesson Plans</a></li>
+						<li id="cr1" class="gr-off" onmouseover="grMenuOn('cr1')" onmouseout="grMenuOff('cr1')" onclick="document.location.href='/classroom-resources/student-interactives/'"><a href="/classroom-resources/student-interactives/">Student Interactives</a></li>
+						<li id="cr2" class="gr-off" onmouseover="grMenuOn('cr2')" onmouseout="grMenuOff('cr2')" onclick="document.location.href='/classroom-resources/mobile-apps/'"><a href="/classroom-resources/mobile-apps/">Mobile Apps</a></li>
+						<li id="cr3" class="gr-off" onmouseover="grMenuOn('cr3')" onmouseout="grMenuOff('cr3')" onclick="document.location.href='/classroom-resources/calendar-activities/'"><a href="/classroom-resources/calendar-activities/">Calendar Activities</a></li>
+						<li id="cr4" class="gr-off" onmouseover="grMenuOn('cr4')" onmouseout="grMenuOff('cr4')" onclick="document.location.href='/classroom-resources/printouts/'"><a href="/classroom-resources/printouts/">Printouts</a></li>
+					</ul>
+		<p class="menu-bottom"><img src="/images/cr-menu-bottom.gif" width="240" height="10" border="0" alt="" /></p>
+	</div>
 
-    if (window.hcom.userTime > 0) {
-      window.hcom.userTime += new Date().getTimezoneOffset() * 60000;
-    } else {
-      window.hcom.userTime = new Date().getTime();
-    }
+	<div id="pd-menu" class="dd-menu" onmouseover="navOn('dev');showMenu('pd-menu');" onmouseout="navOff('dev');hideMenu('pd-menu');">
+		<ul>
+			<li class="menu-top"><img src="/images/pd-menu-top.gif" width="28" height="10" border="0" alt="" /></li>
+						<li id="pd0" class="gr-off " onmouseover="grMenuOn('pd0')" onmouseout="grMenuOff('pd0')" onclick="document.location.href='/professional-development/strategy-guides/'"><a href="/professional-development/strategy-guides/">Strategy Guides</a></li>
+						<li id="pd1" class="gr-off " onmouseover="grMenuOn('pd1')" onmouseout="grMenuOff('pd1')" onclick="document.location.href='/professional-development/professional-library/'"><a href="/professional-development/professional-library/">Professional Library</a></li>
+						<li id="pd2" class="gr-off " onmouseover="grMenuOn('pd2')" onmouseout="grMenuOff('pd2')" onclick="document.location.href='/professional-development/meetings-events/'"><a href="/professional-development/meetings-events/">Meetings &amp; Events</a></li>
+						<li id="pd3" class="gr-off last" onmouseover="grMenuOn('pd3')" onmouseout="grMenuOff('pd3')" onclick="document.location.href='/professional-development/online-pd/'"><a href="/professional-development/online-pd/">Online Professional Development</a></li>
+					</ul>
+		<p class="menu-bottom"><img src="/images/pd-menu-bottom.gif" width="281" height="10" border="0" alt="" /></p>
+	</div>
 
-    
-        window.hcom.checkInCutOffTime = window.hcom.userTime;
-      
+	<div id="v-menu" class="dd-menu" onmouseover="navOn('videos');showMenu('v-menu');" onmouseout="navOff('videos');hideMenu('v-menu');">
+		<ul>
+			<li class="menu-top"><img src="/images/pd-menu-top.gif" width="28" height="10" border="0" alt="" /></li>
+						<li id="v0" class="gr-off " onmouseover="grMenuOn('v0')" onmouseout="grMenuOff('v0')" onclick="document.location.href='/videos/literacy-in-action.html'"><a href="/videos/literacy-in-action.html">Literacy in Action</a></li>
+						<li id="v1" class="gr-off " onmouseover="grMenuOn('v1')" onmouseout="grMenuOff('v1')" onclick="document.location.href='/videos/presentations.html'"><a href="/videos/presentations.html">Presentations</a></li>
+						<li id="v2" class="gr-off " onmouseover="grMenuOn('v2')" onmouseout="grMenuOff('v2')" onclick="document.location.href='/videos/using-rwt.html'"><a href="/videos/using-rwt.html">Using RWT</a></li>
+						<li id="v3" class="gr-off last" onmouseover="grMenuOn('v3')" onmouseout="grMenuOff('v3')" onclick="document.location.href='/videos/just-for-fun.html'"><a href="/videos/just-for-fun.html">Just for Fun</a></li>
+					</ul>
+		<p class="menu-bottom"><img src="/images/au-menu-bottom.gif" width="230" height="10" border="0" alt="" /></p>
+	</div>
+	
+	<div id="par-menu" class="dd-menu-co" onmouseover="navOn('parent');showMenu('par-menu');" onmouseout="navOff('parent');hideMenu('par-menu');">
 
-    window.hcom.request =
-      {"METHOD":"GET"};
+	<ul>
+	<li class="menu-top"><img src="/images/par-menu-top.gif" width="19" height="10" border="0" alt="" /></li>
+		<li id="par1" class="co-off" onmouseover="coMenuOn('par1')" onmouseout="coMenuOff('par1')" onclick="document.location.href='/parent-afterschool-resources/grade/kindergarten/'"><a href="/parent-afterschool-resources/grade/kindergarten/">Kindergarten</a></li>
+		<li id="par2" class="co-off" onmouseover="coMenuOn('par2')" onmouseout="coMenuOff('par2')" onclick="document.location.href='/parent-afterschool-resources/grade/1-2/'"><a href="/parent-afterschool-resources/grade/1-2/">Grades 1 - 2</a></li>
+		<li id="par3" class="co-off" onmouseover="coMenuOn('par3')" onmouseout="coMenuOff('par3')" onclick="document.location.href='/parent-afterschool-resources/grade/3-4/'"><a href="/parent-afterschool-resources/grade/3-4/">Grades 3 - 4</a></li>
+		<li id="par4" class="co-off" onmouseover="coMenuOn('par4')" onmouseout="coMenuOff('par4')" onclick="document.location.href='/parent-afterschool-resources/grade/5-6/'"><a href="/parent-afterschool-resources/grade/5-6/">Grades 5 - 6</a></li>
+		<li id="par5" class="co-off" onmouseover="coMenuOn('par5')" onmouseout="coMenuOff('par5')" onclick="document.location.href='/parent-afterschool-resources/grade/7-8/'"><a href="/parent-afterschool-resources/grade/7-8/">Grades 7 - 8</a></li>
+		<li id="par6" class="co-off" onmouseover="coMenuOn('par6')" onmouseout="coMenuOff('par6')" onclick="document.location.href='/parent-afterschool-resources/grade/9-10/'"><a href="/parent-afterschool-resources/grade/9-10/">Grades 9 - 10</a></li>
+		<li id="par7" class="co-off" onmouseover="coMenuOn('par7')" onmouseout="coMenuOff('par7')" onclick="document.location.href='/parent-afterschool-resources/grade/11-12/'"><a href="/parent-afterschool-resources/grade/11-12/">Grades 11 - 12</a></li>
+		</ul>
 
-//--><!]]></script>
-<script type="text/javascript"><!--//--><![CDATA[//><!--
+	<p class="menu-bottom"><img src="/images/par-menu-bottom.gif" width="297" height="10" border="0" alt="" /></p>
+
+	</div>
+	<!--[if !IE]> END DROPDOWN NAVIGATION MENUS <![endif]-->
+
+<!--googleon: index-->
+		
+	<!--[if !IE]> BEGIN HOME FLASH <![endif]-->
+	<div id="home-flash">
+
+		<script language="JavaScript" type="text/javascript">
+		<!--
+		// -----------------------------------------------------------------------------
+		// Globals
+		// Major version of Flash required
+		var requiredMajorVersion = 9;
+		// Minor version of Flash required
+		var requiredMinorVersion = 0;
+		// Minor version of Flash required
+		var requiredRevision = 124;
+		// -----------------------------------------------------------------------------
+		// -->
+
+		<!--
+		// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+		var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+		// Version check based upon the values defined in globals
+		var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+		if ( hasProductInstall && !hasRequestedVersion ) {
+			// DO NOT MODIFY THE FOLLOWING FOUR LINES
+			// Location visited after installation is complete if installation is required
+			var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+			var MMredirectURL = window.location;
+		    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+		    var MMdoctitle = document.title;
+
+			AC_FL_RunContent(
+				"src", "playerProductInstall",
+				"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+				"width", "960",
+				"height", "316",
+				"align", "middle",
+				"id", "RWT",
+				"quality", "high",
+				"bgcolor", "#ffffff",
+				"name", "RWT",
+				"wmode", "transparent",
+				"allowScriptAccess","sameDomain",
+				"type", "application/x-shockwave-flash",
+				"FlashVars","name=&id=",
+				"pluginspage", "http://www.adobe.com/go/getflashplayer"
+			);
+		} else if (hasRequestedVersion) {
+			// if we've detected an acceptable version
+			// embed the Flash Content SWF when all tests are passed
+			AC_FL_RunContent(
+					"src", "flash/RWT",
+					"width", "960",
+					"height", "316",
+					"align", "middle",
+					"id", "RWT",
+					"quality", "high",
+					"bgcolor", "#ffffff",
+					"name", "RWT",
+					"wmode", "transparent",
+					"allowScriptAccess","sameDomain",
+					"type", "application/x-shockwave-flash",
+					"pluginspage", "http://www.adobe.com/go/getflashplayer"
+			);
+		  } else {  // flash is too old or we can't detect the plugin
+			var alternateContent = '';
+			document.write(alternateContent);  // insert non-flash content
+		  }
+		// -->
+		</script>
+
+		<noscript>
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="960" height="316" id="RWT" align="middle">
+			<param name="allowScriptAccess" value="sameDomain" />
+			<param name="allowFullScreen" value="false" />
+			<param name="movie" value="flash/RWT.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#000000" /> <param name="wmode" value="transparent"> <embed src="flash/RWT.swf" quality="high" bgcolor="#000000" width="960" height="316" name="RWT" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" />
+			</object>
+		</noscript>
+
+	</div>
+	<!--[if !IE]> END HOME FLASH <![endif]-->
+
+	<!--[if !IE]> BEGIN LEFT CONTENT <![endif]-->
+	<div class="content-l">
+	    <!--googleoff: index-->
+		<form id="search" name="search"  action="/search/" onsubmit="if(document.getElementById('srch').value == 'Enter Keyword') document.getElementById('srch').value='';">
+
+						<input type="hidden" name="sort_order" id="sort_order" value="relevance">
+
+			<p class="search-box-dark-top"><img src="/images/search-box-dark-top.gif" width="193" height="8" border="0" alt="" /></p>
+
+			<h3>SEARCH BY KEYWORD</h3>
+			<div class="search-box-light">
+				<p id="search-field"><input type="text" id="srch" name="q" value="Enter Keyword" onclick="if(this.value=='Enter Keyword')this.value='';" /></p>
+				<p id="searchgo"><input type="image" id="srchgo" name="srchgo" src="/images/search-go.gif" alt="Go" /></p>
+				<input type="hidden" name="old_q" value="" />
+				<div class="clearit">&#160;</div>
+							</div>
+
+			<p class="no-pad"><img src="/images/search-box-light-bottom.gif" width="193" height="8" border="0" alt="" /></p>
+
+			
+			
+		    				<p class="search-box-dark-top"><img src="/images/search-box-dark-top.gif" width="193" height="8" border="0" alt="" /></p>
+
+				<h3>START FILTERING BY</h3>
+
+						<div class="search-box-medium">
+			<h4>Grade Level</h4>
+						<div id="filter-grade-container" class="search-box-indent">
+				<p id="filter-grade-close" class="search-close"  style="display: none"><a href="javascript: void(0)" onclick="collapseFilter('filter-grade')" style="text-decoration: none; background: none;">close <img src="/images/icon-close-ko.gif" width="11" height="11" border="0" alt="" class="inline3" /></a></p> 								<div class="search-box-first">
+					<div class="defaul-items">
+						<p><a href="/search/?grade=7" onclick="window.location.href='/search/?grade=7'">Kindergarten</a>&nbsp;<span id="gk-amt">(457)</span></p><p><a href="/search/?grade=11" onclick="window.location.href='/search/?grade=11'">1st</a>&nbsp;<span id="gk-amt">(497)</span></p><p><a href="/search/?grade=9" onclick="window.location.href='/search/?grade=9'">2nd</a>&nbsp;<span id="gk-amt">(508)</span></p>					</div>
+										<div class="search-box-l"  style="display: none">
+						<p><a href="/search/?grade=8" onclick="window.location.href='/search/?grade=8'">3rd</a>&nbsp;<span id="gk-amt">(745)</span></p><p><a href="/search/?grade=12" onclick="window.location.href='/search/?grade=12'">4th</a>&nbsp;<span id="gk-amt">(743)</span></p><p><a href="/search/?grade=13" onclick="window.location.href='/search/?grade=13'">5th</a>&nbsp;<span id="gk-amt">(820)</span></p><p><a href="/search/?grade=14" onclick="window.location.href='/search/?grade=14'">6th</a>&nbsp;<span id="gk-amt">(882)</span></p><p><a href="/search/?grade=15" onclick="window.location.href='/search/?grade=15'">7th</a>&nbsp;<span id="gk-amt">(889)</span></p><p><a href="/search/?grade=16" onclick="window.location.href='/search/?grade=16'">8th</a>&nbsp;<span id="gk-amt">(906)</span></p><p><a href="/search/?grade=17" onclick="window.location.href='/search/?grade=17'">9th</a>&nbsp;<span id="gk-amt">(875)</span></p><p><a href="/search/?grade=20" onclick="window.location.href='/search/?grade=20'">10th</a>&nbsp;<span id="gk-amt">(856)</span></p><p><a href="/search/?grade=18" onclick="window.location.href='/search/?grade=18'">11th</a>&nbsp;<span id="gk-amt">(841)</span></p>					</div>
+									</div>
+
+								<div class="search-box-r" style="display: none">
+						<p><a href="/search/?grade=19" onclick="window.location.href='/search/?grade=19'">12th</a>&nbsp;<span id="gk-amt">(839)</span></p>				</div>
+				
+				<div class="clearit">&#160;</div>
+
+								<div class="indent">
+					<p class="search-more" id="filter-grade-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-grade', 384)">more</a></p>
+					<p class="search-more" id="filter-grade-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-grade')">less</a></p>
+				</div>
+				
+			</div>
+
+				</div>
+				<div class="search-box-medium">
+			<h4>Resource Type</h4>
+						<div id="filter-2resource_type-container" class="search-box-indent">
+								<h5 class="over">Classroom Resources</h5><p class="search-box-h5-bottom-over"><img src="/images/search-box-h5-bottom.gif" width="176" height="10" border="0" alt="" /></p>
+				<div class="search-box-first">
+					<div class="defaul-items">
+						<p><a href="/search/?resource_type=6" onclick="window.location.href='/search/?resource_type=6'">Lesson Plans</a>&nbsp;<span id="gk-amt">(859)</span></p><p><a href="/search/?resource_type=16" onclick="window.location.href='/search/?resource_type=16'">Student Interactives</a>&nbsp;<span id="gk-amt">(59)</span></p><p><a href="/search/?resource_type=126" onclick="window.location.href='/search/?resource_type=126'">Mobile Apps</a>&nbsp;<span id="gk-amt">(9)</span></p>					</div>
+										<div class="search-box-l"  style="display: none">
+						<p><a href="/search/?resource_type=20" onclick="window.location.href='/search/?resource_type=20'">Calendar Activities</a>&nbsp;<span id="gk-amt">(245)</span></p><p><a href="/search/?resource_type=18" onclick="window.location.href='/search/?resource_type=18'">Printouts</a>&nbsp;<span id="gk-amt">(43)</span></p>					</div>
+									</div>
+
+				
+				<div class="clearit">&#160;</div>
+
+								<div class="indent">
+					<p class="search-more" id="filter-2resource_type-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-2resource_type', 192)">more</a></p>
+					<p class="search-more" id="filter-2resource_type-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-2resource_type')">less</a></p>
+				</div>
+				
+			</div>
+
+					<div id="filter-3resource_type-container" class="search-box-indent">
+								<h5 class="over">Professional Development</h5><p class="search-box-h5-bottom-over"><img src="/images/search-box-h5-bottom.gif" width="176" height="10" border="0" alt="" /></p>
+				<div class="search-box-first">
+					<div class="defaul-items">
+						<p><a href="/search/?resource_type=56" onclick="window.location.href='/search/?resource_type=56'">Strategy Guides</a>&nbsp;<span id="gk-amt">(55)</span></p><p><a href="/search/?resource_type=58" onclick="window.location.href='/search/?resource_type=58'">Professional Library</a>&nbsp;<span id="gk-amt">(225)</span></p><p><a href="/search/?resource_type=66" onclick="window.location.href='/search/?resource_type=66'">Meetings & Events</a>&nbsp;<span id="gk-amt">(10)</span></p>					</div>
+										<div class="search-box-l"  style="display: none">
+						<p><a href="/search/?resource_type=68" onclick="window.location.href='/search/?resource_type=68'">Online Professional Development</a>&nbsp;<span id="gk-amt">(68)</span></p>					</div>
+									</div>
+
+				
+				<div class="clearit">&#160;</div>
+
+								<div class="indent">
+					<p class="search-more" id="filter-3resource_type-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-3resource_type', 192)">more</a></p>
+					<p class="search-more" id="filter-3resource_type-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-3resource_type')">less</a></p>
+				</div>
+				
+			</div>
+
+					<div id="filter-4resource_type-container" class="search-box-indent">
+								<h5 class="over">Parent &amp; Afterschool Resources</h5><p class="search-box-h5-bottom-over"><img src="/images/search-box-h5-bottom.gif" width="176" height="10" border="0" alt="" /></p>
+				<div class="search-box-first">
+					<div class="defaul-items">
+						<p><a href="/search/?resource_type=70" onclick="window.location.href='/search/?resource_type=70'">Activities & Projects</a>&nbsp;<span id="gk-amt">(105)</span></p><p><a href="/search/?resource_type=72" onclick="window.location.href='/search/?resource_type=72'">Games & Tools</a>&nbsp;<span id="gk-amt">(23)</span></p><p><a href="/search/?resource_type=74" onclick="window.location.href='/search/?resource_type=74'">Tips & How-To's</a>&nbsp;<span id="gk-amt">(25)</span></p>					</div>
+										<div class="search-box-l"  style="display: none">
+						<p><a href="/search/?resource_type=76" onclick="window.location.href='/search/?resource_type=76'">Printouts</a>&nbsp;<span id="gk-amt">(26)</span></p><p><a href="/search/?resource_type=80" onclick="window.location.href='/search/?resource_type=80'">Podcast Series</a>&nbsp;<span id="gk-amt">(2)</span></p><p><a href="/search/?resource_type=82" onclick="window.location.href='/search/?resource_type=82'">Podcast Episodes</a>&nbsp;<span id="gk-amt">(132)</span></p>					</div>
+									</div>
+
+				
+				<div class="clearit">&#160;</div>
+
+								<div class="indent">
+					<p class="search-more" id="filter-4resource_type-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-4resource_type', 192)">more</a></p>
+					<p class="search-more" id="filter-4resource_type-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-4resource_type')">less</a></p>
+				</div>
+				
+			</div>
+
+				</div>
+				<div class="search-box-medium">
+			<h4>Learning Objective</h4>
+						<div id="filter-learning_objective-container" class="search-box-indent">
+				<p id="filter-learning_objective-close" class="search-close"  style="display: none"><a href="javascript: void(0)" onclick="collapseFilter('filter-learning_objective')" style="text-decoration: none; background: none;">close <img src="/images/icon-close-ko.gif" width="11" height="11" border="0" alt="" class="inline3" /></a></p> 								<div class="search-box-first">
+					<div class="defaul-items">
+						<p><a href="/search/?learning_objective=35" onclick="window.location.href='/search/?learning_objective=35'">Collaboration</a>&nbsp;<span id="gk-amt">(477)</span></p><p><a href="/search/?learning_objective=8" onclick="window.location.href='/search/?learning_objective=8'">Comprehension</a>&nbsp;<span id="gk-amt">(568)</span></p><p><a href="/search/?learning_objective=44" onclick="window.location.href='/search/?learning_objective=44'">Critical Thinking</a>&nbsp;<span id="gk-amt">(694)</span></p>					</div>
+										<div class="search-box-l"  style="display: none">
+						<p><a href="/search/?learning_objective=52" onclick="window.location.href='/search/?learning_objective=52'">Digital Literacy</a>&nbsp;<span id="gk-amt">(189)</span></p><p><a href="/search/?learning_objective=11" onclick="window.location.href='/search/?learning_objective=11'">Grammar</a>&nbsp;<span id="gk-amt">(63)</span></p><p><a href="/search/?learning_objective=54" onclick="window.location.href='/search/?learning_objective=54'">Inquiry / Research</a>&nbsp;<span id="gk-amt">(370)</span></p><p><a href="/search/?learning_objective=34" onclick="window.location.href='/search/?learning_objective=34'">Listening</a>&nbsp;<span id="gk-amt">(207)</span></p><p><a href="/search/?learning_objective=42" onclick="window.location.href='/search/?learning_objective=42'">Literary Analysis</a>&nbsp;<span id="gk-amt">(393)</span></p><p><a href="/search/?learning_objective=29" onclick="window.location.href='/search/?learning_objective=29'">Media Literacy</a>&nbsp;<span id="gk-amt">(226)</span></p><p><a href="/search/?learning_objective=45" onclick="window.location.href='/search/?learning_objective=45'">Metacognition</a>&nbsp;<span id="gk-amt">(334)</span></p><p><a href="/search/?learning_objective=43" onclick="window.location.href='/search/?learning_objective=43'">Multicultural Awareness</a>&nbsp;<span id="gk-amt">(104)</span></p><p><a href="/search/?learning_objective=53" onclick="window.location.href='/search/?learning_objective=53'">Multimodal Literacy</a>&nbsp;<span id="gk-amt">(270)</span></p>					</div>
+									</div>
+
+								<div class="search-box-r" style="display: none">
+						<p><a href="/search/?learning_objective=37" onclick="window.location.href='/search/?learning_objective=37'">Oral Communication</a>&nbsp;<span id="gk-amt">(251)</span></p><p><a href="/search/?learning_objective=50" onclick="window.location.href='/search/?learning_objective=50'">Phonological Awareness</a>&nbsp;<span id="gk-amt">(91)</span></p><p><a href="/search/?learning_objective=38" onclick="window.location.href='/search/?learning_objective=38'">Print Awareness</a>&nbsp;<span id="gk-amt">(119)</span></p><p><a href="/search/?learning_objective=32" onclick="window.location.href='/search/?learning_objective=32'">Reading Fluency</a>&nbsp;<span id="gk-amt">(104)</span></p><p><a href="/search/?learning_objective=40" onclick="window.location.href='/search/?learning_objective=40'">Reading Genres</a>&nbsp;<span id="gk-amt">(335)</span></p><p><a href="/search/?learning_objective=17" onclick="window.location.href='/search/?learning_objective=17'">Spelling</a>&nbsp;<span id="gk-amt">(67)</span></p><p><a href="/search/?learning_objective=55" onclick="window.location.href='/search/?learning_objective=55'">Text Structure / Story Structure</a>&nbsp;<span id="gk-amt">(275)</span></p><p><a href="/search/?learning_objective=19" onclick="window.location.href='/search/?learning_objective=19'">Vocabulary</a>&nbsp;<span id="gk-amt">(228)</span></p><p><a href="/search/?learning_objective=41" onclick="window.location.href='/search/?learning_objective=41'">Writing Genres</a>&nbsp;<span id="gk-amt">(429)</span></p><p><a href="/search/?learning_objective=31" onclick="window.location.href='/search/?learning_objective=31'">Writing Process</a>&nbsp;<span id="gk-amt">(450)</span></p>				</div>
+				
+				<div class="clearit">&#160;</div>
+
+								<div class="indent">
+					<p class="search-more" id="filter-learning_objective-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-learning_objective', 384)">more</a></p>
+					<p class="search-more" id="filter-learning_objective-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-learning_objective')">less</a></p>
+				</div>
+				
+			</div>
+
+				</div>
+				<div class="search-box-medium-last">
+			<h4>Theme</h4>
+						<div id="filter-theme-container" class="search-box-indent">
+				<p id="filter-theme-close" class="search-close"  style="display: none"><a href="javascript: void(0)" onclick="collapseFilter('filter-theme')" style="text-decoration: none; background: none;">close <img src="/images/icon-close-ko.gif" width="11" height="11" border="0" alt="" class="inline3" /></a></p> 								<div class="search-box-first">
+					<div class="defaul-items">
+						<p><a href="/search/?theme=10" onclick="window.location.href='/search/?theme=10'">Arts</a>&nbsp;<span id="gk-amt">(211)</span></p><p><a href="/search/?theme=16" onclick="window.location.href='/search/?theme=16'">Careers</a>&nbsp;<span id="gk-amt">(45)</span></p><p><a href="/search/?theme=11" onclick="window.location.href='/search/?theme=11'">Community</a>&nbsp;<span id="gk-amt">(247)</span></p>					</div>
+										<div class="search-box-l"  style="display: none">
+						<p><a href="/search/?theme=13" onclick="window.location.href='/search/?theme=13'">Drama</a>&nbsp;<span id="gk-amt">(86)</span></p><p><a href="/search/?theme=18" onclick="window.location.href='/search/?theme=18'">English-Language Learners</a>&nbsp;<span id="gk-amt">(66)</span></p><p><a href="/search/?theme=17" onclick="window.location.href='/search/?theme=17'">Family</a>&nbsp;<span id="gk-amt">(123)</span></p><p><a href="/search/?theme=6" onclick="window.location.href='/search/?theme=6'">Fiction</a>&nbsp;<span id="gk-amt">(515)</span></p><p><a href="/search/?theme=19" onclick="window.location.href='/search/?theme=19'">Mathematics</a>&nbsp;<span id="gk-amt">(44)</span></p><p><a href="/search/?theme=25" onclick="window.location.href='/search/?theme=25'">Mobile Learning</a>&nbsp;<span id="gk-amt">(19)</span></p><p><a href="/search/?theme=9" onclick="window.location.href='/search/?theme=9'">Nonfiction</a>&nbsp;<span id="gk-amt">(306)</span></p><p><a href="/search/?theme=7" onclick="window.location.href='/search/?theme=7'">Poetry</a>&nbsp;<span id="gk-amt">(195)</span></p><p><a href="/search/?theme=5" onclick="window.location.href='/search/?theme=5'">Science</a>&nbsp;<span id="gk-amt">(130)</span></p>					</div>
+									</div>
+
+								<div class="search-box-r" style="display: none">
+						<p><a href="/search/?theme=23" onclick="window.location.href='/search/?theme=23'">Seasons / Holidays</a>&nbsp;<span id="gk-amt">(74)</span></p><p><a href="/search/?theme=15" onclick="window.location.href='/search/?theme=15'">Social Action</a>&nbsp;<span id="gk-amt">(114)</span></p><p><a href="/search/?theme=22" onclick="window.location.href='/search/?theme=22'">Social Studies / History</a>&nbsp;<span id="gk-amt">(330)</span></p><p><a href="/search/?theme=21" onclick="window.location.href='/search/?theme=21'">Sports</a>&nbsp;<span id="gk-amt">(28)</span></p><p><a href="/search/?theme=24" onclick="window.location.href='/search/?theme=24'">STEM</a>&nbsp;<span id="gk-amt">(14)</span></p>				</div>
+				
+				<div class="clearit">&#160;</div>
+
+								<div class="indent">
+					<p class="search-more" id="filter-theme-more"><span id="search-mark1">+</span> <a href="javascript: void(0)" onclick="expandFilter('filter-theme', 384)">more</a></p>
+					<p class="search-more" id="filter-theme-less" style="display:none"><span id="search-mark1a">-</span> <a href="javascript: void(0)" onclick="collapseFilter('filter-theme')">less</a></p>
+				</div>
+				
+			</div>
+
+				</div>
+		
+				<p class="no-pad"><img src="/images/search-box-medium-bottom.gif" width="193" height="8" border="0" alt="" /></p>
+
+		    
+		</form>
+		<p class="pad5b"><img src="/images/search-bottom.gif" width="209" height="8" border="0" alt="" /></p>
+
+		<!--googleon: index-->
+			</div>
+	<!--[if !IE]> END LEFT CONTENT  <![endif]-->
+
+	<!--[if !IE]> BEGIN RIGHT CONTENT <![endif]-->
+	<div class="content-cr-home" onclick="checkSearch()">
+
+		<div class="l341-22 pad5b">
+		    <p class="hdr-341-link"><img src="/images/hdr-link-divider.gif" width="8" height="16" border="0" alt="Classroom Resources" class="hdr-link-divider" /><a href="/classroom-resources/" title="Classroom Resources" class="arrow-sm">more</a></p>
+		    <h2 class="hdr-341-green"><a href="/classroom-resources/" title="Classroom Resources">Classroom Resources</a></h2>
+            <div class="clearit">&#160;</div>
+
+			<div class="indent-15-l">
+			    <div class="l205-10">
+		            <p class="no-pad" style="background: url(/files/homepage/home-cr-img_1.jpg) no-repeat;"><a href="/classroom-resources/" class="img" title="Classroom Resources"><img src="/images/img-mask-205-90.png" width="205" height="90" border="0" alt="Classroom Resources" /></a></p>
+				</div>
+			    <div class="l205-10-r">
+			        <p class="lg dark">Lessons, interactives, calendar activities, and more, right at your fingertips.</p>
+				</div>
+
+			    <p class="clearit">&#160;</p>
+
+                <p class="divider"><span class="dark">most viewed</span></p>
+			                            <!--<p class="pad3b"><span class="dark">Grades &#160; <strong>K &ndash; 4</strong></span>-->
+                        <p class="pad3b"><span class="dark">Grades &#160; <strong>K - 12</strong></span>
+						&#160;|&#160; <span class="gray-6">Student Interactive &nbsp;|&nbsp; Organizing &amp; Summarizing</span></p>
+			            <p class="lg"><a href="/classroom-resources/student-interactives/story-30008.html"  class="arrow-lg boldit" title="Story Map">Story Map</a></p>                        <!--<p class="pad3b"><span class="dark">Grades &#160; <strong>5 &ndash; 8</strong></span>-->
+                        <p class="pad3b"><span class="dark">Grades &#160; <strong>K - 12</strong></span>
+						&#160;|&#160; <span class="gray-6">Student Interactive &nbsp;|&nbsp; Writing Poetry</span></p>
+			            <p class="lg"><a href="/classroom-resources/student-interactives/acrostic-poems-30045.html"  class="arrow-lg boldit" title="Acrostic Poems">Acrostic Poems</a></p>                        <!--<p class="pad3b"><span class="dark">Grades &#160; <strong>9 &ndash; 12</strong></span>-->
+                        <p class="pad3b"><span class="dark">Grades &#160; <strong>1 - 12</strong></span>
+						&#160;|&#160; <span class="gray-6">Student Interactive &nbsp;|&nbsp; Organizing &amp; Summarizing</span></p>
+			            <p class="lg"><a href="/classroom-resources/student-interactives/plot-diagram-30040.html"  class="arrow-lg boldit" title="Plot Diagram">Plot Diagram</a></p>			</div>
+		</div>
+
+		<div class="l341-home pad5b">
+		    <p class="hdr-341-link"><img src="/images/hdr-link-divider.gif" width="8" height="16" border="0" alt="Professional Development" class="hdr-link-divider" /><a href="/professional-development/" title="Professional Development" class="arrow-sm">more</a></p>
+		    <h2 class="hdr-341-green"><a href="/professional-development/" title="Professional Development">Professional Development</a></h2>
+		    <div class="clearit">&#160;</div>
+
+			<div class="indent-15-l">
+				<div class="l205-10">
+		            <p class="no-pad" style="background: url(/files/homepage/home-pd-img_1.jpg) no-repeat;"><a href="/professional-development/" class="img" title="Professional Development"><img src="/images/img-mask-205-90.png" width="205" height="90" border="0" alt="Professional Development" /></a></p>
+				</div>
+
+				<div class="l205-10-r-home">
+			        <p class="lg no-pad dark">Energize and inform your teaching with publications, training, and networking.<br />
+<br />
+</p>
+				</div>
+
+			    <p class="clearit">&#160;</p>
+
+			                        <p class="divider"><span class="dark">upcoming event</span></p>
 
 
-    window.hcom.locale.autosuggest.useSrsDataHomepage   =   true;
-    window.hcom.locale.autosuggest.useSrsData           =   true;
-    window.hcom.locale.autosuggest.srsBoostConfig       =   "config-boost-2";
+                                            <div class="l100-10">
+                            <p class="no-pad" style="background: url(/thumb/?src=/files/resources/IRA_ConferenceLogo_220.png&amp;w=100&amp;h=75&amp;hash=7d2ba6540fd601c015c8cff83b17c416) no-repeat;"><img src="/images/img-mask-100-75.png" width="100" height="75" border="0" alt="International Reading Association 59th Annual Conference" /></p>
+	                    </div>
+                    
+				    <div class="l100-10-r">
+			            <h3><a href="http://www.iraconference.org/"  class="arrow-lg boldit" title="International Reading Association 59th Annual Conference">International Reading Association 59th Annual Conference</a></h3>
+			            <p class="lg"><strong>Reading... The Teachable Moment</strong></p>
+			            <p>May 09&ndash;12, 2014 | New Orleans, Louisiana</p>
+				    </div>
 
-    window.hcom.locale.search.resolution.useSrsData     =   false;
-    window.hcom.locale.search.resolution.srsBoostConfig =   "config-boost-2";
+                    <p class="clearit">&#160;</p>
+			        <p>The International Reading Association�s 59th Annual Conference is the premier event for literacy professionals worldwide. This year�s program offers hundreds of sessions, many of which focus on the Common Core; assessment; beginning, elementary, and adolescent learners; and research.</p>			</div>
+		</div>
 
+	    <p class="clearit">&#160;</p>
 
-//--><!]]></script>
-<script type="text/javascript" src="http://a2.cdn-hotels.com/static/common/47.0/hcom-social-homepage.js"></script>
-<script type="text/javascript" src="http://a2.cdn-hotels.com/static/common/47.0/homepage.js"></script>
+		<div class="l341-22">
+		    <p class="hdr-341-link"><img src="/images/hdr-link-divider.gif" width="8" height="16" border="0" alt="Parent &amp; Afterschool Resources" class="hdr-link-divider" /><a href="/parent-afterschool-resources/" title="Parent &amp; Afterschool Resources" class="arrow-sm">more</a></p>
+		    <h2 class="hdr-341-coral"><a href="/parent-afterschool-resources/" title="Parent &amp; Afterschool Resources" class="no-wrap">Parent &amp; Afterschool Resources</a></h2>
+		    <div class="clearit">&#160;</div>
 
+			<div class="indent-15-l">
+			    <div class="l205-10">
+		            <p class="no-pad" style="background: url(/files/homepage/home-pa-img_1.jpg) no-repeat;"><a href="/parent-afterschool-resources/" class="img" title="Parent &amp; Afterschool Resources"><img src="/images/img-mask-205-90.png" width="205" height="90" border="0" alt="Parent &amp; Afterschool Resources" /></a></p>
+				</div>
 
-<script src="http://a2.cdn-hotels.com/da/assets/cat/js/1.21/ejzh6d901aopralmsq8sbmk2j-xa8ecm1hb7m4n3ngchfljh70-8e4osg6l182ueoashjn6bcg80-7bba2v5p3ia3i4g6pumt63j9q-992y9uc542xs6waunzrsiuxb8-2iq7j4dt958hvageg15fu0auo-9958p2zzd61sniuyyn6u2rof5-80f4uh48bdo92mljj66t3isyo-128oa5xfbwxzu29dm7tfv6akq-e68j34la3htlobgy1dxei8jox-acr8pfu7chqtmetwn5qx3lpo9-afjbpxf01d6f2u0poy5jznw0h-9rzlvb0gcwj8h19ny6lbjp3gd"></script><script type="text/javascript"><!--//--><![CDATA[//><!--
+				<div class="l205-10-r">
+			        <p class="lg dark">From fun activities to suggested books, we&#039;ve got your out-of-school time covered.</p>
+				</div>
 
-  $.loadModule("hcom.common.modules.prerender");
+			    <p class="clearit">&#160;</p>
+			    <p class="divider"><span class="dark">most viewed</span></p>
+			    
+						<!--<p class="pad3b"><span class="dark">Grades &#160; <strong>K &ndash; 4</strong></span>-->
+                        <p class="pad3b"><span class="dark">Grades &#160; <strong>3 - 8</strong></span>
+						&#160;|&#160; <span class="gray-6">Game &amp; Tool</span></p>
+			            <p class="lg"><a href="/parent-afterschool-resources/games-tools/trading-card-creator-a-30181.html"  class="arrow-lg boldit" title="Trading Card Creator">Trading Card Creator</a></p>
+						<!--<p class="pad3b"><span class="dark">Grades &#160; <strong>5 &ndash; 8</strong></span>-->
+                        <p class="pad3b"><span class="dark">Grades &#160; <strong>K - 5</strong></span>
+						&#160;|&#160; <span class="gray-6">Game &amp; Tool</span></p>
+			            <p class="lg"><a href="/parent-afterschool-resources/games-tools/theme-poems-a-30871.html"  class="arrow-lg boldit" title="Theme Poems">Theme Poems</a></p>
+						<!--<p class="pad3b"><span class="dark">Grades &#160; <strong>9 &ndash; 12</strong></span>-->
+                        <p class="pad3b"><span class="dark">Grades &#160; <strong>9 - 12</strong></span>
+						&#160;|&#160; <span class="gray-6">Game &amp; Tool</span></p>
+			            <p class="lg"><a href="/parent-afterschool-resources/games-tools/profile-publisher-a-30243.html"  class="arrow-lg boldit" title="Profile Publisher">Profile Publisher</a></p>			</div>
+		</div>
 
-//--><!]]></script>
-<script type="text/javascript" defer="defer"><!--//--><![CDATA[//><!--
-$.namespace("hcom.shared.desktop.queryform.validatorMessages",
-{"qf.validation.destination":"Please tell us the destination, hotel or landmark you’re looking for","qf.validation.dates.too_long":"Sorry, we can’t book a stay that’s longer than {0} days","qf.validation.dates.check_in":"Please tell us your check in date","qf.validation.dates.check_out":"Please tell us your check out date","qf.validation.children.ages":"How old are the children in each room?","qf.validation.dates.checkInDatePrior":"Please enter a check in date in the future","qf.validation.dates.checkOutPriorToCheckin":"Your check out date is before your check in date","qf.validation.dates.cannot.be.the.same":"Sorry, you need to book at least one night","qf.validation.dates.nodates":"Please enter your travel dates","qf.validation.dates.checkOutDatePrior":"Please enter a check out date in the future","qf.validation.dates.dateInPast":"Your check in date is before today","qf.validation.dates.invalidFormat":"Please enter a valid date"});
-$.formatter.extendGlobal({"qf.date.night_label.simple":"Night","qf.date.night_label.plural":"Nights"});
+		<div class="l341">
+		    <p class="hdr-341-link"><img src="/images/hdr-link-divider.gif" width="8" height="16" border="0" alt="Community Stories" class="hdr-link-divider" /><a href="/about/community-stories/" title="Community Stories" class="arrow-sm">more</a></p>
+		    <h2 class="hdr-341-yellow"><a href="/about/community-stories/" title="Community Stories">Community Stories</a></h2>
 
-$.namespace("hcom.locale.autosuggest.pageName", "HomePage");
+			<div class="indent-15-l">
+			    <p class="lg dark">Get inspired and make connections with diverse and talented literacy professionals.</p>
+		        <p><a href="/about/community-stories/share-story.html" title="Share Your Story" class="arrow-sm">Share Your Story</a></p>
+			    <p class="no-pad">&#160;</p>
 
+                                    <p class="divider"><span class="dark">featured story</span></p>
+			        <div class="l100-10">
+			            <p class="no-pad" style="background: url(/thumb/?src=/files/about/community-stories/demmon_200w.jpg&amp;w=100&amp;h=75&amp;hash=5bbbd2074920ba70f07870cef7870e6c) no-repeat;"><a href="/about/community-stories/making-your-lessons-sparkle-52.html" class="img" title="Making Your Lessons �Sparkle�: Adventures of a Preservice Teacher"><img src="/images/img-mask-100-75.png" width="100" height="75" border="0" alt="Making Your Lessons �Sparkle�: Adventures of a Preservice Teacher" /></a></p>
+				    </div>
 
-    $.namespace("hcom.gadgets.hotel_comparison.dockingbar",
-      {"url":"","enabled":false}
-    )
-  
-
-$.namespace("hcom.homepage.social.desktop.wr_messages",
-{"homepage_social.welcome_rewards.you_are_on_your_way_to_a_free_night":"You’re on your way to a free night","homepage_social.welcome_rewards.you_are_on_your_way_to_a_free_nightfree_star":"You’re on your way to a free* night","homepage_social.welcome_rewards.you_are_on_your_way_to_a_free_nightreward_night":"You’re on your way to a reward night","homepage_social.welcome_rewards.you_will_earn_x_free_nights_after_this_stay":"You’ll collect {0,choice,1#a free night|1<{0} free nights|4<{0} free nights|10<{0} free nights} after this stay","homepage_social.welcome_rewards.you_will_earn_x_free_nights_after_this_stayfree_star":"You’ll collect {0,choice,1#a free* night|1<{0} free* nights|4<{0} free* nights|10<{0} free* nights} after this stay","homepage_social.welcome_rewards.you_will_earn_x_free_nights_after_this_stayreward_night":"You’ll collect {0,choice,1#a reward night|1<{0} reward nights|4<{0} reward nights|10<{0} reward nights} after this stay","homepage_social.welcome_rewards.you_are_closer_to_a_free_night":"You’re closer to {0,choice,0#a|0<another} free night","homepage_social.welcome_rewards.you_are_closer_to_a_free_nightfree_star":"You’re closer to {0,choice,0#a|0<another} free* night","homepage_social.welcome_rewards.you_are_closer_to_a_free_nightreward_night":"You’re closer to {0,choice,0#a|0<another} reward night","homepage_social.welcome_rewards.you_will_collect_x_nights_after_this_stay":"You’ll collect {0,choice,1#1 night|1<{0} nights|4<{0} nights|10<{0} nights} after this stay","homepage_social.welcome_rewards.and_you_have_x_free_nights_to_redeem":"And you have {0, choice, 0#{0} free nights|1#{0} free night|1<{0} free nights|4<{0} free nights|10<{0} free nights} to redeem","homepage_social.welcome_rewards.and_you_have_x_free_nights_to_redeemfree_star":"And you have {0, choice, 0#{0} free* nights|1#{0} free* night|1<{0} free* nights|4<{0} free* nights|10<{0} free* nights} to redeem","homepage_social.welcome_rewards.and_you_have_x_free_nights_to_redeemreward_night":"And you have {0, choice, 0#{0} reward nights|1#{0} reward night|1<{0} reward nights|4<{0} reward nights|10<{0} reward nights} to redeem","homepage_social.welcome_rewards.collect_10_nights_get_one":"Collect {0} nights get 1 free*","homepage_social.welcome_rewards.collect_10_nights_get_onefree_star":"Collect {0} nights get 1 free*","homepage_social.welcome_rewards.collect_10_nights_get_onereward_night":"Collect {0} nights get 1 reward night*","homepage_social.welcome_rewards.collect_x_more_nights_get_another_night_free":"Collect {0,choice,1#{0} more night|1<{0} more nights|4<{0} more nights}, get another night free","homepage_social.welcome_rewards.collect_x_more_nights_get_another_night_freefree_star":"Collect {0,choice,1#{0} more night|1<{0} more nights|4<{0} more nights}, get another night free*","homepage_social.welcome_rewards.collect_x_more_nights_get_another_night_freereward_night":"Collect {0,choice,1#{0} more night|1<{0} more nights|4<{0} more nights}, get another reward night","homepage_social.welcome_rewards.find_out_more":"Find out more","homepage_social.welcome_rewards.free":"FREE","homepage_social.welcome_rewards.free_night":"Free night","homepage_social.welcome_rewards.free_nightfree_star":"Free night","homepage_social.welcome_rewards.free_nightreward_night":"Reward night","homepage_social.welcome_rewards.our_loyalty_programme":"Our loyalty program","homepage_social.welcome_rewards.see_activity":"See activity"});
-
-    $.loadModule("hcom.homepage.social.desktop.common");
-    
-//--><!]]></script>
-<script type="text/javascript"><!--//--><![CDATA[//><!--
-
-  (function() {
-    var content = {"content":"<script type=\"text/javascript\"><!--//--><![CDATA[//><!--\ns.channel = \"home\\x20page\";\n    s.currencyCode = \"USD\";\n    s.eVar4 = \"Not\\x20Signed\\x20In\\x7CNew\\x20Visitor\\x7CNot\\x20FC\\x20Member\";\n    s.eVar13 = \"251463\";\n    s.eVar26 = \"US\\x3AMI\\x3AYPSILANTI\\x3A505\";\n    s.eVar33 = \"home\\x20page\";\n    s.eVar34 = \"H84\\x3A003.001,H92\\x3A003.000,H494\\x3A012.003,H495\\x3A004.002,H777\\x3A002.001,H869\\x3A003.001,H871\\x3A001.001,H872\\x3A002.001,H873\\x3A002.001,H1260\\x3A003.001,H1418\\x3A001.000\";\n    s.eVar41 = \"USD\";\n    s.eVar43 = \"en_US\\x7CHCOM_US\\x7Cwww.hotels.com\";\n    s.eVar61 = \"Desktop\";\n    s.pageName = \"home\\x20page\";\n    s.prop5 = \"251463\";\n    s.prop27 = \"d6ef6834\\x2Dcd37\\x2D431c\\x2Daba6\\x2Dc3e57bdc1d7e\";\n    s.prop28 = \"0\";\n    s.prop32 = \"en_US\\x7CHCOM_US\\x7Cwww.hotels.com\";\n    s.prop33 = \"home\\x20page\";\n    s.prop34 = \"82.0.1\\x2D346\\x2D378033\";\n    s.prop36 = \"Not\\x20Signed\\x20In\\x7CNew\\x20Visitor\\x7CNot\\x20FC\\x20Member\";\n    s.prop38 = \"not\\x20signed\\x20in\";\n    s.prop39 = \"not\\x20signed\\x20in\";\n    s.prop46 = \"Desktop\";\n    s.server = \"www.hotels.com\";\n    document.cookie=\"mvthistory=48.1.0.i2%3A84.1.0.i3%3A92.0.1.i3%3A98.6.0.i12%3A132.0.0.i4%3A225.0.0.i3%3A258.2.0%3A260.1.0.i4%3A303.0.0%3A336.1.0.i2%3A355.1.0.i4%3A402.0.0%3A409.0.0%3A494.3.0.i12%3A495.2.0.i4%3A531.1.1%3A555.2.0.i1%3A611.0.0%3A661.0.0%3A777.1.0.i2%3A810.1.0.i8%3A838.0.0%3A869.1.0.i3%3A870.0.0%3A871.1.0.i1%3A872.1.0.i2%3A873.1.0.i2%3A927.0.0%3A933.0.0%3A934.0.0%3A935.0.0%3A1107.3.0.i2%3A1111.3.0.i2%3A1156.1.0.i9%3A1260.1.0.i3%3A1395.0.0%3A1418.0.0.i1%7CHCOM_US;expires=\" + new Date( new Date().getTime() + (1000 * 60 * 60 * 24 * 365) ).toGMTString() + \";path=/;domain=.hotels.com\";\n    document.cookie=\"user=QSplbl9VU3xIQ09NX1VT;expires=\" + new Date( new Date().getTime() + (1000 * 60 * 60 * 24 * 365) ).toGMTString() + \";path=/;domain=.hotels.com\";\n    s.t();\n    s.eVar34 = null;\n  \n//--><!]]><\/script>"};
-    if (Object.getReferenceToNestedName("hcom.common.modules.prerender")) {
-      hcom.common.modules.prerender.append(content);
-    } else {
-      document.write(content);
-    }
-  })();
-
-//--><!]]></script>
-<script type="text/javascript"><!--//--><![CDATA[//><!--
-
-  (function() {
-    var content = {"content":"<script type=\"text/javascript\"><!--//--><![CDATA[//><!--\n\n    var s_sv_metadata = new Object();\n    \n      s_sv_metadata[\"guid\"] = \"d6ef6834\\x2Dcd37\\x2D431c\\x2Daba6\\x2Dc3e57bdc1d7e\";\n    \n      s_sv_metadata[\"session_id\"] = \"aOabQ_h220jwhUMug64XoagSJX.prod2\\x2Dhwa\\x2D07\";\n    \n//--><!]]><\/script>"};
-    if (Object.getReferenceToNestedName("hcom.common.modules.prerender")) {
-      hcom.common.modules.prerender.append(content);
-    } else {
-      document.write(content);
-    }
-  })();
-
-//--><!]]></script>
-<script type="text/javascript" src="http://a2.cdn-hotels.com/static/common/47.0/oo_engine_hcom_us.js"></script>
-<script type="text/javascript"><!--//--><![CDATA[//><!--
-
-        var _gaq = _gaq || [];
-
-        var googleAnalyticsPremium = {
-
-          sendTransactions: function(transactions) {
-              try {
-                var transactionList, transaction, itemList, item, i, j;
-
-                if (transactions instanceof Array) {
-                    transactionList = transactions;
-                } else {
-                    transactionList = [transactions];
-                }
-
-                for (i = 0; i < transactionList.length; i++) {
-                    transaction = transactionList[i];
-                    _gaq.push(["premium._addTrans",
-                               transaction.orderId, this.replaceNull(transaction.affiliation), transaction.total,
-                               this.replaceNull(transaction.tax), this.replaceNull(transaction.shipping), this.replaceNull(transaction.city),
-                               this.replaceNull(transaction.state), this.replaceNull(transaction.country)]);
-
-                    if (transaction.items !== undefined) {
-                        if (transaction.items instanceof Array) {
-                            itemList = transaction.items;
-                        } else {
-                            itemList = [transaction.items];
-                        }
-
-                        for (j = 0; j < itemList.length; j++) {
-                            item = itemList[j];
-                            _gaq.push(["premium._addItem", transaction.orderId, item.sku, item.name,
-                                       this.replaceNull(item.category), item.price, item.quantity]);
-                        }
-                    }
-
-                    _gaq.push(["premium._trackTrans"]);
-                }
-              } catch (e) {
-                  if (console && console.warn) {
-                      console.warn("google analytics script is unavailable: " + e);
-                  }
-              }
-          },
-
-          sendEvents: function(events) {
-              try {
-                var eventList, event, i;
-
-                if (events instanceof Array) {
-                    eventList = events;
-                } else {
-                    eventList = [events];
-                }
-
-                for (i = 0; i < eventList.length; i++) {
-                    event = eventList[i];
-                    _gaq.push(["premium._trackEvent",
-                               event.category, event.action,
-                               this.replaceNull(event.label), this.replaceNull(event.value), this.replaceNull(event.nonInteraction)]);
-                }
-              } catch (e) {
-                  if (console && console.warn) {
-                      console.warn("google analytics script is unavailable: " + e);
-                  }
-              }
-          },
-
-          replaceNull: function (value) {
-              return value === null ? undefined : value;
-          }
-
-        };
-
-        (function () {
-            try {
-                var TRACKER_COOKIE_TIMEOUT = 2592000000,    // sets timeout to 30 days
-                    domain = document.domain.substring(document.domain.indexOf("."), document.domain.length);
-
-                _gaq.push(["premium._setAccount", "UA-32616238-1"],
+				    <div class="l100-10-r">
+			            <p class="lg pad5b"><a href="/about/community-stories/making-your-lessons-sparkle-52.html" class="arrow-lg boldit">Making Your Lessons �Sparkle�: Adventures of a Preservice Teacher</a></p>
+				        <p class="lg pad3b"><strong>Carrie Demmon</strong></p>
+			            <p> Teacher<br />Ames, IA</p>
+				    </div>
                 
-                          ["premium._setCampaignCookieTimeout", TRACKER_COOKIE_TIMEOUT],
-                          ["premium._setDomainName", domain],
-                          ["premium._setAllowLinker", true],
-                          ["premium._set", "page", "home\x20page\x2Den_US\x7CHCOM_US"],["premium._setCustomVar", 1, "CID", "251463", 2],["premium._setCustomVar", 2, "User Context", "en_US\x7CHCOM_US\x7Cwww.hotels.com", 2],["premium._setCustomVar", 3, "GUID", "d6ef6834\x2Dcd37\x2D431c\x2Daba6\x2Dc3e57bdc1d7e", 2],["premium._setCustomVar", 5, "Log In Status", "Not\x20Signed\x20In", 2],["premium._setCustomVar", 6, "Welcome Rewards Status", "New\x20Visitor", 2]
-,
-                          ["premium._trackPageview"]);
-            } catch (e) {
-                if (console && console.warn) {
-                    console.warn("google analytics script is unavailable: " + e);
-                }
-            }
+				<p class="clearit">&#160;</p>
+			</div>
+		</div>
 
-            
-        })();
-    
-//--><!]]></script>
-<script type="text/javascript" src="http://www.google-analytics.com/ga.js" async="true"></script>
-<iframe src="http://fls.doubleclick.net/activityi;src=3399260;type=nausc659;cat=naush340;u20=d6ef6834-cd37-431c-aba6-c3e57bdc1d7e;u1=en_US;ord=4350607?" width="1" height="1" frameborder="0" style="display:none"></iframe><iframe src="http://fls.doubleclick.net/activityi;src=3057879;type=homep330;cat=homep396;u1=US;ord=35382938?" width="1" height="1" frameborder="0"></iframe><script src="//nexus.ensighten.com/hotelscom/prod/Bootstrap.js"></script>
-  </body>
+	    <p class="clearit">&#160;</p>
+
+
+		<div style="padding-top:20px;">
+
+	    <p class="no-pad"><img src="/images/teacher-resources-grade-top.gif" width="700" height="11" border="0" alt="" /></p>
+		<table cellspacing="0" width="700" summary="teacher resource links by grade">
+		<tbody>
+		<tr>
+			<td bgcolor="#eeeeee" style="padding-left:12px;">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tbody>
+					<tr>
+						<td rowspan="2" style="padding-top:6px;"><p class="img-flush-left"><img src="/images/teacher-resources-grade-logo.gif" width="51" height="64" border="0" alt="" /></p></td>
+						<td colspan="7" style="padding-top:7px;"><h2 style="color:#6da653; font-size:1.3em;">Explore Teacher Resources by Grade</h3></td>
+					</tr>
+					<tr>
+						<td>
+							<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td valign="bottom" onclick="window.location='/classroom-resources/grade/kindergarten/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-k-top.gif" width="100" height="8" border="0" alt="" /></td>
+								<td rowspan="3" width="6px"></td>
+								<td valign="bottom" onclick="window.location='/classroom-resources/grade/1-2/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
+								<td rowspan="3" width="6px"></td>
+								<td valign="bottom" onclick="window.location='/classroom-resources/grade/3-4/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
+								<td rowspan="3" width="6px"></td>
+								<td valign="bottom" onclick="window.location='/classroom-resources/grade/5-6/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
+								<td rowspan="3" width="6px"></td>
+								<td valign="bottom" onclick="window.location='/classroom-resources/grade/7-8/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
+								<td rowspan="3" width="6px"></td>
+								<td valign="bottom" onclick="window.location='/classroom-resources/grade/9-10/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
+								<td rowspan="3" width="6px"></td>
+								<td valign="bottom" onclick="window.location='/classroom-resources/grade/11-12/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-top.gif" width="78" height="8" border="0" alt="" /></td>
+							</tr>
+							<tr>
+								<td bgcolor="#6da653" onclick="window.location='/classroom-resources/grade/kindergarten/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/kindergarten/" style="color:#ffffff">Kindergarten</a></center></td>
+								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/1-2/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/1-2/" style="color:#ffffff">1st-2nd</a></center></td>
+								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/3-4/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/3-4/" style="color:#ffffff">3rd-4th</a></center></td>
+								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/5-6/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/5-6/" style="color:#ffffff">5th-6th</a></center></td>
+								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/7-8/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/7-8/" style="color:#ffffff">7th-8th</a></center></td>
+								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/9-10/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/9-10/" style="color:#ffffff">9th-10th</a></center></td>
+								<td bgcolor="#6da653" width="78" onclick="window.location='/classroom-resources/grade/11-12/';" onmouseover="this.style.cursor='pointer';"><center><a href="/classroom-resources/grade/11-12/" style="color:#ffffff">11th-12th</a></center></td>
+							</tr>
+							<tr>
+								<td onclick="window.location='/classroom-resources/grade/kindergarten/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-k-bottom.gif" width="100" height="7" border="0" alt="" /></td>
+								<td onclick="window.location='/classroom-resources/grade/1-2/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
+								<td onclick="window.location='/classroom-resources/grade/3-4/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
+								<td onclick="window.location='/classroom-resources/grade/5-6/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
+								<td onclick="window.location='/classroom-resources/grade/7-8/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
+								<td onclick="window.location='/classroom-resources/grade/9-10/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
+								<td onclick="window.location='/classroom-resources/grade/11-12/';" onmouseover="this.style.cursor='pointer';"><img src="/images/teacher-resources-grade-button-bottom.gif" width="78" height="7" border="0" alt="" /></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+		<p class="no-pad"><img src="/images/teacher-resources-grade-bottom.gif" width="700" height="11" border="0" alt="" /></p>
+		</div>
+	</div>
+	<!--[if !IE]> END RIGHT CONTENT  <![endif]-->
+
+
+	<!--googleoff: index-->
+		<div class="clearit">&#160;</div>
+
+		<div id="footer">
+			<p id="footer-l">&#169; 2014 IRA/NCTE. All rights reserved.<br />
+			<a href="/util/help.html" id="f-help">Technical Help</a> &#160;|&#160; <a href="/util/legal.html" id="f-legal">Legal</a> &#160;|&#160; <a href="http://www.reading.org/" target="_blank" title="International Reading Association" id="f-ira">International Reading Association</a> &#160;|&#160; <a href="http://www.ncte.org/" target="_blank" title="National Council of Teachers of English" id="f-ncte">National Council of Teachers of English</a></p>
+			<p id="footer-r"><a href="http://www.thinkfinity.org/" target="_blank" title="Thinkfinity/Verizon" id="f-thinkfinity"><img src="/images/f-thinkfinity-verizon.gif" width="151" height="26" border="0" alt="Thinkfinity/Verizon" /></a></p>
+			<div class="clearit">&#160;</div>
+		</div>
+	<!--googleon: index-->	
+
+</div>
+<!--[if !IE]> END MAIN CONTAINER <![endif]-->
+
+
+	
+
+	    
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-7976532-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+		setupAnalyticsTracking();
+	</script>
+
+	
+<script type="text/javascript">
+	setupExternalLinks();
+</script>
+
+
+</body>
 </html>

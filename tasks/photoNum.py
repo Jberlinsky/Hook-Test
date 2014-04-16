@@ -1,15 +1,13 @@
-from __main__ import *
-
-import os
 from bs4 import BeautifulSoup
+from __main__ import funcs, attrNames
 
-index = 0
-filename = "index.html"
+attrNames.append('hasPhotos')
+attrNames.append('moreThan10Photos')
+attrNames.append('moreThan100Photos')
 
-while os.path.isfile("./data/" + filename):
+def addPhotoNumAttr(info, fileObject):
 
-	f = open("./data/" + filename)
-	soup = BeautifulSoup(f)
+	soup = BeautifulSoup(fileObject)
 
 	i = 0
 	for photo in soup.find_all('img'):
@@ -25,14 +23,10 @@ while os.path.isfile("./data/" + filename):
 	if i > 100:
 		photo100 = True
 
-	infoList[index].append(photo)
-	infoList[index].append(photo10)
-	infoList[index].append(photo100)
+	info.append(photo)
+	info.append(photo10)
+	info.append(photo100)
+	
+	return
 
-	f.close()
-	index = index + 1
-	filename = "index.html." + str(index)
-
-featureNames.append('hasPhotos')
-featureNames.append('moreThan10Photos')
-featureNames.append('moreThan100Photos')
+funcs.append(addPhotoNumAttr)

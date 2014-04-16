@@ -1,675 +1,678 @@
-
-
-
-
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    <head>
-        
-
-    <meta name="CMS" content="CQ" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <title>New York University</title>
-    <meta http-equiv="keywords" content="">
-    <link href="/etc/designs/default.css" rel="stylesheet" type="text/css">
+<meta property="og:url" content="http://www.irs.com/" />
+<meta property="og:site_name" content="US Tax Center" />
+<link rel="shortcut icon" href="http://static.irs.com/favicon_bnx_32.png" type="image/png" />
+<meta property="og:image" content="http://www.banks.com/sites/all/themes/banks/logo.png" />
+<meta property="og:title" content="US Tax Center" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="//static.irs.com" />
+<link rel="canonical" href="http://www.irs.com/" />
+<meta property="og:type" content="website" />
+    <title>US Tax Center | File Your Tax Return Online, Tax Extension, Tax Forms, Tax Help</title>
 
+    <style type="text/css" media="all">@import url("http://static.irs.com/modules/system/system.base.css?n0yxlx");</style>
+<style type="text/css" media="all">@import url("http://static.irs.com/modules/field/theme/field.css?n0yxlx");
+@import url("http://static.irs.com/sites/all/modules/views/css/views.css?n0yxlx");</style>
+<style type="text/css" media="all">@import url("http://static.irs.com/sites/all/modules/ctools/css/ctools.css?n0yxlx");
+@import url("http://static.irs.com/sites/all/modules/panels/css/panels.css?n0yxlx");
+@import url("http://static.irs.com/sites/all/modules/panels/plugins/layouts/flexible/flexible.css?n0yxlx");
+@import url("http://static.irs.com/sites/default/files/ctools/css/92f75f332fb075099182872dd6771e20_24.css?n0yxlx");</style>
+<link type="text/css" rel="stylesheet" href="http://static.irs.com/sites/all/themes/irs/css/app.css?n0yxlx" media="all" />
 
-    <meta name="author" content="NYU Web Communications" />
-    <link rel="icon" href="/common/images/favicon.ico" type="image/x-icon"/>
-
-    <!-- STYLE SHEETS -->
-    <link rel="stylesheet" href="/common/css/base.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="/common/css/homePage.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="/common/css/channels.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="/common/css/print.css" type="text/css" media="print"/>
-    
-    <style type="text/css">@media screen,projection{.cufon-canvas{display:inline;display:inline-block;position:relative;vertical-align:middle;font-size:1px;line-height:1px}.cufon-canvas .cufon-alt{display:none}  .cufon-canvas canvas{position:relative}}@media print{.cufon-canvas{padding:0 !important}  .cufon-canvas canvas{display:none}.cufon-canvas .cufon-alt{display:inline}} </style>
-
-    <!-- PHOTO GALLERY -->
-    <link rel="stylesheet" href="/common/css/jquery.lightbox-0.5.css" type="text/css" media="screen"/>
-
-    <!-- SCRIPTS -->
-    <script type="text/javascript" src="/etc/designs/nyu/clientlibs/jquery.js"></script>
-
-    <script type="text/javascript" src="/common/js/utils.js"></script>
-
-    <!-- LIGHT BOX -->
-    <script type="text/javascript" src="/common/js/jquery.lightbox-0.5.js"></script>
-
-    <!-- CUFON -->
-    <script type="text/javascript" src="/common/js/cufon-yui.js"></script>
-
-    <!-- Cufon: fonts -->
-    <script type="text/javascript" src="/common/js/gothamBook.js"></script>
-    <script type="text/javascript" src="/common/js/gothamMedium.js"></script>
-    <script type="text/javascript" src="/common/js/cufonConfig.js"></script>
-
-    <!--[if IE 8]>
-        <link rel="stylesheet" href="/common/css/v60.ie8.css" type="text/css" media="screen" />
-    <![endif]-->
-
-    <!--[if IE 7]>
-        <link rel="stylesheet" href="/common/css/v60.ie7.css" type="text/css" media="screen" />
-    <![endif]-->
-
-    <!--[if IE 6]>
-        <link rel="stylesheet" href="/common/css/v60.ie6.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="/common/js/unitpngfix.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|PT+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
         <script type="text/javascript">
-            sfHover = function() {
-                var sfEls = document.getElementById("utilities").getElementsByTagName("LI");
-                for (var i=0; i<sfEls.length; i++) {
-                    sfEls[i].onmouseover=function() {
-                        this.className+=" sfhover";
-                    }
-                    sfEls[i].onmouseout=function() {
-                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
-                    }
-                }
-            }
-            if (window.attachEvent) window.attachEvent("onload", sfHover);
-        </script>
+        adTargeting = Object();
+        adTargeting.topic = '';
+        adTargeting.node_type = 'homepage';
+        adTargeting.node_id = 'homepage';
+        adTargeting.url = '/';
+    </script>
+    <script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') + 
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+    </script>
+    <script type='text/javascript'>
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/4850691/IRS_articleA_1', [300, 20], 'div-gpt-ad-1391809718739-0').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleA_2', [300, 20], 'div-gpt-ad-1391809718739-1').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleA_3', [300, 20], 'div-gpt-ad-1391809718739-2').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleB_1', [300, 20], 'div-gpt-ad-1391809718739-3').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleB_2', [300, 20], 'div-gpt-ad-1391809718739-4').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleB_3', [300, 20], 'div-gpt-ad-1391809718739-5').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleC_1', [300, 20], 'div-gpt-ad-1391809718739-6').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleC_2', [300, 20], 'div-gpt-ad-1391809718739-7').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleC_3', [300, 20], 'div-gpt-ad-1391809718739-8').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleD_1', [300, 20], 'div-gpt-ad-1391809718739-9').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleD_2', [300, 20], 'div-gpt-ad-1391809718739-10').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_articleD_3', [300, 20], 'div-gpt-ad-1391809718739-11').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_header_1', [[100, 20], [125, 20]], 'div-gpt-ad-1391809718739-12').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_header_2', [[125, 20], [150, 20]], 'div-gpt-ad-1391809718739-13').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_header_3', [100, 20], 'div-gpt-ad-1391809718739-14').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_header_4', [[100, 20], [125, 20]], 'div-gpt-ad-1391809718739-15').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_header_5', [[125, 20], [150, 20]], 'div-gpt-ad-1391809718739-16').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_header_6', [[100, 20], [125, 20]], 'div-gpt-ad-1391809718739-17').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_menu_1', [[175, 20], [175, 25]], 'div-gpt-ad-1391809718739-18').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_menu_2', [[175, 20], [175, 25]], 'div-gpt-ad-1391809718739-19').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_menu_3', [[215, 20], [215, 25]], 'div-gpt-ad-1391809718739-20').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_menu_4', [[175, 20], [175, 25]], 'div-gpt-ad-1391809718739-21').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_overlay_1', [255, 30], 'div-gpt-ad-1391809718739-22').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_overlay_2', [255, 30], 'div-gpt-ad-1391809718739-23').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_overlay_3', [255, 30], 'div-gpt-ad-1391809718739-24').addService(googletag.pubads());
+    googletag.defineSlot('/4850691/IRS_overlay_4', [255, 30], 'div-gpt-ad-1391809718739-25').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+    });
+    </script>
+    <script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/js/jquery-1.7.2.js?v=1.7.2"></script>
+<script type="text/javascript" src="http://static.irs.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://static.irs.com/misc/drupal.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/modules/rates_finder/js/rates-finder.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/modules/panels/js/panels.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/bootstrap/js/bootstrap.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/js/waypoints.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/js/jquery/jquery.validate.min.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/js/jquery/jquery.purl.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/js/cloudfront-invalidate.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/js/underscore.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/js/postscribe/postscribe.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/remark_base/js/postscribe/htmlParser/htmlParser.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/irs/js/article.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/irs/js/navbar/tabs.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/irs/js/ad.js?n0yxlx"></script>
+<script type="text/javascript" src="http://static.irs.com/sites/all/themes/irs/js/gaq.js?n0yxlx"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"irs","theme_token":"1BLa1a36csSOe34X_LqhjYKNaM5YHuQNZOmYEVFjdlU","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/rates_finder\/js\/rates-finder.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/themes\/remark_base\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/themes\/remark_base\/js\/waypoints.js":1,"sites\/all\/themes\/remark_base\/js\/jquery\/jquery.validate.min.js":1,"sites\/all\/themes\/remark_base\/js\/jquery\/jquery.purl.js":1,"sites\/all\/themes\/remark_base\/js\/cloudfront-invalidate.js":1,"sites\/all\/themes\/remark_base\/js\/underscore.js":1,"sites\/all\/themes\/remark_base\/js\/postscribe\/postscribe.js":1,"sites\/all\/themes\/remark_base\/js\/postscribe\/htmlParser\/htmlParser.js":1,"sites\/all\/themes\/irs\/js\/article.js":1,"sites\/all\/themes\/irs\/js\/navbar\/tabs.js":1,"sites\/all\/themes\/irs\/js\/ad.js":1,"sites\/all\/themes\/irs\/js\/gaq.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"public:\/\/ctools\/css\/92f75f332fb075099182872dd6771e20_24.css":1,"sites\/all\/themes\/irs\/css\/app.css":1}}});
+//--><!]]>
+</script>
+    <!-- HTML5 element support for IE6-8 -->
+    <!--[if lt IE 9]>
+        <script src="/sites/all/themes/remark_base/js/html5.js"></script>
+        <script src="/sites/all/themes/remark_base/js/respond.min.js"></script>
     <![endif]-->
-        <!-- Google Analytics (publisher only) -->
-        
-            <script type="text/javascript">
- var _gaq = _gaq || [];
- var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-  _gaq.push(['_setAccount', 'UA-1592055-1']);
-  _gaq.push(['_setDomainName', 'nyu.edu']);
-  _gaq.push(['_trackPageview']);
-  _gaq.push(['_addIgnoredOrganic', 'www.nyu.edu']);
-  _gaq.push(['_addIgnoredOrganic', 'nyu.edu']);
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script type="text/javascript">
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26918856-6']);
+      _gaq.push(['_setDomainName', 'irs.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-home" >
+    
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NNQ7"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NNQ7');</script>
+    <!-- End Google Tag Manager -->
+    
+        <div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+              <ul id="main-menu" class="nav">
+                <li class=""><div id='div-gpt-ad-1391809718739-12' style='width:125px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-12'); });
 </script>
-        
-    </head>
-    <body>
-        <!--[if IE]>
-        <span id="screenreader_msg" class="offLeft">If you are using a Kurzweil text-to-speech reader, the <strong>Read the Web</strong> function in Firefox performs more accurately than in Internet Explorer. The Kurzweil utility was created specifically for use in Firefox. We recommend that you use Firefox.</span>
-        <![endif]-->
-        <noscript><div id="noScript">
-            <div>NYU.edu requires JavaScript be enabled in your browser in order to use important features of the site. JavaScript is either disabled or not supported by your browser. For instructions on how to enable JavaScript in your browser, <a href="http://www.nyu.edu/employees/resources-and-services/media-and-communications/digital-communications/browser-support/enable-javascript.html">click here</a>.</div>
-        </div></noscript>
-
-        <div class="adminSettings">
-</div>
-
-        <div id="masterContainer" class="homePage">
-            
-<span class="offLeft">New York University</span>
-
-<!-- JUMP LINKS -->
-<a class="offLeft" href="#contentWrapper">Skip to Content</a>
-<a class="offLeft" href="#searchField">Skip to Search</a>
-
-<!-- BEGIN HEADER CONTAINER -->
-	<div id="headerContainer">	
-		
-		<!-- BEGIN UTILITIES CONTAINER -->
-		<div class="utilsContainer">			
-			<div id="utilities" class="utils">
-				<!-- ROLES -->			
-				<div class="nyuRoles">
-			<!-- ROLES -->
-			<div class="login">
-			 <p>
-			     <a href="http://home.nyu.edu">NYUHome Login</a>
-			 </p>
-			</div>
-			<div class="utilsLeft"></div>
-			<p class="utilsLinks">
-					<a href="/content/nyu/en/students.html">Students</a>									<span class="utilsPipe">|</span>
-<a href="/content/nyu/en/faculty.html">Faculty</a>									<span class="utilsPipe">|</span>
-<a href="/content/nyu/en/alumni.html">Alumni</a>									<span class="utilsPipe">|</span>
-<a href="/content/nyu/en/employees.html">Employees</a>									<span class="utilsPipe">|</span>
-<a href="/content/nyu/en/community.html">Community</a>
-			
-            </p><div class="utilsRight"></div><!--end .utilsLinks--></div>
-			
-			
-				<!-- DROP DOWNS -->
-				<div class="nyuDropdowns">
-<ul id="dropDowns">
-<li id="schools">
-    <a class="downArrow" href="">Schools</a>
-    <ul>
-        <li class="bg first"><a href="http://as.nyu.edu">Arts and Science</a></li>
-        <li class=""><a href="http://cas.nyu.edu">College of Arts and Science</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/dental/">College of Dentistry</a></li>
-        <li class=""><a href="http://nursing.nyu.edu/">College of Nursing</a></li>
-        <li class="bg"><a href="http://www.cims.nyu.edu/">Courant Institute of Mathematical Sciences</a></li>
-        <li class=""><a href="http://gallatin.nyu.edu/">Gallatin School of Individualized Study</a></li>
-        <li class="bg"><a href="http://gsas.nyu.edu">Graduate School of Arts and Science</a></li>
-        <li class=""><a href="http://www.nyu.edu/gsas/dept/fineart/">Institute of Fine Arts</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/isaw/">Institute for the Study of the Ancient World</a></li>
-        <li class=""><a href="http://www.stern.nyu.edu/">Leonard N. Stern School of Business</a></li>
-        <li class=""><a href="http://www.liberalstudies.nyu.edu/">Liberal Studies Program</a></li>
-        <li class="bg"><a href="http://nyuad.nyu.edu/">NYU Abu Dhabi</a></li>
-        <li class=""><a href="http://shanghai.nyu.edu">NYU Shanghai</a></li>
-        <li class="bg"><a href="http://www.poly.edu/">Polytechnic School of Engineering</a></li>
-        <li class=""><a href="http://wagner.nyu.edu/">Robert F. Wagner Graduate School of Public Service</a></li>
-        <li class="bg"><a href="http://www.scps.nyu.edu/">School of Continuing and Professional Studies</a></li>
-        <li class=""><a href="http://www.law.nyu.edu/">School of Law</a></li>
-        <li class="bg"><a href="http://school.med.nyu.edu/">School of Medicine</a></li>
-        <li class=""><a href="http://www.nyu.edu/socialwork/">Silver School of Social Work</a></li>
-        <li class="bg"><a href="http://steinhardt.nyu.edu/">Steinhardt School of Culture, Education, and Human Development</a></li>
-        <li class=""><a href="http://www.tisch.nyu.edu/">Tisch School of the Arts</a></li>
-    </ul>
-</li>
-
-
-<li id="quickLinks">
-    <a class="downArrow" href="">QuickLinks</a>
-    <ul>
-        <li class="bg first"><a href="http://www.nyu.edu/registrar/calendars/">Academic Calendars</a></li>
-        <li class=""><a href="http://www.nyu.edu/about/leadership-university-administration.html">Administrative Units</a></li>
-        <li class="bg"><a href="http://home.nyu.edu/academics/">Albert</a></li>
-        <li class=""><a href="http://www.nyu.edu/about/working-at-nyu/apply-for-jobs.html">Apply for Jobs</a></li>
-        <li class="bg"><a href="http://www.gonyuathletics.com/">Athletics</a></li>
-        <li class=""><a href="http://www.bookstores.nyu.edu/">Bookstores</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/bursar">Bursar</a></li>
-        <li class=""><a href="http://www.nyu.edu/footer/map.html">Campus Map</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/life/resources-and-services/employment-and-careerdevelopment.html">Career Development</a></li>
-        <li class=""><a href="http://www.nyu.edu/life/safety-health-andwellness/info-alerts.html">Emergencies</a></li>
-        <li class="bg"><a href="http://events.nyu.edu/">Events</a></li>
-        <li class=""><a href="http://www.nyu.edu/giving/">Giving to NYU</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/life/living-at-nyu.html">Housing</a></li>
-        <li class=""><a href="http://www.nyu.edu/its/">ITS</a></li>
-        <li class="bg"><a href="http://library.nyu.edu/">Libraries</a></li>
-        <li class=""><a href="http://www.nyu.edu/about/news-publications/news.html">News</a></li>
-        <li class="bg"><a href="http://nyubook.collegestoreonline.com/">NYU Apparel</a></li>
-        <li class=""><a href="http://www.nyu.edu/about/policies-guidelines-compliance.html">Policies</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/public.safety/">Public Safety</a></li>
-        <li class=""><a href="http://www.nyu.edu/registrar/">Registrar</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/shc/">Student Health Center</a></li>
-        <li class=""><a href="http://www.nyu.edu/life/resources-and-services.html">Student Resources</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/999/">Wellness Exchange</a></li>
-    </ul>
-</li>
-
-
-<li id="az">
-    <a class="downArrow" href="">A-Z</a>
-
-    <ul id="azlist">
-        <li class="bg first"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=A">A</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=B">B</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=C">C</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=D">D</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=E">E</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=F">F</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=G">G</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=H">H</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=I">I</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=J">J</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=K">K</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=L">L</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=M">M</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=N">N</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=O">O</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=P">P</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=Q">Q</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=R">R</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=S">S</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=T">T</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=U">U</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=V">V</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=W">W</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=X">X</a></li>
-        <li class="bg"><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=Y">Y</a></li>
-        <li class=""><a href="http://www.nyu.edu/AZ/SearchResults.html?alphabet=Z">Z</a></li>
-    </ul>
-</li>
-
-</ul></div>
-					
-			</div>
-			<!-- END UTILS (center) -->									
-		</div>
-		<!-- END UTILITIES CONTAINER -->
-
-
-		<!-- BEGIN NYU LOGO AND SEARH BOX -->
-		<div class="nyuLogoContainer">			
-			<!-- LOGO -->
-			<div class="nyuTorchLogo">
-<div class="nyuLogo" title="New York University Homepage"><a href="/nyu/en.html"><span class="offLeft">New York University</span></a></div></div>
-
-			
-			<!-- SEARCH -->
-			<div class="nyuSearch">
-<form id="searchForm" action="/content/nyu/en/search.html" method="get">
-<div id="searchBar">					
-	<label for="searchField" class="offLeft">Search NYU</label>
-	<input type="text" id="searchField" name="search" value="Search..." />					
-</div>
-
-<button id="searchBtn" type="submit"></button>
-
-<ul id="searchTypes" style="display:none;">
-	<li><a class="searchTypeSelected" href="/content/nyu/en/search.html">Pages</a><span class="searchTypePipe">|</span></li>
-	<li><a href="/content/nyu/en/search.directory.html">People</a></li>
-</ul>					
-</form></div>
-			
-		</div>
-		<!-- END NYU LOGO AND SEARH BOX -->
-		
-	</div>
-<!-- END HEADER CONTAINER -->
-            
-            
-
-            
-            <script type="text/javascript" src="/common/js/alerts.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		getAlerts('/common/alerts/admin/alerts.response.home.html');
-	});
-	</script>
-<div id="alertsContainer"></div>
-            
-            
-            
-
-<script type="text/javascript">
-$("body").addClass("homepage");
+</div></li>
+                <li class=""><div id='div-gpt-ad-1391809718739-13' style='width:150px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-13'); });
 </script>
-<div>  
-
-<div id="carouselContainer" class="quintBox">   
-<div class="carousel homepage">
-
-
-<!-- TODO Move CSS styles into appropriate stylesheets and out of JSP -->
-
-
-	
-	<script type="text/javascript" src="/common/js/jcarousellite_1.0.1.customized.min.js"></script>
-	<script type="text/javascript">
-	$(function() {
-		$(".carousel div").jCarouselLite({
-			btnNext: $(".carousel .next"),
-			btnPrev: $(".carousel .previous"),
-			btnGo: $(".carousel #carouselSlideLinks img"),
-			start: 0,
-			speed: 500.0,
-			
-			
-			auto: true,
-			timeout: 7000,
-			circular: true,
-			pause: true,
-			
-			
-			
-			visible: 1,
-			scroll: 1,
-			afterEnd: function(el) {
-				var current = $(this).children().index(el);
-				var nubbins = $(".carousel #carouselSlideLinks img");
-				var count = nubbins.length;
-				
-				
-				
-				nubbins.each(function(i) {
-					((current > count && i == current - count - 1) || i == current - 1) ?
-						$(this).attr("src", "/common/images/home/dotActive.gif") :
-						$(this).attr("src", "/common/images/home/dotInactive.gif");
-				});
-				
-				
-				
-			}
-		});
-	});
-	</script>
-	
-	<style type="text/css">
-	.carousel {margin: 0 auto; float: none;}
-	.carousel ul.slides {margin: 0;}
-	.carousel:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
-	.carousel ul.slides li.slide {display: block;}
-	.carousel ul.slides li.slide:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
-	.carousel div:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
-	.carousel img {z-index: 0 !important;}
-	#carouselSlideLinks img {cursor: pointer;}
-	</style>
-	
-	
-
-<style type="text/css">
-.carousel ul.slides {height: 308px;}
-.carousel ul.slides li.slide {height: 308px; width: 960px;}
-</style>
-
-
-
-
-<div>
-<ul class="slides">
-<li class="slide"><div class="nyuOpenCode">
-
-<!-- Timer (start) -->
-
-
-    <a href="http://www.nyu.edu/about/news-publications/news/2014/03/12/fed-chair-janet-yellen--yankees-pitching-great-mariano-rivera--u.html"><img style="margin-left: 0px;" src="/content/dam/nyu/nyuToday/images/homepage/home-20140313-Commencement_2.png" alt="Commencement" title="Commencement"/></a>
-
-
-
-	<!-- Timer /content/nyu/en/jcr:content/carousel/nyuopencode_1 : 1 ms -->
-</div>
-</li><li class="slide"><div class="nyuOpenCode">
-
-<!-- Timer (start) -->
-
-
-    <a href="http://www.nyu.edu/about/university-initiatives/entrepreneurship-at-nyu/leslie-elab.html"><img style="margin-left: 0px;" src="/content/dam/nyu/nyuToday/images/homepage/home-20140304-ELab.png" alt="Elab" title="Elab"/></a>
-
-
-
-	<!-- Timer /content/nyu/en/jcr:content/carousel/nyuopencode_3 : 0 ms -->
-</div>
-</li><li class="slide"><div class="homepage">
-
-
-
-
-
-<style type="text/css" media="screen">
-    #carousel_homepage {
-        background-image: url("/content/dam/nyu/nyuToday/images/homepage/newsTemplates/bgHomepagePromo8.jpg");
-        }
-</style>
-
-<div class="promoSlide" id="carousel_homepage">
-    
-    
-    
-    
-    
-    
-    
-    
-        <div class="promoText newsList">
-            <h1>News at <strong>NYU</strong></h1>
-            
-                <p class="">
-                    <strong>Yellen, Rivera, Kagan, Franklin, and Edelman to Receive Honorary Degrees at 2014 Commencement</strong> |
-                    <a href="/content/nyu/en/about/news-publications/news/2014/03/12/fed-chair-janet-yellen--yankees-pitching-great-mariano-rivera--u.html">Details &raquo;</a>
-                </p>
-            
-                <p class="">
-                    <strong>Magnet Hospitals Have Higher Quality of Care, NYU Researcher Finds</strong> |
-                    <a href="/content/nyu/en/about/news-publications/news/2014/03/11/magnet-hospitals-have-higher-quality-of-care--nyu-researcher-fin.html">Details &raquo;</a>
-                </p>
-            
-                <p class="">
-                    <strong>Neuroscientist Wendy Suzuki to Deliver Science on the Square Lecture—April 2 at NYU</strong> |
-                    <a href="/content/nyu/en/about/news-publications/news/2014/03/10/neuroscientist-wendy-suzuki-to-deliver-science-on-the-square-lec.html">Details &raquo;</a>
-                </p>
-            
-                <p class="last">
-                    <strong>Philosopher Stephen Yablo to deliver Inaugural New York Institute of Philosophy Lectures</strong> |
-                    <a href="/content/nyu/en/about/news-publications/news/2014/03/10/philosopher-stephen-yablo-to-deliver-inaugural-new-york-institut.html">Details &raquo;</a>
-                </p>
-            
-            
-            <div class="moreButton">
-                <p><a href="/content/nyu/en/about/news-publications/news.html">more news</a></p>
+</div></li>
+                <li class=""><div id='div-gpt-ad-1391809718739-14' style='width:100px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-14'); });
+</script>
+</div></li>
+                <li class=""><div id='div-gpt-ad-1391809718739-15' style='width:100px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-15'); });
+</script>
+</div></li>
+                <li class=""><div id='div-gpt-ad-1391809718739-16' style='width:150px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-16'); });
+</script>
+</div></li>
+                <li class=""><div id='div-gpt-ad-1391809718739-17' style='width:100px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-17'); });
+</script>
+</div></li>
+              </ul>
+            </div>
+            <div class="nav-no-collapse">
+                <ul class="social pull-right">
+                    <li><a href="https://www.facebook.com/pages/Bankscom/601117533312145" class="facebook">Like us on Facebook</a></li>
+                    <li><a href="http://twitter.com/bnxnews" class="twitter">Subscribe to our tweets</a></li>
+                    <li><a href="/feed" class="rss">RSS</a></li>
+                </ul>
+                <form action="/search" method="get" class="navbar-search pull-right">
+                    <input type="text" placeholder="What can we help you find?" class="search-query span2" name="query">
+                </form>
             </div>
         </div>
-    
-    
-    
-    
-</div>
-
-</div>
-</li><li class="slide"><div class="nyuOpenCode">
-
-<!-- Timer (start) -->
-
-
-    <a href="http://engineering.nyu.edu/engineeringis/"><img style="margin-left: 0px;" src="/content/dam/nyu/nyuToday/images/homepage/home-20131218-Poly.png" alt="engineering" title="engineering"/></a>
-
-
-
-	<!-- Timer /content/nyu/en/jcr:content/carousel/nyuopencode_2 : 1 ms -->
-</div>
-</li>
-</ul>
-</div>
-
-
-
-
-<div id="carouselNav" class="header"> 
-     <div class="carouselArrow arrowLeft">
-          <a class="prev previous"><img src="/common/images/home/arrowsLeft.gif" title="Previous Slide" alt="Previous Slide"/></a>
-     </div>   
-
-     <div id="carouselSlideLinks">
-     
-          
-          
-               <img src="/common/images/home/dotActive.gif" width="13" height="13" alt="Slide #1"/>
-          
-          
-          
-     
-          
-          
-          
-               <img src="/common/images/home/dotInactive.gif" width="13" height="13" alt="Slide #2"/>
-          
-          
-     
-          
-          
-          
-               <img src="/common/images/home/dotInactive.gif" width="13" height="13" alt="Slide #3"/>
-          
-          
-     
-          
-          
-          
-               <img src="/common/images/home/dotInactive.gif" width="13" height="13" alt="Slide #4"/>
-          
-          
-     
-     </div>
-   
-     <div class="carouselArrow arrowRight">
-          <a class="next"><img src="/common/images/home/arrowsRight.gif" title="Next Slide" alt="Next Slide"/></a> 
-     </div>
-</div>
-</div>
-
-</div>
-
-<div id="contentWrapper">
-<div class="par parsys"><div class="nyuOpenCode section">
-
-<!-- Timer (start) -->
-
-
-    <div class="channel about">
-	<h3><a href="/nyu/en/about.html">About NYU</a></h3>
-
-	<ul>
-		<li><a href="/nyu/en/about/leadership-university-administration.html">Leadership and University <br/>Administration</a></li>
-		<li><a href="/nyu/en/about/university-initiatives.html">University<br />Initiatives</a></li>
-		<li><a href="/nyu/en/about/news-publications.html">News, Publications, <br/>and Facts</a></li>
-		<li><a href="/nyu/en/about/working-at-nyu.html">Working at NYU</a></li>
-		<li><a href="/nyu/en/about/visitor-information.html">Visitor Information</a></li>
-		<li><a href="/nyu/en/about/policies-guidelines-compliance.html">Policies and Guidelines</a></li>
-		<li><a href="http://www.nyu.edu/giving">Giving</a></li>
-	</ul>
-</div>
-	
-<div class="channel admissions">
-	<h3><a href="/nyu/en/admissions.html">Admissions</a></h3>
-	
-	<ul>
-		<li><a href="/nyu/en/admissions/undergraduate-admissions.html">Undergraduate<br />Admissions</a></li>
-		<li><a href="/nyu/en/admissions/graduate-admissions.html">Graduate<br />Admissions</a></li>
-		<li><a href="http://www.nyu.edu/admissions/study-abroad.html">Study Abroad</a></li>
-		<li><a href="/nyu/en/admissions/financial-aid-and-scholarships.html">Financial Aid and<br />Scholarships</a></li>
-		<li><a href="http://www.nyu.edu/visiting-students/">Visiting Students</a></li>
-		<li><a href="http://www.nyu.edu/fall/">Fall in NY</a></li>
-		<li><a href="http://www.nyu.edu/winter/">January Term</a></li>
-		<li><a href="http://www.nyu.edu/spring/">Spring in NY</a></li>
-		<li><a href="http://www.nyu.edu/summer/">Summer<br /> Sessions</a></li>
-		<li><a href="http://www.nyu.edu/precollege/">Precollege</a></li>		
-		
-	</ul>
-</div>		
-
-<div class="channel academics">
-	<h3><a href="/nyu/en/academics.html">Academics</a></h3>
-		
-	<ul>
-		<li><a href="/nyu/en/academics/undergraduate-education.html">Undergraduate <br />Education</a></li>
-		<li><a href="/nyu/en/academics/graduate-education.html">Graduate <br />Education</a></li>
-                <li><a href="/nyu/en/academics/continuing-education.html">Continuing <br />Education</a></li>
-		<li><a href="/nyu/en/academics/schools-and-colleges.html">Schools and<br />Colleges</a></li>
-		<li><a href="/nyu/en/academics/libraries.html">Libraries</a></li>
-		<li><a href="/nyu/en/academics/centers-and-institutes.html">Centers and<br />Institutes</a></li>
-		<li><a href="/nyu/en/academics/awards-and-highlights.html">Awards and Highlights</a></li>
-		<li><a href="/nyu/en/academics/academic-resources.html">Academic Resources</a></li>
-                <li><a href="/nyu/en/academics/open-education.html">Open Education</a></li>
-	</ul>
-</div>		
-
-<div class="channel uLife">
-	<h3><a href="/nyu/en/life.html">University Life</a></h3>
-
-	<ul>
-		<li><a href="/nyu/en/life/events-traditions.html">Events and Traditions</a></li>
-		<li><a href="/nyu/en/life/student-life.html">Student Life</a></li>
-		<li><a href="/nyu/en/life/living-at-nyu.html">Living at NYU</a></li>
-		<li><a href="/nyu/en/life/resources-and-services.html">Resources and<br />Services</a></li>
-		<li><a href="http://www.gonyuathletics.com/">Athletics</a></li>
-		<li><a href="/nyu/en/life/safety-health-wellness.html">Safety, Health, and<br />Wellness</a></li>
-		<li><a href="/nyu/en/life/travel-and-transportation.html">Travel and Transportation</a></li>
-		<li><a href="/nyu/en/life/diversity-nyu.html">Diversity at NYU</a></li>
-	</ul>
-</div>		
-
-<div class="channel research">
-	<h3><a href="/nyu/en/research.html">Research</a></h3>
-
-	<ul>
-		<li><a href="/nyu/en/research/resources-and-support-offices.html">Resources and<br />Support Offices</a></li>
-		<li><a href="/nyu/en/research/research-news.html">Research News</a></li>
-		<li><a href="/nyu/en/research/institutesandresearchatschools.html">Centers,<br />Institutes, and<br />Research at <br />Schools</a></li>
-                <li><a href="/nyu/en/research/provosts-global-research-initiatives.html">Provost's Global<br /> Research Initiatives</a></li>
-	</ul>
-</div>		
-
-<div class="channel global">
-	<h3><a href="/nyu/en/global.html">Global</a></h3>
-	
-	<ul>
-		<li><a href="/nyu/en/global/global-academic-centers.html">Global Academic Centers</a></li>
-		<li><a href="/nyu/en/global/the-global-network-university.html">The Global Network<br />University</a></li>
-		<li><a href="/nyu/en/global/nyu-abu-dhabi.html">NYU Abu Dhabi</a></li>
-                <li><a href="/nyu/en/global/nyu-shanghai.html">NYU Shanghai</a></li>
-                <li><a href="/nyu/en/global/tisch-asia.html">Tisch Asia</a></li>
-		<li><a href="/nyu/en/global/international-immigration-services.html">International Immigration Services</a></li>
-		<li><a href="/nyu/en/global/all-nyu-programs.html">All NYU Programs</a></li>
-	</ul>
-</div>
-
-
-
-	<!-- Timer /content/nyu/en/jcr:content/par/nyuopencode : 0 ms -->
-</div>
-
-</div>
-       
-</div>
-            
-
-<!-- Begin Footer -->
-<div class="nyuFooter">
-
-
-
-
-
-<script type="text/javascript" src="/common/js/feedback.js"></script>
-
-<!-- DIVIDER -->
-<hr class="invisible" />
-
-    <!-- FOOTER -->
-    <div id="footerContainer">
-        <h6 class="offLeft">NYU Footer</h6>
-        <ul>
-            <li class="first"><a href="/nyu/en/search.html">Search</a></li>
-            <li><a href="/nyu/en/search.directory.html">Directory</a></li>
-            <li><a href="/nyu/en/footer/map.html">Campus Map</a></li>
-            <li><a href="http://events.nyu.edu">Events</a></li>
-            <li><a href="/nyu/en/footer/contact-us.html">Contact Us</a></li>
-            <li><a href="/nyu/en/footer/site-map.html">Site Map</a></li>
-            <li><a href="/nyu/en/footer/copyright-and-fair-use.html">Copyright and Fair Use</a></li>
-            <li class="last"><a href="http://www.nyu.edu/scripts/feedback/forms/feedback.html?pagePath=%2fcontent%2fnyu%2fen&amp;pageTitle=English" onclick="return popitup(this.href)">Feedback</a></li>
-        </ul>
-        <p id="copyright">Unless otherwise noted, all content copyright New York University. All rights reserved.<br />Designed by The Office of Web Communications</p>
-
-<!--social footer links-->
-<ul id="social">
-    <li id="btn-social-facebook"><a href="http://www.facebook.com/nyu" target="_blank" title="NYU on Facebook" onclick="_gaq.push(['_trackSocial', 'Facebook', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'Facebook',0,true]);">Facebook</a></li>
-    <li id="btn-social-youtube"><a href="http://www.youtube.com/nyu" target="_blank" title="NYU on YouTube" onclick="_gaq.push(['_trackSocial', 'YouTube', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'YouTube',0,true]);">YouTube</a></li>
-    <li id="btn-social-linkedin"><a href="http://www.linkedin.com/company/3159?trk=tyah" target="_blank" title="NYU on LinkedIn" onclick="_gaq.push(['_trackSocial', 'LinkedIn', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'LinkedIn',0,true]);">LinkedIn</a></li>
-    <li id="btn-social-instagram"><a href="http://instagram.com/nyuniversity" target="_blank" title="NYU on Instagram" onclick="_gaq.push(['_trackSocial', 'Instagram', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'Instagram',0,true]);">Instagram</a></li>
-    <li id="btn-social-foursquare"><a href="https://foursquare.com/nyuniversity" target="_blank" title="NYU on Foursquare" onclick="_gaq.push(['_trackSocial', 'foursquare', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'foursquare',0,true]);">Foursquare</a></li>
-    <li id="btn-social-twitter"><a href="http://www.twitter.com/nyuniversity" target="_blank" title="NYU on Twitter" onclick="_gaq.push(['_trackSocial', 'Twitter', 'footer visit']); _gaq.push(['_trackEvent', 'Social', 'Footer Link', 'Twitter',0,true]);">Twitter</a></li>
-</ul>
-<!--/social footer links-->
-
     </div>
-    <!-- END FOOTER -->
-
-    <script type="text/javascript"> Cufon.now(); </script></div>
-
-<!-- End Footer --> 
-
-        </div>
-        <!-- Urchin and Optional Remarketing Code (publisher only) -->
-        
-            
-
-
-<!-- Begin HTML stats included-->
-<div id='analyticsSnippet'>
-
 </div>
-<!-- End HTML stats -->
-            <script type="text/javascript">
-var topUrl = window.top.location.href;
-if(topUrl.indexOf('\/cf#\/') == -1){
-    var UH = UH || [];
-    UH.push([ '_trackPageview' ]);
-    (function(d){
-        var s = d.createElement('script'); s.src = 'http://www.nyu.edu/common/js/uh.v72.js';
-        d.body.appendChild(s);
-    })
-    (document)
-}
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="page-header logo">
+                <a href="/" class="logo">USTaxCenter</a>
+                                            </div>
+        </div>
+        <div class="row">
+            <div class="navbar secondary">
+              <ul id="secondary-menu" class="nav">
+                <li class=""><div id='div-gpt-ad-1391809718739-18' style='width:175px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-18'); });
 </script>
+</div></li>
+                <li class=""><div id='div-gpt-ad-1391809718739-19' style='width:175px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-19'); });
+</script>
+</div></li>
+                <li class=""><div id='div-gpt-ad-1391809718739-20' style='width:215px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-20'); });
+</script>
+</div></li>
+                <li class=""><div id='div-gpt-ad-1391809718739-21' style='width:175px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-21'); });
+</script>
+</div></li>
+              </ul>
+            </div>
+        </div>
+        </div>
+</header>
+
+<div class="container">
+        <div class="row">
+        <div class="span12">
+                                                                    </div>
+    </div>
+    <div class="row">
+        <div class="page-content">
         
-    </body>
+<div class="panel-flexible panels-flexible-two_column_with_header_and_footer clearfix" >
+<div class="panel-flexible-inside panels-flexible-two_column_with_header_and_footer-inside">
+<div class="panels-flexible-row panels-flexible-row-two_column_with_header_and_footer-6 panels-flexible-row-first clearfix ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-two_column_with_header_and_footer-6-inside panels-flexible-row-inside-first clearfix">
+<div class="panels-flexible-region panels-flexible-region-two_column_with_header_and_footer-top panels-flexible-region-first panels-flexible-region-last content-header">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-two_column_with_header_and_footer-top-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-two_column_with_header_and_footer-3 clearfix ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-two_column_with_header_and_footer-3-inside clearfix">
+<div class="panels-flexible-region panels-flexible-region-two_column_with_header_and_footer-left panels-flexible-region-first content-primary">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-two_column_with_header_and_footer-left-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-custom pane-2 main-feature-block" >
+  
+        <h2 class="pane-title">Home Page - Main Feature Block</h2>
+    
+  
+  <div class="pane-content">
+    <div class="row hidden-phone">
+    <div class="span8 mainFeature homeModule">
+        <ul style="background: url('http://static.irs.com/sites/all/themes/irs/img/irs1040form.jpg') no-repeat scroll center top transparent; padding-left: 10px;">
+        <li><div id='div-gpt-ad-1391809718739-25' style='width:255px; height:30px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-25'); });
+</script>
+</div></li>
+        <li><div id='div-gpt-ad-1391809718739-22' style='width:255px; height:30px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-22'); });
+</script>
+</div></li>
+        <li><div id='div-gpt-ad-1391809718739-23' style='width:255px; height:30px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-23'); });
+</script>
+</div></li>
+        <li><div id='div-gpt-ad-1391809718739-24' style='width:255px; height:30px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-24'); });
+</script>
+</div></li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="span4 secondaryFeature sf2">
+        <h2>What To Do if You Owe Back Taxes</h2>
+        <ul style="padding-right: 40px; padding-top: 0; background: none; list-style: disc; margin: 0 0 12px 25px;">
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-0' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-0'); });
+</script>
+</div></li>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-1' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-1'); });
+</script>
+</div></li>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-2' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-2'); });
+</script>
+</div></li>
+        </ul>
+        <h2>Tax Extension Center</h2>
+        <ul style="padding-right: 20px; padding-top: 0; list-style: disc; margin: 0 0 12px 25px;">
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-6' style='width:320px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-6'); });
+</script>
+</div></li>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-7' style='width:320px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-7'); });
+</script>
+</div></li>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-8' style='width:320px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-8'); });
+</script>
+</div></li>
+        </ul>
+    </div>
+
+    <div class="span4 secondaryFeature" style="margin-bottom:20px;">
+        <h2>Tax Resources</h2>
+        <ul>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-3' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-3'); });
+</script>
+</div></li>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-4' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-4'); });
+</script>
+</div></li>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-5' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-5'); });
+</script>
+</div></li>
+        </ul>
+    </div>
+
+    <div class="span4 secondaryFeature">
+        <h2>More Tax Resources</h2>
+        <ul>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-9' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-9'); });
+</script>
+</div></li>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-10' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-10'); });
+</script>
+</div></li>
+            <li style="line-height: 20px; margin-bottom:0"><div id='div-gpt-ad-1391809718739-11' style='width:300px; height:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391809718739-11'); });
+</script>
+</div></li>
+        </ul>
+    </div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views pane-latest-articles" >
+  
+        <h2 class="pane-title">The Latest</h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-latest-articles view-id-latest_articles view-display-id-default view-dom-id-252329176ba6e8a12cae79944ba9c50c">
+        
+  
+  
+      <div class="view-content">
+      <div class="view-latest-articles">    <ul class="listview">          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div>        <div><a href="/articles/irs-addresses-for-payments"><img typeof="foaf:Image" src="http://static.irs.com/styles/120x90/s3/field/image/CashBarGraph_43-441f78226a874ed3615dc219644fbebf.jpg" width="120" height="90" alt="" /></a></div>  </div>  
+  <div>        <strong><a href="/articles/irs-addresses-for-payments">Mailing Addresses for the IRS</a></strong>  </div>  
+  <div>        <span class="attribution">April 2, 2014</span>  </div>  
+  <div>        <span><p>Wondering where to file your Federal income tax return — IRS Form 1040, 1040A, or 1040EZ? The mailing address you should use depends on where you live, what form you’re filing, and whether or not you’re including a payment.</p>
+<p>Here is a...</p></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div>        <div><a href="/articles/can-your-dog-also-fetch-you-tax-deduction"><img typeof="foaf:Image" src="http://static.irs.com/styles/120x90/s3/field/image/JackRussellTerrier_43.jpg" width="120" height="90" alt="" /></a></div>  </div>  
+  <div>        <strong><a href="/articles/can-your-dog-also-fetch-you-tax-deduction">Can Your Dog Fetch You a Tax Deduction?</a></strong>  </div>  
+  <div>        <span class="attribution">March 28, 2014</span>  </div>  
+  <div>        <span><p>NEW YORK (<a href="http://www.MainStreet.com" target="_blank">MainStreet</a>) — Over the years many clients have asked me, most of them jokingly, if they can deduct the costs of keeping their dog or cat. One would think the obvious answer is no (...</p></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div>        <div><a href="/articles/can-you-deduct-your-gym-membership"><img typeof="foaf:Image" src="http://static.irs.com/styles/120x90/s3/field/image/Gym_43.jpg" width="120" height="90" alt="" /></a></div>  </div>  
+  <div>        <strong><a href="/articles/can-you-deduct-your-gym-membership">Can You Deduct Your Gym Membership?</a></strong>  </div>  
+  <div>        <span class="attribution">March 25, 2014</span>  </div>  
+  <div>        <span><p>An actor emailed me to ask if he could deduct his gym membership as a business expense, since staying in shape leads to more roles.</p>
+<p>The same question could have been asked by one of my police or firefighter clients.</p>
+<p>Unfortunately,...</p></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div>        <div><a href="/articles/what-modified-adjusted-gross-income"><img typeof="foaf:Image" src="http://static.irs.com/styles/120x90/s3/field/image/3Questions_43.jpg" width="120" height="90" alt="" /></a></div>  </div>  
+  <div>        <strong><a href="/articles/what-modified-adjusted-gross-income">What Is Modified Adjusted Gross Income?</a></strong>  </div>  
+  <div>        <span class="attribution">March 24, 2014</span>  </div>  
+  <div>        <span><p>Modified Adjusted Gross Income (MAGI) can qualify you for a number of credits, benefits, and exclusions, which makes it important to calculate for tax purposes.</p>
+<p>Your MAGI is used to determine your eligibility for various Federal tax...</p></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div>        <div><a href="/articles/state-tax-refund-date"><img typeof="foaf:Image" src="http://static.irs.com/styles/120x90/s3/field/image/CashKeyTimer_43-ec4d3d05f26c0471de12d963d2c6132d.jpg" width="120" height="90" alt="" /></a></div>  </div>  
+  <div>        <strong><a href="/articles/state-tax-refund-date">When Your State Tax Refund Will Arrive</a></strong>  </div>  
+  <div>        <span class="attribution">March 20, 2014</span>  </div>  
+  <div>        <span><p>If you’re worried where your state tax refund status is, there are a few ways to check. Make sure you have your state tax return in front of you for reference.</p>
+<p>Each state is different, from the types of taxes that are imposed to the manner...</p></span>  </div></li>
+      </ul></div>    </div>
+  
+      <div class="pagination"><ul><li class="active first"><a href="#">1</a></li>
+<li><a title="Go to page 2" href="/home?page=1">2</a></li>
+<li><a title="Go to page 3" href="/home?page=2">3</a></li>
+<li><a title="Go to page 4" href="/home?page=3">4</a></li>
+<li><a title="Go to page 5" href="/home?page=4">5</a></li>
+<li><a title="Go to page 6" href="/home?page=5">6</a></li>
+<li><a title="Go to page 7" href="/home?page=6">7</a></li>
+<li><a title="Go to page 8" href="/home?page=7">8</a></li>
+<li><a title="Go to page 9" href="/home?page=8">9</a></li>
+<li class="next last"><a title="Go to next page" href="/home?page=1">next ›</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-two_column_with_header_and_footer-right panels-flexible-region-last content-secondary">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-two_column_with_header_and_footer-right-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-block-8" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="ad">
+<!-- Remark ROS 300x250 - Right Rail -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8891066618221498"
+     data-ad-slot="4801542308"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-11" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="ad visible-desktop">
+<!-- Remark ROS 300x250 - Right Rail 2 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8891066618221498"
+     data-ad-slot="4243139108"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<br />  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views pane-sub-topics" >
+  
+        <h2 class="pane-title">Top Tax Topics</h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-sub-topics view-id-sub_topics view-display-id-block view-dom-id-bf2f5e9888f138f19d5df91d801f3ddf">
+        
+  
+  
+      <div class="view-content">
+      <div class="sidebar module no-thumbs">    <ul>          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/tax-news">Tax News</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/past-tax-returns">Past Tax Returns</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/tax-strategies">Tax Strategies</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/federal-tax-returns">Federal Tax Returns</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/state-tax-returns">State Tax Returns</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/tax-credits">Tax Credits</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/tax-deductions">Tax Deductions</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/tax-extensions">Tax Extensions</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/tax-refunds">Tax Refunds</a></span>  </div></li>
+          <li class="">  
+  <div class="views-field views-field-name">        <span class="field-content"><a href="/topics/paying-taxes">Paying Taxes</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-two_column_with_header_and_footer-2 panels-flexible-row-last clearfix ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-two_column_with_header_and_footer-2-inside panels-flexible-row-inside-last clearfix">
+<div class="panels-flexible-region panels-flexible-region-two_column_with_header_and_footer-bottom panels-flexible-region-first panels-flexible-region-last content-footer">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-two_column_with_header_and_footer-bottom-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-custom pane-1 video" >
+  
+        <h2 class="pane-title">Video</h2>
+    
+  
+  <div class="pane-content">
+    <script type="text/javascript" src="http://pshared.5min.com/Scripts/ThumbSeed2.js?sid=1211&amp;textLocation=1&amp;thumbnailSize=0&amp;width=1000&amp;height=200&amp;adUnit=false&amp;headerTextColor=%23656565&amp;textFGColor=%23333333&amp;textBGColor=transparent&amp;textFGColor_MO=%23FFFFFF&amp;textBGColor_MO=%23656565&amp;fallback=209&amp;fallbackType=category&amp;title=Featured%20Videos&amp;categories=209%2C26%2C249%2C275"></script>  </div>
+
+  
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer">
+        <div class="ad-content">
+            <div class="footer-ad visible-tablet" id="footer-ad">
+<!-- Remark ROS 468x60 - AdSense -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8891066618221498"
+     data-ad-slot="7224086704"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+            <div class="footer-ad visible-desktop" id="footer-ad">
+<!-- Remark ROS 728x90 - AdSense -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8891066618221498"
+     data-ad-slot="2793887101"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+        </div>
+
+        <div class="page-footer">
+              <div class="region region-footer">
+    <section id="block-system-main-menu" class="block block-system block-menu">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/topics/tools-forms" title="">Tools and Forms</a></li>
+<li class="leaf"><a href="/topics/job-and-business" title="">Business</a></li>
+<li class="leaf"><a href="/topics/investment" title="">Investment</a></li>
+<li class="leaf"><a href="/topics/family-and-taxes" title="">Family and Taxes</a></li>
+<li class="last leaf"><a href="/topics/education" title="">Education</a></li>
+</ul>  
+</section> <!-- /.block -->
+<section id="block-block-13" class="block block-block">
+
+      
+  <style>
+.navbar.secondary {
+  margin-top: 6px;
+}
+@media (max-width: 979px) {
+  header {
+    height: 142px !important;
+  }
+  .front .large-search-bar form {
+    margin-bottom: 0;
+  }
+  .navbar.secondary {
+    display: block;
+  }
+  #div-gpt-ad-1391809718739-21 {
+    display: none;
+  }
+  .front .mainFeature.homeModule ul {
+    background-position: left top !important;
+  }
+  .not-used-because-of-dfp ul#secondary-menu li a {
+    font-size: 14px !important;
+  }
+  .not-used-because-of-dfp .main-feature-block .mainFeature ul li a {
+    font-size: 14px !important;
+  }
+  .front .secondaryFeature {
+    display: none;
+  }
+  .front .secondaryFeature.sf2 {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #div-gpt-ad-1391809718739-21 {
+    display: block;
+  }
+.main-feature-block .pane-content {
+    width: 360px;
+  }
+  .navbar.secondary {
+    margin: 0 !important;
+    width: 100% !important;
+    float: left !important;
+  }
+  #secondary-menu {
+    width: 100%;
+  }
+  #secondary-menu li {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    background-color: #e9f0ff;
+    border-bottom: 1px solid gray;
+  }
+  header {
+    height: 245px !important;
+  }
+  .front .pane-block-12 {
+    display: none;
+  }
+}
+</style>  
+</section> <!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div class="footer-connect">
+        <div class="network">
+            <ul>
+                <li class="ds"><a class="dimespring" href="http://www.dimespring.com">Dimespring</a></li>
+                <li class="bnx"><a class="banks" href="http://www.banks.com">Banks</a></li>
+                <li class="ustc"><a class="irs" href="http://www.banks.com/taxes">US Tax Center</a></li>
+                <li class="fl"><a class="filelater" href="http://www.filelater.com">FileLater</a></li>
+            </ul>
+        </div>
+        <ul class="footer-links"><li class="menu-615 first"><a href="http://ir.remarkmedia.com/releases.cfm" title="">Pressroom</a></li>
+<li class="menu-616"><a href="http://www.remarkmedia.com/contact" title="">Contact Us</a></li>
+<li class="menu-655"><a href="/pages/irscom-privacy-policy">Privacy Policy</a></li>
+<li class="menu-656"><a href="/pages/irscom-terms-use">User Agreement</a></li>
+<li class="menu-657"><a href="/pages/irscom-advertising-information">Advertising Information</a></li>
+<li class="menu-658 last"><a href="/pages/irscom-about-us">About Us</a></li>
+</ul>        <div class="copyright">
+            <p>&copy; Remark Media | All images &copy; <a href="http://thinkstock.com">ThinkStock.com</a></p>
+        </div>
+        <div class="copyright">
+            <p>The US Tax Center at www.irs.com is an independent website provided by Banks.com, Inc. For the US Internal Revenue Service, please go to <a href="http://www.irs.gov">www.irs.gov</a></p>
+        </div>
+    </div>
+</footer>
+        <input type="hidden" name="OBKey" value="1yiR5hCTnZfSSLXLBcds4g=="/> <script LANGUAGE="JavaScript">var OBCTm='1354561665084'; </script><script LANGUAGE="JavaScript" src="http://widgets.outbrain.com/claim.js"></script>
+</body>
 </html>
+

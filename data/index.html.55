@@ -1,399 +1,1421 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
-
+<!DOCTYPE html>
+<!--[if IE 8]>     <html class="no-js lt-ie9 is-ie"> <![endif]-->
+<!--[if IE 9]> <html class="no-js is-ie"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+  <!--
+	generated 149 seconds ago
+	generated in 1.294 seconds
+	served from batcache in 0.003 seconds
+	expires in 151 seconds
+-->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
-<link rel="shortcut icon" href="/sites/all/themes/yale_drama/favicon.ico" type="image/x-icon" />
-  <title>News &amp; Events | drama.yale.edu</title>
-  <link type="text/css" rel="stylesheet" media="all" href="http://drama.yale.edu/sites/default/files/css/css_0c8ddf55083247e7ed07c13d1daad596.css" />
-<link type="text/css" rel="stylesheet" media="print" href="http://drama.yale.edu/sites/default/files/css/css_c44f4c2142568b348203b6730ab7f5aa.css" />
-<link type="text/css" rel="stylesheet" media="all" href="http://drama.yale.edu/sites/default/files/css_injector_1.css?P" />
-  <script type="text/javascript" src="http://drama.yale.edu/sites/default/files/js/js_2a6b8dbd8605bb2891dec50ce7f0b507.js"></script>
+    <meta charset="utf-8">
+    <title>TIME - Breaking News, Analysis, Politics, Blogs, News Photos, Video, Tech Reviews</title>
+    <link rel="shortcut icon" href="http://s2.wp.com/wp-content/themes/vip/time2014/img/favicon.ico?m=1387270705g">
+    <link rel="apple-touch-icon" href="http://s2.wp.com/wp-content/themes/vip/time2014/img/touch_icon_76.png?m=1391240679g">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://s2.wp.com/wp-content/themes/vip/time2014/img/touch_icon_76.png?m=1391240679g">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://s2.wp.com/wp-content/themes/vip/time2014/img/touch_icon_120.png?m=1391240679g">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://s2.wp.com/wp-content/themes/vip/time2014/img/touch_icon_152.png?m=1391240679g">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script>
+      (function() {
+        var method;
+        var noop = function () {};
+        var methods = [
+          'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+          'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+          'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+          'timeStamp', 'trace', 'warn'
+        ];
+        var length = methods.length;
+        var console = (window.console = window.console || {});
+
+        while (length--) {
+          method = methods[length];
+
+          // Only stub undefined methods.
+          if (!console[method]) {
+            console[method] = noop;
+          }
+        }
+      }());
+    </script>
+    
+<meta name="description" content="Breaking news and analysis from TIME.com. Politics, world news, photos, video, tech reviews, health, science and entertainment news." />
+<meta name="keywords" content="TIME.com, Breaking news, Politics, world news, photos, video, tech reviews, health, science and entertainment news." />
+		<script src='//r-login.wordpress.com/remote-login.php?action=js&amp;host=time.com&amp;id=1359921&amp;t=1397586153&amp;back=http%3A%2F%2Ftime.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="canonical" href="http://time.com" />
 <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)sites\/default\/files","default_image":"\/sites\/all\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":0,"font_color":"000","box_color":"000","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":200,"fade_in_speed":200,"slide_down_speed":200,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":0,"loop_items":0,"node_link_text":"","node_link_target":0,"image_count":"!current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":0,"enable_video":0},"cufonSelectors":[{"selector":"#header-title h1","options":{"fontFamily":"Yale Design Roman","hover":0}}]});
-//--><!]]>
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
 </script>
-  <script type="text/javascript"> </script>
-</head>
-<body class="front not-logged-in page-node node-type-page two-sidebars node-433">
-  <div id="page">
-    <div id="header" class="clearfix">
-      
-       <div id="header-drama">
-      	<div id="masthead">
-   			<a href="/node/1"><img src="/sites/all/themes/yale_drama/images/sod_masthead.gif" alt="sod_masthead" border="none"/></a>
-   		</div> <!-- /#masthead-->	
-   		<div id="nav-container">
-   		  
-  <div id="searchTools">
-  
-    <ul id="yaleHeaderLinks">
-      <li><a href="http://events.yale.edu/opa/ChooseDate.jsp">Calendar</a></li>
-      <li class="last"><a href="http://www.yale.edu/search/index_a_z.html">A-Z Index</a></li>
+<meta property="og:site_name" content="TIME.com"/>
+<meta property="og:title" content="TIME - Breaking News, Analysis, Politics, Blogs, News Photos, Video, Tech Reviews"/>
+<meta property="og:image" content="http://s2.wp.com/wp-content/themes/vip/time2014/img/time-logo-og.png?m=1391184390g"/>
+<meta property="og:url" content="http://time.com"/>
+<meta property="og:type" content="website"/>
+<meta property="fb:admins" content="1124331582,512158401,808970553,100000018008769"/>
+<meta property="fb:app_id" content="53177223193"/>
+<link rel='stylesheet' id='all-css-0' href='http://s2.wp.com/_static/??-eJx9jUsOwjAMRC9EMQ0tnwXqWaJgUbdxatUuiNuTILFAoO481nsz8JAqTMkwGfBSSVxulBSUKeJT5mnAYN9pG1Q38F+LNKLCgCY+jNU7reFhmjH/WbwVgvFKHiNyxtY0lsPHKmeft35nrM89CncSMGJ0u7qBzICGGTEVvONLvT8fnWtObTu8AHeDYcs=' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='ie8-and-down-css'  href='http://s2.wp.com/wp-content/themes/vip/time2014/css/ie8-and-down.css?m=1392742641g&#038;ver=3.9-RC1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2' href='http://s0.wp.com/_static/??-eJxljEsKgDAMBS9kjX9wIZ5F2xArbSOm4vWtrgru3sCbgftQmkPEEMFf6nAX2SBw4uqY0iTQkmOZsIBMiht6FNg6IMfr4n6HrHpbQxjlSxKzOXEx8gqzn+p2rPqh6ep2fwA3cTYI' type='text/css' media='all' />
+<script type='text/javascript' src='http://s1.wp.com/_static/??-eJyFkNEOgjAMRX/IbQhG5cH4LQgVO1k32wGRr3ckmGg04alJe3JPc80YVO0pAkVjxTh/wQ5UL8BVm3YK6eq1lY1JHFLd9Q3IDNpHD/xcxiqgHLZcRdAO6Q1/WIOX6EAkKf9cv1VIA8K4ilmIoarvikFw+kmNN0g+M2AwER3k2XY3RwxAjedUQgNMOLHK9V7ny9Nnd9oW5SE7lllR2hfaa3KP'></script>
+<script type='text/javascript' src='//tiads.time.com/ads/tgx.js?ver=3.9-RC1'></script>
+<script type='text/javascript' src='//js.revsci.net/gateway/gw.js?csid=H07710&#038;ver=3.9-RC1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TIME_DFP = {"zone":"homepage","params":{"ptype":"home","ch":"home"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/wp-content/themes/vip/time2014/js/vendor/time-dfp.js?m=1396454915g'></script>
+<script type='text/javascript' src='//cdn.optimizely.com/js/225629888.js?ver=3.9-RC1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://timedotcom.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://timedotcom.wordpress.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/5HMd' />
+<link rel='openid.server' href='http://timedotcom.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://timedotcom.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://time.com/osd.xml" title="TIME" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="TIME" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Breaking News, Analysis, Politics, Blogs, News Photos, Video, Tech Reviews" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://time.com/feed/;icon-uri=http://0.gravatar.com/blavatar/2663fa8912699ba9dd3ac8275001a930?s=16" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+    <script>
+      // Declare the Time namespace
+      Time = {
+        authenticated: 0,
+        bootstrap:   {}, // Contains any article data bootstrapped to the page by WP
+        models:      {}, // Backbone models
+        collections: {}, // Backbone collections
+        views:       {}, // Backbone views
+        component:   {}, // Component classes
+        components:  {}, // Instances of component classes
+        device: "desktop",
+        template_uri: "http://s2.wp.com/wp-content/themes/vip/time2014", // A path to the theme template from root
+        developer_mode: 0, // For console.log, dummy data etc.
+        posts_per_page: 10,
+        home_url: "http://time.com",
+        api_url: "http://time.com/api/",
+        tab_data: {
+          'default': {
+            'tabs': [
+              { label: 'Latest', omniture: 'nav-latest', env: 'rail', href: '/', silent: true }, // Replace this w/ section if Needed
+              { label: 'Popular', omniture: 'nav-popular', env: 'popular', href: '/popular/' },
+              { label: 'Videos', omniture: 'nav-video', env: 'videos', href: '/videos/' }
+            ]
+          },
+          'collection': {
+            'tabs': [
+              { label: 'Today\'s Influencers', omniture: 'nav-influencers', env: 'influencers' },
+              { label: 'Time 100', omniture: 'nav-100', env: '100' }
+            ]
+          }
+        }
+      }
+
+    </script>
+    <script src="//fonts.timeinc.net/cfk1lij.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body class="home blog mp6 typekit-enabled highlander-enabled highlander-light is-signed-out">
+
+        <script>
+    (function($){
+      if( window.location.hash != "" && $('html').hasClass('is-ie') ) {
+        if ( window.location.hash != "#") {
+          $('body').addClass('hidden');
+        }
+
+      }
+    })(jQuery);
+    </script>
+    
+    <script>var s_account = "timecom";</script>
+<script src="http://img.timeinc.net/tii/omniture/h/config/time_s_code_multivideo.js"></script>
+<script>
+s_time.prop7 = 'main';
+s_time.prop16 = 'home';
+s_time.pageName = 'time|home|main';
+s_time.channel = 'time';
+s_time.prop64 = 'v2';
+s_code=s_time.t();if(s_code){document.write(s_code);}
+</script>
+
+    <div id="gallery-trigger"></div>
+    <header class="main-header" role="banner">
+          <div class="left-rail-header" role="banner">
+            <a href="javascript:void 0;" data-bypass="true" class="header-nav-button time-icons time-icons-menu" data-event="nav-expose" title="Click to show site navigation"></a>
+<div class="logo-wrap" itemscope itemtype="http://schema.org/Organization">
+  <a itemprop="url" href="http://time.com/" class="logo" data-event="nav-home">
+	<img itemprop="logo" src="http://s2.wp.com/wp-content/themes/vip/time2014/img/time_logo.png?m=1387270705g" alt="TIME"/>
+		<h1>Time.com</h1>
+	  </a>
+</div>
+                          <span class="signedin-wrap"></span>
+            
+            <nav class="main-nav" role="navigation">
+
+	<div class="login-nav-wrapper">
+		<a class="login-nav-item sign-in" href="#" data-event="nav-login">Sign In</a>
+		<a class="login-nav-item sign-out" href="https://auth.time.com/logout.php?turl=http://time.com" data-event="nav-login">Sign Out</a>
+	</div>
+
+	<a class="main-nav-section" href="http://time.com" aria-controls="rail-articles" data-event="nav-home">
+		<span>Home</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/us/" aria-controls="rail-articles" data-event="nav-us">
+		<span>U.S.</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/politics/" aria-controls="rail-articles" data-event="nav-politics">
+		<span>Politics</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/world/" aria-controls="rail-articles" data-event="nav-world">
+		<span>World</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/business/" aria-controls="rail-articles" data-event="nav-business">
+		<span>Business</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/tech/" aria-controls="rail-articles" data-event="nav-tech">
+		<span>Tech</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/health/" aria-controls="rail-articles" data-event="nav-health">
+		<span>Health</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/science/" aria-controls="rail-articles" data-event="nav-science">
+		<span>Science</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/entertainment/" aria-controls="rail-articles" data-event="nav-entertainment">
+		<span>Entertainment</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/newsfeed/" aria-controls="rail-articles" data-event="nav-newsfeed">
+		<span>Newsfeed</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/living/" aria-controls="rail-articles" data-event="nav-living">
+		<span>Living</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/opinion/" aria-controls="rail-articles" data-event="nav-opinion">
+		<span>Opinion</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/sports/" aria-controls="rail-articles" data-event="nav-sports">
+		<span>Sports</span>
+	</a>
+	<a class="main-nav-section" href="http://time.com/magazine/" aria-controls="rail-articles" data-event="nav-magazine">
+		<span>Magazine</span>
+	</a>
+
+	<div class="main-nav-media">
+		<a href="http://lightbox.time.com/" aria-controls="rail-articles" data-event="nav-photography">
+			<span>Photography</span>
+			<span class="time-icons time-icons-photo"></span>
+		</a>
+		<a href="http://time.com/videos" aria-controls="rail-articles" data-event="nav-video">
+			<span>Videos</span>
+			<span class="time-icons time-icons-video"></span>
+		</a>
+		<a href="http://life.time.com/" aria-controls="rail-articles" data-event="nav-life">
+			<span>LIFE</span>
+		</a>
+	</div>
+
+	<div class="tertiary-nav-wrapper tertiary-nav-special">
+		<a href="http://time.com/56140/time-100-2014-poll/">TIME 100 Poll</a>
+<a href="http://time.com/mad-men-last-days/">The Last Days of Mad Men</a>
+<a href="http://time.com/topic/the-ideas-issue/">The Ideas Issue</a>
+<a href="http://time.com/world-trade-center/">Top of the World</a>
+<a href="http://time.com/topic/time-explains/">TIME Explains</a>
+	</div>
+
+	<div class="main-nav-social">
+		<a href="http://www.facebook.com/time" class="time-icons time-icons-fb" data-event="nav-fb"></a>
+		<a href="http://www.twitter.com/time" class="time-icons time-icons-tw" data-event="nav-twitter"></a>
+		<a href="http://plus.google.com/+TIME/posts" rel="publisher" class="time-icons time-icons-gplus" data-event="nav-gplus"></a>
+		<a href="http://timemagazine.tumblr.com/" class="time-icons time-icons-tumblr" data-event="nav-tumblr"></a>
+	</div>
+
+	<div class="tertiary-nav-wrapper">
+		<a class="legal-nav-item" href="mailto:feedback@time.com" data-event="nav-feedback">Feedback</a>
+		<a class="legal-nav-item" href="http://cgi.timeinc.net/cgi-bin/mail/dnp/privacy_centralized.cgi/time?dnp_source=E" data-event="nav-privacy">Privacy Policy</a>
+		<a class="legal-nav-item" href="https://subscription.timeinc.com/storefront/privacy/time/generic_privacy_new.html?dnp-source=B#california" data-event="nav-cal-privacy">California Privacy Rights</a>
+		<a class="legal-nav-item" href="http://cgi.timeinc.net/cgi-bin/mail/dnp/terms_of_service.cgi/time" data-event="nav-terms">Terms of Use</a>
+		<a class="legal-nav-item" href="http://subscription-assets.timeinc.com/prod/assets/themes/magazines/default/template-resources/html/legal/ti-corp-behavioral.html" data-event="nav-ad-choices">Ad Choices <img src="http://s2.wp.com/wp-content/themes/vip/time2014/img/ad-choices.png?m=1391240679g" alt="Ad Choices"></a>
+	</div>
+
+	<div class="tertiary-nav-wrapper">
+		<a class="legal-nav-item" href="http://content.time.com/time/rss" data-event="nav-rss">RSS</a>
+		<a class="legal-nav-item" href="http://subscription-assets.time.com/prod/assets/themes/magazines/SUBS/templates/velocity/site/td-learnmore0711/lp.html" data-event="nav-apps">TIME Apps</a>
+		<a class="legal-nav-item" href="http://www.timeforkids.com/TFK/" data-event="nav-tfk">TIME for Kids</a>
+		<a class="legal-nav-item" href="http://www.timemediakit.com/" data-event="nav-mk">Media Kit</a>
+		<a class="legal-nav-item" href="http://www.timeincnewsgroupcustompub.com/" data-event="nav-ads">Advertising</a>
+		<a class="legal-nav-item" href="http://content.time.com/time/reprints" data-event="nav-reprints">Reprints and Permissions</a>
+		<a class="legal-nav-item" href="http://content.time.com/time/static/sitemap/" data-event="nav-sitemap">Site Map</a>
+		<a class="legal-nav-item" href="http://subscription-assets.time.com/prod/assets/themes/magazines/SUBS/templates/velocity/site/td-learnmore0711/faq.html" data-event="nav-help">Help</a>
+		<a class="legal-nav-item" href="https://secure.customersvc.com/servlet/Show?WESPAGE=td/home.html&MSRSM%20%20%20%20%20AG=TD" data-event="nav-contact">Customer Service</a>
+		<span class="copywrite legal-nav-item">&copy; 2014 Time Inc. All rights reserved.</span>
+	</div>
+
+</nav>            <a href="https://subscription.time.com/storefront/subscribe-to-time/link/1019480.html" id="mobile-subscribe-link" class="clearfix" target="_blank">Subscribe</a>
+          </div>
+          <div class="section-rail-tabs"></div>
+          <section class="top-banner">
+                          <div class="home-banner">
+                <div class="header-user-module">
+                  <span class="signedin-wrap"></span>
+                  <span class="sign-sub-wrap"><a href="#signin">Sign In</a><a href="https://subscription.time.com/storefront/subscribe-to-time/link/1019480.html">Subscribe</a></span>
+                </div>
+                <div id="home-banner-ad" data-cb-ad-id="home-banner-ad" ></div>
+              </div>
+            
+            
+                      </section>
+    </header>
+
+<div id="notTheHeader">
+	<div id="pushdown-ad"></div>
+    <div class="magazine-cover"></div>
+	<div class="wrapper">
+			<div class="left-rail-topper">
+		<header class="magazine-region-header">
+  <button class="toggle-magazine-region-dropdown">U.S. Edition</button>
+  <nav class="magazine-region-dropdown">
+    <ul class="magazine-region-list">
+      <li class="magazine-region-item">
+        <a class="magazine-region" data-region="us" href="http://time.com/magazine/us/" aria-controls="rail-articles">U.S. Edition</a>
+      </li>
+      <li class="magazine-region-item">
+        <a class="magazine-region" data-region="europe" href="http://time.com/magazine/europe/" aria-controls="rail-articles">Europe, Middle East and Africa Edition</a>
+      </li>
+      <li class="magazine-region-item">
+        <a class="magazine-region" data-region="asia" href="http://time.com/magazine/asia/" aria-controls="rail-articles">Asia Edition</a>
+      </li>
+      <li class="magazine-region-item">
+        <a class="magazine-region" data-region="south-pacific" href="http://time.com/magazine/south-pacific/" aria-controls="rail-articles">South Pacific Edition</a>
+      </li>
     </ul>
-    
-    <form action="http://google.yale.edu/search" method="get" name="web" id="yaleHeaderSearch">
-    
-      <input class="sfield" name="q" type="text" size="25" alt="Search Yale University" value="Search Yale University" onfocus="this.value=''; style.color='#000000'; style.background='#ffffdd'" />
-      <input class="gobutton" type="image" src="/sites/all/themes/yale_drama/color_schemes/drama/search_go_button.gif" value="Go" alt="Go" />
-      
-      <input type="hidden" name="site" value="Yale_University" />
-      <input type="hidden" name="entqr" value="0" />
-      <input type="hidden" name="ud" value="1" />
-      <input type="hidden" name="sort" value="date:D:L:d1" />
-      <input type="hidden" name="output" value="xml_no_dtd" />
-      <input type="hidden" name="oe" value="UTF-8" />
-      <input type="hidden" name="ie" value="UTF-8" />
-      <input type="hidden" name="client" value="bluesite_frontend" />
-      <input type="hidden" name="proxystylesheet" value="bluesite_frontend" />
-      <input type="hidden" name="proxyreload" value="1" />
-    </form>
-    
-    <div id="myContainer">
-      <a href="javascript:;" onclick="togLyr('my-menu','1');">
-      <img id="my-button" src="/sites/all/themes/yale_drama/color_schemes/drama/y_menu_arrow.gif" alt="Y-Menu" width="36" height="21" border="0" /></a>
-
-      <div id="my-wrapper">
-        <div id="my-menu" onmouseover="togLyr('my-menu','1');" onmouseout="togLyr('my-menu','0');">
-          <ul>
-            <li><a href="http://www.yale.edu/">Yale home</a></li>
-            <li><a href="http://www.yale.edu/about/index.html">About Yale</a></li>
-            <li><a href="http://www.yale.edu/academics/index.html">Academic programs</a></li>
-            <li><a href="http://www.yale.edu/admissions/index.html">Admissions</a></li>
-            <li><a href="http://www.yale.edu/medicine/index.html">Health &amp; medicine</a></li>
-            <li><a href="http://www.yale.edu/work/index.html">Working at Yale</a></li>
-            <li><a href="http://www.yale.edu/newhaven/index.html">Yale &amp; New Haven</a></li>
-            <li><a href="http://world.yale.edu">Yale &amp; the World</a></li> 
-            <li><a href="http://www.yale.edu/tomorrow/index.html">Yale Tomorrow</a></li>
-            <li><a href="http://www.yale.edu/opa">News</a></li>
-          </ul>
-          <ul class="lower">
-            <li><a href="http://www.yale.edu/gateways/prosp_students.html">Prospective students</a></li>
-            <li><a href="http://www.yale.edu/gateways/students.html">Students</a></li>
-            <li><a href="http://www.yale.edu/gateways/parents.html">Parents</a></li>
-            <li><a href="http://www.yale.edu/gateways/faculty.html">Faculty</a></li>
-            <li><a href="http://www.yale.edu/gateways/staff.html">Staff</a></li>
-            <li><a href="http://www.yale.edu/gateways/postdoc.html">Postdocs</a></li>
-            <li><a href="http://www.yale.edu/gateways/alumni.html">Alumni</a></li>
-            <li><a href="http://www.yale.edu/gateways/foundations.html">Foundations &amp; corporations</a></li>
-            <li><a href="http://www.yale.edu/gateways/patients.html">Patients</a></li>
-            <li><a href="http://www.yale.edu/gateways/visitors.html">Visitors</a></li>
-          </ul>
-        </div> <!-- /my-menu -->
-    </div> <!-- /my-wrapper -->
-  </div> <!-- /myContainer -->
-</div> <!-- closes searchTools -->
-<div class="clear"></div>   			<div id="header-spacer">				
-   			</div> <!-- /#header-spacer-->
-   			<div id="navigation">
-   				<div id="tabnav">
-    				<ul class="primary-links"><li class="menu-12451 active-trail first active"><a href="/news-events" title="News &amp; Events" id="home" class="active">Home</a></li>
-<li class="menu-454"><a href="/mission-statement" title="About Us" id="about-us">About Us</a></li>
-<li class="menu-12443"><a href="http://drama.yale.edu/onstage/season/2013-14-yale-school-drama-season" title="THE 2011-12 YALE SCHOOL OF DRAMA SEASON" id="on-stage">On Stage</a></li>
-<li class="menu-461"><a href="/learn-more" title="Admissions" id="admissions">Admissions</a></li>
-<li class="menu-746"><a href="http://ysdinfo.yale.edu/" id="ysd-info" target="_blank">YSD Info</a></li>
-<li class="menu-745"><a href="/welcome-alumni-1" title="Welcome Alumni" id="alumni">Alumni</a></li>
-<li class="menu-903 last"><a href="/contact-us" title="Contact Us" id="contact-us">Contact Us</a></li>
-</ul>   				</div> <!-- /#tabnav--> 
-   				<div id="tabnavbottom">
-					  <div id="block-menu-menu-about-us" class="block block-menu">
-
-  <div class="content clearfix">
-    <ul class="menu"><li class="leaf first ysdbulletin"><a href="http://www.yale.edu/printer/bulletin/htmlfiles/drama/index.html" target="_blank">YSD Bulletin</a></li>
-<li class="leaf degreeprograms"><a href="/degree-programs" title="Degree Programs">Degree Programs</a></li>
-<li class="leaf history"><a href="/history" title="History">History</a></li>
-<li class="leaf facultyampstaff"><a href="/facstafflist/all">Faculty &amp; Staff</a></li>
-<li class="leaf traveldirections"><a href="/travel-directions" title="Travel Directions">Travel Directions</a></li>
-<li class="leaf last calendar"><a href="/academic-calendar-2013-2014" title="Academic Calendar 2011-2012">Calendar</a></li>
-</ul>  </div>
-</div>
-  <div id="block-menu-menu-admissions" class="block block-menu">
-
-  <div class="content clearfix">
-    <ul class="menu"><li class="leaf first faq"><a href="/frequently-asked-questions" title="Frequently Asked Questions">FAQ</a></li>
-<li class="leaf ysdbulletin"><a href="http://www.yale.edu/printer/bulletin/htmlfiles/drama/index.html" target="_blank">YSD Bulletin</a></li>
-<li class="leaf learnmore"><a href="/learn-more" title="">Learn More</a></li>
-<li class="leaf applynow"><a href="/apply-online" title="Apply Online">Apply Now</a></li>
-<li class="leaf academicdepartments"><a href="/academic-departments" title="Academic Departments">Academic Departments</a></li>
-<li class="leaf last financialaid"><a href="/required-financial-aid-application-procedures" title="Required Financial Aid Application Procedures">Financial Aid</a></li>
-</ul>  </div>
-</div>
-  <div id="block-menu-menu-alumni" class="block block-menu">
-
-  <div class="content clearfix">
-    <ul class="menu"><li class="leaf first annualmagazine"><a href="/annual-magazine-1" title="Alumni Magazine">Annual Magazine</a></li>
-<li class="leaf last enewsletter"><a href="/alumni-e-newsletter-1" title="Alumni e-Newsletter">e-Newsletter</a></li>
-</ul>  </div>
-</div>
-  <div id="block-menu-menu-on-stage-nav" class="block block-menu">
-
-  <div class="content clearfix">
-    <ul class="menu"><li class="leaf first seasonarchive"><a href="/onstage/season/2011-12-yale-school-drama-season" id="on-stage">Season Archive</a></li>
-<li class="leaf last buytickets"><a href="https://ysd-tickets.yale.edu" target="_blank">Buy Tickets</a></li>
-</ul>  </div>
-</div>
-  <div id="block-menu-menu-contact-us" class="block block-menu">
-
-  <div class="content clearfix">
-    <ul class="menu"><li class="leaf first keystaffampoffices"><a href="/contact-us">Key Staff &amp; Offices</a></li>
-<li class="leaf requestatranscript"><a href="/transcript-requests" title="Transcript Requests">Request a Transcript</a></li>
-<li class="leaf boxoffice"><a href="https://apps.commerce.yale.edu/arts/yrt/productions.do" target="_blank">Box Office</a></li>
-<li class="leaf last yalephonedirectory"><a href="http://www.yale.edu/search/find_people.html">Yale Phone Directory</a></li>
-</ul>  </div>
-</div>
-   				</div> <!-- /#tabnavbottom--> 
-   			</div><!-- /#nav-container-->
-   		</div><!-- /#navigation-->   		
-      </div> <!-- /#header-drama--> 
-      
-
-    </div> <!-- /header -->
-
-	<div id="front-image">
-		  <div id="block-views-front_images-block_1" class="block block-views">
-
-  <div class="content clearfix">
-    <div class="view view-front-images view-id-front_images view-display-id-block_1 view-dom-id-3">
-    
-  
-  
-      <div class="view-content">
-        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-      
-  <div class="views-field-field-front-image-fid">
-                <span class="field-content"><img  class="imagefield imagefield-field_front_image" width="768" height="310" alt="" src="http://drama.yale.edu/sites/default/files/images/front/homepage5.jpg?1342633275" /></span>
-  </div>
-  </div>
-    </div>
-  
-  
-  
-  
-  
-  
-</div>   </div>
-</div>
-	</div> <!-- /front-image" -->
-    
-    <div id="container">
-      <div id="container-inner">
-        <div id="sidebar-left" class="column sidebar">
-          <div id="sidebar-left-inner">
-          
-                      
-                         <!--  <div id="primary" class="clearfix"> -->
-                             <!--  </div> -->
-            
-              <div id="block-block-4" class="block block-block">
-
-  <div class="content clearfix">
-    <h3 class="side-menu">On Stage:</h3>
-<ul class="side-menu">
-<li><a href="http://drama.yale.edu/onstage/">Yale School of Drama</a></li>
-<li><a href="http://www.yalerep.org/" target="_blank">Yale Repertory Theatre</a></li>
-<li><a href="http://yalecabaret.org/" target="_blank">Yale Cabaret</a></li>
-<li><a href="http://www.summercabaret.com" target="_blank">Yale Summer Cabaret</a></li>
-</ul>
-<h3 class="side-menu">On Press:</h3>
-<ul class="side-menu">
-<li><a href="http://theatermagazine.org/" target="_blank">Theater Magazine </a></li>
-<li><a href="http://technicalbrief.org/" target="_blank">Technical Brief</a></li>
-<li><a href="http://www.yale.edu/printer/bulletin/htmlfiles/drama/index.html" target="_blank">Bulletin of<br /> Yale School of Drama</a></li>
-</ul>
-  </div>
-</div>
-          </div> <!-- /sidebar-left-inner -->
-        </div> <!-- /sidebar-left -->
-  
-<!--   <div id="content-photo"> was here; see around line 101 for end div -->
-
-  
-      <div id="main" class="column">
-      
-      	     	
-      	<div id="content-photo">
-       		       	</div> <!-- /content-photo -->
-           
-           
-        <div id="main-inner">
-                              <!-- <div id="breadcrumb"> --><!-- </div> -->                   
-         
-
-       
-          <div id="content">
-            <h1 class="title" id="page-title">News &amp; Events</h1>                        <div id="content-content" class="clearfix">
-              <div id="node-433" class="node node-type-page node-published clearfix">
-
-  
-  
-  <div class="meta">
-    
-      </div>
-
+  </nav>
+</header>		<div id="sub-ad" data-cb-ad-id="sub-ad"></div>
+		<header class="rail-tabs" role="tablist"></header>
+		<div id="section-sub-ad" data-cb-ad-id="section-sub-ad" ></div>
+	</div>
+<span class="rail-handle" aria-hidden="true">&bull; &bull; &bull;</span>
+<div class="left-rail">
+	<section class="rail-articles" id="rail-articles" aria-live="polite" role="region">
+						<div class="rail-articles-scroll">
+					<section class="article-list">
+				<div class="market-wrap"></div>								<h2 class="rail-list-heading">Just Posted</h2><article class="rail-article format-article " data-article="63738">
   <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63738/grimes-outraises-mcconnell/" data-event="tile">McConnell&#8217;s Democratic Challenger Outraises Him in First Quarter</a>
+      <time datetime="2014-04-15 18:12:15">2:12 PM ET</time>
+    </h3>
+    
+    
+  </div>
   
-          
-	<div class="ptitle">News &amp; Events</div>
-    <div class="page-node-body"></div>
- 	
-      </div>
+</article><article class="rail-article format-article " data-article="63603">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63603/ukraine-crisis-eu-indecisive/" data-event="tile">Not Even the Threat of War in Europe Can Unite the E.U.</a>
+      <time datetime="2014-04-15 17:51:09">1:51 PM ET</time>
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-video has-icon" data-article="63647">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63647/obvious-child-trailer/" data-event="tile">Watch the Trailer for Reproductive Rights Rom-Com <i>Obvious Child</i></a>
+      <time datetime="2014-04-15 17:44:47">1:44 PM ET</time>
+    </h3>
+    
+    <span class="tile-icon time-icons time-icons-video"></span>
+  </div>
+  
+</article><article class="rail-article format-article " data-article="63516">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63516/us-airways-tweet-pornographic/" data-event="tile">US Airways Investigates How It Accidentally Tweeted a Pornographic Picture to a Customer</a>
+      <time datetime="2014-04-15 17:39:08">1:39 PM ET</time>
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-article " data-article="63345">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63345/jack-gleeson-game-of-thrones-king-joffrey-retiring/" data-event="tile">What&#8217;s Next For <i>That</i> Actor From <i>Game of Thrones</i>?</a>
+      <time datetime="2014-04-15 17:16:50">1:16 PM ET</time>
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-gallery has-icon" data-article="63649">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63649/court-upholds-epa-emission-standards/" data-event="tile">Court Upholds EPA Emission Standards</a>
+      <time datetime="2014-04-15 17:10:13">1:10 PM ET</time>
+    </h3>
+    
+    <span class="tile-icon time-icons time-icons-gallery"></span>
+  </div>
+  
+</article><article class="rail-article format-article " data-article="63642">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63642/pet-boom-in-mexico-amid-rising-middle-class/" data-event="tile">Pet Boom In Mexico Amid Rising Middle Class</a>
+      <time datetime="2014-04-15 17:02:57">1:02 PM ET</time>
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-brief " data-article="63597">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63597/remember-not-to-pee-on-the-alamo/" data-event="tile">Remember Not To Pee On The Alamo</a>
+      <time datetime="2014-04-15 16:59:10">12:59 PM ET</time>
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-article " data-article="58086">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/58086/best-bands-coachella/" data-event="tile">7 Artists From Coachella to Check Out (Even If You Didn&#8217;t Go to the Festival)</a>
+      <time datetime="2014-04-15 16:54:27">12:54 PM ET</time>
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-brief " data-article="63577">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63577/obama-commutes-sentence-ceasar-huerta-cantu/" data-event="tile">Obama Commutes Sentence Of Man Given Three Extra Years In Jail By A Typo</a>
+      <time datetime="2014-04-15 16:52:39">12:52 PM ET</time>
+    </h3>
+    
+    
+  </div>
+  
+</article><h2 class="rail-list-heading">Newsfeed</h2><article class="rail-article format-brief " data-article="63597">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63597/remember-not-to-pee-on-the-alamo/" data-event="tile">Remember Not To Pee On The Alamo</a>
+      
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-interactive " data-article="59863">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/59863/most-popular-music-in-america-map/" data-event="tile">This Interactive Map Shows The Most Popular Music in America</a>
+      
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-article " data-article="63418">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63418/999-emergency-call-dog/" data-event="tile">Police Respond to Emergency Call from &#8216;Heavy Breather&#8217; Who Ends Up Being a Dog</a>
+      
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-video has-icon" data-article="63402">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63402/watch-oprah-make-pharrell-williams-cry/" data-event="tile">Watch Oprah Make Pharrell Williams Cry</a>
+      
+    </h3>
+    
+    <span class="tile-icon time-icons time-icons-video"></span>
+  </div>
+  
+</article><article class="rail-article format-article " data-article="63339">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63339/silencer-hides-tv-spoilers-from-social-media/" data-event="tile">Here&#8217;s How You Can Hide Those Annoying TV Spoilers on Social Media</a>
+      
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-video has-icon" data-article="63299">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/63299/no-salary-no-benefits-no-sleep-this-is-the-worlds-toughest-job/" data-event="tile">No Salary, No Benefits, No Sleep: This Is The World&#8217;s Toughest Job</a>
+      
+    </h3>
+    
+    <span class="tile-icon time-icons time-icons-video"></span>
+  </div>
+  
+</article><article class="rail-article format-article " data-article="62570">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/62570/taylor-swift-surprising-people/" data-event="tile">Taylor Swift Can&#8217;t Stop Surprising People</a>
+      
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-video has-icon" data-article="62077">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/62077/watch-flight-attendant-gives-the-funniest-in-flight-safety-demo-ever/" data-event="tile">WATCH: Flight Attendant Gives the Funniest In-Flight Safety Demo Ever</a>
+      
+    </h3>
+    
+    <span class="tile-icon time-icons time-icons-video"></span>
+  </div>
+  
+</article><article class="rail-article format-brief " data-article="62978">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/62978/american-airlines-twitter-teen-bomb-threat/" data-event="tile">Teens Are Now Bombarding Airlines With Fake Bomb Threats</a>
+      
+    </h3>
+    
+    
+  </div>
+  
+</article><article class="rail-article format-video has-icon" data-article="62505">
+  <div class="content">
+    
+    <h3 class="rail-article-title">
+      <a class="article-permalink" href="http://time.com/62505/taylor-swift-attends-fans-bridal-shower/" data-event="tile">Total Girls&#8217; Girl Taylor Swift Showed Up to a Fan&#8217;s Bridal Shower Bearing Gifts</a>
+      
+    </h3>
+    
+    <span class="tile-icon time-icons time-icons-video"></span>
+  </div>
+  
+</article><h2 class="rail-list-heading">We Recommend</h2><article class="rail-article">
+  <div class="content">
+    <h3 class="rail-article-title rail-article-title-partners"><a class="article-permalink" href="http://www.huffingtonpost.com/2014/03/19/ancient-rock-formation-glenn-taylor-david-hall_n_4988811.html" target="_blank" data-event="related-partner">Men Charged With Toppling Ancient Rock Formation Avoid Jail Time</a> <span class="left-rail-partner-name">Huffington Post</span></h3>
+  </div>
+  
+</article><article class="rail-article">
+  <div class="content">
+    <h3 class="rail-article-title rail-article-title-partners"><a class="article-permalink" href="http://www.huffingtonpost.com/2014/01/03/marijuana-overdose_n_4538580.html" target="_blank" data-event="related-partner">Here's An Updated Tally Of All The People Who Have Ever Died From A Marijuana Overdose</a> <span class="left-rail-partner-name">Huffington Post</span></h3>
+  </div>
+  
+</article><article class="rail-article">
+  <div class="content">
+    <h3 class="rail-article-title rail-article-title-partners"><a class="article-permalink" href="http://feeds.people.com/~r/people/headlines/~3/_kKPIEMGzrY/0,,20807137,00.html" target="_blank" data-event="related-partner">Man Wearing Superman Hoodie Rescues Baby from Burning Building</a> <span class="left-rail-partner-name">People</span></h3>
+  </div>
+  
+</article><article class="rail-article">
+  <div class="content">
+    <h3 class="rail-article-title rail-article-title-partners"><a class="article-permalink" href="http://sportsillustrated.cnn.com/more/news/20140415/bill-iffrig-boston-marathon-one-year-later/?xid=si_topstories" target="_blank" data-event="related-partner">'I Was So Damn Lucky': A year after Boston Marathon bombings, Bill Iffrig reflects on tragedy</a> <span class="left-rail-partner-name">Sports Illustrated</span></h3>
+  </div>
+  
+</article><article class="rail-article">
+  <div class="content">
+    <h3 class="rail-article-title rail-article-title-partners"><a class="article-permalink" href="http://popwatch.ew.com/2014/04/15/game-of-thrones-book-vs-show-purple-wedding/?xid=time-partner" target="_blank" data-event="related-partner">'Game of Thrones': 'Purple' reign -- TV or book?</a> <span class="left-rail-partner-name">Entertainment Weekly</span></h3>
+  </div>
+  
+</article><article class="rail-article">
+  <div class="content">
+    <h3 class="rail-article-title rail-article-title-partners"><a class="article-permalink" href="http://v.imwx.com/v/mrss/news/710917.mp4" target="_blank" data-event="related-partner">Comet Outlives Predictions</a> <span class="left-rail-partner-name">Weather.com</span></h3>
+  </div>
+  
+</article>			</section>
+			<div class="infinite-scroll-loader">
+				<img src="http://s2.wp.com/wp-content/themes/vip/time2014/img/loader-light.gif?m=1387270705g" alt="Loading" />
+			</div>
+		</div>
+	</section>
+</div>		<section class="article-viewport" role="main" aria-live="assertive" data-cb-scroll-element="1">
+			<div class="wrapper">
+		    <div class="home-container">
+		      <div class="home-breaking">
+	<h2 class="home-module-header">Breaking</h2>
+	<h3 class="small-home-header"><a href="http://time.com/63649/court-upholds-epa-emission-standards/" data-event="hp-breaking">Federal court upholds EPA emission standards for power plants</h3></a>
+	<a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fti.me%2F1gyLpRS&amp;text=Court%20upholds%20EPA%20emission%20standards&amp;via=TIME" class="time-icons time-icons-tw popup"></a>
+</div>		      <div class="home-center main-content-top home-center-without-lead">
+	<section class="home-brief layout-normal-split">
+  <h3 class="the-brief-header"><span>The</span> Brief</h3>
+  <div class="articles">
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63076/ukraine-launches-counterattack/"   data-event="the-brief">
+              <img src="http://timedotcom.files.wordpress.com/2014/04/ukraine-kramatorsk.jpg?w=642&amp;h=428&amp;crop=1" alt="An Ukrainian soldier aims his weapon at pro-Russia protesters gathered in front of an Ukrainian airbase in Kramatorsk, in eastern Ukraine, April 15, 2014." srcset="http://timedotcom.files.wordpress.com/2014/04/ukraine-kramatorsk.jpg?w=642&amp;h=428&amp;crop=1 320w 2x, http://timedotcom.files.wordpress.com/2014/04/ukraine-kramatorsk.jpg?w=616&amp;h=411&amp;crop=1 800w, http://timedotcom.files.wordpress.com/2014/04/ukraine-kramatorsk.jpg?w=1232&amp;h=821&amp;crop=1 800w 2x"/>
+    		    </a>
+            <figcaption class="image-caption">
+              <span class="credit">Marko Djurica—Reuters</span>
+            </figcaption>
+    		  </figure>
 
-  </div>
-<!-- node.tlp.php -->
-  <div id="block-views-News-block_1" class="block block-views">
 
-  <div class="content clearfix">
-    <div class="view view-News view-id-News view-display-id-block_1 view-dom-id-1">
-    
-  
-  
-      <div class="view-content">
-        <div class="views-row views-row-1 views-row-odd views-row-first">
-    
-	<div class="news-image">
-		<img src="http://drama.yale.edu/sites/default/files/imagecache/main_image_thumb/images/news/carlotta1314_main.jpg" alt="" title=""  class="imagecache imagecache-main_image_thumb imagecache-default imagecache-main_image_thumb_default" width="150" height="65" />	</div>
-	<div class="news-info">
-					<div class="link"><h2><a href="http://drama.yale.edu/onstage/festival/9th-annual-carlotta-festival-new-plays" target="_blank" rel="nofollow" title="link">Tickets now on sale for the 9th Annual Carlotta Festival of New Plays</a></h2></div>
-				<div class="blurb"></div>
-	</div>
-  </div>
-  <div class="views-row views-row-2 views-row-even">
-    
-	<div class="news-image">
-		<img src="http://drama.yale.edu/sites/default/files/imagecache/main_image_thumb/images/news/lupita2.jpg" alt="" title=""  class="imagecache imagecache-main_image_thumb imagecache-default imagecache-main_image_thumb_default" width="150" height="87" />	</div>
-	<div class="news-info">
-					<div class="link"><h2><a href="http://news.yale.edu/2014/03/03/oscar-wins-two-yale-alumni" 0="a:0:{}" target="_blank" rel="nofollow" title="link">Lupita Nyong&#039;o &#039;12 honored with Academy Award for Best Actress in a Supporting Role for 12 Years a Slave</a></h2></div>
-				<div class="blurb"></div>
-	</div>
-  </div>
-  <div class="views-row views-row-3 views-row-odd">
-    
-	<div class="news-image">
-		<img src="http://drama.yale.edu/sites/default/files/imagecache/main_image_thumb/images/news/2014YaleDrama042r2_web.jpg" alt="Announcing the 2014 Acting Showcase&quot;" title=""  class="imagecache imagecache-main_image_thumb imagecache-default imagecache-main_image_thumb_default" width="150" height="97" />	</div>
-	<div class="news-info">
-					<div class="link"><h2><a href="http://www.yale.edu/drama/showcase/index.html" target="_blank" rel="nofollow" title="link">Announcing the 2014 Acting Showcase</a></h2></div>
-				<div class="blurb"></div>
-	</div>
-  </div>
-  <div class="views-row views-row-4 views-row-even">
-    
-	<div class="news-info-wide">
-					<div class="link"><h2><a href="http://www.yale.edu/drama/news/julie_harris_scholarship_release.pdf" 0="a:0:{}" target="_blank" rel="nofollow" title="link">THE JULIE HARRIS SCHOLARSHIP ESTABLISHED TO SUPPORT ACTOR TRAINING AT YALE SCHOOL OF DRAMA</a></h2></div>
-				<div class="blurb"></div>
-	</div>
-  </div>
-  <div class="views-row views-row-5 views-row-odd">
-    
-	<div class="news-image">
-		<img src="http://drama.yale.edu/sites/default/files/imagecache/main_image_thumb/images/news/mccraney_2013_hi-res-download1.jpg" alt="Playwright Tarell Alvin McCraney" title=""  class="imagecache imagecache-main_image_thumb imagecache-default imagecache-main_image_thumb_default" width="150" height="100" />	</div>
-	<div class="news-info">
-					<div class="link"><h2><a href="http://news.yale.edu/2013/09/25/two-artistic-alumni-win-macarthur-foundation-grant" 0="a:0:{}" target="_blank" rel="nofollow" title="link">Playwright Tarell Alvin McCraney &#039;07 wins MacArthur Foundation &#039;Genius&#039; Grant</a></h2></div>
-				<div class="blurb"></div>
-	</div>
-  </div>
-  <div class="views-row views-row-6 views-row-even">
-    
-	<div class="news-image">
-		<img src="http://drama.yale.edu/sites/default/files/imagecache/main_image_thumb/images/news/2013vfh_900x485.jpg" alt="" title=""  class="imagecache imagecache-main_image_thumb imagecache-default imagecache-main_image_thumb_default" width="150" height="81" />	</div>
-	<div class="news-info">
-					<div class="link"><h2><a href="http://www.yale.edu/drama/ViewFromHere/" target="_blank" rel="nofollow" title="link">The View From Here</a></h2></div>
-				<div class="blurb"><p>Three new directors take on the world.</p></div>
-	</div>
-  </div>
-  <div class="views-row views-row-7 views-row-odd">
-    
-	<div class="news-info-wide">
-					<div class="link"><h2><a href="http://www.pgfusa.org" target="_blank" rel="nofollow" title="link">Dustin Wills ’14 and Kristen Robinson ’13 receive 2013 Princess Grace Awards</a></h2></div>
-				<div class="blurb"></div>
-	</div>
-  </div>
-  <div class="views-row views-row-8 views-row-even">
-    
-	<div class="news-info-wide">
-					<div class="link"><h2><a href="http://theater.nytimes.com/2013/02/03/theater/female-directors-more-prominent-in-new-york.html?ref=theater&amp;_r=0" 0="a:0:{}" target="_blank" rel="nofollow" title="link">Staging a Sisterhood</a></h2></div>
-				<div class="blurb"><p><strong>5 School of Drama Directing Graduates featured in <em>The New York Times</em></strong></p></div>
-	</div>
-  </div>
-  <div class="views-row views-row-9 views-row-odd views-row-last">
-    
-	<div class="news-image">
-		<img src="http://drama.yale.edu/sites/default/files/imagecache/main_image_thumb/images/news/YSD-application-brochure-1.jpg" alt="Program Information Brochure" title=""  class="imagecache imagecache-main_image_thumb imagecache-default imagecache-main_image_thumb_default" width="150" height="220" />	</div>
-	<div class="news-info">
-					<div class="link"><h2><a href="http://issuu.com/yalerep/docs/ysd-application-brochure?mode=window&amp;backgroundColor=%23222222" 0="a:0:{}" target="_blank" rel="nofollow" title="link">Click Here to View The 2013-14 Program Information Brochure</a></h2></div>
-				<div class="blurb"></div>
-	</div>
-  </div>
-    </div>
-  
-  
-  
-  
-      <div class="view-footer">
-      <p><a href="home-page-photo-credits-0">Photo credits</a></p>
-    </div>
-  
-  
-</div>   </div>
-</div>
-            </div> <!-- /content-content -->
-          </div> <!-- /content -->
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63076/ukraine-launches-counterattack/" data-event="the-brief">Shots Fired in Ukraine's East</a></h2>
+	      <p class="home-excerpt">
+	        Ukraine has launched a military operation to regain control of sites in the eastern region that were recently overrun by armed pro-Russian separatists
+	      </p>
 
-        </div> <!-- /#main-inner -->
-      </div> <!-- /#main -->
 
-              <div id="sidebar-right" class="column sidebar">
-                  <div id="sidebar-right-inner">
-            <div id="block-block-3" class="block block-block">
-  <h4 class="block-title">Who We Are</h4>
-
-  <div class="content clearfix">
-    <div style="font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 1.2em;">
-<p>Yale School of Drama is a graduate professional conservatory for theatre training in every discipline of the art form: acting, design (sets, costumes, lighting, projection, and sound), directing, dramaturgy and dramatic criticism, playwriting, stage management, technical design and production, and theater management.<br /><br /></p>
-</div>
-<div style="font-family: Verdana, Geneva, sans-serif; font-size: 10px; line-height: 1.2em;">
-<p>The School operates in unique partnership with the Tony Award-winning Yale Repertory Theatre. Faculty are distinguished for both professional accomplishments and dedication to teaching; students are admitted based on talent and potential for a career in the professional theatre; graduates of the School are known for their accomplishments on the legitimate stage, in film and television, and a variety of other creative fields.</p>
-<p><strong><a href="mission-statement">YSD at a Glance</a></strong></p>
-</div>
-  </div>
-</div>
-          </div> <!-- /sidebar-right-inner -->
-        </div> <!-- /sidebar-right -->
+        <div class="related-lead-articles">
+          <div class="red-bullet">
+            <h3 class="home-icons-article "><a href="http://time.com/63603/ukraine-crisis-eu-indecisive/" data-event="the-brief">Not Even the Threat of War in Europe Can Unite the E.U.</a></h3>
             
-      <!--   was here -->
+          </div>
+        </div>
+
+			</div>
       
     
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63215/boston-marathon-bombing-anniversary/"   data-event="the-brief">
+              <img src="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/boston-bombing-anniversary.jpg?crop=699px%2C19px%2C608px%2C608px&amp;resize=300%2C300" alt="Members of the Boston Police Department, Boston Fire Department, and Massachusetts State Police practice marching prior to a wreath laying ceremony to commemorate the one year anniversary of the 2013 Boston Marathon Bombing, on April 15, 2014 in Boston, Mass." srcset="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/boston-bombing-anniversary.jpg?crop=699px%2C19px%2C608px%2C608px&amp;resize=300%2C300 320w 2x, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/boston-bombing-anniversary.jpg?crop=699px%2C19px%2C608px%2C608px&amp;resize=300%2C300 800w, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/boston-bombing-anniversary.jpg?crop=699px%2C19px%2C608px%2C608px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63215/boston-marathon-bombing-anniversary/" data-event="the-brief">Boston Marks One Year</a></h2>
+	      <p class="home-excerpt">
+	        Survivors, first responders and dignitaries congregated Tuesday to remember the victims of the Boston Marathon bombings last year 
+	      </p>
+
+
+
+			</div>
       
-      </div> <!-- /container-inner -->
-    </div> <!-- /container -->
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/62890/mh370-bluefin-28/"   data-event="the-brief">
+              <img src="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/int_bluefin-21_submarine_0415.jpg?crop=691px%2C190px%2C553px%2C553px&amp;resize=300%2C300" alt="The Bluefin 21" srcset="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/int_bluefin-21_submarine_0415.jpg?crop=691px%2C190px%2C553px%2C553px&amp;resize=300%2C300 320w 2x, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/int_bluefin-21_submarine_0415.jpg?crop=691px%2C190px%2C553px%2C553px&amp;resize=300%2C300 800w, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/int_bluefin-21_submarine_0415.jpg?crop=691px%2C190px%2C553px%2C553px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
 
-    <div id="footer" class="clearfix">
-      <div id="footer-inner">
-        <div id="footer-logo">
-          <a href="http://www.yale.edu/" title="Yale University"><img src="/sites/all/themes/yale_drama/color_schemes/drama/logo_footer.gif" alt="Yale logo" /></a>
-        </div> <!-- /#footer-logo -->
-        <div id="footer-message">
-          <p>Copyright &copy; 2014 Yale University. All rights reserved. 
-          <span class="footer-links">
-          <a title="Yale Privacy policy" href="http://www.yale.edu/privacy">Privacy policy</a> | 
-          <a title="Login via Central Authentication Service" href="/cas">Login</a></span><br />
-         Content may not have been approved by or reflect the views of Yale University.
-          </p>
-                  </div> <!-- /#footer-message -->
-      </div> <!-- /#footer-inner -->
-    </div> <!-- /#footer -->
 
-    <script type="text/javascript" src="http://drama.yale.edu/sites/default/files/js/js_b98dfeeceed9b3c64a4d5c3a1c1abfa6.js"></script>
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/62890/mh370-bluefin-28/" data-event="the-brief">Jet Hunt Sub Resumes Search</a></h2>
+	      <p class="home-excerpt">
+	        Bluefin-21 returned to the ocean after a 16-hour mission in the search for Flight MH370 wreckage was cut short when the sub sailed too deep
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63331/game-of-thrones-torrent-record/"   data-event="the-brief">
+              <img src="http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/gameofthrones14_4511.jpg?crop=1055px%2C81px%2C214px%2C214px&amp;resize=300%2C300" alt="" srcset="http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/gameofthrones14_4511.jpg?crop=1055px%2C81px%2C214px%2C214px&amp;resize=300%2C300 320w 2x, http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/gameofthrones14_4511.jpg?crop=1055px%2C81px%2C214px%2C214px&amp;resize=300%2C300 800w, http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/gameofthrones14_4511.jpg?crop=1055px%2C81px%2C214px%2C214px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63331/game-of-thrones-torrent-record/" data-event="the-brief"><i>Game of Thrones</i> Breaks Piracy Record</a></h2>
+	      <p class="home-excerpt">
+	        TorrentFreak, a blog about filesharing, reports the April 13th episode of <i>Thrones</i>—the season’s second—set a new record for "swarming" via the client BitTorrent as 193,418 people were congregating around a single file of the show at the same time
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63544/democratic-senator-attacks-obama-administration-in-new-ad/"   data-event="the-brief">
+              <img src="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/mary-landrieu1.jpg?crop=526px%2C229px%2C573px%2C572px&amp;resize=300%2C300" alt="Sen. Mary Landrieu, D-La., right, joined by Sen. Patrick Leahy, D-Vt., left, urges funding for the Federal Emergency Management Agency as the agency is on track to run out of disaster relief funds after responding to a spate of natural disasters this year, most recently Hurricane Irene and Tropical Storm Lee, at the Capitol in Washington, Wednesday, Sept. 14, 2011." srcset="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/mary-landrieu1.jpg?crop=526px%2C229px%2C573px%2C572px&amp;resize=300%2C300 320w 2x, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/mary-landrieu1.jpg?crop=526px%2C229px%2C573px%2C572px&amp;resize=300%2C300 800w, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/mary-landrieu1.jpg?crop=526px%2C229px%2C573px%2C572px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63544/democratic-senator-attacks-obama-administration-in-new-ad/" data-event="the-brief">Dem Senator Slams Obama Administration in Ad</a></h2>
+	      <p class="home-excerpt">
+	        Sen. Mary Landrieu of Louisiana, chair of the Senate's Energy Committee, has long pushed for President Obama to expand offshore oil and gas drilling—which he supported before the BP oil spill but has since walked back on—and now she says he's 'simply wrong'
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63340/nigeria-schoolgirls-abducted/"   data-event="the-brief">
+              <img src="http://i2.wp.com/timedotcom.files.wordpress.com/2014/04/nigeria-soldiers-boko-haram-territory.jpg?crop=274px%2C139px%2C315px%2C315px&amp;resize=300%2C300" alt="Nigerian soldiers patrol in the north of Borno state close to a Islamist extremist group Boko Haram former camp on June 5, 2013 near Maiduguri." srcset="http://i2.wp.com/timedotcom.files.wordpress.com/2014/04/nigeria-soldiers-boko-haram-territory.jpg?crop=274px%2C139px%2C315px%2C315px&amp;resize=300%2C300 320w 2x, http://i2.wp.com/timedotcom.files.wordpress.com/2014/04/nigeria-soldiers-boko-haram-territory.jpg?crop=274px%2C139px%2C315px%2C315px&amp;resize=300%2C300 800w, http://i2.wp.com/timedotcom.files.wordpress.com/2014/04/nigeria-soldiers-boko-haram-territory.jpg?crop=274px%2C139px%2C315px%2C315px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63340/nigeria-schoolgirls-abducted/" data-event="the-brief">Report: Extremists Abduct 100 Schoolgirls in Nigeria</a></h2>
+	      <p class="home-excerpt">
+	        The Islamist extremist group Boko Haram is suspected of kidnapping about 100 girls from a school in Chibok, a town in the country's northeastern Borno state, on Monday night just hours after a large blast in the capital, Abuja, killed at least 71 people
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63356/saturn-new-moon/"   data-event="the-brief">
+              <img src="http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/saturn.jpg?crop=39px%2C0px%2C999px%2C999px&amp;resize=300%2C300" alt="The Cassini spacecraft captured this natural color view of Saturn almost a month after the planet's August 2009 equinox. The shadow cast on the planet by the rings remains narrow." srcset="http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/saturn.jpg?crop=39px%2C0px%2C999px%2C999px&amp;resize=300%2C300 320w 2x, http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/saturn.jpg?crop=39px%2C0px%2C999px%2C999px&amp;resize=300%2C300 800w, http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/saturn.jpg?crop=39px%2C0px%2C999px%2C999px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63356/saturn-new-moon/" data-event="the-brief">It's a Moon! Saturn Expecting a Baby</a></h2>
+	      <p class="home-excerpt">
+	        New findings from a NASA space probe suggest that one of the solar system's most fertile planets may be adding offspring number 63 to its family. The new moon has not been directly spotted yet, but scientists have already given it a nickname: Peggy 
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63351/holder-congress-funds-law-enforcement/"   data-event="the-brief">
+              <img src="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/attorney-general-eric-holder.jpg?crop=497px%2C88px%2C877px%2C877px&amp;resize=300%2C300" alt="Attorney General Eric Holder speaks at a press conference on April 1, 2014 in New York." srcset="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/attorney-general-eric-holder.jpg?crop=497px%2C88px%2C877px%2C877px&amp;resize=300%2C300 320w 2x, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/attorney-general-eric-holder.jpg?crop=497px%2C88px%2C877px%2C877px&amp;resize=300%2C300 800w, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/attorney-general-eric-holder.jpg?crop=497px%2C88px%2C877px%2C877px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63351/holder-congress-funds-law-enforcement/" data-event="the-brief">Holder Seeks Funds to Train Cops for Mass Shootings</a></h2>
+	      <p class="home-excerpt">
+	        Attorney General Eric Holder has asked Congress to approve $15 million in special funds specifically to train law enforcement personnel for mass shooting situations in the wake of recent shootings at Fort Hood and the Jewish community center near Kansas City
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63017/oscar-pistorius-cross-examination-day-5/"   data-event="the-brief">
+              <img src="http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/480460547.jpg?crop=139px%2C1179px%2C1303px%2C1303px&amp;resize=300%2C300" alt="SAFRICA-TRIAL-PISTORIUS" srcset="http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/480460547.jpg?crop=139px%2C1179px%2C1303px%2C1303px&amp;resize=300%2C300 320w 2x, http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/480460547.jpg?crop=139px%2C1179px%2C1303px%2C1303px&amp;resize=300%2C300 800w, http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/480460547.jpg?crop=139px%2C1179px%2C1303px%2C1303px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63017/oscar-pistorius-cross-examination-day-5/" data-event="the-brief">Prosecutor Slams Pistorius: Your Story Can't Be True</a></h2>
+	      <p class="home-excerpt">
+	        Gerrie Nel insists on the fifth and final day of cross-examination that athlete Oscar Pistorius’ version of events the night he shot and killed girlfriend Reeva Steenkamp is false, saying, "You’re tailoring more and more of the evidence as we go along"
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63488/guinea-ebola-outbreak-control/"   data-event="the-brief">
+              <img src="http://i2.wp.com/timedotcom.files.wordpress.com/2014/04/ebola-outbreak-guinea.jpg?crop=212px%2C37px%2C931px%2C930px&amp;resize=300%2C300" alt="Staff of the Doctors without Borders carry the body of a person killed by viral haemorrhagic fever, at a center for victims of the Ebola virus in Guekedou, on April 1, 2014." srcset="http://i2.wp.com/timedotcom.files.wordpress.com/2014/04/ebola-outbreak-guinea.jpg?crop=212px%2C37px%2C931px%2C930px&amp;resize=300%2C300 320w 2x, http://i2.wp.com/timedotcom.files.wordpress.com/2014/04/ebola-outbreak-guinea.jpg?crop=212px%2C37px%2C931px%2C930px&amp;resize=300%2C300 800w, http://i2.wp.com/timedotcom.files.wordpress.com/2014/04/ebola-outbreak-guinea.jpg?crop=212px%2C37px%2C931px%2C930px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63488/guinea-ebola-outbreak-control/" data-event="the-brief">Guinea Claims Ebola Outbreak Nearly Under Control</a></h2>
+	      <p class="home-excerpt">
+	        Health experts in the west African country say there are fewer new cases of the virus, which has no cure and which is fatal for a significant portion of those who contract it, suggesting the outbreak that has killed over 100 people there may be close to being contained
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/62903/netflix-comcast-speed-boost/"   data-event="the-brief">
+              <img src="http://timedotcom.files.wordpress.com/2014/04/netflix-logo.png?w=300&amp;h=300&amp;crop=1" alt="Netflix's logo" srcset="http://timedotcom.files.wordpress.com/2014/04/netflix-logo.png?w=300&amp;h=300&amp;crop=1 320w 2x, http://timedotcom.files.wordpress.com/2014/04/netflix-logo.png?w=300&amp;h=300&amp;crop=1 800w, http://timedotcom.files.wordpress.com/2014/04/netflix-logo.png?w=600&amp;h=600&amp;crop=1 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/62903/netflix-comcast-speed-boost/" data-event="the-brief">Netflix Runs Lightning Fast After Comcast Deal</a></h2>
+	      <p class="home-excerpt">
+	        Newly released data shows Comcast's web subscribers are seeing faster connections while streaming video on Netflix after a deal between the tech giants boosted the connection speed by an average 65 percent between January and March
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+    <article class="home-brief-article border-separated-article home-brief-normal-split has-hero">
+    			<figure class="home-brief-hero">
+    		    <a href="http://time.com/63156/brad-pitt-general-stanley-mcchrystal-the-operators/"   data-event="the-brief">
+              <img src="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/brad-pitt1.jpg?crop=702px%2C117px%2C913px%2C912px&amp;resize=300%2C300" alt="Brad Pitt at the 86th Academy Awards in Hollywood on March 2, 2014 after winning best picture for &quot;12 Years a Slave&quot;." srcset="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/brad-pitt1.jpg?crop=702px%2C117px%2C913px%2C912px&amp;resize=300%2C300 320w 2x, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/brad-pitt1.jpg?crop=702px%2C117px%2C913px%2C912px&amp;resize=300%2C300 800w, http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/brad-pitt1.jpg?crop=702px%2C117px%2C913px%2C912px&amp;resize=600%2C600 800w 2x"/>
+    		    </a>
+    		  </figure>
+
+
+			<div class="home-brief-title-and-excerpt">
+		    <h2><a href="http://time.com/63156/brad-pitt-general-stanley-mcchrystal-the-operators/" data-event="the-brief">Brad Pitt to Play Gen. McChrystal in <i>The Operators</i></a></h2>
+	      <p class="home-excerpt">
+	        The <i>Benjamin Button</i> star has signed on to produce and star in the movie adaptation of the late Michael Hastings' explosive behind-the-scenes account of the former Army general's fall from grace, detailed in his book <i>The Operators</i> and a <i>Rolling Stone</i> article in 2010
+	      </p>
+
+
+
+			</div>
+      
+    
+    </article>
+  </div>
+  <div class="home-brief-signup">
+    <form action="https://ebm.cheetahmail.com/r/regf2" method="post" target="time_brief_popup" onsubmit="window.open(this.action, 'time_brief_popup', 'width=486,height=250');">
+		    <label for="homepage-brief-signup-input">Sign up for <span>THE</span> <strong>BRIEF</strong></label>
+        <input type="hidden" name="n" value="4">
+        <input name="aid" type="hidden" value="1078532063">
+        <input type="hidden" name="fsub" value="2095224265">
+        <input type="hidden" name="TIME_SOURCE" value="Time_Brief_Widget">
+        <input type="hidden" name="re" value="http://f.time.chtah.net/i/30/1078532063/thanks.html">
+        <input type="text" class="text input-field" name="email" placeholder="Email" id="home-brief-signup-input" />
+        <input type="submit" class="submit button" value="Submit" />
+    </form>
+  </div>
+</section></div>
+
+<div class="right-rail right-rail-top">
+	<section class="home-freeform home-right-rail-module">
+  <h2 class="home-module-header">READER POLL</h2>
+  <div class="articles">
+    <article class="home-freeform-article border-separated-article list has-hero">
+      <figure class="home-freeform-hero">
+        <a href="http://time.com/55766/time-100-2014-poll-music/">
+          <img src="http://timedotcom.files.wordpress.com/2014/04/time-100-poll-music.jpg?w=321&amp;h=214&amp;crop=1" alt="Time 100 Poll Music" srcset="http://timedotcom.files.wordpress.com/2014/04/time-100-poll-music.jpg?w=321&amp;h=214&amp;crop=1 320w,http://timedotcom.files.wordpress.com/2014/04/time-100-poll-music.jpg?w=471&amp;h=314&amp;crop=1 320w 2x"/>
+        </a>
+      </figure>
+      <h3 class="medium-home-header home-icons-list "><a href="http://time.com/55766/time-100-2014-poll-music/">Which Music Stars Should Be on the 2014 TIME 100?</a></h3>
+      
+    </article>
+  </div>
+</section><section class="home-columnists home-right-rail-module">
+  <h2 class="home-module-header">Columnists</h2>
+  <div class="articles">
+    <article class="home-columnists-article border-separated-article has-hero">
+	    <a href="http://time.com/62584/disaster-in-the-sky-old-plane-inexperienced-pilots-and-no-more-parachutes/" class="home-article-thumbnail" data-event="columnists">
+		    <img src="http://i1.wp.com/timedotcom.files.wordpress.com/2014/04/voss-timeheadshots10final.jpg?crop=1153px%2C163px%2C3178px%2C3178px&amp;resize=100%2C100" alt="Mark Thompson" srcset="">
+	    </a>
+	    <div class="home-columnists-author-and-title  home-icons-article ">
+	    	<h3 class="home-columnists-author"><a href="http://time.com/author/mark-thompson/">Mark Thompson</a></h3>
+			<h4 class="small-home-header"><a class="home-columnists-title" href="http://time.com/62584/disaster-in-the-sky-old-plane-inexperienced-pilots-and-no-more-parachutes/" data-event="columnists">Old Planes, Inexperienced Pilots—and No Parachutes</a></h4>
+		</div>
+    	
+    </article>
+    <article class="home-columnists-article border-separated-article ">
+	    <div class="home-columnists-author-and-title home-columnists-author-and-title-no-hero home-icons-article ">
+	    	<h3 class="home-columnists-author"><a href="http://time.com/author/jeffrey-kluger/">Jeffrey Kluger</a></h3>
+			<h4 class="small-home-header"><a class="home-columnists-title" href="http://time.com/59852/brain-direction-distance-speed/" data-event="columnists">Your Brain Has No Idea Where It&#8217;s Going</a></h4>
+		</div>
+    	
+    </article>
+    <article class="home-columnists-article border-separated-article ">
+	    <div class="home-columnists-author-and-title home-columnists-author-and-title-no-hero home-icons-article ">
+	    	<h3 class="home-columnists-author"><a href="http://time.com/author/michael-schuman/">Michael Schuman</a></h3>
+			<h4 class="small-home-header"><a class="home-columnists-title" href="http://time.com/62887/central-bankers-kuroda-yellen-draghi/" data-event="columnists">We’re Much Too Obsessed With Central Bankers</a></h4>
+		</div>
+    	
+    </article>
+    <article class="home-columnists-article border-separated-article ">
+	    <div class="home-columnists-author-and-title home-columnists-author-and-title-no-hero home-icons-article ">
+	    	<h3 class="home-columnists-author"><a href="http://time.com/author/jared-newman/">Jared Newman</a></h3>
+			<h4 class="small-home-header"><a class="home-columnists-title" href="http://time.com/61486/for-passover-ipads-are-on-the-table/" data-event="columnists">For Passover, iPads Are on the Table</a></h4>
+		</div>
+    	
+    </article>
+    <article class="home-columnists-article border-separated-article ">
+	    <div class="home-columnists-author-and-title home-columnists-author-and-title-no-hero home-icons-article ">
+	    	<h3 class="home-columnists-author"><a href="http://time.com/author/james-poniewozik/">James Poniewozik</a></h3>
+			<h4 class="small-home-header"><a class="home-columnists-title" href="http://time.com/55550/fargo-fx-review/" data-event="columnists">REVIEW: In FX's <i>Fargo</i>, the Devil Goes Up to Minnesota</a></h4>
+		</div>
+    	
+    </article>
+    <article class="home-columnists-article border-separated-article ">
+	    <div class="home-columnists-author-and-title home-columnists-author-and-title-no-hero home-icons-article ">
+	    	<h3 class="home-columnists-author"><a href="http://time.com/author/john-mcwhorter/">John McWhorter</a></h3>
+			<h4 class="small-home-header"><a class="home-columnists-title" href="http://time.com/59562/on-obama-and-race-its-not-black-and-white/" data-event="columnists">On Obama and Race, It&#8217;s Not Black and White</a></h4>
+		</div>
+    	
+    </article>
+  </div>
+</section><section class="home-magazine home-right-rail-module">
+  <h2 class="home-module-header">In the Magazine</h2>
+  <div class="home-magazine-current-issue border-separated-article has-hero">
+    <a href="http://time.com/57167/rise-of-fake-pot/?pcd=hp-magmod" class="home-article-thumbnail" data-event="hp-magmod">
+	    <img src="http://timedotcom.files.wordpress.com/2014/04/timepot-cover2.jpg?w=280" alt="TIME Magazine Cover, April 21, 2014" srcset="http://timedotcom.files.wordpress.com/2014/04/timepot-cover2.jpg?w=560 320w 2x, http://timedotcom.files.wordpress.com/2014/04/timepot-cover2.jpg?w=814 800w, http://timedotcom.files.wordpress.com/2014/04/timepot-cover2.jpg?w=814 800w 2x"/>
+    </a>
+    <div class="home-magazine-title-and-subscribe">
+	    <h3 class="medium-home-header home-icons-key"><a href="http://time.com/57167/rise-of-fake-pot/?pcd=hp-magmod">The Rise of Fake Pot</a></h3>
+			<a class="home-magazine-subscribe" href="https://subscription.time.com/storefront/subscribe-to-time/link/1019507.html">Subscribe</a>
+    </div>
+    
+  </div>
+  <div class="home-magazine-articles">
+    <article class="home-magazine-article border-separated-article">
+      <h3 class="small-home-header home-icons-article home-icons-key"><a href="http://time.com/57161/humbling-the-senate-master-mitch-mcconnell/?pcd=hp-magmod" data-event="hp-magmod">The Humbling  of the Senate Master</a></h3>
+      
+    </article>
+    <article class="home-magazine-article border-separated-article">
+      <h3 class="small-home-header home-icons-article home-icons-key"><a href="http://time.com/57168/christians-and-tyrants/?pcd=hp-magmod" data-event="hp-magmod">Christians and Tyrants</a></h3>
+      
+    </article>
+    <article class="home-magazine-article border-separated-article">
+      <h3 class="small-home-header home-icons-article home-icons-key"><a href="http://time.com/57160/king-of-the-imperial-blaster-beat/?pcd=hp-magmod" data-event="hp-magmod">Skrillex: King of the Imperial Blaster Beat</a></h3>
+      
+    </article>
+    <article class="home-magazine-article border-separated-article">
+      <h3 class="small-home-header home-icons-article home-icons-key"><a href="http://time.com/57177/canadas-ghosts-in-the-machine/?pcd=hp-magmod" data-event="hp-magmod">Canada&#8217;s Ghosts in the Machine</a></h3>
+      
+    </article>
+  </div>
+</section><section class="home-freeform home-right-rail-module">
+  
+  <div class="articles">
+    <article class="home-freeform-article border-separated-article article has-hero">
+      <figure class="home-freeform-hero">
+        <a href="http://nation.time.com/2013/04/18/the-horror-the-heroism/">
+          <img src="http://timedotcom.files.wordpress.com/2014/04/time-boston-marathon-bombing-cover.png?w=321&amp;h=214&amp;crop=1" alt="TIME's Boston Marathon Bombing iPad Edition Cover" srcset="http://timedotcom.files.wordpress.com/2014/04/time-boston-marathon-bombing-cover.png?w=321&amp;h=214&amp;crop=1 320w,http://timedotcom.files.wordpress.com/2014/04/time-boston-marathon-bombing-cover.png?w=642&amp;h=428&amp;crop=1 320w 2x"/>
+        </a>
+      </figure>
+      <h3 class="medium-home-header home-icons-article "><a href="http://nation.time.com/2013/04/18/the-horror-the-heroism/">Boston Marathon Bombing: One Year Later</a></h3>
+      
+    </article>
+    <article class="home-freeform-article border-separated-article article has-hero">
+      <figure class="home-freeform-hero">
+        <a href="http://time.com/63235/watch-blood-moon-lunar-eclipse/">
+          <img src="http://timedotcom.files.wordpress.com/2014/04/blood-moon-lunar-eclipse.gif?w=321&amp;h=214&amp;crop=1" alt="Blood moon lunar eclipse" srcset="http://timedotcom.files.wordpress.com/2014/04/blood-moon-lunar-eclipse.gif?w=321&amp;h=214&amp;crop=1 320w,http://timedotcom.files.wordpress.com/2014/04/blood-moon-lunar-eclipse.gif?w=642&amp;h=428&amp;crop=1 320w 2x"/>
+        </a>
+      </figure>
+      <h3 class="medium-home-header home-icons-article "><a href="http://time.com/63235/watch-blood-moon-lunar-eclipse/">Watch the &#8216;Blood Moon&#8217; Lunar Eclipse in 9 Seconds Flat</a></h3>
+      
+    </article>
+  </div>
+</section></div>
+
+<div id="ad-homepage-content-well" data-cb-ad-id="ad-homepage-content-well"></div>
+
+<hr>
+<div class="home-lower">
+	<section class="home-photo-of-the-day home-lower-center home-center">
+  <h2 class="home-module-header">Photography</h2>
+  <article class="home-photo-of-the-day-article">
+      <figure class="home-photo-of-the-day-hero">
+        <a href="http://time.com/62564/north-korea-pyongyang-marathon/" data-event="photo-day">
+          <img src="http://timedotcom.files.wordpress.com/2014/04/north-korea-pyongyang-marathon-4.jpg?w=616&amp;h=411&amp;crop=1" alt="Runners pass under a pedestrian bridge in central Pyongyang during the running of the Mangyongdae Prize International Marathon in Pyongyang, on April 13, 2014." srcset="http://timedotcom.files.wordpress.com/2014/04/north-korea-pyongyang-marathon-4.jpg?w=642&amp;h=428&amp;crop=1 320w 2x, http://timedotcom.files.wordpress.com/2014/04/north-korea-pyongyang-marathon-4.jpg?w=1232&amp;h=821&amp;crop=1 800w, http://timedotcom.files.wordpress.com/2014/04/north-korea-pyongyang-marathon-4.jpg?w=1232&amp;h=821&amp;crop=1 800w 2x"/>
+        </a>
+        <figcaption class="image-caption">
+          <span class="credit">David Guttenfelder—AP</span>
+        </figcaption>
+      </figure>
+    <h3 ><a href="http://time.com/62564/north-korea-pyongyang-marathon/" data-event="photo-day">North Korea: Run With Us</a></h3>
+    <p class="home-excerpt">
+      The annual marathon in Pyongyang opened to recreational foreign runners for the first time on April 13, allowing another brief look into the Hermit Kingdom that typically remains off-limits to those born outside the country
+    </p>
+    
+  </article>
+</section>
+	<div class="right-rail">
+		<section class="home-popular home-right-rail-module">
+  <h2 class="home-module-header">10 Most Popular</h2>
+  <div class="articles">
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-article ">
+      	<h3 class="small-home-header"><a href="http://time.com/62155/mcdonalds-mcgriddles-viral-waffle-taco/" data-event="popular">McDonald&#8217;s Is Taking On the Waffle Taco With This One Sandwich</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-brief ">
+      	<h3 class="small-home-header"><a href="http://time.com/63076/ukraine-launches-counterattack/" data-event="popular">Ukraine Sends Troops to Curb Unrest in the East</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-article ">
+      	<h3 class="small-home-header"><a href="http://time.com/60505/this-1981-computer-magazine-cover-explains-why-were-so-bad-at-tech-predictions/" data-event="popular">This 1981 Computer Magazine Cover Explains Why We&#8217;re So Bad at Tech Predictions</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-brief ">
+      	<h3 class="small-home-header"><a href="http://time.com/63215/boston-marathon-bombing-anniversary/" data-event="popular">Boston Marks Anniversary of Marathon Bombings</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-interactive ">
+      	<h3 class="small-home-header"><a href="http://time.com/59863/most-popular-music-in-america-map/" data-event="popular">This Interactive Map Shows The Most Popular Music in America</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-article ">
+      	<h3 class="small-home-header"><a href="http://time.com/60812/game-of-thrones-season-4-episode-2-recap/" data-event="popular">RECAP: <i>Game of Thrones</i> Watch: Wedding Season in Westeros</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-article ">
+      	<h3 class="small-home-header"><a href="http://time.com/59684/the-simple-thing-that-makes-the-happiest-people-in-the-world-so-happy/" data-event="popular">The Simple Thing That Makes the Happiest People in the World So Happy</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-article ">
+      	<h3 class="small-home-header"><a href="http://time.com/63235/watch-blood-moon-lunar-eclipse/" data-event="popular">Watch the &#8216;Blood Moon&#8217; Lunar Eclipse in 9 Seconds Flat</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-video ">
+      	<h3 class="small-home-header"><a href="http://time.com/63299/no-salary-no-benefits-no-sleep-this-is-the-worlds-toughest-job/" data-event="popular">No Salary, No Benefits, No Sleep: This Is The World&#8217;s Toughest Job</a></h3>
+	    </div>
+      
+    </article>
+    <article class="home-popular-article border-separated-article">
+	    <div class="home-popular-title home-icons-article ">
+      	<h3 class="small-home-header"><a href="http://time.com/62890/mh370-bluefin-28/" data-event="popular">Jet Hunt Submarine Scours the Depths</a></h3>
+	    </div>
+      
+    </article>
+  </div>
+</section>	</div>
+</div>
+
+<div class="home-bottom">
+	<section class="home-sections home-bottom-center home-center">
+  <div class="sections">
+      <div class="section section-1">
+        <h2><a href="http://time.com/us/">U.S.</a></h2>
+        <div class="articles">
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63516/us-airways-tweet-pornographic/" data-event="hp-news">US Airways Investigates How It Accidentally Tweeted a Pornographic Picture to a Customer</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63505/suspect-in-kansas-shootings-faces-murder-charges/" data-event="hp-news">Kansas shootings suspect faces murder charges </a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63426/casino-pays-out-in-poker-tourney-with-fake-chips/" data-event="hp-news">Casino Pays Out In Poker Tourney With Fake Chips</a></h3>
+            
+          </article>
+        </div>
+      </div>
+      <div class="section section-2">
+        <h2><a href="http://time.com/entertainment/">Entertainment</a></h2>
+        <div class="articles">
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63647/obvious-child-trailer/" data-event="hp-news">Watch the Trailer for Reproductive Rights Rom-Com <i>Obvious Child</i></a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63345/jack-gleeson-game-of-thrones-king-joffrey-retiring/" data-event="hp-news">What&#8217;s Next For <i>That</i> Actor From <i>Game of Thrones</i>?</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/58086/best-bands-coachella/" data-event="hp-news">7 Artists From Coachella to Check Out (Even If You Didn&#8217;t Go to the Festival)</a></h3>
+            
+          </article>
+        </div>
+      </div>
+      <div class="section section-3">
+        <h2><a href="http://time.com/world/">World</a></h2>
+        <div class="articles">
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63603/ukraine-crisis-eu-indecisive/" data-event="hp-news">Not Even the Threat of War in Europe Can Unite the E.U.</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63642/pet-boom-in-mexico-amid-rising-middle-class/" data-event="hp-news">Pet Boom In Mexico Amid Rising Middle Class</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63077/assad-turning-point-syria/" data-event="hp-news">Assad claims 'turning point' in Syria war</a></h3>
+            
+          </article>
+        </div>
+      </div>
+      <div class="section section-4">
+        <h2><a href="http://time.com/business/">Business</a></h2>
+        <div class="articles">
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63516/us-airways-tweet-pornographic/" data-event="hp-news">US Airways Investigates How It Accidentally Tweeted a Pornographic Picture to a Customer</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63524/twitter-buys-gnip/" data-event="hp-news">Twitter Has a Massive Plan to Conquer Your Data</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63376/amazon-bitcoin/" data-event="hp-news">Amazon Says It Won&#8217;t Accept Bitcoin</a></h3>
+            
+          </article>
+        </div>
+      </div>
+      <div class="section section-5">
+        <h2><a href="http://time.com/tech/">Tech</a></h2>
+        <div class="articles">
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63450/report-amazons-smartphone-might-include-eye-tracking-3d/" data-event="hp-news">Report: Amazon&#8217;s Smartphone Might Include Eye-Tracking 3D</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63524/twitter-buys-gnip/" data-event="hp-news">Twitter Has a Massive Plan to Conquer Your Data</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63376/amazon-bitcoin/" data-event="hp-news">Amazon Says It Won&#8217;t Accept Bitcoin</a></h3>
+            
+          </article>
+        </div>
+      </div>
+      <div class="section section-6">
+        <h2><a href="http://time.com/health/">Health</a></h2>
+        <div class="articles">
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63488/guinea-ebola-outbreak-control/" data-event="hp-news">Guinea Claims Ebola Outbreak Nearly Under Control</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63500/our-brains-begin-to-slow-down-at-age-24/" data-event="hp-news">Our Brains Begin to Slow Down at Age 24</a></h3>
+            
+          </article>
+          <article class="home-featured-article border-separated-article" data-article="">
+            <h3><a href="http://time.com/63106/death-toll-in-ebola-outbreak-rises-to-121/" data-event="hp-news">Death Toll in Ebola Outbreak Rises to 121</a></h3>
+            
+          </article>
+        </div>
+      </div>
+  </div>
+  <ul class="list">
+    <li><label>MORE SECTIONS</label></li>
+      <li>
+        <h2><a href="http://time.com/politics/">Politics</a></h2>
+      </li>
+      <li>
+        <h2><a href="http://time.com/science/">Science</a></h2>
+      </li>
+      <li>
+        <h2><a href="http://time.com/opinion/">Opinion</a></h2>
+      </li>
+      <li>
+        <h2><a href="http://time.com/living/">Living</a></h2>
+      </li>
+      <li>
+        <h2><a href="http://time.com/sports/">Sports</a></h2>
+      </li>
+      <li>
+        <h2><a href="http://time.com/newsfeed/">Newsfeed</a></h2>
+      </li>
+  </ul>
+</section>
+	<div class="right-rail">
+		<section class="home-freeform home-right-rail-module">
+  
+  <div class="articles">
+    <article class="home-freeform-article border-separated-article article has-hero">
+      <figure class="home-freeform-hero">
+        <a href="http://time.com/62023/free-cookies-free-massages-here-are-all-the-best-tax-day-freebies/">
+          <img src="http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/arbys1.jpg?crop=211px%2C111px%2C2789px%2C1861px&amp;resize=321%2C214" alt="An Arby's restaurant on Jan. 20, 2011 in San Francisco." srcset="http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/arbys1.jpg?crop=211px%2C111px%2C2789px%2C1861px&amp;resize=321%2C214 320w,http://i0.wp.com/timedotcom.files.wordpress.com/2014/04/arbys1.jpg?crop=211px%2C111px%2C2789px%2C1861px&amp;resize=642%2C428 320w 2x"/>
+        </a>
+      </figure>
+      <h3 class="medium-home-header home-icons-article "><a href="http://time.com/62023/free-cookies-free-massages-here-are-all-the-best-tax-day-freebies/">This Year's Best Tax Day Freebies</a></h3>
+      
+    </article>
+    <article class="home-freeform-article border-separated-article article has-hero">
+      <figure class="home-freeform-hero">
+        <a href="http://time.com/58386/happiest-facebook-friends/">
+          <img src="http://timedotcom.files.wordpress.com/2014/04/182188709.jpg?w=321&amp;h=214&amp;crop=1" alt="Happy emoticon" srcset="http://timedotcom.files.wordpress.com/2014/04/182188709.jpg?w=321&amp;h=214&amp;crop=1 320w,http://timedotcom.files.wordpress.com/2014/04/182188709.jpg?w=642&amp;h=428&amp;crop=1 320w 2x"/>
+        </a>
+      </figure>
+      <h3 class="medium-home-header home-icons-article "><a href="http://time.com/58386/happiest-facebook-friends/">Find Your Happiest Facebook Friends</a></h3>
+      
+    </article>
+  </div>
+</section>	</div>
+</div>
+
+<div class="divider-articles">
+	<section class="read-more-divider-hero">
+  <img class="article-thumbnail" src="http://timedotcom.files.wordpress.com/2014/04/7ae40c597988469e86a7447152d21e6f-031.jpg?w=925&amp;h=617&amp;crop=1" alt="France D-Day Anniversary" 
+  srcset="http://timedotcom.files.wordpress.com/2014/04/7ae40c597988469e86a7447152d21e6f-031.jpg?w=1232&amp;h=821&amp;crop=1 320w 2x, http://timedotcom.files.wordpress.com/2014/04/7ae40c597988469e86a7447152d21e6f-031.jpg?w=1500&amp;h=1000&amp;crop=1 800w, http://timedotcom.files.wordpress.com/2014/04/7ae40c597988469e86a7447152d21e6f-031.jpg?w=1500&amp;h=1000&amp;crop=1 800w 2x"/>
+  <a class="related-article" href="http://time.com/57648/pictures-of-the-week-3/" data-event="large-image">
+    <div class="single-related-article-interior">
+      <div class="tags">
+        <h6 class="section-tag">World</h6>
+      </div>
+      <h4 class="article-title">TIME&#8217;s Best Pictures of the Week</h4>
+    </div>
+  </a>
+</section></div>		    </div>
+		        <footer class="site-footer ">
+      <ul class="footer-site-links">
+        <li>
+          <a href="http://time.com">Home</a>
+        </li>
+        <li>
+          <a href="http://time.com/us/">U.S.</a>
+        </li>
+        <li>
+          <a href="http://time.com/politics/">Politics</a>
+        </li>
+        <li>
+          <a href="http://time.com/world/">World</a>
+        </li>
+        <li>
+          <a href="http://time.com/business/">Business</a>
+        </li>
+        <li>
+          <a href="http://time.com/tech/">Tech</a>
+        </li>
+        <li>
+          <a href="http://time.com/health/">Health</a>
+        </li>
+        <li>
+          <a href="http://time.com/science/">Science</a>
+        </li>
+        <li>
+          <a href="http://time.com/entertainment/">Entertainment</a>
+        </li>
+        <li>
+          <a href="http://time.com/newsfeed/">Newsfeed</a>
+        </li>
+        <li>
+          <a href="http://time.com/living/">Living</a>
+        </li>
+        <li>
+          <a href="http://time.com/opinion/">Opinion</a>
+        </li>
+        <li>
+          <a href="http://time.com/sports/">Sports</a>
+        </li>
+        <li>
+          <a href="http://time.com/magazine/">Magazine</a>
+        </li>
+        <li>
+          <a href="http://content.time.com/time/static/sitemap/">Site Map</a>
+        </li>
+      </ul>
+      <span>&copy; 2014 Time Inc. All rights reserved.</span>
+      	<span class="vip">Powered by <a href="http://vip.wordpress.com/" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></span>
+	    </footer>		</div>
+		</section>
+	</div>
+</div>
+
+<div class="modal-container">
+	<div class="modal" id="Sign_In_Modal">
+		<div class="sign-in-modal-header">
+			Sign In
+			<div class="modal-close time-icons time-icons-close close-button"></div>
+		</div>
+		<div class="sign-in-modal-content">
+			<div class="sign-in-modal-prompt hidden">
+				Not a memeber? <a href="#">Sign Up</a>
+			</div>
+			<div class="sign-in-modal-forms">
+				<div class="sign-in-modal-sign-in">
+					<form id="sign-in-form" action="https://auth.time.com/login.php" method="post">
+						<input type="hidden" id="rurl" name="rurl">
+						<input type="hidden" id="turl" name="turl">
+						<div id="Sign_In_Modal_Error" class="modal-row hidden error">
+							Email address or Password is incorrect
+						</div>
+						<div class="modal-row">
+							<label for="sign-in-modal-email">EMAIL</label>
+						</div>
+						<div class="modal-row">
+							<input type="email" id="sign-in-modal-email" name="username" value="" placeholder="john.doe@example.com">
+						</div>
+						<div class="modal-row">
+							<label for="sign-in-modal-password">PASSWORD</label>
+						</div>
+						<div class="modal-row">
+							<input type="password" id="sign-in-modal-password" name="password" value="" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+						</div>
+						<div class="modal-row">
+							<a id="Sign_In" class="button"/>SIGN IN</a>
+						</div>
+						<div class="modal-row remember-me">
+							<input type="checkbox" id="Remember-Me" name="remember">
+							<label for="Remember-Me">Remember Me</label>
+						</div>
+					</form>
+				</div>
+				<div class="sign-in-modal-subscribe">
+					<div class="modal-row modal-sign-in-call-to-action">
+						Want the <br/>Full Story?
+					</div>
+					<!-- <div class="modal-row modal-sign-in-price">
+						<div>Get Time for just <span class="red">$2.99</span> Per Month!</div>
+					</div> -->
+					<div class="modal-row">
+						<a class="button" id="Subscribe" href="http://subscription.time.com/storefront/subscribe-to-time/link/1019512.html" target="_blank">SUBSCRIBE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	    	<!-- 	Show IE8 message to user only once a day, at most -->
+		<div class="ie-message-modal">
+		  <div class="ie-message-modal-inner">
+		  	<i class="time-icons time-icons-close"></i>
+		    <p>Your browser, Internet Explorer 8 or below, is out of date. It has known security flaws and may not display all features of this and other websites.</p>
+		    <a href="http://browser-update.org/update.html">Learn how to update your browser</a>
+		  </div>
+		</div>
+		<script>Time.bootstrap = {"dividers":["<section class=\"read-more-divider-grid\">\n  <div class=\"divider-300x600\" data-cb-ad-id=\"divider-300x600\"><\/div>\n  <div class=\"articles\">\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/62125\/blood-moon-lunar-eclipse-cosmic-jaguar\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/i2.wp.com\/timedotcom.files.wordpress.com\/2014\/04\/72560509.jpg?crop=123px%2C296px%2C691px%2C691px&amp;resize=100%2C100\" alt=\"'Blood Moon' Rising\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/science\/\" data-event=\"article-divider\">Science<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/62125\/blood-moon-lunar-eclipse-cosmic-jaguar\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">'Blood Moon' Rising<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/61128\/watch-bubba-watson-delighted-to-win-his-second-masters-in-three-years\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/i2.wp.com\/timedotcom.files.wordpress.com\/2014\/04\/484657409.jpg?crop=2235px%2C39px%2C833px%2C833px&amp;resize=100%2C100\" alt=\"Watson Wins Second Masters in Three Years\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/sports\/\" data-event=\"article-divider\">Sports<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/61128\/watch-bubba-watson-delighted-to-win-his-second-masters-in-three-years\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">Watson Wins Second Masters in Three Years<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/61561\/wildfires-rage-in-chile\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/tout1280.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"Valparaiso, Chile, Continues to Burn\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/world\/\" data-event=\"article-divider\">World<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/61561\/wildfires-rage-in-chile\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">Valparaiso, Chile, Continues to Burn<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/61557\/video-best-moments-from-the-2014-mtv-movie-awards\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/rihanna-mtv-music-awards.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"Best Moments from the 2014 MTV Movie Awards\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/culture\/\" data-event=\"article-divider\">Culture<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/61557\/video-best-moments-from-the-2014-mtv-movie-awards\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">Best Moments from the 2014 MTV Movie Awards<\/h4>\n      <\/a>\n    <\/article>\n  <\/div>\n\n<\/section>","<section class=\"read-more-divider-grid\">\n  <div class=\"divider-300x600\" data-cb-ad-id=\"divider-300x600\"><\/div>\n  <div class=\"articles\">\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/59786\/how-to-flirt-backed-by-scientific-research\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/463030231.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"How to Flirt \u2014 Backed by Scientific Research\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/opinion\/\" data-event=\"article-divider\">Opinion<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/59786\/how-to-flirt-backed-by-scientific-research\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">How to Flirt \u2014 Backed by Scientific Research<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/60460\/10-quick-ways-to-lose-all-your-friends\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/469063385.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"10 Quick Ways to Lose All Your Friends\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/business\/\" data-event=\"article-divider\">Business<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/60460\/10-quick-ways-to-lose-all-your-friends\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">10 Quick Ways to Lose All Your Friends<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/60466\/9-countries-that-hate-america-most\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/04148828.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"9 Countries That Hate America Most\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/business\/\" data-event=\"article-divider\">Business<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/60466\/9-countries-that-hate-america-most\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">9 Countries That Hate America Most<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/59856\/this-is-what-happens-when-you-give-up-sugar-for-one-year\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/164848611.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"This Is What Happens When You Give Up Sugar for One Year\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/health\/\" data-event=\"article-divider\">Health<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/59856\/this-is-what-happens-when-you-give-up-sugar-for-one-year\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">This Is What Happens When You Give Up Sugar for One Year<\/h4>\n      <\/a>\n    <\/article>\n  <\/div>\n\n<\/section>","<section class=\"read-more-divider-grid\">\n  <div class=\"divider-300x600\" data-cb-ad-id=\"divider-300x600\"><\/div>\n  <div class=\"articles\">\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/lightbox.time.com\/2014\/04\/15\/egypt-photos-home-life\/?iid=lb-gal-viewagn#1\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/par430701.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"After the Revolution: Interior Lives in Egypt\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/world\/\" data-event=\"article-divider\">World<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/lightbox.time.com\/2014\/04\/15\/egypt-photos-home-life\/?iid=lb-gal-viewagn#1\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">After the Revolution: Interior Lives in Egypt<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/lightbox.time.com\/2014\/04\/14\/casa-susanna\/?iid=lb-gal-viewagn#1\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/casasusanna_05.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"Found Photographs from a 1950s Transvestite Hideaway\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/culture\/\" data-event=\"article-divider\">Culture<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/lightbox.time.com\/2014\/04\/14\/casa-susanna\/?iid=lb-gal-viewagn#1\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">Found Photographs from a 1950s Transvestite Hideaway<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/lightbox.time.com\/2014\/04\/14\/panda-photos-conservation-wild\/#1\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/chi_9740-31.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"Inside The (Not So) Secret World of Pandas\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/science\/\" data-event=\"article-divider\">Science<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/lightbox.time.com\/2014\/04\/14\/panda-photos-conservation-wild\/#1\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">Inside The (Not So) Secret World of Pandas<\/h4>\n      <\/a>\n    <\/article>\n    <article class=\"related-article\">\n      <a class=\"article-thumbnail-wrap\" href=\"http:\/\/time.com\/57648\/pictures-of-the-week-3\/\" data-event=\"article-divider\">\n        <img class=\"article-thumbnail\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/7ae40c597988469e86a7447152d21e6f-031.jpg?w=100&amp;h=100&amp;crop=1\" alt=\"TIME&amp;#8217;s Best Pictures of the Week\">\n      <\/a>\n      <section class=\"tags\">\n        <a class=\"section-tag\" href=\"http:\/\/time.com\/world\/\" data-event=\"article-divider\">World<\/a>\n      <\/section>\n      <a class=\"article-title-link\" href=\"http:\/\/time.com\/57648\/pictures-of-the-week-3\/\" data-event=\"article-divider\">\n        <h4 class=\"article-title\">TIME&#8217;s Best Pictures of the Week<\/h4>\n      <\/a>\n    <\/article>\n  <\/div>\n\n<\/section>"],"partners":[{"title":"Men Charged With Toppling Ancient Rock Formation Avoid Jail Time","url":"http:\/\/www.huffingtonpost.com\/2014\/03\/19\/ancient-rock-formation-glenn-taylor-david-hall_n_4988811.html","partner":"Huffington Post"},{"title":"Here's An Updated Tally Of All The People Who Have Ever Died From A Marijuana Overdose","url":"http:\/\/www.huffingtonpost.com\/2014\/01\/03\/marijuana-overdose_n_4538580.html","partner":"Huffington Post"},{"title":"Man Wearing Superman Hoodie Rescues Baby from Burning Building","url":"http:\/\/feeds.people.com\/~r\/people\/headlines\/~3\/_kKPIEMGzrY\/0,,20807137,00.html","partner":"People"},{"title":"'I Was So Damn Lucky': A year after Boston Marathon bombings, Bill Iffrig reflects on tragedy","url":"http:\/\/sportsillustrated.cnn.com\/more\/news\/20140415\/bill-iffrig-boston-marathon-one-year-later\/?xid=si_topstories","partner":"Sports Illustrated"},{"title":"'Game of Thrones': 'Purple' reign -- TV or book?","url":"http:\/\/popwatch.ew.com\/2014\/04\/15\/game-of-thrones-book-vs-show-purple-wedding\/?xid=time-partner","partner":"Entertainment Weekly"},{"title":"Comet Outlives Predictions","url":"http:\/\/v.imwx.com\/v\/mrss\/news\/710917.mp4","partner":"Weather.com"}],"sponsors":[{"url":"http:\/\/time.com\/content-from\/vsp\/39139\/4-ways-employers-see-big-results-with-vision\/","shortlink":"http:\/\/ti.me\/1lmEEcN","title":"Big Results with Vision","post_type":"time_sponsored_post","short_title":"Big Results with Vision","time":{"pretty":"April 12, 2014","published":"2014-04-12 09:28:29","updated":"2014-04-12 13:28:29","minute":"9:28 am","short":"4\/12"},"content":"<p>Increasingly vision care plans are among the most sought-after benefits in the workplace today. Learn how companies are using them to attract workers and boost bottom lines.<\/p>\n<div class=\"centered\"><img class=\"size-special_bleed wp-image-39432           \" style=\"margin-left:-45px;margin-right:-45px;\" src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/time-vsp_visioncare-infographic-v3-fxs-copy.jpg?w=760&#038;h=2237\" alt=\"Time-VSP_VisionCare-infographic V3-Fxs copy\" width=\"760\" height=\"2237\" \/><\/div>\n","id":39139,"encoded_url":"http%3A%2F%2Ftime.com%2Fcontent-from%2Fvsp%2F39139%2F4-ways-employers-see-big-results-with-vision%2F","encoded_shortlink":"http%3A%2F%2Fti.me%2F1lmEEcN","encoded_title":"Big+Results+with+Vision","twitter_text":"Big%20Results%20with%20Vision","twitter_via":"TIME","sponsor":{"name":"VSP","slug":"vsp","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/vsplogowhclr_300dpi.png?w=38","color":"#9e9e9e"},"email_title":"Big%20Results%20with%20Vision%20%7C%20TIME","email_body":"Big%20Results%20with%20Vision%0A%0A%0A%0Ahttp%3A%2F%2Ftime.com%2Fcontent-from%2Fvsp%2F39139%2F4-ways-employers-see-big-results-with-vision%2F"},{"url":"http:\/\/time.com\/content-from\/people-premium\/56791\/princess-kate-down-under-all-about-her-life-as-a-royal-mom\/","shortlink":"http:\/\/ti.me\/1hif5Hd","title":"Princess Kate Down Under: All About Her Life as a Royal Mom","post_type":"time_sponsored_post","short_title":"Princess Kate Down Under: All About Her Life as a Royal Mom","time":{"pretty":"April 11, 2014","published":"2014-04-11 17:28:44","updated":"2014-04-11 21:28:44","minute":"5:28 pm","short":"4\/11"},"content":"<p><figure class=\"inline-portrait_small\"><img src=\"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/kate-middleton-01-768.jpg?w=335\" alt=\"\" \/><figcaption class=\"image-caption\"><span class=\"credit\">People<\/span><\/figcaption><\/figure><em>This article is available for free for People Magazine subscribers. <a href=\"https:\/\/subscription.people.com\/storefront\/subscribe-to-people\/link\/1021554.html\"><span style=\"color:red;\">Subscribe Now<\/span><\/a><\/em><\/p>\n<p><strong>Now on tour in New Zealand and Australia, how Kate balances motherhood, marriage and royal duty<\/strong><\/p>\n<p>There would be traditional Maori nose rubs, a group playdate, yacht races, kangaroo encounters and too many handshakes to count.<\/p>\n<p>But first, 9-month-old Prince George and his parents had to complete the marathon 27-hour journey from London to Sydney to Wellington, New Zealand, where the young family finally touched down just after noon local time on April 7 to kick off their jam-packed 19-day tour.<\/p>\n<p>If the chubby-cheeked heir was feeling jet-lagged, he didn&#8217;t show it: Looking cozy and content in his mother&#8217;s arms, he appeared unfazed by the gauntlet of handlers and photographers awaiting his arrival.<\/p>\n<p>But even a precocious little prince has his limits, and within 90 minutes, he was out of view with his new nanny, Maria Teresa Turrion Borrallo, inside Wellington&#8217;s historic Government House while his parents exchanged &#8220;hongis&#8221; (nose rubs) with Maori leaders.<\/p>\n<p>William and Kate &#8220;are so proud to be showing George around where they can,&#8221; a friend tells PEOPLE.<\/p>\n<p>Want more? <a href=\"https:\/\/subscription.people.com\/storefront\/subscribe-to-people\/link\/1021554.html\"><span style=\"color:blue;\">Click here<\/span><\/a> to continue reading this story on PEOPLE.com and get bonus extras only available in this week\u2019s digital edition.<\/p>\n<aside class=\"right-rail-module rr-taboola\" data-name=\"rr-taboola\"><div id=\"taboola-right-rail-56791\" class=\"taboola\" data-mode=\"text-links-1c\" data-placement=\"right-rail\"><\/div><\/aside>","hero":{"class":"landscape","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/kate-middleton-01-768.jpg?w=100&h=100&crop=1","src":{"small":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/kate-middleton-01-768.jpg?w=280&h=187&crop=1","small_2x":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/kate-middleton-01-768.jpg?w=560&h=374&crop=1","large":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/kate-middleton-01-768.jpg?w=550&h=367&crop=1","large_2x":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/kate-middleton-01-768.jpg?w=768&h=734&crop=1"},"credit":"People","caption":"","alt":""},"id":56791,"encoded_url":"http%3A%2F%2Ftime.com%2Fcontent-from%2Fpeople-premium%2F56791%2Fprincess-kate-down-under-all-about-her-life-as-a-royal-mom%2F","encoded_shortlink":"http%3A%2F%2Fti.me%2F1hif5Hd","encoded_title":"Princess+Kate+Down+Under%3A+All+About+Her+Life+as+a+Royal+Mom","twitter_text":"Princess%20Kate%20Down%20Under%3A%20All%20About%20Her%20Life%20as%20a%20Royal%20Mom","twitter_via":"TIME","sponsor":{"name":"People Premium","slug":"people-premium","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/people-logo.png?w=48","color":"#4b31c8"},"email_title":"Princess%20Kate%20Down%20Under%3A%20All%20About%20Her%20Life%20as%20a%20Royal%20Mom%20%7C%20TIME","email_body":"Princess%20Kate%20Down%20Under%3A%20All%20About%20Her%20Life%20as%20a%20Royal%20Mom%0A%0A%0A%0Ahttp%3A%2F%2Ftime.com%2Fcontent-from%2Fpeople-premium%2F56791%2Fprincess-kate-down-under-all-about-her-life-as-a-royal-mom%2F","omniture":{"modules":"rr-taboola"}},{"url":"http:\/\/time.com\/content-from\/vsp\/19169\/preparing-your-company-for-the-benefits-revolution\/","shortlink":"http:\/\/ti.me\/Of0FvJ","title":"Preparing Your Company for the Benefits Revolution","post_type":"time_sponsored_post","short_title":"Preparing Your Company for the Benefits Revolution","time":{"pretty":"March 10, 2014","published":"2014-03-10 18:05:10","updated":"2014-03-10 22:05:10","minute":"6:05 pm","short":"3\/10"},"content":"<aside class=\"right-rail-module rr-taboola-video\" data-name=\"rr-taboola-video\"><div id=\"taboola-right-rail-organic-video-19169\" class=\"taboola\" data-mode=\"verticalx3\" data-placement=\"right-rail-organic\" data-type=\"video\"><\/div><\/aside><p>&nbsp;\n<aside class=\"right-rail-module rr-partner\" data-name=\"rr-partner\"><div class=\"read-more-list\"><h6 class=\"read-more-list-h\">More<\/h6><a href=\"http:\/\/www.huffingtonpost.com\/2014\/03\/19\/ancient-rock-formation-glenn-taylor-david-hall_n_4988811.html\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">Men Charged With Toppling Ancient Rock Formation Avoid Jail Time <span>Huffington Post<\/span><\/a><a href=\"http:\/\/www.huffingtonpost.com\/2014\/01\/03\/marijuana-overdose_n_4538580.html\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">Here's An Updated Tally Of All The People Who Have Ever Died From A Marijuana Overdose <span>Huffington Post<\/span><\/a><a href=\"http:\/\/feeds.people.com\/~r\/people\/headlines\/~3\/_kKPIEMGzrY\/0,,20807137,00.html\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">Man Wearing Superman Hoodie Rescues Baby from Burning Building <span>People<\/span><\/a><a href=\"http:\/\/sportsillustrated.cnn.com\/more\/news\/20140415\/bill-iffrig-boston-marathon-one-year-later\/?xid=si_topstories\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">'I Was So Damn Lucky': A year after Boston Marathon bombings, Bill Iffrig reflects on tragedy <span>Sports Illustrated<\/span><\/a><a href=\"http:\/\/popwatch.ew.com\/2014\/04\/15\/game-of-thrones-book-vs-show-purple-wedding\/?xid=time-partner\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">'Game of Thrones': 'Purple' reign -- TV or book? <span>Entertainment Weekly<\/span><\/a><\/div><\/aside><p>With baby boomers retiring in droves, the millennial generation, also known as Generation Y, will comprise 75% of the workforce by the year 2025. Savvy benefits departments are preparing for the shift.\n<p>\u201cWe\u2019re in the midst of a benefits revolution,\u201d says Lauri Tenney, director of benefits and programs, United States and Canada, for EMC Corp., a leading provider of IT storage hardware solutions and cloud computing. \u201cA new generation of employees will look at their benefits in a different way, and companies want to make sure they\u2019re able to attract and retain those employees,\u201d she says.\n<p>To appeal to all generations of workers, employers must make sure that they are both \u201cflexible and robust\u201d in their approach to corporate benefits, Tenney says. Listening to employee priorities will be key. One increasingly popular component of the benefits mix at EMC is vision care.\n<p>\u201cThe majority of our workforce needs some kind of vision correction,\u201d says Tenney, \u201cand we know that vision plans assist in the overall health and productivity of our workforce.\u201d\n<p>EMC selected VSP Vision Care, the largest not for profit vision benefits company in the country, to administer its vision plan. VSP aligned with many of EMC\u2019s values, Tenney notes. For example, automated appointment reminders for patients with certain chronic conditions help increase the likelihood that employees will schedule regular eye exams. \u201cThe more informed the consumer, the better off everyone is,\u201d says Tenney.\n<p>For employers on the front lines of the benefits revolution, professionals like Tenney recommend the following battle plan:\n<p><strong>1. Choose a benefits partner known for exceptional customer service.<\/strong> Stay focused on members, because tomorrow\u2019s consumers will increasingly seek out benefits that are individually tailored.\n<p><strong>2. Offer more refined and automated electronic tools to help employees manage their health.<\/strong> For example, EMC partners with VSP to leverage eye exams as a preventive mechanism for identifying chronic health conditions in employees earlier so employees can take action as soon as possible. VSP then works with EMC\u2019s health plans on the back end to make sure those employees are getting the follow-up care they need.<br \/>\n<strong><br \/>\n3. Help employees determine their individual risk tolerance.<\/strong> One-size-fits-all health plans are a thing of the past. Employees appreciate having a voice in tailoring benefits to their particular needs.\n<p><strong>4. Keep costs down<\/strong>. Reducing costs, rather than requiring high-deductible plans for all employees, has allowed EMC to avoid raising the amount employees pay for health care coverage this year \u2013 a feat nearly unheard of today in Corporate America. Another example of why EMC chose VSP was that the vision benefits provider offered the lowest out-of-pocket costs to EMC\u2019s employees, increasing the likelihood they will go in for their preventive eye exams. Tenney notes that cost avoidance, a natural consequence of robust preventive care and helping employees make wise health care choices to avoid high out-of-pocket expenses, will be the secret weapon in the benefits revolution for years to come.<aside class=\"right-rail-module rr-taboola\" data-name=\"rr-taboola\"><div id=\"taboola-right-rail-19169\" class=\"taboola\" data-mode=\"text-links-1c\" data-placement=\"right-rail\"><\/div><\/aside>","hero":{"class":"landscape","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam039.jpg?w=100&h=100&crop=1","src":{"small":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam039.jpg?w=280&h=187&crop=1","small_2x":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam039.jpg?w=560&h=374&crop=1","large":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam039.jpg?w=550&h=367&crop=1","large_2x":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam039.jpg?w=1100&h=734&crop=1"},"credit":"","caption":"","alt":""},"id":19169,"encoded_url":"http%3A%2F%2Ftime.com%2Fcontent-from%2Fvsp%2F19169%2Fpreparing-your-company-for-the-benefits-revolution%2F","encoded_shortlink":"http%3A%2F%2Fti.me%2FOf0FvJ","encoded_title":"Preparing+Your+Company+for+the+Benefits+Revolution","twitter_text":"Preparing%20Your%20Company%20for%20the%20Benefits%20Revolution","twitter_via":"TIME","sponsor":{"name":"VSP","slug":"vsp","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/vsplogowhclr_300dpi.png?w=38","color":"#9e9e9e"},"email_title":"Preparing%20Your%20Company%20for%20the%20Benefits%20Revolution%20%7C%20TIME","email_body":"Preparing%20Your%20Company%20for%20the%20Benefits%20Revolution%0A%0A%0A%0Ahttp%3A%2F%2Ftime.com%2Fcontent-from%2Fvsp%2F19169%2Fpreparing-your-company-for-the-benefits-revolution%2F","omniture":{"modules":"rr-taboola-video|rr-partner|rr-taboola"}},{"url":"http:\/\/time.com\/content-from\/vsp\/19156\/vision-benefits-windows-to-wellness\/","shortlink":"http:\/\/ti.me\/1i1kIs2","title":"Vision Benefits: Windows to Wellness","post_type":"time_sponsored_post","short_title":"Vision Benefits: Windows to Wellness","time":{"pretty":"March 10, 2014","published":"2014-03-10 17:57:02","updated":"2014-03-10 21:57:02","minute":"5:57 pm","short":"3\/10"},"content":"<aside class=\"right-rail-module rr-taboola-video\" data-name=\"rr-taboola-video\"><div id=\"taboola-right-rail-organic-video-19156\" class=\"taboola\" data-mode=\"verticalx3\" data-placement=\"right-rail-organic\" data-type=\"video\"><\/div><\/aside><p>&nbsp;\n<aside class=\"right-rail-module rr-partner\" data-name=\"rr-partner\"><div class=\"read-more-list\"><h6 class=\"read-more-list-h\">More<\/h6><a href=\"http:\/\/www.huffingtonpost.com\/2014\/03\/19\/ancient-rock-formation-glenn-taylor-david-hall_n_4988811.html\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">Men Charged With Toppling Ancient Rock Formation Avoid Jail Time <span>Huffington Post<\/span><\/a><a href=\"http:\/\/www.huffingtonpost.com\/2014\/01\/03\/marijuana-overdose_n_4538580.html\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">Here's An Updated Tally Of All The People Who Have Ever Died From A Marijuana Overdose <span>Huffington Post<\/span><\/a><a href=\"http:\/\/feeds.people.com\/~r\/people\/headlines\/~3\/_kKPIEMGzrY\/0,,20807137,00.html\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">Man Wearing Superman Hoodie Rescues Baby from Burning Building <span>People<\/span><\/a><a href=\"http:\/\/sportsillustrated.cnn.com\/more\/news\/20140415\/bill-iffrig-boston-marathon-one-year-later\/?xid=si_topstories\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">'I Was So Damn Lucky': A year after Boston Marathon bombings, Bill Iffrig reflects on tragedy <span>Sports Illustrated<\/span><\/a><a href=\"http:\/\/popwatch.ew.com\/2014\/04\/15\/game-of-thrones-book-vs-show-purple-wedding\/?xid=time-partner\" class=\"read-more-partner-article\" data-event=\"rr-partner\" target=\"_blank\">'Game of Thrones': 'Purple' reign -- TV or book? <span>Entertainment Weekly<\/span><\/a><\/div><\/aside><p>When companies consider their benefits mix, coverage for medical care is often top-of-mind. Yet there may be another, even more powerful concern driving employee coverage preferences: vision care. Roughly 75% of adults in the United States require some type of vision correction, and 84 percent of adults believe that vision benefits are somewhat or very important to them.1 As a result, vision assistance is moving higher and higher on the list of sought-after employee benefits.\n<p>What\u2019s driving the trend? One factor is the increasing power of eye examinations to detect systemic illness. In addition to identifying nearsightedness, farsightedness and astigmatism, routine eye exams now play a role in diagnosing conditions such as diabetes, brain aneurysms, liver disease and stroke risk.\n<p>Early identification, in turn, translates into markedly lower expenditures for employers. In 2014, eye problems will cost companies an estimated $8 billion in reduced productivity. Making sure employees get the right eye care helps employers reduce these losses. At the same time, it boosts their ability to retain loyal workers.\n<p>So what\u2019s the best way to get patients into the exam chair? One way is to provide a vision plan that lowers out-of-pocket expenses. Indeed, research shows that out-of-pocket expense\u2014not premiums\u2014is the number-one factor employees consider when choosing a vision plan. And that\u2019s just smart, says independent insurance broker Shannon Enders. \u201cPremiums make up only about 30 percent of total out-of-pocket expenses. So it pays to look beyond the premium and see the real cost of a plan.\u201d\n<p>A study conducted by Service Excellence Group Inc., a leading market research company, shows how the right vision insurance plan can result in across-the-board savings for employees. The study compared the prices customers with insurance plans paid for the same popular pair of eyeglasses at independent doctors and retail chains. It found that customers with insurance plans that were most successful at keeping out-of-pocket expenses low saved hundreds of dollars.\n<p>For example, customers with VSP insurance who bought a pair of Vogue Comfort Progressive eyeglasses at a national retail chain spent as much as $594 less on the frames than did members of other vision plans for the exact same glasses. The customers with VSP insurance also had the lowest out-of-pocket expenses industry-wide, even after insurance premiums were factored in.\n<p>With eyeglasses becoming as much of a fashion accessory as a vision aid, forward-thinking companies are beginning to take note. Enders says more of his clients are saying yes to vision care plans. \u201cEmployees care about their eyes,\u201d he says. \u201cAnd offering benefits packages with the features employees care most about will become an even more important corporate strategy going forward.\u201d<aside class=\"right-rail-module rr-taboola\" data-name=\"rr-taboola\"><div id=\"taboola-right-rail-19156\" class=\"taboola\" data-mode=\"text-links-1c\" data-placement=\"right-rail\"><\/div><\/aside>","hero":{"class":"landscape","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam03-2.jpg?w=100&h=100&crop=1","src":{"small":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam03-2.jpg?w=280&h=187&crop=1","small_2x":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam03-2.jpg?w=560&h=374&crop=1","large":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam03-2.jpg?w=550&h=367&crop=1","large_2x":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/eyeexam03-2.jpg?w=1100&h=734&crop=1"},"credit":"","caption":"","alt":""},"id":19156,"encoded_url":"http%3A%2F%2Ftime.com%2Fcontent-from%2Fvsp%2F19156%2Fvision-benefits-windows-to-wellness%2F","encoded_shortlink":"http%3A%2F%2Fti.me%2F1i1kIs2","encoded_title":"Vision+Benefits%3A+Windows+to+Wellness","twitter_text":"Vision%20Benefits%3A%20Windows%20to%20Wellness","twitter_via":"TIME","sponsor":{"name":"VSP","slug":"vsp","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/04\/vsplogowhclr_300dpi.png?w=38","color":"#9e9e9e"},"email_title":"Vision%20Benefits%3A%20Windows%20to%20Wellness%20%7C%20TIME","email_body":"Vision%20Benefits%3A%20Windows%20to%20Wellness%0A%0A%0A%0Ahttp%3A%2F%2Ftime.com%2Fcontent-from%2Fvsp%2F19156%2Fvision-benefits-windows-to-wellness%2F","omniture":{"modules":"rr-taboola-video|rr-partner|rr-taboola"}},{"url":"http:\/\/time.com\/content-from\/lvcva\/11887\/vegas-eye-candy\/","shortlink":"http:\/\/ti.me\/1g5g3S2","title":"Vegas Eye Candy","post_type":"time_sponsored_post","short_title":"Vegas Eye Candy","time":{"pretty":"March 3, 2014","published":"2014-03-03 16:45:30","updated":"2014-03-03 21:45:30","minute":"4:45 pm","short":"3\/3"},"content":"<aside class=\"right-rail-module rr-taboola-video\" data-name=\"rr-taboola-video\"><div id=\"taboola-right-rail-organic-video-11887\" class=\"taboola\" data-mode=\"verticalx3\" data-placement=\"right-rail-organic\" data-type=\"video\"><\/div><\/aside><p><b>Las Vegas expos offer companies world-class showcases to exhibit their products<\/b>\n<p>Scala Inc. CEO Tom Nix has had a long-term love affair with Las Vegas, which is not surprising. Scala is a leader in digital signage and display software, and Las Vegas is arguably the digital signage capital of the world. \u201cThere\u2019s a wow factor when you walk down the street in Vegas,\u201d says Nix, \u201cand it\u2019s all about how people receive and interact with visual information.\u201d\n<p>His company has a lot to do with making Las Vegas sparkle, and vice versa. The software maker counts on the city\u2019s trade shows and meetings to promote its wares and focus attention on digital media\u2019s vast and growing potential. Scala\u2019s huge exhibit at Las Vegas\u2019 annual Digital Signage Expo showcases cutting-edge communications for such varied industries as retail, transportation and hospitality.\n<p>Nix also sees Las Vegas as the ideal place to get customers and colleagues thinking about digital communication solutions to the challenge of information overload. \u201cCasinos like Harrah\u2019s leverage their data to deliver a very personalized customer experience through membership clubs and customer relationship programs,\u201d he says.\n<p>\u201cThat\u2019s part of Scala\u2019s DNA\u2014personalizing data on a screen, whether for a shopper in a store or for people in a corporate environment. We can take existing data from a platform like Salesforce.com and display it with broadcast quality.\u201d That capability, Nix argues, enables companies to cut through the information clutter and keep employees focused on key performance goals in sales, customer relationship management, production or other areas.\n<p>Scala software powers digital signs worldwide, but the company sees Las Vegas as a uniquely effective showplace because of its electric atmosphere. \u201cLas Vegas is great fun,\u201d Nix says, \u201cand that\u2019s significant. I can\u2019t tell you how many times I\u2019ve gone to Las Vegas expecting to meet with business acquaintances, only to leave there realizing that those people had become real friends.\u201d<aside class=\"right-rail-module rr-taboola\" data-name=\"rr-taboola\"><div id=\"taboola-right-rail-11887\" class=\"taboola\" data-mode=\"text-links-1c\" data-placement=\"right-rail\"><\/div><\/aside>","hero":{"class":"landscape","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/2011-vegasstrip-7-3102011-scala.jpg?w=100&h=100&crop=1","src":{"small":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/2011-vegasstrip-7-3102011-scala.jpg?w=280&h=187&crop=1","small_2x":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/2011-vegasstrip-7-3102011-scala.jpg?w=560&h=374&crop=1","large":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/2011-vegasstrip-7-3102011-scala.jpg?w=550&h=367&crop=1","large_2x":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/2011-vegasstrip-7-3102011-scala.jpg?w=1100&h=734&crop=1"},"credit":"StockPhotosforFree.com","caption":"","alt":""},"id":11887,"encoded_url":"http%3A%2F%2Ftime.com%2Fcontent-from%2Flvcva%2F11887%2Fvegas-eye-candy%2F","encoded_shortlink":"http%3A%2F%2Fti.me%2F1g5g3S2","encoded_title":"Vegas+Eye+Candy","twitter_text":"Vegas%20Eye%20Candy","twitter_via":"TIME","sponsor":{"name":"LVCVA","slug":"lvcva","thumbnail":"http:\/\/timedotcom.files.wordpress.com\/2014\/03\/lvcva-logo1.jpg?w=53","color":"#000000"},"email_title":"Vegas%20Eye%20Candy%20%7C%20TIME","email_body":"Vegas%20Eye%20Candy%0A%0A%0A%0Ahttp%3A%2F%2Ftime.com%2Fcontent-from%2Flvcva%2F11887%2Fvegas-eye-candy%2F","omniture":{"modules":"rr-taboola-video|rr-taboola"}}],"market_data":{"markets":[{"index":"Dow","last":16262.31,"change":89.07,"percent":0.551},{"index":"NASDAQ","last":4044.8296,"change":22.1352,"percent":0.55},{"index":"S&P","last":1842.27,"change":11.66,"percent":0.637}],"msg":"As of 2:21PM ET | 15 minute delay"}}</script>	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://s2.wp.com/_static/??-eJyVzkEOgkAMQNELKXVQSFgQz9IMjXakpZk2cH1dsDez/IuXfDjsmjcN0oB4k5DDzgbBQv0tPaD8mnTZKkTF/GF9dcUv8F95zaf0TlgbVJDYikHeYAxrMK4tBM3OsafM6T6NY5/SMJQvPIphGA=='></script>
+<script type='text/javascript' src='http://admin.brightcove.com/js/BrightcoveExperiences.js'></script>
+<script type='text/javascript' src='http://s1.wp.com/wp-content/themes/vip/time2014/js/vendor/brightcove.js?m=1392240486g'></script>
 <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-583765-2"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
-//--><!]]>
-</script>
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script>
 
-  </div> <!-- /page -->
-<!-- page-front.tpl.php -->
-<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-3.newrelic.com","b072cc8ed8",121209,"Z1VXZBAFXUdXBkUPX14fYEILS1paUgBJSEBYQA==",0,23,new Date().getTime()]);</script>
-</body>
+	window._comscore = window._comscore || [];
+	_comscore.push({ c1: "2", c2:"6035728"});
+
+	var taboola_loaded, taboola_render_on_load = false;
+	window._taboola = window._taboola || [];
+	_taboola.push({article:'auto'});
+
+	if( localStorage.notaboola != "true" ) {
+		Modernizr.load(
+			{
+				load: '//cdn.taboola.com/libtrc/timeinc-time/loader.js',
+				complete: function() {
+					taboola_loaded = true;
+					if( taboola_render_on_load ) {
+						render_taboola_modules();
+					}
+				}
+			}
+		);
+	}
+
+	Modernizr.load([{ load: '//b.scorecardresearch.com/beacon.js' }]);
+
+	</script>
+	<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=6035728&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1"></noscript>
+	<script src="http://s.stats.wordpress.com/w.js?21" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'1359921','v':'wpcom','tz':'-4','user_id':'0','subd':'timedotcom'});
+function st_vt() {var x=document.createElement("img");x.src="http://stats.wordpress.com/g.gif?blog=1359921&v=wpcomvt&tz=-4&user_id=0&subd=timedotcom&rand="+Math.random();}
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXRThKbHcwXTdETWI1alhvb1oseHImN101ZFpEakVpYjlQYVFLYzBaVHRtPz0wXS9bUW8yai5mMmVEMV1fJTZPeis/UERVSU12S283TmJRRGlfbzY1Zm1mJVFpNFk3W3NEaG5LLm9NaFNVOTh3UEZkJX5xdTdhfk10fE04NzZtWmpbVUdBUGMwVGFvUGIvdT9kZ1M4aD8lWzVqcHRMaXRHMTksY0c4UmprKz9NMX5KVzVrWEJSU2pGYjFkOHU4TnFGc3k3N1g='});
+addLoadEvent(function(){linktracker_init('1359921',0);});
+	</script>
+<noscript><img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//stats.wordpress.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>	    <script>
+	     if (TiiAdTrackRevSci) {
+	      TiiAdTrackRevSci();
+	     }
+	    </script>
+	</body>
 </html>

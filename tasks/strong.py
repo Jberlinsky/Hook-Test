@@ -1,15 +1,11 @@
-from __main__ import *
-
-import os
 from bs4 import BeautifulSoup
+from __main__ import funcs, attrNames
 
-index = 0
-filename = "index.html"
+attrNames.append('hasStrong')
 
-while os.path.isfile("./data/" + filename):
+def addStrongAttr(info, fileObject):
 
-	f = open("./data/" + filename)
-	soup = BeautifulSoup(f)
+	soup = BeautifulSoup(fileObject)
 
 	i = 0
 	for strong in soup.find_all('strong'):
@@ -19,10 +15,8 @@ while os.path.isfile("./data/" + filename):
 	if i:
 		hasStrong = True
 
-	infoList[index].append(hasStrong)
+	info.append(hasStrong)
 
-	f.close()
-	index = index + 1
-	filename = "index.html." + str(index)
+	return
 
-featureNames.append('hasStrong')
+funcs.append(addStrongAttr)

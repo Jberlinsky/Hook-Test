@@ -1,607 +1,206 @@
-<!DOCTYPE html>
-<html xmlns:fb="http://www.facebook.com/2008/fbml"  xmlns:og="http://ogp.me/ns#"  lang="fr-FR">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<meta property="fb:admins" content="100002344630968, 150606180090" />
-<meta property="fb:app_id" content="153421704734930" />
-<meta property="og:url" content="http://blog.lesoir.be/" />
-<meta property="og:type" content="blog" /><meta charset="UTF-8" />
-<title>les blogs du soir.be</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="http://blog.lesoir.be/wp-content/themes/twentyten-lesoir-homepage/style.css" />
-<link rel="pingback" href="http://blog.lesoir.be/xmlrpc.php" />
-<link rel="alternate" type="application/rss+xml" title="les blogs du soir.be &raquo; Flux" href="http://blog.lesoir.be/feed/" />
-<link rel="alternate" type="application/rss+xml" title="les blogs du soir.be &raquo; Flux des commentaires" href="http://blog.lesoir.be/comments/feed/" />
-<style type='text/css'>#upprev_box {display:block;right: -400px;}</style>
-<link rel='stylesheet' id='upprev-css-css'  href='http://blog.lesoir.be/wp-content/plugins/upprev-nytimes-style-next-post-jquery-animated-fly-in-button/upprev.css?ver=3.5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='NextGEN-css'  href='http://blog.lesoir.be/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
-<link rel='stylesheet' id='thickbox-css'  href='http://blog.lesoir.be/wp-includes/js/thickbox/thickbox.css?ver=20121105' type='text/css' media='all' />
-<link rel='stylesheet' id='toolbar-css'  href='http://www.lesoir.be/sites/all/themes/custom_selv7/css/toolbar.css?ver=3.5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='toolbar-custom-css'  href='http://blog.lesoir.be/wp-content/mu-plugins/SSOToolbar/sso-toolbar-custom.css?ver=3.5.1' type='text/css' media='all' />
-<script type='text/javascript' src='http://blog.lesoir.be/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
-<script type='text/javascript' src='http://blog.lesoir.be/wp-content/plugins/upprev-nytimes-style-next-post-jquery-animated-fly-in-button/upprev_js.php?ver=3.5.1'></script>
-<script type='text/javascript' src='http://blog.lesoir.be/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.9995'></script>
-<script type='text/javascript' src='http://blog.lesoir.be/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.06'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.lesoir.be/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.lesoir.be/wp-includes/wlwmanifest.xml" /> 
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<title>Mondofacto</title><meta name="Description" content="Mondofacto provide a range of dictionaries, study skills, word tools, courses and facts to help you learn." /><meta name="Keywords" content="medical dictionary, encyclopedia, courses, glossary, acronyms, word tools, study skills, facts, history, drugs, medication" /><meta name="author" content="mondofacto" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link href="/css2/screen.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE]><link href="/css2/ie.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
+<link href="/css2/print.css" rel="stylesheet" type="text/css" media="print" />
+<script src="http://www.mondofacto.com/openx/www/delivery/spcjs.php?id=1" type="text/javascript"></script>
+<script src="/css2/jquery-min.js" type="text/javascript"></script>
+<script type="text/javascript">$(document).ready(function(){$(".sikbox").qtip({content:"Search mondofacto.com",style:{width:200,padding:5,background:"#F8F6F7",color:"#444444",textAlign:"center",border:{width:1,radius:3,color:"#3A7476"},tip:"rightMiddle",name:"green"},position:{corner:{target:"leftMiddle",tooltip:"rightMiddle"}}});});</script>
 
-<!-- All in One SEO Pack 1.6.14.3 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
-<link rel="canonical" href="http://blog.lesoir.be/" />
-<!-- /all in one seo pack -->
-<script type="text/javascript" src="http://blog.lesoir.be/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.1"></script>
-<script type="text/javascript">AudioPlayer.setup("http://blog.lesoir.be/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
-<meta name="framework" content="Alkivia Framework 0.8" />
-<!-- <meta name="NextGEN" version="1.9.3" /> -->
-</head>
+<!--[if IE 6]><style>div#word-tool ul.basic {background-color:#FFFFFF;border:medium none;margin:28px;margin-left:10px;padding:0;width:180px;}div#word-tool ul { margin:10px 18px 24px; }div#word-tool ul.about { margin:38px 42px 0; }</style><![endif]--> 
+<!--[if IE 7]><style>#sikbox input {padding:6px 0 0 5px;width:152px;margin-right:5px;}div#right-courses li{margin:12px 12px 12px 18px;}</style><![endif]--> 
+<!--[if IE 8]><style>#sikbox input {padding:6px 0 0 5px;width:152px;}</style><![endif]-->
 
-<body class="home blog"><div id="toolbar"></div>
-<script>
-	if (typeof(jQuery) == 'undefined') {
-		document.write("<scr" + "ipt type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js\"></scr" + "ipt>");
+<meta name="verify-v1" content="3qwJnlvF+3StUPiTxqz+UwKvEWtsimZxKfKd8IaRhao=" />
+    
+    <script type="text/javascript">$(document).ready(function()
+{$(".qtip1").qtip({content:"Search for medical, scientific and technical definitions, including acronyms, abbreviations, prefixes and suffixes",style:{width:260,padding:5,background:"#F8F6F7",color:"#444444",textAlign:"center",border:{width:3,radius:5,color:"#3A7476"},tip:"topMiddle",name:"green"},position:{corner:{target:"bottomMiddle",tooltip:"topMiddle"}}});$(".qtip2").qtip({content:"A useful selection of tools to help you solve crosswords, anagrams and Scrabble, find words, check spellings and explore how words are related",style:{width:260,padding:5,background:"#F8F6F7",color:"#444444",textAlign:"center",border:{width:3,radius:5,color:"#3A7476"},tip:"topMiddle",name:"green"},position:{corner:{target:"bottomMiddle",tooltip:"topMiddle"}}});$(".qtip3").qtip({content:"Bite-size interactive study skills topics for university students, covering research, writing, studying, exams, presentations and personal skills",style:{width:260,padding:5,background:"#F8F6F7",color:"#444444",textAlign:"center",border:{width:3,radius:5,color:"#3A7476"},tip:"topMiddle",name:"green"},position:{corner:{target:"bottomMiddle",tooltip:"topMiddle"}}});$(".qtip4").qtip({content:"Register for our online, interactive, activity-based courses delivered exclusively online",style:{width:260,padding:5,background:"#F8F6F7",color:"#444444",textAlign:"center",border:{width:3,radius:5,color:"#3A7476"},tip:"topMiddle",name:"green"},position:{corner:{target:"bottomMiddle",tooltip:"topMiddle"}}});});</script>
+<!--[if IE 6]>
+<style>
+    div#word-tool ul.basic {
+        background-color:#FFFFFF;
+        border:medium none;
+        margin:28px;
+        margin-left:10px;
+        padding:0;
+        width:180px;
 	}
-</script>
-<script language="javascript" src="http://www.lesoir.be/toolbar/get/jquery-ui/1.7.3/jquery-ui-1.7.3.custom.min.js"></script>
-<script language="javascript" src="http://www.lesoir.be/toolbar/get/comportementToolbar.js"></script>	
-<script language="javascript" src="http://www.lesoir.be/toolbar/get/jquery.ui.rosseltoolbar.js"></script>
-<script>
-	(function($){
-		$('#toolbar').rosseltoolbar({
-            type:"logo",
-            connect: "noconnect"
-        });
-	}) (jQuery);
-</script>
+    
+    div#word-tool ul { margin:10px 18px 24px; }
+    div#word-tool ul.about { margin:38px 42px 0; }
+</style>
+<![endif]-->
+</head>
+<body onload="document.f.query.focus()">
 
-<!--les blogs du soir.be-->
-<!-- Google Tag Manager -->
-<noscript>
-    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T4L3LW" height="0"
-    width="0" style="display:none;visibility:hidden">
-    </iframe>
-</noscript>
-<script>
-(function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-T4L3LW');
-</script>
-<!-- End Google Tag Manager -->
-<!-- ***** Metriweb Spring lesblogsdusoirbe ***** -->
-<script type="text/javascript" src="http://www.lesoir.be/metriweb/spring.js"></script>
-<script language="Javascript">
-    var sp_e0 = {
-        "s":"lesoir",
-        "cp":"si_lesoir/nw/www",
-        "lang":"FR",
-        "url": document.location.href
-    }
-    spring.c(sp_e0);
-</script>
-<!-- ***** End Metriweb Spring ***** --><script type="text/javascript">
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-150849-1']);
-    _gaq.push(['_setDomainName', 'lesoir.be']);
-    _gaq.push(['setAllowLinker',true]);
-    _gaq.push(['_trackPageview']);
-(function() {
-	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-<div id="soir_header">
-<div><span class="return_soir"> <a href="http://www.lesoir.be"> </a> </span>
-<!-- <p id="blog_type">un blog du Soir.be</p>--></div>
+<div id="container">
+<div id="top-banner"><a href="/"><img src="/img/header.png" border="0" alt="home" width="508" height="83" /></a></div>
+
+<!--top right bullet links-->
+<div id="top-links">
+	<ul>
+        <li><a href="/help.html" title="help">help</a></li>
+        <li><a href="/about/contact.html" title="contact">contact</a></li>
+        <li><a href="/about/sitemap.html" title="sitemap">sitemap</a></li>
+	</ul>
+<div class="sikbox"><script src="http://sikbox.com/magic.js?d=www.mondofacto.com&amp;r=4" type="text/javascript"></script></div>
 </div>
-<div id="wrapper" class="hfeed">
-	<div id="header">
-		<div id="masthead">
-			<div id="branding" role="banner">
-								<h1 id="site-title">
-					<span>
-						<a href="http://blog.lesoir.be/" title="les blogs du soir.be" rel="home">les blogs du soir.be</a>
-					</span>
-				</h1>
-				<div id="site-description"></div>
+<div class="clear"></div><!--navigation bar-->
 
-										<img src="http://blog.lesoir.be/wp-content/themes/twentyten/images/headers/path.jpg" width="940" height="198" alt="" />
-								</div><!-- #branding -->
-			
-		</div><!-- #masthead -->
-	</div><!-- #header -->
-
-	<div id="main">
-
-
-		<div id="container" class="one-column">
-			<div id="content" role="main">
-
-<div id="columns">
-<div id="columns-left">
-	<div id="column-1" class="column">
+<div id="teal-bar">
+<h1 class="section"><a class="h1" href="/">Mondofacto</a></h1>
+</div>
+	<div id="menu_wrapper" class="teal">
+			<ul id="menu">
+				<li><a href="/">home</a></li>
+				<li><a href="/dictionary/">dictionary</a></li>
+                <li><a href="/word-tools/">word tools</a></li>
+                <li><a href="/courses/">courses</a></li>
+				<li><a href="/study-skills/">study skills</a></li>
+                <li><a href="/community/">forum</a></li>
+				<li><a href="/about/about-us.html">about us</a></li>
+			</ul>
 	
-		
-		<div id="secondary" class="widget-area" role="complementary">
-			<ul class="xoxo">
-				<li id="rssimages-5" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://geeko.lesoir.be/">geeko</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://geeko.lesoir.be/2014/04/02/build-windows-dans-les-voitures-les-montres-les-pianos/">
-					      <img src="/wp-content/thumbs/60/60/http://geeko.lesoir.be/files/2014/04/windowsofthings.jpg" alt="BUILD : Windows dans les voitures, les montres, les pianos…" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://geeko.lesoir.be/2014/04/02/build-windows-dans-les-voitures-les-montres-les-pianos/">BUILD : Windows dans les voitures, les montres, les pianos…</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://geeko.lesoir.be/2014/04/02/build-nokia-presente-ses-lumia-630-635-et-930/">
-					      <img src="/wp-content/thumbs/60/60/http://geeko.lesoir.be/files/2014/04/lumia930.jpg" alt="BUILD : Nokia présente ses Lumia 630, 635 et 930" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://geeko.lesoir.be/2014/04/02/build-nokia-presente-ses-lumia-630-635-et-930/">BUILD : Nokia présente ses Lumia 630, 635 et 930</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://geeko.lesoir.be/2014/04/02/build-microsoft-annonce-la-gratuite-de-windows-sur-smartphones-et-tablettes/">
-					      <img src="/wp-content/thumbs/60/60/http://geeko.lesoir.be/files/2014/04/price.jpg" alt="BUILD : Microsoft annonce la gratuité de Windows sur smartphones et tablettes" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://geeko.lesoir.be/2014/04/02/build-microsoft-annonce-la-gratuite-de-windows-sur-smartphones-et-tablettes/">BUILD : Microsoft annonce la gratuité de Windows sur smartphones et tablettes</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-7" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://belgium-iphone.lesoir.be/">belgium iPhone</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://belgium-iphone.lesoir.be/2014/04/02/dataman-next-une-appli-ios-pour-surveiller-votre-consommation-de-donnees-en-temps-reel/">
-					      <img src="/wp-content/thumbs/60/60/http://belgium-iphone.lesoir.be/files/2014/04/dataman_next.jpg" alt="DataMan Next, une appli iOS pour surveiller votre consommation de données en temps réel" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://belgium-iphone.lesoir.be/2014/04/02/dataman-next-une-appli-ios-pour-surveiller-votre-consommation-de-donnees-en-temps-reel/">DataMan Next, une appli iOS pour surveiller votre consommation de données en temps réel</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://belgium-iphone.lesoir.be/2014/04/02/quand-la-commissaire-europeenne-neelie-kroes-tweete-notre-poisson-davril-a-propos-de-larrivee-de-la-6g/">
-					      <img src="/wp-content/thumbs/60/60/http://belgium-iphone.lesoir.be/files/2014/04/01571725-1000x530.jpg" alt="Quand la commissaire européenne Neelie Kroes tweete notre poisson d’avril à propos de l’arrivée de la 6G" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://belgium-iphone.lesoir.be/2014/04/02/quand-la-commissaire-europeenne-neelie-kroes-tweete-notre-poisson-davril-a-propos-de-larrivee-de-la-6g/">Quand la commissaire européenne Neelie Kroes tweete notre poisson d’avril à propos de l’arrivée de la 6G</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://belgium-iphone.lesoir.be/2014/04/02/mise-a-jour-diwork-apple-autorise-le-partage-en-lecture-seule/">
-					      <img src="/wp-content/thumbs/60/60/http://belgium-iphone.lesoir.be/files/2014/04/iwork.962d9100859.w640.jpg" alt="Mise à jour d’iWork : Apple autorise le partage en lecture seule" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://belgium-iphone.lesoir.be/2014/04/02/mise-a-jour-diwork-apple-autorise-le-partage-en-lecture-seule/">Mise à jour d’iWork : Apple autorise le partage en lecture seule</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-4" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/moi-jeux">moi jeux</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/moi-jeux/2014/04/02/le-succes-de-bravely-default-pousse-square-enix-a-reflechir/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/moi-jeux/files/2014/04/bravely-300x211.jpg" alt="Le succès de Bravely Default pousse Square Enix à réfléchir" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/moi-jeux/2014/04/02/le-succes-de-bravely-default-pousse-square-enix-a-reflechir/">Le succès de Bravely Default pousse Square Enix à réfléchir</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/moi-jeux/2014/04/02/coupe-du-monde-2014-la-demo-est-disponible/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/moi-jeux/files/2014/04/2014_FIFA_World_Cup_Brazil-300x168.jpg" alt="Coupe du Monde 2014 : la démo est disponible !" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/moi-jeux/2014/04/02/coupe-du-monde-2014-la-demo-est-disponible/">Coupe du Monde 2014 : la démo est disponible !</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/moi-jeux/2014/04/02/the-elder-scrolls-online-bethesda-defend-toujours-son-modele-a-abonnement/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/moi-jeux/files/2014/04/cover-new-300x168.jpg" alt="The Elder Scrolls Online : Bethesda défend toujours son modèle à abonnement" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/moi-jeux/2014/04/02/the-elder-scrolls-online-bethesda-defend-toujours-son-modele-a-abonnement/">The Elder Scrolls Online : Bethesda défend toujours son modèle à abonnement</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-25" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/electionsus2012/">L&#8217;Amérique dans tous ses États</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://letemps.blogs.com/elections_americaines/2014/01/pour-%C3%AAtre-millionnaire-mieux-vaut-devenir-membre-du-congr%C3%A8s.html">
-					      <img src="/wp-content/thumbs/60/60/http://letemps.blogs.com/.a/6a00d8341c65d453ef019b04851afa970d-320wi" alt="Pour être millionnaire, mieux vaut devenir membre du Congrès" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://letemps.blogs.com/elections_americaines/2014/01/pour-%C3%AAtre-millionnaire-mieux-vaut-devenir-membre-du-congr%C3%A8s.html">Pour être millionnaire, mieux vaut devenir membre du Congrès</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://letemps.blogs.com/elections_americaines/2014/01/chris-christie-le-scandale-qui-pourrait-le-faire-tomber.html">
-					      <img src="/wp-content/thumbs/60/60/http://letemps.blogs.com/.a/6a00d8341c65d453ef01a5109a1e98970c-320wi" alt="Chris Christie, le scandale qui pourrait le faire tomber" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://letemps.blogs.com/elections_americaines/2014/01/chris-christie-le-scandale-qui-pourrait-le-faire-tomber.html">Chris Christie, le scandale qui pourrait le faire tomber</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://letemps.blogs.com/elections_americaines/2014/01/des-pubs-pour-obamacare-durant-les-jeux-de-sotchi.html">
-					      <img src="/wp-content/thumbs/60/60/http://letemps.blogs.com/.a/6a00d8341c65d453ef019b04683384970d-320wi" alt="Des pubs pour Obamacare durant les Jeux de Sotchi" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://letemps.blogs.com/elections_americaines/2014/01/des-pubs-pour-obamacare-durant-les-jeux-de-sotchi.html">Des pubs pour Obamacare durant les Jeux de Sotchi</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li>			</ul>
-		</div><!-- #secondary .widget-area -->
 
-	
-	</div>
-	<div id="column-2" class="column">
-		
-		<div id="secondary" class="widget-area" role="complementary">
-			<ul class="xoxo">
-				<li id="rssimages-6" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/frontstage/">frontstage</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/frontstage/2014/04/02/milow-back-from-l-a-reste-lui-meme/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/frontstage/files/2014/04/milow-300x208.jpg" alt="Milow, back from L.A., reste lui-même" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/frontstage/2014/04/02/milow-back-from-l-a-reste-lui-meme/">Milow, back from L.A., reste lui-même</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/frontstage/2014/04/02/francois-the-atlas-mountains/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/frontstage/files/2014/04/francoisandam_0-300x150.jpg" alt="Fran&ccedil;ois &amp; the Atlas Mountains" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/frontstage/2014/04/02/francois-the-atlas-mountains/">Fran&ccedil;ois &amp; the Atlas Mountains</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/frontstage/2014/04/02/pralines-63-stromae-et-girls-in-hawaii-aux-octaves-de-la-musique/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/frontstage/files/2014/04/stromae-300x158.jpg" alt="Pralines #63: Stromae et Girls in Hawaii nominés aux Octaves de la musique" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/frontstage/2014/04/02/pralines-63-stromae-et-girls-in-hawaii-aux-octaves-de-la-musique/">Pralines #63: Stromae et Girls in Hawaii nominés aux Octaves de la musique</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-23" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/jo2012/">y a pas que le foot dans la vie</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/04/02/guido-de-bondt-ou-le-depart-dun-grand-commis-du-sport-belge/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/y-a-pas-que-le-foot/files/2014/04/debondt-1024x681.jpg" alt="Guido De Bondt, ou le départ d’un grand commis du sport belge" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/04/02/guido-de-bondt-ou-le-depart-dun-grand-commis-du-sport-belge/">Guido De Bondt, ou le départ d’un grand commis du sport belge</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/04/01/marc-wilmots-a-la-rescousse-de-jacques-borlee/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/y-a-pas-que-le-foot/files/2014/04/wilmots-1024x680.jpg" alt="Marc Wilmots à la rescousse de Jacques Borlée" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/04/01/marc-wilmots-a-la-rescousse-de-jacques-borlee/">Marc Wilmots à la rescousse de Jacques Borlée</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/03/19/laurens-pannecoucke-le-kayakiste-qui-se-mouille-pour-leau/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/y-a-pas-que-le-foot/files/2014/03/pannecoucke-1024x618.jpg" alt="Laurens Pannecoucke, le kayakiste qui se mouille pour l’eau" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/03/19/laurens-pannecoucke-le-kayakiste-qui-se-mouille-pour-leau/">Laurens Pannecoucke, le kayakiste qui se mouille pour l’eau</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-36" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/voyagevoyage/">Voyage Voyage</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/voyagevoyage/2014/02/18/le-club-med-recrute-1700-g-o-en-majorite-francophones/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/voyagevoyage/files/2014/02/Clubmed-Crazy-signs-c-Bruno-Van-Loocke-1000x664.jpg" alt="Le Club Med recrute 1700 G.O. en majorité francophones" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/voyagevoyage/2014/02/18/le-club-med-recrute-1700-g-o-en-majorite-francophones/">Le Club Med recrute 1700 G.O. en majorité francophones</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/voyagevoyage/2014/02/07/le-belge-qui-veut-vous-emmener-au-kivu/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/voyagevoyage/files/2014/02/De-Lamotte-4-573x860.jpg" alt="Le Belge qui veut vous emmener au Kivu" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/voyagevoyage/2014/02/07/le-belge-qui-veut-vous-emmener-au-kivu/">Le Belge qui veut vous emmener au Kivu</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/voyagevoyage/2014/02/03/au-kivu-avec-les-gorilles-des-virungas/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/voyagevoyage/files/2014/02/Kivu-1-942x860.jpg" alt="Au Kivu, avec les gorilles des Virungas" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/voyagevoyage/2014/02/03/au-kivu-avec-les-gorilles-des-virungas/">Au Kivu, avec les gorilles des Virungas</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-10" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/amortieetlob/">amortie et lob</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/amortieetlob/2014/04/02/de-goffin-a-darcis-dix-reflexions/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/amortieetlob/2014/04/02/de-goffin-a-darcis-dix-reflexions/">De Goffin à Darcis, dix réflexions</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/amortieetlob/2014/03/31/le-net-tennisclub-a-vu-le-jour/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/amortieetlob/2014/03/31/le-net-tennisclub-a-vu-le-jour/">Le “Net-tennisclub” a vu le jour</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/amortieetlob/2014/03/28/goffin-et-willems-cest-termine-van-cleemput-prend-le-relais/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/amortieetlob/2014/03/28/goffin-et-willems-cest-termine-van-cleemput-prend-le-relais/">Goffin et Willems, c’est terminé. Van Cleemput prend le relais</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-34" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/baudouinloos">Le bloc-notes de Baudouin Loos</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/baudouinloos/2014/03/19/les-siderants-deboires-du-meilleur-specialiste-du-maroc/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/baudouinloos/2014/03/19/les-siderants-deboires-du-meilleur-specialiste-du-maroc/">Les sidérants déboires du meilleur spécialiste du Maroc</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/baudouinloos/2014/03/17/syrie-le-silence-est-un-grave-echec-moral/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/baudouinloos/2014/03/17/syrie-le-silence-est-un-grave-echec-moral/">Syrie: «Le silence est un grave échec moral»</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/baudouinloos/2014/02/26/limmigration-marocaine-a-franchi-la-barriere-nador/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/baudouinloos/2014/02/26/limmigration-marocaine-a-franchi-la-barriere-nador/">L’immigration marocaine a franchi la barrière Nador</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-30" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/colette-braeckman/">Le carnet de Colette Braeckman</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/colette-braeckman/2014/04/02/eric-de-lamotte-le-belge-qui-veut-faire-renaitre-goma/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/colette-braeckman/2014/04/02/eric-de-lamotte-le-belge-qui-veut-faire-renaitre-goma/">Eric de Lamotte, le Belge qui veut faire renaître Goma</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/colette-braeckman/2014/04/02/vingt-ans-ce-nest-rien/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/colette-braeckman/2014/04/02/vingt-ans-ce-nest-rien/">Vingt ans, ce n’est rien…</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/colette-braeckman/2014/04/02/le-complot-qui-fit-basculer-le-rwanda/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/colette-braeckman/2014/04/02/le-complot-qui-fit-basculer-le-rwanda/">Le complot qui fit basculer le Rwanda</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-35" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/lalibertesinonrien/">La liberté sinon rien</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/lalibertesinonrien/2014/04/02/conference-sur-le-genocide-deux-minutes-de-plus-cruciales-essentielles/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/lalibertesinonrien/2014/04/02/conference-sur-le-genocide-deux-minutes-de-plus-cruciales-essentielles/">Conférence sur le génocide: deux minutes de plus, cruciales, essentielles</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/lalibertesinonrien/2014/03/22/une-autre-turquie-est-possible/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/lalibertesinonrien/2014/03/22/une-autre-turquie-est-possible/">Une autre Turquie est possible</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/lalibertesinonrien/2014/03/22/le-bruit-des-bottes-et-le-silence-des-pantoufles/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/lalibertesinonrien/2014/03/22/le-bruit-des-bottes-et-le-silence-des-pantoufles/">« Le bruit des bottes et le silence des pantoufles »</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-22" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/salledesprofs">salle des profs</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/salledesprofs/2013/07/11/et-si-la-classe-unique-etait-la-solution/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/salledesprofs/files/2013/07/classeunique1.jpg" alt="Et si la classe unique était la solution ?" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/salledesprofs/2013/07/11/et-si-la-classe-unique-etait-la-solution/">Et si la classe unique était la solution ?</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/salledesprofs/2013/07/03/faut-il-coter-plus-severement-le-ceb/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/salledesprofs/files/2012/03/bertieaux-681x1024.jpg" alt="Faut-il coter plus sévèrement le CEB ?" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/salledesprofs/2013/07/03/faut-il-coter-plus-severement-le-ceb/">Faut-il coter plus sévèrement le CEB ?</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/salledesprofs/2013/06/27/il-cherche-des-volontaires-pour-oser-la-mixite-sociale/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/salledesprofs/files/2013/06/yfonck.jpg" alt="Il cherche des volontaires pour oser la mixité sociale" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/salledesprofs/2013/06/27/il-cherche-des-volontaires-pour-oser-la-mixite-sociale/">Il cherche des volontaires pour oser la mixité sociale</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li>			</ul>
-		</div><!-- #secondary .widget-area -->
+</div>    
+<div id="text-content-full" style="min-height:400px;margin:10px 15px 55px;">
 
-	
-	
-	</div>
-		<div id="column-3" class="column">
-		
-			
-		<div id="secondary" class="widget-area" role="complementary">
-			<ul class="xoxo">
-				<li id="rssimages-31" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/hashtag25/">#25</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/hashtag25/2014/03/27/la-lecon-de-barack-obama-aux-jeunes/">
-					      <img src="/wp-content/thumbs/60/60/http://www.lesoir.be/sites/default/files/imagecache/475x317/2014/03/27/1055929973_B972337727Z.1_20140327091448_000_GCB26473J.2-0.jpg" alt="La «leçon» de Barack Obama aux jeunes" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/hashtag25/2014/03/27/la-lecon-de-barack-obama-aux-jeunes/">La «leçon» de Barack Obama aux jeunes</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/hashtag25/2014/03/27/le-11h02-bruxelles-a-besoin-dobjectifs-clairs-pour-ses-jeunes/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/hashtag25/2014/03/27/le-11h02-bruxelles-a-besoin-dobjectifs-clairs-pour-ses-jeunes/">Le 11h02 : «Bruxelles a besoin d’objectifs clairs pour ses jeunes»</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/hashtag25/2014/03/25/120-minutes-pour-convaincre-les-jeunes-bruxellois/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/hashtag25/files/2014/03/GetContent8.jpg" alt="Ils ont eu 120 minutes pour convaincre les jeunes Bruxellois, pari gagné ?" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/hashtag25/2014/03/25/120-minutes-pour-convaincre-les-jeunes-bruxellois/">Ils ont eu 120 minutes pour convaincre les jeunes Bruxellois, pari gagné ?</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-32" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://www.lesvinsdusoir.be/">Saturday Wine Fever</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/saturdaywinefever/2014/01/04/que-boire-avec-une-galette-des-rois-quand-il-fait-vraiment-immonde-dehors/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/saturdaywinefever/files/2014/01/martini_gran_lusso_01-150x150.jpg" alt="Que boire avec une galette des Rois quand il fait vraiment immonde dehors" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/saturdaywinefever/2014/01/04/que-boire-avec-une-galette-des-rois-quand-il-fait-vraiment-immonde-dehors/">Que boire avec une galette des Rois quand il fait vraiment immonde dehors</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/saturdaywinefever/2013/12/27/pour-whisky-sonne-le-glas/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/saturdaywinefever/2013/12/27/pour-whisky-sonne-le-glas/">Pour Whisky sonne le glas</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/saturdaywinefever/2013/12/20/une-selection-de-bulles-pour-faire-la-fete-avec-du-foie-gras-et-sans-champagne/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/saturdaywinefever/files/2013/12/La-cave-des-Sommeliers-Crémant-de-Bourgogne-150x150.jpg" alt="Une sélection de bulles pour faire la fête avec du foie gras et sans Champagne" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/saturdaywinefever/2013/12/20/une-selection-de-bulles-pour-faire-la-fete-avec-du-foie-gras-et-sans-champagne/">Une sélection de bulles pour faire la fête avec du foie gras et sans Champagne</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-33" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://loftkitchen.lesoir.be/">Loft Kitchen</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://loftkitchen.lesoir.be/tartare-de-boeuf-facon-salade-de-boeuf-thai/">
-					      <img src="/wp-content/thumbs/60/60/http://loftkitchen.lesoir.be/files/2014/03/tartare3boeufthai.jpg" alt="Tartare de boeuf au couteau façon salade de boeuf thaï" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://loftkitchen.lesoir.be/tartare-de-boeuf-facon-salade-de-boeuf-thai/">Tartare de boeuf au couteau façon salade de boeuf thaï</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://loftkitchen.lesoir.be/oeufs-de-paques-chez-godiva/">
-					      <img src="/wp-content/thumbs/60/60/http://loftkitchen.lesoir.be/files/2014/03/oeufsgodivaintro.jpg" alt="Oeufs de Pâques chez Godiva" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://loftkitchen.lesoir.be/oeufs-de-paques-chez-godiva/">Oeufs de Pâques chez Godiva</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://loftkitchen.lesoir.be/spaghetti-boulettes-et-sauce-tomate/">
-					      <img src="/wp-content/thumbs/60/60/http://loftkitchen.lesoir.be/files/2014/03/spaghettiboulettes-copy.jpg" alt="Spaghetti, boulettes et sauce tomate" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://loftkitchen.lesoir.be/spaghetti-boulettes-et-sauce-tomate/">Spaghetti, boulettes et sauce tomate</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-27" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/bigbizz/">Le site des jeunes entreprises</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li class="" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/bigbizz/2014/02/06/le-congres-des-mini-entreprises-a-reuni-870-participants-un-record/">
-					      <img src="/wp-content/thumbs/60/60/http://www.lesoir.be/sites/default/files/imagecache/475x317/2014/02/05/2087286262_B971930310Z.1_20140205154808_000_GAO1SLS3C.1-0.jpg" alt="Le Congrès des mini-entreprises a réuni 870 participants, un record" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/bigbizz/2014/02/06/le-congres-des-mini-entreprises-a-reuni-870-participants-un-record/">Le Congrès des mini-entreprises a réuni 870 participants, un record</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/bigbizz/2014/01/13/sous-les-projecteurs-sweet-lemon-notre-success-story-du-mois/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/bigbizz/files/2014/01/histoire_1.png" alt="Sous les Projecteurs : Sweet Lemon, notre Success story du mois" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/bigbizz/2014/01/13/sous-les-projecteurs-sweet-lemon-notre-success-story-du-mois/">Sous les Projecteurs : Sweet Lemon, notre Success story du mois</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/bigbizz/2013/12/12/lje-une-asbl-dynamisee-par-le-travail-des-conseillers-veritables-moteurs-pour-les-jeunes-entrepreneurs/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/bigbizz/files/2013/12/130430_ESS_093-1024x682.jpg" alt="LJE, une ASBL dynamisée par le travail des conseillers, véritables moteurs pour les Jeunes Entrepreneurs." align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/bigbizz/2013/12/12/lje-une-asbl-dynamisee-par-le-travail-des-conseillers-veritables-moteurs-pour-les-jeunes-entrepreneurs/">LJE, une ASBL dynamisée par le travail des conseillers, véritables moteurs pour les Jeunes Entrepreneurs.</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-28" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/benevoles">Bénévoles</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/benevoles/2013/01/05/documentaire-benevoles-on-na-pas-chome/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/benevoles/2013/01/05/documentaire-benevoles-on-na-pas-chome/">Documentaire BENEVOLES : on n’a pas chômé !</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/benevoles/2012/12/31/2013-une-question-de-valeurs/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/benevoles/files/2012/12/Bénévoles-BelRtlmini-80-1024x418.jpg" alt="2013, une question de valeurs" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/benevoles/2012/12/31/2013-une-question-de-valeurs/">2013, une question de valeurs</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/benevoles/2012/12/25/comment-va-t-on-reinventer-notre-rapport-au-travail/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/benevoles/2012/12/25/comment-va-t-on-reinventer-notre-rapport-au-travail/">Comment va-t-on réinventer notre rapport au travail ?</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-20" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/alterechos/">alter echos</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/alterechos/2014/04/02/lausterite-nuit-gravement-a-la-sante/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/alterechos/2014/04/02/lausterite-nuit-gravement-a-la-sante/">L’austérité nuit gravement à la santé</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/alterechos/2014/04/01/les-sans-abri-du-metro-photographie-leur-monde-souterrain/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/alterechos/files/2014/04/pirotte.jpg" alt="Les sans-abri du métro photographient leur monde souterrain" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/alterechos/2014/04/01/les-sans-abri-du-metro-photographie-leur-monde-souterrain/">Les sans-abri du métro photographient leur monde souterrain</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/alterechos/2014/03/10/la-masturbation-rend-elle-sourd-les-eurodeputes/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/alterechos/files/2014/03/ivg-1024x1024.jpg" alt="La masturbation rend-elle sourds les eurodéputés ?" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/alterechos/2014/03/10/la-masturbation-rend-elle-sourd-les-eurodeputes/">La masturbation rend-elle sourds les eurodéputés ?</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li><li id="rssimages-29" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/125ans">les 125 ans du Soir</a></h3><div class="simplepie"><ul class="clearfix">
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/125ans/souvenirs/le-soir-quotidien/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/125ans/souvenirs/le-soir-quotidien/">Le Soir quotidien</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/125ans/souvenirs/bande-dessinee-en-noir-et-blanc/">
-					                <div class="caption">
-					          	<h5><a href="http://blog.lesoir.be/125ans/souvenirs/bande-dessinee-en-noir-et-blanc/">Bande Dessinée en noir et blanc</a></h5>
-					          </div>
-					          </div>
-					    </li>
-					      <li class=" last" ><div class="thumbnail-div right-blocks">
-					          <a href="http://blog.lesoir.be/125ans/souvenirs/noce-dor-dadrien-dawans-et-octavie-closset/">
-					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/125ans/files/2012/12/noce-dor-dadrien-dawans-et-octavie-closset-50cf6ec8dd371-1024x768.jpg" alt="Noce d’or d’Adrien Dawans et Octavie Closset" align="left" /></a>          <div class="caption has-image">
-					          	<h5><a href="http://blog.lesoir.be/125ans/souvenirs/noce-dor-dadrien-dawans-et-octavie-closset/">Noce d’or d’Adrien Dawans et Octavie Closset</a></h5>
-					          </div>
-					          </div>
-					    </li></ul></div></li>			</ul>
-		</div><!-- #secondary .widget-area -->
+<div id="word-tool" style="padding:0 30px;">
 
-			
-</div>		
-	</div><!-- /columns left -->
-<div id="column-4" class="column">
-		<div id="secondary" class="widget-area" role="complementary">
-			<ul class="xoxo">
-						<li id="blogs" class="widget-container widget_blogs">			<h3 class="widget-title">tous les blogs</h3>            <br />
-            
-            <ul><li><a href="http://blog.lesoir.be/reglements-de-comptes">règlements de comptes</a></li><li><a href="http://blog.lesoir.be/voyagevoyage">voyage voyage</a></li><li><a href="http://blog.lesoir.be/smartcities">Le blog des villes intelligentes</a></li><li><a href="http://blog.lesoir.be/offshoreleaks">offshore leaks</a></li><li><a href="http://blog.lesoir.be/saturdaywinefever">Saturday Wine Fever</a></li><li><a href="http://blog.lesoir.be/loftkitchen">Loft Kitchen</a></li><li><a href="http://blog.lesoir.be/bigbizz">Le blog des Jeunes Entreprises</a></li><li><a href="http://blog.lesoir.be/benevoles">Bénévoles</a></li><li><a href="http://blog.lesoir.be/docs">les documents du Soir</a></li><li><a href="http://geeko.lesoir.be">geeko</a></li><li><a href="http://blog.lesoir.be/nest">NEST</a></li><li><a href="http://blog.lesoir.be/oeuvresdusoir">les Oeuvres du Soir</a></li><li><a href="http://blog.lesoir.be/y-a-pas-que-le-foot">Y a pas que le foot dans la vie</a></li><li><a href="http://blog.lesoir.be/salledesprofs">Salle des profs</a></li><li><a href="http://belandroid.lesoir.be">bel android</a></li><li><a href="http://blog.lesoir.be/alterechos">Le blog d&#039;Alter Echos</a></li><li><a href="http://blog.lesoir.be/parisbysoir">@ Pèèèris</a></li><li><a href="http://blog.lesoir.be/entractes">Entractes</a></li><li><a href="http://blog.lesoir.be/freefight-webdoc">freefight - webdoc </a></li><li><a href="http://blog.lesoir.be/geek-politics">geek politics</a></li><li><a href="http://blog.lesoir.be/cuisine-interne">Cuisine Interne</a></li><li><a href="http://blog.lesoir.be/lalibertesinonrien">La Liberté sinon rien</a></li><li><a href="http://blog.lesoir.be/grammedheroine">un simple gramme d’heroine</a></li><li><a href="http://blog.lesoir.be/colette-braeckman">le carnet de Colette Braeckman</a></li><li><a href="http://blog.lesoir.be/wikileaks">#BEkileaks</a></li><li><a href="http://blog.lesoir.be/bonheurbrut">Le bonheur brut</a></li><li><a href="http://blog.lesoir.be/medecinsdumonde">Le blog de Médecins du Monde</a></li><li><a href="http://blog.lesoir.be/jour-apres-jour">jour après jour</a></li><li><a href="http://blog.lesoir.be/ketpaddle">ketpaddle</a></li><li><a href="http://blog.lesoir.be/amortieetlob">amortie et lob</a></li><li><a href="http://blog.lesoir.be/coupfranc">Coup franc</a></li><li><a href="http://blog.lesoir.be/frontstage">frontstage/</a></li><li><a href="http://blog.lesoir.be/leblogdesmsf">le blog des msf</a></li><li><a href="http://blog.lesoir.be/moi-jeux">Moi Jeux</a></li></ul>		</li>			</ul>
-			
-					</div><!-- #secondary .widget-area -->
-	</div>
-		
+    <ul class="basic">
+    <li class="imgsmall"><a href="/dictionary/" class="qtip1"><img src="/img/dictionary2.jpg" border="0" alt="dictionary (Image sourced from Flickr Creative Commons images)" width="180" height="157" /></a></li>
+    <li class="home"><br /><a href="/dictionary/" class="qtip1">dictionary</a><br /><br /></li>
+    </ul>
+    
+    <ul class="basic">
+    <li class="imgsmall"><a href="/word-tools/" class="qtip2"><img src="/img/word-tools3.jpg" border="0" alt="word tools (Image sourced from Flickr Creative Commons images)" width="180" height="157" /></a></li>
+    <li class="home"><br /><a href="/word-tools/" class="qtip2">word tools</a><br /><br />
+    </li>
+    </ul>
+    
+    <ul class="basic">
+    <li class="imgsmall"><a href="/courses/" class="qtip4"><img src="/img/courses.jpg" border="0" alt="courses (Image sourced from Flickr Creative Commons images)" width="180" height="157" /></a></li>
+    <li class="home"><br /><a href="/courses/" class="qtip4">courses</a><br /><br />
+    </li>
+    </ul>
+    
+    <ul class="basic">
+    <li class="imgsmall"><a href="/study-skills/" class="qtip3"><img src="/img/study2.jpg" border="0" alt="study skills (Image sourced from Flickr Creative Commons images)" width="180" height="157" /></a></li>
+    <li class="home"><br /><a href="/study-skills/" class="qtip3">study skills</a><br /><br />
+    </li>
+    </ul>
+    
+
+</div> 
+   
+    <div style="margin-left:260px;">
+    <h1 class="greyheader" style="margin-bottom:5px;">dictionary search</h1>
+    
+	<div id="search-area">
+	<fieldset>
+	<legend>Search</legend>
+	<form action="/facts/dictionary" name="f" method="get" enctype="application/x-www-form-urlencoded">
+	<label for="criteria"></label>
+	<input name="query" id="criteria" type="text" value="" maxlength="200" class="wide-text-field" />
+	<input name="action" id="submitbutton" type="submit" value="look it up" style="font-size:100%" class="submit-btn-green" />
+	<br /><!--[if gte IE 8]><br /><![endif]-->
+	</form>
+	</fieldset>
+	<a href="/dictionary/help.html" style="font-size:12px; font-weight:normal;"><img src="/img/info.png" style="margin-bottom:-4px;" alt="dictionary help" border="0"/> dictionary help</a>
+	</div>    </div>
+
 </div>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+<div id="home-article">
+<ul><li>
+	<h1>definition of the week</h1>
+    <h2><a href="/facts/dictionary?glucosamine">glucosamine</a></h2>
+	<p>&lt;<a href="/dictionary/contents/biochemistry.html">biochemistry</a>&gt; <a href="/facts/dictionary?Amino+sugar">Amino sugar</a> (2 amino 2 <a href="/facts/dictionary?deoxyglucose">deoxyglucose</a>), <a href="/facts/dictionary?component">component</a> of <a href="/facts/dictionary?chitin">chitin</a>, <a href="/facts/dictionary?heparan+sulphate">heparan sulphate</a>, <a href="/facts/dictionary?chondroitin+sulphate">chondroitin sulphate</a> and <a href="/facts/dictionary?many">many</a> <a href="/facts/dictionary?complex">complex</a> <a href="/facts/dictionary?polysaccharides">polysaccharides</a>. Usually found as _ D N acetyl glucosamine.</p> 
+</li></ul>
+<ul><li>
+	<h1>study skill of the month</h1>
+    <h2><a href="/study-skills/research/how-to-do-your-research-project/">How to do your research project</a></h2>
+	<p>If you think clearly about each stage of the research from generating an answerable question to interpreting your data, your project will be do-able and rewarding, and will help you stand out from the crowd.</p>
+</li></ul>
+<ul><li>
+	<h1>visualiser word of the month</h1>
+	<h2><a href="/word-tools/visualiser.html?word=nerve">nerve</a></h2>
+    <p><a href="/word-tools/visualiser.html?word=nerve"><img src="/img/vis-link.png" width="250" height="112" alt="virus visualiser image" /></a></p>
+</li></ul>
+</div>
 
-	</div><!-- #main -->
+<div class="clear"></div>
 
-	<div id="footer" role="contentinfo">
-		<div id="colophon">
+<ul class="social-icons">
+<h4>Do you like mondofacto? Please share it:</h4>
+  <li><a href="http://www.stumbleupon.com/submit?url=http://www.mondofacto.com&amp;title=Mondofacto.com" target="_blank"><img src="/img/stumble.gif" alt="stumbleupon" /><br />Vote up</a></li>
+  <li><a href="http://digg.com/submit?url=http://www.mondofacto.com&amp;title=Mondofacto.com" target="_blank"><img src="/img/digg.gif" alt="digg" /><br />Digg it</a></li>
+  <li><a href="http://twitter.com/home?status=I recommend 'Mondofacto.com' (via @mondofacto) http://www.mondofacto.com" title="Spread the word on Twitter!" target="_blank"><img src="/img/twit.gif" alt="twitter" /><br />Tweet</a></li>
+  <li><a href="http://www.facebook.com/sharer.php?u=http://www.mondofacto.com&amp;t=Mondofacto.com" target="_blank"><img src="/img/face.gif" alt="facebook" /><br />Share</a></li>
+  <li><a href="mailto:?subject=Mondofacto.com&amp;body=Check out Mondofacto.com: http://www.mondofacto.com"><img src="/img/mail.gif" alt="email" /><br />Email</a></li>
+</ul>
 
+<div class="clear"></div>
 
+<div class="clear"></div> 
 
-			<div id="site-info">
-				<a href="http://blog.lesoir.be/" title="les blogs du soir.be" rel="home">
-					les blogs du soir.be				</a>
-			</div><!-- #site-info -->
+<!-- Footer content -->
 
-			<div id="site-generator">
-								<a href="http://wordpress.org/"
-						title="Plate-forme de publication personnelle à la pointe de la sémantique" rel="generator">
-					Fièrement propulsé par WordPress				</a>
-			</div><!-- #site-generator -->
-
-		</div><!-- #colophon -->
-	</div><!-- #footer -->
-
-</div><!-- #wrapper -->
-
-
-<script type="text/javascript">tb_pathToImage = "http://blog.lesoir.be/wp-includes/js/thickbox/loadingAnimation.gif";tb_closeImage = "http://blog.lesoir.be/wp-includes/js/thickbox/tb-close.png";</script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var thickboxL10n = {"next":"Suiv.\u00a0>","prev":"<\u00a0Pr\u00e9c.","image":"Image","of":"sur","close":"Fermer","noiframes":"Cette fonctionnalit\u00e9 requiert des iframes. Les iframes sont d\u00e9sactiv\u00e9es sur votre navigateur, ou alors il ne les accepte pas.","loadingAnimation":"http:\/\/blog.lesoir.be\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/blog.lesoir.be\/wp-includes\/js\/thickbox\/tb-close.png"};
-/* ]]> */
+<div id="footer_mf">
+	<a href="/"><img src="/img/footer_img.png" border="0" style="margin-top:10px;" alt="home" width="216" height="101" /></a>
+	<ul><li class="title"><a href="/index.html" title="home">general</a></li>
+		<li><a href="/about/about-us.html" title="about us">about us</a></li>
+        <li><a href="/about/contact.html" title="contact us">contact us</a></li>
+        <li><a href="/about/terms.html" title="terms of use">terms of use</a></li>
+        <li><a href="http://www.mondofacto.com/community/viewforum.php?f=10" title="what's new?">what's new?</a></li>
+	</ul>
+    <ul><li class="title"><a href="/community/" title="forum">forum</a></li>
+		<li><a href="http://www.mondofacto.com/community/viewforum.php?f=5" title="biomedical forum">biomedical</a></li>
+        <li><a href="http://www.mondofacto.com/community/viewforum.php?f=16" title="health care forum">health care</a></li>
+        <li><a href="http://www.mondofacto.com/community/viewforum.php?f=13" title="dictionary forum">dictionary</a></li>
+        <li><a href="http://www.mondofacto.com/community/viewforum.php?f=11" title="general forum">general</a></li>
+	</ul>
+    <ul><li class="title"><a href="/study-skills/" title="study skills">study skills</a></li>
+		<li><a href="/study-skills/study-kits/" title="study kits">study kits</a></li>
+        <li><a href="/study-skills/research/" title="research skills">research</a></li>
+        <li><a href="/study-skills/writing/" title="writing skills">writing</a></li>
+        <li><a href="/study-skills/presentation/" title="presenting skills">presenting</a></li>
+	</ul>
+    <ul><li class="title"><a href="http://courses.mondofacto.com" title="courses">courses</a></li>
+		<li><a href="http://courses.mondofacto.com/course/view.php?id=3" title="introduction to medical terminology">med terms</a></li>
+        <li><a href="/courses/" title="courses information">courses info</a></li>
+        <li><a href="http://courses.mondofacto.com/login/signup.php" title="register for courses">register</a></li>
+        <li><a href="http://courses.mondofacto.com/help/" title="courses help">courses help</a></li>
+	</ul>
+    <ul><li class="title"><a href="/word-tools/" title="word tools">word tools</a></li>
+		<li><a href="/word-tools/visualiser.html" title="word visualiser">word visualiser</a></li>
+        <li><a href="/word-tools/scrabble-solver.html" title="scrabble solver">scrabble solver</a></li>
+        <li><a href="/word-tools/word-finder.html" title="word finder">word finder</a></li>
+        <li><a href="/word-tools/crossword-solver.html" title="crossword solver">crossword solver</a></li>
+	</ul>
+     <ul><li class="title"><a href="/dictionary/" title="dictionary">dictionary</a></li>
+		<li><a href="/dictionary/medical.html" title="medical dictionary">medical</a></li>
+        <li><a href="/dictionary/computing.html" title="computing dictionary">computing</a></li>
+        <li><a href="/dictionary/acronym.html" title="acronyms dictionary">acronyms</a></li>
+        <li><a href="/dictionary/abbreviation.html" title="abbreviations dictionary">abbreviations</a></li>
+	</ul>
+ 
+</div>
+<div id="below_footer">
+<p><a href="/copyright.html" title="copyright statement"> &copy; mondofacto 2009-2010</a>  | <a href="/about/about-us.html" title="about us">about us</a> | <a href="/about/media-pack.html" title="advertise with us">advertise with us</a> | <a href="/disclaimer.html" title="disclaimer">disclaimer</a> | <a href="/about/privacy.html" title="privacy &amp; cookies">privacy &amp; cookies</a> | <a href="/about/contact.html" title="contact us">contact us</a></p>
+</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
-<script type='text/javascript' src='http://blog.lesoir.be/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
-<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201414'></script>
+<script type="text/javascript"> try { var pageTracker = _gat._getTracker("UA-8306070-1"); pageTracker._trackPageview(); } catch(err) {}</script>
+<script type="text/javascript"> $("input#searchbox").val("Search Mondofacto"); $("#searchbox").val("Search Mondofacto"); </script>
 </body>
 </html>

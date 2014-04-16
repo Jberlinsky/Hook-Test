@@ -1,1452 +1,607 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="ie6 no-js light_layout" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 no-js light_layout" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 no-js light_layout" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js light_layout' lang='en'>
-<!--<![endif]-->
+<html xmlns:fb="http://www.facebook.com/2008/fbml"  xmlns:og="http://ogp.me/ns#"  lang="fr-FR">
 <head>
-<title>Businessweek - Business News, Stock market &amp; Financial Advice</title>
-<meta content='C963C19A805867EAF6818CA38D8484E8' name='msvalidate.01'>
-<meta content='2014-04-02T20:18:45-04:00' name='pub_date'>
-<meta content='Businessweek.com' name='application-name'>
-<meta content='#ffffff' name='msapplication-TileColor'>
-<meta content='/assets/BW-bubble.png' name='msapplication-TileImage'>
+<meta property="fb:admins" content="100002344630968, 150606180090" />
+<meta property="fb:app_id" content="153421704734930" />
+<meta property="og:url" content="http://blog.lesoir.be/" />
+<meta property="og:type" content="blog" /><meta charset="UTF-8" />
+<title>les blogs du soir.be</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://blog.lesoir.be/wp-content/themes/twentyten-lesoir-homepage/style.css" />
+<link rel="pingback" href="http://blog.lesoir.be/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="les blogs du soir.be &raquo; Flux" href="http://blog.lesoir.be/feed/" />
+<link rel="alternate" type="application/rss+xml" title="les blogs du soir.be &raquo; Flux des commentaires" href="http://blog.lesoir.be/comments/feed/" />
+<style type='text/css'>#upprev_box {display:block;right: -400px;}</style>
+<link rel='stylesheet' id='upprev-css-css'  href='http://blog.lesoir.be/wp-content/plugins/upprev-nytimes-style-next-post-jquery-animated-fly-in-button/upprev.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='NextGEN-css'  href='http://blog.lesoir.be/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='thickbox-css'  href='http://blog.lesoir.be/wp-includes/js/thickbox/thickbox.css?ver=20121105' type='text/css' media='all' />
+<link rel='stylesheet' id='toolbar-css'  href='http://www.lesoir.be/sites/all/themes/custom_selv7/css/toolbar.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='toolbar-custom-css'  href='http://blog.lesoir.be/wp-content/mu-plugins/SSOToolbar/sso-toolbar-custom.css?ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.lesoir.be/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://blog.lesoir.be/wp-content/plugins/upprev-nytimes-style-next-post-jquery-animated-fly-in-button/upprev_js.php?ver=3.5.1'></script>
+<script type='text/javascript' src='http://blog.lesoir.be/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.9995'></script>
+<script type='text/javascript' src='http://blog.lesoir.be/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.06'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.lesoir.be/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.lesoir.be/wp-includes/wlwmanifest.xml" /> 
 
-<link href="http://www.businessweek.com/" rel="canonical" />
-<meta content="L7zxW9ChzqzPwbLIMzRbGzhn-Mly9AIDiF64J6DgQl0" name="google-site-verification" />
-<meta content="dEHOKZR1s6GmOfGrPHHJFrXJwDoZXW6BjpnhmxPzRCE" name="google-site-verification" />
-<meta content="nm_Na3kYYwG-eQKKUQs9A07nqn-GlhmC2qMzvutTDRA" name="google-site-verification" />
-
-<meta charset='utf-8'>
-<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","errorBeacon":"jserror.newrelic.com","licenseKey":"b220098848","applicationID":"138689","transactionName":"c1hbFURcXFsGRRYKW11SRQBRVh9eDVNcGg==","queueTime":0,"applicationTime":1752,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-372.min.js"}</script>
-<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgMEUVJACQAIUllb"};window.NREUM||(NREUM={}),__nr_require=function t(e,n,r){function o(i){if(!n[i]){var a=n[i]={exports:{}};e[i][0].call(a.exports,function(t){var n=e[i][1][t];return o(n?n:t)},a,a.exports,t,e,n,r)}return n[i].exports}for(var i=0;i<r.length;i++)o(r[i]);return o}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=i[t],o=r&&r.length||0,s=n[a]||(n[a]={}),d=0;o>d;d++)try{r[d].apply(s,e)}catch(u){}return s}function r(t,e){var n=i[t]||(i[t]=[]);n.push(e)}function o(t){return delete t[a]}var i={},a="nr@context";e.exports={on:r,emit:n,clear:o}},{}],2:[function(t){function e(t,e,o,a,d){return s?s-=1:n("err",[d||new UncaughtException(t,e,o)]),"function"==typeof i?i.apply(this,r(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}var n=t("handle"),r=t(6),o=t(5),i=window.onerror,a=!1,s=0;t("loader").features.push("err"),window.onerror=e;try{throw new Error}catch(d){"stack"in d&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),a=!0)}o.on("fn-start",function(){a&&(s+=1)}),o.on("fn-err",function(t,e,r){a&&(this.thrown=!0,n("err",[r,(new Date).getTime()]))}),o.on("fn-end",function(){a&&!this.thrown&&s>0&&(s-=1)})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){n.inPlace(this,i,"fn-")}var n=t(1),r=t(2),o=window.XMLHttpRequest,i=["onload","onerror","onabort","onloadstart","onloadend","onprogress","onreadystatechange","ontimeout"];window.XMLHttpRequest=function(t){var i=new o(t);return r.emit("new-xhr",[],i),n.inPlace(i,["addEventListener","removeEventListener"],"-",function(t,e){return e}),i.addEventListener("readystatechange",e,!1),i},window.XMLHttpRequest.prototype=o.prototype},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;p>o;o++)t.removeEventListener(u[o],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,s="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,d=e(s);if(d&&(r.rxSize=d),this.sameOrigin){var f=t.getResponseHeader("X-NewRelic-App-Data");f&&(n.cat=f.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,i("xhr",[n,r])}}}function r(t,e){var n=a(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}function o(t,e){return e}t("loader").features.push("xhr");var i=t("handle"),a=t(1),s=t(5),d=t(6),u=["load","error","abort","timeout"],p=u.length,f=t(2);t(3),t(4),d.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),s.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),d.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),d.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var a=e(o);a&&(r.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){}};for(var s=0;p>s;s++)n.addEventListener(u[s],this.listener,!1)}),d.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),d.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],e)}),d.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],e)}),d.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),d.on("fn-end",function(t,e){this.xhrCbStart&&d.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:15,6:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=c.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID){c.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=d.createElement("script");e.src=c.proto+t.agent,d.body.appendChild(e)}}function r(){"complete"===d.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,d=s.document,u="addEventListener",p="attachEvent",f=(""+location).split("?")[0],c=e.exports={offset:i(),origin:f,features:[]};d[u]?(d[u]("DOMContentLoaded",o,!1),s[u]("load",n,!1)):(d[p]("onreadystatechange",r),s[p]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,n,r){function nrWrapper(){var a,s=i(arguments),d=this,u=n&&n(s,d)||{};try{return o.emit(e+"start",[s,d,r],u),a=t.apply(d,s)}catch(p){throw o.emit(e+"err",[s,d,p],u),p}finally{o.emit(e+"end",[s,d,a],u)}}return t&&"function"==typeof t&&t.apply&&!t._wrapped?(e||(e=""),nrWrapper._wrapped=!0,nrWrapper):t}function r(t,e,r,o){r||(r="");var i,a,s,d="-"===r.charAt(0);for(s=0;s<e.length;s++)a=e[s],i=t[a],i&&"function"==typeof i&&i.apply&&!i._wrapped&&(t[a]=n(i,d?a+r:r,o,a,t))}var o=t(1),i=t(2);e.exports=n,n.inPlace=r},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
-<link href="http://static.btrd.net/assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-<link href="http://static.btrd.net/assets/BW-bubble.png" rel="apple-touch-icon" type="image/png" />
-<link href="http://www.businessweek.com/feeds/homepage.rss" rel="alternate" title="Businessweek.com Top News RSS" type="application/rss+xml" />
-<!-- * font definitions */ -->
-<style>
-  @font-face {
-    font-family: 'BloombergLBold';
-      src: url("/assets/type/bloombergl_heavy.eot?#iefix") format('embedded-opentype'),
-           url('/assets/type/bloombergl_heavy.ttf') format('truetype');
-      font-weight: bold;
-      font-style: normal;
-  }
-  @font-face {
-    font-family:'BWHaasHead';
-    src: url('/assets/type/hinted/haas/bwhaasgroteskhead-95black.eot?#iefix') format('eot'),
-         url('/assets/type/hinted/haas/bwhaasgroteskhead-95black.woff') format('woff'),
-         url('/assets/type/haas/bwhaasgroteskhead-95black.ttf') format('truetype');
-  
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: normal;
-  }
-  @font-face {
-    font-family:'BWHaasHead75Bold';
-    src: url('/assets/type/hinted/haas75/bwhaasgroteskhead-75bold.eot?#iefix') format('eot'),
-         url('/assets/type/hinted/haas75/bwhaasgroteskhead-75bold.woff') format('woff'),
-         url('/assets/type/haas75/bwhaasgrotesktext-75bold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: normal;
-  }
-  @font-face {
-    font-family:'BWHaasRegular';
-    src: url('/assets/web_fonts/bwhaasgroteskhead-65medium.eot?#iefix') format('eot'),
-         url('/assets/web_fonts/bwhaasgroteskhead-65medium.woff') format('woff'),
-         url('/assets/web_fonts/bwhaasgrotesktext-65medium.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: normal;
-  }
-</style>
-<link href="http://static.btrd.net/assets/application-a3dab95c9624b23348bae028eba8e542.css" media="screen" rel="stylesheet" type="text/css" />
-
-<link href="http://static.btrd.net/assets/pages-a95560bad6adc4c586ef0e60ca09def3.css" media="screen" rel="stylesheet" type="text/css" />
-
-
-<meta content="Businessweek.com" property="og:site_name" />
-
-
-<!-- BEGIN Krux Control Tag -->
-<script src="http://static.btrd.net/assets/krux-2219e2e7b21a9027972af37eaeb5ee88.js" type="text/javascript"></script>
-
-
-<script>
-  var AVAILABLE_BUCKETS = []
-</script>
-<script src="http://static.btrd.net/assets/buckets-d84e1f4dcb5b5442542ec0a4b3fb1865.js" type="text/javascript"></script>
-<meta content='width=1000px' name='viewport'>
-<script>
-  var googletag = googletag || {};
-  googletag.cmd = googletag.cmd || [];
-  (function() {
-    var gads = document.createElement("script");
-    gads.async = true;
-    gads.type = "text/javascript";
-    var useSSL = "https:" == document.location.protocol;
-    gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
-    var node =document.getElementsByTagName("script")[0];
-    node.parentNode.insertBefore(gads, node);
-   })();
-</script>
-
-<script src="http://static.btrd.net/assets/jquery.dfp.gpt.logger.override-33aaf061a2d76891ddeea42a7aa62b43.js" type="text/javascript"></script>
-<script>
-  var ROOT_URL          = "http://www.businessweek.com/";
-  var FACEBOOK_APP_KEY  = "381515401910729";
-  var FACEBOOK_APP_NS   = "bw_prod";
-  var COOKIE_DOMAIN     = "businessweek.com";
-  var SECURE_DOMAIN_URL = "https://secure.businessweek.com";
-  var STICKY_NEWS_ENGINE= "none";
-  var VIDEO_AD_PREFIX   = "http://ad.doubleclick.net/N5262/pfadx/";
-  var VIDEO_SITE        = "mgh.bw.video";
-  var VIDEO_SUB_SITE    = "/homepage";
-  var DOUBLECLICK_URL_PREFIX = "http://ad.doubleclick.net/N5262";
-  var AD_SITE           = "mgh.bw";
-  var AD_LAYOUT_DESC    = "homepage";
-  var AD_SUB_SITE       = ".home";
-  if (AD_LAYOUT_DESC.indexOf("video") >= 0){
-      AD_SITE           = VIDEO_SITE;
-      AD_SUB_SITE       = VIDEO_SUB_SITE;
-  }
-  var AD_ZONE           = ""; // TODO: this is used to tag "department" pages
-  var AD_KEYWORD        = ""; //TODO: This is used on article and department index pages
-  var AD_URL            = (window.location.pathname == undefined) ? "/" : window.location.pathname.replace(/\/?$/, '/');
-  var YIELDEX           = true;
-  var AD_INTERVAL_TO    = 450;
-  var AD_DEPT_TRACKING  = false; //Temporary flag to be removed when the time is right
-  
-  var VIDEO_AD_SIZE     = "1x1";
-  var VIDEO_AD_YIELD_EX = (YIELDEX) ? '"u=sz='+VIDEO_AD_SIZE+'|' + ';' : '';
-  var RANDOM_NUMBER     = ("1"+(""+Math.random()).substring(2,11));
-  var VIDEO_AD_SUFFIX   = ";sz="+VIDEO_AD_SIZE+";tile=15;tp_video=null;dcmt=text/html;"+encodeURIComponent(VIDEO_AD_YIELD_EX)+"ord="+RANDOM_NUMBER+";";
-  var TILE_NUMBER       = 1;
-  var URL_HASH          = window.location.hash.replace(/#video=/, '');
-  var google_ad_channel = "6537084077 3231123392";
-  var discus_car, lead_module_interval;
-  var NEGATIVE_AD_CATEGORIES = "";
-  var AD_SLOTS = {};
-  var GPT_ADS_ENABLED = false;
-  var GPT_NETWORK_ID = 5262;
-</script>
-<script src="http://static.btrd.net/assets/gpt_ads-ad7daf8cfca325e56eca2dad6127f60b.js" type="text/javascript"></script>
-<script>
-  if (!GPT_ADS_ENABLED) {
-    var COMPANION_AD_SITE = AD_SITE + AD_SUB_SITE; //these create the video companion ads
-    googletag.cmd.push(function() {
-      googletag.defineSlot(COMPANION_AD_SITE, [728,  90], 'header-companion-ad').addService(googletag.companionAds()).addService(googletag.pubads());
-      googletag.defineSlot(COMPANION_AD_SITE, [300, 250], 'right-companion-ad').addService(googletag.companionAds()).addService(googletag.pubads());
-      googletag.defineSlot(COMPANION_AD_SITE, [728,  90], 'bottom-companion-ad').addService(googletag.companionAds()).addService(googletag.pubads());
-      googletag.companionAds().setRefreshUnfilledSlots(true);
-      //googletag.pubads().disableInitialLoad();
-      googletag.enableServices();
-    });
-  }
-</script>
-
+<!-- All in One SEO Pack 1.6.14.3 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+<link rel="canonical" href="http://blog.lesoir.be/" />
+<!-- /all in one seo pack -->
+<script type="text/javascript" src="http://blog.lesoir.be/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.1"></script>
+<script type="text/javascript">AudioPlayer.setup("http://blog.lesoir.be/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<meta name="framework" content="Alkivia Framework 0.8" />
+<!-- <meta name="NextGEN" version="1.9.3" /> -->
 </head>
-<body class='homepage' data-action='index' data-controller='homepage' itemscope itemtype='http://schema.org/WebPage'>
-<div id='fb-root'></div>
-<script src="http://static.btrd.net/assets/interstitial-024ac073073e2eed55f3891bb6d35cbf.js" type="text/javascript"></script>
-<div id='showInterstitial'>
-<div id='backgroundInterstitial'></div>
-<div id='intro_ad_header'>
-<div id='small_logo'>
-<span>Bloomberg Businessweek</span>
-</div>
-<div id='skip_ad'>
-<a class='skip-ad' onclick='disableInterstitial(); return false;'>Continue to Businessweek</a>
-</div>
-</div>
-<div id='intro_ad'>
-<div id='ad-interstitial'>
+
+<body class="home blog"><div id="toolbar"></div>
 <script>
-  var interstitialStatus = 0;
-  hideIntroAd();
+	if (typeof(jQuery) == 'undefined') {
+		document.write("<scr" + "ipt type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js\"></scr" + "ipt>");
+	}
 </script>
+<script language="javascript" src="http://www.lesoir.be/toolbar/get/jquery-ui/1.7.3/jquery-ui-1.7.3.custom.min.js"></script>
+<script language="javascript" src="http://www.lesoir.be/toolbar/get/comportementToolbar.js"></script>	
+<script language="javascript" src="http://www.lesoir.be/toolbar/get/jquery.ui.rosseltoolbar.js"></script>
 <script>
-  var site = AD_SITE+AD_SUB_SITE+AD_ZONE+";";
-  var noad = 0;
-  var size = "sz=640x480;"; // comma seperated list of possible sizes :-)
-  var url  = (window.location.pathname == undefined) ? "url=/;" : "url="+window.location.pathname+";"; //path url
-  var ran  = "ord="+RANDOM_NUMBER+"?"; //a random number that is applied to all ad tags on the page for targeting and cache-busting purposes
-  var tile = "tile=1;"; //ensure interstitial always is 0 tile
-  var ist  = (parseInt(tile) == 1) ? "dcopt=ist;" : ""; //enables interstital ads on pages and should only be applied to a single ad (the first) on a page
-  var keyword = (AD_KEYWORD != "") ? "keyword="+AD_KEYWORD+";" : ""; //keyword or issue should only be set on article pages
-  var tz = "t6=interstitial;";
-  var pt = "page=t6;";
-  TILE_NUMBER++; // iterate through tile numbers on the parent window
-  
-  var issue_key = '';
-  var yield_ex_string = (parent.YIELDEX) ? ("u="+size+"|"+pt+"|"+tz+"|"+keyword).replace(/;/g, "")+";" : "";
-  
-  src = "http://ad.doubleclick.net/N5262/adj/"+site+url+size+pt+tz+tile+keyword+ist+yield_ex_string+ran;
-  document.write('<scr'+'ipt type="text/javascript" src="'+src+'"></scr'+'ipt>');
-</script>
-</div>
-</div>
-</div>
-<script>
-  var interstitialStatus = 0;
-  hideIntroAd();
-  if ( (noad !=1) && show_interstitial_ad() ) {
-    displayInterstitialAd();
-  }
-</script>
-
-<div class='clearfix' id='container'>
-<div class='clearfix' id='sign_in'>
-<div class='sign_in_frame'>
-<span class='login facebook'>
-Sign in with Facebook
-<span class='facebook_button'>
-<a href="#"><span class='inline_icon icons-connect_with_facebook facebook_login'></span>
-</a></span>
-
-</span>
-<span class='login'>Or use your Businessweek account</span>
-<div class='login_form'>
-<form accept-charset="UTF-8" action="https://secure.businessweek.com/login" class="new_user_form" id="new_user_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Ee4Hgxrh3QMbGKJ1v22E5c06WZ3n2qMdu1xHM9WKjk4=" /></div>
-<label class="for_email" for="user_form_email">Email</label>
-<input class="" id="user_form_email" maxlength="100" name="user_form[email]" size="100" type="text" />
-<label class="password" for="user_form_password">Password</label>
-<a href="https://secure.businessweek.com/password/forgot" class="forgot_password">Forgot  password?</a>
-<input class="" id="user_form_password" maxlength="20" name="user_form[password]" size="20" type="password" />
-<input name="user_form[remember_me]" type="hidden" value="0" /><input id="user_form_remember_me" name="user_form[remember_me]" type="checkbox" value="1" />
-<label class="checkbox_label" for="user_form_remember_me">Remember me</label>
-<input class="button" name="commit" type="submit" value="Sign In" />
-</form>
-</div>
-<p class='bloomberg_user'>
-Already a Bloomberg.com user?
-</p>
-<p>Sign in with the same account.</p>
-<p class='other_options'>
-Don't have an account?
-<a href="https://secure.businessweek.com/register">Sign up.</a>
-</p>
-<p class='account-help'>
-<a href="https://secure.businessweek.com/users/forgot-account">Help! I can&#x27;t access my account.</a>
-</p>
-
-</div>
-</div>
-<div class='branding_hat'></div>
-
-<div id='consent-track' style='display:none;'>
-This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies.
-<a class='close-consent-track' href="#closeConsentTrack">X</a>
-<span id='consent-track-image'>
-<script src='http://consent.truste.com/notice?domain=businessweek.com&amp;c=consent-track-image' type='text/javascript'></script>
-</span>
-</div>
-
-<div class='clearfix' id='header'>
-<div class='inner_wrapper'>
-<div id='logo'>
-<a href="http://www.businessweek.com/" class="ir" id="home_link">Bloomberg Businessweek</a>
-<h2 id='channel_name'>
-<a href="http://www.businessweek.com/businessweek">Businessweek</a>
-</h2>
-</div>
-<div id='promo'>
-<span class='house_ad non_blank_ad'>
-<iframe allowTransparency='true' class='ad_frame' data-position='circ_header' data-pt='t6' data-size='200x92,1x1' data-tile='2' data-tz='circ_header' data-uri='/dynamic_frames/ads-v2.html' frameBorder='0' scrolling='no'></iframe>
-
-</span>
-</div>
-<div id='search'>
-<div id='sub_sales_header'>
-<a href="https://subscribe.businessweek.com/servlet/OrdersGateway?cds_mag_code=BWK&amp;cds_page_id=160281" class="sub_sales"><div class='sub_sales-cover'>
-<img alt="The Design Issue" src="http://images.bwbx.io/cms/2014-03-20/1413cov_110x155.jpg" width="75px" />
-</div>
-<div class='sub_sales-background'>
-<div class='sub_sales-content'>
-<span class='sub_sales-offer'>
-LIMITED-TIME OFFER
-</span>
-<span class='sub_sales-subscribe'>
-SUBSCRIBE NOW
-</span>
-</div>
-</div>
-</a>
-</div>
-<form action='http://www.businessweek.com/search' method='get'>
-<div class='with_search_icon'>
-<input class='toggle_text' id='search_input' name='q' title='Search' type='text' value='Search'>
-</div>
-</form>
-<div id='social'>
-<div class='fb-like' data-font='arial' data-href="http://www.facebook.com/bloombergbusinessweek" data-layout='button_count' data-send='false' data-show-faces='false'></div>
-
-<a class='twitter-follow-button' data-lang='en' data-show-count='false' data-show-screen-name='true' href="http://twitter.com/BW"></a>
-
-</div>
-</div>
-</div>
-</div>
-<div id='global_nav'>
-<div class='inner_wrapper'>
-<ul class='navigation clearfix'>
-<li class='global_economics has_sub_menu tracked'>
-<a href="http://www.businessweek.com/global-economics" class="channel_link">Global Economics</a>
-</li>
-<li class='companies_and_industries has_sub_menu tracked'>
-<a href="http://www.businessweek.com/companies-and-industries" class="channel_link">Companies &amp; Industries</a>
-</li>
-<li class='politics_and_policy has_sub_menu tracked'>
-<a href="http://www.businessweek.com/politics-and-policy" class="channel_link">Politics &amp; Policy</a>
-</li>
-<li class='technology has_sub_menu tracked'>
-<a href="http://www.businessweek.com/technology" class="channel_link">Technology</a>
-</li>
-<li class='markets_and_finance has_sub_menu tracked'>
-<a href="http://www.businessweek.com/markets-and-finance" class="channel_link">Markets &amp; Finance</a>
-</li>
-<li class='innovation_and_design has_sub_menu tracked'>
-<a href="http://www.businessweek.com/innovation-and-design" class="channel_link">Innovation &amp; Design</a>
-</li>
-<li class='lifestyle has_sub_menu tracked'>
-<a href="http://www.businessweek.com/lifestyle" class="channel_link">Lifestyle</a>
-</li>
-<li class='business_schools has_sub_menu tracked'>
-<a href="http://www.businessweek.com/business-schools" class="channel_link">Business Schools</a>
-</li>
-<li class='small_business has_sub_menu tracked'>
-<a href="http://www.businessweek.com/small-business" class="channel_link">Small Business</a>
-</li>
-<li class='media has_sub_menu tracked'>
-<a href="http://www.businessweek.com/media" class="channel_link">Video &amp; Multimedia</a>
-</li>
-</ul>
-</div>
-</div>
-
-
-<span class='banner_ad top_banner_ad companion_replace'>
-<iframe allowTransparency='true' class='ad_frame' data-position='top' data-pt='t6' data-size='728x90,970x66,1x1' data-tile='3' data-tz='top' data-uri='/dynamic_frames/ads-v2.html' frameBorder='0' scrolling='no'></iframe>
-
-</span>
-<div id='flash'>
-</div>
-
-<div id='overlayer'></div>
-<div id='dialog'>
-<div id='dialog_close'></div>
-<div id='dialog_main'>
-<div id='dialog_head'></div>
-<div id='dialog_content'>
-Thank you for confirming your email address. You are now subscribed to the Businessweek Daily Newsletter.
-</div>
-<div id='dialog_foot'>
-<hr>
-&copy;2013 Bloomberg LP. All rights reserved. Made in NYC.
-<a>
-Privacy Policy
-</a>
-</div>
-</div>
-</div>
-
-
-<div id='redirect_popup'>
-<div class='redirect_notice'>
-We are sorry, the article you requested is no longer available.
-</div>
-<hr>
-<div class='redirect_sub_notice'>
-You are now being redirected to the home page for the latest articles.
-</div>
-</div>
-
-<div id='breaking_place_holder'>
-
-</div>
-<div id='hfs_place_holder'>
-</div>
-<div class='column_container clearfix'>
-<div class='column primary'>
-
-<div class='editable module lead homepage_lead' data-cell-name='lead' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='lead' data-page='homepage'>
-<div class='image_holder tl yes W'>
-<a href="http://www.businessweek.com/articles/2014-04-02/michael-lewis-interview-on-the-blowback-from-flash-boys#r=hp-lst" class="one featured_image_link" title="Lewis Calls <em>Flash Boys</em> Blowback 'Thoughtless'"><img alt="Michael Lewis, author of &quot;Flash Boys,&quot; speaks during a Bloomberg Television interview in New York, on April 2" height="354" src="http://images.bwbx.io/cms/2014-04-02/0402-michael-lewis-630x354.jpg" width="630" />
-</a><div class='scrim'></div>
-<div class='one blurb clearfix'>
-<h2 class='W'><a href="http://www.businessweek.com/articles/2014-04-02/michael-lewis-interview-on-the-blowback-from-flash-boys">Lewis Calls <em>Flash Boys</em> Blowback 'Thoughtless'</a></h2>
-<p class='W'><a href="http://www.businessweek.com/articles/2014-04-02/michael-lewis-interview-on-the-blowback-from-flash-boys">By Diane Brady</a></p>
-</div>
-<div class='arrow_indicator'></div>
-<a href="http://www.businessweek.com/articles/2014-04-02/supreme-court-does-away-with-major-restriction-on-big-spending-campaign-donors#r=hp-lst" class="two featured_image_link" title="Supreme Court Kills a Limit on Big Campaign Donors"><img alt="A volunteer prepares a donation box before a campaign stop by Republican presidential candidate, former House Speaker Newt Gingrich on Feb. 28, 2012, in Dalton, Georgia" height="354" src="http://images.bwbx.io/cms/2014-04-02/0402_supreme_court_campaign_630x354.jpg" width="630" />
-</a><div class='two blurb clearfix'>
-<h2 class='W'><a href="http://www.businessweek.com/articles/2014-04-02/supreme-court-does-away-with-major-restriction-on-big-spending-campaign-donors">Supreme Court Kills a Limit on Big Campaign Donors</a></h2>
-<p class='W'><a href="http://www.businessweek.com/articles/2014-04-02/supreme-court-does-away-with-major-restriction-on-big-spending-campaign-donors">By Karen Weise</a></p>
-</div>
-<div class='arrow_indicator'></div>
-<a href="http://www.businessweek.com/articles/2014-04-02/is-capn-crunch-staring-straight-into-your-child-s-soul#r=hp-lst" class="three featured_image_link" title="Is Cap'n Crunch Staring Straight Into Your Child’s Soul?"><img alt="Is Cap'n Crunch Staring Straight Into Your Child’s Soul?" height="354" src="http://images.bwbx.io/cms/2014-04-02/0402_cap_n_crunch_630x354.jpg" width="630" />
-</a><div class='three blurb clearfix'>
-<h2 class='W'><a href="http://www.businessweek.com/articles/2014-04-02/is-capn-crunch-staring-straight-into-your-child-s-soul">Is Cap'n Crunch Staring Straight Into Your Child’s Soul?</a></h2>
-<p class='W'><a href="http://www.businessweek.com/articles/2014-04-02/is-capn-crunch-staring-straight-into-your-child-s-soul">By Venessa Wong</a></p>
-</div>
-<div class='arrow_indicator'></div>
-</div>
-<div class='lead_module_controls'>
-<ul>
-<li>
-<h4 class='' data-blurb-location='tl' data-scrim='yes' data-text-color='W'>
-<a href="http://www.businessweek.com/articles/2014-04-02/michael-lewis-interview-on-the-blowback-from-flash-boys#r=hp-ls" class="active" data-arrow-left="90px">Lewis Calls <em>Flash Boys</em> Blowback 'Thoughtless'</a>
-</h4>
-</li>
-<li>
-<h4 class='' data-blurb-location='tr' data-scrim='no' data-text-color='W'>
-<a href="http://www.businessweek.com/articles/2014-04-02/supreme-court-does-away-with-major-restriction-on-big-spending-campaign-donors#r=hp-ls" class="" data-arrow-left="305px">Supreme Court Kills a Limit on Big Campaign Donors</a>
-</h4>
-</li>
-<li class='last'>
-<h4 class='' data-blurb-location='bl' data-scrim='yes' data-text-color='W'>
-<a href="http://www.businessweek.com/articles/2014-04-02/is-capn-crunch-staring-straight-into-your-child-s-soul#r=hp-ls" class="" data-arrow-left="505px">Is Cap'n Crunch Staring Straight Into Your Child’s Soul?</a>
-</h4>
-</li>
-</ul>
-</div>
-</div>
-
-<div class='meat clearfix' id='sortable'>
-<div class='row clearfix'>
-<div class='editable module technology standard first' data-cell-name='Technology' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='1' data-page='homepage'>
-
-<h3>
-<a href="http://www.businessweek.com/technology">Technology</a>
-</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-02/amazons-fire-tv-piles-into-the-living-room#r=hpt-lst" class="thumbnail" title="Amazon's Fire TV Piles Into the Living Room"><img alt="Amazon.com&#x27;s Peter Larsen introducing Fire TV in New York" height="127" src="http://images.bwbx.io/cms/2014-04-02/0402_amazon_fire_tv_970-190x127.jpg" width="190" /></a>
-<h4><a href="http://www.businessweek.com/articles/2014-04-02/amazons-fire-tv-piles-into-the-living-room#r=hpt-ls">Amazon's Fire TV Piles Into the Living Room</a></h4>
-</li>
-<li class=''>
-<h5><a href="http://www.businessweek.com/articles/2014-04-01/why-new-jersey-fell-far-short-of-online-gambling-expectations#r=hpt-fs">Why New Jersey's Online Gambling Experiment Is Foundering</a></h5>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-04-01/is-congress-trying-to-fix-the-wrong-patent-patent-problem#r=hpt-fs">Is Congress Trying to Fix the Wrong Patent Problem?</a></h5>
-</li>
-</ul>
-
-<div class='sponsor_logo'>
-<div class='ad_container'>
-<iframe allowTransparency='true' class='ad_frame' data-position='sponsored_by_technology' data-pt='t6' data-size='88x31,1x1' data-tile='5' data-tz='sponsored_by_technology' data-uri='/dynamic_frames/ads-v2.html' frameBorder='0' scrolling='no'></iframe>
-
-</div>
-<div class='sponsored_by'>Sponsored by</div>
-</div>
-</div>
-
-<div class='editable module companies_and_industries standard middle' data-cell-name='Companies &amp; Industries' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='2' data-page='homepage'>
-
-<h3>
-<a href="http://www.businessweek.com/companies-and-industries">Companies & Industries</a>
-</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-02/for-obamacare-co-ops-teamwork-is-a-survival-strategy#r=hpt-lst" class="thumbnail" title="For Obamacare Co-Ops, Teamwork Is a Survival Strategy"><img alt="For Obamacare Co-Ops, Teamwork Is a Survival Strategy" height="127" src="http://images.bwbx.io/cms/2014-04-02/0402-start-up-healthcare-970-190x127.jpg" width="190" /></a>
-<h4><a href="http://www.businessweek.com/articles/2014-04-02/for-obamacare-co-ops-teamwork-is-a-survival-strategy#r=hpt-ls">For Obamacare Co-Ops, Teamwork Is a Survival Strategy</a></h4>
-</li>
-<li class=''>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/why-gms-recall-mess-might-not-scare-away-new-customers#r=hpt-fs">GM's Recall Mess Might Not Scare Away New Customers</a></h5>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/atlantas-still-the-worlds-busiest-airport-but-maybe-not-for-long#r=hpt-fs">Atlanta's Airport Is Still the Busiest. How Long Can It Hold Off Dubai?</a></h5>
-</li>
-</ul>
-
-</div>
-
-<div class='editable module global_economics standard last' data-cell-name='Global Economics' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='3' data-page='homepage'>
-
-<h3>
-<a href="http://www.businessweek.com/global-economics">Global Economics</a>
-</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-02/the-leather-on-those-golf-gloves-might-come-from-a-stolen-pet-in-thailand#r=hpt-lst" class="thumbnail" title="The Leather on Those Golf Gloves Might Come From a Stolen Pet in Thailand"><img alt="Hundreds of smuggled dogs inside cages on a truck that were seized near the Thai-Laos border province of Nakhon Phanom, Thailand" height="127" src="http://images.bwbx.io/cms/2014-04-02/0402_asia_smugglers_970-190x127.jpg" width="190" /></a>
-<h4><a href="http://www.businessweek.com/articles/2014-04-02/the-leather-on-those-golf-gloves-might-come-from-a-stolen-pet-in-thailand#r=hpt-ls">The Leather on Those Golf Gloves Might Come From a Stolen Pet in Thailand</a></h4>
-</li>
-<li class=''>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/american-15-year-olds-are-pretty-good-at-solving-problems#r=hpt-fs">American 15-Year-Olds Are Pretty Good at Solving Problems</a></h5>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-04-01/with-growth-slowing-will-china-launch-a-stimulus#r=hpt-fs">With Growth Slowing, Will China Launch a Stimulus?</a></h5>
-</li>
-</ul>
-
-</div>
-
-</div>
-<div class='row clearfix'>
-<div class='editable module politics_and_policy standard first' data-cell-name='Politics &amp; Policy' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='4' data-page='homepage'>
-
-<h3>
-<a href="http://www.businessweek.com/politics-and-policy">Politics & Policy</a>
-</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-02/how-alaska-and-wyoming-make-people-from-elsewhere-pay-their-taxes#r=hpt-lst" class="thumbnail" title="How Alaska and Wyoming Make People From Elsewhere Pay Their Taxes"><img alt="The terminus of the trans-Alaska oil pipeline in Valdez, Alaska" height="127" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-04-02/0402_alaska_taxes_970-190x127.jpg" width="190" /><noscript><img alt="The terminus of the trans-Alaska oil pipeline in Valdez, Alaska" height="127" src="http://images.bwbx.io/cms/2014-04-02/0402_alaska_taxes_970-190x127.jpg" width="190" /></noscript></a>
-<h4><a href="http://www.businessweek.com/articles/2014-04-02/how-alaska-and-wyoming-make-people-from-elsewhere-pay-their-taxes#r=hpt-ls">How Alaska and Wyoming Make People From Elsewhere Pay Their Taxes</a></h4>
-</li>
-<li class=''>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/paul-ryans-deficit-reduction-plan-is-not-much-of-one#r=hpt-fs">Paul Ryan's Deficit-Reduction Plan Is Not Much of One</a></h5>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-04-01/only-time-can-answer-seven-key-questions-about-obamacare-s-success#r=hpt-fs">Seven Unanswered Questions About Obamacare</a></h5>
-</li>
-</ul>
-
-</div>
-
-<div class='editable module lifestyle standard middle' data-cell-name='Lifestyle' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='5' data-page='homepage'>
-
-<h3>
-<a href="http://www.businessweek.com/lifestyle">Lifestyle</a>
-</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-02/what-a-tiger-less-masters-means-for-cbs#r=hpt-lst" class="thumbnail" title="What a Tiger-less Masters Means for CBS"><img alt="Tiger Woods watches his tee shot during the final round of the Cadillac Championship golf tournament on March 9 in Doral, Florida" height="127" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-04-02/0402_tiger_masters_970-190x127.jpg" width="190" /><noscript><img alt="Tiger Woods watches his tee shot during the final round of the Cadillac Championship golf tournament on March 9 in Doral, Florida" height="127" src="http://images.bwbx.io/cms/2014-04-02/0402_tiger_masters_970-190x127.jpg" width="190" /></noscript></a>
-<h4><a href="http://www.businessweek.com/articles/2014-04-02/what-a-tiger-less-masters-means-for-cbs#r=hpt-ls">What a Tiger-less Masters Means for CBS</a></h4>
-</li>
-<li class=''>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/the-surprising-reason-we-pay-for-a-strangers-coffee#r=hpt-fs">The Surprising Reason We Pay for a Stranger's Coffee</a></h5>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/the-fame-ready-cast-of-the-michael-lewis-publicity-blitz-for-flash-boys-book#r=hpt-fs">The Fame-Ready Cast of the Michael Lewis Publicity Blitz</a></h5>
-</li>
-</ul>
-
-</div>
-
-<div class='editable  module all standard last full_frame_holder' data-cell-name='sillo' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='6' data-page='homepage'>
-<div class='full_frame_container'>
-<a href="http://www.businessweek.com/videos/2014-04-01/how-superman-iii-explains-high-frequency-trading#r=hpt-tout"><img alt="0331_superman_sillo" height="320" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-04-02/0331_superman_sillo.jpg" width="200" /><noscript><img alt="0331_superman_sillo" height="320" src="http://images.bwbx.io/cms/2014-04-02/0331_superman_sillo.jpg" width="200" /></noscript></a>
-</div>
-</div>
-
-</div>
-<div class='row clearfix'>
-<div class='editable module small_business taller first' data-cell-name='Small Business' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='7' data-page='homepage'>
-
-<h3>
-<a href="http://www.businessweek.com/small-business">Small Business</a>
-</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-01/how-to-spark-your-brand#r=hpt-lst" class="thumbnail" title="How to Spark Your Brand"><img alt="Scene from Farmed and Dangerous" height="127" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-03-31/0331_spark_brand_970-190x127.jpg" width="190" /><noscript><img alt="Scene from Farmed and Dangerous" height="127" src="http://images.bwbx.io/cms/2014-03-31/0331_spark_brand_970-190x127.jpg" width="190" /></noscript></a>
-<h4><a href="http://www.businessweek.com/articles/2014-04-01/how-to-spark-your-brand#r=hpt-ls">How to Spark Your Brand</a></h4>
-</li>
-<li class=''>
-<h5><a href="http://www.businessweek.com/articles/2014-03-31/brokers-get-big-commissions-for-selling-entrepreneurs-costly-loans#r=hpt-fs">Lenders and Brokers Push Pricey Loans to Entrepreneurs</a></h5>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-03-28/windfall-earnings-can-make-you-repay-your-obamacare-subsidy#r=hpt-fs">How Windfall Earnings Can Spoil Your Obamacare Subsidy</a></h5>
-</li>
-</ul>
-
-<div class='sponsor_logo'>
-<div class='ad_container'>
-<iframe allowTransparency='true' class='ad_frame' data-position='sponsored_by_small_business' data-pt='t6' data-size='88x31,1x1' data-tile='11' data-tz='sponsored_by_small_business' data-uri='/dynamic_frames/ads-v2.html' frameBorder='0' scrolling='no'></iframe>
-
-</div>
-<div class='sponsored_by'>Sponsored by</div>
-</div>
-</div>
-
-<div class='editable module special_features taller two_col last' data-cell-name='He’s Got Chutzpah' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='special_features' data-page='homepage'>
-<h3>He’s Got Chutzpah</h3>
-<a href="http://www.businessweek.com/articles/2014-04-02/former-massey-ceo-don-blankenship-a-notorious-former-coal-chief-makes-his-case-for-vindication"><img alt="Blankenship in 2010" height="270" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-04-02/0402_coal_ceo_970-405x270.jpg" width="405" /><noscript><img alt="Blankenship in 2010" height="270" src="http://images.bwbx.io/cms/2014-04-02/0402_coal_ceo_970-405x270.jpg" width="405" /></noscript></a>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/former-massey-ceo-don-blankenship-a-notorious-former-coal-chief-makes-his-case-for-vindication#r=hp-sf">A Notorious Former Coal Chief Makes His Case for Vindication</a></h5>
-<p>Don Blankenship, who ran accident-plagued Massey Energy, has released a documentary absolving himself of blame for a deadly 2010 mined disaster.</p>
-</div>
-
-</div>
-<div class='row clearfix'>
-<div class='editable module featured_blog shorter first' data-cell-name='Marketing' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='features-1' data-page='homepage'>
-
-<h3>Marketing</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-02/how-samsung-tricked-obama-into-shooting-that-selfie-with-david-ortiz#r=hpf-st" class="thumbnail" title="How Samsung Tricked Obama Into Shooting That Selfie With David Ortiz"><img alt="Boston Red Sox designated hitter David Ortiz poses for a &#x27;selfie&#x27; with President Barack Obama on the South Lawn of the White House on April 1 in Washington" height="127" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-04-02/0402_obama_selfie_970-190x127.jpg" width="190" /><noscript><img alt="Boston Red Sox designated hitter David Ortiz poses for a &#x27;selfie&#x27; with President Barack Obama on the South Lawn of the White House on April 1 in Washington" height="127" src="http://images.bwbx.io/cms/2014-04-02/0402_obama_selfie_970-190x127.jpg" width="190" /></noscript></a>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/how-samsung-tricked-obama-into-shooting-that-selfie-with-david-ortiz#r=hpf-s">How Samsung Tricked Obama Into Shooting That Selfie</a></h5>
-</li>
-</ul>
-</div>
-
-<div class='editable module featured_story shorter middle' data-cell-name='Smart Ship' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='features-2' data-page='homepage'>
-
-<h3>Smart Ship</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-02/the-navys-newest-destroyer-is-a-drone#r=hpf-st" class="thumbnail" title="The Navy&#x27;s Newest Destroyer Is a Drone"><img alt="The Navy&#x27;s Newest Destroyer Is a Drone" height="127" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-04-01/0401_navy_drone_970-190x127.jpg" width="190" /><noscript><img alt="The Navy&#x27;s Newest Destroyer Is a Drone" height="127" src="http://images.bwbx.io/cms/2014-04-01/0401_navy_drone_970-190x127.jpg" width="190" /></noscript></a>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-04-02/the-navys-newest-destroyer-is-a-drone#r=hpf-s">The Navy's Newest Destroyer Is a Drone</a></h5>
-</li>
-</ul>
-</div>
-
-<div class='editable module featured_story shorter last' data-cell-name='Cars' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='features-3' data-page='homepage'>
-
-<h3>Cars</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-01/fiats-baby-jeep-strategy-pays-off#r=hpf-st" class="thumbnail" title="Fiat’s ‘Baby Jeep’ Strategy Pays Off"><img alt="2014 Jeep Cherokee" height="127" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-04-01/0401_jeep_970-190x127.jpg" width="190" /><noscript><img alt="2014 Jeep Cherokee" height="127" src="http://images.bwbx.io/cms/2014-04-01/0401_jeep_970-190x127.jpg" width="190" /></noscript></a>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-04-01/fiats-baby-jeep-strategy-pays-off#r=hpf-s">Fiat’s ‘Baby Jeep’ Strategy Pays Off</a></h5>
-</li>
-</ul>
-</div>
-
-
-</div>
-<div class='row clearfix'>
-<div class='editable module markets_and_finance first' data-cell-name='Markets &amp; Finance' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='8' data-page='homepage'>
-
-<h3>
-<a href="http://www.businessweek.com/markets-and-finance">Markets & Finance</a>
-</h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-04-01/what-michael-lewis-gets-wrong-about-high-frequency-trading#r=hpt-lst" class="thumbnail" title="What Michael Lewis Gets Wrong About Speed Trading "><img alt="Lewis" height="127" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-04-01/0401_lewis_970-190x127.jpg" width="190" /><noscript><img alt="Lewis" height="127" src="http://images.bwbx.io/cms/2014-04-01/0401_lewis_970-190x127.jpg" width="190" /></noscript></a>
-<h4><a href="http://www.businessweek.com/articles/2014-04-01/what-michael-lewis-gets-wrong-about-high-frequency-trading#r=hpt-ls">What Michael Lewis Gets Wrong About Speed Trading </a></h4>
-</li>
-<li class=''>
-<h5><a href="http://www.businessweek.com/articles/2014-04-01/in-social-finance-investors-can-make-money-by-doing-good#r=hpt-fs">'Social Finance': Doing Good by Doing Well</a></h5>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-03-31/what-your-accountant-thinks-about-your-bitcoins#r=hpt-fs">What Your Accountant Thinks About Your Bitcoins</a></h5>
-</li>
-</ul>
-
-</div>
-
-<div class='editable module two_col b-school middle clearfix' data-cell-name='Business Schools' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='business_schools' data-page='homepage'>
-<h3><a href="http://www.businessweek.com/business-schools">Business Schools</a></h3>
-<ul>
-<li class='clearfix'>
-<a href="http://www.businessweek.com/articles/2014-03-25/student-loan-debt-piles-up-for-graduate-students-but-not-mbas#r=hpt-lst" class="thumbnail" title="Debt Is Piling Up Faster for Most Graduate Students—but Not MBAs"><img alt="Harvard Business School campus" height="127" class="lazy" src="/assets/grey.gif" data-original="http://images.bwbx.io/cms/2014-03-24/0324_bschools_debt_970-190x127.jpg" width="190" /><noscript><img alt="Harvard Business School campus" height="127" src="http://images.bwbx.io/cms/2014-03-24/0324_bschools_debt_970-190x127.jpg" width="190" /></noscript></a>
-<h4><a href="http://www.businessweek.com/articles/2014-03-25/student-loan-debt-piles-up-for-graduate-students-but-not-mbas#r=hpt-ls">Debt Is Piling Up Faster for Most Graduate Students—but Not MBAs</a></h4>
-</li>
-<li class=''>
-<h5><a href="http://www.businessweek.com/articles/2014-03-25/mit-sloan-students-build-startup-to-help-solve-u-dot-s-dot-food-waste#r=hpt-fs">These First-Year MBAs Are Trying to Solve America’s Food Waste Problem</a></h5>
-</li>
-<li class='last'>
-<h5><a href="http://www.businessweek.com/articles/2014-03-19/audiocommons-founder-on-why-business-school-is-worth-it#r=hpt-fs">AudioCommon's Founder on Why Business School Is Worth It</a></h5>
-</li>
-</ul>
-
-<ul class='tools'>
-<li class='first'>
-Tools
-</li>
-<li class=''>
-<a href="http://www.businessweek.com/bschools/rankings">Rankings and Profiles</a>
-</li>
-<li class=''>
-<a href="http://www.businessweek.com/bschools/mbainsider/">MBA Programs</a>
-</li>
-<li class=''>
-<a href="http://forums.businessweek.com/bw-bschools/start/">Forums</a>
-</li>
-<li class=''>
-<a href="http://www.businessweek.com/bschools/rankings/school_finder">School Finder</a>
-</li>
-<li class='last'>
-<a href="http://www.businessweek.com/bschools/blogs/business-school-explained/">B-School, Explained</a>
-</li>
-</ul>
-<div class='clear'>
-<div class='sponsor_logo'>
-<div class='ad_container'>
-<iframe allowTransparency='true' class='ad_frame' data-position='business_schools' data-pt='t6' data-size='88x31,1x1' data-tile='16' data-tz='business_schools' data-uri='/dynamic_frames/ads-v2.html' frameBorder='0' scrolling='no'></iframe>
-
-</div>
-<p class='sponsored_by'>Sponsored by</p>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class='row clearfix'>
-<div class='editable module full media middle clearfix' data-cell-name='Watch' data-is-curated='true' data-is-draft='false' data-is-master='false' data-page-id='' data-page-position='media' data-page='homepage'>
-
-<h3><a href="http://www.businessweek.com/videos">Watch</a></h3>
-<div class='featured'>
-<div class='inline_player_no_iframe' data-bmmr_id='vDhN9fA7R3ucsMmqXTfmyg' data-url='http://www.businessweek.com/videos/2014-04-02/the-top-five-largest-american-auto-recalls' height='228' width='405'>
-<video  id='video_player' class='video-js vjs-default-skin' controls='' preload='auto' auto-setup='' data-setup='{"techOrder":["flash","html5"],"controls":false,"flash":{"flashVars":{"live":false,"poster_as_slate":false,"ads.preroll.unit":"mgh.bw.video/homepage","ads.preroll.gpt":true,"ads.midroll.unit":"","ads.midroll.gpt":false,"ads.companions.disable":false,"autoplay":true,"ads.playback.timeout":15000,"ads.vast.timeout":15000,"module.com.bloomberg.player.media::MediaController":"enabled","module.com.bloomberg.player.media::MediaLoader":"enabled","module.com.bloomberg.player.media::MediaContainer":"enabled","module.com.bloomberg.player.chrome::Chrome":"enabled","module.com.bloomberg.player.captions::Captions":"enabled","module.com.bloomberg.player.ads::AdPlayer":"enabled","module.com.bloomberg.player.ads::LiveStreamAdSensor":"enabled","module.com.bloomberg.player.js::JsMediaController":"enabled","module.com.bloomberg.player.js::EventBridge":"enabled","module.com.bloomberg.player.js::UserPreferencesStore":"enabled","module.com.bloomberg.player.reporting::ConvivaInsights":"enabled","log.*.debug":false,"js.events.callback":"onPlayerEvent","js.playback.callback":"onPlaybackStatusChange","ads.live.ads_per_block":3,"ads.live.playback_delay":4,"ui.autohide.timeout":2000,"controls.popout":false,"controls.fullscreen":true,"allow_dvr":false,"ui.skin.url":"http://cdn.gotraffic.net/projector/v0.7.36/skin.png","buffering.animation":"http://cdn.gotraffic.net/projector/v0.7.36/buffering-animation.gif","ads.preroll.network.id":5262,"conviva.account":"c3.Bloomberg","conviva.custom.tags":{"serviceUrl":"http://livepass.conviva.com","Type":"Video","Source":"BWweb","Zone":"video"},"ads.preroll.suffix":"story=bc384df5-f03b-477b-9cb0-c9aa5d37e6ca","poster":"http://www.bloomberg.com/image/i4uDaQGCdYh4.jpg"},"params":{"allowfullscreen":true,"quality":"high","bgcolor":"#000000","allowscriptaccess":"always","wmode":"transparent"},"swf":"http://cdn.gotraffic.net/projector/latest/BloombergPlayer.swf"},"start_time":0,"plugins":{"comscoreMatrixPlugin":{"c3":"BBG"},"comscorePlugin":{"ns_site":"businessweek","page_level_tags":{},"c4":"BBG","c5":"02"},"adClickPlugin":{},"chartbeatPlugin":{"uid":15087,"domain":"bloomberg.com"}},"use_comscore":true,"use_clickable_ads":true,"use_thumbnail":111011423,"use_chartbeat":true,"limit_html_player_to":"","width":405,"height":228,"metadata":{"id":"bc384df5-f03b-477b-9cb0-c9aa5d37e6ca","title":"The Top Five Largest American Auto Recalls","duration":"84000","createdate":"2014-03-31","form_type":"short-form","c5":"02","bb_pub_d":"2014-04-02 10:29:29 -0400","show_name":"Lunch Money","ni_codes":["COS","GEN","US","VIDTVEDI","WEBSUBMIT","VIDMAR","VIDMLDUS","VIDYT","VIDMAN"],"version":"0.7.36"}}' width='405' height='228' poster='http://www.bloomberg.com/image/i4uDaQGCdYh4.jpg' style='width: 405px; height: 228px;  ' ><source src="http://cdn-mobapi.bloomberg.com/mobapi/v2/ipad/media/video/cc/WiFi/vDhN9fA7R3ucsMmqXTfmyg.m3u8" type="video/mp4" data-bitrate=""/><source src="http://b5vod-vh.akamaihd.net/z/m/NTk3ODEzMA/zUo4Vu1e30cQmfKjqZFlbRcWz4ac0EZO6t8xpbjD.NdiMGUx/38b2e511-2582-4c97-a643-635e82af9364_,15,24,44,70,120,180,240,0.mp4.csmil/manifest.f4m?hdcore=1" type="video/mp4" data-bitrate=""/></video>
-
-</div>
-<a href="http://www.businessweek.com/videos/2014-04-02/the-top-five-largest-american-auto-recalls" class="video_frame homepage_media clearfix" data-bmmr-video-id="vDhN9fA7R3ucsMmqXTfmyg" data-frame-height="228" data-frame-width="405" style="background:#000;"><img alt="The Top Five Largest American Auto Recalls" height="225" class="lazy" src="/assets/grey.gif" data-original="http://www.bloomberg.com/image/i4uDaQGCdYh4.jpg" width="400" /><noscript><img alt="The Top Five Largest American Auto Recalls" height="225" src="http://www.bloomberg.com/image/i4uDaQGCdYh4.jpg" width="400" /></noscript>
-<span>Play</span>
-</a>
-<h4><a href="http://www.businessweek.com/videos/2014-04-02/the-top-five-largest-american-auto-recalls#r=hpm-ls">The Top Five Largest American Auto Recalls</a></h4>
-<p>April 2 (Bloomberg) -- With GM's ignition-switch recall growing, today's &quot;Lunch Money Top 5&quot; ranks the largest auto recalls in U.S. history by sheer size.</p>
-</div>
-<div class='secondary'>
-<ul class='media_list'>
-<li>
-<a href="http://www.businessweek.com/videos/2014-04-01/dont-name-your-business-after-a-will-ferrell-movie#r=hpm-st" class="thumbnail" title="Don't Name Your Business After a Will Ferrell Movie"><img alt="Don't Name Your Business After a Will Ferrell Movie" height="107" class="lazy" src="/assets/grey.gif" data-original="http://www.bloomberg.com/image/iPhR5WSjyinE.jpg" width="190" /><noscript><img alt="Don't Name Your Business After a Will Ferrell Movie" height="107" src="http://www.bloomberg.com/image/iPhR5WSjyinE.jpg" width="190" /></noscript>
-<span>Video</span>
-</a><h4>
-<a href="http://www.businessweek.com/videos/2014-04-01/dont-name-your-business-after-a-will-ferrell-movie#r=hpm-s">Don't Name Your Business After a Will Ferrell Movie</a>
-</h4>
-</li>
-<li>
-<a href="http://www.businessweek.com/videos/2014-04-01/how-superman-iii-explains-high-frequency-trading#r=hpm-st" class="thumbnail" title="How 'Superman III' Explains High-Frequency Trading"><img alt="How 'Superman III' Explains High-Frequency Trading" height="107" class="lazy" src="/assets/grey.gif" data-original="http://www.bloomberg.com/image/iIsT5FxMmBzw.jpg" width="190" /><noscript><img alt="How 'Superman III' Explains High-Frequency Trading" height="107" src="http://www.bloomberg.com/image/iIsT5FxMmBzw.jpg" width="190" /></noscript>
-<span>Video</span>
-</a><h4>
-<a href="http://www.businessweek.com/videos/2014-04-01/how-superman-iii-explains-high-frequency-trading#r=hpm-s">How 'Superman III' Explains High-Frequency Trading</a>
-</h4>
-</li>
-</ul>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-<div class='column rail'>
-<div class='module clearfix tabbed headlines '>
-<h3>
-<a href="http://www.businessweek.com/feeds/most-popular.rss">
-<span class='timestamp rss'>
-Feed
-<span class='inline_icon icons-rss'></span>
-</span>
-</a>
-<a href="http://www.businessweek.com/archive/news.html">Headlines</a>
-</h3>
-<ul class='tabs_controller'>
-<li class='tracked active not_last' data-action-type='Tab Switch' data-actions='click' data-category='Tabbed Module' data-label='Most Popular'>
-<a class='active' href="#Most-Popular-Tab">
-Most Popular
-</a>
-</li>
-<li class='tracked  not_last' data-action-type='Tab Switch' data-actions='click' data-category='Tabbed Module' data-label='Bloomberg'>
-<a class='' href="#Bloomberg-Tab">
-Bloomberg
-</a>
-</li>
-<li class='tracked  last' data-action-type='Tab Switch' data-actions='click' data-category='Tabbed Module' data-label='Recent'>
-<a class='' href="#Recent-Tab">
-Recent
-</a>
-</li>
-</ul>
-<div class='active tab_panel'>
-<a name='Most-Popular-Tab'></a>
-<ul>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-01/fiats-baby-jeep-strategy-pays-off#r=most popular">Fiat’s ‘Baby Jeep’ Strategy Pays Off</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/the-navys-newest-destroyer-is-a-drone#r=most popular">The Navy's Newest Destroyer Is a Drone</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/how-alaska-and-wyoming-make-people-from-elsewhere-pay-their-taxes#r=most popular">How Alaska and Wyoming Make People From Elsewhere Pay Their Taxes</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/how-samsung-tricked-obama-into-shooting-that-selfie-with-david-ortiz#r=most popular">How Samsung Tricked Obama Into Shooting That Selfie With David Ortiz</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-01/what-michael-lewis-gets-wrong-about-high-frequency-trading#r=most popular">What Michael Lewis Gets Wrong About High-Frequency Trading</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/the-surprising-reason-we-pay-for-a-strangers-coffee#r=most popular">The Surprising Reason We Pay for a Stranger's Coffee</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/amazons-fire-tv-piles-into-the-living-room#r=most popular">Amazon's Fire TV Piles Into the Living Room</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-01/nra-does-victory-dance-over-the-woes-of-a-california-gun-foe#r=most popular">NRA Does Victory Dance Over the Woes of a California Gun Foe</a>
-</li>
-</ul>
-</div>
-<div class='tab_panel'>
-<a name='Bloomberg-Tab'></a>
-<ul>
-<li>
-<a href="http://www.businessweek.com/news/2014-04-02/asian-futures-rise-with-u-dot-s-dot-stocks-on-jobs-copper-oil-retreat#r=bloomberg">Nikkei Futures Gain as Copper Futures Snap Advance; Oil Retreats</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/news/2014-04-02/blythe-masters-will-leave-as-jpmorgan-divests-commodity-business#r=bloomberg">Commodities Chief Blythe Masters Ends 27-Year Run at JPMorgan</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/news/2014-04-02/brazil-lifts-key-rate-to-11-percent-as-food-shock-worsens-price-outlook#r=bloomberg">Brazil Raises Key Rate for Ninth Straight Meeting to 11%</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/news/2014-04-02/michael-lewis-says-einhorn-was-like-a-dumb-tourist-in-market#r=bloomberg">Einhorn Was Like a ‘Dumb Tourist’ in the Market: Michael Lewis</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/news/2014-04-02/michael-lewis-nobody-understands-the-stock-market#r=bloomberg">Michael Lewis: Nobody Understands the Stock Market</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/news/2014-04-02/boeing-to-cut-300-jobs-in-australia-as-manufacturing-struggles#r=bloomberg">Boeing to Cut 300 Jobs in Australia as Manufacturing Weakens (1)</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/news/2014-04-02/coolpad-targets-20-million-online-phone-sales-to-overtake-lenovo#r=bloomberg">Coolpad Targets 20 Million Online Phone Sales to Overtake Lenovo</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/news/2014-04-02/dmitry-firtash-five-others-accused-of-racketeering-by-u-dot-s#r=bloomberg">Ukrainian Firtash Charged by U.S. in India Mine Bribe Scheme (3)</a>
-</li>
-</ul>
-</div>
-<div class='tab_panel'>
-<a name='Recent-Tab'></a>
-<ul>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/michael-lewis-interview-on-the-blowback-from-flash-boys#r=recent">Lewis Calls <em>Flash Boys</em> Blowback 'Thoughtless'</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/for-obamacare-co-ops-teamwork-is-a-survival-strategy#r=recent">For Obamacare Co-Ops, Teamwork Is a Survival Strategy</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/what-a-tiger-less-masters-means-for-cbs#r=recent">What a Tigerless Masters Means for CBS</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/how-alaska-and-wyoming-make-people-from-elsewhere-pay-their-taxes#r=recent">How Alaska and Wyoming Make People From Elsewhere Pay Their Taxes</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/is-capn-crunch-staring-straight-into-your-child-s-soul#r=recent">Is Cap'n Crunch Staring Straight Into Your Child’s Soul?</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/former-massey-ceo-don-blankenship-a-notorious-former-coal-chief-makes-his-case-for-vindication#r=recent">Notorious Former Coal Chief Makes His Case for Vindication</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/atlantas-still-the-worlds-busiest-airport-but-maybe-not-for-long#r=recent">Atlanta's Still the World's Busiest Airport—but Maybe Not for Long</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/supreme-court-does-away-with-major-restriction-on-big-spending-campaign-donors#r=recent">Supreme Court Does Away With a Major Restriction on Big-Spending Campaign Donors</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/amazons-fire-tv-piles-into-the-living-room#r=recent">Amazon's Fire TV Piles Into the Living Room</a>
-</li>
-<li>
-<a href="http://www.businessweek.com/articles/2014-04-02/why-gms-recall-mess-might-not-scare-away-new-customers#r=recent">Why GM's Recall Mess Might Not Scare Away New Customers</a>
-</li>
-</ul>
-</div>
-</div>
-
-<div class='module advertisement rectangle'>
-<iframe allowTransparency='true' class='ad_frame' data-position='right2' data-pt='t6' data-size='300x250,300x600,300x1050,1x1' data-tile='4' data-tz='right2' data-uri='/dynamic_frames/ads-v2.html' frameBorder='0' scrolling='no'></iframe>
-
-</div>
-<div class='clearfix module tabbed headlines ' id='market_summary'>
-<h3>
-<span class='timestamp'>
-Last Updated: 08:03 pm
-</span>
-<a href="http://investing.businessweek.com/research/markets/overview/overview.asp#r=msm">Market Summary</a>
-</h3>
-<ul class='tabs_controller'>
-<li class='active'>
-<a class='active' href="#US-Tab">
-US
-</a>
-</li>
-<li>
-<a href="#Europe-Tab">
-Europe
-</a>
-</li>
-<li class='last'>
-<a href="#Asia-Tab">
-Asia
-</a>
-</li>
-</ul>
-<div class='tab_panel active'>
-<a name='US-Tab'></a>
-<table>
-<tr>
-<td class='first'><a href="http://investing.businessweek.com/research/markets/detail/marketdetail.asp?marketCode=SPX:IND">S&P500</a></td>
-<td>1890.9</td>
-<td class='positive'>5.38</td>
-</tr>
-<tr>
-<td class='first'><a href="http://investing.businessweek.com/research/markets/detail/marketdetail.asp?marketCode=INDU:IND">DJIA</a></td>
-<td>16573.0</td>
-<td class='positive'>40.39</td>
-</tr>
-<tr>
-<td class='first'><a href="http://investing.businessweek.com/research/markets/detail/marketdetail.asp?marketCode=CCMP:IND">NASDAQ</a></td>
-<td>4276.456</td>
-<td class='positive'>8.416</td>
-</tr>
-</table>
-</div>
-<div class='tab_panel'>
-<a name='Europe-Tab'></a>
-<table>
-<tr>
-<td class='first'>Stoxx 50</td>
-<td>3187.45</td>
-<td class='positive'>1.11</td>
-</tr>
-<tr>
-<td class='first'><a href="http://investing.businessweek.com/research/markets/detail/marketdetail.asp?marketCode=UKX:IND">FTSE 100</a></td>
-<td>6659.04</td>
-<td class='positive'>6.43</td>
-</tr>
-<tr>
-<td class='first'><a href="http://investing.businessweek.com/research/markets/detail/marketdetail.asp?marketCode=DAX:IND">DAX</a></td>
-<td>9623.36</td>
-<td class='positive'>19.65</td>
-</tr>
-</table>
-</div>
-<div class='tab_panel'>
-<a name='Asia-Tab'></a>
-<table>
-<tr>
-<td class='first'>Nikkei</td>
-<td>14946.32</td>
-<td class='positive'>154.33</td>
-</tr>
-<tr>
-<td class='first'>Topix</td>
-<td>1211.36</td>
-<td class='positive'>7.11</td>
-</tr>
-<tr>
-<td class='first'><a href="http://investing.businessweek.com/research/markets/detail/marketdetail.asp?marketCode=HSI:IND">Hang Seng</a></td>
-<td>22523.94</td>
-<td class='positive'>75.4</td>
-</tr>
-</table>
-</div>
-</div>
-
-<div class='module'>
-
-</div>
-<div class='module' id='company_search'>
-<h4>
-<a href="http://investing.businessweek.com/research/common/symbollookup/symbollookup.asp#r=cmp-lkp">Company Lookup</a>
-</h4>
-<form action='http://investing.businessweek.com/research/stocks/snapshot/snapshot.asp' id='cic_form_companies_mentioned' method='get'>
-<input class='cic-company-search-input toggle_text' name='symbol' title='Ticker Symbol or Company' type='text'>
-<button class='lookup_go' name='lookup'>Go</button>
-</input>
-</form>
-</div>
-
-<div class='module advertisement rectangle'>
-<iframe allowTransparency='true' class='ad_frame' data-position='circ_right' data-pt='t6' data-size='300x123,1x1' data-tile='12' data-tz='circ_right' data-uri='/dynamic_frames/ads-v2.html' frameBorder='0' scrolling='no'></iframe>
-
-</div>
-<div class='module'>
-<div class='newsletter_promo' data-page-name='home'>
-<h3 class=''>Newsletter Signup</h3>
-<div class='icons-bw_daily_promo'>
-<a class='newsletter_preview_link' data-url='/newsletters/bw-daily/747' href="javascript::void(0);">
-Sample copy
-</a>
-</div>
-<span class='newsletter_form'>
-<form accept-charset="UTF-8" action="/newsletters/daily_subscription" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Ee4Hgxrh3QMbGKJ1v22E5c06WZ3n2qMdu1xHM9WKjk4=" /></div>
-<input class="email" id="_email" name="[email]" placeholder="Enter Your Email" size="30" type="email" />
-<input class="flat_button" name="commit" type="submit" value="I&#x27;m in" />
-<div class='delayed_display'>
-<div class='input_group'>
-<input name="[bw_promotions]" type="hidden" value="0" /><input checked="checked" id="_bw_promotions" name="[bw_promotions]" type="checkbox" value="1" />
-<label for="_bw_promotions">Businessweek.com, on behalf of itself and select partners, may send me offers and promotions.</label>
-</div>
-<div class='input_group'>
-<input name="[bb_promotions]" type="hidden" value="0" /><input id="_bb_promotions" name="[bb_promotions]" type="checkbox" value="1" />
-<label for="_bb_promotions">Bloomberg, on behalf of itself and select partners, may send me offers and promotions.</label>
-</div>
-</div>
-</form>
-</span>
-<p class='complete'>
-Thank you for subscribing to our
-Daily Newsletter.
-You will receive a confirmation email shortly at
-<span class='email_holder'></span>.
-</p>
-</div>
-<div id='newsletter_content'></div>
-
-</div>
-<div class='clearfix module' id='google_ads'>
-<h3>Ads by Google</h3>
-<ul></ul>
-</div>
-
-<div class='module advertisement rectangle'>
-<iframe allowTransparency='true' class='ad_frame' data-position='right3' data-pt='t6' data-size='300x250,1x1' data-tile='13' data-tz='right3' data-uri='/dynamic_frames/ads-v2.html' frameBorder='0' scrolling='no'></iframe>
-
-</div>
-<div class='module' data-channel='default' data-page-type='homepage' id='simply_hired'>
-<h3>
-<a href="http://jobs.businessweek.com/a/jbb/post-job" class="post_job" rel="external" title="Post a Job">Post a Job</a>
- Jobs
-</h3>
-<ul>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-business+development" rel="external" title="Business Development jobs">Business Development jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-design" rel="external" title="Design jobs">Design jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-entertainment" rel="external" title="Entertainment jobs">Entertainment jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-environmental" rel="external" title="Environmental jobs">Environmental jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-executive" rel="external" title="Executive jobs">Executive jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-healthcare" rel="external" title="Healthcare jobs">Healthcare jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-legal" rel="external" title="Legal jobs">Legal jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-management" rel="external" title="Management jobs">Management jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-marketing" rel="external" title="Marketing jobs">Marketing jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-real+estate" rel="external" title="Real Estate jobs">Real Estate jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-retail" rel="external" title="Retail jobs">Retail jobs</a>
-</li>
-<li>
-<a href="http://jobs.businessweek.com/a/all-jobs/list/q-sales" rel="external" title="Sales jobs">Sales jobs</a>
-</li>
-</ul>
-<a href="http://www.simplyhired.com" class="ir simply_hired_logo">Simply Hired</a>
-<a href="http://jobs.businessweek.com/" class="all_jobs" rel="external">View all  jobs</a>
-</div>
-
-<div class='module' data-cid='3836-2877520479' id='bw_mall'>
-<h3>Sponsored Links</h3>
-<div class='bw_mall_ads'></div>
-<p><a href="http://www.industrybrains.com/businessweek/" class="buy_link" rel="nofollow">Buy a link now!</a></p>
-</div>
-
-<div class='clearfix' id='special_ads'>
-<h3>SPECIAL ADVERTISING</h3>
-<ul>
-<li>
-<a href="http://www.businessweek.com/ad-section/zurich/a-new-world-of-risk/">A New World of Risk</a>
-</li>
-</ul>
-</div>
-
-</div>
-</div>
-
-
-
-<div class='clearfix' id='footer'>
-<div class='social module'>
-<h3>Social</h3>
-<ul>
-<li class='twitter'>
-<a href="http://twitter.com/BW">Follow us on Twitter</a>
-</li>
-<li class='fb'>
-<a href="http://facebook.com/Bloombergbusinessweek/">Join us on Facebook</a>
-</li>
-<li class='linked_in'>
-<a href="http://www.linkedin.com/today/businessweek">Connect with us on LinkedIn</a>
-</li>
-<li class='subscribe last'>
-<a href="https://subscribe.businessweek.com/servlet/OrdersGateway?cds_mag_code=BWK&amp;cds_page_id=160308">Subscribe to Bloomberg Businessweek</a>
-</li>
-<li class='bloomberg_logo last ir'>
-<a href="http://www.bloomberg.com" target="_blank">Bloomberg</a>
-</li>
-</ul>
-</div>
-<div class='links module clearfix'>
-<h3>Links</h3>
-<ul>
-<li><a href="http://bloomberg.com/company">Our Company</a></li>
-<li><a href="http://www.bloomberg.com/now/bloomberg-news-mission-statement/">News Mission</a></li>
-<li><a href="http://bloombergmedia.com">Advertising</a></li>
-<li><a href="http://bloomberg.com/careers">Careers</a></li>
-<li><a href="http://www.bloomberg.com/contentlicensing">Content Licensing</a></li>
-<li><a href="http://www.businessweek.com/contact">Feedback</a></li>
-<li><a href="http://www.businessweek.com/adsections/">Custom Publishing</a></li>
-<li><a href="http://www.businessweek.com/manage-subscription">Manage Subscription</a></li>
-</ul>
-<ul class='last'>
-<li><a href="http://www.businessweek.com/mobile">Mobile</a></li>
-<li><a href="https://secure.businessweek.com/newsletters/sign-up">Newsletters</a></li>
-<li><a href="http://www.businessweek.com/privacy">Privacy Policy</a></li>
-<li><a href="http://reprints.ygsgroup.com/m/bloombergbusinessweek">Reprints &amp; Permissions</a></li>
-<li><a href="http://www.businessweek.com/sitemap.htm">Sitemap</a></li>
-<li><a href="http://www.businessweek.com/terms">Terms of Use</a></li>
-<li><a href="javascript:void(0)" class="opinion-lab">[+] Rate This Page</a></li>
-</ul>
-</div>
-<div class='current_issue module clearfix'>
-<h3>Get Businessweek Delivered</h3>
-<a class='cover_image_thumbnail' href="https://subscribe.businessweek.com/servlet/OrdersGateway?cds_mag_code=BWK&amp;cds_page_id=160308">
-<img alt="The Design Issue" height="155" src="http://images.bwbx.io/cms/2014-03-20/1413cov_110x155.jpg" width="110" />
-</a>
-<h6>
-<a href="https://subscribe.businessweek.com/servlet/OrdersGateway?cds_mag_code=BWK&amp;cds_page_id=160308">The Design Issue</a>
-</h6>
-<a class='subscribe_button' href="https://subscribe.businessweek.com/servlet/OrdersGateway?cds_mag_code=BWK&amp;cds_page_id=160308">Subscribe</a>
-</div>
-<div class='copyright'>
-<p>
-<span>©2014 Bloomberg L.P. All Rights Reserved. Made in NYC</span>
-<span class='ad_choice'>
-<a href="http://www.businessweek.com/privacy#advertisements">Ad Choices
-<span class='icons-ad_choice'></span>
-</a></span>
-</p>
-</div>
-</div>
-
-
-
-
-</div>
-
-<script src="http://static.btrd.net/assets/application-addd7629c177195201fa677a1184a0d1.js" type="text/javascript"></script>
-<script>
-  var _gaq=[["_setAccount","UA-11413116-6"],["_trackPageview"],["_trackPageLoadTime"]];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-  g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-  s.parentNode.insertBefore(g,s)}(document,"script"));
-</script>
-
-<script src="http://static.btrd.net/assets/jquery.bloomberg_hat-7c768497a3670c3f9da1b9420a9c3801.js" type="text/javascript"></script>
-<script src="http://static.btrd.net/assets/jquery.truste-consent-1f59258579d7f178906f4d9042377f96.js" type="text/javascript"></script>
-
-
-<script src="http://cdn.gotraffic.net/projector/v0.7.36/video.js" type="text/javascript"></script>
-<script>
-  try {
-    $(window).load(function() {
-      $('.branding_hat').bloomberg_hat({ 'active_link':'businessweek'}, function(){
-        BLOOMBERG.bw_user.init_sign_in_box();
-      }); //create the hat, all markup is in the jquery plugin file
-  
-    $.each(
-      $('.lazy'), function(index, value){ 
-        $(value).attr('src', $(value).attr('data-original')); 
-      }
-    );
-  
-    });
-  } catch(err){}
-  
-  try {
-    var tracking_code = window.location.hash.match(/#r=[a-zA-Z_-]*/);
-    if (tracking_code != null && tracking_code != "" && tracking_code.length > 0)
-      _gaq.push(['_trackEvent', tracking_code[0], document.referrer, location.href]);
-  } catch(err){}
-  
-  // Lazy load navigation submenus, see also layouts/_navigation
-  $('#global_nav').ready(function() {
-    var params = window.location.href.split('?');
-    if (params.length == 2) {
-      pass_along_params = "?" + params[1];
-    } else {
-      pass_along_params = "";
-    }
-    $(window).load(function() {
-      if ($('body').hasClass("admin") == false) {
-        $.ajax({
-          url: '/layout/navigation'+pass_along_params,
-          dataType: "html",
-          success: function(data) {
-            $('#global_nav').replaceWith(data);
-            BLOOMBERG.event_track.linkTrack();
-          }
+	(function($){
+		$('#toolbar').rosseltoolbar({
+            type:"logo",
+            connect: "noconnect"
         });
-      }
-    });
-  });
-</script>
-<script>
-  $(document).ready(function(){
-    _V_("video_player").ready(function(){
-     var player = this;
-     BLOOMBERG.video.player_events(player);
-    });
-  });
-</script>
-<script>
-  $(window).load(function(){
-    BLOOMBERG.track_event('Tabbed Module', 'View')
-  });
-</script>
-<script src='http://pagead2.googlesyndication.com/pagead/show_ads.js'></script>
-<script>
-  $(document).ready(function() {
-    var t = 900000;
-    setTimeout("BLOOMBERG.bw_core.refresh_homepage()",t);
-  });
-</script>
-<script>
-  $(window).load(function() {
-    var REMOTE = "https://secure.businessweek.com";
-  
-    var xhr = new easyXDM.Rpc({
-        local: "/easyxdm/name.html",
-        swf: REMOTE + "/easyxdm/easyxdm.swf",
-        remote: REMOTE + "/easyxdm/cors/",
-        remoteHelper: REMOTE + "/easyxdm/name.html"
-    }, {
-        remote: {
-            request: {}
-        }
-    });
-  
-    BLOOMBERG.bw_user.ajax_sign_on = function(form) {
-  
-      $(".report_error").remove();
-      form.find('input').removeClass("error");
-  
-      request = {
-          url: "https://secure.businessweek.com/login",
-          method: "POST",
-          data: {
-                  email : $('#new_user_form #user_form_email').val(),
-                  password : $('#new_user_form #user_form_password').val(),
-                  remember_me : $('#new_user_form #user_form_remember_me').val()
-          }
-      }
-  
-      var responseHandler = function(response) {
-          var json = easyXDM.getJSONObject().parse(response.data);
-          if (json.message == "success") {
-            $('.sign_in_frame').fadeOut("fast", function() {BLOOMBERG.bw_user.replace_with_username('#sign_in')});
-          }
-      };
-  
-      var errorHandler = function(error) {
-          var json = easyXDM.getJSONObject().parse(error.data.data);
-          if(json.message == "migrate"){
-             window.location = json.url;
-          } else {
-            $("<span class='report_error'>"+json.message+"</span>").insertBefore($("#user_form_email"));
-            $('#new_user_form input').addClass("error");
-          }
-      };
-      xhr.request(request, responseHandler, errorHandler);
-    };
-  });
-</script>
-<script>
-  $(".facebook_button").bind('click', function(e) {
-    e.preventDefault();
-    FB.login(function(response) {
-      if(response && response.status == 'connected' ){
-        login_with_facebook();
-      }
-     }, {scope: 'email'});
-  });
-  
-  $(".facebook_link_button").bind('click', function(e) {
-    e.preventDefault();
-    FB.login(function(response) {
-      if(response && response.status == 'connected' ){
-        link_account(response);
-      }
-     }, {scope: 'email'});
-  });
-  
-  function show_protected_content(){
-    $("#facebook_wall").hide();
-    $('.protected_content').removeClass('protected_content');
-    if ( $('body').hasClass('article_old_article')){
-      $('body.article_old_article #story_body div.unprotected_content').remove();
-      $('body.article_old_article #story_body p.sign_in').remove();
-    }
-  };
-  
-  function login_with_facebook() {
-  
-    var REMOTE = "https://secure.businessweek.com";
-  
-    var xhr = new easyXDM.Rpc({
-        local: "/easyxdm/name.html",
-        swf: REMOTE + "/easyxdm/easyxdm.swf",
-        remote: REMOTE + "/easyxdm/cors/",
-        remoteHelper: REMOTE + "/easyxdm/name.html"
-    }, {
-        remote: {
-            request: {}
-        }
-    });
-  
-    request = {
-        url: "https://secure.businessweek.com/auth/facebook/callback",
-        method: "GET",
-        data: {
-        referrer_url : window.location.href
-        }
-    }
-  
-    var responseHandler = function(response) {
-        reg_enabled = "true";
-        if (reg_enabled == "true"){
-          $('.sign_in_frame').html('<span class="success">Success!</span>');
-          $('#sign_in a.opened').removeClass('opened');
-          $('.sign_in_frame').fadeOut("fast", function() {BLOOMBERG.bw_user.replace_with_username('#sign_in')});
-          if ($('body').hasClass('registration')){
-            var json_response = easyXDM.getJSONObject().parse(response.data)
-            window.location = json_response.url;
-          }
-        }
-    };
-  
-    var errorHandler = function(error) {
-    };
-    xhr.request(request, responseHandler, errorHandler);
-  };
-  
-  function link_account(facebook_user) {
-    $.ajax({
-      type: "POST",
-      data: facebook_user,
-      dataType: "json",
-      url: "https://secure.businessweek.com/users/link-account",
-      success: function(response) {
-        $('.facebook_account').html('<a href="http://www.businessweek.com/users/unlink-account" class="unlink_facebook"> Unlink your facebook account</a>');
-        $(".unlink_facebook").bind('click', function(e) {
-          e.preventDefault();
-          BLOOMBERG.bw_user.unlink_account(e);
-        });
-      },
-      error: function(response){
-        $('.errors').append(JSON.parse(response.responseText)["message"]);
-      }
-    });
-  }
-</script>
-<script>
-  $(window).load(function() {
-    if ($.fn.trusteConsent) {
-      $("#consent-track").trusteConsent({
-        consentButton: "span#consent-track-image",
-        closeButton: "a.close-consent-track",
-        domain: "businessweek.com",
-        footerCallback: function() {
-          var $links = $("#footer ul");
-          $links.find("li").last().attr("class", ""); // remove class from last el
-          $links.append('<li class="last"><a href="#consentManager">Cookie Preferences</a></li>');
-          return $links.last();
-        }
-      });
-    }
-  }
-  );
-</script>
-<script src="http://content.dl-rms.com/rms/mother/516/nodetag.js" type="text/javascript"></script>
-<script>
-  $(window).load(function(){
-    var script_tag = document.createElement('SCRIPT');
-    script_tag.src = "http://static.btrd.net/foresee/foresee-trigger.js";
-    script_tag.type = "text/javascript";
-    document.body.appendChild(script_tag);
-  });
-</script>
-<script>
-  $(window).load(function(){
-     if(true == true){
-        BLOOMBERG.bw_user.show_reg();
-     }
-  });
+	}) (jQuery);
 </script>
 
-<!-- BEGIN DISQUS COMMENTS COUNT -->
-<script>
-  var disqus_shortname  = "bwbeta";
-  var disqus_developer  = 0;
-  var s = document.createElement('script'); s.async = true;
-  s.type = 'text/javascript';
-  s.src = ('https:' == document.location.protocol ? 'https://' : 'http://')  + disqus_shortname + '.disqus.com/count.js';
-  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-</script>
-<!-- END DISQUS COMMENTS COUNT -->
-
-
-
-<!-- BEGIN COMSCORE -->
-<script>
-  BBBW_comScore.params = {"name":"bw.home","bb_c_type":"bw: home page","bb_author":"","bb_pub_d":"","bb_attributor":"","bb_cg_1":"homepage","bb_cg_2":"","bb_cg_3":"","bb_groupid":""};
-  if (_BUCKET != "" && _BUCKET_GROUP != ""){
-    BBBW_comScore.params['bb_bucket']       = _BUCKET;
-    BBBW_comScore.params['bb_bucket_group'] = _BUCKET_GROUP;
-  }
-  BBBW_comScore.track();
-  BBBW_comScore.write_cookie(comScore_track_key,"",-1);
-</script>
+<!--les blogs du soir.be-->
+<!-- Google Tag Manager -->
 <noscript>
-<p>
-<img alt='*' height='1' src='http://b.scorecardresearch.com/p?c1=2&amp;amp;c2=3005059' width='1'>
-</p>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T4L3LW" height="0"
+    width="0" style="display:none;visibility:hidden">
+    </iframe>
 </noscript>
-<!-- END COMSCORE -->
-
-<!-- Chartbeat Monitoring -->
 <script>
-  var _sf_async_config= {uid: 15087, domain: "www.businessweek.com"};
-  _sf_async_config.useCanonical = true;
-  
-  
-  
-  (function(){
-    function loadChartbeat() {
-      window._sf_endpt=(new Date()).getTime();
-      var e = document.createElement('script');
-      e.setAttribute('language', 'javascript');
-      e.setAttribute('type', 'text/javascript');
-      e.setAttribute('src',
-        (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") + "static.chartbeat.com/js/chartbeat_pub.js");
-      document.body.appendChild(e);
+(function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-T4L3LW');
+</script>
+<!-- End Google Tag Manager -->
+<!-- ***** Metriweb Spring lesblogsdusoirbe ***** -->
+<script type="text/javascript" src="http://www.lesoir.be/metriweb/spring.js"></script>
+<script language="Javascript">
+    var sp_e0 = {
+        "s":"lesoir",
+        "cp":"si_lesoir/nw/www",
+        "lang":"FR",
+        "url": document.location.href
     }
-    var oldonload = window.onload;
-    window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); };
-  })();
+    spring.c(sp_e0);
 </script>
-
-
-
-<!-- Last Update: 2014-04-02 20:18:47 -0400 -->
-<script>
-  $(window).load(function() {
-    var iframe = document.createElement( 'IFRAME' );
-    iframe.scrolling = 'no';
-    iframe.width = '1';
-    iframe.height = '1';
-    iframe.marginheight = '0';
-    iframe.marginwidth = '0';
-    iframe.frameborder = '0';
-    iframe.src = 'http://img-cdn.mediaplex.com/0/23755/universal.html?page_name=bw.com_homepage&BW.com_Homepage=1&mpuid='
-    document.body.appendChild(iframe);
-  });
+<!-- ***** End Metriweb Spring ***** --><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-150849-1']);
+    _gaq.push(['_setDomainName', 'lesoir.be']);
+    _gaq.push(['setAllowLinker',true]);
+    _gaq.push(['_trackPageview']);
+(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 </script>
+<div id="soir_header">
+<div><span class="return_soir"> <a href="http://www.lesoir.be"> </a> </span>
+<!-- <p id="blog_type">un blog du Soir.be</p>--></div>
+</div>
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<h1 id="site-title">
+					<span>
+						<a href="http://blog.lesoir.be/" title="les blogs du soir.be" rel="home">les blogs du soir.be</a>
+					</span>
+				</h1>
+				<div id="site-description"></div>
+
+										<img src="http://blog.lesoir.be/wp-content/themes/twentyten/images/headers/path.jpg" width="940" height="198" alt="" />
+								</div><!-- #branding -->
+			
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
 
 
+		<div id="container" class="one-column">
+			<div id="content" role="main">
+
+<div id="columns">
+<div id="columns-left">
+	<div id="column-1" class="column">
+	
+		
+		<div id="secondary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+				<li id="rssimages-5" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://geeko.lesoir.be/">geeko</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://geeko.lesoir.be/2014/04/15/le-telephone-modulaire-de-google-sera-accessible-en-2015-a-partir-de-50-euros/">
+					      <img src="/wp-content/thumbs/60/60/http://geeko.lesoir.be/files/2014/04/projectara-greyphone.jpg" alt="Le téléphone modulaire de Google sera accessible en 2015 à partir de 50 euros" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://geeko.lesoir.be/2014/04/15/le-telephone-modulaire-de-google-sera-accessible-en-2015-a-partir-de-50-euros/">Le téléphone modulaire de Google sera accessible en 2015 à partir de 50 euros</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://geeko.lesoir.be/2014/04/15/la-rufus-cuff-plus-quune-simple-smartwatch/">
+					      <img src="/wp-content/thumbs/60/60/http://geeko.lesoir.be/files/2014/04/rufus.jpg" alt="La Rufus Cuff, plus qu’une simple smartwatch ?" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://geeko.lesoir.be/2014/04/15/la-rufus-cuff-plus-quune-simple-smartwatch/">La Rufus Cuff, plus qu’une simple smartwatch ?</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://geeko.lesoir.be/2014/04/15/google-va-creer-des-lentilles-capables-de-prendre-des-photos/">
+					      <img src="/wp-content/thumbs/60/60/http://geeko.lesoir.be/files/2014/04/lens.jpg" alt="Google va créer des lentilles capables de prendre des photos" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://geeko.lesoir.be/2014/04/15/google-va-creer-des-lentilles-capables-de-prendre-des-photos/">Google va créer des lentilles capables de prendre des photos</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-7" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://belgium-iphone.lesoir.be/">belgium iPhone</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://belgium-iphone.lesoir.be/2014/04/15/bon-plan-la-reparation-de-votre-iphone-a-prix-reduit/">
+					      <img src="/wp-content/thumbs/60/60/http://belgium-iphone.lesoir.be/files/2014/03/IPHONEBOX143-1000x647.jpg" alt="Bon plan : La réparation de votre iPhone à prix réduit!" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://belgium-iphone.lesoir.be/2014/04/15/bon-plan-la-reparation-de-votre-iphone-a-prix-reduit/">Bon plan : La réparation de votre iPhone à prix réduit!</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://belgium-iphone.lesoir.be/2014/04/15/iphone-6-une-photo-de-la-face-avant/">
+					      <img src="/wp-content/thumbs/60/60/http://belgium-iphone.lesoir.be/files/2014/04/iphoneface.jpg" alt="iPhone 6 : une photo de la face avant?" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://belgium-iphone.lesoir.be/2014/04/15/iphone-6-une-photo-de-la-face-avant/">iPhone 6 : une photo de la face avant?</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://belgium-iphone.lesoir.be/2014/04/15/david-fincher-ne-realiserait-pas-le-biopic-sur-steve-jobs/">
+					      <img src="/wp-content/thumbs/60/60/http://belgium-iphone.lesoir.be/files/2014/04/fincher.jpg" alt="David Fincher ne réaliserait pas le biopic sur Steve Jobs" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://belgium-iphone.lesoir.be/2014/04/15/david-fincher-ne-realiserait-pas-le-biopic-sur-steve-jobs/">David Fincher ne réaliserait pas le biopic sur Steve Jobs</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-4" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/moi-jeux">moi jeux</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/moi-jeux/2014/04/15/cinema-et-jeu-video-deux-genres-completement-differents/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/moi-jeux/files/2014/04/nfs-300x163.jpg" alt="Cinéma et jeu vidéo : Deux genres complètement différents ?" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/moi-jeux/2014/04/15/cinema-et-jeu-video-deux-genres-completement-differents/">Cinéma et jeu vidéo : Deux genres complètement différents ?</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/moi-jeux/2014/04/15/olliolli-en-juillet-sur-ps4-ps3-et-pc/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/moi-jeux/files/2014/04/olliolli-title-300x83.png" alt="OlliOlli : en juillet sur PS4, PS3 et PC." align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/moi-jeux/2014/04/15/olliolli-en-juillet-sur-ps4-ps3-et-pc/">OlliOlli : en juillet sur PS4, PS3 et PC.</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/moi-jeux/2014/04/15/interview-prodigy/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/moi-jeux/files/2014/04/Prodigy_INGAME_02_R-300x168.jpg" alt="Interview: Prodigy" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/moi-jeux/2014/04/15/interview-prodigy/">Interview: Prodigy</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-25" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/electionsus2012/">L&#8217;Amérique dans tous ses États</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://letemps.blogs.com/elections_americaines/2014/01/pour-%C3%AAtre-millionnaire-mieux-vaut-devenir-membre-du-congr%C3%A8s.html">
+					      <img src="/wp-content/thumbs/60/60/http://letemps.blogs.com/.a/6a00d8341c65d453ef019b04851afa970d-320wi" alt="Pour être millionnaire, mieux vaut devenir membre du Congrès" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://letemps.blogs.com/elections_americaines/2014/01/pour-%C3%AAtre-millionnaire-mieux-vaut-devenir-membre-du-congr%C3%A8s.html">Pour être millionnaire, mieux vaut devenir membre du Congrès</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://letemps.blogs.com/elections_americaines/2014/01/chris-christie-le-scandale-qui-pourrait-le-faire-tomber.html">
+					      <img src="/wp-content/thumbs/60/60/http://letemps.blogs.com/.a/6a00d8341c65d453ef01a5109a1e98970c-320wi" alt="Chris Christie, le scandale qui pourrait le faire tomber" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://letemps.blogs.com/elections_americaines/2014/01/chris-christie-le-scandale-qui-pourrait-le-faire-tomber.html">Chris Christie, le scandale qui pourrait le faire tomber</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://letemps.blogs.com/elections_americaines/2014/01/des-pubs-pour-obamacare-durant-les-jeux-de-sotchi.html">
+					      <img src="/wp-content/thumbs/60/60/http://letemps.blogs.com/.a/6a00d8341c65d453ef019b04683384970d-320wi" alt="Des pubs pour Obamacare durant les Jeux de Sotchi" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://letemps.blogs.com/elections_americaines/2014/01/des-pubs-pour-obamacare-durant-les-jeux-de-sotchi.html">Des pubs pour Obamacare durant les Jeux de Sotchi</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li>			</ul>
+		</div><!-- #secondary .widget-area -->
+
+	
+	</div>
+	<div id="column-2" class="column">
+		
+		<div id="secondary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+				<li id="rssimages-6" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/frontstage/">frontstage</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/frontstage/2014/04/15/le-nouveau-black-keys-en-ecoute/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/frontstage/files/2014/03/4971b29c-300x168.png" alt="The Black Keys: nouvel extrait en écoute" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/frontstage/2014/04/15/le-nouveau-black-keys-en-ecoute/">The Black Keys: nouvel extrait en écoute</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/frontstage/2014/04/15/pralines-65-un-nouvel-album-pour-thot/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/frontstage/files/2014/04/Thot-Promo2-by-Caroline-Derselle-300x200.jpg" alt="Pralines #65: un nouvel album pour Thot" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/frontstage/2014/04/15/pralines-65-un-nouvel-album-pour-thot/">Pralines #65: un nouvel album pour Thot</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/frontstage/2014/04/14/coachella-en-videos/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/frontstage/files/2014/04/coachella-2014-line-up-300x153.jpg" alt="Coachella en vidéos" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/frontstage/2014/04/14/coachella-en-videos/">Coachella en vidéos</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-23" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/jo2012/">y a pas que le foot dans la vie</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/04/02/guido-de-bondt-ou-le-depart-dun-grand-commis-du-sport-belge/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/y-a-pas-que-le-foot/files/2014/04/debondt-1024x681.jpg" alt="Guido De Bondt, ou le départ d’un grand commis du sport belge" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/04/02/guido-de-bondt-ou-le-depart-dun-grand-commis-du-sport-belge/">Guido De Bondt, ou le départ d’un grand commis du sport belge</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/04/01/marc-wilmots-a-la-rescousse-de-jacques-borlee/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/y-a-pas-que-le-foot/files/2014/04/wilmots-1024x680.jpg" alt="Marc Wilmots à la rescousse de Jacques Borlée" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/04/01/marc-wilmots-a-la-rescousse-de-jacques-borlee/">Marc Wilmots à la rescousse de Jacques Borlée</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/03/19/laurens-pannecoucke-le-kayakiste-qui-se-mouille-pour-leau/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/y-a-pas-que-le-foot/files/2014/03/pannecoucke-1024x618.jpg" alt="Laurens Pannecoucke, le kayakiste qui se mouille pour l’eau" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/y-a-pas-que-le-foot/2014/03/19/laurens-pannecoucke-le-kayakiste-qui-se-mouille-pour-leau/">Laurens Pannecoucke, le kayakiste qui se mouille pour l’eau</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-36" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/voyagevoyage/">Voyage Voyage</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/voyagevoyage/2014/02/18/le-club-med-recrute-1700-g-o-en-majorite-francophones/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/voyagevoyage/files/2014/02/Clubmed-Crazy-signs-c-Bruno-Van-Loocke-1000x664.jpg" alt="Le Club Med recrute 1700 G.O. en majorité francophones" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/voyagevoyage/2014/02/18/le-club-med-recrute-1700-g-o-en-majorite-francophones/">Le Club Med recrute 1700 G.O. en majorité francophones</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/voyagevoyage/2014/02/07/le-belge-qui-veut-vous-emmener-au-kivu/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/voyagevoyage/files/2014/02/De-Lamotte-4-573x860.jpg" alt="Le Belge qui veut vous emmener au Kivu" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/voyagevoyage/2014/02/07/le-belge-qui-veut-vous-emmener-au-kivu/">Le Belge qui veut vous emmener au Kivu</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/voyagevoyage/2014/02/03/au-kivu-avec-les-gorilles-des-virungas/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/voyagevoyage/files/2014/02/Kivu-1-942x860.jpg" alt="Au Kivu, avec les gorilles des Virungas" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/voyagevoyage/2014/02/03/au-kivu-avec-les-gorilles-des-virungas/">Au Kivu, avec les gorilles des Virungas</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-10" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/amortieetlob/">amortie et lob</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/amortieetlob/2014/04/15/un-lundi-un-petit-peu-maudit/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/amortieetlob/2014/04/15/un-lundi-un-petit-peu-maudit/">Un lundi un petit peu maudit</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/amortieetlob/2014/04/10/ne-pas-confondre-mental-et-constance/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/amortieetlob/files/2014/04/goffin-1024x660.jpg" alt="Ne pas confondre mental et constance!" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/amortieetlob/2014/04/10/ne-pas-confondre-mental-et-constance/">Ne pas confondre mental et constance!</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/amortieetlob/2014/04/08/coupe-davis-ce-sera-ukraine-belgique/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/amortieetlob/2014/04/08/coupe-davis-ce-sera-ukraine-belgique/">Coupe Davis: ce sera Ukraine – Belgique</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-34" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/baudouinloos">Le bloc-notes de Baudouin Loos</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/baudouinloos/2014/04/03/moncef-marzouki-on-aurait-souhaite-plus-dappui-de-leurope/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/baudouinloos/2014/04/03/moncef-marzouki-on-aurait-souhaite-plus-dappui-de-leurope/">Moncef Marzouki : «On aurait souhaité plus d’appui de l’Europe!»</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/baudouinloos/2014/03/19/les-siderants-deboires-du-meilleur-specialiste-du-maroc/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/baudouinloos/2014/03/19/les-siderants-deboires-du-meilleur-specialiste-du-maroc/">Les sidérants déboires du meilleur spécialiste du Maroc</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/baudouinloos/2014/03/17/syrie-le-silence-est-un-grave-echec-moral/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/baudouinloos/2014/03/17/syrie-le-silence-est-un-grave-echec-moral/">Syrie: «Le silence est un grave échec moral»</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-30" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/colette-braeckman/">Le carnet de Colette Braeckman</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/colette-braeckman/2014/04/15/le-conservateur-du-parc-des-virunga-victime-dune-embuscade/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/colette-braeckman/2014/04/15/le-conservateur-du-parc-des-virunga-victime-dune-embuscade/">Le conservateur du parc des Virunga victime d’une embuscade</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/colette-braeckman/2014/04/14/toujours-pas-de-solution-pour-les-orphelins-adoptes-bloques-a-kinshasa/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/colette-braeckman/2014/04/14/toujours-pas-de-solution-pour-les-orphelins-adoptes-bloques-a-kinshasa/">Toujours pas de solution pour les orphelins adoptés bloqués à Kinshasa</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/colette-braeckman/2014/04/07/deux-rescapes-dans-un-stade-envahi-par-la-musique/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/colette-braeckman/2014/04/07/deux-rescapes-dans-un-stade-envahi-par-la-musique/">Deux rescapés dans un stade envahi par la musique</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-35" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/lalibertesinonrien/">La liberté sinon rien</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/lalibertesinonrien/2014/04/07/rwanda-crime-du-silence-et-devoir-dinformer/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/lalibertesinonrien/2014/04/07/rwanda-crime-du-silence-et-devoir-dinformer/">Rwanda : crime du silence et devoir d’informer</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/lalibertesinonrien/2014/04/02/conference-sur-le-genocide-deux-minutes-de-plus-cruciales-essentielles/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/lalibertesinonrien/2014/04/02/conference-sur-le-genocide-deux-minutes-de-plus-cruciales-essentielles/">Conférence sur le génocide: deux minutes de plus, cruciales, essentielles</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/lalibertesinonrien/2014/03/22/une-autre-turquie-est-possible/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/lalibertesinonrien/2014/03/22/une-autre-turquie-est-possible/">Une autre Turquie est possible</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-22" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/salledesprofs">salle des profs</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/salledesprofs/2013/07/11/et-si-la-classe-unique-etait-la-solution/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/salledesprofs/files/2013/07/classeunique1.jpg" alt="Et si la classe unique était la solution ?" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/salledesprofs/2013/07/11/et-si-la-classe-unique-etait-la-solution/">Et si la classe unique était la solution ?</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/salledesprofs/2013/07/03/faut-il-coter-plus-severement-le-ceb/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/salledesprofs/files/2012/03/bertieaux-681x1024.jpg" alt="Faut-il coter plus sévèrement le CEB ?" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/salledesprofs/2013/07/03/faut-il-coter-plus-severement-le-ceb/">Faut-il coter plus sévèrement le CEB ?</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/salledesprofs/2013/06/27/il-cherche-des-volontaires-pour-oser-la-mixite-sociale/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/salledesprofs/files/2013/06/yfonck.jpg" alt="Il cherche des volontaires pour oser la mixité sociale" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/salledesprofs/2013/06/27/il-cherche-des-volontaires-pour-oser-la-mixite-sociale/">Il cherche des volontaires pour oser la mixité sociale</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li>			</ul>
+		</div><!-- #secondary .widget-area -->
+
+	
+	
+	</div>
+		<div id="column-3" class="column">
+		
+			
+		<div id="secondary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+				<li id="rssimages-31" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/hashtag25/">#25</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/hashtag25/2014/04/07/quand-la-generation-sacrifiee-fait-controverse/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/hashtag25/2014/04/07/quand-la-generation-sacrifiee-fait-controverse/">Quand la génération sacrifiée fait “Controverse”</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/hashtag25/2014/03/27/la-lecon-de-barack-obama-aux-jeunes/">
+					      <img src="/wp-content/thumbs/60/60/http://www.lesoir.be/sites/default/files/imagecache/475x317/2014/03/27/1055929973_B972337727Z.1_20140327091448_000_GCB26473J.2-0.jpg" alt="La «leçon» de Barack Obama aux jeunes" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/hashtag25/2014/03/27/la-lecon-de-barack-obama-aux-jeunes/">La «leçon» de Barack Obama aux jeunes</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/hashtag25/2014/03/27/le-11h02-bruxelles-a-besoin-dobjectifs-clairs-pour-ses-jeunes/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/hashtag25/2014/03/27/le-11h02-bruxelles-a-besoin-dobjectifs-clairs-pour-ses-jeunes/">Le 11h02 : «Bruxelles a besoin d’objectifs clairs pour ses jeunes»</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-32" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://www.lesvinsdusoir.be/">Saturday Wine Fever</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/saturdaywinefever/2014/01/04/que-boire-avec-une-galette-des-rois-quand-il-fait-vraiment-immonde-dehors/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/saturdaywinefever/files/2014/01/martini_gran_lusso_01-150x150.jpg" alt="Que boire avec une galette des Rois quand il fait vraiment immonde dehors" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/saturdaywinefever/2014/01/04/que-boire-avec-une-galette-des-rois-quand-il-fait-vraiment-immonde-dehors/">Que boire avec une galette des Rois quand il fait vraiment immonde dehors</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/saturdaywinefever/2013/12/27/pour-whisky-sonne-le-glas/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/saturdaywinefever/2013/12/27/pour-whisky-sonne-le-glas/">Pour Whisky sonne le glas</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/saturdaywinefever/2013/12/20/une-selection-de-bulles-pour-faire-la-fete-avec-du-foie-gras-et-sans-champagne/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/saturdaywinefever/files/2013/12/La-cave-des-Sommeliers-Crémant-de-Bourgogne-150x150.jpg" alt="Une sélection de bulles pour faire la fête avec du foie gras et sans Champagne" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/saturdaywinefever/2013/12/20/une-selection-de-bulles-pour-faire-la-fete-avec-du-foie-gras-et-sans-champagne/">Une sélection de bulles pour faire la fête avec du foie gras et sans Champagne</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-33" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://loftkitchen.lesoir.be/">Loft Kitchen</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://loftkitchen.lesoir.be/tarte-au-chocolat-et-gianduja-simple-et-express/">
+					      <img src="/wp-content/thumbs/60/60/http://loftkitchen.lesoir.be/files/2014/04/tarteauchocolatexpress.jpg" alt="Tarte au chocolat et gianduja, simple et express" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://loftkitchen.lesoir.be/tarte-au-chocolat-et-gianduja-simple-et-express/">Tarte au chocolat et gianduja, simple et express</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://loftkitchen.lesoir.be/filet-de-colin-poche-au-lait-de-coco-riz-noir/">
+					      <img src="/wp-content/thumbs/60/60/http://loftkitchen.lesoir.be/files/2014/04/colinpochelaitdecoco.jpg" alt="Filet de colin poché au lait de coco, riz noir" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://loftkitchen.lesoir.be/filet-de-colin-poche-au-lait-de-coco-riz-noir/">Filet de colin poché au lait de coco, riz noir</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://loftkitchen.lesoir.be/tartare-de-boeuf-facon-salade-de-boeuf-thai/">
+					      <img src="/wp-content/thumbs/60/60/http://loftkitchen.lesoir.be/files/2014/03/tartare3boeufthai.jpg" alt="Tartare de boeuf au couteau façon salade de boeuf thaï" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://loftkitchen.lesoir.be/tartare-de-boeuf-facon-salade-de-boeuf-thai/">Tartare de boeuf au couteau façon salade de boeuf thaï</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-27" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/bigbizz/">Le site des jeunes entreprises</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/bigbizz/2014/04/10/vingt-jeunes-se-muent-en-leaders-for-a-day/">
+					      <img src="/wp-content/thumbs/60/60/http://www.lesoir.be/sites/default/files/imagecache/475x317/2014/04/09/2010282886_B972448999Z.1_20140409180718_000_GE928Q5QH.1-0.jpg" alt="Vingt jeunes se muent en « Leaders for a Day »" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/bigbizz/2014/04/10/vingt-jeunes-se-muent-en-leaders-for-a-day/">Vingt jeunes se muent en « Leaders for a Day »</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/bigbizz/2014/02/06/le-congres-des-mini-entreprises-a-reuni-870-participants-un-record/">
+					      <img src="/wp-content/thumbs/60/60/http://www.lesoir.be/sites/default/files/imagecache/475x317/2014/02/05/2087286262_B971930310Z.1_20140205154808_000_GAO1SLS3C.1-0.jpg" alt="Le Congrès des mini-entreprises a réuni 870 participants, un record" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/bigbizz/2014/02/06/le-congres-des-mini-entreprises-a-reuni-870-participants-un-record/">Le Congrès des mini-entreprises a réuni 870 participants, un record</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/bigbizz/2014/01/13/sous-les-projecteurs-sweet-lemon-notre-success-story-du-mois/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/bigbizz/files/2014/01/histoire_1.png" alt="Sous les Projecteurs : Sweet Lemon, notre Success story du mois" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/bigbizz/2014/01/13/sous-les-projecteurs-sweet-lemon-notre-success-story-du-mois/">Sous les Projecteurs : Sweet Lemon, notre Success story du mois</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-28" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/benevoles">Bénévoles</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/benevoles/2013/01/05/documentaire-benevoles-on-na-pas-chome/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/benevoles/2013/01/05/documentaire-benevoles-on-na-pas-chome/">Documentaire BENEVOLES : on n’a pas chômé !</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/benevoles/2012/12/31/2013-une-question-de-valeurs/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/benevoles/files/2012/12/Bénévoles-BelRtlmini-80-1024x418.jpg" alt="2013, une question de valeurs" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/benevoles/2012/12/31/2013-une-question-de-valeurs/">2013, une question de valeurs</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" post-right" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/benevoles/2012/12/25/comment-va-t-on-reinventer-notre-rapport-au-travail/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/benevoles/2012/12/25/comment-va-t-on-reinventer-notre-rapport-au-travail/">Comment va-t-on réinventer notre rapport au travail ?</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-20" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/alterechos/">alter echos</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/alterechos/2014/04/07/europeens-plus-exclus-que-les-sans-papiers/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/alterechos/files/2014/04/douane-1024x768.jpg" alt="Européens : plus exclus que les sans-papiers ?" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/alterechos/2014/04/07/europeens-plus-exclus-que-les-sans-papiers/">Européens : plus exclus que les sans-papiers ?</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class="" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/alterechos/2014/04/02/lausterite-nuit-gravement-a-la-sante/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/alterechos/2014/04/02/lausterite-nuit-gravement-a-la-sante/">L’austérité nuit gravement à la santé</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/alterechos/2014/04/01/les-sans-abri-du-metro-photographie-leur-monde-souterrain/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/alterechos/files/2014/04/pirotte.jpg" alt="Les sans-abri du métro photographient leur monde souterrain" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/alterechos/2014/04/01/les-sans-abri-du-metro-photographie-leur-monde-souterrain/">Les sans-abri du métro photographient leur monde souterrain</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li><li id="rssimages-29" class="widget-container widget_rssimages"><h3 class="widget-title"><a href="http://blog.lesoir.be/125ans">les 125 ans du Soir</a></h3><div class="simplepie"><ul class="clearfix">
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/125ans/souvenirs/le-soir-quotidien/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/125ans/souvenirs/le-soir-quotidien/">Le Soir quotidien</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/125ans/souvenirs/bande-dessinee-en-noir-et-blanc/">
+					                <div class="caption">
+					          	<h5><a href="http://blog.lesoir.be/125ans/souvenirs/bande-dessinee-en-noir-et-blanc/">Bande Dessinée en noir et blanc</a></h5>
+					          </div>
+					          </div>
+					    </li>
+					      <li class=" last" ><div class="thumbnail-div right-blocks">
+					          <a href="http://blog.lesoir.be/125ans/souvenirs/noce-dor-dadrien-dawans-et-octavie-closset/">
+					      <img src="/wp-content/thumbs/60/60/http://blog.lesoir.be/125ans/files/2012/12/noce-dor-dadrien-dawans-et-octavie-closset-50cf6ec8dd371-1024x768.jpg" alt="Noce d’or d’Adrien Dawans et Octavie Closset" align="left" /></a>          <div class="caption has-image">
+					          	<h5><a href="http://blog.lesoir.be/125ans/souvenirs/noce-dor-dadrien-dawans-et-octavie-closset/">Noce d’or d’Adrien Dawans et Octavie Closset</a></h5>
+					          </div>
+					          </div>
+					    </li></ul></div></li>			</ul>
+		</div><!-- #secondary .widget-area -->
+
+			
+</div>		
+	</div><!-- /columns left -->
+<div id="column-4" class="column">
+		<div id="secondary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+						<li id="blogs" class="widget-container widget_blogs">			<h3 class="widget-title">tous les blogs</h3>            <br />
+            
+            <ul><li><a href="http://blog.lesoir.be/lerucherdusoir">Le rucher du Soir</a></li><li><a href="http://blog.lesoir.be/reglements-de-comptes">règlements de comptes</a></li><li><a href="http://blog.lesoir.be/voyagevoyage">voyage voyage</a></li><li><a href="http://blog.lesoir.be/smartcities">Le blog des villes intelligentes</a></li><li><a href="http://blog.lesoir.be/offshoreleaks">offshore leaks</a></li><li><a href="http://blog.lesoir.be/saturdaywinefever">Saturday Wine Fever</a></li><li><a href="http://blog.lesoir.be/loftkitchen">Loft Kitchen</a></li><li><a href="http://blog.lesoir.be/bigbizz">Le blog des Jeunes Entreprises</a></li><li><a href="http://blog.lesoir.be/benevoles">Bénévoles</a></li><li><a href="http://blog.lesoir.be/docs">les documents du Soir</a></li><li><a href="http://geeko.lesoir.be">geeko</a></li><li><a href="http://blog.lesoir.be/nest">NEST</a></li><li><a href="http://blog.lesoir.be/oeuvresdusoir">les Oeuvres du Soir</a></li><li><a href="http://blog.lesoir.be/y-a-pas-que-le-foot">Y a pas que le foot dans la vie</a></li><li><a href="http://blog.lesoir.be/salledesprofs">Salle des profs</a></li><li><a href="http://belandroid.lesoir.be">bel android</a></li><li><a href="http://blog.lesoir.be/alterechos">Le blog d&#039;Alter Echos</a></li><li><a href="http://blog.lesoir.be/parisbysoir">@ Pèèèris</a></li><li><a href="http://blog.lesoir.be/entractes">Entractes</a></li><li><a href="http://blog.lesoir.be/freefight-webdoc">freefight - webdoc </a></li><li><a href="http://blog.lesoir.be/geek-politics">geek politics</a></li><li><a href="http://blog.lesoir.be/cuisine-interne">Cuisine Interne</a></li><li><a href="http://blog.lesoir.be/lalibertesinonrien">La Liberté sinon rien</a></li><li><a href="http://blog.lesoir.be/grammedheroine">un simple gramme d’heroine</a></li><li><a href="http://blog.lesoir.be/colette-braeckman">le carnet de Colette Braeckman</a></li><li><a href="http://blog.lesoir.be/wikileaks">#BEkileaks</a></li><li><a href="http://blog.lesoir.be/bonheurbrut">Le bonheur brut</a></li><li><a href="http://blog.lesoir.be/medecinsdumonde">Le blog de Médecins du Monde</a></li><li><a href="http://blog.lesoir.be/jour-apres-jour">jour après jour</a></li><li><a href="http://blog.lesoir.be/ketpaddle">ketpaddle</a></li><li><a href="http://blog.lesoir.be/amortieetlob">amortie et lob</a></li><li><a href="http://blog.lesoir.be/coupfranc">Coup franc</a></li><li><a href="http://blog.lesoir.be/frontstage">frontstage/</a></li><li><a href="http://blog.lesoir.be/leblogdesmsf">le blog des msf</a></li><li><a href="http://blog.lesoir.be/moi-jeux">Moi Jeux</a></li></ul>		</li>			</ul>
+			
+					</div><!-- #secondary .widget-area -->
+	</div>
+		
+</div>
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="http://blog.lesoir.be/" title="les blogs du soir.be" rel="home">
+					les blogs du soir.be				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/"
+						title="Plate-forme de publication personnelle à la pointe de la sémantique" rel="generator">
+					Fièrement propulsé par WordPress				</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+
+<script type="text/javascript">tb_pathToImage = "http://blog.lesoir.be/wp-includes/js/thickbox/loadingAnimation.gif";tb_closeImage = "http://blog.lesoir.be/wp-includes/js/thickbox/tb-close.png";</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Suiv.\u00a0>","prev":"<\u00a0Pr\u00e9c.","image":"Image","of":"sur","close":"Fermer","noiframes":"Cette fonctionnalit\u00e9 requiert des iframes. Les iframes sont d\u00e9sactiv\u00e9es sur votre navigateur, ou alors il ne les accepte pas.","loadingAnimation":"http:\/\/blog.lesoir.be\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/blog.lesoir.be\/wp-includes\/js\/thickbox\/tb-close.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.lesoir.be/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201416'></script>
 </body>
 </html>

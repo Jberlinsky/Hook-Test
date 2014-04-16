@@ -1,1298 +1,568 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<!-- mobiletype: none --> <!-- isMobile: false -->
 
-                                                                 	
-<!-- 	selfDepth: 0 -->
- 
-				    	    		
-<!-- 		navStyle: default   -->
-    					
-		
+<!DOCTYPE html >
+<html dir="ltr" class="ms-isBot" lang="en-US">
+    <head><meta http-equiv="X-UA-Compatible" content="IE=8" /><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><title>
 	
-       <head>
-	
-   <title>The Cotton Incorporated corporate homepage - Cotton Incorporated</title>
+	Welcome to the City of Ann Arbor - Official Home Page
 
-   <meta charset="utf-8" />
-     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>            
-   <meta content="Percussion Rhythmyx" name="generator"/>
-     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</title><link rel="shortcut icon" href="/Style Library/Images/favicon.ico" type="image/vnd.microsoft.icon" id="favicon" /><link rel="stylesheet" type="text/css" href="/_layouts/15/1033/styles/Themable/corev15.css?rev=ox%2BqLd6WTqhn6d%2FMqf2BMw%3D%3D"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/en-US/Themable/Core%20Styles/controls15.css"/>
+<script type="text/javascript" src="/_layouts/15/init.js?rev=%2FWTxr8UesytJ8GB%2F5hOwZA%3D%3D"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=JTNkCsVCrwVe2tz3WryYA0H-2EdkPKmMhmvsnCLlNDUJWOHv3cSfKENLwfrQTIZ8rKVUFbjSitREHhnehNPHiqClya-osxqlsfnpMfHHU2l4_mJRs9ip51JSv63nDpNmhfushjRlkhR9Ie-cyPVKVbs2Uml5Z4MExuDMnzMULeJpTgBy-NafzLjycCocSCaM0&amp;t=ffffffffebe2ec94"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D"></script>
+<script type="text/javascript">RegisterSod("initstrings.js", "\u002f_layouts\u002f15\u002f1033\u002finitstrings.js?rev=4Yrxyggg5knao3D48Ii\u00252FWA\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("strings.js", "\u002f_layouts\u002f15\u002f1033\u002fstrings.js?rev=u\u00252B0KcZWR52dtr8LTlqcZcw\u00253D\u00253D");RegisterSodDep("strings.js", "initstrings.js");</script>
+<script type="text/javascript">RegisterSod("sp.init.js", "\u002f_layouts\u002f15\u002fsp.init.js?rev=3nSw25FIGbfepznMSgi74A\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=yNk\u00252FhRzgBn40LJVP\u00252BqfgdQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002f15\u002fsp.ui.dialog.js?rev=0xf6wCIW4E1pN83I9nSIJQ\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.init.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=uA2xjCXmuYM5ARP8g3eTSA\u00253D\u00253D");RegisterSodDep("core.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=Yb\u00252FYo8qgTV4OUX0FEzTMog\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=VYAJYBo5H8I3gVSL3MzD6A\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("callout.js", "\u002f_layouts\u002f15\u002fcallout.js?rev=ryx2n4ePkYj1\u00252FALmcsXZfA\u00253D\u00253D");RegisterSodDep("callout.js", "strings.js");RegisterSodDep("callout.js", "mQuery.js");RegisterSodDep("callout.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("clienttemplates.js", "\u002f_layouts\u002f15\u002fclienttemplates.js?rev=Zv6bvcssV7dy3VrmkAWlSw\u00253D\u00253D");RegisterSodDep("clienttemplates.js", "initstrings.js");</script>
+<script type="text/javascript">RegisterSod("sharing.js", "\u002f_layouts\u002f15\u002fsharing.js?rev=EojJW\u00252FD7vytDfjPyrFWfzw\u00253D\u00253D");RegisterSodDep("sharing.js", "strings.js");RegisterSodDep("sharing.js", "mQuery.js");RegisterSodDep("sharing.js", "clienttemplates.js");RegisterSodDep("sharing.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("suitelinks.js", "\u002f_layouts\u002f15\u002fsuitelinks.js?rev=REwVU5jSsadDdOZlCx4wpA\u00253D\u00253D");RegisterSodDep("suitelinks.js", "strings.js");RegisterSodDep("suitelinks.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("clientrenderer.js", "\u002f_layouts\u002f15\u002fclientrenderer.js?rev=PWwV4FATEiOxN90BeB5Hzw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("srch.resources.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=Srch\u00252EResources\u0026rev=T\u00252BEc8BFdsTQbQuVAobKatQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("search.clientcontrols.js", "\u002f_layouts\u002f15\u002fsearch.clientcontrols.js?rev=5P1PlD9u0nLal8ZgtuGr6w\u00253D\u00253D");RegisterSodDep("search.clientcontrols.js", "sp.init.js");RegisterSodDep("search.clientcontrols.js", "clientrenderer.js");RegisterSodDep("search.clientcontrols.js", "srch.resources.resx");</script>
+<script type="text/javascript">RegisterSod("sp.runtime.js", "\u002f_layouts\u002f15\u002fsp.runtime.js?rev=5f2WkYJoaxlIRdwUeg4WEg\u00253D\u00253D");RegisterSodDep("sp.runtime.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.search.js", "\u002f_layouts\u002f15\u002fsp.search.js?rev=uZlrSmuyYGO8yQWFVg\u00252BIdw\u00253D\u00253D");RegisterSodDep("sp.search.js", "sp.init.js");RegisterSodDep("sp.search.js", "sp.runtime.js");</script>
+<script type="text/javascript">RegisterSod("ajaxtoolkit.js", "\u002f_layouts\u002f15\u002fajaxtoolkit.js?rev=4rOiCbaFgJMmqw9Ojtpa6g\u00253D\u00253D");RegisterSodDep("ajaxtoolkit.js", "search.clientcontrols.js");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f15\u002fnon_ie.js?rev=W2q45TO627Zi6ztdktTOtA\u00253D\u00253D");RegisterSodDep("browserScript", "strings.js");</script>
+<script type="text/javascript">RegisterSod("sp.js", "\u002f_layouts\u002f15\u002fsp.js?rev=BZlBP\u00252Bn9Ja3uUvqzGXl8xw\u00253D\u00253D");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("inplview", "\u002f_layouts\u002f15\u002finplview.js?rev=JuQvHna5pA8GjBqyCrETww\u00253D\u00253D");RegisterSodDep("inplview", "strings.js");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "sp.js");</script>
+<script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002f15\u002fsp.core.js?rev=b89b6nnwOk\u00252FeDkJa0KhP5w\u00253D\u00253D");RegisterSodDep("sp.core.js", "strings.js");RegisterSodDep("sp.core.js", "sp.init.js");RegisterSodDep("sp.core.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("cui.js", "\u002f_layouts\u002f15\u002fcui.js?rev=hkelvuz\u00252BDyOYNl9FmpxUvA\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("ribbon", "\u002f_layouts\u002f15\u002fsp.ribbon.js?rev=d4Y4E0ghdo65Uz4tti0FZw\u00253D\u00253D");RegisterSodDep("ribbon", "strings.js");RegisterSodDep("ribbon", "core.js");RegisterSodDep("ribbon", "sp.core.js");RegisterSodDep("ribbon", "sp.js");RegisterSodDep("ribbon", "cui.js");RegisterSodDep("ribbon", "sp.res.resx");RegisterSodDep("ribbon", "sp.runtime.js");RegisterSodDep("ribbon", "inplview");</script>
+<script type="text/javascript">RegisterSod("WPAdderClass", "\u002f_layouts\u002f15\u002fwpadder.js?rev=ApLnd\u00252BqIPjLXRfr1t\u00252BCxyQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("datepicker.js", "\u002f_layouts\u002f15\u002fdatepicker.js?rev=rG6q4pRH1LERpfn53ncDpA\u00253D\u00253D");RegisterSodDep("datepicker.js", "strings.js");</script>
+<link type="text/xml" rel="alternate" href="/_vti_bin/spsdisco.aspx" /><link rel="stylesheet" href="/Style Library/aa.css" />
+            
+            
+            <link rel="canonical" href="http://www.a2gov.org:80/Pages/default.aspx" />
+        <span>
+            <style type="text/css">
+                body {
+	                overflow: auto !important;
+	                height: inherit;
+	                width: inherit;
+                    width: 953px\9;
+                }
 
+                body #s4-workspace {
+	                overflow: visible !important;
+	                height: auto !important;
+                    padding-top: 0px;
+                }
+            </style>
+        </span><style type="text/css">
+	.s4-skipribbonshortcut { display:none; }
 
-   <meta name="Title" content="The Cotton Incorporated corporate homepage">
-   <meta name="Keywords" content="Cotton Incorporated">
-   <meta name="Description" content="Cotton Incorporated corporate homepage">
+</style></head>
+    <body class="BG" onhashchange="if (typeof(_spBodyOnHashChange) != 'undefined') _spBodyOnHashChange();">
+        
+        <div id="imgPrefetch" style="display:none">
+<img src="/Style Library/Images/favicon.ico?rev=23" />
+<img src="/_layouts/15/images/spcommon.png?rev=23" />
+</div>
 
+        <form method="post" action="default.aspx" id="aspnetForm">
+<input type="hidden" name="_wpcmWpid" id="_wpcmWpid" value="" />
+<input type="hidden" name="wpcmVal" id="wpcmVal" value="" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x8B1487B30F21CB0D93E36D973B431682B21880CF8BD1070C70DFC6ADC5A010954D6B343FCB01575B8F3EA2A3686D11A02E7FCB04400C6831AE8275D7FAD5A710,15 Apr 2014 18:25:00 -0000" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="_maintainWorkspaceScrollPosition" id="_maintainWorkspaceScrollPosition" value="0" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAgIBD2QWBAIBD2QWBAIFD2QWAmYPZBYCAgEPFgIeE1ByZXZpb3VzQ29udHJvbE1vZGULKYgBTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViQ29udHJvbHMuU1BDb250cm9sTW9kZSwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTUuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwFkAhQPZBYCAgMPZBYCZg9kFgJmDzwrAAYAZAIHD2QWEAIID2QWAgIBD2QWAmYPDxYCHgdWaXNpYmxlaGRkAgoPZBYCAgMPFgIfAWgWAmYPZBYEAgIPZBYGAgEPFgIfAWhkAgMPFgIfAWhkAgUPFgIfAWhkAgMPDxYCHglBY2Nlc3NLZXkFAS9kZAIMD2QWAgIDD2QWAgIBD2QWAgIFDw8WBh8BaB4EXyFTQgICHghDc3NDbGFzcwUXbXMtcHJvbW90ZWRBY3Rpb25CdXR0b25kZAInD2QWAgIBDxYCHwALKwQBFgJmDw9kZGQCKQ9kFgICAQ8WAh8ACysEARYCZg8PZGRkAisPZBYCAgEPFgIfAAsrBAEWAmYPD2RkZAIvD2QWAgIBDxYCHwALKwQBZAIxD2QWAgIBDxYCHwALKwQBZGSUL0D2TPvbSQPh+T3x9D2clnHxEn35gngcoXfvUKb1Qg==" />
 
-   <link rel="alternate"
-	title="RSS"
-	type="application/rss+xml"
-	href="http://www.cottoninc.com/RSS/feed-10124.xml" />
-
-   <link rel="shortcut icon" type="image/x-icon"
-   	href="/resources/favicon.cottoninc.ico" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-	<script src="/resources/~script/jquery.tools-scr-tab.min.js"></script>
-	<script src="/resources/~script/jquery.newsticker.pack.js"></script>
-    <script src="/resources/~script/jquery.megamenu3.js" ></script>
-    <script src="/resources/~script/jquery.popupwindow.js" ></script>
-	<!-- for FancyBox -->
-    <script src="/resources/~script/jquery.mousewheel-3.0.6.pack.js"></script>
-   <script src="/resources/~script/fancybox_2_1_0/jquery.fancybox.js?v=2.1.0"></script> 
-	<script src="/resources/~script/fancybox_2_1_0/helpers/jquery.fancybox-media.js?v=1.0.3"></script> 
-	<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>	
-    <script src="/resources/~script/flashvideo_loadNextVideo.js"></script> 
-	<!-- for JQUERY READY FUNCTION -->
-    <script type="text/javascript">
-	var popupwindowprofiles = {
-    	windowCenter:
-    	{
-    		center:1,
-    		createnew:0
-    	},
-	};
-
-	$(document).ready(function() {
-
-
-		  $(".popupwindow").popupwindow(popupwindowprofiles);
-
-
-    	  $("#pageDiscover").scrollable({
-    		items: 'div#stagePortals',
-    		keyboard: false,
-    		circular: true,
-    		speed: 750
-    		})
-			.autoscroll({interval: 7000}).navigator();
-    	  $("#headerImg").scrollable({
-    		items: 'div#headerImages',
-    		keyboard: false,
-    		circular: true,
-    		speed: 750
-    		})	
-			
-
-    	  $("#pressreleases").newsTicker();
-		  
-
-    	  $("ul.topicTabs").tabs("div#topicLinks > div", {
-    		effect: 'fade'
-    	  });
-		  
-
-    	  jQuery(function(){        
-                jQuery(".megamenu").megamenu();
-          });	
-/*
- *  Fancybox
- */
-
-		$('.fancybox').fancybox();
-		  
-
-	  	$("a.imagepopup").fancybox({
-    		'type'					:	'image',
-			'titlePosition'			: 'inside', 
-    		'overlayShow'			: true,
-    		'hideOnOverlayClick'	: true,
-    		'showCloseButton	'	: true,
-    		'transitionIn'			:	'elastic',
-    		'transitionOut'			:	'elastic',
-    		'speedIn'				:	600, 
-    		'speedOut'				:	200, 
-     		'hideOnContentClick'	: true,
-			'loop'        		:   false
-		});	 
-		
-		$("a.inlinepopup").fancybox({
-					'padding 			'	: '10',
-			'titlePosition'			: 'inside', 
-			'hideOnContentClick'	: false,
-			'showCloseButton	'	: true
-		});
-
-	});		
-   </script>
-   <script src="/resources/~script/SocialBookmarking.js" ></script>
-
-		
-
-	<style type="text/css" media="all">
-    	@import url("/resources/~style/resetcss.css");
-    	@import url("/resources/~style/sitewide.css");
-    	@import url("/resources/~style/sitenav.css");
-    	    		@import url("/resources/~style/homepage.css");
-    	     	@import url("/resources/~script/fancybox_2_1_0/jquery.fancybox.css?v=2.1.0");
-	</style>
-  	<style type="text/css" media="print">
-		@import url("/resources/~style/print.css");
-	</style>
-
-
-
-	<style type="text/css" media="all">
-    	<!--
-		#innerContent { 
-		width: 965px ; 
-		 
-		}
-		#bottomlinks {
-		clear:right; 
-		965px;
-		
-		}
-		#shareline {		
-		width: 965px;
-		}
-		-->
-    </style>
-    	                         
-<script type="text/javascript">
- function startscript() {
-  document.getElementById(id).style.color="#FF0000";
-    document.getElementById("megamenu-list").style.display = 'block';
- 
- }
- </script>
 
 <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-314078-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  
-    function callGoogleAnalytics(testString) {
-		_gaq.push(['_trackPageview', testString]); 
-    };
-    function alertThis(testString) {
-    	alert(testString);
-    };	
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaLCID = 1033;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'BLANKINTERNET#0';
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002f", webAbsoluteUrl: "http:\u002f\u002fwww.a2gov.org", siteAbsoluteUrl: "http:\u002f\u002fwww.a2gov.org", serverRequestPath: "\u002fPages\u002fdefault.aspx", layoutsUrl: "_layouts\u002f15", webTitle: "Home", webTemplate: "53", tenantAppVersion: "0", webLogoUrl: "\u002f_layouts\u002fimages\u002ftitlegraphic.gif", webLanguage: 1033, currentLanguage: 1033, currentUICultureName: "en-US", currentCultureName: "en-US", clientServerTimeDelta: new Date("2014-04-15T18:25:00.9779887Z") - new Date(), siteClientTag: "272$$15.0.4569.1000", crossDomainPhotosEnabled:false, webUIVersion:15, webPermMasks:{High:16,Low:196705},pageListId:"{16d69184-10a6-4512-806e-840a9bea3b58}",pageItemId:1, pagePersonalizationScope:1, alertsEnabled:true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};
+                            function DoCallBack(filterText)
+                            {WebForm_DoCallback('ctl00$Links1ContentPlaceHolder$SummaryLinkFieldControl1$SummaryLinkFieldControl1',filterText,UpdateFilterCallback,0,CallBackError,true)
+                            }
+                            function CallBackError(result, clientsideString)
+                            {                
+                            }
+                        //]]>
 </script>
 
-</head>
-<body onload="startscript()" >
-	
-<!--beginning of PAGE...-->
-<!-- googleoff: index -->
-
-	<div style="display: none;"   class="robots-nocontent">
-		<div id="fancyboxinlinecontent" >
-		  <div id="strobeMediaPlayback" >
-			<p>You can view this page if you have flash installed. <a href="http://www.macromedia.com/go/getflashplayer" target="_blank">Install Flash.</a></p>
-		  </div>   
-		</div>
-	</div>
-	
-<!-- googleon: index -->  
-
-	<div id="pageWhole" name="pageWhole" id="pageWhole">
-		
-<!-- googleoff: index -->				<!-- ... Header-->
-
-    	<div id="pageHeader"   class="robots-nocontent">
-           <a href="/resources/../"><img id="headerlogo" src="/resources/~img/logo-cottoninc-header.png" alt="Cotton Incorporated" /></a><a name="logo"></a>           <div id="sitesearch">
-				<img id="search-language" src="/resources/~img/search-english-90x21.png" />
-				<form name="search" method="get" action="/search.cfm">
-					<input id="searchbox" type="text" maxlength="128" name="q" value="Search" onFocus="value=''" />
-					<img id="searchbtn" src="/resources/~img/header.searchbtn.png" onClick="document.search.submit()" />
-				</form>
-		   </div>
-		   
-
-	
-
-	
-	  <!-- ciSnTopNavNoFocus -->
-
-<div id="sitenav">
-	<ul class="megamenu" id="megamenu-list" style="display:none">
-	
-	  <li class="Line-Corporate">	  
-
-    <a href="/corporate/" title="Corporate"><img src="/corporate/inactive_item1326.jpg" id="Corporate"/></a><img src="/resources/~img/nav.seperator.jpg" />
-
-	  
-	  <div class="tabular-content" >
-		<table class="Nav-Corporate" border="0" cellpadding="0" cellspacing="0" >
-		  <tr>
-<th class="nav-AboutCottonIncorporated" title="ABOUT COTTON INCORPORATED"><a href="/corporate/About-Cotton-Incorporated/">ABOUT COTTON INCORPORATED</a></th>
-<th class="nav-Events" title="EVENTS"><a href="/corporate/Events/">EVENTS</a></th>
-<th class="nav-Pressroom" title="PRESSROOM"><a href="/corporate/Pressroom/">PRESSROOM</a></th>
-<th class="nav-ContactUs" title="CONTACT US"><a href="/corporate/Contact-Us/">CONTACT US</a></th>
-<th class="nav-MarketData" title="MARKET DATA"><a href="/corporate/Market-Data/">MARKET DATA</a></th>
-		  </tr>
-		  <tr>
-			  <td>
-<a class="WorldOffices-nav" href="/corporate/About-Cotton-Incorporated/World-Offices/"><p>World Offices</p></a>	
-<a class="CompanyHistory-nav" href="/corporate/About-Cotton-Incorporated/Cotton-Incorporated-company-history/"><p>Company History</p></a>	
-<a class="AnnualReport-nav" href="/corporate/About-Cotton-Incorporated/Cotton-Incorporated-annual-report/"><p>Annual Report</p></a>	
-<a class="careers-nav" href="/corporate/About-Cotton-Incorporated/careers/"><p>Careers</p></a>	
-<a class="research-proposal-nav" href="/corporate/About-Cotton-Incorporated/research-proposal/"><p>Research Proposal Guidelines</p></a>	
-</td> 
- <td>
-</td> 
- <td>
-<a class="PressReleases-nav" href="/corporate/Pressroom/PressReleases/"><p>Press Releases</p></a>	
-<a class="VideoReleases-nav" href="/corporate/Pressroom/Video-Releases/"><p>Video Archives</p></a>	
-<a class="DidYouKnow-nav" href="/corporate/Pressroom/DidYouKnow/"><p>Did You Know?</p></a>	
-<a class="Biographies-nav" href="/corporate/Pressroom/Biographies/"><p>Biographies</p></a>	
-<a class="MediaContacts-nav" href="/corporate/Pressroom/MediaContacts/"><p>Media Contacts</p></a>	
-<a class="navon-LifestyleMonitor-nav" href="/corporate/Pressroom/Lifestyle-Monitor/"><p>CottonLifestyleMonitor.com</p></a>	
-</td> 
- <td>
-<a class="Cotton-Industry-Sites-nav" href="/corporate/Contact-Us/Cotton-Industry-Sites/"><p>Cotton Industry Sites</p></a>	
-</td> 
- <td>
-<a class="Monthly_Economic_Letter-nav" href="/corporate/Market-Data/MonthlyEconomicLetter/"><p>Monthly Economic Letter</p></a>	
-<a class="supply-chain-insights-nav" href="/corporate/Market-Data/SupplyChainInsights/"><p>Supply Chain Insights</p></a>	
-<a class="Executive_Cotton_Update-nav" href="/corporate/Market-Data/Executive-Cotton-Update/"><p>Executive Cotton Update</p></a>	
-<a class="Cotton-Market-Podcasts-nav-nav" href="/corporate/Market-Data/Cotton-Market-Podcasts/"><p>Cotton Market Podcasts</p></a>	
-</td> 
-<tr class="tabdatabuffer"><td>&nbsp;</td></tr> 
-		  </tr>
-		</table>
-	</div>	   
-	</li>	
-	  
-	  <li class="Line-Fiber">	  
-
-    <a href="/fiber/" title="Fiber"><img src="/fiber/inactive_item1328.jpg" id="Fiber"/></a><img src="/resources/~img/nav.seperator.jpg" />
-
-	  
-	  <div class="tabular-content" >
-		<table class="Nav-Fiber" border="0" cellpadding="0" cellspacing="0" >
-		  <tr>
-<th class="nav-AgResearch" title="AGRICULTURAL RESEARCH"><a href="/fiber/Agricultural-Research/">AGRICULTURAL RESEARCH</a></th>
-<th class="nav-AgriculturalDisciplines" title="AGRICULTURAL DISCIPLINES"><a href="/fiber/AgriculturalDisciplines/">AGRICULTURAL DISCIPLINES</a></th>
-<th class="nav-Quality" title="QUALITY"><a href="/fiber/quality/">QUALITY</a></th>
-		  </tr>
-		  <tr>
-			  <td>
-<a class="AgStaffDirectory-nav" href="/fiber/Agricultural-Research/Agricultural-Staff-Directory/"><p>Staff Directory</p></a>	
-<a class="AgMeetingsConferences-nav" href="/fiber/Agricultural-Research/Agricultural-Meetings-Conferences/"><p>Ag Meetings Conferences</p></a>	
-<a class="CottonFellowships-nav" href="/fiber/Agricultural-Research/Cotton-Fellowships/"><p>Cotton Fellowships</p></a>	
-<a class="focus-cotton-navon-nav" href="/fiber/Agricultural-Research/Focus-on-Cotton/"><p>Focus on Cotton</p></a>	
-<a class="StateSupportProgram-nav" href="/fiber/Agricultural-Research/State-Support-Program/"><p>State Support Program</p></a>	
-<a class="ProjectSummaries-nav" href="/fiber/Agricultural-Research/Project-Summaries/"><p>Project Summaries</p></a>	
-<a class="COTMAN-nav" href="/fiber/Agricultural-Research/COTMAN/"><p>COTMAN™ Software</p></a>	
-</td> 
- <td>
-<a class="Agronomy-nav" href="/fiber/AgriculturalDisciplines/Agronomy/"><p>Agronomy</p></a>	
-<a class="Cottonseed-nav" href="/fiber/AgriculturalDisciplines/Cottonseed/"><p>Cottonseed</p></a>	
-<a class="Engineering-nav" href="/fiber/AgriculturalDisciplines/Engineering/"><p>Engineering</p></a>	
-<a class="Entomology-nav" href="/fiber/AgriculturalDisciplines/Entomology/"><p>Entomology</p></a>	
-<a class="AgriculturalEconomics-nav" href="/fiber/AgriculturalDisciplines/AgriculturalEconomics/"><p>Agricultural Economics</p></a>	
-<a class="Nematology-nav" href="/fiber/AgriculturalDisciplines/Nematology/"><p>Nematology</p></a>	
-<a class="WeedManagement-nav" href="/fiber/AgriculturalDisciplines/Weed-Management/"><p>Weed Management</p></a>	
-<a class="Variety_Improvement-nav" href="/fiber/AgriculturalDisciplines/Variety-Improvement/"><p>Variety Improvement</p></a>	
-</td> 
- <td>
-<a class="FiberManagement-nav" href="/fiber/quality/Fiber-Management/"><p>Fiber Management</p></a>	
-<a class="CropQualityReports-nav" href="/fiber/quality/Crop-Quality-Reports/"><p>Cotton Crop Quality</p></a>	
-<a class="USFiberChart-nav" href="/fiber/quality/US-Fiber-Chart/"><p>U.S. Cotton Fiber Chart</p></a>	
-<a class="ClassificationOfCotton-nav" href="/fiber/quality/Classification-Of-Cotton/"><p>Classification of Cotton</p></a>	
-<a class="PELab-nav" href="/fiber/quality/PELab/"><p>Product Evaluation Lab</p></a>	
-<a class="Standards-nav" href="/fiber/quality/Standards/"><p>Cotton Standards Websites</p></a>	
-</td> 
-<tr class="tabdatabuffer"><td>&nbsp;</td></tr> 
-		  </tr>
-		</table>
-	</div>	   
-	</li>	
-	  
-	  <li class="Line-Product">	  
-
-    <a href="/product/" title="Product"><img src="/product/inactive_item9474.jpg" id="Product"/></a><img src="/resources/~img/nav.seperator.jpg" />
-
-	  
-	  <div class="tabular-content" >
-		<table class="Nav-Product" border="0" cellpadding="0" cellspacing="0" >
-		  <tr>
-<th class="nav-ProductTechnology" title="PRODUCT TECHNOLOGY"><a href="/product/Product-Technology/">PRODUCT TECHNOLOGY</a></th>
-<th class="nav-NonWovens" title="NONWOVENS"><a href="/product/NonWovens/">NONWOVENS</a></th>
-<th class="nav-Technical_Assistance_and_Training" title="TECHNICAL ASSISTANCE & TRAINING"><a href="/product/Tech-Assistance-Training/">TECHNICAL ASSISTANCE & TRAINING</a></th>
-<th class="nav-Fabric" title="FABRICS"><a href="/product/Trends-Fabric/">FABRICS</a></th>
-<th class="nav-TextileResearch" title="TEXTILE RESEARCH"><a href="/product/Textile-Research/">TEXTILE RESEARCH</a></th>
-		  </tr>
-		  <tr>
-			  <td>
-<a class="Moisture-Management-nav" href="/product/Product-Technology/Moisture-Management/"><p>Moisture-Management</p></a>	
-<a class="WaterRepellent-nav" href="/product/Product-Technology/Water-Repellent/"><p>Water Repellent</p></a>	
-</td> 
- <td>
-<a class="WhyCotton-nav" href="/product/NonWovens/Why-Cotton/"><p>Why Cotton?</p></a>	
-<a class="Nonwoven_Technical_Guide-nav" href="/product/NonWovens/Nonwoven-Technical-Guide/"><p>Cotton Fiber Tech Guide</p></a>	
-<a class="NonwovenResources-nav" href="/product/NonWovens/Nonwoven-Resources/"><p>Marketing Resources</p></a>	
-<a class="NonwovenNews-nav" href="/product/NonWovens/Nonwoven-News/"><p>Nonwoven News</p></a>	
-<a class="Nonwovens_Sourcing_Directory-nav" href="/product/NonWovens/Nonwovens-Sourcing-Directory/Cotton-Material-Manufacturers/"><p>Sourcing Directories</p></a>	
-</td> 
- <td>
-<a class="EngineeredKnittingProgram-nav" href="/product/Tech-Assistance-Training/EngineeredKnittingProgram/"><p>Engineered Knitting Program</p></a>	
-<a class="ImporterSupportEdu-nav" href="/product/Tech-Assistance-Training/Importer-Support-Education-Workshops/Overview/"><p>Importer Support  Workshops</p></a>	
-<a class="Standard_Fabric_Defect_Glossary-nav" href="/product/Tech-Assistance-Training/StandardFabricDefectGlossary/"><p>Fabric Defect Glossary</p></a>	
-<a class="TextileBasicsEducationalCDs-nav" href="/product/Tech-Assistance-Training/TextileBasicsEducationalCDs/"><p>Textile Basics Online Courses</p></a>	
-<a class="Textile_Encyclopedia-nav" href="/product/Tech-Assistance-Training/Textile-Encyclopedia/"><p>Textile Encyclopedia</p></a>	
-<a class="Technical_Bulletins-nav" href="/product/Tech-Assistance-Training/TechnicalBulletins/"><p>Technical Bulletins</p></a>	
-<a class="CottonUniversityLaunch-nav" href="/product/Tech-Assistance-Training/Cotton-University-Launch/"><p>CottonUniversity.org</p></a>	
-<a class="Presentations-nav" href="/product/Tech-Assistance-Training/Presentations/"><p>Presentations</p></a>	
-</td> 
- <td>
-<a class="FABRICAST-nav" href="/product/Trends-Fabric/Fabricast/"><p>FABRICAST™ Collections</p></a>	
-<a class="COTTONWORKSGlobalFabricDirectory-nav" href="/product/Trends-Fabric/COTTONWORKSGlobalFabricDirectory/"><p>COTTONWORKS&reg; Fabric Sourcing</p></a>	
-</td> 
- <td>
-<a class="FiberProcessing-nav" href="/product/Textile-Research/Fiber-Processing/"><p>Fiber Processing</p></a>	
-<a class="ProductDevelopment-nav" href="/product/Textile-Research/Product-Development/"><p>Product Development</p></a>	
-<a class="DyeingResearch-nav" href="/product/Textile-Research/Dyeing-Research/"><p>Dyeing Research</p></a>	
-<a class="FinishingResearch-nav" href="/product/Textile-Research/Finishing-Research/"><p>Finishing Research</p></a>	
-<a class="TMI-nav" href="/product/Textile-Research/TMI/"><p>Technology Management</p></a>	
-<a class="Product-Integrity-nav" href="/product/Textile-Research/Product-Integrity/"><p>Product Integrity</p></a>	
-<a class="Textile-Sourcing-nav" href="/product/Textile-Research/Textile-Sourcing/"><p>Textile Sourcing</p></a>	
-</td> 
-<tr class="tabdatabuffer"><td>&nbsp;</td></tr> 
-		  </tr>
-		</table>
-	</div>	   
-	</li>	
-	  
-	  <li class="Line-Consumer">	  
-
-    <a href="/consumer/" title="Consumer"><img src="/consumer/inactive_item1327.jpg" id="Consumer"/></a><img src="/resources/~img/nav.seperator.jpg" />
-
-	  
-	  <div class="tabular-content" >
-		<table class="Nav-Consumer" border="0" cellpadding="0" cellspacing="0" >
-		  <tr>
-<th class="nav-Environment" title="ENVIRONMENT"><a href="/consumer/Environment/">ENVIRONMENT</a></th>
-<th class="nav-Cotton_Campus_Nav" title="COTTON CAMPUS"><a href="/consumer/Cotton-Campus/">COTTON CAMPUS</a></th>
-<th class="nav-navon-CottonOrNothing" title="COTTON OR NOTHING"><a href="/consumer/Cotton-or-Nothing/">COTTON OR NOTHING</a></th>
-<th class="nav-navon-TheFabricofOurLives" title="THE FABRIC OF OUR LIVES"><a href="/consumer/TheFabricofOurLives.com/">THE FABRIC OF OUR LIVES</a></th>
-<th class="nav-The_Ads_Nav" title="THE ADS"><a href="/consumer/The-Fabric-of-Our-Lives-Ads/">THE ADS</a></th>
-		  </tr>
-		  <tr>
-			  <td>
-<a class="BlueJeansGoGreen.org-nav" href="/consumer/Environment/BlueJeansGoGreen/"><p>BlueJeansGoGreen.org</p></a>	
-<a class="CottonToday.Cottoninc.com-nav" href="/consumer/Environment/CottonToday.Cottoninc.com/"><p>CottonToday.Cottoninc.com</p></a>	
-</td> 
- <td>
-</td> 
- <td>
-</td> 
- <td>
-</td> 
- <td>
-</td> 
-<tr class="tabdatabuffer"><td>&nbsp;</td></tr> 
-		  </tr>
-		</table>
-	</div>	   
-	</li>	
-	  
-	  <li class="Line-sustainability">	  
-
-    <a href="/sustainability/" title="Sustainability"><img src="/sustainability/inactive_item17064.jpg" id="Sustainability"/></a><img src="/resources/~img/nav.seperator.jpg" />
-
-	  
-	  <div class="tabular-content" >
-		<table class="Nav-sustainability" border="0" cellpadding="0" cellspacing="0" >
-		  <tr>
-<th class="nav-cotton-today-nav" title="COTTON TODAY"><a href="/sustainability/CottonToday/">COTTON TODAY</a></th>
-<th class="nav-cottonleads" title="COTTON LEADS™"><a href="/sustainability/CottonLeads/">COTTON LEADS™</a></th>
-		  </tr>
-		  <tr>
-			  <td>
-</td> 
- <td>
-</td> 
-<tr class="tabdatabuffer"><td>&nbsp;</td></tr> 
-		  </tr>
-		</table>
-	</div>	   
-	</li>	
-	  
-	  <li class="Line-misc">	  
-
-    <a href="/misc/" title="Utility Pages"><img src="/misc/inactive_item10725.gif" id="Utility Pages"/></a><img src="/resources/~img/nav.seperator.jpg" />
-
-	  
-	  <div class="tabular-content" >
-		<table class="Nav-misc" border="0" cellpadding="0" cellspacing="0" >
-		  <tr>
-<th class="nav-Privacy-Policy" title="Privacy-Policy"><a href="/misc/Privacy-Policy/">Privacy-Policy</a></th>
-<th class="nav-Terms-Conditions" title="Terms and Conditions"><a href="/misc/Terms-Conditions/">Terms and Conditions</a></th>
-<th class="nav-Sitemap" title="Sitemap"><a href="/misc/Sitemap/">Sitemap</a></th>
-<th class="nav-Email-Friend" title="Email A Friend"><a href="/misc/Email-Friend/">Email A Friend</a></th>
-<th class="nav-Update-Email-Profile" title="Update Email Profile"><a href="/misc/Update-Email-Profile/">Update Email Profile</a></th>
-		  </tr>
-		  <tr>
-			  <td>
-</td> 
- <td>
-</td> 
- <td>
-</td> 
- <td>
-</td> 
- <td>
-</td> 
-<tr class="tabdatabuffer"><td>&nbsp;</td></tr> 
-		  </tr>
-		</table>
-	</div>	   
-	</li>	
-	  	  
-   </ul>
- </div>
-  
+<script src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D" type="text/javascript"></script>
 <script type="text/javascript">
-    $(document).ready(function () {
-        var pathname = window.location.pathname;
-
-        $('#megamenu-list').megamenu();
-
-	
-	  
-	if (pathname.indexOf("/corporate/") != -1) {
-            $('#Corporate').attr('src', '/corporate/active_item1326.jpg');
-        } else $('#Corporate').attr('src', '/corporate/inactive_item1326.jpg');
-
-	  
-	  
-	if (pathname.indexOf("/fiber/") != -1) {
-            $('#Fiber').attr('src', '/fiber/active_item1328.jpg');
-        } else $('#Fiber').attr('src', '/fiber/inactive_item1328.jpg');
-
-	  
-	  
-	if (pathname.indexOf("/product/") != -1) {
-            $('#Product').attr('src', '/product/active_item9474.jpg');
-        } else $('#Product').attr('src', '/product/inactive_item9474.jpg');
-
-	  
-	  
-	if (pathname.indexOf("/consumer/") != -1) {
-            $('#Consumer').attr('src', '/consumer/active_item1327.jpg');
-        } else $('#Consumer').attr('src', '/consumer/inactive_item1327.jpg');
-
-	  
-	  
-	if (pathname.indexOf("/sustainability/") != -1) {
-            $('#Sustainability').attr('src', '/sustainability/active_item17064.jpg');
-        } else $('#Sustainability').attr('src', '/sustainability/inactive_item17064.jpg');
-
-	  
-	  
-
-	  	  
- });
+//<![CDATA[
+if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();//]]>
 </script>
-  
 
+            <span id="DeltaSPWebPartManager">
+                
+            </span>
+            
+            <a id="HiddenAnchor" href="javascript:;" style="display: none;"></a>
+            <div id="suiteBar" class="ms-dialogHidden noindex">
+                <div id="suiteBarLeft">
+                    <div class="ms-table ms-fullWidth">
+                        <div class="ms-tableRow">
+                            <div class="ms-tableCell ms-verticalAlignMiddle">
+                                <div class="ms-core-brandingText">SharePoint</div>
+
+                            </div>
+                            <div id="DeltaSuiteLinks" class="ms-core-deltaSuiteLinks">
 	
-	
-    	</div> 
-		
-<!-- /pageHeader -->
-
-<!-- googleoff: index -->
-                     
-    			               		
-
-<!-- googleon: index -->	
-
-<!-- INNER CONTENT -->	
-
-    	<div id = "innerContent" class="CottonIncorporated_-_Home_Page">
-			<div id="inner" class="innerPage">
-			
-
-<!--
-
-	... Discover / Features
-
--->
-            <div id="pageDiscover">
-<div id="stagePortals">
-       <div class="onePortal">
-       
-    <a href="/corporate/index.cfm">
-		<img class="Corporate_Banner" src="/corporate/item1702.jpg" alt="Corporate Banner"   />
-   </a>
-   
-	   </div>
-     <div class="onePortal">
-       
-    <a href="/fiber/index.cfm">
-		<img class="CIHomepage-FiberBanner" src="/fiber/item1703.jpg" alt="Fiber Banner"   />
-   </a>
-   
-	   </div>
-     <div class="onePortal">
-       
-    <a href="/product/index.cfm">
-		<img class="CIHomepage-Product-Banner" src="/product/item1704.jpg" alt="Product Banner"   />
-   </a>
-   
-	   </div>
-     <div class="onePortal">
-       
-    <a href="/consumer/index.cfm">
-		<img class="CIHomepage-Consumer-banner" src="/consumer/consumer-banner-for-homepage.jpg" alt="Consumer Banner"   />
-   </a>
-   
-	   </div>
-     <div class="onePortal">
-       
-    <a href="/sustainability/index.cfm">
-		<img class="Sustainability_Banner" src="/sustainability/item17071.jpg" alt="Sustainability Banner"   />
-   </a>
-   
-	   </div>
-       	</div>
-
-
-<div id="stageMenu" class="navi">
-   <a id="stageTab1"></a>
-   <a id="stageTab2"></a>
-   <a id="stageTab3"></a>
-   <a id="stageTab4"></a>
-   <a id="stageTab5"></a>
+                                <div id="suiteLinksBox">
+                                    
+                                </div>
+                            
 </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="suiteBarRight">
+                    <div id="DeltaSuiteBarRight" class="ms-core-deltaSuiteBarRight">
+	
+                        <div id="welcomeMenuBox">
+                            
+<a id="ctl00_IdWelcome_ExplicitLogin" class="ms-signInLink" href="http://www.a2gov.org/_layouts/15/Authenticate.aspx?Source=%2FPages%2Fdefault%2Easpx" style="display:inline-block;">Sign In</a>
+
+                        </div>
+                        <div id="suiteBarButtons">
+                            <span class="ms-siteactions-root" id="siteactiontd">
+                                </span>
+                            <span id="ms-help">
+                                <a onmouseover="this.firstChild.firstChild.firstChild.style.left=&#39;-1px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-1px&#39;;" onmouseout="this.firstChild.firstChild.firstChild.style.left=&#39;-19px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-1px&#39;;" id="ctl00_TopHelpLink" accesskey="6" title="Help" onclick="TopHelpButtonClick(&#39;HelpHome&#39;,event);return false" href="../_catalogs/masterpage/#" style="display:inline-block;"><span style="display:inline-block;overflow:hidden;height:16px;width:16px;padding-left:7px;padding-top:7px;padding-right:7px;padding-bottom:7px;"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust"><img src="/_layouts/15/1033/images/spintl.png?rev=23" alt="Help" style="border:0;position:absolute;left:-19px;top:-1px;" /></span></span></a>
+                            </span>
+                        </div>
+                    
+</div>
+                </div>
+            </div>
+            <div id="ms-hcTest"></div>
+            <div id="s4-ribbonrow">
+                <div id="globalNavBox" class="noindex">
+                    <div id="ribbonBox">
+                        <div id="s4-ribboncont">
+                            <div id="DeltaSPRibbon">
+	
+                                
+
+                                <div class='ms-cui-ribbonTopBars'><div class='ms-cui-topBar1'></div><div class='ms-cui-topBar2'><div id='RibbonContainer-TabRowLeft' class='ms-cui-TabRowLeft ms-core-defaultFont ms-dialogHidden'>
+                                    </div><div id='RibbonContainer-TabRowRight' class='ms-cui-TabRowRight s4-trc-container s4-notdlg ms-core-defaultFont'>
+                                        
+                                        
+                                        
+                                        
+                                        <span id="fullscreenmodebox" class="ms-qatbutton">
+                                            <span id="fullscreenmode">
+                                                <a onmouseover="this.firstChild.firstChild.firstChild.style.left=&#39;-125px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-178px&#39;;" onmouseout="this.firstChild.firstChild.firstChild.style.left=&#39;-143px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-178px&#39;;" id="ctl00_fullscreenmodeBtn" title="Focus on Content" onclick="SetFullScreenMode(true);PreventDefaultNavigation();return false;" href="../_catalogs/masterpage/#" style="display:inline-block;"><span style="display:inline-block;overflow:hidden;height:16px;width:16px;padding-left:7px;padding-top:7px;padding-right:7px;padding-bottom:7px;"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust"><img src="/_layouts/15/images/spcommon.png?rev=23" alt="Focus on Content" style="border:0;position:absolute;left:-143px;top:-178px;" /></span></span></a>
+                                            </span>
+                                            <span id="exitfullscreenmode" style="display: none;">
+                                                <a onmouseover="this.firstChild.firstChild.firstChild.style.left=&#39;-179px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-96px&#39;;" onmouseout="this.firstChild.firstChild.firstChild.style.left=&#39;-107px&#39;; this.firstChild.firstChild.firstChild.style.top=&#39;-178px&#39;;" id="ctl00_exitfullscreenmodeBtn" title="Focus on Content" onclick="SetFullScreenMode(false);PreventDefaultNavigation();return false;" href="../_catalogs/masterpage/#" style="display:inline-block;"><span style="display:inline-block;overflow:hidden;height:16px;width:16px;padding-left:7px;padding-top:7px;padding-right:7px;padding-bottom:7px;"><span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust"><img src="/_layouts/15/images/spcommon.png?rev=23" alt="Focus on Content" style="border:0;position:absolute;left:-107px;top:-178px;" /></span></span></a>
+                                            </span>
+                                        </span>
+                                        
+                                        
+                                    </div></div></div>
+                            
+</div>
+                        </div>
+                        <span id="DeltaSPNavigation">
+                            
+                                <span id="ctl00_SPNavigation_ctl00_publishingRibbon"></span>
+
+                            
+                        </span>
+                    </div>
+                    <div id="DeltaWebPartAdderUpdatePanelContainer" class="ms-core-webpartadder">
+	
+                        <div id="WebPartAdderUpdatePanelContainer">
+                            <div id="ctl00_WebPartAdderUpdatePanel">
+		
+                                    <span id="ctl00_WebPartAdder"></span>
+                                
+	</div>
+                        </div>
+                    
+</div>
+                </div>
+            </div>
+            <div id="s4-workspace"  class="s4-nosetwidth">
+                <div id="s4-bodyContainer">
+                    <div>
+                <div id="DeltaPageStatusBar">
+	
+		            <div id="pageStatusBar"></div>
+	            
+</div>
+                        <table cellpadding="0" cellspacing="0" border="0" width="1024" style="height: 674px">
+                            <td valign="top" id="td_thumbnails">
+                                <table width="449" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td><a href="/government/pages/Home.aspx" id="ctl00_A1" accesskey="1">
+                                            <img src="/Style Library/Images/topnav_govt.gif" id="ctl00_Img1" width="125" height="38" border="0" /></a><a href="/services/pages/Home.aspx" id="ctl00_A2" accesskey="1"><img src="/Style Library/Images/topnav_svc.gif" id="ctl00_Img2" width="116" height="38" border="0" /></a><a href="/news/pages/default.aspx" id="ctl00_A3" accesskey="1"><img src="/Style Library/Images/topnav_news.gif" id="ctl00_Img3" width="88" height="38" border="0" /></a><a href="/contact/pages/contactus.aspx" id="ctl00_A4" accesskey="1"><img src="/Style Library/Images/topnav_contact.gif" id="ctl00_Img4" width="119" height="38" border="0" /></a></td>
+                                    </tr>
+                                </table>
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                        <td class="td_rt" id="logo" colspan="2">
+                                            <img src="/Style Library/Images/A2-logo.jpg" id="ctl00_Img5" width="286" height="91" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" style="width: 560px">
+                                            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="444" height="221" id="tech" align="middle" quality="high" allowfullscreen="true" wmode="transparent" allowscriptaccess="always">
+                                                <param name="movie" value="/Style%20Library/Images/mainPage_pics/mainpage_pics.swf?xml_path=/Style%20Library/Images/mainPage_pics/slides.xml" />
+                                                <param name="quality" value="high" />
+                                                <param name="allowFullScreen" value="true" />
+                                                <param name="wmode" value="transparent" />
+                                                <param name="allowScriptAccess" value="always" />
+                                                <embed src="/Style%20Library/Images/mainPage_pics/mainpage_pics.swf?xml_path=/Style%20Library/Images/mainPage_pics/slides.xml" width="444" height="221" quality="high" allowfullscreen="true" wmode="transparent" allowscriptaccess="always" name="tech" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+                                            </object>
+                                        </td>
+                                    </tr>
+                                    <tr id="td_bevel">
+                                        <td colspan="1" style="width: 200px">Departments:
+                                        </td>
+                                        <td colspan="1" width="200">
+                                            <script src="/Style Library/ServiceUnitDropDown.js" type="text/javascript"></script>
+                                        </td>
+                                    </tr>
+                                    <tr id="td_bevel">
+                                        <td colspan="1" style="width: 200px">Top Searches:
+                                        </td>
+                                        <td colspan="1" width="200">
+                                            <script src="/Style Library/TopSearches.js" type="text/javascript"></script>
+                                        </td>
+                                    </tr>
+                                    <tr id="td_bevel">
+                                        <td colspan="1" style="width: 200px">How Do I:
+                                        </td>
+                                        <td colspan="1" width="200">
+                                            <script src="/Style Library/HowDoI.js" type="text/javascript"></script>
+                                        </td>
+                                    </tr>
+                                    <tr id="td_bevel">
+                                        <td colspan="2" align="left" valign="top">Property Information:<br>
+                                            <input name="txtAddress" type="text" size="30" maxlength="60" alt="Text Box to enter address for validation." value="Enter a valid Ann Arbor address" onclick="this.value = ''" onfocus="this.select();">
+                                            <input name="Submit1" type="button" value="Validate" alt="Button to validate entered address." onclick="javascript: propertyinfo(txtAddress.value);">
+                                            <input name="clear" type="button" value="Clear" onclick="txtAddress.value = ''; return (false);" alt="Button to clear the form">
+                                            <script language="javascript">
+                                                function propertyinfo(TAddress) {
+                                                    TUrl = "http://www2.a2gov.org/Mypropertyinformation/Address2.asp?TAddress=" + TAddress
+                                                    location.href = TUrl;
+                                                }
+                                            </script>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" valign="center" align="center" height="83">
+                                            <table cellspacing="1">
+                                                <tr>
+                                                    <td id="td_bevel3">
+
+                                                        <a href="/government/safetyservices/emergencymanagement/Pages/Alert-Systems.aspx">
+                                                            <img src="/Style Library/images/Icons/CodeRed.jpg" border="0" alt="Emergency Alerts" onmouseover="this.src='/Style Library/Images/Icons/codered_2.jpg'" onmouseout="this.src='/Style Library/Images/Icons/codered.jpg'"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+	<a href="/services/Pages/E-mailAlertSubscription.aspx">
+        <img src="/Style Library/images/Icons/subscribe.gif" border="0" alt="e-Notifications" onmouseover="this.src='/Style Library/Images/Icons/subscribe_2.gif'" onmouseout="this.src='/Style Library/Images/Icons/subscribe.gif'"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://www.facebook.com/TheCityOfAnnArbor" target="_blank">
+        <img src="/Style Library/images/Icons/facebook.gif" border="0" alt="Facebook" onmouseover="this.src='/Style Library/Images/Icons/facebook_2.gif'" onmouseout="this.src='/Style Library/Images/Icons/facebook.gif'"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a href="http://www.linkedin.com/company/city-of-ann-arbor" target="_blank">
+        <img src="/Style Library/images/Icons/linkedin.png" border="0" alt="LinkedIn" onmouseover="this.src='/Style Library/Images/Icons/linkedin2.png'" onmouseout="this.src='/Style Library/Images/Icons/linkedin.png'"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+	<a href="http://twitter.com/a2gov" target="_blank">
+        <img src="/Style Library/images/Icons/twitter.gif" border="0" alt="Twitter" onmouseover="this.src='/Style Library/Images/Icons/twitter_2.gif'" onmouseout="this.src='/Style Library/Images/Icons/twitter.gif'"></a> &nbsp;&nbsp;&nbsp;&nbsp;	
+
+	<a href="/government/city_administration/communicationsoffice/ctn/whats-on/Pages/watch-videos.aspx">
+        <img src="/Style Library/images/Icons/video.gif" border="0" alt="Community Television Network" onmouseover="this.src='/Style Library/Images/Icons/video_2.gif'" onmouseout="this.src='/Style Library/Images/Icons/video.gif'"></a>	&nbsp;&nbsp;&nbsp;&nbsp;	
+
+	<a href="/services/pages/opencityhall.aspx">
+        <img src="/Style Library/images/Icons/comment.jpg" border="0" alt="A2 Open City Hall" onmouseover="this.src='/Style Library/Images/Icons/comment2.jpg'" onmouseout="this.src='/Style Library/Images/Icons/comment.jpg'"></a>
+
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr id="td_bevel2">
+                                        <td colspan="2" valign="top" height="80" align="center">
+                                            <br>
+                                            <br>
+                                            <script src="/Style Library/FooterMain.js" type="text/javascript"></script>
+                                            
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                            <td valign="top" class="bg_wht">
+                                <table width="504" cellpadding="0" cellspacing="0" border="0">
+
+                                    <tr>
+                                        <td class="BG" colspan="3">
+                                            <table>
+                                                <tr>
+                                                    <td height="28" valign="bottom">
+                                                        <img src="/Style Library/Images/hdr_search_sm.jpg" id="ctl00_Img6" width="62" height="20" />
+                                                    </td>
+                                                    <td>
+                                                        <div id="DeltaPlaceHolderSearchArea" class="ms-mpSearchBox ms-floatRight">
+	
+                                                            
+                                                                <div id="searchInputBox">
+                                                                    <div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+		<div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ1" width="100%" class="ms-WPBody noindex " OnlyForMePart="true" allowDelete="false" style="" ><div componentid="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr" id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr"><div id="SearchBox" name="Control"><div class="ms-srch-sb ms-srch-sb-border" id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sboxdiv"><input type="text" value="Search..." maxlength="2048" accessKey="S" title="Search..." id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox" autocomplete="off" autocorrect="off" onkeypress="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {if (Srch.U.isEnterKey(String.fromCharCode(event.keyCode))) {$find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr').search($get('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox').value);return Srch.U.cancelEvent(event);}})" onkeydown="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr');ctl.activateDefaultQuerySuggestionBehavior();})" onfocus="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr');ctl.hidePrompt();ctl.setBorder(true);})" onblur="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr'); if (ctl){ ctl.showPrompt(); ctl.setBorder(false);}})" class="ms-textSmall ms-srch-sb-prompt ms-helperText"/><a title="Search" class="ms-srch-sb-searchLink" id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_SearchLink" onclick="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {$find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr').search($get('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox').value);})" href="javascript: {}" ><img src="/_layouts/15/images/searchresultui.png?rev=23" class="ms-srch-sb-searchImg" id="searchImg" alt="Search" /></a><div class="ms-qSuggest-container ms-shadow" id="AutoCompContainer"><div id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_AutoCompList"></div></div></div></div></div><noscript><div id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_noscript">It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.</div></noscript><div id="ctl00_PlaceHolderSearchArea_SmallSearchInputBox1">
+
+		</div><div class="ms-clear"></div></div>
+	</div>
+                                                                </div>
+                                                            
+                                                        
+</div>
+                                                    </td>
+                                                    <td align="left" valign="bottom"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td id="td_living"><a href="/living/pages/default.aspx" id="ctl00_A5" accesskey="1">
+                                            <img src="/Style Library/Images/hdr_living.gif" id="ctl00_hdr_living" alt="Ann Arbor House" width="63" height="30" border="0" /></a></td>
+                                        <td id="td_visit"><a href="/visiting/pages/default.aspx" id="ctl00_A6" accesskey="1">
+                                            <img src="/Style Library/Images/hdr_visit.gif" id="ctl00_hdr_visit" alt="Ann Arbor Farmers Market" width="58" height="30" border="0" /></a></td>
+                                        <td id="td_work"><a href="/working/pages/Home.aspx" id="ctl00_A7" accesskey="1">
+                                            <img src="/Style Library/Images/hdr_work.gif" id="ctl00_hdr_work" alt="Ann Arbor Working In" width="86" height="30" border="0" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg_living">
+                                            <p>
+                                                
+		<div id="ctl00_Links1ContentPlaceHolder_SummaryLinkFieldControl1__ControlWrapper_SummaryLinkFieldControl" style="display:inline"><div id="slwp_ctl00_Links1ContentPlaceHolder_SummaryLinkFieldControl1_SummaryLinkFieldControl1" class="slm-layout-main slwpmarker"><div class="dfwp-column" style="width:100%" ><div class="slm-layout-main groupmarker"><ul class="dfwp-list"><li><div class="item"><div class="link-item"><a href="/government/financeadminservices/a2openbook/Pages/default.aspx" title="">A2 Open Book</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/publicservices/customerservice/Pages/OnlineCustomerServiceRequest.aspx" title="">Citizen Request System</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/safetyservices/emergencymanagement/Pages/Alert-Systems.aspx#codered" title="">CodeRED Signup</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/disabilityresources" title="">Disability Resources</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/city_administration/City_Clerk/Elections/Pages/Elections.aspx" title="">Elections</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="http://a2gov.legistar.com/Calendar.aspx" title="" onclick="javascript:this.target=&quot;_blank&quot;">Meeting Notices &amp; Agendas</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/publicservices/customerservice/Pages/CityA2Self-ServicePortal.aspx" title="" onclick="javascript:this.target=&quot;_blank&quot;">Online Payments  </a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/safetyservices/police/about/admin-services/Pages/Records.aspx" title="">Online Police Reports</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/safetyservices/police/about/traffic-enforcement/Pages/Alarm-Permits-and-Registration.aspx" title="">Security Alarm Information</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/publicservices/fieldoperations/Pages/SnowRemoval.aspx" title="">Snow</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/publicservices/systems_planning/waterresources/Stormwater/Pages/Stormwater.aspx" title="">Stormwater</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/Pages/Accessibility.aspx" title="">Title VI Non Discrimination</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/publicservices/fieldoperations/Pages/FieldServices.aspx" title="">Water/Sewer Emergency</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/living/Pages/default.aspx" title="">More</a><div class="description"></div></div></div></li ></ul><div class="footermarker"><!--empty--></div></div></div></div></div>
+
+                                            </p>
+
+                                        </td>
+                                        <td class="bg_visit">
+                                            <p>
+                                                
+
+		<div id="ctl00_Links2ContentPlaceHolder_SummaryLinkFieldControl2__ControlWrapper_SummaryLinkFieldControl" style="display:inline"><div id="slwp_ctl00_Links2ContentPlaceHolder_SummaryLinkFieldControl2_SummaryLinkFieldControl2" class="slm-layout-main slwpmarker"><div class="dfwp-column" style="width:100%" ><div class="slm-layout-main groupmarker"><ul class="dfwp-list"><li><div class="item"><div class="link-item"><a href="http://www.visitannarbor.org/" title="" onclick="javascript:this.target=&quot;_blank&quot;">Convention &amp; Visitors Bureau</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/visiting/Pages/AnnArborDowntownAssociations.aspx" title="">Downtown Area Associations</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="http://www.a2dda.org/" title="" onclick="javascript:this.target=&quot;_blank&quot;">Downtown Development Authority</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/city_administration/communicationsoffice/Pages/Events.aspx" title="">Events Calendar</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/publicservices/customerservice/Pages/Parking.aspx" title="">Parking</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/communityservices/Parks-Recreation/Pages/default.aspx" title="">Parks &amp; Recreation</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/Alerts/Pages/EventRoadClosuresandDetours.aspx" title="">Road or Lane Closures</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="http://http://www.a2gov.org/government/publicservices/systems_planning/Transportation/Pages/BikeWalkRide.aspx" title="">Walk Bike Drive </a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/visiting/Pages/default.aspx" title="">More</a><div class="description"></div></div></div></li ></ul><div class="footermarker"><!--empty--></div></div></div></div></div>
+
+
+                                            </p>
+
+                                        </td>
+                                        <td class="bg_work">
+                                            <p>
+                                                
+
+		<div id="ctl00_Links3ContentPlaceHolder_SummaryLinkFieldControl3__ControlWrapper_SummaryLinkFieldControl" style="display:inline"><div id="slwp_ctl00_Links3ContentPlaceHolder_SummaryLinkFieldControl3_SummaryLinkFieldControl3" class="slm-layout-main slwpmarker"><div class="dfwp-column" style="width:100%" ><div class="slm-layout-main groupmarker"><ul class="dfwp-list"><li><div class="item"><div class="link-item"><a href="/government/communityservices/planninganddevelopment/building/Pages/ApplicationsandForms.aspx" title="">Building/Zoning Applications</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/city_administration/City_Clerk/Ordinances/Pages/Online%20City%20Code.aspx" title="">City Codes</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="https://re22.ultipro.com/cit1009/JobBoard/ListJobs.aspx" title="" onclick="javascript:this.target=&quot;_blank&quot;">City Employment</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/gis" title="">City Maps</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/data/Pages/default.aspx" title="">Data Catalog</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/publicservices/customerservice/Pages/CityA2Self-ServicePortal.aspx" title="">DIY Online (Forms, Permits)</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="http://etrakit.a2gov.org/etrakit2/" title="">eTRAKiT</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/city_administration/communicationsoffice/film/Pages/default.aspx" title="">Filming in Ann Arbor</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/government/communityservices/planninganddevelopment/planning/Pages/NorthMainHuronRiverCorridorProject.aspx" title="">N Main-Huron River Project</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="http://www2.a2gov.org/Mypropertyinformation/OurCityatWorkVideo.asp" title="">Our City At Work Video</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="http://www.annarborusa.org/?gclid=CK2hj5W97aICFR5V5wodUgXrOA" title="" onclick="javascript:this.target=&quot;_blank&quot;">SPARK</a><div class="description"></div></div></div></li ><li><div class="item"><div class="link-item"><a href="/working/Pages/Home.aspx" title="">More</a><div class="description"></div></div></div></li ></ul><div class="footermarker"><!--empty--></div></div></div></div></div>
+
+
+                                            </p>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="504" cellpadding="0" cellspacing="0" border="0">
+
+                                    <tr>
+                                        <td id="td_cp2"><a href="/news/pages/default.aspx">
+                                            <img src="/Style Library/images/Icons/News.jpg" border="0" onmouseover="this.src='/Style Library/Images/Icons/News2.jpg'" onmouseout="this.src='/Style Library/Images/Icons/News.jpg'"></a>
+                                            <br>
+                                            <br>
+                                            <a href="/government/city_administration/communicationsoffice/Pages/Events.aspx">
+                                                <img src="/Style Library/images/Icons/events.jpg" border="0" onmouseover="this.src='/Style Library/Images/Icons/events2.jpg'" onmouseout="this.src='/Style Library/Images/Icons/events.jpg'"></a>
+                                        </td>
+                                        <td id="td_cp">
+                                            
+<div style='display:none' id='hidZone'><menu class="ms-hide">
+	<ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/15/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none">
+
+	</ie:menuitem>
+</menu></div>
+                                            
+
+		<div id="ctl00_NewsContentPlaceHolder_RichHtmlField2_label" style='display:none'>News</div><div id="ctl00_NewsContentPlaceHolder_RichHtmlField2__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_NewsContentPlaceHolder_RichHtmlField2_label"><div id="news"><ul><li><a href="/news/Pages/Municipal-Offices-Close-at-Noon-Friday-April-18-204.aspx">City Municipal Offices - Including the Customer Service Center at Larcom City Hall - Close at Noon Good Friday, April 18; No Interruption in Trash/Compost/Recycling Collection</a> </li><li>Routine, Weekly&#160;Fire Hydrant Flushing Schedule&#58; <a href="/news/Pages/Routine-Fire-Hydrant-Flushing-April-14-18-2014.aspx">April 14-18</a>&#160; </li><li><a href="/news/Pages/Judge-Burke-Appointed-to-State-Commission.aspx">15th District Court Judge Appointed to State Council for Interstate Offender Supervision</a> </li><li><a href="/news/Pages/Ann-Arbor-Bridges-Public-Art-Presentation-2014-04-21.aspx">Ann Arbor Bridges Public Art Presentation will Take Place Monday, April 21</a> </li><li><a href="/news/Pages/Arbor-Day-2014-Events.aspx"><font color="#003963">Natural Area Preservation Arbor Day Events Scheduled for Saturday, April&#160;26 at Barton, Dolph and Mary Beth Doyle Nature Areas</font></a>&#160;</li><li><a href="/news/Pages/2014-Earth-Day-Festival.aspx">The Annual Earth Day Festival is Sunday, April 27</a> </li><li><span class="ms-rteThemeForeColor-5-5"><a href="/news/Documents/A2_City_News_Resident_Newsletter/A2_City_News-April_2014.pdf">A2 City News&#160;April 2014 Resident Newsletter</a><a href="http&#58;//a2gov.legistar.com/View.ashx?M=A&amp;ID=299021&amp;GUID=7C105BBD-BEF5-4C60-9473-C933F36E824E"></a></span><span style="font-weight&#58;normal;"></span><span class="ms-rteThemeForeColor-5-5"> <span style="font-weight&#58;normal;"></span>(PDF) and </span><span style="font-weight&#58;normal;"></span><span style="font-weight&#58;normal;"></span><span style="font-weight&#58;normal;"></span><a href="/government/city_administration/communicationsoffice/Pages/A2CityNewsResidentNewsletter.aspx"><span class="ms-rteThemeForeColor-5-5">Newsletter&#160;Page</span></a><span class="ms-rteThemeForeColor-5-5"> </span></li><li><p><a href="/government/city_administration/communicationsoffice/Pages/Events.aspx">City Meetings and Events Calendar Page</a>, and&#160;<a href="/news/Documents/2014_News_Releases/TTL_April_2014.pdf">April Tree Town Log</a>&#160;<span style="font-weight&#58;normal;"></span>PDF</p></li><li><span style="font-weight&#58;normal;"></span><span style="font-weight&#58;normal;"></span><a href="/news/Pages/default.aspx"><span class="ms-rteThemeForeColor-5-5">More News</span></a><span class="ms-rteThemeForeColor-5-5"> ...&#160;&#160; </span><a href="/government/city_administration/communicationsoffice/Pages/Events.aspx"><span class="ms-rteThemeForeColor-5-5">More Events</span></a><span class="ms-rteThemeForeColor-5-5"> ... </span></li></ul><p>Above, smaller photos, left to right&#58; <a href="/government/communityservices/Parks-Recreation/parks-places/argo/Pages/default.aspx">The Argo Cascades</a> at Argo Canoe Livery; the city golf courses are open, this is <a href="/government/communityservices/Parks-Recreation/play/Pages/Golf.aspx">Huron Hills Golf Course</a>; <a href="/government/publicservices/fieldoperations/adopt-a-park/Pages/Adopt-A-Park.aspx">neighbors adopt their local park</a> </p></div></div>
+
+
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="td1"></td>
+                                        <td id="td2">
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                            <td class="BG_rt"></td>
+                        </table>
+                        <table>
+                            <tr>
+                                <td height="0"></td>
+                            </tr>
+                        </table>
+                        <div id="DeltaFormDigest">
+	
+                            
+                                <script type="text/javascript">//<![CDATA[
+        var formDigestElement = document.getElementsByName('__REQUESTDIGEST')[0];
+        if (!((formDigestElement == null) || (formDigestElement.tagName.toLowerCase() != 'input') || (formDigestElement.type.toLowerCase() != 'hidden') ||
+            (formDigestElement.value == null) || (formDigestElement.value.length <= 0)))
+        {
+            formDigestElement.value = '0x8B1487B30F21CB0D93E36D973B431682B21880CF8BD1070C70DFC6ADC5A010954D6B343FCB01575B8F3EA2A3686D11A02E7FCB04400C6831AE8275D7FAD5A710,15 Apr 2014 18:25:00 -0000';
+            g_updateFormDigestPageLoaded = new Date();
+        }
+        //]]>
+        </script>
+                            
+                        
 </div>
 
-<!--
-	... Press Releases
--->
 
-<div id="pageReleases">
-<span id="pressText">PRESS RELEASES:</span>
-   <ul id="pressreleases">
-
-		
-			                       				        		
-
-<li>
-		<a href="/corporate/Pressroom/PressReleases/2014/Denim-Recycling-During-Race-Weekend.cfm" class="pressReleaseTitle2">Cotton Incorporated Partners with Phoenix International Raceway for the Blue Jeans Go Green™ 200 NASCAR Nationwide Series race</a>
-		</li>
-
-  			           	 				        		
-
-<li>
-		<a href="/corporate/Pressroom/PressReleases/2014/Polygiene=Partnership-Cotton-Inc.cfm" class="pressReleaseTitle2">Polygiene Announces Partnership with Cotton Incorporated</a>
-		</li>
-
-  			           	 				        		
-
-<li>
-		<a href="/corporate/Pressroom/PressReleases/2014/fresh-produce-and-bjgg.cfm" class="pressReleaseTitle2">Fresh Produce and Blue Jeans Go Green™ Collaborate for Bring In Your Blues Promotion</a>
-		</li>
-
-  			           	 				        	 				        	 				        	                   
-
-   </ul>
-</div>
-<br clear="all" />
-<!--
-	... Shortcuts / Topics
--->
-<div id="pageTopics">
-    <div id="topicTabs">  <!-- TAB HEADERS -->
-      <ul class="topicTabs">   
-    	    	    	
-    	                           			<li><a href="#" id="topicTab1">
-               	
-	
-  
-			About Cotton	  
-   
-
- 
-   
-    		   </a></li>
-    		       		                    			<li><a href="#" id="topicTab2">
-               	
-	
-  
-			Education	  
-   
-
- 
-   
-    		   </a></li>
-    		       		                    			<li><a href="#" id="topicTab3">
-               	
-	
-  
-			Environment	  
-   
-
- 
-   
-    		   </a></li>
-    		       		                    			<li><a href="#" id="topicTab4">
-               	
-	
-  
-			Sourcing	  
-   
-
- 
-   
-    		   </a></li>
-    		       		                    			<li><a href="#" id="topicTab5">
-               	
-	
-  
-			Media	  
-   
-
- 
-   
-    		   </a></li>
-    		       		       			                         </ul>
-	</div>
-
-	<div id="topicLinks" > <!-- TAB CONTENTS -->
-    	        
-                                 		
-               <div><!-- Topic tab  1 -->
-                   	
-	
-  
-	    	<div class="tabContent">
-    		
-	<!-- ciSnTopicTaAdStandalone -->
-	<div class="topicAd" >
-       <div class="topicImg">
-    		<a href=' /corporate/About-Cotton-Incorporated/World-Offices/ '>
-    		    		                                                     
-		<img class="world-offices-thumb" src="/corporate/About-Cotton-Incorporated/World-Offices/world-offices-thumb.jpg" alt=""   />
-    
-    			     		              
-    		</a>
-			
-       </div>
-       <div class="topicImgLink">
-			<p >Worldwide Offices			
-			<br><a href=' /corporate/About-Cotton-Incorporated/World-Offices/ '>&#9656;&nbsp;View Online</a></p>
-       </div>
-	</div>
-
-	
-
-      	</div>	
-		<div class="topicColumn1" style="width:1000px">    
-			
-                                  		<div class="tabContent" style="float:left">
-                                 			
-       <p>Company History	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /corporate/About-Cotton-Incorporated/Cotton-Incorporated-company-history/ '>See where we came from</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Events	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /corporate/Events/ '>View the event calendar</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Cotton Market Information	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /corporate/Market-Data/ '>View all</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>The Ads	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /consumer/The-Fabric-of-Our-Lives-Ads/ '>View the latest ads</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Contact Cotton Incorporated	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /corporate/Contact-Us/ '>Contact information</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Annual Report	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' 
-http://annualreport.cottoninc.com 
- '>View Annual Report</a>
-			   
-	   
-	   </p>
-                  	             	</div>
-                          		
-		</div>
-
-    
-   
-
- 
-   
-               </div><!-- Topic tab -->
-    		       		       
-                 		
-               <div><!-- Topic tab  2 -->
-                   	
-	
-  
-	    	<div class="tabContent">
-    		
-	<!-- ciSnTopicTaAdStandalone -->
-	<div class="topicAd" >
-       <div class="topicImg">
-    		<a href='  '>
-    		    		                                                     
-		<img class="podcast-th" src="/TopicTabsHomepage/images/item12079.png" alt=""   />
-    
-    			     		              
-    		</a>
-			
-       </div>
-       <div class="topicImgLink">
-			<p >Cotton Market Podcasts			
-			<br><a href='  '>&#9656;&nbsp;View Online</a></p>
-       </div>
-	</div>
-
-	
-
-      	</div>	
-		<div class="topicColumn1" style="width:1000px">    
-			
-                                  		<div class="tabContent" style="float:left">
-                                 			
-       <p>Textile Basics	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Tech-Assistance-Training/TextileBasicsEducationalCDs/ '>Online Courses</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Glossary of Standard Fabric Defects	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Tech-Assistance-Training/StandardFabricDefectGlossary/ '>Search cotton defects easily</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Textile Encyclopedia	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Tech-Assistance-Training/Textile-Encyclopedia/ '>Interactive encyclopedia and glossary </a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Cotton University	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Tech-Assistance-Training/Cotton-University-Launch/ '>Resource for industry, students, and faculty</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Cotton Harvest Systems	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /fiber/AgriculturalDisciplines/Engineering/Cotton-Harvest-Systems/ '>Building, operating and maintenance info</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Cotton Farming Decision Aids	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /fiber/AgriculturalDisciplines/AgriculturalEconomics/Cotton-Farming-Decision-Aids/ '>Decision making tools</a>
-			   
-	   
-	   </p>
-                  	             	</div>
-                          		
-		</div>
-
-    
-   
-
- 
-   
-               </div><!-- Topic tab -->
-    		       		       
-                 		
-               <div><!-- Topic tab  3 -->
-                   	
-	
-  
-	    	<div class="tabContent">
-    		
-	<!-- ciSnTopicTaAdStandalone -->
-	<div class="topicAd" >
-       <div class="topicImg">
-    		<a href=' /sustainability/CottonLeads/ '>
-    		    		                                                     
-		<img class="cl-thumb" src="/sustainability/CottonLeads/cl-thumb.jpg" alt=""   />
-    
-    			     		              
-    		</a>
-			
-       </div>
-       <div class="topicImgLink">
-			<p >Cotton Leads™			
-			<br><a href=' /sustainability/CottonLeads/ '>&#9656;&nbsp;View Online</a></p>
-       </div>
-	</div>
-
-	
-
-      	</div>	
-		<div class="topicColumn1" style="width:1000px">    
-			
-                                  		<div class="tabContent" style="float:left">
-                                 			
-       <p>Blue Jeans Go Green™	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /consumer/Environment/BlueJeansGoGreen/ '>Recycling denim to insulate homes</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Sustainability  	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /sustainability/CottonToday/ '>Learn more</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Product Integrity	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Textile-Research/Product-Integrity/ '>Learn more</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Cotton Standards	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /fiber/quality/US-Fiber-Chart/US-Cotton-Standards/ '>Learn more</a>
-			   
-	   
-	   </p>
-                  	             	</div>
-                          		
-		</div>
-
-    
-   
-
- 
-   
-               </div><!-- Topic tab -->
-    		       		       
-                 		
-               <div><!-- Topic tab  4 -->
-                   	
-	
-  
-	    	<div class="tabContent">
-    		
-	<!-- ciSnTopicTaAdStandalone -->
-	<div class="topicAd" >
-       <div class="topicImg">
-    		<a href=' /product/Trends-Fabric/COTTONWORKSGlobalFabricDirectory/ '>
-    		    		                                                     
-		<img class="cottonworks-icon" src="/product/Trends-Fabric/COTTONWORKSGlobalFabricDirectory/images-buttons/cottonworks-icon.jpg" alt=""   />
-    
-    			     		              
-    		</a>
-			
-       </div>
-       <div class="topicImgLink">
-			<p >COTTONWORKS&reg; Fabric Directory 			
-			<br><a href=' /product/Trends-Fabric/COTTONWORKSGlobalFabricDirectory/ '>&#9656;&nbsp;View Online</a></p>
-       </div>
-	</div>
-
-	
-
-      	</div>	
-		<div class="topicColumn1" style="width:1000px">    
-			
-                                  		<div class="tabContent" style="float:left">
-                                 			
-       <p>TransDRY&reg; Technology Suppliers	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Product-Technology/Moisture-Management/Transdry/Suppliers/ '>View all</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>WICKING WINDOWS&trade; Technology Suppliers	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Product-Technology/Moisture-Management/Wicking-Windows/Suppliers/ '>View all</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Textile Sourcing	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Textile-Research/Textile-Sourcing/ '>Textile companies who process cotton</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Water Repellent	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/Product-Technology/Moisture-Management/Wicking-Windows/Suppliers/ '>View all</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>EFS® Fiber/Yarn Sourcing Directory	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /fiber/quality/Fiber-Management/USCROP/ '>View all</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Cotton Nonwovens Sourcing Directory	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /product/NonWovens/Nonwovens-Sourcing-Directory/Cotton-Material-Manufacturers/ '>View all</a>
-			   
-	   
-	   </p>
-                  	             	</div>
-                          		
-		</div>
-
-    
-   
-
- 
-   
-               </div><!-- Topic tab -->
-    		       		       
-                 		
-               <div><!-- Topic tab  5 -->
-                   	
-	
-  
-	    	<div class="tabContent">
-    		
-	<!-- ciSnTopicTaAdStandalone -->
-	<div class="topicAd" >
-       <div class="topicImg">
-    		<a href=' /corporate/Pressroom/ '>
-    		    		                                                     
-		<img class="medis-contacts-jpg" src="/corporate/Pressroom/MediaContacts/medis-contacts.jpg" alt=""   />
-    
-    			     		              
-    		</a>
-			
-       </div>
-       <div class="topicImgLink">
-			<p >Pressroom			
-			<br><a href=' /corporate/Pressroom/ '>&#9656;&nbsp;View Online</a></p>
-       </div>
-	</div>
-
-	
-
-      	</div>	
-		<div class="topicColumn1" style="width:1000px">    
-			
-                                  		<div class="tabContent" style="float:left">
-                                 			
-       <p>Video Archives	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /corporate/Pressroom/Video-Releases/ '>View all</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Did You Know?	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /corporate/Pressroom/DidYouKnow/ '>Learn more about cotton</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Media Contacts	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /corporate/Pressroom/MediaContacts/ '>Contact information</a>
-			   
-	   
-	   </p>
-                  	             			
-       <p>Cotton Lifestyle Monitor®	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /corporate/Pressroom/Lifestyle-Monitor/ '>Apparel and home furnishings market data</a>
-			   
-	   
-	   </p>
-                  	             			
-		        </div>
-		        <div class="tabContent"  style="float:left" >		
-                    	             			
-       <p>Cotton Sustainability 	   <br/>&#9656;&nbsp;
-
-				    		                                   			                           					
-			
-		
-			<a href=' /sustainability/ '>Learn More</a>
-			   
-	   
-	   </p>
-                  	             	</div>
-                          		
-		</div>
-
-    
-   
-
- 
-   
-               </div><!-- Topic tab -->
-    		       		       				             
-                      </div> <!-- topicLinks -->
-</div>
-			</div> 
-			
-<!-- /inner -->
-<!-- googleoff: index -->
-			
-<!-- SHARE THIS -->		
-			<div id="sharespacer">&nbsp;</div>
-			<div id="shareline">
-
-				<img style="float:right; border:0;" src="/resources/%7Eimg/nav/gray-bg-right-cap-10x36.png"/>
-				<div id="sharethis"><p>Share This:</p></div>
-				<div id="sharethis-fb"> 
-					<a rel="nofollow"  href = "http://www.facebook.com/share.php?u=<;url>" onclick="return fbs_click()" target="_blank">
-					<img src="/resources/%7Eimg/spacer.gif">
-					</a>
-				</div>
-				<div id="sharethis-twitter"> 
-					<a rel="nofollow"  href = "http://www.twitter.com/home?status=<;url>" onclick="return tweet_click()" target="_blank">
-					<img src="/resources/%7Eimg/spacer.gif">
-					</a>
-				</div>
-				<div id="sharethis-linkedin"> 
-					<a rel="nofollow"  href = "http://www.linkedin.com/shareArticle?mini=true&url=<;url>" onclick="return linkedin_click()" target="_blank">
-					<img src="/resources/%7Eimg/spacer.gif">
-					</a>
-				</div>
-				<div id="sharethis-digg"> 
-					<a rel="nofollow"  href = "http://digg.com/submit?phase=2&url=<;url>" onclick="return digg_click()" target="_blank">
-					<img src="/resources/%7Eimg/spacer.gif">
-					</a>
-				</div>
-				<div id="sharethis-delicious"> 
-					<a rel="nofollow"  href = "http://delicious.com/post?url=<;url>" onclick="return delicious_click()" target="_blank">
-					<img src="/resources/%7Eimg/spacer.gif">
-					</a>
-				</div>
-				<div id="sharethis-email" style="position:relative;"> 
-					<a href="/misc/Email-Friend/index.cfm"  title="Email This to a Friend "><img src="/resources/%7Eimg/spacer.gif"></a>
-				</div>			</div>			
-
-<!-- BOTTOM LINKS 0 0 0 -->
-						
-		</div>
-		
-<!-- /innerContent -->
-<!-- FOOTER-->
-	
-	<!-- using cf code -->
-	
-
-    <div id="pageFooter">
-		<img id="divider" src="/resources/~img/footer.divider.png" />
-    <div id="socialmedia">				
-		<div id="followus-label"><p>Follow Us:</p></div>
-		<div id="followus-fb"> 
-			<a rel="nofollow"  href = "http://www.facebook.com/cottoninc"  target="_blank">
-			<img src="/resources/%7Eimg/spacer.gif">
-			</a>
-		</div>
-		<div id="followus-twitter"> 
-			<a rel="nofollow"  href = "http://twitter.com/cottoninc" target="_blank">
-			<img src="/resources/%7Eimg/spacer.gif">
-			</a>
-		</div>
-		<div id="followus-youtube"> 
-			<a rel="nofollow"  href = "http://www.youtube.com/cottonfabricofmylife"  target="_blank">
-			<img src="/resources/%7Eimg/spacer.gif">
-			</a>
-		</div>
-		<div id="followus-rss"> 
-			<a rel="nofollow"  href = "/RSS/feed-10124.xml"   target="_blank">
-			<img src="/resources/%7Eimg/spacer.gif"> 
-			</a>
-		</div>
-
-	</div>
-    <div id="footernav">
-  	<a href="/" class="titlelink">	
-HOME</a>
- &#124;
-  	<a href="/corporate/Pressroom/" class="titlelink">	
-Pressroom </a>
- &#124;
-  	<a href="/corporate/About-Cotton-Incorporated/careers/" class="titlelink">	
-Careers</a>
- &#124;
-  	<a href="/misc/Sitemap/" class="titlelink">	
-Cotton Sitemap</a>
- &#124;
-  
-		<a href="/misc/Update-Email-Profile/" class="titlelink">
-	  Update Email Profile	</a>
-  
-	</div>
-
-    <div id="sitetools"><a href="#" onclick="window.print();return false;">
-		Print This Page: 
-		<img src="/resources/~img/print15x17.png" >
-	</a>
-	</div>
-<!--  2014 -->
-    <div id="sitelegal">AMERICA'S COTTON PRODUCERS AND IMPORTERS. Service Marks / Trademarks of Cotton Incorporated. &copy; 2014 Cotton Incorporated.&nbsp;
-			<a href="/misc/Terms-Conditions/" class="titlelink">	
-Terms and Conditions</a>
-	<a href="/misc/Privacy-Policy/" class="titlelink">	
-Privacy Policy</a>
-    </div>
-	</div>
-    	
-	
-	
-	
-	
-
-<!-- /FOOTER-->
-<!-- googleon: index -->
-
-<!-- end of PAGE-->
-	</div>
-              
-
-  <!-- pagetype ColdFusion -->
-</body>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+                        <script type="text/javascript">
+                            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                        </script>
+                        <script type="text/javascript">
+                            var pageTracker = _gat._getTracker("UA-930291-1");
+                            pageTracker._trackPageview();
+                        </script>
+                        <script type="text/javascript">
+                            function ProcessImn() { }
+                            function ProcessImnMarkers() { }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;window.g_updateFormDigestPageLoaded = new Date(); window.g_updateFormDigestPageLoaded.setDate(window.g_updateFormDigestPageLoaded.getDate() -5);var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{16d69184-10a6-4512-806e-840a9bea3b58}",itemId: 1,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: false,forceCheckout: true,rootFolderUrl: "\u002fPages",itemPermissions:{High:16,Low:196705}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';
+ExecuteOrDelayUntilScriptLoaded(
+function()
+{
+var initInfo = 
+{
+itemPermMasks: {High:16,Low:196705},
+listPermMasks: {High:16,Low:196705},
+listId: "16d69184-10a6-4512-806e-840a9bea3b58",
+itemId: 1,
+workflowsAssociated: true,
+editable: false,
+doNotShowProperties: false,
+enableVersioning: true
+};
+SP.Ribbon.DocLibAspxPageComponent.registerWithPageManager(initInfo);
+},
+"sp.ribbon.js");
+var g_disableCheckoutInEditMode = false;
+var _spWebPermMasks = {High:16,Low:196705};
+            ExecuteOrDelayUntilScriptLoaded(
+                function() 
+                {                    
+                    Srch.ScriptApplicationManager.get_current().states = {"webUILanguageName":"en-US","webDefaultLanguageName":"en-US","contextUrl":"http://www.a2gov.org","contextTitle":"Home","supportedLanguages":[{"id":1025,"label":"Arabic"},{"id":1093,"label":"Bengali"},{"id":1026,"label":"Bulgarian"},{"id":1027,"label":"Catalan"},{"id":2052,"label":"Chinese (Simplified)"},{"id":1028,"label":"Chinese (Traditional)"},{"id":1050,"label":"Croatian"},{"id":1029,"label":"Czech"},{"id":1030,"label":"Danish"},{"id":1043,"label":"Dutch"},{"id":1033,"label":"English"},{"id":1035,"label":"Finnish"},{"id":1036,"label":"French"},{"id":1031,"label":"German"},{"id":1032,"label":"Greek"},{"id":1095,"label":"Gujarati"},{"id":1037,"label":"Hebrew"},{"id":1081,"label":"Hindi"},{"id":1038,"label":"Hungarian"},{"id":1039,"label":"Icelandic"},{"id":1057,"label":"Indonesian"},{"id":1040,"label":"Italian"},{"id":1041,"label":"Japanese"},{"id":1099,"label":"Kannada"},{"id":1042,"label":"Korean"},{"id":1062,"label":"Latvian"},{"id":1063,"label":"Lithuanian"},{"id":1086,"label":"Malay"},{"id":1100,"label":"Malayalam"},{"id":1102,"label":"Marathi"},{"id":1044,"label":"Norwegian"},{"id":1045,"label":"Polish"},{"id":1046,"label":"Portuguese (Brazil)"},{"id":2070,"label":"Portuguese (Portugal)"},{"id":1094,"label":"Punjabi"},{"id":1048,"label":"Romanian"},{"id":1049,"label":"Russian"},{"id":3098,"label":"Serbian (Cyrillic)"},{"id":2074,"label":"Serbian (Latin)"},{"id":1051,"label":"Slovak"},{"id":1060,"label":"Slovenian"},{"id":3082,"label":"Spanish (Spain)"},{"id":2058,"label":"Spanish (Mexico)"},{"id":1053,"label":"Swedish"},{"id":1097,"label":"Tamil"},{"id":1098,"label":"Telugu"},{"id":1054,"label":"Thai"},{"id":1055,"label":"Turkish"},{"id":1058,"label":"Ukrainian"},{"id":1056,"label":"Urdu"},{"id":1066,"label":"Vietnamese"}],"navigationNodes":[{"id":1001,"name":"Everything","url":"{searchcenterurl}/results.aspx","promptString":"Search everything"},{"id":1002,"name":"People","url":"{searchcenterurl}/peopleresults.aspx","promptString":"Search people"},{"id":1003,"name":"Conversations","url":"{searchcenterurl}/conversationresults.aspx","promptString":"Search conversations"},{"id":0,"name":"This Site","url":"~site/_layouts/15/osssearchresults.aspx?u={contexturl}","promptString":"Search this site"}],"searchCenterUrl":"/Search","showAdminDetails":false,"defaultPagesListName":"Pages","isSPFSKU":false,"userAdvancedLanguageSettingsUrl":"?ShowAdvLang=1","defaultQueryProperties":{"culture":1033,"uiLanguage":1033,"summaryLength":180,"desiredSnippetLength":90,"enableStemming":true,"enablePhonetic":false,"enableNicknames":false,"trimDuplicates":true,"bypassResultTypes":false,"enableInterleaving":true,"enableQueryRules":true,"processBestBets":true,"enableOrderingHitHighlightedProperty":false,"hitHighlightedMultivaluePropertyLimit":-1,"processPersonalFavorites":true}};
+                    Srch.U.trace(null, 'SerializeToClient', 'ScriptApplicationManager state initialized.');
+                }, 'Search.ClientControls.js');
+var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
+
+                    ExecuteOrDelayUntilScriptLoaded(
+                        function() 
+                        {
+                            if ($isNull($find('ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr')))
+                            {
+                                var sb = $create(Srch.SearchBox, {"delayLoadTemplateScripts":true,"messages":[],"queryGroupNames":["MasterPage"],"renderTemplateId":"~sitecollection/_catalogs/masterpage/Display Templates/Search/Control_SearchBox_Compact.js","resultsPageAddress":"/Search/pages/results.aspx","serverInitialRender":true,"showDataErrors":true,"states":{},"tryInplaceQuery":false}, null, null, $get("ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr"));
+                                sb.activate('Search...', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sboxdiv', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_NavButton', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_AutoCompList', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_NavDropdownList', 'ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_SearchLink', 'ms-srch-sbprogress', 'ms-srch-sb-prompt ms-helperText');
+                            }
+                        }, 'Search.ClientControls.js');//]]>
+</script>
+</form>
+    </body>
 </html>

@@ -1,19 +1,15 @@
-from __main__ import *
+from __main__ import funcs, attrNames
 
-import os
+attrNames.append('important')
 
-index = 0
-filename = "index.html"
-
-while os.path.isfile("./data/" + filename):
+def addImportanceAttr(info, index):
 
 	important = False
-	if index < 146:
+	if index < 153:
 		important = True
 
-	infoList[index].append(important)
+	info.append(important)
 
-	index = index + 1
-	filename = "index.html." + str(index)
+	return
 
-featureNames.append('important')
+funcs.append(addImportanceAttr)

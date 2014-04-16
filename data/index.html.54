@@ -1,1094 +1,501 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <!-- Content Copyright National Cotton Council of America -->
-<!-- Page generated 2014-04-02 19:18:18 by CommonSpot Build 7.0.0.202 (2012-04-03 15:04:22) -->
-<!-- JavaScript & DHTML Code Copyright &copy; 1998-2012 PaperThin, Inc.  All rights reserved --> <head> <title>National Cotton Council of America</title> <meta name="Description" id="Description" content="Home" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="Keywords" id="Keywords" content="cotton, cotton industry" />
-<meta name="Generator" id="Generator" content="CommonSpot Content Server Build 7.0.0.202" />
-
-<link rel="alternate" type="application/atom+xml" title="Latest NCC News" href="http://www.cotton.org/index.cfm?xml=Latest%20NCC%20News,RSS2.0" />
-<link rel="stylesheet" href="/style/default.css" type="text/css" />
-<link rel="stylesheet" href="/style/ncc_default.css" type="text/css" />
-<link rel="stylesheet" href="/style/ncc_style_2005.css" type="text/css" />
-<style type="text/css">
-	.mw { color:#000000;font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:xx-small;text-decoration:none; }
-	a.mw:link	{color:#000000;font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:xx-small;text-decoration:none;}
-	a.mw:visited	{color:#000000;font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:xx-small;text-decoration:none;}
-	a.mw:hover	{color:#0000FF;font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:xx-small;text-decoration:none;}
-</style> <script type="text/javascript">
-<!--
-	var gMenuControlID = 0;
-	var menus_included = 0;
-	var jsDlgLoader = '/loader.cfm';
-	var jsSiteID = 1;
-	var jsSubSiteID = 1;
-	var js_gvPageID = 715;
-	var jsPageID = 715;
-	var jsPageSetID = 0;
-	var jsPageType = 0;
-	var jsControlsWithRenderHandlers = ",4,20,23,23,23,23,23,23,23,23,23,23,23,30,36,36,36,36,36,36,36,36,36,36,36,36,36,36,39,39,41,41,17140,21142,21145,22176,22176,";
-	var jsDefaultRenderHandlerProps = ",,";
-	var jsAuthorizedControls = ",1,2,3,4,6,7,8,9,10,11,16,17,18,20,21,22,23,25,26,27,28,29,30,31,33,34,36,37,38,39,40,41,42,43,44,45,46,47,50,51,53,54,2557,2629,2774,3484,7460,8585,11060,11446,11916,15117,15505,15517,15864,15938,16940,17124,17140,17296,17699,18330,19253,21142,21145,21216,21386,21518,21572,21621,21929,22176,24660,25535,25672,27894,64354,88244,";
-	var jsCustomRenderHandlerPairs = "";
-	var jsStandardRenderHandlers = "";
-	var jsSiteSecurityCreateControls = 0;
-	var jsShowRejectForApprover = 0;
-
-// -->
-</script><script type="text/javascript" src="/commonspot/javascript/browser-all.js"></script> 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html  lang="en-US">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2008                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta id="MetaDescription" name="DESCRIPTION" content="Popcorn Board - Home" /><meta id="MetaKeywords" name="KEYWORDS" content="Popcorn Board - Home,DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2009" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="Popcorn Board" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="_DesktopModules_DigRotate" rel="stylesheet" type="text/css" href="/DesktopModules/DigRotate/module.css" /><link id="_Portals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="_Portals__default_Skins_SiteSkinPackage_" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/SiteSkinPackage/skin.css" /><link id="_Portals_0_" rel="stylesheet" type="text/css" href="/Portals/0/portal.css" />	<link id="CISS_module_-1" rel="stylesheet" type="text/css" href="/desktopmodules/CISS.SideMenu/Styles/suckerfish2/suckerfish2.css" /><link id="css19D5F1DEBEFFA47FE2B960D2A95E06A9" rel="stylesheet" type="text/css" href="/DesktopModules/DigRotate/Templates/Default/template.css" /><link id="cssDE4B1C3FDF13B0A9F17E736D13A7BD80" rel="stylesheet" type="text/css" href="/DesktopModules/DigRotate/Templates/Rotate-GreyLight_PB/template.css" /><meta name="google-site-verification" content="ANfQYoHY1LAknwxmXZTs636gB3ToKWlntrUjwGId1MA" /><title>
+	Popcorn Board - Home
+</title></head>
+<body id="Body">
+    <noscript></noscript>
+    <form name="Form" method="post" action="/default.aspx" id="Form" enctype="multipart/form-data" style="height: 100%;" autocomplete="off">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjgzMDU3ODk3D2QWBmYPFgIeBFRleHQFPjwhRE9DVFlQRSBIVE1MIFBVQkxJQyAiLS8vVzNDLy9EVEQgSFRNTCA0LjAgVHJhbnNpdGlvbmFsLy9FTiI+ZAIBD2QWDAIBDxYCHgdWaXNpYmxlaGQCAg8WAh4HY29udGVudAUUUG9wY29ybiBCb2FyZCAtIEhvbWVkAgMPFgIfAgUjUG9wY29ybiBCb2FyZCAtIEhvbWUsRG90TmV0TnVrZSxETk5kAgQPFgIfAgUOQ29weXJpZ2h0IDIwMDlkAgUPFgIfAgULRG90TmV0TnVrZSBkAgYPFgIfAgUNUG9wY29ybiBCb2FyZGQCAg9kFgICAQ9kFgICBA9kFgJmD2QWCmYPZBYCZg8PFgYeCENzc0NsYXNzBQd1dGlsbmF2HwAFBUxvZ2luHgRfIVNCAgJkZAIBDw8WAh8BZ2QWAmYPFgIfAAXOWzwhLS0gTWVudSBnZW5lcmF0ZWQgYnkgTmF2aWdhdGlvbiBTdWl0ZSBmb3IgRG90TmV0TnVrZSAsIHd3dy5kbm4zNjAubmV0IC0tPg0KPCEtLVtpZiBJRV0+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KDQojbWVudSBsaSB1bCB7DQoJd2lkdGg6IDEzZW07DQoJcG9zaXRpb246IGFic29sdXRlOyANCgl6LWluZGV4OiA5OTsNCglsZWZ0OiAtOTk5ZW07IA0KCWhlaWdodDogYXV0bzsJDQp9DQoNCiNtZW51IGxpIGxpIHsNCglwYWRkaW5nOiAwIDAgMCAwOw0KCW1hcmdpbjogMDsNCgl3aWR0aDogMTNlbTsNCn0NCg0KI21lbnUgbGkgdWwgbGkgewkNCglib3JkZXItYm90dG9tOiAwcHggc29saWQgI2UxZTBlMDsNCglwYWRkaW5nOjJweCAwcHggMnB4IDBweDsNCn0NCjwvc3R5bGU+DQo8IVtlbmRpZl0tLT48c2NyaXB0IGxhbmd1YWdlPSJqYXZhc2NyaXB0IiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHhtbG5zOmZvPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L1hTTC9Gb3JtYXQiPgkNCiAgICAgLy8gSlNjcmlwdCBGaWxlDQoNCglzZkhvdmVyID0gZnVuY3Rpb24oKSB7DQoJdmFyIHNmRWxzID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm1lbnUiKS5nZXRFbGVtZW50c0J5VGFnTmFtZSgiTEkiKTsNCglmb3IgKHZhciBpPTA7IGk8c2ZFbHMubGVuZ3RoOyBpKyspIHsNCgkJc2ZFbHNbaV0ub25tb3VzZW92ZXI9ZnVuY3Rpb24oKSB7DQoJCQl0aGlzLmNsYXNzTmFtZSs9IiBzZmhvdmVyIjsNCgkJfQ0KCQlzZkVsc1tpXS5vbm1vdXNlb3V0PWZ1bmN0aW9uKCkgew0KCQkJdGhpcy5jbGFzc05hbWU9dGhpcy5jbGFzc05hbWUucmVwbGFjZShuZXcgUmVnRXhwKCIgc2Zob3ZlclxcYiIpLCAiIik7DQoJCX0NCgl9DQoJfQ0KCWlmICh3aW5kb3cuYXR0YWNoRXZlbnQpIHdpbmRvdy5hdHRhY2hFdmVudCgib25sb2FkIiwgc2ZIb3Zlcik7DQoJPC9zY3JpcHQ+PHRhYmxlIHdpZHRoPSIxMDAlIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIGJvcmRlcj0iMCIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6I2UxZTBlMDsiIHhtbG5zOmZvPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L1hTTC9Gb3JtYXQiPjx0ciBhbGlnbj0ibGVmdCIgd2lkdGg9IjEwMCUiPjx0ZCB3aWR0aD0iMTAwJSIgYWxpZ249ImxlZnQiPjxkaXYgYWxpZ249ImxlZnQiPjx1bCBpZD0ibWVudSI+PGxpIGNsYXNzPSJsZXZlbDEiPjxhIGNsYXNzPSJIMU1lbnVMZXZlbDBTZWxlY3RlZCIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9Ib21lL3RhYmlkLzM2L0RlZmF1bHQuYXNweCI+PHNwYW4+SG9tZTwvc3Bhbj48L2E+PC9saT48bGkgY2xhc3M9ImxldmVsMSI+PGEgY2xhc3M9ImxldmVsaGF2ZWNoaWxkIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0ZvcktpZHMvdGFiaWQvNTQvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Gb3IgS2lkczwvc3Bhbj48L2E+PHVsPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0ZvcktpZHMvUG9wY29ybkJvb2tsaXN0L3RhYmlkLzgyL0RlZmF1bHQuYXNweCI+PHNwYW4+UG9wY29ybiBCb29rbGlzdDwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9Gb3JLaWRzL1BvcGNvcm5Db2xvcmluZ1NoZWV0cy90YWJpZC84My9EZWZhdWx0LmFzcHgiPjxzcGFuPlBvcGNvcm4gQ29sb3JpbmcgU2hlZXRzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0ZvcktpZHMvUG9wY29ybldvcmtzaGVldHMvdGFiaWQvNjEvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Qb3Bjb3JuIFdvcmtzaGVldHM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvRm9yS2lkcy9Qb3Bjb3JuR2FtZXMvdGFiaWQvNjAvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Qb3Bjb3JuIEdhbWVzPC9zcGFuPjwvYT48L2xpPjwvdWw+PC9saT48bGkgY2xhc3M9ImxldmVsMSI+PGEgY2xhc3M9ImxldmVsaGF2ZWNoaWxkIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0ZvclRlYWNoZXJzL3RhYmlkLzU1L0RlZmF1bHQuYXNweCI+PHNwYW4+Rm9yIFRlYWNoZXJzPC9zcGFuPjwvYT48dWw+PGxpIGNsYXNzPSJsZXZlbGhhdmVjaGlsZCI+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9Gb3JUZWFjaGVycy90YWJpZC81NS9EZWZhdWx0LmFzcHgiPjxzcGFuPlRlYWNoaW5nIEd1aWRlPC9zcGFuPjwvYT48dWw+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvRm9yVGVhY2hlcnMvVGVhY2hpbmdHdWlkZS9Qb3Bjb3JuSGlzdG9yeS90YWJpZC84NS9EZWZhdWx0LmFzcHgiPjxzcGFuPlBvcGNvcm4gSGlzdG9yeTwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9Gb3JUZWFjaGVycy9UZWFjaGluZ0d1aWRlL0hvd1BvcHVsYXJpc1BvcGNvcm4vdGFiaWQvODYvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Ib3cgUG9wdWxhciBpcyBQb3Bjb3JuPzwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9Gb3JUZWFjaGVycy9UZWFjaGluZ0d1aWRlL0Zyb21TZWVkdG9TbmFjay90YWJpZC84Ny9EZWZhdWx0LmFzcHgiPjxzcGFuPkZyb20gU2VlZCB0byBTbmFjazwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9Gb3JUZWFjaGVycy9UZWFjaGluZ0d1aWRlL1doYXRNYWtlc1BvcGNvcm5Qb3AvdGFiaWQvODgvRGVmYXVsdC5hc3B4Ij48c3Bhbj5XaGF0IE1ha2VzIFBvcGNvcm4gUG9wPzwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9BYm91dFVzL01lZGlhL1BvcFZpZGVvcy90YWJpZC8xMTQvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Qb3AgVmlkZW9zPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0ZvclRlYWNoZXJzL1RlYWNoaW5nR3VpZGUvUHJlcGFyaW5nUGVyZmVjdFBvcGNvcm4vdGFiaWQvOTAvRGVmYXVsdC5hc3B4Ij48c3Bhbj5QcmVwYXJpbmcgUGVyZmVjdCBQb3Bjb3JuPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0ZvclRlYWNoZXJzL1RlYWNoaW5nR3VpZGUvTnV0cml0aW9uYWxJbmZvcm1hdGlvbi90YWJpZC85MS9EZWZhdWx0LmFzcHgiPjxzcGFuPk51dHJpdGlvbmFsIEluZm9ybWF0aW9uPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0ZvclRlYWNoZXJzL1RlYWNoaW5nVG9vbHMvdGFiaWQvNjIvRGVmYXVsdC5hc3B4Ij48c3Bhbj5UZWFjaGluZyBUb29scywgTGVzc29uIFBsYW5zPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0d1ZXN0Ym9vay90YWJpZC81OS9EZWZhdWx0LmFzcHgiPjxzcGFuPlJlcXVlc3QgYSBUZWFjaGVycyBHdWlkZTwvc3Bhbj48L2E+PC9saT48L3VsPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvRm9yVGVhY2hlcnMvVGVhY2hpbmdUb29scy90YWJpZC82Mi9EZWZhdWx0LmFzcHgiPjxzcGFuPlRlYWNoaW5nIFRvb2xzPC9zcGFuPjwvYT48L2xpPjwvdWw+PC9saT48bGkgY2xhc3M9ImxldmVsMSI+PGEgY2xhc3M9ImxldmVsaGF2ZWNoaWxkIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL051dHJpdGlvblJlY2lwZXMvdGFiaWQvNTYvRGVmYXVsdC5hc3B4Ij48c3Bhbj5OdXRyaXRpb24gJiBSZWNpcGVzPC9zcGFuPjwvYT48dWw+PGxpIGNsYXNzPSJsZXZlbGhhdmVjaGlsZCI+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9OdXRyaXRpb25SZWNpcGVzL051dHJpdGlvbllvdS9OdXRyaXRpb25hbEluZm9ybWF0aW9uL3RhYmlkLzk2L0RlZmF1bHQuYXNweCI+PHNwYW4+TnV0cml0aW9uICYgWW91PC9zcGFuPjwvYT48dWw+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvTnV0cml0aW9uUmVjaXBlcy9OdXRyaXRpb25Zb3UvTnV0cml0aW9uYWxJbmZvcm1hdGlvbi90YWJpZC85Ni9EZWZhdWx0LmFzcHgiPjxzcGFuPk51dHJpdGlvbmFsIEluZm9ybWF0aW9uPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL051dHJpdGlvblJlY2lwZXMvTnV0cml0aW9uWW91L1RoZUZvb2RQbGF0ZS90YWJpZC85Ny9EZWZhdWx0LmFzcHgiPjxzcGFuPlRoZSBGb29kIFBsYXRlPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL051dHJpdGlvblJlY2lwZXMvTnV0cml0aW9uWW91L1VuZGVyc3RhbmRpbmdDYWxvcmllcy90YWJpZC85OS9EZWZhdWx0LmFzcHgiPjxzcGFuPlVuZGVyc3RhbmRpbmcgQ2Fsb3JpZXM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvTnV0cml0aW9uUmVjaXBlcy9OdXRyaXRpb25Zb3UvRmF0RmFjdHMvdGFiaWQvMTAwL0RlZmF1bHQuYXNweCI+PHNwYW4+RmF0IEZhY3RzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL051dHJpdGlvblJlY2lwZXMvTnV0cml0aW9uWW91L1dob2xlR3JhaW5zL3RhYmlkLzEwMS9EZWZhdWx0LmFzcHgiPjxzcGFuPldob2xlIEdyYWluczwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9OdXRyaXRpb25SZWNpcGVzL051dHJpdGlvbllvdS9IZWFsdGhNZWRpY2FsR3JvdXBzL3RhYmlkLzEwMi9EZWZhdWx0LmFzcHgiPjxzcGFuPkhlYWx0aCAmIE1lZGljYWwgR3JvdXBzPC9zcGFuPjwvYT48L2xpPjwvdWw+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9OdXRyaXRpb25SZWNpcGVzL0NhbG9yaWVDb3VudGVyL3RhYmlkLzY2L0RlZmF1bHQuYXNweCI+PHNwYW4+Q2Fsb3JpZSBDb3VudGVyPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL051dHJpdGlvblJlY2lwZXMvUmVjaXBlcy90YWJpZC82Ny9EZWZhdWx0LmFzcHgiPjxzcGFuPlJlY2lwZXM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvTnV0cml0aW9uUmVjaXBlcy9Qb3Bjb3JuVGlwcy90YWJpZC82OC9EZWZhdWx0LmFzcHgiPjxzcGFuPlBvcGNvcm4gVGlwczwvc3Bhbj48L2E+PC9saT48L3VsPjwvbGk+PGxpIGNsYXNzPSJsZXZlbDEiPjxhIGNsYXNzPSJsZXZlbGhhdmVjaGlsZCIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9FbmN5Y2xvcGVkaWFQb3Bjb3JuaWNhL3RhYmlkLzU3L0RlZmF1bHQuYXNweCI+PHNwYW4+RW5jeWNsb3BlZGlhIFBvcGNvcm5pY2E8L3NwYW4+PC9hPjx1bD48bGkgY2xhc3M9ImxldmVsaGF2ZWNoaWxkIj48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0VuY3ljbG9wZWRpYVBvcGNvcm5pY2EvdGFiaWQvNTcvRGVmYXVsdC5hc3B4Ij48c3Bhbj5XZWxjb21lIHRvIFBvcGNvcm5pY2E8L3NwYW4+PC9hPjx1bD48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9FbmN5Y2xvcGVkaWFQb3Bjb3JuaWNhL1dlbGNvbWV0b1BvcGNvcm5pY2EvV2hhdE1ha2VzUG9wY29yblBvcC90YWJpZC8xMDUvRGVmYXVsdC5hc3B4Ij48c3Bhbj5XaGF0IE1ha2VzIFBvcGNvcm4gUG9wPzwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9BYm91dFVzL01lZGlhL1BvcFZpZGVvcy90YWJpZC8xMTQvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Qb3AgVmlkZW9zPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0VuY3ljbG9wZWRpYVBvcGNvcm5pY2EvV2VsY29tZXRvUG9wY29ybmljYS9IaXN0b3J5b2ZQb3Bjb3JuL3RhYmlkLzEwNi9EZWZhdWx0LmFzcHgiPjxzcGFuPkhpc3Rvcnkgb2YgUG9wY29ybjwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9FbmN5Y2xvcGVkaWFQb3Bjb3JuaWNhL1dlbGNvbWV0b1BvcGNvcm5pY2EvUG9wcGluZ1RpcHMvdGFiaWQvMTA3L0RlZmF1bHQuYXNweCI+PHNwYW4+UG9wcGluZyBUaXBzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0VuY3ljbG9wZWRpYVBvcGNvcm5pY2EvV2VsY29tZXRvUG9wY29ybmljYS9JbmR1c3RyeUZhY3RzL3RhYmlkLzEwOC9EZWZhdWx0LmFzcHgiPjxzcGFuPkluZHVzdHJ5IEZhY3RzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0VuY3ljbG9wZWRpYVBvcGNvcm5pY2EvV2VsY29tZXRvUG9wY29ybmljYS9Qb3Bjb3JuUG9wcGVycy90YWJpZC8xMDkvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Qb3Bjb3JuIFBvcHBlcnM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvRW5jeWNsb3BlZGlhUG9wY29ybmljYS9XZWxjb21ldG9Qb3Bjb3JuaWNhL1NvdXJjZXNCaWJsaW9ncmFwaHkvdGFiaWQvMTEwL0RlZmF1bHQuYXNweCI+PHNwYW4+U291cmNlcyAmIEJpYmxpb2dyYXBoeTwvc3Bhbj48L2E+PC9saT48L3VsPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvRW5jeWNsb3BlZGlhUG9wY29ybmljYS9Ucml2aWEvdGFiaWQvNjkvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Ucml2aWE8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvRW5jeWNsb3BlZGlhUG9wY29ybmljYS9GQVEvdGFiaWQvNzEvRGVmYXVsdC5hc3B4Ij48c3Bhbj5GQVE8L3NwYW4+PC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0ibGV2ZWwxIj48YSBjbGFzcz0ibGV2ZWxoYXZlY2hpbGQiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQWJvdXRVcy90YWJpZC81OC9EZWZhdWx0LmFzcHgiPjxzcGFuPkFib3V0IFVzPC9zcGFuPjwvYT48dWw+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQWJvdXRVcy9JbnRoZU5ld3MvdGFiaWQvNzQvRGVmYXVsdC5hc3B4Ij48c3Bhbj5JbiB0aGUgTmV3czwvc3Bhbj48L2E+PC9saT48bGkgY2xhc3M9ImxldmVsaGF2ZWNoaWxkIj48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0Fib3V0VXMvTWVkaWEvdGFiaWQvNzMvRGVmYXVsdC5hc3B4Ij48c3Bhbj5NZWRpYTwvc3Bhbj48L2E+PHVsPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0Fib3V0VXMvTWVkaWEvRmVhdHVyZVN0b3JpZXMvdGFiaWQvMTEzL0RlZmF1bHQuYXNweCI+PHNwYW4+RmVhdHVyZSBTdG9yaWVzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0Fib3V0VXMvTWVkaWEvUG9wY29yblBob3Rvcy90YWJpZC8xMTIvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Qb3Bjb3JuIFBob3Rvczwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9BYm91dFVzL01lZGlhL1BvcFZpZGVvcy90YWJpZC8xMTQvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Qb3AgVmlkZW9zPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0Fib3V0VXMvTWVkaWEvTmF0aW9uYWxQb3Bjb3JuRGF5L3RhYmlkLzExNS9EZWZhdWx0LmFzcHgiPjxzcGFuPk5hdGlvbmFsIFBvcGNvcm4gRGF5PC9zcGFuPjwvYT48L2xpPjwvdWw+PC9saT48bGkgY2xhc3M9ImxldmVsaGF2ZWNoaWxkIj48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0Fib3V0VXMvUG9wY29yblBvcHBpbk1vbnRoL3RhYmlkLzcyL0RlZmF1bHQuYXNweCI+PHNwYW4+UG9wY29ybiBQb3BwaW4nIE1vbnRoPC9zcGFuPjwvYT48dWw+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQWJvdXRVcy9Qb3Bjb3JuUG9wcGluTW9udGgvUHJlc3NSZWxlYXNlL3RhYmlkLzE1NS9EZWZhdWx0LmFzcHgiPjxzcGFuPlByZXNzIFJlbGVhc2U8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQWJvdXRVcy9Qb3Bjb3JuUG9wcGluTW9udGgvRnVuUG9wY29ybkZhY3RzL3RhYmlkLzExOC9EZWZhdWx0LmFzcHgiPjxzcGFuPkZ1biBQb3Bjb3JuIEZhY3RzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0Fib3V0VXMvUG9wY29yblBvcHBpbk1vbnRoL0hpc3RvcnlvZlBvcGNvcm4vdGFiaWQvMTI0L0RlZmF1bHQuYXNweCI+PHNwYW4+SGlzdG9yeSBvZiBQb3Bjb3JuPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0Fib3V0VXMvUG9wY29yblBvcHBpbk1vbnRoL1BvcGNvcm5hbmR0aGVNb3ZpZXMvdGFiaWQvMTIwL0RlZmF1bHQuYXNweCI+PHNwYW4+UG9wY29ybiBhbmQgdGhlIE1vdmllczwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9BYm91dFVzL1BvcGNvcm5Qb3BwaW5Nb250aC9Qb3BwaW5nVGlwcy90YWJpZC8xMjUvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Qb3BwaW5nIFRpcHM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQWJvdXRVcy9Qb3Bjb3JuUG9wcGluTW9udGgvUGVyZmVjdFBvcGNvcm5JZGVhcy90YWJpZC8xMjIvRGVmYXVsdC5hc3B4Ij48c3Bhbj5QZXJmZWN0IFBvcGNvcm4gSWRlYXM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQWJvdXRVcy9Qb3Bjb3JuUG9wcGluTW9udGgvUG9wcGluTW9udGhSZWNpcGVzL3RhYmlkLzEyMy9EZWZhdWx0LmFzcHgiPjxzcGFuPlBvcHBpbicgTW9udGggUmVjaXBlczwvc3Bhbj48L2E+PC9saT48L3VsPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQWJvdXRVcy9DaGVja29mZlByb2dyYW1zL3RhYmlkLzExNi9EZWZhdWx0LmFzcHgiPjxzcGFuPkNoZWNrb2ZmIFByb2dyYW1zPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0Fib3V0VXMvQ29udGFjdFVzL3RhYmlkLzExMS9EZWZhdWx0LmFzcHgiPjxzcGFuPkNvbnRhY3QgVXM8L3NwYW4+PC9hPjwvbGk+PC91bD48L2xpPjxsaSBjbGFzcz0ibGV2ZWwxIj48YSBjbGFzcz0iIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0d1ZXN0Ym9vay90YWJpZC81OS9EZWZhdWx0LmFzcHgiPjxzcGFuPkd1ZXN0Ym9vazwvc3Bhbj48L2E+PC9saT48bGkgY2xhc3M9ImxldmVsMSI+PGEgY2xhc3M9ImxldmVsaGF2ZWNoaWxkIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0NvbnRlc3RzL3RhYmlkLzE1MS9EZWZhdWx0LmFzcHgiPjxzcGFuPkNvbnRlc3RzPC9zcGFuPjwvYT48dWw+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQ29udGVzdHMvS2VybmVsb2Z0aGVNb250aC90YWJpZC8xNTIvRGVmYXVsdC5hc3B4Ij48c3Bhbj5LZXJuZWwgb2YgdGhlIE1vbnRoPC9zcGFuPjwvYT48L2xpPjxsaSBjbGFzcz0ibGV2ZWxoYXZlY2hpbGQiPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQ29udGVzdHMvUG9wY29yblBlcENsdWIvdGFiaWQvMTUzL0RlZmF1bHQuYXNweCI+PHNwYW4+UG9wY29ybiBQZXAgQ2x1Yjwvc3Bhbj48L2E+PHVsPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0NvbnRlc3RzL1BvcGNvcm5QZXBDbHViLzIwMTNQZXBDbHViV2lubmVycy90YWJpZC8xNzUvRGVmYXVsdC5hc3B4Ij48c3Bhbj4yMDEzIFBlcCBDbHViIFdpbm5lcnM8L3NwYW4+PC9hPjwvbGk+PGxpPjxhIGNsYXNzPSJINE1lbnVMZXZlbDEiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQ29udGVzdHMvUG9wY29yblBlcENsdWIvMjAxMlBlcENsdWJXaW5uZXJzL3RhYmlkLzE3Mi9EZWZhdWx0LmFzcHgiPjxzcGFuPjIwMTIgUGVwIENsdWIgV2lubmVyczwvc3Bhbj48L2E+PC9saT48bGk+PGEgY2xhc3M9Ikg0TWVudUxldmVsMSIgaHJlZj0iaHR0cDovL3d3dy5wb3Bjb3JuLm9yZy9Db250ZXN0cy9Qb3Bjb3JuUGVwQ2x1Yi8yMDExUGVwQ2x1Yldpbm5lcnMvdGFiaWQvMTY0L0RlZmF1bHQuYXNweCI+PHNwYW4+MjAxMSBQZXAgQ2x1YiBXaW5uZXJzPC9zcGFuPjwvYT48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0NvbnRlc3RzL1BvcGNvcm5QZXBDbHViLzIwMTBQZXBDbHViV2lubmVycy90YWJpZC8xNjIvRGVmYXVsdC5hc3B4Ij48c3Bhbj4yMDEwIFBlcCBDbHViIFdpbm5lcnM8L3NwYW4+PC9hPjwvbGk+PC91bD48L2xpPjxsaT48YSBjbGFzcz0iSDRNZW51TGV2ZWwxIiBocmVmPSJodHRwOi8vd3d3LnBvcGNvcm4ub3JnL0NvbnRlc3RzL1NlZVdoYXRQb3BzVXAvdGFiaWQvMTY3L0RlZmF1bHQuYXNweCI+PHNwYW4+U2VlIFdoYXQgUG9wcyBVcDwvc3Bhbj48L2E+PC9saT48L3VsPjwvbGk+PGxpIGNsYXNzPSJsZXZlbDEiPjxhIGNsYXNzPSIiIGhyZWY9Imh0dHA6Ly93d3cucG9wY29ybi5vcmcvQXNrUG9wcHkvdGFiaWQvNzYvRGVmYXVsdC5hc3B4Ij48c3Bhbj5Bc2sgUG9wcHkhPC9zcGFuPjwvYT48L2xpPjwvdWw+PC9kaXY+PC90ZD48L3RyPjwvdGFibGU+ZAICD2QWAgIBD2QWCgIDDw8WAh8BaGRkAgUPDxYCHwFoZGQCBw8PFgIfAWhkZAIJDw8WAh8BaGRkAgsPDxYCHwFoZGQCAw9kFgYCAQ9kFgwCAQ9kFgICAg8WAh8BaGQCBQ8PFgIfAWhkZAIHDw8WAh8BaGRkAgkPDxYCHwFoZGQCCw8PFgIfAWhkZAINDw8WAh8BaGRkAgMPZBYMAgEPZBYCAgIPFgIfAWhkAgUPDxYCHwFoZGQCBw8PFgIfAWhkZAIJDw8WAh8BaGRkAgsPDxYCHwFoZGQCDQ8PFgIfAWhkZAIFD2QWDAIBD2QWAgICDxYCHwFoZAIFDw8WAh8BaGRkAgcPDxYCHwFoZGQCCQ8PFgIfAWhkZAILDw8WAh8BaGRkAg0PDxYCHwFoZGQCBA9kFgICAw9kFgwCAQ9kFgICAg8WAh8BaGQCBQ8PFgIfAWhkZAIHDw8WAh8BaGRkAgkPDxYCHwFoZGQCCw8PFgIfAWhkZAINDw8WAh8BaGRkZKbEPUYlTlXV7qysojPSj7gu18CS" />
 
 
-<script language="JavaScript" type="text/javascript">
-	// SWAP STYLES ON MOUSEOVER
-		function linkIn(column) {
-			column.className = "nav-over"     
-		}
-		function linkOut(column) {
-			column.className = "nav-off"
-		}
-</script>
-
-<link rel="stylesheet" href="/commonspot/commonspot.css" type="text/css" id="cs_maincss" /> </head><body lang="en" class="CS_Document"><a name="__topdoc__"></a><script src="/commonspot/pagemode/always-include-common.js" type="text/javascript"></script><script type="text/javascript">
-<!--
-		// always-include-ie.js  Copyright 1998-2005 PaperThin, Inc. All rights reserved.
-
-bName = navigator.appName;
-bVer = parseInt(navigator.appVersion);
-
-var bCanRollover=0
-if (bName == "Netscape")
-{
-	if(bVer >= 3)
-		bCanRollover=1;
-}
-else if (bName == "Microsoft Internet Explorer")
-{
-	if(bVer >= 4)
-		bCanRollover=1;
-}
-
-function ImageSet(imgID,newTarget)
-{
-	if (bCanRollover)
-		document[imgID].src=newTarget;
-}
-function clearStatus()
-{
-	window.status = "";
-}
-function setStatbar(statbar)
-{
-	var strStatbar=unescape(statbar);
-	window.status=strStatbar;
-}
-function onLoadComplete()
-{
-	if( menus_included == 1 )
-		document.onmouseover = document_mouseover;	// defined in menu_ie.js
-}
-function HandleLink(parentID,link,displaylink) 
-{
-	// links are in one of the following formats:
-	// 		cpe_60_0,CP___PAGEID=100
-	// 		CPNEWWIN:WindowName^params@CP___
-	// 			CPNEWWIN:child^top=110:left=130:ww=140:hh=150:tb=1:loc=1:dir=0:stat=1:mb=1:sb=1:rs=1@CP___PAGEID=3811,Adv-Search-2,1
-	// displaylink is the server relative URL or fully qualified URL
-	windowname = "";
-	windowparams = "";
-
-	// "CPNEWWIN:" & NewWindowName & "^" & params & "@" & linkStruct.LinkURL; 
-	pos = link.indexOf("CPNEWWIN:");
-	if (pos != -1)
-	{
-		pos1 = link.indexOf ("^");
-		windowname = link.substring (pos+9, pos1);
-		pos2 = link.indexOf ("@");
-		windowparams = link.substring (pos1 + 1, pos2);
-		link = link.substring (pos2 + 1, link.length);
-	}
-	
-	if( displaylink && displaylink != "" )
-	{		
-		if (windowname == "")
-			window.location = displaylink;
-		else
-		{
-			windowparams = FormatWindowParams(windowparams);
-			window.open (displaylink, windowname, windowparams);
-		}
-	}
-	else
-	{
-		targetLink = link;
-
-		if (link.indexOf ("CP___") != -1)
-		{
-
-			httpPos = -1;
-			commaPos = link.indexOf(",");
-			if (commaPos != -1)
-			{
-				targetUrl = link.substr(commaPos + 1);
-				if (targetUrl.indexOf("://") != -1 || targetUrl.indexOf("/") == 0)
-				{
-						httpPos = commaPos + 1;
-				}		
-			}
-				
-			if (httpPos != -1)
-			{
-				targetLink = link.substr(httpPos);
-
-				commaPos = targetLink.indexOf(",");
-				if (commaPos != -1)
-					targetLink = targetLink.substr(0, commaPos);
-			}
-			else
-				targetLink = jsDlgLoader + "?csModule=utilities/handle-link&thelink=" + link;
-			
-			if (windowname == "")
-				window.location = targetLink;
-			else
-			{
-				windowparams = FormatWindowParams(windowparams);
-				window.open (targetLink, windowname, windowparams);
-			}
-		}
-		else
-		{
-			//commaPos = link.indexOf(",");
-			//if (commaPos != -1)
-			//	link = link.substr(0, commaPos);
-
-			if (windowname == "")
-				window.location = link;
-			else
-			{
-				windowparams = FormatWindowParams(windowparams);
-				window.open (link, windowname, windowparams);
-			}
-		}
-	}
-
-}
-function doWindowOpen(href,name,params)
-{
-	if (params != '')
-	window.open (href, name, params);
-	else
-		window.open (href, name);	
-}
-
-// 	CPNEWWIN:child^top=110:left=130:ww=140:hh=150:tb=1:loc=1:dir=0:stat=1:mb=1:sb=1:rs=1@CP___PAGEID=3811,Adv-Search-2,1
-function FormatWindowParams(windowparams)
-{
-	if( windowparams.indexOf(":loc=") != -1 || windowparams.indexOf(":ww=") != -1 || windowparams.indexOf(":hh=") != -1 || 
-	    windowparams.indexOf(":left=") != -1 || windowparams.indexOf(":top=") != -1 )
-	{
-		windowparams = substringReplace(windowparams,':left=',',left=');
-		windowparams = substringReplace(windowparams,'left=','left=');
-		windowparams = substringReplace(windowparams,':ww=',',width=');
-		windowparams = substringReplace(windowparams,'ww=','width=');		
-		windowparams = substringReplace(windowparams,':hh=',',height=');
-		windowparams = substringReplace(windowparams,'hh=','height=');
-		windowparams = substringReplace(windowparams,':loc=',',location=');
-		windowparams = substringReplace(windowparams,'loc=','location=');
-		windowparams = substringReplace(windowparams,':dir=',',directories=');
-		windowparams = substringReplace(windowparams,'dir=','directories=');
-		windowparams = substringReplace(windowparams,':tb=',',toolbar=');
-		windowparams = substringReplace(windowparams,'tb=','toolbar=');
-		windowparams = substringReplace(windowparams,':stat=',',status=');
-		windowparams = substringReplace(windowparams,':mb=',',menubar=');
-		windowparams = substringReplace(windowparams,':sb=',',scrollbars=');
-		windowparams = substringReplace(windowparams,':rs=',',resizable=');
-	}
-	return windowparams;
-}
-
-// -->
-		</script><div id="cs_control_715" class="cs_control CS_Element_DHTML_Menu"><script src="/commonspot/menu_common.js" type="text/javascript"></script><script src="/dhtmlmenu_pgdefs_2.js" type="text/javascript"></script><script src="/dhtmlmenu_staticmenus_2.js" type="text/javascript"></script><script src="/commonspot/controls/dhtmlmenu/HM_Loader.js" type="text/javascript"></script></div>
-		<table width="100%" border="0" cellpadding="0" cellspacing="0" id="parent-table">
-			<tr id="masthead-row">
-				
-				<td id="site-tools-td-parent" align="right" width="100%" height="127">
-					
-					<table id="search-tools-table" border="0" cellpadding="0" cellspacing="0" align="right" width="100%">
-						<tr>
-							<td colspan="2" align="right" id="site-tools-td" nowrap>
-							<div id="cs_control_27015" class="cs_control CS_Element_LinkBar"><a href="login.cfm" class="CS_LinkBar_Item" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('login.cfm');return true;">Login</a><a href="/edu/faq/index.cfm" class="CS_LinkBar_Item" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/edu/faq/index.cfm');return true;">FAQ</a><a href="/contact/index.cfm" class="CS_LinkBar_Item" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/contact/index.cfm');return true;">Contact</a></div>
-							</td>
-						</tr>
-						<tr valign="bottom" style="vertical-align: bottom !important;">
-							<td>
-								
-								
-								
-							</td>
-                            <script type="text/javascript">
-								function cleanSearchString()
-								{
-									document.dlgform897.incl_subsites.value = document.dlgform897.srchString.value.replace(/</g,'&lt;');
-									document.dlgform897.srchString.value = document.dlgform897.srchString.value.replace(/>/g,'&gt;');
-									document.dlgform897.srchString.value = document.dlgform897.srchString.value.replace(/'/g,'&apos;');
-									document.dlgform897.srchString.value = document.dlgform897.srchString.value.replace(/"/g,'&#x22;');
-									document.dlgform897.srchString.value = document.dlgform897.srchString.value.replace(/\(/g,'&#x29;');
-									document.dlgform897.srchString.value = document.dlgform897.srchString.value.replace(/\)/g,'&#x28;');									
-									
-									document.dlgform897.incl_subsites.value = document.dlgform897.incl_subsites.value.replace(/</g,'&lt;');
-									document.dlgform897.incl_subsites.value = document.dlgform897.incl_subsites.value.replace(/>/g,'&gt;');
-									document.dlgform897.incl_subsites.value = document.dlgform897.incl_subsites.value.replace(/'/g,'&apos;');
-									document.dlgform897.incl_subsites.value = document.dlgform897.incl_subsites.value.replace(/"/g,'&#x22;');
-									document.dlgform897.incl_subsites.value = document.dlgform897.incl_subsites.value.replace(/\(/g,'&#x29;');
-									document.dlgform897.incl_subsites.value = document.dlgform897.incl_subsites.value.replace(/\)/g,'&#x28;');									
-									
-									document.dlgform897.searchbutton.value = document.dlgform897.searchbutton.value.replace(/</g,'&lt;');
-									document.dlgform897.searchbutton.value = document.dlgform897.searchbutton.value.replace(/>/g,'&gt;');
-									document.dlgform897.searchbutton.value = document.dlgform897.searchbutton.value.replace(/'/g,'&apos;');
-									document.dlgform897.searchbutton.value = document.dlgform897.searchbutton.value.replace(/"/g,'&#x22;');
-									document.dlgform897.searchbutton.value = document.dlgform897.searchbutton.value.replace(/\(/g,'&#x29;');
-									document.dlgform897.searchbutton.value = document.dlgform897.searchbutton.value.replace(/\)/g,'&#x28;');																		
-
-									document.dlgform897.showSummaryCheckBox.value = document.dlgform897.showSummaryCheckBox.value.replace(/</g,'&lt;');
-									document.dlgform897.showSummaryCheckBox.value = document.dlgform897.showSummaryCheckBox.value.replace(/>/g,'&gt;');
-									document.dlgform897.showSummaryCheckBox.value = document.dlgform897.showSummaryCheckBox.value.replace(/'/g,'&apos;');
-									document.dlgform897.showSummaryCheckBox.value = document.dlgform897.showSummaryCheckBox.value.replace(/"/g,'&#x22;');
-									document.dlgform897.showSummaryCheckBox.value = document.dlgform897.showSummaryCheckBox.value.replace(/\(/g,'&#x29;');
-									document.dlgform897.showSummaryCheckBox.value = document.dlgform897.showSummaryCheckBox.value.replace(/\)/g,'&#x28;');																		
-
-									document.dlgform897.UserSelectedSubSites.value = document.dlgform897.UserSelectedSubSites.value.replace(/</g,'&lt;');
-									document.dlgform897.UserSelectedSubSites.value = document.dlgform897.UserSelectedSubSites.value.replace(/>/g,'&gt;');
-									document.dlgform897.UserSelectedSubSites.value = document.dlgform897.UserSelectedSubSites.value.replace(/'/g,'&apos;');
-									document.dlgform897.UserSelectedSubSites.value = document.dlgform897.UserSelectedSubSites.value.replace(/"/g,'&#x22;');
-									document.dlgform897.UserSelectedSubSites.value = document.dlgform897.UserSelectedSubSites.value.replace(/\(/g,'&#x29;');
-									document.dlgform897.UserSelectedSubSites.value = document.dlgform897.UserSelectedSubSites.value.replace(/\)/g,'&#x28;');									
-
-								}
-							</script>
-
-
-							
-							
-							<form class="cs_default_form" action="/search.cfm" method="post" name="dlgform897" id="dlgform897">
-								<td id="search-td" align="right">
-								<div id="search-td-div">
-                                	
-                                    <input type="hidden" name="checkmeout" value="7D75A6EE9A984A9957B301EB448AC972EEB6B44B1F" />
-									<input type="hidden" name="searchType" id="searchType" value="text" /> <input type="hidden" name="incl_subsites" id="incl_subsites" value="0" />
-									<input type="text" name="srchString" value="" id="cs_search_form" size="20" style="width: 220px;" />
-									<input type="button" name="searchbutton" value="Search" id=""  class="search-button"
-                                    	onclick="javascript:cleanSearchString(); document.dlgform897.submit();" />
-									<input type="hidden" name="showSummaryCheckBox" id="showSummaryCheckBox" value="0" /><input type="hidden" name="UserSelectedSubSites" id="UserSelectedSubSites" value="1,8,10,11,12,31,48,56,57,58,59,60,61,62,65,67,68,75,76,77,78,79,81,82,84,85,86,87,88,89,90,92,93,96,97,98,102,107,109,110,111,113,115,119,123,128,129,130,131,132,133,134,135,136,137,140,141,149,150,159,160,161,162,170,180,181,182,183,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,223,225,227,228,229,230,231,232,233,234,235,238,239,240,241,242,243,244,245,246,250,251,252,253,254,255,256,257,258,260,263,264,265,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,305,306,307,308,309,310,311,312,313,314,315,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,404,405,406,407,408,409,410,411,412,414,415,416,417,418,419,420,421,422,423,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,474,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596" />
-									<input type="hidden" value="1" name="startpage" id="startpage" /><input type="hidden" value="1" name="curpage" id="curpage" />
-								</div>
-								</td>
-							</form>
-							
-						</tr>
-					</table>
-					
-				</td>
-			</tr>
-			<tr height="23">
-				<td colspan="2" id="nav-td-parent">
-				<div id="cs_control_27016" class="cs_control CS_Element_LinkBar">
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-	
-	
-	
-        	
-			<td align="center" onmouseover="javascript:overrideHandler('elMenu',event);"><a href="/index.cfm" onmouseout="javascript:overrideMouseout('elMenu');">Home</a></td>
-		
-        	
-			<td align="center" onmouseover="javascript:overrideHandler('elMenu86936',event);"><a href="/about/index.cfm" onmouseout="javascript:overrideMouseout('elMenu86936');">About Us</a></td>
-		
-        	
-			<td align="center" onmouseover="javascript:overrideHandler('elMenu86935',event);"><a href="/econ/index.cfm" onmouseout="javascript:overrideMouseout('elMenu86935');">Economics</a></td>
-		
-        	
-			<td align="center" onmouseover="javascript:overrideHandler('elMenu',event);"><a href="/edu/index.cfm" onmouseout="javascript:overrideMouseout('elMenu');">Education</a></td>
-		
-        	
-			<td align="center" onmouseover="javascript:overrideHandler('elMenu86939',event);"><a href="/issues/index.cfm" onmouseout="javascript:overrideMouseout('elMenu86939');">Issues</a></td>
-		
-        	
-			<td align="center" onmouseover="javascript:overrideHandler('elMenu86938',event);"><a href="/news/index.cfm" onmouseout="javascript:overrideMouseout('elMenu86938');">News & Events</a></td>
-		
-        	
-			<td align="center" onmouseover="javascript:overrideHandler('elMenu86937',event);"><a href="/tech/index.cfm" onmouseout="javascript:overrideMouseout('elMenu86937');">Technical</a></td>
-		
-	</tr>
-</table>
-</div>
-				</td>
-			</tr>
-			<tr height="23">
-				<td colspan="2" id="subnav-td-parent">
-				<div id="cs_control_702" class=""><div  class="CS_Element_Schedule"  title="" id="CS_Sched_715_702" ><div id="cs_control_86879" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_715_86879">
-	<center><font style="font-family:Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight:bold; font-size:11px;">Wednesday, April 2, 2014</font></center>
-</div></div></div></div>
-				</td>
-			</tr>
-		</table>
-		
-	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-		<tr>
-			<td valign="top">
-			<div id="cs_control_2" class="cs_control CS_Element_Layout"><table id="cs_idLayout2" cellpadding="0" cellspacing="0" class="CS_Layout_Table" width="100%" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell2x1x1" class="CS_Layout_TD" width="15%">
-<div id="cs_control_27125" class=""><div  class="CS_Element_Schedule"  title="" id="CS_Sched_715_27125" ><div id="cs_control_27153" class="cs_control callout-darkgreen"><div id="CS_CCF_715_27153">
-<script type="text/javascript" language="JavaScript">
-	function ValidateFields()
-	{
-		document.dlgform.UserID.value = document.dlgform.UserID.value.replace(/</g,'&lt;');
-		document.dlgform.UserID.value = document.dlgform.UserID.value.replace(/>/g,'&gt;');
-		document.dlgform.UserID.value = document.dlgform.UserID.value.replace(/'/g,'&apos;');
-		document.dlgform.UserID.value = document.dlgform.UserID.value.replace(/"/g,'&#x22;');
-		document.dlgform.UserID.value = document.dlgform.UserID.value.replace(/\(/g,'&#x29;');
-		document.dlgform.UserID.value = document.dlgform.UserID.value.replace(/\)/g,'&#x28;');			
-
-		document.dlgform.Password.value = document.dlgform.Password.value.replace(/</g,'&lt;');
-		document.dlgform.Password.value = document.dlgform.Password.value.replace(/>/g,'&gt;');
-		document.dlgform.Password.value = document.dlgform.Password.value.replace(/'/g,'&apos;');
-		document.dlgform.Password.value = document.dlgform.Password.value.replace(/"/g,'&#x22;');
-		document.dlgform.Password.value = document.dlgform.Password.value.replace(/\(/g,'&#x29;');
-		document.dlgform.Password.value = document.dlgform.Password.value.replace(/\)/g,'&#x28;');			
-
-		document.dlgform.ButtonAction.value = document.dlgform.ButtonAction.value.replace(/</g,'&lt;');
-		document.dlgform.ButtonAction.value = document.dlgform.ButtonAction.value.replace(/>/g,'&gt;');
-		document.dlgform.ButtonAction.value = document.dlgform.ButtonAction.value.replace(/'/g,'&apos;');
-		document.dlgform.ButtonAction.value = document.dlgform.ButtonAction.value.replace(/"/g,'&#x22;');
-		document.dlgform.ButtonAction.value = document.dlgform.ButtonAction.value.replace(/\(/g,'&#x29;');
-		document.dlgform.ButtonAction.value = document.dlgform.ButtonAction.value.replace(/\)/g,'&#x28;');			
-
-		document.dlgform.proc_type.value = document.dlgform.proc_type.value.replace(/</g,'&lt;');
-		document.dlgform.proc_type.value = document.dlgform.proc_type.value.replace(/>/g,'&gt;');
-		document.dlgform.proc_type.value = document.dlgform.proc_type.value.replace(/'/g,'&apos;');
-		document.dlgform.proc_type.value = document.dlgform.proc_type.value.replace(/"/g,'&#x22;');
-		document.dlgform.proc_type.value = document.dlgform.proc_type.value.replace(/\(/g,'&#x29;');
-		document.dlgform.proc_type.value = document.dlgform.proc_type.value.replace(/\)/g,'&#x28;');									
-
-		document.dlgform.lpResize.value = document.dlgform.lpResize.value.replace(/</g,'&lt;');
-		document.dlgform.lpResize.value = document.dlgform.lpResize.value.replace(/>/g,'&gt;');
-		document.dlgform.lpResize.value = document.dlgform.lpResize.value.replace(/'/g,'&apos;');
-		document.dlgform.lpResize.value = document.dlgform.lpResize.value.replace(/"/g,'&#x22;');
-		document.dlgform.lpResize.value = document.dlgform.lpResize.value.replace(/\(/g,'&#x29;');
-		document.dlgform.lpResize.value = document.dlgform.lpResize.value.replace(/\)/g,'&#x28;');									
-
-		document.dlgform.csModule.value = document.dlgform.csModule.value.replace(/</g,'&lt;');
-		document.dlgform.csModule.value = document.dlgform.csModule.value.replace(/>/g,'&gt;');
-		document.dlgform.csModule.value = document.dlgform.csModule.value.replace(/'/g,'&apos;');
-		document.dlgform.csModule.value = document.dlgform.csModule.value.replace(/"/g,'&#x22;');
-		document.dlgform.csModule.value = document.dlgform.csModule.value.replace(/\(/g,'&#x29;');
-		document.dlgform.csModule.value = document.dlgform.csModule.value.replace(/\)/g,'&#x28;');									
-
-		document.dlgform.hidePendingActions.value = document.dlgform.hidePendingActions.value.replace(/</g,'&lt;');
-		document.dlgform.hidePendingActions.value = document.dlgform.hidePendingActions.value.replace(/>/g,'&gt;');
-		document.dlgform.hidePendingActions.value = document.dlgform.hidePendingActions.value.replace(/'/g,'&apos;');
-		document.dlgform.hidePendingActions.value = document.dlgform.hidePendingActions.value.replace(/"/g,'&#x22;');
-		document.dlgform.hidePendingActions.value = document.dlgform.hidePendingActions.value.replace(/\(/g,'&#x29;');
-		document.dlgform.hidePendingActions.value = document.dlgform.hidePendingActions.value.replace(/\)/g,'&#x28;');			
-
-
-		document.dlgform.hideAutoLogin.value = document.dlgform.hideAutoLogin.value.replace(/</g,'&lt;');
-		document.dlgform.hideAutoLogin.value = document.dlgform.hideAutoLogin.value.replace(/>/g,'&gt;');
-		document.dlgform.hideAutoLogin.value = document.dlgform.hideAutoLogin.value.replace(/'/g,'&apos;');
-		document.dlgform.hideAutoLogin.value = document.dlgform.hideAutoLogin.value.replace(/"/g,'&#x22;');
-		document.dlgform.hideAutoLogin.value = document.dlgform.hideAutoLogin.value.replace(/\(/g,'&#x29;');
-		document.dlgform.hideAutoLogin.value = document.dlgform.hideAutoLogin.value.replace(/\)/g,'&#x28;');			
-
-		document.dlgform.hideChangePassword.value = document.dlgform.hideChangePassword.value.replace(/</g,'&lt;');
-		document.dlgform.hideChangePassword.value = document.dlgform.hideChangePassword.value.replace(/>/g,'&gt;');
-		document.dlgform.hideChangePassword.value = document.dlgform.hideChangePassword.value.replace(/'/g,'&apos;');
-		document.dlgform.hideChangePassword.value = document.dlgform.hideChangePassword.value.replace(/"/g,'&#x22;');
-		document.dlgform.hideChangePassword.value = document.dlgform.hideChangePassword.value.replace(/\(/g,'&#x29;');
-		document.dlgform.hideChangePassword.value = document.dlgform.hideChangePassword.value.replace(/\)/g,'&#x28;');			
-
-		document.dlgform.wantReload.value = document.dlgform.wantReload.value.replace(/</g,'&lt;');
-		document.dlgform.wantReload.value = document.dlgform.wantReload.value.replace(/>/g,'&gt;');
-		document.dlgform.wantReload.value = document.dlgform.wantReload.value.replace(/'/g,'&apos;');
-		document.dlgform.wantReload.value = document.dlgform.wantReload.value.replace(/"/g,'&#x22;');
-		document.dlgform.wantReload.value = document.dlgform.wantReload.value.replace(/\(/g,'&#x29;');
-		document.dlgform.wantReload.value = document.dlgform.wantReload.value.replace(/\)/g,'&#x28;');			
-
-		document.dlgform.bNewWindow.value = document.dlgform.bNewWindow.value.replace(/</g,'&lt;');
-		document.dlgform.bNewWindow.value = document.dlgform.bNewWindow.value.replace(/>/g,'&gt;');
-		document.dlgform.bNewWindow.value = document.dlgform.bNewWindow.value.replace(/'/g,'&apos;');
-		document.dlgform.bNewWindow.value = document.dlgform.bNewWindow.value.replace(/"/g,'&#x22;');
-		document.dlgform.bNewWindow.value = document.dlgform.bNewWindow.value.replace(/\(/g,'&#x29;');
-		document.dlgform.bNewWindow.value = document.dlgform.bNewWindow.value.replace(/\)/g,'&#x28;');			
-
-		document.dlgform.parentHelpId.value = document.dlgform.parentHelpId.value.replace(/</g,'&lt;');
-		document.dlgform.parentHelpId.value = document.dlgform.parentHelpId.value.replace(/>/g,'&gt;');
-		document.dlgform.parentHelpId.value = document.dlgform.parentHelpId.value.replace(/'/g,'&apos;');
-		document.dlgform.parentHelpId.value = document.dlgform.parentHelpId.value.replace(/"/g,'&#x22;');
-		document.dlgform.parentHelpId.value = document.dlgform.parentHelpId.value.replace(/\(/g,'&#x29;');
-		document.dlgform.parentHelpId.value = document.dlgform.parentHelpId.value.replace(/\)/g,'&#x28;');			
-
-		document.dlgform.WindowType.value = document.dlgform.WindowType.value.replace(/</g,'&lt;');
-		document.dlgform.WindowType.value = document.dlgform.WindowType.value.replace(/>/g,'&gt;');
-		document.dlgform.WindowType.value = document.dlgform.WindowType.value.replace(/'/g,'&apos;');
-		document.dlgform.WindowType.value = document.dlgform.WindowType.value.replace(/"/g,'&#x22;');
-		document.dlgform.WindowType.value = document.dlgform.WindowType.value.replace(/\(/g,'&#x29;');
-		document.dlgform.WindowType.value = document.dlgform.WindowType.value.replace(/\)/g,'&#x28;');			
-
-	
-		/*								
-		document.dlgform.url.value = document.dlgform.url.value.replace(/</g,'&lt;');
-		document.dlgform.url.value = document.dlgform.url.value.replace(/>/g,'&gt;');
-		document.dlgform.url.value = document.dlgform.url.value.replace(/'/g,'&apos;');
-		document.dlgform.url.value = document.dlgform.url.value.replace(/"/g,'&#x22;');
-		document.dlgform.url.value = document.dlgform.url.value.replace(/\(/g,'&#x29;');
-		document.dlgform.url.value = document.dlgform.url.value.replace(/\)/g,'&#x28;');		
-
-		document.dlgform.loader.value = document.dlgform.loader.value.replace(/</g,'&lt;');
-		document.dlgform.loader.value = document.dlgform.loader.value.replace(/>/g,'&gt;');
-		document.dlgform.loader.value = document.dlgform.loader.value.replace(/'/g,'&apos;');
-		document.dlgform.loader.value = document.dlgform.loader.value.replace(/"/g,'&#x22;');
-		document.dlgform.loader.value = document.dlgform.loader.value.replace(/\(/g,'&#x29;');
-		document.dlgform.loader.value = document.dlgform.loader.value.replace(/\)/g,'&#x28;');		
-
-		document.dlgform.lpSiteID.value = document.dlgform.lpSiteID.value.replace(/</g,'&lt;');
-		document.dlgform.lpSiteID.value = document.dlgform.lpSiteID.value.replace(/>/g,'&gt;');
-		document.dlgform.lpSiteID.value = document.dlgform.lpSiteID.value.replace(/'/g,'&apos;');
-		document.dlgform.lpSiteID.value = document.dlgform.lpSiteID.value.replace(/"/g,'&#x22;');
-		document.dlgform.lpSiteID.value = document.dlgform.lpSiteID.value.replace(/\(/g,'&#x29;');
-		document.dlgform.lpSiteID.value = document.dlgform.lpSiteID.value.replace(/\)/g,'&#x28;');	
-		
-		document.dlgform.lpSubSiteID.value = document.dlgform.lpSubSiteID.value.replace(/</g,'&lt;');
-		document.dlgform.lpSubSiteID.value = document.dlgform.lpSubSiteID.value.replace(/>/g,'&gt;');
-		document.dlgform.lpSubSiteID.value = document.dlgform.lpSubSiteID.value.replace(/'/g,'&apos;');
-		document.dlgform.lpSubSiteID.value = document.dlgform.lpSubSiteID.value.replace(/"/g,'&#x22;');
-		document.dlgform.lpSubSiteID.value = document.dlgform.lpSubSiteID.value.replace(/\(/g,'&#x29;');
-		document.dlgform.lpSubSiteID.value = document.dlgform.lpSubSiteID.value.replace(/\)/g,'&#x28;');			
-
-
-		document.dlgform.resize.value = document.dlgform.resize.value.replace(/</g,'&lt;');
-		document.dlgform.resize.value = document.dlgform.resize.value.replace(/>/g,'&gt;');
-		document.dlgform.resize.value = document.dlgform.resize.value.replace(/'/g,'&apos;');
-		document.dlgform.resize.value = document.dlgform.resize.value.replace(/"/g,'&#x22;');
-		document.dlgform.resize.value = document.dlgform.resize.value.replace(/\(/g,'&#x29;');
-		document.dlgform.resize.value = document.dlgform.resize.value.replace(/\)/g,'&#x28;');			
-		*/
-
-
-		if ((document.dlgform.UserID.value.length == 0) || (document.dlgform.UserID.value.indexOf(" ") != -1))
-
-		{
-			alert ("Please enter a valid user ID.")
-			return false;
-		}
-		if (document.dlgform.Password.value.length == 0)
-		{
-			alert ("Please enter a password.")
-			return false;
-		}
-		return true;
-	}
-
-	function doNothing()
-	{
-	}
-</script>
-
-
-
-
-
-<form method="post" name="dlgform" action="https://www.cotton.org/loader.cfm" onsubmit="return ValidateFields();">
-
-	
-		<strong class="txt-header-med">Member Login</strong>
-	
-	<table border="0" cellspacing="0" cellpadding="0" width="150">
-		<tr>
-			<td><span class="txt-sm"><strong><font color="#FFFFFF">User ID:</font></strong></span></td>
-			
-		</tr>
-		<tr>
-			<td><input type="text" name="UserID" size="15" /></td>
-			
-		</tr>
-		<tr>
-			<td><span class="txt-sm"><strong><font color="#FFFFFF">Password:</font></strong></span></td>
-			
-		</tr>
-		<tr>
-			<td nowrap><input type="password" name="Password" size="10" />&nbsp;
-            
-            <input value="LOGIN" name="ButtonAction" class="clsPushButton" type="submit"></td>
-		</tr>
-	</table>
-
-	
-		<p style="margin:3px 0 3px 0; padding:0;">
-			<span class="txt-sm"><a href="/register/login-help.cfm"><font color="#FFFFFF">Forgot your password?</font></a><br><br>
-			<a href="/register/request-password.cfm"><font color="#FFFFFF">Sign up for a user ID!</font></a></span>
-		</p>
-	
-
-    <input name="proc_type" value="loginValidate" type="hidden">
-    <input name="lpResize" value="0" type="hidden">
-    <input name="csModule" value="security/login-validate" type="hidden">
-    <input name="hidePendingActions" value="1" type="hidden">
-    <input name="hideAutoLogin" value="1" type="hidden">
-    <input name="hideChangePassword" value="1" type="hidden">
+<script src="/js/dnncore.js" type="text/javascript"></script>
+<script src="/js/SBWebTools.js" type="text/javascript"></script><script src='/DesktopModules/DigRotate/digrotate.js' type='text/javascript'></script>
+<script src="/ScriptResource.axd?d=2Y-GNaaieaFCRtdLvUMh3HK-LKNYo6r8IwdOQKU9r6xQ68p_T2DryZArlWPDa6TcGLlRO6Dlnvq9qfR7HAZ09XC9vgIxaIIaAmSa-INDKRaQ9K3c7wMmYpTnUsSh6vy40k5D-uEqLGyTVd8crBepLgwC_aw1&amp;t=634793233283153758" type="text/javascript"></script>
         
-    <input name="wantReload" value="1" type="hidden">
-    <input name="bNewWindow" value="0" type="hidden">    
-	<input name="parentHelpId" value="login" type="hidden">   
-     
-
-    
-
-	    <input type="hidden" name="WindowType" value="http://www.cotton.org/index.cfm" /> 
-
-	
+        <!-- SBAWeb -site- Fingerprint v2.0 -->
 
 
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="/Portals/_default/Skins/SiteSkinPackage/homepageflash/AC_RunActiveContent.js" language="javascript"></script>
+ <!--[if lt IE 7.]>
+<script defer type="text/javascript" src="/Portals/_default/Skins/SiteSkinPackage/pngfix.js"></script>
+<![endif]-->
 
-	
-</form>
-</div></div></div></div> <div id="cs_control_87248" class="cs_control blank-row"></div> <div id="cs_control_86762" class="cs_control callout-homepagelink"><div><a href="/econ/prices/index.cfm" class="CS_Textblock_Caption" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/econ/prices/index.cfm');return true;">Cotton Futures</a></div></div> <div id="cs_control_27827" class="cs_control callout-lightgreen"><table id="cs_idLayout27827" cellpadding="0" cellspacing="0" class="CS_Layout_Table" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell27827x1x1" class="CS_Layout_TD">
-<div id="cs_control_27836" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_715_27836">
-	<script type="text/javascript" src="/jquery/js/jquery-1.3.2.min.js"></script>
-	<script type="text/javascript" src="/jquery/js/jquery.timers-1.1.2.js"></script>
-	<script type="text/javascript">
-		$(function() 
-		{
-			function runEffect()
-			{
-				// fade out the homepagePrices div using the amount of time in the function, then call 'callback()' to fade it back in
-				//  1000 = 1 second
-				$("#homepagePrices").fadeOut("800",callback);
-			}
-			
-			//callback function to fade the prices back in 
-			function callback(){
-				setTimeout(function()
-				{
-					$("#homepagePrices").fadeIn("500");
-				}
-				, 500);
-			};
-	
-			/*  "Prime the pump - so to speak - and load the futures data the first time */
-			$("#homepagePrices").load("/jquery/customcf/econ/prices/futures-snap.cfm");
-			
-			/*  Load futures data over the time interval defined in the 'everyTime' function - 1000 = 1 second */
-			//  ORIGINAL line:  $(".uncontrolled-interval").everyTime(10000,function(i) 
-			$(".uncontrolled-interval").everyTime(30000,function(i) 
-			{	
-				$("#homepagePrices").load("/jquery/customcf/econ/prices/futures-snap.cfm");
-				/* Just to add a bit of flair, highlight the div containing the data to show it was just updated */
-				//runEffect();
-			});
-		});
-	</script>
-	
-	<div id="homepagePricesContainer" style="padding-left:0px; height:140px; width:165px; text-align:center;">
-        <noscript>
-            <div id="noScriptDiv" class="uncontrolled-interval" style="color:#000;">
-	            
-	<div align="center">
-		<table class="table-lines-none" cellspacing="0" cellpadding="0" summary="" border="0">
-			<tr>
-				<td colspan="3" nowrap align="center"><span class="txt-sm">Wed, Apr 2, 2014</span></td>
-			</tr>
-			
-				<tr class="table-shading-row">
-					<td nowrap><span class="txt-sm">May 14</span></td>
-					<td align="middle"><span class="txt-sm"> 91.51</span></td>
-					<td class="active-col" align="middle" nowrap><span class="txt-sm" style="color:#cc0000">-0.56</span></td>
-					
-				</tr>
-			
-				<tr >
-					<td nowrap><span class="txt-sm">Jul 14</span></td>
-					<td align="middle"><span class="txt-sm"> 91.97</span></td>
-					<td class="active-col" align="middle" nowrap><span class="txt-sm" style="color:#cc0000">-0.53</span></td>
-					
-				</tr>
-			
-				<tr class="table-shading-row">
-					<td nowrap><span class="txt-sm">Oct 14</span></td>
-					<td align="middle"><span class="txt-sm"> 81.75</span></td>
-					<td class="active-col" align="middle" nowrap><span class="txt-sm" style="color:#cc0000">-0.22</span></td>
-					
-				</tr>
-			
-				<tr >
-					<td nowrap><span class="txt-sm">Dec 14</span></td>
-					<td align="middle"><span class="txt-sm"> 79.71</span></td>
-					<td class="active-col" align="middle" nowrap><span class="txt-sm" style="color:#cc0000">-0.16</span></td>
-					
-				</tr>
-			
-				<tr class="table-shading-row">
-					<td nowrap><span class="txt-sm">Mar 15</span></td>
-					<td align="middle"><span class="txt-sm"> 79.72</span></td>
-					<td class="active-col" align="middle" nowrap><span class="txt-sm" style="color:#cc0000">-0.15</span></td>
-					
-				</tr>
-			
-			<tr>
-				<td colspan="3" nowrap><span class="txt-sm">Delayed quotes by <a href="http://www.dtn.com/">DTN</a>.</span></td>
-			</tr>
-		</table>
-	</div>
-	
-    		</div>
-        </noscript>
-    	<div id="homepagePrices" class="uncontrolled-interval">
+ <!--[if IE]>
+	<LINK REL="StyleSheet" HREF="/Portals/_default/Skins/SiteSkinPackage/ie_skin.css" type="text/css">
+<![endif]-->
+
+ <!--[if IE 8]>
+ <style>
+
+#fullwrapper {
+	width:100%;
+	margin: 0 auto;
+	}
+</style>
+<![endif]-->
+
+<script>
+	function ConfirmNav(){
+		return confirm('You are navigating to an external site.  The Popcorn Board is not responsible for the content of the links provided in this website.  Click \'OK\' to continue?')
+	}
+</script>
+
+
+<div align="center">
+<div id="fullwrapper">
+	<div id="fullheader">
+    	<div id="header">
+    		<div class="logo"><a href="/"><img src="/Portals/_default/Skins/SiteSkinPackage/images/logo.png" width="158" height="30" border="0" alt="Popcorn" /></a></div>
+        	<div id="topnav">
+            	<div class="toplinks">
+            		<a id="dnn_dnnLOGIN_cmdLogin" class="utilnav" href="javascript:__doPostBack('dnn$dnnLOGIN$cmdLogin','')">Login</a> / <a href="/Home/Register/tabid/80/Default.aspx" class="utilnav">Register</a> / <a href="/Home/SiteMap/tabid/64/Default.aspx" class="utilnav">Site Map</a>
+                </div>
+                <div class="social_media">
+                	<table cellpadding="0" cellspacing="0" border="0">
+                    	<tr>
+                        	<td style="padding-right:10px; padding-top:5px;"><a href="http://www.facebook.com/PopcornCentral" target="_blank" onclick="return ConfirmNav();"><img src="/Portals/_default/Skins/SiteSkinPackage/images/icon_facebook.png" width="25" height="25" border="0" alt="Facebook" /></a></td>
+                            <td style="padding-right:10px; padding-top:5px;"><a href="http://twitter.com/PopcornCentral" target="_blank" onclick="return ConfirmNav();"><img src="/Portals/_default/Skins/SiteSkinPackage/images/icon_twitter.png" width="25" height="25" border="0" alt="Twitter" /></a></td>
+                            <td style="padding-top:5px;"><a href="http://blog.popcorn.org" target="_blank" onclick="return ConfirmNav();"><img src="/Portals/_default/Skins/SiteSkinPackage/images/icon_blog.png" width="25" height="25" border="0" alt="Popcorn Blog" /></a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-	</div></div>
-</td></tr>
-	</table></div> <div id="cs_control_87245" class="cs_control blank-row"></div> <div id="cs_control_86763" class="cs_control callout-homepagelink"><div><a href="/news/calendar.cfm" class="CS_Textblock_Caption" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/news/calendar.cfm');return true;">Cotton&#39;s Calendar</a></div></div> <div id="cs_control_27117" class="cs_control callout-brown"><table id="cs_idLayout27117" cellpadding="0" cellspacing="0" class="CS_Layout_Table" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell27117x1x1" class="CS_Layout_TD">
-<div id="cs_control_27120" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_715_27120"> 
-		<span class="txt-header-sm"><strong>Apr 2</strong><strong>-4</strong></span><br>
-		<span class="txt-sm">Texas Cotton Association 103rd Annual  Convention, Horseshoe Bay Resort, Horseshoe Bay, Texas<br><br></span>
-	
-		<span class="txt-header-sm"><strong>Apr 3</strong><strong>-4</strong></span><br>
-		<span class="txt-sm">Texas Cotton Ginners' Association Trade Show, Lubbock Memorial Civic Center, Lubbock, TX<br><br></span>
-	
-		<span class="txt-header-sm"><strong>Apr 4</strong></span><br>
-		<span class="txt-sm">Plains Cotton Growers Annual Meeting, Lubbock Memorial Civic Center, Lubbock, TX<br><br></span>
-	
-		<span class="txt-header-sm"><strong>Apr 16</strong></span><br>
-		<span class="txt-sm">Plains Cotton Cooperative Assn. Board of Directors and Delegate Body Meeting, Lubbock, TX</span>
-	</div></div>
-</td></tr>
-	</table></div> <div id="cs_control_87249" class="cs_control blank-row"></div> <div id="cs_control_27834" class="cs_control callout-lightgreen-with-top-border"><div class="CS_Textblock_Text"><p style="text-align: center;"><font color="#000000"><a onmouseover="return window.status='/econ/world/index.cfm'" href="/econ/world/index.cfm" style="" class="CP___PAGEID_3149"><img src="/images/world-of-cotton.jpg" class="CP___PAGEID_3149" alt="World of Cotton Logo" border="0" vspace="0" width="120" height="125" hspace="0" /></a><br /> </font> <span class="txt-sm"><font color="#000000"><a class="CP___PAGEID_3149" href="/econ/world/index.cfm">View data</a> on the production, processing and economic significance of a raw material used in thousands of</font> <font color="#000000">consumer and industrial products made in the United States and abroad.</font></span></p></div></div> <div id="cs_control_87240" class="cs_control blank-row"></div> <div id="cs_control_91569" class="cs_control blank-row"></div> <div id="cs_control_86796" class="cs_control callout-homepagelink"><div><a href="/about/related-orgs.cfm" class="CS_Textblock_Caption" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/about/related-orgs.cfm');return true;">Visit our Affiliated Organizations</a></div></div> <div id="cs_control_27122" class="cs_control callout-brown"><div class="CS_Textblock_Text"><p style="text-align: center;"><a href="/foundation/index.cfm" style="" class="CP___PAGEID_118155"><img src="/images/cotton-foundation-logo.gif" class="CP___PAGEID_23835" alt="The Cotton Foundation" href="/foundation/Old-Foundation-Website/index.cfm" vspace="0" width="132" border="0" height="61" hspace="0" /></a><br />
- <a onmouseover="return window.status='http://www.cottonusa.org'" href="http://www.cottonusa.org/" style="" id="http://www.cottonusa.org"><img src="/images/cotton-usa.gif" alt="Cotton USA" vspace="0" width="126" border="0" height="101" hspace="0" /></a><br />
- <a onmouseover="return window.status='/issues/members/CAC.cfm'" href="/issues/members/CAC.cfm" style="" class="CP___PAGEID_10154"><img src="/images/cac-logo_1.gif" class="CP___PAGEID_10154" alt="Committee for the Advancement of Cotton" vspace="0" width="131" border="0" height="67" hspace="0" /></a><br />
- <span class="txt-sm"> </span></p>
+    <div id="body_bg">
+		<div id="navigation">
+    		<!-- Menu generated by Navigation Suite for DotNetNuke , www.dnn360.net -->
+<!--[if IE]>
+<style type="text/css">
 
-<p style="text-align: center;"><span class="txt-sm">CAC was established to encourage individuals' participation in government<br />
- (Members Only)</span></p></div></div> <div id="cs_control_27123" class="cs_control CS_Element_Textblock"><div class="CS_Textblock_Text"><p style="text-align: center"><a class="CP___PAGEID_9811" href="/travel/index.cfm"><strong><img height="102" alt="Book Your Travel On-line!" hspace="0" src="/images/Airplane.gif" width="120" border="0" /><br />Book your Travel</strong></a><br /><span class="txt-sm">Personal or business travel can be arranged using Trip Manager, the NCC's online travel service.</span></p></div></div>
-</td><td id="cs_idCell2x1x2" class="CS_Layout_TD" colspan="2">
-<div id="cs_control_27921" class="cs_control CS_Element_Layout"><table id="cs_idLayout27921" cellpadding="0" cellspacing="0" class="CS_Layout_Table" width="100%" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell27921x1x1" class="CS_Layout_TD">
-<div id="cs_control_27926" class="cs_control CS_Element_PageIndex">
-	
-	<script language="JavaScript">
-	<!--
-	//Javascript Created by Computerhope http://www.computerhope.com
-	//store the quotations in arrays
-	randimages = new Array(2);
-	randimages[0] = "cooperative.jpg";
-	randimages[1] = "cottonseed.jpg";	
-	randimages[2] = "greenfield.jpg";
-	randimages[3] = "manufacturer.jpg";
-	//randimages[4] = "merchant.jpg";
-	randimages[4] = "opencottonboll.jpg";
-	randimages[5] = "producer.jpg";
-	randimages[6] = "warehouse.jpg";
-	randimages[7] = "ginner.jpg";
-	randimages[8] = "FullenDockTow.jpg";	
-	imgindex = Math.floor(Math.random() * randimages.length);
-	//done
-	// -->
-	</script>
-	
-	
-	<script language='JavaScript'>
-	//document.write("<div class='photo' style='background-image: url(/images/feature_images/"+randimages[imgindex]+");'>"+'<img src="../images/feat-img-cover.gif" alt="" width="276" height="174" hspace="0" vspace="0" border="0">'+"</div>");
-	</script>
-	
-<div id="feature-area-div">	
-  
-  <div class="cover">
+#menu li ul {
+	width: 13em;
+	position: absolute; 
+	z-index: 99;
+	left: -999em; 
+	height: auto;	
+}
 
-    <div class="breaker">	
-	
-		
-		
-		
-		
-		
-		
-      <div class="feat-teaser-nothumbnail" id="first-blurb">
-        <p>
-		
-			<span class="callout-featured"><a id="/econ/cropinfo/production/prospective.cfm" href="/econ/cropinfo/production/prospective.cfm"><strong><font style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">USDA Prospective Plantings</font><br></strong></a></span>
-		USDA’s March &#39;14 Prospective Plantings Report indicates US producers intend to plant 11.1 million acres of cotton in &#39;14/15, 6.7% more than the previous year. 
-	</p>
-      </div>
-    </div>
-  
-    <div class="breaker">	
-	
-		
-		
-		
-		
-		
-		
-      <div class="feat-teaser-nothumbnail" id="">
-        <p>
-		
-			<span class="callout-featured"><a id="/http://www.fsa.usda.gov/FSA/newsReleases?area=newsroom&subject=landing&topic=ner&newstype=newsrel&type=detail&item=nr_20140328_rel_0053.html" href="http://www.fsa.usda.gov/FSA/newsReleases?area=newsroom&subject=landing&topic=ner&newstype=newsrel&type=detail&item=nr_20140328_rel_0053.html"><strong><font style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">USDA Prepares to Accept MAL and LDP Requests; Sets &#39;14 MAL Loan Rates</font><br></strong></a></span>
-		USDA&#39;s Farm Service Agency (FSA) will begin accepting requests for marketing assistance loans (MALs) and loan deficiency payments (LDPs) for eligible &#39;14 commodities. Notice of the authorization is published in today’s Federal Register. 
-	</p>
-      </div>
-    </div>
-  
-    <div class="breaker">	
-	
-		
-		
-		
-		
-		
-		
-      <div class="feat-teaser-nothumbnail" id="">
-        <p>
-		
-			<span class="callout-featured"><a id="/issues/members/farmbill/2014/implementation/farmfaq.cfm" href="/issues/members/farmbill/2014/implementation/farmfaq.cfm"><strong><font style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">Farm Bill Frequently Asked Questions</font><br></strong></a></span>
-		Following the series of farm bill education meetings, the NCC prepared a list of frequently asked questions on the The Agricultural Act of 2014. 
-	</p>
-      </div>
-    </div>
-  
-    <div class="breaker">	
-	
-		
-		
-		
-		
-		
-		
-      <div class="feat-teaser-nothumbnail" id="">
-        <p>
-		
-			<span class="callout-featured"><a id="/issues/members/farmbill/2014/implementation/index.cfm" href="/issues/members/farmbill/2014/implementation/index.cfm"><strong><font style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">Farm Bill Summary and Overview (click here)</font><br></strong></a></span>
-		This NCC-prepared document contains the basic preliminaries of The Agricultural Act of 2014 that passed out of the House/Senate Conference. The bill is subject to verification when legislative language is reviewed. 
-	</p>
-      </div>
-    </div>
-  
-    <div class="breaker">	
-	
-		
-		
-		
-		
-		
-		
-      <div class="feat-teaser-nothumbnail" id="">
-        <p>
-		
-			<span class="callout-featured"><a id="/http://www.fsa.usda.gov/FSA/newsReleases?area=newsroom&subject=landing&topic=pfs&newstype=prfactsheet&type=detail&item=pf_20140311_insup_en_fbil.html" href="http://www.fsa.usda.gov/FSA/newsReleases?area=newsroom&subject=landing&topic=pfs&newstype=prfactsheet&type=detail&item=pf_20140311_insup_en_fbil.html"><strong><font style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">FSA Posts Farm Bill Fact Sheet</font><br></strong></a></span>
-		USDA&#39;s Farm Service Agency has created a fact sheet entitled, &quot;What’s in the 2014 Farm Bill for Farm Service Agency Customers?&quot; that includes highlights of The Agricultural Act of 2014 (the Act), also known as the 2014 Farm Bill. 
-	</p>
-      </div>
-    </div>
-  
-    <div class="breaker">	
-	
-		
-		
-		
-		
-		
-		
-      <div class="feat-teaser-nothumbnail" id="">
-        <p>
-		
-			<span class="callout-featured"><a id="/news/releases/2014/brazresolve.cfm" href="/news/releases/2014/brazresolve.cfm"><strong><font style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">NCC Believes Brazil WTO Case Resolved</font><br></strong></a></span>
-		In response to Brazil’s decision to request a panel at the WTO to assess the new US farm bill, the NCC stated that the new Stacked Income Protection Plan was developed specifically to bring the United States into compliance with the &#39;08 WTO Appellate Body decision thus resolving the long-standing dispute. 
-	</p>
-      </div>
-    </div>
-  
-    <div class="breaker">	
-	
-		
-		
-		
-		
-		
-		
-      <div class="feat-teaser-nothumbnail" id="">
-        <p>
-		
-			<span class="callout-featured"><a id="/http://www.fsa.usda.gov/FSA/newsReleases?area=newsroom&subject=landing&topic=ner&newstype=newsrel&type=detail&item=nr_20140218_rel_0028.html" href="http://www.fsa.usda.gov/FSA/newsReleases?area=newsroom&subject=landing&topic=ner&newstype=newsrel&type=detail&item=nr_20140218_rel_0028.html"><strong><font style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px;">&#39;14 Upland Cotton Marketing Assistance Loan Rate Announced</font><br></strong></a></span>
-		Commodity Credit Corporation Executive Vice President Juan M. Garcia on Feb. 18 announced the marketing assistance loan rate for &#39;14-crop base quality upland cotton is set at 52 cents per pound. 
-	</p>
-      </div>
-    </div>
-  
-  </div>
-  
-</div> 
-</div>
-</td><td id="cs_idCell27921x1x2" class="divider-vertical-featured" width="1%" rowspan="2">
-<div id="cs_control_86863" class="cs_control CS_Element_Layout"><table id="cs_idLayout86863" cellpadding="0" cellspacing="0" class="CS_Layout_Table" width="100%" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell86863x1x1" class="CS_Layout_TD">
-<div id="cs_control_86865" class="cs_control CS_Element_Textblock"><div class="CS_Textblock_Text"><div style="text-align: center;"><br />
-<img alt="additional-content-graphic" src="/images/additional-content-graphic.gif" border="0" height="57" hspace="0" width="200" /></div>
+#menu li li {
+	padding: 0 0 0 0;
+	margin: 0;
+	width: 13em;
+}
 
-<div style="text-align: center;"><br />
-<div style="text-align: center;"><a onmouseover="return window.status='/issues/members/farmbill/2014/index.cfm'" href="/issues/members/farmbill/2014/index.cfm" style="cursor:hand" class="CP___PAGEID_152479"><img src="/issues/members/farmbill/2013/images/13-farm-bill-graphic.jpg" class="CP___PAGEID_152479" alt="2014 Farm Bill" title="2014 Farm Bill" border="0" height="123" hspace="0" vspace="0" width="200" /></a><br />
-<br />
-<a onmouseover="return window.status='/issues/members/farmbill/2014/implementation/index.cfm'" href="/issues/members/farmbill/2014/implementation/index.cfm" style="cursor:hand" class="CP___PAGEID_152491"><img src="/images/farm-bill-overview.jpg" class="CP___PAGEID_152491" alt="2014 Farm Bill Overview" title="2014 Farm Bill Overview" border="0" height="83" hspace="0" vspace="0" width="200" /></a><br />
-</div>
+#menu li ul li {	
+	border-bottom: 0px solid #e1e0e0;
+	padding:2px 0px 2px 0px;
+}
+</style>
+<![endif]--><script language="javascript" type="text/javascript" xmlns:fo="http://www.w3.org/1999/XSL/Format">	
+     // JScript File
 
-<br />
-</div>
+	sfHover = function() {
+	var sfEls = document.getElementById("menu").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+	}
+	if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#e1e0e0;" xmlns:fo="http://www.w3.org/1999/XSL/Format"><tr align="left" width="100%"><td width="100%" align="left"><div align="left"><ul id="menu"><li class="level1"><a class="H1MenuLevel0Selected" href="http://www.popcorn.org/Home/tabid/36/Default.aspx"><span>Home</span></a></li><li class="level1"><a class="levelhavechild" href="http://www.popcorn.org/ForKids/tabid/54/Default.aspx"><span>For Kids</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForKids/PopcornBooklist/tabid/82/Default.aspx"><span>Popcorn Booklist</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForKids/PopcornColoringSheets/tabid/83/Default.aspx"><span>Popcorn Coloring Sheets</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForKids/PopcornWorksheets/tabid/61/Default.aspx"><span>Popcorn Worksheets</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForKids/PopcornGames/tabid/60/Default.aspx"><span>Popcorn Games</span></a></li></ul></li><li class="level1"><a class="levelhavechild" href="http://www.popcorn.org/ForTeachers/tabid/55/Default.aspx"><span>For Teachers</span></a><ul><li class="levelhavechild"><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/tabid/55/Default.aspx"><span>Teaching Guide</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/TeachingGuide/PopcornHistory/tabid/85/Default.aspx"><span>Popcorn History</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/TeachingGuide/HowPopularisPopcorn/tabid/86/Default.aspx"><span>How Popular is Popcorn?</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/TeachingGuide/FromSeedtoSnack/tabid/87/Default.aspx"><span>From Seed to Snack</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/TeachingGuide/WhatMakesPopcornPop/tabid/88/Default.aspx"><span>What Makes Popcorn Pop?</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/Media/PopVideos/tabid/114/Default.aspx"><span>Pop Videos</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/TeachingGuide/PreparingPerfectPopcorn/tabid/90/Default.aspx"><span>Preparing Perfect Popcorn</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/TeachingGuide/NutritionalInformation/tabid/91/Default.aspx"><span>Nutritional Information</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/TeachingTools/tabid/62/Default.aspx"><span>Teaching Tools, Lesson Plans</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/Guestbook/tabid/59/Default.aspx"><span>Request a Teachers Guide</span></a></li></ul></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/ForTeachers/TeachingTools/tabid/62/Default.aspx"><span>Teaching Tools</span></a></li></ul></li><li class="level1"><a class="levelhavechild" href="http://www.popcorn.org/NutritionRecipes/tabid/56/Default.aspx"><span>Nutrition & Recipes</span></a><ul><li class="levelhavechild"><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/NutritionYou/NutritionalInformation/tabid/96/Default.aspx"><span>Nutrition & You</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/NutritionYou/NutritionalInformation/tabid/96/Default.aspx"><span>Nutritional Information</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/NutritionYou/TheFoodPlate/tabid/97/Default.aspx"><span>The Food Plate</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/NutritionYou/UnderstandingCalories/tabid/99/Default.aspx"><span>Understanding Calories</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/NutritionYou/FatFacts/tabid/100/Default.aspx"><span>Fat Facts</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/NutritionYou/WholeGrains/tabid/101/Default.aspx"><span>Whole Grains</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/NutritionYou/HealthMedicalGroups/tabid/102/Default.aspx"><span>Health & Medical Groups</span></a></li></ul></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/CalorieCounter/tabid/66/Default.aspx"><span>Calorie Counter</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/Recipes/tabid/67/Default.aspx"><span>Recipes</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/NutritionRecipes/PopcornTips/tabid/68/Default.aspx"><span>Popcorn Tips</span></a></li></ul></li><li class="level1"><a class="levelhavechild" href="http://www.popcorn.org/EncyclopediaPopcornica/tabid/57/Default.aspx"><span>Encyclopedia Popcornica</span></a><ul><li class="levelhavechild"><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/tabid/57/Default.aspx"><span>Welcome to Popcornica</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/WelcometoPopcornica/WhatMakesPopcornPop/tabid/105/Default.aspx"><span>What Makes Popcorn Pop?</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/Media/PopVideos/tabid/114/Default.aspx"><span>Pop Videos</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/WelcometoPopcornica/HistoryofPopcorn/tabid/106/Default.aspx"><span>History of Popcorn</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/WelcometoPopcornica/PoppingTips/tabid/107/Default.aspx"><span>Popping Tips</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/WelcometoPopcornica/IndustryFacts/tabid/108/Default.aspx"><span>Industry Facts</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/WelcometoPopcornica/PopcornPoppers/tabid/109/Default.aspx"><span>Popcorn Poppers</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/WelcometoPopcornica/SourcesBibliography/tabid/110/Default.aspx"><span>Sources & Bibliography</span></a></li></ul></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/Trivia/tabid/69/Default.aspx"><span>Trivia</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/EncyclopediaPopcornica/FAQ/tabid/71/Default.aspx"><span>FAQ</span></a></li></ul></li><li class="level1"><a class="levelhavechild" href="http://www.popcorn.org/AboutUs/tabid/58/Default.aspx"><span>About Us</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/IntheNews/tabid/74/Default.aspx"><span>In the News</span></a></li><li class="levelhavechild"><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/Media/tabid/73/Default.aspx"><span>Media</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/Media/FeatureStories/tabid/113/Default.aspx"><span>Feature Stories</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/Media/PopcornPhotos/tabid/112/Default.aspx"><span>Popcorn Photos</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/Media/PopVideos/tabid/114/Default.aspx"><span>Pop Videos</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/Media/NationalPopcornDay/tabid/115/Default.aspx"><span>National Popcorn Day</span></a></li></ul></li><li class="levelhavechild"><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/PopcornPoppinMonth/tabid/72/Default.aspx"><span>Popcorn Poppin' Month</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/PopcornPoppinMonth/PressRelease/tabid/155/Default.aspx"><span>Press Release</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/PopcornPoppinMonth/FunPopcornFacts/tabid/118/Default.aspx"><span>Fun Popcorn Facts</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/PopcornPoppinMonth/HistoryofPopcorn/tabid/124/Default.aspx"><span>History of Popcorn</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/PopcornPoppinMonth/PopcornandtheMovies/tabid/120/Default.aspx"><span>Popcorn and the Movies</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/PopcornPoppinMonth/PoppingTips/tabid/125/Default.aspx"><span>Popping Tips</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/PopcornPoppinMonth/PerfectPopcornIdeas/tabid/122/Default.aspx"><span>Perfect Popcorn Ideas</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/PopcornPoppinMonth/PoppinMonthRecipes/tabid/123/Default.aspx"><span>Poppin' Month Recipes</span></a></li></ul></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/CheckoffPrograms/tabid/116/Default.aspx"><span>Checkoff Programs</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/AboutUs/ContactUs/tabid/111/Default.aspx"><span>Contact Us</span></a></li></ul></li><li class="level1"><a class="" href="http://www.popcorn.org/Guestbook/tabid/59/Default.aspx"><span>Guestbook</span></a></li><li class="level1"><a class="levelhavechild" href="http://www.popcorn.org/Contests/tabid/151/Default.aspx"><span>Contests</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/Contests/KerneloftheMonth/tabid/152/Default.aspx"><span>Kernel of the Month</span></a></li><li class="levelhavechild"><a class="H4MenuLevel1" href="http://www.popcorn.org/Contests/PopcornPepClub/tabid/153/Default.aspx"><span>Popcorn Pep Club</span></a><ul><li><a class="H4MenuLevel1" href="http://www.popcorn.org/Contests/PopcornPepClub/2013PepClubWinners/tabid/175/Default.aspx"><span>2013 Pep Club Winners</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/Contests/PopcornPepClub/2012PepClubWinners/tabid/172/Default.aspx"><span>2012 Pep Club Winners</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/Contests/PopcornPepClub/2011PepClubWinners/tabid/164/Default.aspx"><span>2011 Pep Club Winners</span></a></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/Contests/PopcornPepClub/2010PepClubWinners/tabid/162/Default.aspx"><span>2010 Pep Club Winners</span></a></li></ul></li><li><a class="H4MenuLevel1" href="http://www.popcorn.org/Contests/SeeWhatPopsUp/tabid/167/Default.aspx"><span>See What Pops Up</span></a></li></ul></li><li class="level1"><a class="" href="http://www.popcorn.org/AskPoppy/tabid/76/Default.aspx"><span>Ask Poppy!</span></a></li></ul></div></td></tr></table>
 
-<div style="text-align: center;"><a id="http://www.cotton.org/beltwide/" onmouseover="return window.status='http://www.cotton.org/beltwide/'" href="/beltwide/"><img title="beltwide cotton conferences" alt="beltwide cotton conferences" src="/images/generic-bw-icon_4.jpg" border="0" height="44" hspace="0" vspace="0" width="200" /></a><br />
-<br />
-</div>
+    	</div>
+     	<div id="homepagebody" class="clearfix">
+        	<div id="flasharea">
+    			<script language="javascript">
+					if (AC_FL_RunContent == 0) {
+						alert("This page requires AC_RunActiveContent.js.");
+					} else {
+					AC_FL_RunContent(
+						'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0',
+						'width', '940',
+						'height', '312',
+						'src', '/Portals/_default/Skins/SiteSkinPackage/homepageflash/home.swf',
+						'quality', 'high',
+						'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+						'align', 'middle',
+						'play', 'true',
+						'loop', 'true',
+						'scale', 'showall',
+						'wmode', 'opaque',
+						'devicefont', 'false',
+						'id', 'slideshow',
+						'bgcolor', '#ffffff',
+						'name', 'slideshow',
+						'menu', 'true',
+						'allowFullScreen', 'false',
+						'allowScriptAccess','sameDomain',
+						'movie', '/Portals/_default/Skins/SiteSkinPackage/homepageflash/home',
+						'salign', ''
+						); //end AC code
+					}
+				</script>
+				<noscript>
+					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="665" height="232" id="slideshow" align="middle">
+					<param name="allowScriptAccess" value="sameDomain" />
+					<param name="allowFullScreen" value="false" />
+					<param name="movie" value="/Portals/_default/Skins/SiteSkinPackage/homepageflash/home.swf" />
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#ffffff" />		
+                    <embed src="/Portals/_default/Skins/SiteSkinPackage/homepageflash/home.swf" quality="high" bgcolor="#ffffff" width="940" height="312" name="slideshow" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+					</object>
+				</noscript>
+        	</div>
+    		<div id="homepageleft">
+        		<div id="dnn_LeftPane"><a name="495"></a>
 
-<div style="text-align: center;"><a class="CP___PAGEID_115131" onmouseover="return self.status='/congress/cotton-101/index.cfm'" href="/congress/cotton-101/index.cfm"><img class="CP___PAGEID_115131" title="Congressional Staffers" alt="Congressional Staffers" src="/images/congressional-staffers-button_2.jpg" border="0" height="45" hspace="0" width="200" /></a> </div>
-
-<div style="text-align: center;">
-<table summary="Table Summary" border="0" width="100%">
-<tbody>
-<tr>
-<td style="background-color: rgb(207, 225, 191);" width="200">
-<p align="center"><br />
-<a class="CP___PAGEID_8250" href="/issues/congress-contacts.cfm"><strong>Find Your Congressional Contacts</strong></a><br />
-<br />
+<style>
+#recipe_container a:link {
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+	
+#recipe_container a:visited {
+	color:#FFFFFF !important;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+	
+#recipe_container a:active {
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+	
+#recipe_container a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+</style>
+<div id="recipe_container">
+	<div id="recipe_header">
+    	<img src="/Portals/_default/Skins/SiteSkinPackage/images/recipe_header.gif" width="173" height="34" border="0" alt="Daily Recipe" />
+    </div>
+    <div id="dnn_ctr495_ContentPane" style="padding-left:0px;" class="DNNAlignleft"><!-- Start_Module_495 --><div id="dnn_ctr495_ModuleContent">
+	<div id="drPanel495Data0" style="visibility:hidden;overflow:hidden;display:none;"><p>
+<table class="normal" border="0" cellspacing="1" cellpadding="6" width="100%">
+    <tbody>
+        <tr valign="top">
+            <td align="center">
+            <p><img border="0" alt="Popcorn and Peanut Truffles" align="top" width="152" height="228" src="/Portals/0/Images/DailyRecipe/Popcorn_and_Peanut_Truffles.jpg" /></p>
+            </td>
+        </tr>
+        <tr valign="top" cellpadding="4">
+            <td align="left">
+            <h3>Popcorn and Peanut Truffles</h3>
+            <p><a target="_blank" href="http://resources.popcorn.org/nutrition/recipe/recipe.cfm?mode=print&amp;recipe_id=75">Print this recipe</a><br />
+            <a href="/LinkClick.aspx?link=67&amp;tabid=36">View all recipes</a>&#160;</p>
+            <!-- AddThis Button BEGIN --><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=poppy09"><img style="border-bottom: 0px; border-left: 0px; border-top: 0px; border-right: 0px" alt="Bookmark and Share" width="125" height="16" src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" /></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=poppy09"></script> <!-- AddThis Button END --></td>
+        </tr>
+    </tbody>
+</table>
 </p>
-</td>
-</tr>
-</tbody>
+</div><div id="drPanel495" style="position:relative;overflow:hidden;width:170px;top:0px;left:0px;zoom:1;"><div id="drPanel495Content1" style="overflow:hidden;width:170px;top:0px;left:0px;"></div><div id="drPanel495Content2" style="overflow:hidden;position:relative;width:170px;top:-5000px;left:0px;zoom:1;"></div></div><script type="text/javascript">drotobj495 = new DigRotate('drPanel495');drotobj495.CurrentPage=0;drotobj495.AutoAdvance=0;drotobj495.AutoAdvanceDelay=3000;drotobj495.Type=1;drotobj495.TransitionSpeed=0.5;drotobj495.RandomTransition=0;drotobj495.ContentLoad=0;drotobj495.EnablePager=1;drotobj495.ModuleID=495;drotobj495.ContentCount=1;drotobj495.CallbackControl='Rotate';drotobj495.SortOrder='0';drotobj495.IETrans=[];drotobj495.XTrans=[];drotobj495.Start();</script>
+<!-- End_Module_495 -->
+</div><span class="Normal"><table width="100%" cellspacing="0" cellpadding="5">
+    <tbody>
+        <tr>
+            <td>
+            <table width="99%" cellspacing="0" cellpadding="10">
+                <tbody>
+                    <tr>
+                        <td bgcolor="#b9d299" bordercolor="#72a433"><strong><font size="4" face="Times New Roman" color="#993300">Popcorn Sites Around the World</font></strong>
+                        <p><strong>The Popcorn Board now offers alternate sites in other languages:</strong></p>
+                        <p><a href="http://www.palomitasdemaiz.org" style="color: rgb(0,0,255)"><font color="0000FF">Spanish-Language Website</font></a></p>
+                        <p><a href="http://www.uspopcorn.in.th" style="color: rgb(0,0,255)"><font color="0000FF">Thai-Language Website</font></a></p>
+                        <p><a href="http://www.popcornchina.cn" style="color: rgb(0,0,255)"><font color="0000FF">Mandarin-Language Website</font></a></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table></span></div>
+    <div id="recipe_footer">
+    	
+    	
+        
+        
+        
+    </div>
+</div></div>
+        	</div>
+        	<div id="homepagemid">
+        		<div id="dnn_ContentPane"><a name="497"></a>
+
+<div id="home_container">
+	<div id="home_header" style="padding-left:2px; padding-top:3px;">
+    	<span id="dnn_ctr497_dnnTITLE_lblTitle" class="h1">Feature Stories</span>
+
+
+
+    </div>
+    <div id="dnn_ctr497_ContentPane" style="padding-left:2px;" class="DNNAlignleft"><!-- Start_Module_497 --><span class="Normal"><div style="width:330px;"></span><div id="dnn_ctr497_ModuleContent">
+	<div id="drPanel497Data0" style="visibility:hidden;overflow:hidden;display:none;"><p>
+<table width="100%" cellspacing="1" cellpadding="5" border="0" align="left" class="normal">
+    <tbody>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="130" border="0" align="top" height="130" alt="Yogurt Covered Popcorn? No Whey!" src="/Portals/0/Images/FeatureStories/PeachyKeen.jpg" /></td>
+            <td valign="top"><span class="h3">Yogurt Covered Popcorn? No Whey!</span> <br />
+            Water buffalos, yaks, goats, mares, cows and even soybeans make it. You can eat it, sip it like a soup, or drink it as a drink. It’s yogurt...<br />
+            <a target="_blank" href="/Portals/0/pdf/Media/nowhey.pdf">Read More</a></td>
+        </tr>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="129" border="0" align="top" height="130" src="/Portals/0/Images/FeatureStories/WhiteChocPopcornCrunchF.jpg" alt="Triple Treat" /></td>
+            <td valign="top">
+            <p><span class="h3">Triple Treat</span><br />
+            It sounds like a challenge for competing chefs on the local food channel: Take three simple ingredients and make them into three distinctly different, but delicious, treats.<br />
+            <a href="/Portals/0/pdf/Media/PB_1170706_AugPromo.pdf" target="_blank">Read More</a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+</div><div id="drPanel497Data1" style="visibility:hidden;overflow:hidden;display:none;"><p>
+<table width="100%" cellspacing="1" cellpadding="5" border="0" align="left" class="normal">
+    <tbody>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="130" border="0" align="top" height="130" src="/Portals/0/Images/FeatureStories/SugarSpicePopcorn.jpg" alt="Sugar &amp; Spice" /></td>
+            <td valign="top"><span class="h3">Sugar   &amp; Spice</span> <br />
+            What’s the first flavor that comes to mind   when you hear the word “popcorn?” Butter? Salt?   Caramel?&#160; <br />
+            <a href="/Portals/0/pdf/Media/SugarSpice.pdf" target="_blank">Read   More</a></td>
+        </tr>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="130" border="0" align="top" height="131" src="/Portals/0/Images/FeatureStories/power_bars_21087_2.jpg" alt="Power Bars" /></td>
+            <td valign="top"><span class="h3">Popcorn Power Up</span> <br />
+            A day filled with work, school, family, volunteering, social commitments, and outside interest means you’re on the go and probably skipping meals, but you still need nutrients and energy to power thru the night.&#160; <br />
+            <a href="/Portals/0/pdf/Media/Popcorn Power Up.pdf" target="_blank">Read More</a></td>
+        </tr>
+    </tbody>
+</table>
+</p>
+</div><div id="drPanel497Data2" style="visibility:hidden;overflow:hidden;display:none;"><p>
+<table width="100%" cellspacing="1" cellpadding="5" border="0" align="left" class="normal">
+    <tbody>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="130" border="0" align="top" height="130" alt="Hoppity Hoppin'" src="/Portals/0/Images/FeatureStories/Popcorn_Eggs.jpg" />&#160;</td>
+            <td valign="top"><span class="h3">Easter Eggs Are Hoppin'</span><br />
+            Put a spin on a classic popcorn treat to create something colorful for your Easter table...<br />
+            <a target="_blank" href="/Portals/0/pdf/Media/PB_Feb10Promos_HoppityHoppin.pdf">Read More</a></td>
+        </tr>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="130" border="0" align="top" height="130" alt="Legendary Snacks" src="/Portals/0/Images/FeatureStories/apricot_cherry_squares.jpg" />&#160;</td>
+            <td valign="top"><span class="h3">Spice Up   Your Pre-Prom Party with Popcorn</span><br />
+            Prom is one of the season’s biggest rites   of passage for teens and it’s only a few weeks away...   <br />
+            <a href="/Portals/0/pdf/Media/spice_popcorn_promo.pdf" target="_blank">Read More</a></td>
+        </tr>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="130" border="0" align="top" height="130" alt="Tropical Snack Break" src="/Portals/0/Images/FeatureStories/coconutmonkeymix1.jpg" /></td>
+            <td valign="top"><span class="h3">Take a   Tropical Snack Break</span><br />
+            Ah, the tropics. The very word conjures   images of palm trees, island breezes, sandy shores,   lush foliage, colorful birds, and much, much more, all   of it enticing.<br />
+            <a target="_blank" href="/Portals/0/pdf/Media/PB_062_JulyPromo0725_3.pdf">Read More</a></td>
+        </tr>
+    </tbody>
+</table>
+</p>
+</div><div id="drPanel497Data3" style="visibility:hidden;overflow:hidden;display:none;"><p>
+<table width="100%" cellspacing="1" cellpadding="5" border="0" align="left" class="normal">
+    <tbody>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="130" border="0" align="top" height="129" src="/Portals/0/Images/FeatureStories/tiskettasket_thumbnail.jpg" alt="Hoppity Hoppin'" />&#160;</td>
+            <td valign="top"><span class="h3">Tisket a Tasket</span><br />
+            Pull out your pastels, bring out your best bonnet, and set the table with a scene of spring...<br />
+            <a href="/AboutUs/Media/FeatureStories/TisketaTasketPopcornEasterBasket/tabid/166/Default.aspx" target="_blank">Read More</a></td>
+        </tr>
+        <tr valign="top">
+            <td valign="top"><img hspace="0" width="131" border="0" align="top" height="130" src="/Portals/0/Images/FeatureStories/Spicy_Italian_Popcorn.jpg" alt="Spicy Italian Popcorn" />&#160;</td>
+            <td valign="top"><span class="h3">Hoppity Hoppin'</span><br />
+            Prom is one of the season’s biggest rites of passage for teens and it’s only a few weeks away...<br />
+            <a href="http://www.popcorn.org/LinkClick.aspx?fileticket=YCMwHoE2JAw%3d&amp;tabid=113&amp;mid=446" target="_blank">Read More</a></td>
+        </tr>
+    </tbody>
+</table>
+</p>
+</div><table style="width:345px;height:305px;" cellpadding="0"  cellspacing="0" ><tr><td class="Rotate-GreyLight_PB-Content" width="100%"><div id="drPanel497" style="position:relative;overflow:hidden;width:345px;height:305px;top:0px;left:0px;zoom:1;"><div id="drPanel497Content1" style="overflow:hidden;width:345px;height:305px;top:0px;left:0px;"></div><div id="drPanel497Content2" style="overflow:hidden;position:relative;width:345px;height:305px;top:-5000px;left:0px;zoom:1;"></div></div></td></tr><tr><td class="Rotate-GreyLight_PB-Pager"><div id="drPanel497Pager1" style="width:345px;"><div class="drRotateGreyLight" width="100%">
+<table cellpadding="2" cellspacing="0" border="0"><tr>
+        <td><div style='visibility:visible;display:inline' id='drPanel497ispause'><a href="javascript:drotobj497.Play();"><span><img src="/desktopmodules/digrotate/templates/Rotate-GreyLight_PB/play.gif" border="0" alt="Play"/></span></a></div><div style='visibility:hidden;display:none' id='drPanel497notpause'><a href="javascript:drotobj497.Pause();"><span><img 
+                src="/desktopmodules/digrotate/templates/Rotate-GreyLight_PB/pause.gif" border="0" alt="Pause"/></span></a></div></td>
+        <td ><a href="javascript:drotobj497.RotatePrev();"><span>
+            <img src="/desktopmodules/digrotate/templates/Rotate-GreyLight_PB/prev.gif" border="0" alt="Previous" /></span></a></td>
+        <td><a href="javascript:drotobj497.RotateNext();">
+            <img src="/desktopmodules/digrotate/templates/Rotate-GreyLight_PB/next.gif" border="0" alt="Next" /></a></td>
+        <td  id='drPanel497Page0' ><a  href="javascript:drotobj497.RotateAt(0);"><span>1</span></a></td>
+<td  id='drPanel497Page1' ><a  href="javascript:drotobj497.RotateAt(1);"><span>2</span></a></td>
+<td  id='drPanel497Page2' ><a  href="javascript:drotobj497.RotateAt(2);"><span>3</span></a></td>
+<td  id='drPanel497Page3' ><a  href="javascript:drotobj497.RotateAt(3);"><span>4</span></a></td>
+
+</tr></table>
+</div>
+</div></td></tr></table><script type="text/javascript">drotobj497 = new DigRotate('drPanel497');drotobj497.CurrentPage=0;drotobj497.AutoAdvance=1;drotobj497.AutoAdvanceDelay=15000;drotobj497.Type=1;drotobj497.TransitionSpeed=0.5;drotobj497.RandomTransition=0;drotobj497.ContentLoad=0;drotobj497.EnablePager=1;drotobj497.ModuleID=497;drotobj497.ContentCount=4;drotobj497.CallbackControl='Rotate';drotobj497.SortOrder='0';drotobj497.IETrans=[];drotobj497.XTrans=[33];drotobj497.Start();</script>
+<!-- End_Module_497 -->
+</div><span class="Normal"></div></span></div>
+    <div id="home_footer">
+    	
+    	
+        
+        
+        
+    </div>
+</div><a name="510"></a>
+
+<div id="home_container">
+	<!--<div id="home_header" style="padding-left:2px; padding-top:3px;">
+    	<span id="dnn_ctr510_dnnTITLE_lblTitle" class="h1">&nbsp;</span>
+
+
+
+    </div>-->
+    <div id="dnn_ctr510_ContentPane" style="padding-left:2px; padding-top:3px;" class="DNNAlignleft"><!-- Start_Module_510 --><span class="Normal"><div style="width:330px;"></span><div id="dnn_ctr510_ModuleContent">
+	<div id="dnn_ctr510_HtmlModule_HtmlModule_lblContent" class="Normal">
+	<table width="100%" cellspacing="1" cellpadding="5" border="0" align="center">
+    <tbody>
+        <tr valign="top">
+            <td><span class="h3">Watch Pop Videos!</span><br />
+            Grab a bowl of popcorn and watch popcorn popping in slow motion, how to to make stove top popcorn, and more!<br />
+            <a href="/AboutUs/Media/PopVideos/tabid/114/Default.aspx">View now</a></td>
+            <td>
+            <p align="right"><span class="h3"><a href="/AboutUs/Media/PopVideos/tabid/114/Default.aspx"><img width="160" height="119" border="0" align="middle" src="/Portals/0/Images/pop_video.jpg" alt="Pop Videos" /></a></span></p>
+            </td>
+        </tr>
+    </tbody>
 </table>
 </div>
+<!-- End_Module_510 -->
+</div><span class="Normal"></div></span></div>
+    <div id="home_footer">
+    	
+    	
+        
+        
+        
+    </div>
+</div><a name="537"></a>
 
-<div style="text-align: center;"><br />
-<a id="http://www.cottonleads.org/" onmouseover="return window.status='http://www.cottonleads.org/'" href="http://www.cottonleads.org/"><img title="cotton-leads" alt="cotton-leads" src="/images/cotton-leads.jpg" border="0" height="56" hspace="0" vspace="0" width="200" /></a><br />
-<br />
-<a onmouseover="return window.status='/econ/reports/annual-outlook.cfm'" href="/econ/reports/annual-outlook.cfm" style="cursor:hand" class="CP___PAGEID_18564"><img src="/images/2014-am-econ.jpg" class="CP___PAGEID_18564" alt="2014 Economic Outlook" title="2014 Economic Outlook" border="0" height="112" hspace="0" vspace="0" width="200" /></a><br />
-<br />
-<a onmouseover="return window.status='/about/report/2014/2014-video-staff-report.cfm'" href="/about/report/2014/2014-video-staff-report.cfm" style="cursor:hand" class="CP___PAGEID_151360"><img src="/images/2014-am-video-staff-report-icon.jpg" class="CP___PAGEID_151360" alt="2014 Annual Meeting Video Staff Report" title="2014 Annual Meeting Video Staff Report" border="0" height="112" hspace="0" vspace="0" width="200" /></a><br />
-<table summary="Table Summary" align="center" border="0" cellpadding="0" cellspacing="0" height="75" width="200">
-<tbody>
-<tr>
-<td rowspan="1" colspan="2" align="left" valign="bottom"> <a class="CP___PAGEID_122033" onmouseover="return window.status='/tech/ace/index.cfm'" href="/tech/ace/index.cfm"><img class="CP___PAGEID_122033" title="ace-banner" alt="ace-banner" src="/tech/ace/images/ace-banner_2.jpg" align="left" border="0" height="45" hspace="0" vspace="0" width="200" /></a></td>
-</tr>
+<div id="home_container">
+	<!--<div id="home_header" style="padding-left:2px; padding-top:3px;">
+    	<span id="dnn_ctr537_dnnTITLE_lblTitle" class="h1">Text/HTML</span>
 
-<tr style="background-color: rgb(207, 225, 191);" align="center">
-<td valign="top" width="200"><a href="/tech/physiology/cpt/index.cfm"><font size="1"><br />
-Cotton Physiology Today</font></a> 
 
-<p><a href="/tech/ace/loader.cfm?csModule=security/getfile&amp;PageID=122350"><font size="1">First Forty Days and Fruiting to Finish<br />
-<br />
-</font></a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
- </div>
-
-<div style="text-align: center;"><a id="http://www.cotton.org/econ/govprograms/conservation-programs.cfm" onmouseover="return self.status='http://www.cotton.org/econ/govprograms/conservation-programs.cfm'" href="/econ/govprograms/conservation-programs.cfm"><img title="cp-button" alt="cp-button" src="/images/cp-button_1.jpg" border="0" height="45" hspace="0" width="200" /></a> </div>
-
-<p align="center"><a class="CP___PAGEID_124511" href="/tech/pest/weed-resistance.cfm"><img class="CP___PAGEID_118367" title="wr-button" alt="wr-button" src="/images/wr-button.jpg" href="/tech/pest/weed-resistance-old.cfm" border="0" height="45" hspace="0" width="200" /></a></p></div></div>
-</td></tr>
-	</table></div> <div id="cs_control_86837" class="cs_control callout-homepagelink"><div><a href="/issues/congress-contacts.cfm" class="CS_Textblock_Caption" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/issues/congress-contacts.cfm');return true;">Find your Congressional Contacts</a></div></div> <div id="cs_control_86839" class="cs_control callout-lightgreen"><table id="cs_idLayout86839" cellpadding="0" cellspacing="0" class="CS_Layout_Table" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell86839x1x1" class="CS_Layout_TD">
-<div id="cs_control_86842" class="cs_control CS_Element_Textblock"><div class="CS_Textblock_Text"><font face="Verdana,Arial,Helvetica,sans-serif"><span class="txt-sm"> </span></font><font class="txt-sm" face="Verdana,Arial,Helvetica,sans-serif"><span class="txt-sm">Need to contact your U.S. representative and senators? Use our new</span> <a class="txt-sm CP___PAGEID_8250" href="http://webdev.cotton.org/issues/congress-contacts.cfm">Congressional contact lookup</a><span class="txt-sm">.</span></font></div></div>
-</td></tr>
-	</table></div> <div id="cs_control_86870" class="cs_control callout-gray"><table id="cs_idLayout86870" cellpadding="0" cellspacing="0" class="CS_Layout_Table" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell86870x1x1" class="CS_Layout_TD"><img src="/commonspot/images/clear.gif" width="1" height="1" alt="" /></td></tr>
-	</table></div> <div id="cs_control_87254" class="cs_control blank-row"></div> <div id="cs_control_86843" class="cs_control callout-homepagelink"><div><a href="/news/cweek/index.cfm" class="CS_Textblock_Caption" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/news/cweek/index.cfm');return true;">New in Cotton&#39;s Week</a></div></div> <div id="cs_control_86845" class="cs_control callout-brown"><table id="cs_idLayout86845" cellpadding="0" cellspacing="0" class="CS_Layout_Table" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell86845x1x1" class="CS_Layout_TD">
-<div id="cs_control_86847" class="cs_control CS_Element_PageIndex">
-	<div align="center"><a href="/news/cweek/2014/0328.cfm"><span class="txt-med"><strong>March 28, 2014</strong></span></a><BR /><BR /></div>
-	<ul class="txt-sm">
-		<li>USDA Publishes Extension of Authorization</li>
-		
-			<li>Proposed Rule on CWA Jurisdiction Released</li>
-		
-			<li>Lesser Prairie Chicken Listed as Threatened</li>
-		
-		<li><a href="/news/cweek/2014/0328.cfm">and more...</a></li>
-	</ul>
-	<span class="txt-sm"><br>Sponsored by <a href="http://www.protectmycotton.com/" title="Dow AgroSciences">Dow AgroSciences</a></span>
+    </div>-->
+    <div id="dnn_ctr537_ContentPane" style="padding-left:2px; padding-top:3px;" class="DNNAlignleft"><!-- Start_Module_537 --><span class="Normal"><div style="width:330px;"></span><div id="dnn_ctr537_ModuleContent">
+	<div id="dnn_ctr537_HtmlModule_HtmlModule_lblContent" class="Normal">
+	<p><font size="4" face="Times New Roman"><font color="#993300">Popcorn Around the World</font></font><br />
+Since 1999, the Popcorn Board has conducted export promotion activities by participating in USDA’s Market Access Program (MAP). In 2012, the Board is conducting MAP activities in the Caribbean, Costa Rica and Mexico, and is participating in trade shows worldwide. For more information on USDA’s Market Access Program, visit <a href="http://www.fas.usda.gov">www.fas.usda.gov</a>.</p>
 </div>
-</td></tr>
-	</table></div> <div id="cs_control_87257" class="cs_control blank-row"></div> <div id="cs_control_86848" class="cs_control callout-homepagelink"><div><a href="/news/av/index.cfm" class="CS_Textblock_Caption" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/news/av/index.cfm');return true;">Audio &amp; Video</a></div></div> <div id="cs_control_86849" class="cs_control callout-lightgreen"><table id="cs_idLayout86849" cellpadding="0" cellspacing="0" class="CS_Layout_Table" summary=""><tr class="CS_Layout_TR"><td id="cs_idCell86849x1x1" class="CS_Layout_TD">
-<div id="cs_control_86851" class="cs_control CS_Element_PageIndex"><script type="text/javascript">
-<!--
-	if (!document.expandIcons)	// this may already be defined..
-		document.expandIcons = new Array();
+<!-- End_Module_537 -->
+</div><span class="Normal"></div></span></div>
+    <div id="home_footer">
+    	
+    	
+        
+        
+        
+    </div>
+</div></div>
+        	</div>
+        	<div id="homepageright">
+        		<div id="dnn_RightPane"><a name="536"></a><span id="dnn_ctr536_ContentPane" class="DNNAlignleft"><!-- Start_Module_536 --><div id="dnn_ctr536_ModuleContent">
+	<div id="dnn_ctr536_HtmlModule_HtmlModule_lblContent" class="Normal">
+	<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F%23%21%2Fpages%2FPopcorn-Central%2F163447480382632&amp;width=325&amp;height=427&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color=%2374A633&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:325px; height:427px;" allowTransparency="true"></iframe>
+</div>
+<!-- End_Module_536 -->
+</div></span>
+<a name="496"></a>
 
-	function doCPExpandCollapseList (divid, col, Primary_expandicon, controlid)
-	{
-		if (document.getElementById("span_" + controlid + "_" + divid).style.display == 'none')
-		{
-			document.getElementById("span_" + controlid + "_" + divid).style.display = 'block';
-			if (Primary_expandicon > 0)	// only if plus minus icons are displayed
-			{
-				if (col == 1)
-					document.getElementById("expand_" + controlid + "_" + divid).src = document.expandIcons['pri_expand_' + controlid];
-				else
-					document.getElementById("expand_" + controlid + "_" + divid).src = document.expandIcons['sec_expand_' + controlid];
-			}
-		}
-		else
-		{
-			document.getElementById("span_" + controlid + "_" + divid).style.display = 'none';
-			if (Primary_expandicon > 0)	// only if plus minus icons are displayed
-			{
-				if (col == 1)
-					document.getElementById("expand_" + controlid + "_" + divid).src = document.expandIcons['pri_collapse_' + controlid];
-				else
-					document.getElementById("expand_" + controlid + "_" + divid).src = document.expandIcons['sec_collapse_' + controlid];
-			}
-		}
-		
-	}
+<div id="home_container">
+	<div id="home_header" style="padding-left:2px; padding-top:3px;">
+    	<span id="dnn_ctr496_dnnTITLE_lblTitle" class="h1">Join the Club - Win Prizes!</span>
 
-	function doCPOpenInOpener (workUrl)
-	{
-		if (getOpener())
-			getOpener().location = workUrl;
-	}
-// -->
+
+
+    </div>
+    <div id="dnn_ctr496_ContentPane" style="padding-left:2px;" class="DNNAlignleft"><!-- Start_Module_496 --><div id="dnn_ctr496_ModuleContent">
+	<div id="drPanel496Data0" style="visibility:hidden;overflow:hidden;display:none;"><p><span class="h3">Kernel of the Month Club<br />
+<span class="h3"><a href="/LinkClick.aspx?link=152&amp;tabid=36"><img height="149" width="115" border="0" align="right" alt="Captain Kernel" src="/Portals/0/Images/CaptainKernel.gif" /></a></span>Congratulations Winners!</span><br />
+Congratulations to the latest Kernel of the Month winners:<br />
+<br />
+<em><em>December: </em></em>Dawn D.<em><em> </em></em>of Santa Clara, CA<br />
+<em><em>November: </em></em>Chelsea K. of Texas, PA<br />
+<em><em>October: </em></em>Marlene A. of San Carlos, CA<br />
+<em>September: </em>Tamie S. of Yellville, AR<br />
+<em><em>August: </em></em>Kathy S. of Lutz, FL<br />
+<em><em>July: </em></em>Stephanie W. of Aventura, FL<br />
+<em><em>June:</em> </em>Nicole S. of Chicago, IL<em><br />
+May:</em> Emily S. of Philadelphia, PA<br />
+<em>April: </em>Denise S. of Acton, CA<em><br />
+March:</em> Sherrie B. of Oakboro, NC<br />
+<em>February:</em> Sherri S. of Middletown, MD<br />
+<em>January:</em> MaryEileen R. of Bridgeton, MO<br />
+<br />
+Become a popcorn fan, enter today for your chance to win yummy popcorn prizes.<br />
+<a href="/LinkClick.aspx?link=152&amp;tabid=36">Read More</a>&#160;</p>
+</div><div id="drPanel496Data1" style="visibility:hidden;overflow:hidden;display:none;"><p><img border="0" hspace="8" alt="Salt of the Earth" vspace="10" align="left" width="130" height="130" src="/Portals/0/Images/FeatureStories/SeaSaltCaramel_21.jpg" />One of popcorn’s more endearing qualities is its ability to pair up with a vast range of flavors, yet one of the most popular popcorn toppings is common, everyday salt. Just a dash and you’re ready to munch. We think of salt primarily for its ability to enhance the flavor of food. But in the culinary world, salt is far from your basic, ordinary run of the mill condiment. Salt comes from many sources and is highly regarded by gourmet chefs who appreciate and distinguish these varieties.</p>
+<p>Table salt is the most common kind of salt found in the average kitchen. It comes from salt deposits and is harvested by forcing water into a mine to create brine. The brine is then evaporated leaving cubes of salt. Popcorn salt is a super fine table salt, created to better adhere to popcorn kernels. Kosher salt is like of the Earth table salt, but is raked during the evaporation process making a courser, flakier grain. And sea salt is harvested from seawater through evaporation. How and where the seawater is harvested will affect its taste…<br />
+<a target="_blank" href="/portals/0/PDF/media/SaltEarth.pdf">Read More</a></p>
+</div><div id="drPanel496" style="position:relative;overflow:hidden;width:345px;top:0px;left:0px;zoom:1;"><div id="drPanel496Content1" style="overflow:hidden;width:345px;top:0px;left:0px;"></div><div id="drPanel496Content2" style="overflow:hidden;position:relative;width:345px;top:-5000px;left:0px;zoom:1;"></div></div><script type="text/javascript">drotobj496 = new DigRotate('drPanel496');drotobj496.CurrentPage=0;drotobj496.AutoAdvance=0;drotobj496.AutoAdvanceDelay=3000;drotobj496.Type=1;drotobj496.TransitionSpeed=0.5;drotobj496.RandomTransition=0;drotobj496.ContentLoad=0;drotobj496.EnablePager=1;drotobj496.ModuleID=496;drotobj496.ContentCount=2;drotobj496.CallbackControl='Rotate';drotobj496.SortOrder='0';drotobj496.IETrans=[];drotobj496.XTrans=[];drotobj496.Start();</script>
+<!-- End_Module_496 -->
+</div></div>
+    <div id="home_footer">
+    	
+    	
+        
+        
+        
+    </div>
+</div></div>
+        	</div>
+            
+    	</div>
+        <div id="footercontent" class="clearfix">
+        		<div class="footer_address">
+    				<strong>The Popcorn Board</strong> | 330 North Wabash Avenue, Suite 2000 | Chicago, IL 60611<br />
+    				Phone: (312) 644.6610 | Email: <a href="mailto:info@popcorn.org">info@popcorn.org</a>
+            	</div>
+            	<div class="footer_copyright">&copy; 2014 The Popcorn Board<br>
+				<a href="/Home/NonDiscriminationAccessibilityPolicy/tabid/149/Default.aspx">Non-Discrimination/Accessibility Policy</a></div>
+        	</div>
+    </div>
+    <div id="fullfooter">
+    	<div id="footer">
+    		&nbsp;
+    	</div>
+    </div>
+</div>
+</div>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
 </script>
-<table id="CS_PgIndex_715_86851" border="0" cellpadding="0" cellspacing="0" summary=""><tr><td colspan="2" valign="top" style="text-align:left"><table cellpadding="0" cellspacing="0" border="0" width="100%" summary=""><tr  class="CS_PgIndex_Item"><td width="100%" class="CS_PgIndex_Item"><a href="/news/av/newsline140402.cfm" class="txt-header-sm">Cotton Newsline: April 2, 2014</a><br /><span class="txt-sm">Dahlen Hancock, a Texas cotton producer and Cotton Council International (CCI) First Vice President, emphasized the U.S. cotton industry’s responsible production practices through a presentation at the COTTON USA Retail and Marketing Leadership Summit, held in Berlin in March.</span><br /><div class="CS_PgIndex_Item_SpacingHeight" style="line-height:1;">&nbsp;</div></td></tr><tr  class="CS_PgIndex_Item_Alternate"><td width="100%" class="CS_PgIndex_Item_Alternate"><a href="/news/av/newsline140328.cfm" class="txt-header-sm">Cotton Newsline: March 28, 2014</a><br /><span class="txt-sm">Wrapping up our series on pollinator issues, Dr. David Epstein, Senior Entomologist for USDA’s Office of Pest Management Policy, joins us today to talk about the varroa mite, a pest that is directly linked to the decline in honey bee health.</span><br /><div class="CS_PgIndex_Item_SpacingHeight" style="line-height:1;">&nbsp;</div></td></tr><tr  class="CS_PgIndex_Item"><td width="100%" class="CS_PgIndex_Item"><a href="/news/av/newsline140326.cfm" class="txt-header-sm">Cotton Newsline: March 26, 2014</a><br /><span class="txt-sm">As a new crop season nears, cotton producers are encouraged to utilize the resources available in the National Cotton Council’s &quot;Advancing Cotton Education&quot; (ACE) program – as a way to enhance their crop production decisions.</span></td></tr></table></td></tr></table></div>
-</td></tr>
-	</table></div> <div id="cs_control_86857" class="cs_control CS_Element_Textblock"><div class="CS_Textblock_Text"><p align="center"><a id="http://www.americasheartland.com" onmouseover="return window.status='http://www.americasheartland.com'" href="http://www.americasheartland.com/"><img alt="America's Heartland" src="/images/heartland-logo.jpg" width="200" border="0" height="138" hspace="0" /></a> </p>
-
-<p align="center"><a onmouseover="return window.status='http://usfraonline.org/about/'" href="http://usfraonline.org/about/" style="cursor:hand" id="http://usfraonline.org/about/"><img src="/images/us-farmers-ranchers-alliance-r.gif" alt="U.S. Farmers &amp; Ranchers Alliance (USFRA) " title="U.S. Farmers &amp; Ranchers Alliance (USFRA) " vspace="0" width="200" border="0" height="28" hspace="0" /></a><br />
-</p>
-
-<p align="center"><a class="CP___PAGEID_74376" onmouseover="return window.status='/nccflashrequired.cfm'" href="/nccflashrequired.cfm"><img class="CP___PAGEID_74376" alt="Flast Required" src="/images/flash.jpg" width="200" border="0" height="42" hspace="0" /></a> </p></div></div>
-</td></tr>
-	</table></div>
-</td></tr>
-	</table></div>
-			</td>
-			
-		</tr>
-	</table>
-	
-		<table cellpadding="0" cellspacing="0" border="0" width="100%">
-			<tr>
-				<td id="footer-td" align="center"> 
-				<div id="cs_control_1744" class="cs_control CS_Element_LinkBar"><a href="/contact/index.cfm" class="CS_LinkBar_Item" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/contact/index.cfm');return true;">Contact the NCC</a><span class="CS_LinkBar_Separator"> | </span><a href="/edu/faq/index.cfm" class="CS_LinkBar_Item" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/edu/faq/index.cfm');return true;">Frequently Asked Questions</a><span class="CS_LinkBar_Separator"> | </span><a href="/privacy.cfm" class="CS_LinkBar_Item" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/privacy.cfm');return true;">Privacy Policy</a><span class="CS_LinkBar_Separator"> | </span><a href="/siteindex.cfm" class="CS_LinkBar_Item" onmouseout=" setStatbar('');return true;" onmouseover="setStatbar('/siteindex.cfm');return true;">Site Index</a></div>
-					<br/>
-					<span class="txt-sm">
-						<a href="/privacy.cfm#CP_JUMP_12461">Copyright</a>	&copy; 1996-2014 National Cotton Council of America. All Rights Reserved.<br/><br/>
-					</span>
-				</td>
-			</tr>
-		</table>
-		<div id="cs_control_5863" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_715_5863">
-
-<form method="post" name="myform" action="index.cfm?renderforprint=1&">
-	<input type="hidden" name="null" value="">
-	
 </form>
-
-
-
-
-
-
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
-_uacct = "UA-1920036-1";
-urchinTracker();
-</script> </div></div><div style="display:block; clear:left; padding:0px; font-family:Verdana,Arial; font-size:10px; color:gray;"></div>
-		<script type="text/javascript">
-		<!--
-			var jsPageContributeMode = 'read';
-			var jsPageSessionContributeMode = 'read';
-			
-			var jsPageAuthorMode = 0;
-			var jsPageEditMode = 0;
-
-			
-			if(!commonspot)
-				var commonspot = {};
-			commonspot.csPage = {};
-			commonspot.csPage.url = '/index.cfm';
-			
-			commonspot.csPage.id = 715;
-			commonspot.csPage.title = 'NCC Home Page';
-
-			commonspot.csPage.pagetype = 0;
-			commonspot.csPage.publicationState = 'Published Page';	
-			commonspot.csPage.siteRoot = '/';
-			commonspot.csPage.subsiteRoot = '/';			
-			commonspot.csPage.mode = jsPageSessionContributeMode;
-			commonspot.csPage.authorok = 1;
-			commonspot.csPage.approvalstatus = 0;
-			commonspot.csPage.showContainerUI = 0;
-			commonspot.csPage.requestedVersionTimestamp = '';
-			commonspot.csPage.userRights = {};
-			commonspot.csPage.userRights.isLoggedIn = 0;
-			commonspot.csPage.userRights.licensedContributor = 0;
-			commonspot.csPage.userRights.read = 1;
-			commonspot.csPage.userRights.author = 0;
-			commonspot.csPage.userRights.edit = 0;
-			commonspot.csPage.userRights.approve = 0;
-			commonspot.csPage.userRights.history = 0;
-			commonspot.csPage.userRights.design = 0;
-			commonspot.csPage.userRights.admin = 0;
-			commonspot.csPage.userRights.subsiteAdmin = 0;
-			commonspot.csPage.userRights.siteAdmin = 0;
-			commonspot.csPage.userRights.customerAdmin = 0;
-			commonspot.csPage.userRights.serverAdmin = 0;
-
-			commonspot.csPage.enabledMenuClasses = '';
-			
-			commonspot.csPage.visibleMenuClasses = '';
-
-			
-			commonspot.csPage.subsiteContext = {};
-			commonspot.csPage.subsiteContext.sitetype = 1;
-			commonspot.csPage.subsiteContext.siteid = 1;
-			commonspot.csPage.subsiteContext.subsiteid = 1;
-			commonspot.csPage.subsiteContext.siteurl = '/';
-			commonspot.csPage.subsiteContext.subsiteurl = '/';
-			commonspot.csPage.subsiteContext.sitename = 'NCC';
-			commonspot.csPage.subsiteContext.subsitename = '/';
-			commonspot.csPage.subsiteContext.menucontexttimestamp = '1394145611191';
-			commonspot.csPage.serveradminurl = "/commonspot/admin/";
-			if (parent.commonspot)
-				parent.commonspot.csPage = commonspot.csPage;
-			var doLviewRedirect;
-			if(parent &&
-						parent.commonspot &&
-						parent.commonspot.lview &&
-						!doLviewRedirect &&
-						parent.commonspot.lightbox &&
-						parent.commonspot.lightbox.stack.length == 0)
-			{
-			
-				commonspot.csPage.showPageSubmit = false;
-			
-				onPageArrival = function()
-				{
-					parent.commonspot.lview.currentPage.onPageArrival( commonspot.csPage );
-				};
-				onPageUnload = function()
-				{
-					parent.commonspot.lview.currentPage.onPageUnload();
-				};
-				parent.Spry.Utils.addEventListener(window, 'load', onPageArrival, false);
-				parent.Spry.Utils.addEventListener(window, 'unload', onPageUnload, false);
-			}
-		
-
-		// -->
-		</script>
-<script type="text/javascript">
-<!--
-	if (typeof parent.commonspot == 'undefined' || typeof parent.commonspot.lview == 'undefined')
-		loadNonDashboardFiles();
-	else if (parent.commonspot && typeof newWindow == 'undefined')
-	{
-		var arrFiles = 
-				[
-					{fileName: '/commonspot/javascript/lightbox/overrides.js', fileType: 'script', fileID: 'cs_overrides'},
-					{fileName: '/commonspot/javascript/lightbox/window_ref.js', fileType: 'script', fileID: 'cs_windowref'}
-				];
-		
-		loadDashboardFiles(arrFiles);
-	}	
-//-->
-</script>
-
-</body></html>
+try {
+var pageTracker = _gat._getTracker("UA-2425129-40");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

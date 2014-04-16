@@ -1,1180 +1,359 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
-    <head prefix="og: http://ogp.me/ns#
-    fb: http://ogp.me/ns/fb#">
-    
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-<title>Indiewire Blogs, Film News and Reviews | Filmmakers, Film Industry, Film Festivals, Awards & Movie Reviews | Indiewire</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="title"
-      content="Indiewire Blogs, Film News and Reviews | Filmmakers, Film Industry, Film Festivals, Awards & Movie Reviews | Indiewire"/>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" dir="ltr" lang="en-US"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
 
-<meta property="pageHost" content=""/>
-<meta property="pageType" content=""/>
-<link rel="shortcut icon" href="http://d1oi7t5trwfj5d.cloudfront.net/36/9e/83a6781c4a9185774b29cb59594b/favicon.ico" />
-<link rel="apple-touch-icon" href="http://d1oi7t5trwfj5d.cloudfront.net/18/ff/b0b53a08499589fe022e46664b67/favicon.png" />
-<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=indiewire"></script>
-<link rel="stylesheet" href="/fonts/fonts.min.css?build=20140401-1706" />
-<link rel="stylesheet" href="http://d1oi7t5trwfj5d.cloudfront.net/resource/css/global.292f6ecf3f4b88703912902464b06ff4.css" />
-<link rel="stylesheet" media="print" href="http://d1oi7t5trwfj5d.cloudfront.net/resource/css/print.9ea318947ea3bb245d01842009dbc666.css" />
+<head id="www-snarkerati-com" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
 
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery-1.7.2.min.fd9c3f401110f85ec685a85a336f03fa.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.cookie.c203f1f3ca2a51bd6a2c62cd52312139.js"></script>
+	<meta charset="UTF-8">
+	
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	
+	<title>
+		   		   Snarkerati - Entertainment News and Celebrity Gossip	</title>
+	
+	<meta name="title" content="Snarkerati - Entertainment News and Celebrity Gossip">
+		
+	<link rel="shortcut icon" href="/assets/images/favicon.ico">
+	<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
-<script src="//cdn.optimizely.com/js/713751423.js"></script>
+	<link rel="stylesheet" href="/assets/css/style.css">
+	
+	<script src="/assets/js/modernizr-1.7.min.js"></script>
+	
+	<link rel="pingback" href="http://snarkerati.com/xmlrpc.php" />
 
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.tools.min.6777c9308a64b5abcf10d728cedbf865.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/head.min.75ebe32e1ce54532b352cc9496580198.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.lightbox.bc8e362712ef3055f6b4578b3789f8b9.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/iw.bc7ea7ad1f4851866a619ae16e2079ef.js"></script>
+	
+	
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.1 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://snarkerati.com/" />
+<!-- / Yoast WordPress SEO plugin. -->
 
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/criticwire/criticwire.83a9791165791fde26afc6a4f042fee3.js"></script>
-<div id="fb-root"></div>
-<script src="//connect.facebook.net/en_US/all.js" id="facebook-jssdk"></script>
+<link rel="alternate" type="application/rss+xml" title="Snarkerati - Entertainment News and Celebrity Gossip &raquo; Feed" href="http://snarkerati.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Snarkerati - Entertainment News and Celebrity Gossip &raquo; Comments Feed" href="http://snarkerati.com/comments/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://snarkerati.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/swfobject.js?ver=2.2'></script>
+<link rel='stylesheet' id='social_connect-css'  href='http://snarkerati.com/wp-content/plugins/social-connect/media/css/style.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css'  href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/smoothness/jquery-ui.css?ver=3.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/jquery/ui/jquery.ui.resizable.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/jquery/ui/jquery.ui.draggable.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/jquery/ui/jquery.ui.button.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/jquery/ui/jquery.ui.position.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-includes/js/jquery/ui/jquery.ui.dialog.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://snarkerati.com/wp-content/plugins/social-connect/media/js/connect.js?ver=3.3.1'></script>
+<!-- Vipers Video Quicktags v6.4.4 | http://www.viper007bond.com/wordpress-plugins/vipers-video-quicktags/ -->
+<style type="text/css">
+.vvqbox { display: block; max-width: 100%; visibility: visible !important; margin: 10px auto; } .vvqbox img { max-width: 100%; height: 100%; } .vvqbox object { max-width: 100%; } 
+</style>
 <script type="text/javascript">
-    
-    $.extend(IW, {
-        FB: {
-            params: {
-                appId: '132443425037',
-                status: true,
-                cookie: true,
-                xfbml: true
-            },
-            callbacks: {
-                init: [],
-                getLoginStatus: [],
-                authResponseChange: [],
-                loginSmallLoaded: [],
-                api: []
-            },
-            doCallback: function(response, fnName) {
-                for(var i in this.callbacks[fnName]) {
-                    CW.log('Calling callbacks[' + fnName + '][' + i + ']', response);
-                    this.callbacks[fnName][i](response);
-                }
-            }
-        }
-    });
-    
-    CW.log('window.fbAsyncInit()');
-
-    if(typeof(FB) == 'object') {
-        CW.log('FB.init()');
-        FB.init(IW.FB.params);
-        
-        IW.FB.callbacks.getLoginStatus.push(CW.user.init);
-        IW.FB.callbacks.getLoginStatus.push(CW.user.handleLoginResponse);
-        IW.FB.callbacks.authResponseChange.push(CW.user.handleLoginResponse);
-        IW.FB.callbacks.authResponseChange.push(CW.newsletter.check);
-
-        if(typeof(getSocialsCount) == 'function') {
-            IW.FB.callbacks.getLoginStatus.push(getSocialsCount);
-        }
-
-        FB.getLoginStatus(function(response) {
-            CW.log('top level FB.getLoginStatus() callback, calling other CBs');
-            IW.FB.doCallback(response, 'getLoginStatus');
-            FB.Event.subscribe('auth.authResponseChange', function(response) {
-                IW.FB.doCallback(response, 'authResponseChange');
-            });
-        });
-
-    } else {
-        CW.log('FB is not defined');
-    }
-    
-    IW.siteName = 'Indiewire';
-    
-</script><script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-3922545-4']);
-    _gaq.push(['_setDomainName', '.indiewire.com']);
-
-    
-               _gaq.push(['_setCustomVar', 3, 'Site', 'Indiewire', 3 ]);
-           _gaq.push(['_trackPageview']);
-    
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+// <![CDATA[
+	var vvqflashvars = {};
+	var vvqparams = { wmode: "opaque", allowfullscreen: "true", allowscriptaccess: "always" };
+	var vvqattributes = {};
+	var vvqexpressinstall = "http://snarkerati.com/wp-content/plugins/vipers-video-quicktags/resources/expressinstall.swf";
+// ]]>
 </script>
+	
+	
+<!----Tlvmedia----http://snarkerati.com (150951)---freq-1--300x250---->
+<script type="text/javascript" src="http://tag.tlvmedia.com/tags.js?id=103908_150951&ad_type=interstitial&freq_times=2&freq=86400&ad_size=300x250"></script>
+<!----Tlvmedia-------------------------------------------------->
 
+	
+</head>
 
-<!-- START Nielsen Online Async V6.0 -->
+<body class="home blog">
+	
+	<!-- BuySellAds Ad Code -->
 	<script type="text/javascript">
-	 var _nol = { pvar: { cid: "us-306011h", content: "0", server: "secure-us"
-	 } };
-	 (function () { var s = document.createElement('script');
-	 s.type = 'text/javascript';
-	 s.async = true;
-	 s.src = '//secure-us.imrworldwide.com/v60a.js';
-	 var x = document.getElementsByTagName('script')[0];
-	 x.parentNode.insertBefore(s, x); })();
+	(function(){
+	  var bsa = document.createElement('script');
+	     bsa.type = 'text/javascript';
+	     bsa.async = true;
+	     bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
+	  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+	})();
 	</script>
-	<!-- END Nielsen Online Async V6.0 -->
+	<!-- End BuySellAds Ad Code -->
+	
+		<header id="header">
+				<h1><a class="logo" href="/">Snarkerati - Entertainment, TV and Movie News, Gaming and Celebrity Gossip</a></h1>
+				<div id="navigation">
+			<ul>
+				<li class="current"><a href="/" class="nav_home">Home</a></li>
+				<li><a href="/movie-news/" class="nav_movies">Movies</a></li>
+				<li><a href="/tv-news/" class="nav_tv">Television</a></li>
+				<li><a href="/gaming-news/" class="nav_gaming">Gaming</a></li>
+				<li><a href="/celebrity-gossip/" class="nav_gossip">Celebrity Gossip</a></li>
+				<li><a href="/galleries/" class="nav_galleries">Galleries</a></li>
+				<li><a href="/fun-stuff/" class="nav_funstuff">Fun Stuff</a></li>
+			</ul>
+		</div>
+		<div id="connect_top">
+			<ul>
+				<li class="connect_email"><a href="/contact/">Contact Us</a></li>
+				<li class="connect_rss"><a href="/subscribe/">Subscribe</a></li>
+				<li class="connect_facebook"><a href="http://www.facebook.com/Snarkerati" target="_blank" rel="nofollow">Facebook</a></li>
+				<li class="connect_twitter"><a href="http://twitter.com/snarkerati" target="_blank" rel="nofollow">Twitter</a></li>
+				<li class="connect_gplus"><a href="https://plus.google.com/112171520532132586629/posts" target="_blank" rel="nofollow">Google Plus</a></li>
+			</ul>
+		</div>
+		<div id="ad_leaderboard">
+									<!-- BuySellAds Zone Code -->
+			<div id="bsap_1290789" class="bsarocks bsap_a85bf4659ed18fe8f24cd4e936932aa8"></div>
+			<!-- End BuySellAds Zone Code -->
 
-	<!-- Begin comScore Tag -->
-	<script>
-	  var _comscore = _comscore || [];
-	  _comscore.push({ c1: "2", c2: "15332233" });
-	  (function() {
-	    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-	    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-	    el.parentNode.insertBefore(s, el);
-	  })();
-	</script>
-	<noscript>
-		<img
-			src="http://b.scorecardresearch.com/p?c1=2&c2=15332233&cv=2.0&cj=1" />
-	</noscript>
-	<!-- End comScore Tag -->
+		</div>
+	</header>
+	
+	<div id="page-wrap-home">
+	
+<div id="content-home">
+	<div id="filter"><span class="filter_text">Filter by section:</span>
+		<span class="filter_all" data-filter="*">All</span>
+		<span class="filter_movie" data-filter=".item_2"><span></span>Movies</span>
+		<span class="filter_tv" data-filter=".item_3"><span></span>Television</span>
+		<span class="filter_gaming" data-filter=".item_6"><span></span>Gaming</span>
+		<span class="filter_gossip" data-filter=".item_5"><span></span>Celebrity Gossip</span>
+		<span class="filter_funstuff" data-filter=".item_7"><span></span>Fun Stuff</span>
+		<div class="clearfix"></div>
+	</div>
+	<div id="home_blocks">
+	<div class="item item_2"><a class="cat_marker movie-news" href="/movie-news/">Movies</a><a class="img_link" href="http://snarkerati.com/movie-news/weekend-box-office-gravity-defies/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Gravity-movie.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_2"><a href="http://snarkerati.com/movie-news/weekend-box-office-gravity-defies/">Weekend Box Office: "Gravity" Defies</a></h2><p>
 
-	<!-- Google Tag Manager -->
-	<noscript>
-		<iframe src="//www.googletagmanager.com/ns.html?id=GTM-WGR7HL"
-			height="0" width="0" style="display: none; visibility: hidden"></iframe>
-	</noscript>
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-WGR7HL');</script>
-	<!-- End Google Tag Manager -->
+Here's how it looks:
 
-<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script> 
-    </head>
-    <body  > 
-<div class="trendWrap clrfix">
-    <div class="trending clrfix">
-        <a class="snag" href="http://www.snagfilms.com">SnagFilms</a>
+1. Gravity 3D (Warner Bros) NEW [Runs 3,575] PG13
+Friday $17.5M, Saturday $23.5M, Weekend $55.5M
 
-        <div class="trendBar">
-            <span>Trending:</span>
-            <a href="http://www.indiewire.com/box-office/"
-                   title="">Box Office</a>, &nbsp;&nbsp;<a href="http://www.indiewire.com/films"
-                   title="">New Releases</a>, &nbsp;&nbsp;<a href="http://www.indiewire.com/videos/"
-                   title="">Videos</a></div>
-        <!-- ends trendingBar -->
-    </div>
-    <!-- end trending -->
-</div>
-<!-- end trendWrap -->
+2. Cloudy With A Chance Of Meat...</p><div class="home_meta">October 6th By Kirsten Anderson</div></div><div class="item item_5"><a class="cat_marker celebrity-gossip" href="/celebrity-gossip/">Gossip</a><a class="img_link" href="http://snarkerati.com/celebrity-gossip/justin-timberlake-cheated-on-jessica-biel/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/justin-cheating.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_5"><a href="http://snarkerati.com/celebrity-gossip/justin-timberlake-cheated-on-jessica-biel/">Justin Timberlake Cheated On Jessica Biel?</a></h2><p>
 
+New rumors have popped up suggesting that Justin Timberlake has been cheating on his wife Jessica Biel.  This isn't the first time that these reports have c...</p><div class="home_meta">October 4th By Misty</div></div><div class="item item_5"><a class="cat_marker celebrity-gossip" href="/celebrity-gossip/">Gossip</a><a class="img_link" href="http://snarkerati.com/celebrity-gossip/nicki-minaj-zac-efron-hooked-up/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/nicki-zac.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_5"><a href="http://snarkerati.com/celebrity-gossip/nicki-minaj-zac-efron-hooked-up/">Nicki Minaj &amp; Zac Efron Hooked Up</a></h2><p>
 
-<div id="hat">
-    <div class="hat-ad">
-        <div class="ad">
-            <script type="text/javascript">
-		if (window.adgroupid == undefined) {
-		       window.adgroupid = Math.round(Math.random() * 1000);
-		}
-		window['adtech_adurl_' + "2ac1f87a-2577-42f6-aaec-4b736b563ad8"] = "http://adserver.adtechus.com/addyn/3.0/5182/619932/0/225/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
-		document.writeln('<DIV ID="ADTECH_AdContainer_' + "2ac1f87a-2577-42f6-aaec-4b736b563ad8" +'"><IFRAME ID="ADTECH_IFRAME_'+ "2ac1f87a-2577-42f6-aaec-4b736b563ad8" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
-		
+Here's a gossip related headline that we never thought we would write.  According to reports, former High School Musical star Zac Efron hooked up with singe...</p><div class="home_meta">October 4th By Misty</div></div><div class="item item_5"><a class="cat_marker celebrity-gossip" href="/celebrity-gossip/">Gossip</a><a class="img_link" href="http://snarkerati.com/celebrity-gossip/matthew-mcconaughey-worries-that-he-has-ruined-his-body/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/matthew-body.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_5"><a href="http://snarkerati.com/celebrity-gossip/matthew-mcconaughey-worries-that-he-has-ruined-his-body/">Matthew McConaughey Worries That He Has Ruined His Body</a></h2><p>
 
-	</script>
+Matthew McConaughey is really worried that he has ruined his super hot body!  Can you even imagine his mode of thinking here?  This is Matthew McConaughey w...</p><div class="home_meta">October 4th By Misty</div></div><div class="item item_5"><a class="cat_marker celebrity-gossip" href="/celebrity-gossip/">Gossip</a><a class="img_link" href="http://snarkerati.com/celebrity-gossip/lena-dunham-is-a-total-diva/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/lena-dunham-diva.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_5"><a href="http://snarkerati.com/celebrity-gossip/lena-dunham-is-a-total-diva/">Lena Dunham Is A Total Diva</a></h2><p>
 
-</div>
-        <!-- end ad -->
-    </div>
-    <!-- end hat-ad -->
+We're hearing reports that Lena Dunham is a total pain in the neck to deal with in her newfound diva ways.  Apparently her success has really gone to her he...</p><div class="home_meta">October 4th By Misty</div></div><div class="item item_5"><a class="cat_marker celebrity-gossip" href="/celebrity-gossip/">Gossip</a><a class="img_link" href="http://snarkerati.com/celebrity-gossip/rob-kardashian-doesnt-care-about-his-familys-reality-show/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/rob-kuwtk.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_5"><a href="http://snarkerati.com/celebrity-gossip/rob-kardashian-doesnt-care-about-his-familys-reality-show/">Rob Kardashian Doesn't Care About His Family's Reality Show</a></h2><p>
 
-    <!-- interstitial ad call -->
+When speaking with the Wall Street Journal, Rob Kardashian admitted that he doesn't actually care for his family's reality show, Keeping Up With The Kardash...</p><div class="home_meta">October 4th By Misty</div></div><div class="item item_5"><a class="cat_marker celebrity-gossip" href="/celebrity-gossip/">Gossip</a><a class="img_link" href="http://snarkerati.com/celebrity-gossip/camilla-parker-bowles-collapses-after-learning-of-charles-divorce-plans/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/camilla-collapses-globe.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_5"><a href="http://snarkerati.com/celebrity-gossip/camilla-parker-bowles-collapses-after-learning-of-charles-divorce-plans/">Camilla Parker-Bowles Collapses After Learning Of Charles' Divorce Plans</a></h2><p>
 
-            <div id="ad-interstitial">
-                <script type="text/javascript">
-		if (window.adgroupid == undefined) {
-		       window.adgroupid = Math.round(Math.random() * 1000);
-		}
-        document.write('<scr' + 'ipt src="http://adserver.adtechus.com/addyn/3.0/5182/842660/0/16/ADTECH;loc=100;target=_blank;key=1318114940725+Indiewire;;grp=' + window.adgroupid + ';misc=' + new Date().getTime() + '"></scri' + 'pt>');
-    </script>
-<!-- end interstitial ad call -->
-            </div>
-        <!-- skin ad call -->
-            <script type="text/javascript">
-		if (window.adgroupid == undefined) {
-		       window.adgroupid = Math.round(Math.random() * 1000);
-		}
-		window['adtech_adurl_' + "640b4251-50b2-4048-8ed8-f145e001fa5e"] = "http://adserver.adtechus.com/addyn/3.0/5182/2221508/0/16/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
-		document.writeln('<DIV ID="ADTECH_AdContainer_' + "640b4251-50b2-4048-8ed8-f145e001fa5e" +'"><IFRAME ID="ADTECH_IFRAME_'+ "640b4251-50b2-4048-8ed8-f145e001fa5e" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
-		
+After seeing the newest issue of Globe magazine, we were wondering if the royal couple, Prince Charles and Duchess Camilla even had $350 million between the...</p><div class="home_meta">October 3rd By Misty</div></div><div class="item item_5"><a class="cat_marker celebrity-gossip" href="/celebrity-gossip/">Gossip</a><a class="img_link" href="http://snarkerati.com/celebrity-gossip/kaley-cuoco-used-a-fake-engagement-ring-to-get-fiances-proposal/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/kaley-ring.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_5"><a href="http://snarkerati.com/celebrity-gossip/kaley-cuoco-used-a-fake-engagement-ring-to-get-fiances-proposal/">Kaley Cuoco Used A Fake Engagement Ring To Get Fiance's Proposal</a></h2><p>
 
-	</script>
+We're still not convinced that Kaley Cuoco's proposal from fiance Ryan Sweeting was anything to write home about.  He basically started an argument with her...</p><div class="home_meta">October 3rd By Misty</div></div><div class="item item_5"><a class="cat_marker celebrity-gossip" href="/celebrity-gossip/">Gossip</a><a class="img_link" href="http://snarkerati.com/celebrity-gossip/stacy-keibler-is-strapped-for-cash/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/stacy-keibler-money1.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_5"><a href="http://snarkerati.com/celebrity-gossip/stacy-keibler-is-strapped-for-cash/">Stacy Keibler Is Strapped For Cash</a></h2><p>
 
-<!-- end skin ad call -->
-        </div>
-<!-- end header ad -->
-<div id="masthead">
+Is George Clooney's ex-girlfriend Stacy Keibler so strapped for cash that she is actually considering going back to wrestling?  That sounds about right, con...</p><div class="home_meta">October 3rd By Misty</div></div><div class="item item_2"><a class="cat_marker movie-news" href="/movie-news/">Movies</a><a class="img_link" href="http://snarkerati.com/movie-news/elizabeth-olsen-will-play-scarlet-witch-says-samuel-l-jackson/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Elizabeth-Olsen-2013.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_2"><a href="http://snarkerati.com/movie-news/elizabeth-olsen-will-play-scarlet-witch-says-samuel-l-jackson/">Elizabeth Olsen Will Play Scarlet Witch, Says Samuel L. Jackson </a></h2><p>
 
-    <div class="head clrfix">
-        <div class="tag">
-            <span>Celebrating 17 Years of</span>
-            <span class="motto myriad">Film.Biz.Fans.</span>
-        </div>
-        <div class="social clrfix cw-head-social">
-            <p id="todays-date" class="date"></p>
-            <div id="login" style="display: none;">
-                 <div class="loginFB" style="">
-            <div class="fb-login-button" data-show-faces="false" data-width="150" data-max-rows="1" data-scope="user_about_me,user_likes,email">Log In With Facebook</div>
-        </div>
-    </div>
-            <div id="social-links">
-            
-                <div class="fb-like" data-href="http://www.facebook.com/indiewire" 
-                            data-send="false" data-layout="button_count" data-width="90" 
-                            data-show-faces="true" data-font="lucida grande"></div>
-                <a href="/newsletter" class="email-button"></a>
-                <a class="rss" href="/rss-page"></a>
-                <a href="http://www.twitter.com/indiewire" class="twitter"></a>
-                <a href="http://www.facebook.com/indiewire" class="facebook"></a>
-                </div>
-        </div><!-- end social -->
-        <a href="/" class="logo">Indiewire</a>
-    </div> <!-- end head -->
-    
-    <div id="navWrapper" class="clrfix">
-		<ul class="primaryNav clrfix">
-			<li class="tab1 drop"><a href="/articles/?l=indiewire">News</a>
-			<ul class="dropdown">
-					<li><a href="/articles/?l=indiewire" target="_self">Recent
-							News</a></li>
-					<li><a href="/feature/interviews"
-						target="_self">Interviews</a></li>
-					<li><a href="/ipop" target="_self">Photos</a></li>
-					<li><a href="/news/acquisitions" target="_self">Acquisitions</a></li>
-					<li><a href="/box-office/"
-						target="_self">Box Office</a></li>
-					<li><a href="/category/television"
-						target="_self">Television</a></li>
-					<li><a
-						href="http://www.indiewire.com/category/indiewire-video"
-						target="_self">Video</a></li>
-				</ul></li>
-			<li class="tab2 drop"><a href="/films">MOVIES</a>
-			<ul class="dropdown">
-			        <li><a href="/box-office" target="_self">Box Office Home</a></li>
-			        <li><a href="/films?t=cs" target="_self">Coming Soon</a></li>
-			        <li><a href="/movies?t=az&amp;filter=ab0123456789" target="_self">Find a Film</a></li>
-			        <li><a href="/home-entertainment" target="_self">Home Entertainment</a></li>
-			        <li><a href="/films" target="_self">In Theaters</a></li>
-			        <li><a href="/mod" target="_self">Now Playing: Movies on Demand</a></li>
-					<li><a href="/reviews" target="_self">Reviews</a></li>
-					<li><a href="/tag/vod" target="_self">Video On Demand</a></li>
-				</ul></li>
-			<li class="tab3 drop"><a href="/category/awards">AWARDS</a>
-			<ul class="dropdown">
-			        <li><a href="/article/2014-oscar-predictions" target="_self">Predictions</a></li>
-			        <li><a href="/article/save-the-dates-heres-the-2013-14-awards-calendar" target="_self">Awards Calendar</a></li>
-			        <li><a href="/tag/for-your-consideration" target="_self">Weekly Column</a></li>
-			        <li><a href="/article/for-your-consideration-a-studio-scorecard-for-2013" target="_self">Studio Breakdown</a></li>
-				</ul></li>
-			<li class="tab4 drop"><a href="/category/television/">Television</a>
-			<ul class="dropdown" style="display: none;">
-					<li><a href="/category/television/" target="_self">All TV
-							Coverage</a></li>
-					<li><a href="/tag/tv-news"
-						target="_self">News</a></li>
-					<li><a href="/tag/tv-reviews"
-						target="_self">Reviews</a></li>
-					<li><a href="/tag/tv-features"
-						target="_self">Features</a></li>
-					<li><a href="/tag/tv-videos"
-						target="_self">Videos</a></li>
-					<li><a href="/tag/tv-interviews"
-						target="_self">Interviews</a></li>
-				</ul></li>
-			<li class="tab5 drop"><a href="http://www.indiewire.com/blogs">Blogs</a>
-			<ul class="dropdown">
-			        <li><a href="http://blogs.indiewire.com/animationscoop/"
-                        target="_self">Animation Scoop</a></li>
-					<li><a href="http://blogs.indiewire.com/peterbogdanovich/"
-						target="_self">Blogdanovich</a></li>
-					<li><a href="http://blogs.indiewire.com/bent/"
-						target="_self">/bent</a></li>
-					<li><a href="http://blogs.indiewire.com/carynjames/"
-						target="_self">Caryn James</a></li>
-					<li><a href="http://blogs.indiewire.com/criticwire/"
-						target="_self">Criticwire</a></li>
-					<li><a href="http://blogs.indiewire.com/leonardmaltin/"
-						target="_self">Leonard Maltin's Movie Crazy</a></li>
-					<li><a href="http://blogs.indiewire.com/mediamatrix/"
-                        target="_self">Media Matrix</a></li>
-					<li><a href="http://blogs.indiewire.com/theplaylist/"
-						target="_self">The Playlist</a></li>
-					<li><a href="http://blogs.indiewire.com/pressplay/"
-						target="_self">Press Play</a></li>
-					<li><a href="http://blogs.indiewire.com/anthony/"
-						target="_self">ReelPolitik</a></li>
-					<li><a href="http://blogs.indiewire.com/shadowandact/"
-						target="_self">Shadow and Act</a></li>
-					<li><a href="http://blogs.indiewire.com/sydneylevine/"
-						target="_self">SydneysBuzz</a></li>
-					<li><a href="http://blogs.indiewire.com/thompsononhollywood/"
-						target="_self">Thompson on Hollywood</a></li>
-					<li><a href="http://blogs.indiewire.com/womenandhollywood/"
-						target="_self">Women and Hollywood</a></li>
-				</ul></li>
-			<li class="tab6 drop"><a
-				href="/category/filmmaker-toolkit">Filmmaking</a>
-			     <ul class="dropdown">
-					<li><a href="/category/filmmaker-toolkit" target="_self">Filmmaker Toolkit</a></li>
-					<li><a href="/tag/project-of-the-day" target="_self">Project of the Day</a></li>
-					<li><a href="/tag/project-of-the-week" target="_self">Project of the Week</a></li>
-					<li><a href="/article/congrats-to-dear-white-people-indiewire-tribeca-film-institutes-project-of-the-year" target="_self">Project of the Year</a></li>
-				</ul>
+Samuel L. Jackson dished out a bit of news that the Walt Disney/Marvel behemoth does not seem to have been ready to share--if it's true. In an interview wit...</p><div class="home_meta">October 3rd By Kirsten Anderson</div></div><div class="item item_2"><a class="cat_marker movie-news" href="/movie-news/">Movies</a><a class="img_link" href="http://snarkerati.com/movie-news/jon-hurwitz-and-hayden-schlossberg-to-direct-untitled-sex-comedy/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Cherries.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_2"><a href="http://snarkerati.com/movie-news/jon-hurwitz-and-hayden-schlossberg-to-direct-untitled-sex-comedy/">Jon Hurwitz and Hayden Schlossberg To Direct Untitled Sex Comedy</a></h2><p>
+
+If you clicked on this post, all I can do is say congratulations and offer my heartfelt thanks, because this is not the most enticing title I've ever come u...</p><div class="home_meta">October 3rd By Kirsten Anderson</div></div><div class="item item_2"><a class="cat_marker movie-news" href="/movie-news/">Movies</a><a class="img_link" href="http://snarkerati.com/movie-news/calendar-alert-ted-2-gets-june-15th-release-date/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Ted-Mark-Wahlberg-Oscars-2013.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_2"><a href="http://snarkerati.com/movie-news/calendar-alert-ted-2-gets-june-15th-release-date/">Calendar Alert! "Ted 2" Gets June 15th Release Date</a></h2><p>
+
+Have you been wondering what everyone's favorite foulmouthed teddy bear is up to? (Or if not favorite foul-mouthed teddy bear, well, really the only one we ...</p><div class="home_meta">October 3rd By Kirsten Anderson</div></div><div class="item item_2"><a class="cat_marker movie-news" href="/movie-news/">Movies</a><a class="img_link" href="http://snarkerati.com/movie-news/sneak-screening-of-captain-phillips-this-saturday/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Captain-Phillips-movie-poster.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_2"><a href="http://snarkerati.com/movie-news/sneak-screening-of-captain-phillips-this-saturday/">Sneak Screening of "Captain Phillips" This Saturday.</a></h2><p>
+
+"Captain Phillips," the based on a true story movie from Paul Greengrass with  Tom Hanks in the title role, opened to raves at the New York Film Festival l...</p><div class="home_meta">October 2nd By Kirsten Anderson</div></div><div class="item item_2"><a class="cat_marker movie-news" href="/movie-news/">Movies</a><a class="img_link" href="http://snarkerati.com/movie-news/lizzy-caplan-to-star-in-the-interview/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Lizzy-Caplan.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_2"><a href="http://snarkerati.com/movie-news/lizzy-caplan-to-star-in-the-interview/">Lizzy Caplan To Star In "The Interview"</a></h2><p>
+
+Just the other day we heard all about "The Interview," the next project from the Seth Rogen/Evan Goldberg/James Franco team, and now we have even more news ...</p><div class="home_meta">October 2nd By Kirsten Anderson</div></div><div class="item item_2"><a class="cat_marker movie-news" href="/movie-news/">Movies</a><a class="img_link" href="http://snarkerati.com/movie-news/fourth-narnia-film-in-the-works/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/The-Silver-Chair.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_2"><a href="http://snarkerati.com/movie-news/fourth-narnia-film-in-the-works/">Fourth Narnia Film In The Works</a></h2><p>
+
+Good news for the many fans of the Narnia books! An adaptation of "The Silver Chair," the fourth book in the classic series by C.S. Lewis is in the works. D...</p><div class="home_meta">October 2nd By Kirsten Anderson</div></div><div class="item item_2"><a class="cat_marker movie-news" href="/movie-news/">Movies</a><a class="img_link" href="http://snarkerati.com/movie-news/madame-bovary-adds-marshall-green-carmichael-gourmet/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Logan-Marshall-Green.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_2"><a href="http://snarkerati.com/movie-news/madame-bovary-adds-marshall-green-carmichael-gourmet/">"Madame Bovary" Adds Marshall-Green, Carmichael, Gourmet  </a></h2><p>
+
+I bet you woke up this morning and thought, "Hey, I wonder what's up with that new adaptation of the classic Flaubert novel 'Madame Bovary?'" You know, the ...</p><div class="home_meta">October 1st By Kirsten Anderson</div></div><div class="item item_3"><a class="cat_marker tv-news" href="/tv-news/">Television</a><a class="img_link" href="http://snarkerati.com/tv-news/breaking-bad-bids-farewell-were-you-happy-with-the-finale/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/breaking-bad-finale.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_3"><a href="http://snarkerati.com/tv-news/breaking-bad-bids-farewell-were-you-happy-with-the-finale/">Breaking Bad bids farewell - Were you happy with the finale? </a></h2><p>
+Needless to say this post will contain spoilers, so if you haven't seen the series finale of "Breaking Bad", no really, don't read on if you're not up to date...</p><div class="home_meta">September 30th By Angela</div></div><div class="item item_3"><a class="cat_marker tv-news" href="/tv-news/">Television</a><a class="img_link" href="http://snarkerati.com/tv-news/cbs-renews-unforgettable-for-third-season/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/unforgettable-season-3-cbs.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_3"><a href="http://snarkerati.com/tv-news/cbs-renews-unforgettable-for-third-season/">CBS renews Unforgettable for third season</a></h2><p>
+Well this is a turn up for the books, procedural drama series "Unforgettable" has been renewed for a third season. You may recall the series was actually canc...</p><div class="home_meta">September 30th By Angela</div></div><div class="item item_3"><a class="cat_marker tv-news" href="/tv-news/">Television</a><a class="img_link" href="http://snarkerati.com/tv-news/bbcs-jamaica-inn-snags-jessica-brown-findlay-for-lead/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/jamaica-inn-series.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_3"><a href="http://snarkerati.com/tv-news/bbcs-jamaica-inn-snags-jessica-brown-findlay-for-lead/">BBC's Jamaica Inn snags Jessica Brown Findlay for lead</a></h2><p>
+"Downton Abbey" star Jessica Brown Findlay has just nabbed the lead in "Jamaica Inn". The three-part project is based on the 1936 gothic novel "Jamaica Inn", ...</p><div class="home_meta">September 30th By Angela</div></div><div class="item item_3"><a class="cat_marker tv-news" href="/tv-news/">Television</a><a class="img_link" href="http://snarkerati.com/tv-news/modern-family-spin-off-series-on-the-books-at-abc/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/modern-family-spinoff.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_3"><a href="http://snarkerati.com/tv-news/modern-family-spin-off-series-on-the-books-at-abc/">Modern Family spin-off series on the books at ABC</a></h2><p>
+Amazingly this hasn't come up earlier, but ABC are finally looking at a spin-off series to hit show "Modern Family". There's not a whole lot of information ab...</p><div class="home_meta">September 30th By Angela</div></div><div class="item item_3"><a class="cat_marker tv-news" href="/tv-news/">Television</a><a class="img_link" href="http://snarkerati.com/tv-news/big-brother-australia-rumours-of-brawl-not-true-says-nine-network/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/big-brother-coverup.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_3"><a href="http://snarkerati.com/tv-news/big-brother-australia-rumours-of-brawl-not-true-says-nine-network/">Big Brother Australia rumours of brawl not true says Nine Network</a></h2><p>
+Social media channels were ablaze over the weekend with rumors security had been sent into the "Big Brother" house and removed one of the 'intruders', most no...</p><div class="home_meta">September 30th By Angela</div></div><div class="item item_3"><a class="cat_marker tv-news" href="/tv-news/">Television</a><a class="img_link" href="http://snarkerati.com/tv-news/everyone-in-the-world-rejoices-laura-prepon-back-for-orange-is-the-new-black/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/LAURA-PREPON-ORANGE-IS-THE-NEW-BLACK-return.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_3"><a href="http://snarkerati.com/tv-news/everyone-in-the-world-rejoices-laura-prepon-back-for-orange-is-the-new-black/">Everyone in the world rejoices! Laura Prepon back for Orange Is the New Black</a></h2><p>
+The world can breathe a sigh of relief! Since the end of "Orange Is the New Black" there have been numerous rumors floating around saying that the fabulous La...</p><div class="home_meta">September 25th By Angela</div></div><div class="item item_3"><a class="cat_marker tv-news" href="/tv-news/">Television</a><a class="img_link" href="http://snarkerati.com/tv-news/sour-grapes-from-ellen-pompeo/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/ellen-pompeo-emmy-comments.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_3"><a href="http://snarkerati.com/tv-news/sour-grapes-from-ellen-pompeo/">Sour grapes from Ellen Pompeo?</a></h2><p>
+Looks like someone was feeling a little despondent about not being nominated for any Emmy's this year. Ellen Pompeo has stated that she was "really disappoint...</p><div class="home_meta">September 25th By Angela</div></div><div class="item item_3"><a class="cat_marker tv-news" href="/tv-news/">Television</a><a class="img_link" href="http://snarkerati.com/tv-news/bye-bye-army-wives-its-been-great/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/tv-army-wives-season-7.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_3"><a href="http://snarkerati.com/tv-news/bye-bye-army-wives-its-been-great/">Bye bye Army Wives - It's been great</a></h2><p>
+Sad news for fans of the TV series "Army Wives".  The show will be axed after the next season which is the seventh. The hit drama which centers around army s...</p><div class="home_meta">September 25th By Angela</div></div><div class="item item_7"><a class="cat_marker fun-stuff" href="/fun-stuff/">Fun Stuff</a><a class="img_link" href="http://snarkerati.com/fun-stuff/sad-cat-diary/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/PKffm2uI4dk/0.jpg&w=220&h=160" width="220" height="160"/><img src="/assets/images/play_video.png" class="play_video" /></a><h2 class="link_7"><a href="http://snarkerati.com/fun-stuff/sad-cat-diary/">Sad Cat Diary</a></h2><div class="home_meta">May 9th By Snarkerati Staff</div></div><div class="item item_6"><a class="cat_marker gaming-news" href="/gaming-news/">Gaming</a><a class="img_link" href="http://snarkerati.com/gaming-news/road-rash-designer-considering-sequel/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/03/road-rash-game-cover.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_6"><a href="http://snarkerati.com/gaming-news/road-rash-designer-considering-sequel/">Road Rash Designer Considering Sequel</a></h2><p>
+
+I'm old enough to remember the Road Rash games really well. I loved the original, playing more than is healthy. Sadly it's a game that seems to have been ve...</p><div class="home_meta">March 14th By Dave Parrack</div></div><div class="item item_6"><a class="cat_marker gaming-news" href="/gaming-news/">Gaming</a><a class="img_link" href="http://snarkerati.com/gaming-news/is-bros-before-hos-really-offensive-to-god-of-war-fans/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/03/god-of-war-ascension.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_6"><a href="http://snarkerati.com/gaming-news/is-bros-before-hos-really-offensive-to-god-of-war-fans/">Is 'Bros Before Hos' Really Offensive To God Of War Fans?</a></h2><p>
+
+The God Of War games are bloody, gory, full of nudity and foul language, and clearly only meant for mature gamers. So why has there been such a fuss about t...</p><div class="home_meta">March 12th By Dave Parrack</div></div><div class="item item_6"><a class="cat_marker gaming-news" href="/gaming-news/">Gaming</a><a class="img_link" href="http://snarkerati.com/gaming-news/ea-apologizes-for-simcity-debacle/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/03/simcity-2013.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_6"><a href="http://snarkerati.com/gaming-news/ea-apologizes-for-simcity-debacle/">EA Apologizes For SimCity Debacle</a></h2><p>
+
+A lot of people were looking forward to the new SimCity game. After all, these games represent the very best of the planning and management simulation genre...</p><div class="home_meta">March 12th By Dave Parrack</div></div><div class="item item_6"><a class="cat_marker gaming-news" href="/gaming-news/">Gaming</a><a class="img_link" href="http://snarkerati.com/gaming-news/sony-aiming-to-shift-16-million-playstation-4-consoles/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/03/playstation-4-controller.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_6"><a href="http://snarkerati.com/gaming-news/sony-aiming-to-shift-16-million-playstation-4-consoles/">Sony Aiming To Shift 16 Million PS4 Consoles</a></h2><p>
+
+Sony finally unveiled the PlayStation 4 recently, revealing the system specs, controller, and many of the features included in the hardware and UI. There we...</p><div class="home_meta">March 6th By Dave Parrack</div></div><div class="item item_6"><a class="cat_marker gaming-news" href="/gaming-news/">Gaming</a><a class="img_link" href="http://snarkerati.com/gaming-news/would-you-sell-your-games-collection-to-fund-a-wedding/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/03/wedding-rings.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_6"><a href="http://snarkerati.com/gaming-news/would-you-sell-your-games-collection-to-fund-a-wedding/">Would You Sell Your Video Games To Get Married?</a></h2><p>
+
+Christopher Lawton recently sold his games collection to fund his wedding, as detailed on Kotaku. It's an interesting story, but the debate in the comments ...</p><div class="home_meta">March 6th By Dave Parrack</div></div><div class="item item_6"><a class="cat_marker gaming-news" href="/gaming-news/">Gaming</a><a class="img_link" href="http://snarkerati.com/gaming-news/glenn-beck-spouts-crap-about-video-games/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/03/glenn-beck-face.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_6"><a href="http://snarkerati.com/gaming-news/glenn-beck-spouts-crap-about-video-games/">Glenn Beck Spouts Crap About Video Games</a></h2><p>
+
+Glenn Beck has decided to attack video games again, suggesting that they're mostly to blame for tragedies such as the Sandy Hook massacre. And he must be te...</p><div class="home_meta">March 1st By Dave Parrack</div></div><div class="item item_6"><a class="cat_marker gaming-news" href="/gaming-news/">Gaming</a><a class="img_link" href="http://snarkerati.com/gaming-news/cliffy-b-loves-microtransactions-hates-gamers/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/03/cliffy-b.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_6"><a href="http://snarkerati.com/gaming-news/cliffy-b-loves-microtransactions-hates-gamers/">Cliffy B Loves Microtransactions, Hates Gamers</a></h2><p>
+
+Gears Of War series creator Cliffy B has taken to Tumblr to defend microtransactions in the face of some opposition to this method of nickel-and-diming loya...</p><div class="home_meta">March 1st By Dave Parrack</div></div><div class="item item_6"><a class="cat_marker gaming-news" href="/gaming-news/">Gaming</a><a class="img_link" href="http://snarkerati.com/gaming-news/crysis-3-ratings-due-to-franchise-fatigue/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/03/crysis-3-screenshot.jpg&w=220&h=160" width="220" height="160"/></a><h2 class="link_6"><a href="http://snarkerati.com/gaming-news/crysis-3-ratings-due-to-franchise-fatigue/">'Crysis 3' Ratings Due To Franchise "Fatigue"</a></h2><p>
+
+Crysis 3 IS a good game, but the aggregated score on Metacritic is currently around the 78/100 mark, which is less than the previous two Crysis titles. Does...</p><div class="home_meta">March 1st By Dave Parrack</div></div><div class="item item_7"><a class="cat_marker fun-stuff" href="/fun-stuff/">Fun Stuff</a><a class="img_link" href="http://snarkerati.com/fun-stuff/learn-english-with-ricky-gervais/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/Xw2bTpyHGCE/0.jpg&w=220&h=160" width="220" height="160"/><img src="/assets/images/play_video.png" class="play_video" /></a><h2 class="link_7"><a href="http://snarkerati.com/fun-stuff/learn-english-with-ricky-gervais/">Learn English with Ricky Gervais</a></h2><div class="home_meta">August 22nd By Snarkerati Staff</div></div><div class="item item_7"><a class="cat_marker fun-stuff" href="/fun-stuff/">Fun Stuff</a><a class="img_link" href="http://snarkerati.com/fun-stuff/60s-robin-interrupts-the-dark-knight/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/1-GkQihKYvM/0.jpg&w=220&h=160" width="220" height="160"/><img src="/assets/images/play_video.png" class="play_video" /></a><h2 class="link_7"><a href="http://snarkerati.com/fun-stuff/60s-robin-interrupts-the-dark-knight/">60's Robin Interrupts The Dark Knight</a></h2><div class="home_meta">July 11th By Snarkerati Staff</div></div><div class="item item_7"><a class="cat_marker fun-stuff" href="/fun-stuff/">Fun Stuff</a><a class="img_link" href="http://snarkerati.com/fun-stuff/the-super-moonwalk/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/ZGXZOrEV7_c/0.jpg&w=220&h=160" width="220" height="160"/><img src="/assets/images/play_video.png" class="play_video" /></a><h2 class="link_7"><a href="http://snarkerati.com/fun-stuff/the-super-moonwalk/">The Super Moonwalk</a></h2><div class="home_meta">July 11th By Snarkerati Staff</div></div><div class="item item_7"><a class="cat_marker fun-stuff" href="/fun-stuff/">Fun Stuff</a><a class="img_link" href="http://snarkerati.com/fun-stuff/quadrotor-sound-and-light-show/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/cseTX_rW3uM/0.jpg&w=220&h=160" width="220" height="160"/><img src="/assets/images/play_video.png" class="play_video" /></a><h2 class="link_7"><a href="http://snarkerati.com/fun-stuff/quadrotor-sound-and-light-show/">Quadrotor Sound and Light Show</a></h2><p>
+A troupe of 16 quadrotors (flying robots) dance to and manipulate sound and light at the Saatchi &amp; Saatchi New Directors' Showcase 2012....</p><div class="home_meta">July 5th By Snarkerati Staff</div></div><div class="item item_7"><a class="cat_marker fun-stuff" href="/fun-stuff/">Fun Stuff</a><a class="img_link" href="http://snarkerati.com/fun-stuff/the-beauty-of-movement/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/az27ffuGEFc/0.jpg&w=220&h=160" width="220" height="160"/><img src="/assets/images/play_video.png" class="play_video" /></a><h2 class="link_7"><a href="http://snarkerati.com/fun-stuff/the-beauty-of-movement/">The Beauty Of Movement</a></h2><div class="home_meta">July 5th By Snarkerati Staff</div></div><div class="item item_7"><a class="cat_marker fun-stuff" href="/fun-stuff/">Fun Stuff</a><a class="img_link" href="http://snarkerati.com/fun-stuff/9-year-old-performs-some-crazy-ping-pong-ball-tricks/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/CKbwp1mcK00/0.jpg&w=220&h=160" width="220" height="160"/><img src="/assets/images/play_video.png" class="play_video" /></a><h2 class="link_7"><a href="http://snarkerati.com/fun-stuff/9-year-old-performs-some-crazy-ping-pong-ball-tricks/">9 Year Old Performs Some Crazy Ping Pong Ball Tricks </a></h2><div class="home_meta">July 4th By Snarkerati Staff</div></div><div class="item item_7"><a class="cat_marker fun-stuff" href="/fun-stuff/">Fun Stuff</a><a class="img_link" href="http://snarkerati.com/fun-stuff/a-brief-history-of-rock-n-roll/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/xiC__IjCa2s/0.jpg&w=220&h=160" width="220" height="160"/><img src="/assets/images/play_video.png" class="play_video" /></a><h2 class="link_7"><a href="http://snarkerati.com/fun-stuff/a-brief-history-of-rock-n-roll/">A Brief History of Rock N' Roll</a></h2><p>
+Alex Chadwick plays 100 famous guitar riffs in one take giving you a chronological history of rock n' roll.
+
+&nbsp;...</p><div class="home_meta">July 4th By Snarkerati Staff</div></div>	</div>
+	<div id="home_more">
+		<h3 class="more_title"><span>More Headlines</span></h3>
+	<ul><li class="movies"><h4>Movies</h4><a class="more_rss" href="http://feeds.feedburner.com/Snarkerati-AtTheMovies"><img src="/assets/images/more_rss.png" border="0" /></a></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/brad-furman-to-direct-movie-about-muscle-mogul-weider-brothers/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Brothers-of-Iron-book-cover.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/brad-furman-to-direct-movie-about-muscle-mogul-weider-brothers/">Brad Furman To Direct Movie About Muscle Mogul Weider Brothers</a></h3><div class="more_meta">October 1st By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/welcome-to-the-disney-villain-product-linecruella-de-vil-gets-a-movie/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/10/Cruella-de-Vil.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/welcome-to-the-disney-villain-product-linecruella-de-vil-gets-a-movie/">Welcome to the Disney Villain Product Line:Cruella de Vil Gets a Movie</a></h3><div class="more_meta">October 1st By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/actors-talking-chris-hemsworth-on-cyber-james-spader-on-ultron/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/09/Chris-Hemsworth-2013.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/actors-talking-chris-hemsworth-on-cyber-james-spader-on-ultron/">Actors Talking: Chris Hemsworth on "Cyber," James Spader on "Ultron"</a></h3><div class="more_meta">September 30th By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/hugh-jackman-joins-blomkamps-chappie/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/09/Hugh-Jackman-2013.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/hugh-jackman-joins-blomkamps-chappie/">Hugh Jackman Joins Blomkamp's "Chappie"</a></h3><div class="more_meta">September 30th By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/rogen-goldberg-and-franco-take-the-interview-to-vancouver/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/09/Seth-Rogen-Evan-Goldberg.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/rogen-goldberg-and-franco-take-the-interview-to-vancouver/">Rogen, Goldberg, and Franco Take "The Interview" To Vancouver </a></h3><div class="more_meta">September 30th By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/art-house-box-office-metallica-proves-its-mettle/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/09/Metallica-Through-the-Never.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/art-house-box-office-metallica-proves-its-mettle/">Art House Box Office: Metallica Proves Its Mettle</a></h3><div class="more_meta">September 29th By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/weekend-box-office-audiences-say-its-cloudy-with-a-chance-of-meatballs-2/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/09/Cloudy-with-a-Chance-of-Meatballs-2.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/weekend-box-office-audiences-say-its-cloudy-with-a-chance-of-meatballs-2/">Weekend Box Office: Audiences Say It's "Cloudy With A Chance Of Meatballs 2" </a></h3><div class="more_meta">September 29th By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/rob-riggle-joins-dumb-and-dumber-to-and-a-big-star-does-a-dumber-cameo-yes-spoiler/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/09/Rob-Riggle.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/rob-riggle-joins-dumb-and-dumber-to-and-a-big-star-does-a-dumber-cameo-yes-spoiler/">Rob Riggle Joins "Dumb and Dumber To" And A Big Star Does A "Dumber" Cameo (Yes, Spoiler)</a></h3><div class="more_meta">September 28th By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/taylor-swift-joins-the-giver/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/09/Taylor-Swift.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/taylor-swift-joins-the-giver/">Taylor Swift Joins "The Giver"</a></h3><div class="more_meta">September 28th By Kirsten Anderson</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/movie-news/calendar-alert-foxcatcher-moved-to-2014/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/2/files/2013/09/Foxcatcher-Steve-Carell-Channing-Tatum.jpg&w=80&h=58" width="80" height="58"/></a></div><div class="right"><h3><a href="http://snarkerati.com/movie-news/calendar-alert-foxcatcher-moved-to-2014/">Calendar Alert! "Foxcatcher" Moved To "2014"</a></h3><div class="more_meta">September 27th By Kirsten Anderson</div></div></li></ul><ul><li class="tv"><h4>Television</h4><a class="more_rss" href="http://feeds.feedburner.com/Snarkerati-AddictedToTv"><img src="/assets/images/more_rss.png" border="0" /></a></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/fox-orders-gotham-origin-stories-of-commissioner-gordon/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/origin-stories-gotham-fox-Commissioner-Gordon.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/fox-orders-gotham-origin-stories-of-commissioner-gordon/">Fox orders Gotham - Origin stories of Commissioner Gordon</a></h3><div class="more_meta">September 25th By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/65th-annual-emmy-award-winners-list/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/Emmys-awrd-list-2013.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/65th-annual-emmy-award-winners-list/">65th Annual Emmy Award winners list</a></h3><div class="more_meta">September 23rd By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/cory-monteith-special-emmy-tribute-seen-as-unnecessary-by-some-viewers/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/cory-monteith-glee-emmy-memorial.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/cory-monteith-special-emmy-tribute-seen-as-unnecessary-by-some-viewers/">Cory Monteith special Emmy tribute seen as unnecessary by some viewers </a></h3><div class="more_meta">September 23rd By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/the-ryan-seacrest-center-for-excessive-host-disorder-disclaimer/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/ryan-seacrest-emmy-awards.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/the-ryan-seacrest-center-for-excessive-host-disorder-disclaimer/">The Ryan Seacrest Center for Excessive Host Disorder disclaimer</a></h3><div class="more_meta">September 23rd By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/what-did-you-think-of-sleepy-hollow/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/sleepy-hollow-pilot.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/what-did-you-think-of-sleepy-hollow/">What did you think of Sleepy Hollow? </a></h3><div class="more_meta">September 17th By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/emily-wickersham-could-replace-cote-de-pablos-ziva-in-ncis/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/emily-wickersham-NCIS.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/emily-wickersham-could-replace-cote-de-pablos-ziva-in-ncis/">Emily Wickersham could replace Cote de Pablo's Ziva in NCIS?</a></h3><div class="more_meta">September 17th By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/dana-powell-joins-modern-family-as-cams-sister/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/dana-powell-modern-family.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/dana-powell-joins-modern-family-as-cams-sister/">Dana Powell joins Modern Family as Cam's sister</a></h3><div class="more_meta">September 17th By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/glee-alum-grant-gustin-snags-flash-role/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/grant-gustin-the-flash-arrow.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/glee-alum-grant-gustin-snags-flash-role/">Glee alum Grant Gustin snags Flash role</a></h3><div class="more_meta">September 16th By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/showrunner-janet-tamaro-exits-rizzoli-isles/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/janet-tamaro-rizzoli-and-isles.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/showrunner-janet-tamaro-exits-rizzoli-isles/">Showrunner Janet Tamaro exits Rizzoli &amp; Isles</a></h3><div class="more_meta">September 16th By Angela</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/tv-news/new-glee-promo-has-beatles-and-not-a-lot-else/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/3/files/2013/09/the-beatles-glee.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/tv-news/new-glee-promo-has-beatles-and-not-a-lot-else/">New Glee promo has Beatles and not a lot else</a></h3><div class="more_meta">September 16th By Angela</div></div></li></ul><ul class="last"><li class="gaming"><h4>Gaming</h4><a class="more_rss" href="http://feeds.feedburner.com/Snarkerati-GamingNews"><img src="/assets/images/more_rss.png" border="0" /></a></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/sony-used-games-not-blocked-on-ps4/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/gamestop-shop-front.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/sony-used-games-not-blocked-on-ps4/">Sony: Used Games Not Blocked On PS4</a></h3><div class="more_meta">February 21st By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/playstation-4-coming-holiday-2013/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/ps4-controller.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/playstation-4-coming-holiday-2013/">PlayStation 4, Coming Holiday 2013</a></h3><div class="more_meta">February 21st By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/pachter-wii-u-could-prove-fatal-for-nintendo/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/nintendo-logo.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/pachter-wii-u-could-prove-fatal-for-nintendo/">Pachter: Wii U Could Prove Fatal For Nintendo</a></h3><div class="more_meta">February 19th By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/rock-band-being-killed-off-in-april/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/rock-band-logo.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/rock-band-being-killed-off-in-april/">Rock Band Being Killed Off In April</a></h3><div class="more_meta">February 19th By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/ouya-console-getting-500-games/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2012/08/ouya-games-console.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/ouya-console-getting-500-games/">Ouya Console Getting 500+ Games</a></h3><div class="more_meta">February 15th By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/playstation-4-controller-prototypes-leak/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/new-ps4-controller.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/playstation-4-controller-prototypes-leak/">PlayStation 4 Controller Prototypes Leak</a></h3><div class="more_meta">February 15th By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/developer-wii-u-has-a-lot-of-potential/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/nintendo-wii-u-console.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/developer-wii-u-has-a-lot-of-potential/">Developer: Wii U Has "A Lot Of Potential"</a></h3><div class="more_meta">February 13th By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/the-next-gen-xbox-revealed-probably/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/xbox-720-controller.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/the-next-gen-xbox-revealed-probably/">The Next-Gen Xbox Revealed... Probably</a></h3><div class="more_meta">February 13th By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/killzone-4-likely-to-be-ps4-launch-title/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/killzone-4-cover.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/killzone-4-likely-to-be-ps4-launch-title/">Killzone 4 Likely To be PS4 Launch Title</a></h3><div class="more_meta">February 8th By Dave Parrack</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/gaming-news/heavy-rain-creator-complains-about-games-industry/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/6/files/2013/02/david-cage.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/gaming-news/heavy-rain-creator-complains-about-games-industry/">Heavy Rain Creator Complains About Games Industry</a></h3><div class="more_meta">February 7th By Dave Parrack</div></div></li></ul><div class="clearfix"></div><ul><li class="gossip"><h4>Celebrity Gossip</h4><a class="more_rss" href="http://feeds.feedburner.com/Snarkerati-CelebrityGossip"><img src="/assets/images/more_rss.png" border="0" /></a></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/faith-hill-tim-mcgraws-marriage-on-the-rocks/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/faith-tim-national-enquirer.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/faith-hill-tim-mcgraws-marriage-on-the-rocks/">Faith Hill &amp; Tim McGraw's Marriage On The Rocks</a></h3><div class="more_meta">October 3rd By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/tori-spelling-dean-mcdermott-are-broke/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/tori-dean-star.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/tori-spelling-dean-mcdermott-are-broke/">Tori Spelling &amp; Dean McDermott Are Broke</a></h3><div class="more_meta">October 3rd By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/kris-jenner-flirts-with-her-daughters-guys/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/kardashians-itw.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/kris-jenner-flirts-with-her-daughters-guys/">Kris Jenner Flirts With Her Daughters' Guys</a></h3><div class="more_meta">October 2nd By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/kate-middleton-prince-william-working-on-baby-number-two/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/kate-william-us.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/kate-middleton-prince-william-working-on-baby-number-two/">Kate Middleton &amp; Prince William Working On Baby Number Two</a></h3><div class="more_meta">October 2nd By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/did-kim-kardashian-have-plastic-surgery/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/kim-k-ok.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/did-kim-kardashian-have-plastic-surgery/">Did Kim Kardashian Have Plastic Surgery?</a></h3><div class="more_meta">October 2nd By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/people-magazine-wheres-meg-ryan-now/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/meg-ryan-people.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/people-magazine-wheres-meg-ryan-now/">People Magazine: Where's Meg Ryan Now?</a></h3><div class="more_meta">October 2nd By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/farrah-abraham-only-made-10000-from-her-sex-tape/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/farrah-tape.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/farrah-abraham-only-made-10000-from-her-sex-tape/">Farrah Abraham Only Made $10,000 From Her Sex Tape</a></h3><div class="more_meta">October 2nd By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/ben-affleck-threatens-to-cut-up-jennifer-garners-credit-cards/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/bennifer-credit-cards.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/ben-affleck-threatens-to-cut-up-jennifer-garners-credit-cards/">Ben Affleck Threatens To Cut Up Jennifer Garner's Credit Cards</a></h3><div class="more_meta">October 1st By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/did-angelina-jolie-brad-pitt-get-married/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/brangelina-wedding.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/did-angelina-jolie-brad-pitt-get-married/">Did Angelina Jolie &amp; Brad Pitt Get Married?</a></h3><div class="more_meta">October 1st By Misty</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/celebrity-gossip/liam-hemsworths-new-girlfriend-is-trouble/"><img src="http://snarkerati.com/assets/thumb.php?src=/wp-content/blogs.dir/5/files/2013/10/liam-trouble.jpg&w=80&h=58" width="80" height="58" /></a></div><div class="right"><h3><a href="http://snarkerati.com/celebrity-gossip/liam-hemsworths-new-girlfriend-is-trouble/">Liam Hemsworth's New Girlfriend Is Trouble?</a></h3><div class="more_meta">October 1st By Misty</div></div></li></ul><ul><li class="funstuff"><h4>Fun Stuff</h4><a class="more_rss" href="http://feeds.feedburner.com/Snarkerati-FunStuff"><img src="/assets/images/more_rss.png" border="0" /></a></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/engine-rebuild-in-stop-motion/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/daVDrGsaDME/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/engine-rebuild-in-stop-motion/">Engine Rebuild In Stop Motion</a></h3><div class="more_meta">July 4th By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/real-life-hot-wheels-double-dare-loop/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/e0Y8tmRYYiA/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/real-life-hot-wheels-double-dare-loop/">Real Life Hot Wheels Double Dare Loop</a></h3><div class="more_meta">July 3rd By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/youtube-complaints-department/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/bTPNAF2wsiA/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/youtube-complaints-department/">YouTube Complaints Department</a></h3><div class="more_meta">July 3rd By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/doug-pitt/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/MAyTES9gDAU/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/doug-pitt/">Doug Pitt</a></h3><div class="more_meta">July 3rd By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/batman-in-real-life/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/AfgtEjjQnHQ/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/batman-in-real-life/">Batman In Real Life</a></h3><div class="more_meta">June 29th By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/the-star-wars-that-i-used-to-know/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/qJlbPXZEpRE/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/the-star-wars-that-i-used-to-know/">The Star Wars That I Used To Know</a></h3><div class="more_meta">June 28th By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/prometheus-prequel-spoof-weyland-industries-scientist-training/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/yFYmv6t_Xyg/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/prometheus-prequel-spoof-weyland-industries-scientist-training/">'Prometheus' Prequel Spoof: Weyland Industries Scientist Training</a></h3><div class="more_meta">June 27th By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/kite-surfer-jumps-over-pier-during-tropical-storm/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/5oOahULB08E/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/kite-surfer-jumps-over-pier-during-tropical-storm/">Kite Surfer Jumps Over Pier During Tropical Storm</a></h3><div class="more_meta">June 27th By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/metal-objects-and-an-mri-magnet/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/6BBx8BwLhqg/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/metal-objects-and-an-mri-magnet/">Metal Objects And An MRI Magnet</a></h3><div class="more_meta">June 27th By Snarkerati Staff</div></div></li><li class="more_item"><div class="left"><a href="http://snarkerati.com/fun-stuff/how-to-pronounce-uranus/"><img src="/assets/thumb.php?src=http://img.youtube.com/vi/h3ppbbYXMxE/0.jpg&w=220&h=160" width="80" height="58" /><img src="/assets/images/play_video.png" class="play_video" /></a></div><div class="right"><h3><a href="http://snarkerati.com/fun-stuff/how-to-pronounce-uranus/">How To Pronounce Uranus</a></h3><div class="more_meta">June 24th By Snarkerati Staff</div></div></li></ul>
+		<ul class="last">
+			<li><iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FSnarkerati&amp;width=300&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color=%23dddddd&amp;stream=false&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:258px;" allowTransparency="true"></iframe></li>
+			<li><div class="home_twitter"><a href="https://twitter.com/snarkerati" class="twitter-follow-button" data-show-count="true" data-size="large" rel="nofollow">Follow @snarkerati</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div></li>
+			<li><div class="sb_google">
+			<!-- Place this tag in the <head> of your document -->
+				<link href="https://plus.google.com/112171520532132586629" rel="publisher" /><script type="text/javascript">
+				window.___gcfg = {lang: 'en'};
+				(function() 
+				{var po = document.createElement("script");
+				po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(po, s);
+				})();</script>
+
+				<!-- Place this tag where you want the badge to render -->
+				<g:plus href="https://plus.google.com/112171520532132586629" width="300" height="131" theme="light"></g:plus>
 			</li>
 		</ul>
-		<!-- end primary Nav -->
-		<div class="navad clrfix">
-            <script type="text/javascript">
-		if (window.adgroupid == undefined) {
-		       window.adgroupid = Math.round(Math.random() * 1000);
-		}
-		window['adtech_adurl_' + "504d1d05-b4af-4c44-b6df-0037418ee2b7"] = "http://adserver.adtechus.com/addyn/3.0/5182/642747/0/3331/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
-		document.writeln('<DIV ID="ADTECH_AdContainer_' + "504d1d05-b4af-4c44-b6df-0037418ee2b7" +'"><IFRAME ID="ADTECH_IFRAME_'+ "504d1d05-b4af-4c44-b6df-0037418ee2b7" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
-		
 
-	</script>
-
-</div>
-    </div> <!-- end navWrapper -->
-
-    <div class="subNav clrfix">
-        <div class="more">more</div>
-        <ul class="clrfix">
-            <li><a href="/reviews/" target="_self">Reviews</a></li>
-            <li><a href="/box-office/" target="_self">Box Office</a></li>
-            <li><a href="/feature/interviews" target="_self">Interviews</a></li>
-            <li><a href="/category/festivals/" target="_self">Festivals</a></li>
-            <li><a href="/critic/" target="_self">Criticwire</a></li>
-            <li><a href="/tag/sundance-film-festival" target="_self">Sundance</a></li>
-            <li><a href="/videos" class="last" target="_self">Videos</a></li>
-            </ul>
-        <form class="searchBar" action="/search">
-            <input type="text" name="search" placeholder="Search" class="search-field">
-            <input class="search-btn" type="submit" value="search">
-        </form>
-    </div> <!-- end sub nav -->
-    <div class="pushdownAd">
-            <script type="text/javascript">
-		if (window.adgroupid == undefined) {
-		       window.adgroupid = Math.round(Math.random() * 1000);
-		}
-		window['adtech_adurl_' + "a64fbb29-3f45-4b20-bdc9-85f6138e8298"] = "http://adserver.adtechus.com/addyn/3.0/5182/2221507/0/0/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
-		document.writeln('<DIV ID="ADTECH_AdContainer_' + "a64fbb29-3f45-4b20-bdc9-85f6138e8298" +'"><IFRAME ID="ADTECH_IFRAME_'+ "a64fbb29-3f45-4b20-bdc9-85f6138e8298" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
-		
-
-	</script>
-
-</div> <!-- end pushdown ad module -->
-    </div> <!-- end masthead -->
-<div id="pageWrapper"><div id="col1"><div class="category-header clrfix">
-<h1 class="page-title" style="width:250px"><span class="titleItalic">the</span> Blogs</h1>				
-	<div class="select jump">
-		<form id="frm-sorting" method="get">
-			<div class="select open">
-				<select id="slt-sort" class="ui-select jump" name="archive" style="display:none;" onchange="selectURL(this.options[this.selectedIndex].value);">
-                                        <option selected="blog" value="">a Blog</option>
-                                    
-					<option class="link" value="http://blogs.indiewire.com/bent/" data-value="/Bent">/Bent</option> <option class="link" value="http://blogs.indiewire.com/animationscoop/" data-value="Animation Scoop">Animation Scoop</option> <option class="link" value="/boxofficeinsider/" data-value="Box Office Insider">Box Office Insider</option> <option class="link" value="http://blogs.indiewire.com/carynjames/" data-value="Caryn James">Caryn James</option> <option class="link" value="http://blogs.indiewire.com/criticwire/" data-value="Criticwire">Criticwire</option> <option class="link" value="http://blogs.indiewire.com/kohn/" data-value="Eric Kohn">Eric Kohn</option> <option class="link" value="http://blogs.indiewire.com/tedhope/" data-value="Hope for Film">Hope for Film</option> <option class="link" value="http://www.indiewire.com/" data-value="Indiewire">Indiewire</option> <option class="link" value="http://blogs.indiewire.com/mediamatrix/" data-value="Jon Friedmans Media Matrix">Jon Friedmans Media Matrix</option> <option class="link" value="http://blogs.indiewire.com/leonardmaltin/" data-value="Leonard Maltin">Leonard Maltin</option> <option class="link" value="http://blogs.indiewire.com/peterbogdanovich/" data-value="Peter Bogdanovich">Peter Bogdanovich</option> <option class="link" value="http://blogs.indiewire.com/pressplay/" data-value="Press Play">Press Play</option> <option class="link" value="http://blogs.indiewire.com/anthony/" data-value="ReelPolitik">ReelPolitik</option> <option class="link" value="http://blogs.indiewire.com/shadowandact/" data-value="Shadow and Act">Shadow and Act</option> <option class="link" value="http://blogs.indiewire.com/sydneylevine/" data-value="SydneysBuzz">SydneysBuzz</option> <option class="link" value="http://blogs.indiewire.com/thelostboy/" data-value="The Lost Boys">The Lost Boys</option> <option class="link" value="http://blogs.indiewire.com/theplaylist/" data-value="The Playlist">The Playlist</option> <option class="link" value="http://blogs.indiewire.com/thompsononhollywood/" data-value="Thompson on Hollywood">Thompson on Hollywood</option> <option class="link" value="http://blogs.indiewire.com/womenandhollywood/" data-value="Women and Hollywood">Women and Hollywood</option> </select>
-			</div>
-		</form>                                                                      
-	</div> <!-- end select module -->
-</div> <!-- end category-header -->
-<div class="mod dynamic3">
-	<!-- Style: 3 Class: dynamic3 CMS Image Size: dynamic-lead-219x147  -->
-	<a class="prev browse left disabled">&laquo;</a>
-	<div class="scroll-hori">
-		<div class="items">
-			<ul>
-				<li
-					>
-					<a href="http://blogs.indiewire.com/theplaylist/new-look-at-green-goblin-in-the-amazing-spider-man-2-plus-two-new-featurettes-more-20140326"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2bc8881/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F11%2F5a%2F66761dc2414d991a6f81acd5dfc8%2Fresizes%2F500%2Fthe-amazing-spider-man-2.jpg" width="219" height="147" data-size="dynamic-lead-219x147">New Look at 'Spider-Man 2'</a></li>
-				<li
-					>
-					<a href="http://blogs.indiewire.com/theplaylist/watch-trailer-for-cinema-made-in-italy-bringing-the-great-beauty-honey-more-to-theatres-nationwide-20140325"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/d19dd87/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F51%2Ffe%2Fbfdfcf1b4feab0b2a9cf2bd26a17%2Fresizes%2F500%2Fthe-great-beauty.jpg" width="219" height="147" data-size="dynamic-lead-219x147">'Cinema Made in Italy' Trailer</a></li>
-				<li
-					>
-					<a href="http://blogs.indiewire.com/theplaylist/watch-the-history-of-movie-trailers-explained-in-15-minutes-20140326"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/403e8e5/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fb7%2F05%2Faf064f1f458c958dbafaecd2dcc2%2Fresizes%2F500%2Fred-band-trailer-mpaa.jpg" width="219" height="147" data-size="dynamic-lead-219x147">The History of Movie Trailers</a></li>
-				</ul>
-				<ul>
-				<li
-					>
-					<a href="http://blogs.indiewire.com/womenandhollywood/films-by-and-about-women"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/6def51e/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F16%2F69%2F3f631d8d4f93a03f662c555107cf%2Fresizes%2F500%2Flynn-shelton.jpg" width="219" height="147" data-size="dynamic-lead-219x147">Films By and About Women</a></li>
-				<li
-					>
-					<a href="http://blogs.indiewire.com/theplaylist/the-25-greatest-movies-never-made-20140325"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2bb3665/2147483647/crop/638x426+42+11/resize/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd5%2F97%2F3aadeec642d5aafc07687cd67605%2Fdune-poster.jpg" width="219" height="146" data-size="dynamic-lead-219x147">The 25 Greatest Movies Never Made</a></li>
-				<li
-					>
-					<a href="http://blogs.indiewire.com/thompsononhollywood/reasons-to-snark-at-cnn-video"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/7f7a049/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F17%2Fe4%2F73df9f81446395facc232959bd62%2Fresizes%2F500%2Fjon-stewart.jpeg" width="219" height="147" data-size="dynamic-lead-219x147">Reasons to Diss CNN (VIDEO)</a></li>
-				</ul>
-				</div>
 	</div>
-	<a class="next browse right">&raquo;</a>
-	<div class="navi"></div>
-			</div>
-<!-- end dynamic3 -->
-<div class="recent-posts">
-            <h3>recent <span>Posts</span></h3>
-    </div> <!-- end recent posts -->
+</div>
+	
 
-    <div class="review">
-            <ul>
-                <li class="clrfix">
-                        
-                            <div class="info" >
+<div class="clearfix"></div>
 
-                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">The Playlist</div></div></div></div>
-                                    <div class="comments"><span class="number">0</span> comments</div>
+	</div>
 
-                                    </div> <!-- end info -->
-                            <div class="summary">
-                                    <h3><a href="http://blogs.indiewire.com/theplaylist/zac-efron-to-star-in-john-grisham-thriller-the-associate-20140402">Zac Efron To Star In John Grisham Thriller 'The Associate'</a></h3> 
+  
+	<footer id="footer" class="source-org vcard copyright">
+		<ul class="footer_pages">
+      <li><span>&raquo;</span> <a href="/">Home</a></li>
+      <li><span>&raquo;</span> <a href="/about/">About Us</a></li>
+      <li><span>&raquo;</span> <a href="/privacy-policy/">Privacy Policy</a></li>
+      <li><span>&raquo;</span> <a href="/contact/">Contact Us</a></li>
+      <li><span>&raquo;</span> <a href="/subscribe/">Subscribe</a></li>
+    </ul>
+    <ul class="footer_sections">
+      <li><span>&raquo;</span> <a href="/movie-news/">Movie News</a></li>
+      <li><span>&raquo;</span> <a href="/tv-news/">Television News</a></li>
+      <li><span>&raquo;</span> <a href="/gaming-news/">Gaming News</a></li>
+      <li><span>&raquo;</span> <a href="/celebrity-gossip/">Celebrity Gossip</a></li>
+      <li><span>&raquo;</span> <a href="/galleries/">HQ Celebrity Picture Galleries</a></li>
+      <li><span>&raquo;</span> <a href="/fun-stuff/">Fun Stuff</a></li>
+    </ul>
+    <div class="footer_social">
+      <a href="http://www.facebook.com/Snarkerati" target="_blank" rel="nofollow"><img src="/assets/images/connect_facebook.png" border="0" /></a>
+      <a href="http://twitter.com/snarkerati" target="_blank" rel="nofollow"><img src="/assets/images/connect_twitter.png" border="0" /></a>
+      <a href="https://plus.google.com/112171520532132586629/posts" target="_blank" rel="nofollow"><img src="/assets/images/connect_gplus.png" border="0" /></a>
+      <a href="/subscribe/" target="_blank" rel="nofollow"><img src="/assets/images/connect_rss.png" border="0" /></a>
+    </div>
+    <div class="footer_logo"><div><a href="/"><img src="/assets/images/footer_snarkerati.png" border="0" /></a></div><div>Entertainment News, Gaming and Celebrity Gossip</div></div>
+    <div class="footer_copyright">&copy; Copyright 2007 - 2014 Snarkerati</div>
+    <div class="clearfix"></div>
+	</footer>
 
-                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/760abc9/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F59%2F5d%2F7bbea875419aa7cc6e5b49f31802%2Fresizes%2F500%2Fthe-associate-zac-efron.jpg" width="207" height="147" alt="The Associate Zac Efron" data-size="blog-image-207x147"><span class="byline">Kevin Jagernauth on 
-                                        Wed Apr 02 18:03:47 EDT 2014</span>
-                                    <p>Zac Efron isn't going to let fights with transients in L.A.'s Skid Row stop him from movin' on up. The actor has been eager to prove his dramatic chops with a string of recent films including "The Lucky One," "The Paperboy," "At Any Price" and "Parkland." Now he's hoping to follow folks like Tom Cruise and Matt Damon, and put a John Grisham thriller on his bookshelf.</p>
-                                    
-                                    <a class="more" href="http://blogs.indiewire.com/theplaylist/zac-efron-to-star-in-john-grisham-thriller-the-associate-20140402">Read More &raquo;</a>
-                                    
-                                    <div class="tags">
-                                        
-                                        <span>More:</span>
-                                            <a href="http://www.indiewire.com/actor/zac-efron">Zac Efron</a>, <a href="http://www.indiewire.com/tag/the-associate">The Associate</a></div> <!-- end tags -->
-                            </div> <!-- end summary -->
-                    </li>
-                <li class="clrfix">
-                        
-                            <div class="info" >
-
-                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">The Playlist</div></div></div></div>
-                                    <div class="comments"><span class="number">0</span> comments</div>
-
-                                    </div> <!-- end info -->
-                            <div class="summary">
-                                    <h3><a href="http://blogs.indiewire.com/theplaylist/get-ready-for-game-of-thrones-season-4-this-sunday-with-kingdoms-worth-of-new-pics-plus-3-featurettes-20140402">Get Ready For 'Game Of Thrones' Season 4 This Sunday With Kingdom's Worth Of New Pics Plus 3 Featurettes</a></h3> 
-
-                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/e8c8252/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fad%2F44%2F8593a96a4fe1b961d1fe70044e0b%2Fresizes%2F500%2Fgame-of-thrones-season-4-jamie-nikolaj-coster-waldau.jpg" width="207" height="147" alt="Game Of Thrones" data-size="blog-image-207x147"><span class="byline">Kevin Jagernauth on 
-                                        Wed Apr 02 17:40:50 EDT 2014</span>
-                                    <p>What are you doing this Sunday night? If your answer is anything but watching the season premiere of "Game Of Thrones," you're probably doing it wrong. Even if you haven't watch a single frame of the show, HBO2 has you covered: a marathon of every episode to date, back-to-back, twice, kicks off this Friday at 9 AM. But if you're already rarin' to go and need something to hold you over, perhaps this will help.</p>
-                                    
-                                    <a class="more" href="http://blogs.indiewire.com/theplaylist/get-ready-for-game-of-thrones-season-4-this-sunday-with-kingdoms-worth-of-new-pics-plus-3-featurettes-20140402">Read More &raquo;</a>
-                                    
-                                    <div class="tags">
-                                        
-                                        <span>More:</span>
-                                            <a href="http://www.indiewire.com/category/television">Television</a>, <a href="http://www.indiewire.com/tag/tv-news">TV News</a>, <a href="http://www.indiewire.com/tag/game-of-thrones-1">Game of Thrones</a>, <a href="http://www.indiewire.com/tag/game-of-thrones">HBO's Game of Thrones</a></div> <!-- end tags -->
-                            </div> <!-- end summary -->
-                    </li>
-                <li class="clrfix">
-                        
-                            <div class="info" >
-
-                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">Shadow and Act</div></div></div></div>
-                                    <div class="comments"><span class="number">0</span> comments</div>
-
-                                    </div> <!-- end info -->
-                            <div class="summary">
-                                    <h3><a href="http://blogs.indiewire.com/shadowandact/forest-whitaker-in-talks-to-jump-in-the-ring-w-jake-gyllenhaal-in-antoine-fuquas-southpaw">Forest Whitaker In Talks To Jump In The Ring w/ Jake Gyllenhaal In Antoine Fuqua's 'Southpaw'</a></h3> 
-
-                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/8f8da8d/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F47%2F37b3406ca211e19987123138165f92%2Ffile%2Fforest-whitaker.jpg" data-size="blog-image-207x147"><span class="byline">Tambay A. Obenson on 
-                                        Wed Apr 02 17:26:24 EDT 2014</span>
-                                    <p>Forest Whitaker In Talks To Jump In The Ring w/ Jake Gyllenhaal In Antoine Fuqua's 'Southpaw'</p>
-                                    
-                                    <a class="more" href="http://blogs.indiewire.com/shadowandact/forest-whitaker-in-talks-to-jump-in-the-ring-w-jake-gyllenhaal-in-antoine-fuquas-southpaw">Read More &raquo;</a>
-                                    
-                                    <div class="tags">
-                                        
-                                        <span>More:</span>
-                                            <a href="http://www.indiewire.com/actor/forest-whitaker">Forest Whitaker</a></div> <!-- end tags -->
-                            </div> <!-- end summary -->
-                    </li>
-                <li class="clrfix">
-                        
-                            <div class="info" >
-
-                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">The Playlist</div></div></div></div>
-                                    <div class="comments"><span class="number">0</span> comments</div>
-
-                                    </div> <!-- end info -->
-                            <div class="summary">
-                                    <h3><a href="http://blogs.indiewire.com/theplaylist/review-errol-morris-donald-rumsfeld-doc-the-unknown-known-both-insightful-unsatisfying-20140402">Review: Errol Morris' Donald Rumsfeld Doc 'The Unknown Known' Both Insightful & Unsatisfying</a></h3> 
-
-                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/cdaabc1/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fb7%2Fee%2Fa1b0d97345b0aa81ad1749bf41b7%2Fresizes%2F500%2Fthe-unknown-known-errol-morris.jpg" width="207" height="147" alt="The Unknown Known, Errol Morris" data-size="blog-image-207x147"><span class="byline">Oliver Lyttelton on 
-                                        Wed Apr 02 17:14:20 EDT 2014</span>
-                                    <p>As we inch towards another potential war in the Middle East, the last couple are still being pored over by filmmakers. We’re still likely some time away from the definitive takes on the wars in Iraq and Afghanistan, but we have seen a few solid films telling those stories in the last decade or so, albeit tending to focus on the men on the ground, rather than the architects of the conflict. The men who planned and executed the wars might have been out of office for some time, but they’re not showing any particular willingness to talk things over. Well, except one. Sort of.</p>
-                                    
-                                    <a class="more" href="http://blogs.indiewire.com/theplaylist/review-errol-morris-donald-rumsfeld-doc-the-unknown-known-both-insightful-unsatisfying-20140402">Read More &raquo;</a>
-                                    
-                                    <div class="tags">
-                                        
-                                        <span>More:</span>
-                                            <a href="http://www.indiewire.com/tag/the-unknown-known-the-life-and-times-of-donald-rumsfeld">The Unknown Known</a>, <a href="http://www.indiewire.com/director/errol-morris">Errol Morris</a>, <a href="http://www.indiewire.com/category/reviews">Reviews</a>, <a href="http://www.indiewire.com/tag/review">Review</a></div> <!-- end tags -->
-                            </div> <!-- end summary -->
-                    </li>
-                </ul>
-    </div> <!-- end review module -->
-
-    <div class="see-all-recent-posts">
-                    <h3><a href="http://www.indiewire.com/blogs?show=all">See all recent posts <span>&raquo;</span></a></h3>
-            </div> <!-- end see all recent posts -->
-        <div class="the-network">
-            <h3>the <span>Network</span></h3>
-            <ul>
-
-                <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/animationscoop/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/b83e8bb/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F14%2F91%2F9618e14a41cead40e0aa170da092%2Fanimation-scoop-medlogo-sized.jpg" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/animationscoop/">Animation Scoop</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/animationscoop/email">Email</a></li>
-                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=Animation%20Scoop" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/animationscoop/book-review-showa-a-history-of-japan-1926-1939">&raquo; BOOK REVIEW: "Showa: A History of Japan 1926-1939"</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/animationscoop/april-1st-contest-day-dvd-give-away-my-little-pony-a-dash-of-awesome">&raquo; APRIL 1st CONTEST DAY: DVD Give Away "My Little Pony - A Dash Of Awesome!"</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/animationscoop/war-of-the-worlds-goliath-bluray-contest">&raquo; APRIL 1st CONTEST DAY: "War Of The Worlds: Goliath" Bluray Contest</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/carynjames/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/77f4939/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F5f%2Ff38430ef5811e0927c12313931436e%2Ffile%2Fjames_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/carynjames/">Caryn James</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/carynjames/email">Email</a></li>
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/carynjames" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/carynjames/finding-vivian-maier">&raquo; The Emily Dickinson of Photographs or the Anti-Mary Poppins? 'Finding Vivian Maier'</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/carynjames/looking-at-the-bright-side-of-the-death-on-the-good-wife">&raquo; The Bright Side of the Death on 'The Good Wife'</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/carynjames/missingpicture">&raquo; Poetry, Politics and Memory in "The Missing Picture"</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/criticwire/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/459b342/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd0%2Fc38b21633811e19987123138165f92%2Ffile%2Fcriticwire_medlogo_IWBLUE.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/criticwire/">Criticwire</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/criticwire/email">Email</a></li>
-                                            <li><a class="rss" href="http://feeds.feedburner.com/Criticwire" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/criticwire/mad-men-season-7-reviews">&raquo; First Reviews of "Mad Men's" Season 7 Premiere</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/criticwire/fear-of-movies-on-demand">&raquo; Is Watching Movies Too Hard, or Are Audiences Getting Soft?</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/criticwire/twop-is-a-ok-television-without-pity-archives-will-stay-online">&raquo; TWoP Is A-OK: Television Without Pity Archives Will Stay Online</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/mediamatrix/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/55e62e9/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F7f%2Fb6%2Fc26700564cbb8508643bff9af685%2Fmediamatrix-medlogo.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/mediamatrix/">Jon Friedmans Media Matrix</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/mediamatrix/email">Email</a></li>
-                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=Jon%20Friedman's%20Media%20Matrix" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/mediamatrix/is-author-michael-lewis-too-smart-for-america">&raquo; Is Author Michael Lewis Too Smart For America?</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/mediamatrix/whats-behind-facebooks-billion-dollar-buying-binge">&raquo; What's Behind Facebook's Billion-Dollar Buying Binge?</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/mediamatrix/phil-jackson-and-the-new-york-knicks-8-burning-questions">&raquo; Phil Jackson and the New York Knicks: 5 Burning Questions</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/leonardmaltin/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/5d39496/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F89%2F522f20ef5811e0927c12313931436e%2Ffile%2Fleonard-logo-small.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/leonardmaltin/">Leonard Maltin</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/leonardmaltin/email">Email</a></li>
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/leonardmaltin" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/show-business-at-its-brightest">&raquo; Show Business At Its Brightest</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/movie-talk-with-doug-benson-and-samm-levine">&raquo; Movie Talk With Doug Benson And Samm Levine</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/breathe-in">&raquo; Breathe In</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/pressplay/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/f5e93cc/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fe7%2F44ef50ef5811e0927c12313931436e%2Ffile%2FScreen%20shot%202011-10-26%20at%202.44.03%20PM.png" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/pressplay/">Press Play</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/pressplay" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/pressplay/second-sight-how-channel-surfing-an-ipod-and-peggy-sue-got-married-restored-a-movie-critics-eyesight">&raquo; Second Sight: How Channel-Surfing, an iPod, and PEGGY SUE GOT MARRIED Restored a Movie Critic's Eyesight</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/pressplay/hannah-horvath-from-girls-is-the-last-thing-the-iowa-writers-workshop-needs">&raquo; Hannah Horvath from GIRLS Is the Last Thing the Iowa Writers' Workshop Needs</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/pressplay/arielle-bernstein-orphans-refugees-and-architectural-spaces-the-dream-of-the-grand-budapest-hotel">&raquo; ARIELLE BERNSTEIN: Orphans, Refugees, and Architectural Spaces: The Dream of THE GRAND BUDAPEST HOTEL</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/peterbogdanovich/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/84ee1ed/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fc6%2Fcfe9f0ef5811e0927c12313931436e%2Ffile%2Fbogdanovich-banner3.png" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/peterbogdanovich/">Peter Bogdanovich</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/peterbogdanovich" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/the-cukor-file-part-5">&raquo; The George Cukor File - Part 5</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/00000143-5a25-d395-a377-7e6faa680000">&raquo; The George Cukor File - Part 4</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/00000142-fda1-d395-a376-ffefa97f0000">&raquo; The George Cukor File - Part 3</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/anthony/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/371ad45/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fff%2F6558a0ef5711e0927c12313931436e%2Ffile%2Freelpolitik_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/anthony/">ReelPolitik</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/anthony" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/anthony/exploiting-vivian-maier-when-do-docs-invade-privacy">&raquo; Exploiting Vivian Maier: When Do Docs Invade Privacy? </a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/anthony/what-sergei-loznitsas-my-joy-tells-us-about-the-current-crisis-in-ukraine">&raquo; What Sergei Loznitsa's "My Joy" Tells Us About the Current Crisis in Ukraine  </a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/anthony/six-warnings-for-documentary-filmmakers">&raquo; Six Warnings for Documentary Filmmakers</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/shadowandact/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/da30eb3/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F2e%2F9e9ef0ef5911e0927c12313931436e%2Ffile%2Fshadowact_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/shadowandact/">Shadow and Act</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/shadowandact/email">Email</a></li>
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/shadowandact" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/shadowandact/forest-whitaker-in-talks-to-jump-in-the-ring-w-jake-gyllenhaal-in-antoine-fuquas-southpaw">&raquo; Forest Whitaker In Talks To Jump In The Ring w/ Jake Gyllenhaal In Antoine Fuqua's 'Southpaw'</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/shadowandact/apparently-bishops-look-in-x-men-days-of-future-past-was-inspired-by-busta-rhymes">&raquo; Apparently, Bishop's Look In 'X-Men: Days Of Future Past' Was Inspired By Busta Rhymes & Gary Coleman?</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/shadowandact/exclusive-clip-from-mandela-long-walk-to-freedom-and-dvd-blu-ray-giveaway">&raquo; DVD/Blu Ray Giveaway and Exclusive Clip from 'Mandela: Long Walk to Freedom'</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/sydneylevine/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/a4cacb1/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F76%2F73c020ef5911e0927c12313931436e%2Ffile%2Fsydney_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/sydneylevine/">SydneysBuzz</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/sydneylevine/email">Email</a></li>
-                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=SydneysBuzz" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/sydneylevine/review-captain-america-the-winter-soldier-lonely-heroes-need-friends-too">&raquo; Review: Captain America: The Winter Soldier- Lonely Heroes Need Friends Too </a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/sydneylevine/latinobuzz-kikimelendez-debut-feature-journey-of-a-female-comic-to-open-in-time-for-cinco-de-mayo-international-film-business">&raquo; LatinoBuzz: Kiki Melendez' Debut Feature “Journey of a Female Comic” to Open in Time for Cinco de Mayo</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/sydneylevine/finding-vivian-maier-international-film-business">&raquo; Finding Vivian Maier </a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/theplaylist/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2273fbe/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fcc%2Fa13680ef5911e0927c12313931436e%2Ffile%2Fplaylist_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/theplaylist/">The Playlist</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/theplaylist/email">Email</a></li>
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/theplaylist" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/theplaylist/zac-efron-to-star-in-john-grisham-thriller-the-associate-20140402">&raquo; Zac Efron To Star In John Grisham Thriller 'The Associate'</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/theplaylist/get-ready-for-game-of-thrones-season-4-this-sunday-with-kingdoms-worth-of-new-pics-plus-3-featurettes-20140402">&raquo; Get Ready For 'Game Of Thrones' Season 4 This Sunday With Kingdom's Worth Of New Pics Plus 3 Featurettes</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/theplaylist/review-errol-morris-donald-rumsfeld-doc-the-unknown-known-both-insightful-unsatisfying-20140402">&raquo; Review: Errol Morris' Donald Rumsfeld Doc 'The Unknown Known' Both Insightful & Unsatisfying</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/thompsononhollywood/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/c0ad249/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd8%2Fc6d700eec611e0ad0512313931436e%2Ffile%2F276478_128392760512326_6008885_n.jpeg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/thompsononhollywood/">Thompson on Hollywood</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/thompsononhollywood/email">Email</a></li>
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/thompsononhollywood" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/putting-money-on-the-bechdel-test">&raquo; Putting Money on the Bechdel Test (GRAPHS)</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/los-angeles-times-names-new-company-town-editor">&raquo; Los Angeles Times Names New Company Town Editor </a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/emily-blunt-sicario-denis-villeneuve">&raquo; Emily Blunt in Talks to Star in Denis Villeneuve's Next Film</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    <li class="clrfix">
-                            <div class="image">
-                                <a href="http://blogs.indiewire.com/womenandhollywood/">
-                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/bf3f7c2/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F9b%2F4a6b30f3e911e0b6b212313931436e%2Ffile%2Fwomenhollywood_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
-                                </div> <!-- end image -->
-                            <div class="info">
-                                    <h4><a href="http://blogs.indiewire.com/womenandhollywood/">Women and Hollywood</a></h4>
-                                    <span class="social" >
-                                        <ul>
-                                            
-                                            <li><a class="subscribe" href="http://blogs.indiewire.com/womenandhollywood/email">Email</a></li>
-                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/womenandhollywood" title="Sign Up">Subscribe</a></li>
-                                            </ul>    
-                                        
-                                    </span><!-- end social -->
-                                                 
-                                    <ul style="padding-top:5px;">
-                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/peabody-winners-include-scandal-orange-is-the-new-black-orphan-black">&raquo; Orange is the New Black, Scandal, Borgen Among Peabody Winners</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/claire-danes-iman-idina-menzel-among-varietys-power-of-women">&raquo; Claire Danes, Iman, Idina Menzel Among Variety's Power of Women</a></li>                                            
-                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/the-continuing-case-for-having-more-women-in-film">&raquo; The Continuing Case for Having More Women in Film</a></li>                                            
-                                        </ul>							
-                            </div> <!-- end info -->
-                    </li>
-                    
-                    </ul>
-    </div> <!-- end the network -->
-    
-</div> <!-- col1 --><div id="col2"><div class="mod rr-300x250-ad">
-    <script type="text/javascript">
-		if (window.adgroupid == undefined) {
-		       window.adgroupid = Math.round(Math.random() * 1000);
-		}
-		window['adtech_adurl_' + "245281ca-f4a6-4eeb-b5bc-cfb6068d2754"] = "http://adserver.adtechus.com/addyn/3.0/5182/619934/0/170/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
-		document.writeln('<DIV ID="ADTECH_AdContainer_' + "245281ca-f4a6-4eeb-b5bc-cfb6068d2754" +'"><IFRAME ID="ADTECH_IFRAME_'+ "245281ca-f4a6-4eeb-b5bc-cfb6068d2754" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
-		
-
-	</script>
-
-</div> <!-- end mod rr-300x250-ad -->
-<script type="text/javascript">
-    jQuery(function() {
-        var url = window.location.href.split("#")[0].split("?")[0];
-        var successRedirect = url+'?nl_success=true';
-        var errorRedirect = url+'?nl_success=false';
-        jQuery('input[name=redirect]').val(successRedirect);
-        jQuery('input[name=errorredirect]').val(errorRedirect);
-    });
+		<input type="hidden" id="social_connect_login_form_uri" value="http://snarkerati.com/wp-login.php" />
+	<script type='text/javascript' src='http://snarkerati.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.23'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/snarkerati.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+/* ]]> */
 </script>
-<div class="mod newsletter clrfix">
-    <a name="nlform"></a>
-    <h3><img src="http://d1oi7t5trwfj5d.cloudfront.net/resource/sprites/small-indie-logo.0159f9e9dd30abcabd13426bc2c13fe4.jpg" alt="Indiewire" /> <span>Newsletters</span></h3>
-    <hr/>
-    <form id="sign-up" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" accept-charset="UTF-8" >
-            <div class="checkwrap">
-                <input type="checkbox" id="listid:18151" name="listid:18151" checked="checked" />
-                <label for="listid:18151">Indiewire Today</label>
-            </div>
-            <div class="checkwrap">
-                <input type="checkbox" id="listid:18667" name="listid:18667"/>
-                <label for="listid:18667">News Alerts</label>
-            </div>
-                <input type="text" name="fields_email" placeholder="Email" class="email" />
-            <input class="blue-btn" type="submit" value="subscribe" name="Submit" />
-                <input type="hidden" name="redirect" value="" />
-            <input type="hidden" name="errorredirect" value="" />
-            <input type="hidden" name="listid" value="__multi" />
-            <input type="hidden" name="lists" value="18151:18667" />
-            <input type="hidden" name="specialid:18151" value="0RJP" />
-            <input type="hidden" name="specialid:18667" value="CB1B" />
-            <input type="hidden" name="clientid" value="736567" />
-            <input type="hidden" name="formid" value="1364" />
-            <input type="hidden" name="reallistid" value="1" />
-            <input type="hidden" name="doubleopt" value="0" />
-            <input type="hidden" name="fields_guid" value="756b2049-3db7-4999-9e6c-754dea5e49fb">
-        </form>
-    </div> <!-- end newsletter --><div class="mod rr-300x600-ad clrfix">
-    <script type="text/javascript">
-		if (window.adgroupid == undefined) {
-		       window.adgroupid = Math.round(Math.random() * 1000);
+<script type='text/javascript' src='http://snarkerati.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.2'></script>
+
+
+<!-- here comes the javascript -->
+
+<!-- jQuery is called via the Wordpress-friendly way via functions.php -->
+
+<!-- this is where we put our custom functions -->
+<script src="/assets/js/functions.js"></script>
+<script src="/assets/js/jquery.isotope.js"></script>
+
+<script>
+  // modified Isotope methods for gutters in masonry
+  jQuery.Isotope.prototype._getMasonryGutterColumns = function() {
+    var gutter = this.options.masonry && this.options.masonry.gutterWidth || 0;
+        containerWidth = this.element.width();
+  
+    this.masonry.columnWidth = this.options.masonry && this.options.masonry.columnWidth ||
+                  // or use the size of the first item
+                  this.$filteredAtoms.outerWidth(true) ||
+                  // if there's no items, use size of container
+                  containerWidth;
+
+    this.masonry.columnWidth += gutter;
+
+    this.masonry.cols = Math.floor( ( containerWidth + gutter ) / this.masonry.columnWidth );
+    this.masonry.cols = Math.max( this.masonry.cols, 1 );
+  };
+
+  jQuery.Isotope.prototype._masonryReset = function() {
+    // layout-specific props
+    this.masonry = {};
+    // FIXME shouldn't have to call this again
+    this._getMasonryGutterColumns();
+    var i = this.masonry.cols;
+    this.masonry.colYs = [];
+    while (i--) {
+      this.masonry.colYs.push( 0 );
+    }
+  };
+
+  jQuery.Isotope.prototype._masonryResizeChanged = function() {
+    var prevSegments = this.masonry.cols;
+    // update cols/rows
+    this._getMasonryGutterColumns();
+    // return if updated cols/rows is not equal to previous
+    return ( this.masonry.cols !== prevSegments );
+  };
+
+jQuery(document).ready(function(){
+	jQuery('#home_blocks').isotope({
+		itemSelector : '.item',
+		layoutMode : 'masonry',
+		animationEngine : 'best-available',
+		visibleStyle: { opacity: 1 },
+		hiddenStyle: { opacity: 0 },
+		transformsEnabled: true,
+		resizable: false,
+		masonry: {
+			columnWidth: 240,
+			gutterWidth: 10
 		}
-		window['adtech_adurl_' + "59803356-fb2e-4554-a9fe-6c0a0da91cc3"] = "http://adserver.adtechus.com/addyn/3.0/5182/1042863//0/529/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
-		document.writeln('<DIV ID="ADTECH_AdContainer_' + "59803356-fb2e-4554-a9fe-6c0a0da91cc3" +'"><IFRAME ID="ADTECH_IFRAME_'+ "59803356-fb2e-4554-a9fe-6c0a0da91cc3" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
-		
+	});
+	jQuery('#filter span').click(function(){
+	  var selector = jQuery(this).attr('data-filter');
+	  jQuery('#home_blocks').isotope({ filter: selector });
+	  return false;
+	});
+});
+</script>
 
-	</script>
+<script type="text/javascript">
 
-</div> <!-- end 300x600 ad -->
-<div class="mod facebook clrfix">
-        <h3><img alt="Indiewire" src="http://d1oi7t5trwfj5d.cloudfront.net/resource/sprites/small-indie-logo.0159f9e9dd30abcabd13426bc2c13fe4.jpg" /> on <span>facebook</span></h3>
-            <hr />
-        <div class="fb-like-box" data-href="http://www.facebook.com/indiewire" data-border-color="#FFFFFF" data-width="300" data-height="260" data-show-faces="true" data-stream="false" data-header="false"></div>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2274874-5']);
+  _gaq.push(['_trackPageview']);
 
-    </div> <!-- end facebook -->
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-<div class="mod sf-films-widget vertical"></div><script src="http://v.snagfilms.com/js/widget-0.1.6.min.js"></script> </div> <!-- col2 -->		<div class="F6 clrfix"> 		</div> <!-- end F6 --></div> <!-- end pageWrapper --><div class="footer-ad">
-    <div class="ad">
-        <script type="text/javascript">
-		if (window.adgroupid == undefined) {
-		       window.adgroupid = Math.round(Math.random() * 1000);
-		}
-		window['adtech_adurl_' + "628d5c32-e4c7-4b16-bb78-399bf0b7cf9d"] = "http://adserver.adtechus.com/addyn/3.0/5182/619933/0/225/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp=" + window.adgroupid + ";misc=" + new Date().getTime();
-		document.writeln('<DIV ID="ADTECH_AdContainer_' + "628d5c32-e4c7-4b16-bb78-399bf0b7cf9d" +'"><IFRAME ID="ADTECH_IFRAME_'+ "628d5c32-e4c7-4b16-bb78-399bf0b7cf9d" +'" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
-		
+</script>
 
-	</script>
+
+<div id="stats">
+
+
+
 
 </div>
-</div> <!-- end footer ad -->
 
-<div class="footWrap">
-  <div class="footer clrfix">
-    <div class="network clrfix">
-            <h3>the network</h3>
-            <div class="content clrfix">
-                <ul>
-                    <li><a href="http://blogs.indiewire.com/animationscoop/">Animation Scoop</a></li>
-                    <li><a href="http://blogs.indiewire.com/carynjames/">Caryn James</a></li>
-                    <li><a href="http://blogs.indiewire.com/criticwire/">Criticwire</a></li>
-	                <li><a href="http://blogs.indiewire.com/leonardmaltin/">Leonard Maltin</a></li>
-	                <li><a href="http://blogs.indiewire.com/mediamatrix/">Media Matrix</a></li>
-	             </ul>
-	             <ul>
-                    <li><a href="http://blogs.indiewire.com/peterbogdanovich/">Peter Bogdanovich</a></li>
-                    <li><a href="http://blogs.indiewire.com/theplaylist/">The Playlist</a></li>
-                    <li><a href="http://blogs.indiewire.com/pressplay/">Press Play</a></li>
-                    <li><a href="http://blogs.indiewire.com/anthony/">ReelPolitik</a></li>
-	             </ul>
-	             <ul>
-	                <li><a href="http://blogs.indiewire.com/shadowandact/">Shadow and Act</a></li>
-	                <li><a href="http://blogs.indiewire.com/sydneylevine/">Sydney Levine</a></li>
-	                <li><a href="http://blogs.indiewire.com/thompsononhollywood/">Thompson on Hollywood</a></li>
-	                <li><a href="http://blogs.indiewire.com/womenandhollywood/">Women and Hollywood</a></li>
-	             </ul>
-                </div> <!-- end content -->
-        </div> <!-- end left -->
-        <div class="indi-cats">
-            <div class="indie">
-                <h3>indiewire</h3>
-                <ul>
-                    <li><a href="http://www.indiewire.com/sitemap">Sitemap</a></li>
-                    <li><a href="http://www.indiewire.com/about">About</a></li>
-                    <li><a href="http://www.indiewire.com/team">Team</a></li>
-                    <li><a href="http://www.indiewire.com/advertise">Advertise</a></li>
-                    <li><a href="http://www.indiewire.com/indiewire-jobs">Indiewire Jobs </a></li>
-                    <li><a href="http://www.indiewire.com/privacy">Privacy</a></li>
-                    <li><a href="http://www.indiewire.com/legal">Terms of Service</a></li>
-                </ul>
-            </div> <!-- end indi -->
-            <div class="cats">
-                <h3>categories</h3>
-                <ul>
-                    <li><a href="http://www.indiewire.com/category/news">News  </a></li>                                                
-                    <li><a href="http://www.indiewire.com/reviews/">Reviews</a></li>                                                
-                    <li><a href="http://www.indiewire.com/category/awards">Awards</a></li>                                                
-                    <li><a href="http://www.indiewire.com/category/festivals">Festivals</a></li>                                                
-                    <li><a href="http://www.indiewire.com/box-office/">Box Office</a></li>                                                
-                    <li><a href="http://www.indiewire.com/category/filmmaker-toolkit">Filmmaker Toolkit</a></li>                                                
-                    </ul>
-            </div> <!-- end cats -->
-        </div> <!-- end indi cats -->
-        <ul class="about clrfix">
-            <li><a class="last" href="mailto:editors@indiewire.com">editors@indiewire.com</a></li>
-        </ul>
-    </div> <!-- end footer -->
-</div><script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery-ui-1.8.16.custom.min.5bd48ba2b4001b7b6b42b8472e32044a.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.eTruncate.min.2aa49af55e4b4fee51fb7ab512ada704.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.scrollTo.min.489552866960332676eed62725796b5a.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.placeholder.min.c61f42af124c56a36f959bc9b3ad9859.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/poll.bdd2098f79e1f5eacdeff019808ef801.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.tablesorter.min.70d9c2758b1ccbce4ce4e8b0817b08db.js"></script>
-<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/init.59e4c1bf01b4a52db905ae69ee56c6d1.js"></script>
-
-<script type="text/javascript">
-    function showAccountInfo() {
-        FB.api(
-            {
-                method: 'fql.query',
-                query: 'SELECT name, pic FROM user WHERE uid=' + FB.getUserID()
-            },
-            function(response) {
-                $('#account-info').html('<img src="' + response[0].pic + '" style="height: 30px;">');
-            }
-        );
-    }
-
-
-    function fbLoginStatus(response) {
-        CW.log('fbLoginStatus()' , response);
-        if (response.status == "connected") {
-            showAccountInfo();
-        } else {
-            //user is not logged in, display guest div
-
-            document.cookie = 'fbsr_132443425037 = ; expires=Thu, 01-Jan-70 00:00:01 GMT; path=/; domain=.indiewire.com';
-            refreshNav();
-        }
-    }
-    
-    function refreshNav(cb) {
-        $('#login').load('/ajax/loginSmall.jsp?_=' + (new Date()).getTime(),
-            $.proxy(function() {
-                FB.XFBML.parse($('#login').get()[0], function(){
-                	var iframe = $('iframe','#login').get()[0];
-                	if(iframe){
-                		iframe.src = iframe.src;
-                	}
-                	setTimeout(function(){
-                		$('#login').show();
-                	}, 500);
-                });
-                
-            }, cb)
-        );
-    }
-    
-    function iContactSignup() {
-        if(typeof(CW) == 'object') {
-            CW.log('iContactSignup()');
-        }
-        $.ajax({
-            type: 'get',
-            url: '/ajax/emailsignup.jsp',
-            success: function(data) {
-                if(typeof(CW) == 'object') {
-                    CW.log('emailsignup.jsp: ', data);
-                }
-            }
-        });
-    }
-    
-    var onLikeClicked = null;
-
-    function dropDown() {
-        $('.navBar .nav > li, .profile-dropdown').hover(
-            function() {
-                var dd = $(this).find('div.dropdown');
-                // checking dim the lights is necessary for IE
-                if (dd.length > 0 && ($('#snag-dimmerBG').filter(":visible").length < 1) ) {
-                    $(this).addClass('open');
-                    dd.show();
-                }
-            },
-            function() {
-                $(this).removeClass('open');
-                $(this).find('div.dropdown').hide();
-            }
-        );
-        $('.dropdown .queue-populated li a').click(function(event){
-            Snag.Tracking.GA.trackClick(event, "registration and profiles", "watch-q");
-        });
-    }
-
-    function logout() {
-        FB.logout(function(response) {
-            document.cookie = 'fbsr_132443425037 = ; expires=Thu, 01-Jan-70 00:00:01 GMT; path=/; domain=.indiewire.com';
-            setTimeout(function() {
-            	$('#login').hide();
-                $('#login').load('/ajax/loginSmall.jsp?_=' + (new Date()).getTime(), 
-                		function() {
-			                	FB.XFBML.parse($('#login').get()[0], function(){
-			                    	setTimeout(function(){
-			                    		$('#login').show();
-			                    	}, 100);
-			                    });
-                			});
-                if(typeof(CW) == 'object') {
-                    CW.user.loggedIn = false;
-                    CW.user.critic = false;
-                    CW.films.grading.init();
-                }
-            }, 1000);
-        });
-    }
-    if(IW.FB){
-    	IW.FB.callbacks.getLoginStatus.push(fbLoginStatus);
-    }
-</script>
-
-<script type="text/javascript">
-    var _qevents = _qevents || [];
-    (function() {
-        var elem = document.createElement('script');
-        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-        elem.async = true;
-        elem.type = "text/javascript";
-        var scpt = document.getElementsByTagName('script')[0];
-        scpt.parentNode.insertBefore(elem, scpt);
-    })();
-</script>
-<script type="text/javascript">
-    _qevents.push({ qacct:"p-c1zCil38GHR-I"});
-</script>
-<noscript>
-    <div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-c1zCil38GHR-I.gif" height="1" width="1"
-                                     alt="Quantcast"/></div>
-</noscript>
-
-<script type="text/javascript">
-    var _sf_async_config = {uid:2953,domain:"indiewire.com"};
-    
-    (function() {
-        function loadChartbeat() {
-            window._sf_endpt = (new Date()).getTime();
-            var e = document.createElement('script');
-            e.setAttribute('language', 'javascript');
-            e.setAttribute('type', 'text/javascript');
-            e.setAttribute('src',
-                    (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
-                            "js/chartbeat.js");
-            document.body.appendChild(e);
-        }
-
-        var oldonload = window.onload;
-        window.onload = (typeof window.onload != 'function') ?
-                loadChartbeat : function() {
-            oldonload();
-            loadChartbeat();
-        };
-    })();
-</script>
-
-<script type="text/javascript" id="sailthru-setup">
-	
-	   // Sailthru Horizon -->
-    (function() {
-        function loadHorizon() {
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = location.protocol
-                    + '//ak.sail-horizon.com/horizon/v1.js';
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-        }
-        loadHorizon();
-        var oldOnLoad = window.onload;
-        window.onload = function() {
-            if (typeof oldOnLoad === 'function') {
-                oldOnLoad();
-            }
-    
-           	try {
-                   Sailthru.setup({
-                       domain: 'horizon.indiewire.com',
-                       concierge: { from: 'top', threshold: 800, filter: {tags: 'sailthru-indiewire'} }
-                   });
-               } catch (ex) {
-                   $.log(ex, 'Could not set up sailthru');
-               }
-            	
-        };
-    })();
-	
-</script>
-
-	<script type="text/javascript">
-	
-    </script>
-
-<div id="getsat-widget-5838"></div>
-<script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
-<script type="text/javascript">if (typeof GSFN !== "undefined"){ GSFN.loadWidget(5838,{"containerId":"getsat-widget-5838"});}</script>
-<!-- HC -->
 </body>
+
 </html>

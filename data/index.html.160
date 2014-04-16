@@ -1,791 +1,504 @@
-<!DOCTYPE HTML>
-<html class="is_wget is_win no-js" xmlns="http://www.w3.org/1999/xhtml" >
-<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:og="http://ogp.me/ns#"
+	xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+			<title>DietsInReview.com: Leading Diet Review Site, New Healthy Recipes, Breaking Health News</title>
+	<link rel="shortcut icon" href="/favicon.ico">
 
-<!--head--><meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
-<meta property="og:site_name" content="Photobucket" />
-<meta name="robots" content="INDEX, FOLLOW" />
-<meta name="description" content="Get free image hosting, easy photo sharing, and photo editing. Upload pictures and videos, create with the online photo editor, or browse a photo gallery or album." />
-<meta name="keywords" content="free image hosting, free video hosting, image hosting, video hosting, photo image hosting site, video hosting site" />
-<meta name="viewport" content="width=1024" />
-<meta property="fb:app_id" content="38997159460" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Photobucket - Photo and image hosting, free photo galleries, photo editing." />
-<meta property="og:description" content="Get free image hosting, easy photo sharing, and photo editing. Upload pictures and videos, create with the online photo editor, or browse a photo gallery or album." />
-<meta property="og:url" content="http://photobucket.com" />
-<meta property="og:image" content="http://pic2.pbsrc.com/common/FB_OG_default_600x315.jpg" />
-<meta name="p:domain_verify" content="407950b128a817850ab3edd01b7a6bd4" />
-<title>Photo and image hosting, free photo galleries, photo editing</title>
-<link rel="icon" type="image/x-icon" href="http://pic2.pbsrc.com/common/favicon.ico" />
-<link rel="shortcut icon" type="image/x-icon" href="http://pic2.pbsrc.com/common/favicon.ico" />
-<!--global-->
-<link rel="stylesheet" type="text/css" href="http://static2.pbsrc.com/pkg/d7000302a3f15fdc17d409b65257d68fc381d646/head_global_main.css" />
-<!--head-->
-<link rel="stylesheet" type="text/css" href="http://static2.pbsrc.com/pkg/d7000302a3f15fdc17d409b65257d68fc381d646/head_home_homepage.css" />
-<!--external stylesheets-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<link rel="stylesheet" type="text/css" href="/css/master.css?1356632558" />	
+	
+	<link rel="stylesheet" type="text/css" href="/css/widgets.css?1318878183" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/css/lightwindow.css?1325539798" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/css/print.css?1318878183" media="print" />	
+		
+						<script type="text/javascript" charset="utf-8" src="/js/combined.js"></script>
+			
+	<meta property="og:type" content="article"/>
+<meta property="og:image" content="http://dietsinreview.s3.amazonaws.com/images/diets-in-review-logo-circle-fb.png"/>
+<meta property="og:site_name" content="Diets in Review"/>	
+<meta property="fb:admins" content="9613366"/>	
+<meta property="fb:app_id" content="47302619756"/>	
+
+	
+		
+		
+		
+					
+		<meta name="Description" content="DietsInReview.com - Diet, fitness, and nutrition resource to help you live a healthy long life." />
+			<meta name="Keywords" content="Diets In Review, Diet, Fitness, Nutrition Resource, dietsinreview, dieting, diet, diets" />
+	
+ 	
+		       <script type="text/javascript">
+	           var OX_4fa840908c380 = OX();
+	           OX_4fa840908c380.addPage("12284");
+	           OX_4fa840908c380.fetchAds();
+	       </script>
+		</head>
+	<body>
+		<script type="text/javascript"> Caspion = { 'cfg': { 'id': 'dietsinreviewcom' } };</script>
+<script type="text/javascript" src="http://gae.caspion.com/cas.js"></script>		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-V76B"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-V76B');</script>
+		<!-- End Google Tag Manager -->
+		
+		<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+              appId: '47302619756', 
+              status: true, 
+              cookie: true,
+              oauth: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+
+
+document.observe("dom:loaded", function() {
+	var fb_login_image = new Element('img', { 'id': 'fb_login_image','src': 'http://dietsinreview.s3.amazonaws.com/images/header_tiny_fb_connect.gif' });
+
+	if ($('fb_login_wrapper')!==undefined) {
+		$('fb_login_wrapper').appendChild(fb_login_image);
+
+		var fb_login_text = new Element('a', { 'id': 'fb_login_text' }).update("Sign In Using Facebook");
+		$('fb_login_wrapper').appendChild(fb_login_text);
+
+		Event.observe('fb_login_text', 'click', fb_login_handler);
+		Event.observe('fb_login_image', 'click', fb_login_handler);		
+	};
+
+
+});
+</script>		
+		<div id="wrapper">
+		
+			
+  <div style="text-align:center;padding:12px 0">
+    <div id="top_ad"></div>
+    <script type="text/javascript"> var OX_ads = OX_ads || [];OX_ads.push({slot_id:"top_ad", auid:"188888"});</script>    <br />
+    <small style="float:left;margin-left:125px">Advertisement</small>
+  </div><br class="clear" />
+
+<div id="header_user_menu">
+	
+	
+		<a href="/users/register/" class="sign_up" rel="nofollow">Sign Up</a>
+		<span class="divider">|</span>
+		<a href="/users/login/" class="sign_in" rel="nofollow">Sign In</a>
+		<span class="divider">|</span>
+			
+	
+		<span style="float:right" id="fb_login_wrapper">
+			
+		</span>
+
+</div>
+
+<a href="http://www.dietsinreview.com" title="Diets in Review" id="diets-in-review-logo"><img src="http://dietsinreview.s3.amazonaws.com/images/diets-in-review-logo.gif" alt="Diets in Review - Find the Right Diet for You" /></a>			
+			<div id="nav_wrapper">
+	<ul id="nav">
+
+
+		
+
+			<li><a href="http://www.dietsinreview.com/diets/" title="Diet Reviews" class="diets"> </a></li>
+		
+
+			<li><a href="http://www.dietsinreview.com/diet_column/" title="Daily Health News" class="blog"> </a></li>
+		
+
+			<li><a href="http://www.dietsinreview.com/recipes/" title="Recipes" class="recipes"> </a></li>
+		
+
+			<li><a href="http://www.dietsinreview.com/coupons/" title="Diet Coupons" class="coupons"> </a></li>
+		
+
+			<li><a href="http://www.dietsinreview.com/questions/" title="Questions" class="questions"> </a></li>
+		
+
+			<li><a href="http://www.dietsinreview.com/resources/" title="Resources" class="resources"> </a></li>
+		
+
+			<li><a href="http://www.dietsinreview.com/videos/" title="Video" class="videos"> </a></li>
+		
+
+			<li><a href="http://www.dietsinreview.com/users/" title="MyDIR" class="mydir"> </a></li>
+			</ul>
+
+	<div id="search_wrapper">
+		<form action="/search/" method="post"><input class="search_q" name="data[search]" /><input type="image" src="http://dietsinreview.s3.amazonaws.com/images/search_go.gif" name="submit" class="search_go" type="submit" /></form>
+	</div>
+</div>			
+			<br class="clear" />
+			<div id="content_wrapper"class="lightbg">
+				<div id="l_content_col_wide">
+					
+					<div style="width:642px;float:right">
+					<div class="main_module_wrapper wide lightbg">
+
+		
+<div class="top_stories" style="position:relative">
+			<span class="small_head">TOP STORIES &gt;</span>		
+	
+	<a href="/diet_column/04/5-fun-ways-to-enjoy-an-adult-spring-break/" title="5 Fun Ways to Enjoy an Adult Spring Break! "></a>	<div class="big_story">
+		
+		<h2><a href="/diet_column/04/5-fun-ways-to-enjoy-an-adult-spring-break/">5 Fun Ways to Enjoy an Adult Spring Break! </a></h2>
+		<div class="timestamp">Published Tue April 15, 2014</div>
+		<div class="byline">By Jessica Tholmer</div>
+		
+			<p>Happy Spring Break, guys! Even if you do not have a week off of like back in the school days, I have good news: There are plenty of ways to enjoy adult versions of Spring Break! Here are five easy, fun, and most importantly, healthy ways to enjoy Spring Break.
+
+
+
+1. Take a hiking trip!
+Even ...</p>
+	</div>
+
+	<br class="clear" />
+
+				<div class="small_story">
+			<a href="/diet_column/04/the-3-beef-veggie-and-noodle-dinner-backpacking-around-the-world-and-still-eating-well-on-the-cheap/" title="The $3 Beef, Veggie, and Noodle Dinner: Backpacking Around the World and Still Eating Well on the Cheap"><img src="http://dietsinreview.s3.amazonaws.com/resizes/diet_column/wp-content/uploads/2014/04/Photo-Apr-07-11-02-32-AM_140x90.jpg" class="thumb" /></a>			<a class="title" href="/diet_column/04/the-3-beef-veggie-and-noodle-dinner-backpacking-around-the-world-and-still-eating-well-on-the-cheap/">The $3 Beef, Veggie, and Noodle Dinner: Backpacking Around the World and Still Eating Well on the Cheap</a>
+		</div>
+			<div class="small_story">
+			<a href="/diet_column/04/work-it-off-3-ways-to-burn-off-a-612-calorie-margarita/" title="Work it Off: 3 Ways to Burn Off a 612-Calorie Margarita"><img src="http://dietsinreview.s3.amazonaws.com/resizes/diet_column/wp-content/uploads/2014/04/power-walk_140x90.jpg" class="thumb" /></a>			<a class="title" href="/diet_column/04/work-it-off-3-ways-to-burn-off-a-612-calorie-margarita/">Work it Off: 3 Ways to Burn Off a 612-Calorie Margarita</a>
+		</div>
+			<div class="small_story">
+			<a href="/diet_column/04/kelly-therieau-lost-113-pounds-but-shes-not-focused-on-the-number-ill-stop-when-im-healthy/" title="Kelly Therieau Lost 113 Pounds But She's Not Focused On The Number - "I'll Stop When I'm Healthy.""><img src="http://dietsinreview.s3.amazonaws.com/resizes/diet_column/wp-content/uploads/2014/04/kelly-thereua_140x90.jpg" class="thumb" /></a>			<a class="title" href="/diet_column/04/kelly-therieau-lost-113-pounds-but-shes-not-focused-on-the-number-ill-stop-when-im-healthy/">Kelly Therieau Lost 113 Pounds But She's Not Focused On The Number - "I'll Stop When I'm Healthy."</a>
+		</div>
+			<div class="small_story last">
+			<a href="/diet_column/04/youre-not-crazy-the-cereal-box-is-designed-to-stare-at-you/" title="You're Not Crazy. The Cereal Box is Designed to Stare at You"><img src="http://dietsinreview.s3.amazonaws.com/resizes/diet_column/wp-content/uploads/2014/04/cereal_140x90.jpg" class="thumb" /></a>			<a class="title" href="/diet_column/04/youre-not-crazy-the-cereal-box-is-designed-to-stare-at-you/">You're Not Crazy. The Cereal Box is Designed to Stare at You</a>
+		</div>
+			
+</div>
+
+		<br class="clear" />
+		<hr />
+
+		<a href="/coupons"><img src="/images/promos/homepage_browse_coupons_new.gif" style="margin-top:5px;float:left"></a>
+
+
+
+		<div class="hbuzz_wrapper" style="height:220px; position:relative">
+    <p style="text-align:center;margin-top:3px;font-weight:bold;background-color:#fff;font-size:16px;color:#333;">Hot Recipe: <a style="color:#DE2E00;text-decoration:none;" href="/recipes/frozen-banana-ice-cream-parfaits/">Frozen Banana Ice Cream Parfaits</a></p>
+  <div style="text-align:center;">
+    <a href="/recipes/frozen-banana-ice-cream-parfaits/"><img style="max-height:180px;" src="http://dietsinreview.s3.amazonaws.com/resizes/recipe_photos/frozen-banana-parfait_large.jpg"></a>
+  </div>
+  <a class="button drop-shadow raised" style="position:absolute; right: 10px; bottom:5px; " href="/recipes">More Recipes &gt;</a>
+
+</div>
+		<hr />
+
+		<div class="home_topic_list">
+			<div class="col4">
+				<span class="module_title cooking">COOKING</span>
+				<ul>
+									<li><a href="/diet_column/04/superfood-series-pt-1-chocolate/">Nature's Best Nutrition Secret is Raw Cacao</a></li>
+									<li><a href="/diet_column/04/the-3-beef-veggie-and-noodle-dinner-backpacking-around-the-world-and-still-eating-well-on-the-cheap/">The $3 Beef, Veggie, and Noodle Dinner: Backpacking Around the World and Still Eating Well on the Cheap</a></li>
+									<li><a href="/diet_column/04/get-creative-in-the-kitchen-with-diy-taco-seasoning/">Get Creative in the Kitchen with DIY Taco Seasoning</a></li>
+									<li><a href="/diet_column/04/indulge-in-a-smoothie-happy-hour-how-a-splash-of-booze-transforms-your-healthiest-smoothie-recipe/">Indulge in a Smoothie Happy Hour! How a Splash of Booze Transforms Your Healthiest Smoothie Recipe</a></li>
+								</ul>
+				<a href="/diet_column/tag/recipes" class="more_link">more &gt;</a>
+			</div>
+
+			<div class="col4">
+				<span class="module_title celebs">CELEBS</span>
+				<ul>
+									<li><a href="/diet_column/04/kirstie-alleys-organic-and-gmo-food-beliefs-dont-align-with-new-jenny-craig-partnership/">Kirstie Alley's Organic and GMO Food Beliefs Don't Align With New Jenny Craig Partnership</a></li>
+									<li><a href="/diet_column/04/thats-how-i-see-me-kirstie-alley-responds-to-circus-fat-comment-in-jenny-craig-ad/">"That's How I See Me." Kirstie Alley Responds to 'Circus Fat' Comment in Jenny Craig Ad</a></li>
+									<li><a href="/diet_column/04/bobby-flays-recipe-for-getting-in-shape-running-spinning-and-eating/">Bobby Flay's Recipe for Getting in Shape: Running, Spinning, and Eating</a></li>
+									<li><a href="/diet_column/03/celebrity-diet-and-fitness-book-round-up/">3 Hot New Celebrity Diet and Fitness Reads: How You Can Eat and Exercise Like the Stars</a></li>
+				
+				</ul>
+				<a href="/diet_column/tag/celebrities" class="more_link">more &gt;</a>
+			</div>
+			<div class="col4">
+				<span class="module_title family">FAMILY</span>
+				<ul>
+									<li><a href="/diet_column/04/students-not-drinking-enough-water-even-when-its-free/">Students Not Drinking Enough Water, Even When It's Handed to Them</a></li>
+									<li><a href="/diet_column/04/youre-not-crazy-the-cereal-box-is-designed-to-stare-at-you/">You're Not Crazy. The Cereal Box is Designed to Stare at You</a></li>
+									<li><a href="/diet_column/04/look-again-misleading-fast-food-ads-cause-kids-to-identify-apple-slices-as-french-fries/">Look Again! Misleading Fast Food Ads Cause Kids to Identify Apple Slices as French Fries</a></li>
+									<li><a href="/diet_column/03/9717410-places-for-allergy-sufferers-to-avoid-this-spring-and-how-to-cope-if-you-cant/">10 Places for Allergy Sufferers to Avoid this Spring, and How to Cope if You Can't</a></li>
+								</ul>
+				<a href="/diet_column/category/childrens-health" class="more_link">more &gt;</a>
+			</div>
+
+			<div class="col4 last">
+				<span class="module_title fitness">FITNESS</span>
+				<ul>
+									<li><a href="/diet_column/04/michael-phelps-most-inspiring-quotes-could-lure-anyone-back-out-of-retirement/">Michael Phelps' Most Inspiring Quotes Could Lure Anyone Back Out of Retirement</a></li>
+									<li><a href="/diet_column/04/5-fun-ways-to-enjoy-an-adult-spring-break/">5 Fun Ways to Enjoy an Adult Spring Break! </a></li>
+									<li><a href="/diet_column/04/work-it-off-3-ways-to-burn-off-a-612-calorie-margarita/">Work it Off: 3 Ways to Burn Off a 612-Calorie Margarita</a></li>
+									<li><a href="/diet_column/04/kelly-therieau-lost-113-pounds-but-shes-not-focused-on-the-number-ill-stop-when-im-healthy/">Kelly Therieau Lost 113 Pounds But She's Not Focused On The Number - "I'll Stop When I'm Healthy."</a></li>
+				
+				</ul>
+				<a href="/diet_column/tag/fitness" class="more_link">more &gt;</a>
+			</div>
+			<br class="clear" />
+		</div>
+
+
+		<hr>
+
+		<span class="module_title">Latest Videos</span>
+			<a href="/videos" class="more_link">more videos &gt;</a><br class="clear" />
+
+							<div class="col4">
+					<a href="/videos/leslie-sansones-start-walking-2-mile/"><img src="http://i1.ytimg.com/vi/0cE1jxDS3HY/0.jpg" class="recent_vid_thumb" /></a><br />
+					<a href="/videos/leslie-sansones-start-walking-2-mile/">Leslie Sansone's Start Walking 2 Mile</a>
+				</div>
+							<div class="col4">
+					<a href="/videos/motivational-quotes-connecting-with-your-inner-child/"><img src="http://i1.ytimg.com/vi/3gTGv_AjL-M/0.jpg" class="recent_vid_thumb" /></a><br />
+					<a href="/videos/motivational-quotes-connecting-with-your-inner-child/">Motivational Quotes: Connecting With Your Inner Child</a>
+				</div>
+							<div class="col4">
+					<a href="/videos/smarter-science-of-slim-with-brandi-koskie/"><img src="http://i1.ytimg.com/vi/RI47FjTR_W8/0.jpg" class="recent_vid_thumb" /></a><br />
+					<a href="/videos/smarter-science-of-slim-with-brandi-koskie/">Smarter Science of Slim with Brandi Koskie</a>
+				</div>
+							<div class="col4 last">
+					<a href="/videos/healthy-parmesan-white-wine-cream-sauce-recipe/"><img src="http://i1.ytimg.com/vi/BfLwuIiTnSc/0.jpg" class="recent_vid_thumb" /></a><br />
+					<a href="/videos/healthy-parmesan-white-wine-cream-sauce-recipe/">HEALTHY Parmesan White Wine Cream Sauce Recipe</a>
+				</div>
+			
+			<hr style="margin:5px 0">
+
+			<span class="module_title">Latest Diet Reviews</span>
+				<a href="/diets" class="more_link">more diets &gt;</a><br class="clear" />
+
+				
+									<div class="col4" style="text-align:center">
+						<a href="/diets/21-day-tummy/" style="padding-top:10px"><img src="http://dietsinreview.s3.amazonaws.com/originals/diet_logos/21-day-tummy.jpg" class="" /></a><br />
+						<a href="/diets/21-day-tummy/" style="padding-top:10px">21-Day Tummy</a>
+					</div>
+				
+									<div class="col4" style="text-align:center">
+						<a href="/diets/burn-the-fat-feed-the-muscle/" style="padding-top:10px"><img src="http://dietsinreview.s3.amazonaws.com/originals/diet_logos/Burn-the-Fat-Feed-the-Muscle.jpg" class="" /></a><br />
+						<a href="/diets/burn-the-fat-feed-the-muscle/" style="padding-top:10px">Burn the Fat, Feed the Muscle</a>
+					</div>
+				
+									<div class="col4" style="text-align:center">
+						<a href="/diets/the-spark-solution/" style="padding-top:10px"><img src="http://dietsinreview.s3.amazonaws.com/originals/diet_logos/spark-solution-book.jpg" class="" /></a><br />
+						<a href="/diets/the-spark-solution/" style="padding-top:10px">The Spark Solution</a>
+					</div>
+				
+									<div class="col4 last" style="text-align:center">
+						<a href="/diets/the-fit-bottomed-girls-anti-diet/" style="padding-top:10px"><img src="http://dietsinreview.s3.amazonaws.com/originals/diet_logos/FBG Anti Diet.jpg" class="" /></a><br />
+						<a href="/diets/the-fit-bottomed-girls-anti-diet/" style="padding-top:10px">The Fit Bottomed Girls Anti-Diet</a>
+					</div>
+				
+</div><!-- /main_module_wrapper -->
+
+
+
+
+					</div>
+
+				
+				</div><!-- /l_content_col -->
+				
+				<div id="r_content_col"class="lightbg">
+											<div class="r_content_300x250">
+  <div class="ad_300_250_wrapper" id="300x250_ad_slot1">
+    <script type="text/javascript"> var OX_ads = OX_ads || [];OX_ads.push({slot_id:"300x250_ad_slot1", auid:"188886"});</script>  </div>
+</div>											<div class="follow_dir_module">	
+	<span class="module_title" style="font-size:1.9em;margin:0px 0 5px 5px">Keep up with Diets in Review</span>
+
+	<a href="http://www.dietsinreview.com/newsletters" class="follow_dir_link email"></a>
+	<a href="http://www.dietsinreview.com/newsletters" style="float:left">Get Weekly Email Updates</a> <span style="float:left;margin:3px 0 0 5px">(<a class="sample_nl" href="http://www.dietsinreview.com/newsletters/68/New-Nutrition-Guidelines-for-Americans/">sample</a>)</span>
+	<form action="/newsletters/subscribe_async" id="newsletter_subscribe_async" class="newsletter_form">
+		<span id="newsletter_subscribe_async_feedback"></span>
+		<input name="nl_sub_email_address" id="nl_sub_email_address" value="Your email address" size="18">
+		<input name="subscription" value="Diets in Review Newsletter" type="hidden">
+		<input type="submit" value="Subscribe">
+	</form>
+	
+	
+	<a href="http://www.facebook.com/dietsinreview" class="follow_dir_link facebook">Like us on Facebook</a>
+	<a href="http://www.twitter.com/dietsinreview" class="follow_dir_link twitter">Follow us on Twitter</a>
+	<a href="http://www.dietsinreview.com/rss" class="follow_dir_link rss">Subscribe to our RSS</a>
+	<a href="http://www.youtube.com/dietsinreview" class="follow_dir_link youtube">Subscribe to our YouTube Channel</a>
+	<a href="http://pinterest.com/dietsinreview/" class="follow_dir_link pinterest">Follow us on Pinterest</a>
+	<div style="margin-left:4px"><g:plusone href="http://www.dietsinreview.com"></g:plusone></div>
+</div>											
+
+		
+	<fb:recommendations site="www.dietsinreview.com" width="313" height="300" header="true" action="recommend" font="" border_color="#dddddd"></fb:recommendations>
+
+	<br class="clear" />
+											<div class="r_content_300x250">
+  <div class="ad_300_250_wrapper" id="300x250_ad_slot2">
+    <script type="text/javascript"> var OX_ads = OX_ads || [];OX_ads.push({slot_id:"300x250_ad_slot2", auid:"188887"});</script>  </div>
+</div>										
+			
+				</div><!--/r_content_col -->
+
+				<br class="clear" />&nbsp;
+				
+			</div><!-- /content_wrapper --></div>
+			
+<div id="footer" style="clear:both"><img src="http://dietsinreview.s3.amazonaws.com/images/footer_top_white.png" /><div class="content">
+
+
+
+		<div class="linkBlock borderRight">
+			<h3>Customer Service</h3>
+			<ul>
+				<li><a href="/contact/" rel="nofollow">Contact Us</a></li>
+				<li><a href="/press/" rel="nofollow">Press Room</a></li>
+				<li><a href="/sitemap/"	>Site Map</a></li>
+				<li><a href="/about/" rel="nofollow">About Us</a></li>
+				<li><a href="/privacy/" rel="nofollow">Privacy Policy</a></li>
+				<li><a href="/community_guidelines/" rel="nofollow">Community Guidelines</a></li>
+
+			</ul>
+
+		</div>
+
+		<div class="linkBlock">
+			<h3>Quick Links</h3>
+			<ul>
+				<li><a href="/set-mobile-preference/1" rel="nofollow">Mobile Site</a></li>
+				<li><a href="/diets/">Diet Reviews</a></li>
+				<li><a href="/recipes/" title="Healthy Recipes">Healthy Recipes</a></li>
+				<li><a href="/diet_column/" title="Diet Blog">Diet Blog</a></li>
+				<li><a href="/videos/" title="Diet & Fitness Videos">Diet & Fitness Videos</a></li>
+				<li><a href="/resources/" title="Weight Loss Resources">Weight Loss Resources</a></li>
+				<li><a href="/topics/" title="Popular Health and Diet Topics">Popular Health and Diet Topics</a></li>
+				<li><a href="/partners/" title="Weight Loss Partners">Weight Loss Partners</a></li>
+				<li><a href="/users/register/" title="MyDIR">MyDIR</a></li>
+				<li>Visit our partner: <a href="http://www.sheknows.com/channels/beauty-and-style" rel="nofollow"><img src="http://dietsinreview.s3.amazonaws.com/images/sheknows-health-and-beauty.png" alt="SheKnows Health &amp; Beauty" width="165" height="23"></a></li>
+
+			</ul>
+
+		</div>
+
+
+		<form method=post action="/newsletters/subscribe/" accept-charset="UTF-8">
+
+		<div id="newsletterWrapper">
+
+			<h3>Newsletters</h3>
+
+			<label>Email</label>
+	        <input type=text name="data[NewsletterSubscriber][email]" size="14">
+			<br class="clear" />
+
+			<label>First Name</label>
+	        <input type=text name="data[NewsletterSubscriber][first_name]" size="14">
+			<br class="clear" />
+
+			<label>Last Name</label>
+			<input type=text name="data[NewsletterSubscriber][last_name]" size="14">
+			<br class="clear" />
+
+			<label style="width:100%;padding-left:10px;text-align:left"><strong>Our newsletters</strong></label><br class="clear" />
+										<div class="input checkbox"><input type="hidden" name="data[NewsletterSubscriber][interests][Diets in Review Newsletter]" id="NewsletterSubscriberInterestsDietsInReviewNewsletter_" value="0" /><input type="checkbox" name="data[NewsletterSubscriber][interests][Diets in Review Newsletter]" class="checkbox" style="margin-left:15px;margin-top:3px;clear:left;float:left;display:inline;" value="1" id="NewsletterSubscriberInterestsDietsInReviewNewsletter" /></div>				<label style="float:left;display:block;height:20px;width:180px;text-align:left;margin-left:6px;" for="NewsletterSubscriberInterestsDietsinReviewNewsletter" class="checkbox_label"> Diets in Review Newsletter</label>
+							<div class="input checkbox"><input type="hidden" name="data[NewsletterSubscriber][interests][Recipes]" id="NewsletterSubscriberInterestsRecipes_" value="0" /><input type="checkbox" name="data[NewsletterSubscriber][interests][Recipes]" class="checkbox" style="margin-left:15px;margin-top:3px;clear:left;float:left;display:inline;" value="1" id="NewsletterSubscriberInterestsRecipes" /></div>				<label style="float:left;display:block;height:20px;width:180px;text-align:left;margin-left:6px;" for="NewsletterSubscriberInterestsRecipes" class="checkbox_label"> Recipes</label>
+							<div class="input checkbox"><input type="hidden" name="data[NewsletterSubscriber][interests][Blog]" id="NewsletterSubscriberInterestsBlog_" value="0" /><input type="checkbox" name="data[NewsletterSubscriber][interests][Blog]" class="checkbox" style="margin-left:15px;margin-top:3px;clear:left;float:left;display:inline;" value="1" id="NewsletterSubscriberInterestsBlog" /></div>				<label style="float:left;display:block;height:20px;width:180px;text-align:left;margin-left:6px;" for="NewsletterSubscriberInterestsBlog" class="checkbox_label"> Blog</label>
+			
+
+			<input type="hidden" name="data[NewsletterSubscriber][source]" value="DIR Footer Form">
+
+			<input type="submit" name="Submit" value="Submit" style="margin-left:12px;margin-top:10px">
+
+			<br class="clear" />
+
+			</form><br class="clear" />
+	</div>
+
+
+	<div class="linkBlock" style="width:220px;margin-left:30px">
+		<h3>Stay in Touch</h3>
+		<ul class="stayintouch">
+
+			<li><a href="http://www.dietsinreview.com/rss/" rel="nofollow"><span class="rss chiclet"></span></a>&nbsp;&nbsp;<a href="http://www.dietsinreview.com/rss/" rel="nofollow">Subscribe to our RSS feed</a></li>
+
+			<li><a href="http://www.facebook.com/pages/DietsInReviewcom/55367506619" rel="nofollow"><span class="chiclet facebook"></span></a>&nbsp;&nbsp;<a href="http://www.facebook.com/pages/DietsInReviewcom/55367506619" rel="nofollow">Join our Facebook Fan Club</a></li>
+			<li><a href="http://twitter.com/dietsinreview" rel="nofollow"><span class="chiclet twitter"></span></a>&nbsp;&nbsp;<a href="https://twitter.com/dietsinreview" rel="nofollow">Follow us on Twitter</a></li>
+			<li><a href="http://youtube.com/dietsinreview" rel="nofollow"><span class="chiclet youtube"></span></a>&nbsp;&nbsp;<a href="http://youtube.com/dietsinreview" rel="nofollow">Watch us on YouTube</a></li>
+			<li><a href="http://foursquare.com/dietsinreview" rel="nofollow"><span class="chiclet foursquare"></span></a>&nbsp;&nbsp;<a href="http://foursquare.com/dietsinreview" rel="nofollow">Follow us on Foursquare</a></li>
+
+			<li><a href="http://flickr.com/photos/dietsinreview" rel="nofollow"><span class="chiclet flickr"></span></a>&nbsp;&nbsp;<a href="http://flickr.com/photos/dietsinreview" rel="nofollow">See what we're up to on Flickr</a></li>
+		</ul>
+	</div>
+
+
+		<br class="clear" />
+
+
+		<p class="copyright_block" style="clear:both">&copy;2014 Diets in Review</p>
+
+		<p class="disclaimer_block">The information provided within this site is strictly for the purposes of information only and is not a replacement or substitute for professional advice, doctors visit or treatment. The provided content on this site should serve, at most, as a companion to a professional consult. It should under no circumstance replace the advice of your primary care provider. You should always consult your primary care physician prior to starting any new fitness, nutrition or weight loss regime.</p>
+		<br />
+	</div><br class="clear" />
+</div>
+
+<script type="text/javascript" src="http://ox-d.mediarefined.com/w/1.0/jstag"></script>
 
 <script type="text/javascript">
-    // Record the time JS first started executing (for timing information later)
-    window['jsStartTime'] = new Date();
-</script> 
-
-
-<script type="text/javascript" src="http://static2.pbsrc.com/pkg/d7000302a3f15fdc17d409b65257d68fc381d646/head_global_main.js" ></script>
-<!--external head--><!--head scripts-->
-
-<script type="text/javascript">
-    (function () {
-        if (typeof(Pb) !== 'undefined' && Pb.Data) {
-            var data = {
-                version: 'd7000302a3f15fdc17d409b65257d68fc381d646',
-                staticUrl: 'http://static2.pbsrc.com/',
-                picUrl: 'http://pic2.pbsrc.com/'
-            };
-            Pb.Data.init(data);
-        }
-    }());
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
 </script>
 
-<script type="text/javascript">
-(function(){var l = document.location.href, u;if (l.indexOf('#') !== -1 && l.indexOf('&_suid') !== -1) {u = l.split('#')[1];var pos = u.indexOf('&_suid');u = u.substring(0, pos);document.location.href = u;}})();
 
-if (typeof console !== 'undefined') {
-    console.log('head scripts (' + window.location + ') completed after ' + ((new Date()).getTime() - window['jsStartTime']) + 'ms');
-}
-</script>
-</head>
-<body id="homepage" class="desktop">
-    <div class='basicContainer'>
-        <input type="hidden" name="token" id="token" value="5b8af204138675e51d6eb0e30d6aafc6" />
-        <script type="text/javascript">
-    var origURL = document.location.href;
-    var truncatedURL = origURL.split("?", 1);
-    var _comscore = _comscore || [];
 
-    _comscore.push({ c1: "2", c2: "16955838", c4: truncatedURL[0]});
 
-    (function()
-    {
-        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
 
-        s.async = true;
-        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-        el.parentNode.insertBefore(s, el);
-    })();
+			
 
-</script>
+	<?php $sourcevar = $_GET['utm_source']; ?>
 
-<noscript>
-    <p><img src="//b.scorecardresearch.com/p?c1=2&amp;c2=16955838&amp;c3=&amp;c4=http%3A%2F%2Fs304.photobucket.com%2F&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="*" /></p>
-</noscript><div class="navbar desktop loggedout" id="desktopNavigation">
-    <div class="navbar-inner">
-        <div class="container clearfix">
-            <div class="brandMenuContainer" style="float: left;">
-                <a class="brand" href="http://photobucket.com/">
-                                            <img src="http://pic2.pbsrc.com/navigation/brand-logo-text-v2.png" alt="Photobucket" />
-                                    </a>
 
-                    <ul class="nav siteNav">
-        <li id="exploreMenu" class="dropdown "><a href="/browse" class="dropdown-toggle">Browse</a>
-            <ul class="dropdown-menu">
-                <li><a href="http://photobucket.com/browse" onclick="Pb.Track.tr('nav_browse_loggedout_click');">Top Categories</a></li>
-                <li><a href="http://photobucket.com/popular/images" onclick="Pb.Track.tr('nav_popular_loggedout_click');">Popular</a></li>
-                <li><a href="http://photobucket.com/recentuploads" onclick="Pb.Track.tr('nav_recent_loggedout_click');">Recent</a></li>
-                <li><a href="http://photobucket.com/stories" onclick="Pb.Track.tr('nav_stories_loggedout_click');">Stories</a></li>
-                <li><a href="http://blog.photobucket.com" target="_blank" onclick="Pb.Track.tr('nav_blog_loggedout_click');">Blog</a></li>
-            </ul>
-        </li>
-    
-        <li><div class="divider-vertical"></div></li>
-        <li id="editMenu" class="editlo "><a href="http://photobucket.com/editor"  onclick="Pb.Track.tr('nav_edit_loggedout_click');">Edit</a></li>
-    </ul>
-            </div>
-            <div class="uploadContainer">
-                                    <a href="/register" class="upload" id="uploadMenu" onclick="Pb.Track.tr('upload_button_click');"><div class="uploadButton"><i class="icon-arrow-up"></i>UPLOAD</div></a>
-                            </div>
-            <div class="navRightItems">
-                <div class="navItemContainer">
-                <form class="searchbox navbar-search responsive" name="searchBoxForm"
-        >
-    <div class="inputContainer">
-        <input type="hidden" name="searchUrl" value="http://photobucket.com/"/>
-        <input type="hidden" name="type" value="images"/>
-        <input type="text" name="q" autocomplete="off" class="search-query" placeholder="Search Photobucket"/>
-        <div class="searchBoxActions">
-            <a href="#" class="searchTrigger">
-                <span class="icon-search icon-mirrored"></span>
-            </a>
-        </div>
-    </div>
-    <div class="dropdownContainer nav">
-        <div class="dropdown searchTypes">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target="#searchTypes">
-                <b class='caret'></b>
-            </a>
-            <ul class="dropdown-menu">
-                <li class="active" name="images"><a href="#">Photos</a></li>
-                <li name="videos"><a href="#">Videos</a></li>
-                <!-- <li name="stories"><a href="#">Stories</a></li> -->
-                <!-- <li name="albums"><a href="#">Albums</a></li> -->
-                <!-- <li name="groups"><a href="#">Groups</a></li> -->
-                <!-- <li name="users"><a href="#">Users</a></li> -->
-            </ul>
-        </div>
-    </div>
+<form name="flgxfrm_442">
+<input type="hidden" name="id" value="<?php echo $sourcevar; ?>">
+<input type="hidden" name="sid" value="<?=$_GET['utm_medium'];?>">
+<input type="hidden" name="offerID" value="<?=$_GET['utm_campaign'];?>">
+<input type="hidden" name="vertical" value="">
+<input type="hidden" name="offertype" value="Pay Per Click">
+<input type="hidden" name="uniqueID" value="">
 </form>
 
-                                    <ul class="login nav">
-                        <li><div class="divider-vertical"></div></li>
-                        <li id="login-dropdown" class="dropdown">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-target="#login-dropdown">
-                                Log in                                <b class="caret"></b>
-                            </a>
-                            <div class="dropdown-menu">
-                                <div id='loginBox'>
-    <div id="login-left">
-        <a class="register-external register-facebook" href="/auth/facebook/start?callback_type=login&display=popup&mobile=" onclick="return Pb.Component.ExternalSite.Register.register(this, 'dropOver_facebook_login_click');">
-            <div id="register-facebook-button" class="register-button">
-            <div class="register-icon">
-                <i class="icon-facebook"></i>
-            </div>
-            <div class="register-text">
-                Log in            </div>
-        </div>
-    </a>
-<a class="register-external register-twitter" href="/auth/twitter/start?callback_type=login&display=popup&mobile=" onclick="return Pb.Component.ExternalSite.Register.register(this, 'dropOver_twitter_login_click');">
-            <div id="register-twitter-button" class="register-button">
-            <div class="register-icon">
-                <i class="icon-twitter"></i>
-            </div>
-            <div class="register-text">
-                Log in            </div>
-        </div>
-    </a>
-        <p class="signup">
-            Need an account?<br/>
-            <a href="https://secure.photobucket.com/register">Sign up!</a>
-        </p>
-    </div>
-    <div id="login-divider">
-        <div class="or">OR</div>
-    </div>
-    <div id="login-right">
-        <iframe id='loginBoxFrame' name='loginBoxFrame' data-src="http://photobucket.com/loginbox?parentUrl=http://s304.photobucket.com/&mode=dropOver" frameborder="0"></iframe>
-    </div>
-    <div class="clearB"></div>
-</div>
-                            </div>
-                        </li>
-                        <li><div class="divider-vertical"></div></li>
-                        <li><a class="signUpLink" style="color: white" href="https://secure.photobucket.com/register">Sign up</a></li>
-                    </ul>
-                                <ul class="helpMenu nav">
-                    <li><div class="divider-vertical"></div></li>
-                    <li id="helpMenu">
-                        <a href="http://support.photobucket.com/" target="_blank">Help</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script type="text/javascript">
-    Pb.Data.add('isLoggedIn', false);
-        Pb.Data.add('secureUrl', 'https://secure.photobucket.com/');
-</script>
-<div class="homeContainer contentWrapper">
-    <div class="ad billboardAd hide "  data-debug='["viewid=1686765888","size=BILLBOARD","random=492922","area=hp_out","login=N","sp=f","ownername=empty","search_kw=empty","ptype=landing","pos=no_inf","likes=n","spon=empty","adCount=empty","ref_domain=empty","feature=","site=pb2","track=empty"]'>
-
-    <iframe
-        style="width: 970px; height: 250px"
-        class="billboardAd hideIframe" id="adBillboard"
-        frameborder="0" scrolling="no" data-type="BILLBOARD" data-width="970"  marginwidth="0" marginheight="0">
-    </iframe>
-
-    
-    <script type="text/javascript">
-    (function() {
-        var adUrl = '//b.photobucket.com/pbkt/hserver/viewid=1686765888/size=BILLBOARD/random=492922/area=hp_out/login=N/sp=f/ownername=empty/search_kw=empty/ptype=landing/pos=no_inf/likes=n/spon=empty/adCount=empty/ref_domain=empty/feature=/site=pb2/track=empty',
-            rp_valuation = rp_valuation || {}, // global from rubicon dorothy script
-            tier,
-            adSize = 970,
-            adFullSize = "970x250";
-
-                    if (typeof console !== 'undefined') {
-                var now = new Date();
-                console.log('Setting ad adBillboard src to ' + adUrl +
-                    ' (' + (now.getTime() - window['jsStartTime'].getTime()) + 'ms)');
-            }
-            var adunit = $('#adBillboard');
-
-                            $('#adBillboard').attr('src', adUrl);
-                        }());
-    </script>
-</div>
-<div class="ad skinAd hide "  data-debug='["viewid=1686765888","size=SKIN","random=358079","area=hp_out","login=N","sp=f","ownername=empty","search_kw=empty","ptype=landing","pos=no_inf","likes=n","spon=empty","adCount=empty","ref_domain=empty","feature=","site=pb2","track=empty"]'>
-
-    <iframe
-        style="width: 1px; height: 1px"
-        class="skinAd hideIframe" id="adSkin"
-        frameborder="0" scrolling="no" data-type="SKIN" data-width="1"  marginwidth="0" marginheight="0">
-    </iframe>
-
-    
-    <script type="text/javascript">
-    (function() {
-        var adUrl = '//b.photobucket.com/pbkt/hserver/viewid=1686765888/size=SKIN/random=358079/area=hp_out/login=N/sp=f/ownername=empty/search_kw=empty/ptype=landing/pos=no_inf/likes=n/spon=empty/adCount=empty/ref_domain=empty/feature=/site=pb2/track=empty',
-            rp_valuation = rp_valuation || {}, // global from rubicon dorothy script
-            tier,
-            adSize = 1,
-            adFullSize = "1x1";
-
-                    if (typeof console !== 'undefined') {
-                var now = new Date();
-                console.log('Setting ad adSkin src to ' + adUrl +
-                    ' (' + (now.getTime() - window['jsStartTime'].getTime()) + 'ms)');
-            }
-            var adunit = $('#adSkin');
-
-                            $('#adSkin').attr('src', adUrl);
-                        }());
-    </script>
-</div>
-    <div class="heroWrapper">
-        <div class="hero clearfix">
-            <img class="heroImage" src="http://pic2.pbsrc.com/home/march2014/web_lohpHero_shroom.jpg" alt="" />
-            <p class="attribution">Uploaded by: <a href="http://photobucket.com/user/slikezadesktop/profile/">slikezadesktop</a></p>
-            <div class="heroContent">
-                <div>
-                    <h1>Welcome to Photobucket</h1><h2>The best place to store, edit and share<br/>all your photos & videos for free</h2><div class="signUp">
-    <form id="signUpForm" action="https://secure.photobucket.com/action/auth/login" method="post">
-        <input type="hidden" name="register" value="true" />
-        <fieldset class="control-group ">
-        <div class="controls">
-                <input type='text' name='username'
-               value="" id="username" placeholder="Email"   />
-                    <span class="help-inline"></span>
-            </div>
-</fieldset>
-<fieldset class="control-group ">
-        <div class="controls">
-                <input type='password' name='password' 
-               value="" id="password" placeholder="Password" />
-                    <span class="help-inline"></span>
-            </div>
-</fieldset>
-<input type='submit' value="Sign up"
- id="signUpBtn" class="btn-special btn  btn-primary" onclick="Pb.Track.tr('home_sign_up_click'); $(this).closest('form').submit();"    >
-        <div class="externalConnect">
-            or
-            <a class="register-external register-facebook" href="/auth/facebook/start?callback_type=login&display=popup&mobile=" onclick="return Pb.Component.ExternalSite.Register.register(this, 'home_facebook_login_click');">
-            <div class="register-link">
-            <i class="icon-facebook"></i>
-            <span>Facebook Connect</span>
-        </div>
-    </a>
-        </div>
-    </form>
-</div>                </div>
-            </div>
-        </div>
-        <div class="searchBar clearfix">
-    <div class="keywordViewer">
-        <ul class="keywords unstyled">
-            <li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/backgrounds">backgrounds</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/winter%20landscapes">winter landscapes</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/city%20lights">city lights</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/holiday%20photos">holiday photos</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/memes">memes</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/snowboarding">snowboarding</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/nightlife">nightlife</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/winter%20cities">winter cities</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/Superbowl">Superbowl</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/giraffe%20pictures">giraffe pictures</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/coffee%20art">coffee art</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/happy%20birthday">happy birthday</a></h3></li><li><h3><a onclick="Pb.Track.tr('home_keyword_click');" href="http://photobucket.com/images/wallpaper">wallpaper</a></h3></li>        </ul>
-    </div>
-</div>
-    </div>
-    <div class="categories">
-    <div class="categoryViewer">
-        <div class="categoryStrip">
-            <div class="leftCategories categoriesContainer">
-                <img src="http://pic2.pbsrc.com/home/march2014/categories_left.jpg" alt="" usemap="#leftCategoriesMap" />
-                <map name="leftCategoriesMap" class="unstyled categoriesMap">
-                                            <area shape="rect" coords="2,2,126,126" id="left0" 
-                                href="http://photobucket.com/images/tilt%20shift" alt="Tilt Shift" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="128,2,252,126" id="left1" 
-                                href="http://photobucket.com/images/coffee%20art" alt="Coffee Art" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="254,2,378,126" id="left2" 
-                                href="http://photobucket.com/images/summer%20love" alt="Summer Love" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="380,2,504,126" id="left3" 
-                                href="http://photobucket.com/images/dress" alt="Dresses" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="506,2,630,126" id="left4" 
-                                href="http://photobucket.com/images/funny%20animals" alt="Funny Animals" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="632,2,756,126" id="left5" 
-                                href="http://photobucket.com/images/dance" alt="Dance" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="758,2,882,126" id="left6" 
-                                href="http://photobucket.com/images/quotes%20and%20sayings" alt="Quotes and Sayings" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="884,2,1008,126" id="left7" 
-                                href="http://photobucket.com/images/fail" alt="Fails" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1010,2,1134,126" id="left8" 
-                                href="http://photobucket.com/images/dress" alt="Dresses" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1136,2,1260,126" id="left9" 
-                                href="http://photobucket.com/images/macro" alt="Macro" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1262,2,1386,126" id="left10" 
-                                href="http://s1276.photobucket.com/user/staffpicks/library/Animated_GIFs" alt="Gifs" 
-                                 data-image="http://pic2.pbsrc.com//home/march2014/animated_left.gif"  
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1388,2,1638,126" id="left11" 
-                                href="http://s1345.photobucket.com/user/sxk147/story/39121" alt="Viva Peru" 
-                                 
-                                data-width="250" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1640,2,1764,126" id="left12" 
-                                href="http://photobucket.com/images/spring%20showers" alt="April Showers" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1766,2,1890,126" id="left13" 
-                                href="http://photobucket.com/images/color%20splash" alt="Color Splash" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="2,128,126,252" id="left14" 
-                                href="http://photobucket.com/images/school%20memories" alt="School Memories" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="128,128,252,252" id="left15" 
-                                href="http://photobucket.com/images/puppy" alt="Puppies" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="254,128,378,252" id="left16" 
-                                href="http://photobucket.com/images/light%20graffiti" alt="Light Graffiti" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="380,128,504,252" id="left17" 
-                                href="http://photobucket.com/images/spring%20sports" alt="Spring Sports" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="506,128,630,252" id="left18" 
-                                href="http://photobucket.com/browse/Colors" alt="Colors" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="632,128,756,252" id="left19" 
-                                href="http://photobucket.com/browse/Travel" alt="Travel" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="758,128,1008,252" id="left20" 
-                                href="http://s1144.photobucket.com/user/michelleedmunds/story/41339" alt="Four Barrell Coffee" 
-                                 
-                                data-width="250" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1010,128,1134,252" id="left21" 
-                                href="http://photobucket.com/images/yoga" alt="Yoga" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1136,128,1260,252" id="left22" 
-                                href="http://photobucket.com/images/kites" alt="Kites" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1262,128,1386,252" id="left23" 
-                                href="http://photobucket.com/browse/Love" alt="Love" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1388,128,1512,252" id="left24" 
-                                href="http://photobucket.com/images/black%20and%20white" alt="Black + White" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1514,128,1638,252" id="left25" 
-                                href="http://photobucket.com/images/spring%20flowers" alt="Spring Flowers" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1640,128,1764,252" id="left26" 
-                                href="http://photobucket.com/images/cats" alt="Cats" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1766,128,1890,252" id="left27" 
-                                href="http://photobucket.com/images/spring%20sports" alt="Spring Sports" 
-                                 
-                                data-width="124" 
-                                data-height="124" />
-                                    </map>    
-            </div>
-            <div class="ad mrec "  data-debug='["viewid=1686765888","size=RECTANGLE","random=435824","area=hp_out","login=N","sp=f","ownername=empty","search_kw=empty","ptype=landing","pos=no_inf","likes=n","spon=empty","adCount=empty","ref_domain=empty","feature=","site=pb2","track=empty"]'>
-
-    <iframe
-        style="width: 300px; height: 250px"
-        class="mrecIframe" id="mrec"
-        frameborder="0" scrolling="no" data-type="RECTANGLE" data-width="300"  marginwidth="0" marginheight="0">
-    </iframe>
-
-            <a class="adfree" href="http://photobucket.com/pricing/adfree" onclick="Pb.Track.tr('pricing_mrec_adfree_click');">Go Ad Free with Plus</a>
-    
-    <script type="text/javascript">
-    (function() {
-        var adUrl = 'http://photobucket.adnxs.com/pt?inv_code=hp_out&size=300x250&member=86&redir=%2F%2Fb.photobucket.com%2Fpbkt%2Fhserver%2Fviewid%3D1686765888%2Fsize%3DRECTANGLE%2Frandom%3D435824%2Farea%3Dhp_out%2Flogin%3DN%2Fsp%3Df%2Fownername%3Dempty%2Fsearch_kw%3Dempty%2Fptype%3Dlanding%2Fpos%3Dno_inf%2Flikes%3Dn%2Fspon%3Dempty%2FadCount%3Dempty%2Fref_domain%3Dempty%2Ffeature%3D%2Fsite%3Dpb2%2Ftrack%3Dempty/anprice={PRICEBUCKET}/generic={BIDURLENC}',
-            rp_valuation = rp_valuation || {}, // global from rubicon dorothy script
-            tier,
-            adSize = 300,
-            adFullSize = "300x250";
-
-                            if( typeof amznads !== 'undefined') {
-                var keys = amznads.getKeys(adFullSize);
-
-                for (var i =0; i < keys.length; i++) {
-                    var key = keys[i];
-                    adUrl += escape('/'+key+'=1');
-                }
-            }
-
-            if (typeof(GlamIsAvailable) === 'function') {
-                var glam, gadadid, gadsz, gadreqid;
-
-                if (GlamIsAvailable('RECTANGLE')) {
-                    glam = '1';
-                } else {
-                    glam = '';
-                }
-
-                var gadobj = GlamGetSlotObject('RECTANGLE');
-
-                if (gadobj) {
-                    gadadid = gadobj.adid ? gadobj.adid : '';
-                    gadsz = gadobj.sz ? gadobj.sz : '';
-                    gadreqid = gadobj.reqid ? gadobj.reqid : '';
-                } else {
-                    gadadid = '';
-                    gadsz = '';
-                    gadreqid = '';
-                }
-
-                adUrl += escape('/glam300=' + glam);
-                adUrl += escape('/gadadid=' + gadadid);
-                adUrl += escape('/gadsz=' + gadsz);
-                adUrl += escape('/gadreqid=' + gadreqid);
-            }
-
-
-            if (typeof(rp_valuation.estimate) !== "undefined" && typeof(rp_valuation.estimate.tier) !== "undefined") {
-                tier = rp_valuation.estimate.tier;
-                adUrl += escape("/rp_tier=" + tier);
-            }
-
-                        if (typeof(crtg_content) !== 'undefined' && crtg_content !== '') {
-                if (adSize == 300 && crtg_content.lastIndexOf('pb300=1') !== -1) {
-                    adUrl += escape('/pb300=1');
-                } else if (adSize == 728 && crtg_content.lastIndexOf('pb728=1') !== -1) {
-                    adUrl += escape('/pb728=1');
-                } else if (adSize == 160 && crtg_content.lastIndexOf('pb160=1') !== -1) {
-                    adUrl += escape('/pb160=1');
-                }
-            }
-                if (typeof console !== 'undefined') {
-                var now = new Date();
-                console.log('Setting ad mrec src to ' + adUrl +
-                    ' (' + (now.getTime() - window['jsStartTime'].getTime()) + 'ms)');
-            }
-            var adunit = $('#mrec');
-
-                            $('#mrec').attr('src', adUrl);
-                        }());
-    </script>
-</div>
-            <div class="rightCategories categoriesContainer">
-                <img src="http://pic2.pbsrc.com/home/march2014/categories_right.jpg" alt="" usemap="#rightCategoriesMap" />
-                <map name="rightCategoriesMap" class="unstyled categoriesMap">
-                                            <area shape="rect" coords="2,2,126,126"  id="right0" 
-                                href="http://photobucket.com/images/bokeh" alt="Bokeh" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="128,2,252,126"  id="right1" 
-                                href="http://photobucket.com/images/spring%20showers" alt="April Showers" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="254,2,378,126"  id="right2" 
-                                href="http://s1276.photobucket.com/user/staffpicks/library/Animated_GIFs" alt="April Fools" 
-                                 data-image="http://pic2.pbsrc.com//home/march2014/animated_right.gif"                                 data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="380,2,504,126"  id="right3" 
-                                href="http://s1245.photobucket.com/user/PB_Loves/library/Chin%20Up?sort=2&page=1" alt="Chin Up" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="506,2,630,126"  id="right4" 
-                                href="http://photobucket.com/images/Beach%20shot" alt="Beach Shots" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="632,2,882,126"  id="right5" 
-                                href="http://s1260.photobucket.com/user/KimStarPhoto/story/779" alt="Scotland Island Life" 
-                                                                data-width="250" 
-                                data-height="124" />
-                                            <area shape="rect" coords="884,2,1008,126"  id="right6" 
-                                href="http://photobucket.com/browse/Nature" alt="Nature" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1010,2,1134,126"  id="right7" 
-                                href="http://photobucket.com/browse/Art" alt="Art" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1136,2,1260,126"  id="right8" 
-                                href="http://photobucket.com/images/vintage%20fashion" alt="Vintage Fashion" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1262,2,1386,126"  id="right9" 
-                                href="http://photobucket.com/browse/Cars" alt="Cars" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="2,128,126,252"  id="right10" 
-                                href="http://photobucket.com/browse/baseball" alt="Baseball" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="128,128,378,252"  id="right11" 
-                                href="http://s1088.photobucket.com/user/kabolste/story/14267" alt="Colorado Farm Dinner" 
-                                                                data-width="250" 
-                                data-height="124" />
-                                            <area shape="rect" coords="380,128,504,252"  id="right12" 
-                                href="http://photobucket.com/images/baby" alt="Babies" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="506,128,630,252"  id="right13" 
-                                href="http://photobucket.com/images/holga" alt="Holga" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="632,128,756,252"  id="right14" 
-                                href="http://photobucket.com/images/panoramic" alt="Landscapes" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="758,128,882,252"  id="right15" 
-                                href="http://photobucket.com/images/hand%20heart" alt="Heart Hands" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="884,128,1008,252"  id="right16" 
-                                href="http://photobucket.com/images/80s" alt="80's" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1010,128,1134,252"  id="right17" 
-                                href="http://photobucket.com/images/family%20vintage" alt="Vintage" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1136,128,1260,252"  id="right18" 
-                                href="http://photobucket.com/images/cats" alt="Cats!" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                            <area shape="rect" coords="1262,128,1386,252"  id="right19" 
-                                href="http://photobucket.com/images/Waves" alt="Waves" 
-                                                                data-width="124" 
-                                data-height="124" />
-                                    </map>    
-            </div>
-        </div>
-        <span class="arrow leftArrow"><i class="icon-chevron-left"></i></span>
-        <span class="arrow rightArrow"><i class="icon-chevron-right"></i></span>
-    </div>
-</div></div>
-
-<div id="footer" data-offset="65" class="beveledEdgeTop dark">
-    <div class="footerInner">
-        <div class="siteLinks copy">
-            <span>
-                <a href="http://photobucket.com/learn/upload"
- id="uploadPhotosLnk" class="btn-link"    >
-Upload Photos</a>
-<a href="http://photobucket.com/learn/create"
- id="editPhotosLnk" class="btn-link"    >
-Photo Editor</a>
-<a href="http://photobucket.com/learn/share"
- id="sharePhotosLnk" class="btn-link"    >
-Photo Sharing</a>
-<a href="http://photobucket.com/desktop"
- id="backupPhotosLnk" class="btn-link"    >
-Photo Backup</a>
-<a href="javascript:void(0);"
- id="printPhotosLnk" class="btn-link" onclick="window.open('http://photobucket.lifepics.com','_blank');" TARGET="_BLANK"     >
-Order Prints</a>
-<a href="http://photobucket.com/stories"
- id="storiesLnk" class="btn-link"    >
-Stories</a>
-            </span>
-            <span class="hangRight">
-                <a href="http://blog.photobucket.com/"
- id="blogLnk" class="btn-link" TARGET="_BLANK"     >
-Blog</a>
-<a href="http://blog.photobucket.com/advertise-with-us/"
- id="advertiseLnk" class="btn-link" TARGET="_BLANK"     >
-Advertise with Us</a>
-<a href="http://pic.pbsrc.com/dev_help/WebHelpPublic/PhotobucketPublicHelp.htm"
- id="devLnk" class="btn-link" TARGET="_BLANK"     >
-Developer</a>
-            </span>
-        </div>
-        <div class="copy">
-            <span>
-                <a href="http://photobucket.com/mobile"
- id="mobileAppsLnk" class="btn-link"    >
-        <i class='icon-mobile-phone'></i>
-Mobile Photo Apps</a>
-<a href="https://www.facebook.com/photobucket"
- id="facebookLnk" class="btn-link" TARGET="_BLANK"     >
-        <i class='icon-facebook'></i>
-Facebook</a>
-<a href="https://twitter.com/photobucket"
- id="twitterLnk" class="btn-link" TARGET="_BLANK"     >
-        <i class='icon-twitter'></i>
-Twitter</a>
-            </span>
-            <span class="hangRight">
-                <a href="http://photobucket.com/terms"
- id="termsLnk" class="btn-link"    >
-Terms</a>
-<a href="http://photobucket.com/privacy"
- id="privacyPolicyLnk" class="btn-link"    >
-Privacy Policy</a>
-                <div class="copyRightDate">&copy; 2014 Photobucket</div>
-            </span>
-        </div>
-
-    </div>
-</div>
-
-
-    </div>
-
-    <script type="text/javascript">
-    var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-245455-1']);
-        _gaq.push(['_setDomainName', 'photobucket.com']);
-        _gaq.push(['_setAllowHash', false]);
-
-            
-        _gaq.push(['_trackPageview']);
-            
-                _gaq.push($.merge(['_trackEvent'], ["pbtng","page view","loggedout:home",null,true]));
-                
-    (function() {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript';
-        ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-</script>
-<noscript>
-    <img src="http://www.google-analytics.com/__utm.gif?utmwv=1&utmn=664710750&utmhn=s304.photobucket.com&utmr=-&utmp=%2F&utmac=UA-245455-10&utmvid=0x49cfe0cc1af593c2&utmip=10.4.32.0&utmcc=__utma%3D16865911.664710750.1396484386.1396484386.1396484386.2%3B%2B__utmb%3D16865911%3B%2B__utmc%3D16865911%3B%2B__utmz%3D16865911.1396484386.2.2.utmccn%3D(direct)|utmcsr%3D(direct)|utmcmd%3D(none)%3B%2B__utmv%3D16865911.featurephone%3B" />
-</noscript>
-<script type="text/javascript">
-    (function()
-    {
-        var d = new Image(1, 1);
-        d.onerror = d.onload = function()
-        {
-            d.onerror = d.onload = null;
-        };
-
-        d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-904896h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
-      })();
-</script>
+<div id="flpx_442_708" style="display:none;"></div>
 
 <noscript>
-    <div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-904896h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /></div>
+	<div style="display:none"><img src="http://flx442.lporirxe.com/flp/mngpix.php?qid=630373f5830373f5234343&id=<AffiliateID>&sid=<SubID>&uid=<Transaction/Uniqiue ID>&oid=<Offer ID>" /></div>
 </noscript>
-<script type="text/javascript">
-Pb.InitEventQueue.addToPageLoad(function(){
-    var srcUrl = '//loadus.exelator.com/load/?p=391&g=1&kw=&';
-    $.getScript(srcUrl);
-}, Pb.InitEventQueue.LOW_PRIORITY);
-</script>
-        <iframe id="liveramp_beacon" name="_rlcdn" width=0 height=0 frameborder=0 data-src="//rc.rlcdn.com/2981.html" style="display: none;"></iframe> 
-    
-    <script type="text/javascript">
-    Pb.InitEventQueue.addToPageLoad(function(){
-        setTimeout(function() {
-            var el = $('#liveramp_beacon');
-            el.attr('src', el.data('src'));
-            Pb.Track.tr("liveramp_beacon_fired");
-        }, 1000);
-    }, Pb.InitEventQueue.LOW_PRIORITY);
-    </script>
-<script type="text/javascript">
-$.ajax({
-    url: '//tags.crwdcntrl.net/c/283/cc.js',
-    cache: true,
-    dataType: 'script',
-    success: function() {
-        if (typeof LOTCC_283 !== 'undefined') {
-                        LOTCC_283.bcp();
-        }
-    }
-});
-</script>
-<!-- Quantcast Tag -->
-<script type="text/javascript">
-    var _qevents = _qevents || [];
 
-    (function() {
-        var elem = document.createElement('script');
-        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-        elem.async = true;
-        elem.type = "text/javascript";
-        var scpt = document.getElementsByTagName('script')[0];
-        scpt.parentNode.insertBefore(elem, scpt);
-    })();
-
-    _qevents.push({
-        qacct:"p-176oj9BMkd_hw"
-    });
+<script type="text/javascript" language="javascript">
+var _flbtn="";
+(function(){
+	var tci="flx442";
+	var flcachebuster = Math.round((new Date()).getTime() / 1000);
+	document.write(unescape("%3Cscript src='"+((document.location.protocol=='https:') ?
+	'https://'+tci+'.lporirxe.com' : 'http://'+tci+'.lporirxe.com')+"/"+"flp"+"/"+"ncvp.js?"
+	+'c=442'+'&i='+flcachebuster+"' type='text/javascript' charset='ISO-8859-1'%3E%3C/script%3E"));
+})();
 </script>
 
-<noscript>
-    <div style="display:none;">
-        <img src="//pixel.quantserve.com/pixel/p-176oj9BMkd_hw.gif" border="0" height="1" width="1" alt="Quantcast"/>
-    </div>
-</noscript>
-<!-- End Quantcast tag -->
-<script type="text/javascript" src="http://static2.pbsrc.com/pkg/d7000302a3f15fdc17d409b65257d68fc381d646/deferred_home_homepage.js" ></script>
-<script type="text/javascript" src="http://static2.pbsrc.com/pkg/d7000302a3f15fdc17d409b65257d68fc381d646/deferred_home_homepage_templates.js" ></script>
-    <script type="text/javascript">
-        Pb.JSTemplates.setupTemplates();
-    </script>
-    <script type="text/javascript">
-    Pb.Data.add('loginModal', {"id":"loginModal","className":"loginModal no-footer","buttons":[],"title":"Log in to get started.","static":"data-backdrop=\"static\"","templateName":"#loginModalTemplate","hasFooter":false,"includeForm":true,"loginBox":{"iframeUrl":"http:\/\/photobucket.com\/loginbox?parentUrl=http:\/\/s304.photobucket.com\/&mode=loginModal","registerUrl":"https:\/\/secure.photobucket.com\/register","facebookLogin":{"buttonText":"Log in","tracking":"loginModal_facebook_login_click","service":"facebook","registerUrl":"\/auth\/facebook\/start?callback_type=login&display=popup&mobile="},"twitterLogin":{"buttonText":"Log in","tracking":"loginModal_twitter_login_click","service":"twitter","registerUrl":"\/auth\/twitter\/start?callback_type=login&display=popup&mobile="}}});
+
+<script>
+(function(){
+	FLPXobj.procinit(['442','708']);
+	var myto = setInterval(function(){
+		clearInterval(myto);
+		var status = FLPXobj.pxstatus;
+	},400);
+})();
 </script>
-
-<!--external deferred--><script type="text/javascript" >Pb.Form.addHash("#signUpForm");</script>
-
-</body>
+			
+	</body>
 </html>

@@ -1,574 +1,586 @@
-<!DOCTYPE html><!--[if lt IE 7]><html itemscope="" itemtype="http://schema.org/Organization" class="ie ie6 no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><![endif]--><!--[if IE 7]><html itemscope="" itemtype="http://schema.org/Organization" class="ie ie7 no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><![endif]--><!--[if IE 8]><html itemscope="" itemtype="http://schema.org/Organization" class="ie ie8 no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><![endif]--><!--[if gte IE 9]><html itemscope="" itemtype="http://schema.org/Organization" class="ie ie9 gte-ie9 no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><![endif]--><!--[if !IE]><!--><html itemscope="" itemtype="http://schema.org/Organization" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" class="no-js"><!--<![endif]-->
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# zillow_fb: http://ogp.me/ns/fb/zillow_fb# profile: http://ogp.me/ns/profile#">
-<meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=8, IE=9"/><title>Zillow: Real Estate, Apartments, Mortgage &amp; Home Values in the US</title><link rel="publisher" href="https://plus.google.com/100246012832518642551"/><meta name="google-site-verification" content="BrsLG-prhbSnrKSnomnXYVyAo_vd_VJnOh28vGXYGEs"/><meta name="msvalidate.01" content="D002B788494C63AC593FB8ADE2F8FB5B"/><meta content="Fast, free, thorough home search on America's most popular web portal, covering real estate, apartments, mortgages, school data, and home improvement ideas." name="description"></meta><meta name="verify-v1" content="/8Me6HBNZX/rt2n5/y1Lo3ZIrkcvkTBimqviTDiurR4="/><meta name="y_key" content="7cb4abe457d82ae8"/><meta http-equiv="imagetoolbar" content="false"/><link rel="canonical" href="http://www.zillow.com/"></link><meta itemprop="name" content="Zillow Real Estate, Rentals, and Mortgage"/><meta itemprop="description" content="The most trafficked website about home sales and rentals, with real estate values for almost every U.S. home. 1,000,000 listings that you won't find on MLS."/><meta content="http://www.zillowstatic.com/static/images/social/share_thumbnail.png" itemprop="image"></meta><meta content="#3366b8" name="msapplication-TileColor"></meta><meta content="http://www.zillowstatic.com/static/images/logos/zillow-logo-win8-tile.png" name="msapplication-TileImage"></meta><script>var ZILLOW={};
-	(function (w,d) {
-	if(top!=self){top.location.replace(self.location.href);}
-    var h=d.getElementsByTagName('html')[0];h.className=h.className.replace(/(?:^|\s)no-js(?!\S)/g,'');
-	var l=w.location,a=l.hash,sn,snr=/scrnnm=[^&\}]+/;if(a&&a.indexOf('scrnnm')>0&&(sn=a.match(snr)[0])){
-	a=l.hash.replace(snr,'');a=a.replace(/&&/,'&').replace(/\{&/,'{').replace(/&\}/,'}').replace(/\{\}/,'');
-	w.location=l.protocol+'//'+l.host+l.pathname+(l.search?l.search+'&'+sn:'?'+sn)+a;}
-    ZILLOW.facebookSdkUrl='//connect.facebook.net/en_US/all.js';
-    
-        /*@cc_on
-        var q=d.createElement('div');q.innerHTML='<z>i</z>';q.childNodes.length!==1&&('abbr article aside audio canvas details figcaption '+
-        'figure footer header hgroup mark meter nav output progress section summary time video').replace(/\w+/g,function(n){d.createElement(n)});
-        @*/
-    
-    })(this,document);
-	
-	var profiledEvents = [],
-		initializedAt = +new Date(),
-		profile = function (eventString) {
-			if (eventString) {
-				profiledEvents.push(((+new Date()) - initializedAt) + ' ' + eventString);
-			}
-		};
-	profile('profiler started');
-	var ClientProfiler = {
-		profile: profile,
-		getProfiledEvents: function () {
-			return profiledEvents;
-		}
-	};
-	var oldErr = window.onerror,
-	   cpErrors = 0,
-	   CP_ERROR_LIMIT = 5;
-	   window.onerror=function (msg, url, line) {
-        if (CP_ERROR_LIMIT > cpErrors) {
-            try {
-                cpErrors++;
-                var logPath = '/ui/ClientProblem.htm',
-                    logUri = 'c=uncaught&m=' + encodeURI(msg)
-                        + '&u=' + encodeURI(url)
-                        + '&l=' + encodeURI(line)
-                        + '&r=' + encodeURI(document.referrer),
-                    logUrl = logPath + '?' + logUri;
-                var img = new Image().src = logUrl;
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<html lang="en-US">
 
-                // handle previous onerror.
-                if (oldErr) {
-                    return oldErr(errorMsg, url, lineNumber);
-                }
-                return false;
-            } catch (e) {
-                if (console && console.error) {
-                    console.error("Couldn't log error.", e);
-                }
-            }
-        }
+<link rel="icon" type="image/png" href="http://www.treebicycleco.com/wp-content/uploads/favicon.png" />
 
-    };
+<head>
+<!--[if !IE]><!-->
+<style type="text/css">
+
+#storebutton {
+	position: relative;
+	left: 13px;
+	float:right;
+	clear: both;
+	top:150px;
+	width:113px;
+	height:50px;
+	z-index:5;
+	border: 0px;
 	
-	var _gaq = _gaq || [];
-    var _gaqBackup = _gaqBackup || [];
-	</script><link href="http://www.zillowstatic.com/vstatic/ec63712/static/css/master.css" type="text/css" rel="stylesheet" media="screen"/><link href="http://www.zillowstatic.com/vstatic/ec63712/static/css/z-pages/homepage-base.css" type="text/css" rel="stylesheet" media="screen"/><link rel="stylesheet" type="text/css" media="all" href="http://www.zillowstatic.com/c/ec63712/lib?css/z-themes/tengage-upsells.css&amp;css/z-modules/debug-bar.css"></link><!--[if (IE 7)]><link href="http://www.zillowstatic.com/vstatic/ec63712/static/css/ie7.css" type="text/css" rel="stylesheet" media="screen"/><![endif]--><!--[if (lte IE 8)]><link href="http://www.zillowstatic.com/vstatic/ec63712/static/css/z-modules/ie-messaging.css" type="text/css" rel="stylesheet" media="screen"/><![endif]--><script>ClientProfiler.profile('css finished');</script><link rel="start" title="Zillow home" href="/"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport"></meta><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><link rel="apple-touch-icon" href="http://www.zillowstatic.com/static/images/m/apple-touch-icon.png"></link><!--[if gte IE 9]><link rel="shortcut icon" href="/static/images/ie9_favicon.ico" type="image/x-icon"/><![endif]--><meta name="ROBOTS" content="ALL"/><meta name="ROBOTS" content="NOYDIR"/><meta name="ROBOTS" content="NOODP"/><meta name="author" content="Zillow, Inc."/><meta name="Copyright" content="Copyright (c) 2006-2013 Zillow, Inc."/><meta property="fb:app_id" content="172285552816089"/><meta property="og:type" content="website"/><meta property="og:url" content="http://www.facebook.com/zillow"/><meta property="og:site_name" content="Zillow"/><meta property="og:title" content="Zillow: Real Estate, Apartments, Mortgage & Home Values in the US"/><meta property="og:image" content="http://www.zillowstatic.com/static/images/m/apple-touch-icon.png"/><meta property="og:description" content="Fast, free, thorough home search on America's most popular web portal, covering real estate, apartments, mortgages, school data, and home improvement ideas."/><script src="http://www.zillowstatic.com/static/fsr/6.4.5/foresee-trigger.js" type="text/javascript"></script><script type="text/javascript">
-FSR.CPPS.set('Foresee_Sessionid', '3A470C339D711B9297A215B6A13937FC');
-FSR.CPPS.set('Foresee_Guid',    '');
-FSR.CPPS.set('Foresee_Zuid',    '');
-FSR.CPPS.set('Foresee_BestZip', '');
-FSR.CPPS.set('Foresee_SideBySideMapList', 'true');
-FSR.CPPS.set('Foresee_SHO_MAGIC_CARPET', 'CONTROL');
-</script></head>
-<body id="home" class="zss-home  header-fresh zss-no-touch is-responsive zss-wide-layout tengage wide">
-<script>ClientProfiler.profile('html body started');</script><a name="top" id="top"></a><div id="wrapper" class="home-page"><header class=" zss-header"><nav class="nav-wrapper"><div id="header" class="page-width-wrapper"><a class="skiplink" href="#contentstart">Skip to content</a><a href="http://www.zillow.com/" title="Zillow Real Estate" class="zss-logo zss-logo-link" accesskey="1"><span class="zss-logo-text">Zillow Real Estate &amp;amp; Homes for Sale</span></a><div class="zss-mobile-header"><div class="responsive-page-title">Find your home</div></div><div class="nav-main"><div class="nav-primary"><ul class="l-inline zss-nav dropdown-hoverable no-ancillary-nav"><li data-nav-level="1" class="dropdown homes-tab top-nav-tab rollable"><a href="/homes/for_sale/" class="nav-item nav-primary-item nav-item-button dropdown-trigger responsive-nav-item" data-ga-action="Homes" id="top-nav-homes" data-overflow-item-class="zss-responsive-nav-item" title="Homes" data-ga-category="TopNav" data-ga-label="None">Homes</a><div class="dropdown-bd"><ul class="dropdown-content nav l-stacked"><li><a href="/homes/for_sale/" class="nav-item track-ga-event" data-ga-action="Homes" title="Homes For Sale" data-ga-category="TopNav" data-ga-label="Homes For Sale"> Homes For Sale</a></li><li><a href="/homes/fsbo/" class="nav-item track-ga-event" data-ga-action="Homes" title="Homes For Sale By Owner" data-ga-category="TopNav" data-ga-label="For Sale By Owner"> Homes For Sale By Owner</a></li><li><a href="/homes/for_sale/fore_lt/pmf,pf_pt/" class="nav-item track-ga-event" data-ga-action="Homes" title="Foreclosures" data-ga-category="TopNav" data-ga-label="Foreclosures"> Foreclosures</a></li><li><a href="/homes/for_sale/1_open/" class="nav-item track-ga-event" data-ga-action="Homes" title="Open Houses" data-ga-category="TopNav" data-ga-label="Open Houses"> Open Houses</a></li><li><a href="/homes/new_homes/" class="nav-item track-ga-event" data-ga-action="Homes" title="New Homes" data-ga-category="TopNav" data-ga-label="New Homes"> New Homes</a></li><li><a href="/homes/make_me_move/" class="nav-item track-ga-event" data-ga-action="Homes" title="Pre-Market Homes" data-ga-category="TopNav" data-ga-label="Pre-Market Homes"> Pre-Market Homes</a></li><li><a href="/homes/recently_sold/" class="nav-item track-ga-event" data-ga-action="Homes" title="Recent Home Sales" data-ga-category="TopNav" data-ga-label="Recent Home Sales"> Recent Home Sales</a></li><li><a href="/homes/browse/" title="Browse All Homes" data-ga-category="TopNav" data-ga-label="Browse All Homes" class="nav-item track-ga-event" data-ga-action="Homes">Browse All Homes</a></li></ul><dl class="dropdown-content nav"><dt class="nav-subtitle">Post a Home For Free</dt><dd><a href="/for-sale-by-owner/" title="For Sale by Owner" data-za-category="Posting" data-za-action="FSBO" class="nav-item za-track-event" data-za-label="Top Nav">For Sale by Owner</a></dd><dd><a href="/post-real-estate-listings/" title="For Sale by Agent" data-za-category="Posting" data-za-action="FSBA" class="nav-item za-track-event" data-za-label="Top Nav">For Sale by Agent</a></dd><dd><a href="/make-me-move/" title="Make Me Move" data-za-category="Posting" data-za-action="MMM" class="nav-item za-track-event" data-za-label="Top Nav">Make Me Move</a></dd></dl></div></li><li data-nav-level="1" class="dropdown rentals-tab top-nav-tab rollable"><a href="/homes/for_rent/" class="nav-item nav-primary-item nav-item-button dropdown-trigger responsive-nav-item" data-ga-action="Rentals" id="top-nav-rentals" data-overflow-item-class="zss-responsive-nav-item" title="Rentals" data-ga-category="TopNav" data-ga-label="None">Rentals</a><div class="dropdown-bd"><ul class="dropdown-content nav l-stacked"><li><a href="/homes/for_rent/" class="nav-item track-ga-event" data-ga-action="Rentals" title="Apartments For Rent" data-ga-category="TopNav" data-ga-label="Apartments for Rent"> Apartments For Rent</a></li><li><a href="/homes/for_rent/house_type/" class="nav-item track-ga-event" data-ga-action="Rentals" title="Houses For Rent" data-ga-category="TopNav" data-ga-label="Homes for Rent"> Houses For Rent</a></li><li><a href="/rentals/quiz/" title="Rental IQ Quiz" class="nav-item track-ga-event" data-ga-category="TopNav" data-ga-action="Rental" data-ga-label="Rental IQ Quiz">Rental IQ Quiz</a></li></ul><dl class="dropdown-content nav"><dd><a href="/rent/guide/" title="Renter Guide" class="nav-item track-ga-event" data-ga-category="TopNav" data-ga-action="Renter Guide" data-ga-label="Renter Guide">Renter's Guide</a></dd></dl><dl class="dropdown-content nav"><dd class="dropdown-btn-ian"><a href="/post-rental-listings/?source=topnav" title="Post a Rental For Free" data-ga-category="Posting" data-ga-label="Top Nav" class="inline-button " data-ga-action="Rental">Post a Rental For Free</a></dd></dl></div></li><li data-nav-level="2" class="dropdown mortgage-tab top-nav-tab rollable"><a href="/mortgage-rates/" id="top-nav-Mortgage" data-overflow-item-class="zss-responsive-nav-item" title="Mortgages" data-ga-category="TopNav" data-ga-label="None" class="nav-item nav-primary-item nav-item-button dropdown-trigger responsive-nav-item" data-ga-action="Mortgage Rates">Mortgages</a><div class="dropdown-bd"><ul class="dropdown-content nav l-stacked"><li><a href="/mortgage-rates/" title="Mortgage Rates" data-ga-category="TopNav" data-ga-label="Mortgage Rates" class="nav-item track-ga-event" data-ga-action="Mortgage Rates"><span class="region-name"></span> Mortgage Rates</a></li><li><a href="/refinance/" title="Refinance" data-ga-category="TopNav" data-ga-label="Refinance" class="nav-item track-ga-event" data-ga-action="Mortgage Rates"><span class="region-name"></span> Refinance</a></li></ul><dl class="dropdown-content nav"><dt class="nav-subtitle">Calculators</dt><dd><a href="/mortgage-calculator/" title="Mortgage Calculator" data-ga-category="TopNav" data-ga-label="Mortgage Calculator" class="nav-item track-ga-event" data-ga-action="Mortgage Rates">Mortgage Calculator</a></dd><dd><a href="/mortgage-calculator/refinance-calculator/" title="Refinance Calculator" data-ga-category="TopNav" data-ga-label="Refinance Calculator" class="nav-item track-ga-event" data-ga-action="Mortgage Rates">Refinance Calculator</a></dd><dd><a href="/mortgage-calculator/house-affordability/" title="Affordability Calculator" data-ga-category="TopNav" data-ga-label="Affordability Calculator" class="nav-item track-ga-event" data-ga-action="Mortgage Rates">Affordability Calculator</a></dd></dl><dl class="dropdown-content nav"><dt class="nav-subtitle">Popular</dt><dd><a href="/mortgage-rates/finding-the-right-loan/fha-loan/" title="FHA Loan" data-ga-category="TopNav" data-ga-label="FHA Loan" class="nav-item track-ga-event" data-ga-action="Mortgage Rates">FHA Loan</a></dd><dd><a href="/mortgage-rates/finding-the-right-loan/home-equity-mortgage/" title="Home Equity Loan" data-ga-category="TopNav" data-ga-label="Home Equity Loan" class="nav-item track-ga-event" data-ga-action="Mortgage Rates">Home Equity Loan</a></dd></dl><dl class="dropdown-content nav"><dt class="nav-subtitle">Tools</dt><dd><a href="/mortgage-rates/" title="Get Custom Quotes" data-ga-category="TopNav" data-ga-label="Get Custom Quotes" class="nav-item track-ga-event" data-ga-action="Mortgage Rates">Get Custom Quotes</a></dd><dd><a href="/mortgage-calculator/harp-eligibility/" title="HARP Program" data-ga-category="TopNav" data-ga-label="HARP Program" class="nav-item track-ga-event" data-ga-action="HARP Program">HARP Program</a></dd><dd><a href="/mortgage-rates/learn/" title="Mortgage Education Center" data-ga-category="TopNav" data-ga-label="Mortgage Education Center" class="nav-item track-ga-event" data-ga-action="Mortgage Rates">Mortgage Education Center</a></dd></dl></div></li><li data-nav-level="3" class="dropdown advice-tab top-nav-tab rollable"><a href="http://www.zillow.com/advice/" data-overflow-item-class="more-advice" title="Advice" data-ga-category="TopNav" data-ga-label="None" class="nav-item nav-primary-item nav-item-button dropdown-trigger responsive-nav-item" data-ga-action="Advice">Advice</a><div class="dropdown-bd"><dl class="dropdown-content nav"><dt class="nav-subtitle">Join Our Discussions</dt><dd><a href="http://www.zillow.com/advice/" title="Real Estate Forum" data-ga-category="TopNav" data-ga-label="Real Estate Forum" class="nav-item track-ga-event" data-ga-action="Advice">Real Estate Forum</a></dd><dd><a href="http://www.zillow.com/advice/US/mortgage/question-discussion-guide/" title="Mortgage Forum" data-ga-category="TopNav" data-ga-label="Mortgage Forum" class="nav-item track-ga-event" data-ga-action="Advice">Mortgage Forum</a></dd><dd><a href="/advice/United-States%253B%253B%253B%253B%253B%253B%253B%253B/zillow-questions/discussion/" title="Using Zillow Forum" data-ga-category="TopNav" data-ga-label="Using Zillow Forum" class="nav-item track-ga-event" data-ga-action="Advice">Using Zillow Forum</a></dd><dd><a href="/advicepages/AskAdvice.htm" title="Ask a Question" data-ga-category="TopNav" data-ga-label="Ask a Question" class="nav-item track-ga-event" data-ga-action="Advice">Ask a Question</a></dd></dl><dl class="dropdown-content nav"><dt class="nav-subtitle">Education Guides</dt><dd><a href="/foreclosures/" title="Foreclosure Center" data-ga-category="TopNav" data-ga-label="Foreclosure Center" class="nav-item track-ga-event" data-ga-action="Advice">Foreclosure Center</a></dd><dd><a href="/mortgage-rates/learn/" title="Mortgage Education Center" data-ga-category="TopNav" data-ga-label="Mortgage Education Center" class="nav-item track-ga-event" data-ga-action="Advice">Mortgage Education Center</a></dd><dd><a href="/home-buying-guide/" title="Buyers Guide" data-ga-category="TopNav" data-ga-label="Buyers Guide" class="nav-item track-ga-event" data-ga-action="Advice">Buyers Guide</a></dd><dd><a href="/help/" title="Zillow Help Center" data-ga-category="TopNav" data-ga-label="Zillow Help Center" class="nav-item track-ga-event" data-ga-action="Advice">Zillow Help Center</a></dd></dl></div></li><li data-nav-level="4" class="dropdown directory-tab top-nav-tab rollable"><a href="http://www.zillow.com/directory/" title="Find a Pro" data-ga-category="TopNav" data-ga-label="None" class="nav-item nav-primary-item nav-item-button dropdown-trigger responsive-nav-item" data-ga-action="Professionals">Find a Pro</a><div class="dropdown-bd"><dl class="dropdown-content nav"><dt class="nav-subtitle">Find a Real Estate Professional</dt><dd><a href="http://www.zillow.com/directory/real-estate-agents/" title="Real Estate Agents" data-ga-label="Realtors" class="nav-item"> Real Estate Agents </a></dd><dd><a href="http://www.zillow.com/directory/mortgage-lenders/" title="Mortgage Lenders" data-ga-category="TopNav" data-ga-label="Mortgage Lenders" class="nav-item" data-ga-action="Professionals"> Mortgage Lenders </a></dd><dd><a href="http://www.zillow.com/directory/property-management/" title="Property Managers" data-ga-category="TopNav" data-ga-label="Property Management Pros" class="nav-item" data-ga-action="Professionals"> Property Managers </a></dd><dd><a href="http://www.zillow.com/directory/home-improvement/" title="Home Improvement Pros" data-ga-category="TopNav" data-ga-label="Home Improvement Pros" class="nav-item" data-ga-action="Professionals"> Home Improvement Pros </a></dd><dd><a href="/Index,$Border.topNav.$nav$FindRealEstateProfessionals_1.$links$review$AnonymousReviewDirectLink.sdirect" class="nav-item" data-ga-label="Review an Agent, Lender or Pro" title="Review an Agent, Lender or Pro" data-ga-action="Professionals" data-ga-category="TopNav"> Review an Agent, Lender or Pro </a></dd></dl><dl class="dropdown-content nav"><dd><dt class="nav-subtitle">Marketing on Zillow</dt><dd><a href="/advertising/agent-advertising/" class="nav-item za-track-event" title="Real Estate Agent Advertising" data-za-category="TopNav" data-za-action="Find a Pro" data-za-label="Real Estate Advertising"> Real Estate Agent Advertising </a></dd><dd><a href="/Index,$Border.topNav.$nav$MarketingOnZillow_0.$links$directory$JoinDirectoryLink.sdirect?form:Index=ZH4sIAAAAAAAAAK3QMU5CQRAG4HkkkJigCeECFltvPAOhMESRxO7FxAxvx8fKurOZXXax8yAcgatYegw4ABU0WlgZQzn%2FX3x%2FZruDbjEA0KvgVo1YDIlOHKaYtfKY1T3KkpL17YOvrXNctHLWL6MyVqhJLO9qwtaPv6%2B7UwnDQBJtTGRm2NJ09TYnCWVeweRPxPPN%2F5Gn8yKXP8gjSwqlD3ARF1zGgi8pCgxeMaN26Fs9YnaE%2FvNaPr42h30Hqhq6Gd2K1gFKfc7%2F%2Fl41ALhCk9E3p4RQmkU4AnN6Bq3ZAQAA#joinDirectory" title="Join the Professional Directory" data-za-category="TopNav" data-za-action="Professionals" class="nav-item" data-za-label="Join the Professional Directory"> Join the Professional Directory </a></dd></dd></dl></div></li><li data-nav-level="5" class="dropdown local-tab top-nav-tab rollable"><a href="http://www.zillow.com/local-info/MI-Ann-Arbor/r_8097/" data-overflow-item-class="local-link" title="Local Info" data-ga-category="TopNav" data-ga-label="None" class="nav-item nav-primary-item nav-item-button dropdown-trigger responsive-nav-item" data-ga-action="Local Info">Local Info</a><div class="dropdown-bd"><ul class="dropdown-content nav l-stacked"><li><a href="http://www.zillow.com/local-info/MI-Ann-Arbor/r_8097/" title="Ann Arbor Overview" data-ga-category="TopNav" data-ga-label="Overview" class="nav-item track-ga-event" data-ga-action="Local Info"><span class="region-name">Ann Arbor</span>&nbsp;Overview </a></li><li><a href="/ann-arbor-mi/home-values/" title="Ann Arbor Home Prices and Values" data-ga-category="TopNav" data-ga-label="Home Prices-Values" class="nav-item track-ga-event" data-ga-action="Local Info"><span class="region-name">Ann Arbor</span>&nbsp;Home Prices &amp; Values </a></li><li><a href="http://www.zillow.com/local-info/MI-Ann-Arbor-people/r_8097/" title="Ann Arbor Demographics" data-ga-category="TopNav" data-ga-label="Demographics" class="nav-item track-ga-event" data-ga-action="Local Info"><span class="region-name">Ann Arbor</span>&nbsp;Demographics </a></li><li><a href="http://www.zillow.com/local-info/MI-Ann-Arbor-photos/r_8097/" title="Ann Arbor Photos" data-ga-category="TopNav" data-ga-label="Photos" class="nav-item track-ga-event" data-ga-action="Local Info"><span class="region-name">Ann Arbor</span>&nbsp;Photos </a></li><li><a href="/ann-arbor-mi/schools/" title="Ann Arbor Schools" data-ga-category="TopNav" data-ga-label="Schools" class="nav-item track-ga-event" data-ga-action="Local Info"><span class="region-name">Ann Arbor</span>&nbsp;Schools </a></li><li><a href="http://www.zillow.com/local-info/MI-Ann-Arbor-homes/r_8097/" title="Ann Arbor Homes" data-ga-category="TopNav" data-ga-label="Homes" class="nav-item track-ga-event" data-ga-action="Local Info"><span class="region-name">Ann Arbor</span>&nbsp;Homes </a></li></ul><dl class="dropdown-content nav"><dt class="nav-subtitle">Popular</dt><dd><a href="http://www.zillow.com/local-info/" title="Real Estate Market Reports" data-ga-category="TopNav" data-ga-label="Real Estate Market Reports" class="nav-item track-ga-event" data-ga-action="Local Info">Real Estate Market Reports</a></dd><dd><a href="/compare/" title="Compare Places" data-ga-category="TopNav" data-ga-label="Compare Places" class="nav-item track-ga-event" data-ga-action="Local Info">Compare Places</a></dd></dl></div></li><li data-nav-level="6" class="dropdown digs-tab top-nav-tab rollable"><a href="/digs/" data-overflow-item-class="zss-mobile-nav-item" title="Digs" data-ga-category="TopNav" data-ga-label="None" class="nav-item nav-primary-item nav-item-button dropdown-trigger responsive-nav-item" data-ga-action="Digs">Digs<sup class="zss-tm">&trade;</sup></a><div class="dropdown-bd"><ul class="dropdown-content nav l-stacked"><li><a href="/digs/bathrooms/" title="Bathroom Ideas" data-ga-category="TopNav" data-ga-label="Bathrooms" class="nav-item track-ga-event" data-ga-action="Digs">Bathrooms</a></li><li><a href="/digs/bedrooms/" title="Bedroom Ideas" data-ga-category="TopNav" data-ga-label="Bedrooms" class="nav-item track-ga-event" data-ga-action="Digs">Bedrooms</a></li><li><a href="/digs/gardens/" title="Garden Ideas" data-ga-category="TopNav" data-ga-label="Gardens" class="nav-item track-ga-event" data-ga-action="Digs">Gardens</a></li><li><a href="/digs/kitchens/" title="Kitchen Ideas" data-ga-category="TopNav" data-ga-label="Kitchens" class="nav-item track-ga-event" data-ga-action="Digs">Kitchens</a></li><li><a href="/digs/living-rooms/" title="Living Room Ideas" data-ga-category="TopNav" data-ga-label="Living Rooms" class="nav-item track-ga-event" data-ga-action="Digs">Living Rooms</a></li></ul></div></li><li data-nav-level="0" class="dropdown more-tab top-nav-tab rollable"><span class="nav-item nav-primary-item nav-item-button dropdown-trigger dropdown-trigger-ico" title="More"> More </span><div class="dropdown-bd"><ul class="dropdown-content nav l-stacked more-dropdown"><li><a href="/mobile/" title="Mobile" data-ga-category="TopNav" data-ga-label="What Zillow Offers" class="nav-item track-ga-event" data-ga-action="More">Mobile</a></li><li><a href="/learnmore/what-you-can-do-on-zillow.htm" title="What Zillow Offers" data-ga-category="TopNav" data-ga-label="What Zillow Offers" class="nav-item track-ga-event" data-ga-action="More">What Zillow Offers</a></li><li><a href="/advertising/" title="Real Estate Advertising" data-ga-category="TopNav" data-ga-label="Real Estate Advertising" class="nav-item track-ga-event" data-ga-action="More">Real Estate Advertising</a></li><li><a href="/webtools/" title="Widgets, Badges and Data" data-ga-category="TopNav" data-ga-label="Widgets, Badges-Data" class="nav-item track-ga-event" data-ga-action="More">Widgets, Badges &amp; Data</a></li><li><a href="/visuals/" class="nav-item track-ga-event" title="Zillow Visuals">Zillow Visuals</a></li><li><a href="http://www.zillow.com/research/" class="nav-item track-ga-event" title="Zillow Research" data-ga-category="TopNav" data-ga-action="Blog" data-ga-label="Zillow Research">Zillow Research</a></li><li><a href="/tv/" class="nav-item track-ga-event" title="Zillow TV Spots">Zillow TV Spots</a></li><li><a href="/help/" title="Help" data-ga-category="TopNav" data-ga-label="Widgets, Badges-Data" class="nav-item track-ga-event" data-ga-action="More">Help</a></li></ul><dl class="dropdown-content nav more-dropdown"><dt class="nav-subtitle"><strong>Blogs</strong></dt><dd><a href="http://www.zillowblog.com/" class="nav-item track-ga-event" title="Zillow Blog" data-ga-category="TopNav" data-ga-action="Blog" data-ga-label="Zillow Blog">Zillow Blog</a></dd><dd><a href="http://www.zillow.com/blog/pro/" class="nav-item track-ga-event" title="Zillow Pros Blog" data-ga-category="TopNav" data-ga-action="Blog" data-ga-label="Zillow Pros Blog">Zillow Pros Blog</a></dd><dd><a href="http://engineering.zillow.com/" class="nav-item track-ga-event" title="Zillow Engineering" data-ga-category="TopNav" data-ga-action="Blog" data-ga-label="Zillow Engineering">Zillow Engineering</a></dd></dl></div></li></ul></div><div id="login-block" class=" login-block nav-animation-text"><ul class="l-inline zss-nav dropdown-hoverable"><li data-nav-level="7" class=" top-nav-tab dropdown myzillow-tab agenthub-tab"><span class="nav-item nav-primary-item nav-item-button dropdown-trigger dropdown-trigger-ico"><span class="menu-label za-track-event" data-za-category="TopNav" data-za-action="For Pros Clicked" data-za-label="" title="For Pros">For Pros </span></span><div class="dropdown-bd dropdown-right"><ul class="dropdown-content l-stacked"><li><a href="/agents/" title="Agents" data-za-category="TopNav" data-za-action="For Pros" class="nav-item za-track-event" data-za-label="Agents">Agents</a></li><li><a title="Rental Pro" page="agents/Index" data-za-category="TopNav" data-za-action="AgentHub Click" class="nav-item" data-za-label="RentalPro" href="http://rentalpro.zillow.com">Rental Pro</a></li></ul></div></li><!-- not logged in --><li class="auth-menu"><div class="nav-long-text"><a href="/Index,$Border.$links$LoginLink.sdirect?form:Index=ZH4sIAAAAAAAAAK3QMU5CQRAG4HkkkJigCeECFltvPAOhMESRxO7FxAxvx8fKurOZXXax8yAcgatYegw4ABU0WlgZQzn%2FX3x%2FZruDbjEA0KvgVo1YDIlOHKaYtfKY1T3KkpL17YOvrXNctHLWL6MyVqhJLO9qwtaPv6%2B7UwnDQBJtTGRm2NJ09TYnCWVeweRPxPPN%2F5Gn8yKXP8gjSwqlD3ARF1zGgi8pCgxeMaN26Fs9YnaE%2FvNaPr42h30Hqhq6Gd2K1gFKfc7%2F%2Fl41ALhCk9E3p4RQmkU4AnN6Bq3ZAQAA" class="nav-item nav-primary-item nav-item-button tengage-reg-nav nav-text nav-animation show-lightbox auth-required login" id="login_opener" title="Sign In" data-ga-label="TopNav" rel="nofollow">Sign In</a><a id="nav-text-conjecture" class="nav-item nav-primary-item nav-item-button tengage-reg-nav nav-text">or</a><a href="/Index,$Border.$links$RegisterLink.sdirect?form:Index=ZH4sIAAAAAAAAAK3QMU5CQRAG4HkkkJigCeECFltvPAOhMESRxO7FxAxvx8fKurOZXXax8yAcgatYegw4ABU0WlgZQzn%2FX3x%2FZruDbjEA0KvgVo1YDIlOHKaYtfKY1T3KkpL17YOvrXNctHLWL6MyVqhJLO9qwtaPv6%2B7UwnDQBJtTGRm2NJ09TYnCWVeweRPxPPN%2F5Gn8yKXP8gjSwqlD3ARF1zGgi8pCgxeMaN26Fs9YnaE%2FvNaPr42h30Hqhq6Gd2K1gFKfc7%2F%2Fl41ALhCk9E3p4RQmkU4AnN6Bq3ZAQAA" class="nav-item nav-primary-item nav-item-button tengage-reg-nav nav-text nav-animation show-lightbox auth-required register" id="register_opener" title="Join" data-ga-label="TopNav" rel="nofollow">Join</a></div></li></ul></div></div></div></nav></header><div id="container" class="fullpage-layout"><div class="active-view"><a name="contentstart" accesskey="2" href="#contentstart"></a><div id="content" class="zss-content yui3-u"><div class="zss-marquee-wrapper zss-marquee-sized"><div class="zss-marquee-fade"><div class="zss-marquee-image-transition"></div><div class="zss-marquee-image"></div></div></div><div class="homepage-viewport zss-marquee-sized"><div class="zss-marquee-nav"><a href="#" class="zss-marquee-nav-item zss-marquee-prev zss-font-icon zss-icon-only" data-font-icon="side-scroll-arrow-left"><span class="zss-icon-text">Previous</span></a><a href="#" class="zss-marquee-nav-item zss-marquee-next zss-font-icon zss-icon-only" data-font-icon="side-scroll-arrow-right"><span class="zss-icon-text">Next</span></a></div><div class="simple-search search-wrapper"><div id="search" class="homepage-search zss-search"><div class="search-header"><span class="zss-logo"></span><span class="zss-slogan">Your Edge in Real Estate</span></div><div class="search-bar-wrapper clearfix"><form id="formSearchBar" name="formSearchBar" action="/search/RealEstateSearch.htm" class="search-form simple-search-form" method="get"><input id="origplaceholdertext" type="hidden" name="origplaceholdertext"></input><fieldset><legend>Find your home.</legend><h2 class="targeted-search yui3-g"><div class="yui3-u-1-4 button-wrap for-sale-button"><input id="searchbar-type-forsale" data-ga-category="Homepage" name="searchbar-type" value="for_sale" class="track-ga-event" type="radio" data-ga-action="For Sale"></input><label for="searchbar-type-forsale" class="button"><span class="zss-house-icon zss-font-icon zss-for-sale-house"><span class="zss-font-icon" data-font-icon="house-outer-stroke"></span><span class="zss-font-icon" data-font-icon="house-inner-shadow"></span><span class="zss-font-icon" data-font-icon="house"></span></span><span>For Sale</span></label></div><div class="yui3-u-1-4 button-wrap for-rent-button"><input id="searchbar-type-forrent" data-ga-category="Homepage" name="searchbar-type" value="for_rent" class="track-ga-event" type="radio" data-ga-action="For Rent"></input><label for="searchbar-type-forrent" class="button"><span class="zss-house-icon zss-font-icon zss-for-rent-house"><span class="zss-font-icon" data-font-icon="house-outer-stroke"></span><span class="zss-font-icon" data-font-icon="house-inner-shadow"></span><span class="zss-font-icon" data-font-icon="house"></span></span><span>For Rent</span></label></div><div class="yui3-u-1-4 button-wrap foreclosures-button"><input id="searchbar-type-foreclosures" data-ga-category="Homepage" name="searchbar-type" value="make_me_move" class="track-ga-event" type="radio" data-ga-action="Foreclosure"></input><label for="searchbar-type-foreclosures" class="button"><span class="zss-house-icon zss-font-icon zss-foreclosures-house"><span class="zss-font-icon" data-font-icon="house-outer-stroke"></span><span class="zss-font-icon" data-font-icon="house-inner-shadow"></span><span class="zss-font-icon" data-font-icon="house"></span></span><span>Pre-Market</span></label></div><div class="yui3-u-1-4 button-wrap zestimates-button"><input type="radio" id="searchbar-type-zestimate" class="track-ga-event" name="searchbar-type" value="1_ah" data-ga-category="Homepage" data-ga-action="Zestimate"/><label for="searchbar-type-zestimate" class="button"><span class="zss-house-icon zss-font-icon"><span class="zss-font-icon" data-font-icon="house-outer-stroke"></span><span class="zss-font-icon" data-font-icon="house-inner-shadow"></span><span class="zss-font-icon" data-font-icon="house"></span></span><span>Zestimate<sup>&reg;</sup></span></label></div></h2><div class="searchbar onebox"><div class="input-search-wrapper"><label class="search-label"><span class="search-label-text"></span><input placeholder="Search for an Address, Neighborhood, City or Zip" tabindex="1" class="text" type="text" autocomplete="off" data-default-placeholder="Search for an Address, Neighborhood, City or Zip" id="citystatezip" maxlength="150" name="citystatezip" autocorrect="off"></input></label></div><button data-ga-category="Homepage" tabindex="2" class="zss-go-button zss-font-icon track-ga-event" type="submit" data-icon="search-go" data-ga-action="Search Box Clicked"><span data-font-icon="search" class="zss-font-icon zss-shadow-icon zss-icon-only"><span class="zss-icon-text"><!--[if IE 7]>Go<![endif]--></span></span></button></div></fieldset></form></div></div></div><div id="mobile-upsell" class="feature-ad">
-<div class="feature-ad-image">
-    <a href="/user/Register.htm"
-       class="track-ga-event"
-       data-ga-category="Homepage" 
-       data-ga-action="Main Upsell" 
-       data-ga-label="Reg upsell 4">
-        <img src="http://www.zillowstatic.com/cms/reg-upsell-homepage.png"/>
-    </a>
+	
+}
+</style>
+
+<!--<![endif]-->
+
+<!--[if IE]>
+<style type="text/css">
+
+#storebutton {
+	position: relative;
+	left: 13px;
+	float: right;
+	clear: left;
+	top:150px;
+	width:113px;
+	height:50px;
+	z-index: 5;
+	border: 0px;
+
+	
+	
+}
+
+
+</style><![endif]-->
+
+
+
+<a name="top"></a>
+<meta name="keywords" content="Tree Bikes, Tree bike Co, Tree Bicycle Co, Tree Bicycle Co., Tree BMX, BMX, Bmx Bike, bmx bikes, Tree BMX Co., Tree cycle, Tree Cycleco., Tree, Treebicycleco., Tree bike co., Treebicycleco, Tree Bicycle Company, Tree Bicycle parts, Tree parts, Tree, Loyd, Justin Sexhour, Justin Sexauer, Justin Sex, Zak Early,�Zak Earley, Zack Early, Zack Earley, Nathan Parker, Naten Parker, Natheniel Parker, Eben Fischer, Eben Fisher, Bobbie Altizer, Bobbie Altiser, Bobby Altiser, Bobby Altizer, Altizer, Altiser, Eben Fishman, Black Rider, Derick Nelson, Clint David, J-Sex, Sam Schulte, Sammuel Schulte, Schulte, Sam the man, Andy Chapman, Lil Buddy, Spline drive, Stunt stumps, Trick Sticks, Bolt drive, Sequoia Bars, Handle bars, sprocket, bar ends, Branch Bars, Steam, Collet Stem, space stem, future stem, Big Bars, Headset Cap, Headset, Balsa Pegs, Light pegs, steel pegs, street pegs, park pegs, fast pegs, aluminum pegs, 7075 aluminum pegs, pegs, Twigs N' Berries, Spokes, Cog Guard, Hub Guard, Hub, Straight Pull, Straight Spokes, O.G. Sprocket, Spline drive sprocket, Front Brakes, Bmx Frames, Light sprocket Bolt, Light sprocket spline, heat treaded sprocket, New sprocket, Forks, Front brakes, brakes, strong sprockets, strong parts, Sword Shirt, Sword, Sword Thermal, Sword T, Cadet Hoodie, Cadet pull over, Creature Wallet, Creature Shirt, Roots Shirt, Roots T-shirt, Front Brake monster, Front brake shirt, Eben Fischer shirt, Phi t-shirt, PHI Shirt, tree logo shirt, Tree tree tree, Unite shirt, sam shirt, people shirt, Flower of life shirt, Nathen Shirt, Saved By the Beach, Zak Earley shirt, zak sig shirt, Free style BMX, Bikes, Free style, BMX bike, biking, freestyle biking, cool bike stuff, STL BMX, St. Louis BMX, St. Louis bikes, Missouri BMX, Missouri Bikes, Potosi Missouri, Potosi MO, Potosi BMX, bmx biking, Rampriders, Plan9, Plan nine, Rampriders skatepark, plan nine skatepark, Farmington, Farmington bmx, Chains, Bmx Chain, St. Louis Rampriders, Cool shit, bmx inventions, Bicycle moto X, best bmx company, Smart Bikes, Strong Parts, 2010 bmx, 2011 bmx, 2012 bmx, dew tour, woodward, Lightest bmx parts, strongest bmx parts, coolest bmx parts, 7075 aluminum, aluminum sprocket, c&c machinery, stainless steel, Steel sprockets, Strongest sprocket, 4130, 4130 chromoly, chromoly parts, chromoly machined, Nylon, t-6 aluminum, Machined bmx parts, Chromoly bmx parts, 4130 bmx parts, 7075 pegs" />
+<meta charset="UTF-8" />
+<meta name="google-site-verification" content="9l_W0fcMqrpixLUUkyIZm7zdu_7Dv_LONieffI6AGg0" />
+<meta name="Description" content="Tree Bicycle Co. is a rider owned and operated bike company dedicated to designing and creating the highest quality frames and components.">
+
+<title>Tree Bicycle Co.</title>
+    
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.treebicycleco.com/wp-content/themes/TreeBikes/style.css" />
+<link rel="pingback" href="http://www.treebicycleco.com/xmlrpc.php" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.treebicycleco.com/wp-content/themes/TreeBikes/css/shadowbox.css" />
+
+<link rel="alternate" type="application/rss+xml" title="Tree Bicycle Co. &raquo; Feed" href="http://www.treebicycleco.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tree Bicycle Co. &raquo; Comments Feed" href="http://www.treebicycleco.com/comments/feed/" />
+<link rel='stylesheet' id='instapress-css'  href='http://www.treebicycleco.com/wp-content/plugins/instapress/instapress.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.treebicycleco.com/wp-content/plugins/instapress/fancybox/jquery.fancybox.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='royalslider-frontend-css-css'  href='http://www.treebicycleco.com/wp-content/plugins/royalslider/css/royalslider.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='royalslider-skin-default-css'  href='http://www.treebicycleco.com/wp-content/plugins/royalslider/css/royalslider-skins/default/default.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='royalslider-skin-minimal-css'  href='http://www.treebicycleco.com/wp-content/plugins/royalslider/css/royalslider-skins/minimal/minimal.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simplyInstagram-css'  href='http://www.treebicycleco.com/wp-content/plugins/simply-instagram/css/simply-instagram.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.treebicycleco.com/wp-content/plugins/simply-instagram/css/simply-instagram-prettyPhoto.css?ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/instapress/fancybox/jquery.fancybox-1.3.4.pack.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/royalslider/js/jquery.royal-slider.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/royalslider/js/jquery.easing.1.3.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/simply-instagram/js/simply-instagram-jquery.prettyPhoto.js?ver=3.1.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.treebicycleco.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.treebicycleco.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<!-- BEGIN SimplyInstagram IE -->
+<!-- [if IE 9]>
+<style type="text/css">
+
+.comment-profile{
+	margin: 2px;
+	width: 45px;
+	float: left;
+}
+.comment-profile img{
+	vertical-align: top;
+}
+.comment-holder{
+	top: 0px;
+	width: 200px;
+	float: left !important;	
+}
+
+.comments-holder{
+	width: 210px;
+	float: left;
+}
+</style>
+<![endif]-->
+<!-- END SimplyInstagram IE -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=136659546436117";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--<script type="text/javascript" src="http://www.treebicycleco.com/blog_images/featuredProducts/src/swfobject.js"></script>
+	<script type="text/javascript">
+		swfobject.registerObject("gallery", "9.0.0", "http://www.treebicycleco.com/blog_images/featuredProducts/src/expressInstall.swf");
+		swfobject.registerObject("Rider_Shell", "9.0.0", "http://www.treebicycleco.com/blog_images/featuredProducts/src/expressInstall.swf");
+</script>-->
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!--<script type="text/javascript" src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/jquery.cycle.lite.js"></script>
+<script type="text/javascript" src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/application.js"></script>
+
+<script type="text/javascript" src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/js/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20297310-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body onload="MM_preloadImages('http://www.treebicycleco.com/blog_images/nav/mainNav/roll/home_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/parts_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/clothing_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/team_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/videos_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/distributors_roll.gif','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/info_roll.gif')">
+<a name="top"></a>
+<!--anchor for top-->
+<body class="home blog">
+<div id="container"><div id="storebutton"><a href="http://store.treebicycleco.com"><img src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/images/shop.png" width="113" height="50" border="0" /></a></div>
+
+<!--container goes here-->
+<div id="header">
+		<div id="masthead">
+		  <div id="branding" role="banner">
+				<h1>				<h1 id="site-title">
+					<span>
+						<a href="http://www.treebicycleco.com/" title="Tree Bicycle Co." rel="home">Tree Bicycle Co.</a>
+					</span>
+				</h1>
+				<div id="site-description"><h1></h1></div></h1>
+
+										
+										
+					  <div id="header_navigation">
+					<h2>TREE BICYCLE CO.</h2>
+					<div id="logo"><a href="/" target="_self"><img src="http://www.treebicycleco.com/blog_images/layout/TreeLogo.gif" width="315" height="150" border="0" /></a>						</div>
+					<h2>main navigation</h2>
+					<div id="socialIcons">
+						<a href="http://www.treebicycleco.com/feed/"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/rss.jpg" />
+						<a href="http://www.facebook.com/photo.php?pid=5853429&id=500415554#!/treebicycleco" target="_blank"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/facebook.jpg" /></a></a><a href="http://twitter.com/#!/TreeBikeCo" target="_blank"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/twitter.jpg" /></a><a href="http://vimeo.com/treebicycleco" target="_blank"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/vimeo.jpg" /></a><a href="http://www.youtube.com/user/TreeBicycleCo?feature=mhsn" target="_blank"><img src="http://www.treebicycleco.com/blog_images/layout/socialIcons/you-tube.jpg" /></a><br />
+						<div id="like-buttons">
+							
+								<div class="twitter-like-button">
+								<a href="https://twitter.com/TreeBikeCo" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true">Follow @TreeBikeCo</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</div>
+								<div class="facebook-like-button">
+							
+									<div class="fb-like" data-href="https://www.facebook.com/treebicycleco" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false"></div>
+									</div>
+								
+				<div class="clear"></div>
+				</div>	
+						</div>
+					<ul id="navlist">
+					<li class="current_page_item"><a href="/" target="_self"><h2>HOME</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/home.gif" width="72" height="35" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/home_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/parts/" target="_self"><h2>PARTS</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/parts.gif" width="72" height="35" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/parts_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/epic/" target="_self"><h2>CLOTHING</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/clothing.gif" width="116" height="35" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/clothing_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/team/" target="_self"><h2>TEAM</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/team.gif" width="65" height="35" border="0" id="Image4" onmouseover="MM_swapImage('Image4','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/team_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/videos/" target="_self"><h2>VIDEOS</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/videos.gif" width="90" height="35" border="0" id="Image5" onmouseover="MM_swapImage('Image5','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/videos_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/distro/" target="_self"><h2>DISTRIBUTORS</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/distributors.gif" width="143" height="35" border="0" id="Image6" onmouseover="MM_swapImage('Image6','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/distributors_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li><li><a href="/info/" target="_self"><h2>INFO</h2><img src="http://www.treebicycleco.com/blog_images/nav/mainNav/info.gif" width="67" height="35" border="0" id="Image7" onmouseover="MM_swapImage('Image7','','http://www.treebicycleco.com/blog_images/nav/mainNav/roll/info_roll.gif',1)" onmouseout="MM_swapImgRestore()" /></a></li>
+					</ul>
+					</div>
+					<!--//top_navlist-->
+		  </div>
+		  <div id="newsletter-signup"><a href="/newsletter-signup/"><img src="http://www.treebicycleco.com/wp-content/themes/TreeBikes/blog_images/newsletter-signup.gif" alt="" title="" /></a></div>
+
+			<!-- #branding -->
+		</div><!-- #masthead -->
+
+</div><!--//header-->
+
+	
+
+<!-- Begin #container2 this holds the content and sidebars-->
+<div id="container2">
+
+<!-- Begin #container3 keeps the left col and body positioned-->
+<div id="container3">
+
+<div id="blogColumn">
+
+
+
+
+
+
+
+	    <div id="blogPost">
+		<div id="post-3320" class="post-3320 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/3320/" title="Permalink to Mr. Reynolds in Mexico" rel="bookmark">Mr. Reynolds in Mexico</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/3320/" title="9:28 pm" rel="bookmark"><span class="entry-date">04/09/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>It&#8217;s no secret that Clint&#8217;s shovel work is some of the best in the biz. Red Bull brought Clint back to help build the 2014 Red Bull Dirt Conquers course. We poached these pics from Clint&#8217;s Instagram page to give you all a little preview of whats to come on <time datetime="2014-04-13 00:00:00+0200">April 13th, in </time>Guadalajara, México<a href="http://www.treebicycleco.com/wp-content/uploads/photo-41.jpg"><img class="size-medium wp-image-3324 alignright" alt="photo 4" src="http://www.treebicycleco.com/wp-content/uploads/photo-41-440x440.jpg" width="440" height="440" /></a><a href="http://www.treebicycleco.com/wp-content/uploads/photo-12.jpg"><img class="size-medium wp-image-3321 alignright" alt="photo 1" src="http://www.treebicycleco.com/wp-content/uploads/photo-12-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-22.jpg"><img class="alignnone size-medium wp-image-3322" alt="photo 2" src="http://www.treebicycleco.com/wp-content/uploads/photo-22-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-31.jpg"><img class="alignnone size-medium wp-image-3323" alt="photo 3" src="http://www.treebicycleco.com/wp-content/uploads/photo-31-440x440.jpg" width="440" height="440" /></a>  <a href="http://www.treebicycleco.com/wp-content/uploads/photo-51.jpg"><img class="alignnone size-medium wp-image-3325" alt="photo 5" src="http://www.treebicycleco.com/wp-content/uploads/photo-51-440x440.jpg" width="440" height="440" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3310" class="post-3310 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/kenny-foster-rips/" title="Permalink to Kenny Foster Rips" rel="bookmark">Kenny Foster Rips</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/kenny-foster-rips/" title="3:22 pm" rel="bookmark"><span class="entry-date">04/02/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p><a href="http://www.treebicycleco.com/wp-content/uploads/photo2.jpg"><img class="size-medium wp-image-3311 alignright" alt="photo" src="http://www.treebicycleco.com/wp-content/uploads/photo2-440x440.jpg" width="440" height="440" /></a>Long time Tree supporter and friend, Kenny Foster gets inverted in KC. Reminding us that age is just a number. Dude shreds!</p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3303" class="post-3303 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/byob-jam-series/" title="Permalink to BYOB Jam Series!" rel="bookmark">BYOB Jam Series!</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/byob-jam-series/" title="4:52 pm" rel="bookmark"><span class="entry-date">03/24/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Last year, Karl Hinkley threw the first annual Cork Huck It jam at his place in Unadilla Nebraska and despite unfavorable weather conditions it was still one hell of a time! This year he&#8217;s stepping the game up and throwing a three stop BYOB (Bring your own bike) contest series. With Hinkley&#8217;s down home, grass roots attitude this is sure to be sick! Grab your homies, grab your bikes, and make your way to the Midwest for some good old fashion bmx radness!<a href="http://www.treebicycleco.com/wp-content/uploads/NOWEAR-BYOB-Flyer-3-20.jpg"><img class="size-medium wp-image-3304 alignright" alt="NOWEAR BYOB Flyer 3-20" src="http://www.treebicycleco.com/wp-content/uploads/NOWEAR-BYOB-Flyer-3-20-400x600.jpg" width="400" height="600" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3288" class="post-3288 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/spring-cleaning-in-the-tree-house/" title="Permalink to Spring Cleaning In the Tree House!" rel="bookmark">Spring Cleaning In the Tree House!</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/spring-cleaning-in-the-tree-house/" title="9:42 pm" rel="bookmark"><span class="entry-date">03/20/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>The past few months have been crazy for us in the Tree office. Between designing new product, testing new ideas, traveling to Jams, people leaving shit in the Tree Mobile and a number of other things, we&#8217;ve accumulated a load of cool stuff! Head over to the Tree Web Store now and check out the Spring Cleaning link on the right hand side of the page. We have everything from Collet stems, to prototype parts that can&#8217;t be seen or bought anywhere else!  Sale items have an extremely limited availability (Some, only have 1 left) so check it out, stat!.</p>
+<p>Below are just a few of the items up for grabs <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_7478.jpg"><img class="size-medium wp-image-3292 alignright" alt="IMG_7478" src="http://www.treebicycleco.com/wp-content/uploads/IMG_7478-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/OG-Spline-drive-collage.jpeg"><img class="size-medium wp-image-3291 alignright" alt="OG Spline drive collage" src="http://www.treebicycleco.com/wp-content/uploads/OG-Spline-drive-collage-440x293.jpeg" width="440" height="293" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_4153.jpg"><img class="alignnone size-medium wp-image-3295" alt="IMG_4153" src="http://www.treebicycleco.com/wp-content/uploads/IMG_4153-440x290.jpg" width="440" height="290" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_5605.jpg"><img class="alignnone size-medium wp-image-3296" alt="IMG_5605" src="http://www.treebicycleco.com/wp-content/uploads/IMG_5605-440x293.jpg" width="440" height="293" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_5706.jpg"><img class="alignnone size-medium wp-image-3297" alt="IMG_5706" src="http://www.treebicycleco.com/wp-content/uploads/IMG_5706-440x293.jpg" width="440" height="293" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3280" class="post-3280 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/alex-keepin-it-trashy/" title="Permalink to Magallan Shreds." rel="bookmark">Magallan Shreds.</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/alex-keepin-it-trashy/" title="6:19 pm" rel="bookmark"><span class="entry-date">03/20/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Shane Weston snapped this gem of Sir Alex Magallan making something out of nothing in true BMX fashion. <a href="http://www.treebicycleco.com/wp-content/uploads/IMG_3645.jpg"><img class="alignnone size-medium wp-image-3281" alt="IMG_3645" src="http://www.treebicycleco.com/wp-content/uploads/IMG_3645-440x507.jpg" width="440" height="507" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3275" class="post-3275 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/nina-rules-2/" title="Permalink to Nina Rules!" rel="bookmark">Nina Rules!</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/nina-rules-2/" title="4:19 pm" rel="bookmark"><span class="entry-date">03/17/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Just prior to last year&#8217;s Texas Toast we welcomed Nina to the team and she&#8217;s been doing her thing down in Austin, making the Tribe proud! Here&#8217;s a dope GoPro clip of Ms.B tablin&#8217; some tops!<a href="http://www.treebicycleco.com/wp-content/uploads/photo1.jpg"><img class="size-medium wp-image-3276 alignright" alt="photo" src="http://www.treebicycleco.com/wp-content/uploads/photo1-440x330.jpg" width="440" height="330" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3265" class="post-3265 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/the-greatest-timmy-theus/" title="Permalink to The Greatest- Timmy Theus" rel="bookmark">The Greatest- Timmy Theus</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/the-greatest-timmy-theus/" title="3:28 pm" rel="bookmark"><span class="entry-date">03/14/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Tribe member, Timmy Theus was just recently featured in issue 17 of The Albion. Be sure to pick one up and check it out! <a href="http://www.treebicycleco.com/wp-content/uploads/photo-5-e1394810022326.jpg"><img class="alignnone size-medium wp-image-3270" alt="photo 5" src="http://www.treebicycleco.com/wp-content/uploads/photo-5-e1394810022326-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-4-e1394809951300.jpg"><img class="alignnone size-medium wp-image-3269" alt="photo 4" src="http://www.treebicycleco.com/wp-content/uploads/photo-4-e1394809951300-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-3-e1394810053924.jpg"><img class="alignnone size-medium wp-image-3268" alt="photo 3" src="http://www.treebicycleco.com/wp-content/uploads/photo-3-e1394810053924-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-2-e1394810087298.jpg"><img class="alignnone size-medium wp-image-3267" alt="photo 2" src="http://www.treebicycleco.com/wp-content/uploads/photo-2-e1394810087298-440x440.jpg" width="440" height="440" /></a> <a href="http://www.treebicycleco.com/wp-content/uploads/photo-1.jpg"><img class="alignnone size-medium wp-image-3266" alt="photo 1" src="http://www.treebicycleco.com/wp-content/uploads/photo-1-440x440.jpg" width="440" height="440" /></a></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+
+
+	    <div id="blogPost">
+		<div id="post-3261" class="post-3261 post type-post status-publish format-standard hentry category-uncategorized">
+			<div id="postTitle"><h2 class="entry-title"><a href="http://www.treebicycleco.com/clint-reynolds-and-team-credence-in-puerto-rico/" title="Permalink to Clint Reynolds and Team Credence in Puerto Rico" rel="bookmark">Clint Reynolds and Team Credence in Puerto Rico</a></h2></div>
+            
+<div id="postInner">
+<div class="entry-meta">
+<div class="entry-utility">
+									
+												
+							</div><!-- .entry-utility -->
+				
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://www.treebicycleco.com/clint-reynolds-and-team-credence-in-puerto-rico/" title="4:51 pm" rel="bookmark"><span class="entry-date">03/04/2014</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.treebicycleco.com/author/skenkel/" title="View all posts by Scott Kenkel">Scott Kenkel</a></span>                
+			</div><!-- .entry-meta -->
+
+				<div id="post"><div class="entry-content">
+				<p>Clint and his boys from Team Credence recently ventured down to Puerto Rico for some fun in the sun, good riding and to hang out with our good friend Carlos Santori. Check out this sweet little edit Clint threw together from their time spent down south.<br />
+<iframe width="420" height="315" src="//www.youtube.com/embed/U_cdXM7SkQk" frameborder="0" allowfullscreen></iframe></p>
+				             
+			</div><!-- .entry-content -->
+            
+            	</div><!-- post -->
+            
+</div><!-- //postInner -->
+<div id="postFooter"></div>
+</div><!-- //blogPost -->
+	
+		</div><!-- #post-## -->
+
+		
+	
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://www.treebicycleco.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+					<div class="nav-next"></div>
+				</div><!-- #nav-below -->
+
+
+</div><!-- //#blogContent -->
+
+<!-- #right column -->
+
+<!--//right column  -->
+
+
+</div><!--//container3-->
+
+		<div id="primary2" class="widget-area" role="complementary">
+		<ul class="xoxo">
+
+<li id="text-8" class="widget-container widget_text"><h3 class="widget-title">FEATURED PRODUCT</h3>			<div class="textwidget"><div id="royalslider-1" class="royalSlider default" style="width:424px; height:305px;"><ul class="royalSlidesContainer"><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/motofeature1.jpg"></li><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/motofeature2.jpg"></li><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/motofeature3.jpg"></li><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/Motofeature4.jpg"></li><li class="royalSlide" data-src="http://www.treebicycleco.com/wp-content/uploads/Motobarlogov2-01.jpg"></li></ul></div><script type="text/javascript">jQuery(document).ready(function() {jQuery("#royalslider-1").royalSlider({"width":424,"height":305,"skin":"default","preloadSkin":true,"lazyLoading":true,"preloadNearbyImages":true,"slideshowEnabled":true,"slideshowDelay":3000,"slideshowPauseOnHover":true,"slideshowAutoStart":true,"keyboardNavEnabled":false,"dragUsingMouse":true,"slideSpacing":0,"startSlideIndex":0,"imageAlignCenter":false,"imageScaleMode":"none","autoScaleSlider":false,"autoScaleSliderWidth":960,"autoScaleSliderHeight":400,"slideTransitionType":"move","slideTransitionSpeed":400,"slideTransitionEasing":"easeInOutSine","directionNavEnabled":true,"directionNavAutoHide":true,"hideArrowOnLastSlide":true,"controlNavigationType":"bullets","auto-generate-images":false,"auto-generate-thumbs":false,"thumb-width":60,"thumb-height":60,"captionAnimationEnabled":true,"captionShowFadeEffect":true,"captionShowMoveEffect":"movetop","captionMoveOffset":20,"captionShowSpeed":400,"captionShowEasing":"easeInOutSine","captionShowDelay":200,"controlNavEnabled":true,"controlNavThumbs":false,"captionShowEffects":["fade","movetop"]});});</script>
+<p></p>
 </div>
+		</li><li id="text-5" class="widget-container widget_text"><h3 class="widget-title">FEATURED VIDEO</h3>			<div class="textwidget"><p></p>
+<iframe src="http://player.vimeo.com/video/54612424?byline=0&amp;color=187d24" width="440" height="248" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/54612424">Welcome To The Team Timmy Theus</a> from <a href="http://vimeo.com/treebicycleco">Tree Bicycle Co.</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p></div>
+		</li><li id="instagram-widget-2" class="widget-container instagram"><h3 class="widget-title">INSTAGRAM</h3><div class="instagram-image" id="instagram-image-1"><a href="http://distilleryimage10.s3.amazonaws.com/ae4e8746c41811e3905f0002c9b24a1e_8.jpg" rel="instagram-images" title="Just a reminder to everyone, the first of three contests in the BYOB series is this Saturday! Head out to the #teamiowa barn in Des Moines Iowa this Saturday April 19th. 
+9310 NE 94th Ave 
+Bondurant, IA 50035
+Practice starts at 8am and the contest begins at noon! Let's get weird! #byob @nowearextremeriderapparel #bmx #bmxallday #positivity"><img src="http://distilleryimage10.s3.amazonaws.com/ae4e8746c41811e3905f0002c9b24a1e_5.jpg" width="50" height="50" border="0" title="Just a reminder to everyone, the first of three contests in the BYOB series is this Saturday! Head out to the #teamiowa barn in Des Moines Iowa this Saturday April 19th. 
+9310 NE 94th Ave 
+Bondurant, IA 50035
+Practice starts at 8am and the contest begins at noon! Let's get weird! #byob @nowearextremeriderapparel #bmx #bmxallday #positivity" /></a></div><div class="instagram-image" id="instagram-image-2"><a href="http://distilleryimage8.s3.amazonaws.com/c7a0d18cc1e211e3b6330002c9dcc600_8.jpg" rel="instagram-images" title="Timmy @teezus_theus gettin it. Chicago street today.  Photo borrowed from @lets_fucking_roast Chicago's coolest BMX shop. #bmx"><img src="http://distilleryimage8.s3.amazonaws.com/c7a0d18cc1e211e3b6330002c9dcc600_5.jpg" width="50" height="50" border="0" title="Timmy @teezus_theus gettin it. Chicago street today.  Photo borrowed from @lets_fucking_roast Chicago's coolest BMX shop. #bmx" /></a></div><div class="instagram-image" id="instagram-image-3"><a href="http://distilleryimage8.s3.amazonaws.com/3ed0ea8ec1cb11e3b7600002c9db1138_8.jpg" rel="instagram-images" title="Tree SB Power Cable was designed to be the best brake cable in BMX. It uses the brass free spinning barrel so you never have a spongy pull.  Teflon coated inner wire. Kevlar fiber wrapped housing.  Available at @maulsbikeshop and other quality bike shops.  #bmx #positivity"><img src="http://distilleryimage8.s3.amazonaws.com/3ed0ea8ec1cb11e3b7600002c9db1138_5.jpg" width="50" height="50" border="0" title="Tree SB Power Cable was designed to be the best brake cable in BMX. It uses the brass free spinning barrel so you never have a spongy pull.  Teflon coated inner wire. Kevlar fiber wrapped housing.  Available at @maulsbikeshop and other quality bike shops.  #bmx #positivity" /></a></div><div class="instagram-image" id="instagram-image-4"><a href="http://origincache-frc.fbcdn.net/10246203_1460331647535948_832424278_n.jpg" rel="instagram-images" title="Congratulations to @nina_burrito for being voted 30th in the top 50 females of action sports by ESPN!! #bmx #positivity"><img src="http://origincache-frc.fbcdn.net/10246203_1460331647535948_832424278_s.jpg" width="50" height="50" border="0" title="Congratulations to @nina_burrito for being voted 30th in the top 50 females of action sports by ESPN!! #bmx #positivity" /></a></div><div class="instagram-image" id="instagram-image-5"><a href="http://origincache-ash.fbcdn.net/923577_523977351044916_872067328_n.jpg" rel="instagram-images" title="Tree fan @hboost83 loves the big sprockets. Looks pretty sick on his new @credence_bikes CCR frame.  Tree 33t and 36t spline drive lite sprockets are available on SALE at Dans Comp @danscompinstagram  #bmx"><img src="http://origincache-ash.fbcdn.net/923577_523977351044916_872067328_s.jpg" width="50" height="50" border="0" title="Tree fan @hboost83 loves the big sprockets. Looks pretty sick on his new @credence_bikes CCR frame.  Tree 33t and 36t spline drive lite sprockets are available on SALE at Dans Comp @danscompinstagram  #bmx" /></a></div><div class="instagram-image" id="instagram-image-6"><a href="http://distilleryimage0.s3.amazonaws.com/4d6fd40cc02b11e3825f0002c9c89b54_8.jpg" rel="instagram-images" title="@credence_bikes has been down in Mexico, soaking up the sun and getting the #redbull #dirtconquers course dialed in. These guys have some serious talent. #dirtskatepark #DirtOrDie #bmx #bmxallday"><img src="http://distilleryimage0.s3.amazonaws.com/4d6fd40cc02b11e3825f0002c9c89b54_5.jpg" width="50" height="50" border="0" title="@credence_bikes has been down in Mexico, soaking up the sun and getting the #redbull #dirtconquers course dialed in. These guys have some serious talent. #dirtskatepark #DirtOrDie #bmx #bmxallday" /></a></div><div class="instagram-image" id="instagram-image-7"><a href="http://distilleryimage4.s3.amazonaws.com/00789cc4bf5911e3ae910002c954d708_8.jpg" rel="instagram-images" title="Scootie @scootieftnm barn footjam ? @cburden  #bmx #positivity #itsgettingwarmer!"><img src="http://distilleryimage4.s3.amazonaws.com/00789cc4bf5911e3ae910002c954d708_5.jpg" width="50" height="50" border="0" title="Scootie @scootieftnm barn footjam ? @cburden  #bmx #positivity #itsgettingwarmer!" /></a></div><div class="instagram-image" id="instagram-image-8"><a href="http://distilleryimage5.s3.amazonaws.com/3c45f478beae11e3a186128d6d65d98d_8.jpg" rel="instagram-images" title="Brian Yeagle from a few years back. Ripping around this curved wall with some ramps they set up. ? @tystuy #bmx #doordie"><img src="http://distilleryimage5.s3.amazonaws.com/3c45f478beae11e3a186128d6d65d98d_5.jpg" width="50" height="50" border="0" title="Brian Yeagle from a few years back. Ripping around this curved wall with some ramps they set up. ? @tystuy #bmx #doordie" /></a></div><div class="instagram-image" id="instagram-image-9"><a href="http://distilleryimage2.s3.amazonaws.com/aec44bc8bc3b11e3a1ea0002c9546aa6_8.jpg" rel="instagram-images" title="@filthyrum615 doin' what he does best....being rad!  Video credit: @bmxstreetninja #bmx #bmxallday #DoYouEvenManualBro #positivity #Tribe"><img src="http://distilleryimage2.s3.amazonaws.com/aec44bc8bc3b11e3a1ea0002c9546aa6_5.jpg" width="50" height="50" border="0" title="@filthyrum615 doin' what he does best....being rad!  Video credit: @bmxstreetninja #bmx #bmxallday #DoYouEvenManualBro #positivity #Tribe" /></a></div><div class="instagram-image" id="instagram-image-10"><a href="http://distilleryimage7.s3.amazonaws.com/986f8d64baa711e3b66912c7a3d9dd33_8.jpg" rel="instagram-images" title="Winter is over!! You will most likely be spending more time in real life social situations away from your computer. To make a great impression I suggest that you make yourself look cool as hell by getting these Tree shirts! Available at mailorders and bike shops.  #bmx #positivity"><img src="http://distilleryimage7.s3.amazonaws.com/986f8d64baa711e3b66912c7a3d9dd33_5.jpg" width="50" height="50" border="0" title="Winter is over!! You will most likely be spending more time in real life social situations away from your computer. To make a great impression I suggest that you make yourself look cool as hell by getting these Tree shirts! Available at mailorders and bike shops.  #bmx #positivity" /></a></div><div class="instagram-image" id="instagram-image-11"><a href="http://distilleryimage5.s3.amazonaws.com/67a4e44cba7811e39320122adf243e91_8.jpg" rel="instagram-images" title="Our good friend and long time Tree supporter Kenny Foster getting inverted in KC! #takenoteskids #AgeIsJustANumber #bmx #bmxallday #positivity #Rideyourdangbikes"><img src="http://distilleryimage5.s3.amazonaws.com/67a4e44cba7811e39320122adf243e91_5.jpg" width="50" height="50" border="0" title="Our good friend and long time Tree supporter Kenny Foster getting inverted in KC! #takenoteskids #AgeIsJustANumber #bmx #bmxallday #positivity #Rideyourdangbikes" /></a></div><div class="instagram-image" id="instagram-image-12"><a href="http://distilleryimage3.s3.amazonaws.com/39961d1ab9aa11e3832a127e3c4e7c0f_8.jpg" rel="instagram-images" title="Our boy @scootieftnm with a sick 3 double tire wall tap at #insanityskatepark with @caskew13 behind the lens. #bmx #bmxallday"><img src="http://distilleryimage3.s3.amazonaws.com/39961d1ab9aa11e3832a127e3c4e7c0f_5.jpg" width="50" height="50" border="0" title="Our boy @scootieftnm with a sick 3 double tire wall tap at #insanityskatepark with @caskew13 behind the lens. #bmx #bmxallday" /></a></div><div class="instagram-image" id="instagram-image-13"><a href="http://distilleryimage7.s3.amazonaws.com/cbfc092cb90911e3a37212ebc75c3a93_8.jpg" rel="instagram-images" title="@teezus_theus taking advantage of some early season sunshine. #Hops #bmx #bmxallday #SteezusTheus #timmytheus #DentalWork"><img src="http://distilleryimage7.s3.amazonaws.com/cbfc092cb90911e3a37212ebc75c3a93_5.jpg" width="50" height="50" border="0" title="@teezus_theus taking advantage of some early season sunshine. #Hops #bmx #bmxallday #SteezusTheus #timmytheus #DentalWork" /></a></div><div class="instagram-image" id="instagram-image-14"><a href="http://distilleryimage11.s3.amazonaws.com/f9017946b8d911e3b76e126830c1a143_8.jpg" rel="instagram-images" title="Alex Magallan getting some shredding in with the warm weather yesterday!  @filthyrum615  #bmx #positivity #warmthgloriouswarmth!"><img src="http://distilleryimage11.s3.amazonaws.com/f9017946b8d911e3b76e126830c1a143_5.jpg" width="50" height="50" border="0" title="Alex Magallan getting some shredding in with the warm weather yesterday!  @filthyrum615  #bmx #positivity #warmthgloriouswarmth!" /></a></div><div class="instagram-image" id="instagram-image-15"><a href="http://distilleryimage2.s3.amazonaws.com/f2a75f22b81e11e38bf30e4fe8b5a856_8.jpg" rel="instagram-images" title="Our friend @mitchellproost getting rad at @p9stl ? @_mikey_swenson  #bmx"><img src="http://distilleryimage2.s3.amazonaws.com/f2a75f22b81e11e38bf30e4fe8b5a856_5.jpg" width="50" height="50" border="0" title="Our friend @mitchellproost getting rad at @p9stl ? @_mikey_swenson  #bmx" /></a></div><div class="instagram-image" id="instagram-image-16"><a href="http://origincache-frc.fbcdn.net/10004155_658241067580504_1948185571_n.jpg" rel="instagram-images" title="#vintage"><img src="http://origincache-frc.fbcdn.net/10004155_658241067580504_1948185571_s.jpg" width="50" height="50" border="0" title="#vintage" /></a></div><div class="instagram-image" id="instagram-image-17"><a href="http://distilleryimage11.s3.amazonaws.com/f9b265f8b6ae11e39a5612e85ac9a457_8.jpg" rel="instagram-images" title="@nina_burrito is down in Puerto Rico getting stoked on sun and fun. With the crew of 6 #bmxbabes @linzeehale @inkyclouds @rubberbandrea @_alexismabry @danilightningbolt  Living off coconuts and sleeping in skateparks by the beach.  These chicks bad - these chicks hood - these chicks do stuff yo chick wish she could. #bmx #bmxbabes #positivity"><img src="http://distilleryimage11.s3.amazonaws.com/f9b265f8b6ae11e39a5612e85ac9a457_5.jpg" width="50" height="50" border="0" title="@nina_burrito is down in Puerto Rico getting stoked on sun and fun. With the crew of 6 #bmxbabes @linzeehale @inkyclouds @rubberbandrea @_alexismabry @danilightningbolt  Living off coconuts and sleeping in skateparks by the beach.  These chicks bad - these chicks hood - these chicks do stuff yo chick wish she could. #bmx #bmxbabes #positivity" /></a></div><div class="instagram-image" id="instagram-image-18"><a href="http://distilleryimage2.s3.amazonaws.com/67da739cb47811e3a0f30e2ec771c42e_8.jpg" rel="instagram-images" title="Tree flatland sprockets on sale at flatlandfuel.com!! 18t and 20t sizes. 3/32&quot; teeth. Fits directly onto a 19mm spindle without a washer. Works with micro drive only. #bmx #flatland #flatlandfuel"><img src="http://distilleryimage2.s3.amazonaws.com/67da739cb47811e3a0f30e2ec771c42e_5.jpg" width="50" height="50" border="0" title="Tree flatland sprockets on sale at flatlandfuel.com!! 18t and 20t sizes. 3/32&quot; teeth. Fits directly onto a 19mm spindle without a washer. Works with micro drive only. #bmx #flatland #flatlandfuel" /></a></div><div class="instagram-image" id="instagram-image-19"><a href="http://distilleryimage3.s3.amazonaws.com/92a3e0eeb37511e395071278ba1dfd3f_8.jpg" rel="instagram-images" title="Last year, Karl Hinkley through the first annual Cork Huck It jam at his place in Unadilla Nebraska and despite unfavorable weather conditions it was still one hell of a time! This year he?s stepping the game up and throwing a three stop BYOB (Bring your own bike) contest series. With Hinkley?s down home, grass roots attitude this is sure to be sick! Grab your homies, grab your bikes, and make your way to the Midwest for some good old fashion #bmx radness! #bmxallday #grassroots #positivity #rideyourbikes"><img src="http://distilleryimage3.s3.amazonaws.com/92a3e0eeb37511e395071278ba1dfd3f_5.jpg" width="50" height="50" border="0" title="Last year, Karl Hinkley through the first annual Cork Huck It jam at his place in Unadilla Nebraska and despite unfavorable weather conditions it was still one hell of a time! This year he?s stepping the game up and throwing a three stop BYOB (Bring your own bike) contest series. With Hinkley?s down home, grass roots attitude this is sure to be sick! Grab your homies, grab your bikes, and make your way to the Midwest for some good old fashion #bmx radness! #bmxallday #grassroots #positivity #rideyourbikes" /></a></div><div class="instagram-image" id="instagram-image-20"><a href="http://distilleryimage0.s3.amazonaws.com/50980f26b1d211e38d27121ea1211db8_8.jpg" rel="instagram-images" title="Happy Birthday to the raddest, swaggiest, dopest, illest, weirdest boss on the planet! Seriously though, thanks for everything you do Sam, hope today rules! #swagalicious #bossmansam #treebicycleco #bmx #positivity"><img src="http://distilleryimage0.s3.amazonaws.com/50980f26b1d211e38d27121ea1211db8_5.jpg" width="50" height="50" border="0" title="Happy Birthday to the raddest, swaggiest, dopest, illest, weirdest boss on the planet! Seriously though, thanks for everything you do Sam, hope today rules! #swagalicious #bossmansam #treebicycleco #bmx #positivity" /></a></div><div class="instagram-image" id="instagram-image-21"><a href="http://distilleryimage4.s3.amazonaws.com/2f6e6a4cb10611e3a4f812053c906dc8_8.jpg" rel="instagram-images" title="The past few months have been crazy for us in the Tree office. Between designing new product, testing new ideas, traveling to Jams, people leaving shit in the Tree Mobile and a number of other things, we?ve accumulated a load of cool stuff! Head over to the Tree Web Store now and check out the Spring Cleaning link on the right hand side of the page. We have everything from Collet stems, to prototype parts that can?t be seen or bought anywhere else!  Sale items have an extremely limited availability (Some, only have 1 left) so check it out, stat!. #springcleaning #bmx #bmxallday #dealsondealsondeals"><img src="http://distilleryimage4.s3.amazonaws.com/2f6e6a4cb10611e3a4f812053c906dc8_5.jpg" width="50" height="50" border="0" title="The past few months have been crazy for us in the Tree office. Between designing new product, testing new ideas, traveling to Jams, people leaving shit in the Tree Mobile and a number of other things, we?ve accumulated a load of cool stuff! Head over to the Tree Web Store now and check out the Spring Cleaning link on the right hand side of the page. We have everything from Collet stems, to prototype parts that can?t be seen or bought anywhere else!  Sale items have an extremely limited availability (Some, only have 1 left) so check it out, stat!. #springcleaning #bmx #bmxallday #dealsondealsondeals" /></a></div><div class="instagram-image" id="instagram-image-22"><a href="http://origincache-ash.fbcdn.net/1168860_450162858448456_1253023391_n.jpg" rel="instagram-images" title="@filthyrum615 with the tap, @shadyshane with the snap?"><img src="http://origincache-ash.fbcdn.net/1168860_450162858448456_1253023391_s.jpg" width="50" height="50" border="0" title="@filthyrum615 with the tap, @shadyshane with the snap?" /></a></div><div class="instagram-image" id="instagram-image-23"><a href="http://origincache-frc.fbcdn.net/1740403_603760893027165_429578220_n.jpg" rel="instagram-images" title="Spy photos. woodgrain finish available this summer. #bmx"><img src="http://origincache-frc.fbcdn.net/1740403_603760893027165_429578220_s.jpg" width="50" height="50" border="0" title="Spy photos. woodgrain finish available this summer. #bmx" /></a></div><div class="instagram-image" id="instagram-image-24"><a href="http://origincache-frc.fbcdn.net/1389157_1416688605253735_673179061_n.jpg" rel="instagram-images" title="Woodgrain top load canopy stems and front load timber stems. Available this summer. #bmx"><img src="http://origincache-frc.fbcdn.net/1389157_1416688605253735_673179061_s.jpg" width="50" height="50" border="0" title="Woodgrain top load canopy stems and front load timber stems. Available this summer. #bmx" /></a></div><span class="instagram-images-clear version-1.5.4">&nbsp;</span></li><li id="text-6" class="widget-container widget_text">			<div class="textwidget"><table><tr>
+	<td><img src="http://www.treebicycleco.com/blog_images/home/sponsors/co-sponsored.gif" width="158" height="70" /></td>
+    <td><a href="http://www.sun-ringle.com/bmx/" target="_blank">
+    	<img src="http://www.treebicycleco.com/blog_images/home/sponsors/sunRingle.gif" width="87" height="70" border="0" /></a></td>
+	<td><a href="http://www.rawindulgence.com" target="_blank">
+    	<img src="http://www.treebicycleco.com/blog_images/home/sponsors/RI_Logo4C_NatOrg_wR df webstore2.jpg" alt="" border="0" /></a></td>
+</tr></table></div>
+		</li>			</ul>
+		</div><!-- #primary .widget-area -->
 
-	<div class="feature-ad-text">
-		<a href="/user/Register.htm"
-		   class="track-ga-event"
-		   data-ga-category="Homepage" 
-		   data-ga-action="Main Upsell" 
-		   data-ga-label="Reg upsell 4">
-		    <h3>See pre-foreclosures, auctions</h3>
-		    <h3>&amp; bank-owned properties</h3>
-		</a>
-		<a href="/user/Register.htm"
-		   class="track-ga-event"
-		   data-ga-category="Homepage" 
-		   data-ga-action="Main Upsell" 
-		   data-ga-label="Reg upsell 4">
-		    Unlock access with a free account
-		</a>
-	</div>
+<div id="pushbottom"> </div><!--//this div will span across the 3 divs above it making sure the footer stays at the bottom of the longest column-->
 
-</div><div class="marquee-footer"><div id="billboard-attribution" class="billboard-ad yui3-g"></div><h3 class="content-header more-link-text">Why shop for a <span class="zu-no-wrap">home on Zillow?</span></h3></div></div><article class="homepage-content clearfix"><section class="homepage-content-section upper-section"><h4 class="content-header more-link-text more-link-text">Here are 3 big reasons...</h4><div class="homepage-content-section-inner yui3-g"><div class="yui3-u-1-3 section-item"><img src="http://www.zillowstatic.com/vstatic/ec63712/static/images/homepage/why_z/million_listings.jpg" alt="3 examples of our 1 million More Listings"></img><div class="item-body"><h4>1 million more listings</h4><p>Not only does Zillow have for sale listings, but we also show you for sale by owner (FSBO) homes, foreclosures, new construction, and rentals. More than a million listings you won&rsquo;t find on an MLS. </p></div></div><div class="yui3-u-1-3 section-item"><img src="http://www.zillowstatic.com/vstatic/ec63712/static/images/homepage/why_z/hidden_inventory.jpg" alt="Example of Pre-foreclosures on Zillow"></img><div class="item-body"><h4>Browse hidden inventory</h4><p>Be first in line to see U.S. homes not yet on the market. Zillow has pre-foreclosures and homes with a Make Me Move<sup>&reg;</sup> Price. This information is found only on Zillow, for free.</p></div></div><div class="yui3-u-1-3 section-item"><img src="http://www.zillowstatic.com/vstatic/ec63712/static/images/homepage/why_z/zestimate.jpg" alt="Example of Zestimate values on Homes"></img><div class="item-body"><h4>Zestimate<sup>&reg;</sup> values on <span class="zu-no-wrap">all homes</span></h4><p>Get a starting point on a home&rsquo;s true value with Zillow&rsquo;s proprietary Zestimate home value. Zillow also offers Rent Zestimates and Foreclosure Estimates to help you figure out what it&rsquo;s worth.</p></div></div></div></section><section class="yui3-g homepage-content-section lower-section"><h3 class="content-header yui3-u-1 more-link-text">See more valuable real estate <span class="zu-no-wrap">tools and info</span></h3><div class="homepage-content-section-inner yui3-g"><div class="yui3-u-7-12 right-column"><div class="yui3-g upsell"><div class="yui3-u-1-3 upsell-img"><a title="View this home" data-ga-category="Homepage" data-ga-label="For Sale Homes" class="ga-link-track" href="http://www.zillow.com/homedetails/622-S-1st-St-Ann-Arbor-MI-48103/24701966_zpid/" data-ga-action="Upsell"><img onerror="this.onerror=''; this.src='/static/images/no-photo-house.png';" class="house-thumb" src="http://photos1.zillow.com/p_g/ISp51ibz9l2ict1000000000.jpg" alt="622 S 1st St, Ann Arbor, MI Home For Sale"></img><img class="broker-logo" src="http://photos2.zillow.com/l_c/ISyro2qpt8zlb7.jpg" alt="622 S 1st St, Ann Arbor, MI"></img><span class="price hide">$205K</span></a></div><div class="yui3-u-2-3 upsell-text"><h4 class="upsell-title"><a href="/ann-arbor-mi/" class="ga-link-track" data-ga-action="Upsell" data-ga-category="Homepage" data-ga-label="For Sale Homes">Ann Arbor homes for sale</a></h4><p>Shop for single-family homes, condos, townhomes &ndash; even homes not yet on the market, such as pre-foreclosures.</p><a href="/ann-arbor-mi/"> See more homes </a></div></div>
-
-    <div class="yui3-g upsell">
-        <div class="yui3-u-1-3 upsell-img">
-            <a href="/pre-approval" 
-               class="track-ga-event" 
-               data-ga-category="Homepage" 
-               data-ga-action="Small Upsell" 
-               data-ga-label="Mortgage pre-approval">
-                <img src="http://www.zillowstatic.com/cms/300x224_mortgage_v2.jpg"/>
-            </a>
-        </div>
-        <div class="yui3-u-2-3 upsell-text">
-            <h4 class="upsell-title">
-                <a href="/pre-approval" 
-                   class="track-ga-event" 
-                   data-ga-category="Homepage" 
-                   data-ga-action="Small Upsell" 
-                   data-ga-label="Mortgage pre-approval">
-                    Zillow Mortgage Marketplace
-                </a>
-            </h4>
-            <p>Shop for customized quotes, calculate monthly payments, get pre-approved for a mortgage, and more!</p>
-            <a href="/pre-approval"
-               class="track-ga-event" 
-               data-ga-category="Homepage" 
-               data-ga-action="Small Upsell" 
-               data-ga-label="Mortgage pre-approval">
-                Get pre-approved in minutes
-            </a>
-        </div>
-    </div>
+<!--//container2--></div>
 
 
-    <div class="yui3-g upsell">
-        <div class="yui3-u-1-3 upsell-img">
-            <a href="/mobile" 
-               class="track-ga-event" 
-               data-ga-category="Homepage" 
-               data-ga-action="Small Upsell" 
-               data-ga-label="Mobile">
-                <img src="http://www.zillowstatic.com/cms/300x224_mobile.jpg"/>
-            </a>
-        </div>
-        <div class="yui3-u-2-3 upsell-text">
-            <h4 class="upsell-title">
-                <a href="/mobile" 
-                   class="track-ga-event" 
-                   data-ga-category="Homepage" 
-                   data-ga-action="Small Upsell" 
-                   data-ga-label="Mobile">
-                    Zillow Mobile
-                </a>
-            </h4>
-            <p>Find homes for sale or rent, calculate affordability and get design ideas – all from your mobile device!</p>
-            <a href="/mobile"
-               class="track-ga-event" 
-               data-ga-category="Homepage" 
-               data-ga-action="Small Upsell" 
-               data-ga-label="Mobile">
-                See Zillow’s mobile apps
-            </a>
-        </div>
-    </div>
-
-</div><div class="yui3-u-5-12 left-column">
-
-    <div class="yui3-g upsell">
-        <div class="yui3-u-1-3 upsell-img">
-            <a href="/digs" 
-               class="track-ga-event" 
-               data-ga-category="Homepage" 
-               data-ga-action="Large Upsell" 
-               data-ga-label="Digs">
-                <img src="http://www.zillowstatic.com/cms/84living.jpg"/>
-            </a>
-        </div>
-        <div class="yui3-u-2-3 upsell-text">
-            <h4 class="upsell-title">
-                <a href="/digs" 
-                   class="track-ga-event" 
-                   data-ga-category="Homepage" 
-                   data-ga-action="Large Upsell" 
-                   data-ga-label="Digs">
-                    Home design ideas on Zillow Digs
-                </a>
-            </h4>
-            <p>Browse more than 300,000 photos of kitchens, bathrooms, outdoor spaces and more – organized by space, style, cost and color.</p>
-            <a href="/digs"
-               class="track-ga-event" 
-               data-ga-category="Homepage" 
-               data-ga-action="Large Upsell" 
-               data-ga-label="Digs">
-                Get inspired now
-            </a>
-        </div>
-    </div>
-
-</div></div></section></article><noscript><img src="http://log.dmtry.com/redir/1/0/2702/223414/0/1/94/0/7571.ver?at=e&amp;d=ChannelJS_NS" height="0" width="0"></img></noscript><noscript><iframe frameborder="0" src="http://3973258.fls.doubleclick.net/activityi;src=3973258;type=homep516;cat=zillo008;ord=1?" height="1" style="display:none" width="1"></iframe></noscript></div><!-- end content --></div></div><footer id="footer" class="zss-footer defaultFooter "><div class="seo-links"><div class="page-width-wrapper seo-links-inner footer-content"><ul class="yui3-u-1-4 list-drawer" data-visible-count="10" data-show-more-text="Show more" data-show-less-text="Show less"><li class="seo-link"><h5>Real Estate</h5></li><li class="seo-link"><a href="/austin-tx/">Austin</a></li><li class="seo-link"><a href="/boston-ma/">Boston</a></li><li class="seo-link"><a href="/charlotte-nc/">Charlotte</a></li><li class="seo-link"><a href="/co/">Colorado</a></li><li class="seo-link"><a href="/colorado-springs-co/">Colorado Springs</a></li><li class="seo-link"><a href="/columbus-oh/">Columbus</a></li><li class="seo-link"><a href="/denver-co/">Denver</a></li><li class="seo-link"><a href="/el-paso-tx/">El Paso</a></li><li class="seo-link"><a href="/fl/">Florida</a></li><li class="seo-link"><a href="/indianapolis-in/">Indianapolis</a></li><li class="seo-link"><a href="/jacksonville-fl/">Jacksonville</a></li><li class="seo-link"><a href="/las-vegas-nv/">Las Vegas</a></li><li class="seo-link"><a href="/memphis-tn/">Memphis</a></li><li class="seo-link"><a href="/miami-fl/">Miami</a></li><li class="seo-link"><a href="/philadelphia-pa/">Philadelphia</a></li><li class="seo-link"><a href="/phoenix-az/">Phoenix</a></li><li class="seo-link"><a href="/san-antonio-tx/">San Antonio</a></li><li class="seo-link"><a href="/san-diego-ca/">San Diego</a></li><li class="seo-link"><a href="/san-francisco-ca/">San Francisco</a></li><li class="seo-link"><a href="/san-jose-ca/">San Jose</a></li><li class="seo-link"><a href="/seattle-wa/">Seattle</a></li><li class="seo-link"><a href="/tampa-fl/">Tampa</a></li><li class="seo-link"><a href="/ut/">Utah</a></li><li class="seo-link"><a href="/washington-dc/">Washington DC</a></li><li class="seo-link"><a href="/intl/en/foreign-buyers-guide/">Foreign Buyer's Guide</a></li></ul><ul class="yui3-u-1-4 list-drawer" data-visible-count="10" data-show-more-text="Show more" data-show-less-text="Show less"><li class="seo-link"><h5>Apartments</h5></li><li class="seo-link"><a href="/atlanta-ga/rent/">Atlanta</a></li><li class="seo-link"><a href="/austin-tx/rent/">Austin</a></li><li class="seo-link"><a href="/baltimore-md/rent/">Baltimore</a></li><li class="seo-link"><a href="/boston-ma/rent/">Boston</a></li><li class="seo-link"><a href="/charlotte-nc/rent/">Charlotte</a></li><li class="seo-link"><a href="/chicago-il/rent/">Chicago</a></li><li class="seo-link"><a href="/dallas-tx/rent/">Dallas</a></li><li class="seo-link"><a href="/denver-co/rent/">Denver</a></li><li class="seo-link"><a href="/houston-tx/rent/">Houston</a></li><li class="seo-link"><a href="/jersey-city-nj/rent/">Jersey City</a></li><li class="seo-link"><a href="/long-beach-ca/rent/">Long Beach</a></li><li class="seo-link"><a href="/miami-fl/rent/">Miami</a></li><li class="seo-link"><a href="/minneapolis-mn/rent/">Minneapolis</a></li><li class="seo-link"><a href="/new-york-ny/rent/">New York City</a></li><li class="seo-link"><a href="/bronx-new-york-ny/rent/">Bronx NYC</a></li><li class="seo-link"><a href="/brooklyn-new-york-ny/rent/">Brooklyn NYC</a></li><li class="seo-link"><a href="/manhattan-new-york-ny/rent/">Manhattan NYC</a></li><li class="seo-link"><a href="/queens-new-york-ny/rent/">Queens NYC</a></li><li class="seo-link"><a href="/oakland-ca/rent/">Oakland</a></li><li class="seo-link"><a href="/oklahoma-city-ok/rent/">Oklahoma City</a></li><li class="seo-link"><a href="/philadelphia-pa/rent/">Philadelphia</a></li><li class="seo-link"><a href="/sacramento-ca/rent/">Sacramento</a></li><li class="seo-link"><a href="/san-francisco-ca/rent/">San Francisco</a></li><li class="seo-link"><a href="/seattle-wa/rent/">Seattle</a></li><li class="seo-link"><a href="/washington-dc/rent/">Washington DC</a></li></ul><ul class="yui3-u-1-4 list-drawer" data-visible-count="10" data-show-more-text="Show more" data-show-less-text="Show less"><li class="seo-link"><h5>Houses for Rent</h5></li><li class="seo-link"><a href="/austin-tx/rent-houses/">Austin</a></li><li class="seo-link"><a href="/boston-ma/rent-houses/">Boston</a></li><li class="seo-link"><a href="/charlotte-nc/rent-houses/">Charlotte</a></li><li class="seo-link"><a href="/columbus-oh/rent-houses/">Columbus</a></li><li class="seo-link"><a href="/fort-worth-tx/rent-houses/">Fort Worth</a></li><li class="seo-link"><a href="/fresno-ca/rent-houses/">Fresno</a></li><li class="seo-link"><a href="/indianapolis-in/rent-houses/">Indianapolis</a></li><li class="seo-link"><a href="/jacksonville-fl/rent-houses/">Jacksonville</a></li><li class="seo-link"><a href="/las-vegas-nv/rent-houses/">Las Vegas</a></li><li class="seo-link"><a href="/houston-tx/rent-houses/">Houston</a></li><li class="seo-link"><a href="/memphis-tn/rent-houses/">Memphis</a></li><li class="seo-link"><a href="/milwaukee-wi/rent-houses/">Milwaukee</a></li><li class="seo-link"><a href="/nashville-tn/rent-houses/">Nashville</a></li><li class="seo-link"><a href="/oakland-ca/rent-houses/">Oakland</a></li><li class="seo-link"><a href="/oklahoma-city-ok/rent-houses/">Oklahoma City</a></li><li class="seo-link"><a href="/philadelphia-pa/rent-houses/">Philadelphia</a></li><li class="seo-link"><a href="/phoenix-az/rent-houses/">Phoenix</a></li><li class="seo-link"><a href="/portland-or/rent-houses/">Portland</a></li><li class="seo-link"><a href="/san-antonio-tx/rent-houses/">San Antonio</a></li><li class="seo-link"><a href="/san-francisco-ca/rent-houses/">San Francisco</a></li><li class="seo-link"><a href="/san-jose-ca/rent-houses/">San Jose</a></li><li class="seo-link"><a href="/tampa-fl/rent-houses/">Tampa</a></li><li class="seo-link"><a href="/tuscon-az/rent-houses/">Tuscon</a></li><li class="seo-link"><a href="/washington-dc/rent-houses/">Washington DC</a></li><li class="seo-link"><a href="/homes/browse/rent/">Rental listings</a></li></ul><ul class="yui3-u-1-4 list-drawer" data-visible-count="10" data-show-more-text="Show more" data-show-less-text="Show less"><li class="seo-link"><h5>Mortgage Rates</h5></li><li class="seo-link"><a href="/mortgage-rates/al/">Alabama</a></li><li class="seo-link"><a href="/mortgage-rates/az/">Arizona</a></li><li class="seo-link"><a href="/mortgage-rates/ca/">California</a></li><li class="seo-link"><a href="/mortgage-rates/co/">Colorado</a></li><li class="seo-link"><a href="/mortgage-rates/fl/">Florida</a></li><li class="seo-link"><a href="/mortgage-rates/ga/">Georgia</a></li><li class="seo-link"><a href="/mortgage-rates/il/">Illinois</a></li><li class="seo-link"><a href="/mortgage-rates/in/">Indiana</a></li><li class="seo-link"><a href="/mortgage-rates/md/">Maryland</a></li><li class="seo-link"><a href="/mortgage-rates/ma/">Massachusetts</a></li><li class="seo-link"><a href="/mortgage-rates/mi/">Michigan</a></li><li class="seo-link"><a href="/mortgage-rates/mn/">Minnesota</a></li><li class="seo-link"><a href="/mortgage-rates/mo/">Missouri</a></li><li class="seo-link"><a href="/mortgage-rates/nj/">New Jersey</a></li><li class="seo-link"><a href="/mortgage-rates/ny/">New York</a></li><li class="seo-link"><a href="/mortgage-rates/nc/">North Carolina</a></li><li class="seo-link"><a href="/mortgage-rates/oh/">Ohio</a></li><li class="seo-link"><a href="/mortgage-rates/pa/">Pennsylvania</a></li><li class="seo-link"><a href="/mortgage-rates/sc/">South Carolina</a></li><li class="seo-link"><a href="/mortgage-rates/tn/">Tennessee</a></li><li class="seo-link"><a href="/mortgage-rates/tx/">Texas</a></li><li class="seo-link"><a href="/mortgage-rates/va/">Virginia</a></li><li class="seo-link"><a href="/mortgage-rates/wa/">Washington</a></li><li class="seo-link"><a href="/mortgage-rates/wi/">Wisconsin</a></li><li class="seo-link"><a href="/browse/mortgage/">Mortgage rates by state</a></li></ul></div></div><div class="zss-footer-base"><section class="nav-footer"><ul class="page-width-wrapper"><li><a href="/corp/About.htm" data-ga-category="Navigation" data-ga-label="About" class="track-ga-event" data-ga-action="Footer">About</a></li><li><a href="/howto/DataCoverageZestimateAccuracy.htm" data-ga-category="Navigation" data-ga-label="Zestimates" class="track-ga-event" data-ga-action="Footer">Zestimates</a></li><li><a href="/jobs/" data-ga-category="Navigation" data-ga-label="Jobs" class="track-ga-event" data-ga-action="Footer">Jobs</a></li><li><a href="/help/" data-ga-category="Navigation" data-ga-label="Help" class="track-ga-event" data-ga-action="Footer">Help</a></li><li><a href="/advertising/" data-ga-category="Navigation" data-ga-label="Advertise" class="track-ga-event" data-ga-action="Footer">Advertise</a></li><li><a href="/corp/Terms.htm" data-ga-category="Navigation" data-ga-label="Terms" class="track-ga-event" data-ga-action="Footer">Terms of Use &amp; Privacy Policy</a></li><li><a href="/corp/Privacy.htm#behavioralAdvertising" class="track-ga-event" data-ga-category="Navigation" data-ga-action="Footer" data-ga-label="Ad Choice">Ad Choice</a></li><li><a href="/blog" class="track-ga-event" data-ga-category="Navigation" data-ga-action="Footer" data-ga-label="Blog">Blog</a></li><li><a href="/mobile/" data-ga-category="Navigation" data-ga-label="Mobile Site" class="track-ga-event" data-ga-action="Footer">Mobile</a></li></ul></section><div class="zss-copyright"><span class="copyright-yahoo">Yahoo!-Zillow Real Estate Network </span><span class="copyright-year">&copy; 2006-2014 Zillow</span><span class="zss-follow-us"><h5>Follow us</h5><a href="http://twitter.com/zillow" target="_blank" class="zss-icon-only track-ga-event" data-ga-category="Homepage" data-ga-action="Social Icon" data-ga-label="Twitter"><span class="zss-font-icon" data-font-icon="twitter"></span><span class="zss-icon-text">Twitter</span></a><a href="http://www.facebook.com/Zillow" target="_blank" class="zss-icon-only track-ga-event" data-ga-category="Homepage" data-ga-action="Social Icon" data-ga-label="Facebook"><span class="zss-font-icon" data-font-icon="facebook"></span><span class="zss-icon-text">Facebook</span></a><a href="http://plus.google.com/+Zillow" target="_blank" class="zss-icon-only track-ga-event" data-ga-category="Homepage" data-ga-action="Social Icon" data-ga-label="Google+"><span class="zss-font-icon" data-font-icon="google-plus"></span><span class="zss-icon-text">Google Plus</span></a></span></div></div></footer><div class="zss-final-block"></div></div><!-- end #wrapper --><!-- .zss-nav-overlay Must imediately follow #wrapper --><div class="zss-nav-overlay"></div><div id="login_src" class="template hide">&nbsp;<!--<div id="login_content" class="z\-auth\-social dialog clearfix"><a class="zbt icon close lightbox\-close" title="Close" tabindex="\-1">x</a><div class="yui3\-widget\-bd lightbox\-body clearfix"></div></div>--></div><div id="register_src" class="template hide">&nbsp;<!--<div id="register_content" class="z\-auth\-social dialog clearfix"><a class="zbt icon close lightbox\-close" title="Close" tabindex="\-1">x</a><div class="yui3\-widget\-bd lightbox\-body clearfix"></div></div>--></div><script>ClientProfiler.profile('border seed started');</script><script src="http://www.zillowstatic.com/static/yui/seed-3.11.0.1-concat.js" type="text/javascript"></script><script>
-        YUI.GlobalConfig =  { root: '3.11.0/', base: 'http://www.zillowstatic.com/static/yui/3.11.0/', comboBase: 'http://www.zillowstatic.com/c/yui?', staticDomain: 'http://www.zillowstatic.com/', loggedIn: false, vstatic: { domain: 'http://www.zillowstatic.com/', combo : 'http://www.zillowstatic.com/c/ec63712/lib?', base : 'http://www.zillowstatic.com/vstatic/ec63712/static/' }  } ;
-    </script><script src="http://www.zillowstatic.com/c/config/?vstatic/ec63712/static/js/seed-c-concat.js" type="text/javascript"></script><script>ClientProfiler.profile('border seed finished');</script><span id="bluekai-target" class="hide"></span><div id="analytics" class="hide"><!-- SiteCatalyst code version: H.22.1 Copyright 1997-2010 Adobe, Inc. More info available at http://www.omniture.com --><noscript><img src="http://b.scorecardresearch.com/b2?c1=2&amp;c2=6036206&amp;c3=&amp;c4=www.zillow.com/&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" height="0" style="display:none" alt="" width="0"></img></noscript></div><script type="text/javascript">
-
-ClientProfiler.profile('body script request start');
-YUI().use("event-base","event-custom-base","html5-attr-placeholder","yui-later","zillow-session-beacon", function (Y, meta) {
-    if (meta.success !== true) { Y.message(meta.msg, 'warn'); return; }
-
-    if (YUI.GlobalConfig.debug) {
-        YUI.zDebugEvents = {}; Y._zfire = Y.fire; Y.fire = function(t) { YUI.zDebugEvents[t] = (!YUI.zDebugEvents[t] ? 1 : YUI.zDebugEvents[t] + 1); Y._zfire.apply(this, [].slice.call(arguments)); }
-        
-    }
-
-ClientProfiler.profile('body script callback start');
-    Y.use('event-base', function () {
-        Y.on(   'domready', ClientProfiler.profile, Y, 'dom ready');
-        Y.after('domready', ClientProfiler.profile, Y, 'dom ready complete');
-    });
 
 
-    Y.on('domready', function (e) {
-        Y.use("z-account-popup-message","z-plugin-nav", function () {
-            
-    // Y.all('.zss-nav').plug(Y.Z.Plugin.Nav, {
-    //     openWrapperNode: Y.one('#wrapper'),
-    //     toggleWrapperForTouchOnly: false,
-    //     parentSelector: '.dropdown',
-    //     openParentClass: 'dropdown-open',
-    //     navSelector: '.dropdown-bd'
-    // });
+	<div id="footer" role="contentinfo">
+		
+			<div id="footerRight">
+<div id="footerText">
+<h3>Footer Navigation</h3>
+<a href="/">HOME</a> | 
+<a href="/lilbuddyframe/">PARTS</a> | 
+<a href="/floweroflife/">CLOTHING</a> | 
+<a href="/team/">TEAM</a> | 
+<a href="/videos/">VIDEOS</a> | 
+<a href="/distro/">DISTRIBUTORS</a> | 
+<a href="/info/">INFO</a>
+</div>
+</div><!--//footerRight-->
 
-    var mobileNav,
-        mobileNavWidth = 575,
-        navNodes = Y.all('.zss-nav'),
-        selectedClass = Y.UA.touchEnabled ? 'is-selected' : null;
+<div id="footerLeft">
+<div id="footerText">
+&copy; TREE BICYCLE CO. 2010 
+</div>
+</div><!--//footerLeft-->
 
-    navNodes.plug(Y.Z.Plugin.Nav, {
-        parentTarget: '.dropdown',
-        openClass: 'dropdown-open',
-        buttonOnly: mobileNavWidth,
-        selectedClass: selectedClass
-    });
+	</div><!-- #footer -->
 
-    if (Y.UA.touchEnabled) {
-        mobileNav = Y.one('.more-tab .nav-primary-item');
+</div><!--//container-->
 
-        if (mobileNav) {
-            mobileNav.plug(Y.Z.Plugin.Nav, {
-                // navTriggerFilter: '.mobile-nav-trigger', // temporarily defaulting to dropdown-trigger
-                container: mobileNav,
-                parentTarget: '#wrapper',
-                openClass: 'zss-open-nav'
-            });
-        }
-    }
+<script type='text/javascript' src='http://www.treebicycleco.com/wp-content/plugins/instapress/instapress.js?ver=1.5.4'></script>
+</body>
+</html>
 
 
-    Y.Z.AccountPopupMessage.init();
-
-        }); // end use "z-account-popup-message","z-plugin-nav"
-    }); // end on 'domready'
-
-    
-    Y.on('load', function (e) {
-        Y.use("event-base","node-base","transition","z-analytics","z-plugin-nav-overflow","z-plugin-rotating-marquee","zillow-lightbox-manager","zillow-link-tracking","zillow-node-methods", function () {
-            
-            var hdpRegUpsellBox = Y.one('.upsell-bar');
-            if(hdpRegUpsellBox !== null) {
-                var upsellCloseBtn = hdpRegUpsellBox.one('.close-icon');
-                if(upsellCloseBtn != null) {
-                    upsellCloseBtn.on('click', function(e){
-                        hdpRegUpsellBox.transition({
-                            duration: 0.5, // seconds
-                            opacity: 0
-                        }, function () {
-                            this.hide();
-                        });
-                    });
-                }
-            }
-        
-            var rightNode = Y.one('#citystatezip'),
-                inputFocusKeepsPlaceholder = false,
-                autoBgChange,
-                backgroundData = {"backgrounds": []},
-                defaultBackgrounds = {"backgrounds":["http://www.zillowstatic.com/vstatic/ec63712/static/images/homepage/backgrounds/1500x675_brick.jpg","http://www.zillowstatic.com/vstatic/ec63712/static/images/homepage/backgrounds/1500x675_modern.jpg","http://www.zillowstatic.com/vstatic/ec63712/static/images/homepage/backgrounds/1500x675_brownstone_home.jpg","http://www.zillowstatic.com/vstatic/ec63712/static/images/homepage/backgrounds/1500x675_northwest.jpg"]},
-                container = Y.one('.zss-marquee-wrapper'),
-                featureAd = Y.one('.feature-ad'),
-                BACKGROUND_COUNT = 4;
-
-            if (!rightNode.ancestor('.last-search', true) || inputFocusKeepsPlaceholder) {
-                rightNode.focus();
-            }
-
-        
-            autoBgChange = Y.config.win.setInterval(function () {
-                container.rotatingMarquee.load(getNextBgIndex);
-            }, '8000');
-
-            while (backgroundData.backgrounds.length < BACKGROUND_COUNT) { // This comment includes a ">" character to appease Tapestry
-                backgroundData.backgrounds.push(defaultBackgrounds.backgrounds.shift());
-            }
-            // Always include the same image first.
-            backgroundData.backgrounds.unshift('http://www.zillowstatic.com/vstatic/ec63712/static/images/homepage/backgrounds/1500x675_neighborhood.jpg');
-            container.plug(Y.Z.Plugin.RotatingMarquee, {
-                bgNodeClass: 'zss-marquee-image',
-                bgNodeTransitionClass: 'zss-marquee-image-transition',
-                backgroundData: backgroundData.backgrounds,
-                wrapClass: ['zss-marquee-fade'],
-                attributionContainer: Y.one('#billboard-attribution')
-            });
-
-            container.rotatingMarquee.load();
-
-            function getNextBgIndex(state) {
-                return (state.currentIndex) % (state.bgCount - 1) + 1;
-            }
-
-            function getPrevBgIndex(state) {
-                return (state.currentIndex + state.bgCount - 3) % (state.bgCount - 1) + 1;
-            }
-
-            Y.all('.zss-marquee-next').on('click', function (e) {
-                e.preventDefault();
-                Y.config.win.clearInterval(autoBgChange);
-                container.rotatingMarquee.load(getNextBgIndex);
-            });
-
-            Y.all('.zss-marquee-prev').on('click', function (e) {
-                e.preventDefault();
-                Y.config.win.clearInterval(autoBgChange);
-                container.rotatingMarquee.load(getPrevBgIndex);
-            });
-
-            if (featureAd) {
-                container.rotatingMarquee.on('marquee:attributionShow', function () {
-                    featureAd.transition({ opacity: 0, duration: 0.5 });
-                });
-                container.rotatingMarquee.on('marquee:attributionHide', function () {
-                    featureAd.transition({ opacity: 1, duration: 1 });
-                });
-            }
-        
-
-            Y.once('scroll', function (e) {
-                Y.Z.track({
-                    category: 'Homepage',
-                    action: 'Scroll below fold'
-                });
-            });
-        Y.Z.LightboxManager.addComponent({"boundingBox":"#login","global":true,"name":"login","phaseType":"scroll","cfg":{"id":"login","klass":"InlineAuthLightbox"},"requires":["zillow-inline-auth-lightbox"],"initializer":"_create","jsModule":"zillow-inline-auth-lightbox"});
-Y.Z.LightboxManager.addComponent({"boundingBox":"#register","global":true,"name":"register","phaseType":"scroll","cfg":{"id":"register","klass":"InlineAuthLightbox"},"requires":["zillow-inline-auth-lightbox"],"initializer":"_create","jsModule":"zillow-inline-auth-lightbox"});
-Y.Z.Analytics.init();
-
-        Y.all('.login-block .zss-nav').plug(Y.Z.Plugin.NavOverflow);
-        Y.all('.nav-primary .zss-nav').plug(Y.Z.Plugin.NavOverflow);
-    
-        }); // end use "event-base","node-base","transition","z-analytics","z-plugin-nav-overflow","z-plugin-rotating-marquee","zillow-lightbox-manager","zillow-link-tracking","zillow-node-methods"
-    }); // end on 'load'
-
-    
-    Y.once('autocomplete:delay', function (e) {
-        Y.use("autocomplete","jsonp","z-home-search-bar","z-search-autocomplete", function () {
-            
-                var AC = new Y.Z.AutoComplete({
-                    resultListLocator : 'names',
-                    resultHighlighter : 'phraseMatch',
-                    activateFirstItem : false,
-                    maxResults        : 3,
-                    minQueryLength    : 3,
-                    ac_results_url    : 'http://ac.zillowstatic.com/',
-                    inputNodeSelector : '#citystatezip',
-                    afterSelect       : startSearch
-                });
-
-                var box = AC.getBoundingBox();
-                var searchBox = Y.one('#citystatezip');
-
-                box.setStyle('zIndex', 99).setStyle('textAlign', 'left');
-                Y.on('click', function () {
-                // delay the width resize as the continue search label changes to magnifying glass and search box width increases.
-                    setTimeout( function() {
-                            AC.setACWidth();
-                        }, 100);
-                }, '.continue-search #citystatezip');
-                function startSearch(e){
-                    Y.Z.HomeSearchBar.click(e);
-                }
-            
-        }); // end use "autocomplete","jsonp","z-home-search-bar","z-search-autocomplete"
-    }); // end once 'autocomplete:delay'
-
-    
-    Y.after('domready', function (e) {
-        Y.use("z-account-popup-message", function () {
-            
-    Y.Z.AccountPopupMessage.addMessage({
-        content: "<div class=\"auth-nav-animation-block hide\"><div class=\"auth-nav-animation-beak\">&nbsp;<\/div><div class=\"auth-nav-animation\"><span><a tabindex=\"-1\" title=\"Close\" class=\"zbt icon close\">x<\/a><\/span><span class=\"auth-button\"><a href=\"\/Index,$Border.$links$LoginLink_1.sdirect?form:Index=ZH4sIAAAAAAAAAK3QMU5CQRAG4HkkkJigCeECFltvPAOhMESRxO7FxAxvx8fKurOZXXax8yAcgatYegw4ABU0WlgZQzn%2FX3x%2FZruDbjEA0KvgVo1YDIlOHKaYtfKY1T3KkpL17YOvrXNctHLWL6MyVqhJLO9qwtaPv6%2B7UwnDQBJtTGRm2NJ09TYnCWVeweRPxPPN%2F5Gn8yKXP8gjSwqlD3ARF1zGgi8pCgxeMaN26Fs9YnaE%2FvNaPr42h30Hqhq6Gd2K1gFKfc7%2F%2Fl41ALhCk9E3p4RQmkU4AnN6Bq3ZAQAA\" class=\"nav-item nav-primary-item nav-item-button tengage-reg-nav nav-text nav-animation show-lightbox auth-required login\" id=\"login_opener_0\" title=\"Sign In\" data-ga-label=\"Top nav pop up\" rel=\"nofollow\">Sign In<\/a><\/span><p class=\"animation-block-text\"><span>Need an account?&nbsp;<\/span><span><a href=\"\/Index,$Border.$links$RegisterLink_0.sdirect?form:Index=ZH4sIAAAAAAAAAK3QMU5CQRAG4HkkkJigCeECFltvPAOhMESRxO7FxAxvx8fKurOZXXax8yAcgatYegw4ABU0WlgZQzn%2FX3x%2FZruDbjEA0KvgVo1YDIlOHKaYtfKY1T3KkpL17YOvrXNctHLWL6MyVqhJLO9qwtaPv6%2B7UwnDQBJtTGRm2NJ09TYnCWVeweRPxPPN%2F5Gn8yKXP8gjSwqlD3ARF1zGgi8pCgxeMaN26Fs9YnaE%2FvNaPr42h30Hqhq6Gd2K1gFKfc7%2F%2Fl41ALhCk9E3p4RQmkU4AnN6Bq3ZAQAA\" class=\"nav-item nav-primary-item tengage-reg-nav nav-text nav-animation show-lightbox auth-required register\" id=\"register_opener_0\" title=\"Sign up\" data-ga-label=\"Top nav pop up\" rel=\"nofollow\">Sign up here<\/a><\/span><\/p><\/div><\/div>"
-        
-            , priority: -10
-        
-        
-            , delay: 5000
-        
-        
-            , duration: 10000
-        
-        
-    });
-
-        }); // end use "z-account-popup-message"
-    }); // end after 'domready'
-
-    
-    Y.after('load', function (e) {
-        Y.use("event-custom-base","yui-later","z-doubleclick-tag","z-go2cloud-tag","z-marketing-pixels","z-plugin-list-drawer", function () {
-            
-                Y.later(500, Y, 'fire', 'autocomplete:delay');
-            
-        new Y.Z.MarketingPixel({"isKenshooEvent":false,"eventName":"HomePageEntry","adometryPid":223414});
-    
-        new Y.Z.DoubleClickTag({"listingZipcode":"48104","eventName":"HomePageEntry","eventType":"homep516","isMobile":false,"eventCategory":"zillo008"});
-    
-        new Y.Z.Go2CloudTag();
-    
-        Y.fire('Marketing:HomePageEntry');
-    
-    Y.all('.list-drawer').plug(Y.Z.Plugin.ListDrawer);
-
-        
-            Y.later(1000, Y, 'fire', 'priorityUiReady');
-        
-    
-        var body = Y.one(Y.config.win.document.body);
-        if (Y.UA.touchEnabled) {
-            body.removeClass('zss-no-touch');
-            body.addClass('zss-touch');
-        }
-    
-        }); // end use "event-custom-base","yui-later","z-doubleclick-tag","z-go2cloud-tag","z-marketing-pixels","z-plugin-list-drawer"
-    }); // end after 'load'
-
-    
-    Y.after('priorityUiReady', function (e) {
-        Y.use("z-bluekai-reporter", function () {
-            
-    var data = {};
-    
-        data['generic'] = '';
-    
-    var bkReporter = new Y.Z.BluekaiReporter({
-        'javascriptUrl': '//tags.bkrtx.com/js/bk-coretag.js',
-        'bluekaiData': data,
-        'siteId': '5837',
-        'maxPixels': '6'
-    });
-    bkReporter.sendData();
-
-        }); // end use "z-bluekai-reporter"
-    }); // end after 'priorityUiReady'
-
-    
-        Y.namespace("Z").isMobile = false;
-    
-        Y.once('domready', Y.Plugin.AttrPlaceholder.loadAll);
-    
-        var profilerBeacon = new Y.Z.SessionBeacon({'url': '/ui/ClientProfile.htm'}),
-            beaconLater = function () {
-                // this == ClientProfiler
-                ClientProfiler.profile('profiler beaconing data');
-                var report = ClientProfiler.getProfiledEvents().join();
-                profilerBeacon.save('profile', report);
-            };
-        Y.on('load', function () {
-                ClientProfiler.profile('loaded Home:Home');
-                Y.later('3000', ClientProfiler, beaconLater);
-        });
-        Y.after('load', function () {
-            ClientProfiler.profile('onload completed');
-        });
-    
-    ClientProfiler.profile('body script callback end');
-});
-ClientProfiler.profile('body script request end');
-</script><script>ClientProfiler.profile('html body ended');</script><script language="JavaScript" type="text/javascript"><!--
 
 
-        (function () {
-            var gaTimeout = 1000, //Timeout duration for doubleclick code
-                //TODO: Set `useDblClick` value based on A/B test
-                useDblClick = false,
-                gaSrc = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js',
-                dblClkSrc = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-
-            window._gaq = window._gaq || [];
-            window._gaqBackup = window._gaqBackup || [];
-
-            window._gaq.push(['_setAccount', 'UA-21174015-1']);
-            window._gaq.push(['_setDomainName', '.zillow.com']);
-            window._gaqBackup = [
-["_setCustomVar", 49, "A/B Test 9", "RentalsVerifiedBadge.VERIFIED_BADGE_OFF", 1],
-["_setCustomVar", 42, "A/B Test 2", "TrafficCreateAccountOnMobileAppContact.CONTROL", 1],
-["_setCustomVar", 41, "A/B Test 1", "PPL_Reg_Cleanup.CONTROL", 1],
-["_setCustomVar", 44, "A/B Test 4", "MortgageFeaturedContactForm.CONTROL", 1],
-["_setCustomVar", 43, "A/B Test 3", "SHO_MAGIC_CARPET.CONTROL", 1],
-["_setCustomVar", 25, "Device Type", "Desktop"],
-["_setCustomVar", 46, "A/B Test 6", "MortgageDropdownTitle.TITLE_MORTGAGES", 1],
-["_setCustomVar", 45, "A/B Test 5", "SELTablessLandingPage.CONTROL", 1],
-["_setCustomVar", 48, "A/B Test 8", "BALadjusted.CONTROL", 1],
-["_setCustomVar", 47, "A/B Test 7", "LocalStorage.CONTROL", 1],
-["_setCustomVar", 1, "Guid", "ade64fce698147689040775465e7375a", 1],
-["_setCustomVar", 7, "Neighborhood", ""],
-["_setCustomVar", 22, "AccountCreationDate", "", 1],
-["_setCustomVar", 6, "Zip", ""],
-["_setCustomVar", 36, "A/B Test 11", "iOSBALPhoneRequirements.CONTROL", 1],
-["_setCustomVar", 12, "UserType", "Unrecognized", 2],
-["_setCustomVar", 50, "A/B Test 10", "MobileWebHomepageButtons.CONTROL", 1],
-["_setCustomVar", 38, "A/B Test 13", "RentalsActionButtonText.CONTACT_PROPERTY", 1],
-["_setCustomVar", 37, "A/B Test 12", "TrafficAutoAccountCreationMessaging.CONTROL", 1],
-["_setCustomVar", 40, "A/B Test 15", "TrafficCreateAccountOnContact.CONTROL", 1],
-["_setCustomVar", 39, "A/B Test 14", "RentalFilterUI.CONTROL", 1],
-["_setCustomVar", 23, "SignedInNow", "false", 2],
-["_setCustomVar", 5, "City", ""],
-["_setCustomVar", 4, "County", ""],
-["_setCustomVar", 3, "State", ""],
-["_setCustomVar", 8, "Address", ""],
-["_trackPageview", "\/"]
-];
-            window._gaq.push.apply(window._gaq, window._gaqBackup);
-
-            // var legacyPageName = "Home:Home";
-
-            function getGASrc (src) {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = src;
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            }
-
-            //We want to use double click remarketing code, but if its being blocked fallback to original version
-            //Source: http://www.blastam.com/blog/index.php/2013/04/google-analytics-remarketing-tag-concerns-solved/
-            try {
-
-                if (useDblClick) {
-
-                    getGASrc(dblClkSrc);
-
-                    // doubleclick checker -
-                    (function() {
-                        var o=onload, n=function(){setTimeout(function(){ if(typeof _gat === "undefined"){
-                        getGASrc(gaSrc);
-                        _gaq.push(['_trackEvent','GA Remarketing Tag','DC Script','Failed',0,true]);}}, gaTimeout); }
-                        if (typeof o!='function'){onload=n} else { onload=function(e){o(e); n()}}
-                    })(window);
-
-                } else {
-                    getGASrc(gaSrc);
-                }
-
-            } catch(err){
-                if (window.console && window.console.log) {
-                    console.log('ERROR when requesting GA code: ', err);
-                }
-            }
-
-        })();
-    
- var _comscore = _comscore || []; _comscore.push( { "c1": 2, "c2": "6036206", "c3": "", "c4": "www.zillow.com/", "c5": "", "c6": "", "c15":"" } ); 
-
-var _comscoreBackup = _comscoreBackup || [];
-_comscoreBackup.push.apply(_comscoreBackup, _comscore);
-
- setTimeout(function() { var cs = document.createElement('script'); cs.type = 'text/javascript'; cs.setAttribute('async', true); cs.src = (document.location.protocol == 'https:' ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js'; var el = document.getElementsByTagName('script')[0]; el.parentNode.insertBefore(cs, el); }, 100); 
 
 
-// --></script></body></html><!-- H:012  T:94ms  S:69830  R:Wed Apr 02 17:18:45 PDT 2014  B:3.0.224031.20140402114346619-comp_rel_a.224031.20140402114511587-comp_rel_a -->
+
+
+
+
+
+

@@ -1,41 +1,896 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en-US">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>303 BOARDS / CLFX / STREET TRASH | 303 Boards has been holding down the Colorado skate scene since 1997! We are an independently owned and independently minded skate shop.</title>
-        <meta http-equiv="Content-language" content="en-US" />
-		<link rel="profile" href="http://gmpg.org/xfn/11" />
-        <link rel="shortcut icon" href="http://303boards.com/wp-content/themes/sight/images/favico.ico" type="image/x-icon" />
-        <link rel="stylesheet" type="text/css" media="all" href="http://303boards.com/wp-content/themes/sight/style.css" />
-        <!--[if IE]><link rel="stylesheet" type="text/css" media="all" href="http://303boards.com/wp-content/themes/sight/ie.css" /><![endif]-->
-                <link rel="alternate" type="application/rss+xml" title="303 BOARDS / CLFX / STREET TRASH &raquo; Feed" href="http://303boards.com/?feed=rss2" />
-<link rel="alternate" type="application/rss+xml" title="303 BOARDS / CLFX / STREET TRASH &raquo; Comments Feed" href="http://303boards.com/?feed=comments-rss2" />
-<script type='text/javascript' src='http://303boards.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
-<script type='text/javascript' src='http://303boards.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='http://303boards.com/wp-content/themes/sight/js/jquery.cycle.all.min.js?ver=3.7.1'></script>
-<script type='text/javascript' src='http://303boards.com/wp-content/themes/sight/js/jquery.cookie.js?ver=3.7.1'></script>
-<script type='text/javascript' src='http://303boards.com/wp-content/themes/sight/js/script.js?ver=3.7.1'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://303boards.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://303boards.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 3.7.1" />
-                <script type="text/javascript">
-            (function($) {
-                $(function() {
-                    $('#slideshow').cycle({
-                        fx:     'scrollHorz',
-                        timeout: 7000,
-                        next:   '#rarr',
-                        prev:   '#larr'
-                    });
-                })
-            })(jQuery)
-        </script>
-        
+<!doctype html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
 
+<meta name="google-site-verification" content="NNs90aP3y5X9eOl6YIK52UW72MIAT8alCltR3IsyhYY" />
+<title>BrunchNews - Connecting you to the best news sources around the world</title>
+<meta name="description" content="Get the latest, trending and breaking news from your favorite news sources from around the world. Get Politics News, Technology News, Business News, Entertainment News, Health News, Sports News, General News News, Gadgets News, Auto News, Blog News" />
+<meta name="keywords" content="Latest News, Popular News, Breaking News, Trending News, Politics News, Technology News, Business News, Entertainment News, Health News, Sports News, General News News, Gadgets News, Auto News, Blog News" />
+<meta http-equiv="last-modified" content="2014-04-16@02:14:06 IST" />
+
+<link href="http://www.brunchnews.com/theme1/css/bn.css" rel="stylesheet" type="text/css">
+<link href="http://www.brunchnews.com/theme1/css/bnresponsive.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://www.brunchnews.com/js/html5iebrowsersupport.js"></script>
+<script type="text/javascript">
+	var mobileBrowserFlag = '0';
+	var FbAppID = '357423354387508';
+	var BASEURL= 'http://www.brunchnews.com/';
+	document.createElement('header');
+	document.createElement('hgroup');
+	document.createElement('nav');
+	document.createElement('menu');
+	document.createElement('section');
+	document.createElement('article');
+	document.createElement('aside');
+	document.createElement('footer');
+</script>
+<link rel="icon" type="image/png"  href="http://www.brunchnews.com/theme1/images/favicon16X16.ico">
+<link rel="shortcut icon" href="http://www.brunchnews.com/theme1/images/favicon16X16.ico">
+		<link rel="next" href="http://www.brunchnews.com/page/2">
+        <link rel="canonical" href="http://www.brunchnews.com/" />
+</head>
+
+
+<body>
+<div class="Bn_home">
+    <div class="TopHeader">
+        <div class="HmLogo">
+            <a href="http://www.brunchnews.com/">
+                <img src="http://www.brunchnews.com/theme1/images/bn_hm_logo.png" width="206" height="36" alt="Brunch News" title="Brunch News" />
+            </a>
+        </div>
+    </div>
+
+
+	<div class="MainBody clearfix">
+		<section class="BnHomePageHold">
+			<article class="BnDescHold">
+				<div class="WebsiteTitleHold">
+					<h1>
+                    	<!--<span class="BnTitleH">Brunchnews</span><br>-->
+							Your Personal Newspaper
+					</h1>
+				</div>
+				<div class="BnParaHold">
+                    <p>Customize and Discover news from all over the world.
+                    #only from your trusted sources
+                    </p>
+				</div>
+
+                <div class="HButtonsHold">
+                	<span class="PersBtnHold">
+                    	<a class="fancybox-manual-b" href="http://www.brunchnews.com/signup/personalize" rel="nofollow">Personalize</a>
+                    </span> Or &nbsp;&nbsp;<a href="#home_read">Just Read</a> 
+                </div>
+				<div class="FbHButtonHold">
+                	<!-- <a class="fancybox-manual-b" href="http://www.brunchnews.com/signup" rel="nofollow">
+                    	<img id="fbAutoSignup" src="http://www.brunchnews.com/theme1/images/fb_sign_hm.jpg" alt="Sign in with Facebook" title="Sign in with Facebook" style="width:auto;" />
+                    </a> -->
+                    <a href="javascript:void(0);" rel="nofollow">
+                    	<img class="fbAutoSignup" src="http://www.brunchnews.com/theme1/images/fb_sign_hm.jpg" alt="Sign in with Facebook" title="Sign in with Facebook" style="width:auto;" />
+                    </a>
+                </div>
+                
+                <p class="Editions">
+                	View Editions:  <a href="http://www.brunchnews.com/all#home_read" rel="nofollow">All Regions</a>  |  <a href="http://www.brunchnews.com/usa#home_read" rel="nofollow">USA</a>  |  <a href="http://www.brunchnews.com/uk#home_read" rel="nofollow">UK</a>  |  <a href="http://www.brunchnews.com/india#home_read" rel="nofollow">India</a>  |  <a href="http://www.brunchnews.com/au#home_read" rel="nofollow">Australia</a> |  <a href="http://www.brunchnews.com/ca#home_read" rel="nofollow">Canada</a>
+                </p>
+                
+			</article>
+
+            <article class="DextopImgsHold">
+                <div class="BnDextopWtDevices">
+                	<img src="http://www.brunchnews.com/theme1/images/bn_dextop_wt_devices.png" width="555" height="350" alt="Brunch News" title="Brunch News">
+                </div>
+            </article>
+			<div class="clearB"></div>
+		</section>
+	</div><!--MainBody-->
+</div><!--Bn_home-->
+
+<div class="Bn_Inner_page">
+<a href="#" name="home_read"></a>
+<div class="headerWrap clearfix">
+<header>
+<div class="logo"><a href="http://www.brunchnews.com/"><img src="http://www.brunchnews.com/theme1/images/logo_large.png" width="206" height="36"  alt="Brunch News" title="Brunch News "></a></div>
+<div class="UserLoginHold">
+	<div class="SettingIconHold">
+		
+	</div>
+	<div class="UserLoginBox">
+		<ul>
+						<li><a rel="nofollow" class="fancybox-manual-b" href="http://www.brunchnews.com/signup/personalize">Personalize Brunchnews</a></li>
+							<li><a href="javascript:void(0);" rel="nofollow" class="fbAutoSignup">Sign in with Facebook</a></li>
+						</ul>
+	</div>
+</div>
+	<nav class="nav">
+    	<ul class="navList">
+    		<li class="navItem MobileShow">
+                <a rel="nofollow" class="fancybox-manual-b" href="http://www.brunchnews.com/signup/personalize">Personalize Brunchnews</a>
+            </li>
+        	<li class="navItem">
+                <a href="http://www.brunchnews.com/" class="Selected">Home</a>
+            </li>
+            <li class="navItem">
+                <a href="http://www.brunchnews.com/section/politics-news" >Politics</a>
+                            </li>
+            <li class="navItem">
+                <a href="http://www.brunchnews.com/section/business-news" >Business</a>
+                            </li>
+            <li class="navItem">
+                <a href="http://www.brunchnews.com/section/sports-news" >Sports</a>
+                            </li>
+            <li class="navItem">
+                <a href="http://www.brunchnews.com/section/technology-news" >Technology</a>
+                            </li>
+            <li class="navItem">
+                <a href="http://www.brunchnews.com/section/gadgets-news" >Gadgets</a>
+                            </li>
+            <li class="navItem">
+                <a href="http://www.brunchnews.com/section/entertainment-news" >Entertainment</a>
+                            </li>
+            <li class="navItem">
+                <a href="http://www.brunchnews.com/section/health-news" >Health</a>
+                            </li>
+            <li class="navItem BRDRright">
+                <a href="http://www.brunchnews.com/section/auto-news" >Auto</a>
+                            </li>
+        </ul>
+    </nav>
+</header>
+</div><!--End headerWrap-->
+<div class="MainBody clearfix">
+<!--<div class="breadcrumb clearfix">home > Politics > Asia Pacific</div>-->
+
+<div class="clearB"></div>
+<section class="StoryRowBox">
+	<h2 class="SameAsH1">Latest News</h2>
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/autoblog/auto/chevy-camaro-is-a-good-sport-wishes-ford-mustang-happy-50th-971749">Chevy Camaro is a good sport, wishes Ford Mustang Happy 50th</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/autoblog-news">Autoblog</a></small><small><a href="http://www.brunchnews.com/section/auto-news">Auto</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/autoblog/auto/chevy-camaro-is-a-good-sport-wishes-ford-mustang-happy-50th-971749"><img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/1181x750+50+0/resize/628x399!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/midas/d7cf9145d85e508bba240b423e643d00/200032933/camaro-mustang-birthday-.jpg" alt="Chevy Camaro is a good sport, wishes Ford Mustang Happy 50th" title="Chevy Camaro is a good sport, wishes Ford Mustang Happy 50th" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            Filed under: Coupe, Budget, Performance, Etc., Chevrolet, Ford
+
+It was 1966 when Chevrolet launched its challenger to the wildly successful Ford Mustang, the Camaro. While the competition between the two brands was already healthy, the arrival of the...			<a href="http://feeds.autoblog.com/~r/weblogsinc/autoblog/~3/8CXbT1YjsDQ/" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			chevy, camaro, is, good, sport, wishes, ford, mustang, happy, 50th			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/autoblog/auto/chevy-camaro-is-a-good-sport-wishes-ford-mustang-happy-50th-971749"
+                    addthis:title="Chevy Camaro is a good sport, wishes Ford Mustang Happy 50th"
+                    addthis:description="Filed under: Coupe, Budget, Performance, Etc., Chevrolet, Ford
+
+It was 1966 when Chevrolet launched its challenger to the wildly successful Ford Mustang, the Camaro. While the competition between the two brands was already healthy, the arrival of the...">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/autoblog/auto/did-hard-feelings-between-gm-and-delphi-contribute-to-ignition-switch-woes-971748">Did hard feelings between GM and Delphi contribute to ignition-switch woes?</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/autoblog-news">Autoblog</a></small><small><a href="http://www.brunchnews.com/section/auto-news">Auto</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/autoblog/auto/did-hard-feelings-between-gm-and-delphi-contribute-to-ignition-switch-woes-971748"><img src="http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3474x2331+0+4/resize/628x417!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/45708f75bb4af7b7274cb0dd0c25a20a/200031647/0e6c9bf2bce04f80931bf7dbaf676256.jpeg" alt="Did hard feelings between GM and Delphi contribute to ignition-switch woes?" title="Did hard feelings between GM and Delphi contribute to ignition-switch woes?" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            Filed under: GM, Earnings/Financials, UAW/Unions, Read This
+
+The Detroit News has lodged another exhibit in the attempt to reconstruct how General Motors used an ignition switch part that might not have met the company&#039;s own standards, citing ac...			<a href="http://feeds.autoblog.com/~r/weblogsinc/autoblog/~3/xaxIpi1clPk/" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			did, hard, feelings, between, gm, and, delphi, contribute, to, ignition, switch, woes			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/autoblog/auto/did-hard-feelings-between-gm-and-delphi-contribute-to-ignition-switch-woes-971748"
+                    addthis:title="Did hard feelings between GM and Delphi contribute to ignition-switch woes?"
+                    addthis:description="Filed under: GM, Earnings/Financials, UAW/Unions, Read This
+
+The Detroit News has lodged another exhibit in the attempt to reconstruct how General Motors used an ignition switch part that might not have met the company&#039;s own standards, citing ac...">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/daily-mail/general-news/woman-who-lost-legal-battle-with-over-rights-to-%c2%a3228-000-vase-is-forced-to-sell-her-home-971705">Woman who lost legal battle with over rights to &pound;228,000 vase is forced to sell her home</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/daily-mail-news">Daily Mail</a></small><small><a href="http://www.brunchnews.com/section/general-news">General News</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/daily-mail/general-news/woman-who-lost-legal-battle-with-over-rights-to-%c2%a3228-000-vase-is-forced-to-sell-her-home-971705"><img src="http://i.dailymail.co.uk/i/pix/2014/04/15/article-2605111-1D20F45700000578-775_1024x615_large.jpg" alt="Woman who lost legal battle with over rights to &pound;228,000 vase is forced to sell her home" title="Woman who lost legal battle with over rights to &pound;228,000 vase is forced to sell her home" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            Andrea Calland, 47,from Ruthin, North Wales, found the &#039;ugly&#039; pot in her garage and decided to sell it but was shocked to discover it was a rare antique.			<a href="http://www.dailymail.co.uk/news/article-2605111/Woman-lost-legal-battle-rights-228-000-vase-forced-sell-home.html?ITO=1490&ns_mchannel=rss&ns_campaign=1490" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			Woman, lost, legal, battle, rights, 228, 000, vase, forced, sell, home			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/daily-mail/general-news/woman-who-lost-legal-battle-with-over-rights-to-%c2%a3228-000-vase-is-forced-to-sell-her-home-971705"
+                    addthis:title="Woman who lost legal battle with over rights to &pound;228,000 vase is forced to sell her home"
+                    addthis:description="Andrea Calland, 47,from Ruthin, North Wales, found the &#039;ugly&#039; pot in her garage and decided to sell it but was shocked to discover it was a rare antique....">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/forbes/business/yahoo-reports-yet-another-quarter-of-no-real-revenue-growth-971744">Yahoo Reports Yet Another Quarter Of No Real Revenue Growth</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/forbes-news">Forbes</a></small><small><a href="http://www.brunchnews.com/section/business-news">Business</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/forbes/business/yahoo-reports-yet-another-quarter-of-no-real-revenue-growth-971744"><img src="http://images.forbes.com/media/assets/forbes_1200x1200.jpg" alt="Yahoo Reports Yet Another Quarter Of No Real Revenue Growth" title="Yahoo Reports Yet Another Quarter Of No Real Revenue Growth" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            How long can Marissa Mayer keep playing for time? As her two-year anniversary as CEO of Yahoo approaches this summer, Mayer has to face analysts on her company&#039;s earnings call and once again ask them to be patient and accept her assurances that ...			<a href="http://www.forbes.com/sites/jeffbercovici/2014/04/15/yahoo-reports-yet-another-quarter-of-no-real-revenue-growth/" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			Business, Media  Entertainment, Tech, Media &amp; Entertainment			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/forbes/business/yahoo-reports-yet-another-quarter-of-no-real-revenue-growth-971744"
+                    addthis:title="Yahoo Reports Yet Another Quarter Of No Real Revenue Growth"
+                    addthis:description="How long can Marissa Mayer keep playing for time? As her two-year anniversary as CEO of Yahoo approaches this summer, Mayer has to face analysts on her company&#039;s earnings call and once again ask them to be patient and accept her assurances that ...">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/yahoo-news/sports/tickets-for-two-thirds-of-world-cup-games-sold-out-971692">Tickets for two-thirds of World Cup games sold out</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/yahoo-news">Yahoo News</a></small><small><a href="http://www.brunchnews.com/section/sports-news">Sports</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/yahoo-news/sports/tickets-for-two-thirds-of-world-cup-games-sold-out-971692"><img src="http://l.yimg.com/bt/api/res/1.2/08gj08kgeyR5VtcgCpZZ4Q--/YXBwaWQ9eW5ld3M7cT04NTt3PTYwMA--/http://media.zenfs.com/en_us/News/ap_webfeeds/d8c02572ccf9710e510f6a7067004dc7.jpg" alt="Tickets for two-thirds of World Cup games sold out" title="Tickets for two-thirds of World Cup games sold out" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            SAO PAULO (AP) &mdash; Tickets for nearly two-thirds of the World Cup matches were sold out within hours of FIFA opening the final online sales phase on Tuesday.			<a href="http://news.yahoo.com/tickets-two-thirds-world-cup-games-sold-203738168.html" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			tickets, for, two, thirds, of, world, cup, games, sold, out			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/yahoo-news/sports/tickets-for-two-thirds-of-world-cup-games-sold-out-971692"
+                    addthis:title="Tickets for two-thirds of World Cup games sold out"
+                    addthis:description="SAO PAULO (AP) &mdash; Tickets for nearly two-thirds of the World Cup matches were sold out within hours of FIFA opening the final online sales phase on Tuesday....">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/mediaite/general-news/bloomberg-anchor-calls-out-guest-for-giving-her-sexist-line-971757">Bloomberg Anchor Calls Out Guest for Giving Her &lsquo;Sexist Line&rsquo;</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/mediaite-news">Mediaite</a></small><small><a href="http://www.brunchnews.com/section/general-news">General News</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/mediaite/general-news/bloomberg-anchor-calls-out-guest-for-giving-her-sexist-line-971757"><img src="http://static01.mediaite.com/med/wp-content/uploads/2014/04/Screen-Shot-2014-04-15-at-1.19.17-PM-300x201.png" alt="Bloomberg Anchor Calls Out Guest for Giving Her &lsquo;Sexist Line&rsquo;" title="Bloomberg Anchor Calls Out Guest for Giving Her &lsquo;Sexist Line&rsquo;" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            Bloomberg TV anchor Stephanie Ruhle was forced to call a "time out" less than two minutes into her interview with prominent investment manager Cliff Asness Tuesday after he delivered what she took to be a "sexist line" about her comprehension of quan...			<a href="http://www.mediaite.com/tv/bloomberg-anchor-calls-out-guest-for-giving-her-sexist-line/" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			tv			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/mediaite/general-news/bloomberg-anchor-calls-out-guest-for-giving-her-sexist-line-971757"
+                    addthis:title="Bloomberg Anchor Calls Out Guest for Giving Her &lsquo;Sexist Line&rsquo;"
+                    addthis:description="Bloomberg TV anchor Stephanie Ruhle was forced to call a "time out" less than two minutes into her interview with prominent investment manager Cliff Asness Tuesday after he delivered what she took to be a "sexist line" about her comprehension of quan...">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/themarysue/general-news/amanda-s-favorite-scene-from-hannibal-episode-2-7-971764">Amanda&rsquo;s Favorite Scene From Hannibal, Episode 2.7</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/themarysue-news">TheMarySue</a></small><small><a href="http://www.brunchnews.com/section/general-news">General News</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/themarysue/general-news/amanda-s-favorite-scene-from-hannibal-episode-2-7-971764"><img src="http://static03.mediaite.com/themarysue/uploads/2014/04/yakimono-chilton-300x154.jpg" alt="Amanda&rsquo;s Favorite Scene From Hannibal, Episode 2.7" title="Amanda&rsquo;s Favorite Scene From Hannibal, Episode 2.7" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            Editor&rsquo;s Note: Amanda&rsquo;s mom told us that she&rsquo;d make sure her daughter delivered her  Hannibal&nbsp;commentary by Monday every week. So far, she has been honoring her deadline with the zeal and fervor one usually reserves for the Lor...			<a href="http://www.themarysue.com/hannibal-s2-e5-yakimono/" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			amanda draws hannibal, hannibal			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/themarysue/general-news/amanda-s-favorite-scene-from-hannibal-episode-2-7-971764"
+                    addthis:title="Amanda&rsquo;s Favorite Scene From Hannibal, Episode 2.7"
+                    addthis:description="Editor&rsquo;s Note: Amanda&rsquo;s mom told us that she&rsquo;d make sure her daughter delivered her  Hannibal&nbsp;commentary by Monday every week. So far, she has been honoring her deadline with the zeal and fervor one usually reserves for the Lor...">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/yahoo-news/business/yahoo-s-1q-shows-modest-gains-in-ad-business-971681">Yahoo&#039;s 1Q shows modest gains in ad business</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/yahoo-news">Yahoo News</a></small><small><a href="http://www.brunchnews.com/section/business-news">Business</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/yahoo-news/business/yahoo-s-1q-shows-modest-gains-in-ad-business-971681"><img src="http://l.yimg.com/bt/api/res/1.2/81I5U991YW6EEaB2Cjd58g--/YXBwaWQ9eW5ld3M7cT04NTt3PTYwMA--/http://l.yimg.com/os/mit/media/m/social/images/social_default_logo-1481777.png" alt="Yahoo&#039;s 1Q shows modest gains in ad business" title="Yahoo&#039;s 1Q shows modest gains in ad business" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            SAN FRANCISCO (AP) &mdash; Yahoo&#039;s listless advertising sales showed signs of life in the first quarter to overshadow a 20 percent drop in earnings.			<a href="http://news.yahoo.com/yahoos-1q-shows-modest-gains-ad-business-203529556--finance.html" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			yahoo, 1q, shows, modest, gains, in, ad, business			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/yahoo-news/business/yahoo-s-1q-shows-modest-gains-in-ad-business-971681"
+                    addthis:title="Yahoo&#039;s 1Q shows modest gains in ad business"
+                    addthis:description="SAN FRANCISCO (AP) &mdash; Yahoo&#039;s listless advertising sales showed signs of life in the first quarter to overshadow a 20 percent drop in earnings....">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/forbes/business/cloud-power-intel-squeaks-by-earnings-on-data-centers-internet-of-things-971743">Cloud Power: Intel Squeaks By Earnings On Data Centers, Internet Of Things</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/forbes-news">Forbes</a></small><small><a href="http://www.brunchnews.com/section/business-news">Business</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/forbes/business/cloud-power-intel-squeaks-by-earnings-on-data-centers-internet-of-things-971743"><img src="http://blogs-images.forbes.com/briansolomon/files/2014/04/0eJ88Sb4MngQb_9009.jpg" alt="Cloud Power: Intel Squeaks By Earnings On Data Centers, Internet Of Things" title="Cloud Power: Intel Squeaks By Earnings On Data Centers, Internet Of Things" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            As the computing business moves from the desktop to the cloud, Intel and companies like it will have to execute a rapid transition.			<a href="http://www.forbes.com/sites/briansolomon/2014/04/15/cloud-power-intel-squeaks-by-earnings-on-data-centers-internet-of-things/" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			Beyond the Basics, Business, Data Driven, Game Changers, Gear, Innovation and Science, Intelligent Tech, Investing, Markets, Mobile, On Demand, Security, Social Media, Stocks, Tech, Techonomy, America Works, Innovation &amp; Science, The Tech Life, Intel, Internet of Things			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/forbes/business/cloud-power-intel-squeaks-by-earnings-on-data-centers-internet-of-things-971743"
+                    addthis:title="Cloud Power: Intel Squeaks By Earnings On Data Centers, Internet Of Things"
+                    addthis:description="As the computing business moves from the desktop to the cloud, Intel and companies like it will have to execute a rapid transition....">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	    <article class="StoryRowHold">
+    	<h2>
+        	<a href="http://www.brunchnews.com/forbes/business/world-s-largest-data-centers-971742">World&#039;s Largest Data Centers</a>
+        </h2>
+    	<p class="SourceNtimeStamp">
+        	<small><a href="http://www.brunchnews.com/forbes-news">Forbes</a></small><small><a href="http://www.brunchnews.com/section/business-news">Business</a> </small><span>Apr 16, 2014</span>
+        </p>
+    	<div class="StoryDesHold">
+        				<div class="StoryImgHold">
+				<a href="http://www.brunchnews.com/forbes/business/world-s-largest-data-centers-971742"><img src="http://specials-images.forbesimg.com/imageserve/0eJ88Sb4MngQb/200x200.jpg" alt="World&#039;s Largest Data Centers" title="World&#039;s Largest Data Centers" hspace="20" ></a>
+			</div>
+			        
+            <p>
+            An around the world look at the largest data centers.			<a href="http://www.forbes.com/pictures/eimh45mddm/switchnap/" target="_new" rel="nofollow"><strong style="color:#ED2724;">Read full coverage</strong></a>
+            </p>
+            			<p class="tags">Tags:  
+			Beyond the Basics, Business, Data Driven, Game Changers, Gear, Innovation and Science, Intelligent Tech, Investing, Markets, Mobile, On Demand, Security, Social Media, Stocks, Tech, Techonomy, America Works, Innovation &amp; Science, The Tech Life, Intel, Internet of Things			</p>
+			   	 	</div>
+		
+        <div class="ShareBtnHold">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style" 
+                    addthis:url="http://www.brunchnews.com/forbes/business/world-s-largest-data-centers-971742"
+                    addthis:title="World&#039;s Largest Data Centers"
+                    addthis:description="An around the world look at the largest data centers....">
+                        <a class="addthis_button_compact"> &nbsp;Share </a>
+            </div>
+            <!-- AddThis Button END -->
+        </div>
+    </article> <!--End storyRowHold-->
+	
+	    <div  class="clearfix clearB"></div>
+    <div class="PagingHold">
+        <ul>
+       
+        						<li><a href="http://www.brunchnews.com/page/1">Next Page</a></li>
+					        </ul>
+    </div>
+    </section><!--End storyColsBx-->
+
+<section class="gAdBxHold">
+    	<div class="gAdBx">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- 336 -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:336px;height:280px"
+             data-ad-client="ca-pub-5019388975355264"
+             data-ad-slot="3098122838"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    
+    <!-- Place this tag where you want the widget to render. -->
+    <div class="g-page" data-width="332" data-href="//plus.google.com/117485356644328773056" data-theme="dark" data-layout="landscape" data-rel="publisher"></div>
+    
+    <!-- Place this tag after the last widget tag. -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+
+	<div class="PersInnerBtnHold">
+        <a rel="nofollow" id="personalizeLink" class="fancybox-manual-b" href="http://www.brunchnews.com/signup/personalize">
+        	<img src="http://www.brunchnews.com/theme1/images/Personalize-bn-button-3.jpg" width="336" height="51" alt="Personalize Brunch News" title="Personalize Brunch News" />
+        </a>
+    </div>
+        <div class="SigninFBBtnHold">
+        <a href="javascript:void(0);" rel="nofollow">
+        	<img class="fbAutoSignup" src="http://www.brunchnews.com/theme1/images/fb_sign_hm_large.jpg" width="336" height="44" alt="Sign in with Facebook" title="Sign in with Facebook" />
+        </a>
+    </div>
+		
+    	<h2 class="SameAsH1">Latest News</h2>
+		
+        <article>
+        <h2>
+            <a href="http://www.brunchnews.com/abc-news/health/dallas-conjoined-twins-head-to-rehab-971745">Dallas Conjoined Twins Head to Rehab</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/abc-news">ABC News</a></small>
+            <small><a href="http://www.brunchnews.com/section/health-news">Health</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">The Ezell twins, formerly conjoined, are now happy, healthy and heading to rehab.... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/time/entertainment/five-pop-culture-documentaries-that-hollywood-should-make-971734">Five Pop Culture Documentaries That Hollywood Should Make</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/time-news">Time</a></small>
+            <small><a href="http://www.brunchnews.com/section/entertainment-news">Entertainment</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">With so many documentaries out this year, here are a few subjects that filmmakers should t... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/wired-com/technology/failure-is-the-best-thing-that-could-happen-to-google-glass-971675">Failure Is the Best Thing That Could Happen to Google Glass</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/wired-com-news">Wired.com</a></small>
+            <small><a href="http://www.brunchnews.com/section/technology-news">Technology</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">Today, for one day only, Google Glass goes on sale to everyone in the U.S. Everyone, that ... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/gossipcop/general-news/paul-walker-s-brothers-will-stand-in-for-the-late-actor-in-fast-furious-7-971754">Paul Walker&rsquo;s Brothers Will Stand in For The Late Actor in Fast & Furious 7</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/gossipcop-news">GossipCop</a></small>
+            <small><a href="http://www.brunchnews.com/section/general-news">General News</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">Paul Walker&rsquo;s brothers will stand in for the late actor in small action scenes neede... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/forbes/auto/how-cvc-has-made-8-2-billion-from-formula-one-auto-racing-971741">How CVC Has Made $8.2 billion From Formula One Auto Racing</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/forbes-news">Forbes</a></small>
+            <small><a href="http://www.brunchnews.com/section/auto-news">Auto</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">Private equity firm CVC Capital has made $8.2 billion from its investment in Formula One a... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/yahoo-news/business/intel-s-first-quarter-net-profit-falls-but-beats-street-971680">Intel&#039;s first-quarter net profit falls but beats Street</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/yahoo-news">Yahoo News</a></small>
+            <small><a href="http://www.brunchnews.com/section/business-news">Business</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">By Noel Randewich SAN FRANCISCO (Reuters) - Intel Corp&#039;s first-quarter net profit fel... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/slashgear/gadgets/lego-exosuit-comes-next-in-cuusoo-fan-made-lineup-971676">LEGO Exosuit comes next in CUUSOO fan-made lineup</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/slashgear-news">SlashGear</a></small>
+            <small><a href="http://www.brunchnews.com/section/gadgets-news">Gadgets</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">As part of a collection of oddities that also includes Minecraft and the Mars Curiosity Ro... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/valleywag/general-news/truck-yeah-971753">Truck Yeah!</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/valleywag-news">Valleywag</a></small>
+            <small><a href="http://www.brunchnews.com/section/general-news">General News</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">Truck Yeah! Land Rover Wants To Help Richard Branson Send People To Space | Defamer The Sa... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/the-new-york-times/sports/new-playoff-format-gives-n-h-l-matchups-it-wanted-971662">New Playoff Format Gives N.H.L. Matchups It Wanted</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/the-new-york-times-news">The New York Times</a></small>
+            <small><a href="http://www.brunchnews.com/section/sports-news">Sports</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">With reseeding gone, the N.H.L. playoffs now offer fans a bracket like the N.C.A.A. tourna... </p>
+    </article>
+	    <article>
+        <h2>
+            <a href="http://www.brunchnews.com/buzzfeed/politics/mississippi-gop-senate-candidate-wrote-race-baiting-blog-posts-971735">Mississippi GOP Senate Candidate Wrote Race-Baiting Blog Posts</a>
+        </h2>
+        <p class="SourceNtimeStamp">
+            <small><a href="http://www.brunchnews.com/buzzfeed-news">BuzzFeed</a></small>
+            <small><a href="http://www.brunchnews.com/section/politics-news">Politics</a> </small>
+            <span>Apr 16, 2014 </span>
+        </p>
+        <p class="Discription640px">Mississippi Republican state senator Chris McDaniel is challenging incumbent Sen. Thad Coc... </p>
+    </article>
+	    </section></div><!--End mainBody-->
+
+
+<!-----------------------------POP for Submit News------------------->
+<div class="PopHold" id="newsMsgAlert" style="display:none;z-index: 100;">
+<div class="PopClose"><img src="http://www.brunchnews.com/images/popclose.jpg" width="31" height="31" onmouseover="autoClosePop()"/></div>
+<div id="newsPopMsg" align="left">
+	
+	<!-- <h2>Welcome!</h2>
+	<table width="90%" border="0" cellspacing="10" cellpadding="0" id="news_letter_table">
+ 	<tr>
+	    <td>
+	    	BrunchNews connects you to the latest and trending news from the best news websites around the world. Add BrunchNews.com to your Bookmarks and do visit us everyday. 
+	    </td>
+    </tr>
+  	<tr>
+    	<td>&nbsp;</td>
+  	</tr>
+	</table> -->
+	
+	<table width="90%" border="0" cellspacing="10" cellpadding="10">
+	<tr>
+	    <td>
+			<div class="CenterHold" >
+		        <h2>Sign in with Facebook and Personalize BrunchNews</h2>
+		        <div class="SmallTextHold" style="padding-bottom:20px;">Customize and Discover news from all over the world.
+		                    #only from your trusted sources</div>
+		        <div class="FbSingInHold">
+		            <a href="javascript:void(0);" rel="nofollow">
+			    		<img align="middle" width="150" border="0" height="23" style="cursor:pointer;float:none;" class="fbAutoSignup" src="http://www.brunchnews.com/images/but_pop_facebook_signin.png">
+			    	</a>
+		        </div>
+		        <div class="SmallTextHold">Promise! we will never autopost on your account</div>
+		        
+		    </div>
+	    </td>
+    </tr>
+    </table>
+	
+</div>
+</div>
+<!-- ************************   POP Ends here  ************************----------------- --><!-----------------------------POP for Submit News------------------->
+<div class="PopHold" id="GpopUpDiv" style="display:none;z-index: 100;">
+<div align="left">
+<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top" style="border:0px; line-height:0.9;padding-top:3px;">
+    	<a href="javascript: void(0)" onclick="javascript:hidePopBx()" style="color:#0098CC; text-shadow:none;">Close</a>
+      </td></tr>
+      <tr>
+    <td align="center" valign="top" style="border:0px;">
+	         </td>
+        </tr>
+        <tr>
+    	<td align="center" valign="top" style="border:0px; padding-top:0px; padding-bottom:3px; line-height:.5;">
+        <a href="javascript: void(0)" onclick="javascript:hidePopBx()" style="color: #0098CC">Close</a>
+		</td>
+    </tr>
+</table></div>
+</div>
+<!-- ************************   POP Ends here  ************************----------------- --><footer class="clearfix">
+<div class="footerHold clearfix" style="margin-top:0px;">
+<div class="FooLnks">
+  
+</div><!--End fooLnk-->
+
+
+<div class="copy clearfix"><span>©2013. BrunchNews</span>
+  <a href="http://www.brunchnews.com/aboutus">About BrunchNews</a> <a href="http://www.brunchnews.com/terms">Terms and Conditions</a> <a href="http://www.brunchnews.com/privacy" class="FooPrivacy">Privacy Policy</a> <a href="http://www.brunchnews.com/trending-tags" class="FooPrivacy">Trending Tags</a></div>
+</div>
+</footer>
+</div>
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://www.brunchnews.com/js/jquery-min.js"></script>
+<script type="text/javascript" src="http://www.brunchnews.com/js/jquery-migrate.js"></script>
+<script type="text/javascript" src="http://www.brunchnews.com/js/submit_news.js"></script>
+<script type="text/javascript" src="http://www.brunchnews.com/js/responsiveslides.js"></script>
+<script type="text/javascript" src="http://www.brunchnews.com/theme1/js/source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="http://www.brunchnews.com/theme1/js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+<!--<script type="text/javascript" src="http://www.brunchnews.com/theme1/js/fancybox/js/fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="http://www.brunchnews.com/theme1/js/fancybox/css/fancybox/jquery.fancybox.css" media="screen" >-->
+<script type="text/javascript">
+var autoNewsFlag = 0;
+
+//- See more at: http://www.excellencemagentoblog.com/facebook-login-integration-website#sthash.Axy9428U.dpuf
+//Load the SDK Asynchronously
+/*
+(function() {
+ var e = document.createElement('script'); e.async = true;
+ e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';                
+ document.getElementById('fb-root').appendChild(e);
+}());*/
+(function(d){
+    var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+    js = d.createElement('script'); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js";
+    d.getElementsByTagName('head')[0].appendChild(js);
+  }(document));
+
+var fbScope = 'email,user_birthday,publish_actions'; 
+window.fbAsyncInit = function() {
+ FB.init({
+   appId      : FbAppID, // App ID
+   channelURL : BASEURL+'signup/channel', // Channel File, not required so leave empty
+   status     : true, // check login status
+   cookie     : true, // enable cookies to allow the server to access the session
+   oauth      : true, // enable OAuth 2.0
+   xfbml      : false  // parse XFBML
+ });
+
+};
+
+function fb_login_status(fbResponse)
+{
+	var fbStatus = fbResponse.status;
+	FB.login(function(response)
+	{
+	   if (response.authResponse)
+	   {
+		fbResoponseObj = response.authResponse;
+		var fbAccessToken = fbResoponseObj.accessToken;
+
+		// $('.fbTitleTxt').html('Welcome!  Fetching your information.... ');
+		 
+		 FB.api('/me', function(response)
+		 {
+			$.ajax({
+			type: 'POST',
+			url: BASEURL+ 'signup/fb_signup/',
+			data: {name: response.name, email: response.email,  fbId: response.id, access_token: fbAccessToken, dob:response.birthday, gender:response.gender, f_name: response.first_name, l_name: response.last_name},
+			dataType: 'json',
+			cache: false,
+			success: function(result) 
+			{
+				if( result.error == 1)
+				{
+					$(".fbAutoSignup").show();
+					$("#error").html('There was some error while creating account...Try after sometime!!');
+				}
+				else
+				{
+					if(result.is_firstTime==1)
+						$("a#personalizeLink").trigger("click");
+					else
+					{
+													window.location.href = BASEURL;
+												}
+				}
+			}
+			});
+			
+			//$('.fbTitleTxt').html('Good to see you, ' + response.name + '.');
+		 });
+	   }
+	   else
+	   {
+			$(".fbAutoSignup").show();
+		  //$('.fbTitleTxt').html('User cancelled login or did not fully authorize.');
+	   }
+	 },{scope: fbScope});
+}
+
+$(document).ready(function() 
+{
+	 
+	$('.fancybox').fancybox();
+	$(".fancybox-manual-b").fancybox({
+			type : 'iframe',
+			padding : 5,
+			scrolling: 'no',
+			width:680,
+			
+	});
+	/*afterClose: function(){
+				parent.location.reload(true);
+			}*/
+	$('a#fancy_box_own_close').mouseover(function() {
+		$.fancybox.close();
+	});
+
+	$(".fbAutoSignup").click(function (){
+		 $(".fbAutoSignup").hide();
+		FB.getLoginStatus(fb_login_status);
+	});
+
+	$(".SettingIconHold").click(function(e) {
+		e.preventDefault();
+	    e.stopPropagation();
+		$(".UserLoginBox").show();
+		$(".SettingIconHold").addClass('SettingIconHoldActive');
+	});
+
+	$(document).click(function() {
+	    $('.UserLoginBox').hide();
+	    $(".SettingIconHold").removeClass('SettingIconHoldActive');
+	})
+	
+
+		 
+	 if(mobileBrowserFlag == 1)
+	 {
+		var autoADFlag = 0;
+		if(typeof(Storage)!=="undefined")
+		{
+			if(Number(sessionStorage.autoAdPop)!=1)
+			{
+				sessionStorage.autoAdPop=1;
+				autoADFlag = 1;
+			}
+			else
+				autoADFlag = 0;
+		}
+		
+		if(autoADFlag == 1)
+		{		
+		 				 if(typeof(Storage)!=="undefined")
+		 			sessionStorage.autoAdPop=1;
+						}
+	 }
+});
+</script>
+
+<!--Mobile Responsive Script-->
+<script type="text/javascript">
+	(function () {
+	
+		// Create mobile element
+		var mobile = document.createElement('div');
+		mobile.className = 'NavIcon';
+		document.querySelector('.nav').appendChild(mobile);
+	
+		// hasClass
+		function hasClass(elem, className) {
+			return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+		}
+	
+		// toggleClass
+		function toggleClass(elem, className) {
+			var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+			if (hasClass(elem, className)) {
+				while (newClass.indexOf(' ' + className + ' ') >= 0) {
+					newClass = newClass.replace(' ' + className + ' ', ' ');
+				}
+				elem.className = newClass.replace(/^\s+|\s+$/g, '');
+			} else {
+				elem.className += ' ' + className;
+			}
+		}
+	
+		// Mobile nav function
+		var mobileNav = document.querySelector('.NavIcon');
+		var toggle = document.querySelector('.navList');
+		mobileNav.onclick = function () {
+			toggleClass(this, 'NavIcon-open');
+			toggleClass(toggle, 'nav-active');
+		};
+	})();
+	function autoClosePop()
+	{
+		setTimeout('hidePopBx()', 650);//60000 - onemin // 500 1/2 sec
+	}
+	
+	function fancy_box_own_close()
+	{
+		$.fancybox.close();
+	}
+	
+</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51da513f58d5dbb1"></script>
+<!--Google Analytics-->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-2123948-12']);
+  _gaq.push(['_setAccount', 'UA-42268704-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -45,406 +900,5 @@
   })();
 
 </script>
-
-
-	</head>
-	<body >
-        <div class="wrapper">
-
-            <div class="header clear">
-                <div class="logo">
-                    <a href="http://303boards.com"><img src="http://303boards.com/wp-content/uploads/2011/12/303clfx_logos.jpg" alt="303 BOARDS / CLFX / STREET TRASH"/></a>
-                </div>
-
-                <div class="site-description">			<div class="textwidget">303 Boards has been holding down the Colorado skate scene since 1997! We are an independently owned and independently minded skate shop.
-<br>
-<br>
-<b>Give us a shout:</b>
-<br>
-303.860.1303<br>
-877.303.2303
-</div>
-		</div>
-                <div class="search">
-    <form method="get" id="searchform" action="http://303boards.com">
-        <fieldset>
-            <input name="s" type="text" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" value="Search" />
-            <button type="submit"></button>
-        </fieldset>
-    </form>
-</div>
-                <div class="menu"><ul id="menu-top-menu" class=""><li id="menu-item-1934" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1934"><a href="http://www.303boards.bigcartel.com">SHOP ONLINE</a></li>
-<li id="menu-item-3427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3427"><a href="http://303boards.com/?page_id=7">Teams Guys</a></li>
-<li id="menu-item-1957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1957"><a href="http://303boards.com/?page_id=2">Contact Us</a></li>
-<li id="menu-item-4573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4573"><a href="http://303boards.com/?page_id=53">Links</a></li>
-</ul></div>
-            </div>
-
-            <div class="nav"><ul id="dd" class="dd"><li id="menu-item-1952" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1952"><a href="http://303boards.com/?cat=5">New product</a></li>
-<li id="menu-item-1953" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1953"><a href="http://303boards.com/?cat=8">Team</a></li>
-<li id="menu-item-1954" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1954"><a href="http://303boards.com/?cat=10">Videos</a></li>
-<li id="menu-item-1955" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1955"><a href="http://303boards.com/?cat=7">Events</a></li>
-</ul></div>
-            
-        <div class="slideshow"><div id="slideshow">
-
-                <div class="slide clear">
-            <div class="post">
-                <a href="http://303boards.com/?p=5673"><img width="639" height="290" src="http://303boards.com/wp-content/uploads/2013/12/Screen-Shot-2013-12-16-at-6.22.23-PM-639x290.png" class="attachment-slide wp-post-image" alt="303 Boards Landrace Trailer by Travis La" title="303 Boards Landrace Trailer by Travis La" /></a>                <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=17" title="View all posts in Angel Ramirez" rel="category">Angel Ramirez</a> / <a href="http://303boards.com/?cat=18" title="View all posts in David Reyes" rel="category">David Reyes</a> / <a href="http://303boards.com/?cat=23" title="View all posts in Greg Piloto" rel="category">Greg Piloto</a> / <a href="http://303boards.com/?cat=30" title="View all posts in Isiah Sanchez" rel="category">Isiah Sanchez</a> / <a href="http://303boards.com/?cat=29" title="View all posts in Jerel Roberts" rel="category">Jerel Roberts</a> / <a href="http://303boards.com/?cat=28" title="View all posts in Julian Christianson" rel="category">Julian Christianson</a> / <a href="http://303boards.com/?cat=16" title="View all posts in Mike Marks" rel="category">Mike Marks</a> / <a href="http://303boards.com/?cat=37" title="View all posts in Mikey Lentz" rel="category">Mikey Lentz</a> / <a href="http://303boards.com/?cat=31" title="View all posts in Spencer Semien" rel="category">Spencer Semien</a> / <a href="http://303boards.com/?cat=8" title="View all posts in Team" rel="category">Team</a> / <a href="http://303boards.com/?cat=42" title="View all posts in Travis La" rel="category">Travis La</a> / <a href="http://303boards.com/?cat=25" title="View all posts in Trevor Uriona" rel="category">Trevor Uriona</a> / <a href="http://303boards.com/?cat=10" title="View all posts in Videos" rel="category">Videos</a></div>
-                <h2><a href="http://303boards.com/?p=5673">303 Boards Landrace Trailer by Travis La</a></h2>
-
-                <div class="post-meta">by <span class="post-author"><a href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span> on <span
-                        class="post-date">Dec 16, 2013</span> &bull; <span>Comments Closed</span> </div>
-                <div class="post-content">New Video coming spring/summer featuring the 303 Team.</div>
-            </div>
-        </div>
-                <div class="slide clear">
-            <div class="post">
-                <a href="http://303boards.com/?p=4914"><img width="637" height="290" src="http://303boards.com/wp-content/uploads/2013/07/Screen-Shot-2013-07-22-at-12.26.27-PM-637x290.png" class="attachment-slide wp-post-image" alt="Colorado Love" title="Colorado Love" /></a>                <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=33" title="View all posts in Alex Carrerra" rel="category">Alex Carrerra</a> / <a href="http://303boards.com/?cat=30" title="View all posts in Isiah Sanchez" rel="category">Isiah Sanchez</a> / <a href="http://303boards.com/?cat=37" title="View all posts in Mikey Lentz" rel="category">Mikey Lentz</a> / <a href="http://303boards.com/?cat=8" title="View all posts in Team" rel="category">Team</a> / <a href="http://303boards.com/?cat=10" title="View all posts in Videos" rel="category">Videos</a></div>
-                <h2><a href="http://303boards.com/?p=4914">Colorado Love</a></h2>
-
-                <div class="post-meta">by <span class="post-author"><a href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span> on <span
-                        class="post-date">Jul 22, 2013</span> &bull; <span>Comments Closed</span> </div>
-                <div class="post-content">Edit By Minh Thong</div>
-            </div>
-        </div>
-                <div class="slide clear">
-            <div class="post">
-                <a href="http://303boards.com/?p=4864"><img width="638" height="290" src="http://303boards.com/wp-content/uploads/2013/07/Screen-Shot-2013-07-13-at-12.33.21-PM-638x290.png" class="attachment-slide wp-post-image" alt="Mike Marks Queen City Re-Edit" title="Mike Marks Queen City Re-Edit" /></a>                <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=16" title="View all posts in Mike Marks" rel="category">Mike Marks</a> / <a href="http://303boards.com/?cat=8" title="View all posts in Team" rel="category">Team</a> / <a href="http://303boards.com/?cat=10" title="View all posts in Videos" rel="category">Videos</a></div>
-                <h2><a href="http://303boards.com/?p=4864">Mike Marks Queen City Re-Edit</a></h2>
-
-                <div class="post-meta">by <span class="post-author"><a href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span> on <span
-                        class="post-date">Jul 13, 2013</span> &bull; <span>Comments Closed</span> </div>
-                <div class="post-content">by Daniel Flynn</div>
-            </div>
-        </div>
-                <div class="slide clear">
-            <div class="post">
-                <a href="http://youtu.be/9CpKVeyD1bQ"><img width="639" height="290" src="http://303boards.com/wp-content/uploads/2013/06/Screen-Shot-2013-06-11-at-10.41.55-AM-639x290.png" class="attachment-slide wp-post-image" alt="Landrace Promo Edit #2" title="Landrace Promo Edit #2" /></a>                <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=23" title="View all posts in Greg Piloto" rel="category">Greg Piloto</a> / <a href="http://303boards.com/?cat=30" title="View all posts in Isiah Sanchez" rel="category">Isiah Sanchez</a> / <a href="http://303boards.com/?cat=29" title="View all posts in Jerel Roberts" rel="category">Jerel Roberts</a> / <a href="http://303boards.com/?cat=28" title="View all posts in Julian Christianson" rel="category">Julian Christianson</a> / <a href="http://303boards.com/?cat=35" title="View all posts in Justin Shardy" rel="category">Justin Shardy</a> / <a href="http://303boards.com/?cat=26" title="View all posts in Matt Kehoe" rel="category">Matt Kehoe</a> / <a href="http://303boards.com/?cat=16" title="View all posts in Mike Marks" rel="category">Mike Marks</a> / <a href="http://303boards.com/?cat=37" title="View all posts in Mikey Lentz" rel="category">Mikey Lentz</a> / <a href="http://303boards.com/?cat=32" title="View all posts in Robin Stoddard" rel="category">Robin Stoddard</a> / <a href="http://303boards.com/?cat=31" title="View all posts in Spencer Semien" rel="category">Spencer Semien</a> / <a href="http://303boards.com/?cat=8" title="View all posts in Team" rel="category">Team</a> / <a href="http://303boards.com/?cat=25" title="View all posts in Trevor Uriona" rel="category">Trevor Uriona</a> / <a href="http://303boards.com/?cat=10" title="View all posts in Videos" rel="category">Videos</a></div>
-                <h2><a href="http://youtu.be/9CpKVeyD1bQ">Landrace Promo Edit #2</a></h2>
-
-                <div class="post-meta">by <span class="post-author"><a href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span> on <span
-                        class="post-date">Jun 11, 2013</span> &bull; <span>Comments Closed</span> </div>
-                <div class="post-content"></div>
-            </div>
-        </div>
-                <div class="slide clear">
-            <div class="post">
-                <a href="https://vimeo.com/66582209"><img width="600" height="290" src="http://303boards.com/wp-content/uploads/2013/05/Screen-Shot-2013-05-21-at-1.02.48-PM1-600x290.png" class="attachment-slide wp-post-image" alt="Joe &quot;Fro&quot; Fernandez Street Trash Ripper" title="Joe &quot;Fro&quot; Fernandez Street Trash Ripper" /></a>                <div class="post-category"><a href="http://303boards.com/?cat=12" title="View all posts in Street Trash" rel="category">Street Trash</a> / <a href="http://303boards.com/?cat=8" title="View all posts in Team" rel="category">Team</a></div>
-                <h2><a href="https://vimeo.com/66582209">Joe &#8220;Fro&#8221; Fernandez Street Trash Ripper</a></h2>
-
-                <div class="post-meta">by <span class="post-author"><a href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span> on <span
-                        class="post-date">May 21, 2013</span> &bull; <span>Comments Closed</span> </div>
-                <div class="post-content"></div>
-            </div>
-        </div>
-        
-        </div>
-
-            <a href="javascript: void(0);" id="larr"></a>
-            <a href="javascript: void(0);" id="rarr"></a>
-        </div>
-    
-<link rel="icon"
-type="image/png"
-href="http://mistergilbert.com/images/favico.png"> 
-
-            <!-- Container -->
-            <div id="container" class="clear">
-                <!-- Content -->
-                <div id="content">
-
-<div class="content-title">
-    Latest entries
-    <a href="javascript: void(0);" id="mode"></a>
-</div>
-
-
-
-    <div id="loop" class="list clear">
-
-
-    
-        <div class="post-5937 post type-post status-publish format-standard hentry category-303-boards category-clfx category-uncategorized post clear" id="post_5937">
-                        <a href="http://303boards.com/?p=5937" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/04/The-Black-Lips-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Tuesday April 2nd @ Bluebird Theater 8pm All Ages" title="Tuesday April 2nd @ Bluebird Theater 8pm All Ages" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=11" title="View all posts in CLFX" rel="category">CLFX</a> / <a href="http://303boards.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a></div>
-            <h2><a href="http://303boards.com/?p=5937">Tuesday April 2nd @ Bluebird Theater 8pm All Ages</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Apr 1, 2014</span> &bull; <span>2:42 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">Black Lips / Coathangers / Bluebird Theater.</div>
-        </div>
-
-    
-        <div class="post-5934 post type-post status-publish format-standard hentry category-303-boards category-clfx category-new-product post clear" id="post_5934">
-                        <a href="http://303boards.com/?p=5934" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/vans-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Vans Summer Line Up" title="Vans Summer Line Up" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=11" title="View all posts in CLFX" rel="category">CLFX</a> / <a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5934">Vans Summer Line Up</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 31, 2014</span> &bull; <span>5:27 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">Gilbert Crocket in Black/White/Tan. Chukka Low in Black/Black. Era Pro Ray Barbee in Black/White.</div>
-        </div>
-
-    
-        <div class="post-5927 post type-post status-publish format-standard hentry category-303-boards category-303-goods category-new-product post clear" id="post_5927">
-                        <a href="http://303boards.com/?p=5927" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/303_camo-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="303 Boards Hoody Restock for March!" title="303 Boards Hoody Restock for March!" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=9" title="View all posts in 303 Goods" rel="category">303 Goods</a> / <a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5927">303 Boards Hoody Restock for March!</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 29, 2014</span> &bull; <span>2:41 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">Crewnecks, pullovers, zip ups and coach jackets make the line up for this latest drop. Available instore and online now! BUY NOW!</div>
-        </div>
-
-    
-        <div class="post-5923 post type-post status-publish format-standard hentry category-new-product post clear" id="post_5923">
-                        <a href="http://303boards.com/?p=5923" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/photo-2-4-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Cons Trapasso II and Seastar for Spring" title="Cons Trapasso II and Seastar for Spring" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5923">Cons Trapasso II and Seastar for Spring</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 29, 2014</span> &bull; <span>12:49 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">New Trapasso II oyster gray/tyedye and the Seastar in Khaki/desert camo</div>
-        </div>
-
-    
-        <div class="post-5920 post type-post status-publish format-standard hentry category-new-product post clear" id="post_5920">
-                        <a href="http://303boards.com/?p=5920" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/photo-1-4-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Cons CTS Spring Colorways" title="Cons CTS Spring Colorways" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5920">Cons CTS Spring Colorways</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 29, 2014</span> &bull; <span>12:44 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">New Cons CTS in Black/Peppermint and Peppermint/Peppermint White</div>
-        </div>
-
-    
-        <div class="post-5917 post type-post status-publish format-standard hentry category-new-product post clear" id="post_5917">
-                        <a href="http://303boards.com/?p=5917" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/photo-2-3-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Sk8-HI Pro and Av Native American Low Vans" title="Sk8-HI Pro and Av Native American Low Vans" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5917">Sk8-HI Pro and Av Native American Low Vans</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 26, 2014</span> &bull; <span>4:12 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">New Sk8-Hi Pro in Black/Yellow and AV Native American Low in Brick/White</div>
-        </div>
-
-    
-        <div class="post-5914 post type-post status-publish format-standard hentry category-new-product post clear" id="post_5914">
-                        <a href="http://303boards.com/?p=5914" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/photo-1-3-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Gilbert Crocket Vans Spring Colorways" title="Gilbert Crocket Vans Spring Colorways" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5914">Gilbert Crocket Vans Spring Colorways</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 26, 2014</span> &bull; <span>4:08 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">New Gilbert Crocket Vans in Brown/White and Black/Grey</div>
-        </div>
-
-    
-        <div class="post-5912 post type-post status-publish format-standard hentry category-303-boards category-clfx category-new-product post clear" id="post_5912">
-                        <a href="http://303boards.com/?p=5912" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/leoLaced-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Emerica The Romero Laced &amp; Herman Tee" title="Emerica The Romero Laced &amp; Herman Tee" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=11" title="View all posts in CLFX" rel="category">CLFX</a> / <a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5912">Emerica The Romero Laced &#038; Herman Tee</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 24, 2014</span> &bull; <span>1:47 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">The Romero Laced in Black/White. The Romero Laced in Navy/White. Herman HQ Papers T-shirt.</div>
-        </div>
-
-    
-        <div class="post-5907 post type-post status-publish format-standard hentry category-303-boards category-clfx category-new-product post clear" id="post_5907">
-                        <a href="http://303boards.com/?p=5907" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/girlchoco-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Girl &amp; Chocolate Restocked" title="Girl &amp; Chocolate Restocked" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=11" title="View all posts in CLFX" rel="category">CLFX</a> / <a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5907">Girl &#038; Chocolate Restocked</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 24, 2014</span> &bull; <span>1:42 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">New Deck available.</div>
-        </div>
-
-    
-        <div class="post-5903 post type-post status-publish format-standard hentry category-303-boards category-clfx category-new-product post clear" id="post_5903">
-                        <a href="http://303boards.com/?p=5903" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/hellhounds_website_pic-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Limited Edition CLFX Hell Hounds Varsity Jacket" title="Limited Edition CLFX Hell Hounds Varsity Jacket" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=36" title="View all posts in 303 Boards" rel="category">303 Boards</a> / <a href="http://303boards.com/?cat=11" title="View all posts in CLFX" rel="category">CLFX</a> / <a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5903">Limited Edition CLFX Hell Hounds Varsity Jacket</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 21, 2014</span> &bull; <span>12:03 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">Limited production CLFX Varsity Cut Jacket. Features felt applique and embroidery on the front and large back Felt logo. Cotton twill exterior with diamond quilted liner. Available instore or online now! #CLFX #HellHounds BUY NOW! Model: @lioness_suicide Photographer: @coburnhuff</div>
-        </div>
-
-    
-        <div class="post-5900 post type-post status-publish format-standard hentry category-new-product post clear" id="post_5900">
-                        <a href="http://303boards.com/?p=5900" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/photo-1-2-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Nike SB Dunk Rival Pack Qickstrike releasing saturday" title="Nike SB Dunk Rival Pack Qickstrike releasing saturday" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=5" title="View all posts in New product" rel="category">New product</a></div>
-            <h2><a href="http://303boards.com/?p=5900">Nike SB Dunk Rival Pack Qickstrike releasing saturday</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 20, 2014</span> &bull; <span>5:41 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">Georgetown and University of North Carolina color ways make up the rivalry pack. Releasing this saturday March 22</div>
-        </div>
-
-    
-        <div class="post-5897 post type-post status-publish format-standard hentry category-uncategorized post clear" id="post_5897">
-                        <a href="http://303boards.com/?p=5897" class="thumb"><img width="290" height="290" src="http://303boards.com/wp-content/uploads/2014/03/photo-2-2-290x290.jpg" class="attachment-thumbnail wp-post-image" alt="Adidas Busenitz spring colors" title="Adidas Busenitz spring colors" /></a>
-            
-            <div class="post-category"><a href="http://303boards.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a></div>
-            <h2><a href="http://303boards.com/?p=5897">Adidas Busenitz spring colors</a></h2>
-
-            <div class="post-meta">by <span class="post-author"><a
-                    href="http://303boards.com/?author=1" title="Posts by admin">admin</a></span>
-                                   on <span
-                        class="post-date">Mar 20, 2014</span> &bull; <span>5:35 pm</span> <em>&bull; </em><span>Comments Closed</span>             </div>
-            <div class="post-content">Adidas Busenitz in Black/Grey and the Busentiz Vulc in Blue Suede </div>
-        </div>
-
-    
-    </div>
-
-
-
-    <div class="pagination">
-                <a href="http://303boards.com/?paged=2" class="nextpostslink">Older</a>            </div>
-    
-            </div>
-            <!-- /Content -->
-
-            <div class="sidebar">
-                <div id="recentposts_thumbnail-2" class="widget_recentposts_thumbnail widget">            <h3>Recent Videos</h3><div class="widget-body clear">
-            
-                <a href="http://303boards.com/?p=5878" class="rpthumb clear">
-                    <img width="50" height="50" src="http://303boards.com/wp-content/uploads/2014/03/Screen-Shot-2014-03-15-at-11.53.02-AM-50x50.png" class="attachment-mini-thumbnail wp-post-image" alt="Screen Shot 2014-03-15 at 11.53.02 AM" />                    <span class="rpthumb-title" style="padding-left: 65px;">Mike Marks in the new Flow-Rida at the berries</span>
-                    <span class="rpthumb-date" style="padding-left: 65px;">Mar 15, 2014</span>
-                </a>
-
-            
-                <a href="http://303boards.com/?p=5770" class="rpthumb clear">
-                    <img width="50" height="50" src="http://303boards.com/wp-content/uploads/2014/02/Screen-Shot-2014-02-03-at-12.40.38-PM-50x50.png" class="attachment-mini-thumbnail wp-post-image" alt="Screen Shot 2014-02-03 at 12.40.38 PM" />                    <span class="rpthumb-title" style="padding-left: 65px;">David Reyes &#8211; Etnies Part</span>
-                    <span class="rpthumb-date" style="padding-left: 65px;">Feb 3, 2014</span>
-                </a>
-
-            
-                <a href="http://303boards.com/?p=5673" class="rpthumb clear">
-                    <img width="50" height="50" src="http://303boards.com/wp-content/uploads/2013/12/Screen-Shot-2013-12-16-at-6.22.23-PM-50x50.png" class="attachment-mini-thumbnail wp-post-image" alt="Screen Shot 2013-12-16 at 6.22.23 PM" />                    <span class="rpthumb-title" style="padding-left: 65px;">303 Boards Landrace Trailer by Travis La</span>
-                    <span class="rpthumb-date" style="padding-left: 65px;">Dec 16, 2013</span>
-                </a>
-
-            
-                <a href="http://303boards.com/?p=5665" class="rpthumb clear">
-                    <img width="50" height="50" src="http://303boards.com/wp-content/uploads/2013/12/Screen-Shot-2013-12-16-at-5.54.14-PM-50x50.png" class="attachment-mini-thumbnail wp-post-image" alt="Screen Shot 2013-12-16 at 5.54.14 PM" />                    <span class="rpthumb-title" style="padding-left: 65px;">303 Boards Eric Shelley in Out of the Blue</span>
-                    <span class="rpthumb-date" style="padding-left: 65px;">Dec 16, 2013</span>
-                </a>
-
-            
-                <a href="http://303boards.com/?p=5653" class="rpthumb clear">
-                    <img width="50" height="50" src="http://303boards.com/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-12.06.30-PM-50x50.png" class="attachment-mini-thumbnail wp-post-image" alt="Screen Shot 2013-12-09 at 12.06.30 PM" />                    <span class="rpthumb-title" style="padding-left: 65px;">303Boards Jeremy Frankovis in Who Cares?</span>
-                    <span class="rpthumb-date" style="padding-left: 65px;">Dec 9, 2013</span>
-                </a>
-
-            
-            </div></div>        <div id="text-4" class="widget_text widget"><h3>SHOP ONLINE:</h3><div class="widget-body clear">			<div class="textwidget">Head over to our online store. FREE SHIPPING WITHIN THE US.<br><br>
-<a href="http://www.303boards.bigcartel.com/product/clfx-high-country-five-panel" title="CLFX High Country Five Panel"><img src="http://images.cdn.bigcartel.com/bigcartel/product_images/129096699/-/75.jpg" /></a>
-<a href="http://www.303boards.bigcartel.com/product/clfx-parts-long-sleeve-raglan" title="CLFX Parts Long Sleeve Raglan *SOLD OUT*"><img src="http://images.cdn.bigcartel.com/bigcartel/product_images/95785883/-/75.jpg" /></a>
-<a href="http://www.303boards.bigcartel.com/product/303boards-x-toy-machine" title="303Boards x Toy Machine *SOLD OUT*"><img src="http://images.cdn.bigcartel.com/bigcartel/product_images/122039019/-/75.jpg" /></a>
-
-</div>
-		</div></div><div id="text-5" class="widget_text widget"><h3>VISIT US:</h3><div class="widget-body clear">			<div class="textwidget">Come visit our store in person in central Denver. Click the map below for our contact info.<br><br>
-<a href="http://303boards.com/?page_id=2"><img src="http://www.303boards.com/images/contact_map.jpg"></a></div>
-		</div></div>            <div id="getconnected-2" class="widget_getconnected widget">                <h3>CONNECT WITH US:</h3><div class="widget-body clear">
-                    <!-- RSS -->
-                    <div class="getconnected_rss">
-                    <a href="http://303boards.com/?feed=rss2">RSS Feed</a>
-                                        </div>
-                    <!-- /RSS -->
-
-                    <!-- Twitter -->
-                                        <div class="getconnected_twitter">
-                    <a href="http://twitter.com/#!/303boards">Twitter</a>
-                    <span> followers</span>
-                    </div>
-                                        <!-- /Twitter -->
-
-                    <!-- Facebook -->
-                                        <div class="getconnected_fb">
-                    <a href="http://www.facebook.com/#!/pages/Official-303-Boards/143303545770">Facebook</a>
-                    <span>Official 303 Boards</span>
-                    </div>
-                                        <!-- /Facebook -->
-
-                    <!-- Flickr -->
-                                        <!-- /Flickr -->
-
-                    <!-- Behance -->
-                                        <!-- /Behance -->
-
-                    <!-- Delicious -->
-                                        <!-- /Delicious -->
-
-                    <!-- Stumbleupon -->
-                                        <!-- /Stumbleupon -->
-
-                    <!-- Tumblr -->
-                                        <!-- /Tumblr -->
-
-                    <!-- Vimeo -->
-                                        <div class="getconnected_vimeo">
-                    <a href="http://vimeo.com/user3108453">Vimeo</a>
-                    <span>Watch our videos</span>
-                    </div>
-                                        <!-- /Vimeo -->
-
-                    <!-- Youtube -->
-                                        <!-- /Youtube -->
-
-            </div></div>        <div id="better_rss_widget-2" class="widget_better_rss_widget widget"><h3>Thrasher Magazine &#8211; Junk Drawer Feed</h3><div class="widget-body clear"><ul><li><a class='rsswidget' href='http://www.thrashermagazine.com/articles/videos/double-rock-rob-and-phils-american-vacation/' title='Initially, we thought Rob Smith and Phil Zwijsen would film a trick or two for a montage, but as the […]' target="_blank">Double Rock: Rob and Phil&#039;s American Vacation</a> <span class="rss-date">April 3, 2014</span><div class='rssSummary'>Initially, we thought Rob Smith and Phil Zwijsen would film a trick or two for a montage, but as the […]</div></li><li><a class='rsswidget' href='http://www.thrashermagazine.com/articles/videos/death-match-2014-part-1/' title='Here&#039;s a snapshot of the best event at SXSW. Bands, booze, broads and boards. Big love to every […]' target="_blank">Death Match 2014: Part 1</a> <span class="rss-date">April 3, 2014</span><div class='rssSummary'>Here&#039;s a snapshot of the best event at SXSW. Bands, booze, broads and boards. Big love to every […]</div></li><li><a class='rsswidget' href='http://www.thrashermagazine.com/articles/thrasher-radio-ep17-frank-gerwer/' title='Anti-Hero rider, Frank Gerwer talks about stealing tanks, road trips, and Grace Slick. Check the tun […]' target="_blank">Thrasher Radio Ep.17: Frank Gerwer</a> <span class="rss-date">April 3, 2014</span><div class='rssSummary'>Anti-Hero rider, Frank Gerwer talks about stealing tanks, road trips, and Grace Slick. Check the tun […]</div></li><li><a class='rsswidget' href='http://www.thrashermagazine.com/articles/trash/vans-x-independent-trucks/' title='Vans teamed up with Independent to bring you this new collection. Check it out here.Read More... […]' target="_blank">Vans x Independent Trucks</a> <span class="rss-date">April 2, 2014</span><div class='rssSummary'>Vans teamed up with Independent to bring you this new collection. Check it out here.Read More... […]</div></li><li><a class='rsswidget' href='http://www.thrashermagazine.com/articles/trash/bryant-chapo-for-fkd/' title='Bryant Chapo comes through with some ripping footage for FKD bearings. Watch it here.Read More... […]' target="_blank">Bryant Chapo for FKD</a> <span class="rss-date">April 2, 2014</span><div class='rssSummary'>Bryant Chapo comes through with some ripping footage for FKD bearings. Watch it here.Read More... […]</div></li></ul></div></div></div>
-            </div>
-            <!-- /Container -->
-
-            <div class="footer">
-                <p class="copyright">&copy; 2010 <a href="http://303boards.com">303 BOARDS / CLFX / STREET TRASH</a>. All Rights Reserved.<br /><span>Powered by <a
-                        href="http://wordpress.org">WordPress</a>.</span></p>
-
-
-
-
-            </div>
-        </div>
-        <!-- Page generated: 8.128 s, 62 queries -->
-        
-        
-	</body>
+</body>
 </html>

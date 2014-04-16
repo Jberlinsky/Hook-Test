@@ -1,15 +1,14 @@
-from __main__ import *
-
-import os
 from bs4 import BeautifulSoup
+from __main__ import funcs, attrNames
 
-index = 0
-filename = "index.html"
+attrNames.append('hasLinks')
+attrNames.append('moreThan10Links')
+attrNames.append('moreThan100Links')
+attrNames.append('moreThan1000Links')
 
-while os.path.isfile("./data/" + filename):
+def addLinkNumAttr(info, fileObject):
 
-	f = open("./data/" + filename)
-	soup = BeautifulSoup(f)
+	soup = BeautifulSoup(fileObject)
 
 	i = 0
 	for link in soup.find_all('a'):
@@ -28,16 +27,11 @@ while os.path.isfile("./data/" + filename):
 	if i > 1000:
 		link1000 = True
 
-	infoList[index].append(link)
-	infoList[index].append(link10)
-	infoList[index].append(link100)
-	infoList[index].append(link1000)
+	info.append(link)
+	info.append(link10)
+	info.append(link100)
+	info.append(link1000)
+	
+	return
 
-	f.close()
-	index = index + 1
-	filename = "index.html." + str(index)
-
-featureNames.append('hasLinks')
-featureNames.append('moreThan10Links')
-featureNames.append('moreThan100Links')
-featureNames.append('moreThan1000Links')
+funcs.append(addLinkNumAttr)

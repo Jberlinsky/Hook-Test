@@ -1,1386 +1,1200 @@
 <!DOCTYPE html>
-<html lang="en-us" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"><head><!-- MacLeod loves you! --><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgQCVVdaGwAGU1VUAAE="};window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f<d.length;f++)e(d[f]);return e}({1:[function(a,b){function c(a,b,c){c||(c={});for(var d=f[a],e=d&&d.length||0,h=c[g]||(c[g]={}),i=0;e>i;i++)d[i].apply(h,b);return h}function d(a,b){var c=f[a]||(f[a]=[]);c.push(b)}function e(a){return delete a[g]}var f={},g="nr@context";b.exports={on:d,emit:c,clear:e}},{}],2:[function(a){function b(a,b,e,g,i){return h?h-=1:c("err",[i||new UncaughtException(a,b,e)]),"function"==typeof f?f.apply(this,d(arguments)):!1}function UncaughtException(a,b,c){this.message=a||"Uncaught error with no additional information",this.sourceURL=b,this.line=c}var c=a("handle"),d=a("lodash._slice"),e=a("../../../contextual-ee"),f=window.onerror,g=!1,h=0;a("loader").features.push("err"),window.onerror=b;try{throw new Error}catch(i){"stack"in i&&(a("../../wrap-timer"),a("../../wrap-raf"),"addEventListener"in window&&a("../../wrap-events"),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&a("../../wrap-xhr"),g=!0)}e.on("fn-start",function(){g&&(h+=1)}),e.on("fn-err",function(a,b,d){g&&(this.thrown=!0,c("err",[d,(new Date).getTime()]))}),e.on("fn-end",function(){g&&!this.thrown&&h>0&&(h-=1)})},{"../../../contextual-ee":1,"../../wrap-events":3,"../../wrap-raf":4,"../../wrap-timer":5,"../../wrap-xhr":6,handle:"4O2Y62",loader:"YLUGVp","lodash._slice":14}],3:[function(a){function b(a){d.inPlace(a,["addEventListener","removeEventListener"],"-",c)}function c(a){return a[1]}var d=a("../wrap-function"),e=(a("lodash._slice"),a("../contextual-ee"));if(b(window),"getPrototypeOf"in Object){for(var f=document;f&&!f.hasOwnProperty("addEventListener");)f=Object.getPrototypeOf(f);f&&b(f);for(var g=XMLHttpRequest.prototype;g&&!g.hasOwnProperty("addEventListener");)g=Object.getPrototypeOf(g);g&&b(g)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&b(XMLHttpRequest.prototype);e.on("addEventListener-start",function(a){if(a[1]){var b=a[1];"function"==typeof b?this.wrapped=b["nr@wrapped"]?a[1]=b["nr@wrapped"]:b["nr@wrapped"]=a[1]=d(b,"fn-"):"function"==typeof b.handleEvent&&d.inPlace(b,["handleEvent"],"fn-")}}),e.on("removeEventListener-start",function(a){var b=this.wrapped;b&&(a[1]=b)})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],4:[function(a){var b=(a("lodash._slice"),a("../wrap-function")),c=a("../contextual-ee");b.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),c.on("raf-start",function(a){a[0]=b(a[0],"fn-")})},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],5:[function(a){function b(a){var b=a[0];"string"==typeof b&&(b=new Function(b)),a[0]=c(b,"fn-")}var c=(a("lodash._slice"),a("../wrap-function")),d=a("../contextual-ee");c.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),d.on("setTimer-start",b)},{"../contextual-ee":1,"../wrap-function":15,"lodash._slice":14}],6:[function(a){function b(){c.inPlace(this,f,"fn-")}var c=a("../wrap-function"),d=a("../contextual-ee"),e=window.XMLHttpRequest,f=["onload","onerror","onabort","onloadstart","onloadend","onprogress","onreadystatechange","ontimeout"];window.XMLHttpRequest=function(a){var f=new e(a);return d.emit("new-xhr",[],f),c.inPlace(f,["addEventListener","removeEventListener"],"-",function(a,b){return b}),f.addEventListener("readystatechange",b,!1),f},window.XMLHttpRequest.prototype=e.prototype},{"../contextual-ee":1,"../wrap-function":15}],7:[function(a){function b(a){if("string"==typeof a&&a.length)return a.length;if("object"!=typeof a)return void 0;if("undefined"!=typeof ArrayBuffer&&a instanceof ArrayBuffer&&a.byteLength)return a.byteLength;if("undefined"!=typeof Blob&&a instanceof Blob&&a.size)return a.size;if("undefined"!=typeof FormData&&a instanceof FormData)return void 0;try{return JSON.stringify(a).length}catch(b){return void 0}}function c(a){var c=this.params,d=this.metrics;if(!this.ended){this.ended=!0;for(var e=0;k>e;e++)a.removeEventListener(j[e],this.listener,!1);if(!c.aborted){if(d.duration=(new Date).getTime()-this.startTime,4===a.readyState){c.status=a.status;var g=a.responseType,h="arraybuffer"===g||"blob"===g||"json"===g?a.response:a.responseText,i=b(h);if(i&&(d.rxSize=i),this.sameOrigin){var l=a.getResponseHeader("X-NewRelic-App-Data");l&&(c.cat=l.split(", ").pop())}}else c.status=0;d.cbTime=this.cbTime,f("xhr",[c,d])}}}function d(a,b){var c=g(b),d=a.params;d.host=c.hostname+":"+c.port,d.pathname=c.pathname,a.sameOrigin=c.sameOrigin}function e(a,b){return b}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){a("loader").features.push("xhr");var f=a("handle"),g=a("./parse-url.js"),h=a("../../../wrap-function"),i=a("../../../contextual-ee"),j=["load","error","abort","timeout"],k=j.length,l=a("../../../loader/id");a("../../wrap-events"),a("../../wrap-xhr"),i.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=c,this.ended=!1,this.xhrGuids={}}),h.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",e),i.on("open-xhr-start",function(a){this.params={method:a[0]},d(this,a[1]),this.metrics={}}),i.on("open-xhr-end",function(a,b){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&b.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),i.on("send-xhr-start",function(a,c){var d=this.metrics,e=a[0],f=this;if(d&&e){var g=b(e);g&&(d.txSize=g)}this.startTime=(new Date).getTime(),this.listener=function(a){try{"abort"===a.type&&(f.params.aborted=!0),("load"!==a.type||f.called===f.totalCbs&&(f.onloadCalled||"function"!=typeof c.onload))&&f.end(c)}catch(b){}};for(var h=0;k>h;h++)c.addEventListener(j[h],this.listener,!1)}),i.on("xhr-cb-time",function(a,b,c){this.cbTime+=a,b?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof c.onload||this.end(c)}),i.on("xhr-load-added",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&&!this.xhrGuids[c]&&(this.xhrGuids[c]=!0,this.totalCbs+=1)}),i.on("xhr-load-removed",function(a,b){var c=""+l(a)+!!b;this.xhrGuids&&this.xhrGuids[c]&&(delete this.xhrGuids[c],this.totalCbs-=1)}),i.on("addEventListener-end",function(a,b){b instanceof XMLHttpRequest&&"load"===a[0]&&i.emit("xhr-load-added",[a[1],a[2]],b)}),i.on("removeEventListener-end",function(a,b){b instanceof XMLHttpRequest&&"load"===a[0]&&i.emit("xhr-load-removed",[a[1],a[2]],b)}),i.on("fn-start",function(a,b,c){b instanceof XMLHttpRequest&&("onload"===c&&(this.onload=!0),("load"===(a[0]&&a[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),i.on("fn-end",function(a,b){this.xhrCbStart&&i.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,b],b)})}},{"../../../contextual-ee":1,"../../../loader/id":11,"../../../wrap-function":15,"../../wrap-events":3,"../../wrap-xhr":6,"./parse-url.js":8,handle:"4O2Y62",loader:"YLUGVp"}],8:[function(a,b){b.exports=function(a){var b=document.createElement("a"),c=window.location,d={};b.href=a,d.port=b.port;var e=b.href.split("://");return!d.port&&e[1]&&(d.port=e[1].split("/")[0].split(":")[1]),d.port&&"0"!==d.port||(d.port="https"===e[0]?"443":"80"),d.hostname=b.hostname||c.hostname,d.pathname=b.pathname,"/"!==d.pathname.charAt(0)&&(d.pathname="/"+d.pathname),d.sameOrigin=!b.hostname||b.hostname===document.domain&&b.port===c.port&&b.protocol===c.protocol,d}},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],11:[function(a,b){function c(a){if(!a||"object"!=typeof a&&"function"!=typeof a)return-1;if(a===window)return 0;if(e.call(a,"__nr"))return a.__nr;try{return Object.defineProperty(a,"__nr",{value:d,writable:!0,enumerable:!1}),d}catch(b){return a.__nr=d,d}finally{d+=1}}var d=1,e=Object.prototype.hasOwnProperty;b.exports=c},{}],loader:[function(a,b){b.exports=a("YLUGVp")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&&a.agent&&a.licenseKey&&a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&&e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],14:[function(a,b){function c(a,b,c){b||(b=0),"undefined"==typeof c&&(c=a?a.length:0);for(var d=-1,e=c-b||0,f=Array(0>e?0:e);++d<e;)f[d]=a[b+d];return f}b.exports=c},{}],15:[function(a,b){function c(a,b,c,d){function nrWrapper(){var g,h=f(arguments),i=this,j=c&&c(h,i)||{};try{e.emit(b+"start",[h,i,d],j)}catch(k){}try{return g=a.apply(i,h)}catch(l){throw e.emit(b+"err",[h,i,l],j),l}finally{try{e.emit(b+"end",[h,i,g],j)}catch(k){}}}return a&&"function"==typeof a&&a.apply&&!a._wrapped?(b||(b=""),nrWrapper._wrapped=!0,nrWrapper):a}function d(a,b,d,e){d||(d="");var f,g,h,i="-"===d.charAt(0);for(h=0;h<b.length;h++)g=b[h],f=a[g],f&&"function"==typeof f&&f.apply&&!f._wrapped&&(a[g]=c(f,i?g+d:d,e,g,a))}var e=a("../contextual-ee"),f=a("lodash._slice");b.exports=c,c.inPlace=d},{"../contextual-ee":1,"lodash._slice":14}]},{},["YLUGVp",7,2]);</script><meta content="en-us" http-equiv="Content-Language"><title>News - CNET</title><meta name="description" content="CNET news editors and reporters provide top technology news, with investigative reporting and in-depth coverage of tech issues and events."><meta name="keywords" content="CNET, product reviews, tech reviews, tech news, free software downloads, CNET.com"><link rel="canonical" href="http://www.cnet.com/news/"><link rel="alternate" hreflang="x-default" href="http://www.cnet.com/news/"><link rel="alternate" hreflang="en-us" href="http://www.cnet.com/news/"><link rel="alternate" hreflang="en-gb" href="http://www.cnet.com/uk/news/"><link rel="alternate" hreflang="en-ie" href="http://www.cnet.com/uk/news/"><link rel="search" type="application/opensearchdescription+xml" title="CNET Search" href="http://www.cnet.com/html/osdd/cnet.xml"><meta property="og:site_name" content="CNET"><meta property="og:title" content="News - CNET"><meta property="og:description" content="CNET news editors and reporters provide top technology news, with investigative reporting and in-depth coverage of tech issues and events."><meta property="og:image" content="http://i.i.cbsi.com/cnwk.1d/i/cnet/cnet-redball-large.jpg"><meta property="og:type" content="website"><meta property="og:url" content="http://www.cnet.com/news/"><meta property="fb:app_id" content="16995676698"><meta property="fb:admins" content="100001036810388"><meta property="article:publisher" content="https://www.facebook.com/cnet"><meta content="30261067" property="twitter:account_id"><meta content="I1kHyfzmmG1fEVjq8GBUgkfCHc6PNtxce1_VyUuJhws" name="google-site-verification"><meta content="wNWLoFvk5wsdZQ-u75uCNiaHNa7FLFmNtH2t7dZbXmQ" name="google-site-verification"><meta content="47524839a64b83c951afca9ef6c838e0" name="p:domain_verify"><meta content="Product reviews, downloads and tech news at CNET.com" name="msapplication-tooltip"><meta content="http://www.cnet.com/" name="msapplication-starturl"><meta content="width=1024;height=768" name="msapplication-window"><meta content="#424244" name="msapplication-navbutton-color"><meta content="name=Home; action-uri=http://www.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Downloads; action-uri=http://download.cnet.com/; icon-uri=http://download.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=News; action-uri=http://news.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Reviews; action-uri=http://reviews.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Videos; action-uri=http://cnettv.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta content="name=Forums; action-uri=http://forums.cnet.com/; icon-uri=http://www.cnet.com/favicon.ico" name="msapplication-task"><meta name="viewport" content="width=device-width"><link rel="stylesheet" href="http://cnet3.cbsistatic.com/fly/75-fly/bundles/cnetcss/css/core/main.desktop.css"><link rel="stylesheet" href="http://cnet4.cbsistatic.com/fly/75-fly/bundles/cnetcss/css/feature/news/news.landing.desktop.css"><!--[if IE 8]> <link rel="stylesheet" href="http://cnet4.cbsistatic.com/fly/75-fly/bundles/cnetcss/css/core/ie/ie8.css" /> <![endif]--><!--[if IE 9]> <link rel="stylesheet" href="http://cnet3.cbsistatic.com/fly/75-fly/bundles/cnetcss/css/core/ie/ie9.css" /> <![endif]--><script type="text/javascript">
-    window.CnetPageVars = {
-        edition: {
-            code: 'us'
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+    <head prefix="og: http://ogp.me/ns#
+    fb: http://ogp.me/ns/fb#">
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<title>Indiewire Blogs, Film News and Reviews | Filmmakers, Film Industry, Film Festivals, Awards & Movie Reviews | Indiewire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="title"
+      content="Indiewire Blogs, Film News and Reviews | Filmmakers, Film Industry, Film Festivals, Awards & Movie Reviews | Indiewire"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+
+<meta property="pageHost" content=""/>
+<meta property="pageType" content=""/>
+<link rel="shortcut icon" href="http://d1oi7t5trwfj5d.cloudfront.net/36/9e/83a6781c4a9185774b29cb59594b/favicon.ico" />
+<link rel="apple-touch-icon" href="http://d1oi7t5trwfj5d.cloudfront.net/18/ff/b0b53a08499589fe022e46664b67/favicon.png" />
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=indiewire"></script>
+<link rel="stylesheet" href="/fonts/fonts.min.css?build=20140414-1348" />
+<link rel="stylesheet" href="http://d1oi7t5trwfj5d.cloudfront.net/resource/css/global.7dc6594e918252a4c77012c5fb71cb7e.css" />
+<link rel="stylesheet" href="http://d1oi7t5trwfj5d.cloudfront.net/resource/css/libs/bootstrap/2.3.2/bootstrap.custom.dd01226914a0a1b1f7c0e97656ca2ef1.css" />
+<link rel="stylesheet" media="print" href="http://d1oi7t5trwfj5d.cloudfront.net/resource/css/print.6b66f9287fb3eb6174ba04d6a9373d71.css" />
+
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/SimpleJavaScriptInheritance.min.309b8a0a3dde9f360bce30e9fe23e309.js" type="text/JavaScript"></script>
+
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery-1.7.2.min.fd9c3f401110f85ec685a85a336f03fa.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.cookie.c203f1f3ca2a51bd6a2c62cd52312139.js"></script>
+
+<script src="//cdn.optimizely.com/js/713751423.js"></script>
+
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.tools.min.6777c9308a64b5abcf10d728cedbf865.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/head.min.75ebe32e1ce54532b352cc9496580198.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.lightbox.bc8e362712ef3055f6b4578b3789f8b9.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/iw.65b699f870eabfde3554686f49090c9d.js"></script>
+
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/criticwire/criticwire.83a9791165791fde26afc6a4f042fee3.js"></script>
+<div id="fb-root"></div>
+<script src="//connect.facebook.net/en_US/all.js" id="facebook-jssdk"></script>
+<script type="text/javascript">
+    
+    $.extend(IW, {
+        FB: {
+            params: {
+                appId: '132443425037',
+                status: true,
+                cookie: true,
+                xfbml: true
+            },
+            callbacks: {
+                init: [],
+                getLoginStatus: [],
+                authResponseChange: [],
+                loginSmallLoaded: [],
+                api: []
+            },
+            doCallback: function(response, fnName) {
+                for(var i in this.callbacks[fnName]) {
+                    CW.log('Calling callbacks[' + fnName + '][' + i + ']', response);
+                    this.callbacks[fnName][i](response);
+                }
+            }
         }
-    };
-</script><script type="text/javascript" src="http://cnet3.cbsistatic.com/fly/75-fly/bundles/flyjs/js/libs/require-2.1.2.js"></script><script type="text/javascript">
-    require.config({"baseUrl":"http:\/\/cnet4.cbsistatic.com\/fly\/75-fly\/bundles\/cnetjs\/js-build","config":{"version":{"fly\/components\/accordion":"1.0","fly\/components\/alert":"1.0","fly\/components\/base":"1.0","fly\/components\/carousel":"1.0","fly\/components\/dropdown":"1.0","fly\/components\/fixate":"1.0","fly\/components\/form-validate":"1.0","fly\/components\/image-gallery":"1.0","fly\/components\/iframe-messenger":"1.0","fly\/components\/livefyre-commentcount":"1.0","fly\/components\/livefyre-conversation":"1.0","fly\/components\/load-more":"1.0","fly\/components\/load-more-scroll":"1.0","fly\/components\/loading":"1.0","fly\/components\/modal":"1.0","fly\/components\/modal-iframe":"1.0","fly\/components\/poll":"1.0","fly\/components\/social-button":"1.0","fly\/components\/social-counts":"1.0","fly\/components\/social-links":"1.0","fly\/components\/tabs":"1.0","fly\/components\/tooltip":"1.0","fly\/components\/video":"1.0","fly\/libs\/easy-xdm":"2.4.19.3","fly\/libs\/jquery.cookie":"1.2","fly\/libs\/jquery.throttle-debounce":"1.1","fly\/libs\/jquery.widget":"1.9.2","fly\/libs\/omniture.s-code":"1.0","fly\/libs\/urs":"1.0","fly\/managers\/ad":"1.0","fly\/managers\/clicktale":"1.0","fly\/managers\/components":"1.0","fly\/managers\/cookie":"1.0","fly\/managers\/debug":"1.0","fly\/managers\/dw-tracking":"1.0","fly\/managers\/geo":"1.0","fly\/managers\/gpt":"1.0","fly\/managers\/history":"1.0","fly\/managers\/madison":"1.0","fly\/managers\/omniture-tracking":"1.0","fly\/managers\/social-authentication":"1.0","fly\/managers\/tracking":"1.0","fly\/managers\/user":"1.0","fly\/utils\/data-prefix":"1.0","fly\/utils\/data-selector":"1.0","fly\/utils\/function-natives":"1.0","fly\/utils\/guid":"1.0","fly\/utils\/log":"1.0","fly\/utils\/object-helper":"1.0","fly\/utils\/string-helper":"1.0","fly\/utils\/string-vars":"1.0","fly\/utils\/url-helper":"1.0","libs\/jshashtable":"2.1","libs\/jsonp":"2.4.0","libs\/modernizr.custom":"2.6.2","libs\/jquery\/dotdotdot":"1.6.1","libs\/jquery\/flexslider":"2.1","libs\/jquery\/lazyload":"1.9.3","libs\/jquery\/numberformatter":"1.2.3","libs\/jquery\/placeholder":"0.2.4","libs\/jquery\/scrollbar":"0.1.6","libs\/jquery\/tablesorter":"2.0.5","libs\/jquery\/ui\/jquery.ui.core":"1.9.2","libs\/jquery\/ui\/jquery.ui.draggable":"1.9.2","libs\/jquery\/ui\/jquery.ui.mouse":"1.9.2","libs\/jquery\/ui\/jquery.ui.position":"1.9.2","libs\/jquery\/ui\/jquery.ui.slider":"1.9.2","libs\/jquery\/ui\/jquery.ui.touch-punch":"0.2.2"}},"shim":{"version!libs\/jquery\/numberformatter":["jquery","version!libs\/jshashtable"],"version!libs\/jquery\/placeholder":["jquery"],"version!libs\/jquery\/scrollbar":["jquery"],"version!libs\/jquery\/tablesorter":["jquery"],"version!libs\/jquery\/ui\/jquery.ui.draggable":["jquery","version!libs\/jquery\/ui\/jquery.ui.core","version!fly\/libs\/jquery.widget","version!libs\/jquery\/ui\/jquery.ui.mouse"],"version!libs\/jquery\/ui\/jquery.ui.slider":["jquery","version!libs\/jquery\/ui\/jquery.ui.core","version!fly\/libs\/jquery.widget","version!libs\/jquery\/ui\/jquery.ui.mouse"],"version!libs\/jquery\/ui\/jquery.ui.mouse":["jquery","version!libs\/jquery\/ui\/jquery.ui.core","version!fly\/libs\/jquery.widget"],"version!libs\/jquery\/ui\/jquery.ui.core":["jquery"]},"map":{"*":{"facebook":"\/\/connect.facebook.net\/en_US\/all.js","facebook-debug":"\/\/connect.facebook.net\/en_US\/all\/debug.js","google":"https:\/\/apis.google.com\/js\/plusone.js","google-csa":"\/\/www.google.com\/adsense\/search\/async-ads.js","gpt":"\/\/www.googletagservices.com\/tag\/js\/gpt.js","linked-in":"\/\/platform.linkedin.com\/in.js","livefyre":"\/\/zor.livefyre.com\/wjs\/v3.0\/javascripts\/livefyre.js","livefyre-commentcount":"\/\/zor.livefyre.com\/wjs\/v1.0\/javascripts\/CommentCount.js","pinterest":"\/\/assets.pinterest.com\/js\/pinit.js","recaptcha":"http:\/\/www.google.com\/recaptcha\/api\/js\/recaptcha_ajax.js","twitter":"\/\/platform.twitter.com\/widgets.js","typekit":"http:\/\/fonts.cnet.com\/zrx0zuz.js","typekit-secure":"https:\/\/secure.cnet.com\/typekitssl-fly","urs":"\/\/urs.cnet.com\/sdk\/urs.js","mpx":"libs\/tpPdk","nrelate":"http:\/\/static2.nrcdn.com\/common_js\/0.52.0\/nr_loader.min.js"}}});
-    require(['main.desktop']);
-</script><!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]--><!-- ClickTale Top part --><script type="text/javascript">
-    document.write(unescape("%3Cscript%20src='" +
-            (document.location.protocol == 'https:' ?
-                    'https://clicktalecdn.sslcs.cdngc.net/' :
-                    'http://cdn.clicktale.net/') +
-            "www08/phc/04aa124c-2298-4540-827a-d9ee84e64713.js'%20type='text/javascript'%3E%3C/script%3E"));
-</script><!-- ClickTale end of Top part --><script type="text/javascript" src="http://fonts.cnet.com/zrx0zuz.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script></head><body class="not-logged-in us " data-tracking='{"isEnabled":true,"omniture":{"account":"cbsicnetglobalsite,cbsicbsiall","config":{"edition":"us"},"contextData":{"siteId":"cnet","topics":"news|home","channel":"news","pageType":"section_door","siteType":"responsive web","reportSuiteId":"cbsicnetglobalsite","contentType":"content_feature"}},"dw":{"host":"dw.cbsi.com","pageParams":{"rsid":"cbsicnetglobalsite","pagetype":"section_door","siteid":1,"assettype":"content_feature","sitetype":"responsive web","devicetype":"desktop","ednm":"us","sect":"news"}},"clickTale":{"partition":"08","ptcId":"04aa124c-2298-4540-827a-d9ee84e64713"}}' data-tracking-status="true" data-ad='{"gpt":{"targeting":{"section":"news","userGroup":"","device":"desktop","ptype":"section_door","cid":"news","env":"prod"},"adConfig":{"network":{"local":7336,"dev":7336,"stage":8264,"qa":8264,"demo":8264,"prod":8264},"method":"async","regions":[{"region":"uk","countries":["gb","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye","fr"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","th","id","ph","hk","vn","in","tw"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"callback":"adSkinCallback","position":"top"},"resourceCenterTop":{"sizes":[[371,301]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[300,60]],"position":"top"},"mpuTop":{"sizes":[[300,250]],"position":"top"},"mpuBottom":{"sizes":[[300,250],[300,600],[300,1050]],"position":"bottom"},"leaderPlusTop":{"sizes":[[970,66],[728,90],[970,250]],"callback":"leaderboardTopPlusCallback","position":"top"},"leaderTop":{"sizes":[[970,66],[728,90]],"position":"top"},"buttonTop":{"sizes":[[88,31],[70,20],[155,40]],"position":"top"},"omnibarTop":{"sizes":[[980,45]],"position":"top"},"textLinkTop":{"sizes":[[401,11]],"position":"top"},"dynamicTextLinkTop":{"sizes":[[1171,61]],"position":"top"},"leaderPlusMantle":{"sizes":[[970,66],[728,90],[970,250]],"callback":"leaderPlusMantleCallback","position":"mantle"},"leaderBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"leaderPlusBottom":{"sizes":[[970,66],[728,90]],"position":"bottom"},"dynamicShowcaseTop":{"sizes":[[371,771]],"position":"top"},"infoBoardTop":{"sizes":[[771,201],[620,90]],"position":"top"},"infoButtonsTop":{"sizes":[[771,61]],"position":"top"},"socialLogoBottom":{"sizes":[[88,31]],"callback":"sharebarCallback","position":"bottom"},"sponsoredFeedTop":{"sizes":[[571,121]],"position":"top"},"inlineProductCarouselTop":{"sizes":[[621,221]],"position":"top"},"windowTop":{"sizes":[[120,90]],"position":"top"},"windowBottom":{"sizes":[[120,90]],"position":"bottom"},"sponsoredMatchTop":{"sizes":[[971,201]],"position":"top"},"replaySquareTop":{"sizes":[[271,271]],"callback":"replaySquareCallBack","position":"top"},"replayWideTop":{"sizes":[[771,131]],"position":"top"},"replayShowcaseTop":{"sizes":[[371,291]],"position":"top"},"overgifTop":{"sizes":[[251,11]],"position":"top"}},"mobile":{"adUnits":{"hpto":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50],[6,1]],"position":"top"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"bottom"},"mobileInlineBanner":{"sizes":[[320,50]],"position":"top"}}},"tablet":{"adUnits":{"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250]]},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top"}}},"siteName":"cnet","collapseEmptyDiv":true,"setRefreshUnfilledSlots":true,"setClearUnfilledSlots":false,"disableInitialLoad":false,"disableInitialLoadCompanions":false,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw"},"containerId":"533ca50906566","slotVars":{"network":"8264","siteName":"cnet","collapseEmptyDiv":"1","topics":"news\/home","platform":"desktop"},"adType":"gpt"},"cookieName":"cnet_ad","cookieServicePath":"http:\/\/www.cnet.com\/ad\/ad-cookie\/","blueKai":{"bkSiteId":3321,"limit":4,"ch":"news","site":"cbsicnetglobalsite","ptype":"section_door"}}' data-user='{"baseUrl":"https:\/\/secure-fly-beta.cnet.com"}' data-device='{"type":"desktop"}' data-edition='{"code":"us"}' data-cms-edit='{"url":"https:\/\/cms-beta.cnet.com\/content\/page\/create\/feature?pageId=be66d948-4864-47aa-a4d7-43a7043d7e4f"}' data-assets-version='{"version":"75-fly"}'>
-                        <header id="rbHeader" class="page-header"><div id="omnibar_top">                                    <div id="omnibar-top-533ca50906566" class="ad-omnibar-top" data-ad="omnibar-top"></div>            </div>
-            <div id="secondary">
-            <div id="headerTextAd">                                    <div id="text-link-top-533ca50906566" class="ad-text-link-top" data-ad="text-link-top"></div>            </div>
-            
-<div id="socialHeader">
-    <a class="feedback" href="https://cbsi.secure.force.com/CBSi/sitefeedback?template=template_cnet&amp;referer=cnet.com&amp;cfs=SFS_1">Tell us what you think of the new CNET</a>
-    <span>Connect with us</span>
-            <div class="socialWrapper" data-component='["touchMenuHover","iframeHoverFix"]'>
-                
-                        <div class="social-menu-facebook">facebook</div>
-
-        
-                        <div class="social-menu-twitter">twitter</div>
-
-        
-                        <div class="social-menu-google">google</div>
-
-        
-        <div class="hoverWrap">
-            <ul><li>        <fb:like class="fb_XFBML" data-social="facebook" href="http://www.facebook.com/CNET" layout="button_count" show_faces="false" ref="fblikeeditor"></fb:like></li>
-                                                                        <li>        <a href="https://twitter.com/CNET" class="twitter-follow-button" data-social="twitter" data-show-count="false">Follow @CNET</a>
-</li>
-                                                    <li>        <div class="g-plus" data-social="google" data-height="69" data-width="170" data-href="//plus.google.com/+CNET" data-rel="author"></div>
-</li>
-                            </ul></div>
-    </div>
-
-</div>
-        </div>
-                <div class="fixation" data-component="fixate" data-fixate-options='{"offset":{"top":0,"bottom":0},"guideTop":"#secondary"}'>
-            <div id="primary">
-                                    <a id="rbLogo" href="/">CNET</a>                
-                <form method="get" action="/search/" class="col-3 headerSearchForm">
-                    <div class="searchBar">
-                        <input type="text" placeholder="Search CNET" id="primarySearch" name="query"><button type="submit" class="searchButton" value="Search"></button>
-                    </div>
-                </form>
-
-                
-
-<nav id="primaryNav" section="brandnav"><div class="menu double" id="reviewsMenu" data-component="touchMenuHover">
-        <a class="menuHead" data-trigger="menu" href="/reviews/">Reviews</a>
-        <div class="menuWrapper">
-            <!--[if lt IE 9]>
-            <noscript><div class="navTag"></noscript>
-            <![endif]-->
-            <nav><div class="navWrapper" data-component="headerMenu" data-ajax="reviews">
-                <ul class="topCategories"><li class="hed">Top Categories</li>
-                    <li data-ajax="reviews-appliances"><a href="/topics/appliances/">Appliances</a></li>
-                    <li data-ajax="reviews-audio"><a href="/topics/audio/">Audio</a></li>
-                    <li data-ajax="reviews-cameras"><a href="/topics/cameras/">Cameras</a></li>
-                    <li data-ajax="reviews-car"><a href="/topics/car-tech/">Car Tech</a></li>
-                    <li data-ajax="reviews-desktops"><a href="/topics/desktops/">Desktops</a></li>
-                    <li data-ajax="reviews-headphones"><a href="/topics/headphones/">Headphones</a></li>
-                    <li data-ajax="reviews-laptops"><a href="/topics/laptops/">Laptops</a></li>
-                    <li data-ajax="reviews-networking"><a href="/topics/networking/">Networking</a></li>
-                    <li data-ajax="reviews-phones"><a href="/topics/phones/">Phones</a></li>
-                    <li data-ajax="reviews-printers"><a href="/topics/printers/">Printers</a></li>
-                    <li data-ajax="reviews-software"><a href="/topics/software/">Software</a></li>
-                    <li data-ajax="reviews-tablets"><a href="/topics/tablets/">Tablets</a></li>
-                    <li data-ajax="reviews-tvs"><a href="/topics/tvs/">TVs</a></li>
-                    <li data-ajax="reviews-wearable"><a href="/topics/wearable-tech/">Wearable Tech</a></li>
-                                            <li data-ajax="reviews-deals"><a href="/deals/">Deals</a></li>
-                                    </ul></div>
-            </nav><!--[if lt IE 9]>
-            <noscript></div></noscript>
-            <![endif]--></div>
-    </div>
-    <div class="menu double active" id="newsMenu" data-component="touchMenuHover">
-        <a class="menuHead" data-trigger="menu" href="/news/">News</a>
-        <div class="menuWrapper">
-            <!--[if lt IE 9]>
-            <noscript><div class="navTag"></noscript>
-            <![endif]-->
-            <nav><div class="navWrapper" data-component="headerMenu" data-ajax="news">
-                <ul class="topCategories"><li class="hed">Top Categories</li>
-                    <li data-ajax="news-apple"><a href="/apple/" data-vanity-rewritten="true">Apple</a></li>
-                    <li data-ajax="news-computers"><a href="/topics/computers/" data-vanity-rewritten="true">Computers</a></li>
-                    <li data-ajax="news-crave"><a href="/crave/" data-vanity-rewritten="true">Crave</a></li>
-                    <li data-ajax="news-internet"><a href="/topics/internet/" data-vanity-rewritten="true">Internet</a></li>
-                    <li data-ajax="news-microsoft"><a href="/tags/microsoft/">Microsoft</a></li>
-                    <li data-ajax="news-mobile"><a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a></li>
-                    <li data-ajax="news-photography"><a href="/topics/photography/" data-vanity-rewritten="true">Photography</a></li>
-                    <li data-ajax="news-security"><a href="/topics/security/" data-vanity-rewritten="true">Security</a></li>
-                    <li data-ajax="news-scitech"><a href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a></li>
-                    <li data-ajax="news-culture"><a href="/topics/tech-culture/" data-vanity-rewritten="true">Tech Culture</a></li>
-                    <li data-ajax="news-tech"><a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a></li>
-                    <li data-ajax="news-photos"><a href="/pictures/">Photo Galleries</a></li>
-                </ul></div>
-            </nav><!--[if lt IE 9]>
-            <noscript></div></noscript>
-            <![endif]--></div>
-    </div>
-    <div class="menu double" id="videoMenu" data-component="touchMenuHover">
-        <a class="menuHead" data-trigger="menu" href="/videos/">Video</a>
-        <div class="menuWrapper">
-        <!--[if lt IE 9]>
-        <noscript><div class="navTag"></noscript>
-        <![endif]-->
-        <nav><div class="navWrapper" data-component="headerMenu" data-ajax="videos">
-                <ul class="topCategories"><li class="hed">Top Categories</li>
-                    <li data-ajax="video-apple"><a href="/apple-byte/" data-vanity-rewritten="true">Apple Byte</a></li>
-                    <li data-ajax="video-cnetoncars"><a href="/cnet-on-cars/" data-vanity-rewritten="true">CNET On Cars</a></li>
-                    <li data-ajax="video-cnettop5"><a href="/cnet-top-5/" data-vanity-rewritten="true">CNET Top 5</a></li>
-                    <li data-ajax="video-cnetupdate"><a href="/cnet-update/" data-vanity-rewritten="true">CNET Update</a></li>
-                    <li data-ajax="video-nextbigthing"><a href="/next-big-thing/" data-vanity-rewritten="true">Next Big Thing</a></li>
-                    <li data-ajax="video-404"><a href="/the-404/" data-vanity-rewritten="true">The 404</a></li>
-                    <li data-ajax="video-fix"><a href="/the-fix/" data-vanity-rewritten="true">The Fix</a></li>
-                    <li data-ajax="video-xcar"><a href="/xcar/" data-vanity-rewritten="true">XCAR</a></li>
-                </ul></div>
-        </nav><!--[if lt IE 9]>
-        <noscript></div></noscript>
-        <![endif]--></div>
-    </div>
-    <div class="menu single" id="howtoMenu" data-component="touchMenuHover">
-        <a class="menuHead" data-trigger="menu" href="/how-to/">How To</a>
-        <div class="menuWrapper">
-            <!--[if lt IE 9]>
-            <noscript><div class="navTag"></noscript>
-            <![endif]-->
-            <nav><ul class="topCategories"><li class="hed">Top Categories</li>
-                    <li><a href="/topics/computers/how-to/">Computers</a></li>
-                    <li><a href="/topics/home-entertainment/how-to/">Home Entertainment</a></li>
-                    <li><a href="/topics/internet/how-to/">Internet</a></li>
-                    <li><a href="/topics/phones/how-to/">Phones</a></li>
-                    <li><a href="/topics/photography/how-to/">Photography</a></li>
-                    <li><a href="/topics/security/how-to/">Security</a></li>
-                    <li><a href="/topics/tablets/how-to/">Tablets</a></li>
-                    <li><a href="http://forums.cnet.com/" data-user-action="legacy">Forums</a></li>
-                </ul></nav><!--[if lt IE 9]>
-            <noscript></div></noscript>
-            <![endif]--></div>
-    </div>
-    <div class="menu" id="download">
-        <a class="menuHead" href="http://www.download.com" data-user-action="legacy">Download</a>
-    </div>
-
-    <div id="headerLogin" class="menu single" data-component="touchMenuHover">
-    <div class="menuHead" data-trigger="menu">
-        <span data-user-var="userName">Log In / Join</span>
-        <div class="user-avatar" data-user-var="avatar"></div>
-    </div>
-    <div class="menuWrapper">
-        <!--[if lt IE 9]>
-        <noscript><div class="navTag"></noscript>
-        <![endif]-->
-        <nav><ul class="topCategories logged-out"><li>
-                    <a data-user-show='{"action":"login","params":{"appId":376}}'>Log In to CNET</a>
-                </li>
-                <li class="social-login">
-                    <span class="sign-in-with">Sign In with</span>
-                                            <span class="social-site sa-facebook" data-user-social='{"socialSite":"facebook","action":"login","params":{"appId":376}}'>Facebook</span>
-                                            <span class="social-site sa-google" data-user-social='{"socialSite":"google","action":"login","params":{"appId":376}}'>Google</span>
-                                            <span class="social-site sa-yahoo" data-user-social='{"socialSite":"yahoo","action":"login","params":{"appId":376}}'>Yahoo</span>
-                                    </li>
-                <li>
-                    <a data-user-show='{"action":"register","params":{"appId":376}}'>Join CNET</a>
-                </li>
-                            </ul><ul class="topCategories logged-in"><li class="social-login">
-                    <span>
-                                            <span class="social-site sa-facebook" data-user-link="facebook">Facebook</span>
-                                            <span class="social-site sa-google" data-user-link="google">Google</span>
-                                            <span class="social-site sa-yahoo" data-user-link="yahoo">Yahoo</span>
-                                        </span>
-                </li>
-                <li><a data-user-var="profileLink" data-template="/profiles/__username__/">My Profile</a></li>
-                <li><a href="/user/logout/" data-user-action="logout">Log Out</a></li>
-            </ul></nav><!--[if lt IE 9]>
-        <noscript></div></noscript>
-        <![endif]--></div>
-</div>
+    });
     
-<div class="menu single" id="editionMenu" data-component="touchMenuHover">
-    <span class="menuHead" data-trigger="menu"><span id="selectedEdition">US</span> Edition</span>
-    <div class="menuWrapper">
-        <!--[if lt IE 9]>
-        <noscript><div class="navTag"></noscript>
-        <![endif]-->
-        <nav><ul class="topCategories" data-component="editionToggler"><li class="hed">Other editions</li>
-                                                                                <li><a data-edition="uk" href="/uk/news/">United Kingdom</a></li>
-                                <li><a target="_blank" href="http://www.cnet.com.au/">Australia</a></li>
-                <li><a target="_blank" href="http://www.cnetnews.com.cn/">China</a></li>
-                <li><a target="_blank" href="http://www.cnet.fr/">France</a></li>
-                <li><a target="_blank" href="http://www.cnet.de/">Germany</a></li>
-                <li><a target="_blank" href="http://japan.cnet.com/">Japan</a></li>
-                <li><a target="_blank" href="http://www.cnet.co.kr/">Korea</a></li>
-                                                <li><a target="_blank" href="http://www.cnet.com/es/">CNET en Español</a></li>
-                            </ul></nav><!--[if lt IE 9]>
-        <noscript></div></noscript>
-        <![endif]--></div>
-</div>
-</nav></div>
-        </div>
-    </header><div id="rbSkin">
-                            <span id="adSkinLeft"></span>
-                <span id="adSkinRight"></span>
-                                                    <div id="skin-533ca50906566" class="ad-skin" data-ad="skin"></div>                                    
-                                                <div id="intromercial-533ca50906566" class="ad-intromercial" data-ad="intromercial"></div>            
-                                                
+    CW.log('window.fbAsyncInit()');
+
+    if(typeof(FB) == 'object') {
+        CW.log('FB.init()');
+        FB.init(IW.FB.params);
         
-<!--[if lt IE 9]> <noscript> <div section="topStories id="topStories" class="sectionTag" data-component='esTopStories' > </noscript> <![endif]-->
-<section section="topStories" id="topStories" data-vr-zone="main"><div section="item-1" class="asset half label" data-vr-contentbox="">
-        <a class="mainStory" href="/news/amazon-fire-tv-as-game-console-will-it-succeed-where-others-failed/"></a>
+        IW.FB.callbacks.getLoginStatus.push(CW.user.init);
+        IW.FB.callbacks.getLoginStatus.push(CW.user.handleLoginResponse);
+        IW.FB.callbacks.authResponseChange.push(CW.user.handleLoginResponse);
+        IW.FB.callbacks.authResponseChange.push(CW.newsletter.check);
 
-                    <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/04/02/e432eafb-4cbb-4852-ad8b-b13252f72604/thumbnail/1170x878/a25e287ad1d63b325cede84038ba8221/006amazonfiretv-product-photos.jpg" class="" alt=""></figure><div class="content">
-                            <div class="meta">On fire</div>
-                        <h3 class="h">Will Amazon Fire TV as game console succeed?</h3>
-            <p>Amazon's move into living-room gaming could be a big moment, or just an afterthought. Which path depends on whether Fire TV will dodge the mistakes of console alternatives of the past.</p>
+        if(typeof(getSocialsCount) == 'function') {
+            IW.FB.callbacks.getLoginStatus.push(getSocialsCount);
+        }
 
-                                                
-                    <a class="related content_gallery" href="/pictures/amazon-firetv-event-pictures/">Pictures: Fire TV's unveiling</a>
+        FB.getLoginStatus(function(response) {
+            CW.log('top level FB.getLoginStatus() callback, calling other CBs');
+            IW.FB.doCallback(response, 'getLoginStatus');
+            FB.Event.subscribe('auth.authResponseChange', function(response) {
+                IW.FB.doCallback(response, 'authResponseChange');
+            });
+        });
+
+    } else {
+        CW.log('FB is not defined');
+    }
+    
+    IW.siteName = 'Indiewire';
+    
+</script><script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3922545-4']);
+    _gaq.push(['_setDomainName', '.indiewire.com']);
+
+    
+               _gaq.push(['_setCustomVar', 3, 'Site', 'Indiewire', 3 ]);
+           _gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+<!-- START Nielsen Online Async V6.0 -->
+	<script type="text/javascript">
+	 var _nol = { pvar: { cid: "us-306011h", content: "0", server: "secure-us"
+	 } };
+	 (function () { var s = document.createElement('script');
+	 s.type = 'text/javascript';
+	 s.async = true;
+	 s.src = '//secure-us.imrworldwide.com/v60a.js';
+	 var x = document.getElementsByTagName('script')[0];
+	 x.parentNode.insertBefore(s, x); })();
+	</script>
+	<!-- END Nielsen Online Async V6.0 -->
+
+	<!-- Begin comScore Tag -->
+	<script>
+	  var _comscore = _comscore || [];
+	  _comscore.push({ c1: "2", c2: "15332233" });
+	  (function() {
+	    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	    el.parentNode.insertBefore(s, el);
+	  })();
+	</script>
+	<noscript>
+		<img
+			src="http://b.scorecardresearch.com/p?c1=2&c2=15332233&cv=2.0&cj=1" />
+	</noscript>
+	<!-- End comScore Tag -->
+
+	<!-- Google Tag Manager -->
+	<noscript>
+		<iframe src="//www.googletagmanager.com/ns.html?id=GTM-WGR7HL"
+			height="0" width="0" style="display: none; visibility: hidden"></iframe>
+	</noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WGR7HL');</script>
+	<!-- End Google Tag Manager -->
+
+<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') + 
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+	})();
+</script>
+
+<script type='text/javascript'>
+var owner = "Indiewire";
+var author = "";
+var category = "";
+var env = "localhost";
+var id = "37bac130-f201-11e0-b0ff-12313931436e";	
+</script>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script> 
+    </head>
+    <body  > 
+<div class="trendWrap clrfix">
+    <div class="trending clrfix">
+        <a class="snag" href="http://www.snagfilms.com">SnagFilms</a>
+
+        <div class="trendBar">
+            <span>Trending:</span>
+            <a href="http://www.indiewire.com/article/get-to-know-over-50-tribeca-filmmakers-ahead-of-the-2014-festival"
+                   title="">Meet the 2014 Tribeca Filmmakers</a>, &nbsp;&nbsp;<a href="http://www.indiewire.com/videos/"
+                   title="">Videos</a>, &nbsp;&nbsp;<a href="http://www.indiewire.com/tag/tribeca-film-festival"
+                   title="">Tribeca Film Festival</a></div>
+        <!-- ends trendingBar -->
+    </div>
+    <!-- end trending -->
+</div>
+<!-- end trendWrap -->
+
+
+<div id="hat">
+    <div class="hat-ad">
+        <div class="ad">
+            <script type="text/javascript">
+                if (window.adgroupid == undefined) {
+                    window.adgroupid = Math.round(Math.random() * 1000);
+                          }
+                window['adtech_adurl_' + "4d111f90-ffe4-4432-803b-e43ff7a09cf1"] = "http://adserver.adtechus.com/addyn/3.0/5182/619932/0/225/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp="
+                        + window.adgroupid + ";misc=" + new Date().getTime();
+                            document
+                        .writeln('<DIV ID="ADTECH_AdContainer_' + "4d111f90-ffe4-4432-803b-e43ff7a09cf1" + '"><IFRAME ID="ADTECH_IFRAME_' + "4d111f90-ffe4-4432-803b-e43ff7a09cf1" + '" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+            </script>
+        </div>
+        <!-- end ad -->
+    </div>
+    <!-- end hat-ad -->
+
+    <!-- interstitial ad call -->
+
+            <div id="ad-interstitial">
+                <script type="text/javascript">
+		if (window.adgroupid == undefined) {
+		       window.adgroupid = Math.round(Math.random() * 1000);
+		}
+        document.write('<scr' + 'ipt src="http://adserver.adtechus.com/addyn/3.0/5182/842660/0/16/ADTECH;loc=100;target=_blank;key=1318114940725+Indiewire;;grp=' + window.adgroupid + ';misc=' + new Date().getTime() + '"></scri' + 'pt>');
+    </script>
+<!-- end interstitial ad call -->
+            </div>
+        <!-- skin ad call -->
+            <script type="text/javascript">
+                if (window.adgroupid == undefined) {
+                    window.adgroupid = Math.round(Math.random() * 1000);
+                          }
+                window['adtech_adurl_' + "39ad52b4-1043-49a0-bb69-9479ecb98913"] = "http://adserver.adtechus.com/addyn/3.0/5182/2221508/0/16/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp="
+                        + window.adgroupid + ";misc=" + new Date().getTime();
+                            document
+                        .writeln('<DIV ID="ADTECH_AdContainer_' + "39ad52b4-1043-49a0-bb69-9479ecb98913" + '"><IFRAME ID="ADTECH_IFRAME_' + "39ad52b4-1043-49a0-bb69-9479ecb98913" + '" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+            </script>
+        <!-- end skin ad call -->
+        </div>
+<!-- end header ad -->
+<div id="masthead">
+
+    <div class="head clrfix">
+        <div class="tag">
+            <span>Celebrating 17 Years of</span>
+            <span class="motto myriad">Film.Biz.Fans.</span>
+        </div>
+        <div class="social clrfix cw-head-social">
+            <p id="todays-date" class="date"></p>
+            <div id="login" style="display: none;">
+                 <div class="loginFB" style="">
+            <div class="fb-login-button" data-show-faces="false" data-width="150" data-max-rows="1" data-scope="user_about_me,user_likes,email">Log In With Facebook</div>
+        </div>
+    </div>
+            <div id="social-links">
+            
+                <div class="fb-like" data-href="http://www.facebook.com/indiewire" 
+                            data-send="false" data-layout="button_count" data-width="90" 
+                            data-show-faces="true" data-font="lucida grande"></div>
+                <a href="/newsletter" class="email-button"></a>
+                <a class="rss" href="/rss-page"></a>
+                <a href="http://www.twitter.com/indiewire" class="twitter"></a>
+                <a href="http://www.facebook.com/indiewire" class="facebook"></a>
+                </div>
+        </div><!-- end social -->
+        <a href="/" class="logo">Indiewire</a>
+    </div> <!-- end head -->
+    
+    <div id="navWrapper" class="clrfix">
+		<ul class="primaryNav clrfix">
+			<li class="tab1 drop"><a href="/articles/?l=indiewire">News</a>
+			<ul class="dropdown">
+					<li><a href="/articles/?l=indiewire" target="_self">Recent
+							News</a></li>
+					<li><a href="/feature/interviews"
+						target="_self">Interviews</a></li>
+					<li><a href="/ipop" target="_self">Photos</a></li>
+					<li><a href="/news/acquisitions" target="_self">Acquisitions</a></li>
+					<li><a href="/box-office/"
+						target="_self">Box Office</a></li>
+					<li><a href="/category/television"
+						target="_self">Television</a></li>
+					<li><a
+						href="http://www.indiewire.com/category/indiewire-video"
+						target="_self">Video</a></li>
+				</ul></li>
+			<li class="tab2 drop"><a href="/films">MOVIES</a>
+			<ul class="dropdown">
+			        <li><a href="/box-office" target="_self">Box Office Home</a></li>
+			        <li><a href="/films?t=cs" target="_self">Coming Soon</a></li>
+			        <li><a href="/movies?t=az&amp;filter=ab0123456789" target="_self">Find a Film</a></li>
+			        <li><a href="/home-entertainment" target="_self">Home Entertainment</a></li>
+			        <li><a href="/films" target="_self">In Theaters</a></li>
+			        <li><a href="/mod" target="_self">Now Playing: Movies on Demand</a></li>
+					<li><a href="/reviews" target="_self">Reviews</a></li>
+					<li><a href="/tag/vod" target="_self">Video On Demand</a></li>
+				</ul></li>
+			<li class="tab3 drop"><a href="/category/awards">AWARDS</a>
+			<ul class="dropdown">
+			        <li><a href="/article/2014-oscar-predictions" target="_self">Predictions</a></li>
+			        <li><a href="/article/save-the-dates-heres-the-2013-14-awards-calendar" target="_self">Awards Calendar</a></li>
+			        <li><a href="/tag/for-your-consideration" target="_self">Weekly Column</a></li>
+			        <li><a href="/article/for-your-consideration-a-studio-scorecard-for-2013" target="_self">Studio Breakdown</a></li>
+				</ul></li>
+			<li class="tab4 drop"><a href="/category/television/">Television</a>
+			<ul class="dropdown" style="display: none;">
+					<li><a href="/category/television/" target="_self">All TV
+							Coverage</a></li>
+					<li><a href="/tag/tv-news"
+						target="_self">News</a></li>
+					<li><a href="/tag/tv-reviews"
+						target="_self">Reviews</a></li>
+					<li><a href="/tag/tv-features"
+						target="_self">Features</a></li>
+					<li><a href="/tag/tv-videos"
+						target="_self">Videos</a></li>
+					<li><a href="/tag/tv-interviews"
+						target="_self">Interviews</a></li>
+				</ul></li>
+			<li class="tab5 drop"><a href="http://www.indiewire.com/blogs">Blogs</a>
+			<ul class="dropdown">
+			        <li><a href="http://blogs.indiewire.com/animationscoop/"
+                        target="_self">Animation Scoop</a></li>
+					<li><a href="http://blogs.indiewire.com/peterbogdanovich/"
+						target="_self">Blogdanovich</a></li>
+					<li><a href="http://blogs.indiewire.com/bent/"
+						target="_self">/bent</a></li>
+					<li><a href="http://blogs.indiewire.com/carynjames/"
+						target="_self">Caryn James</a></li>
+					<li><a href="http://blogs.indiewire.com/boxofficeinsider/"
+						target="_self">Box Office Insider</a></li>
+					<li><a href="http://blogs.indiewire.com/criticwire/"
+						target="_self">Criticwire</a></li>
+					<li><a href="http://blogs.indiewire.com/leonardmaltin/"
+						target="_self">Leonard Maltin's Movie Crazy</a></li>
+					<li><a href="http://blogs.indiewire.com/mediamatrix/"
+                        target="_self">Media Matrix</a></li>
+					<li><a href="http://blogs.indiewire.com/theplaylist/"
+						target="_self">The Playlist</a></li>
+					<li><a href="http://blogs.indiewire.com/pressplay/"
+						target="_self">Press Play</a></li>
+					<li><a href="http://blogs.indiewire.com/anthony/"
+						target="_self">ReelPolitik</a></li>
+					<li><a href="http://blogs.indiewire.com/shadowandact/"
+						target="_self">Shadow and Act</a></li>
+					<li><a href="http://blogs.indiewire.com/sydneylevine/"
+						target="_self">SydneysBuzz</a></li>
+					<li><a href="http://blogs.indiewire.com/thompsononhollywood/"
+						target="_self">Thompson on Hollywood</a></li>
+					<li><a href="http://blogs.indiewire.com/womenandhollywood/"
+						target="_self">Women and Hollywood</a></li>
+				</ul></li>
+			<li class="tab6 drop"><a
+				href="/category/filmmaker-toolkit">Filmmaking</a>
+			     <ul class="dropdown">
+					<li><a href="/category/filmmaker-toolkit" target="_self">Filmmaker Toolkit</a></li>
+					<li><a href="/tag/project-of-the-day" target="_self">Project of the Day</a></li>
+					<li><a href="/tag/project-of-the-week" target="_self">Project of the Week</a></li>
+					<li><a href="/article/congrats-to-dear-white-people-indiewire-tribeca-film-institutes-project-of-the-year" target="_self">Project of the Year</a></li>
+				</ul>
+			</li>
+		</ul>
+		<!-- end primary Nav -->
+		<div class="navad clrfix">
+            <script type="text/javascript">
+                if (window.adgroupid == undefined) {
+                    window.adgroupid = Math.round(Math.random() * 1000);
+                          }
+                window['adtech_adurl_' + "47df933e-d0c9-4e25-b7ee-c6a8bf3938c0"] = "http://adserver.adtechus.com/addyn/3.0/5182/642747/0/3331/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp="
+                        + window.adgroupid + ";misc=" + new Date().getTime();
+                            document
+                        .writeln('<DIV ID="ADTECH_AdContainer_' + "47df933e-d0c9-4e25-b7ee-c6a8bf3938c0" + '"><IFRAME ID="ADTECH_IFRAME_' + "47df933e-d0c9-4e25-b7ee-c6a8bf3938c0" + '" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+            </script>
+        </div>
+    </div> <!-- end navWrapper -->
+
+    <div class="subNav clrfix">
+        <div class="more">more</div>
+        <ul class="clrfix">
+            <li><a href="/reviews/" target="_self">Reviews</a></li>
+            <li><a href="/box-office/" target="_self">Box Office</a></li>
+            <li><a href="/feature/interviews" target="_self">Interviews</a></li>
+            <li><a href="/category/festivals/" target="_self">Festivals</a></li>
+            <li><a href="/critic/" target="_self">Criticwire</a></li>
+            <li><a href="/tag/sundance-film-festival" target="_self">Sundance</a></li>
+            <li><a href="/videos" class="last" target="_self">Videos</a></li>
+            </ul>
+        <form class="searchBar" action="/search">
+            <input type="text" name="search" placeholder="Search" class="search-field">
+            <input class="search-btn" type="submit" value="search">
+        </form>
+    </div> <!-- end sub nav -->
+    <div class="pushdownAd">
+            <script type="text/javascript">
+                if (window.adgroupid == undefined) {
+                    window.adgroupid = Math.round(Math.random() * 1000);
+                          }
+                window['adtech_adurl_' + "8c47a89a-d80b-4271-a311-b3718e1342a2"] = "http://adserver.adtechus.com/addyn/3.0/5182/2221507/0/0/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp="
+                        + window.adgroupid + ";misc=" + new Date().getTime();
+                            document
+                        .writeln('<DIV ID="ADTECH_AdContainer_' + "8c47a89a-d80b-4271-a311-b3718e1342a2" + '"><IFRAME ID="ADTECH_IFRAME_' + "8c47a89a-d80b-4271-a311-b3718e1342a2" + '" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+            </script>
+        </div> <!-- end pushdown ad module -->
+    </div> <!-- end masthead -->
+<div id="pageWrapper"><div id="col1"><div class="category-header clrfix">
+<h1 class="page-title" style="width:250px"><span class="titleItalic">the</span> Blogs</h1>				
+	<div class="select jump">
+		<form id="frm-sorting" method="get">
+			<div class="select open">
+				<select id="slt-sort" class="ui-select jump" name="archive" style="display:none;" onchange="selectURL(this.options[this.selectedIndex].value);">
+                                        <option selected="blog" value="">a Blog</option>
                                     
-                    <a class="related content_product" href="/products/amazon-fire-tv/">Editors' take: Amazon Fire TV</a>
-                                        <div class="share" data-component="socialLinks" data-social-links-options='{"title":"Will Amazon Fire TV as game console succeed?","url":"http:\/\/www.cnet.com\/news\/amazon-fire-tv-as-game-console-will-it-succeed-where-others-failed\/","description":"Amazon\u0027s move into living-room gaming could be a big moment, or just an afterthought. Which path depends on whether Fire TV will dodge the mistakes of console alternatives of the past."}'>
-                <ul><li data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</li>
-                    <li data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</li>
-                    <li data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</li>
-                    <li data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</li>
-                </ul></div>
-        </div>
-    </div>
-    
-    
-    <div section="item-2" class="asset quarter label" data-vr-contentbox="">
-        <a class="mainStory" href="http://live.cnet.com/Event/Nokias_More_event_at_Microsoft_Build" data-vanity-rewritten="true"></a>
+					<option class="link" value="http://blogs.indiewire.com/bent/" data-value="/Bent">/Bent</option> <option class="link" value="http://blogs.indiewire.com/animationscoop/" data-value="Animation Scoop">Animation Scoop</option> <option class="link" value="http://blogs.indiewire.com/boxofficeinsider/" data-value="Box Office Insider">Box Office Insider</option> <option class="link" value="http://blogs.indiewire.com/carynjames/" data-value="Caryn James">Caryn James</option> <option class="link" value="http://blogs.indiewire.com/criticwire/" data-value="Criticwire">Criticwire</option> <option class="link" value="http://blogs.indiewire.com/kohn/" data-value="Eric Kohn">Eric Kohn</option> <option class="link" value="http://blogs.indiewire.com/tedhope/" data-value="Hope for Film">Hope for Film</option> <option class="link" value="http://www.indiewire.com/" data-value="Indiewire">Indiewire</option> <option class="link" value="http://blogs.indiewire.com/mediamatrix/" data-value="Jon Friedmans Media Matrix">Jon Friedmans Media Matrix</option> <option class="link" value="http://blogs.indiewire.com/leonardmaltin/" data-value="Leonard Maltin">Leonard Maltin</option> <option class="link" value="http://blogs.indiewire.com/peterbogdanovich/" data-value="Peter Bogdanovich">Peter Bogdanovich</option> <option class="link" value="http://blogs.indiewire.com/pressplay/" data-value="Press Play">Press Play</option> <option class="link" value="http://blogs.indiewire.com/anthony/" data-value="ReelPolitik">ReelPolitik</option> <option class="link" value="http://blogs.indiewire.com/shadowandact/" data-value="Shadow and Act">Shadow and Act</option> <option class="link" value="http://blogs.indiewire.com/sydneylevine/" data-value="SydneysBuzz">SydneysBuzz</option> <option class="link" value="http://blogs.indiewire.com/thelostboy/" data-value="The Lost Boys">The Lost Boys</option> <option class="link" value="http://blogs.indiewire.com/theplaylist/" data-value="The Playlist">The Playlist</option> <option class="link" value="http://blogs.indiewire.com/thompsononhollywood/" data-value="Thompson on Hollywood">Thompson on Hollywood</option> <option class="link" value="http://blogs.indiewire.com/womenandhollywood/" data-value="Women and Hollywood">Women and Hollywood</option> </select>
+			</div>
+		</form>                                                                      
+	</div> <!-- end select module -->
+</div> <!-- end category-header -->
+<div class="mod dynamic3">
+	<!-- Style: 3 Class: dynamic3 CMS Image Size: dynamic-lead-219x147  -->
+	<a class="prev browse left disabled">&laquo;</a>
+	<div class="scroll-hori">
+		<div class="items">
+			<ul>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/theplaylist/watch-trailer-for-american-blogger-is-the-documentary-about-blogging-america-youve-been-waiting-for-20140408"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/9bcdbae/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F39%2Fbc%2F13e2ce9a4847bf6c308e83955560%2Fresizes%2F500%2Famerican-blogger.jpg" width="219" height="147" data-size="dynamic-lead-219x147">Trailer for 'American Blogger'</a></li>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/thompsononhollywood/in-must-see-locke-tom-hardy-is-under-pressure"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/1cce278/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fb4%2Fb2%2F4c78231749c68b7e064e306d2970%2Fresizes%2F500%2Flocke.jpg" width="219" height="147" data-size="dynamic-lead-219x147">Why 'Locke' Is a Must-See</a></li>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/theplaylist/the-best-other-tv-film-performances-from-the-game-of-thrones-cast-20140408"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/915288f/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F53%2F9f%2F7dae5dc547fa9575b2cca7c9fcd4%2Fresizes%2F500%2Fgame-of-thrones-season-4-header.jpg" width="219" height="147" data-size="dynamic-lead-219x147">Best 'Game of Thrones' Performances</a></li>
+				</ul>
+				<ul>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/womenandhollywood/films-by-and-about-women"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/6def51e/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F16%2F69%2F3f631d8d4f93a03f662c555107cf%2Fresizes%2F500%2Flynn-shelton.jpg" width="219" height="147" data-size="dynamic-lead-219x147">Films By and About Women</a></li>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/theplaylist/the-25-greatest-movies-never-made-20140325"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2bb3665/2147483647/crop/638x426+42+11/resize/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd5%2F97%2F3aadeec642d5aafc07687cd67605%2Fdune-poster.jpg" width="219" height="146" data-size="dynamic-lead-219x147">The 25 Greatest Movies Never Made</a></li>
+				<li
+					>
+					<a href="http://blogs.indiewire.com/thompsononhollywood/snagfilms-snags-webby-nomination"><img src="http://www.indiewire.com/static/dims4/INDIEWIRE/fb6d064/2147483647/thumbnail/219x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F53%2F26%2Fe2a0c72a4960b87e210b7aa9d041%2Fresizes%2F500%2Fsnagfilms.jpg" width="219" height="147" data-size="dynamic-lead-219x147">SnagFilms Snags Webby Nomination</a></li>
+				</ul>
+				</div>
+	</div>
+	<a class="next browse right">&raquo;</a>
+	<div class="navi"></div>
+			</div>
+<!-- end dynamic3 -->
+<div class="recent-posts">
+            <h3>recent <span>Posts</span></h3>
+    </div> <!-- end recent posts -->
 
-                    <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/02/24/e6f4c68c-a5c4-11e3-a24e-d4ae52e62bcc/thumbnail/1170x878/40754dffa30e53d3ceb6e983b2cff75d/003BigBoothsMWC2014_hall3.jpg" class="" alt=""></figure><div class="content">
-                            <div class="meta">live blog</div>
-                        <h3 class="h">Join us for Nokia's More event at Microsoft Build</h3>
-            <p>Join CNET for live coverage of Nokia's event, which starts Wednesday at 5 p.m. PT. Our live blog will bring you news updates, photos, and running commentary.</p>
+    <div class="review">
+            <ul>
+                <li class="clrfix">
+                        
+                            <div class="info" >
 
-                                                    <div class="share" data-component="socialLinks" data-social-links-options='{"title":"Join us for Nokia\u0027s More event at Microsoft Build","url":"http:\/\/www.cnet.com\/news\/nokia-at-build-join-us-wednesday-live-blog\/","description":"Join CNET for live coverage of Nokia\u0027s event, which starts Wednesday at 5 p.m. PT. Our live blog will bring you news updates, photos, and running commentary."}'>
-                <ul><li data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</li>
-                    <li data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</li>
-                    <li data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</li>
-                    <li data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</li>
-                </ul></div>
-        </div>
-    </div>
-    
-    
-    <div section="item-3" class="asset quarter label" data-vr-contentbox="">
-        <a class="mainStory" href="/news/nadella-makes-pitch-to-microsoft-developers-stick-with-us/"></a>
+                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">Thompson on Hollywood</div></div></div></div>
+                                    <div class="comments"><span class="number">0</span> comments</div>
 
-                    <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/af0a568e-252e-4ca8-b9ae-3788ea9b842f/thumbnail/1170x878/7cdf3f0d927aa451b63759e8a5c9fb79/msftbuild-499.jpg" class="" alt=""></figure><div class="content">
-                            <div class="meta">Build 2014</div>
-                        <h3 class="h">Nadella's pitch to developers: Stick with us</h3>
-            <p>The new CEO promises developers gathered for annual Build confab in San Francisco that Microsoft can offer them the tools they need to compete in increasingly cross-platform world.</p>
+                                    </div> <!-- end info -->
+                            <div class="summary">
+                                    <h3><a href="http://blogs.indiewire.com/thompsononhollywood/dicaprio-to-join-gonzalez-inarritus-the-revenant">DiCaprio to Join Gonzalez Iñárritu's 'The Revenant' for New Regency</a></h3> 
 
-                                                
-                    <a class="related content_article" href="/news/microsoft-unveils-cortana-personal-assistant-for-windows-phone/">Cortana, the Siri of Windows Phone</a>
+                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/9d613aa/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F86%2F05b7603ee511e197b6123138165f92%2Ffile%2FLD.jpg" data-size="blog-image-207x147"><span class="byline">Anne Thompson on 
+                                        Tue Apr 15 16:29:13 EDT 2014</span>
+                                    <p>New Regency CEO Brad Weston is feeling his oats. Remember, this company took the risk of actually financing "12 Years a Slave," which was produced by Brad Pitt's Plan B and released by Fox Searchlight. This upset Paramount, which then lost Plan B to New Regency, which is housed at Twentieth Century Fox. New Regency is not only going forward with David Michod's "The Operators" as a Pitt starring vehicle, but now they've got Leonardo DiCaprio starring in Alejandro Gonzalez Iñárritu's next, "The Revenant." </p>
                                     
-                    <a class="related content_article" href="/news/chaitanya-sareen-microsofts-principal-program-manager-lead-on-windows-gets-candid-on-windows-8/">Microsoft's Sareen on Windows 8 evolution</a>
-                                        <div class="share" data-component="socialLinks" data-social-links-options='{"title":"Nadella\u0027s pitch to developers: Stick with us","url":"http:\/\/www.cnet.com\/news\/nadella-makes-pitch-to-microsoft-developers-stick-with-us\/","description":"The new CEO promises developers gathered for annual Build confab in San Francisco that Microsoft can offer them the tools they need to compete in increasingly cross-platform world."}'>
-                <ul><li data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</li>
-                    <li data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</li>
-                    <li data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</li>
-                    <li data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</li>
-                </ul></div>
-        </div>
-    </div>
-        </section><!--[if lt IE 9]> <noscript></div></noscript> <![endif]--><div id="rbContent" class="container ">
-                <div class="container">
-    <div class="row">
-                    <div class="row">
-        <div class="col-12">
+                                    <a class="more" href="http://blogs.indiewire.com/thompsononhollywood/dicaprio-to-join-gonzalez-inarritus-the-revenant">Read More &raquo;</a>
                                     
-                                            
-                                                            
-                                                                                        <div id="leader-plus-top-533ca50906566" class="ad-leader-plus-top" data-ad="leader-plus-top"></div>                                                                                                    
-                                                            
-                                                    
-        
-<!--[if lt IE 9]> <noscript> <div class="col-12 sectionTag fourFeatured"> </noscript> <![endif]-->
-<section class="col-12 fourFeatured" section="fourFeatured" data-vr-zone="sub"><a href="/news/okcupid-pulls-firefox-blocker/" class="col-3 asset" data-vr-contentbox="">
-            <div class="image">
-                                <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/25cea7af-581e-4110-83e8-1b22cc93352b/thumbnail/270x152/2ee37b96636aea6bb154d40da1b8437f/okcupid.png" class="" alt=""></figure><div class="dek">OKCupid pulls Firefox boycott letter </div>
-                                                </div>
-        </a>
-    
-    
-        <a href="/news/yahoo-apple-buses-blockaded-and-puked-on-in-oakland/" class="col-3 asset" data-vr-contentbox="">
-            <div class="image">
-                                <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/070310be-ba2e-4b02-b86f-1070b87e303c/thumbnail/270x152/99a8d30c7cecc10914d199c6856eddff/bkogiivcuaaiyuy.jpg" class="" alt=""></figure><div class="dek">Yahoo bus blockaded, puked on in Oakland </div>
-                                                </div>
-        </a>
-    
-    
-        <a href="/news/watch-global-malware-threats-proliferate-in-real-time/" class="col-3 asset" data-vr-contentbox="">
-            <div class="image">
-                                <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/d23a033d-e4a5-47d3-99a4-4bbf529bf841/thumbnail/270x152/9418a91f3a100047cb72fb392c6939d0/mapthumb.jpg" class="" alt=""></figure><div class="dek">See global cyberthreats mapped in real time </div>
-                                                </div>
-        </a>
-    
-    
-        <a href="/news/nokia-lumia-930-image-leaks-ahead-of-launch-looks-like-icon/" class="col-3 asset" data-vr-contentbox="">
-            <div class="image">
-                                <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/04/02/b331ee4a-6cc4-402b-a045-b473bb4bac56/thumbnail/270x152/45421049a7a81db2e6f3fbbefb0eefdc/nokialumia930leak.jpg" class="" alt=""></figure><div class="dek">Nokia Lumia 930 specs, image leak ahead of launch </div>
-                                                </div>
-        </a>
-        </section><!--[if lt IE 9]> <noscript></div></noscript> <![endif]--></div>
-            </div>
-                <div class="row">
-        <div class="col-12">
-                                            <div class="row">
-                                    <div class="col-2">
-                                                    
-                                                        
-                                            
-            
-<!--[if lt IE 9]> <noscript> <div class="dekTime2col essentialReads"> </noscript> <![endif]-->
-<section class="dekTime2col" section="feed" data-vr-zone="feed"><h5><span>The Feed</span></h5>
-
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/ea-apologizes-for-april-fools-prank-gone-bad/">
-                    <h3>EA apologizes for April Fools' prank gone bad</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/gaming/news/">Gaming</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/mozilla-ceo-gay-marriage-firestorm-could-hurt-firefox-cause-q-a/">
-                    <h3>Exclusive: Mozilla CEO Eich says gay-marriage firestorm could hurt Firefox</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/internet/" data-vanity-rewritten="true">Internet</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/apples-phil-schiller-samsungs-copying-makes-people-question-our-innovation/">
-                    <h3>Apple's Phil Schiller: Samsung's copying makes people 'question' our innovation</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/spotify-beautifies-with-cleaner-modern-design/">
-                    <h3>Spotify beautifies</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/internet/" data-vanity-rewritten="true">Internet</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/whatsapp-zaps-record-64-billion-messages-in-one-day/">
-                    <h3>WhatsApp zooms to record 64 billion messages in one day</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/software/news/">Software</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/filling-the-gaps-microsoft-contest-locates-new-prime-numbers/">
-                    <h3>Filling the gaps: Microsoft contest locates new prime numbers</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/computers/" data-vanity-rewritten="true">Computers</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/blackberry-breaks-ties-with-t-mobile-after-spat/">
-                    <h3>BlackBerry breaks ties with T-Mobile after spat</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/this-is-how-an-engineer-feels-when-hes-surrounded-by-idiots/">
-                    <h3>This is how an engineer feels when he's surrounded by idiots</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/firechat-takes-ephemeral-messaging-to-whole-new-level/">
-                    <h3>Don't blink! FireChat takes ephemeral messaging to whole new level</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/software/news/">Software</a>
-                                            </p>
-                            </div>
-            
-            <div data-vr-contentbox>
-                <a data-s-object-id="colnm" section="colnm" class="dek" href="/news/led-lighting-is-so-2012-lg-bets-on-an-oled-lamp/">
-                    <h3>LED lighting is so 2012: LG bets on an OLED lamp</h3>
-                </a>
-                                    <p class="topic">
-                                                                            <a href="/topics/appliances/news/">Appliances</a>
-                                            </p>
-                            </div>
-    </section><!--[if lt IE 9]> <noscript></div></noscript> <![endif]--><!--[if lt IE 9]> <noscript> <div class="sectionTag mostSharedMini" data-component="livefyreCommentcount"> </noscript> <![endif]--><section class="mostSharedMini" data-component="livefyreCommentcount"><h5>Trending on CNET</h5>
-                                                                                                                                                        
-        <div class="item first" section="mostSharedMini-facebook">
-                <div class="social-button  facebook">
-        <div class="icon icon-facebook">facebook</div>
-    </div>
-
-                            <p class="count">8.1k</p>
-                            <p class="likes">Facebook Likes</p>
-                                <a data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "mostSharedMini"}' href="/news/this-is-how-an-engineer-feels-when-hes-surrounded-by-idiots/">This is how an engineer feels when he's surrounded by idiots</a>
-        </div>
-                                                                                                                                                        
-        <div class="item " section="mostSharedMini-twitter">
-                <div class="social-button  twitter">
-        <div class="icon icon-twitter">twitter</div>
-    </div>
-
-                            <p class="count">478</p>
-                            <p class="likes">Tweets</p>
-                                <a data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "mostSharedMini"}' href="/news/meet-the-next-gen-usb-cable-that-could-sweep-away-all-others/">Meet the next-gen USB cable that could sweep away all others</a>
-        </div>
-                                                                                                                                                        
-        <div class="item " section="mostSharedMini-googleplus">
-                <div class="social-button  googleplus">
-        <div class="icon icon-googleplus">googleplus</div>
-    </div>
-
-                            <p class="count">231</p>
-                            <p class="likes">Google Plus Shares</p>
-                                <a data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "mostSharedMini"}' href="/news/nexus-10-returning-to-sale-soon-google-play-says/">Nexus 10 returning to sale 'soon', Google Play listing says</a>
-        </div>
-                                                                                                                                                                    
-        <div class="item " section="mostSharedMini-comments">
-                <div class="social-button  comments">
-        <div class="icon icon-comments">comments</div>
-    </div>
-
-                                            <p class="count">651</p>
-                            <p class="likes">Comments</p>
-                                <a data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "mostSharedMini"}' href="/news/mozilla-ceo-gay-marriage-firestorm-could-hurt-firefox-cause-q-a/">Exclusive: Mozilla CEO Eich says gay-marriage firestorm could hurt Firefox (Q&amp;A)</a>
-        </div>
-                                                    <div id="window-bottom-533ca50906566" class="ad-window-bottom" data-ad="window-bottom"></div>                </section><!--[if lt IE 9]> <noscript></div></noscript> <![endif]--></div>
-            <div class="col-6">
-                                                    
-                                                        
-                                                                                                                                                    
-                                                                                                                                                                        
-    <div class="col-6" id="fourAndOneListing" data-vr-zone="top" data-component="loadMore" data-load-more-options='{"loader":{"classes":{"loading":"loading"}},"url":"\/load-more\/xhr\/","data":{"endpoint":"\/api\/component\/listing\/4f7a32d4-91e6-4ec0-b1dc-4de1f6f43501\/content\/5b3b6ccd-0331-45c0-8d0f-c9b17d3dc44a","params":[],"view":"four_one_river","familyName":"mixed_listing","typeName":"mixed_listing","offset":15,"initialLimit":15,"colspan":6,"limit":10,"lastAssetId":"ab8de083-34b3-4637-99c4-663d0af54e6c"},"pushState":{"route":"\/news\/{page}\/","enabled":true,"currentPage":1}}'>
-        <h1>Latest News</h1>
-                
-                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost full">
-                                            
-
-<div class="assetBody video">
-    <a href="/videos/amazon-hopes-its-fire-tv-catches-on/" class="assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/b791cbf3-a1ec-422a-b9d1-2e02dfdec5db/thumbnail/570x321/6d5b00417a3d94e2c11fa53864ffa43a/14n0402amazonstill.jpg" class="" alt=""></figure></a>
-    <div class="assetText over">
-                
-        <span class="type">Video</span>
-        <a href="/videos/amazon-hopes-its-fire-tv-catches-on/" class="assetHed"><h3>Amazon hopes its Fire TV catches on</h3></a>
-        <p>Amazon is expanding the ways you can see its video content, unveiling a new streaming-video player that's similar to Roku or Apple TV. As CNET’s Kara Tsuboi reports, Amazon hopes the new device will be as successful as its Kindle in generating return customers who want to buy entertainment content.</p>
-        
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Amazon hopes its Fire TV catches on","url":"http:\/\/www.cnet.com\/videos\/amazon-hopes-its-fire-tv-catches-on\/","description":"Amazon is expanding the ways you can see its video content, unveiling a new streaming-video player that\u0027s similar to Roku or Apple TV. As CNET\u2019s Kara Tsuboi reports, Amazon hopes the new device will be as successful as its Kindle in generating return customers who want to buy entertainment content."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-    </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost small">
-                                            
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"A good BrewNanny is easy to find","url":"http:\/\/www.cnet.com\/news\/a-good-brewnanny-is-easy-to-find\/","description":"The BrewNanny Home Brew Monitor is a Kickstarter project that communicates data via Wi-Fi. Real-time results make it easy for brewers to track progress."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-                        
-
-<div class="assetBody">
-    <a href="/news/a-good-brewnanny-is-easy-to-find/" class="col-2 assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/0bcef5d1-1dfd-4ffe-a09c-142d24710d61/thumbnail/170x128/ccfdbc25dc6e308d22a6d722847a1f47/brewnanny.jpg" class="" alt=""></figure></a>
-    <div class="col-4 assetText right">
-        <span>Article /</span><span class="date"> 23 minutes ago</span>
-        <a href="/news/a-good-brewnanny-is-easy-to-find/" class="assetHed"><h3>A good BrewNanny is easy to find</h3></a>
-        <p>The BrewNanny Home Brew Monitor is a Kickstarter project that communicates data via Wi-Fi. Real-time results make it easy for brewers to track progress.</p>
-            </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                                <div id="replay-wide-top-533ca50906566" class="ad-replay-wide-top" data-ad="replay-wide-top"></div>                                                                        <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost full">
-                                            
-
-<div class="assetBody ">
-    <a href="/pictures/mireo-genius-maps-shows-promise-needs-polish-pictures/" class="assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/04/02/6b319aa5-d118-4f4e-a362-c39fc075f2fe/thumbnail/570x321/bdbab83eac90af27f99bfd49ff499b0e/geniusmapsmireo06.jpg" class="" alt=""></figure></a>
-    <div class="assetText over">
-                
-        <span class="type">Gallery</span>
-        <a href="/pictures/mireo-genius-maps-shows-promise-needs-polish-pictures/" class="assetHed"><h3>Mireo Genius Maps shows promise, needs polish (pictures)</h3></a>
-        <p>This offline navigation app for is pretty good once you're rolling, but its search interface needs a bit of streamlining.</p>
-        
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Mireo Genius Maps shows promise, needs polish (pictures)","url":"http:\/\/www.cnet.com\/pictures\/mireo-genius-maps-shows-promise-needs-polish-pictures\/","description":"This offline navigation app for is pretty good once you\u0027re rolling, but its search interface needs a bit of streamlining."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-    </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost full">
-                                            
-
-<div class="assetBody video">
-    <a href="/videos/meet-cortana-your-new-personal-assistant-from-microsoft/" class="assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/04/02/d3ac1cc0-c5fa-4946-85de-1c96a171622e/thumbnail/570x321/1408c31a038f734f45c7855fab063576/flmicrosoftcortanastill.jpg" class="" alt=""></figure></a>
-    <div class="assetText over">
-                
-        <span class="type">Video</span>
-        <a href="/videos/meet-cortana-your-new-personal-assistant-from-microsoft/" class="assetHed"><h3>Meet Cortana, your new personal assistant from Microsoft</h3></a>
-        <p>Windows Phone 8.1 introduces the latest member of the virtual assistant community. CNET's Sarah Mitroff had a chance to talk to her.</p>
-        
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Meet Cortana, your new personal assistant from Microsoft","url":"http:\/\/www.cnet.com\/videos\/meet-cortana-your-new-personal-assistant-from-microsoft\/","description":"Windows Phone 8.1 introduces the latest member of the virtual assistant community. CNET\u0027s Sarah Mitroff had a chance to talk to her."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-    </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost full">
-                                            
-
-<div class="assetBody video">
-    <a href="/videos/hands-on-with-microsofts-windows-8-1-update/" class="assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/f83bdc92-352e-4380-a894-a299ddca8be9/thumbnail/570x321/515be4424a2e8b7a90d0339e9ff1186a/flmswindows8.jpg" class="" alt=""></figure></a>
-    <div class="assetText over">
-                
-        <span class="type">Video</span>
-        <a href="/videos/hands-on-with-microsofts-windows-8-1-update/" class="assetHed"><h3>Hands-on with Microsoft Windows 8.1 Update</h3></a>
-        <p>The new update to the Windows 8 OS brings improved performance for mouse and keyboard users.</p>
-        
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Hands-on with Microsoft Windows 8.1 Update","url":"http:\/\/www.cnet.com\/videos\/hands-on-with-microsofts-windows-8-1-update\/","description":"The new update to the Windows 8 OS brings improved performance for mouse and keyboard users."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-    </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost small">
-                                            
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"See global cyberthreats mapped in real time","url":"http:\/\/www.cnet.com\/news\/watch-global-malware-threats-proliferate-in-real-time\/","description":"Where does your country rank when it comes to malware infection rates? A cool-looking but scary interactive map from Kaspersky Lab has answers."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-                        
-
-<div class="assetBody">
-    <a href="/news/watch-global-malware-threats-proliferate-in-real-time/" class="col-2 assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/d23a033d-e4a5-47d3-99a4-4bbf529bf841/thumbnail/170x128/a7950ad172d18da1c0d18b76f153c0e3/mapthumb.jpg" class="" alt=""></figure></a>
-    <div class="col-4 assetText right">
-        <span>Article /</span><span class="date"> 1 hour ago</span>
-        <a href="/news/watch-global-malware-threats-proliferate-in-real-time/" class="assetHed"><h3>See global cyberthreats mapped in real time</h3></a>
-        <p>Where does your country rank when it comes to malware infection rates? A cool-looking but scary interactive map from Kaspersky Lab has answers.</p>
-            </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                                <div id="sponsored-feed-top-533ca50906566" class="ad-sponsored-feed-top" data-ad="sponsored-feed-top"></div>                                                                        <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost full">
-                                            
-
-<div class="assetBody ">
-    <a href="/pictures/honda-accord-plug-in-a-high-tech-hot-mess-pictures/" class="assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/01/07d6caa5-1ffc-4081-b5dc-79eecdb41e76/thumbnail/570x321/64fd740b56021b293a6dd5b8470cd519/2014-honda-accord-plug-in-5691-002.jpg" class="" alt=""></figure></a>
-    <div class="assetText over">
-                
-        <span class="type">Gallery</span>
-        <a href="/pictures/honda-accord-plug-in-a-high-tech-hot-mess-pictures/" class="assetHed"><h3>Honda Accord Plug-in is a high-tech hot mess (pictures)</h3></a>
-        <p>With its modern but bland design, the Accord Plug-in attempts a high-tech coup, but merely catches up with previous efforts from Toyota and Ford.</p>
-        
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Honda Accord Plug-in is a high-tech hot mess (pictures)","url":"http:\/\/www.cnet.com\/pictures\/honda-accord-plug-in-a-high-tech-hot-mess-pictures\/","description":"With its modern but bland design, the Accord Plug-in attempts a high-tech coup, but merely catches up with previous efforts from Toyota and Ford."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-    </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost small">
-                                            
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Yahoo bus blockaded, puked on in Oakland","url":"http:\/\/www.cnet.com\/news\/yahoo-apple-buses-blockaded-and-puked-on-in-oakland\/","description":"Tech-shuttle protests appear to take a turn for the weird as a demonstrator reportedly mounts a bus and vomits down the windshield."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-                        
-
-<div class="assetBody">
-    <a href="/news/yahoo-apple-buses-blockaded-and-puked-on-in-oakland/" class="col-2 assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/070310be-ba2e-4b02-b86f-1070b87e303c/thumbnail/170x128/9185fe96d7f6417afdcfc7f72baf5b8b/bkogiivcuaaiyuy.jpg" class="" alt=""></figure></a>
-    <div class="col-4 assetText right">
-        <span>Article /</span><span class="date"> 2 hours ago</span>
-        <a href="/news/yahoo-apple-buses-blockaded-and-puked-on-in-oakland/" class="assetHed"><h3>Yahoo bus blockaded, puked on in Oakland</h3></a>
-        <p>Tech-shuttle protests appear to take a turn for the weird as a demonstrator reportedly mounts a bus and vomits down the windshield.</p>
-            </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost small">
-                                            
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Dolphin translator chirps out first word","url":"http:\/\/www.cnet.com\/news\/dolphin-language-translator-chirps-out-first-word\/","description":"Scientists working on a two-way dolphin communicator have made a breakthrough -- their device  may have translated a single whistle in real time."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-                        
-
-<div class="assetBody">
-    <a href="/news/dolphin-language-translator-chirps-out-first-word/" class="col-2 assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/04/02/1ba84e6d-cc8e-4d94-b9b7-61df60ea7313/thumbnail/170x128/1761219daa5e1eb21f33056d516bbd41/dolphin1.jpg" class="" alt=""></figure></a>
-    <div class="col-4 assetText right">
-        <span>Article /</span><span class="date"> 2 hours ago</span>
-        <a href="/news/dolphin-language-translator-chirps-out-first-word/" class="assetHed"><h3>Dolphin translator chirps out first word</h3></a>
-        <p>Scientists working on a two-way dolphin communicator have made a breakthrough -- their device  may have translated a single whistle in real time.</p>
-            </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost small">
-                                            
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"OKCupid pulls Firefox boycott letter","url":"http:\/\/www.cnet.com\/news\/okcupid-pulls-firefox-blocker\/","description":"Firefox users are no longer being urged to boycott the browser after OKCupid protested the anti-gay views expressed by Mozilla\u0027s new CEO."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-                        
-
-<div class="assetBody">
-    <a href="/news/okcupid-pulls-firefox-blocker/" class="col-2 assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/25cea7af-581e-4110-83e8-1b22cc93352b/thumbnail/170x128/bfe403f11f4b6aa7e81fcc9f8e7c8d11/okcupid.png" class="" alt=""></figure></a>
-    <div class="col-4 assetText right">
-        <span>Article /</span><span class="date"> 2 hours ago</span>
-        <a href="/news/okcupid-pulls-firefox-blocker/" class="assetHed"><h3>OKCupid pulls Firefox boycott letter</h3></a>
-        <p>Firefox users are no longer being urged to boycott the browser after OKCupid protested the anti-gay views expressed by Mozilla's new CEO.</p>
-            </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost full">
-                                            
-
-<div class="assetBody video">
-    <a href="/videos/windows-phone-8-1-offers-custom-looks-and-more/" class="assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/04/02/b72c3790-249a-48ef-a1ee-0d68d6f3ef33/thumbnail/570x321/aa1ebef3d01412d4d2f432c3e1900284/flwindowsphone81build.jpg" class="" alt=""></figure></a>
-    <div class="assetText over">
-                
-        <span class="type">Video</span>
-        <a href="/videos/windows-phone-8-1-offers-custom-looks-and-more/" class="assetHed"><h3>Windows Phone 8.1 offers custom looks and more</h3></a>
-        <p>CNET's Sarah Mitroff gets to try out some of the newest features in Microsoft's mobile OS.</p>
-        
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Windows Phone 8.1 offers custom looks and more","url":"http:\/\/www.cnet.com\/videos\/windows-phone-8-1-offers-custom-looks-and-more\/","description":"CNET\u0027s Sarah Mitroff gets to try out some of the newest features in Microsoft\u0027s mobile OS."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-    </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost small">
-                                            
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"See more than 20 results in Gmail search","url":"http:\/\/www.cnet.com\/how-to\/how-to-see-more-than-20-results-in-gmail-search\/","description":"A URL hack turned into a bookmarklet makes for more search results per page."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-                        
-
-<div class="assetBody">
-    <a href="/how-to/how-to-see-more-than-20-results-in-gmail-search/" class="col-2 assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/01/28/2d22004b-a5ca-11e3-a24e-d4ae52e62bcc/thumbnail/170x128/7ae86cbb67ccd7228d86543a9b1c6dda/Gmail_Logo.png" class="" alt=""></figure></a>
-    <div class="col-4 assetText right">
-        <span>Article /</span><span class="date"> 2 hours ago</span>
-        <a href="/how-to/how-to-see-more-than-20-results-in-gmail-search/" class="assetHed"><h3>See more than 20 results in Gmail search</h3></a>
-        <p>A URL hack turned into a bookmarklet makes for more search results per page.</p>
-            </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost small">
-                                            
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"How to clean and speed up Mac OS X Mavericks","url":"http:\/\/www.cnet.com\/how-to\/how-to-clean-and-speed-up-mac-os-x-mavericks\/","description":"Boost your Mac\u2019s performance and reclaim hard drive space with a handful of spring clean tips."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-                        
-
-<div class="assetBody">
-    <a href="/how-to/how-to-clean-and-speed-up-mac-os-x-mavericks/" class="col-2 assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2013/10/25/50c21674-573a-11e3-89ab-14feb5ca9861/thumbnail/170x128/4c6c9846801d2619b7e6bae838407b37/MavericksGlamor.png" class="" alt=""></figure></a>
-    <div class="col-4 assetText right">
-        <span>Article /</span><span class="date"> 2 hours ago</span>
-        <a href="/how-to/how-to-clean-and-speed-up-mac-os-x-mavericks/" class="assetHed"><h3>How to clean and speed up Mac OS X Mavericks</h3></a>
-        <p>Boost your Mac’s performance and reclaim hard drive space with a handful of spring clean tips.</p>
-            </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost full">
-                                            
-
-<div class="assetBody video">
-    <a href="/videos/canons-basic-rebel/" class="assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/806896ff-ff80-4acd-b464-18a3d15e4f29/thumbnail/570x321/10eeb91a504bacef734194f621f0a01c/fleosrebelt5v2.jpg" class="" alt=""></figure></a>
-    <div class="assetText over">
-                
-        <span class="type">Video</span>
-        <a href="/videos/canons-basic-rebel/" class="assetHed"><h3>Canon's basic Rebel</h3></a>
-        <p>CNET's Lexy Savvides has a look at Canon's newest entry-level DSLR, the EOS Rebel T5.</p>
-        
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"Canon\u0027s basic Rebel","url":"http:\/\/www.cnet.com\/videos\/canons-basic-rebel\/","description":"CNET\u0027s Lexy Savvides has a look at Canon\u0027s newest entry-level DSLR, the EOS Rebel T5."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-    </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                                    <div class="row" data-vr-contentbox="">
-                <div class="col-6 riverPost full">
-                                            
-
-<div class="assetBody ">
-    <a href="/pictures/windows-8-1s-new-interface-updates-photos/" class="assetThumb imageLinkWrapper">
-        <figure class=" img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/12c81e6f-11ce-4984-b515-f4a0e8aecae9/thumbnail/570x321/324eef74668cef3457d552cb98e6e890/msftbuild-windows81-5769.jpg" class="" alt=""></figure></a>
-    <div class="assetText over">
-                
-        <span class="type">Gallery</span>
-        <a href="/pictures/windows-8-1s-new-interface-updates-photos/" class="assetHed"><h3>5 big changes in the Windows 8.1 Update (pictures)</h3></a>
-        <p>The Windows 8.1 update adds significant changes to the interface that will make it easier to use on the desktop.</p>
-        
-
-
-<div class="socialSharingSmall" data-component="socialLinks" data-social-links-options='{"title":"5 big changes in the Windows 8.1 Update (pictures)","url":"http:\/\/www.cnet.com\/pictures\/windows-8-1s-new-interface-updates-photos\/","description":"The Windows 8.1 update adds significant changes to the interface that will make it easier to use on the desktop."}'>
-            <div class="singleButton" data-popup="facebook"><div class="social-button-small facebook">
-    <div class="icon icon-small-facebook">facebook</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="twitter"><div class="social-button-small twitter">
-    <div class="icon icon-small-twitter">twitter</div>
-</div>
-</div>
-        <div class="singleButton" data-popup="googleplus"><div class="social-button-small googleplus">
-    <div class="icon icon-small-googleplus">googleplus</div>
-</div>
-</div>
-        <div class="singleButton" data-link="email"><div class="social-button-small email">
-    <div class="icon icon-small-email">email</div>
-</div>
-</div>
-    </div>
-    </div>
-</div>
-                                    </div>
-            </div>
-
-                                                                    </div>
-        <div data-no-js data-load="fourAndOneListing">
-        <a class="load-more" href="/news/2/"><span class="text">Show More</span></a>
-    </div>
-                                                                    </div>
-            <div class="col-4">
-                                                    
-                                                        
-                                                                                <div id="mpu-plus-top-533ca50906566" class="ad-mpu-plus-top" data-ad="mpu-plus-top"></div>                                                                                            
-                                                        
-                                            
-        
-    
-
-<div class="productList reviewListing" section="hot" data-vr-zone="hot">
-    <h5>Hot Products</h5>
-    <ul><li data-vr-contentbox="">
-                <a class="col-1 imageLinkWrapper" href="/products/htc-one-m8/">
-                                            <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/03/18/fa89e37c-b0bd-11e3-a24e-d4ae52e62bcc/thumbnail/70x53/d452d549604af74fef0adae052edf2ed/jackrabbit_35835036-27_1.jpg" class="" alt=""></figure></a>
-                <div class="col-3 infoContainer">
-                    <div class="description">
-                                                <a class="storyTitle" href="/products/htc-one-m8/"><h4>HTC One M8</h4></a>
-                                                        <span class="dek">
-                                                                            HTC's stunning sequel steals the show
-                                                                                                                                                                                    </span>
-                                                            <span class="edRate s4h small"><span><span class="rating">4.5</span> stars</span></span>
-
-                                            </div>
-                </div>
-            </li>
-                                                        <li data-vr-contentbox="">
-                <a class="col-1 imageLinkWrapper" href="/products/roku-streaming-stick-2014/">
-                                            <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/02/27/a6d95614-a50a-11e3-a24e-d4ae52e62bcc/thumbnail/70x53/083d062db4f0572eba07e27705549f49/Roku_Streaming_Stick-21.jpg" class="" alt=""></figure></a>
-                <div class="col-3 infoContainer">
-                    <div class="description">
-                                                <a class="storyTitle" href="/products/roku-streaming-stick-2014/"><h4>Roku Streaming Stick (2014)</h4></a>
-                                                        <span class="dek">
-                                                                            Roku's new Streaming Stick takes on Chromecast: $50, HDMI-compatible, 1,200 apps (hands-on)
-                                                                                                                                                                                                        <a href="/products/roku-streaming-stick-2014/prices/" class="price">$49.00</a>
-                                                                                                            </span>
-                                                            <span class="edRate s3h small"><span><span class="rating">3.5</span> stars</span></span>
-
-                                            </div>
-                </div>
-            </li>
-                                                        <li data-vr-contentbox="">
-                <a class="col-1 imageLinkWrapper" href="/products/microsoft-office-for-ipad-ios/">
-                                            <figure class="col-1 img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/03/27/91e85b48-fb6e-4677-9c8d-62c251bf3dd9/thumbnail/70x53/01a576aa57c6df1c46c4bdf22802a25e/microsoftofficestill2.jpg" class="" alt=""></figure></a>
-                <div class="col-3 infoContainer">
-                    <div class="description">
-                                                <a class="storyTitle" href="/products/microsoft-office-for-ipad-ios/"><h4>Microsoft Office for iPad (iOS)</h4></a>
-                                                        <span class="dek">
-                                                                            Office anywhere finally makes sense
-                                                                                                                                                                                    </span>
-                                                            <span class="edRate s4h small"><span><span class="rating">4.5</span> stars</span></span>
-
-                                            </div>
-                </div>
-            </li>
-                                                        <li data-vr-contentbox="">
-                <a class="col-1 imageLinkWrapper" href="/products/neato-xv-21/">
-                                            <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/02/26/a692765a-a50a-11e3-a24e-d4ae52e62bcc/thumbnail/70x53/247257ede0ddbc3346084c79c13e3528/2Z9A2682.jpg" class="" alt=""></figure></a>
-                <div class="col-3 infoContainer">
-                    <div class="description">
-                                                <a class="storyTitle" href="/products/neato-xv-21/"><h4>Neato XV-21</h4></a>
-                                                        <span class="dek">
-                                                                            This neat little cleaner goes for the high score
-                                                                                                                                                                                                        <a href="/products/neato-xv-21/prices/" class="price">$353.57</a>
-                                                                                                            </span>
-                                                            <span class="edRate s3h small"><span><span class="rating">3.5</span> stars</span></span>
-
-                                            </div>
-                </div>
-            </li>
-                                                        <li data-vr-contentbox="">
-                <a class="col-1 imageLinkWrapper" href="/products/2014-audi-a7-3-0-tdi/">
-                                            <figure class="col-1 img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2013/12/04/b4b524e5-6791-11e3-846b-14feb5ca9861/thumbnail/70x53/7a7fa2d79b401020d5931a47ebd41c78/35833102_SS07.jpg" class="" alt=""></figure></a>
-                <div class="col-3 infoContainer">
-                    <div class="description">
-                                                <a class="storyTitle" href="/products/2014-audi-a7-3-0-tdi/"><h4>2014 Audi A7 3.0 TDI</h4></a>
-                                                        <span class="dek">
-                                                                            The best tech car
-                                                                                                                                                                                                        <a href="/products/2014-audi-a7-3-0-tdi/prices/" class="price">$66,900.00</a>
-                                                                                                            </span>
-                                                            <span class="edRate s4 small"><span><span class="rating">4</span> stars</span></span>
-
-                                            </div>
-                </div>
-            </li>
-                                                                                                                                        </ul></div>
-                                                                                    
-                                                        
-                                            <section id="activeDiscussion" data-component="livefyreCommentcount"><h5><span>Active Discussions</span></h5>
-    <ul><li>
-            <span class="col-1 comments">
-               <span class="livefyre-commentcount count" data-lf-site-id="311569" data-lf-article-id="ea693497-ed3c-4a70-a8f2-ae7580514878">0 <span>comments</span></span>
-            </span>
-            <div class="col-3">
-                <a href="http://www.cnet.com/uk/news/mozilla-ceo-gay-marriage-firestorm-could-hurt-firefox-cause-q-a/">
-                    <h4 class="articleTitle">Exclusive: Mozilla CEO Eich says gay-marriage firestorm could hurt Firefox (Q&amp;A)</h4>
-                </a>
-                <span class="meta"></span>
-            </div>
-        </li>
+                                    <div class="tags">
                                         
-                            
-        <li>
-            <span class="col-1 comments">
-               <span class="livefyre-commentcount count" data-lf-site-id="311569" data-lf-article-id="d84fab6d-414c-4664-afe3-b9fc0c01fb96">0 <span>comments</span></span>
-            </span>
-            <div class="col-3">
-                <a href="http://www.cnet.com/products/amazon-fire-tv/">
-                    <h4 class="articleTitle">Amazon Fire TV</h4>
-                </a>
-                <span class="meta"></span>
-            </div>
-        </li>
-                                        
-                            
-        <li>
-            <span class="col-1 comments">
-               <span class="livefyre-commentcount count" data-lf-site-id="311569" data-lf-article-id="64d959f7-38f1-4af6-ad12-74336d81fada">0 <span>comments</span></span>
-            </span>
-            <div class="col-3">
-                <a href="http://www.cnet.com/news/microsoft-to-release-windows-8-1-update-on-april-8-for-free/">
-                    <h4 class="articleTitle">Microsoft to release Windows 8.1 update on April 8</h4>
-                </a>
-                <span class="meta"></span>
-            </div>
-        </li>
-                                        
-                            
-        <li>
-            <span class="col-1 comments">
-               <span class="livefyre-commentcount count" data-lf-site-id="311569" data-lf-article-id="14c965d8-b1f9-4be2-9747-186f32a35be2">0 <span>comments</span></span>
-            </span>
-            <div class="col-3">
-                <a href="http://www.cnet.com/products/microsoft-cortana/">
-                    <h4 class="articleTitle">Microsoft Cortana</h4>
-                </a>
-                <span class="meta"></span>
-            </div>
-        </li>
-                                        
-                            
-        <li>
-            <span class="col-1 comments">
-               <span class="livefyre-commentcount count" data-lf-site-id="311569" data-lf-article-id="ab8de083-34b3-4637-99c4-663d0af54e6c">0 <span>comments</span></span>
-            </span>
-            <div class="col-3">
-                <a href="http://www.cnet.com/pictures/windows-8-1s-new-interface-updates-photos/">
-                    <h4 class="articleTitle">5 big changes in the Windows 8.1 Update (pictures)</h4>
-                </a>
-                <span class="meta"></span>
-            </div>
-        </li>
-        </ul></section><!--[if lt IE 9]> <noscript> <div class="sectionTag dontMissRight"> </noscript> <![endif]--><section class="dontMissRight" section="dontMissRight" data-vr-zone="more"><h5><span>Don't Miss</span></h5>
-        
-        
-        <div class="asset" data-vr-contentbox="">
-            <a href="/news/amazon-unveils-streaming-video/">
-                <div class="col-1 imageLinkWrapper">
-                        <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/03/31/7daa1a49-8f73-4b4b-8ab1-5c510900d23e/thumbnail/70x53/2c4b7c33ac91488aeb678e47cd6d4c40/large-hero-amazon-ceo-jeff-bezos.jpg" class="" alt=""></figure></div>
-                <div class="col-3 desc">
-                    <h4 class="articleTitle">Amazon unveils Amazon Fire TV for streaming video</h4>
-                                            <span class="blog">Home Entertainment</span>
-                                    </div>
-            </a>
-        </div>
-    
-        
-        <div class="asset" data-vr-contentbox="">
-            <a href="/products/windows-8-1-update/">
-                <div class="col-1 imageLinkWrapper">
-                        <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/02/13/277baf09-a380-11e3-a24e-d4ae52e62bcc/thumbnail/70x53/b20e46d8c88f9006d5a8b8d186bd5305/ht_Windows8_1TIps.jpg" class="" alt=""></figure></div>
-                <div class="col-3 desc">
-                    <h4 class="articleTitle">Windows 8.1 update fixes many common issues</h4>
-                                            <span class="blog">Operating Systems</span>
-                                    </div>
-            </a>
-        </div>
-    
-        
-        <div class="asset" data-vr-contentbox="">
-            <a href="/news/nokia-lumia-930-image-leaks-ahead-of-launch-looks-like-icon/">
-                <div class="col-1 imageLinkWrapper">
-                        <figure class="col-1 img"><img src="http://cnet4.cbsistatic.com/hub/i/r/2014/04/02/b331ee4a-6cc4-402b-a045-b473bb4bac56/thumbnail/70x53/8db38fd01ef24d718efc29f5e4d5f1b4/nokialumia930leak.jpg" class="" alt=""></figure></div>
-                <div class="col-3 desc">
-                    <h4 class="articleTitle">Nokia Lumia 930 image leaks ahead of launch, looks like Icon</h4>
-                                            <span class="blog">Phones</span>
-                                    </div>
-            </a>
-        </div>
-    
-        
-        <div class="asset" data-vr-contentbox="">
-            <a href="/news/mozilla-ceo-gay-marriage-firestorm-could-hurt-firefox-cause-q-a/">
-                <div class="col-1 imageLinkWrapper">
-                        <figure class="col-1 img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2012/02/27/88f2d209-6de8-11e3-913e-14feb5ca9861/thumbnail/70x53/61d33d83ebaf542a3e88135f4a1ba783/20120227_Brendan_Eich_Mozilla_CTO_MWC2012_001.jpg" class="" alt=""></figure></div>
-                <div class="col-3 desc">
-                    <h4 class="articleTitle">Exclusive: Mozilla CEO Eich says gay-marriage firestorm could hurt Firefox (Q&amp;A)</h4>
-                                            <span class="blog">Internet</span>
-                                    </div>
-            </a>
-        </div>
-    
-        
-        <div class="asset" data-vr-contentbox="">
-            <a href="/news/americas-first-bitcoin-atm-has-already-been-removed/">
-                <div class="col-1 imageLinkWrapper">
-                        <figure class="col-1 img"><img src="http://cnet3.cbsistatic.com/hub/i/r/2014/04/02/887a77e3-42fd-4eb5-8292-f0aa410588b0/thumbnail/70x53/7e9723fc9aa89f7431a6efe11f66f65d/bitcoin1.jpg" class="" alt=""></figure></div>
-                <div class="col-3 desc">
-                    <h4 class="articleTitle">Bitcoin ATM yanked after brief debut</h4>
-                                            <span class="blog">Tech Culture</span>
-                                    </div>
-            </a>
-        </div>
-        </section><!--[if lt IE 9]> <noscript></div></noscript> <![endif]--><div id="dynamic-showcase-top-533ca50906566" class="ad-dynamic-showcase-top" data-ad="dynamic-showcase-top"></div>                                                                                </div>
-                                </div>
-                        </div>
-            </div>
-        </div>
-</div>
-            </div>
-
-            
-                            <div id="breaking-news" data-component="breakingNews"></div>
-            
-        </div>
+                                        <span>More:</span>
+                                            <a href="http://www.indiewire.com/tag/fox-searchlight">Fox Searchlight</a>, <a href="http://www.indiewire.com/tag/twentieth-century-fox">Twentieth Century Fox</a>, <a href="http://www.indiewire.com/writer/alejandro-gonzales-inarritu">Alejandro Gonzales Inarritu</a>, <a href="http://www.indiewire.com/director/alejandro-gonzales-inarritu">Alejandro Gonzales Inarritu</a>, <a href="http://www.indiewire.com/tag/leonardo-dicaprio">Leonardo DiCaprio</a>, <a href="http://www.indiewire.com/actor/leonardo-dicaprio">Leonardo DiCaprio</a></div> <!-- end tags -->
+                            </div> <!-- end summary -->
+                    </li>
+                <li class="clrfix">
                         
-<footer id="rbFooter"><div id="footerCopyright" class="col-12">
-        <span class="copyright">© CBS Interactive Inc.  /  All rights reserved.</span>
-        <div id="legal">
-            <a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow">Privacy Policy</a>
-            <a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow">Ad Choice</a>
-            <a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow">Terms of Use</a>
-            <a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow">Mobile User Agreement</a>
+                            <div class="info" >
+
+                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">Shadow and Act</div></div></div></div>
+                                    <div class="comments"><span class="number">0</span> comments</div>
+
+                                    </div> <!-- end info -->
+                            <div class="summary">
+                                    <h3><a href="http://blogs.indiewire.com/shadowandact/go-behind-the-scenes-w-the-cast-in-new-belle-featurette">Go Behind The Scenes w/ The Cast In New 'Belle' Featurette </a></h3> 
+
+                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/d1b95b6/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F76%2Fcd%2Fccbb2ab740c7970ee5e6a0d4a92b%2Fresizes%2F500%2Fbelle-pic.jpg" width="207" height="147" data-size="blog-image-207x147"><span class="byline">Tambay A. Obenson on 
+                                        Tue Apr 15 16:28:01 EDT 2014</span>
+                                    <p>Go Behind The Scenes w/ The Cast In New 'Belle' Featurette </p>
+                                    
+                                    <a class="more" href="http://blogs.indiewire.com/shadowandact/go-behind-the-scenes-w-the-cast-in-new-belle-featurette">Read More &raquo;</a>
+                                    
+                                    <div class="tags">
+                                        
+                                        <span>More:</span>
+                                            <a href="http://www.indiewire.com/director/amma-asante">Amma Asante</a>, <a href="http://www.indiewire.com/actor/gugu-mbatha-raw">Gugu Mbatha-Raw</a></div> <!-- end tags -->
+                            </div> <!-- end summary -->
+                    </li>
+                <li class="clrfix">
+                        
+                            <div class="info" >
+
+                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">The Playlist</div></div></div></div>
+                                    <div class="comments"><span class="number">0</span> comments</div>
+
+                                    </div> <!-- end info -->
+                            <div class="summary">
+                                    <h3><a href="http://blogs.indiewire.com/theplaylist/i-was-never-good-enough-as-bond-says-pierce-brosnan-20140415">"I Was Never Good Enough As Bond" Says Pierce Brosnan</a></h3> 
+
+                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2d6dbc5/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fc4%2F47%2F1e0d541a4969ac9d159992314b60%2Fresizes%2F500%2Fgoldeneye-pierce-brosnan.jpg" width="207" height="147" alt="GoldenEye Pierce Brosnan" data-size="blog-image-207x147"><span class="byline">Ben Brock on 
+                                        Tue Apr 15 16:22:22 EDT 2014</span>
+                                    <p>If it was a surprise to Pierce Brosnan to realise he was 60, it's certainly a shock to the rest of us. But apparently it was, and he is: “The next morning all the birthday cards were there and there was one in the middle that said 60. Just that number alone…”</p>
+                                    
+                                    <a class="more" href="http://blogs.indiewire.com/theplaylist/i-was-never-good-enough-as-bond-says-pierce-brosnan-20140415">Read More &raquo;</a>
+                                    
+                                    <div class="tags">
+                                        
+                                        <span>More:</span>
+                                            <a href="http://www.indiewire.com/actor/pierce-brosnan">Pierce Brosnan</a>, <a href="http://www.indiewire.com/tag/james-bond">James Bond</a></div> <!-- end tags -->
+                            </div> <!-- end summary -->
+                    </li>
+                <li class="clrfix">
+                        
+                            <div class="info" >
+
+                                    <div class="source-arrow"><div class="outer"><div class="inner"><div class="element">Thompson on Hollywood</div></div></div></div>
+                                    <div class="comments"><span class="number">0</span> comments</div>
+
+                                    </div> <!-- end info -->
+                            <div class="summary">
+                                    <h3><a href="http://blogs.indiewire.com/thompsononhollywood/telluride-film-festival-announces-call-for-entries">Telluride Film Festival Now Open for Entries</a></h3> 
+
+                                    <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/d6a8f7c/2147483647/thumbnail/207x147/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F66%2F42be70899811e1bcc4123138165f92%2Ffile%2Fslideshow_1.jpg" width="207" height="147" data-size="blog-image-207x147"><span class="byline">Ryan Lattanzio on 
+                                        Tue Apr 15 16:21:58 EDT 2014</span>
+                                    <p>The Telluride Film Festival is a must-attend cinema celebration that unspools over one long weekend in the mountains of Colorado. Now in its 41st year, the fest has officially announced its call for entries in all categories including student, short and feature-length films.</p>
+                                    
+                                    <a class="more" href="http://blogs.indiewire.com/thompsononhollywood/telluride-film-festival-announces-call-for-entries">Read More &raquo;</a>
+                                    
+                                    <div class="tags">
+                                        
+                                        <span>More:</span>
+                                            <a href="http://www.indiewire.com/tag/telluride-film-festival">Telluride Film Festival</a>, <a href="http://www.indiewire.com/tag/telluride">Telluride</a>, <a href="http://www.indiewire.com/category/festivals">Festivals</a></div> <!-- end tags -->
+                            </div> <!-- end summary -->
+                    </li>
+                </ul>
+    </div> <!-- end review module -->
+
+    <div class="see-all-recent-posts">
+                    <h3><a href="http://www.indiewire.com/blogs?show=all">See all recent posts <span>&raquo;</span></a></h3>
+            </div> <!-- end see all recent posts -->
+        <div class="the-network">
+            <h3>the <span>Network</span></h3>
+            <ul>
+
+                <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/animationscoop/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/b83e8bb/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F14%2F91%2F9618e14a41cead40e0aa170da092%2Fanimation-scoop-medlogo-sized.jpg" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/animationscoop/">Animation Scoop</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/animationscoop/email">Email</a></li>
+                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=Animation%20Scoop" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/animationscoop/immersed-in-movies-sergio-mendes-talks-rio-2">&raquo; Immersed in Movies: Sergio Mendes Talks Music In "Rio 2"</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/animationscoop/dvd-review-mr-magoo-theatrical-collection">&raquo; DVD REVIEW: "Mr. Magoo Theatrical Collection"</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/animationscoop/trailer-how-to-train-your-dragon-2-3">&raquo; TRAILER: "How To Train Your Dragon 2" #3</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/carynjames/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/77f4939/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F5f%2Ff38430ef5811e0927c12313931436e%2Ffile%2Fjames_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/carynjames/">Caryn James</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/carynjames/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/carynjames" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/carynjames/madmenseason7">&raquo; 'Mad Men' Preview: The Sense of an Ending</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/carynjames/onlyloversleft">&raquo; To Die For: Swinton and Hiddleston in Jarmusch's 'Only Lovers Left Alive'</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/carynjames/finding-vivian-maier">&raquo; The Emily Dickinson of Photographs or the Anti-Mary Poppins? 'Finding Vivian Maier'</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/criticwire/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/459b342/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd0%2Fc38b21633811e19987123138165f92%2Ffile%2Fcriticwire_medlogo_IWBLUE.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/criticwire/">Criticwire</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/criticwire/email">Email</a></li>
+                                            <li><a class="rss" href="http://feeds.feedburner.com/Criticwire" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/criticwire/fargo-fx-reviews">&raquo; With Billy Bob Thornton and  Martin Freeman, FX's "Fargo" Makes a Surprisingly Smooth Transition to the Small Screen</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/criticwire/amy-schumers-the-foodroom-deep-fries-aaron-sorkin">&raquo; Amy Schumer's "The Foodroom" Deep-Fries Aaron Sorkin</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/criticwire/criticwire-survey-spoiler-alert">&raquo; Criticwire Survey: Spoiler Alert</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/mediamatrix/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/55e62e9/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F7f%2Fb6%2Fc26700564cbb8508643bff9af685%2Fmediamatrix-medlogo.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/mediamatrix/">Jon Friedmans Media Matrix</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/mediamatrix/email">Email</a></li>
+                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=Jon%20Friedman's%20Media%20Matrix" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/mediamatrix/was-cbs-moonves-spooked-by-his-ill-fated-katie-couric-decision">&raquo; Was CBS' Moonves Spooked By The Katie Couric Decision? </a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/mediamatrix/cbs-moonves-picks-colbert-and-makes-the-smart-call">&raquo; CBS' Moonves Picks Colbert And Makes The Smart Call</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/mediamatrix/investors-business-daily-at-30-an-unlikely-success-story">&raquo; Investors Business Daily at 30: An Unlikely Success Story</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/leonardmaltin/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/5d39496/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F89%2F522f20ef5811e0927c12313931436e%2Ffile%2Fleonard-logo-small.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/leonardmaltin/">Leonard Maltin</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/leonardmaltin/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/leonardmaltin" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/draft-day">&raquo; Draft Day</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/joe">&raquo; Joe</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/leonardmaltin/only-lovers-left-alive">&raquo; Only Lovers Left Alive</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/pressplay/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/f5e93cc/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fe7%2F44ef50ef5811e0927c12313931436e%2Ffile%2FScreen%20shot%202011-10-26%20at%202.44.03%20PM.png" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/pressplay/">Press Play</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/pressplay" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/pressplay/an-interview-with-waleed-zuaiter">&raquo; Waleed Zuaiter Discusses Producing and Starring In OMAR</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/pressplay/video-essay-lars-von-trier-cinemas-dancer-in-the-dark">&raquo; VIDEO ESSAY: Lars Von Trier: Cinema's Dancer in the Dark</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/pressplay/metamericana-is-james-franco-a-creep-thank-god-well-never-know">&raquo; METAMERICANA: Is James Franco a Creep? Thank God We'll Never Know</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/peterbogdanovich/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/84ee1ed/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fc6%2Fcfe9f0ef5811e0927c12313931436e%2Ffile%2Fbogdanovich-banner3.png" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/peterbogdanovich/">Peter Bogdanovich</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/peterbogdanovich" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/they-rode-with-the-duke">&raquo; 'They Rode with the Duke'</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/the-cukor-file-part-5">&raquo; The George Cukor File - Part 5</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/peterbogdanovich/00000143-5a25-d395-a377-7e6faa680000">&raquo; The George Cukor File - Part 4</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/anthony/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/371ad45/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fff%2F6558a0ef5711e0927c12313931436e%2Ffile%2Freelpolitik_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/anthony/">ReelPolitik</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/anthony" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/anthony/why-a-1950s-egyptian-film-is-more-relevant-than-ever">&raquo; Why a 1950s Egyptian Film Is More Relevant than Ever</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/anthony/exploiting-vivian-maier-when-do-docs-invade-privacy">&raquo; Exploiting Vivian Maier: When Do Docs Invade Privacy? </a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/anthony/what-sergei-loznitsas-my-joy-tells-us-about-the-current-crisis-in-ukraine">&raquo; What Sergei Loznitsa's "My Joy" Tells Us About the Current Crisis in Ukraine  </a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/shadowandact/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/da30eb3/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F2e%2F9e9ef0ef5911e0927c12313931436e%2Ffile%2Fshadowact_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/shadowandact/">Shadow and Act</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/shadowandact/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/shadowandact" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/shadowandact/go-behind-the-scenes-w-the-cast-in-new-belle-featurette">&raquo; Go Behind The Scenes w/ The Cast In New 'Belle' Featurette </a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/shadowandact/artmattan-pick-up-amir-ramses-award-winning-controversial-doc-jews-of-egypt-now-available-on-vod">&raquo; ArtMattan Pick-Up Amir Ramses' Award-Winning Controversial Doc 'Jews Of Egypt' Now Available On VOD. See It!</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/shadowandact/don-cornelius-his-soul-train-are-heading-to-broadway-as-a-musical-from-rock-of-ages-producer">&raquo; Don Cornelius & His 'Soul Train' Are Heading To Broadway As A Musical From 'Rock Of Ages' Producer</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/sydneylevine/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/a4cacb1/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F76%2F73c020ef5911e0927c12313931436e%2Ffile%2Fsydney_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/sydneylevine/">SydneysBuzz</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/sydneylevine/email">Email</a></li>
+                                            <li><a class="rss" href="http://www.indiewire.com/rss/rssFeed.jsp?site=SydneysBuzz" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/sydneylevine/jews-in-the-news-totally-absurd-international-film-business-jews-in-the-news-absolutely-modern-philippe-mora">&raquo; Jews in the News: Totally Absurd! </a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/sydneylevine/latino-buzz-march-is-the-month-of-latino-networking-around-the-world">&raquo; Latino Buzz: March was the Month of Latino Networking Around the World</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/sydneylevine/four-americans-who-are-making-colombian-films-international-film-business">&raquo; Cartagena Film Festival: Chris Gude, One of Four Americans Who are Making Colombian Films </a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/theplaylist/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/2273fbe/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fcc%2Fa13680ef5911e0927c12313931436e%2Ffile%2Fplaylist_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/theplaylist/">The Playlist</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/theplaylist/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/theplaylist" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/theplaylist/i-was-never-good-enough-as-bond-says-pierce-brosnan-20140415">&raquo; "I Was Never Good Enough As Bond" Says Pierce Brosnan</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/theplaylist/chloe-moretz-rides-the-5th-wave-short-term-12-star-keith-stanfield-joins-mlk-drama-selma-more-20140415">&raquo; Chloe Moretz Rides 'The 5th Wave,' 'Short Term 12' Star Keith Stanfield Joins MLK Drama 'Selma' & More</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/theplaylist/watch-more-michael-caine-impressions-in-2-clips-from-the-trip-to-italy-with-steve-coogan-rob-brydon-20140415">&raquo; Watch: More Michael Caine Impressions In 2 Clips From 'The Trip To Italy' With Steve Coogan & Rob Brydon</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/thompsononhollywood/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/c0ad249/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2Fd8%2Fc6d700eec611e0ad0512313931436e%2Ffile%2F276478_128392760512326_6008885_n.jpeg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/thompsononhollywood/">Thompson on Hollywood</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/thompsononhollywood/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/thompsononhollywood" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/dicaprio-to-join-gonzalez-inarritus-the-revenant">&raquo; DiCaprio to Join Gonzalez Iñárritu's 'The Revenant' for New Regency</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/telluride-film-festival-announces-call-for-entries">&raquo; Telluride Film Festival Now Open for Entries</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/thompsononhollywood/the-homesman-trailer-tommy-lee-jones">&raquo; WATCH: Tommy Lee Jones Returns to the Director's Chair in First Trailer for 'The Homesman'</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    <li class="clrfix">
+                            <div class="image">
+                                <a href="http://blogs.indiewire.com/womenandhollywood/">
+                                        <img src="http://www.indiewire.com/static/dims4/INDIEWIRE/bf3f7c2/2147483647/thumbnail/162x69/?url=http%3A%2F%2Fd1oi7t5trwfj5d.cloudfront.net%2F9b%2F4a6b30f3e911e0b6b212313931436e%2Ffile%2Fwomenhollywood_banner.jpg" width="162" height="69" data-size="blog-medium-logo-162x69"></a>
+                                </div> <!-- end image -->
+                            <div class="info">
+                                    <h4><a href="http://blogs.indiewire.com/womenandhollywood/">Women and Hollywood</a></h4>
+                                    <span class="social" >
+                                        <ul>
+                                            
+                                            <li><a class="subscribe" href="http://blogs.indiewire.com/womenandhollywood/email">Email</a></li>
+                                            <li><a class="rss" href="http://fb.indiewire.com/indiewire/womenandhollywood" title="Sign Up">Subscribe</a></li>
+                                            </ul>    
+                                        
+                                    </span><!-- end social -->
+                                                 
+                                    <ul style="padding-top:5px;">
+                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/rebecca-zlowtowski-to-head-two-cannes-juries-during-critics-week">&raquo; Rebecca Zlowtowski to Head Two Cannes Juries During Critics' Week</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/donna-tartt-annie-baker-win-pulitzers">&raquo; Donna Tartt, Annie Baker Win Pulitzers</a></li>                                            
+                                        <li><a href="http://blogs.indiewire.com/womenandhollywood/tribeca-women-directors-meet-sofia-norlin-broken-hill-blues">&raquo; Tribeca Women Directors: Meet Sofia Norlin (Broken Hill Blues)</a></li>                                            
+                                        </ul>							
+                            </div> <!-- end info -->
+                    </li>
+                    
+                    </ul>
+    </div> <!-- end the network -->
+    
+</div> <!-- col1 --><div id="col2"><div class="mod rr-300x250-ad">
+    <script type="text/javascript">
+                if (window.adgroupid == undefined) {
+                    window.adgroupid = Math.round(Math.random() * 1000);
+                          }
+                window['adtech_adurl_' + "9c66d0e1-5048-4b37-8466-bf9639da34b6"] = "http://adserver.adtechus.com/addyn/3.0/5182/619934/0/170/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp="
+                        + window.adgroupid + ";misc=" + new Date().getTime();
+                            document
+                        .writeln('<DIV ID="ADTECH_AdContainer_' + "9c66d0e1-5048-4b37-8466-bf9639da34b6" + '"><IFRAME ID="ADTECH_IFRAME_' + "9c66d0e1-5048-4b37-8466-bf9639da34b6" + '" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+            </script>
+        </div> <!-- end mod rr-300x250-ad -->
+<script type="text/javascript">
+    jQuery(function() {
+        var url = window.location.href.split("#")[0].split("?")[0];
+        var successRedirect = url+'?nl_success=true';
+        var errorRedirect = url+'?nl_success=false';
+        jQuery('input[name=redirect]').val(successRedirect);
+        jQuery('input[name=errorredirect]').val(errorRedirect);
+    });
+</script>
+<div class="mod newsletter clrfix">
+    <a name="nlform"></a>
+    <h3><img src="http://d1oi7t5trwfj5d.cloudfront.net/resource/sprites/small-indie-logo.0159f9e9dd30abcabd13426bc2c13fe4.jpg" alt="Indiewire" /> <span>Newsletters</span></h3>
+    <hr/>
+    <form id="sign-up" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" accept-charset="UTF-8" >
+            <div class="checkwrap">
+                <input type="checkbox" id="listid:18151" name="listid:18151" checked="checked" />
+                <label for="listid:18151">Indiewire Today</label>
+            </div>
+            <div class="checkwrap">
+                <input type="checkbox" id="listid:18667" name="listid:18667"/>
+                <label for="listid:18667">News Alerts</label>
+            </div>
+                <input type="text" name="fields_email" placeholder="Email" class="email" />
+            <input class="blue-btn" type="submit" value="subscribe" name="Submit" />
+                <input type="hidden" name="redirect" value="" />
+            <input type="hidden" name="errorredirect" value="" />
+            <input type="hidden" name="listid" value="__multi" />
+            <input type="hidden" name="lists" value="18151:18667" />
+            <input type="hidden" name="specialid:18151" value="0RJP" />
+            <input type="hidden" name="specialid:18667" value="CB1B" />
+            <input type="hidden" name="clientid" value="736567" />
+            <input type="hidden" name="formid" value="1364" />
+            <input type="hidden" name="reallistid" value="1" />
+            <input type="hidden" name="doubleopt" value="0" />
+            <input type="hidden" name="fields_guid" value="10d036c7-009d-44a9-ad9b-c7d1916a4104">
+        </form>
+    </div> <!-- end newsletter --><div class="mod rr-300x600-ad clrfix">
+    <script type="text/javascript">
+                if (window.adgroupid == undefined) {
+                    window.adgroupid = Math.round(Math.random() * 1000);
+                          }
+                window['adtech_adurl_' + "c441d48d-3b1f-4a60-ae9c-d504eda0d4dc"] = "http://adserver.adtechus.com/addyn/3.0/5182/1042863//0/529/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp="
+                        + window.adgroupid + ";misc=" + new Date().getTime();
+                            document
+                        .writeln('<DIV ID="ADTECH_AdContainer_' + "c441d48d-3b1f-4a60-ae9c-d504eda0d4dc" + '"><IFRAME ID="ADTECH_IFRAME_' + "c441d48d-3b1f-4a60-ae9c-d504eda0d4dc" + '" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+            </script>
+        </div> <!-- end 300x600 ad -->
+<div class="mod facebook clrfix">
+        <h3><img alt="Indiewire" src="http://d1oi7t5trwfj5d.cloudfront.net/resource/sprites/small-indie-logo.0159f9e9dd30abcabd13426bc2c13fe4.jpg" /> on <span>facebook</span></h3>
+            <hr />
+        <div class="fb-like-box" data-href="http://www.facebook.com/indiewire" data-border-color="#FFFFFF" data-width="300" data-height="260" data-show-faces="true" data-stream="false" data-header="false"></div>
+
+    </div> <!-- end facebook -->
+
+<div class="mod sf-films-widget vertical"></div><script src="http://v.snagfilms.com/js/widget-0.1.6.min.js"></script> </div> <!-- col2 -->		<div class="F6 clrfix"> 		</div> <!-- end F6 --></div> <!-- end pageWrapper --><div class="footer-ad">
+    <div class="ad">
+        <script type="text/javascript">
+                if (window.adgroupid == undefined) {
+                    window.adgroupid = Math.round(Math.random() * 1000);
+                          }
+                window['adtech_adurl_' + "c1151072-485c-4973-a5ab-d45b0c1721f8"] = "http://adserver.adtechus.com/addyn/3.0/5182/619933/0/225/ADTECH;loc=100;target=_blank;key=37bac130-f201-11e0-b0ff-12313931436e+Indiewire;;grp="
+                        + window.adgroupid + ";misc=" + new Date().getTime();
+                            document
+                        .writeln('<DIV ID="ADTECH_AdContainer_' + "c1151072-485c-4973-a5ab-d45b0c1721f8" + '"><IFRAME ID="ADTECH_IFRAME_' + "c1151072-485c-4973-a5ab-d45b0c1721f8" + '" FRAMEBORDER="0" STYLE="display:block;width: 0px; height: 0px;" SRC="/adtech/stubfile.jsp"></IFRAME></DIV>');
+            </script>
         </div>
-    </div>
+</div> <!-- end footer ad -->
 
-    <div class="container">
-                                            <div id="dynamic-text-link-top-533ca50906566" class="ad-dynamic-text-link-top" data-ad="dynamic-text-link-top"></div>                </div>
+<div class="footWrap">
+  <div class="footer clrfix">
+    <div class="network clrfix">
+            <h3>the network</h3>
+            <div class="content clrfix">
+                <ul>
+                    <li><a href="http://blogs.indiewire.com/animationscoop/">Animation Scoop</a></li>
+                    <li><a href="http://blogs.indiewire.com/carynjames/">Caryn James</a></li>
+                    <li><a href="http://blogs.indiewire.com/criticwire/">Criticwire</a></li>
+	                <li><a href="http://blogs.indiewire.com/leonardmaltin/">Leonard Maltin</a></li>
+	                <li><a href="http://blogs.indiewire.com/mediamatrix/">Media Matrix</a></li>
+	             </ul>
+	             <ul>
+                    <li><a href="http://blogs.indiewire.com/peterbogdanovich/">Peter Bogdanovich</a></li>
+                    <li><a href="http://blogs.indiewire.com/theplaylist/">The Playlist</a></li>
+                    <li><a href="http://blogs.indiewire.com/pressplay/">Press Play</a></li>
+                    <li><a href="http://blogs.indiewire.com/anthony/">ReelPolitik</a></li>
+	             </ul>
+	             <ul>
+	                <li><a href="http://blogs.indiewire.com/shadowandact/">Shadow and Act</a></li>
+	                <li><a href="http://blogs.indiewire.com/sydneylevine/">Sydney Levine</a></li>
+	                <li><a href="http://blogs.indiewire.com/thompsononhollywood/">Thompson on Hollywood</a></li>
+	                <li><a href="http://blogs.indiewire.com/womenandhollywood/">Women and Hollywood</a></li>
+	             </ul>
+                </div> <!-- end content -->
+        </div> <!-- end left -->
+        <div class="indi-cats">
+            <div class="indie">
+                <h3>indiewire</h3>
+                <ul>
+                    <li><a href="http://www.indiewire.com/sitemap">Sitemap</a></li>
+                    <li><a href="http://www.indiewire.com/about">About</a></li>
+                    <li><a href="http://www.indiewire.com/team">Team</a></li>
+                    <li><a href="http://www.indiewire.com/advertise">Advertise</a></li>
+                    <li><a href="http://www.indiewire.com/indiewire-jobs">Indiewire Jobs </a></li>
+                    <li><a href="http://www.indiewire.com/privacy">Privacy</a></li>
+                    <li><a href="http://www.indiewire.com/legal">Terms of Service</a></li>
+                </ul>
+            </div> <!-- end indi -->
+            <div class="cats">
+                <h3>categories</h3>
+                <ul>
+                    <li><a href="http://www.indiewire.com/category/news">News  </a></li>                                                
+                    <li><a href="http://www.indiewire.com/reviews/">Reviews</a></li>                                                
+                    <li><a href="http://www.indiewire.com/category/awards">Awards</a></li>                                                
+                    <li><a href="http://www.indiewire.com/category/festivals">Festivals</a></li>                                                
+                    <li><a href="http://www.indiewire.com/box-office/">Box Office</a></li>                                                
+                    <li><a href="http://www.indiewire.com/category/filmmaker-toolkit">Filmmaker Toolkit</a></li>                                                
+                    </ul>
+            </div> <!-- end cats -->
+        </div> <!-- end indi cats -->
+        <ul class="about clrfix">
+            <li><a class="last" href="mailto:editors@indiewire.com">editors@indiewire.com</a></li>
+        </ul>
+    </div> <!-- end footer -->
+</div><script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery-ui-1.8.16.custom.min.5bd48ba2b4001b7b6b42b8472e32044a.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.eTruncate.min.2aa49af55e4b4fee51fb7ab512ada704.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.scrollTo.min.489552866960332676eed62725796b5a.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.placeholder.min.c61f42af124c56a36f959bc9b3ad9859.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/poll.bdd2098f79e1f5eacdeff019808ef801.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/lib/jquery.tablesorter.min.70d9c2758b1ccbce4ce4e8b0817b08db.js"></script>
+<script src="http://d1oi7t5trwfj5d.cloudfront.net/resource/js/init.4385a66bf89b5dddbd938408a4334e72.js"></script>
 
-    <nav id="footerMap" class="container"><ul class="col-2 first"><li><a href="/">cnet</a></li>
-        </ul><ul class="col-2"><li class="section">Reviews</li>
-            <li><a href="/reviews/">All Reviews</a></li>
-            <li><a href="/topics/audio/">Audio</a></li>
-            <li><a href="/topics/cameras/">Cameras</a></li>
-            <li><a href="/topics/car-tech/">Car Tech</a></li>
-            <li><a href="/topics/desktops/">Desktops</a></li>
-            <li><a href="/topics/laptops/">Laptops</a></li>
-            <li><a href="/topics/phones/">Phones</a></li>
-            <li><a href="/topics/tablets/">Tablets</a></li>
-            <li><a href="/topics/tvs/">TVs</a></li>
-        </ul><ul class="col-2"><li class="section">News</li>
-            <li><a href="/news/">All News</a></li>
-            <li><a href="/apple/" data-vanity-rewritten="true">Apple</a></li>
-            <li><a href="/crave/" data-vanity-rewritten="true">Crave</a></li>
-            <li><a href="/topics/internet/" data-vanity-rewritten="true">Internet</a></li>
-            <li><a href="/tags/microsoft/">Microsoft</a></li>
-            <li><a href="/topics/mobile/" data-vanity-rewritten="true">Mobile</a></li>
-            <li><a href="/topics/sci-tech/" data-vanity-rewritten="true">Sci-Tech</a></li>
-            <li><a href="/topics/security/" data-vanity-rewritten="true">Security</a></li>
-            <li><a href="/topics/tech-industry/" data-vanity-rewritten="true">Tech Industry</a></li>
-        </ul><ul class="col-2"><li class="section">Video</li>
-            <li><a href="/videos/">All Videos</a></li>
-            <li><a href="/apple-byte/" data-vanity-rewritten="true">Apple Byte</a></li>
-            <li><a href="/cnet-on-cars/" data-vanity-rewritten="true">CNET On Cars</a></li>
-            <li><a href="/cnet-top-5/" data-vanity-rewritten="true">CNET Top 5</a></li>
-            <li><a href="/cnet-update/" data-vanity-rewritten="true">CNET Update</a></li>
-            <li><a href="/next-big-thing/" data-vanity-rewritten="true">Next Big Thing</a></li>
-            <li><a href="/the-404/" data-vanity-rewritten="true">The 404</a></li>
-            <li><a href="/the-fix/" data-vanity-rewritten="true">The Fix</a></li>
-            <li><a href="/xcar/" data-vanity-rewritten="true">XCAR</a></li>
-        </ul><ul class="col-2" data-component="mobileFooterLink"><li class="section">More</li>
-            <li><a href="http://www.cbsinteractive.com/">About CBS Interactive</a></li>
-            <li><a href="/about/" data-vanity-rewritten="true">About CNET</a></li>
-            <li><a href="/cnet100/">CNET 100</a></li>
-                            <li><a href="/deals/">CNET Deals</a></li>
-                        <li><a href="http://forums.cnet.com/">CNET Forums</a></li>
-            <li><a href="/apps/">CNET Mobile</a></li>
-                        <li><a href="/corrections/" data-vanity-rewritten="true">Corrections</a></li>
-            <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome">Help Center</a></li>
-            <li><a href="http://reprints.ygsgroup.com/m/cnet/">Permissions</a></li>
-        </ul><ul class="col-2 last"><li class="section">Follow CNET via...</li>
-            <li><a href="http://www.facebook.com/cnet" class="social-core-facebook">Facebook</a></li>
-            <li><a href="http://twitter.com/cnet" class="social-core-twitter">Twitter</a></li>
-            <li><a href="https://plus.google.com/u/0/105198124856956810263/posts" class="social-core-google">Google+</a></li>
-            <li><a href="http://www.youtube.com/user/CNETTV" class="social-core-youtube">YouTube</a></li>
-            <li><a href="http://www.linkedin.com/today/news.cnet.com" class="social-core-linkedin">LinkedIn</a></li>
-            <li><a href="http://cnet.tumblr.com/" class="social-core-tumblr">Tumblr</a></li>
-            <li><a href="http://pinterest.com/cnet" class="social-core-pinterest">Pinterest</a></li>
-            <li><a href="/profiles/" class="social-core-newsletters">Newsletters</a></li>
-            <li><a href="/rss/" class="social-core-rss" data-vanity-rewritten="true">RSS</a></li>
-        </ul></nav></footer><!--Visual Revenue Reader Response Tracking Script (v6) --><script type="text/javascript">
-	function vr_init() {
-		$('.load-more').trigger('click');
-	}
+<script type="text/javascript">
+    function showAccountInfo() {
+        FB.api(
+            {
+                method: 'fql.query',
+                query: 'SELECT name, pic FROM user WHERE uid=' + FB.getUserID()
+            },
+            function(response) {
+                $('#account-info').html('<img src="' + response[0].pic + '" style="height: 30px;">');
+            }
+        );
+    }
+
+
+    function fbLoginStatus(response) {
+        CW.log('fbLoginStatus()' , response);
+        if (response.status == "connected") {
+            showAccountInfo();
+        } else {
+            //user is not logged in, display guest div
+
+            document.cookie = 'fbsr_132443425037 = ; expires=Thu, 01-Jan-70 00:00:01 GMT; path=/; domain=.indiewire.com';
+            refreshNav();
+        }
+    }
+    
+    function refreshNav(cb) {
+        $('#login').load('/ajax/loginSmall.jsp?_=' + (new Date()).getTime(),
+            $.proxy(function() {
+                FB.XFBML.parse($('#login').get()[0], function(){
+                	var iframe = $('iframe','#login').get()[0];
+                	if(iframe){
+                		iframe.src = iframe.src;
+                	}
+                	setTimeout(function(){
+                		$('#login').show();
+                	}, 500);
+                });
+                
+            }, cb)
+        );
+    }
+    
+    function iContactSignup() {
+        if(typeof(CW) == 'object') {
+            CW.log('iContactSignup()');
+        }
+        $.ajax({
+            type: 'get',
+            url: '/ajax/emailsignup.jsp',
+            success: function(data) {
+                if(typeof(CW) == 'object') {
+                    CW.log('emailsignup.jsp: ', data);
+                }
+            }
+        });
+    }
+    
+    var onLikeClicked = null;
+
+    function dropDown() {
+        $('.navBar .nav > li, .profile-dropdown').hover(
+            function() {
+                var dd = $(this).find('div.dropdown');
+                // checking dim the lights is necessary for IE
+                if (dd.length > 0 && ($('#snag-dimmerBG').filter(":visible").length < 1) ) {
+                    $(this).addClass('open');
+                    dd.show();
+                }
+            },
+            function() {
+                $(this).removeClass('open');
+                $(this).find('div.dropdown').hide();
+            }
+        );
+        $('.dropdown .queue-populated li a').click(function(event){
+            Snag.Tracking.GA.trackClick(event, "registration and profiles", "watch-q");
+        });
+    }
+
+    function logout() {
+        FB.logout(function(response) {
+            document.cookie = 'fbsr_132443425037 = ; expires=Thu, 01-Jan-70 00:00:01 GMT; path=/; domain=.indiewire.com';
+            setTimeout(function() {
+            	$('#login').hide();
+                $('#login').load('/ajax/loginSmall.jsp?_=' + (new Date()).getTime(), 
+                		function() {
+			                	FB.XFBML.parse($('#login').get()[0], function(){
+			                    	setTimeout(function(){
+			                    		$('#login').show();
+			                    	}, 100);
+			                    });
+                			});
+                if(typeof(CW) == 'object') {
+                    CW.user.loggedIn = false;
+                    CW.user.critic = false;
+                    CW.films.grading.init();
+                }
+            }, 1000);
+        });
+    }
+    if(IW.FB){
+    	IW.FB.callbacks.getLoginStatus.push(fbLoginStatus);
+    }
+</script>
+
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+</script>
+<script type="text/javascript">
+    _qevents.push({ qacct:"p-c1zCil38GHR-I"});
+</script>
+<noscript>
+    <div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-c1zCil38GHR-I.gif" height="1" width="1"
+                                     alt="Quantcast"/></div>
+</noscript>
+
+<script type="text/javascript">
+    var _sf_async_config = {uid:2953,domain:"indiewire.com"};
+    
+    (function() {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+                    (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+                            "js/chartbeat.js");
+            document.body.appendChild(e);
+        }
+
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() {
+            oldonload();
+            loadChartbeat();
+        };
+    })();
+</script>
+
+<script type="text/javascript" id="sailthru-setup">
 	
-	var _vrq = _vrq || [];
-	_vrq.push(['id', 514]);
-	_vrq.push(['automate', true]);
-	_vrq.push(['track', function(){}]);
-	(function(d, a){
-	var s = d.createElement(a),
-	x = d.getElementsByTagName(a)[0];
-	s.async = true;
-	s.src = 'http://a.visualrevenue.com/vrs.js';
-	x.parentNode.insertBefore(s, x);
-	})(document, 'script');
-</script><!-- End of VR RR Tracking Script - All rights reserved --><!-- ClickTale Bottom part --><script type="text/javascript">
-    document.write(unescape("%3Cscript%20src='" +
-            (document.location.protocol == 'https:' ?
-                    'https://clicktalecdn.sslcs.cdngc.net/' :
-                    'http://cdn.clicktale.net/') +
-            "www08/ptc/04aa124c-2298-4540-827a-d9ee84e64713.js'%20type='text/javascript'%3E%3C/script%3E"));
-</script><!-- ClickTale end of Bottom part --><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-4.newrelic.com","licenseKey":"252d33b7c9","applicationID":"3674670","transactionName":"Y1xRYUdUX0ICUUxaDloWclZBXF5fTFxdRBJrX1cbQEY=","queueTime":0,"applicationTime":510,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-361.min.js"}</script></body></html>
+	   // Sailthru Horizon -->
+    (function() {
+        function loadHorizon() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = location.protocol
+                    + '//ak.sail-horizon.com/horizon/v1.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        loadHorizon();
+        var oldOnLoad = window.onload;
+        window.onload = function() {
+            if (typeof oldOnLoad === 'function') {
+                oldOnLoad();
+            }
+    
+           	try {
+                   Sailthru.setup({
+                       domain: 'horizon.indiewire.com',
+                       concierge: { from: 'top', threshold: 800, filter: {tags: 'sailthru-indiewire'} }
+                   });
+               } catch (ex) {
+                   $.log(ex, 'Could not set up sailthru');
+               }
+            	
+        };
+    })();
+	
+</script>
+
+	<script type="text/javascript">
+	
+    </script>
+
+<div id="getsat-widget-5838"></div>
+<script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
+<script type="text/javascript">if (typeof GSFN !== "undefined"){ GSFN.loadWidget(5838,{"containerId":"getsat-widget-5838"});}</script>
+<!-- HC -->
+</body>
+</html>

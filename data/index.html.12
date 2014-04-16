@@ -1,805 +1,1008 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
-<head><title>
-	
-
-British Museum - Welcome to the British Museum
-</title><link href="/WebResource.axd?d=O2WthY8PNMKuYWy7jrzyA_iE9Scj9mJTSlZVv8-5YjokQelyg9wIf79noiuyH8F4tDf0i4HoXouOBhdHsfCOzfDQb_3H-Low53_XlzYQcwBZCSl8NZDTpjgDsEC21SPMgea4grl4P8HVeiRII5GAMb3Z88I1&amp;t=634859062525172255" type="text/css" rel="stylesheet" /><base href="http://www.britishmuseum.org/" /><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta name="HandheldFriendly" content="True" /><link rel="stylesheet" href="/templates/default/css/v2/system/stylesheet.css?tick=@{buildDate}" type="text/css" media="screen" /><link rel="stylesheet" href="/templates/default/css/v2/system/default.css?tick=@{buildDate}" type="text/css" media="screen" /><link rel="stylesheet" href="/templates/default/css/v2/system/v2a_defaults.css?tick=@{buildDate}" type="text/css" media="screen" /><link rel="stylesheet" href="/templates/default/css/v2/system/print.css?tick=@{buildDate}" type="text/css" media="print" /><link rel="stylesheet" href="/templates/default/css/system/slideshow.css?tick=@{buildDate}" type="text/css" media="screen" /><link rel="stylesheet" href="/templates/default/css/v2_new_homepage.css" type="text/css" media="screen" />
-
-<!--[if IE]>
-	<link rel="stylesheet" href="templates/default/css/v2/system/ie_all.css?tick=2013.02.26-1120" type="text/css" />
-<![endif]-->
-<!--[if IE 8]>
-	<link rel="stylesheet" href="templates/default/css/v2/system/ie_8.css?tick=2013.02.26-1120" type="text/css" />
-<![endif]-->
-<!--[if IE 7]>
-	<link rel="stylesheet" href="templates/default/css/v2/system/ie_7.css?tick=2013.02.26-1120" type="text/css" />
-<![endif]-->
-<!--[if lt IE 7]>
-	<link rel="stylesheet" href="templates/default/css/v2/system/ie_lt_7.css?tick=2013.02.26-1120" type="text/css" />
-<![endif]-->
-
-
-
-<script src="/javascripts/v2/setup.js?tick=2014-02-10-1520" type="text/javascript"></script>
-
-<script src="/removeJS" type="text/javascript"></script>
-
-<script type="text/javascript">
-// <![CDATA[
-var homePageFlag = 1;
-$(document).ready(function(){
-$('.shoponline a').each(function(evt){
-    $(this).unbind('click');
-});
-});
-// ]]>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CollegeHumor - Funny Videos, Funny Pictures, Funny Links!</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="robots" content="index, follow">
+	<link rel="apple-touch-icon" href="http://0.static.collegehumor.cvcdn.com/images/touch/touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="http://1.static.collegehumor.cvcdn.com/images/touch/touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="http://0.static.collegehumor.cvcdn.com/images/touch/touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="http://1.static.collegehumor.cvcdn.com/images/touch/touch-icon-152x152.png">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:site_name" content="CollegeHumor">
+	<meta property="fb:app_id" content="271750421132">
+	<meta name="twitter:site" content="CollegeHumor">
+	<meta name="author" content="Connected Ventures LLC. Copyright 1999-2014.">
+	<meta name="keywords" content="articles, funny articles, college articles, college stories, humor articles, essays, writing, rants, humour articles, satire, weekly wyr, stupid questions hall of fame, jokes">
+	<meta property="url" content="http://www.collegehumor.com">
+	<meta property="og:type" content="">
+	<meta property="og:title" content="CollegeHumor - Funny Videos, Funny Pictures, Funny Links!">
+	<meta property="og:image" content="http://1.static.collegehumor.cvcdn.com/images/header/logo-collegehumor.png">
+	<meta property="og:description" content="">
+	<meta name='parsely-page' content='{"title": "CollegeHumor - Funny Videos, Funny Pictures, Funny Links!", "link": "http://www.collegehumor.com", "type": "frontpage", "section": "home", "author": "Connected Ventures LLC. Copyright 1999-2014.", "tags": ["articles", "funny articles", "college articles", "college stories", "humor articles", "essays", "writing", "rants", "humour articles", "satire", "weekly wyr", "stupid questions hall of fame", "jokes"]}'>
+			<link rel="stylesheet" type="text/css" href="http://1.static.collegehumor.cvcdn.com/css/packages/d33462d1ef48e295655543fa9bfcd2b1.css">
+	<noscript><link rel="stylesheet" type="text/css" href="http://1.static.collegehumor.cvcdn.com/jument/css/noscript.css"></noscript>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="canonical" href="http://www.collegehumor.com">
+	<script>
+	var _metrics = _metrics || [];
+		_metrics.push(['_setConfig', 'api_key', '1743998f92cedc07da4e071792f9a558f6dc37e7']);
+	_metrics.push(['_setConfig', 'api_url', 'http://api.metrics.chmedia.com']);
+	_metrics.push(['_setConfig', 'pixel_url', 'http://metrics.chmedia.com/pixel.gif']);
 </script>
-<noscript></noscript>
-
-
-<!-- OpenSearch test providers -->
-<link rel="search" type="application/opensearchdescription+xml" title="British Museum" href="/OpenSearchBMSite.xml" />
-<link rel="search" type="application/opensearchdescription+xml" title="British Museum collection database" href="/OpenSearchCollection.xml" />
-
-<link rel="Shortcut Icon" href="/favicon.ico" />
-
-
-<!-- Open Graph -->
-
-    <meta property="og:title" content="Welcome to the British Museum" />
-
-    <meta property="og:type" content="website" />
-
-    <meta property="og:url" content="http://www.britishmuseum.org/default.aspx" />
-
-    <meta property="og:site_name" content="British Museum" />
-
-	<meta property="og:description" content="The Museum houses a vast collection of world art and artefacts and is free to all visitors. Find information about visiting, including admission and opening times, events and exhibitions, gallery guides and teaching resources. Search highlight objects of the collection and view current research projects." />
-	  
-    <meta property="og:locale" content="en_GB" />
-
-<!-- End Open Graph -->
-
-
-<meta name="GENERATOR" content="Immediacy .NET CMS - Licensed To : British Museum" /><meta name="keywords" content="The British Museum, London, Britain, World, Egypt, Asia, Greece, Roman, Africa, Oceania, Americas, Prehistory, Europe, Prints, Drawings, Coins, Medals, Free, visiting, 1753, research, collection, objects, Parthenon, Rosetta, mummies, Anglo-Saxon, Viking, shunga, colombia, gold," /><meta name="description" content="The Museum houses a vast collection of world art and artefacts and is free to all visitors. Find information about visiting, including admission and opening times, events and exhibitions, gallery guides and teaching resources. Search highlight objects of the collection and view current research projects." /></head>
-<body class="width_960 onBlack homepage">
-    <div id="wrapper">
-        <div id="wrapper-line">
-            <div id="wrapper-inner">
-                <div id="skipLinksWrapper">
-                    <ul class="skipLinkList">
-                        <li><a href="/default.aspx#mainContent" class="skipLink">Skip to content</a></li>
-			            <li><a href="/default.aspx#globalNav" class="skipLink">Skip to section menu</a></li>
-                    </ul>
-                </div>
-                <!-- div#headerWrapper - open -->
-                    
-                        
-
-	<script type="text/javascript">
-	$(document).ready(function(){
-		$.getJSON("http://www2.britishmuseumshoponline.org/services/GetCookiePolicyValue/?callback=?",function(data) {
-			//console.log("cookiesPolicy= " + data.cookiesPolicy);				
-			if (data.cookiesPolicy != 1) { 
-				$("#cookiePrompt").css("display","block"); // show the message				
-				$(".cookie-continue").live("click",function(e){  // set up close button
-					e.preventDefault();
-					$("#cookiePrompt").slideUp(300);
-				});	
-				$.BM.start('mobileMoveMe', function(){  // if mobile, show banner under header							
-					$('#cookiePromptWrapper').BM().mobileMoveMe({
-						position: "before",
-						whichElem: '#mainContent'									
-					});
-				});				
-			}			
-		});
-	});
+	<script>
+		var jument = window.jument || {}, _gaq = _gaq || [];
+		jument.home_url = "http://www.collegehumor.com";
+		_gaq.push(['_setAccount', 'UA-76641-6']);
 	</script>
+	<script type="text/javascript" src="http://0.static.collegehumor.cvcdn.com/js/packages/7cb9eae5d69ce44e0f944ca2335c57db.js"></script>
+			<script type="text/javascript" src="http://metrics.chmedia.com/2.1/track.min.js"></script>
+	<script type="text/javascript" src="http://voss.collegehumor.com/js/voss.min.js"></script>
+	<script>
+var adslots = {};
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; (function() { var gads = document.createElement("script"); gads.async = true; gads.type = "text/javascript"; var useSSL = "https:" == document.location.protocol; gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js"; var node = document.getElementsByTagName("script")[0]; node.parentNode.insertBefore(gads, node); })();
+googletag.cmd.push(function() {
+	adslots['1x1'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [[1,1]], "div-gpt-ad-14208814").addService(googletag.pubads());
 
 
+var mapping = googletag.sizeMapping().addSize([320, 0], [320, 50]).addSize([768, 0], [768, 50]).addSize([970, 0], [970, 66]).build();
+	adslots['opa_pushdown'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [970, 66], "opa-pushdown").defineSizeMapping(mapping).addService(googletag.pubads());
 
-	<div id="cookiePromptWrapper" class="headerPromptWrapper">
-		<div id="cookiePrompt" class="headerPrompt" style="display:none;">  
-			<div class="grid_12 hideFromMobile">			
-				<div class="grid_11 block alpha">			
-					<p>The British Museum uses cookies to ensure you have the best browsing experience 
-					and to help us improve the site.<br />
-					By continuing to browse the site you are agreeing to 
-					our use of cookies. 
-					<a href="about_this_site/footer_components/cookies.aspx">Find out more</a>
-					</p>					
+
+	adslots['4x4-100x30'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [[4,4],[100,30]], "ad-nav-tab").addService(googletag.pubads());
+
+
+	adslots['300x250-position:top'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [[300,250]], "div-gpt-ad-9176981").addService(googletag.pubads());
+
+
+	adslots['300x250-position:top'].setTargeting("position", "top");
+	adslots['5x5-100x31'] = googletag.defineSlot("/8422/collegehumor.com/homepage", [[5,5],[100,31]], "div-gpt-ad-42652117").addService(googletag.pubads());
+
+
+});
+googletag.cmd.push(function() { googletag.pubads().setTargeting("rating", "unrated");googletag.pubads().setTargeting("referrer", jument.analytics.referer());googletag.pubads().enableSingleRequest();googletag.pubads().enableAsyncRendering();googletag.enableServices(); });
+</script>	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/jument/css/ie8-and-below.css">
+		<script src="http://0.static.collegehumor.cvcdn.com/jument/js/lib.html5shiv.js"></script>
+		<script src="http://1.static.collegehumor.cvcdn.com/jument/js/lib.respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="notouch listing listing-home listing-ajax">
+	<div class="hide"><div id="div-gpt-ad-14208814"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("div-gpt-ad-14208814"); }); }</script></div></div>
+	<div id="skin-banner" class="top-banner">
+		<div class="ad-pushdown cf">
+			<div id="opa-pushdown"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("opa-pushdown"); }); }</script></div>		</div>
+	</div>
+	<div class="container container-main">
+		<header class="navbar site-header" role="banner">
+	<div class="navbar-header cf">
+		<a href="#" class="expand-nav menu-item hide ga-feature-usage ga-interaction ga-interaction-click-only" data-ga-feature="Open Menu"><span>Open Menu</span></a>
+		<a href="/" class="logo navbar-brand ga-feature-usage ga-target-self" data-ga-feature="Logo">CollegeHumor</a>
+		<div class="pull-right">
+			<a href="#" class="search menu-item hide" data-show=".navbar-search"><span>Search</span></a>
+			<a href="#" class="user menu-item ga-feature-usage ga-interaction ga-interaction-click-only" data-ga-feature="Open Header Signin Form" data-show=".user-options"><span>My Profile</span></a>
+		</div>
+	</div>
+	<div class="navbar-form navbar-search">
+		<form action="/search" role="search" class="form ga-feature-usage ga-target-self" data-ga-feature="Search Module">
+			<div class="form-group col-md-7 col-sm-12 col-xs-12 cf">
+				<input type="search" name="q" class="form-control" placeholder="Search">
+				<button type="submit">Go</button>
+			</div>
+		</form>
+	</div>
+	<div class="navbar-form user-options signed-out">
+					<form action="/signin" method="post" id="form0" class="form ga-feature-usage ga-target-self" data-ga-feature="User Login Module">
+				<input type="hidden" name="form0_submitted" value="1">
+									<input type="hidden" name="referer" value ="JTJG">
+								<div class="form-group cf">
+					<input type="text" name="email" class="form-control" placeholder="Username">
 				</div>
-				<div class="grid_1 block omega">
-					<div class="cta smallButton black margin8pxT " style="float:right;"><a href="#" class="cookie-continue" title="close">x</a></div>
+				<div class="form-group cf">
+					<input type="password" name="password" class="form-control" placeholder="Password">
+				</div>
+				<div class="bottom">
+					<button type="submit" name="submit" class="btn btn-alert">Log In</button>
+					<a href="#" class="fbconnect small requires-fbconnect" >Connect with Facebook</a>
+					<section>
+						<a href="/signup">Sign Up</a> | <a href="/user/reset">Forgot Password?</a>
+					</section>
+				</div>
+			</form>
+			</div>
+	<nav class="nav-menu cf ga-feature-usage" data-ga-feature="Navigation" role="navigation">
+		<ul class="nav navbar-nav nav-tabs-5 cf">
+							<li class="videos dropdown ga-feature-usage ga-interaction" data-ga-feature="Navigation Drop Down - Videos">
+					<a href="/videos" class="dropdown-toggle" data-toggle="dropdown">
+						Videos													<div class="open-menu">
+								<span class="caret"></span>
+							</div>
+											</a>
+											<div class="dropdown-menu ga-feature-usage" data-ga-feature="Navigation Dropdown">
+							<div class="dropdown-list">
+																	<ul>
+																					<li>
+												<a href="/originals">
+													<i></i>
+													All Originals												</a>
+											</li>
+																					<li>
+												<a href="/jakeandamir">
+													<i></i>
+													Jake and Amir												</a>
+											</li>
+																					<li>
+												<a href="/shorts">
+													<i></i>
+													Shorts												</a>
+											</li>
+																					<li>
+												<a href="/troopers">
+													<i></i>
+													Troopers												</a>
+											</li>
+																					<li>
+												<a href="/hardlyworking">
+													<i></i>
+													Hardly Working												</a>
+											</li>
+																			</ul>
+																	<ul>
+																					<li>
+												<a href="/verymarykate">
+													<i></i>
+													Very Mary-Kate												</a>
+											</li>
+																					<li>
+												<a href="/dinosaur-office">
+													<i></i>
+													Dinosaur Office												</a>
+											</li>
+																					<li>
+												<a href="/badman">
+													<i></i>
+													Batman												</a>
+											</li>
+																					<li>
+												<a href="/bleepbloop">
+													<i></i>
+													Bleep Bloop												</a>
+											</li>
+																					<li>
+												<a href="/preciousplum">
+													<i></i>
+													Precious Plum												</a>
+											</li>
+																			</ul>
+															</div>
+						</div>
+									</li>
+							<li class="pictures dropdown ga-feature-usage ga-interaction" data-ga-feature="Navigation Drop Down - Pictures">
+					<a href="/pictures" class="dropdown-toggle" data-toggle="dropdown">
+						Pictures													<div class="open-menu">
+								<span class="caret"></span>
+							</div>
+											</a>
+											<div class="dropdown-menu ga-feature-usage" data-ga-feature="Navigation Dropdown">
+							<div class="dropdown-list">
+																	<ul>
+																					<li>
+												<a href="/pictures/galleries">
+													<i></i>
+													Galleries												</a>
+											</li>
+																					<li>
+												<a href="/pictures/sexy">
+													<i></i>
+													Sexy pics												</a>
+											</li>
+																					<li>
+												<a href="/pictures/wtf">
+													<i></i>
+													WTF is going on												</a>
+											</li>
+																					<li>
+												<a href="/pictures/college">
+													<i></i>
+													College!!!1												</a>
+											</li>
+																			</ul>
+																	<ul>
+																					<li>
+												<a href="/pictures/facebook">
+													<i></i>
+													Idiots on Facebook												</a>
+											</li>
+																					<li>
+												<a href="/pictures/animals">
+													<i></i>
+													Animals												</a>
+											</li>
+																					<li>
+												<a href="/tv-movies">
+													<i></i>
+													TV/Movies												</a>
+											</li>
+																			</ul>
+															</div>
+						</div>
+									</li>
+							<li class="articles dropdown ga-feature-usage ga-interaction" data-ga-feature="Navigation Drop Down - Articles">
+					<a href="/articles" class="dropdown-toggle" data-toggle="dropdown">
+						Articles													<div class="open-menu">
+								<span class="caret"></span>
+							</div>
+											</a>
+											<div class="dropdown-menu ga-feature-usage" data-ga-feature="Navigation Dropdown">
+							<div class="dropdown-list">
+																	<ul>
+																					<li>
+												<a href="/articles/column/almost-reading">
+													<i></i>
+													Almost Reading												</a>
+											</li>
+																					<li>
+												<a href="/articles/column/the-graphic-truth">
+													<i></i>
+													The Graphic Truth												</a>
+											</li>
+																					<li>
+												<a href="/articles/column/the-troll">
+													<i></i>
+													The Troll												</a>
+											</li>
+																					<li>
+												<a href="/articles/column/twidiots">
+													<i></i>
+													Twidiots												</a>
+											</li>
+																			</ul>
+																	<ul>
+																					<li>
+												<a href="/articles/column/tldnr">
+													<i></i>
+													TLDNR												</a>
+											</li>
+																					<li>
+												<a href="/articles/column/regret-everything">
+													<i></i>
+													Regret Everything												</a>
+											</li>
+																					<li>
+												<a href="/articles/column/collegehumor-interview">
+													<i></i>
+													CollegeHumor Interview												</a>
+											</li>
+																					<li>
+												<a href="/articles/column/leaked">
+													<i></i>
+													Exclusive Leaks												</a>
+											</li>
+																			</ul>
+															</div>
+						</div>
+									</li>
+							<li class="submit dropdown ga-feature-usage ga-interaction" data-ga-feature="Navigation Drop Down - Submit">
+					<a href="/submit/picture" class="dropdown-toggle" data-toggle="dropdown">
+						Submit													<div class="open-menu">
+								<span class="caret"></span>
+							</div>
+											</a>
+											<div class="dropdown-menu ga-feature-usage" data-ga-feature="Navigation Dropdown">
+							<div class="dropdown-list">
+																	<ul>
+																					<li>
+												<a href="/submit/picture" class="picture">
+													<i></i>
+													picture												</a>
+											</li>
+																					<li>
+												<a href="/submit/video" class="video">
+													<i></i>
+													video												</a>
+											</li>
+																			</ul>
+																	<ul>
+																					<li>
+												<a href="/submit/gallery" class="gallery">
+													<i></i>
+													gallery												</a>
+											</li>
+																					<li>
+												<a href="/submit/article" class="article">
+													<i></i>
+													article												</a>
+											</li>
+																			</ul>
+															</div>
+						</div>
+									</li>
+						<li><div class="ad"><div id="ad-nav-tab"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("ad-nav-tab"); }); }</script></div></div></li>
+		</ul>
+	</nav>
+</header>				<div class="content cf">
+			
+<div class="primary" data-listing-type="home">
+						<article class="pod pod-lead cf ga-feature-usage" data-ga-feature="Featured Content Item">
+					<a href="/video/6963891/why-george-rr-martin-shouldnt-plan-your-wedding" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="615" height="250" class="lazy" alt="Why George R.R. Martin Shouldn&#039;t Plan Your Wedding" data-src="http://2.media.collegehumor.cvcdn.com/84/94/44aa0517f16031474480af8d3ace2170.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/84/94/6679a5960b5a25f0a7e94a8f5dea91ad.jpg">
+									<span class="play-btn large"><i></i></span>
+							</a>
+				<div class="side">
+			<div class="bottom">
+					<span class="badge is_series">Original</span>
+				<h2 class="title"><a href="/video/6963891/why-george-rr-martin-shouldnt-plan-your-wedding">Why George R.R. Martin Shouldn't Plan Your Wedding</a></h2>
+				<p>Red Wedding or Purple Wedding, you sure don't want a Game of Thrones wedding. Warning: spoilers.</p>
+			</div>
+		</div>
+	</article>
+	
+	
+		<div class="to-affix">
+		<div class="ajax-load pods-media row cf ga-feature-usage" data-ga-feature="Listing" data-current-page="1">
+			
+							<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-0 pod-video cf">
+		<article>
+			<a href="/video/6964372/ja-apartment-02" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Jake and Amir: Real Estate Agent Part 2 (w/ Ben Schwartz)" data-src="http://0.media.collegehumor.cvcdn.com/15/20/4dd6ae137d6888e9190323561cb76469.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/15/20/67caf3d7d66569b42388b8cfccd0a77e.jpg">
+									<span class="play-btn"><i></i></span>
+							</a>
+			<div class="caption">
+					<span class="badge is_series">Original</span>
+				<h3><a href="/video/6964372/ja-apartment-02">Jake and Amir: Real Estate Agent Part 2 (w/ Ben Schwartz)</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																									<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-1 pod-post cf">
+		<article>
+			<a href="/post/6964540/6-modern-day-torture-devices-that-would-actually-work" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="6 Modern-Day Torture Devices That Would Actually Work" data-src="http://2.media.collegehumor.cvcdn.com/71/58/c9466a29579f8aad72cf55a43f9259b2.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/71/58/d4b61dbc08899427598982b3a998831d.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6964540/6-modern-day-torture-devices-that-would-actually-work">6 Modern-Day Torture Devices That Would Actually Work</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-2 pod-post cf">
+		<article>
+			<a href="/post/6963881/engineering-level-alcoholism-10-innovative-ways-to-booze-it-up" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Engineering Level: Alcoholism (10 Innovative Ways to Booze it Up)" data-src="http://0.media.collegehumor.cvcdn.com/88/99/cb11f3d7a5bddb45aca389de38652109.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/88/99/4adc16f5d6b938ab01a0622cc789ab79.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6963881/engineering-level-alcoholism-10-innovative-ways-to-booze-it-up">Engineering Level: Alcoholism (10 Innovative Ways to Booze it Up)</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-3 pod-post cf">
+		<article>
+			<a href="/post/6881004/sarcastic-tax-form" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="What I&#039;ve Always Wanted To Write On My Stupid Tax Forms" data-src="http://1.media.collegehumor.cvcdn.com/37/37/3aa2e4d88b4d19a744ca0c966e119ec9-what-ive-always-wanted-to-write-on-my-stupid-tax-forms.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/37/37/7b8759c3d0034b9c1e37f6323bc82c11-what-ive-always-wanted-to-write-on-my-stupid-tax-forms.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6881004/sarcastic-tax-form">What I've Always Wanted To Write On My Stupid Tax Forms</a></h3>
+			</div>
+		</article>
+	</div>
+</div>									<div class="col-sm-6 col-md-4">
+						<div class="pod pod-large pod-ad cf">
+							<article>
+								<div id="div-gpt-ad-9176981"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("div-gpt-ad-9176981"); }); }</script></div>							</article>
+						</div>
+					</div>
+																<!-- sponsored ad -->
+									<div class="hide"><iframe src="/jument/ads/dfp.html?zone=%2F8422%2Fcollegehumor.com%2Fhomepage&amp;size=%5B%5B1%2C2%5D%5D&amp;targeting%5Brating%5D=unrated" width="0" height="0" class="ad-iframe"></iframe></div>
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-4 pod-post cf">
+		<article>
+			<a href="/post/6964370/funny-futility-of-existence-video" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Life Can Be Cruel When You&#039;re Drunk" data-src="http://1.media.collegehumor.cvcdn.com/31/93/f96b69664dcf45790e9f86b3e78e7ad5.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/31/93/bcc91d2924259440b7879110f7d29ddb.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6964370/funny-futility-of-existence-video">Life Can Be Cruel When You're Drunk</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-5 pod-post cf">
+		<article>
+			<a href="/post/6964367/10-ways-to-drive-a-girl-crazy-in-the-bedroom" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="10 Ways to Drive a Girl CRAZY in the Bedroom" data-src="http://0.media.collegehumor.cvcdn.com/73/84/a31e0adc9ac40972930596c5e886f4a0.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/73/84/d397097e695a17ab716f5d660fbba280.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6964367/10-ways-to-drive-a-girl-crazy-in-the-bedroom">10 Ways to Drive a Girl CRAZY in the Bedroom</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-6 pod-post cf">
+		<article>
+			<a href="/post/6964332/this-guy-is-still-the-best-at-tinder" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="This Guy Is Still The Best At Tinder" data-src="http://0.media.collegehumor.cvcdn.com/41/29/3fb77a7191277aedd9322f5981d4b36f.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/41/29/c791951d0f7ee3fe63ca92a30a13a210.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6964332/this-guy-is-still-the-best-at-tinder">This Guy Is Still The Best At Tinder</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-7 pod-post cf">
+		<article>
+			<a href="/post/6964329/16-pet-products-that-will-make-your-pet-hate-you" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="16 Pet Products That Will Make Your Pet Hate You" data-src="http://0.media.collegehumor.cvcdn.com/59/14/6d07b2e042eacc895f3410b0da8d7ac4.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/59/14/f2cb27c7bfdfeb96c6c443844d4828fc.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6964329/16-pet-products-that-will-make-your-pet-hate-you">16 Pet Products That Will Make Your Pet Hate You</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-8 pod-post cf">
+		<article>
+			<a href="/post/6801144/math-youll-actually-use" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Math You&#039;ll Actually Use" data-src="http://1.media.collegehumor.cvcdn.com/dev/37/27/8db3d1cce80082c8484ef5f9b9072c6d.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/dev/62/56/b05d535149943532ec1a8b41bc7e0396.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6801144/math-youll-actually-use">Math You'll Actually Use</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-9 pod-post cf">
+		<article>
+			<a href="/post/6964163/behold-the-worst-wheel-of-fortune-contestant-ever" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Behold, The Worst &#039;Wheel Of Fortune&#039; Contestant Ever" data-src="http://0.media.collegehumor.cvcdn.com/16/34/36ec344bb6c16df5e8ef569781ee5f2a.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/16/34/00605411974c0aafeb9b0a5a6944743a.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6964163/behold-the-worst-wheel-of-fortune-contestant-ever">Behold, The Worst 'Wheel Of Fortune' Contestant Ever</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-10 pod-post cf">
+		<article>
+			<a href="/post/6963271/6-comics-that-go-behind-the-gif" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="6 Ridiculous Comics that Explain Your Favorite GIFS" data-src="http://2.media.collegehumor.cvcdn.com/11/17/175455e54140d7b449676bc94d1f36d4.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/11/17/3e37050c5433335b3e9220387c9e7b29.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6963271/6-comics-that-go-behind-the-gif">6 Ridiculous Comics that Explain Your Favorite GIFS</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-11 pod-post cf">
+		<article>
+			<a href="/post/6963687/not-even-boobs-can-save-whatever-is-going-on-in-these-11-situations" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Not Even Boobs Can Save Whatever is Going On Here" data-src="http://1.media.collegehumor.cvcdn.com/91/17/7f5c78e099f1a4dba491b429e56c0eb7.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/91/17/6c7633d6290949844b1812ebb21aa7b9.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6963687/not-even-boobs-can-save-whatever-is-going-on-in-these-11-situations">Not Even Boobs Can Save Whatever is Going On Here</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-12 pod-video cf">
+		<article>
+			<a href="/video/6963521/the-furry-force-saves-and-disgusts-the-president" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Furry Superheroes Get Even Grosser" data-src="http://0.media.collegehumor.cvcdn.com/72/89/14ff446c00444ee8fd1e26645d90381c-furry-superheroes-get-even-grosser.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/72/89/a628dae12ce42d9e76cb7642547b8fb8.jpg">
+									<span class="play-btn"><i></i></span>
+							</a>
+			<div class="caption">
+					<span class="badge is_series">Original</span>
+				<h3><a href="/video/6963521/the-furry-force-saves-and-disgusts-the-president">Furry Superheroes Get Even Grosser</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-13 pod-post cf">
+		<article>
+			<a href="/post/6963710/cigarette-warning-labels-id-actually-care-about" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="Cigarette Warning Labels I&#039;d Actually Care About" data-src="http://0.media.collegehumor.cvcdn.com/60/71/efd59075fd8b6f79d12a729238d3cd77.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/60/71/28ccc842225bddfc0d5dda164baa2d0f.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6963710/cigarette-warning-labels-id-actually-care-about">Cigarette Warning Labels I'd Actually Care About</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-14 pod-post cf">
+		<article>
+			<a href="/post/6963479/the-13-gods-of-the-internet-pantheon" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="The 13 Gods of the Internet Pantheon" data-src="http://1.media.collegehumor.cvcdn.com/50/81/38c6c0817fa33e19a639ad32f21efdde.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/50/81/5b350afe637abcb935e74cc9e620023b.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6963479/the-13-gods-of-the-internet-pantheon">The 13 Gods of the Internet Pantheon</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-sm-6 col-md-4">
+	<div class="pod pod-post pod-large pod-15 pod-post cf">
+		<article>
+			<a href="/post/6880048/10-things-that-still-bother-me-about-friends" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/300x168.png" width="300" height="168" class="img-responsive lazy" alt="10 Things That Still Bother Me About &quot;Friends&quot;" data-src="http://0.media.collegehumor.cvcdn.com/35/89/7902e0d02abc39967b8d5e457830f186-10-things-that-still-bother-me-about-friends.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/35/89/17c41931e362ad92e203724d59ffb131-10-things-that-still-bother-me-about-friends.jpg">
+							</a>
+			<div class="caption">
+								<h3><a href="/post/6880048/10-things-that-still-bother-me-about-friends">10 Things That Still Bother Me About "Friends"</a></h3>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+									</div>
+									<button id="load-more" class="btn ga-feature-usage ga-interaction ga-interaction-click-only" data-ga-feature="Load More">See More Posts<span class="caret"></span></button>
+										<div class="pagination"><span class="total">Page 1 of 179</span><span class="selected">1</span><a href="/page:2">2</a><a href="/page:3">3</a><a href="/page:4">4</a><a href="/page:5">5</a><a href="/page:6">6</a><a href="/page:7">7</a><a href="/page:8">8</a><span class="ellipses">&hellip;</span><a href="/page:179">179</a><a class="next" href="/page:2">&raquo;</a></div>						</div>
+
+<p class="text-muted hide">Nothing found...</p>
+	<script type="text/x-handlebars-template" id="template-pod">
+		{{#each items}}
+			<div class="col-sm-6 col-md-4">
+				<div class="pod pod-post pod-large {{cssClasses}} cf">
+					<article>
+						{{#if ad}}
+							{{{ad}}}
+						{{else}}
+							<a href="{{url}}" class="thumb">
+								<img src="{{thumb}}" width="300" height="170" alt="{{alt_text}}" class="img-responsive">
+								{{#isVideo media_type}}
+									<span class="play-btn"><i></i></span>
+								{{/isVideo}}
+							</a>
+							<div class="caption">
+								{{#if is_original}}
+									<span class="badge">Original</span>
+								{{/if}}
+								<h3><a href="{{url}}">{{{title}}}</a></h3>
+							</div>
+						{{/if}}
+					</article>
 				</div>
 			</div>
+		{{/each}}
+		<div class="hide"><iframe src="/jument/ads/dfp.html?zone=%2F8422%2Fcollegehumor.com%2Fhomepage&amp;size=%5B%5B1%2C2%5D%5D&amp;targeting%5Brating%5D=unrated" width="0" height="0" class="ad-iframe"></iframe></div>
+	</script>
+</div>
+
+<div class="row">
+	<div class="col-sm-5 col-md-4">
+			<section class="module module-small module-hotlinks ga-feature-usage" data-ga-feature="Hotlinks">
+		<h4>Best Around the Web</h4>
+					<article class="pod cf ">
+				<a href="/o/6964351/url/you-arent-going-to-like-what-kate-upton-had-to-say-about-her-breasts" rel="external" title="You aren&#039;t going to like what Kate Upton had to say about her breasts" data-tracking-label="/link/6964351" class="thumb">
+					<span class="num">1</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="You aren&#039;t going to like what Kate Upton had to say about her breasts" data-src="http://2.media.collegehumor.cvcdn.com/20/93/23f75680249f0c1d2a92bb8ddbe53082.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/20/93/c6946a09b19a0db54f1d86ae3753c443.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6964351/url/you-arent-going-to-like-what-kate-upton-had-to-say-about-her-breasts" rel="external">You aren't going to like what Kate Upton had to say about her breasts</a></h5>
+									<cite class="source">via BroBible</cite>
+							</article>
+					<article class="pod cf ">
+				<a href="/o/6964346/url/17-things-every-twentysomething-has-googled" rel="external" title="17 things every twentysomething has Googled" data-tracking-label="/link/6964346" class="thumb">
+					<span class="num">2</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="17 things every twentysomething has Googled" data-src="http://1.media.collegehumor.cvcdn.com/99/82/cb8af3f527bb4eb4ca91aff11cbbf957.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/99/82/8f791f1c8c4f7f19e733bb1536d24c83.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6964346/url/17-things-every-twentysomething-has-googled" rel="external">17 things every twentysomething has Googled</a></h5>
+									<cite class="source">via BuzzFeed</cite>
+							</article>
+					<article class="pod cf ">
+				<a href="/o/6964375/url/17-nsfw-burning-questions-with-pornstar-james-deen" rel="external" title="17 NSFW burning questions with pornstar James Deen" data-tracking-label="/link/6964375" class="thumb">
+					<span class="num">3</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="17 NSFW burning questions with pornstar James Deen" data-src="http://1.media.collegehumor.cvcdn.com/56/57/07a01ba47630049ba31a9bca81c1cfb1.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/56/57/f58aefbcb21023f5583a40d4f0beaaaf.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6964375/url/17-nsfw-burning-questions-with-pornstar-james-deen" rel="external">17 NSFW burning questions with pornstar James Deen</a></h5>
+									<cite class="source">via Supercompressor</cite>
+							</article>
+					<article class="pod cf ">
+				<a href="/o/6964352/url/how-racists-sound-to-normal-people" rel="external" title="How racists sound to normal people" data-tracking-label="/link/6964352" class="thumb">
+					<span class="num">4</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="How racists sound to normal people" data-src="http://0.media.collegehumor.cvcdn.com/14/59/d37f04d7b3db9f8dc2fad4a18f24da1e.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/14/59/4673e4df0219f6070c9cea2870879b90.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6964352/url/how-racists-sound-to-normal-people" rel="external">How racists sound to normal people</a></h5>
+									<cite class="source">via Huffington Post</cite>
+							</article>
+					<article class="pod cf ">
+				<a href="/o/6964348/url/6-insane-drug-myths-people-used-to-teach-as-fact" rel="external" title="6 insane drug myths people used to teach as fact" data-tracking-label="/link/6964348" class="thumb">
+					<span class="num">5</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="6 insane drug myths people used to teach as fact" data-src="http://0.media.collegehumor.cvcdn.com/30/79/0cdaa9b1b434585b7d2ecb8f26ee4da8.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/30/79/965b971a9dea7635bd09f71f028e5844.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6964348/url/6-insane-drug-myths-people-used-to-teach-as-fact" rel="external">6 insane drug myths people used to teach as fact</a></h5>
+									<cite class="source">via Cracked</cite>
+							</article>
+					<article class="pod cf ">
+				<a href="/o/6964347/url/tan-line-season-has-finally-arrived" rel="external" title="Tan line season has finally arrived!" data-tracking-label="/link/6964347" class="thumb">
+					<span class="num">6</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="Tan line season has finally arrived!" data-src="http://2.media.collegehumor.cvcdn.com/99/94/5fe26f4bee9c2a557bb6b11ea261f564.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/99/94/81cafcd2c98382a32bf17b352a9e22fc.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6964347/url/tan-line-season-has-finally-arrived" rel="external">Tan line season has finally arrived!</a></h5>
+									<cite class="source">via The Chive</cite>
+							</article>
+					<article class="pod cf ">
+				<a href="/o/6963863/url/5-terrifying-sex-toys-that-prove-were-overthinking-sex" rel="external" title="5 terrifying sex toys that prove we&#039;re overthinking sex" data-tracking-label="/link/6963863" class="thumb">
+					<span class="num">7</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="5 terrifying sex toys that prove we&#039;re overthinking sex" data-src="http://1.media.collegehumor.cvcdn.com/14/80/3dadd1c2aa443ddaa4e0782c67e7f5e5.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/14/80/a03efbed8daf7b630e168dee8485fb18.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6963863/url/5-terrifying-sex-toys-that-prove-were-overthinking-sex" rel="external">5 terrifying sex toys that prove we're overthinking sex</a></h5>
+									<cite class="source">via Cracked</cite>
+							</article>
+					<article class="pod cf ">
+				<a href="/o/6963860/url/what-kind-of-person-are-you-actually" rel="external" title="What kind of person are you actually?" data-tracking-label="/link/6963860" class="thumb">
+					<span class="num">8</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="What kind of person are you actually?" data-src="http://0.media.collegehumor.cvcdn.com/44/24/ad693456ec794f155235070a1768152f.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/44/24/6d88ad59268c787d72aac2ed50cdecdb.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6963860/url/what-kind-of-person-are-you-actually" rel="external">What kind of person are you actually?</a></h5>
+									<cite class="source">via BuzzFeed</cite>
+							</article>
+					<article class="pod cf ">
+				<a href="/o/6963895/url/these-awkward-online-dating-messages-might-make-you-give-up-on-love" rel="external" title="These awkward online dating messages might make you give up on love" data-tracking-label="/link/6963895" class="thumb">
+					<span class="num">9</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="These awkward online dating messages might make you give up on love" data-src="http://0.media.collegehumor.cvcdn.com/91/62/eca862d61dd5dcf58ce1bf55fa3f0557.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/91/62/747cbe5d84236a25797815f8f12e4ef6.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6963895/url/these-awkward-online-dating-messages-might-make-you-give-up-on-love" rel="external">These awkward online dating messages might make you give up on love</a></h5>
+									<cite class="source">via Smosh</cite>
+							</article>
+					<article class="pod cf double-digit">
+				<a href="/o/6963902/url/harness-those-sweater-puppies" rel="external" title="Harness those sweater puppies" data-tracking-label="/link/6963902" class="thumb">
+					<span class="num">10</span>
+					<img src="http://1.static.collegehumor.cvcdn.com/jument/images/placeholders/100x56.png" width="100" height="56" class="lazy" alt="Harness those sweater puppies" data-src="http://0.media.collegehumor.cvcdn.com/97/99/d531d27bea582d9a126877b2646d2f36.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/97/99/ca5aa372f367e804d566a494ac806ea3.jpg">
+				</a>
+				<h5 class="title"><a href="/o/6963902/url/harness-those-sweater-puppies" rel="external">Harness those sweater puppies</a></h5>
+									<cite class="source">via Cheezburger</cite>
+							</article>
+			</section>
+	</div>
+	<div class="col-xs-12 col-sm-7 col-md-8">
+					<div class="module module-large module-halloffame blue ga-feature-usage" data-ga-feature="Best of CH">
+	<h2><a href="/originals">Best of CH</a></h2>
+		<div class="to-affix">
+		<div class="ajax-load pods-media row cf ga-feature-usage" data-ga-feature="Listing" data-current-page="1">
 			
-			<div class="grid_4 mobileOnly">				
-				<p style="">This site uses cookies. By continuing to browse the site you are agreeing to 
-				our use of cookies.
-				<a style="border-bottom:1px solid #333" href="about_this_site/footer_components/cookies.aspx">Find out more<span></span></a>
-				</p>
-				<div class="cta smallButton color margin8pxT " style="float:right;position:absolute;top:0;right:0;"><a href="#" class="cookie-continue" title="close">x</a></div>
+							<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-0 pod-video cf">
+		<article>
+			<a href="/video/6478387/the-six-girls-youll-date-in-college" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="The Six Girls You&#039;ll Date in College" data-src="http://1.media.collegehumor.cvcdn.com/94/52/065e076f342e9b388198dde670db6585.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/dev/49/99/04e4aa5ea4a1cd36e41a5fb4cf4094bc.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/6478387/the-six-girls-youll-date-in-college">The Six Girls You'll Date in College</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-1 pod-video cf">
+		<article>
+			<a href="/video/3922232/prank-war-7-the-half-million-dollar-shot" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Prank War 7: The Half Million Dollar Shot" data-src="http://0.media.collegehumor.cvcdn.com/14/81/46ed8b408e8c586b0fad03ccd968aaa5.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/23/96/74eb8d667e18846b6fbcb335bb744cd2.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/3922232/prank-war-7-the-half-million-dollar-shot">Prank War 7: The Half Million Dollar Shot</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-2 pod-video cf">
+		<article>
+			<a href="/video/3474480/realistic-hollywood-sex-scene" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Realistic Hollywood Sex Scene" data-src="http://1.media.collegehumor.cvcdn.com/49/54/9e09f6307aa15b42d5ddd204affe8b57.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/58/29/2a22159c098d8a6f2c41b5a3ab716546.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/3474480/realistic-hollywood-sex-scene">Realistic Hollywood Sex Scene</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-3 pod-video cf">
+		<article>
+			<a href="/video/2200127/elephant-larry-minesweeper---the-movie" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Elephant Larry: Minesweeper - The Movie" data-src="http://1.media.collegehumor.cvcdn.com/dev/18/26/daba75a8cb8600f4b1d7f6d27772215e.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/dev/20/65/91c83f75e60b773cddd6a7c32833334a.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/2200127/elephant-larry-minesweeper---the-movie">Elephant Larry: Minesweeper - The Movie</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-4 pod-video cf">
+		<article>
+			<a href="/video/2563451/internet-commenter-business-meeting" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Internet Commenter Business Meeting" data-src="http://1.media.collegehumor.cvcdn.com/86/51/c6988d0f38f37c39b7d58cab638852ac.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/dev/40/36/3b1e7d7f7b748d60891e4521da56e9ec.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/2563451/internet-commenter-business-meeting">Internet Commenter Business Meeting</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-5 pod-video cf">
+		<article>
+			<a href="/video/6846855/gay-men-will-marry-your-girlfriends" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Gay Men Will Marry Your Girlfriends" data-src="http://0.media.collegehumor.cvcdn.com/42/77/defd7113e54f8dd58d14b1632b708519-the-gays-will-marry-your-girlfriends.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/dev/36/37/6f766a9a891111a96f759fcfca659425.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/6846855/gay-men-will-marry-your-girlfriends">Gay Men Will Marry Your Girlfriends</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-6 pod-video cf">
+		<article>
+			<a href="/video/2895176/prank-war-the-yankee-prankee" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Prank War: The Yankee Prankee" data-src="http://0.media.collegehumor.cvcdn.com/75/85/504dee143f24ef27159d1406c801729f-prank-war-the-yankee-prankee.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/19/90/cea7a2a5724efb2852ac153bd2ec2982.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/2895176/prank-war-the-yankee-prankee">Prank War: The Yankee Prankee</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-7 pod-video cf">
+		<article>
+			<a href="/video/6830834/mitt-romney-style-gangnam-style-parody" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Mitt Romney Style (Gangnam Style Parody)" data-src="http://2.media.collegehumor.cvcdn.com/62/99/20502ca0d5b2172421002b52f437dcf8-mitt-romney-style-gangnam-style-parody.jpg" data-src-retina="http://1.media.collegehumor.cvcdn.com/dev/99/13/53d041f53300927805fd390ae2babb1b.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/6830834/mitt-romney-style-gangnam-style-parody">Mitt Romney Style (Gangnam Style Parody)</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-8 pod-video cf">
+		<article>
+			<a href="/video/6789072/dora-the-explorer-movie-trailer-with-ariel-winter" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Dora the Explorer Movie Trailer (with Ariel Winter)" data-src="http://2.media.collegehumor.cvcdn.com/91/24/8b8bc811ef7b7f9062f1b8f0d4bad74e-dora-the-explorer-movie-trailer-with-ariel-winter.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/dev/18/26/85bc38466466d8809d599f41df53ce22.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/6789072/dora-the-explorer-movie-trailer-with-ariel-winter">Dora the Explorer Movie Trailer (with Ariel Winter)</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-9 pod-video cf">
+		<article>
+			<a href="/video/6956694/photoshop-has-gone-too-far" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Photoshop Has Gone Too Far" data-src="http://2.media.collegehumor.cvcdn.com/54/71/fcc689ef2f26413aa3bf642b77e0b319.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/54/71/e7dd249e997f695164ad32bb0d6c650a.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/6956694/photoshop-has-gone-too-far">Photoshop Has Gone Too Far</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-10 pod-video cf">
+		<article>
+			<a href="/video/5635400/pixar-intro-parody" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Pixar Intro Parody" data-src="http://0.media.collegehumor.cvcdn.com/13/34/df42ed67916e2c3cb025b9da20679afd.jpg" data-src-retina="http://2.media.collegehumor.cvcdn.com/dev/45/16/ed1d5e4490ffdf2eeea0e5eeeaed2a32.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/5635400/pixar-intro-parody">Pixar Intro Parody</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-11 pod-video cf">
+		<article>
+			<a href="/video/5771122/ive-gotta-feeling-parody" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="I&#039;ve Gotta Feeling Parody" data-src="http://0.media.collegehumor.cvcdn.com/82/63/1f07aead4a3fc0ff74e839865c4e063e.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/7/5/771ebdfdb8d2521eef3252caf972814d.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/5771122/ive-gotta-feeling-parody">I've Gotta Feeling Parody</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-12 pod-video cf">
+		<article>
+			<a href="/video/6957821/jake-and-amir-bitcoin" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Jake and Amir: Bitcoin" data-src="http://1.media.collegehumor.cvcdn.com/73/78/c73d7909cc119cdf28f70853b6167c3f.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/73/78/7895ebff583b0b9a308d1524217d413e.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/6957821/jake-and-amir-bitcoin">Jake and Amir: Bitcoin</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-13 pod-video cf">
+		<article>
+			<a href="/video/6963521/the-furry-force-saves-and-disgusts-the-president" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="Furry Superheroes Get Even Grosser" data-src="http://0.media.collegehumor.cvcdn.com/72/89/4a701865a28e320ffd593f33dd5f3f0f.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/72/89/9e6746a2fb95e950d277171d46f353f9.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/6963521/the-furry-force-saves-and-disgusts-the-president">Furry Superheroes Get Even Grosser</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+											<div class="col-xs-6 col-md-4">
+	<div class="pod pod-post pod-medium pod-14 pod-video cf">
+		<article>
+			<a href="/video/6963287/science-explains-the-mystery-of-the-female-thigh-gap" class="thumb">
+				<img src="http://0.static.collegehumor.cvcdn.com/jument/images/placeholders/175x98.png" width="175" height="98" class="img-responsive lazy" alt="The Mystery of the Female Thigh Gap" data-src="http://2.media.collegehumor.cvcdn.com/76/19/1afc5b5d4c09d4802edbda6952f75d70.jpg" data-src-retina="http://0.media.collegehumor.cvcdn.com/76/19/927a0cdc64308bf8cc63cda1719302c7.jpg">
+			</a>
+			<div class="caption">
+				<h4><a href="/video/6963287/science-explains-the-mystery-of-the-female-thigh-gap">The Mystery of the Female Thigh Gap</a></h4>
+			</div>
+		</article>
+	</div>
+</div>																<!-- sponsored ad -->
+									</div>
+			</div>
+
+<p class="text-muted hide">Nothing found...</p></div>
+			</div>
+</div>
+		</div>
+	</div>
+	<footer class="site-footer">
+	<div class="container cf">
+		<div class="row">
+			<div class="col-md-6 col-sm-5 col-xs-5 left-side">
+				<ul class="social-links ga-feature-usage" data-ga-feature="Footer Social Links">
+					<li><a href="http://www.facebook.com/CollegeHumor" target="_blank"><span class="icon icon-facebook"></span></a></li>
+					<li><a href="http://www.twitter.com/CollegeHumor" target="_blank"><span class="icon icon-twitter"></span></a></li>
+					<li><a href="http://blog.collegehumor.com" target="_blank"><span class="icon icon-tumblr"></span></a></li>
+					<li><a href="http://www.youtube.com/CollegeHumor?sub_confirmation=1" target="_blank"><span class="icon icon-youtube"></span></a></li>
+				</ul>
+				<ul class="footer-links ga-feature-usage" data-ga-feature="Footer Links">
+					<li><a href="/about">About</a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/privacy">Privacy Policy</a></li>
+					<li><a href="/terms">Terms &amp; Conditions</a></li>
+					<li class="more-link"><a href="#">More &#43;</a></li>
+				</ul>
+				<ul class="footer-links more hide ga-feature-usage" data-ga-feature="Footer Links">
+					<li><a href="http://www.jest.com" target="_blank">Jest</a></li>
+					<li><a href="http://www.dorkly.com" target="_blank">Dorkly</a></li>
+					<li><a href="/sitemap">Site Map</a></li>
+					<li><a href="/sitemap/index">Site Index</a></li>
+					<li><a href="mailto:ads@collegehumor.com" target="_blank">Advertise</a></li>
+					<li><a href="http://iac.com/careers/job-listings" target="_blank">Jobs</a></li>
+				</ul>
+			</div>
+			<div class="col-md-5 col-sm-5 col-xs-5 right-side">
+				<div id="newsletter">
+					<form action="http://click.collegehumor.com/s" method="post" class="newsletter-form cf ga-feature-usage ga-target-self" data-ga-feature="Footer Newsletter">
+						<input type="hidden" name="redirect" value="http://www.collegehumor.com/newsletter-success"  />
+						<input type="hidden" name="template" value="CollegeHumor Double Opt-in Template"  />
+						<input type="hidden" name="vars[source]" value="Newsletter Page"  />
+						<div class="newsletter"><i></i>Newsletter Sign-Up</div>
+						<div class="newsletter-hidden">
+							<span class="message"></span>
+							<i id="envelope"></i>
+							<input type="text" id="email" name="email" value="">
+							<button type="submit"><i id="arrow"></i></button>
+						</div>
+					</form>
+				</div>
+				<div class="ad"><div id="div-gpt-ad-42652117"><script type="text/javascript">if(typeof(googletag) != "undefined") { googletag.cmd.push(function() { googletag.display("div-gpt-ad-42652117"); }); }</script></div></div>
+				<div class="site-copyright cf">CHMEDIA &copy;2014 Connected Ventures, LLC.<br>All Rights Reserved.
+				</div>
+			</div>
+			<div class="top-block">
+				<a href="#" class="scroll-to back-to-top ga-feature-usage ga-interaction ga-interaction-click-only" data-ga-feature="Scroll Top">Top</a>
 			</div>
 		</div>
 	</div>
-
-
-
-
-
-
-
-
-<div id="headerWrapper">
-
-<!-- div#headerBar - open -->
-    <div id="headerBar">
-        <div id="headerLogo">
-            <p><a href="/?ref=header" title="Home">The British Museum</a></p>
-            <img src="images/bmlogo_print.png" class="printOnly" alt="" />
-        </div>
-        
-        <!-- Global Menu -->
-        <div id="headerMenu" class="mobileMenus">
-            
-                    <ul class="clearfix">
-                        
-                
-                    <li>
-                        <div>
-                        <a href="/visiting.aspx?ref=header" id="Header1" title="Visiting"><span></span>Visiting</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/membership.aspx?ref=header" id="Header1030" title="Membership"><span></span>Membership</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/whats_on.aspx?ref=header" id="Header3" title="What's on"><span></span>What's on</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/support_us.aspx?ref=header" id="Header1014" title="Support us"><span></span>Support us</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/explore.aspx?ref=header" id="Header45" title="Explore"><span></span>Explore</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/channel.aspx?ref=header" id="Header32415" title="Channel"><span></span>Channel</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/research.aspx?ref=header" id="Header13" title="Research"><span></span>Research</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/blog.aspx?ref=header" id="Header33363" title="Blog"><span></span>Blog</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/learning.aspx?ref=header" id="Header20" title="Learning"><span></span>Learning</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/shop.aspx?ref=header" id="Header25" title="Shop"><span></span>Shop</a>
-                        </div>
-                    </li>
-                
-
-                    <li>
-                        <div>
-                        <a href="/about_us.aspx?ref=header" id="Header22" title="About us"><span></span>About us</a>
-                        </div>
-                    </li>
-                
-
-                    </ul>
-                
-        </div>
-
-        <!-- Site search -->
-        <form action='' id='NullForm'><div class='immediacyFix'> </div></form>
-        <form action='search_results.aspx' method='get' id='generalSearch'>
-        <div id="headerSearch">
-            <div class="search">
-                <label for="siteWideSearch" title="Search this site"><span>Search:</span></label>
-                <input id="siteWideSearch" class="txtBoxSmall marginRightSmall" type="text" name="searchText" />
-                <button type="submit" class="headerImageButton" title="Search the website" value="Go"><span>Search the website</span></button>
-                <div class="searchOptions">
-                    <a class="searchOptionsToggle" href="#">More search options</a>
-                    <ul>
-                        <li><a href="search_results.aspx" class="selected">Search the website<span></span></a></li>
-                        <li><a href="research/search_the_collection_database/search_results.aspx">Search the collection<span></span></a></li>
-                        <li><a href="http://britishmuseumshoponline.org/page/search">Search the shop<span></span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        </form>
-		
-        
-    </div>
-<!-- div#headerBar - close -->
-</div>
-
-
-
-                    
-                <!-- div#headerWrapper - close -->
-                
-                <!-- div#containerWrapper - Added In -->
-                <div id="containerWrapper">
-                   <!-- main body -->
-                    <div class="container">
-                            <div class="grid_12" id="mainContent">
-                                
-							
-                                
-<div class="grid_12 alpha omega">
-<h1 class="hideContent"><a href="/default.aspx">British Museum</a></h1>
-<div class="grid_4 alpha">
-<h1><a href="/visiting/admission_and_opening_times.aspx">Free, open daily<br />
-10.00&ndash;17.30<br />
-<span class="normal darkGrey asH2">Fridays until
-20.30</span></a></h1>
-<p><a href="/visiting/getting_here.aspx">Getting
-here<span>&nbsp;</span></a>&nbsp;<a href="/visiting/planning_your_visit.aspx">Plan your
-visit<span>&nbsp;</span></a></p>
-<ul class="languages">
-<li><a class="darkGrey" href="/visiting.aspx?lang=en">English</a></li>
-<li><a class="darkGrey" href="/visiting.aspx?lang=de">Deutsch</a></li>
-<li><a class="darkGrey" href="/visiting.aspx?lang=es">Espa&ntilde;ol</a></li>
-<li><a class="darkGrey" href="/visiting.aspx?lang=fr">Fran&ccedil;ais</a></li>
-<li><a class="darkGrey" href="/visiting.aspx?lang=it">Italiano</a></li>
-<li><a class="darkGrey" href="/visiting.aspx?lang=ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</a></li>
-<li><a class="darkGrey" href="/visiting.aspx?lang=zh-CHS">&#20013;&#25991;</a></li>
-<li><a class="darkGrey" href="/visiting.aspx?lang=ja">&#26085;&#26412;&#35486;</a></li>
-<li><a class="darkGrey" href="/visiting.aspx?lang=ko">&#54620;&#44397;&#50612;</a></li>
-</ul>
-<div class="hr">
-<hr /></div>
-<h2><a href="/blog.aspx">From the blog</a></h2>
-
-
-
-
-<div class="blogFeed">
-    
-    <ul>
-        
-
-                <li>        
-
-                      
-                      
-                <h3><a href="http://blog.britishmuseum.org/?p=7573">Sutton Hoo, treasure hunters and a lucky escape</a></h3>
-
-                    <p class="dateTime">
-
-                        <span class="date">26 March 2014</span> 
-
-                    </p>
-
-                    <p>
-                    Fifteen years ago I visited the British Museum as an undergraduate. As someone who&#8217;d most...
-                    </p>
-
-                    <p><a href="http://blog.britishmuseum.org/?p=7573">Read the full post<span>&nbsp;</span></a></p>
-                
-                </li>    
-
-    
-    </ul>
-</div>
-
-</div>
-
-
-<div class="grid_8 omega">
-        <script src="/javascripts/v2/jquery/plugins/jquery.cycle2.min.js" type="text/javascript"></script>
-
-        <script src="/javascripts/v2/jquery/plugins/jquery.cycle2.swipe.min.js" type="text/javascript"></script>
-
-        <script src="/javascripts/v2/jquery/plugins/jquery.easing.1.3.js" type="text/javascript"></script>
-
-
-<div class="cycle-slideshow" 
-    data-cycle-fx=scrollHorz
-    data-cycle-timeout=4000
-    data-cycle-pager="#no-template-pager"
-    data-cycle-pause-on-hover="true"
-    data-cycle-pager-template=""
-    data-cycle-easing="easeOutQuart"
-    data-cycle-pager-event="mouseenter"
-    data-cycle-allow-wrap="false"
-    data-cycle-speed="1000"
-    data-cycle-swipe="true"
-    data-cycle-slides="> div"
-    >
-    
-   
-<div><a href="/whats_on/exhibitions/vikings.aspx"><img src="/images/sword-and-sea_624x351.jpg"></a></div> 
- 
-    <div><a href="/whats_on/exhibitions/ancient_lives.aspx"><img src="/images/mummy_624x351.jpg"></a></div>
-     <div><a href="/whats_on/exhibitions/vikings/vikings_live.aspx"><img src="/images/leadimage_624x351.jpg"></a></div><div><a href="/whats_on/exhibitions/ming.aspx"><img src="/images/ming_624x351.jpg"></a></div>
-
-</div>  
-        
-<div id=no-template-pager class="cycle-pager external">
-
-    <li class="slide-box"><a href="/whats_on/exhibitions/vikings.aspx">The Vikings are here!</a></li>
-
-    <li class="slide-box"><a href="/whats_on/exhibitions/ancient_lives.aspx">Eight mummies, eight lives, eight stories</a></li><li class="slide-box"><a href="/whats_on/exhibitions/vikings/vikings_live.aspx">Vikings Live showing at your local cinema on 24 April</a></li>
-    <li class="slide-box"><a href="/whats_on/exhibitions/ming.aspx">Ming: 50 years that changed China</a></li>
-
-</div>
-</div>
-
-</div>
-<div class="grid_12 alpha omega mid">
-<div class=hr>
-<HR>
-</div>
-<div class="grid_4 alpha"><a href="/whats_on/exhibitions/vikings.aspx"><img title="The BP exhibition Vikings: life and legend" alt="Brooch shaped like a ship, 800&#8211;1050, Denmark. Copper alloy.&#169; The National Museum of Denmark" src="/images/shipbrooch_green.jpg"></a> 
-<div class=contentBlock>
-<p class="pullOut white">The BP exhibition</p>
-<h2 style="MARGIN-TOP: 0px"><a href="/whats_on/exhibitions/vikings.aspx">Vikings<BR>life and legend</a></h2>
-<ul class=icons>
-<li class="icon video"><a href="/whats_on/exhibitions/vikings.aspx">Watch the promo video</a> </li></ul>
-<p><a href="/whats_on/exhibitions/vikings/about.aspx">About the exhibition<SPAN>&nbsp;</SPAN></a><BR></p>
-<ul>
-<li><a href="/whats_on/exhibitions/vikings/events.aspx">Events programme<SPAN>&nbsp;</SPAN></a><BR>
-<li><a href="/whats_on/exhibitions/vikings/products.aspx">Related products<SPAN>&nbsp;</SPAN></a> </li></ul></div>
-<div class=contentBlock>
-<div class=immediacyFix></div>
-<div class="cta smallButton color nogap"><a href="http://www.britishmuseumshoponline.org/invt/mexviking#book-now">Book online<SPAN>&nbsp;</SPAN></a><BR></div>
-<div class="cta smallButton nogap"><a href="/whats_on/exhibitions/vikings/tickets.aspx">More info<SPAN>&nbsp;</SPAN></a></div></div></div>
-<div class=grid_4>
-
-
-
-<ul class="tiles">
-
-    <li class="tile-1">
-        <a href="http://www.britishmuseum.org/explore/highlights/highlight_objects/cm/s/anlaf_guthfrithsson_penny.aspx">
-            <img alt="Viking coin with pagan imagery" src="/images/viking_coin_148x148.jpg"/> 
-            <p>
-                Viking coin with pagan imagery<br />
-            </p>
-        </a>
-    </li>
-
-    <li class="tile-2">
-        <a href="http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=63842&partId=1 ">
-        <img alt="Stone trial piece of slate, decorated with carving in the Irish Urnes Style" src="/images/AN01196634_148x148.jpg"/>
-            <p>
-                Stone trial piece of slate, decorated with carving in the Irish Urnes Style
-            </p>
-        </a>
-    </li>
-
-    <li class="tile-3">
-        <a href="http://www.britishmuseum.org/explore/highlights/highlight_objects/pe_mla/t/the_lewis_chessmen.aspx ">
-            <img alt="The Lewis Chessmen" src="/images/warder_148x148.jpg"/>
-            <p>
-                The Lewis Chessmen<br />
-            </p>
-        </a>
-    </li>
-
-    <li class="tile-4">
-        <a href="http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3511032&partId=1">
-            <img alt="Anglo-Saxon disc brooch" src="/images/shield_148x148.jpg"/> 
-            <p>
-                Anglo-Saxon disc brooch<br />
-            </p>
-        </a>
-    </li>
-</ul>
-
-
-
-
-<h2>
-    <a href="http://britishmuseum.org/research/collection_online.aspx">Collection online</a>
-</h2>
-
-<p>Search over 3,500,000 objects from the Museum collection.</p>
-
-<div class="cta smallButton nogap top">
-    <a href="http://britishmuseum.org/research/collection_online.aspx">Search collection online<SPAN>&nbsp;</SPAN></a>
-</div>
-
-<div class="cta smallButton"><a href="/explore.aspx">Search highlight objects<SPAN>&nbsp;</SPAN></a></div>
-
-    <script type="text/javascript">
-            $('.tiles li').mouseenter(function() {
-                $(this).addClass('tile-over');    
-            });            
-            $('.tiles li').mouseleave(function() {
-                $(this).removeClass('tile-over');   
-            });
-    </script>
-
-
-</div>
-<div class="grid_4 omega"><a href="/whats_on/exhibitions/germany_divided.aspx"><img alt="Ein neuer Typ" src="/images/ein_neuer_typ_304x171.jpg"></a> 
-<div class=contentBlock>
-<H3><a href="/whats_on/exhibitions/germany_divided.aspx">Germany divided: Baselitz and his generation</a></H3>
-<p class="pullOut lightGrey">Until 31 August 2014<BR><SPAN class=highlight>Free</SPAN></p></div>
-<div class=contentBlock>
-<H3><a href="/whats_on/exhibitions/wise_men_from_the_east.aspx">Wise men from the east: Zoroastrian traditions in Persia and beyond</a></H3>
-<p class="pullOut lightGrey">Until 27 April 2014<BR><SPAN class=highlight>Free</SPAN></p></div>
-<div class=contentBlock>
-<H3><a href="/whats_on/exhibitions/picasso_linocuts.aspx">Recent acquisitions: two sets of Picasso linocuts</a></H3>
-<p class="pullOut lightGrey">Until 6 May 2014<BR><SPAN class=highlight>Free</SPAN></p></div></div>
-<div class=hr>
-<HR>
-</div></div>
-<div class="grid_12 alpha omega">
-<div class="grid_3 alpha"><a href="/membership.aspx"><img alt="Membership" src="/images/v2/placeholders/grid3-1.jpg"></a> 
-<h2><a href="/membership.aspx">Membership</a></h2>
-<p>Become a Member and enjoy exclusive benefits<BR>Only &#163;50 with Direct Debit</p>
-<div class="cta smallButton nogap"><a href="http://www.britishmuseumshoponline.org/icat/memjoin">Join now<SPAN>&nbsp;</SPAN></a></div>
-<div class="cta smallButton nogap"><a href="http://www.britishmuseumshoponline.org/icat/memgift">Give as a gift<SPAN>&nbsp;</SPAN></a></div></div>
-<div class=grid_3><a href="/explore/young_explorers1.aspx"><img alt="Samsung Digital Discovery Centre &#169; Benedict Johnson" src="/images/samsung_homepage_224x123.jpg"></a> 
-<h2><a href="/explore/young_explorers1.aspx">Kids</a></h2>
-<p>Free trails, workshops and activities for family visits<BR><a href="/visiting/family_visits.aspx">Visits<SPAN>&nbsp;</SPAN></a> <a href="/visiting/family_visits/family_events_calendar.aspx">Events<SPAN>&nbsp;</SPAN></a></p>
-<p>Explore world history and cultures<BR><a href="/explore/young_explorers/play/all_games.aspx">Games<SPAN>&nbsp;</SPAN></a> <a href="/explore/young_explorers/discover/videos.aspx">Videos<SPAN>&nbsp;</SPAN></a> <a href="/explore/young_explorers/create.aspx">Activities<SPAN>&nbsp;</SPAN></a></p>
-<p><a href="/learning/samsung_centre.aspx">Samsung Digital Discovery<BR>Centre<SPAN>&nbsp;</SPAN></a></p></div>
-<div class=grid_3><a href="http://blog.britishmuseum.org/"><img alt="Excavation in Sudan" src="/images/v2/placeholders/grid3-3.jpg"></a> 
-<h2><a href="http://blog.britishmuseum.org/">Blog</a></h2>
-<p>Hear from curators, conservators, scientists and more with a unique view from behind the scenes</p>
-<p><a href="http://blog.britishmuseum.org/">Read the British Museum blog<SPAN>&nbsp;</SPAN></a></p></div>
-<div class="grid_3 omega">
-<div class="shop">       
-    <div class="cycle-shop-nav">
-        <div id="prevs"><a href="#">prev</a></div> 
-        <div id="nexts"><a href="#">next</a></div>
-     </div>
-    <div class="locayta-zone" lmzone="bm" >
-        <a href="http://britishmuseumshoponline.org/"><img alt="British Museum shop" src="/images//shop_homepage_2.jpg"></a>                    
-        <h2>British Museum Shop</h2>
-        <p>A range of products available from the online shop</p>                    
-    </div>           
-</div>          
-<script src="//esp.locayta.com/zones/fb23e0e7-1ab3-450d-87b0-8e507d238637.js" type="text/javascript"></script>
-                
-<script type="text/javascript">        
-$(document).ready(function(){
-    document.wspeed = 800;
-    if (jQuery.browser.msie) document.wspeed = 1;
-    if( typeof( LM ) == 'undefined' ) LM = {};
-     
-    LM.complete(function() {            
-        $('.locayta-zone ul').cycle({
-        slides: ">li",
-        timeout:0,
-        allowWrap:"true",
-        speed:document.wspeed,
-        prev:"#prevs",
-        next:"#nexts"
-        });
-        $('.cycle-shop-nav').show();
-        $('.cycle-slide-active').css('display', 'block');
-    });
-});        
-</script>
-
-
-<script type="text/javascript">
-    $('.cycle-slideshow').mousedown(function() {
-        pageTracker._trackEvent("Homepage", "Clicked Carousel Main Image");        
-    });
-    
-    $('.slide-box').mousedown(function() {
-        pageTracker._trackEvent("Homepage", "Clicked Carousel Thumbnail Image");            
-    });
-    
-    $('.tiles').mousedown(function() {
-        pageTracker._trackEvent("Homepage", "Clicked Object Tile");         
-    });
-</script>
-
-
-</div>
-<div class=hr>
-<HR>
-</div></div>
-<div class="grid_12 alpha omega">
-<div class="grid_3 alpha"><a href="/support_us.aspx"><img alt="Support the Museum" src="/images/support_us_224.jpg"></a> 
-<h2><a href="/support_us.aspx">Support us</a></h2>
-<p>Support ongoing work at the British Museum</p>
-<div class=contentBlock>
-<div class=immediacyFix></div>
-<p><a href="/support_us/corporate_partnerships.aspx">Corporate partnerships<SPAN>&nbsp;</SPAN></a><BR><a href="/support_us/corporate_partnerships/sponsorship_opportunities.aspx">Sponsorship<SPAN>&nbsp;</SPAN></a></p></div>
-<div class="cta smallButton nogap top"><a href="/support_us/ways_of_giving/make_a_donation.aspx">Donate online now<SPAN>&nbsp;</SPAN></a></div>
-<p>&nbsp;</p></div>
-<div class=grid_3><a href="/learning/schools_and_teachers.aspx"><img alt="Schools" src="/images/v2/placeholders/grid3-2.jpg"></a> 
-<h2><a href="/learning/schools_and_teachers.aspx">Schools</a></h2>
-<p>Bring past and present cultures to life with the schools team</p>
-<p><a href="/learning/schools_and_teachers/sessions.aspx">2013&#8211;14 sessions online now<SPAN>&nbsp;</SPAN></a></p>
-<p><a href="/learning/schools_and_teachers.aspx">Resources and more information for teachers<SPAN>&nbsp;</SPAN></a></p></div>
-<div class=grid_3><a href="/about_us/the_museums_story/new_centre.aspx"><img alt="World Conservation and Exhibitions Centre" src="/images/WCEC_224.jpg"></a> 
-<h2><a href="/about_us/the_museums_story/new_centre.aspx">New centre</a></h2>
-<p>World class facilities for visitors, staff and the collection</p>
-<p><a href="/about_us/the_museums_story/new_centre.aspx">World Conservation and Exhibitions Centre: opening in 2014<SPAN>&nbsp;</SPAN></a></p></div>
-<div class="grid_3 omega"><a href="/about_us/services.aspx"><img alt="Services" src="/images/Services_224.jpg"></a> 
-<h2><a href="/about_us/services.aspx"></a><a href="/about_us/services.aspx">Services</a></h2>
-<p><a href="/about_us/services/conferences_and_venue_hire.aspx">Conferences and venue hire<SPAN>&nbsp;</SPAN></a><BR><a href="/support_us/corporate_partnerships/event_spaces.aspx">Corporate entertaining<BR>and events<SPAN>&nbsp;</SPAN></a><BR><a href="/about_us/services/film_and_radio.aspx">Filming<SPAN>&nbsp;</SPAN></a><BR><a href="http://www.bmimages.com/index.asp">Picture library<SPAN>&nbsp;</SPAN></a><BR><a href="/about_us/news_and_press.aspx">Press office<SPAN>&nbsp;</SPAN></a><BR><a href="/about_us/services.aspx">More Museum services<SPAN>&nbsp;</SPAN></a></p></div>
-<div class=hr>
-<HR>
-</div></div>
-
-
-
-<div class="grid_12 alpha omega">
-<h2><a href="/whats_on/events_calendar.aspx">Highlight events</a></h2>
-    
-
-                <div class="grid_2 alpha">
-                    <a href="/whats_on/events_calendar/event_detail.aspx?eventId=1368&title=Georg Baselitz&eventType=Lecture">
-
-                        <img src="images/events/1368_1500_Georg_Baselitz_301x171.jpg?maxwidth=144" width="144" />
-
-                    
-                    </a>
-                    
-                    <h4><a href="/whats_on/events_calendar/event_detail.aspx?eventId=1368&title=Georg Baselitz&eventType=Lecture">Georg Baselitz</a></h4>
-                    <p>Friday 11 April,<br />
-                    18.30 / Lecture </p>
-                </div>                   
-         
-    
-
-                <div class="grid_2">
-                    <a href="/whats_on/events_calendar/event_detail.aspx?eventId=1434&title=The divided self&eventType=Special event">
-
-                        <img src="images/events/generic/1080x620_SpecialEvent.jpg?maxwidth=144" width="144" />
-
-                    
-                    </a>
-                    
-                    <h4><a href="/whats_on/events_calendar/event_detail.aspx?eventId=1434&title=The divided self&eventType=Special event">The divided self</a></h4>
-                    <p>Friday 11 April,<br />
-                    19.00 / Special event </p>
-                </div>                   
-         
-    
-
-                <div class="grid_2">
-                    <a href="/whats_on/events_calendar/event_detail.aspx?eventId=1333&title=Here come the Vikings!&eventType=Late">
-
-                        <img src="images/events/generic/1080x620_Late.jpg?maxwidth=144" width="144" />
-
-                    
-                    </a>
-                    
-                    <h4><a href="/whats_on/events_calendar/event_detail.aspx?eventId=1333&title=Here come the Vikings!&eventType=Late">Here come the Vikings!</a></h4>
-                    <p>Friday 9 May,<br />
-                    18.15 / Late </p>
-                </div>                   
-         
-    
-
-                <div class="grid_2">
-                    <a href="/whats_on/events_calendar/event_detail.aspx?eventId=1344&title=Icelandic sagas&eventType=Lecture">
-
-                        <img src="images/events/1344_1490_Icelandic_sagas_304x171.jpg?maxwidth=144" width="144" />
-
-                    
-                    </a>
-                    
-                    <h4><a href="/whats_on/events_calendar/event_detail.aspx?eventId=1344&title=Icelandic sagas&eventType=Lecture">Icelandic sagas</a></h4>
-                    <p>Friday 30 May,<br />
-                    19.00 / Lecture </p>
-                </div>                   
-         
-    
-
-                <div class="grid_2">
-                    <a href="/whats_on/events_calendar/event_detail.aspx?eventId=1332&title=Anglo-Saxon and Viking&nbsp;ship burial&eventType=Lecture">
-
-                        <img src="images/events/generic/1080x620_Lecture.jpg?maxwidth=144" width="144" />
-
-                    
-                    </a>
-                    
-                    <h4><a href="/whats_on/events_calendar/event_detail.aspx?eventId=1332&title=Anglo-Saxon and Viking&nbsp;ship burial&eventType=Lecture">Anglo-Saxon and Viking&nbsp;ship burial</a></h4>
-                    <p>Friday 6 June,<br />
-                    18.30 / Lecture </p>
-                </div>                   
-         
-</div>
-</div>
-								
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <!-- end of main body -->
-                </div>
-                <!-- div#containerWrapper - Added In -->
-            </div>
-            <!-- wrapper-inner -->
-        </div>
-        <!-- wrapper -->
-        
-        
-
-<!-- div.footer - open -->
-        <div id="footer">
-			
-            <div id="footer-inner" class="clearfix"> 
-            
-                <div class="grid_8 alpha">
-                
-                    <div class="enewsletter">
-                        <h3 class="type14px plain margin0pxAll">Enewsletter sign up</h3>
-
-
-                        <form action="//BritishMuseum/" method="post" id="enewsNullForm-footer"></form>
-                        <form method="post"  class="margin16pxB grid_8 alpha omega" id="signupform-footer" action="http://www.pages04.net/thebritishmuseumcompany/Welcome/Master_OptIn"  >
-							<input type="text" name="Email" id="email" value="Enter email" />
-							<input type="submit" class="button" value="Sign up" />
-							<input type="hidden" name="optin_giftshop" id="control_COLUMN106" value="Yes" />
-							<input type="hidden" name="optin_whatson" id="control_COLUMN105" value="Yes" />
-							<input type="hidden" name="source" id="control_COLUMN46" value="3" />
-							<input type="hidden" name="formSourceName" value="StandardForm" />
-						</form>
-
-						
-                    </div>    
-                    <div class="shareHomepage clear">           
-                    <h3 class="type14px plain margin0pxAll pad12pxT">Follow the British Museum</h3>
-                    <ul class="followLinks">
-                        <li class="facebook"><a href="http://www.facebook.com/britishmuseum" title="Facebook"><span>Facebook</span></a></li>
-                        <li class="twitter"><a href="http://twitter.com/britishmuseum" title="Twitter"><span>Twitter</span></a></li>
-                        <li class="youtube"><a href="http://www.youtube.com/user/britishmuseum" title="YouTube"><span>YouTube</span></a></li>
-                        <li class="flickr"><a href="http://www.flickr.com/photos/britishmuseum" title="Flickr"><span>Flickr</span></a></li>
-                        <li class="blog"><a href="http://blog.britishmuseum.org/feed" title="Blog"><span>Blog</span></a></li>
-                        
-                    </ul>
-                    <div class="twitterFollow">
-                    
-                    
-                    </div>
-                    
-
-                    </div>
-                    
-                </div>
-                <div class="grid_4 omega">
-                    
-                        
-                                <ul class="footerLinks">
-                                
-                            
-                                <li><a href="/about_this_site/footer_components/contact_us.aspx" title="Contact us">Contact us</a></li>
-                            
-
-                                <li><a href="/about_this_site/footer_components/accessibility.aspx" title="Accessibility">Accessibility</a></li>
-                            
-
-                                <li><a href="/about_this_site/footer_components/site_map.aspx" title="Site map">Site map</a></li>
-                            
-
-                                <li><a href="/about_this_site/footer_components/terms_of_use.aspx" title="Terms of use">Terms of use</a></li>
-                            
-
-                                <li><a href="/about_this_site/footer_components/cookies.aspx" title="Cookies">Cookies</a></li>
-                            
-
-                                <li><a href="/about_this_site/footer_components/faqs.aspx" title="FAQs">FAQs</a></li>
-                            
-
-                                    <li class="externalSites language"><a href="http://www.lvyou168.cn/travel/uk/Britishmuseum/index.html" title="Go to the Chinese version of the British Museum website">Chinese site <span class="normal" lang="ch">&#20013;&#25991;</span></a></li>
-                                    <li class="language"><a href="http://arabic.britishmuseum.org/" title="Go to the Arabic version of the British Museum website">Arabic site <span class="normal" lang="ar">&#1575;&#1604;&#1606;&#1587;&#1582;&#1577; &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</span></a></li> 
-                                    <li><a href="http://www.finds.org.uk/" title="Portable Antiquities Scheme">Portable Antiquities Scheme</a></li>
-									<li><a href="mobileSwitcher.aspx?type=mobile">Mobile site</a></li>
-                                </ul>
-                            
-                    
-                    
-                    <div class="grid_4 alpha margin32pxT pad36pxT">
-                        <span id="copyright">&copy; Trustees of the British Museum</span>
-                    </div>
-                </div>
-              
-            </div>
-			
-        </div>
-        <!-- div.footer - close -->
-
-
-
-
-        
-        
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-	var gaJsHost = (('https:' == document.location.protocol) ? 'https://ssl.' : 'http://www.');
-	document.write(unescape('%3Cscript src="' + gaJsHost + 'google-analytics.com/ga.js" type="text/javascript"%3E%3C/script%3E'));
-</script>
-
-<script type="text/javascript">
-	var pageTracker = _gat._getTracker("UA-1005261-1");
-	pageTracker._setDomainName("none");
-	pageTracker._setAllowLinker(true);
-	pageTracker._initData();
-	pageTracker._trackPageview();
-</script>
-
-
-<!-- AKA marketing analytics -->
-
-<script type="text/javascript">
-var versaTag = {};
-    versaTag.id = "258";
-    versaTag.sync = 0;
-    versaTag.dispType = "js";
-    versaTag.ptcl = "HTTPS";
-    versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
-    versaTag.activityParams = {"OrderID":"","Session":"","Value":"","productid":"","productinfo":"","tp_Quantity":""};
-    versaTag.retargetParams = {}; //Static retargeting tags parameters.
-    versaTag.dynamicRetargetParams = {}; //Dynamic retargeting tags parameters.
-    versaTag.conditionalParams = {}; //Third party tags conditional parameters.    
-</script>
-
-<script id="ebOneTagUrlId" src="https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js" type="text/javascript"></script>
-
-<noscript>
-<iframe src="https://bs.serving-sys.com/BurstingPipe?
-cn=ot&amp;
-onetagid=258&amp;
-ns=1&amp;
-activityValues=$$
-Value=[Value]0&amp;
-OrderID=[OrderID]0&amp;
-ProductID=[ProductID]&amp;
-ProductInfo=[ProductInfo]&amp;
-tp_Quantity=[Quantity]&amp;$$&amp;
-retargetingValues=$$&amp;
-dynamicRetargetingValues=$$&amp;
-acp=$$$$&amp;"
-style="display:none;width:0px;height:0px"></iframe>
-</noscript>
-
-
-
-</body>
+</footer>	<div class="hide">
+	<script>
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+	<!-- Begin comScore Tag -->
+	<script>document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script>
+	<script>
+	COMSCORE.beacon({
+		c1:2,
+		c2:6511178,
+		c3:"",
+		c4:"",
+		c5:"",
+		c6:"",
+		c15:""
+	});
+	</script>
+	<noscript><img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6511178&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" width="0" height="0" alt=""></noscript>
+	<!-- End comScore Tag -->
+
+	<!-- Start Quantcast tag -->
+	<script src="http://edge.quantserve.com/quant.js"></script>
+	<script>_qacct="p-95EV338Ps8Si6";quantserve();</script>
+	<noscript>
+	<a href="http://www.quantcast.com/p-95EV338Ps8Si6"><img src="http://pixel.quantserve.com/pixel/p-95EV338Ps8Si6.gif" height="1" width="1" alt="Quantcast"></a>
+	</noscript>
+	<!-- End Quantcast tag -->
+
+	<!-- Compete XL Code for collegehumor.com -->
+	<script>
+		__compete_code = 'c7fc4ffea17061ffb3e2c0bfb1424e48';
+		/* Set control variables below this line. */
+	</script>
+	<script src="//c.compete.com/bootstrap/s/c7fc4ffea17061ffb3e2c0bfb1424e48/collegehumor-com/bootstrap.js"></script>
+	<noscript><img src="https://ssl-collegehumor-com-c7fc4f.c-col.com" width="1" height="1" alt=""></noscript>
+
+	<!-- Exelator -->
+	<script src="http://loadus.exelator.com/load/?p=424&amp;g=001&amp;c=285365&amp;kw=&amp;refkw="></script>
+
+	<!-- START Parse.ly Include: Standard -->
+	<div id="parsely-root" style="display: none">
+		<div id="parsely-cfg" data-parsely-site="collegehumor.com"></div>
+	</div>
+	<script>
+
+	(function(s, p, d) {
+		var h=d.location.protocol, i=p+"-"+s,
+			e=d.getElementById(i), r=d.getElementById(p+"-root"),
+			u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+			:"static."+p+".com";
+		if (e) return;
+		e = d.createElement(s); e.id = i; e.async = true;
+		e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+	})("script", "parsely", document);
+	</script>
+	<!-- END Parse.ly Include -->
+	
+</div>	<script type="text/javascript" src="http://1.static.collegehumor.cvcdn.com/js/packages/2db151cb86c23d6e6cacfdf24a75c560.js"></script>
+	
+			<div id="fb-root"></div>
+<script>
+	// setting facebook comment to take the width of the browser when we are on small device
+	$( document ).ready(function() {
+		var $browser_width = $( window ).width();
+		if($browser_width >= 600){ 
+			$browser_width = 600;
+		}
+		$('.fb-comments').attr('data-width',$browser_width - 30);
+	});
+
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId: 271750421132, 
+			status: true, 
+			cookie: true, 
+			oauth : true, 
+			xfbml: true
+		});
+		$('body').trigger('fbinit');
+	};
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>	
+			</body>
 </html>

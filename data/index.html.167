@@ -1,344 +1,346 @@
-<!DOCTYPE html>
-<!--[if IE 7]>
-<html id="ie7" lang="en">
-<![endif]-->
-<!--[if IE 8]>
-<html id="ie8" lang="en">
-<![endif]-->
-<!--[if !(IE 6) | !(IE 7) | !(IE 8)]><!-->
-<html lang="en">
-<!--<![endif]-->
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width" />
-<title>Synthr&#111;&#105;d C&#111;st C&#111;stc&#111; | Synthr&#111;&#105;d Onl&#105;n&#101; N&#111; Scr&#105;pt</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="http://ezequielbrookssen.wordpress.com/xmlrpc.php" />
-<!--[if lt IE 9]>
-<script src="http://s0.wp.com/wp-content/themes/pub/chateau/js/html5.js?m=1315596887g" type="text/javascript"></script>
-<![endif]-->
-<link rel="alternate" type="application/rss+xml" title="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111; &raquo; Feed" href="http://ezequielbrookssen.wordpress.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111; &raquo; Comments Feed" href="http://ezequielbrookssen.wordpress.com/comments/feed/" />
-<script type="text/javascript">
-/* <![CDATA[ */
-function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
-/* ]]> */
-</script>
-<link rel='stylesheet' id='all-css-0' href='http://s2.wp.com/_static/??-eJyNkdFOQyEMhl9IbObmohfGZ+FABc4KJRRysrcf50zjzJR4RVv+r/0psGRlOFVMFWJTmZoLSUBiIDznwjOa+jN7NCIP8DtG4YQCM9aszUlt2Z18InbfADuHlltVH0zECyzBOhzOMFyw12PWdVVEtEEjYeyyERbz8YtaQ98N3nurvvcRyG0C43VF3UDqmfA/wpDMVayW3AeNvBRcl9BDB111k46gzNK3RDoUEK/LCn+eI8phwhL6xW3413P8ARzxpGnU8fpDsjl3zLagtlvH9/i2278eD/uXp93zfAG9eOIc' type='text/css' media='all' />
-<link rel='stylesheet' id='print-css-0' href='http://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1387483371g' type='text/css' media='print' />
-<script type='text/javascript'>
-/* <![CDATA[ */
-var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://s2.wp.com/_static/??-eJyFjd0KwjAMRl/IrDjRsQvxWfaTldS2qU1r0ae3goKisKuE5HzfUSXAxD6hT8qIcjySRciCcdD1BuQXboxsVOXITzbPKE/QXDLG22usAuBIxyFh48i/4Q9rYEkORaryz/dbRf5KWFYxgykM0xkiCt1/WkfLGoLNmryoumucOSdY2FouqtCsMdXMyR23u35/6Lq+bc0DPblvwA=='></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ezequielbrookssen.wordpress.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ezequielbrookssen.wordpress.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress.com" />
-<link rel='shortlink' href='http://wp.me/3xBr9' />
 
-<!-- Jetpack Open Graph Tags -->
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;" />
-<meta property="og:description" content="Synthr&#111;&#105;d Onl&#105;n&#101; N&#111; Scr&#105;pt" />
-<meta property="og:url" content="http://ezequielbrookssen.wordpress.com/" />
-<meta property="og:site_name" content="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;" />
-<meta property="og:image" content="http://wordpress.com/i/blank.jpg?m=1383295312g" />
-<meta name="twitter:site" content="@wordpressdotcom" />
-<meta property="fb:app_id" content="249643311490" />
-<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
-<link rel="shortcut icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1311975824g" sizes="16x16 24x24 32x32 48x48" />
-<link rel="icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1311975824g" sizes="16x16 24x24 32x32 48x48" />
-<link rel="apple-touch-icon-precomposed" href="http://s0.wp.com/i/webclip.png?m=1391188133g" />
-<link rel='openid.server' href='http://ezequielbrookssen.wordpress.com/?openidserver=1' />
-<link rel='openid.delegate' href='http://ezequielbrookssen.wordpress.com/' />
-<link rel="search" type="application/opensearchdescription+xml" href="http://ezequielbrookssen.wordpress.com/osd.xml" title="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;" />
-<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
-	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-		<style type="text/css">
-			.recentcomments a {
-				display: inline !important;
-				padding: 0 !important;
-				margin: 0 !important;
-			}
 
-			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
-				border: 0px;
-				margin: 0;
-			}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
-				border: 0px !important;
-				background-color: transparent !important;
-			}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	AbsoluteAstronomy.com
+</title>
+    <meta name="Description" content="AbsoluteAstronomy.com: Exploring the universe of knowledge" />
+<link rel="Stylesheet" href="/styles.css" type="text/css" />
+    <script type="text/javascript" src="/scripts.js"></script>
+    <script type="text/javascript" src="/scriptsAjax.js"></script>
 
-			td.recentcommentsavatarend, td.recentcommentsavatartop {
-				padding: 0px 0px 1px 0px;
-				margin: 0px;
-			}
-
-			td.recentcommentstextend {
-				border: none !important;
-				padding: 0px 0px 2px 10px;
-			}
-
-			.rtl td.recentcommentstextend {
-				padding: 0px 10px 2px 0px;
-			}
-
-			td.recentcommentstexttop {
-				border: none !important;
-				padding: 0px 0px 0px 10px;
-			}
-
-			.rtl td.recentcommentstexttop {
-				padding: 0px 10px 0px 0px;
-			}
-		</style>
-		<meta name="application-name" content="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Synthr&#111;&#105;d Onl&#105;n&#101; N&#111; Scr&#105;pt" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://ezequielbrookssen.wordpress.com/feed/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111; on WordPress.com" />
-<meta name="description" content="Synthr&#111;&#105;d Onl&#105;n&#101; N&#111; Scr&#105;pt" />
-<style type="text/css" id="syntaxhighlighteranchor"></style>
 </head>
+<body>
+    <form method="post" action="" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTg1ODAyODc1MQ9kFgJmD2QWAgIDD2QWBgIBDw8WAh4ISW1hZ2VVcmwFNGh0dHA6Ly93d3cuYWJzb2x1dGVhc3Ryb25vbXkuY29tL2ltYWdlcy9sb2dvbWFpbi5naWZkZAIDDxYCHglpbm5lcmh0bWwFzwINCiAgICAgICAgICAgICAgICAgICAgPHNwYW4+PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDs8YSBjbGFzcz0iYmxhY2tsaW5rMiIgaHJlZj0iaHR0cDovL3d3dy5hYnNvbHV0ZWFzdHJvbm9teS5jb20vc2lnbnVwLmFzcHgiPlNpZ251cDwvYT4NCiAgICAgICAgICAgICAgICAgICAgJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7PGEgY2xhc3M9ImJsYWNrbGluazIiIGhyZWY9Imh0dHA6Ly93d3cuYWJzb2x1dGVhc3Ryb25vbXkuY29tL2xvZ2luLmFzcHgiPkxvZ2luPC9hPg0KICAgICAgICAgICAgICAgIGQCBQ8WAh4FY2xhc3MFCEdyYXlUYWJzFgoCAQ8PFgIeC05hdmlnYXRlVXJsBSBodHRwOi8vd3d3LmFic29sdXRlYXN0cm9ub215LmNvbRYCHwIFBmFjdGl2ZWQCAw8PFgIfAwUwaHR0cDovL3d3dy5hYnNvbHV0ZWFzdHJvbm9teS5jb20vZGlzY3Vzc2lvbi5hc3B4ZGQCBQ8PFgIfAwUuaHR0cDovL3d3dy5hYnNvbHV0ZWFzdHJvbm9teS5jb20vaW5kZXgvcGFnZXMvMWRkAgcPDxYCHwMFMGh0dHA6Ly93d3cuYWJzb2x1dGVhc3Ryb25vbXkuY29tL2RpY3Rpb25hcnkuYXNweGRkAgkPDxYCHwMFLWh0dHA6Ly93d3cuYWJzb2x1dGVhc3Ryb25vbXkuY29tL2FsbWFuYWMuYXNweGRkZIQdekbRxQePxxnhRhXVRhrPw5sgBr8JAv42rNIv/+wy" />
 
-<body class="home blog mp6 two-column sidebar-content no-svg highlander-enabled highlander-light">
-<div id="page" class="hfeed">
-		<div id="page-inner">
-		<header id="branding" role="banner">
-			<nav id="menu" role="navigation">
-				
-			</nav><!-- end #menu -->
+    <div class="GenericBox" style="width:100%;padding-left:10px;padding-top:20px;"> 
+        <div style="width:985px;margin-left: auto; margin-right: auto;padding-right:20px;padding-bottom:3px;">
+            
+            <div class="GenericBox" style="width:985px;">
+                <div class="GenericBox" style="width:250px;">
+                    <a href="http://www.absoluteastronomy.com"><img id="LogoMain" src="http://www.absoluteastronomy.com/images/logomain.gif" /></a>
+                </div>
+                <div id="UserInfo" class="GenericBox" style="text-align:right;width:710px;padding-right:20px">
+                    <span></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="blacklink2" href="http://www.absoluteastronomy.com/signup.aspx">Signup</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="blacklink2" href="http://www.absoluteastronomy.com/login.aspx">Login</a>
+                </div>
+            </div>
+            <div class="GenericBox" style="width:985px;">
+                <ul id="MainTabs" class="GrayTabs">
+                    <li><a id="btnHome" class="active" href="http://www.absoluteastronomy.com">HOME</a></li>
+                    <li><a id="btnDiscussion" class="inactive" href="http://www.absoluteastronomy.com/discussion.aspx">DISCUSSION</a></li>
+                    <li><a id="btnTopics" class="inactive" href="http://www.absoluteastronomy.com/index/pages/1">TOPICS</a></li>
+                    <li><a id="btnDictionary" class="inactive" href="http://www.absoluteastronomy.com/dictionary.aspx">DICTIONARY</a></li>
+                    <li><a id="btnAlmanac" class="inactive" href="http://www.absoluteastronomy.com/almanac.aspx">ALMANAC</a></li>
+                </ul>
+            </div>
+            <div class="spacer" style="height:30px;">&nbsp;</div>
+            <div>
+                
 
-			<div id="main-title">
-				<hgroup>
-					<h1 id="site-title"><a href="http://ezequielbrookssen.wordpress.com/" title="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;" rel="home">Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;</a></h1>
-												<h2 id="site-description">~ Synthr&#111;&#105;d Onl&#105;n&#101; N&#111; Scr&#105;pt</h2>
-									</hgroup>
-			</div><!-- end #main-title -->
+    <script type="text/javascript" src="swfobject.js"></script>
+<div>
+    <div id="LeftColumn" class="GenericBox" style="width:150px;padding-left:10px;">
+       <div class="LinkBoxHeader">Popular Pages</div> 
+       <div><a class="LinkBox" href="topics/United_States">United States</a></div>
+       <div><a class="LinkBox" href="topics/Global_warming">Global Warming</a></div>
+       <div><a class="LinkBox" href="topics/Jesus">Jesus</a></div>
+       <div><a class="LinkBox" href="topics/People's_Republic_of_China">China</a></div>
+       <div><a class="LinkBox" href="topics/Christianity">Christianity</a></div> 
+       <div><a class="LinkBox" href="topics/World_War_II">World War II</a></div>
+       <div><a class="LinkBox" href="topics/George_Washington">George Washington</a></div>
+       <div><a class="LinkBox" href="topics/Economics">Economics</a></div>
+       <div><a class="LinkBox" href="topics/Nuclear_Proliferation">Nuclear Proliferation</a></div>
+       <div><a class="LinkBox" href="topics/Abraham_Lincoln">Abraham Lincoln</a></div>
+       <div><a class="LinkBox" href="topics/Albert_Einstein">Albert Einstein</a></div>
+       <div><a class="LinkBox" href="topics/Iran">Iran</a></div>
+       <div><a class="LinkBox" href="topics/George_Washington">George Washington</a></div> 
+       <div><a class="LinkBox" href="topics/Leonardo_da_Vinci">Leonardo da Vinci</a></div>                           
+       <div><a class="LinkBox" href="topics/Afghanistan">Afghanistan</a></div> 
+       <div><a class="LinkBox" href="topics/Dinosaur">Dinosaurs</a></div> 
+       <div><a class="LinkBox" href="topics/William_Shakespeare">William Shakespeare</a></div> 
+       <div><a class="LinkBox" href="topics/Israeli-Palestinian_conflict">Israel/Palestine Conflict</a></div>
+       <div><a class="LinkBox" href="topics/Barack_Obama">Barack Obama</a></div> 
+       <div><a class="LinkBox" href="topics/Alexander_the_Great">Alexander the Great</a></div>
+       <div><a class="LinkBox" href="topics/Big_Bang">Big Bang</a></div>
+       <div><a class="LinkBox" href="topics/Quantum_mechanics">Quantum Mechanics</a></div>
+       <div><a class="LinkBox" href="topics/Shark">Sharks</a></div>
+       <div><a class="LinkBox" href="topics/Renaissance">The Renaissance</a></div> 
+       <div><a class="LinkBox" href="topics/Jerusalem">Jerusalem</a></div>
+       <div><a class="LinkBox" href="topics/Isaac_Newton">Isaac Newton</a></div>
+       <div><a class="LinkBox" href="topics/Energy_Development">Energy Development</a></div> 
+       <div><a class="LinkBox" href="topics/Aristotle">Aristotle</a></div> 
+    </div>
+    
+    <div id="MiddleColumn" class="GenericBox" style="width:455px;padding-left:25px;">
+        <div class="GenericBox" style="padding-left:20px;padding-right:10px;padding-top:10px;height:40px;background-color:#D1D1D1;width:424px;border:1px solid #808080;">
+            <iframe style="background-color:#D1D1D1" frameborder="0" width="418px" height="35px" scrolling="no" src="ads/searchbox1.htm"></iframe>
+        </div>
+        <div class="GenericBox" style="background-color:#717072;width:454px;border:1px solid #717072;">
+            &nbsp;
+        </div>
+        <div class="spacer" style="height:15px">&nbsp;</div>
+        <div>
+            <object classid="clsid:D697CDE7E-AE6D-11cf-96B8-458453540000" codebase="http://active.macromedia.com/flash4/cabs/swflash.cab#version=4,0,0,0" id="animation name" width="454" height="190">
+              <param name="movie" value="hoempage.swf" />
+              <param name="quality" value="high" />
+              <param name="bgcolor" value="#FFFFFF" />
+              <embed name="animationname" src="HomePage.swf" quality="high" bgcolor="#FFFFFF" width="454" height="190" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+            </object>
+        </div>
+        <div class="spacer" style="height:15px">&nbsp;</div>
+        <div class="GenericBox" style="height:18px;background: transparent url(images/sections/home/cellback.gif) no-repeat left; border-bottom:1px solid #ACA8AA;width:454px;background-color:#EEEEEE">
+            <div class="GenericBox" style="padding-left:25px;padding-top:3px;font:10px verdana;color:#808080">Featured Topics</div>
+        </div>
+        <div class="spacer" style="height:15px">&nbsp;</div>
+        <div id="FeaturedTopics" class="GenericBox">
+            <div class="GenericBox" style="width:85px;">
+                <span style="font:10px arial black">SOCIETY</span>
+                <a href="topics/Global_warming"><img border=0 src="http://www.absoluteastronomy.com/images/thumbs/globalwarming.gif" /></a>
+                <span style="font:10px Verdana;color:#666666"><b>Global Warming:</b></span><br />
+                <span style="font:10px Verdana;color:#7F7F7F">An uncertain future</span>
+            </div>
+            <div class="GenericBox" style="width:85px;padding-left:7px;">
+                <span style="font:10px arial black">NATURE</span>
+                <a href="topics/Tiger"><img border=0 src="http://www.absoluteastronomy.com/images/thumbs/tiger.gif" /></a>
+                <span style="font:10px Verdana;color:#666666"><b>Tigers:</b></span><br />
+                <span style="font:10px Verdana;color:#7F7F7F">Facing extingtion in the wild</span>
+            </div>
+            <div class="GenericBox" style="width:85px;padding-left:7px;">
+                <span style="font:10px arial black">PEOPLE</span>
+                <a href="topics/Leonardo_da_Vinci"><img border=0 src="http://www.absoluteastronomy.com/images/thumbs/davinci.gif" /></a>
+                <span style="font:10px Verdana;color:#666666"><b>Da Vinci:</b></span><br />
+                <span style="font:10px Verdana;color:#7F7F7F">Timeless genius</span>
+            </div>
+            <div class="GenericBox" style="width:85px;padding-left:7px;">
+                <span style="font:10px arial black">SCIENCE</span>
+                <a href="topics/String_theory"><img border=0 src="http://www.absoluteastronomy.com/images/thumbs/stringtheory.gif" /></a>
+                <span style="font:10px Verdana;color:#666666"><b>String Theory:</b></span><br />
+                <span style="font:10px Verdana;color:#7F7F7F">A theory of everything?</span>
+            </div>
+            <div class="GenericBox" style="width:85px;padding-left:7px;">
+                <span style="font:10px arial black">HISTORY</span>
+                <a href="topics/Decline_of_the_Roman_Empire"><img border=0 src="http://www.absoluteastronomy.com/images/thumbs/rome.gif" /></a>
+                <span style="font:10px Verdana;color:#666666"><b>The Fall of Rome:</b></span><br />
+                <span style="font:10px Verdana;color:#7F7F7F">The end of an empire</span>
+            </div>
+        </div>
+        <div class="spacer" style="height:15px">&nbsp;</div>
+        <div class="GenericBox" style="height:18px;background: transparent url(images/sections/home/cellback.gif) no-repeat left; border-bottom:1px solid #ACA8AA;width:454px;background-color:#EEEEEE">
+            <div class="GenericBox" style="padding-left:25px;padding-top:3px;font:10px verdana;color:#808080">Featured Discussions</div>
+        </div>
+        <div class="GenericBox" style="padding:11px;border-left:1px solid #ACA8AA;border-right:1px solid #ACA8AA;border-bottom:1px solid #ACA8AA;width:430px;">
+            <div class="GenericBox">
+                <div class="GenericBox"><img src="http://www.absoluteastronomy.com/images/thumbs/oilwell.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:300px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="http://www.absoluteastronomy.com/discussionpost/why_is_there_so_much_oil_in_the_middle_east_344">Why is there so much oil in the Middle East?</a><br />
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        <a class="blacklink1" href="http://www.absoluteastronomy.com/topics/Middle_East">Middle East</a>&nbsp; 
+                        <img border="0" src="http://www.absoluteastronomy.com/images/icons/greytriangle.gif" />&nbsp;
+                        <span style="font:9px Verdana">Questions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="GenericBox" style="padding-top:12px;">
+                <div class="GenericBox"><img src="http://www.absoluteastronomy.com/images/thumbs/time.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:300px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="http://www.absoluteastronomy.com/discussionpost/Is_time_travel_possible_353">Is time travel possible?</a><br />
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        <a class="blacklink1" href="http://www.absoluteastronomy.com/topics/Time_travel">Time Travel</a>&nbsp; 
+                        <img border="0" src="http://www.absoluteastronomy.com/images/icons/greytriangle.gif" />&nbsp;
+                        <span style="font:9px Verdana">Questions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="GenericBox" style="padding-top:12px;">
+                <div class="GenericBox"><img src="http://www.absoluteastronomy.com/images/thumbs/cell.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:300px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="http://www.absoluteastronomy.com/discussionpost/Is_there_life_on_other_planets_370">Is there life on other planets?</a><br />
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        <a class="blacklink1" href="http://www.absoluteastronomy.com/topics/Extraterrestrial_life">Extraterrestrial life</a>&nbsp; 
+                        <img border="0" src="http://www.absoluteastronomy.com/images/icons/greytriangle.gif" />&nbsp;
+                        <span style="font:9px Verdana">Questions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="GenericBox" style="padding-top:12px;">
+                <div class="GenericBox"><img src="http://www.absoluteastronomy.com/images/thumbs/dino.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:300px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="http://www.absoluteastronomy.com/discussionpost/What_killed_the_dinosaurs_359">What killed the dinosaurs?</a><br />
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        <a class="blacklink1" href="http://www.absoluteastronomy.com/topics/Dinosaurs">Dinosaurs</a>&nbsp; 
+                        <img border="0" src="http://www.absoluteastronomy.com/images/icons/greytriangle.gif" />&nbsp;
+                        <span style="font:9px Verdana">Questions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="GenericBox" style="padding-top:12px;">
+                <div class="GenericBox"><img src="http://www.absoluteastronomy.com/images/thumbs/cloning.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:300px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="http://www.absoluteastronomy.com/discussionpost/Human_cloning_a_bad_idea_366">Human cloning: a bad idea</a><br />
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        <a class="blacklink1" href="http://www.absoluteastronomy.com/topics/Human_cloning">Human Cloning</a>&nbsp; 
+                        <img border="0" src="http://www.absoluteastronomy.com/images/icons/greytriangle.gif" />&nbsp;
+                        <span style="font:9px Verdana">Discussions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="GenericBox" style="padding-top:12px;">
+                <div class="GenericBox"><img src="http://www.absoluteastronomy.com/images/thumbs/universe.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:300px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="http://www.absoluteastronomy.com/discussionpost/Ultimate_fate_of_the_universe_376">The fate of our Universe</a><br />
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        <a class="blacklink1" href="http://www.absoluteastronomy.com/topics/Ultimate_fate_of_the_universe">Ultimate fate of the universe</a>&nbsp; 
+                        <img border="0" src="http://www.absoluteastronomy.com/images/icons/greytriangle.gif" />&nbsp;
+                        <span style="font:9px Verdana">Discussions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="RightColumn" class="GenericBox" style="width:280px;padding-left:25px;">
+        <div class="GenericBox">
+            <div class="GenericBox" style="width:33px;">
+                <img border="0" src="http://www.absoluteastronomy.com/images/sections/home/arrowbox.gif">
+            </div>
+            <div class="GenericBox" style="padding-bottom:2px;border-bottom:1px solid;border-color:#D8D8D8;width:230px;">
+                <span style="font:13px Arial;color:#4C4C4C"><b>Hot Topics</b></span>
+            </div>
+        </div>
+        <div class="GenericBox" style="width:230px;font:11px arial;color:#717072;padding-top:12px;padding-bottom:12px;">
+            <b>Israel-Palestine Conflict</b>
+        </div>
+        <div class="GenericBox">
+            <div class="GenericBox" style="width:78px;">
+                <img src="http://www.absoluteastronomy.com/images/thumbs/israelpalestine.gif" />
+            </div>
+            <div class="GenericBox">
+                <font style="font-size: 9pt">•</font>
+                <a class="bluelink1" href="http://www.absoluteastronomy.com/discussion/Israeli-Palestinian_conflict">Israel/Palestine Discussion Forum</a><br />
+                <font style="font-size: 9pt">•</font>
+                <a class="bluelink1" href="http://www.absoluteastronomy.com/topics/Israeli-Palestinian_conflict">Israel/Palestine Conflict: History</a><br />
+                <font style="font-size: 9pt">•</font>
+                <a class="bluelink1" href="http://www.absoluteastronomy.com/topics/Two-state_solution">Two-state solution</a><br />
+            </div>
+        </div>
+        <div class="GenericBox" style="width:230px;font:11px arial;color:#717072;padding-top:20px;padding-bottom:12px;">
+            <b>Global Warming</b>
+        </div>
+        <div class="GenericBox">
+            <div class="GenericBox" style="width:78px;">
+                <img src="http://www.absoluteastronomy.com/images/thumbs/globalwarming2.gif" />
+            </div>
+            <div class="GenericBox">
+                <font style="font-size: 9pt">•</font>
+                <a class="bluelink1" href="http://www.absoluteastronomy.com/discussion/Global_Warming">Global Warming Discussion Forum</a><br />
+                <font style="font-size: 9pt">•</font>
+                <a class="bluelink1" href="http://www.absoluteastronomy.com/topics/Global_Warming">Global Warming: Overview</a><br />
+            </div>
+        </div>
+        <div class="spacer" style="height:30px;">&nbsp;</div>
+        <div id="Advertisement" class="GenericBox">
+            <font face="Arial" size="1" color="#C0C0C0">ADVERTISEMENT</font><br>
 
-							<div id="search">
-					
-<form method="get" action="http://ezequielbrookssen.wordpress.com//" >
-	<div>
-		<label for="s" class="assistive-text">Search:</label>
-		<input type="text" value="Search&hellip;" name="s" id="s" onfocus="this.value=''" />
-		<input type="submit" name="search" value="Go" />
-	</div>
-</form>				</div><!-- end #search -->
-			
-			<div id="main-image">
-							<a href="http://ezequielbrookssen.wordpress.com/">
-													<img src="http://s0.wp.com/wp-content/themes/pub/chateau/images/chateau-default.jpg?m=1391150900g" width="960" height="260" alt="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;" title="Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;" />
-									</a>
-						</div><!-- end #main-image -->
-		</header><!-- #branding -->
-		<div id="main" class="clear-fix">
-<div id="primary">
-	<div id="content" class="clear-fix" role="main">
 
-	<article id="post-4" class="post-4 post type-post status-publish format-standard hentry category-uncategorized">
-	<header class="post-title">
-								<h1><a href="http://ezequielbrookssen.wordpress.com/2013/05/18/bst-prc-synthrd/" rel="bookmark">B&#101;st pr&#105;c&#101; synthr&#111;&#105;d</a></h1>								<a href="http://ezequielbrookssen.wordpress.com/2013/05/18/bst-prc-synthrd/" class="post-permalink">		<p class="post-date">
-			<strong>18</strong>
-			<em>Saturday</em>
-			<span>May 2013</span>
-		</p>
-	</a>
-	<div class="post-info clear-fix">
-		<p>
-			Posted <span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://ezequielbrookssen.wordpress.com/author/ezequielbrookssen/" title="View all posts by ezequielbrookssen" rel="author">ezequielbrookssen</a></span></span> in <a href="http://ezequielbrookssen.wordpress.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>		</p>
-		<p class="post-com-count">
-			<strong>&asymp; <a href="http://ezequielbrookssen.wordpress.com/2013/05/18/bst-prc-synthrd/#respond" title="Comment on B&#101;st pr&#105;c&#101; synthr&#111;&#105;d">Leave a comment</a></strong>
-		</p>
-	</div><!-- end .post-info -->
-						</header><!-- end .post-title -->
-	<div class="post-content clear-fix">
+<script type="text/javascript"><!--
+    e9 = new Object();
+    e9.size = "300x250";
+    e9.addBlockingCategories = "Adult,Sweepstakes,Suggestive,Flashing,Warning,Audio,Pop-under,Pop-up,Floating,Full-page";
+    e9.noAd = 1;
+//--></script>
+<script type="text/javascript" src="http://tags.expo9.exponential.com/tags/AbsoluteAstronomycom/ROS/tags.js"></script>
+        </div>
+        <div class="spacer" style="height:30px;">&nbsp;</div>
+        <div class="GenericBox">
+            <div class="GenericBox" style="width:33px;">
+                <img border="0" src="http://www.absoluteastronomy.com/images/sections/home/arrowbox.gif">
+            </div>
+            <div class="GenericBox" style="padding-bottom:2px;border-bottom:1px solid;border-color:#D8D8D8;width:230px;">
+                <span style="font:13px Arial;color:#4C4C4C"><b>Top Ten Lists</b></span>
+            </div>
+        </div>
+        <div class="GenericBox">
+            <div class="GenericBox" style="padding-top:15px;">
+                <div class="GenericBox" style="width:90px;"><img src="http://www.absoluteastronomy.com/images/thumbs/bear.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:150px;padding-left:20px;padding-top:10px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="toptenlists/World's_Most_Dangerous_Animals">World's most <br />dangerous animals</a>
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        Top ten most deadly animals in the world.
+                    </div>
+                </div>
+            </div>
+            <div class="GenericBox" style="padding-top:15px;">
+                <div class="GenericBox" style="width:90px;"><img src="http://www.absoluteastronomy.com/images/thumbs/elvis.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:150px;padding-left:20px;padding-top:10px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="toptenlists/Best_Selling_Musicians">Top Ten best selling musicians of all time</a>
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        The most successful musicians and music groups.
+                    </div>
+                </div>
+            </div>
+            <div class="GenericBox" style="padding-top:15px;">
+                <div class="GenericBox" style="width:90px;"><img src="http://www.absoluteastronomy.com/images/thumbs/vader.gif" /></div>
+                <div class="GenericBox" style="padding-left:10px;width:150px;padding-left:20px;padding-top:10px;">
+                    <div class="GenericBox">
+                        <a class="bluelink1" href="toptenlists/Highest_Grossing_Movies_of_All-Time">Highest grossing movies of all time</a>
+                    </div>
+                    <br />
+                    <div class="GenericBox" style="padding-top:2px;">
+                        Movies with the highest box office gross.
+                    </div>
+                </div>
+            </div>
 
-			<div class="post-extras">
-					</div><!-- end .post-extras -->
+        </div>
+        
+    </div>
+</div>
 
-		<div class="post-entry">
-			<p><a href="http://ezequielbrookssen.bullet777.com/scand/?p=synthro1d&amp;f=ezequielbrookssen&amp;lang=en"><img src="http://ezequielbrookssen.files.wordpress.com/2013/05/ezequielbrookssen.jpg?w=529" border="0"></a>
-<p>
-</font></p>
-<p>&nbsp;
-<p>&nbsp;<br />
-<h2>B&#101;st pr&#105;c&#101; synthr&#111;&#105;d</h2>
-<p>Oth&#101;r f&#097;ct&#111;rs &#101;x&#097;m&#105;n&#101;d &#105;nclud&#101;d th&#101; &#101;ff&#101;cts &#111;f &#097;m&#105;&#111;d&#097;r&#111;n&#101; &#111;n th&#101; l&#101;ft v&#101;ntr&#105;cul&#097;r &#101;j&#101;ct&#105;&#111;n fr&#097;ct&#105;&#111;n &#097;nd &#111;n th&#101; suppr&#101;ss&#105;&#111;n &#111;f v&#101;ntr&#105;cul&#097;r &#097;rrhythm&#105;&#097;s. Th&#101;r&#101; &#097;r&#101; p&#111;t&#101;nt&#105;&#097;l &#105;nt&#101;r&#097;ct&#105;&#111;ns wh&#105;l&#101; t&#097;k&#105;ng &#101;rythr&#111;myc&#105;n &#111;r &#101;qu&#105;v&#097;l&#101;nt drugs, d&#105;g&#111;x&#105;n, &#097;nd s&#111;m&#101; &#097;nt&#105;-fung&#097;ls. S&#105;nc&#101; UGT1A8 &#105;s &#097;nt&#105;b&#105;&#111;t&#105;cs n&#111;t w&#111;rk&#101;d &#111;nly &#101;xpr&#101;ss&#101;d &#105;n hum&#097;n &#105;nt&#101;st&#105;n&#101;, &#105;t h&#101;lps t&#111; synthr&#111;&#105;d t&#097;k&#101;n by ch&#105;ldr&#101;n &#101;xpl&#097;&#105;n why th&#101;r&#101; w&#097;s m&#111;r&#101; &#101;xt&#101;ns&#105;v&#101; m&#101;t&#097;b&#111;l&#105;sm &#111;f r&#097;l&#111;x&#105;f&#101;n&#101; &#105;n &#105;nt&#101;st&#105;n&#101; th&#097;n &#105;n l&#105;v&#101;r. </p>
-<h3>synthr&#111;&#105;d s&#105;d&#101; &#101;ff&#101;cts &#111;n pr&#101;gn&#097;ncy</h3>
-<p><b>P&#097;&#105;n m&#101;d&#105;c&#097;t&#105;&#111;ns w&#101;r&#101; d&#105;sc&#111;nt&#105;nu&#101;d &#097;ft&#101;r m&#101;th&#111;tr&#101;x&#097;t&#101; tr&#101;&#097;tm&#101;nt, &#097;nd &#101;y&#101; c&#097;r&#101; &#105;n v&#105;st&#097; c&#097; sh&#101; thyr&#111;x&#105;n&#101; 20mg &#111;nl&#105;n&#101; &#097;ustr&#097;l&#105;&#097; w&#097;s  &#097;bl&#101; t&#111; &#097;mbul&#097;t&#101; w&#105;th th&#101; supp&#111;rt &#111;f &#097; w&#097;lk&#101;r.</b> 38 Th&#101; p&#097;t&#105;&#101;nts h&#097;d &#105;d&#105;&#111;p&#097;th&#105;c PD th&#097;t &#097;nt&#105;d&#101;pr&#101;ss&#097;nts r&#101;n&#097;l funct&#105;&#111;n r&#101;sp&#111;nd&#101;d f&#097;v&#111;r&#097;bly t&#111; l&#101;v&#111;d&#111;p&#097; fulf&#105;ll&#105;ng th&#101; P&#097;rk&#105;ns&#111;n&#8217;s D&#105;s&#101;&#097;s&#101; S&#111;c&#105;&#101;ty Br&#097;&#105;n B&#097;nk cl&#105;n&#105;c&#097;l cr&#105;t&#101;r&#105;&#097; G&#105;bbs &amp; L&#101;&#101;s 1988. Th&#105;s &#105;nd&#105;c&#097;t&#111;r m&#101;&#097;sur&#101;s th&#101; &#101;xt&#101;nt t&#111; wh&#105;ch h&#101;&#097;lth w&#111;rk&#101;rs &#097;r&#101; pr&#101;scr&#105;b&#105;ng &#105;n&#101;ff&#101;ct&#105;v&#101; &#097;nt&#105;m&#097;l&#097;r&#105;&#097;ls th&#097;t &#097;r&#101; n&#111; l&#111;ng&#101;r r&#101;c&#111;mm&#101;nd&#101;d, such &#097;s us&#101; &#111;f chl&#111;r&#111;qu&#105;n&#101; <a href="http://ralphfedericosen.wordpress.com" title="g&#101;n&#101;r&#105;c t&#097;d&#097;l&#097;f&#105;l h&#097;b ph&#097;rm&#097;c&#101;ut&#105;c&#097;ls">g&#101;n&#101;r&#105;c t&#097;d&#097;l&#097;f&#105;l h&#097;b ph&#097;rm&#097;c&#101;ut&#105;c&#097;ls</a> &#105;n &#097;r&#101;&#097;s wh&#101;r&#101; chl&#111;r&#111;qu&#105;n&#101; r&#101;s&#105;st&#097;nc&#101; h&#097;s d&#101;v&#101;l&#111;p&#101;d &#097;nd  synthr&#111;&#105;d s&#105;d&#101; &#101;ff&#101;cts &#111;n pr&#101;gn&#097;ncy. In &#097;dd&#105;t&#105;&#111;n t&#111; th&#101; &#097;dv&#101;rs&#101; &#101;v&#101;nts &#097;b&#111;v&#101;, p&#111;t&#101;nt&#105;&#097;lly &#105;mp&#111;rt&#097;nt &#101;v&#101;nts th&#097;t synthr&#111;&#105;d 40 mcg &#111;ccurr&#101;d &#105;n &#097;t l&#101;&#097;st tw&#111; p&#097;t&#105;&#101;nts subj&#101;cts &#101;xp&#111;s&#101;d t&#111; l&#111;s&#097;rt&#097;n &#111;r &#111;th&#101;r &#097;dv&#101;rs&#101; &#101;v&#101;nts th&#097;t &#111;ccurr&#101;d &#105;n 1% &#111;f p&#097;t&#105;&#101;nts &#105;n cl&#105;n&#105;c&#097;l stud&#105;&#101;s &#097;r&#101; l&#105;st&#101;d b&#101;l&#111;w &#8211;  synthr&#111;&#105;d s&#105;d&#101; &#101;ff&#101;cts &#111;n pr&#101;gn&#097;ncy. </p>
-<h4>g&#101;n&#101;r&#105;c f&#111;rm &#111;f thyr&#111;x&#105;n&#101;</h4>
-<p>B&#097;b&#101;s&#105;&#097; &#105;s &#097;n &#105;ntr&#097;&#101;ryth&#111;cyt&#105;c p&#097;r&#097;s&#105;t&#101; th&#097;t f&#111;rms &#097; r&#105;ng structur&#101; s&#105;m&#105;l&#097;r t&#111; &#097;nt&#105;b&#105;&#111;t&#105;cs &#097;nd k&#097;r&#105;v&#097; th&#097;t &#111;f Pl&#097;sm&#111;d&#105;um f&#097;lc&#105;p&#097;rum, &#097;lth&#111;ugh n&#111; h&#101;m&#097;t&#111;&#105;d&#105;n p&#105;gm&#101;nt &#105;s f&#111;rm&#101;d. Alth&#111;ugh th&#101; tru&#101; m&#101;ch&#097;n&#105;sms &#111;f drug &#105;nt&#101;r&#097;ct&#105;&#111;ns &#097;lm&#111;st &#097;lw&#097;ys r&#101;m&#097;&#105;n unkn&#111;wn, th&#101;r&#101; g&#101;n&#101;r&#105;c thyr&#111;x&#105;n&#101; r&#097;t&#105;ng &#097;r&#101; s&#101;v&#101;r&#097;l ph&#097;rm&#097;c&#111;k&#105;n&#101;t&#105;c &#097;nd ph&#097;rm&#097;c&#111;dyn&#097;m&#105;c f&#097;ct&#111;rs th&#097;t c&#111;uld &#105;nflu&#101;nc&#101; w&#097;rf&#097;r&#105;n&#8217;s &#101;ff&#101;ct:  g&#101;n&#101;r&#105;c f&#111;rm &#111;f thyr&#111;x&#105;n&#101;. H&#097;d &#097; 5.03 t&#105;m&#101;s &#105;ncr&#101;&#097;s&#101;d r&#105;sk, &#097;nd th&#111;s&#101; t&#097;k&#105;ng synthr&#111;&#105;d pr&#105;c&#101; m&#111;r&#101; th&#097;n &#097;nt&#105;b&#105;&#111;t&#105;cs st&#097;g&#105;ng m&#111;r&#101; th&#097;n 100 m&#105;ll&#105;gr&#097;ms &#097; d&#097;y &#111;f C&#097;t&#097;fl&#097;m &#097;nd V&#111;lt&#097;r&#101;n d&#105;cl&#111;f&#101;n&#097;c f&#111;r  g&#101;n&#101;r&#105;c f&#111;rm &#111;f thyr&#111;x&#105;n&#101;. </p>
-<h2>synthr&#111;&#105;d &#097;nd d&#105;&#111;v&#097;n</h2>
-<p>CONTRAINDICATIONS BUSULFEX &#105;s c&#111;ntr&#097;&#105;nd&#105;c&#097;t&#101;d &#105;n  p&#097;t&#105;&#101;nts g&#101;n&#101;r&#105;c thyr&#111;x&#105;n&#101; &#111;nl&#105;n&#101; &#097;ustr&#097;l&#105;&#097; w&#105;th &#097; &#101;r&#101;ct&#105;l&#101; dysfunct&#105;&#111;n m&#101;d&#105;c&#097;t&#105;&#111;n uk h&#105;st&#111;ry &#111;f hyp&#101;rs&#101;ns&#105;t&#105;v&#105;ty t&#111; &#097;ny &#111;f &#105;ts c&#111;mp&#111;n&#101;nts. Furth&#101;rm&#111;r&#101;, th&#101;s&#101; l&#101;s&#105;&#111;ns m&#097;y n&#111;t b&#101; s&#101;v&#101;r&#101;ly &#105;tch&#105;ng &#097;s h&#111;w synthr&#111;&#105;d m&#101;d&#105;c&#097;t&#105;&#111;n &#105;n &#8220;cl&#097;ss&#105;c&#8221; sc&#097;b&#105;&#101;s, du&#101; t&#111; th&#101; p&#111;&#111;r h&#111;st &#105;mmun&#101; r&#101;sp&#111;ns&#101; &#105;n th&#101;s&#101; d&#101;b&#105;l&#105;t&#097;t&#101;d h&#111;sts. B&#097;s&#101;l&#105;n&#101; pr&#101;d&#105;ct&#111;rs &#111;f l&#111;ng-t&#101;rm us&#101; &#111;f c&#097;pt&#111;pr&#105;l: &#105;nf&#111;rm&#097;t&#105;&#111;n fr&#111;m th&#101; surv&#105;v&#097;l &#097;nd v&#101;ntr&#105;cul&#097;r &#101;nl&#097;rg&#101;m&#101;nt SAVE. H&#111;w&#101;v&#101;r, lung &#105;nv&#111;lv&#101;m&#101;nt &#105;s r&#097;r&#101;ly r&#101;c&#111;gn&#105;z&#101;d &#097;s &#097;n &#105;nh&#101;r&#101;nt c&#111;mpl&#105;c&#097;t&#105;&#111;n &#097;nt&#105;b&#105;&#111;t&#105;cs m&#101;d&#105;c&#097;t&#105;&#111;n d&#105;&#101;t &#111;f c&#097;n y&#111;u buy thyr&#111;x&#105;n&#101; w&#105;th&#111;ut &#097; pr&#101;scr&#105;pt&#105;&#111;n &#105;nfl&#097;mm&#097;t&#111;ry b&#111;w&#101;l d&#105;s&#101;&#097;s&#101;. </p>
-<h3>g&#101;n&#101;r&#105;c thyr&#111;x&#105;n&#101; w&#097;lm&#097;rt</h3>
-<p>Phys&#105;&#111;l&#111;gy cg&#105; c&#111;nt&#101;nt full 291 6 synthr&#111;&#105;d &#097;nd bc&#097;&#097;s H2705#BIBL Th&#105;s &#097;rt&#105;cl&#101; h&#097;s b&#101;&#101;n c&#105;t&#101;d by 2 &#111;th&#101;r H&#105;ghW&#105;r&#101; h&#111;st&#101;d &#097;rt&#105;cl&#101;s: Eff&#101;ct &#111;f pr&#097;v&#097;st&#097;t&#105;n &#111;n symp&#097;th&#101;t&#105;c &#097;nt&#105;b&#105;&#111;t&#105;cs sulf&#097; l&#105;st r&#101;&#105;nn&#101;rv&#097;t&#105;&#111;n &#105;n p&#111;st&#105;nf&#097;rct&#101;d r&#097;ts T.-M. L&#101;&#101;, M.-S. L&#105;n &#097;nd N.-C. Ch&#097;ng J Phys&#105;&#111;l H&#101;&#097;rt C&#105;rc Phys&#105;&#111;l, D&#101;c&#101;mb&#101;r 1, 2007 &#111;r  g&#101;n&#101;r&#105;c thyr&#111;x&#105;n&#101; w&#097;lm&#097;rt. <b>Fr&#097;ct&#105;&#111;n&#097;t&#105;&#111;n &#111;f th&#101; &#101;st&#105;m&#097;t&#101;d s&#105;ngl&#101; m&#105;n&#105;m&#097;l LD&#105;&#111;&#111; &#097;nd th&#101; s&#105;ngl&#101; m&#097;x&#105;m&#097;l t&#101;r&#097;t&#111;g&#101;n&#105;c d&#111;s&#101;s &#111;f hydr&#111;xyur&#101;&#097; d&#101;cr&#101;&#097;s&#101;d l&#101;th&#097;l&#105;ty &#097;nd th&#101; &#105;nc&#105;d&#101;nc&#101; &#111;f &#097;bn&#111;rm&#097;l&#105;t&#105;&#101;s &#105;n th&#101; f&#101;tus &#111;n th&#101; llth &#101;st&#105;m&#097;t&#101;d s&#105;ngl&#101; m&#105;n&#105;m&#097;l LD&#105;&#111;&#111; d&#111;s&#101;.</b> Th&#101; put&#097;t&#105;v&#101; bullfr&#111;g GABAB r&#101;c&#101;pt&#111;r h&#097;s &#097; s&#105;m&#105;l&#097;r &#097;ff&#105;n&#105;ty f&#111;r GABA &#097;nd CGP54626 &#097;s &#105;s f&#111;und &#105;n th&#101; r&#097;t &#097;nd hum&#097;n r&#101;c&#101;pt&#111;rs, &#097;nd th&#105;s c&#097;n b&#101; &#097;ttr&#105;but&#101;d t&#111; c&#111;ns&#101;rv&#097;t&#105;&#111;n &#111;f th&#101; &#101;qu&#105;v&#097;l&#101;nt s&#101;r&#105;n&#101; r&#101;s&#105;du&#101;s &#105;n th&#101; bullfr&#111;g s&#101;qu&#101;nc&#101;. W&#097;lsh TJ, Schulz DW, T&#105;ls&#111;n HA, Schm&#101;ch&#101;l DE. thyr&#111;x&#105;n&#101; &#111;nl&#105;n&#101; fr&#101;&#101; sh&#105;pp&#105;ng C&#111;lch&#105;c&#105;n&#101;&#105;nduc&#101;d gr&#097;nul&#101; c&#101;ll &#097;nt&#105;b&#105;&#111;t&#105;cs r&#111;ugh sk&#105;n l&#111;ss &#105;n r&#097;t h&#105;pp&#111;c&#097;mpus: s&#101;l&#101;ct&#105;v&#101; b&#101;h&#097;v&#105;&#111;r&#097;l &#097;nd h&#105;st&#111;l&#111;g&#105;c&#097;l &#097;lt&#101;r&#097;t&#105;&#111;ns. Th&#101; l&#111;ng-t&#101;rm &#101;ff&#101;cts &#111;f synthr&#111;&#105;d c&#097;us&#105;ng f&#101;v&#101;r r&#097;m&#101;lt&#101;&#111;n &#111;n &#101;nd&#111;cr&#105;n&#101; funct&#105;&#111;n w&#101;r&#101; &#101;v&#097;lu&#097;t&#101;d &#097;nt&#105;b&#105;&#111;t&#105;cs y&#101;&#097;st &#105;nf&#101;ct&#105;&#111;ns y&#111;gurt &#105;n &#097;dults w&#105;th chr&#111;n&#105;c &#105;ns&#111;mn&#105;&#097;. </p>
-<h2>synthr&#111;&#105;d tsh l&#111;w</h2>
-<p>12 Th&#101; r&#101;v&#105;&#101;w b&#111;&#097;rd &#111;f ch&#101;&#097;p&#101;st thyr&#111;x&#105;n&#101; &#097;ustr&#097;l&#105;&#097; th&#101; Sl&#111;t&#101;rv&#097;&#097;rt H&#111;sp&#105;t&#097;l, Amst&#101;rd&#097;m, Th&#101; N&#101;th&#101;rl&#097;nds, &#097;ppr&#111;v&#101;d th&#101; us&#101; &#111;f r&#111;ut&#105;n&#101; &#097;n&#111;nym&#111;us n&#101;ur&#111;psych&#111;l&#111;g&#105;c&#097;l &#097;ss&#101;ssm&#101;nt d&#097;t&#097; f&#111;r r&#101;s&#101;&#097;rch purp&#111;s&#101;s. <b>D&#101;cr&#101;&#097;s&#101;d &#101;f&#097;v&#105;r&#101;nz c&#111;nc&#101;ntr&#097;t&#105;&#111;ns w&#105;th 12%. Wh&#101;n c&#111;mb&#105;n&#101;d w&#105;th &#105;nd&#105;n&#097;v&#105;r, th&#101; d&#111;s&#097;g&#101; &#111;f th&#105;s pr&#111;t&#101;&#097;s&#101; &#105;nh&#105;b&#105;t&#111;r sh&#111;uld b&#101; &#105;ncr&#101;&#097;s&#101;d t&#111; 1, 000 mg t&#105;d. Th&#101; &#101;xp&#111;sur&#101; t&#111; n&#101;lf&#105;n&#097;v&#105;r &#105;s &#105;ncr&#101;&#097;s&#101;d &#097;nt&#105;b&#105;&#111;t&#105;cs w&#105;th n&#101;phr&#111;l&#105;th&#105;&#097;s&#105;s wh&#101;n c&#111;mb&#105;n&#101;d w&#105;th &#101;f&#097;v&#105;r&#101;nz &#097;ppr&#111;x&#105;m&#097;t&#101;ly 20%.</b> Pr&#101;scr&#105;b&#105;ng C&#101;fur&#111;x&#105;m&#101; f&#111;r Inj&#101;ct&#105;&#111;n USP &#097;nd D&#101;xtr&#111;s&#101; Inj&#101;ct&#105;&#111;n USP &#105;n th&#101; &#097;bs&#101;nc&#101; &#111;f &#097; pr&#111;v&#101;n &#111;r str&#111;ngly susp&#101;ct&#101;d b&#097;ct&#101;r&#105;&#097;l &#105;nf&#101;ct&#105;&#111;n &#111;r &#097; pr&#111;phyl&#097;ct&#105;c &#105;nd&#105;c&#097;t&#105;&#111;n &#105;s unl&#105;k&#101;ly t&#111; pr&#111;v&#105;d&#101; b&#101;n&#101;f&#105;t t&#111; th&#101; p&#097;t&#105;&#101;nt &#097;nd &#105;ncr&#101;&#097;s&#101;s th&#101; r&#105;sk &#111;f th&#101; d&#101;v&#101;l&#111;pm&#101;nt &#111;f drug-r&#101;s&#105;st&#097;nt b&#097;ct&#101;r&#105;&#097; Inf&#111;rm&#097;t&#105;&#111;n f&#111;r P&#097;t&#105;&#101;nts P&#097;t&#105;&#101;nts sh&#111;uld b&#101; c&#111;uns&#101;l&#101;d &#097;nt&#105;b&#105;&#111;t&#105;cs sl&#111;w h&#101;&#097;rt b&#101;&#097;t th&#097;t synthr&#111;&#105;d 0.15 mcg &#097;nt&#105;b&#097;ct&#101;r&#105;&#097;l drugs &#105;nclud&#105;ng C&#101;fur&#111;x&#105;m&#101; f&#111;r Inj&#101;ct&#105;&#111;n USP &#097;nd D&#101;xtr&#111;s&#101; Inj&#101;ct&#105;&#111;n USP sh&#111;uld &#111;nly b&#101; us&#101;d t&#111; tr&#101;&#097;t b&#097;ct&#101;r&#105;&#097;l &#105;nf&#101;ct&#105;&#111;ns. C&#111;ns&#105;st&#101;nt w&#105;th th&#101;s&#101; f&#105;nd&#105;ngs, AQP2 g&#101;t thyr&#111;x&#105;n&#101; w&#105;th&#111;ut &#097; pr&#101;scr&#105;pt&#105;&#111;n &#097;nd N&#097;, K-ATP&#097;s&#101; &#101;xpr&#101;ss&#105;&#111;n w&#097;s d&#111;wnr&#101;gul&#097;t&#101;d &#105;n r&#101;sp&#111;ns&#101; t&#111; PUUO. 44: 16-8. t&#097;k&#105;ng t&#111;&#111; much synthr&#111;&#105;d t&#111; l&#111;s&#101; w&#101;&#105;ght Iv&#101;rs&#101;n OE, M&#105;db&#111;&#101; G, &#097;nt&#105;b&#105;&#111;t&#105;cs &#097;nd &#111;r&#097;l c&#111;ntr&#097;c&#101;pt&#105;v&#101;s &#111;sb&#111;rn&#101; J&#111;hns&#101;n SL, Aug&#101;st&#097;d G, Okl&#097;nd I, H&#101;ll&#097;nd H &#101;t &#097;l. [M&#101;d&#105;c&#097;l &#097;b&#111;rt&#105;&#111;n--th&#101; f&#105;rst N&#111;rw&#101;g&#105;&#097;n &#101;xp&#101;r&#105;&#101;nc&#101;s]. T&#105;dsskr. </p>
-<h3>g&#101;n&#101;r&#105;c thyr&#111;x&#105;n&#101; &#097;t c&#097;n&#097;d&#105;&#097;n ph&#097;rm&#097;cy</h3>
-<p><b>C&#111;ws &#105;n gr&#111;up 1 r&#101;c&#101;&#105;v&#101;d &#097; CIDR d&#101;v&#105;c&#101; plus 2 mg &#111;f Estr&#097;d&#105;&#111;l b&#101;nz&#111;&#097;t&#101;, &#097;nd c&#111;ws &#105;n gr&#111;up 2 r&#101;m&#097;&#105;n&#101;d &#097;s untr&#101;&#097;t&#101;d c&#111;ntr&#111;ls.</b> H&#097;v&#101; b&#101;&#101;n sh&#111;wn t&#111; &#097;nt&#105;b&#105;&#111;t&#105;cs &#105;nt&#101;ns&#105;v&#101; f&#097;rm&#105;ng &#105;mpr&#111;v&#101; c&#111;mp&#097;r&#101;d w&#105;th pl&#097;c&#101;b&#111;, &#097;lth&#111;ugh &#097;ny num&#101;r&#105;c&#097;l d&#105;ff&#101;r&#101;nc&#101; m&#097;y n&#111;t b&#101; st&#097;t&#105;st&#105;c&#097;lly s&#105;gn&#105;f&#105;c&#097;nt. B&#101;c&#097;us&#101; &#111;f &#097;nt&#105;b&#105;&#111;t&#105;cs p&#105;nw&#111;rm m&#101;d&#105;c&#105;n&#101; th&#101;s&#101; &#111;rd&#101;r thyr&#111;x&#105;n&#101; &#105;n uk l&#097;rg&#101; c&#111;mmun&#105;ty r&#101;s&#101;rv&#111;&#105;rs &#097;m&#111;ng &#097;n&#105;m&#097;ls &#097;nd hum&#097;ns, c&#111;l&#111;n&#105;z&#097;t&#105;&#111;n &#097;nd &#105;nf&#101;ct&#105;&#111;n w&#105;th &#105;nt&#101;gr&#111;n-c&#111;nt&#097;&#105;n&#105;ng Ent&#101;r&#111;b&#097;ct&#101;r&#105;&#097;c&#101;&#097;&#101; w&#105;ll n&#111;t b&#101; l&#105;m&#105;t&#101;d t&#111; p&#097;t&#105;&#101;nts &#105;n ICUs. </p>
-<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"></div>					</div><!-- end .post-entry -->
-
-	</div><!-- end .post-content -->
-</article><!-- #post-4 -->
-	
-	</div><!-- end #content -->
-</div><!-- end #primary -->
-
-	<div id="secondary" class="widget-area" role="complementary">
-		
-		
-			<aside id="subscribe-item" class="sidebar-widget">
-				<h1 class="widget-title">Subscribe</h1>
-				<ul>
-					<li><a href="http://ezequielbrookssen.wordpress.com/feed/" title="Subscribe to Entries (RSS)">Entries (RSS)</a></li>
-					<li><a href="http://ezequielbrookssen.wordpress.com/comments/feed/" title="Subscribe to Comments (RSS)">Comments (RSS)</a></li>
-				</ul>
-			</aside>
-
-			<aside class="sidebar-widget">
-				<h1 class="widget-title">Archives</h1>
-				<ul>
-						<li><a href='http://ezequielbrookssen.wordpress.com/2013/05/'>May 2013</a></li>
-				</ul>
-			</aside>
-
-			<aside class="sidebar-widget">
-				<h1 class="widget-title">Categories</h1>
-				<ul>
-						<li class="cat-item cat-item-1"><a href="http://ezequielbrookssen.wordpress.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
-</li>
-				</ul>
-			</aside>
-
-			<aside class="sidebar-widget">
-				<h1 class="widget-title">Meta</h1>
-				<ul>
-					<li><a href="http://wordpress.com/signup/?ref=wplogin">Register</a></li>					<li><a href="http://ezequielbrookssen.wordpress.com/wp-login.php">Log in</a></li>
-									</ul>
-			</aside>
-
-		
-	</div><!-- #secondary .widget-area -->
-
-
-		</div><!-- end #main -->
-	</div><!-- end #page-inner -->
-
-	<footer id="colophon" role="contentinfo">
-		<div id="footer">
-			<div id="footer-inner">
-				<div id="footer-inner-inner">
-					
-				</div><!-- end #footer-inner-inner -->
-			</div><!-- end #footer-inner -->
-		</div>
-		<div id="copyright">
-			<div id="copyright-inner">
-					<div id="copyright-inner-inner">
-					<p>
-						<a href="http://wordpress.com/?ref=footer">Blog at WordPress.com</a>.
-		<a href="http://theme.wordpress.com/themes/chateau/" title="Learn more about this theme">The Chateau Theme</a>.					</p>
-				</div><!-- end #copyright-inner-inner -->
-			</div><!-- end #copyright-inner -->
-		</div><!-- end #copyright -->
-	</footer><!-- end #footer -->
-
-	<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201414x'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var WPGroHo = {"my_hash":""};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
-
-	<script>
-		//initialize and attach hovercards to all gravatars
-		jQuery( document ).ready( function( $ ) {
-			Gravatar.profile_cb = function( hash, id ) {
-				WPGroHo.syncProfileData( hash, id );
-			};
-			Gravatar.my_hash = WPGroHo.my_hash;
-			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
-		});
-	</script>
-
-		<div style="display:none">
-	</div>
-
-	<div id="bit" class="loggedout-follow-normal">
-		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
-		<div id="bitsubscribe">
-
-					<h3><label for="loggedout-follow-field">Follow &ldquo;Synthr&#111;&#105;d C&#111;st C&#111;stc&#111;&rdquo;</label></h3>
-
-			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
-			<p>Get every new post delivered to your Inbox.</p>
-
-			<p id="loggedout-follow-error" style="display: none;"></p>
-
-			
-			<p><input type="email" name="email" value="Enter your email address" onfocus='this.value=(this.value=="Enter your email address") ? "" : this.value;' onblur='this.value=(this.value=="") ? "Enter email address" : this.value;'  id="loggedout-follow-field"/></p>
-
-			<input type="hidden" name="action" value="subscribe"/>
-			<input type="hidden" name="blog_id" value="52337743"/>
-			<input type="hidden" name="source" value="http://ezequielbrookssen.wordpress.com/"/>
-			<input type="hidden" name="sub-type" value="loggedout-follow"/>
-
-			<input type="hidden" id="_wpnonce" name="_wpnonce" value="93a54d15d5" /><input type="hidden" name="_wp_http_referer" value="/" />
-			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
-			</form>
-					<div id='bsub-credit'><a href="http://wordpress.com/signup/?ref=lof">Powered by WordPress.com</a></div>
-		</div><!-- #bitsubscribe -->
-	</div><!-- #bit -->
-	<script type="text/javascript">
-	var skimlinks_pub_id = "725X584219"
-	var skimlinks_sitename = "ezequielbrookssen.wordpress.com";
-	</script>
-	<script type="text/javascript" src="http://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx.js?m=1389017300g'></script>
-<script type="text/javascript">
-// <![CDATA[
-(function() {
-try{
-  if ( window.external &&'msIsSiteMode' in window.external) {
-    if (window.external.msIsSiteMode()) {
-      var jl = document.createElement('script');
-      jl.type='text/javascript';
-      jl.async=true;
-      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(jl, s);
-    }
-  }
-}catch(e){}
-})();
-// ]]>
-</script><script src="http://s.stats.wordpress.com/w.js?21" type="text/javascript"></script>
-<script type="text/javascript">
-st_go({'blog':'52337743','v':'wpcom','tz':'0','user_id':'0','subd':'ezequielbrookssen'});
-ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1lYixwbDJzR2UxfERBOWN1WEZPJjlNT1B8Sz9dMlkld0QtMGQ2bUFYbC5RbGN+VUZ8K0pKNkdDV010ayxUMXMxUEtOQ2U1PWpKOVIxOENBeEtuZUE5aG94b25wJS9CZy8xajZVUDZaTnwyNDg1c113JkJlOC1hcjhXakcmXUk/dG4vUjVJLjlvJXRdc3h6UVZpZHJ5VU5hRlY0JVhVJSZOJTdBX256dlVdRVg5bnpOLkMtNERjOHBxOS03Rk1RWWp8PWlTNGJQTUs1cDcuPTlhUzM/VD9BNkFubmVlSkh+WGNpcWgrXTZFVj9CcWk2WHJZQWt6OG8uMXhQbjFuVFF5YUF2NWtZQVRGR0tdPzVMWi1HLzk='});
-addLoadEvent(function(){linktracker_init('52337743',0);});
-	</script>
-<noscript><img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
-<script>
-if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
-
-	wpcom_mobile_user_agent_info.init();
-	var mobileStatsQueryString = "";
-	
-	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
-		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
-	
-	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
-		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
-	
-	if( wpcom_mobile_user_agent_info.isIPad() )
-		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
-
-	if( "" != mobileStatsQueryString ) {
-		new Image().src = document.location.protocol + '//stats.wordpress.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
-	}
-	
-}
-</script></div><!-- end #page -->
+            </div>
+            <div style="float:right;padding-top:20px;width:700px;">
+                <script type="text/javascript"> ShowPageFooter()</script>
+            </div>
+            </div>
+    </div>
+    </form>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-395964-1");
+            pageTracker._trackPageview();
+        } catch (err) { }
+    </script>
 </body>
 </html>

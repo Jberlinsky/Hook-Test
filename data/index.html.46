@@ -1,2667 +1,916 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-
-
-
-
-
-
-
-
-
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	
-	<title>
-			Facilitating the spread of knowledge and innovation in professional software development
-		</title>
-    
-	
-	<meta http-equiv="pragma" content="no-cache" />
-<meta http-equiv="cache-control" content="no-cache" />
-<meta http-equiv="expires" content="0" />
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="copyright" content="&copy; 2006 C4Media" />
-
-<meta name="google-site-verification" content="0qInQx_1WYOeIIbxnh7DnXlw1XOxNgAYakO2k4GhNnY" />
-<meta name="msapplication-TileColor" content="#ffffff"/>
-<meta name="msapplication-TileImage" content="/styles/i/logo.jpg"/>
-<meta property="wb:webmaster" content="3eac1729a8bbe046" />
-
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
 		
-	
-	<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" type="text/css" media="screen" href="http://cdn1.infoq.com/styles/site.css?20140322"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="http://cdn3.infoq.com/styles/site_en.css?20140322"/>
-    <link rel="image_src" href="http://cdn4.infoq.com/styles/i/logo-big.jpg" />
-    <link rel="shortcut icon" href="http://cdn3.infoq.com/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="http://cdn2.infoq.com/apple-touch-icon.png" />
-	
-	<link rel="stylesheet" href="http://cdn2.infoq.com/scripts/ui/jquery.jscrollpane.css" type="text/css" />
-
-	
-	<script src="/scripts/__hd.ifq?hdt=6bmhKr5FXHav3exq"></script>
-
-    <script type="text/javascript">
-        var InfoQConstants = {};
-        InfoQConstants.language = 'en';
-        InfoQConstants.countryCode = '';
-    </script>
-    <script type="text/javascript" src="http://cdn1.infoq.com/scripts/combinedJs.js?20110704"></script>
-        <script type="text/javascript">
-            
-                var JSi18n = JSi18n || {}; // define only if not already defined
-                JSi18n.error='Error';
-                JSi18n.login_unverifiedAccount='Unverified account';
-                JSi18n.contentSummary_showPresentations_1='';
-                JSi18n.contentSummary_showPresentations_2='';
-                JSi18n.contentSummary_showPresentations_3='';
-                JSi18n.contentSummary_showInterviews_1='';
-                JSi18n.contentSummary_showInterviews_2='';
-                JSi18n.contentSummary_showInterviews_3='';
-                JSi18n.contentSummary_showMinibooks_1='';
-                JSi18n.contentSummary_showMinibooks_2='';
-                JSi18n.login_sendingRequest='Sending request ...';
-                JSi18n.bookmark_saved='<q>&nbsp;&nbsp;&nbsp;Saved&nbsp;&nbsp;&nbsp;&nbsp;</q>';
-                JSi18n.bookmark_error='<q style=color:black;>&nbsp;&nbsp;&nbsp;Error&nbsp;&nbsp;&nbsp;&nbsp;</q>';
-                JSi18n.categoryManagement_showpopup_viewAllLink_viewAllPrefix='View All';
-                JSi18n.categoryManagement_showpopup_viewAllLink_viewAllSuffix='';
-                JSi18n.categoryManagement_showpopup_includeExcludeLink_Exclude='Exclude';
-                JSi18n.categoryManagement_showpopup_includeExcludeLink_Include='Include';
-            
-        </script>
-    <script type="text/javascript">
-        function createOverFunction(i) {
-            var pixels = i * 129;
-            return function() {
-            	$('#personas_' + i).addClass('selected');
-                $('ul.menu > li .top_submenu.c' + i).css('left','-' + pixels + 'px');
-            }
-        };
-        function createOutFunction(i) {
-            return function() {
-                $('ul.menu > li .top_submenu.c' + i).css('left','-999em');
-                $('#personas_' + i).removeClass('selected');
-            }
-        }
-        $(function() {
-            for (var i = 0; i < 5; i++) {
-                $('ul.menu > li').has('.top_submenu.c' + i).hoverIntent({
-                    sensitivity: 15,
-                    interval: 150,
-                    timeout:200,
-                    over: createOverFunction(i),
-                    out: createOutFunction(i)
-                });
-            }
-        });
-    </script>
-	
-
-
-
-
-
-
-
-<script type='text/javascript'>
-var googletag = googletag || {};
-googletag.cmd = googletag.cmd || [];
-(function() {
-	var gads = document.createElement('script');
-	gads.async = true;
-	gads.type = 'text/javascript';
-	var useSSL = 'https:' == document.location.protocol;
-	gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
-	var node = document.getElementsByTagName('script')[0];
-	node.parentNode.insertBefore(gads, node);
-})();
-
-
-googletag.cmd.push(function() {
-	googletag.defineSlot('/5286733/en_geo_banner_bottom', [728, 90], 'id_geo_banner_ad').addService(googletag.pubads());
-	googletag.defineSlot('/5286733/en_300x250_banner_top', [300, 250], 'id_300x250_banner_top').addService(googletag.pubads());
-	googletag.defineSlot('/5286733/en_300x250_banner_bottom', [300, 250], 'id_300x250_banner_bottom').addService(googletag.pubads());
-	googletag.defineSlot('/5286733/en_textlink1', [250, 60], 'id_ad_textlink1').addService(googletag.pubads());
-	googletag.defineSlot('/5286733/en_textlink2', [250, 60], 'id_ad_textlink2').addService(googletag.pubads());
-	googletag.defineSlot('/5286733/en_textlink3', [250, 60], 'id_ad_textlink3').addService(googletag.pubads());
-/*	googletag.defineSlot('/5286733/en_textlink4', [120, 100], 'id_ad_textlink4').addService(googletag.pubads());
-	googletag.defineSlot('/5286733/en_textlink5', [120, 100], 'id_ad_textlink5').addService(googletag.pubads());*/
-	googletag.defineSlot('/5286733/en_300x250_category', [300, 250], 'id_300x250_category').addService(googletag.pubads());
-	googletag.defineSlot('/5286733/en_300x250_banner_searchResults', [300, 250], 'id_300x250_banner_searchResults').addService(googletag.pubads());
-	googletag.pubads().enableSingleRequest();
-	googletag.pubads().collapseEmptyDivs();
-	googletag.enableServices();
-});
-</script>
-
-
-	
-	
-	<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()])</script>
+		<title>Tech News, Reviews &amp; Tips | Geek.com</title>
 		
-		
-
-
-
-
-
-
-
-
-
-		<meta name="keywords" content="Java, .NET, dotnet, Ruby, SOA, Service Oriented Architecture, Agile, enterprise, software development, development, architecture, programming"/>
-		<meta name="description" content="InfoQ.com is a practitioner-driven community news site focused on facilitating the spread of knowledge and innovation in professional software development."/>
-    
-    <link rel="stylesheet" href="http://cdn3.infoq.com/scripts/ui/bxSlider/bx_styles/bx_styles.css" type="text/css" />
-    <script type="text/javascript" src="http://cdn3.infoq.com/scripts/ui/bxSlider/jquery.bxSlider.min.js"></script>
-	<script type="text/javascript" src="http://cdn2.infoq.com/scripts/ui/bxSlider/jquery.easing.1.3.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            if ($('#slider_widget > li').length > 0) {
-                $('#slider_widget').bxSlider({
-                    pager: true,
-                    controls: false
-                });
-            }
-            
-            
-            var lastArticle = $('div#home_grid > div.grid.articles_type > div.news > div').get(6);
-            var banner = $('#gbanner');
-            var additionalHeight = $(lastArticle).offset().top + $(lastArticle).outerHeight(true) - $(banner).offset().top - $(banner).outerHeight(false);
-            if (additionalHeight > 0) {
-                $(banner).height($(banner).height() + additionalHeight);
-            }
-        });
-        
-        
-            
-            $(window).load(function() { // will be executed after images are loaded (important for the heights
-            	ContentTools.fitTextInArea('.interviewTitle a');
-            	ContentTools.fitTextInArea('.presentationTitle a');
-            	ContentTools.fitTextInArea('.editorName a');
-                var container = $('div.grid.research_type > div.news > div');
-                while (true) {
-                    var lastElemAnchor = $('div#content .homepage_grid div.grid div.news> div > p').last().children('a')[0];
-                    if ($(lastElemAnchor).position().top + $(lastElemAnchor).height() <= $(container).position().top + $(container).height()) {
-                        // nothing to trim, no words to cut, everything is top-notch
-                        return;
-                    }
-                    // start by trimming the anchor text
-                    $(lastElemAnchor).html($.trim($(lastElemAnchor).html()));
-
-                    // remove words one by one, append ellipsis to show text has been cut
-                    while ($(lastElemAnchor).position().top + $(lastElemAnchor).height() > $(container).position().top + $(container).height()) {
-                        var text = $(lastElemAnchor).html();
-                        if (text === '...') {
-                            // all the words cut, and element still not small enough to fit
-                            $(lastElemAnchor).parent().remove();
-                            break;
-                        }
-                        // cut last word and add ellipsis
-                        text = text.substr(0, text.lastIndexOf(' ')) + '...';
-                        $(lastElemAnchor).html(text);
-                    }
-                }
-            });
-        
-    </script>
-
-	<meta property="og:image" content="http://cdn1.infoq.com/styles/i/logo-big.jpg"/>
-</head>
-
-<body >
-
-
-	<div class="intbt">
-		<a href="/int/bt" title="bt">BT</a>
-	</div>
-
-
-<div id="wrapper" style="background-color:#fff">
-	<!--	#######		SITE START	#########	 -->
-	<div id="site">
-		
-
-
-
-
-
-
-
-
-
-<div id="topInfo">
-    <ul class="list1">
-        <li><a href="/aboutus" title="About Us">About Us</a></li>
-        
-        	<li><a href="/aboutyou" title="About You">About You</a></li>
-        
-        <li><a href="/contribute" title="Our Contributor Team">Our Contributor Team</a></li>
-        
-        	<li><a href="/purpose" title="Purpose Index">Purpose Index</a></li>
-        
-        
-            
-    </ul>
-    <ul class="list2">
-        <li>Exclusive updates on:</li>
-        
-	        <li><a href="http://twitter.com/infoq" target="_blank"><img src="http://cdn1.infoq.com/styles/i/twitter.jpg" alt="" border="0" /></a></li>
-	        <li><a href="http://www.facebook.com/InfoQ" target="_blank"><img src="http://cdn2.infoq.com/styles/i/facebook.jpg" alt="" border="0" /></a></li>
-	        <li><a href="http://www.linkedin.com/company/InfoQ" target="_blank"><img src="http://cdn4.infoq.com/styles/i/linkedin.gif" alt="" border="0" /></a></li>
-	        
-	        
-	        	<li><a href="https://plus.google.com/104892343728609932454" target="_blank" rel="publisher"><img src="http://cdn2.infoq.com/styles/i/social/gplus-16.png" alt="" border="0" /></a></li>
-       		
-       		
-        
-        
-        <li><a id="headerRssLink" href="#" title="" target="_blank"><img src="http://cdn1.infoq.com/styles/i/rss.jpg" alt="" border="0" /></a></li>
-    </ul>
-	<div class="clear"></div>
-</div>
-
-	
-<!--	#######		HEADER START	#########	 -->
-<div id="header">
-    <div class="top_explain">Facilitating the spread of knowledge and innovation in professional software development</div>
-	<!--	#######		search	#########	 -->
-	<div class="search_cls">
-	
-		<form name="search" id="search" action="/search.action" method="get" enctype="multipart/form-data">
-			<fieldset>
-				<input type="text" id="keyword" name="queryString" class="searchInput" value="Search" onfocus="if(this.value=='Search'){ this.value = ''; }" onblur="if(this.value==''){ this.value = 'Search'; }" />
-				<input type="hidden" id="page" name="page" value="1"/>
-                <input type="hidden" id="searchOrder" size="15" name="searchOrder">
-				<input type="submit" value="" id="search" class="submitCls" />
-			</fieldset>
-		</form>
-		
-	    
-
-
-
-
-
-
-
-
-<!--	#######		login	#########	 -->
-
-
-	<div id="login">
-		<a class="login_btn" href="#" onclick="return false;" title="Login">
-			<span>Login</span>
-		</a>
-	</div>
-
-
-		
-	</div>
-	
-	<div class="clear"></div>
-	
-	<!--	#######		logo	#########	 -->
-	<div class="logo">
-		<a class="image" href="/" title="">
-            <img src="http://cdn1.infoq.com/styles/i/logo_bigger.jpg" alt="" border="0" />
-        </a>
-		<div class="clear"></div>
-	    
-
-
-
-
-
-
-
-
-<ul class="langs">
-	<li><a class="active" href="#" onclick="return false;" title="InfoQ English">En</a> |</li>
-	<li><a href="/cn/">中文</a> |</li>
-	<li><a href="/jp/">日本</a> |</li>
-    <li><a href="/fr/">Fr</a> |</li>
-	<li><a href="/br/">Br</a></li>
-</ul>
-<div class="clear"></div>
-<p>
-    
-	
-	    
-	    
-	959,935 Mar unique visitors
-</p>
-
-		<div class="clear"></div>
-	</div>
-	
-    	
-
-
-
-
-
-
-
-
-		<!--	#######		menu	#########	 -->
-		<ul class="menu" id="mainmenu">
-			<li id="personas_0">
-				<a class="main" href="/development/" title="Development"><span>Development</span></a>
-				<div class="top_submenu c0">
-					<div class="scroll-pane">
-						<ul class="top_submenu_links">
-				              <li><a class="featured" href="/java/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Java">Java</a></li>
-				              <li><a class="featured" href="/dotnet/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title=".Net">.Net</a></li>
-				              <li><a href="/cloud-computing/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Cloud">Cloud</a></li>
-				              <li><a class="featured" href="/mobile/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Mobile">Mobile</a></li>
-				              <li><a href="/HTML5Topic/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="HTML5">HTML5</a></li>
-				              <li><a href="/javascript/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="JavaScript">JavaScript</a></li>
-				              <li><a href="/ruby/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Ruby">Ruby</a></li>
-				              <li><a href="/dsl/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="DSLs">DSLs</a></li>
-				              <li><a href="/python/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Python">Python</a></li>
-				              <li><a class="featured" href="/Topic_PHP/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="PHP">PHP</a></li>
-				              <li><a class="featured" href="/api/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="API">API</a></li>
-							  <!-- <li><a class="more" href="#" title="">+ More topics</a></li> -->
-						</ul>
-					</div>
-					
-					<div class="menu_article">
-						<h2>Featured in <span id="developmentHDLabel"></span></h2>
-						<h3 id="developmentHDTitle"></h3>
-						<div class="clear"></div>
-						<p>
-							<img id="developmentHDImg" src="" alt="" border="0" />
-							<span id="developmentHDSummary"></span>
-						</p>
-						<div class="clear"></div>	
-						<div class="alignCenter">
-							<a class="view_all_categ" href="/development/">
-								<span>All in <b id="developmentHDLabel2">Development</b></span>
-							</a>
-						</div>
-						<div class="clear"></div>	
-					</div>
-					
-					<div class="clear"></div>
-				</div>
-			</li>
-			
-			<li id="personas_1">
-				<a class="main" href="/architecture-design/" title="Architecture &amp; Design"><span>Architecture<br/>&amp; Design</span></a>
-				<div class="top_submenu c1">
-					<div class="scroll-pane">
-						<ul class="top_submenu_links">
-							  <li><a class="featured" href="/architecture/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Architecture">Architecture</a></li>
-				              <li><a href="/Modeling/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Modeling">Modeling</a></li>
-				              <li><a href="/performance-scalability/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Scalability/Performance">Scalability/Performance</a></li>
-				              <li><a href="/domain-driven-design/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="DDD">DDD</a></li>
-				              <li><a href="/Behavior-Driven-Development/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="BDD">BDD</a></li>
-				              <li><a href="/AOP/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="AOP">AOP</a></li>
-				              <li><a href="/DesignPattern/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Patterns">Patterns</a></li>
-				              <li><a href="/Security/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Security">Security</a></li>
-				              <li><a href="/cloud-computing/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Cloud">Cloud</a></li>
-				              <li><a href="/soa/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="SOA">SOA</a></li>
-							  <!-- <li><a class="more" href="#" title="">+ More topics</a></li> -->
-						</ul>
-					</div>
-					
-					<div class="menu_article">
-						<h2>Featured in <span id="architecture-designHDLabel"></span></h2>
-						<h3 id="architecture-designHDTitle"></h3>
-						<div class="clear"></div>
-						<p>
-							<img id="architecture-designHDImg" src="" alt="" border="0" />
-							<span id="architecture-designHDSummary"></span>
-						</p>
-						<div class="clear"></div>	
-						<div class="alignCenter">
-							<a class="view_all_categ" href="/architecture-design/">
-								<span>All in <b id="architecture-designHDLabel2">Architecture &amp; Design</b></span>
-							</a>
-						</div>
-						<div class="clear"></div>	
-					</div>
-					
-					<div class="clear"></div>
-				</div>
-			</li>
-			<li id="personas_2">
-				<a class="main" href="/process-practices/" title="Process &amp; Practices"><span>Process &amp; Practices</span></a>
-				<div class="top_submenu c2">
-					<div class="scroll-pane">
-						<ul class="top_submenu_links">
-				              <li><a class="featured" href="/agile/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Agile">Agile</a></li>
-				              <li><a href="/Leadership/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Leadership">Leadership</a></li>
-				              <li><a href="/team-collaboration/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Collaboration">Collaboration</a></li>
-				              <li><a href="/agile_techniques/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Agile Techniques">Agile Techniques</a></li>
-				              <li><a href="/methodologies/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Methodologies">Methodologies</a></li>
-				              <li><a href="/continuous_integration/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Continuous Integration">Continuous Integration</a></li>
-				              <li><a href="/lean/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Lean/Kanban">Lean/Kanban</a></li>
-							  <!-- <li><a class="more" href="#" title="">+ More topics</a></li> -->
-						</ul>
-					</div>
-					
-					<div class="menu_article">
-						<h2>Featured in <span id="process-practicesHDLabel"></span></h2>
-						<h3 id="process-practicesHDTitle"></h3>
-						<div class="clear"></div>
-						<p>
-							<img id="process-practicesHDImg" src="" alt="" border="0" />
-							<span id="process-practicesHDSummary"></span>
-						</p>
-						<div class="clear"></div>	
-						<div class="alignCenter">
-							<a class="view_all_categ" href="/process-practices/">
-								<span>All in <b id="process-practicesHDLabel2">Process &amp; Practices</b></span>
-							</a>
-						</div>
-						<div class="clear"></div>	
-					</div>
-					
-					<div class="clear"></div>
-				</div>
-			</li>
-			<li id="personas_3">
-				<a class="main" href="/operations-infrastructure/" title="Operations &amp; Infrastructure"><span>Operations &amp; Infrastructure</span></a>
-				<div class="top_submenu c3">
-					<div class="scroll-pane">
-						<ul class="top_submenu_links">
-				              <li><a class="featured" href="/hadoop/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Hadoop">Hadoop</a></li>
-				              <li><a class="featured" href="/performance/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Scalability/Performance">Performance</a></li>
-				              <li><a href="/bigdata/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Big Data">Big Data</a></li>
-				              <li><a href="/devops/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="DevOps">DevOps</a></li>
-				              <li><a href="/cloud-computing/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Cloud">Cloud</a></li>
-				              <li><a class="featured" href="/apm/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Cloud">APM</a></li>
-				              <li><a href="/virtualization/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Virtualization">Virtualization</a></li>
-				              <li><a class="featured" href="/NoSQL/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="NoSQL">NoSQL</a></li>
-							  <!-- <li><a class="more" href="#" title="">+ More topics</a></li> -->
-						</ul>
-					</div>
-					
-					<div class="menu_article">
-						<h2>Featured in <span id="operations-infrastructureHDLabel"></span></h2>
-						<h3 id="operations-infrastructureHDTitle"></h3>
-						<div class="clear"></div>
-						<p>
-							<img id="operations-infrastructureHDImg" src="" alt="" border="0" />
-							<span id="operations-infrastructureHDSummary"></span>
-						</p>
-						<div class="clear"></div>	
-						<div class="alignCenter">
-							<a class="view_all_categ" href="/operations-infrastructure/">
-								<span>All in <b id="operations-infrastructureHDLabel2">Operations &amp; Infrastructure</b></span>
-							</a>
-						</div>
-						<div class="clear"></div>	
-					</div>
-					
-					<div class="clear"></div>
-				</div>
-			</li>
-			<li id="personas_4" class="last">
-				<a class="main" href="/enterprise-architect/" title="Enterprise Architecture"><span>Enterprise Architecture</span></a>
-				<div class="top_submenu c4">
-					<div class="scroll-pane">
-						<ul class="top_submenu_links">
-				              <li><a href="/enterprise-architecture/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Enterprise Architecture">Enterprise Architecture</a></li>
-				              <li><a href="/bpm/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="BPM">BPM</a></li>
-				              <li><a href="/business_it_alignment/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Business/IT Alignment">Business/IT Alignment</a></li>
-				              <li><a href="/Architecture-Documentation/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Architecture Documentation">Architecture Documentation</a></li>
-				              <li><a href="/Governance/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="IT Governance">IT Governance</a></li>
-				              <li><a href="/soa/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="SOA">SOA</a></li>
-							  <!-- <li><a class="more" href="#" title="">+ More topics</a></li> -->
-						</ul>
-					</div>
-					
-					<div class="menu_article">
-						<h2>Featured in <span id="enterprise-architectHDLabel"></span></h2>
-						<h3 id="enterprise-architectHDTitle"></h3>
-						<div class="clear"></div>
-						<p>
-							<img id="enterprise-architectHDImg" src="" alt="" border="0" />
-							<span id="enterprise-architectHDSummary"></span>
-						</p>
-						<div class="clear"></div>	
-						<div class="alignCenter">
-							<a class="view_all_categ" href="/enterprise-architect/">
-								<span>All in <b id="enterprise-architectHDLabel2">Enterprise Architecture</b></span>
-							</a>
-						</div>
-						<div class="clear"></div>	
-					</div>
-					
-					<div class="clear"></div>
-				</div>
-			</li>
-		</ul>
-
-		
-     	
-
-
-
-
-
-
-
-<!--	#######		qcon	#########	 -->
-
-
-<div class="qcon dual">
-	
-		
- 	
-	<p>
-		<a href="http://qconnewyork.com/?utm_source=infoq&utm_medium=header&utm_campaign=infoqheader" target="_blank" title="New York 2014"><strong>New York 2014</strong><br />Jun 9 - Jun 13</a>
-	</p>
-	<p>
-		<a href="http://qconsf.com/?utm_source=infoq&utm_medium=header&utm_campaign=infoqheader" target="_blank" title="San Francisco 2014"><strong>San Francisco 2014</strong><br />Nov 3 - Nov 7</a>
-	</p>
-</div>
-
-		
-		<div class="clear"></div>
-		
-    	
-
-
-
-
-
-
-
-
-<!--	#######		submenu	#########	 -->
-<ul class="submenu">
-    <li><a href="/mobile/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Mobile">Mobile</a></li>
-    <li><a href="/HTML5Topic/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="HTML5">HTML5</a></li>
-    <li><a href="/javascript/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="JavaScript">JavaScript</a></li>
-	<li><a href="/apm/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="APM">APM</a></li>
-
-    <li><a href="/rest/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="REST">REST</a></li><li><a href="/NoSQL/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="NoSQL">NoSQL</a></li><li><a href="/devops/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="DevOps">DevOps</a></li><li><a class="last" href="/agile/?utm_source=infoq&utm_medium=header_graybar&utm_campaign=topic_clk" title="Agile">Agile</a></li>
-</ul>
-	
-    <div class="all_topics"><a href="/topics">All topics</a></div>
-    
-    
-
-	
-		
-			<div class="index_switch">
-                
-                    <span class="index_switch_label">Layout</span>
-                    <a class="grid" href="javascript:;" id="gridView" title="Grid">List</a>
-                    <a class="list" href="javascript:;"  id="listView" title="List">List</a>
-                
-			</div>
-            <script type="text/javascript">
-                $('.index_switch').after($('.all_topics'));
-                if (CookieManager.readCookie('homepage_list') != null) {
-                    $('#listView').addClass('active');
-                } else {
-                    $('#gridView').addClass('active');
-                }
-            </script>
-		
-		
-	<div class="clear"></div>
-
-	
-	
-	<div class="clear"></div>
-</div>		
-<!--	#######		HEADER END	#########	 -->
-	
-			
-		<!--	#######		CONTENT START	#########	 -->
-		<div id="content">
-			
-
-
-
-<div class="homepage_grid" id="home_grid">
-
-	
-	<div class="grid news_type">
-		
-
-
-
-
-
-
-
-<div class="news">
-            <a href="/news" title="">
-                <h2 class="hnews">News</h2>
-            </a>
-			
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-                            <a href="/news/2014/04/HighDPI" title="">
-                                Future-Proofing Desktop Applications for Hardware Enhancements 
-                            </a>
-                        </h3>
-						<span>
-							by
-                            
-                            <a href="/author/Jonathan-Allen" class="editorlink">Jonathan Allen</a>
-		                   	
-							on
-							Apr 02
-                            
-						</span>
-					</div>
-			
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-                            <a href="/news/2014/04/build2014_keynote1" title="">
-                                Highlights from Microsoft's Build 2014 Opening Keynote
-                            </a>
-                        </h3>
-						<span>
-							by
-                            
-                            <a href="/author/Jeff-Martin" class="editorlink">Jeff Martin</a>
-		                   	
-							on
-							Apr 02
-                            
-						</span>
-					</div>
-			
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-                            <a href="/news/2014/04/Common-XAML" title="">
-                                Introducing Common XAML UI 
-                            </a>
-                        </h3>
-						<span>
-							by
-                            
-                            <a href="/author/Jonathan-Allen" class="editorlink">Jonathan Allen</a>
-		                   	
-							on
-							Apr 02
-                            
-                                <a href="/news/2014/04/Common-XAML/#theCommentsSection">
-                                    <span class="comments_counts"><span class="nr">1</span></span>
-                                </a>
-                            
-						</span>
-					</div>
-			
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-                            <a href="/news/2014/04/universal_win_apps" title="">
-                                Microsoft Opens Windows to the Universal App: One App for All Platforms 
-                            </a>
-                        </h3>
-						<span>
-							by
-                            
-                            <a href="/author/Jeff-Martin" class="editorlink">Jeff Martin</a>
-		                   	
-							on
-							Apr 02
-                            
-						</span>
-					</div>
-			
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-                            <a href="/news/2014/04/top-9-public-6-private-clouds" title="">
-                                RightScale: Top 9 Public and Top 6 Private Clouds
-                            </a>
-                        </h3>
-						<span>
-							by
-                            
-                            <a href="/author/Abel-Avram" class="editorlink">Abel Avram</a>
-		                   	
-							on
-							Apr 02
-                            
-						</span>
-					</div>
-			
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-                            <a href="/news/2014/04/svn-migrates-to-git" title="">
-                                Apache Subversion to Migrate to Git
-                            </a>
-                        </h3>
-						<span>
-							by
-                            
-                            <a href="/author/Alex-Blewitt" class="editorlink">Alex Blewitt</a>
-		                   	
-							on
-							Apr 01
-                            
-                                <a href="/news/2014/04/svn-migrates-to-git/#theCommentsSection">
-                                    <span class="comments_counts"><span class="nr">9</span></span>
-                                </a>
-                            
-						</span>
-					</div>
-			
-			<a href="/news" class="all_of_categ" title=""><span>All news</span></a>
-		</div>				
-		
-
-
-
-
-
-
-
-<div id="mostPopularSection" class="news_in_tabs">
-	<!-- the tabs -->
-	<ul class="tabs">
-		
-			<li><div class="tab_title">Popular</div></li>
-			<li><a href="javascript:;" class="current">Week</a></li>
-			<li><a href="javascript:;">Month</a></li>
-			<li><a href="javascript:;">6 months</a></li>
-				
-	</ul>
-	<!-- tab "panes" -->
-	<div class="panes">
-	</div>
-	<div class="clear"></div>
-</div>
-	</div>
-	
-	<div class="clear"></div>
-		
-	
-		
-
-
-
-
-
-
-
-
-
-	<div class="grid articles_type">
-		<div class="news full_width">
-        <a href="/articles" title="">
-            <h2 class="harticles">Articles</h2>
-        </a>
-
-			
-			
-					
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-							<a href="/articles/implementing-xp-methodology" title="">
-								<img src="/resource/articles/implementing-xp-methodology/en/smallimage/logo.jpg" alt="" border="0" width="100" height="100" />	
-								eXtreme Programming The Methodology
-							</a>
-						</h3>
-						<span>
-                        by
-                        
-                        <a href="/author/Sanjeev-Raman" class="editorlink">Sanjeev Raman</a>
-                        
-							on
-							Apr 02
-                            
-	                            <a href="/articles/implementing-xp-methodology/#theCommentsSection">
-                                    <span class="comments_counts"><span class="nr">1</span></span>
-                                </a>
-	                        
-						</span>
-					</div>
-                    
-			
-					
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-							<a href="/articles/creating-an-enterpise-mobility-strategy" title="">
-								<img src="/resource/articles/creating-an-enterpise-mobility-strategy/en/smallimage/logo2.jpg" alt="" border="0" width="100" height="100" />	
-								Seven Steps to Create an Unbeatable Enterprise Mobility Strategy
-							</a>
-						</h3>
-						<span>
-                        by
-                        
-                        <a href="/author/Arun-Bhattacharya" class="editorlink">Arun Bhattacharya</a>
-                        
-							on
-							Apr 01
-                            
-						</span>
-					</div>
-                    
-			
-					
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-							<a href="/articles/BitKeeper" title="">
-								<img src="/resource/articles/BitKeeper/en/smallimage/logo.jpg" alt="" border="0" width="100" height="100" />	
-								How to Protect Valuable or Personal Data on PC, Hard Drive and Flash Drive
-							</a>
-						</h3>
-						<span>
-                        by
-                        
-                        <a href="/author/Sergey-Solomatin" class="editorlink">Sergey Solomatin</a>
-                        
-							on
-							Mar 28
-                            
-	                            <a href="/articles/BitKeeper/#theCommentsSection">
-                                    <span class="comments_counts"><span class="nr">2</span></span>
-                                </a>
-	                        
-						</span>
-					</div>
-                    
-						<div class="clear" style="margin: 0px; padding: 0px; display: block; min-height: 0px; height: 0px; width: 100%; clear: both;"></div>
-					
-			
-					
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-							<a href="/articles/tobias-mayer-people-scrum-agilelib" title="">
-								<img src="/resource/articles/tobias-mayer-people-scrum-agilelib/en/smallimage/logoQ&amp;A.jpg" alt="" border="0" width="100" height="100" />	
-								Interview with Tobias Mayer about the People’s Scrum and AgileLib
-							</a>
-						</h3>
-						<span>
-                        by
-                        
-                        <a href="/author/Ben-Linders" class="editorlink">Ben Linders</a>
-                        
-							on
-							Mar 31
-                            
-						</span>
-					</div>
-                    
-			
-					
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-							<a href="/articles/orch-pipelines-jenkins" title="">
-								<img src="/resource/articles/orch-pipelines-jenkins/en/smallimage/logo.jpg" alt="" border="0" width="100" height="100" />	
-								Orchestrating Your Delivery Pipelines with Jenkins
-							</a>
-						</h3>
-						<span>
-                        by
-                        
-                        <a href="/author/Andrew-Phillips-and-Kohsuke-Kawaguchi" class="editorlink">Andrew Phillips and Kohsuke Kawaguchi</a>
-                        
-							on
-							Mar 29
-                            
-						</span>
-					</div>
-                    
-			
-					
-					
-						
-					
-		        	
-						
-					
-					<div>
-						<h3>
-							<a href="/articles/agile-pair-paining" title="">
-								<img src="/resource/articles/agile-pair-paining/en/smallimage/logo.jpg" alt="" border="0" width="100" height="100" />	
-								Pair Painting
-							</a>
-						</h3>
-						<span>
-                        by
-                        
-                        <a href="/author/Victoria-Morgan%7ESmith" class="editorlink">Victoria Morgan-Smith</a>
-                        
-							on
-							Mar 27
-                            
-	                            <a href="/articles/agile-pair-paining/#theCommentsSection">
-                                    <span class="comments_counts"><span class="nr">1</span></span>
-                                </a>
-	                        
-						</span>
-					</div>
-                    
-			
-			<a href="/articles" class="all_of_categ" title=""><span>All articles</span></a>
-         <span class="gbanner" id="gbanner">
-			
-	            <div class="home_banner mgtop" id="id_300x250_banner_top">
-	               <script type='text/javascript'>
-	                         googletag.cmd.push(function() { googletag.display('id_300x250_banner_top'); });
-	                     </script>
-	            </div>
-			
-			
-            <script>
-                    $('#id_300x250_banner_top').watch('display',hideSpan);
-                    function hideSpan() {
-                        if ($(this).css('display') === 'none') {
-                            $('#gbanner').hide();
-                            $('#id_300x250_banner_top').unwatch();
-                        }
-                    }
-                    $('#id_300x250_banner_bottom').watch('display',hideSpan);
-                    function hideSpan() {
-                        if ($(this).css('display') === 'none') {
-                            $('#gbanner').hide();
-                            $('#id_300x250_banner_bottom').unwatch();
-                        }
-                    }
-            </script>
-         </span>  
-		</div>
-			
-	</div>
-		
-		<div class="clear"></div>
-		
-		
-
-
-
-
-
-
-
-
-
-<div class="grid presentations_type">
-	<div class="news">
-		<a
-			href="/presentations"
-			title="">
-			<h2 class="hpresentation">
-				Presentations
-			</h2>
-		</a>
-
-		
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/go-patterns-scalability?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row1"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/go-patterns-scalability/en/mediumimage/Richardbig.jpg"
-							alt="" border="0" title="Patterns for Scalable Web Services in Go" />
-					
-					
-					<span> 36:40
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/go-patterns-scalability?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row1"
-
- class="title" title="Patterns for Scalable Web Services in Go">
-
-							Patterns for Scalable Web Services in Go
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Richard-Crowley"
-
- class="editorlink">
-Richard Crowley</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Apr 01
-						</span>
-					</p>
-					
-				</div>
-			</div>
-			
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/java-puzzlers?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row1"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/java-puzzlers/en/mediumimage/Bobbig.jpg"
-							alt="" border="0" title="Java Puzzlers: Something Old, Something Gnu, Something Bogus, Something Blew" />
-					
-					
-					<span> 39:50
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/java-puzzlers?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row1"
-
- class="title" title="Java Puzzlers: Something Old, Something Gnu, Something Bogus, Something Blew">
-
-							Java Puzzlers: Something Old, Something Gnu, Something Bogus, Something Blew
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Josh-Bloch%2C-Bob-Lee"
-
- class="editorlink">
-Josh Bloch, Bob Lee</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Apr 01
-						</span>
-					</p>
-					
-				</div>
-			</div>
-			
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/hopscotch?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row1"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/hopscotch/en/mediumimage/Sambig.jpg"
-							alt="" border="0" title="How to Teach Your Kid to Code with Hopscotch" />
-					
-					
-					<span> 38:21
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/hopscotch?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row1"
-
- class="title" title="How to Teach Your Kid to Code with Hopscotch">
-
-							How to Teach Your Kid to Code with Hopscotch
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Samantha-John"
-
- class="editorlink">
-Samantha John</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Apr 01
-						</span>
-					</p>
-					
-				</div>
-			</div>
-			
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/10-principles-agile-value-delivery?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row2"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/10-principles-agile-value-delivery/en/mediumimage/Tombig.jpg"
-							alt="" border="0" title="Agility is the Tool, Not the Master" />
-					
-					
-					<span> 54:21
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/10-principles-agile-value-delivery?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row2"
-
- class="title" title="Agility is the Tool, Not the Master">
-
-							Agility is the Tool, Not the Master
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Tom-Gilb"
-
- class="editorlink">
-Tom Gilb</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Mar 30
-						</span>
-					</p>
-					
-				</div>
-			</div>
-			
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/technology-meritorious?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row2"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/technology-meritorious/en/mediumimage/bodbig.jpg"
-							alt="" border="0" title="The Mess We've Made" />
-					
-					
-					<span> 01:07:58
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/technology-meritorious?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row2"
-
- class="title" title="The Mess We've Made">
-
-							The Mess We've Made
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Bodil-Stokke"
-
- class="editorlink">
-Bodil Stokke</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Mar 30
-						</span>
-					</p>
-					
-				</div>
-			</div>
-			
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/theory-language-integrated-query?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row2"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/theory-language-integrated-query/en/mediumimage/Philbig.jpg"
-							alt="" border="0" title="A Practical Theory of Language-integrated Query" />
-					
-					
-					<span> 01:21:00
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/theory-language-integrated-query?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row2"
-
- class="title" title="A Practical Theory of Language-integrated Query">
-
-							A Practical Theory of Language-integrated Query
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Philip-Wadler"
-
- class="editorlink">
-Philip Wadler</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Mar 30
-						</span>
-					</p>
-					
-						<a href="/presentations/theory-language-integrated-query/#theCommentsSection">
-							<span class="comments_counts"><span class="nr">1</span></span>
-						</a>
-					
-				</div>
-			</div>
-			
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/7-practices-stakeholder-agile?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row3"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/7-practices-stakeholder-agile/en/mediumimage/Robbig.jpg"
-							alt="" border="0" title="Seven Habits of Highly Effective Stakeholders" />
-					
-					
-					<span> 49:57
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/7-practices-stakeholder-agile?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row3"
-
- class="title" title="Seven Habits of Highly Effective Stakeholders">
-
-							Seven Habits of Highly Effective Stakeholders
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Rob-Keefer"
-
- class="editorlink">
-Rob Keefer</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Mar 28
-						</span>
-					</p>
-					
-				</div>
-			</div>
-			
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/ux-agile?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row3"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/ux-agile/en/mediumimage/Carlbig.jpg"
-							alt="" border="0" title="Agile UX: Is Agile from Mars and UX from Venus?" />
-					
-					
-					<span> 44:37
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/ux-agile?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row3"
-
- class="title" title="Agile UX: Is Agile from Mars and UX from Venus?">
-
-							Agile UX: Is Agile from Mars and UX from Venus?
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Carl-Myhill%2C-Steve-Hayes"
-
- class="editorlink">
-Carl Myhill, Steve Hayes</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Mar 27
-						</span>
-					</p>
-					
-				</div>
-			</div>
-			
-		
-			
-				
-			
-			
-				
-			
-
-			<div>
-				<a
-	
-	href="/presentations/no-estimates?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row3"
-
- class="video_box" title="">
-
-					
-						<img src="/resource/presentations/no-estimates/en/mediumimage/Neilbig.jpg"
-							alt="" border="0" title="The Guessing Game - Alternatives to Agile Estimation and the #NoEstimates Debate" />
-					
-					
-					<span> 30:54
-					</span>
-				</a>
-
-				<div class="video_details">
-					<p class="presentationTitle">
-						<a
-	
-	href="/presentations/no-estimates?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row3"
-
- class="title" title="The Guessing Game - Alternatives to Agile Estimation and the #NoEstimates Debate">
-
-							The Guessing Game - Alternatives to Agile Estimation and the #NoEstimates Debate
-						</a>
-
-					</p>
-					<p class="editorName">
-						<a
-	
-	href="/author/Neil-Killick"
-
- class="editorlink">
-Neil Killick</a>
-
-					</p>
-					<p>
-						<span class="date">
-							Mar 26
-						</span>
-					</p>
-					
-				</div>
-			</div>
-			
-		
-		<a
-			href="/presentations"
-			class="all_of_categ" title=""><span>All presentations</span></a>
-	</div>
-</div>
-			
-		
-
-
-
-
-
-
-
-
-<div class="grid interviews_type">
-		<div class="news">
-        <a href="/interviews" title="">
-            <h2 class="hinterview">Interviews</h2>
-        </a>
-
-        
-			
-					
-						
-					
-		        	
-						
-					
-
-					<div>
-                        <a
-	
-	href="/interviews/maassen-keogh-matts-real-options?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row1"
-
- class="video_box" title="">
-
-							
-								<img src="/resource/interviews/maassen-keogh-matts-real-options/en/mediumimage/Olav-Liz-Chris.png" alt="" border="0" title="Olav Maassen, Liz Keogh &amp; Chris Matts on Commitment and Real Options"/>
-							
-							
-                            <span>
-                                19:00
-                            </span>      
-                        </a>
-
-						<div class="video_details">
-                            <p class="interviewTitle"><a
-	
-	href="/interviews/maassen-keogh-matts-real-options?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row1"
-
- class="title" title="Olav Maassen, Liz Keogh &amp; Chris Matts on Commitment and Real Options">
-Olav Maassen, Liz Keogh &amp; Chris Matts on Commitment and Real Options</a>
-</p>
-							<p class="editorName">
-                                <a
-	
-	href="/author/Olav-Maassen%2C-Liz-Keogh-%26-Chris-Matts"
-
- class="editorlink">
-Olav Maassen, Liz Keogh &amp; Chris Matts</a>
-
-                            </p>
-                            <p>
-                                <span class="date">Mar 08</span>
-                            </p>
-                            
-	                            <a href="/interviews/maassen-keogh-matts-real-options/#theCommentsSection">
-                                    <span class="comments_counts"><span class="nr">2</span></span>
-                                </a>
-	                        
-						</div>
-					</div>
-            
-			
-					
-						
-					
-		        	
-						
-					
-
-					<div>
-                        <a
-	
-	href="/interviews/Tom-Banks-IBM-WebSphere-Application-Server-Liberty-Profile?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row2"
-
- class="video_box" title="">
-
-							
-								<img src="/resource/interviews/Tom-Banks-IBM-WebSphere-Application-Server-Liberty-Profile/en/mediumimage/Tom-Banks.png" alt="" border="0" title="Tom Banks on the IBM WebSphere Application Server Liberty Profile"/>
-							
-							
-                            <span>
-                                30:26
-                            </span>      
-                        </a>
-
-						<div class="video_details">
-                            <p class="interviewTitle"><a
-	
-	href="/interviews/Tom-Banks-IBM-WebSphere-Application-Server-Liberty-Profile?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row2"
-
- class="title" title="Tom Banks on the IBM WebSphere Application Server Liberty Profile">
-Tom Banks on the IBM WebSphere Application Server Liberty Profile</a>
-</p>
-							<p class="editorName">
-                                <a
-	
-	href="/author/Tom-Banks"
-
- class="editorlink">
-Tom Banks</a>
-
-                            </p>
-                            <p>
-                                <span class="date">Mar 07</span>
-                            </p>
-                            
-						</div>
-					</div>
-            
-			
-					
-						
-					
-		        	
-						
-					
-
-					<div>
-                        <a
-	
-	href="/interviews/charron-lean-startup-improv?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row3"
-
- class="video_box" title="">
-
-							
-								<img src="/resource/interviews/charron-lean-startup-improv/en/mediumimage/Todd-Charon.png" alt="" border="0" title="Todd Charron on Lean Startup Machine &amp; Improv in Agile"/>
-							
-							
-                            <span>
-                                21:58
-                            </span>      
-                        </a>
-
-						<div class="video_details">
-                            <p class="interviewTitle"><a
-	
-	href="/interviews/charron-lean-startup-improv?utm_source=infoq&utm_medium=videos_homepage&utm_campaign=videos_row3"
-
- class="title" title="Todd Charron on Lean Startup Machine &amp; Improv in Agile">
-Todd Charron on Lean Startup Machine &amp; Improv in Agile</a>
-</p>
-							<p class="editorName">
-                                <a
-	
-	href="/author/Todd-Charron"
-
- class="editorlink">
-Todd Charron</a>
-
-                            </p>
-                            <p>
-                                <span class="date">Mar 05</span>
-                            </p>
-                            
-						</div>
-					</div>
-            
-			
-			<a href="/interviews" class="all_of_categ" title=""><span>All interviews</span></a>
-		</div>
-	</div>
-		
-		
-	        
-
-
-
-
-
-
-
-
-<div class="grid research_type">
-            <div class="news">
-                <a href="/research" title="">
-                    <h2 class="hresearch">Research</h2>
-                </a>
-                <div>
-                    
-                    
-                        
-                            
-                        
-                        
-                            
-                        
-                        <div class="tab_article_homepage">
-                            <div class="txxt">
-                                <h2 class="research">
-                                    <a title="What's Your Technology Stack to Create Mobile Apps?" href="/research/mobile-apps-stack?utm_source=infoqresearch&utm_campaign=lr-homepage">
-                                        What's Your Technology Stack to Create Mobile Apps?
-                                    </a>
-                                </h2>
-                                <p>
-                                    
-                                        
-                                    
-                                    by
-                                    <a href="/author/Ralph-Winzinger" class="editorlink" title="Ralph Winzinger">
-                                        Ralph Winzinger
-                                    </a>
-                                    on
-                                    
-                                    Mar 18
-		                            
-			                            <a href="/research/mobile-apps-stack/#theCommentsSection">
-                                            <span class="comments_counts"><span class="nr">4</span></span>
-                                        </a>
-			                        
-                                </p>
-                            </div>
-                            <div class="immg">
-                                <a title="What's Your Technology Stack to Create Mobile Apps?" href="/research/mobile-apps-stack?utm_source=infoqresearch&utm_campaign=lr-homepage">
-                                    <img border="0" alt="" src="/resource/research/mobile-apps-stack/en/smallimage/research-mobile.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    
-                        
-                            
-                        
-                        
-                            
-                        
-                        <div class="tab_article_homepage">
-                            <div class="txxt">
-                                <h2 class="research">
-                                    <a title="What CI Server Do You Use?" href="/research/ci-server?utm_source=infoqresearch&utm_campaign=lr-homepage">
-                                        What CI Server Do You Use?
-                                    </a>
-                                </h2>
-                                <p>
-                                    
-                                        
-                                    
-                                    by
-                                    <a href="/author/Charles-Humble" class="editorlink" title="Charles Humble">
-                                        Charles Humble
-                                    </a>
-                                    on
-                                    
-                                    Mar 04
-		                            
-			                            <a href="/research/ci-server/#theCommentsSection">
-                                            <span class="comments_counts"><span class="nr">1</span></span>
-                                        </a>
-			                        
-                                </p>
-                            </div>
-                            <div class="immg">
-                                <a title="What CI Server Do You Use?" href="/research/ci-server?utm_source=infoqresearch&utm_campaign=lr-homepage">
-                                    <img border="0" alt="" src="/resource/research/ci-server/en/smallimage/research-ci.png">
-                                </a>
-                            </div>
-                        </div>
-                    
-                        
-                            
-                        
-                        
-                            
-                        
-                        <div class="tab_article_homepage">
-                            <div class="txxt">
-                                <h2 class="research">
-                                    <a title="30 Most Popular 3rd-Party Controls for .NET Applications" href="/research/dotnet-web-components?utm_source=infoqresearch&utm_campaign=lr-homepage">
-                                        30 Most Popular 3rd-Party Controls for .NET Applications
-                                    </a>
-                                </h2>
-                                <p>
-                                    
-                                        
-                                    
-                                    by
-                                    <a href="/author/Anand-Narayanaswamy" class="editorlink" title="Anand Narayanaswamy">
-                                        Anand Narayanaswamy
-                                    </a>
-                                    on
-                                    
-                                    Feb 27
-		                            
-			                            <a href="/research/dotnet-web-components/#theCommentsSection">
-                                            <span class="comments_counts"><span class="nr">1</span></span>
-                                        </a>
-			                        
-                                </p>
-                            </div>
-                            <div class="immg">
-                                <a title="30 Most Popular 3rd-Party Controls for .NET Applications" href="/research/dotnet-web-components?utm_source=infoqresearch&utm_campaign=lr-homepage">
-                                    <img border="0" alt="" src="/resource/research/dotnet-web-components/en/smallimage/research-net.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    
-                    
-                            
-                                
-                            
-                            
-                                
-                            
-                            <p>
-                                <a href="/research/api-documentation?utm_source=infoqresearch&utm_campaign=lr-homepage" title="How do you document your APIs?">
-                                    How do you document your APIs?
-                                </a>
-                            </p>
-                            
-                    
-                            
-                                
-                            
-                            
-                                
-                            
-                            <p>
-                                <a href="/research/languages-on-javascript-platform?utm_source=infoqresearch&utm_campaign=lr-homepage" title="What's Your Next Language on the Javascript Platform?">
-                                    What's Your Next Language on the Javascript Platform?
-                                </a>
-                            </p>
-                            
-                    
-                            
-                                
-                            
-                            
-                                
-                            
-                            <p>
-                                <a href="/research/top-javascript-mvc-frameworks?utm_source=infoqresearch&utm_campaign=lr-homepage" title="Top JavaScript MVC Frameworks">
-                                    Top JavaScript MVC Frameworks
-                                </a>
-                            </p>
-                            
-                    
-                            
-                                
-                            
-                            
-                                
-                            
-                            <p>
-                                <a href="/research/alm-survey?utm_source=infoqresearch&utm_campaign=lr-homepage" title="Top Application Lifecycle Management (ALM) Toolsets">
-                                    Top Application Lifecycle Management (ALM) Toolsets
-                                </a>
-                            </p>
-                            
-                    
-                            
-                                
-                            
-                            
-                                
-                            
-                            <p>
-                                <a href="/research/next-jvm-language?utm_source=infoqresearch&utm_campaign=lr-homepage" title="What's Your Next JVM Language?">
-                                    What's Your Next JVM Language?
-                                </a>
-                            </p>
-                            
-                    
-                            
-                                
-                            
-                            
-                                
-                            
-                            <p>
-                                <a href="/research/agile-adoption-impediments?utm_source=infoqresearch&utm_campaign=lr-homepage" title="Biggest Impediments for Effective Agile Adoption?">
-                                    Biggest Impediments for Effective Agile Adoption?
-                                </a>
-                            </p>
-                            
-                    
-                            
-                                
-                            
-                            
-                                
-                            
-                            <p>
-                                <a href="/research/agile-practises?utm_source=infoqresearch&utm_campaign=lr-homepage" title="What are the Most Important and Adoption-Ready Agile Practices?">
-                                    What are the Most Important and Adoption-Ready Agile Practices?
-                                </a>
-                            </p>
-                            
-                    
-                            
-                                
-                            
-                            
-                                
-                            
-                            <p>
-                                <a href="/research/valuable-tech-html5-development?utm_source=infoqresearch&utm_campaign=lr-homepage" title="What are the Most Valuable Tools for HTML5 Development?">
-                                    What are the Most Valuable Tools for HTML5 Development?
-                                </a>
-                            </p>
-                            
-                    
-                </div>
-                <a href="/research" class="all_of_categ" title=""><span>All research</span></a>
-            </div>
-        </div>
-	    
-	    
-	    
-	    
-	    <div class="clear"></div>
-
-		<div class="home_banner" id="id_300x250_banner_bottom">
-			<script type='text/javascript'>
-				googletag.cmd.push(function() { googletag.display('id_300x250_banner_bottom'); });
-			</script>
-		</div>
-	
-		
-	
-	
-	
-    <div class="related_sponsors vcronly">
-        
-
-
-
-
-
-
-
-	<div class="gray_section_related only1 fullWidth">
-	    <div class="related_editorial sponsored standalonevcr only1">
-	        <p class="title">Related Vendor Content</p>
-	        <div class="links">
-	            
-	            
-	            
-	            
-	                
-	                    
-	                
-	                <h3 title="" class="entrypdf f_vcrembed" jsh="{&quot;id&quot;:2755,&quot;title&quot;:&quot;5 Steps to Get Started with Software Security Requirements&quot;}">
-	                    <a href="/vendorcontent/show.action?vcr=2755&utm_source=infoq&utm_medium=VCR&utm_campaign=vcr_homePage_click" >
-	                        5 Steps to Get Started with Software Security Requirements
-	                    </a>
-	                </h3>
-	            
-	                
-	                    
-	                
-	                <h3 title="" class="entrypdf f_vcrembed" jsh="{&quot;id&quot;:2726,&quot;title&quot;:&quot;Ten Answers Regarding Mobile App Testing&quot;}">
-	                    <a href="/vendorcontent/show.action?vcr=2726&utm_source=infoq&utm_medium=VCR&utm_campaign=vcr_homePage_click" >
-	                        Ten Answers Regarding Mobile App Testing
-	                    </a>
-	                </h3>
-	            
-	                
-	                    
-	                
-	                <h3 title="" class="entrypdf f_vcrembed" jsh="{&quot;id&quot;:2728,&quot;title&quot;:&quot;SOA and API Convergence Strategy, Tactics&quot;}">
-	                    <a href="/vendorcontent/show.action?vcr=2728&utm_source=infoq&utm_medium=VCR&utm_campaign=vcr_homePage_click" target="_blank">
-	                        SOA and API Convergence Strategy, Tactics
-	                    </a>
-	                </h3>
-	            
-	                
-	                    
-	                
-	                <h3 title="" class="entrypdf f_vcrembed" jsh="{&quot;id&quot;:2744,&quot;title&quot;:&quot;API Patterns for Cloud &amp; Mobile&quot;}">
-	                    <a href="/vendorcontent/show.action?vcr=2744&utm_source=infoq&utm_medium=VCR&utm_campaign=vcr_homePage_click" target="_blank">
-	                        API Patterns for Cloud & Mobile
-	                    </a>
-	                </h3>
-	            
-	                
-	                    
-	                
-	                <h3 title="" class="entrypdf f_vcrembed" jsh="{&quot;id&quot;:2756,&quot;title&quot;:&quot;How to Add Security Requirements into Different Development Processes&quot;}">
-	                    <a href="/vendorcontent/show.action?vcr=2756&utm_source=infoq&utm_medium=VCR&utm_campaign=vcr_homePage_click" >
-	                        How to Add Security Requirements into Different Development Processes
-	                    </a>
-	                </h3>
-	            
-	            
-	            
-	                
-	                
-	            
-	            <div class="clear"></div>
-	        </div>
-	    </div>
-    </div>
-
-        <script type="text/javascript">
-            $('.related_sponsors.vcronly').addClass('full');
-            $('.related_sponsors.vcronly').css('float','none');
-            if ($('.related_sponsors.vcronly > .gray_section_related > .related_editorial.sponsored.standalonevcr.only1').length > 0) {
-                $('.related_sponsors.vcronly').show();
-            }
-        </script>
-    </div>
-	
-	<div class="clear"></div>
-		
-    
-        <div class="grid ebooks_type">
-            <div class="news">
-                <a href="/minibooks" title="">
-                    <h2 class="hfeatured">Featured Books</h2>
-                </a>
-                
-                    
-                        
-                    
-                    
-                        
-                    
-
-                    <div>
-                        <a href="/minibooks/continuous-delivery-overview" title="" class="ebooks">
-                            <div class="img_cover2">
-	                            
-	                                <img src="/resource/minibooks/continuous-delivery-overview/en/cover/cover.jpg" alt="" border="0" />
-	                            
-	                            
-                            </div>
-                            <h3>Continuous Delivery Overview - Value proposition, definitions, principles, core practices, and tools</h3>
-                        </a>
-                        <span><a class="editorlink" href="/author/Luca-Minudel">Luca Minudel</a></span>
-                    </div>
-                
-                    
-                        
-                    
-                    
-                        
-                    
-
-                    <div>
-                        <a href="/minibooks/emag-lean-kanban" title="" class="ebooks">
-                            <div class="img_cover2">
-	                            
-	                                <img src="/resource/minibooks/emag-lean-kanban/en/cover/cover.png" alt="" border="0" />
-	                            
-	                            
-                            </div>
-                            <h3>InfoQ eMag: Lean &amp; Kanban</h3>
-                        </a>
-                        <span><a class="editorlink" href="/author/InfoQ.com">InfoQ.com</a></span>
-                    </div>
-                
-                    
-                        
-                    
-                    
-                        
-                    
-
-                    <div>
-                        <a href="/minibooks/agile-guts" title="" class="ebooks">
-                            <div class="img_cover2">
-	                            
-	                                <img src="/resource/minibooks/agile-guts/en/cover/coverAgilewithGuts.png" alt="" border="0" />
-	                            
-	                            
-                            </div>
-                            <h3>Agile with Guts - A pragmatic guide to value-driven development</h3>
-                        </a>
-                        <span><a class="editorlink" href="/author/Nicolas-Gouy">Nicolas Gouy</a></span>
-                    </div>
-                
-                    
-                        
-                    
-                    
-                        
-                    
-
-                    <div>
-                        <a href="/minibooks/emag-devops-war-stories" title="" class="ebooks">
-                            <div class="img_cover2">
-	                            
-	                                <img src="/resource/minibooks/emag-devops-war-stories/en/cover/cover.png" alt="" border="0" />
-	                            
-	                            
-                            </div>
-                            <h3>InfoQ eMag: DevOps War Stories</h3>
-                        </a>
-                        <span><a class="editorlink" href="/author/InfoQ.com">InfoQ.com</a></span>
-                    </div>
-                
-                <a href="/minibooks" class="all_of_categ" title=""><span>View more Featured Books</span></a>
-            </div>
-
-            
-
-
-
-
-
-
-
-
- 	
- 		<div class="sponsored_links_section">
- 	
- 	
-		 	<div class="sp_title">Sponsored Links</div>
-		 	<div id="id_ad_textlink1">
-		 		<script type='text/javascript'>
-		 			googletag.cmd.push(function() { googletag.display('id_ad_textlink1'); });
-		 		</script>
-		 	</div>
-		 	<div id="id_ad_textlink2">
-		 		<script type='text/javascript'>
-		 			googletag.cmd.push(function() { googletag.display('id_ad_textlink2'); });
-		 		</script>
-		 	</div>
-		 	<div id="id_ad_textlink3">
-		 		<script type='text/javascript'>
-		 			googletag.cmd.push(function() { googletag.display('id_ad_textlink3'); });
-		 		</script>
-		 	</div>
- 		</div>
-
-
-        </div>
-    
-		
-		<div class="clear"></div>
-</div>
-
-
-
-
-
-
-
-
-
-<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-1.newrelic.com","bfafe6a5f6",410411,"YAFWMEEAW0RUVk1cCllLfjdjTl1YWFBJVAJSS1wLXgRFVlJQZgVVAgJTFloFG11GRQ==",0,775,new Date().getTime()])</script>
-		</div>
-		<!--	#######		CONTENT END	#########	 -->
-		
-		<div class="clear"></div>
-	</div>
-	<!--	#######		SITE END	#########	 -->
-
-	
-
-
-
-
-
-
-
-
-
-<!--	#######		FOOTER START	#########	 -->
-<div id="footer">
-	<div class="footer_bg">
-		<div id="latestContent" class="footer_class"></div>
-		<div class="clear"></div>
-	</div>
-			
-	<div class="footer">
-		<ul class="footerMenu">
-		  	<li class="l1"><a class="active" href="/" title="Home">Home</a></li>
-		  	<li class="l2"><a class="active" href="/topics" title="All topics">All topics</a></li>
-			<li class="l3"><a href="http://www.qconferences.com/" target="_blank" title="QCon Conferences">QCon Conferences</a></li>
-	        
-				<li class="l7"><a href="/aboutus" title="About us">About us</a></li>
-		    	<li class="l7"><a href="/aboutyou" title="About You">About You</a></li>		    	
-		    	<li class="l7"><a href="/contribute" title="Our Contributor Team">Our Contributor Team</a></li>		    	
-		    	<li class="l7"><a href="/purpose" title="Purpose Index">Purpose Index</a></li>		    	
-			
-			
-		  	
-			
-				<li class="l5"><a href="/reginit.action" title="Create account">Create account</a></li>
-				<li class="l6"><a class="login_btn_footer" href="#" onClick="return false;" title="Login">Login</a></li>
-			
-		</ul>
-			
-      	
-
-
-
-
-
-
-
-<ul class="footerTxt1">
-	<li><strong>QCons Worldwide</strong></li>
-
-	<li><img class="qconflag uk"/><a href="http://www.qconlondon.com/?utm_source=infoq&utm_medium=listing&utm_campaign=footer" target="_blank" title="QCon London, March 5-7, 2014">London, March 5-7, 2014</a></li>
-	<li><img class="qconflag br"/><a href="http://www.qconsp.com/?utm_source=infoq&utm_medium=listing&utm_campaign=footer" target="_blank" title="QCon São Paulo, Apr 9-11, 2014">São Paulo, Apr 9-11, 2014</a></li>
-	<li><img class="qconflag us"/><a href="http://qconnewyork.com/?utm_source=infoq&utm_medium=listing&utm_campaign=footer" target="_blank" title="QCon New York, Jun 9 –13, 2014">New York, Jun 9 –13, 2014</a></li>
-	<li><img class="qconflag us"/><a href="http://qconsf.com/?utm_source=infoq&utm_medium=listing&utm_campaign=footer" target="_blank" title="San Francisco, Nov 3 – Nov 7, 2014">San Francisco, Nov 3 – Nov 7, 2014</a></li>
-</ul>
-
-      	
-		
-
-
-
-
-
-
-
-
-<div class="ftxt3">
-	<div class="newsletter">
-		<div class="txtNews">
-			<h3>InfoQ Weekly Newsletter</h3>
-			<p>Subscribe to our Weekly email newsletter to follow all new content on InfoQ</p>
-			<span id="footerNewsletterEmailSuccess" style="color:green;"></span>
-			<span id="footerNewsletterEmailError" style="color:red;"></span>
-		</div>
-		<div class="click2view">
-			<a target="_blank" href="/newsletter_sample.html">
-                <img src="http://cdn4.infoq.com/styles/i/click2view2_en.jpg" alt="" border="0" />
-			</a>
-		</div>
-		<div class="clear"></div>
-		<form name="footerNewsletterForm" id="footerNewsletteForm" action="#" onsubmit="footerNewsletter.saveSubscription(); return false;">
-			<fieldset>
-				<input type="text" class="input_text" id="footerNewsletterEmail" name="footerNewsletterEmail" value="Your email here" 
-		            	onclick="footerNewsletter.clearEmailText();" onblur="footerNewsletter.resetEmailText();" />
-                <input type="submit" value="Subscribe" id="sbs" name="sbs" class="input_submit" onclick="return footerNewsletter.validateEmail('Invalid email address');"/>
-			</fieldset>
-		</form>
-		<div class="clear"></div>
-	</div>
-	<ul class="footerTxt3">
-		<li><a class="rss" id="footerNewsletterRssLink" href="#">Your personalized RSS</a></li>
-	    
-	    
-			<li><a class="twitter" href="http://twitter.com/infoq" target="_blank">For daily content and announcements</a></li>
-	    
-		<li><a class="fb" href="http://www.facebook.com/InfoQ" target="_blank">For major community updates</a></li>
-		
-	        <li><a class="googleplus" href="https://plus.google.com/104892343728609932454" target="_blank" rel="publisher">For weekly community updates</a></li>
-       	
-	</ul>
-</div>
-<script type="text/javascript">
-	var footerNewsletter = new Newsletter('Your email here', 'footerNewsletterEmail', 'footerNewsletterForm', 'footerNewsletterEmailError', 'footerNewsletterEmailSuccess');
-</script>
-			
-			
-		<div class="our_events">
-	      	
-
-
-
-
-
-
-
-
-
-			
-			<div class="communities">
-				<p>Personalize Your Main Interests</p>
-				<br/><br/><br/>
-				<fieldset>
-					<ul>
-			        	
-
-
-
-
-
-
-
-<fieldset>
-	<table cellpadding="0" cellspacing="0" border="0" width="100%">
-		
-			<tr>
-				<td valign="middle">
-					<input type="checkbox" name="development" value="true" checked="checked" id="persona6815" class="chb" onclick="includeExcludeCommunity(this, false);"/>
-
-					<span>Development</span>
-				</td>
-			</tr>
-		
-			<tr>
-				<td valign="middle">
-					<input type="checkbox" name="architecture-design" value="true" checked="checked" id="persona6816" class="chb" onclick="includeExcludeCommunity(this, false);"/>
-
-					<span>Architecture &amp; Design</span>
-				</td>
-			</tr>
-		
-			<tr>
-				<td valign="middle">
-					<input type="checkbox" name="process-practices" value="true" checked="checked" id="persona6817" class="chb" onclick="includeExcludeCommunity(this, false);"/>
-
-					<span>Process &amp; Practices</span>
-				</td>
-			</tr>
-		
-			<tr>
-				<td valign="middle">
-					<input type="checkbox" name="operations-infrastructure" value="true" checked="checked" id="persona6818" class="chb" onclick="includeExcludeCommunity(this, false);"/>
-
-					<span>Operations &amp; Infrastructure</span>
-				</td>
-			</tr>
-		
-			<tr>
-				<td valign="middle">
-					<input type="checkbox" name="enterprise-architect" value="true" checked="checked" id="persona6819" class="chb" onclick="includeExcludeCommunity(this, false);"/>
-
-					<span>Enterprise Architecture</span>
-				</td>
-			</tr>
-		
-	</table>
-</fieldset>
-
-					</ul>						
-				</fieldset>
-			</div>
-		</div>
-			
-		<div class="clear"></div>
-			
-	</div>
-	
-	<div class="clear"></div>
-</div>
-<!--	#######		FOOTER END	#########	 -->
-
-<div class="bottomContent">
-	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="last_content">
-		<tr>
-			<td>
-				<div>General Feedback</div> 
-				<div><a href="mailto:feedback@infoq.com">feedback@infoq.com</a></div>
-			</td>
-			<td>
-				<div>Bugs</div> 
-				<div><a href="mailto:bugs@infoq.com">bugs@infoq.com</a></div>
-			</td>
-			<td>
-				<div>Advertising</div> 
-				<div><a href="mailto:sales@infoq.com">sales@infoq.com</a></div>
-			</td>
-			<td>
-				<div>Editorial</div> 
-				<div><a href="mailto:editors@infoq.com">editors@infoq.com</a></div>
-			</td>
-			<td class="text">
-				<span>InfoQ.com and all content copyright &#169; 2006-2013 C4Media Inc. InfoQ.com hosted at <a href="http://www.contegix.com/">Contegix</a>, the best ISP we've ever worked with.<br/><a href="/privacypolicy" target="_blank">Privacy policy</a></span>
-			</td>
-		</tr>
-	</table>
-</div>
-
-	
-	
-		<div class="intbt">
-			<a href="/int/bt" title="bt">BT</a>
-		</div>
-	
-	
-	
-
-
-
-
-
-
-
-
-<div id="id_geo_banner" style="display:none;position:fixed;bottom:0;left:0;width:100%;z-index:100000;">
-	<div id="id_geo_banner_ad" style="display:none;">
-		<script type='text/javascript'>
-		if(CookieManager.readCookie("igabgt") == null) {
-			// use the jquery.watch method to see when GAM changes the display css attribute of id_geo_banner_ad
-			// whenever an ad is placed there GAM will chnage the display which is init as none. This is the safest way to determine when an ad is fetched by GAM!
-			$("#id_geo_banner_ad").watch('display',showAd,1000);		
-			googletag.cmd.push(function() { googletag.display('id_geo_banner_ad');});
-		}
-		function showAd() {
-			try {
-				$('#id_geo_banner iframe:first').attr('width', '100%');
-				$('#id_geo_banner iframe:first').attr('height', '100%');
-				$('#id_geo_banner iframe:first').css('min-width', '1024px');
-			}catch(err){}
-			$('#id_geo_banner').show('slow');
-			setTimeout("$('#id_geo_banner').hide('slow');", 30000);
-		}
+		<meta name="keywords" content="Tech, News, Reviews, Tips" />		<meta name="description" content="Geeking out since 1995. Providing readers with tech news, reviews, and tips." />		<link rel="canonical" href="http://www.geek.com/" />		<meta name="robots" content="noodp,noydir" />		<meta name="zdid" content="h"/>		<meta name="msvalidate.01" content="C91A857B88F4A7B1369CE7A7FDE1274B" />
+		<link rel="shortcut icon" type="image/x-icon" href="http://www.geek.com/wp-content/themes/geek7/favicon.ico">
+		<link rel="apple-touch-icon" href="http://www.geek.com/wp-content/themes/geek7/mobile-icon.png" />
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="pingback" href="http://www.geek.com/xmlrpc.php" />
+				 <meta name="verify-v1" content="S2asZW58IMwtYoRZ3ZUr/KdK4ouAjbWmVo12bcJpCJQ=" />
+         <meta name="verify-v1" content="DaeOsREDKGt9v49pn8loPenRO6/Z23cckJz0doLIxkg=" />
+         <meta name="google-site-verification" content="tAQZywTJgrvngL5fGLrecKL9jWxOAl8R3GbrrvKUKNs" />
+      			<script type="text/javascript">
+			var templateDir = 'http://www.geek.com/wp-content/themes/geek7';
+			var CS_segments = ''; 
 		</script>
-	</div>
-</div>
-
-	<script src="/dwr/engine.js" type="text/javascript"></script>
-	<script src="/dwr/interface/UserCategoryUtil.js" type="text/javascript"></script>
-	<script src="/dwr/interface/DWRRewriteAction.js" type="text/javascript"></script>
-	
-
-
-
-
-
-
-
-<iframe name="loginFrame" id="loginFrame" style="width:0;height:0;border:0;"></iframe>
-<div class="login_overlay" id="loginWidget" style="display:none;">
-	<!--	html for login box	-->
-	<input type="hidden" id="loginWidgetOrigin"/>
-	<div id="popupLogin">
-		<a title="" class="close_login_flat" href="#" onclick="UserActions_Login.hideLoginWidget();return false;" >Close</a>
-		<form method="post" id="login_formLogin" 
-			  action="https://www.infoq.com/login.action" 
-			  target="loginFrame" onsubmit="UserActions_Login.showMessage(JSi18n.login_sendingRequest);">
-			<label class="label_login">Email</label>
-			<input type="text" name="username" id="login_username" class="login_text" />
-			<label class="label_login">Password</label>
-			<input type="password" name="password" id="login_password" class="login_text" />
-			<input type="submit" value="" name="submit-login" class="submit-login" />
-			
-			<div id="socialLogin">
-	            	        	
-	        		<a class="social-idp google" onclick="return addLoginInfo(this);" href="/social/googleLogin.action?fl=login" title="Login with Google">Login with Google</a>
-	        		<div class="clearer" style="height: 0px;"></div>
-	        	
-	        		
-	        			<a class="social-idp twitter" onclick="return addLoginInfo(this);" href="/social/twitterLogin.action?fl=login" title="Login with Twitter">Login with Twitter</a>
-	        			<div class="clearer" style="height: 0px;"></div>
-	        	
-	        			<a class="social-idp facebook"  onclick="return addLoginInfo(this);" href="/social/facebookLogin.action?fl=login" title="Login with Facebook">Login with Facebook</a>
-	        			<div class="clearer" style="height: 0px;"></div>
-	        		
-	        	
-	           		<a class="social-idp microsoft" onclick="return addLoginInfo(this);" href="/social/liveLogin.action?fl=login" title="Login with Microsoft">Login with Microsoft</a>
-	        		<div class="clearer" style="height: 0px;"></div>
-	            
-	        </div>
-			<div class="more_links">
-				<p>
-					<a style="text-decoration:none;" href="#" onClick="UserActions_Login.showForgotPasswordForm();return false;">
-						Forgot password ?
-					</a>
-					<br/><br/>
-				</p>
-			</div>
-		</form>
+					<meta http-equiv="REFRESH" content="240">
+				
+        <!--[if IE]>
+            <script src="http://www.geek.com/wp-content/themes/geek7/js/html5.js"></script>
+        <![endif]-->
 		
-		<form method="post" id="login_formPasswordReset" 
-			  action="/resetpasswordinit.action" 
-			  target="loginFrame" style="display:none;" onsubmit="UserActions_Login.showMessage(JSi18n.login_sendingRequest);">
-			<label class="label_login">InfoQ Account Email</label>
-			<input type="text" name="email" id="login_email" class="login_text" />
-			<button type="submit" name="submit-login" style="border: 1px solid #CCCCCC; width: 100%; padding: 8px 5px;" on>Send Email</button>
-			<div class="more_links">
-				<p>
-					<a style="text-decoration:none;" href="#" onClick="UserActions_Login.showLoginForm();return false;">
-						Back to login
-					</a>
-					<br/><br/>
-				</p>
-			</div>
-		</form>
-		<form method="post" id="login_formEmailVerification" 
-			  action="/reactivate.action" 
-			  target="loginFrame" style="display:none;" onsubmit="UserActions_Login.showMessage(JSi18n.login_sendingRequest);">
-			<label class="label_login">Resend Activation</label>
-			<input type="text" name="email" id="login_emailVerification" class="login_text" />
-			<button type="submit" name="submit-login" style="border: 1px solid #CCCCCC; width: 100%; padding: 8px 5px;" on>Resend</button>
-			<div class="more_links">
-				<p>
-					<a style="text-decoration:none;" href="#" onClick="UserActions_Login.showLoginForm();return false;">
-						Back to login
-					</a>
-					<br/><br/>
-				</p>
-			</div>
-		</form>
-		<div class="more_links">
-			<p><a onclick="return addLoginInfo(this);" href="/reginit.action?" title="">Don't have a username ?</a></p>
-			<p><a onclick="return addLoginInfo(this);" href="/reginit.action?" title="">REGISTER HERE</a></p>
-			<div style="padding:5px;background:#EBF0F3;margin-top:45px;display:none;" id="loginPopupMessage"></div>
-		</div>
-	</div>
-	<!--	html for login box 	-->
-    <script type="text/javascript">
-        function addLoginInfo(link){
-            var v = $('#loginWidgetOrigin').val();
-            if(v !== undefined && v != ''){
-                addOrigin(link);
-                link.href += '%23' + v;
-                return true;
-            } else {
-                return addOrigin(link);
-            }
-        }
-    </script>
-</div>
+	<meta property="og:url" content="http://www.geek.com/"/>
+	<meta property="og:title" content="Tech News, Reviews &amp; Tips | Geek.com"/>
+	<meta property="og:site_name" content="@geekdotcom"/>
+	<meta property="og:type" content="Blog"/>
+	<meta property="fb:admins" content="45041537375"/>
+	<meta property="fb:app_id" content="351808141600848"/>
+		
+		    <meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:site" content="geekdotcom">
+	<meta name="twitter:creator" content="@geekdotcom">
+	<meta name="twitter:domain" content="geek.com">
+	<meta name="twitter:title" content="Tech News, Reviews &amp; Tips | Geek.com"/>
+	<meta name="twitter:url" content="http://www.geek.com/"/>
+				
+			<script type="text/javascript">
+		var maxPages = 4570	</script>
+		<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+		
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
 
-	
+<!-- This website is patched against a big problem not solved from WordPress 2.5+ to date -->
 
+<link rel="alternate" type="application/rss+xml" title="Geek.com &raquo; Feed" href="http://www.geek.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Geek.com &raquo; Comments Feed" href="http://www.geek.com/comments/feed/" />
+<link rel='stylesheet' id='style-css'  href='http://www.geek.com/wp-content/themes/geek7/style.css?ver=1390338140' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.geek.com/wp-content/themes/geek7/css/jquery.fancybox.css?ver=1365098796' type='text/css' media='all' />
+<link rel='stylesheet' id='tn3-css-css'  href='http://www.geek.com/wp-content/themes/geek7/css/skins/tn3a/tn3a.css?ver=1364766912' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/jquery.colorbox.js?ver=1383335837'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/geek.js?ver=1383335837'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.geek.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.geek.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.1" />
 
+<!-- Dynamic Widgets v1.5.4 by QURL - http://www.qurl.nl //-->
+									
+			<!-- Pressly Redirect -->
+<script type="text/javascript" src="//read.pressly.com/52960da3646f6d79c9030000/52960de5646f6d79ba000000/redirect.js"></script>
 
+<!-- Google Analytics Tag -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-21677019-1']);
+	  	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>					
+			<script type='text/javascript' src='http://static.ziffdavis.com/js/zdcc/1.0.0/zdcc.min.js?ver=1.0.0'></script>
 
+<!-- Optimizely Script -->
+<script src="http://cdn.optimizely.com/js/211158221.js"></script>
+<!-- End Optimizely Script -->
 
-
-<script type="text/javascript">
-	var includeName = 'content.inline_personalization.include.label';
-	var excludeName = 'content.inline_personalization.exclude.label';
-	var includeHint = 'content.inline_personalization.include.hint';
-	var excludeHint = 'content.inline_personalization.exclude.hint';
-	var excludeCategoryMessage = 'content.inline_personalization.exclude.message';
-	var viewallCategoryMessage = 'content.inline_personalization.view_all.hint';
-	var busyMessage = 'content.inline_personalization.busy.message';
-	var contextPath = '' + '/';
-	var viewallCategoryPath= '';
-	var includeExcludeLink= true;
+<!-- begin gurgler -->
+<script type="text/javascript" src="http://static.ziffdavis.com/js/zdgurgle/zdgurgler.min.js"> 
 </script>
-
-	
-
-
-
-
-
-
+<script type="text/javascript">	
+var CS_segments = ''; 
+CS_segments = ZDGURGLER.GetAdString();
+</script>
+<!-- end gurgler -->
+<style>
+.socialmedia ul {z-index:99999 !important;}
+header .fixed { z-index:99990;}
+.fancybox-overlay{z-index:2147483640;}
+.fancybox-opened{z-index:2147483647;}
+</style>
+<link href="https://plus.google.com/b/115820748320881773150" rel="publisher" />
+<!-- Crows science tag -->
+<!-- removed
 <script type="text/javascript">
-  var gaProfile="UA-6608133-2";
-  
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', gaProfile]);
-  _gaq.push(['_setLocalGifPath', 'http://www.infoq.com/styles/i/__utm.gif']);
-  _gaq.push(['_setLocalRemoteServerMode']);
-  _gaq.push(['_trackPageview']);
+ (function() {
+  var cs = document.createElement('script'); cs.type = 'text/javascript';
+  cs.async = true;
+  cs.src = ('https:' == document.location.protocol ? 'https://secure-' : 'http://') + 'static.crowdscience.com/start-a1c2b6c8d9.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cs,s);
+ })();
+</script>
+-->
+<!--Crowd Science Script-->
+<style>
+.socialmedia ul {z-index:99999 !important;}
+header .fixed,.fancybox-overlay { z-index:99990;}
+.fancybox-opened{z-index:99999;}</style>
+<script type="text/javascript">	
+function CS_data_callback(cs_data) { 
+<!--
+  if (cs_data && cs_data.segments)
+    CS_segments = ';csseg=' + cs_data.segments.join(';csseg='); 
+-->
+} 
+</script>
+<!-- removed
+<script type="text/javascript" src="http://static.crowdscience.com/max-a1c2b6c8d9.js?callback=CS_data_callback"></script>
+-->
 
+<!-- Hint ad for geek -->
+<!--
+<script type="text/javascript" src="http://static.adziff.com/qhint/topad_gk.js"></script></div>
+-->
+					
+			<style>
+.section2 article .red a{ 
+font-family: "LatoRegular",Arial,Helvetica,sans-serif;
+ font-size: 14px;}
+#colorbox,#cboxOverlay{display:none !important;}
+</style>					
+			<!-- Chartbeat -->
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>					</head>
+	<body class="home blog">
+		
+					<div class="headerstories">
+			<div class="wrapper">
+				<article CTR="Hero 1">
+															
+			<!-- hero left -->
+
+ <!-- Begin comScore Tag -->
+    <script>
+        document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    </script>
+    <script>
+        COMSCORE.beacon({
+            c1:2,
+            c2:6035546,
+            c3:"",
+            c4:"",
+            c5:"",
+            c6:"",
+            c15:""
+        });
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035546&c3=&c4=&c5=&c6=&c15=&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+					
+			<!-- hero left -->
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+if(ZDXI && ZDXI.Country() === "AU"){
+document.write("<scr" + "ipt type=\"text/javascript\" src=\"//secure-au.imrworldwide.com/v60.js\"></sc" + "ript>");
+document.write("<scr" + "ipt type=\"text/javascript\">");
+document.write("var pvar = { cid: \"digitalniche\", content: \"0\", server: \"secure-au\" };");
+document.write("var trac = nol_t(pvar);");
+document.write("trac.record().post();");
+document.write("</scr" + "ipt>");
+} else {
+document.write("<scr" + "ipt type=\"text/javascript\">");
+document.write("(function () {");
+document.write("    var d = new Image(1, 1);");
+document.write("    d.onerror = d.onload = function () {");
+document.write("      d.onerror = d.onload = null;");
+document.write("};");
+document.write("    d.src = [\"http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-806031h&cg=0&cc=1&si=\", escape(window.location.href), \"&rp=\", escape(document.referrer), \"&ts=compact&rnd=\", (new Date()).getTime()].join('');");
+document.write("  })();");
+document.write("</scr" + "ipt>");
+}
+</script>
+<noscript>
+  <div>
+    <img src="http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-806031h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+    width="1" height="1" alt="" />
+  </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+																																				<figure><a ctr="Hero 1" type="image" title="Dart claims to be the world&#039;s smallest laptop charger" href="http://www.geek.com/chips/dart-claims-to-be-the-worlds-smallest-laptop-charger-1591253/">
+							<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/dart-charger-590x330.jpg" class="attachment-river-large wp-post-image" alt="dart-charger" />						</a></figure>
+						<aside>
+							<h3><a ctr="Hero 1" type="text" title="Dart claims to be the world&#039;s smallest laptop charger" href="http://www.geek.com/chips/dart-claims-to-be-the-worlds-smallest-laptop-charger-1591253/">Dart claims to be the world's smallest laptop charger</a></h3>
+						</aside>
+					</article>
+					
+					<article class="right">
+																	
+			<!-- hero right -->																										<figure><a ctr="Hero 2" type="image" title="Battlefield 4 has a game breaking death shield bug" href="http://www.geek.com/games/battlefield-4-has-a-game-breaking-death-shield-bug-1591240/">
+							<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/BF4_deathshield-590x330.jpg" class="attachment-river-large wp-post-image" alt="BF4_deathshield" />						</a></figure>
+						<aside>
+							<h3><a ctr="Hero 2" type="text" title="Battlefield 4 has a game breaking death shield bug" href="http://www.geek.com/games/battlefield-4-has-a-game-breaking-death-shield-bug-1591240/">Battlefield 4 has a game breaking death shield bug</a></h3>
+						</aside>
+									</article>
+			</div>
+		</div>
+			
+			<header>
+			<div id="menu" class="default">
+				<nav>
+					<div class="wrapper">
+						<div class="logo">
+							<!-- TODO: use pretty search URL -->
+							<a href="http://www.geek.com/" title="Geek.com">
+								<img src="http://www.geek.com/wp-content/themes/geek7/images/geek.png" alt="GEEK">
+							</a>
+						</div>
+					
+						<div class="menu-primary-nav-container"><ul id="menu-primary-nav" class="menu"><li id="menu-item-1550220" class="Android menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550220"><a href="http://www.geek.com/category/android/">Android</a></li>
+<li id="menu-item-1550221" class="Apple menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550221"><a href="http://www.geek.com/category/apple/">Apple</a></li>
+<li id="menu-item-1550222" class="Microsoft menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550222"><a href="http://www.geek.com/category/microsoft/">Microsoft</a></li>
+<li id="menu-item-1550526" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550526"><a href="http://www.geek.com/category/science/">Science</a></li>
+<li id="menu-item-1550224" class="Gaming menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550224"><a href="http://www.geek.com/category/games/">Gaming</a></li>
+</ul></div>						
+						<form action="http://www.geek.com/" method="get">
+							<fieldset>
+								<input name="s" id="s" type="text" class="input" value="Search Geek" onFocus="if(this.value == 'Search Geek') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Search Geek';}" />
+								<input name="" type="image" src="http://www.geek.com/wp-content/themes/geek7/images/icon_search.png" class="icon">
+							</fieldset>
+						</form>
+					</div>
+				</nav>
+				
+				<div class="navbar">
+					<div class="wrapper">
+					
+						<div class="subnav">
+							<div class="menu-sub-nav-container"><ul id="menu-sub-nav" class="menu"><li id="menu-item-1550225" class="News menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550225"><a href="http://www.geek.com/category/news/">News</a></li>
+<li id="menu-item-1550333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550333"><a href="http://www.geek.com/category/apps/">Apps</a></li>
+<li id="menu-item-1572380" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1572380"><a title="Culture" href="http://www.geek.com/category/geek-cetera/">Culture</a></li>
+<li id="menu-item-1550228" class="Mobile menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550228"><a href="http://www.geek.com/category/mobile/">Mobile</a></li>
+<li id="menu-item-1550332" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1550332"><a href="http://www.geek.com/category/tablets/">Tablets</a></li>
+<li id="menu-item-1550229" class="Deals menu-item menu-item-type-custom menu-item-object-custom menu-item-1550229"><a href="/deals">Deals</a></li>
+<li id="menu-item-1579884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1579884"><a href="http://www.geek.com/tag/geek-answers/">Geek Answers</a></li>
+</ul></div>						</div>
+						
+						<div class="socialmedia">
+							<ul>
+								<li class="followus">
+								<span>Follow Us</span>
+								    <div id="follow">
+									<article>
+										<aside>
+											<ul>
+																								<li><a href="http://www.twitter.com/geekdotcom" class="twitter1">Twitter</a></li>
+												<li><a href="http://www.facebook.com/geekdotcom" class="facebook1">Facebook</a></li>
+												<li><a href="https://www.stumbleupon.com/submit?url=http://www.geek.com" class="stumbleupon">StumbleUpon</a></li>
+											</ul>
+											
+											<ul class="right">
+												<li><a href="http://plus.google.com/+geekdotcom" class="googleplus1">Google+</a></li>
+												<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.geek.com" class="linkedin1">LinkedIn</a></li>
+												<li><a href="/feed/" class="rss1">RSS Feed</a></li>
+											</ul>
+											
+											<form action="/email/" method="post" class="newsletter">
+												<fieldset>
+													<span class="inbox">Get more Geek right in your inbox</span>
+													<span class="message"></span>
+													<input name="email" type="text" class="input" value="Enter your email address" onFocus="if(this.value == 'Enter your email address') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Enter your email address';}" />
+													<input type="hidden" name="list" value="geek">
+													<input type="hidden" name="Comment_" value="demographics">
+													<input type="hidden" name="confirm" value="none">
+													<input type="hidden" name="showconfirm" value="F">
+													<input name="" type="submit" class="button" value="SUBMIT">
+												</fieldset>
+											</form>
+											</aside>
+									</article>
+								 </div>
+								</li>
+								<li><a href="http://www.facebook.com/geekdotcom" class="facebook">Facebook</a></li>
+								<li><a href="http://www.twitter.com/geekdotcom" class="twitter">Twitter</a></li>
+								<li><a href="http://plus.google.com/+geekdotcom" class="googleplus">Googleplus</a></li>
+								<li><a href="/feed/" class="rss">Rss</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="container">
+			<section class="wrapper">
+
+				<section class="banner">
+															
+			<!-- leader board -->		                            	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_exotic;sz=1x3;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_exotic;sz=1x3;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_exotic;sz=1x3;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	                                                  	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_ATF;sz=728x90,970x250;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_ATF;sz=728x90,970x250;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_ATF;sz=728x90,970x250;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	                      									</section><!-- banner -->
+	<section id="content">
+				<div class="topcontent">
+			<article>
+				<h2><a ctr="Featured" type="text" title="Samsung Galaxy S5 review" href="http://www.geek.com/review/samsung-galaxy-s5-review-1591092/">Samsung Galaxy S5 review</a></h2>
+				<p>
+					Is the Galaxy S5 going to be a great Android phone or the best Android phone?				</p>
+			</article>
+			<aside>
+				<span><a href="http://www.geek.com/category/android/">Android</a></span>
+				<figure>
+					<a ctr="Featured" type="image" title="Samsung Galaxy S5 review" href="http://www.geek.com/review/samsung-galaxy-s5-review-1591092/">
+						<img width="625" height="350" src="http://www.geek.com/wp-content/uploads/2014/04/1.jpg" class="attachment-gallery-large wp-post-image" alt="Galaxy S5" />					</a>
+				</figure>
+			</aside>
+		</div>
+
+				<div class="leftpanel">
+			
+			<div id="secondary" class="widget-area" role="complementary">
+			              <aside id="dartwidget-14" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_ATF;sz=300x250,300x600,300x1050;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_ATF;sz=300x250,300x600,300x1050;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_ATF;sz=300x250,300x600,300x1050;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>        <aside id="execphp-6" class="widget widget_execphp">			
+			<a href="https://twitter.com/geekdotcom" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @geekdotcom</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>		</aside><aside id="execphp-5" class="widget widget_execphp">			
+			<div class="g-page" data-href="//plus.google.com/115820748320881773150" data-layout="landscape" data-rel="publisher"></div>
+
+<!-- Place this tag after the last badgev2 tag. -->
+<script type="text/javascript">
   (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>		</aside>              <aside id="newsletter_signup-2" class="widget widget_newsletter_signup">			       	<div class="logo"><img src="http://www.geek.com/wp-content/themes/geek7/images/logo_geek.gif" alt="GEEK"></div>
+		            <label>NEWSLETTER</label>
+	              	<form action="/email/" method="post" class="newsletter">
+				       	<fieldset>
+						 	<span class="message"></span>
+			              	<input name="email" type="text" class="input" value="Email Address..." onFocus="if(this.value == 'Email Address...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Email Address...';}" />
+			              	<input type="hidden" name="list" value="geek">
+							<input type="hidden" name="Comment_" value="demographics">
+							<input type="hidden" name="confirm" value="none">
+							<input type="hidden" name="showconfirm" value="F">
+			              	<input name="" type="submit" class="button" value="Submit">
+			            </fieldset>
+			        </form>
+              </aside>                                          </aside>                      <aside id="dartwidget-15" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_module;sz=336x250;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_module;sz=336x250;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_module;sz=336x250;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-16" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geekBTF/homepagedoor_BTF;sz=300x250,300x600,300x1050;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geekBTF/homepagedoor_BTF;sz=300x250,300x600,300x1050;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geekBTF/homepagedoor_BTF;sz=300x250,300x600,300x1050;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>        <aside id="execphp-14" class="widget widget_execphp">			
+			<iframe width="300" height="169" src="//www.youtube.com/embed/B6m1ThthaGU?list=PLXleEiD94A2eO-_J4Bh3wqtuqKeOm_1CM" frameborder="0" allowfullscreen></iframe>		</aside>              <aside id="dartwidget-17" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_pixel;sz=1x1;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_pixel;sz=1x1;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_pixel;sz=1x1;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-8" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_special;sz=1x2;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_special;sz=1x2;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_special;sz=1x2;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-10" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_topleftspon;sz=1x4;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_topleftspon;sz=1x4;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_topleftspon;sz=1x4;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>                      <aside id="dartwidget-11" class="widget widget_dartwidget">              	<!-- begin ad tag -->
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord = ord || Math.random()*10000000000000000;
+		cseg = (CS_segments == 1)? 'CS_segments' : '';
+		document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/zd.geek/homepagedoor_toprightspon;sz=1x5;cmn=zd;zdid=h' + (window["CS_segments"] ? ';' + CS_segments: '') + ';ord=' + ord + '?"><\/scr'+'ipt>');
+	//]]>
+	</script>
+	<noscript><a href="http://ad.doubleclick.net/jump/zd.geek/homepagedoor_toprightspon;sz=1x5;cmn=zd;zdid=h;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/ad/zd.geek/homepagedoor_toprightspon;sz=1x5;cmn=zd;zdid=h;ord=123456789?" border="0" alt="" /></a></noscript>
+	<!-- end ad tag -->
+	              </aside>        		</div><!-- #secondary -->
+			</div>
+		<div class="rightpanel">
+
+									<div class="section1">
+			   			   			   			   				<article id="post-1591208" class="post-1591308 post type-post status-publish format-standard hentry category-android category-mobile category-news tag-amazon tag-android tag-kindle tag-kindle-fire tag-smartphone article2">
+					<figure>
+													<a ctr="Sub-Feature 1" type="image" title="The future of Microsoft mobile: Windows Phone 8.1 and Cortana" href="http://www.geek.com/microsoft/the-future-of-microsoft-mobile-windows-phone-8-1-and-cortana-1591208/">
+								<img width="286" height="156" src="http://www.geek.com/wp-content/uploads/2014/04/P4140051-286x156.jpg" class="attachment-river-small wp-post-image" alt="Windows Phone 8.1" />							</a>
+																		<div class="category">
+							<span class="red"><a href="http://www.geek.com/category/microsoft/">Microsoft</a></span>	
+						</div>
+					</figure>
+					<aside>
+						<h3>
+							<a ctr="Sub-Feature 1" type="text" title="The future of Microsoft mobile: Windows Phone 8.1 and Cortana" href="http://www.geek.com/microsoft/the-future-of-microsoft-mobile-windows-phone-8-1-and-cortana-1591208/">
+								The future of Microsoft mobile: Windows Phone 8.1 and Cortana							</a>
+						</h3>
+					</aside>
+				</article>
+				
+																<article id="post-1591164" class="post-1591308 post type-post status-publish format-standard hentry category-android category-mobile category-news tag-amazon tag-android tag-kindle tag-kindle-fire tag-smartphone article2">
+					<figure>
+													<a ctr="Sub-Feature 2" type="image" title="LaCie just found out it&#039;s been hacked for an entire year" href="http://www.geek.com/apps/lacie-just-found-out-its-been-hacked-for-an-entire-year-1591164/">
+								<img width="286" height="156" src="http://www.geek.com/wp-content/uploads/2014/04/lacie-hack-286x156.jpg" class="attachment-river-small wp-post-image" alt="lacie-hack" />							</a>
+																		<div class="category">
+							<span class="red"><a href="http://www.geek.com/category/apps/">Apps and Software</a></span>	
+						</div>
+					</figure>
+					<aside>
+						<h3>
+							<a ctr="Sub-Feature 2" type="text" title="LaCie just found out it&#8217;s been hacked for an entire year" href="http://www.geek.com/apps/lacie-just-found-out-its-been-hacked-for-an-entire-year-1591164/">
+								LaCie just found out it's been hacked for an entire year							</a>
+						</h3>
+					</aside>
+				</article>
+				
+			</div>
+					
+						<div class="section2">
+		<article id="post-1591308" class="post-1591308 post type-post status-publish format-standard hentry category-android category-mobile category-news tag-amazon tag-android tag-kindle tag-kindle-fire tag-smartphone">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/android/">Android</a></span>
+									<a href="http://www.geek.com/android/what-to-expect-from-an-amazon-smartphone-1591308/" ctr="River 1" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/bgr-a-phone-1-590x330.jpg" class="attachment-river-large wp-post-image" alt="Amazon Phone" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/android/what-to-expect-from-an-amazon-smartphone-1591308/" ctr="River 1" type="text">What to expect from an Amazon smartphone</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rholly/" title="Posts by Russell Holly" rel="author">Russell Holly</a></span> 
+						Apr. 15, 2014 1:44 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/android/what-to-expect-from-an-amazon-smartphone-1591308/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>We&#8217;ve heard about at least one smartphone being made by Amazon for years now, but there has never been an announcement to follow those (numerous) leaks and rumors. Amazon has everything needed to [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591286" class="post-1591286 post type-post status-publish format-standard hentry category-geek-cetera category-news tag-20th-century-fox tag-bruce-willis tag-die-hard tag-die-hard-6 tag-die-hard-with-a-vengeance tag-fox tag-movies tag-samuel-l-jackson tag-zeus-carver">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/news/">News</a></span>
+									<a href="http://www.geek.com/news/die-hard-6-may-see-return-of-samuel-l-jacksons-character-zeus-carver-1591286/" ctr="River 2" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/zeus_carver-590x330.jpg" class="attachment-river-large wp-post-image" alt="zeus_carver" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/news/die-hard-6-may-see-return-of-samuel-l-jacksons-character-zeus-carver-1591286/" ctr="River 2" type="text">Die Hard 6 may see return of Samuel L. Jackson&#8217;s character Zeus Carver</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/Matthew-2/" title="Posts by Matthew Humphries" rel="author">Matthew Humphries</a></span> 
+						Apr. 15, 2014 12:32 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/news/die-hard-6-may-see-return-of-samuel-l-jacksons-character-zeus-carver-1591286/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>If you are a fan of the Die Hard movies, then you probably agree that they should have stopped making them after the first trilogy. But movie studios being the profit-focused organizations that [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591301" class="post-1591301 post type-post status-publish format-standard hentry category-news category-science tag-astronomy tag-blood-moon tag-lunar-eclipse tag-moon tag-space">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/science/">Science!</a></span>
+									<a href="http://www.geek.com/science/9-stunning-shots-from-last-nights-lunar-eclipse-1591301/" ctr="River 3" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/lunareclipse-590x330.jpg" class="attachment-river-large wp-post-image" alt="Total Lunar Eclipse" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/science/9-stunning-shots-from-last-nights-lunar-eclipse-1591301/" ctr="River 3" type="text">9 stunning shots from last night&#8217;s lunar eclipse</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/salcan/" title="Posts by Sal Cangeloso" rel="author">Sal Cangeloso</a></span> 
+						Apr. 15, 2014 11:32 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/science/9-stunning-shots-from-last-nights-lunar-eclipse-1591301/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Early this morning you might have taken the time to view 2014&#8242;s first total lunar eclipse. The event started at 12:53AM ET and lasted three hours, though the weather conditions were not ideal in [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591264" class="post-1591264 post type-post status-publish format-standard hentry category-apple category-apps category-mobile category-news tag-apple tag-gps tag-indoor-location tag-mapping tag-tracking tag-wifi tag-wireless">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/apple/">Apple</a></span>
+									<a href="http://www.geek.com/apple/apple-granted-patent-for-indoor-location-tracking-1591264/" ctr="River 4" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/iphone-indoor-wifi-location-590x330.jpg" class="attachment-river-large wp-post-image" alt="iphone-indoor-wifi-location" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/apple/apple-granted-patent-for-indoor-location-tracking-1591264/" ctr="River 4" type="text">Apple granted patent for indoor location tracking</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/lmathews/" title="Posts by Lee Mathews" rel="author">Lee Mathews</a></span> 
+						Apr. 15, 2014 11:00 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/apple/apple-granted-patent-for-indoor-location-tracking-1591264/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>The stage is set for the next big Apple-Google throwdown: indoor location tracking. Apple has just been granted yet another seemingly obvious patent, this time for tracking a device&#8217;s location using WiFi access [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591225" class="post-1591225 post type-post status-publish format-standard hentry category-apps category-news tag-depression tag-life tag-series tag-tv article2">
+			<figure>
+			    				<span class="red"><a href="http://www.geek.com/category/apps/">Apps and Software</a></span>	
+									<a href="http://www.geek.com/apps/handy-tool-reveals-how-much-of-your-life-youve-thrown-away-watching-tv-1591225/" ctr="Sub-River 1" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/tvtime-590x330.jpg" class="attachment-river-large wp-post-image" alt="TV time" />					</a>
+								
+			</figure>
+			<aside>
+				<h3>
+					<a href="http://www.geek.com/apps/handy-tool-reveals-how-much-of-your-life-youve-thrown-away-watching-tv-1591225/" ctr="Sub-River 1" type="text">
+						Handy tool reveals how much of your life you&#8217;ve thrown away watching TV					</a>
+				</h3>
+			</aside>
+		</article>
+	</div>
+			<div class="section1">
+								<article id="post-1591251" class="post-1591251 post type-post status-publish format-standard hentry category-games category-news tag-console tag-games tag-kinect tag-microsoft tag-update tag-xbox-one article2">
+			<figure>
+									<a href="http://www.geek.com/games/xbox-one-update-brings-kinect-and-controller-enhancements-adds-silent-updates-1591251/" ctr="Sub-River 2" type="image">
+						<img width="286" height="156" src="http://www.geek.com/wp-content/uploads/2014/02/home_2_4_2014-286x156.jpg" class="attachment-river-small wp-post-image" alt="Xbox One Update" />					</a>
+												<div class="category">
+					<span class="red"><a href="http://www.geek.com/category/games/">Games</a></span>	
+				</div>
+			</figure>
+			<aside>
+				<h3>
+					<a href="http://www.geek.com/games/xbox-one-update-brings-kinect-and-controller-enhancements-adds-silent-updates-1591251/" ctr="Sub-River 2" type="text">
+						Xbox One update brings Kinect and controller enhancements, adds silent updates					</a>
+				</h3>
+			</aside>
+		</article>
+										<article id="post-1591245" class="post-1591245 post type-post status-publish format-standard hentry category-games category-news tag-half-life tag-runners tag-scripts tag-speed-run tag-valve tag-video-games article2">
+			<figure>
+									<a href="http://www.geek.com/games/half-life-speed-run-world-record-reduced-by-9-minutes-1591245/" ctr="Sub-River 3" type="image">
+						<img width="286" height="156" src="http://www.geek.com/wp-content/uploads/2014/04/half-life-286x156.jpg" class="attachment-river-small wp-post-image" alt="half-life" />					</a>
+												<div class="category">
+					<span class="red"><a href="http://www.geek.com/category/games/">Games</a></span>	
+				</div>
+			</figure>
+			<aside>
+				<h3>
+					<a href="http://www.geek.com/games/half-life-speed-run-world-record-reduced-by-9-minutes-1591245/" ctr="Sub-River 3" type="text">
+						Half-Life speed run world record reduced by 9 minutes					</a>
+				</h3>
+			</aside>
+		</article>
+					</div>			<div class="section2">
+		<article id="post-1591243" class="post-1591243 post type-post status-publish format-standard hentry category-android category-apps category-mobile category-news tag-android tag-glass tag-google tag-google-glass tag-kitkat tag-update">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/android/">Android</a></span>
+									<a href="http://www.geek.com/android/google-glass-update-arrives-hours-before-it-goes-on-sale-removes-video-chat-1591243/" ctr="River 5" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/Send-photo-message-590x330.png" class="attachment-river-large wp-post-image" alt="Send photo message" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/android/google-glass-update-arrives-hours-before-it-goes-on-sale-removes-video-chat-1591243/" ctr="River 5" type="text">Google Glass update arrives hours before it goes on sale, removes video chat</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rholly/" title="Posts by Russell Holly" rel="author">Russell Holly</a></span> 
+						Apr. 15, 2014 8:02 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/android/google-glass-update-arrives-hours-before-it-goes-on-sale-removes-video-chat-1591243/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>It was made clear a month ago that there was a huge update heading to Google Glass, but there was no real indicator as to when that update was coming. Now, just before [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591224" class="post-1591224 post type-post status-publish format-standard hentry category-google category-news tag-drones tag-google tag-google-fiber tag-internet-access tag-project-loon tag-uav">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/news/">News</a></span>
+									<a href="http://www.geek.com/news/google-buys-solar-powered-drone-maker-titan-aerospace-1591224/" ctr="River 6" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/Titan-590x330.jpg" class="attachment-river-large wp-post-image" alt="Titan" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/news/google-buys-solar-powered-drone-maker-titan-aerospace-1591224/" ctr="River 6" type="text">Google buys solar-powered drone maker Titan Aerospace</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rwhitwam/" title="Posts by Ryan Whitwam" rel="author">Ryan Whitwam</a></span> 
+						Apr. 14, 2014 5:45 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/news/google-buys-solar-powered-drone-maker-titan-aerospace-1591224/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>What&#8217;s that in the sky? Oh, just a Google drone going about its business doing (we are assured) good things. Google&#8217;s drone ambitions are legend at this point, but the company is taking [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591207" class="post-1591207 post type-post status-publish format-standard hentry category-news category-science tag-eclipses tag-moon tag-nasa tag-slooh tag-space tag-total-lunar-eclipse">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/science/">Science!</a></span>
+									<a href="http://www.geek.com/science/how-to-watch-the-total-lunar-eclipse-tonight-1591207/" ctr="River 7" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/lunareclipse-590x330.jpg" class="attachment-river-large wp-post-image" alt="Total Lunar Eclipse" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/science/how-to-watch-the-total-lunar-eclipse-tonight-1591207/" ctr="River 7" type="text">How to watch the total lunar eclipse tonight</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/jplafke/" title="Posts by James Plafke" rel="author">James Plafke</a></span> 
+						Apr. 14, 2014 4:26 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/science/how-to-watch-the-total-lunar-eclipse-tonight-1591207/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Every now and then, celestial bodies align in such a way that weird stuff happens in space and we can view it. Occasionally, our celestial body, Earth, is a participant in a rare [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591185" class="post-1591185 post type-post status-publish format-standard hentry category-deals-2 tag-geek-deals">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/deals-2/">Deals</a></span>
+									<a href="http://www.geek.com/deals-2/geek-deals-samsung-40-inch-smart-tv-with-200-gift-card-for-498-1591185/" ctr="River 8" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/samsung-un40eh5300-samsung-hub-590x330.jpg" class="attachment-river-large wp-post-image" alt="samsung-un40eh5300-samsung-hub" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/deals-2/geek-deals-samsung-40-inch-smart-tv-with-200-gift-card-for-498-1591185/" ctr="River 8" type="text">Geek deals: Samsung 40-inch smart TV with $200 gift card for $498</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/dshain/" title="Posts by Danny Shain" rel="author">Danny Shain</a></span> 
+						Apr. 14, 2014 3:11 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/deals-2/geek-deals-samsung-40-inch-smart-tv-with-200-gift-card-for-498-1591185/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>HDTVs today can do a lot more than just display television programming, and Samsung is one of the premier brands pushing the limits of enhanced TVs. So we were psyched to see Dell [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591179" class="post-1591179 post type-post status-publish format-standard hentry category-news category-science tag-dwarf-planets tag-ice tag-nasa tag-new-horizons tag-planets tag-pluto tag-solar-system tag-water">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/science/">Science!</a></span>
+									<a href="http://www.geek.com/science/pluto-might-have-harbored-an-ancient-liquid-ocean-and-icy-tectonic-plates-1591179/" ctr="River 9" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/New-Horizons-590x330.jpg" class="attachment-river-large wp-post-image" alt="New Horizons" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/science/pluto-might-have-harbored-an-ancient-liquid-ocean-and-icy-tectonic-plates-1591179/" ctr="River 9" type="text">Pluto might have harbored an ancient liquid ocean and icy tectonic plates</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rwhitwam/" title="Posts by Ryan Whitwam" rel="author">Ryan Whitwam</a></span> 
+						Apr. 14, 2014 2:25 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/science/pluto-might-have-harbored-an-ancient-liquid-ocean-and-icy-tectonic-plates-1591179/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Tiny Pluto is out there at the edge of the solar system all alone, but company is on the way. NASA&#8217;s New Horizons probe is speeding toward Pluto&#8217;s neck of the woods with [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591187" class="post-1591187 post type-post status-publish format-standard hentry category-news tag-fios tag-gigabit tag-google tag-google-fiber tag-isp tag-time-warner">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/news/">News</a></span>
+									<a href="http://www.geek.com/news/google-is-hiring-fiber-sales-staff-in-nyc-1591187/" ctr="River 10" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/Screenshot-2014-04-14-13.21.26-590x330.jpg" class="attachment-river-large wp-post-image" alt="fiber" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/news/google-is-hiring-fiber-sales-staff-in-nyc-1591187/" ctr="River 10" type="text">Google is hiring Fiber sales staff in NYC</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rholly/" title="Posts by Russell Holly" rel="author">Russell Holly</a></span> 
+						Apr. 14, 2014 1:25 pm					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/news/google-is-hiring-fiber-sales-staff-in-nyc-1591187/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>There are two types of people when it comes to Google Fiber: people who have it and people who want it. Unfortunately, there are a lot more of the latter while Google slowly [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591170" class="post-1591170 post type-post status-publish format-standard hentry category-geek-cetera category-news tag-marvel tag-movie tag-trailer tag-x-men">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/news/">News</a></span>
+									<a href="http://www.geek.com/news/start-your-days-of-future-past-countdown-with-60-seconds-of-sentinel-combat-1591170/" ctr="River 11" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/Iceman-590x330.png" class="attachment-river-large wp-post-image" alt="Iceman" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/news/start-your-days-of-future-past-countdown-with-60-seconds-of-sentinel-combat-1591170/" ctr="River 11" type="text">Start your Days of Future Past countdown with 60 seconds of Sentinel combat</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/rholly/" title="Posts by Russell Holly" rel="author">Russell Holly</a></span> 
+						Apr. 14, 2014 11:56 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/news/start-your-days-of-future-past-countdown-with-60-seconds-of-sentinel-combat-1591170/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Marvel&#8217;s comic book superheroes may have been dominating the box office recently, but this preview of the upcoming X-Men: Days of Future Past shows that there&#8217;s more than enough mutant excitement to go [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				<div class="section2">
+		<article id="post-1591171" class="post-1591171 post type-post status-publish format-standard hentry category-mobile category-news tag-biometric tag-credit-card tag-debit-card tag-fredrik-leifland tag-lund-university tag-nfc tag-palm tag-payments tag-quixter tag-scanning">
+			<figure>
+			    		        <span class="red"><a href="http://www.geek.com/category/mobile/">Mobile</a></span>
+									<a href="http://www.geek.com/mobile/quixter-demonstrates-how-your-palm-can-replace-a-credit-card-1591171/" ctr="River 12" type="image">
+						<img width="590" height="330" src="http://www.geek.com/wp-content/uploads/2014/04/quixter_02-590x330.jpg" class="attachment-river-large wp-post-image" alt="quixter_02" />					</a>
+							</figure>
+			<h2><a href="http://www.geek.com/mobile/quixter-demonstrates-how-your-palm-can-replace-a-credit-card-1591171/" ctr="River 12" type="text">Quixter demonstrates how your palm can replace a credit card</a></h2>
+			<aside>
+							<div class="category">
+				    					<span>
+						By <span class="by"><a href="http://www.geek.com/author/Matthew-2/" title="Posts by Matthew Humphries" rel="author">Matthew Humphries</a></span> 
+						Apr. 14, 2014 11:10 am					</span>
+										<div class="comments">
+						<a href="http://www.geek.com/mobile/quixter-demonstrates-how-your-palm-can-replace-a-credit-card-1591171/#disqus_thread" class="disquscount"></a>
+											</div>
+									</div>
+				<p>Paying for stuff typically involves getting a credit or debit card out of your wallet, inserting it into a machine, waiting for a prompt, entering a 4-digit code, and then putting the card [&hellip;]</p>
+			</aside>
+		</article>
+	</div>
+				
+						
+					<div class="pagenationsearch"><a href="http://www.geek.com/page/2/" ><span class="next">More Geek</span></a></div>
+			</div>
+	</section><!-- #content -->
+	
+				</section><!-- wrapper -->
+		</section><!-- container -->
+		
+		
+		<footer>	
+			<section class="wrapper">
+				<article>
+					<div class="footernav">
+						<div class="menu-footer-links-container"><ul id="menu-footer-links" class="menu"><li id="menu-item-1550230" class="About menu-item menu-item-type-post_type menu-item-object-page menu-item-1550230"><a href="http://www.geek.com/about/">About</a></li>
+<li id="menu-item-1550231" class="Contact Us menu-item menu-item-type-post_type menu-item-object-page menu-item-1550231"><a href="http://www.geek.com/about/">Contact Us</a></li>
+<li id="menu-item-1550560" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1550560"><a href="http://www.geek.com/archives">Archives</a></li>
+<li id="menu-item-1550233" class="Glossary menu-item menu-item-type-custom menu-item-object-custom menu-item-1550233"><a href="/glossary">Glossary</a></li>
+<li id="menu-item-1550234" class="Forums Archive menu-item menu-item-type-custom menu-item-object-custom menu-item-1550234"><a href="/forums">Forums Archive</a></li>
+<li id="menu-item-1550259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1550259"><a href="http://www.ziffdavis.com/advertise/">Advertise</a></li>
+</ul></div>					<div class="adchoices">
+						 <a id="_bapw-link" href="#" target="_blank" style="">
+						 <img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> 
+						 <span style="vertical-align:middle !important">AdChoices</span></a>
+						 <script>/*<![CDATA[*/(function(){var c=8,g=660,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",function(){d(h+"pub1.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+				    </div>
+					</div>
+					<aside>
+						<ul>
+							<li><a href="http://www.pcmag.com/" target="_blank">PCMag.com</a></li>
+							<li><a target="_blank" href="http://www.extremetech.com/" class="extremetech">ExtremeTech</a></li>
+							<li><a target="_blank" href="http://www.computershopper.com/" class="computershopper">ComputerShopper</a></li>
+							<li><a target="_blank" href="http://www.logicbuy.com/" class="logicbuy">Logicbuy</a></li>
+							<li><a target="_blank" href="http://www.toolbox.com/" class="toolbox">Toolbox.com</a></li>
+						</ul>
+						<p>
+							<a target="_blank" href="http://www.ziffdavis.com/" class="logo">ziff davis</a> 
+							&copy; 1996-2014 <a target="_blank" href="http://www.ziffdavis.com/">Ziff Davis, LLC.</a>     
+                            <span>PCMag Digital Group</span>							
+							<span><a target="_blank" href="http://www.ziffdavis.com/privacy-policy/">Privacy Policy</a></span>      
+							<span><a target="_blank" href="http://www.ziffdavis.com/terms-of-use/">Terms of Use</a></span>
+							
+						</p>
+					</aside>
+				</article>
+			</section><!-- wrapper -->
+		</footer>	
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This website is patched against a big problem not solved from WordPress 2.5+ to date -->
+
+    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'geekcom';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) url = url[0];
+                    else url = url[1]
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/jquery.infinitescroll.min.js?ver=1363972242'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/jquery.fancybox.pack.js?ver=1363972242'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/jquery.tn3.min.js?ver=1363972242'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/tn3.history.js?ver=1363972242'></script>
+<script type='text/javascript' src='http://www.geek.com/wp-content/themes/geek7/js/tn3.touch.js?ver=1363972242'></script>
+							
+			<!-- begin zdbb -->
+<script type="text/javascript" src="http://cdn.static.zdbb.net/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js"></script>
+<noscript><img height="1" width="1" src="http://zdbb.net/l/z0WVjCBSEeGLoxIxOQVEwQ/" alt="" /></noscript>
+<script type="text/javascript" src="http://cdn.static.zdbb.net/js/gurgle.js"></script>
+<!-- end zdbb -->
+
+<!-- begin ns -->
+<script type="text/javascript">
+(function() {
+    var nstrack = document.createElement("script"), el_nstrack = document.getElementsByTagName("script")[0]; nstrack.async = true;
+    nstrack.src = "http://track.netshelter.net/async/js/sites/geek.com-async.js";
+    el_nstrack.parentNode.insertBefore(nstrack, el_nstrack);
   })();
 </script>
-<script src="http://cdn2.infoq.com/scripts/tracker.js?20121126" type="text/javascript"></script>
+<!-- end ns -->
+<!-- ZDCSE Script -->
+<script type="text/javascript" src="http://static.adziff.com/cse/js/4.1.8/zdcse.min.js"></script>
+<!-- End ZDCSE Script -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
 <script type="text/javascript">
-Tracker.safeExec(function() {
-	
-    
-    _gaq.push(["_trackEvent", "userregistered", "false"]);
-    	
-});
-Tracker.safeExec(function() {_gaq.push(["_trackEvent", "userprefs", "0"]);});
-Tracker.safeExec(Tracker.doTrackVcrImpressions);
-Tracker.safeExec(Tracker.doTrackPresentationDefaultDisplay);
-Tracker.safeExec(Tracker.doTrackTaxonomyImpressions);
-Tracker.safeExec(Tracker.doTrackAuthorImpressions);
-</script>
-
-	
-
-
-
-
-
-
-
-
-<script type="text/javascript">
-	var newsletterSubscriptionURL ='/newsletter/subscribe.action';
-	DynamicLinks.updateRssLinks('3405691582');
-	ContentTools.updateLatestContentSection();
-	ContentTools.updatePersonaDropdowns();
-	
-	// only get the most popular links if they are used in the current page
-	//(so far they are used on homepage, inteview and presentation pages)
-	if($('#mostPopularSection').length){
-		ContentTools.updateMostPopular();
+	if (ZDXI.IsIntl()) {
+		document.write('<scr'+'ipt type="text/javascript" src="http://geek.us.intellitxt.com/intellitxt/front.asp?ipid=31004"></scr'+'ipt>');
 	}
+</script>
+<!-- end Vibrant Media IntelliTXT script section -->
 
-	ContentSummary.setSelectedTab('en');
-	//when user enters the main content area show default topics in the topics bar
-	$("#content-wrapper").mouseenter(function() {	
-	        showDefaultTopics();
-	});
-	
-	
-	Bookmarks.contentTitle = "";
-	Bookmarks.apiUrl = '/widgets/bookmark.action';
-</script>
-<script type="text/javascript"> 
-var $buoop = {vs:{i:6,f:1,o:10.1,s:1}} 
-$buoop.ol = window.onload; 
-$(document).ready(function() {
-	 try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
-	 var e = document.createElement("script"); 
-	 e.setAttribute("type", "text/javascript"); 
-	 e.setAttribute("src", "http://cdn2.infoq.com/scripts/lib/browser-update-org/update.js"); 
-	 document.body.appendChild(e); 
-});
-</script>
-</div>
-</body>
+
+
+					
+			<!-- Chartbeat -->
+<script type='text/javascript'>
+var _sf_async_config={};
+/** CONFIGURATION START **/
+_sf_async_config.uid = 54814;
+_sf_async_config.domain = 'geek.com';
+_sf_async_config.useCanonical = true;
+_sf_async_config.sections = ''; 
+_sf_async_config.authors ='';
+/** CONFIGURATION END **/
+(function(){
+function loadChartbeat()
+{ window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); }
+
+var oldonload = window.onload;
+window.onload = (typeof window.onload != 'function') ?
+loadChartbeat : function()
+{ oldonload(); loadChartbeat(); }
+
+;
+})();
+</script>				</body>
 </html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
+Page Caching using memcached
+Database Caching 85/122 queries in 1.174 seconds using memcached
+Object Caching 3407/3475 objects using memcached
+
+ Served from: www.geek.com @ 2014-04-15 14:18:03 by W3 Total Cache -->

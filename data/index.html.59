@@ -1,777 +1,629 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>craigslist: ann arbor classifieds for jobs, apartments, personals, for sale, services, community, and events</title>
+<link rel="canonical" href="http://www.takehome.com/" />
+<title>Defensive Driving Video | State,DMV Approved Traffic School DVD Course</title>
+<meta name='description' content="TakeHome's DVD Defensive Driving Video courses &#9658; Entertaining & Alternative to Online or Classroom traffic school, driver safety courses in CA, FL, IN, KY, NV, NJ, NY and TX. &#9668; Perfect for Traffic Ticket Dismissal and Insurance Reductions" />
+<meta name="keywords" content="Defensive Driving Video, TakeHome Defensive Driving, Defensive Driving DVD, TakeHome Traffic School, Traffic School DVD, Driving Safety Course DVD, Traffic School Video, Blockbuster Defensive Driving, DVD Defensive Driving, Video Defensive Driving" />
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="description" content="craigslist provides local classifieds and forums for jobs, housing, for sale, personals, services, local community, and events">
-<meta name="google-site-verification" content="Ie0Do80edB2EurJYj-bxqMdX7zkMjx_FnjtQp_XMFio">
-<meta name="viewport" content="initial-scale=1.0, user-scalable=1">
-<link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/cl.css?v=cde54e1665f483bb4148972df99fc155">
-<link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=3f1b9638a5222b05bec93117fa889ee5">
-<link rel="prefetch" href="//www.craigslist.org/js/tocs.min.js?v=1729e38c8c47a5b736b1770e048da0a8">
-<!--[if lt IE 9]>
-<script  src="//www.craigslist.org/js/html5shiv.min.js?v=42e8031bc7ca9d67a48f4a5feff7bf29" type="text/javascript" ></script>
-<![endif]-->
-<!--[if lte IE 7]>
-<script  src="//www.craigslist.org/js/json2.min.js?v=178d4ad319e0e0b4a451b15e49b71bec" type="text/javascript" ></script>
-<![endif]-->
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta http-equiv='expires' content='-1' />
+<meta http-equiv='pragma' content='no-cache' />
+<meta	name="msvalidate.01" content="E5C8687E4938A4A900204512BAD1ED34"	/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="http://cdn.takehome.com/css/price.css" rel="stylesheet" type="text/css" />
+<link href="http://cdn.takehome.com/css/global_sales.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://cdn.takehome.com/scripts/validation.js"></script>
+<script type="text/javascript" src="http://cdn.takehome.com/scripts/popup.js"></script>
+<script type="text/javascript" src="http://cdn.takehome.com/scripts/jquery-1.5.2.min.js"></script>
+
+<script src="http://cdn.takehome.com/scripts/swfobject_modified.js" type="text/javascript"></script>
 </head>
-<body class="homepage">
-<script type="text/javascript"><!--
-    function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
-    var pagetype, pagemode;
-    (function(){
-        var h = document.documentElement;
-        h.className = h.className.replace('nojs', 'js');
-        var b = document.body;
-        var bodyClassList = b.className.split(/\s+/);;
-        pagetype = bodyClassList[0];
-        var fmt = C('cl_fmt');
-        if (fmt) {
-            pagemode = fmt;
-            bodyClassList.push(fmt);
-        } else if (screen.width <= 480) {
-            pagemode = 'mobile';
-            bodyClassList.push(pagemode);
-        }
-        var width = window.innerWidth || document.documentElement.clientWidth;
-        if (width > 1000) { bodyClassList.push('w1024'); }
-        if (typeof catType !== 'undefined') {
-            var mode = (decodeURIComponent(C('cl_tocmode') || '').match(new RegExp(catType + ':([^,]+)', 'i')) || {})[1];
-            for (var i = 0, len = bodyClassList.length; i < len; i++){
-                if (bodyClassList[i] === 'map') { mode = undefined; }
-            }
-            if (mode) { bodyClassList.push(mode); }
-        }
-        b.className = bodyClassList.join(' ');
-    }());
---></script>
 
-<div id="mobileformatnotice" style="display: none;">
-	Welcome to the mobile format of craigslist. Looking for the <span class="desktopmode">standard format</span>?
-</div>
-<article id="pagecontainer">
-	<section class="body">
-	<table cellspacing="0" cellpadding="0" summary="page" id="container">
-		<tr>
-			<td id="leftbar">
+<body>
 
-	
-		<div id="logo">
-			<a href="//www.craigslist.org/about/sites">craigslist</a> 
-		</div>
+<script>
+dataLayer=[{
+'channel': 'blank',  
+'server': 'th02',  
+'coupon': 'blank',
+'state': 'Generic' 
+ }];
+ </script>
 
-		<ul id="postlks">
-			<li><a id="post" href="https://post.craigslist.org/c/aaa?lang=en">post to classifieds</a></li>
-			<li><a href="https://accounts.craigslist.org">my account</a></li>
-		</ul>
-
-		<form id="search" action="/search/" method="GET">
-			<div>search craigslist</div>
-            <input type="hidden" name="sort" value="rel">
-			<input type="hidden" name="areaID" id="areaID" value="172">
-			<input type="hidden" name="subAreaID" id="subAreaID" value="">
-			<input id="query" name="query" data-suggest="search" autocorrect="off" autocapitalize="off"><br>
-			<select id="catAbb" name="catAbb">
-				<option value="ccc">community</option>
-				<option value="eee">events</option>
-				<option value="ggg">gigs</option>
-				<option value="hhh">housing</option>
-				<option value="jjj">jobs</option>
-				<option value="ppp">personals</option>
-				<option value="res">resumes</option>
-				<option value="sss" selected="selected">for sale</option>
-				<option value="bbb">services</option>
-			</select>
-			<input id="go" type="submit" value="&gt;">
-		</form>
-
-		
-		<h4 id="calban"><a href="eve/">event calendar</a></h4>
-		<table class="cal" summary="calendar">
-			<tr class="dys"><th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr>
-
-			<tr>
-<td><a href="eve/index20140330.html">30</a></td>
-<td><a href="eve/index20140331.html">31</a></td>
-<td><a href="eve/index20140401.html">1</a></td>
-<td class="tdy"><a href="eve/index20140402.html">2</a></td>
-<td><a href="eve/index20140403.html">3</a></td>
-<td><a href="eve/index20140404.html">4</a></td>
-<td><a href="eve/index20140405.html">5</a></td>
-</tr>
-<tr>
-<td><a href="eve/index20140406.html">6</a></td>
-<td><a href="eve/index20140407.html">7</a></td>
-<td><a href="eve/index20140408.html">8</a></td>
-<td><a href="eve/index20140409.html">9</a></td>
-<td><a href="eve/index20140410.html">10</a></td>
-<td><a href="eve/index20140411.html">11</a></td>
-<td><a href="eve/index20140412.html">12</a></td>
-</tr>
-<tr>
-<td><a href="eve/index20140413.html">13</a></td>
-<td><a href="eve/index20140414.html">14</a></td>
-<td><a href="eve/index20140415.html">15</a></td>
-<td><a href="eve/index20140416.html">16</a></td>
-<td><a href="eve/index20140417.html">17</a></td>
-<td><a href="eve/index20140418.html">18</a></td>
-<td><a href="eve/index20140419.html">19</a></td>
-</tr>
-<tr>
-<td><a href="eve/index20140420.html">20</a></td>
-<td><a href="eve/index20140421.html">21</a></td>
-<td><a href="eve/index20140422.html">22</a></td>
-<td><a href="eve/index20140423.html">23</a></td>
-<td><a href="eve/index20140424.html">24</a></td>
-<td><a href="eve/index20140425.html">25</a></td>
-<td><a href="eve/index20140426.html">26</a></td>
-</tr>
-
-		</table>
-	
-
-		<ul class="leftlinks" id="user_resources">
-
-			
-			
-			<li><a href="//www.craigslist.org/about/help/">help, faq, abuse, legal</a></li>
-			<li><a href="//www.craigslist.org/about/scams">avoid scams &amp; fraud</a></li>
-			<li><a href="//www.craigslist.org/about/safety">personal safety tips</a></li>
-			<li><a href="//www.craigslist.org/about/terms.of.use">terms of use <span class="update">new</span></a></li>
-			<li><a href="//www.craigslist.org/about/privacy.policy">privacy policy <span class="update">updated</span></a></li>
-			<li><a href="//www.craigslist.org/about/help/system-status">system status</a></li>
-		</ul>
-
-		<ul class="leftlinks" id="about_craigslist">
-			<li><a href="//www.craigslist.org/about/">about craigslist</a></li>
-            <li><a href="//www.craigslist.org/about/craigslist_is_hiring" style="color: #0b0">craigslist is hiring in sf</a></li>
-			<li><a href="//www.craigslist.org/about/open_source">craigslist open source</a></li>
-			<li><a href="http://blog.craigslist.org/">craigslist blog</a></li>
-			<li><a href="//www.craigslist.org/about/best/all">best-of-craigslist</a></li>
-			<li><a href="http://blip.tv/craigslisttv">craigslist TV</a></li>
-			<li><a href="http://www.craigslistjoe.com/">"craigslist joe"</a></li>
-			<li><a href="http://craigconnects.org/">craig connects</a></li>
-			
-			
-
-		</ul>
-
-		
-			</td>
-
-			<td id="center">
-				<header id="topban" class="ban">
-					<h2>ann arbor</h2>&nbsp;<sup><a href="http://en.wikipedia.org/wiki/Ann_Arbor">w</a></sup>
-					
-				</header>
-				<table summary="main" id="main">
-					<tr>
-						<td>
-
-							
-		<div id="ccc" class="col">
-		<h4 class="ban"><a href="ccc/" data-alltitle="all community">community</a></h4>
-		<div class="cats">
-	<ul id="ccc0">
-<li><a href="act/">activities</a></li>
-<li><a href="ats/">artists</a></li>
-<li><a href="kid/">childcare</a></li>
-<li><a href="com/">general</a></li>
-<li><a href="grp/">groups</a></li>
-<li><a href="pet/">pets</a></li>
-<li><a href="eve/">events</a></li>
-</ul>
-<ul id="ccc1">
-<li><a href="laf/">lost+found</a></li>
-<li><a href="muc/">musicians</a></li>
-<li><a href="vnn/">local&nbsp;news</a></li>
-<li><a href="pol/">politics</a></li>
-<li><a href="rid/">rideshare</a></li>
-<li><a href="vol/">volunteers</a></li>
-<li><a href="cls/">classes</a></li>
-</ul>
-</div>
-</div>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-HDSQ8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-HDSQ8');</script>
+<!-- End Google Tag Manager -->
 
 
-							
-		<div id="ppp" class="col">
-		<h4 class="ban">personals</h4>
-		<div class="cats">
-	<ul id="ppp0">
-<li><a href="/i/personals?category=stp">strictly platonic</a></li>
-<li><a href="/i/personals?category=w4w">women seek women</a></li>
-<li><a href="/i/personals?category=w4m">women seeking men</a></li>
-<li><a href="/i/personals?category=m4w">men seeking women</a></li>
-<li><a href="/i/personals?category=m4m">men seeking men</a></li>
-<li><a href="/i/personals?category=msr">misc romance</a></li>
-<li><a href="/i/personals?category=cas">casual encounters</a></li>
-<li><a href="/i/personals?category=mis">missed connections</a></li>
-<li><a href="/i/personals?category=rnr">rants and raves</a></li>
-</ul>
-</div>
-</div>
 
 
-							
-		<div id="forums" class="col">
-		<h4 class="ban"><a href="/forums" data-alltitle="">discussion forums</a></h4>
-		<div class="cats">
-	<ul id="forums0">
-<li><a href="/forums/?forumID=2232">adopt</a></li>
-<li><a href="/forums/?forumID=3232">apple</a></li>
-<li><a href="/forums/?forumID=49">arts</a></li>
-<li><a href="/forums/?forumID=78">atheist</a></li>
-<li><a href="/forums/?forumID=5">autos</a></li>
-<li><a href="/forums/?forumID=88">beauty</a></li>
-<li><a href="/forums/?forumID=95">bikes</a></li>
-<li><a href="/forums/?forumID=47">celebs</a></li>
-<li><a href="/forums/?forumID=34">comp</a></li>
-<li><a href="/forums/?forumID=83">crafts</a></li>
-<li><a href="/forums/?forumID=122">diet</a></li>
-<li><a href="/forums/?forumID=76">divorce</a></li>
-<li><a href="/forums/?forumID=130">dying</a></li>
-<li><a href="/forums/?forumID=99">eco</a></li>
-<li><a href="/forums/?forumID=90">educ</a></li>
-<li><a href="/forums/?forumID=8">feedbk</a></li>
-<li><a href="/forums/?forumID=41">film</a></li>
-<li><a href="/forums/?forumID=92">fitness</a></li>
-<li><a href="/forums/?forumID=64">fixit</a></li>
-<li><a href="/forums/?forumID=22">food</a></li>
-<li><a href="/forums/?forumID=2007">frugal</a></li>
-<li><a href="/forums/?forumID=85">gaming</a></li>
-<li><a href="/forums/?forumID=54">garden</a></li>
-</ul>
-<ul id="forums1">
-<li><a href="/forums/?forumID=575">haiku</a></li>
-<li><a href="/forums/?forumID=43">health</a></li>
-<li><a href="/forums/?forumID=9">help</a></li>
-<li><a href="/forums/?forumID=81">history</a></li>
-<li><a href="/forums/?forumID=6">housing</a></li>
-<li><a href="/forums/?forumID=7">jobs</a></li>
-<li><a href="/forums/?forumID=1257">jokes</a></li>
-<li><a href="/forums/?forumID=200269">kink</a></li>
-<li><a href="/forums/?forumID=73">legal</a></li>
-<li><a href="/forums/?forumID=1991">linux</a></li>
-<li><a href="/forums/?forumID=72">m4m</a></li>
-<li><a href="/forums/?forumID=79">manners</a></li>
-<li><a href="/forums/?forumID=1926">marriage</a></li>
-<li><a href="/forums/?forumID=133">media</a></li>
-<li><a href="/forums/?forumID=53">money</a></li>
-<li><a href="/forums/?forumID=1947">motocy</a></li>
-<li><a href="/forums/?forumID=24">music</a></li>
-<li><a href="/forums/?forumID=501">nonprofit</a></li>
-<li><a href="/forums/?forumID=4">open</a></li>
-<li><a href="/forums/?forumID=16">outdoor</a></li>
-<li><a href="/forums/?forumID=50">over 50</a></li>
-<li><a href="/forums/?forumID=39">parent</a></li>
-<li><a href="/forums/?forumID=26">pets</a></li>
-</ul>
-<ul id="forums2">
-<li><a href="/forums/?forumID=71">philos</a></li>
-<li><a href="/forums/?forumID=5500">photo</a></li>
-<li><a href="/forums/?forumID=84">p.o.c.</a></li>
-<li><a href="/forums/?forumID=20">politics</a></li>
-<li><a href="/forums/?forumID=29">psych</a></li>
-<li><a href="/forums/?forumID=46">queer</a></li>
-<li><a href="/forums/?forumID=12">recover</a></li>
-<li><a href="/forums/?forumID=59">religion</a></li>
-<li><a href="/forums/?forumID=28">romance</a></li>
-<li><a href="/forums/?forumID=96">science</a></li>
-<li><a href="/forums/?forumID=93">spirit</a></li>
-<li><a href="/forums/?forumID=32">sports</a></li>
-<li><a href="/forums/?forumID=1040">tax</a></li>
-<li><a href="/forums/?forumID=42">travel</a></li>
-<li><a href="/forums/?forumID=98">tv</a></li>
-<li><a href="/forums/?forumID=2400">vegan</a></li>
-<li><a href="/forums/?forumID=69">w4w</a></li>
-<li><a href="/forums/?forumID=15">wed</a></li>
-<li><a href="/forums/?forumID=120">wine</a></li>
-<li><a href="/forums/?forumID=94">women</a></li>
-<li><a href="/forums/?forumID=7000">words</a></li>
-<li><a href="/forums/?forumID=27">writing</a></li>
-<li><a href="/forums/?forumID=8620">yoga</a></li>
-</ul>
-</div>
-</div>
+<div class="bodybg">
+  <div class="containerwrap">
+    <div class="containerwrap2">
+      <div class="container"  style="position:relative;">
+        <!--Header -->
+        <script type="text/javascript" src="http://cdn.takehome.com/scripts/main_header.js"></script>
+ 
+<!-- email popup -->
+        <div class="emailPopup" id="emailPopup"> <a href="javascript:emailpopHide()" class="emailclose"></a>
+          <p class="email-title">Send us a message & we'll reply within 24 hours.</p>
+          <form id="F_MAILAUTH" name="F_MAILAUTH" method="post" action="" onSubmit="return mailSubmit();">
+            <input type="hidden" id="imgurl" value="http://cdn.takehome.com/images/" />
+            <label for="NAME">Your Name:</label>
+            <input type="text"  name="NAME1" id="NAME"  class="email-input-field" onfocus="sentResult()"/>
+		 <input type="hidden" name="PRODUCT" value="25" />
+            <label for="EMAILD">Your Email:</label>
+            <input type="text"  name="EMAILID" id="EMAILID"  class="email-input-field" onfocus="sentResult()"/>
+            <label for="CATEGORY">Subject:</label>
+            <select id="CATEGORY1" name="CATEGORY1"  size="1" onfocus="sentResult()">
+              <option>Please make a selection...</option>
+              <option>Request a contact</option>
+              <option>Billing Question</option>
+              <option>Course Questions</option>
+              <option>Order Duplicate Certificate</option>
+              <option>Order New Driving Record</option>
+              <option>Driving Record Questions</option>
+              <option>Website Assistance</option>
+              <option>Shipping Question</option>
+            </select>
+            <label for="COMMENTS">Message:</label>
+            <textarea name="COMMENTS1" id="COMMENTS1"  rows="5" class="email-input-field" onFocus="if(this.value == 'Type your message here...') { this.value = ''; }" >Type your message here...</textarea>
+           <a href=javascript:mailSubmit()><img src="http://cdn.takehome.com/images/email-submit-btn.gif" alt="Submit" title="Submit" class="email-submit-btn" /></a>
+            <p class="email-sent" id="cont-thanks"  style="display:none;"
+></p>
+          </form>
+        </div>
+        <!-- email popup ends -->
 
-						</td>
+<div class="login-p" id="hideDiv1" style="display:none;">
+    <div class="close"><a href="#" onclick="showHide('hideDiv','dirImg')"></a></div>
 
-						<td>
-							
-		<div id="hhh" class="col">
-		<h4 class="ban"><a href="hhh/" data-alltitle="all housing">housing</a></h4>
-		<div class="cats">
-	<ul id="hhh0">
-<li><a href="apa/">apts / housing</a></li>
-<li><a href="roo/">rooms / shared</a></li>
-<li><a href="sub/">sublets / temporary</a></li>
-<li><a href="hsw/">housing wanted</a></li>
-<li><a href="swp/">housing swap</a></li>
-<li><a href="vac/">vacation rentals</a></li>
-<li><a href="prk/">parking / storage</a></li>
-<li><a href="off/">office / commercial</a></li>
-<li><a href="rea/">real estate for sale</a></li>
-</ul>
-</div>
-</div>
+    <div class="clear"></div>
+        <form action="http://www.takehome.com/course/displaymyaccount.html" method="post" name="F_LOGINAUTH" id="F_LOGINAUTH" onsubmit="return loginSubmit()">
+    <div class="login-cont">
+      <div class="login-cont-l"> <strong></strong>
+        <p></p>
+
+        <br />
+        <label></label>
+        <input type="text"  name="DRIVERSLICENSE"/>
+        <label></label>
+
+        <input type="password" name="PASSWORD" />
+        <table width="201" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+
+            <td></td>
+            <td align="right"></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="login-cont-r"> 
+        <p></p>
+
+        <ul>
+        </ul>
+        <div  style="text-align:right;"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+        </form>
+  </div>
 
 
-							
-		<div id="sss" class="col">
-		<h4 class="ban"><a href="sss/" data-alltitle="all for sale">for sale</a></h4>
-		<div class="cats">
-	<ul id="sss0">
-<li><a href="ata/">antiques</a></li>
-<li><a href="baa/">baby+kid</a></li>
-<li><a href="bar/">barter</a></li>
-<li><a href="bia/">bikes</a></li>
-<li><a href="boo/">boats</a></li>
-<li><a href="bka/">books</a></li>
-<li><a href="bfa/">business</a></li>
-<li><a href="sya/">computer</a></li>
-<li><a href="zip/">free</a></li>
-<li><a href="fua/">furniture</a></li>
-<li><a href="foa/">general</a></li>
-<li><a href="hsa/">household</a></li>
-<li><a href="jwa/">jewelry</a></li>
-<li><a href="maa/">materials</a></li>
-<li><a href="rva/">rvs+camp</a></li>
-<li><a href="sga/">sporting</a></li>
-<li><a href="tia/">tickets</a></li>
-<li><a href="tla/">tools</a></li>
-<li><a href="waa/">wanted</a></li>
-</ul>
-<ul id="sss1">
-<li><a href="ppa/">appliances</a></li>
-<li><a href="ara/">arts+crafts</a></li>
-<li><a href="sna/">atv/utv/sno</a></li>
-<li><a href="pta/">auto parts</a></li>
-<li><a href="haa/">beauty+hlth</a></li>
-<li><a href="/i/autos">cars+trucks</a></li>
-<li><a href="ema/">cds/dvd/vhs</a></li>
-<li><a href="moa/">cell phones</a></li>
-<li><a href="cla/">clothes+acc</a></li>
-<li><a href="cba/">collectibles</a></li>
-<li><a href="ela/">electronics</a></li>
-<li><a href="gra/">farm+garden</a></li>
-<li><a href="/search/gms">garage sale</a></li>
-<li><a href="hva/">heavy equip</a></li>
-<li><a href="/i/motorcycles">motorcycles</a></li>
-<li><a href="msa/">music instr</a></li>
-<li><a href="pha/">photo+video</a></li>
-<li><a href="taa/">toys+games</a></li>
-<li><a href="vga/">video gaming</a></li>
-</ul>
-</div>
-</div>
+  <div class="logo-p">
+          <div class="logo"><a href="http://www.takehome.com/" title="Defensive Driving DVD - Takehome.com"><img  src="http://cdn.takehome.com/images/defensive-driving-dvd.gif" alt="Defensive Driving DVD - Takehome.com" /></a></div>
+          <div class="title-p">
+          <h1 class="hd">Defensive Driving Video</h1>
+            <p class="logo-title">Your DVD Traffic School</p>
+            <p class="logo-sub-title">Easy. Entertaining. Entirely on your own.</p>
+          </div>
+          <div class="top-right-p">
+            <p><a href="#NewLogin" onclick="dataLayer.push({'event': 'GAevent', 'eventCategory': 'event','eventAction': 'Studentlogin', 'eventLabel': window.location.pathname});"><img  src="http://cdn.takehome.com/images/sign-in.gif" id="dirImg"  alt="Signin For Defensive Driving Course" title="Signin For Defensive Driving Course"/></a><!-- onclick="showHide('hideDiv',this.id)"  --></p>
+            <p class="top-nav"><span class="emailUs"><a href="#"  onclick="dataLayer.push({'event': 'GAevent', 'eventCategory': 'event','eventAction': 'EmailUS', 'eventLabel': window.location.pathname});">Email Us</a> </span></p>
+            <p class="ph-no">1-800-505-5095</p>
+          </div>
+        </div>
+      <!-- top header Logo part Ends-->
+      <!-- Main navigation -->
+        <div class="navigation">
+          <div class="navigation-wrap">
+            <ul class="nav-wrap">
+              <li class="nav-active"> <span><a rel="nofollow" href="http://www.takehome.com/">+ Home</a></span></li>
+              <li class=""><span><a href="http://www.takehome.com/how-it-works.html">+ How It Works</a></span></li>
+              <li class=""><span><a href="http://www.takehome.com/course-details.html">+ Course Details</a></span></li>
+              <li class=""><span><a href="http://www.takehome.com/support.html">+ 24/7 Support</a></span></li>
+              <li class=""><span><a href="http://www.takehome.com/aboutus.html">+ About Us</a></span></li>
+              <li class=""><span><a href="http://www.takehome.com/faqs.html">+ FAQs</a></span></li>
+            </ul>
+          </div>
+      <!-- Main navigation Ends -->
+      <!-- State Selection drop down -->
+   <!-- State Selection drop down -->
 
-							
-		<div id="bbb" class="col">
-		<h4 class="ban"><a href="bbb/" data-alltitle="all services">services</a></h4>
-		<div class="cats">
-	<ul id="bbb0">
-<li><a href="bts/">beauty</a></li>
-<li><a href="crs/">creative</a></li>
-<li><a href="cps/">computer</a></li>
-<li><a href="cys/">cycle</a></li>
-<li><a href="evs/">event</a></li>
-<li><a href="fns/">financial</a></li>
-<li><a href="lgs/">legal</a></li>
-<li><a href="lss/">lessons</a></li>
-<li><a href="mas/">marine</a></li>
-<li><a href="pas/">pet</a></li>
-</ul>
-<ul id="bbb1">
-<li><a href="aos/">automotive</a></li>
-<li><a href="fgs/">farm+garden</a></li>
-<li><a href="hss/">household</a></li>
-<li><a href="lbs/">labor/move</a></li>
-<li><a href="sks/">skill'd trade</a></li>
-<li><a href="rts/">real estate</a></li>
-<li><a href="biz/">sm biz ads</a></li>
-<li><a href="thp/">therapeutic</a></li>
-<li><a href="trv/">travel/vac</a></li>
-<li><a href="wet/">write/ed/tr8</a></li>
-</ul>
-</div>
-</div>
+      <div class="search-p">
+		 <div class="search-p2" id="showcookie" style="display:none">You are here:  <span><a href="javascript:showStates(1)">(Change State)</a></span></div>
+		 <div id="showstate" style="display:inline" class="search-p2">
+                 <form name="form" id="selectState"  method="post" action="" style="display:{ACTIVE}">
+		               <strong><label id="moreinfo" style="display:inline">For more info:</label></strong>
+	              <select name="STATE" id="STATE">
+				<option value="0" selected="selected">Select State ...</option>
+<option value="FL" >Florida</option>
+<option value="IN" >Indiana</option>
+<option value="KY" >Kentucky</option>
+<option value="NV" >Nevada</option>
+<option value="NJ" >New  Jersey</option>
+<option value="NY" >New  York</option>
+<option value="TX" >Texas</option>
+
+	              </select>
+	              <a href="javascript:changeState(document.form)"><img src="http://cdn.takehome.com/images/go-btn1.gif" alt="Go" align="top"  /></a>
+		      <span id="showcancel" style="display:none">(<a href="javascript:showStates(0)">cancel</a>)</span>
+	          </form></div>
+        	  </div>
+
+          <div class="clear"></div>
+        </div>
+        <div id="hideDiv"></div>
+        <!-- navigation bar ends -->
+
+        <!--Header Ends -->
+       	  <!--Bread Crumbs -->
 
 
-						</td>
+<!--Bread Crumbs Ends -->
+<!--Content -->
+<div class="content">
+  
 
-						<td>
-
-							
-		<div id="jjj" class="col">
-		<h4 class="ban"><a href="jjj/" data-alltitle="all jobs">jobs</a></h4>
-		<div class="cats">
-	<ul id="jjj0">
-<li><a href="acc/">accounting+finance</a></li>
-<li><a href="ofc/">admin / office</a></li>
-<li><a href="egr/">arch / engineering</a></li>
-<li><a href="med/">art / media / design</a></li>
-<li><a href="sci/">biotech / science</a></li>
-<li><a href="bus/">business / mgmt</a></li>
-<li><a href="csr/">customer service</a></li>
-<li><a href="edu/">education</a></li>
-<li><a href="fbh/">food / bev / hosp</a></li>
-<li><a href="lab/">general labor</a></li>
-<li><a href="gov/">government</a></li>
-<li><a href="hum/">human resources</a></li>
-<li><a href="eng/">internet engineers</a></li>
-<li><a href="lgl/">legal  /  paralegal</a></li>
-<li><a href="mnu/">manufacturing</a></li>
-<li><a href="mar/">marketing / pr / ad</a></li>
-<li><a href="hea/">medical / health</a></li>
-<li><a href="npo/">nonprofit sector</a></li>
-<li><a href="rej/">real estate</a></li>
-<li><a href="ret/">retail / wholesale</a></li>
-<li><a href="sls/">sales / biz dev</a></li>
-<li><a href="spa/">salon / spa / fitness</a></li>
-<li><a href="sec/">security</a></li>
-<li><a href="trd/">skilled trade / craft</a></li>
-<li><a href="sof/">software / qa / dba</a></li>
-<li><a href="sad/">systems / network</a></li>
-<li><a href="tch/">technical support</a></li>
-<li><a href="trp/">transport</a></li>
-<li><a href="tfr/">tv / film / video</a></li>
-<li><a href="web/">web / info design</a></li>
-<li><a href="wri/">writing / editing</a></li>
-<li><a href="etc/">[ETC]</a></li>
-<li><a href="/search/jjj?is_parttime=1">[ part-time ]</a></li>
-</ul>
-</div>
-</div>
-
-
-							
-		<div id="ggg" class="col">
-		<h4 class="ban"><a href="ggg/" data-alltitle="all gigs">gigs</a></h4>
-		<div class="cats">
-	<ul id="ggg0">
-<li><a href="cwg/">crew</a></li>
-<li><a href="evg/">event</a></li>
-<li><a href="lbg/">labor</a></li>
-<li><a href="tlg/">talent</a></li>
-</ul>
-<ul id="ggg1">
-<li><a href="cpg/">computer</a></li>
-<li><a href="crg/">creative</a></li>
-<li><a href="dmg/">domestic</a></li>
-<li><a href="wrg/">writing</a></li>
-</ul>
-</div>
-</div>
-
-		<div id="res" class="col">
-		<h4 class="ban"><a href="res/" data-alltitle="all resumes">resumes</a></h4>
-		<div class="cats">
+   <!-- Header --> 
+<link href="/takehome-player/scripts/slide.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://cdn.takehome.com/scripts/sales.js "></script>
+<script type="text/javascript">
+function GoToBack()
+{
+  document.getElementById("front").style.display = "none";
+  document.getElementById("back").style.display = "block";
+}
+</script>
+ 
+        <div class="home-header" title="Defensive Driving Indiana DVD Course">
+	       	<div class="home-h-titles">
+        	    <h2 class="hd">Traffic School Video</h2>
+          	    <img src="http://cdn.takehome.com/images/traffic-school-defensive-driving.gif" alt="Traffic School Defensive Driving" title="Traffic School Defensive Driving"  /><br />
+		    <img src="http://cdn.takehome.com/images/is-better-on-dvd.gif" alt="Is Better On DVD" title="Is Better On DVD" />
+	        </div>
+         <br clear="all" />
+         <ul class="home-h-points">
+              <li><img src="http://cdn.takehome.com/images/watch-it-on-the-big-screen.gif" alt="Watch It On The Big Screen" title="Watch It On The Big Screen" /></li>
+              <li><img src="http://cdn.takehome.com/images/for-ticket-dismissal-and-insurance-reduction.gif" alt="For Ticket Dismissal and Insurance Reduction" title="For Ticket Dismissal and Insurance Reduction" /></li>
+              <li><img src="http://cdn.takehome.com/images/dont-be-bored-be-entertained.gif"  alt="Don’t Be Bored Be Entertained" title="Don't Be Bored Be Entertained" /></li>
+         </ul>
+         <div class="home-h-cal2action">
+          	<div class="cal-2-actiona">
+       	        &nbsp;<img src="http://cdn.takehome.com/images/already-have-dvd.gif" width="189" height="25" alt="Already Have A DVD?" title="Already Have A DVD?" /><br />
+               <a href="http://www.takehome.com/signup/prepayment/index.html"><img src="http://cdn.takehome.com/images/register-your-dvd.png" onclick="dataLayer.push({'event': 'GAevent', 'eventCategory': 'event','eventAction': 'RegDVDTop', 'eventLabel': window.location.pathname});"  width="213" height="57" alt="Register Your DVD Now"  title="Register Your DVD Now"/></a>
 	</div>
+            <div class="cal-2-action">
+       	    &nbsp;<img src="http://cdn.takehome.com/images/for-price-details.gif" width="176" height="25" alt="For Price and Details"  title="For Price and Details"/><br />
+            <div class="pull-down-bg">
+            <form name="F_SELECTSTATE1" id="selectState" action="" method="post">
+            <select name="STATELIST" id="STATELIST" class="pull-down">
+		<option value="">Select State ...</option>
+<option value="http://www.takehome.com/florida/dvd-traffic-school.html"  >Florida</option>
+<option value="http://www.takehome.com/indiana/dvd-defensive-driving.html"  >Indiana</option>
+<option value="http://www.takehome.com/kentucky/dvd-traffic-school.html"  >Kentucky</option>
+<option value="http://www.takehome.com/nevada/dvd-traffic-school.html"  >Nevada</option>
+<option value="http://www.takehome.com/new-jersey/defensive-driving-dvd-course.html"  >New Jersey</option>
+<option value="http://www.takehome.com/new-york/defensive-driving-dvd-course.html"  >New York</option>
+<option value="http://www.takehome.com/texas/dvd-defensive-driving.html"  >Texas</option>
+
+              </select>
+            <a href="javascript:changeState1(document.F_SELECTSTATE1)"><img src="http://cdn.takehome.com/images/approved-course.gif" width="43" height="33" alt="Approved Course" title="Approved Course" class="go-btn" /></a></form></div>
+            </div>
+          </div>
+          <div class="cd-man"><img src="http://cdn.takehome.com/images/traffic-school-video.gif" alt="Traffic School Video" title="Traffic School Video" width="182" height="530" /></div>
+          <div class="clear"></div>
+        </div>
+        <!-- home header ends here -->
+        <h3 class="hd">DVD Defensive Driving </h3>
+        <div class="in-left-h">
+        <div class="home-left-bg">
+        <div class="home-left-top">
+        <div class="home-l-box1">
+	        <h4 class="hd">Driver Safety Video Course</h4>
+	        <h4 class="title-01 border-orange">Why Video Is Better </h4>
+		        <p>This  course has been developed to give you the most user-friendly  experience possible.</p>
+		        <ul class="list-01">
+	        	   <li>It's more like watching a movie; less like taking a test</li>
+        	   	   <li>You only need to log onto the computer to take your quizzes</li>
+	        	   <li>There's no lessons to read, no lectures to listen to</li>
+		        </ul>
+        	  	<p>Remember,  there are other traffic school options out there but none are as  simple to do, easy to take and fun to watch as<strong class="blue1"> I Drive Safely’s</strong> approved DVD courses.</p>
+         </div>
+         <div class="home-r-box">
+
+            <div class="video-holder">
+<object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="243" height="205" style="float:left; margin-right:20px">
+  <param name="movie" value="http://cdn.takehome.com/flash/takehome-home-player.swf?videoPath=/demo/takehome-dvd-video.flv&CAPTIONPATH=/demo/captions.xml">
+  <param name="allowScriptAccess" value="always">
+  <object type="application/x-shockwave-flash" data="http://cdn.takehome.com/flash/takehome-home-player.swf?videoPath=/demo/takehome-dvd-video.flv&CAPTIONPATH=/demo/captions.xml" width="243" height="205"> 
+ <PARAM NAME="WMode" VALUE="transparent"> 
+    <param name="allowScriptAccess" value="always">
+    <!-- html5 -->
+    <div class="container1">
+       <div class="vdo-container">
+            <video id="vdoPlayer"></video>
+            <div class="center-play"></div>
+        </div>
+        <div class="controller">
+            <div class="play-btn" id="playPauseBtn"></div>
+            <div class="scrubber-container">
+                <div class="scrubber"></div>
+            </div>
+            <div class="cc-btn-off"></div>
+        </div>
+        <div class="cc-text"></div>
+    </div>
+    <script type="text/javascript">
+        videoPath = "/images/demo/takehome-dvd-video";
+                captionPath = "/takehome-player/captions.srt";
+                videoWidth = 243; // for home page
+                videoHeight = 220;
+    </script>
+    <script src="http://cdn.takehome.com/scripts/ClosedCaption.js" type="text/javascript"></script>
+    <script src="http://cdn.takehome.com/scripts/VideoPlayer.js" type="text/javascript"></script>
+    <!-- end of html5 -->
+  </object>
+</object>
+
+            </div>
+
+            <div class="home-r-box-txt" title="DVD Defensive Driving">
+
+
+
+              <p class="title-02">Want  to make sure this course is right for you?</p>
+
+              <p>Take  it for a test drive before you make your decision.</p>
+
+            </div>
+
+
+
+          </div>
+
+          <div class="clear" ></div>
+
+          </div>
+
+          <div class="home-left-btm-img" title="Driver Safety Video Course">
+
+          <h4 class="title-01 border-orange">Big Screen Vs Computer </h4>
+
+          <div class="home-left-btm">
+
+          <p><strong>Is there really a choice?</strong></p>
+
+          <p>Why  stare at a computer screen when you could be relaxing in front of  your 42&rdquo; Flat Screen? Our DVD  course makes learning a lot more leisurely.  Just pop in the DVD, sit  back and enjoy.  Then take your quizzes and final exam online and  you&rsquo;re done. It&rsquo;s that easy. Plus,  our course meets all your state&rsquo;s requirements for dismissing your ticket,  removing points from your driver record and/or lowering your auto  insurance premiums. It’s  a no brainer. Do it on DVD. You’ll be glad you did. </p>
+
 </div>
 
+          </div>
+
+        </div>
+
+        </div>
+
+        <div class="home-r-bg">
+	<div class="dvd-box">
+              <div class="dvd-box-header" align="right"><img src="http://cdn.takehome.com/images/new-dvd-courses-fl-teen-users.gif" alt="New DVD Course for Florida TEEN Drivers" title="New DVD Course for Florida TEEN Drivers" /></div>
+              <p>We now offer Traffic Law and Substance Abuse Education Course (TLSAE) in Florida for new drivers</p>
+              <div class="dvd-btn"><a href="http://www.takehome.com/florida/dvd-tlsaecourse.html"><img src="http://cdn.takehome.com/images/b-learn-more-new.gif" alt="Learn More" /></a></div>
+         </div>
+
+        <div class="home-r-btm-bg">
+
+        <h4 class="title-03" align="center"><span class="border-orange" style="padding-bottom:5px">Fast Facts About Your DVD</span></h4>
+
+        <div class="accordion-container">
 
 
-						</td>
-					</tr>
-				</table>
-			</td>
 
-			<td id="rightbar">
-				
-				<ul class="menu collapsible"><li class=" expand s"><h5 class="ban">nearby cl</h5><ul class="acitem">
-<li class="s"><a href="http://akroncanton.craigslist.org">akron-canton</a>
-<li class="s"><a href="http://annarbor.craigslist.org">ann arbor</a>
-<li class="s"><a href="http://ashtabula.craigslist.org">ashtabula</a>
-<li class="s"><a href="http://battlecreek.craigslist.org">battle creek</a>
-<li class="s"><a href="http://centralmich.craigslist.org">central mi</a>
-<li class="s"><a href="http://chatham.craigslist.ca">chatham-kent</a>
-<li class="s"><a href="http://cleveland.craigslist.org">cleveland</a>
-<li class="s"><a href="http://detroit.craigslist.org">detroit metro</a>
-<li class="s"><a href="http://flint.craigslist.org">flint</a>
-<li class="s"><a href="http://fortwayne.craigslist.org">fort wayne</a>
-<li class="s"><a href="http://grandrapids.craigslist.org">grand rapids</a>
-<li class="s"><a href="http://holland.craigslist.org">holland</a>
-<li class="s"><a href="http://jxn.craigslist.org">jackson</a>
-<li class="s"><a href="http://kalamazoo.craigslist.org">kalamazoo</a>
-<li class="s"><a href="http://lansing.craigslist.org">lansing</a>
-<li class="s"><a href="http://limaohio.craigslist.org">lima-findlay</a>
-<li class="s"><a href="http://londonon.craigslist.ca">london</a>
-<li class="s"><a href="http://mansfield.craigslist.org">mansfield</a>
-<li class="s"><a href="http://monroemi.craigslist.org">monroe</a>
-<li class="s"><a href="http://muskegon.craigslist.org">muskegon</a>
-<li class="s"><a href="http://nmi.craigslist.org">northern mi</a>
-<li class="s"><a href="http://porthuron.craigslist.org">port huron</a>
-<li class="s"><a href="http://saginaw.craigslist.org">saginaw</a>
-<li class="s"><a href="http://sandusky.craigslist.org">sandusky</a>
-<li class="s"><a href="http://sarnia.craigslist.ca">sarnia</a>
-<li class="s"><a href="http://southbend.craigslist.org">south bend</a>
-<li class="s"><a href="http://swmi.craigslist.org">southwest mi</a>
-<li class="s"><a href="http://thumb.craigslist.org">the thumb</a>
-<li class="s"><a href="http://toledo.craigslist.org">toledo</a>
-<li class="s"><a href="http://windsor.craigslist.ca">windsor</a>
+        <h5 class="acc_trigger"><a href="#">Is This Course Approved in My State?</a></h5>
+
+			<div class="acc_container">
+		<div class="block">This course is approved in  <a href="http://www.takehome.com/florida/" title="Florida Traffic School DVD" >Florida</a>, <a href="http://www.takehome.com/indiana/" title="Indiana Defensive Driving DVD" >Indiana</a>, <a href="http://www.takehome.com/kentucky/" title="Kentucky Traffic School DVD" >Kentucky</a>, <a href="http://www.takehome.com/nevada/" title="Nevada Traffic School DVD" >Nevada</a>, <a href="http://www.takehome.com/new-jersey/" title="New Jersey Defensive Driving DVD" >New Jersey</a>, <a href="http://www.takehome.com/new-york/" title="New York Defensive Driving DVD" >New York</a> and <a href="http://www.takehome.com/texas/" title="Texas Defensive Driving DVD" >Texas</a>.</div>
+            </div>
+
+        <h5 class="acc_trigger"><a href="#">Once I Get My DVD, What Do I Do Next?</a></h5>
+
+			<div class="acc_container">
+
+                <div class="block">
+
+                  <p>Registration is easy.  Click on the Register button, fill out the forms and you're ready to start the course.  </p>
+
+
+
+                  <p><a href="http://www.takehome.com/how-it-works.html">LEARN  MORE</a></p>
+
+                </div>
+
+            </div>
+
+        <h5 class="acc_trigger"><a href="#">How Long Will It Take to Complete?</a></h5>
+
+			<div class="acc_container">
+
+                <div class="block">
+
+                  <p>Our  course is the quickest allowed by law.  For specific details about  the pricing, delivery options and course information in your state,  <a href="http://www.takehome.com/course-details.html">CLICK HERE</a>. </p>
+
+                </div>
+
+            </div>
+
+        <h5 class="acc_trigger"><a href="#">How Do I Get My Certificate?</a></h5>
+
+            <div class="acc_container">
+
+                <div class="block">
+
+
+
+                  <p>The  moment you finish your final exam, we start processing your  certificate. Complete the course by 3 PM (CST) and we’ll have your  Certificate sent out that day. And in some case, we can even e-mail  it to you. <a href="http://www.takehome.com/course-details.html">LEARN MORE</a></p>
+
+                </div>
+
+            </div>
+
+		<h5 class="acc_trigger"><a href="#">How Much Does The Course Cost?</a></h5>
+
+			<div class="acc_container">
+
+                <div class="block">
+
+                  <p>Prices vary by state. Please select your state to learn pricing information.                   </p>
+
+                  <form name="F_SELECTSTATE2" id="selectState" action="" method="post">
+
+                  <select name="STATENAMES" id ="STATENAMES" style="float:left; margin:10px 10px 0 0">
+			 <option value="">Select State ...</option>
+<option value="http://www.takehome.com/florida/dvd-traffic-school.html"  >Florida</option>
+<option value="http://www.takehome.com/indiana/dvd-defensive-driving.html"  >Indiana</option>
+<option value="http://www.takehome.com/kentucky/dvd-traffic-school.html"  >Kentucky</option>
+<option value="http://www.takehome.com/nevada/dvd-traffic-school.html"  >Nevada</option>
+<option value="http://www.takehome.com/new-jersey/defensive-driving-dvd-course.html"  >New Jersey</option>
+<option value="http://www.takehome.com/new-york/defensive-driving-dvd-course.html"  >New York</option>
+<option value="http://www.takehome.com/texas/dvd-defensive-driving.html"  >Texas</option>
+
+              </select>
+
+            <a href="javascript:changeState2(document.F_SELECTSTATE2)"><img src="http://cdn.takehome.com/images/go-btn2.gif" alt="GO" style="padding-top:5px;" /></a></form>
+                <br clear="all" />
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+        <div >
+
+        <div class="need-faster">
+
+          <h4 class="title-03 border-orange" align="right">Need  It Faster?           </h4>
+
+          <p><strong class="text-04">Let's face it, sometimes there is a need <br />
+
+              for speed. </strong><br />
+
+We can have a copy of our DVD delivered to your door as soon as the next business day. <br />
+
+            <em>(Additional rates may apply.)</em> <a href="http://www.takehome.com/course-details.html">Learn more</a></p>
+
+          <p>&nbsp;</p>
+
+          <p><strong><span class="text-04">Did You Wait Until The Last Minute?</span></strong><br />
+
+No worries! It happens to the best of us. You can also rent our DVD at your local video store today. Enter Zip to find store. </p>
+
+ <p align="right">
+                <form name ="ZipSearchForm" action="http://www.takehome.com/storelocation.html" method=post>
+                                   <a href="#" onclick="zipCodeSearch();return;"><img src="http://cdn.takehome.com/images/go-btn2.gif" alt="GO" align="right" />
+                                        </a> <input name="ZipSearch" id="ZipSearch" type="text" size="15" Maxlength="5" class="text-field"
+                                              style="float: right" onKeyUp="zipCodeValidation(this);" onblur="zipCodeValidation(this);"/>
+                </form>
+          </p>
+
+
+
+
+        </div>
+
+        </div>
+
+        </div>
+
+        </div>
+
+        <div class="clear"></div>
+
+       <div class="fodder-container">
+
+         <a id="displayText" href="javascript:toggle();">Learn more about Take Home</a>
+
+         <div class="fodder-content" id="toggleText" >
+
+           <h6>The  Benefits of our TakeHome Traffic School/Defensive Driving Video  Course</h6>
+
+           <p>I Drive Safely&rsquo;s TakeHome Traffic School/Defensive Driving Video<strong> </strong>course is designed to  give you the maximum in convenience while meeting all your required  court and state obligations. We&rsquo;re created a course that&rsquo;s both  entertaining and educational which makes it much easier to complete. </p>
+
+           <h6>DVD  vs Online vs Classroom Alternatives</h6>
+
+           <p>With  classroom you have to driver to school then spend 4 to 6 hours  listening to a lecture.  Online is better, but reading lessons on a  computer screen can sometimes be a strain. But with our DVD <strong>Traffic  School Video</strong> Course, you simply relax and watch. </p>
+
+           <h6>Designed  To Be Like Watching A Movie </h6>
+
+
+
+           <p>We  produced many, many different instructional videos and have  determined that the best, most enjoyable way to take a <strong>Defensive  Driving Video</strong> course is through a skillful blend of animations and videos.  Our  main character, Dash, delivers a pleasant and enjoyable &ldquo;performance&rdquo;  that, while it may not win an Academy Award, is certainly better that  listening to a teacher drone on and on in a classroom lecture.</p>
+
+<ul class="list-02">
+
+  <li>Just  	slip in the DVD</li>
+
+             <li>Relax  	in your favorite chair</li>
+
+             <li>Grab  	a soda and a bowl of popcorn</li>
+
+             <li>And  	Enjoy</li>
+
+
+
+         </ul>
+
+           <h6> <strong>Approved  Throughout The US</strong></h6>
+
+           <p>TakeHome  DVD Traffic School / Defensive Driving courses are approved in the  following states:</p>
+
+           <ul class="list-02">
+			<li><a href="http://www.takehome.com/florida/" title="Florida Traffic School DVD" >Florida</a></li>
+<li><a href="http://www.takehome.com/indiana/" title="Indiana Defensive Driving DVD" >Indiana</a></li>
+<li><a href="http://www.takehome.com/kentucky/" title="Kentucky Traffic School DVD" >Kentucky</a></li>
+<li><a href="http://www.takehome.com/nevada/" title="Nevada Traffic School DVD" >Nevada</a></li>
+<li><a href="http://www.takehome.com/new-jersey/" title="New Jersey Defensive Driving DVD" >New Jersey</a></li>
+<li><a href="http://www.takehome.com/new-york/" title="New York Defensive Driving DVD" >New York</a></li>
+<li><a href="http://www.takehome.com/texas/" title="Texas Defensive Driving DVD" >Texas</a></li>
+
+           </ul>
+
+
+           <p>We  are soon to be approved in other states so check back soon for your  state.</p>
+
+           <h6>Buy  It Online, Watch It At Home</h6>
+
+           <p>Purchasing  your TakeHome Traffic School / Defensive Driving Course is simple and  easy to do.</p>
+
+          <ul class="list-02">
+
+             <li>Click  	on the Get A DVD button and go to the registration page</li>
+
+             <li>Fill  	out the easy to complete registration form and pay for the DVD  	Course</li>
+
+             <li>Once  	you get the DVD, come back to this website and register for the  	course (no charge needed, you&rsquo;ve already paid for the course)</li>
+
+             <li>Watch  	the 6 chapters, taking 5 multiple choice quizzes and if required the  	final exam online</li>
+
+             <li>We&rsquo;ll  	immediately process your Certificate of Completion and send it out  	ASAP.</li>
+
+           </ul>
+
+           <h6>Please  Note:</h6>
+
+
+
+           <p>For  those who prefer to rent our DVD, it is available at select  Blockbuster stores. Call your local Blockbuster store and ask for  Blockbuster Defensive Driving DVD or Blockbuster <strong>Video  Defensive Driving</strong> to see if it is available.  You will need to pay a $10 rental fee and  will be required to complete the course within Blockbuster’s  timeframe.  Cost of the actual course will be reduced by $10.</p>
+</div>
+</div>
+
+  
+
+ <div class="clear"></div>
+  <br />
+</div>
+
+<!--Content Ends -->
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+ 
+<style>
+.co-footer {width:974px; margin:0 auto;border-top:solid 10px #e3e3e3; margin-bottom:30px;}
+.ids-footer {border-left:solid 1px #515151; border-right:solid 1px #515151; background:#515151;padding:15px 0px; width:972px; }
+.ids-footer .left-col {width:600px; float:left; margin-left:50px;}
+.ids-footer .title {color:#fff;margin-bottom:15px;font-family:verdana; font-size:19px; font-weight:bold;}
+.ids-footer .left-col ul {float:left; margin-left:20px;}
+.ids-footer .left-col ul li {width:140px;margin-bottom:10px;}
+.ids-footer .left-col ul li a {font-size:14px; text-decoration:underline; color:#fff;}
+.ids-footer .left-col ul li a:hover {text-decoration:none;}
+.footer-social-p {float: right;width: 260px;}
+.fo-social-icons {background: url(/images/footer-social-icons.png) no-repeat 4px  top; height: 44px;width: 250px;}
+.fo-social-icons a {display: block;float: left;height: 43px;margin-right: 5px;width: 44px;}
+.copy-rights {background:#8e8e8e; border-radius:0 0 10px 10px; padding:10px 50px;color:#515151; font-size:12px;}
+</style>
+
+
+  <div id="footer" style="display:none;"><p><a href="http://www.takehome.com/" title="Defensive Driving Video">Home</a> | <a href="http://www.takehome.com/how-it-works.html" title="How  it Works">How  it Works</a> | <a href="http://www.takehome.com/support.html" title="Support">Support</a> | <a href="http://www.takehome.com/aboutus.html" title="About Us">About  Us</a> | <a href="http://www.takehome.com/faqs.html"  title="FAQs">FAQs</a> | <a href="http://www.takehome.com/sitemap.html"  title="Site Map">Site  Map</a> | <a href="http://www.takehome.com/links.html" title="Links">Links</a> | <a href="javascript:win_popup('http://www.idrivesafely.com/noChrome/privacy/',600,450);" title="Links">Privacy Policy</a></p>
+  <p> <a href="http://www.takehome.com/florida/dvd-traffic-school.html" title="Florida  DVD Traffic School">Florida  DVD Traffic School</a> | <a href="http://www.takehome.com/indiana/dvd-defensive-driving.html" title="Indiana  DVD Defensive Driving">Indiana  DVD Defensive Driving</a> | <a href="http://www.takehome.com/kentucky/dvd-traffic-school.html" title="Kentucky  DVD Traffic School">Kentucky  DVD Traffic School</a></p>
+  <p><a href="http://www.takehome.com/nevada/dvd-traffic-school.html" title="Nevada  DVD Traffic School">Nevada DVD Traffic School</a> | 
+  <a href="http://www.takehome.com/new-jersey/defensive-driving-dvd-course.html" title="New Jersey Defensive Driving DVD Course">New Jersey Defensive Driving DVD Course</a> |
+  <a href="http://www.takehome.com/new-york/defensive-driving-dvd-course.html" title="New York Defensive Driving DVD Course">New York Defensive Driving DVD Course</a> | <a href="http://www.takehome.com/texas/dvd-defensive-driving.html" title="Texas  DVD Defensive Driving">Texas  DVD Defensive Driving</a></p>
+  <p> <script language="javascript" type="text/javascript">var d = new Date();var curr_year = d.getFullYear();document.write('&copy; '+curr_year+' ');</script>Take Home - <a href="http://www.takehome.com/" title="Defensive Driving Video">Defensive Driving Video</a></p><br />
+<p>Take home, Takehome.com, and TAKE HOME DEFENSIVE DRIVING are registered trademarks of I Drive Safely, LLC</p>
+</div>
+
+<!-- NEW IDS FOOTER -->
+<div class="co-footer">
+<div class="ids-footer">
+<div class="left-col">
+<div class="title">Company Information</div>
+<ul>
+<li><a href="http://www.takehome.com/aboutus.html">About Us</a></li>
+<li><a href="http://www.takehome.com/how-it-works.html">How it Works </a></li>
 </ul>
-</li><li class=" s"><h5 class="ban">us cities</h5><ul class="acitem">
-<li class="s"><a href="http://atlanta.craigslist.org/">atlanta</a>
-<li><a href="http://austin.craigslist.org/">austin</a>
-<li class="s"><a href="http://boston.craigslist.org/">boston</a>
-<li class="s"><a href="http://chicago.craigslist.org/">chicago</a>
-<li><a href="http://dallas.craigslist.org/">dallas</a>
-<li><a href="http://denver.craigslist.org/">denver</a>
-<li class="s"><a href="http://detroit.craigslist.org/">detroit</a>
-<li><a href="http://houston.craigslist.org/">houston</a>
-<li class="s"><a href="http://lasvegas.craigslist.org/">las&nbsp;vegas</a>
-<li class="s"><a href="http://losangeles.craigslist.org/">los&nbsp;angeles</a>
-<li><a href="http://miami.craigslist.org/">miami</a>
-<li><a href="http://minneapolis.craigslist.org/">minneapolis</a>
-<li class="s"><a href="http://newyork.craigslist.org/">new&nbsp;york</a>
-<li><a href="http://orangecounty.craigslist.org/">orange&nbsp;co</a>
-<li class="s"><a href="http://philadelphia.craigslist.org/">philadelphia</a>
-<li><a href="http://phoenix.craigslist.org/">phoenix</a>
-<li class="s"><a href="http://portland.craigslist.org/">portland</a>
-<li><a href="http://raleigh.craigslist.org/">raleigh</a>
-<li><a href="http://sacramento.craigslist.org/">sacramento</a>
-<li><a href="http://sandiego.craigslist.org/">san&nbsp;diego</a>
-<li><a href="http://seattle.craigslist.org/">seattle</a>
-<li class="s"><a href="http://sfbay.craigslist.org/">sf&nbsp;bayarea</a>
-<li><a href="http://washingtondc.craigslist.org/">wash dc</a>
-<li class="s more"><a href="http://geo.craigslist.org/iso/us">more ...</a></li>
+<ul>
+<li><a href="http://www.takehome.com/faqs.html">FAQs</a></li>
+<li><a href="http://www.takehome.com/sitemap.html"> Site Map</a></li>
 </ul>
-</li><li class=""><h5 class="ban">us states</h5><ul class="acitem">
-<li><a href="http://geo.craigslist.org/iso/us/al">alabama</a>
-<li><a href="http://geo.craigslist.org/iso/us/ak">alaska</a>
-<li><a href="http://geo.craigslist.org/iso/us/az">arizona</a>
-<li><a href="http://geo.craigslist.org/iso/us/ar">arkansas</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/ca">california</a>
-<li><a href="http://geo.craigslist.org/iso/us/co">colorado</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/ct">connecticut</a>
-<li><a href="http://geo.craigslist.org/iso/us/dc">dc</a>
-<li><a href="http://geo.craigslist.org/iso/us/de">delaware</a>
-<li><a href="http://geo.craigslist.org/iso/us/fl">florida</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/ga">georgia</a>
-<li><a href="http://micronesia.craigslist.org">guam</a>
-<li><a href="http://geo.craigslist.org/iso/us/hi">hawaii</a>
-<li><a href="http://geo.craigslist.org/iso/us/id">idaho</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/il">illinois</a>
-<li><a href="http://geo.craigslist.org/iso/us/in">indiana</a>
-<li><a href="http://geo.craigslist.org/iso/us/ia">iowa</a>
-<li><a href="http://geo.craigslist.org/iso/us/ks">kansas</a>
-<li><a href="http://geo.craigslist.org/iso/us/ky">kentucky</a>
-<li><a href="http://geo.craigslist.org/iso/us/la">louisiana</a>
-<li><a href="http://geo.craigslist.org/iso/us/me">maine</a>
-<li><a href="http://geo.craigslist.org/iso/us/md">maryland</a>
-<li><a href="http://geo.craigslist.org/iso/us/ma">mass</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/mi">michigan</a>
-<li><a href="http://geo.craigslist.org/iso/us/mn">minnesota</a>
-<li><a href="http://geo.craigslist.org/iso/us/ms">mississippi</a>
-<li><a href="http://geo.craigslist.org/iso/us/mo">missouri</a>
-<li><a href="http://geo.craigslist.org/iso/us/mt">montana</a>
-<li><a href="http://geo.craigslist.org/iso/us/nc">n carolina</a>
-<li><a href="http://geo.craigslist.org/iso/us/ne">nebraska</a>
-<li><a href="http://geo.craigslist.org/iso/us/nv">nevada</a>
-<li><a href="http://geo.craigslist.org/iso/us/nj">new jersey</a>
-<li><a href="http://geo.craigslist.org/iso/us/nm">new mexico</a>
-<li><a href="http://geo.craigslist.org/iso/us/ny">new york</a>
-<li><a href="http://geo.craigslist.org/iso/us/nh">n hampshire</a>
-<li><a href="http://geo.craigslist.org/iso/us/nd">north dakota</a>
-<li><a href="http://geo.craigslist.org/iso/us/oh">ohio</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/ok">oklahoma</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/or">oregon</a>
-<li><a href="http://geo.craigslist.org/iso/us/pa">pennsylvania</a>
-<li><a href="http://geo.craigslist.org/iso/pr">puerto rico</a>
-<li><a href="http://geo.craigslist.org/iso/us/ri">rhode island</a>
-<li><a href="http://geo.craigslist.org/iso/us/sc">s carolina</a>
-<li><a href="http://geo.craigslist.org/iso/us/sd">south dakota</a>
-<li><a href="http://geo.craigslist.org/iso/us/tn">tennessee</a>
-<li><a href="http://geo.craigslist.org/iso/us/tx">texas</a>
-<li><a href="http://geo.craigslist.org/iso/us/ut">utah</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/vt">vermont</a>
-<li><a href="http://geo.craigslist.org/iso/us/va">virginia</a>
-<li><a href="http://geo.craigslist.org/iso/us/wa">washington</a>
-<li><a href="http://geo.craigslist.org/iso/us/wv">west virginia</a>
-<li><a href="http://geo.craigslist.org/iso/us/wi">wisconsin</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/us/wy">wyoming</a>
-<li class="s more"><a href="http://geo.craigslist.org/iso/us">more ...</a></li>
+<ul>
+<li><a href="http://www.takehome.com/support.html">Support</a></li>
+<li><a href="javascript:win_popup('http://www.idrivesafely.com/noChrome/privacy/',600,450);">Privacy Policy</a></li>
 </ul>
-</li><li class=" s"><h5 class="ban">canada</h5><ul class="acitem">
-<li><a href="http://calgary.craigslist.ca">calgary</a>
-<li><a href="http://edmonton.craigslist.ca">edmonton</a>
-<li><a href="http://halifax.craigslist.ca">halifax</a>
-<li class="s"><a href="http://montreal.craigslist.ca">montreal</a>
-<li><a href="http://ottawa.craigslist.ca">ottawa</a>
-<li><a href="http://saskatoon.craigslist.ca">saskatoon</a>
-<li class="s"><a href="http://toronto.craigslist.ca">toronto</a>
-<li><a href="http://vancouver.craigslist.ca">vancouver</a>
-<li><a href="http://victoria.craigslist.ca">victoria</a>
-<li><a href="http://winnipeg.craigslist.ca">winnipeg</a>
-<li class="s more"><a href="http://geo.craigslist.org/iso/ca">more ...</a></li>
-</ul>
-</li><li><h5 class="ban">cl worldwide</h5><ul class="acitem collapsible">
+<div class="clear"></div>
 
-				<li class="cont s">
-					<h5>africa</h5>
-					<ul class="acitem">
-			<li class="s"><a href="http://geo.craigslist.org/iso/eg">egypt</a>
-<li><a href="http://geo.craigslist.org/iso/et">ethiopia</a>
-<li><a href="http://geo.craigslist.org/iso/gh">ghana</a>
-<li><a href="http://geo.craigslist.org/iso/ke">kenya</a>
-<li><a href="http://geo.craigslist.org/iso/ma">morocco</a>
-<li><a href="http://craigslist.co.za">south africa</a>
-<li><a href="http://geo.craigslist.org/iso/tn">tunisia</a>
-</ul></li>
+</div>
+<div class="footer-social-p">
+      <p class="title">Follow Us</p>
+      <div class="fo-social-icons"><a title="Facebook" href="http://www.facebook.com/idrivesafely" target="_blank"></a><a title="youtube" href="http://www.youtube.com/user/idrivesafely" target="_blank"></a><a title="Twitter" href="https://twitter.com/idrivesafely" target="_blank"></a><a title="Google+" href="https://plus.google.com/+idrivesafely/posts" target="_blank"></a><a title="Linkedin" href="http://in.linkedin.com/company/i-drive-safely--" target="_blank"></a></div>
+    </div>
+<div class="clear"></div>
 
-				<li class="cont s">
-					<h5>americas</h5>
-					<ul class="acitem">
-			<li><a href="http://geo.craigslist.org/iso/ar">argentina</a>
-<li><a href="http://geo.craigslist.org/iso/bo">bolivia</a>
-<li class="s"><a href="http://rio.craigslist.org">brazil</a>
-<li><a href="http://www.craigslist.org/about/sites#CA">canada</a>
-<li class="s"><a href="http://caribbean.craigslist.org">caribbean</a>
-<li><a href="http://geo.craigslist.org/iso/cl">chile</a>
-<li><a href="http://geo.craigslist.org/iso/co">colombia</a>
-<li><a href="http://geo.craigslist.org/iso/cr">costa rica</a>
-<li><a href="http://geo.craigslist.org/iso/do">dom republic</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/ec">ecuador</a>
-<li><a href="http://geo.craigslist.org/iso/sv">el salvador</a>
-<li><a href="http://geo.craigslist.org/iso/gt">guatemala</a>
-<li class="s"><a href="http://mexicocity.craigslist.com.mx">mexico</a>
-<li><a href="http://geo.craigslist.org/iso/ni">nicaragua</a>
-<li><a href="http://geo.craigslist.org/iso/pa">panama</a>
-<li class="s"><a href="http://craigslist.com.pe">peru</a>
-<li><a href="http://geo.craigslist.org/iso/pr">puerto rico</a>
-<li><a href="http://www.craigslist.org/about/sites#US">united states</a>
-<li><a href="http://geo.craigslist.org/iso/uy">uruguay</a>
-<li><a href="http://geo.craigslist.org/iso/vi">us virgin islands</a>
-<li><a href="http://geo.craigslist.org/iso/ve">venezuela</a>
-</ul></li>
+      </div>
+<div class="copy-rights">
+        <label><script type="text/javascript">var d = new Date();var curr_year = d.getFullYear();document.write('&copy; 1998 -'+curr_year+' ');</script>
+I Drive Safely, L.L.C. All rights reserved.
+</label>
+      </div>
 
-				<li class="cont s">
-					<h5>asia</h5>
-					<ul class="acitem">
-			<li class="s"><a href="http://geo.craigslist.org/iso/bd">bangladesh</a>
-<li><a href="http://shanghai.craigslist.com.cn">china</a>
-<li><a href="http://craigslist.hk">hong kong</a>
-<li class="s"><a href="http://bangalore.craigslist.co.in">india</a>
-<li><a href="http://geo.craigslist.org/iso/id">indonesia</a>
-<li><a href="http://geo.craigslist.org/iso/ir">iran</a>
-<li><a href="http://geo.craigslist.org/iso/iq">iraq</a>
-<li><a href="http://telaviv.craigslist.org">israel</a>
-<li class="s"><a href="http://tokyo.craigslist.jp">japan</a>
-<li><a href="http://geo.craigslist.org/iso/kw">kuwait</a>
-<li><a href="http://geo.craigslist.org/iso/lb">lebanon</a>
-<li><a href="http://geo.craigslist.org/iso/my">malaysia</a>
-<li><a href="http://geo.craigslist.org/iso/pk">pakistan</a>
-<li><a href="http://manila.craigslist.com.ph">philippines</a>
-<li class="s"><a href="http://moscow.craigslist.org">russia</a>
-<li><a href="http://craigslist.com.sg">singapore</a>
-<li><a href="http://geo.craigslist.org/iso/kr">south korea</a>
-<li class="s"><a href="http://craigslist.com.tw">taiwan</a>
-<li><a href="http://geo.craigslist.org/iso/th">thailand</a>
-<li><a href="http://craigslist.com.tr">turkey</a>
-<li><a href="http://geo.craigslist.org/iso/ae">uae</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/vn">vietnam</a>
-<li><a href="http://geo.craigslist.org/iso/ps">west bank</a>
-</ul></li>
+<div class="clear"></div>
+</div>
 
-				<li class="cont s">
-					<h5>europe</h5>
-					<ul class="acitem">
-			<li><a href="http://craigslist.at">austria</a>
-<li><a href="http://craigslist.be">belgium</a>
-<li><a href="http://geo.craigslist.org/iso/bg">bulgaria</a>
-<li><a href="http://geo.craigslist.org/iso/hr">croatia</a>
-<li><a href="http://geo.craigslist.org/iso/cz">czech republic</a>
-<li><a href="http://craigslist.dk">denmark</a>
-<li><a href="http://craigslist.fi">finland</a>
-<li><a href="http://paris.craigslist.fr">france</a>
-<li><a href="http://berlin.craigslist.de">germany</a>
-<li><a href="http://craigslist.gr">greece</a>
-<li><a href="http://geo.craigslist.org/iso/hu">hungary</a>
-<li><a href="http://geo.craigslist.org/iso/is">iceland</a>
-<li><a href="http://geo.craigslist.org/iso/ie">ireland</a>
-<li class="s"><a href="http://rome.craigslist.it">italy</a>
-<li><a href="http://geo.craigslist.org/iso/lu">luxembourg</a>
-<li><a href="http://geo.craigslist.org/iso/nl">netherlands</a>
-<li class="s"><a href="http://geo.craigslist.org/iso/no">norway</a>
-<li><a href="http://craigslist.pl">poland</a>
-<li class="s"><a href="http://craigslist.pt">portugal</a>
-<li><a href="http://geo.craigslist.org/iso/ro">romania</a>
-<li class="s"><a href="http://moscow.craigslist.org">russia</a>
-<li class="s"><a href="http://madrid.craigslist.es">spain</a>
-<li><a href="http://craigslist.se">sweden</a>
-<li><a href="http://zurich.craigslist.ch">switzerland</a>
-<li><a href="http://craigslist.com.tr">turkey</a>
-<li><a href="http://geo.craigslist.org/iso/ua">ukraine</a>
-<li><a href="http://craigslist.co.uk">united kingdom</a>
-</ul></li>
+<script type="text/javascript" src="http://cdn.takehome.com/scripts/popup.js"></script>
 
-				<li class="cont s">
-					<h5>middle east</h5>
-					<ul class="acitem">
-			<li class="s"><a href="http://geo.craigslist.org/iso/eg">egypt</a>
-<li><a href="http://geo.craigslist.org/iso/iq">iraq</a>
-<li><a href="http://telaviv.craigslist.org">israel</a>
-<li><a href="http://geo.craigslist.org/iso/kw">kuwait</a>
-<li><a href="http://geo.craigslist.org/iso/lb">lebanon</a>
-<li><a href="http://craigslist.com.tr">turkey</a>
-<li><a href="http://geo.craigslist.org/iso/ae">uae</a>
-<li><a href="http://geo.craigslist.org/iso/ps">west bank</a>
-</ul></li>
+</div>
 
-				<li class="cont s">
-					<h5>oceania</h5>
-					<ul class="acitem">
-			<li><a href="http://sydney.craigslist.com.au">australia</a>
-<li><a href="http://geo.craigslist.org/iso/gu">guam</a>
-<li><a href="http://auckland.craigslist.org">new zealand</a>
-<li><a href="http://manila.craigslist.com.ph">philippines</a>
-</ul></li>
-</ul>
-</li>
-		</ul>
-		<br>
-		<p class="more">
-			<a href="http://www.craigslist.org/about/sites"><em>more...</em></a>
-		</p>
-	
-			</td>
-
-		</tr>
-	</table>
-	</section>
-
-	<footer>
-	
-	<ul class="clfooter">
-		<li>&copy; 2014 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
-		<li><a href="//www.craigslist.org/about/help/">help</a></li>
-		<li><a href="//www.craigslist.org/about/scams">safety</a></li>
-		<li class="desktop"><a href="//www.craigslist.org/about/privacy.policy">privacy</a></li>
-		<li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
-		<li class="desktop"><a href="//www.craigslist.org/about/craigslist_is_hiring">cl jobs</a></li>
-		<li><a href="//www.craigslist.org/about/terms.of.use">terms</a></li>
-		<li><a href="//www.craigslist.org/about/">about</a></li>
-		<li class="fsel desktop" data-mode="mobile"><a href="#">mobile</a></li>
-		<li class="fsel mobile" data-mode="regular"><a href="#">desktop</a></li>
-	</ul>
-</footer>
-</article>
-
-        <script type="text/javascript"><!--
-            var allText = "all";
-
-        --></script>
-    
-<script  src="//www.craigslist.org/js/general-concat.min.js?v=d39fb6755b9061ba2033897f66337306" type="text/javascript" ></script>
-<script type="text/javascript"><!--
-        var iframe = document.createElement('iframe');
-        iframe.style.display = 'none';
-        iframe.src = '//www.' + CL.url.baseDomain + '/static/localstorage.html?v=df3e26b8dc7dec459e3415594e32b1a3';
-        document.body.insertBefore(iframe, null);
-    --></script>
-<script  src="//www.craigslist.org/js/homepage.min.js?v=fd3d555f72f04ee52664eaac5a6ddca9" type="text/javascript" ></script>
+</script>
 </body>
 </html>

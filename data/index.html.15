@@ -1,145 +1,280 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Omniglot - the online encyclopedia of writing systems and languages</title>
-<meta charset="UTF-8">
-<meta name="description" content="A guide to alphabets and languages, with useful foreign phrases, tips on learning languages, language-related links, multilingual texts, and much more." />
-<meta name="keywords" content="writing systems written language abjads abuguida alphabet syllabary syllabaries syllabics script glyph encoding multilingual hieroglyphs cuneiform rune accent diacritic unicode character chinese kanji hanzi hanja letter symbol foreign font phrase translation learning" />
-<meta name="author" content="Simon Ager" />
-<meta name="dcterms.rightsHolder" content="Simon Ager">
-<meta name="dcterms.dateCopyrighted" content="1998-2014">
-<meta name="robots" content="all" />
-<meta name="verify-v1" content="cejfTn0YXFcpYIF6JuzyUteTyNRv4s4aS5x3VCjUArg=" />
-<meta name="alexaVerifyID" content="wKIsOEDpxF2wpUUvoe5aASy3-t8" />
-<link href="styles/medium.css" rel="stylesheet" type="text/css" />
-<link href="styles/home.css" rel="stylesheet" type="text/css" />
-<link href="styles/adstyles.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<script type="text/javaScript" src="scripts/various.js"></script>
-<script type="text/javascript" src="scripts/imageswap.js"></script>
-</head>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 
-<body>
-<div id="header"><h1><a href="logo.htm"><img src="images/logos/header_logo.gif" width="70" height="70" alt="Omniglot" /></a><img src="images/logos/header_text.gif" width="630" height="70" alt="Omniglot - the online encyclopedia of writing systems &amp; languages" /></h1></div>
-<div id="bodybox">
-<div id="homebox">
-<div id="scroll">
-<p><a href="scroll.htm">
-<script type="text/javascript">
-<!--
- document.write('<img src="'+scroll[choice]+'" width="208" height="248" alt="a selection of glyphs from various writing systems" title="a selection of glyphs from a variety of writing systems - click here to find out more" />');
-// -->
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title> ImprovEdge</title>
+
+<link rel="pingback" href="http://www.improvedge.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://www.improvedge.com/wp-content/themes/ImprovEdge/images/favicon.png" />
+<!--[if IE 6]>
+<style type="text/css" media="screen">
+	p.launch-party img {
+	left: -40px
+	}
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<style type="text/css" media="screen">
+	.we-offer li {
+	background-color: #cee4ed;
+	}
+	.rss-icon {
+	margin-top:-20px;
+	}
+</style>
+<![endif]-->
+<link rel="stylesheet" href="http://www.improvedge.com/wp-content/themes/ImprovEdge/js/jquery.qtip.css" type="text/css" media="screen" charset="utf-8">
+
+<link rel="alternate" type="application/rss+xml" title="ImprovEdge &raquo; Feed" href="http://www.improvedge.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ImprovEdge &raquo; Comments Feed" href="http://www.improvedge.com/comments/feed/" />
+<link rel='stylesheet' id='dws_bootstrap-css'  href='http://www.improvedge.com/wp-content/plugins/dw-shortcodes-bootstrap/assets/css/bootstrap.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dws_shortcodes-css'  href='http://www.improvedge.com/wp-content/plugins/dw-shortcodes-bootstrap/assets/css/shortcodes.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ot-book-styles-css'  href='http://www.improvedge.com/wp-content/plugins/mybooks-for-authors/css/ot-book-styles.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='imprint_styles-css'  href='http://www.improvedge.com/wp-content/themes/imprint/style.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='imprint_bootstrap-css'  href='http://www.improvedge.com/wp-content/themes/imprint/css/bootstrap.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='imprint_comments-css'  href='http://www.improvedge.com/wp-content/themes/imprint/css/comments.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='imprint_bootstrap_responsive-css'  href='http://www.improvedge.com/wp-content/themes/imprint/css/responsive.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='Annivers-css'  href='http://www.improvedge.com/wp-content/themes/ImprovEdge/css/Annivers.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='MainStyles-css'  href='http://www.improvedge.com/wp-content/themes/ImprovEdge/style.css?v325&#038;ver=1.151' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.improvedge.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.improvedge.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.improvedge.com/wp-content/plugins/dw-shortcodes-bootstrap/assets/js/bootstrap.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://www.improvedge.com/deno/wp-content/uploads/jw-player-plugin-for-wordpress/player/jwplayer.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://www.improvedge.com/wp-content/plugins/mybooks-for-authors/js/ot-setup.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://www.improvedge.com/wp-content/plugins/mybooks-for-authors/js/jquery.cycle.all.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://www.improvedge.com/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://www.improvedge.com/wp-content/themes/ImprovEdge/js/setup.js?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.improvedge.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.improvedge.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Karen Hough' href='http://www.improvedge.com/ensemble/karen-hough/' />
+<link rel='next' title='Yes! Deck' href='http://www.improvedge.com/yes-deck/yes-deck/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://www.improvedge.com/' />
+<link rel='shortlink' href='http://www.improvedge.com/?p=1' />
+<script charset="utf-8" type="text/javascript">var switchTo5x=true;</script><script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'f0c2ce52-c666-47a8-9c46-ffd24e3c790a'});var st_type='wordpress3.3.2';</script><script type="text/javascript" src="http://www.improvedge.com/wp-content/plugins/zd-youtube-flv-player/js/swfobject.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><style type="text/css" media="screen">
+	#wp-admin-bar-robots-alert a {
+	    color: #CCA300 !important;
+	    text-transform: uppercase;
+	    text-shadow: 1px 1px 0 #000;
+	}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><script type="text/javascript" charset="utf-8" src="http://www.improvedge.com/wp-content/themes/ImprovEdge/js/cufon.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://www.improvedge.com/wp-content/themes/ImprovEdge/js/Anivers_400.fontopen.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://www.improvedge.com/wp-content/themes/ImprovEdge/js/jq-clearonfocus.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://www.improvedge.com/wp-content/themes/ImprovEdge/js/jquery.qtip.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://www.improvedge.com/wp-content/themes/ImprovEdge/js/jquery.innerfade.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		jQuery(document).ready(function() {
+		jQuery('.testimonials').innerfade({containerheight: 250, timeout: 7500});	
+	});
 </script>
-</a></p>
-</div>
-<p><a href="news/index.htm" style="color: green;" title="New material appears on Omniglot every week - see the latest additions here"><strong>What's new?</strong></a> 
-</p>
-<p><a href="writing/definition.htm" title="Definitions of writing and descriptions of different types of writing systems"><strong>Alphabets and other writing systems</strong></a><br />
- <a href="writing/writingvspeech.htm" title="Differences between writing and speech">Writing &amp; Speech</a> | 
- <a href="writing/types.htm" title="Types of writing systems">Types of writing systems</a> | 
- <a href="writing/alphabetic.htm" title="Writing systems with symbols for consonants with limited/optional vowel indication">Abjads</a> | 
- <a href="writing/alphabets.htm" title="Writing systems with symbols for consonants and vowels |  a.k.a. Phonemic alphabets">Alphabets</a> | 
- <a href="writing/syllabic.htm" title="Writing systems with consonants with an inherent vowel that is changed with diacritics">Alphasyllabaries</a> | 
- <a href="writing/syllabaries.htm" title="Writing systems with symbols that represent syllables">Syllabaries</a> | 
- <a href="writing/semanto-phonetic.php" title="Semanto-phonetic writing systems such as Chinese and Egyptian Hieroglyphs">Semanto-phonetic scripts</a> | 
- <a href="writing/undeciphered.htm" title="Writing systems that have resisted all efforts to decipher them">Undeciphered scripts</a> | 
- <a href="writing/alternative.htm" title="Alternative spelling systems, Phonetic alphabets, other notation systems, language-based communication systems and magical alphabets">Alternative scripts</a> | 
- <a href="writing/index.htm" title="An alphabetic index of all the writing systems and languages featured on Omniglot">A-Z index</a> |  
- <a href="writing/direction.htm" title="An index of the writing systems by writing direction">Direction index</a>
-</p>
-<p><a href="writing/languages.htm" title="Details of over 570 languages"><strong>Languages</strong></a><br />
- <a href="language/index.htm" title="Advice on learning languages, including grammar, pronunciation and writing systems.">Language learning advice</a> |  
- <a href="language/articles/index.htm" title="Articles about writing systems |  language |  translation and related topics">Articles</a> | 
- <a href="language/celtic/index.php" title="A comparison of the vocabulary and grammar of the Celtic languages">Celtic languages</a> | 
- <a href="chinese/index.htm" title="Information about Sinitic (Chinese) languages)">Chinese</a> | 
- <a href="language/french/index.htm" title="Details of various aspect of French grammar (in French)">French</a> | 
- <a href="writing/languages.htm" title="An alphabetic index of all the languages featured on Omniglot">A-Z index</a> | 
- <a href="writing/langalph.htm" title="An index of languages arranged by the writing systems with which they are written">Index by writing system</a> | 
- <a href="language/videos/index.htm" title="Free video language lessons in Mandarin, Modern and Biblical Hebrew">Videos</a> | 
- <!-- <a href="/language-learning/">Language learning software</a> |  -->
- <a href="http://aff.eteachergroup.com/aw.aspx?B=14&amp;A=201&amp;Task=Click" target="_Top" style="color: #004747;">Learn Hebrew online</a><img src="http://aff.eteachergroup.com/aw.aspx?B=14&amp;A=201&amp;Task=Get" width="1" height="1" alt="Learn Hebrew online" />
-</p>
-<p><a href="language/ml.htm"><strong>Multilingual pages</strong></a><br />
- <a href="language/phrases/index.htm" title="Useful phrases in many different languages with recordings for some of them">Phrases</a> | 
- <a href="language/numbers/index.htm" title="Numbers in many different scripts">Numbers</a> | 
- <a href="language/colours/index.php" title="Colours in many different languages">Colours</a> | 
- <a href="language/time/index.htm" title="Phrases for telling the time, and for days, months and seasons">Time expressions</a> | 
- <a href="language/kinship/index.htm" title="Words for family members in a number of different languages">Kinship terms</a> |  
- <a href="language/names.htm" title="Language names in their own scripts and languages">Language names</a> | 
- <a href="countries/index.htm" title="Country names in native languages">Country names</a> | 
- <a href="language/idioms/index.php" title="Idioms in many different languages">Idioms</a> | 
- <a href="language/proverbs/index.htm" title="Proverbs and sayings in various languages">Proverbs</a> | 
- <a href="language/tonguetwisters/index.htm" title="Tongue twisters in various languages">Tongue twisters</a> | 
- <a href="language/signs/index.htm" title="A collection of signs in various languages">Signs</a> |  
- <a href="udhr/index.htm" title="Article 1 of the Universal Declaration of Human Rights in many languages">UDHR</a> | 
- <a href="babel/index.htm" title="Tower of Babel story in many languages">Tower of Babel</a> | 
- <a href="songs/index.php" title="A selection of songs in a number of languages">Songs</a>
-</p>
-<p><a href="conscripts/index.htm" title="Writing systems invented by visitors to Omniglot"><strong>Constructed scripts &amp; languages</strong></a><br />
- <a href="conscripts/natlangs.htm" title="Writing systems invented for various natural languages">For natural languages</a> | 
- <a href="conscripts/conlangs.htm" title="Writing systems invented for various constructed languages">For conlangs</a>  | 
- <a href="conscripts/natlangs.htm#phonetic" title="Writing systems designed to write any language">Phonetic scripts</a> | 
- <a href="conscripts/adaptations.htm" title="Ways of writing languages with using alphabets other than their usual ones">Adapted scripts</a> | 
- <a href="conscripts/fictional.htm" title="Invented alphabets used in books, films, computer games, etc.">Fictional scripts</a>
-</p>
-<p><a href="#"><strong>My other sites</strong></a><br />
- <a href="http://www.omniglot.com/blog/" title="My musings mainly about language and related subjects">Blog</a> |
- <a href="http://www.omniglot.com/forum/" title="The place to discuss language and related subjects">Forum</a> | 
- <a href="https://www.facebook.com/groups/omniglot/" title="Join the Omniglot Fan Club on Facebook">Facebook</a> | 
- <a href="https://twitter.com/Omniglossia">Twitter</a> | 
- <a href="https://plus.google.com/+SimonAger">Google+</a> | 
- <a href="http://www.youtube.com/user/omniglot" title="Short animations in a variety of languages">YouTube</a> | 
- <a href="https://soundcloud.com/simon-ager" title="Recordings of songs I've written">Sound Cloud</a> | 
- <a href="http://www.flickr.com/photos/omniglot" title="Some of my photos">Flickr</a> | 
- <a href="http://www.omniglot.com/rywsut/" title="My blog on which I write about my life in languages I'm learning">Multilingual Musings</a>
-</p>
-</div>
-<p class="chinese"><a href="http://www.leafcutterstudios.com/xproject/omniglot-chinese">Learn Chinese Characters with the Omniglot Chinese app</a><br />
- Learn french for free with <a href="http://365jourspourapprendre.fr/">365jourspourapprendre</a> now
-</p>
-<div id="footer">
-<p><a href="books/index.htm" title="Language courses, dictionaries and other language learning materials">Book store</a> | 
- <a href="faqs.htm" title="Frequently Asked Questions">FAQs</a> |
- <a href="puzzles.htm" title="Questions about writing systems and languages sent in by visitors to Omniglot">Puzzles</a> |
- <a href="gallery/index.htm" title="Gallery of writing and language-related art">Gallery</a> | <a href="search.htm">Search</a> | 
- <a href="sitemap.htm" title="A overview of the wonderful language-related material availble on Omniglot">Sitemap</a> | 
- <a href="links/index.htm" title="A large collection of links to writing and language-related sites">Links</a> |
- <a href="bibliography.htm" title="List of the books used as sources of information for Omniglot">Bibliography</a> |
- <a href="about.htm">About</a> |
- <a href="contact.htm">Contact</a>
-</p>
-</div>
-<p class="copyright"><a href="copyright.htm">Copyright</a> 1998-<script type="text/javascript">document.write(today);</script>
- <a href="aboutme.htm">Simon Ager</a>
-</p>
-<p class="copyright"><em><a href="http://my.kualo.com/uk/go/00572" target="_blank">Hosted by Kualo</a></em>
-</p>
-<div id="paidlinks">
-<div class="col1">
-<p><a href="http://www.greatmindslearn.com/arabic-language-course/">Learn Arabic from Anywhere</a><br />
- <a href="http://www.knok.com/home.php?p=omni">Home Swap</a>
-</p>
-</div>
-<div class="col2">
-<p><a href="http://www.babylon.com/welcome/index.html?affID=110590" target="_blank">Babylon translations</a><br /> 
- <a href="http://www.blitanslations.com">Translation Services</a><br />
- <a href="http://gts-translation.com">Medical translation services</a><br /> 
- <a href="http://www.freetranslations.org/">Free translation</a><br />
- <a href="http://www.bestlanguageservices.com">Translation services agency</a></p>
-</div>
-<div class="col3">
-<p><a href="language/articles/italianinrome.htm">Learn Italian in Rome</a> <br />
- <a href="language/articles/englishinnewyork.htm">Learn English in New York</a><br /> 
- <a href="language/articles/frenchinparis.htm">Learn French in Paris</a>
-</p>
-</div>
-</div>
-</div>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-2367787-1";
-urchinTracker();
-</script>
+</head>
+<body class="home page page-id-1 page-template page-template-page-home-php">
+<div class="header-wrap home">
+	<div class="navbar navbar-static-top">
+		<div class="nav-wrap">
+			<div class="navbar-inner">
+				<div class="header container">
+											<h1 class="logo">
+							<a href="http://www.improvedge.com">ImprovEdge</a>
+						</h1>
+										<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						Menu
+					</a>
+					<div class="nav-collapse">
+						<ul id="menu-top-navigation" class="nav"><li id="menu-item-1287" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1 current_page_item active active"><a href="http://www.improvedge.com/">Home</a></li>
+<li id="menu-item-1286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown"><a href="http://www.improvedge.com/ensemble/" class="dropdown-hover nav-dropdown">About <b class="caret"></b></a>
+<ul class="dropdown-menu menu-odd  menu-depth-1" role="menu" aria-labelledby="dropdownMenu">
+	<li id="menu-item-1282" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.improvedge.com/ensemble/karen-hough/">About Karen Hough</a></li>
+</ul>
+</li>
+<li id="menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.improvedge.com/resources/">Resources</a></li>
+<li id="menu-item-1285" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.improvedge.com/why/">Services</a></li>
+<li id="menu-item-1284" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.improvedge.com/yes-deck/">Products</a></li>
+<li id="menu-item-1289" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.improvedge.com/clients/">Clients</a></li>
+<li id="menu-item-1279" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.improvedge.com/our-blog/">News &#038; Events</a></li>
+<li id="menu-item-1288" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.improvedge.com/contact/">Contact</a></li>
+</ul>									<div class="social">
+				<a class="karenhough" rel="me" href="http://twitter.com/karenhough" alt="Connect with Karen Hough on Twitter"><i class="icon-twitter"></i> <span class="is_desc_text">Twitter</span></a><a class="http://www.facebook.com/pages/ImprovEdge/160264367901" rel="me" href="http://www.facebook.com/pages/ImprovEdge/160264367901" alt="Connect with Karen Hough on Facebook"><i class="icon-facebook"></i> <span class="is_desc_text">Facebook</span></a><a class="http://www.linkedin.com/in/karenhoughimprov" rel="me" href="http://www.linkedin.com/in/karenhoughimprov" alt="Connect with Karen Hough on Linkedin"><i class="icon-linkedin"></i> <span class="is_desc_text">Linkedin</span></a><a class="youtube" rel="me" href="http://www.youtube.com/user/ImprovEdgeVideo"><i class="icon-youtube"></i> <span class="is_desc_text">Youtube</span></a>			</div>
+							</div>
+					<div class="clr" ></div>
+				</div><!--end header -->	
+			</div><!--end navbar-inner -->
+		</div><!--end nav-wrap -->
+	</div><!--end navbar -->
+			<div class="home-info container">
+			<div class="row">
+				<div class="span6">
+					<p class='tagline'>
+						Everyone improvises. <br>
+<span class="lblue">Do it well and win at work.</span><br>
+We teach you how.					</p>
+											<div class="small-hr"></div>	
+												<img width="178" height="282" src="http://www.improvedge.com/deno/wp-content/uploads/best-bad-presenter-178x282.png" class="alignright small-book-thumb wp-post-image" alt="best-bad-presenter" />						<p class="tagline book_title ta-left">
+							<a href="http://www.improvedge.com/books/be-the-best-bad-presenter-ever/">Be the Best Bad Presenter Ever<span class="book_subtitle">Break the Rules, Make Mistakes, and Win Them Over</span></a><br>Coming May 2014
+						</p>
+						<p class="ta-right">
+							<a class="btn btn-large btn-dark" href="http://www.improvedge.com/books/be-the-best-bad-presenter-ever/">Learn more ></a>
+						</p>
+					
+				</div><!--end span6 -->
+				<div class="span6">
+					<div class="right-side">
+		                <iframe class="resizethis" width="450" height="252" src="//www.youtube.com/embed/-41aaO47L5M?showinfo=0&rel=0&theme=light" frameborder="0" allowfullscreen></iframe>
+					</div><!--END right-side-->
+				</div><!--end span6 -->
+				<div class="clr"></div>
+			</div><!--end row -->
+		</div><!--END home-info-->
+				<div class="newsletter-wrap form-inline nl-signup">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+							<p>Subscribe now and download 6 free improv exercises to help you win at work!</p>
+							<form accept-charset="UTF-8" action="https://dl112.infusionsoft.com/app/form/process/6639b0436864746dc0a840695a36df67" class="infusion-form" method="POST">
+	<input name="inf_form_xid" type="hidden" value="6639b0436864746dc0a840695a36df67" />
+	<input name="inf_form_name" type="hidden" value="Sign up for newsletter" />
+	<input name="infusionsoft_version" type="hidden" value="1.29.8.42" />
+	<input class="infusion-field-input-container" id="inf_field_FirstName" value="first name" name="inf_field_FirstName" type="text" />
+        <input class="infusion-field-input-container" id="inf_field_LastName" value="last name"  name="inf_field_LastName" type="text">
+	<input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" value="your email" />
+	<input class="btn btn-yellow" type="submit" value="Subscribe" />
+</form>					</div><!--end span12 -->
+				</div><!--end row -->
+			</div><!--end container -->
+		</div><!--end newsletter-wrap form-inline -->
+		<div class="top-line"></div>
+</div><!--END header-wrap--><div class="pagewrapper home">
+	<div class="container content">
+		<div class="row">
+			<div class="two-blocks">
+				<div class="span6 services">
+					<h3 class="annivers">Learn how we can help your company with leadership, team building, and negotiation.</h3>
+					<p>
+						<a href="/why" class="btn btn-large">Our Services ></a>
+					</p>
+				</div><!--end span6 -->
+				<div class="span6 clients border-left">
+					<p>
+						<img src="http://www.improvedge.com/wp-content/themes/ImprovEdge/images/homepage-logos.png" alt="" title="" />
+					</p>
+					<p>
+						<a href="/clients" class="btn btn-large btn-block">More Clients, Case Studies, and Testimonials ></a>
+					</p>
+				</div><!--end span6 -->
+			</div><!--end two-blocks -->
+			<div class="clr span12 hr-blue"></div>
+											<div class="span9 centered featured-book">
+					<div class="row">
+						<div class="span2 book widget">
+							<img width="178" height="282" src="http://www.improvedge.com/deno/wp-content/uploads/best-bad-presenter-178x282.png" class="attachment-book-thumb wp-post-image" alt="best-bad-presenter" />						</div><!--end span2 -->
+						<div class="span7 home-book-content">
+							<h2 class="book_title">
+								<a href="http://www.improvedge.com/books/be-the-best-bad-presenter-ever/">Be the Best Bad Presenter Ever<span class="book_subtitle">Break the Rules, Make Mistakes, and Win Them Over</span></a>
+							</h2>
+							<p>
+								<p>If presentations really didn’t matter, we’d all just send memos. There are a million ways to share information out there, but the more we digitize, the more we long for human connection. By following Karen Hough’s wise and witty advice, you’ll avoid being one more robot behind a podium and be freed to be a living, breathing, occasionally clumsy real person whose passion is powerful and infectious.</p>
+							</p>
+							<p>
+								<a class="btn btn-large" href="http://www.improvedge.com/books/be-the-best-bad-presenter-ever/">Learn more about the book ></a>
+							</p>
+						</div><!--end span5 -->
+					</div><!--END row-->
+				</div><!--end span8 featured-book -->
+				<div class="clr span12 hr-blue"></div>
+						
+			<div class="news-events">
+				<div class="span12 ta-center">
+					<h2>News &#038; Events</h2>
+				</div><!-- END span12 -->
+								<div class="span4 ta-center">
+					<p class="date">
+													April 15</p>
+											<h3 class="post-title"><a href="http://www.improvedge.com/2014/04/improvedge-ceo-and-founder-karen-hough-featured-speaker-at-2014-astd-international-conference-and-exposition/">ImprovEdge CEO and Founder Karen Hough featured speaker at 2014 ASTD International Conference and Exposition</a></h3>
+					<p>
+						<a class="btn btn-large" href="http://www.improvedge.com/2014/04/improvedge-ceo-and-founder-karen-hough-featured-speaker-at-2014-astd-international-conference-and-exposition/">Read More ></a>
+					</p>
+				</div><!-- END span4 -->
+								<div class="span4 ta-center">
+					<p class="date">
+													March 19</p>
+											<h3 class="post-title"><a href="http://www.improvedge.com/2014/03/the-key-to-speaking-with-confidence-by-karen-hough-featured-on-inc-com/">The Key to Speaking With Confidence by Karen Hough, featured on Inc.com</a></h3>
+					<p>
+						<a class="btn btn-large" href="http://www.improvedge.com/2014/03/the-key-to-speaking-with-confidence-by-karen-hough-featured-on-inc-com/">Read More ></a>
+					</p>
+				</div><!-- END span4 -->
+								<div class="span4 ta-center">
+					<p class="date">
+													February 7</p>
+											<h3 class="post-title"><a href="http://www.improvedge.com/2014/02/professional-presence-impact-presentation-skills-class-april-30-2014/">Professional Presence: Impact &#038; Presentation Skills class- April 30, 2014</a></h3>
+					<p>
+						<a class="btn btn-large" href="http://www.improvedge.com/2014/02/professional-presence-impact-presentation-skills-class-april-30-2014/">Read More ></a>
+					</p>
+				</div><!-- END span4 -->
+											</div><!--end news-events -->
+
+			<div class="clr span12 hr-blue"></div>
+			<div class="span8 twitter-follow ta-center">
+				<h2 class="follow"><a href="karenhough"><i class="icon-twitter"></i> Follow our CEO Karen Hough on Twitter</a></h2>
+				<a class="twitter-timeline" href="https://twitter.com/KarenHough" data-tweet-limit="1" data-widget-id="388757819861643265" data-chrome="noheader nofooter">Tweets by @KarenHough</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div><!--end span8 twitter-follow -->
+
+			<div class="testimonials span12">
+									<p class="testimonial" >
+						&ldquo;Karen Hough does an amazing job of explaining how to translate the energy and creativity of an improv troupe from the stage to the work- place. The result is a set of concise keys that will help build trust and promote collaboration and teamwork within a business environment. The impact is both practical and powerful, not to mention fun.&rdquo;
+						<span class="source">&ndash;Jerry Stritzke, President and Chief Operating Officer, Coach</span>
+					</p>
+									<p class="testimonial" style="display:none;">
+						&ldquo;Improvisation isn’t just key to the comedy business—it can be a key to any business. Karen brings classic improv principles to the world of business with great intelligence and humor. Should you read her book? Yes, and...&rdquo;
+						<span class="source">&ndash;Steve Bodow, Co-Executive Producer and former head writer, The Daily Show with Jon Stewart, and seven-time Emmy Award winner</span>
+					</p>
+									<p class="testimonial" style="display:none;">
+						&ldquo;We LOVED Karen’s workshop at the HBA.  I have participated in Improv workshops before and this was exceptional!&rdquo;
+						<span class="source">&ndash;Marie E. Sanchirico, PhD, Medical Managed Care Director, Medical Affairs - MS Franchise, Genzyme Corporation</span>
+					</p>
+									<p class="testimonial" style="display:none;">
+						&ldquo;I really enjoyed the workshop. It’s not often training results in the sort of instant improvement I saw in myself and my colleagues.&rdquo;
+						<span class="source">&ndash;Open Innovation Manager, Global Scientific Organization</span>
+					</p>
+									<p class="testimonial" style="display:none;">
+						&ldquo;I was amazed at the high levels of trust and familiarity that were built in such a short time! When I first sat down, I was nervous and wondering, ‘What are we getting into?’ Within less than a half-hour, my worry was gone, the entire group was engaged and we came further in skills and development in one day than I ever could have imagined.&rdquo;
+						<span class="source">&ndash;Eric Hardgrove, Director of Corporate Communication, Nationwide</span>
+					</p>
+									<p class="testimonial" style="display:none;">
+						&ldquo;This is not your ordinary business book! It’s brilliant, cutting-edge, and highly entertaining. If you’re looking for a fresh approach to succeeding at work, Karen Hough reveals secrets from the world of improvisation that are worth a million!&rdquo;
+						<span class="source">&ndash;Barbara Stanny, bestselling author of Secrets of Six-Figure Women</span>
+					</p>
+							</div><!--END testimonials-->
+		</div><!--end row -->
+	</div><!--end container -->
+
+	<div class="clr"></div>
+</div><!--END pagewrapper-->
+<div class="navbar navbar-static-top footer">
+	<div class="navbar-inner">
+		<div class="container">
+			<p class="pull-left legal">
+				All Content &copy; 2014 ImprovEdge			</p>
+			<p class="credits pull-right">site by <a href="http://outthinkgroup.com">Out:think Group</a></p>
+		</div>
+	  </div>
+	</div>
+	<script type="text/javascript">
+	  (function() {
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    po.src = 'https://apis.google.com/js/plusone.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+	<script src="http://www.improvedge.com/wp-content/themes/imprint/js/setup.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>	
+		<script type='text/javascript' src='http://www.improvedge.com/wp-content/themes/imprint/js/bootstrap.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.improvedge.com/wp-content/themes/imprint/js/setup.js?ver=1.0'></script>
 </body>
 </html>

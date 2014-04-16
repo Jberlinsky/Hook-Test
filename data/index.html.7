@@ -1,510 +1,1295 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://www.facebook.com/2010/fbml"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:d="http://dictionary.com/2011/dml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta name="viewport" content="width= device-width, maximum-scale=1"/>
-<meta name="HandheldFriendly" content="true"/>
-<meta name="description" content="Free foreign exchange rates and tools including a currency conversion calculator, historical rates and graphs, and a monthly exchange rate average."/>
-<meta name="keywords" content="exchange rates, currency, currencies, currency exchange rates, cambios, graphs, conversion, convertion, charts, historical, historic, international, foreign, monetary, tables, valuta, divisa, dollaro, cambio, divise, fx, dollar, travel"/>
-<link rel="canonical" href="http://www.x-rates.com/"/>
-<script type='text/javascript'>
-var e9AdSlots = {
-home_lb : {site:'ExchangeRates', adSpace:'Homepage', size:'728x90,468x60', noAd: '1'},
-home_rs : {site:'ExchangeRates', adSpace:'Homepage', size:'300x250,300x600,160x600', noAd: '1'}
-};
-</script>	<link rel='stylesheet' href='/themes/bootstrap/t_css/homepage.a.css' type='text/css' /><script src='/themes/bootstrap/t_js/homepage.5.js' type='text/javascript'></script><script src='http://a.tribalfusion.com/real/tags/exchangerates/universal/tags.js' type='text/javascript'></script>	<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-851277-2']);
-_gaq.push(['_trackPageview']);
-_gaq.push(['_trackPageLoadTime']);
-(function() {
-var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;
-ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
-var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);
-})();
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <link rel="dns-prefetch" href="//edge.quantserve.com">
+    <link rel="dns-prefetch" href="//ad.doubleclick.net">
+    <link rel="dns-prefetch" href="https://accounts.google.com">
+    <link rel="dns-prefetch" href="https://lh4.googleusercontent.com">
+    <link rel="dns-prefetch" href="https://ssl.gstatic.com">
+    <link rel="dns-prefetch" href="//pixel.quantserve.com">
+    <link rel="dns-prefetch" href="https://oauth.googleusercontent.com">
+    <link rel="dns-prefetch" href="//secure-us.imrworldwide.com">
+    <link rel="dns-prefetch" href="//cdn.beanstock.com">
+    <link rel="dns-prefetch" href="//p.twitter.com">
+    <link rel="dns-prefetch" href="//cdn.api.twitter.com">
+    <link rel="dns-prefetch" href="//b.scorecardresearch.com">
+    <link rel="dns-prefetch" href="//spanids.thesaurus.com">
+    <link rel="dns-prefetch" href="//rt.legolas-media.com">
+    <link rel="dns-prefetch" href="//connect.facebook.net">
+    <link rel="dns-prefetch" href="//www.googletagservices.com">
+    <link rel="dns-prefetch" href="//ad.yieldmanager.com">
+    <link rel="dns-prefetch" href="//as.casalemedia.com">
+    <link rel="dns-prefetch" href="//partner.googleadservices.com">
+    <link rel="dns-prefetch" href="//static.ak.facebook.com">
+    <link rel="dns-prefetch" href="https://s-static.ak.facebook.com">
+    <link rel="dns-prefetch" href="//ib.adnxs.com">
+    <link rel="dns-prefetch" href="//tag.bstk.co">
+    <link rel="dns-prefetch" href="//u.openx.net">
+    <link rel="dns-prefetch" href="//pubads.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//helix.beanstock.co">
+    <link rel="dns-prefetch" href="//c.betrad.com">
+    <link rel="dns-prefetch" href="//cm.g.doubleclick.net">
+    <link rel="dns-prefetch" href="//l.betrad.com">
+    <link rel="dns-prefetch" href="//l.betrad.com">
+    <link rel="dns-prefetch" href="//static.dictionary.com">
+    <link rel="dns-prefetch" href="//static.sfdict.com">
+    <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="dns-prefetch" href="//apis.google.com">
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <script type="text/javascript">
+    var UrlHelper = function() {
+        var COOKIE_DOMAIN_THESAURUS     = '.thesaurus.com';
+        var COOKIE_DOMAIN_DICTIONARY    = '.dictionary.com';
+        var COOKIE_DOMAIN_REFERENCE     = '.reference.com';
+
+        var domain = null;
+        var currentURL = null;
+        var spanidsUrl = null;
+
+        function getSpanidsUrl(bid, sid, currentDomain) {
+            var url     = 'http://';
+            var source  = '';
+
+            if(currentDomain == COOKIE_DOMAIN_DICTIONARY) {
+                url += 'spanids.reference.com/?';
+                source = 'd';
+            } else if (currentDomain == COOKIE_DOMAIN_REFERENCE){
+                url += 'spanids.dictionary.com/?';
+                source = 'r';
+            } else {
+                url += 'spanids.dictionary.com/?';
+                source = 't';
+            }
+
+            url += 'bid=' + bid + '&asid=' + sid + '&bidnew=1&asidnew=1&source=' + source + '&site=app';
+
+
+            return url;
+        }
+
+        function getCurrentDomain() {
+            var host = window.location.host;
+            var value = "";
+            if(host.indexOf(COOKIE_DOMAIN_THESAURUS) > -1) {
+                value = COOKIE_DOMAIN_THESAURUS;
+            } else if(host.indexOf(COOKIE_DOMAIN_DICTIONARY) > -1) {
+                value = COOKIE_DOMAIN_DICTIONARY;
+            } else if(host.indexOf(COOKIE_DOMAIN_REFERENCE) > -1){
+                value = COOKIE_DOMAIN_REFERENCE;
+            }
+
+            return value;
+        }
+
+        return {
+            getCurrentDomain : function() {
+                if(domain === null) {
+                    domain = getCurrentDomain();
+                }
+                return domain;
+            },
+
+            getCurrentUrl : function() {
+                if(currentURL === null) {
+                    currentURL = window.location.protocol + "//" + window.location.host + "" + window.location.pathname;
+                }
+                return currentURL;
+            },
+
+            getSpanidsUrl : function(bid, sid, domain) {
+                if(spanidsUrl === null) {
+                    spanidsUrl = getSpanidsUrl(bid, sid, domain);
+                }
+
+                return spanidsUrl;
+            }
+        }
+    }();
 </script><script type="text/javascript">
-var converterToolExcludeArgs = {ratestable: ['to'],historicallookup: ['to']};
+    var cookiesManager = function (){
+        return {
+            getCookieValue : function(name) {
+                var value = null;
+                var cookies = document.cookie;
+                var searchedCookie = cookies.indexOf(" " + name + "=");
+
+                // it's worth to check, if cookie is not first cookie
+                if(searchedCookie == -1) {
+                    var checkFirstCookie = cookies.indexOf(name + "=");
+                    searchedCookie = checkFirstCookie == 0 ? 0 : -1;
+                }
+
+                if(searchedCookie > -1) {
+                    var startPositionOfValue = cookies.indexOf("=", searchedCookie) + 1;
+                    var endPositionOfValue = cookies.indexOf(";", searchedCookie);
+
+                    if(endPositionOfValue == -1) {
+                        endPositionOfValue = searchedCookie.length;
+                    }
+
+                    value = cookies.substring(startPositionOfValue,endPositionOfValue);
+                }
+
+                return value;
+            },
+
+            setCookie: function(name, value, hours) {
+                var now     = new Date();
+                var time    = now.getTime();
+
+                time       += (3600 * hours) * 1000;
+                now.setTime(time);
+
+                document.cookie =
+                    name + '=' + value +
+                        ';expires=' + now.toGMTString() +
+                        ';path=/' +
+                        ';domain=' + UrlHelper.getCurrentDomain();
+            }
+        }
+    }();
+</script><script type="text/javascript">
+var BidSidGenerator = function (){
+        var COOKIE_NAME_BID = 'bid';
+        var COOKIE_NAME_SID = 'sid';
+
+        var newBidCookie = false;
+        var newSidCookie = false;
+
+        var bidCookieValue = null;
+        var sidCookieValue = null;
+
+        // generates value of bid cookie
+        function countCookieValue() {
+            var max = 999999;
+            var min = 100000;
+            var rand = Math.floor(Math.random() * (max - min)) + min;
+            var time = new Date().getTime();
+
+            return rand + "-" + time;
+        }
+
+        return {
+            init:function() {
+                bidCookieValue  = cookiesManager.getCookieValue(COOKIE_NAME_BID);
+                sidCookieValue  = cookiesManager.getCookieValue(COOKIE_NAME_SID);
+
+                if(bidCookieValue == null || bidCookieValue.length == 0) {
+                    var hour = 24 * (365*2); // cookie is set for 2 years
+                    bidCookieValue = countCookieValue();
+                    cookiesManager.setCookie(COOKIE_NAME_BID, bidCookieValue, hour);
+                    newBidCookie = true;
+                }
+
+                if(sidCookieValue == null || sidCookieValue.length == 0) {
+                    sidCookieValue = countCookieValue();
+                    newSidCookie = true
+                }
+
+                var hour    = 0.5; // cookie is set for 0.5 hour
+                cookiesManager.setCookie(COOKIE_NAME_SID, sidCookieValue, hour);
+            },
+
+            propagateCookies : function(){
+                if(newBidCookie || newSidCookie) {
+                    var url = UrlHelper.getSpanidsUrl(bidCookieValue, sidCookieValue, UrlHelper.getCurrentDomain());
+                    var iframe = '<iframe id="spanids" style="width:1px;height:1px;margin-left:-1;position:absolute;border:none;" src="' + url + '"></iframe>';
+                    document.write(iframe);
+                }
+            }
+        }
+    }();
+
+    BidSidGenerator.init();
+    BidSidGenerator.propagateCookies();
+</script>    <script>
+    new Image().src = "http://track.reference.com/webtrack.gif?ev=p&pn=dict-home&st=dict&ab=260%3A1&rf=" + encodeURIComponent(document.referrer) + "&cb=" + Math.floor((Math.random()*899999999)+100000000);
 </script>
-<title>Exchange Rates - X-Rates</title>
-<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-</head>
-<body>
-<header class="page-header">
-<div class="navbar navbar-inverse">
-<div class="navbar-inner">
-<div class="container">
-<a href='/' class='brand'><img src='/themes/bootstrap/images/xrates_sm_tm.png' border='0'/></a>
-<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</a>
-<div class="nav-collapse">
-<div id="headerTri"></div>
-<ul class='nav'><li class='selected'><a href='/' rel='homepage'>Home</a></li>
-<li><a href='/calculator/' onclick="submitConverterArgs(this)" rel='currencycalculator'>Currency Calculator</a></li>
-<li><a href='/graph/' onclick="submitConverterArgs(this)" rel='currencygraph'>Graphs</a></li>
-<li><a href='/table/' onclick="submitConverterArgs(this)" rel='ratestable'>Rates Table</a></li>
-<li><a href='/average/' onclick="submitConverterWithExtraArgs(this)" rel='monthlyaverage'>Monthly Average</a></li>
-<li><a href='/historical/' onclick="submitConverterWithExtraArgs(this)" rel='historicallookup'>Historic Lookup</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>	</header>
-<section class="container">
-<section>
-<div class="row">
-<div class="span3"><a href='/'><img class='main-logo' src='/themes/bootstrap/images/xrates_lg_tm.png' border='0'/></a></div>
-<div class="span9 leaderboardAd" id="home_lb">
-<script type="text/javascript">
-e9AdSlots['home_lb']['mobileAd'] = "<a href='http://www.xe.com/datafeed/?WT.mc_id=XDF-300x50-RROS-ADL-XX-V01-130901'><img alt='Ad' src='/themes/bootstrap/images/ads/300x50_dfs.png' border='0'/></a>";
-e9AdSlots['home_lb']['desktopAd'] = "<a href='http://www.xe.com/datafeed/?WT.mc_id=XDF-728x90-RROS-ADL-XX-V01-130901'><img alt='Ad' src='/themes/bootstrap/images/ads/728x90_dfs.png' border='0'/></a>";
-e9AdSlots['home_lb']['mobileThreshold'] = 767;
-displayAd('home_lb');
-</script>
-<noscript>
-<div align="center"><a href='http://www.xe.com/datafeed/?WT.mc_id=XDF-728x90-RROS-ADL-XX-V01-130901'><img alt='Ad' src='/themes/bootstrap/images/ads/728x90_dfs.png' border='0'/></a></div>
-</noscript>
-</div>	</div>
-<div class="row">
-<div class="span12">
-<ul class='breadcrumb'><li>Home</li>
-<li></li>
-</ul>
-</div>	</div>
-<div class="row xrates-bg">
-<div class="span8" id="left">
-<div class="row" id="row1">
-<div class="span8">
-<div class="col1 pull-left">
-<div class='moduleContent bottomMargin'>
-<div class="converterFields">
-<a name='converter'></a>
-<div class="converterSteps"><span>1.</span> Configure Converter</div>
-<div class="converterAmountWrapper">
-<input type="text" name="amount" id="amount" class="converterAmount" onfocus="if(this.value == '1.00') this.value='';" onblur="if(this.value == '') this.value='1.00' ;" value="1.00" maxlength="50" tabindex="1"/>
-<a href='http://www.x-rates.com/calculator/' onclick="submitConverterArgs(this)" class='amountFieldArrow' rel='currencycalculator'>&#9658;</a>
-</div>
-<div>
-<div id="fromInput">
-<select class="ccDbx" name="from" id="from" size="1" tabindex="2">
-<option value='AUD'>AUD - Australian Dollar</option>
-<option value='CAD'>CAD - Canadian Dollar</option>
-<option value='CHF'>CHF - Swiss Franc</option>
-<option value='CNY'>CNY - Chinese Yuan Renminbi</option>
-<option value='DKK'>DKK - Danish Krone</option>
-<option value='EUR' selected="selected">EUR - Euro</option>
-<option value='GBP'>GBP - British Pound</option>
-<option value='HKD'>HKD - Hong Kong Dollar</option>
-<option value='HUF'>HUF - Hungarian Forint</option>
-<option value='INR'>INR - Indian Rupee</option>
-<option value='JPY'>JPY - Japanese Yen</option>
-<option value='MXN'>MXN - Mexican Peso</option>
-<option value='MYR'>MYR - Malaysian Ringgit</option>
-<option value='NOK'>NOK - Norwegian Krone</option>
-<option value='NZD'>NZD - New Zealand Dollar</option>
-<option value='PHP'>PHP - Philippine Peso</option>
-<option value='RUB'>RUB - Russian Ruble</option>
-<option value='SEK'>SEK - Swedish Krona</option>
-<option value='SGD'>SGD - Singapore Dollar</option>
-<option value='THB'>THB - Thai Baht</option>
-<option value='TRY'>TRY - Turkish Lira</option>
-<option value='USD'>USD - US Dollar</option>
-<option value='ZAR'>ZAR - South African Rand</option>
-</select>
-<script type="text/javascript">
-$("#fromInput").html("<input type='text' id='from' class='converterCurrencyFrom' tabindex='2'/><input type='hidden' name='from' id='from_var' value='EUR'/>");
-options.inputTip = "";
-options.cacheLength = currenciesArray.length;
-options.selectLast = true;
-options.resultsClass = 'ac_results';
-options.filterOutList = null;
-var recentListCookie = $.cookie('fromCurrencies');
-var fromRecentList = recentListCookie != null? recentListCookie.split(',') : 'EUR,USD,GBP,INR,AUD,CAD,AED'.split(',');
-options.recentList = fromRecentList;
-options.searchHelp = "Type to search ...";
-options.recentListTitle = "Recent";
-options.allListTitle = "All Currencies";
-$('#from').autocomplete(allCurrenciesArray, options).result(onUCCSelect);
-options.customizeCurrency = null;
-options.allowObsolete = true;
-options.obsoleteTitle = "currency.obsolete.title";
-options.expiringTitle = "currency.expiring.title";
-setUCCInputValue($('#from'), options.recentList[0]);
-</script>
-</div>
-</div>
-<a href='#' onclick="XE_switchUCCCurrencies(); return false" class='converterInverseButton'><span class='inverseArrow'>↔</span></a>
-<div>
-<div id="toInput">
-<select class="ccDbx" name="to" id="to" size="1" tabindex="3">
-<option value='AUD'>AUD - Australian Dollar</option>
-<option value='CAD'>CAD - Canadian Dollar</option>
-<option value='CHF'>CHF - Swiss Franc</option>
-<option value='CNY'>CNY - Chinese Yuan Renminbi</option>
-<option value='DKK'>DKK - Danish Krone</option>
-<option value='EUR'>EUR - Euro</option>
-<option value='GBP'>GBP - British Pound</option>
-<option value='HKD'>HKD - Hong Kong Dollar</option>
-<option value='HUF'>HUF - Hungarian Forint</option>
-<option value='INR'>INR - Indian Rupee</option>
-<option value='JPY'>JPY - Japanese Yen</option>
-<option value='MXN'>MXN - Mexican Peso</option>
-<option value='MYR'>MYR - Malaysian Ringgit</option>
-<option value='NOK'>NOK - Norwegian Krone</option>
-<option value='NZD'>NZD - New Zealand Dollar</option>
-<option value='PHP'>PHP - Philippine Peso</option>
-<option value='RUB'>RUB - Russian Ruble</option>
-<option value='SEK'>SEK - Swedish Krona</option>
-<option value='SGD'>SGD - Singapore Dollar</option>
-<option value='THB'>THB - Thai Baht</option>
-<option value='TRY'>TRY - Turkish Lira</option>
-<option value='USD' selected="selected">USD - US Dollar</option>
-<option value='ZAR'>ZAR - South African Rand</option>
-</select>
-<script type="text/javascript">
-$("#toInput").html("<input type='text' id='to' class='converterCurrencyTo' tabindex='3'/><input type='hidden' name='to' id='to_var' value='USD'/>");
-options.filterOutList = null;
-var recentListCookie = $.cookie('toCurrencies');
-var toRecentList = recentListCookie != null? recentListCookie.split(',') : 'EUR,USD,GBP,INR,AUD,CAD,AED'.split(',');
-options.recentList = toRecentList;
-options.searchHelp = "Type to search ...";
-options.recentListTitle = "Recent";
-options.allListTitle = "All Currencies";
-$('#to').autocomplete(allCurrenciesArray, options).result(onUCCSelect);
-options.allowObsolete = true;
-options.obsoleteTitle = "currency.obsolete.title";
-options.expiringTitle = "currency.expiring.title";
-setUCCInputValue($('#to'), (extractCurrencyCode($('#from')) != options.recentList[0]? options.recentList[0] : options.recentList[1]));
-</script>
-</div>
-</div>
-</div>
-<script type='text/javascript'>
-$(function()
-{
-$('#amount').bind('keyup', function(e) {
-if(e.type === 'keyup' && e.keyCode !== 10 && e.keyCode !== 13) return;
-submitConverterArgs(null,'currencycalculator', true, null, '/calculator/')
-});
-});
-</script>
-</div>
-</div>	<div class="col2 pull-left">
-<div class="converterResult bottomMargin">
-<div class="converterSteps">
-<span>2.</span>
-Select Action
-</div>
-<ul class="converterButtons5Set">
-<li class="li-currencycalculator">
-<span class="actionArrow">&#9658;</span><a href='http://www.x-rates.com/calculator/' onclick="submitConverterArgs(this)" rel='currencycalculator'><span class="converterButtonsSmallTooltip">Currency Calculator</span><span class="activeArrow pull-right">&#9658;</span></a>
-</li>	<li class="li-currencygraph">
-<span class="actionArrow">&#9658;</span><a href='http://www.x-rates.com/graph/' onclick="submitConverterArgs(this)" rel='currencygraph'><span class="converterButtonsSmallTooltip">Graphs</span><span class="activeArrow pull-right">&#9658;</span></a>
-</li>	<li class="li-ratestable">
-<span class="actionArrow">&#9658;</span><a href='http://www.x-rates.com/table/' onclick="submitConverterArgs(this)" rel='ratestable'><span class="converterButtonsSmallTooltip">Rates Table</span><span class="activeArrow pull-right">&#9658;</span></a>
-</li>	<li class="li-monthlyaverage">
-<span class="actionArrow">&#9658;</span><a href='http://www.x-rates.com/average/' onclick="submitConverterWithExtraArgs(this)" rel='monthlyaverage'><span class="converterButtonsSmallTooltip">Monthly Average</span></a>	<div id="monthlyaverageTip" class="converterLinkTooltip">
-<form id="monthlyaverageForm" action="http://www.x-rates.com/average/" onSubmit="submitConverterWithExtraArgs(this,'monthlyaverage');return false;">
-<select id="averageYear" name="year" class="monthlyaveragedropdown" onChange="submitConverterWithExtraArgs(this,'monthlyaverage','http://www.x-rates.com/average/')">
-<option value='2014' selected="selected">2014</option>
-<option value='2013'>2013</option>
-<option value='2012'>2012</option>
-<option value='2011'>2011</option>
-<option value='2010'>2010</option>
-<option value='2009'>2009</option>
-<option value='2008'>2008</option>
-<option value='2007'>2007</option>
-<option value='2006'>2006</option>
-<option value='2005'>2005</option>
-<option value='2004'>2004</option>
-</select>
-<input type="submit" value="Go!" class="goButton">
-</form>
-</div>
-</li>	<li class="li-historicallookup">
-<span class="actionArrow">&#9658;</span><a href='http://www.x-rates.com/historical/' onclick="submitConverterWithExtraArgs(this)" rel='historicallookup'><span class="converterButtonsSmallTooltip">Historic Lookup</span></a>	<div id="historicallookupTip" class="converterLinkTooltip">
-<form id="historicallookupForm" action="http://www.x-rates.com/historical/" onSubmit="submitConverterWithExtraArgs(this,'historicallookup');return false;">
-<input type="text" value="2014-04-03" name="date" id="historicalDate">
-<input type="submit" value="Go!" class="goButton">
-</form>
-</div>
-</li>
-</ul>
-</div>
-<script type='text/javascript'>
-$(function() {
-$('.li-monthlyaverage').tooltip({
-'tip': '#monthlyaverageTip',
-'position': 'center right',
-offset: [0, -1 * ($('#monthlyaverageTip').width() + 5)],
-onBeforeHide: function(){
-return !$("#averageYear").is(":focus");
-}
-});	$('.li-historicallookup').tooltip({
-'tip': '#historicallookupTip',
-'position': 'center right',
-offset: [0, -1 * ($('#historicallookupTip').width() + 5)],
-onBeforeHide: function(){
-return !$("#ui-datepicker-div").is(":visible");
-}
-});
-$.datepicker.setDefaults({
-validateDateMinMax: 'service.historicallookup.error.date.invalid'
-});
-var isOutputPage = $(".li-historicallookup").hasClass("selected");
-$("#historicalDate").datepicker({
-changeYear: true,
-changeMonth: true,
-dateFormat: 'yy-mm-dd',
-minDate: new Date(2004, 0, 01),
-maxDate: new Date(2014, 3, 03),
-yearRange: '2004:2014',
-beforeShow: function(){
-if(!isOutputPage){
-$(".li-historicallookup").addClass("selected");
-}
-},
-onClose: function(){
-if(!isOutputPage){
-$(".li-historicallookup").removeClass("selected");
-}
-}
-});
-$("#historicallookupForm").validate({
-errorLabelContainer: "#validationErrors",
-showErrors: function(errorMap, errorList) {
-$("#historicallookupErrors").html('');
-this.defaultShowErrors();
-}
-});
-});
-</script>
-</div>
-</div>
-</div>	<div class="row" id="row2">
-<div class="span8">
-<div class="col1">
-<div class='moduleContent bottomMargin'>
-<div class="fxcmNarrowULGroup">
-<ul><li><strong>Forex Trading</strong></li>
-<li><a href='http://clk.atdmt.com/FXM/go/285001645/direct/01/' target="_blank" rel='nofollow'>Why Trade Forex</a></li>
-<li><a href='http://clk.atdmt.com/FXM/go/285001647/direct/01/' target="_blank" rel='nofollow'>Free Trial Account</a></li>
-<li><a href='http://clk.atdmt.com/FXM/go/451161580/direct/01/' target="_blank" rel='nofollow'>Low Forex Spreads</a></li>
-<li><a href='http://clk.atdmt.com/FXM/go/398252285/direct/01/' target="_blank" rel='nofollow'>Trading Euro can be Easy</a></li>
-<li><a href='http://clk.atdmt.com/FXM/go/452046889/direct/01/' target="_blank" rel='nofollow'>#1 US Forex provider</a></li>
-</ul>
-<ul><li><strong>Forex Resources</strong></li>
-<li><a href='http://clk.atdmt.com/FXM/go/285001646/direct/01/' target="_blank" rel='nofollow'>New to Forex</a></li>
-<li><a href='http://clk.atdmt.com/FXM/go/285001649/direct/01/' target="_blank" rel='nofollow'>Forex News-DailyFX</a></li>
-<li><a href='http://clk.atdmt.com/FXM/go/398252261/direct/01/' target="_blank" rel='nofollow'>USD Price Forecast</a></li>
-<li><a href='http://clk.atdmt.com/FXM/go/348279814/direct/01/' target="_blank" rel='nofollow'>Forex Trading Guide</a></li>
-</ul>
-<ul><li><strong>Services</strong></li>
-<li><a href='http://clk.atdmt.com/FXM/go/285001651/direct/01/' target="_blank" rel='nofollow'>Forex Trading Course</a></li>
-<li><a href='http://clk.atdmt.com/FXM/go/457693316/direct/01/' target="_blank" rel='nofollow'>Key Forex Strategies</a></li>
-</ul>
-</div>
-<span class="fxcmSponsor">Sponsored by<a href='http://clk.atdmt.com/FXM/go/301712910/direct/01/' target="blank" rel='nofollow'><img class='fxcmLogo' src='/themes/bootstrap/images/logo-fxcm-lg.jpg' border='0'/></a></span>
-<span class="fxcmDisclaimer">Forex Trading involves significant risk of loss.</span>
-</div>
-</div>	<div class="col2 module bottomMargin">
-<div class='moduleContent'>
-<table class="crossRatesTable" id="xRatesBxTable">
-<tr><th></th><th><img src='/themes/bootstrap/images/flags/usd.png' border='0'/>USD</th><th><img src='/themes/bootstrap/images/flags/gbp.png' border='0'/>GBP</th><th><img src='/themes/bootstrap/images/flags/cad.png' border='0'/>CAD</th><th><img src='/themes/bootstrap/images/flags/eur.png' border='0'/>EUR</th><th><img src='/themes/bootstrap/images/flags/aud.png' border='0'/>AUD</th></tr>
-<tr><th><img src='/themes/bootstrap/images/flags/usd.png' border='0'/></th><td class="one">1</td><td class="rateDown"><a href='/graph/?from=USD&amp;to=GBP'>0.60150</a></td><td class="rateDown"><a href='/graph/?from=USD&amp;to=CAD'>1.10311</a></td><td class="rateDown"><a href='/graph/?from=USD&amp;to=EUR'>0.72632</a></td><td class="rateDown"><a href='/graph/?from=USD&amp;to=AUD'>1.08225</a></td></tr><tr><th><img src='/themes/bootstrap/images/flags/gbp.png' border='0'/></th><td class="rateUp"><a href='/graph/?from=GBP&amp;to=USD'>1.66251</a></td><td class="one">1</td><td class="rateUp"><a href='/graph/?from=GBP&amp;to=CAD'>1.83394</a></td><td class="rateDown"><a href='/graph/?from=GBP&amp;to=EUR'>1.20751</a></td><td class="rateDown"><a href='/graph/?from=GBP&amp;to=AUD'>1.79926</a></td></tr><tr><th><img src='/themes/bootstrap/images/flags/cad.png' border='0'/></th><td class="rateUp"><a href='/graph/?from=CAD&amp;to=USD'>0.90652</a></td><td class="rateDown"><a href='/graph/?from=CAD&amp;to=GBP'>0.54528</a></td><td class="one">1</td><td class="rateDown"><a href='/graph/?from=CAD&amp;to=EUR'>0.65842</a></td><td class="rateDown"><a href='/graph/?from=CAD&amp;to=AUD'>0.98109</a></td></tr><tr><th><img src='/themes/bootstrap/images/flags/eur.png' border='0'/></th><td class="rateUp"><a href='/graph/?from=EUR&amp;to=USD'>1.37681</a></td><td class="rateUp"><a href='/graph/?from=EUR&amp;to=GBP'>0.82815</a></td><td class="rateUp"><a href='/graph/?from=EUR&amp;to=CAD'>1.51878</a></td><td class="one">1</td><td class="rateDown"><a href='/graph/?from=EUR&amp;to=AUD'>1.49006</a></td></tr><tr><th><img src='/themes/bootstrap/images/flags/aud.png' border='0'/></th><td class="rateUp"><a href='/graph/?from=AUD&amp;to=USD'>0.92400</a></td><td class="rateUp"><a href='/graph/?from=AUD&amp;to=GBP'>0.55579</a></td><td class="rateUp"><a href='/graph/?from=AUD&amp;to=CAD'>1.01927</a></td><td class="rateUp"><a href='/graph/?from=AUD&amp;to=EUR'>0.67111</a></td><td class="one">1</td></tr>
-</table>
-<script type="text/javascript">
-if(typeof(registerAfterRefreshFunction) == "function")
-{
-registerRefreshFunctions(
-function(responseText){updateContents(['#xRatesBxTable', '#ratesTimestamp'], responseText); $('#xRatesBxTable').fadeTo(300,1);},
-function(){refreshFadeOut('#xRatesBxTable');},
-function(){
-refreshFadeOut('#xRatesBxTable');
-$('#crossratesRefresh').html("<a href='http://www.x-rates.com/'><img src='/themes/bootstrap/images/refresh.png' border='0'/></a>");
-});
-}
-</script>
-</div>
-<div class="moduleFooter">
-Refresh in <span id="crossratesRefresh">0:<span class="countdown">60</span></span> | <span id="ratesTimestamp">Apr 03, 2014 00:16 UTC</span>
-</div>
-</div>
-</div>
-</div>	<div class="row" id="row3">
-<div class="span8">
-<div class="module bottomMargin">
-<h2>Currency List</h2>
-<div class='moduleContent'>
-<ul class='currencyList ratestable'><li><a href='http://www.x-rates.com/table/?from=ARS' onclick="submitConverterArgs(this)" rel='ratestable'>Argentine Peso</a></li>
-<li><a href='http://www.x-rates.com/table/?from=AUD' onclick="submitConverterArgs(this)" rel='ratestable'>Australian Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=BHD' onclick="submitConverterArgs(this)" rel='ratestable'>Bahraini Dinar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=BWP' onclick="submitConverterArgs(this)" rel='ratestable'>Botswana Pula</a></li>
-<li><a href='http://www.x-rates.com/table/?from=BRL' onclick="submitConverterArgs(this)" rel='ratestable'>Brazilian Real</a></li>
-<li><a href='http://www.x-rates.com/table/?from=BND' onclick="submitConverterArgs(this)" rel='ratestable'>Bruneian Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=BGN' onclick="submitConverterArgs(this)" rel='ratestable'>Bulgarian Lev</a></li>
-<li><a href='http://www.x-rates.com/table/?from=CAD' onclick="submitConverterArgs(this)" rel='ratestable'>Canadian Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=CLP' onclick="submitConverterArgs(this)" rel='ratestable'>Chilean Peso</a></li>
-<li><a href='http://www.x-rates.com/table/?from=CNY' onclick="submitConverterArgs(this)" rel='ratestable'>Chinese Yuan Renminbi</a></li>
-<li><a href='http://www.x-rates.com/table/?from=COP' onclick="submitConverterArgs(this)" rel='ratestable'>Colombian Peso</a></li>
-<li><a href='http://www.x-rates.com/table/?from=HRK' onclick="submitConverterArgs(this)" rel='ratestable'>Croatian Kuna</a></li>
-<li><a href='http://www.x-rates.com/table/?from=CZK' onclick="submitConverterArgs(this)" rel='ratestable'>Czech Koruna</a></li>
-<li><a href='http://www.x-rates.com/table/?from=DKK' onclick="submitConverterArgs(this)" rel='ratestable'>Danish Krone</a></li>
-<li><a href='http://www.x-rates.com/table/?from=EUR' onclick="submitConverterArgs(this)" class='selected' rel='ratestable'>Euro</a></li>
-<li><a href='http://www.x-rates.com/table/?from=HKD' onclick="submitConverterArgs(this)" rel='ratestable'>Hong Kong Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=HUF' onclick="submitConverterArgs(this)" rel='ratestable'>Hungarian Forint</a></li>
-<li><a href='http://www.x-rates.com/table/?from=ISK' onclick="submitConverterArgs(this)" rel='ratestable'>Icelandic Krona</a></li>
-<li><a href='http://www.x-rates.com/table/?from=INR' onclick="submitConverterArgs(this)" rel='ratestable'>Indian Rupee</a></li>
-<li><a href='http://www.x-rates.com/table/?from=IDR' onclick="submitConverterArgs(this)" rel='ratestable'>Indonesian Rupiah</a></li>
-<li><a href='http://www.x-rates.com/table/?from=IRR' onclick="submitConverterArgs(this)" rel='ratestable'>Iranian Rial</a></li>
-<li><a href='http://www.x-rates.com/table/?from=ILS' onclick="submitConverterArgs(this)" rel='ratestable'>Israeli Shekel</a></li>
-<li><a href='http://www.x-rates.com/table/?from=JPY' onclick="submitConverterArgs(this)" rel='ratestable'>Japanese Yen</a></li>
-<li><a href='http://www.x-rates.com/table/?from=KZT' onclick="submitConverterArgs(this)" rel='ratestable'>Kazakhstani Tenge</a></li>
-<li><a href='http://www.x-rates.com/table/?from=KRW' onclick="submitConverterArgs(this)" rel='ratestable'>South Korean Won</a></li>
-<li><a href='http://www.x-rates.com/table/?from=KWD' onclick="submitConverterArgs(this)" rel='ratestable'>Kuwaiti Dinar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=LVL' onclick="submitConverterArgs(this)" rel='ratestable'>Latvian Lat</a></li>
-<li><a href='http://www.x-rates.com/table/?from=LYD' onclick="submitConverterArgs(this)" rel='ratestable'>Libyan Dinar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=LTL' onclick="submitConverterArgs(this)" rel='ratestable'>Lithuanian Litas</a></li>
-<li><a href='http://www.x-rates.com/table/?from=MYR' onclick="submitConverterArgs(this)" rel='ratestable'>Malaysian Ringgit</a></li>
-<li><a href='http://www.x-rates.com/table/?from=MUR' onclick="submitConverterArgs(this)" rel='ratestable'>Mauritian Rupee</a></li>
-<li><a href='http://www.x-rates.com/table/?from=MXN' onclick="submitConverterArgs(this)" rel='ratestable'>Mexican Peso</a></li>
-<li><a href='http://www.x-rates.com/table/?from=NPR' onclick="submitConverterArgs(this)" rel='ratestable'>Nepalese Rupee</a></li>
-<li><a href='http://www.x-rates.com/table/?from=NZD' onclick="submitConverterArgs(this)" rel='ratestable'>New Zealand Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=NOK' onclick="submitConverterArgs(this)" rel='ratestable'>Norwegian Krone</a></li>
-<li><a href='http://www.x-rates.com/table/?from=OMR' onclick="submitConverterArgs(this)" rel='ratestable'>Omani Rial</a></li>
-<li><a href='http://www.x-rates.com/table/?from=PKR' onclick="submitConverterArgs(this)" rel='ratestable'>Pakistani Rupee</a></li>
-<li><a href='http://www.x-rates.com/table/?from=PHP' onclick="submitConverterArgs(this)" rel='ratestable'>Philippine Peso</a></li>
-<li><a href='http://www.x-rates.com/table/?from=PLN' onclick="submitConverterArgs(this)" rel='ratestable'>Polish Zloty</a></li>
-<li><a href='http://www.x-rates.com/table/?from=QAR' onclick="submitConverterArgs(this)" rel='ratestable'>Qatari Riyal</a></li>
-<li><a href='http://www.x-rates.com/table/?from=RON' onclick="submitConverterArgs(this)" rel='ratestable'>Romanian New Leu</a></li>
-<li><a href='http://www.x-rates.com/table/?from=RUB' onclick="submitConverterArgs(this)" rel='ratestable'>Russian Ruble</a></li>
-<li><a href='http://www.x-rates.com/table/?from=SAR' onclick="submitConverterArgs(this)" rel='ratestable'>Saudi Arabian Riyal</a></li>
-<li><a href='http://www.x-rates.com/table/?from=SGD' onclick="submitConverterArgs(this)" rel='ratestable'>Singapore Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=ZAR' onclick="submitConverterArgs(this)" rel='ratestable'>South African Rand</a></li>
-<li><a href='http://www.x-rates.com/table/?from=LKR' onclick="submitConverterArgs(this)" rel='ratestable'>Sri Lankan Rupee</a></li>
-<li><a href='http://www.x-rates.com/table/?from=SEK' onclick="submitConverterArgs(this)" rel='ratestable'>Swedish Krona</a></li>
-<li><a href='http://www.x-rates.com/table/?from=CHF' onclick="submitConverterArgs(this)" rel='ratestable'>Swiss Franc</a></li>
-<li><a href='http://www.x-rates.com/table/?from=TWD' onclick="submitConverterArgs(this)" rel='ratestable'>Taiwan New Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=THB' onclick="submitConverterArgs(this)" rel='ratestable'>Thai Baht</a></li>
-<li><a href='http://www.x-rates.com/table/?from=TTD' onclick="submitConverterArgs(this)" rel='ratestable'>Trinidadian Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=TRY' onclick="submitConverterArgs(this)" rel='ratestable'>Turkish Lira</a></li>
-<li><a href='http://www.x-rates.com/table/?from=AED' onclick="submitConverterArgs(this)" rel='ratestable'>Emirati Dirham</a></li>
-<li><a href='http://www.x-rates.com/table/?from=GBP' onclick="submitConverterArgs(this)" rel='ratestable'>British Pound</a></li>
-<li><a href='http://www.x-rates.com/table/?from=USD' onclick="submitConverterArgs(this)" rel='ratestable'>US Dollar</a></li>
-<li><a href='http://www.x-rates.com/table/?from=VEF' onclick="submitConverterArgs(this)" rel='ratestable'>Venezuelan Bolivar</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div> </div>
-<div class="span4" id="right">
-<div class="row" id="row1">
-<div class="span4">
-<div class="module bottomMargin">
-<div class='moduleContent'>
-<h4 class="ratesChangetableHdr">Percent Change in the Last 24 Hours</h4>
-<ul id='ratesTrends' class='currencyPairUL'>
-<li>EUR/USD<span class='down'>-0.18292%</span></li><li class="left-border">USD/JPY<span class='up'>+0.14638%</span></li><li class="clear-left">GBP/USD<span class='down'>-0.00880%</span></li><li class="left-border">USD/CHF<span class='up'>+0.34903%</span></li><li class="clear-left">USD/CAD<span class='down'>-0.01183%</span></li><li class="left-border">EUR/JPY<span class='down'>-0.03681%</span></li><li class="clear-left">AUD/USD<span class='down'>-0.03330%</span></li><li class="left-border">CNY/USD<span class='down'>-0.13021%</span></li>
-</ul>
-<script type="text/javascript">
-if(typeof(registerAfterRefreshFunction) == "function")
-{
-registerRefreshFunctions(
-function(responseText){updateContents(['#ratesTrends', '#ratesTrendsTimestamp'], responseText); $('#ratesTrends').fadeTo(300,1);},
-function(){refreshFadeOut('#ratesTrends');});
-}
-</script>
-</div>
-<div class="moduleFooter">
-<span id="ratesTrendsTimestamp">Apr 03, 2014 00:16 UTC</span>
-</div>
-</div>
-</div>
-</div>	<div class="row" id="row2">
-<div class="span4">
-<div class="module bottomMargin">
-<div class='moduleContent'>
-<div id="home_rs" class='rightsideAd'>
-<script type="text/javascript">
-e9AdSlots['home_rs']['mobileAd'] = "<a href='http://www.xe.com/datafeed/?WT.mc_id=XDF-300x250-RROS-ADL-XX-V01-130901'><img alt='Ad' src='/themes/bootstrap/images/ads/300x250_dfs.png' border='0'/></a>";
-e9AdSlots['home_rs']['desktopAd'] = "<a href='http://www.xe.com/datafeed/?WT.mc_id=XDF-300x250-RROS-ADL-XX-V01-130901'><img alt='Ad' src='/themes/bootstrap/images/ads/300x250_dfs.png' border='0'/></a>";
-e9AdSlots['home_rs']['mobileThreshold'] = 850;
-displayAd('home_rs');
-</script>
-<noscript>
-<div align="center"><a href='http://www.xe.com/datafeed/?WT.mc_id=XDF-300x250-RROS-ADL-XX-V01-130901'><img alt='Ad' src='/themes/bootstrap/images/ads/300x250_dfs.png' border='0'/></a></div>
-</noscript>
-</div>
-</div>
-<div class="moduleFooter">
-AD
-</div>
-</div>
-</div>
-</div>	<div class="row" id="row3">
-<div class="span4">
-<div class="module bottomMargin">
-<h2>Useful Links</h2>
-<div class='moduleContent'>
-<ul class='module'><li><a href='/euro/' rel='euroInfo'>Euro Information</a></li>
-<li><a href='/faq/' rel='faq'>FAQ</a></li>
-<li><a href='/feedback/' rel='feedback'>Feedback</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div> </div>
-</div>
-</section>
-</section>
-<section>
-<footer>
-<div class="navbar navbar-inverse">
-<div class="navbar-inner">
-<div class="container">
-<div class="in collapse">
-<ul class='nav'><li><a href='/terms/' rel='termsofservice'>Terms of Service</a></li>
-<li><a href='/privacy/' rel='privacy'>Privacy</a></li>
-<li><a href='/advertise/' rel='advertise'>Advertise on X-Rates</a></li>
-<li><a href='/feedback/' rel='feedback'>Feedback</a></li>
-<li><a href='/faq/' rel='faq'>FAQ</a></li>
-</ul>
-<div id="footerTri"></div>
-<div class="footer-decor"></div>
-</div>
-</div>
-</div>
-</div>
-<div class="copyright">
-&copy; X-Rates 2014
-</div> </footer>
-</section>
-<script type="text/javascript">
-$(function() {
-startRefreshingData(15,0,60,false,new Array('home_lb','home_rs'),15);
-});
-</script><noscript><img src='/ga.php?utmac=&amp;utmn=1828193911&amp;utmr=-&amp;utmp=%2F&amp;guid=ON&amp;' alt='' /></noscript>
-<!-- START OF SmartSource Data Collector TAG v10.2.10 -->
-<!-- Copyright (c) 2012 Webtrends Inc. All rights reserved. -->
+    <script type="text/javascript">
+            var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+            var gads = document.createElement("script");
+            gads.async = true;
+            gads.type = "text/javascript";
+            gads.src = "//www.googletagservices.com/tag/js/gpt.js";
+            var node =document.getElementsByTagName("script")[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
 <script>
-window.webtrendsAsyncInit=function(){
-var dcs=new Webtrends.dcs().init({
-dcsid:"dcso6hjkx8bv0hwwndqfdamdc_7h3r",
-domain:"statse.webtrendslive.com",
-timezone:-5,
-fpcdom:".x-rates.com"
-});
-dcs.WT.cg_n = 'ROS';
-dcs.track();
-};
-(function(){
-var s=document.createElement("script"); s.async=true; s.src="/themes/bootstrap/t_js/webtrends.1.js";
-var s2=document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s,s2);
-}());
+    function getRefValue() {
+        if(document.referrer.indexOf('dictionary.com') == -1 && document.referrer.indexOf('thesaurus.com') == -1 && document.referrer.indexOf('reference.com') == -1) {
+            return 'organic';
+        }
+        return 'direct';
+    }
+
+    googletag.slots = {};
+    googletag.slotsCount = 3;
+    googletag.renderedAdsCount = 0;
+    googletag.cmd.push(function() {
+        googletag.slots["dcomPUHPTop-728x90"] = googletag.defineSlot("/23219321/iac.dict.dictry.dw/homepage/homepage/homepage", [[728,90],[970,90]], "dcomPUHPTop-728x90").addService(googletag.pubads()).setTargeting("pos", "top").setTargeting("pos2", "728x90_1").setTargeting("tx1", "homepage").setTargeting("tx2", "homepage").setTargeting("ptype", "homepage");googletag.slots["dcomPUHPTop-300x250"] = googletag.defineSlot("/23219321/iac.dict.dictry.dw/homepage/homepage/homepage", [300,250], "dcomPUHPTop-300x250").addService(googletag.pubads()).setTargeting("pos", "top").setTargeting("pos2", "300x250_1").setTargeting("tx1", "homepage").setTargeting("tx2", "homepage").setTargeting("ptype", "homepage");googletag.slots["dcomPUHPBtm-300x251"] = googletag.defineSlot("/23219321/iac.dict.dictry.dw/homepage/homepage/homepage", [300,250], "dcomPUHPBtm-300x251").addService(googletag.pubads()).setTargeting("pos", "bot").setTargeting("pos2", "300x250_2").setTargeting("tx1", "homepage").setTargeting("tx2", "homepage").setTargeting("ptype", "homepage");        var rpv = Math.floor((Math.random()*100)+1);
+        googletag.pubads().setTargeting("ref", getRefValue()).setTargeting("lang","en").setTargeting("rpv", rpv.toString()).setTargeting("dc_ref", "http%3A%2F%2Fdictionary.reference.com%2Fpuhp").setTargeting("loc", "US").setTargeting("ld", "2601");
+                        googletag.pubads().enableSingleRequest();
+                        googletag.pubads().enableAsyncRendering();
+                googletag.enableServices();
+        googletag.adsLoaded = function () {
+            return googletag.renderedAdsCount >= googletag.slotsCount;
+        };
+        googletag.pubads().addEventListener('slotRenderEnded', function() {
+            googletag.renderedAdsCount += 1;
+                    });
+    });
 </script>
-<noscript><img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcso6hjkx8bv0hwwndqfdamdc_7h3r/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.2.10&amp;dcssip=www.x-rates.com"/></noscript>
-<!-- END OF SmartSource Data Collector TAG v10.2.10 -->	</body>
+    <meta name="apple-mobile-web-app-title" content="Dictionary">
+    <link rel="search" type="application/opensearchdescription+xml" href="http://dictionary.reference.com/opensearch_desc.xml" title="Dictionary.com" />
+        <title>Dictionary.com - Free Online English Dictionary</title>
+            <meta name="description" content="The world's most popular dictionary and thesaurus with definitions, synonyms, antonyms, idioms, word origins, quotes, audio pronunciations, example sentences and Word of the Day! Look up the meaning of words, slang, phrases, idioms, and abbreviations in our free English Dictionary, Spanish-English Dictionary, Legal Dictionary, Medical Dictionary and more!" />
+        <meta name="keywords" content="dictionary, definition of, free online dictionary, online dictionary, English dictionary, dict, diction, dictonary, glossary, define, definitions, meaning, word of the day, spelling, pronunciation, dictio, dictiona, dic, dicti, dictionar" />
+        <meta property="og:title" content="Dictionary.com - The world's favorite online English dictionary!"/>
+    <meta property="og:site_name" content="Dictionary.com"/>
+    <meta type="og:url" content="http://dictionary.reference.com/" />
+        <meta property="og:image" content="http://static.sfdict.com/dictcloud/img/social_logo.png"/>
+        <meta property="fb:app_id" content= "134885023204530"/>
+    <meta property="fb:admins" content="100000304287730,109125464873" />
+    <link href="https://plus.google.com/117428481782081853923" rel="publisher">
+
+    <link rel="canonical" href="http://dictionary.reference.com/"/>
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.dictionary.com"/>
+    
+    <link rel="shortcut icon" href="http://static.sfdict.com/dictcloud/favicon.ico"/>
+    
+            <style>
+                /* Elements uses aggregate sprite image */
+            .logo, .logo2, #botwrapper .search-form .area-holder, #seasonHdr .search-form .area-holder, #botwrapper .search-form .area-holder #q, #seasonHdr .search-form .area-holder #q,
+            #botwrapper .search-form input[type="submit"], #seasonHdr .search-form input[type="submit"], .botwrpreference .logo, .botwrpthesaurus .logo, .botwrpthesaurus .search-form input[type="submit"],
+            .botwrpreference .search-form input[type="submit"], .menu .prlogo, .menu .prelogo, .menu .prlogo, .thvybrdr, .sfdic, .sfask, .search-holder, .btn-favorites, .btn-recents, .search-holder .area-holder,
+            .search-holder .search-form input[type="submit"], .bfp .bpt, .bfp li, .bfp .bpb, .fCol, .sub-nav li, #feedback, .zigzag, .sign-form .img-holder, #sidebar .social-networks a, #sidebar .social-networks .pinterest,
+            .title-word, #content .title-reference, .title-quote, #content .title-word-dynamo, .aside .social-box li, .popular-title, .carousel-holder .prev, .carousel-holder .next, .carousel-holder .prev,
+            .btn-launch, #sidebar .prev a, .recents-box .btn-sign, .footer-holder .social-holder li {
+                background-image: url(http://static.sfdict.com/dictcloud/img/aggregate_sprite.png)  !important;
+            }
+        </style>
+                    <link rel="stylesheet" href="http://dictionary.reference.com/dictcloud/r23683/css/combined.css" type="text/css" media="all"/>
+            
+        
+                
+
+    
+            
+            <script type="text/javascript">
+
+        var phpVarinJS = {
+            'emailSignupURL': 'http://track.reference.com/track/emailSignup?site=dict&pageName=dict-home&ldid=260:1&emailSignedUp=WOTD',
+            'flogoClick': 'http://track.reference.com/track/clickInner?site=dict&pageName=dict-home&ldid=260:1&target=dict-logo',
+            'prevWordsClick':'http://track.reference.com/track/clickInner?site=dict&pageName=dict-home&ldid=260:1&target=previous-words',
+            'socialClick':'http://track.reference.com/track/social?site=dict&pageName=dict-home&ldid=260:1',
+            'favoritesAppUrl':'http://app.dictionary.com/favorites',
+            'stickyFooter':'http://track.reference.com/track/stickyFooter?site=dict&pageName=dict-home&ldid=260:1',
+            'cornerPeelGif':'false',
+            'cornerPeelFlash':'false',
+            'gifCloseButtonImage':'',
+            'flashCloseButtonImage':'',
+            'cornerPeelGifHrefURL':'',
+            'cornerPeelFlashHrefURL':'',
+            'cornerPeelOpeninNewwindow':'false',
+            'slideShowBaseURL':'http://dictionary.reference.com/',
+            'appDomainURL':'http://dictionary.reference.com/',
+            'ldid':'0',
+            'appcoreURL':'http://app.dictionary.com/',
+            'slideShowCloseTrackURL': 'http://track.reference.com/track/close?site=dict&pageName=dict-home&ldid=260:1',
+            'DictionaryHp':'dictionary'
+        }
+    </script>
+<!-- ABENV:260:1  -->
+<!-- SERVER:refxdcom018iad.io.askjeeves.info  -->
+<!-- TIMESTAMP:20140415104324  -->
+</head>
+
+<body>
+<style id="sc"></style>
+<script type="text/javascript">
+    var UserController = function() {
+        var USER_STATUS_LOGGED_IN = 'L';
+        var USER_STATUS_NOT_LOGGED = 'N';
+
+        var COOKIE_NAME_SESS = 'sess';
+        var COOKIE_NAME_FAV = 'fav';
+
+        var PREMIUM_STATUS_VALUE = 9;
+        var FAV_COOKIE_PREMIUM_STATUS_KEY = 0;
+        var FAV_COOKIE_FAV_COUNT_KEY = 1;
+
+        var isLoggedIn = null;
+        var isPremium = null;
+        var favNumber = null;
+
+        function checkIsUserLoggedIn() {
+            var userStatus = USER_STATUS_NOT_LOGGED;
+            var sessCookieValue = cookiesManager.getCookieValue(COOKIE_NAME_SESS);
+
+            if(sessCookieValue != null) {
+                userStatus = sessCookieValue.charAt(0);
+            }
+
+            return userStatus == USER_STATUS_LOGGED_IN ? true : false;
+        }
+
+        function checkIfUserIsPremium() {
+            var premiumStatus = null;
+            var favCookieValue = cookiesManager.getCookieValue(COOKIE_NAME_FAV);
+
+            if(favCookieValue != null) {
+                favCookieValue = decodeURIComponent(favCookieValue);
+                premiumStatus = favCookieValue.split('|')[FAV_COOKIE_PREMIUM_STATUS_KEY];
+            }
+
+            return premiumStatus == PREMIUM_STATUS_VALUE ? true : false;
+        }
+
+        function getFavNum() {
+            var count = 0;
+            var favCookieValue = cookiesManager.getCookieValue(COOKIE_NAME_FAV);
+
+            if(favCookieValue != null) {
+                favCookieValue = decodeURIComponent(favCookieValue);
+                count = favCookieValue.split('|')[FAV_COOKIE_FAV_COUNT_KEY];
+            }
+
+            return count;
+        }
+
+        return {
+            isLoggedIn : function() {
+                if(isLoggedIn === null) {
+                    isLoggedIn = checkIsUserLoggedIn();
+                }
+
+                return isLoggedIn;
+            },
+
+            isPremium : function() {
+                if(isPremium === null) {
+                    isPremium = checkIfUserIsPremium();
+                }
+
+                return isPremium
+            },
+
+            getFavNumber : function() {
+                if(favNumber === null) {
+                    favNumber = getFavNum();
+                }
+
+                return favNumber;
+            }
+        }
+
+
+    }();
+</script>    
+    
+    
+    <div id="ad_1x1" class="ad bannerad"></div>
+<!-- Needed the below parameter for clicktale pixel immediate after body start-->
+<script type="text/javascript">var WRInitTime=(new Date()).getTime();</script>
+    <div id="topwrapper">
+<style type="text/css">
+    #main {
+        top: 0 !important;
+    }
+
+</style>
+<div id="header">
+    <div id="hdr">
+         
+<ul id="nav" class="dictionary">
+        <li class="dict"><span class="thvybrdr" style="float:left;"></span><a href="http://dictionary.reference.com" data-cts='{"linkId":"tqks0v","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"dtab","clksite":"dict","clkld":"260:1"}'>Dictionary</a><span class="thvybrdr" style="float:left;"></span></li>
+        <li class="thes"><a href="http://thesaurus.com" data-cts='{"linkId":"qxnxzj","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"ttab","clksite":"dict","clkld":"260:1"}'>Thesaurus</a><span class="thvybrdr"></span></li>
+        <li class="word"><a href="http://dynamo.dictionary.com/?mp_source=ihzyvr"  id="dynTopHeavy"  style="background-color:#262627" data-cts='{"linkId":"ihzyvr","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"dytab","clksite":"dict","clkld":"260:1"}'>Word Dynamo</a><span class="thvybrdr"></span></li>
+        <li class="quot"><a href="http://quotes.dictionary.com" data-cts='{"linkId":"wtcrk4","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"qtab","clksite":"dict","clkld":"260:1"}'>Quotes</a><span class="thvybrdr"></span></li>
+        <li class="ref"><a href="http://www.reference.com" data-cts='{"linkId":"rn6y6h","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"rtab","clksite":"dict","clkld":"260:1"}'>Reference</a><span class="thvybrdr"></span></li>
+        <li class="trans"><a href="http://translate.reference.com" data-cts='{"linkId":"s6ljc3","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"trtab","clksite":"dict","clkld":"260:1"}'>Translator</a><span class="thvybrdr"></span></li>
+        <li class="span"><a href="http://spanish.dictionary.com"  id="span"  class="spanlast" data-cts='{"linkId":"kun0fl","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"sptab","clksite":"dict","clkld":"260:1"}'>Spanish</a><span class="thvybrdr"></span></li>
+</ul>
+
+        <div id="tpnv">
+                            <ul class="menu">
+    <li><a id="loginHeaderLink" href="http://app.dictionary.com/login/core?source=header_dict&logindest=http://dictionary.reference.com">Log In</a></li>
+    <li><a href="http://app.dictionary.com/signup/core?source=header_dict&logindest=http://dictionary.reference.com">Sign Up</a></li>
+    <li class="prlogo" style="margin-left: 2px;"></li><li class="prli"><a href="http://app.dictionary.com/signup/premium?mp_source=bz0r8y&logindest=http://dictionary.reference.com" data-cts='{"linkId":"bz0r8y","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"hdprem","clksite":"dict","clkld":"260:1"}'>Premium</a></li>
+</ul>
+
+<script type="text/javascript">
+    var headerController = function() {
+
+        function generateLoggedInNav() {
+            var navigation = '<li style="border:none"><a href="http://app.dictionary.com/users/settings">My Account</a></li>';
+
+            if(!UserController.isPremium()) {
+                navigation += '<li class="user"><a href="http://app.dictionary.com/favorites" class="fav"><span id="favLink" class="favL" style="background-image: url(\'http://static.sfdict.com/app/img/Star_icon.png\');background-repeat: no-repeat; padding:3px 1px 1px 12px">' + UserController.getFavNumber() + '</span></a></li>';
+                navigation += '<li><a href="http://app.dictionary.com/logout?logindest=http://dictionary.reference.com">Log Out</a></li>';
+                navigation += '<li class="prliu"><a class ="upgd" href="http://click.reference.com/click/1fk8td?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=hrdupgrd&clkdest=http%3A%2F%2Fapp.dictionary.com%2Fsignup%2Fpremium%3Fmp_source%3D1fk8td%26logindest%3Dhttp%3A%2F%2Fdictionary.reference.com">Upgrade</a>';
+                navigation += '</li><li class="prlogo"></li>';
+            } else {
+                navigation += '<li class="user"><a href="http://app.dictionary.com/favorites" class="fav"><span id="favLink" class="favL" style="background-image: url(\'http://static.sfdict.com/app/img/Star_icon.png\');background-repeat: no-repeat; padding:3px 1px 1px 12px">' + UserController.getFavNumber() + '</span></a></li>';
+                navigation += '<li class="prlout"><a href="http://app.dictionary.com/logout?logindest=http://dictionary.reference.com">Log Out</a></li>';
+            }
+
+            return navigation;
+        }
+
+        return {
+            regenerateNav : function() {
+                return generateLoggedInNav();
+            }
+        }
+    }();
+
+    if(UserController.isLoggedIn()) {
+        var header = document.getElementById('tpnv');
+        var ul = '';
+        for (var i = 0; i < header.childNodes.length; i++) {
+            if (header.childNodes[i].className == "menu") {
+                ul = header.childNodes[i];
+                break;
+            }
+        }
+        ul.innerHTML = headerController.regenerateNav()
+    }
+</script>
+
+
+                </div>
+</div>
+</div></div>
+
+<div id="botwrapper" class="botwrpdictionary">
+    <div id="bothdr">
+<h1 class="logo" > <a href="http://dictionary.reference.com/" data-cts='{"linkId":"yg487x","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"dkscr","clksite":"dict","clkld":"260:1"}'>Dictionary.com</a></h1>
+
+<!-- ALT LOG -->
+              
+                   
+              <form id="main_search" action="http://dictionary.reference.com/dic" onsubmit="return formcheck();" class="search-form">
+                <fieldset>
+                    <div class="area-holder">
+                        <input size="40" id="q" value="" autoComplete="off" type="text" name="q" onclick="make_blank();" onkeypress="make_blank();"/>
+                        <input type="hidden" id="dq" value="'.$default_search_text.'"/>
+                        <input type="hidden" name="s" value="t" />
+                                            </div>
+                    <input type="submit" value="search" />
+                </fieldset>
+            </form>
+           
+            
+
+<!-- / -->
+
+ 
+
+    
+</div>
+</div>
+<!-- closing div for seasonwrp-->
+<div id="main">
+
+
+<script>var CTSParams = {"infix":"","clkpage":"dict-home","clksite":"dict","clkld":"260:1"}</script>
+    <ul class="sub-nav">
+        <li><a href="http://blog.dictionary.com"  class="nbl" data-cts='{"linkId":"prrhwm","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"htwd","clksite":"dict","clkld":"260:1"}'>Our Blog</a></li>
+        <li><a href="http://dictionary.reference.com/fun/crossword" data-cts='{"linkId":"dp2158","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"dstmp","clksite":"dict","clkld":"260:1"}'>Daily Crossword</a></li>
+        <li><a href="http://dynamo.dictionary.com/writing-dynamo/?mp_source=vcx614" data-cts='{"linkId":"vcx614","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"wrdyn","clksite":"dict","clkld":"260:1"}'>Writing Dynamo</a></li>
+        <li><a href="http://dictionary.reference.com/crossword/index.html" data-cts='{"linkId":"6g2ifa","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"crslv","clksite":"dict","clkld":"260:1"}'>Crossword Solver</a></li>
+        <li><a href="http://dictionary.reference.com/tools" data-cts='{"linkId":"qrajoo","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"tls","clksite":"dict","clkld":"260:1"}'>Tools</a></li>
+        <li><a href="http://dictionary.reference.com/apps"  class="nbr" data-cts='{"linkId":"d874f6","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"dmbl","clksite":"dict","clkld":"260:1"}'>Mobile</a></li>        
+    </ul>
+
+    <!-- banner-holder -->
+    <div class="banner-holder" style="width:728px;min-height:90px;">
+        <div id="dcomPUHPTop-728x90"><script type="text/javascript">if(typeof UserController != "undefined" &&  UserController.isPremium()){document.getElementById("dcomPUHPTop-728x90").remove();} else{ googletag.cmd.push(function() { googletag.display("dcomPUHPTop-728x90"); });};</script></div>    </div>
+
+    <!--buys ads link   -->
+        <!-- popup -->
+            <!-- main-holder -->
+    <div class="main-holder">
+        <!-- side bar -->
+        <div id="sidebar">
+            <div class="sidebar-holder">
+                <div class="sidebar-frame">
+                    <!-- Word of the Day Section -->
+                    <div class="word-section">
+                       <h2>Word <em>of the</em> Day</h2>
+                       
+                                              <a href="http://dictionary.reference.com/wordoftheday"  class="wotd"  style="font-size:20px" data-cts='{"linkId":"nx1fkx","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"wotd","clksite":"dict","clkld":"260:1"}'>maslin                        </a>
+                       					                                                     <a href="http://dictionary.reference.com/wordoftheday"  class="wotd_txt" data-cts='{"linkId":"nx1fkx","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"wotd","clksite":"dict","clkld":"260:1"}'>a mixture; medley.                        </a>
+                       <a href="http://dictionary.reference.com/wordoftheday" data-cts='{"linkId":"nx1fkx","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"wotd","clksite":"dict","clkld":"260:1"}'>More...</a>
+                                                <div id="aud">
+                            <span id="spk0"><embed id="speaker" width="17" height="15" align="texttop" flashvars="soundUrl=http%3A%2F%2Fstatic.sfdict.com%2Fstaticrep%2Fdictaudio%2FM01%2FM0187900.mp3" salign="t" menu="false" loop="false" quality="high" src="http://static.sfdict.com/dictcloud/img/speaker.swf" type="application/x-shockwave-flash"></span>                        </div>
+                                                <form action="#" class="sign-form" onsubmit="return emailSignUp()">
+                           <fieldset>
+                               <label>SIGN UP:</label>
+                               <div class="form-holder">
+                                   <div class="area-holder">
+                                       <input id="emailTbox" type="text" value="email" onclick="signup_blank()"/>
+                                   </div>
+                                                                           <input type="submit" value="" class="img-holder" alt="">
+                                        
+                               </div>
+                           </fieldset>
+                        </form>
+
+                    <script type="text/javascript">
+                        wtd = "maslin";
+                        wdesc = "a mixture; medley.";
+                        wln = 'http://dictionary.reference.com';
+                        window.fbAsyncInit = function () {
+                            FB.JSON.stringify = function (value) {
+                                return JSON.stringify(value)
+                            };
+                            FB.init({appId:'153887831292919', status:true, cookie:true, xfbml:true});
+                            FB.XFBML.parse();
+                        };
+                    </script>
+
+                        <div class="social-networks">
+                           <a id="fbSh" class="facebook"></a>
+                           <a id="fbTw" class="twitter" href="http://twitter.com/share?url=http%3A%2F%2Fdictionary.reference.com%2Fwordoftheday&text=RT @  Word of the Day - maslin: a mixture; medley.&via=dictionarycom"
+                                  rel="nofollow" target="_blank"></a>
+                            <div id="po_st">
+                                                                                                <a class="pinterest" href="https://plus.google.com/share?url=http://dictionary.reference.com/wordoftheday/archive/2014/04/15.html?word=maslin"
+                                   onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+                                                            </div>
+                      </div>                           
+                       <div id="fb-root"></div>
+                       <div class="prev"><a id="prev_words" href="#prev-words" onclick="smoothscroll('prev-words')">Previous Words</a></div>
+                   </div>
+                    <div class="zigzag"></div>
+                                        <div class="gray-box">
+                        <h2 style="cursor: pointer;" onmousedown="moduleClickHandler(event,'http://dictionary.reference.com/browse/octopus?s=t#wordorgtop','http://click.reference.com/click/rtourp?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=newsEntry&clkdest=http%3A%2F%2Fdictionary.reference.com%2Fbrowse%2Foctopus%3Fs%3Dt%23wordorgtop')">Octopus or octopi? What's the proper plural?</h2>
+                        <div class="gray-item">
+                            <h3 style="cursor: pointer;" onmousedown="moduleClickHandler(event,'http://dictionary.reference.com/browse/octopus?s=t#wordorgtop','http://click.reference.com/click/rtourp?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=newsEntry&clkdest=http%3A%2F%2Fdictionary.reference.com%2Fbrowse%2Foctopus%3Fs%3Dt%23wordorgtop')" class="gray-title">Try to solve the classic tentacled question of English</h3>
+                            <p>What is the correct way to say the plural of octopus, octopi or octopuses, or . . . ?</p>
+                            <a href="http://dictionary.reference.com/browse/octopus?s=t#wordorgtop"  class="more" data-cts='{"linkId":"rtourp","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"newsEntry","clksite":"dict","clkld":"260:1"}'>Learn the tricky answer</a>
+                        </div>
+                        <a class="gray-item" style="cursor: pointer;text-decoration: none; color: inherit;" onmousedown="moduleClickHandler(event,'http://quotes.dictionary.com/The_best_author_will_be_the_one_who','http://click.reference.com/click/smtdvk?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=newsQuote&clkdest=http%3A%2F%2Fquotes.dictionary.com%2FThe_best_author_will_be_the_one_who')">
+                            <h3>The best author will be the one who is ashamed to become . . .</h3>
+                        </a>
+                        <a class="image-holder" style="display: block" onmousedown="moduleClickHandler(event,'http://quotes.dictionary.com/The_best_author_will_be_the_one_who','http://click.reference.com/click/smtdvk?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=newsQuote&clkdest=http%3A%2F%2Fquotes.dictionary.com%2FThe_best_author_will_be_the_one_who')">
+                            <img style="cursor: pointer;" src="http://static.sfdict.com/assets/935-7961993-1.jpeg"  width="50" height="50" />                            <p style="cursor: pointer;" >Friedrich Nietzsche 1844 -1900</p>
+                        </a>
+                    </div>
+                                                            <!-- white-box -->
+                    <div id ="prev-words" class="white-box">
+                        <h2>Previous<br>Words <em>of the</em> Day</h2>
+<ul>
+
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2014/02/13.html">pluvial</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2014/01/21.html">williwaw</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2014/01/02.html">punnet</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2014/01/11.html">mot</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal="2" href="http://dictionary.reference.com/wordoftheday/archive/2014/02/02.html">slake</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2014/03/06.html">wayfarer</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2014/03/14.html">contiguous</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2014/03/26.html">coxcomb</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2014/02/05.html">farceur</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2013/12/28.html">hibernaculum</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2013/12/26.html">schmaltz </a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2013/12/22.html">fiddlesticks</a>
+<li><a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" href="http://dictionary.reference.com/wordoftheday/archive/2013/12/17.html">cathexis</a>
+
+
+
+
+
+</ul>
+<a  data-cts='{"linkId":"fttu0h","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"pwotd","clksite":"dict","clkld":"260:1","ordinal":"8"}' data-ordinal="8" href="http://dictionary.reference.com/wordoftheday/archive">See More...</a>                    </div>
+                                        </div>
+                </div>
+            </div>
+            <!-- Two columns -->
+            <div id="twocolumns">
+                <!-- content -->
+                <div id="content">
+                                        <a href="http://dictionary.reference.com/slideshows/death-and-taxes#death-and-taxes" data-linkid="9q3oel" >                        <!-- gallery -->
+                        <ul class="gallery">
+                            <li class="active">
+                                <img src="http://static.sfdict.com/assets/4067-3590433-1.jpg" width="460" height="220" />                                <div class="text-box">
+                                    <div class="text-holder">
+                                        <h2>Where did the name <em>Form 1040</em> come from?</h2>
+                                        <p>Learn the lingo behind your tax forms here.</p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                                            </a>
+                                        <!-- two-columns -->
+                    <div class="two-columns">
+                        <!-- col -->
+                        <div class="col">
+                                                        <div class="word-box">
+                                <h2 class="title-word" style="margin:0 0 13px;">
+   <a href="http://blog.dictionary.com/two-lines-dollar-sign/"  data-cts='{"linkId":"9emnlj","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hero2","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1">the <em>Definition</em></a>
+</h2>
+
+<a href="http://blog.dictionary.com/two-lines-dollar-sign/"  data-cts='{"linkId":"9emnlj","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hero2","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal="2">
+   <img src="http://static.dictionary.com/homepage/carousel/August-2012/dollar_CL.jpg" width="208" height="74" alt="image description" />
+</a>
+
+<h3>
+   <a href="http://blog.dictionary.com/two-lines-dollar-sign/"  data-cts='{"linkId":"9emnlj","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hero2","clksite":"dict","clkld":"260:1","ordinal":"3"}' data-ordinal="3">
+       Millions don't call this the dollar sign 
+   </a>
+</h3>
+<p>The U.S. borrowed this symbol from another country and another currency.</p>
+<a class="more" href="http://blog.dictionary.com/two-lines-dollar-sign/"   data-cts='{"linkId":"9emnlj","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hero2","clksite":"dict","clkld":"260:1","ordinal":"4"}' data-ordinal="4">Why is it an S-shape? </a>                                                            </div>
+                                                                                    <div class="diversion-box">
+                                <h2>Diversions<span class="mark">[dih-vur-zhuhnz]</span>
+</h2>
+<a href="http://dynamo.dictionary.com/194449/high-scoring-words-for-scrabble-and-words-with-friends"  data-cts='{"linkId":"hc9y0a","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"diversion","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1">
+<img src="http://static.dictionary.com/homepage/carousel/2013/img051.png" width="175" height="49" alt="diversions" />
+</a>
+<h3>Word Dynamo Crossword <em>Great Scrabble terms</em>
+</h3>
+<a class="more" href="http://dynamo.dictionary.com/194449/high-scoring-words-for-scrabble-and-words-with-friends"  data-cts='{"linkId":"hc9y0a","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"diversion","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal="2">Play now</a>							
+<h3 class="title-more">More Ways <em>to</em> Play</h3>
+<ul>	
+<li>
+<a href="http://dictionary.reference.com/fun/crossword"  data-cts='{"linkId":"hc9y0a","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"diversion","clksite":"dict","clkld":"260:1","ordinal":"3"}' data-ordinal="3">The Daily Crossword</a>
+</li>							
+<li>
+<a href="http://dictionary.reference.com/crossword/index.html"  data-cts='{"linkId":"hc9y0a","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"diversion","clksite":"dict","clkld":"260:1","ordinal":"4"}' data-ordinal="4">Agent X Crossword Solver</a>
+</li>						
+<li>
+<a href="http://dictionary.reference.com/fun"  data-cts='{"linkId":"hc9y0a","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"diversion","clksite":"dict","clkld":"260:1","ordinal":"5"}' data-ordinal="5">All Dictionary.com Word Games</a>
+</li>					
+</ul>                            </div>
+                                                                                    <div class="reference-box">
+                                <h3 class="title-reference">For <em>your</em> Reference</h3>
+<ul>
+<li><a href="http://www.reference.com/motif/Business/cover-letter-format"  data-cts='{"linkId":"g9x14e","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hpref","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal=1>How do you format a cover letter?</a></li>
+<li><a href="http://www.reference.com/motif/Education/college-essay-topic"  data-cts='{"linkId":"g9x14e","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hpref","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal=2>How do I choose a college essay topic?</a></li>
+<li><a href="http://www.reference.com/motif/Education/thesis-statement"  data-cts='{"linkId":"g9x14e","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hpref","clksite":"dict","clkld":"260:1","ordinal":"3"}' data-ordinal=3>What is a thesis statement?</a></li>
+<li><a href="http://www.reference.com/motif/Business/interview-thank-you-letter"  data-cts='{"linkId":"g9x14e","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hpref","clksite":"dict","clkld":"260:1","ordinal":"4"}' data-ordinal=4>What's the best way to write a good thank you note?</a></li>
+</ul>                            </div>
+                                                    </div>
+                    <!-- col -->
+
+                    <div class="col">
+                                                                        <div class="word-dynamo-box word-box">
+                            <h2 class="title-reference" style="margin:0 0 13px;">
+   <a href="http://blog.dictionary.com/password"  data-cts='{"linkId":"bofuu0","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hero3","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1">
+
+
+   <a href="http://blog.dictionary.com/password"  data-cts='{"linkId":"bofuu0","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hero3","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal="1">in <em>the</em> News</a></a>
+</h2>
+
+
+<a href="http://blog.dictionary.com/password"  data-cts='{"linkId":"bofuu0","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hero3","clksite":"dict","clkld":"260:1","ordinal":"3"}' data-ordinal="2">
+   <img src="http://static.dictionary.com/homepage/carousel/2013/eeg_cr.jpg" width="208" height="74" alt="Import" />
+</a>
+
+<h3>
+   <a href="http://blog.dictionary.com/password"  data-cts='{"linkId":"bofuu0","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hero3","clksite":"dict","clkld":"260:1","ordinal":"4"}' data-ordinal="3">
+      What if passwords <br>didn't have words?
+   </a>
+</h3>
+<p>Could you input your password just by thinking? New research says yes.
+</p>
+<a class="more" href="http://blog.dictionary.com/password"   data-ordinal="4">How soon will this be a reality?</a>                        </div>
+                                                                                                                        <div class="new-box">
+                            <h2 style="cursor: pointer" onmousedown="moduleClickHandler(event,'http://dictionary.reference.com/wordoftheday/list/','http://click.reference.com/click/icvqvm?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=mktgPromo&clkdest=http%3A%2F%2Fdictionary.reference.com%2Fwordoftheday%2Flist%2F')">Love our Word of the Day? Get our Slideshows too!</h2>
+                            <img style="cursor: pointer" onmousedown="moduleClickHandler(event,'http://dictionary.reference.com/wordoftheday/list/','http://click.reference.com/click/icvqvm?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=mktgPromo&clkdest=http%3A%2F%2Fdictionary.reference.com%2Fwordoftheday%2Flist%2F')" src="http://static.sfdict.com/assets/4081-5449497-7.png" width="61" height="61" />                            <div class="text-box">
+                                <h3 style="cursor: pointer" onmousedown="moduleClickHandler(event,'http://dictionary.reference.com/wordoftheday/list/','http://click.reference.com/click/icvqvm?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=mktgPromo&clkdest=http%3A%2F%2Fdictionary.reference.com%2Fwordoftheday%2Flist%2F')"></h3>
+                                <p>Sign up for our Word of the Day email.</p>
+                                <a href="http://dictionary.reference.com/wordoftheday/list/"  class="more"  style="cursor: pointer" data-cts='{"linkId":"icvqvm","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"mktgPromo","clksite":"dict","clkld":"260:1"}'>Subscribe</a>                                
+                            </div>
+                            </div>
+                                                                        
+                                                    <div class="recents-box">
+                                    <h2>Recents <em>and</em> Favorites</h2>
+                                    <p>Create a free Dictionary.com account and keep track of your favorite words and search history.</p>
+                                    <a href="http://app.dictionary.com/signup/core?source=header_dict&logindest=http://dictionary.reference.com"  class="btn-sign" data-cts='{"linkId":"iggfvh","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"hpNew","clksite":"dict","clkld":"260:1"}'><b>Sign up now!</b></a>
+                                                                    </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="aside">
+                <script type="text/javascript">
+                    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+                    var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+                    var dt = new Date();
+                    var date = dt.getDate();
+                    var mon = months[dt.getMonth()];
+                    var day = days[dt.getDay()];
+                    document.write("<h2>"+day+", <span class=\"mark\">"+mon+" "+date+"</span></h2>");
+                </script>
+                                
+                <p style="cursor: pointer;" onmousedown="moduleClickHandler(event,'http://blog.dictionary.com/april/','http://click.reference.com/click/mjlh9w?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=date&clkdest=http%3A%2F%2Fblog.dictionary.com%2Fapril%2F')">Why is April called "April"? <a href="http://blog.dictionary.com/april/">The answer is a mystery.</a>  </p>
+                
+                <!-- banner -->
+                <div class="banner" style="width:300px;min-height:250px;">
+                    <div id="dcomPUHPTop-300x250"><script type="text/javascript">if(typeof UserController != "undefined" &&  UserController.isPremium()){document.getElementById("dcomPUHPTop-300x250").remove();} else{ googletag.cmd.push(function() { googletag.display("dcomPUHPTop-300x250"); });};</script></div>                </div>
+
+                                <!-- social-box -->
+                <div class="social-box">
+                    <h3>Dictionary.com Social</h3>
+                    <ul>
+<p>
+<div class="g-page" data-href="https://plus.google.com/117428481782081853923" data-layout="landscape" data-rel="publisher"></div>
+<script type="text/javascript">
+(function()
+
+{ var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); }
+)();
+</script>
+</p>
+
+<p>
+<li style=
+"background-repeat: no-repeat; background-position: -2118px -645px;padding-top: 9px; padding-bottom: 0px;margin-top: 17px;height: 35px;">
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<a href="https://twitter.com/dictionarycom" data-show-count="true"  data-cts='{"linkId":"4r16v4","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hpSocial","clksite":"dict","clkld":"260:1","ordinal":"1"}' data-ordinal="1" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @dictionarycom</a>
+</li ></p>
+
+<p> </p></li><li style="padding-top: 6px; padding-bottom: 3px;"><a href="http://facebook.com/dictionarycom"  data-cts='{"linkId":"4r16v4","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hpSocial","clksite":"dict","clkld":"260:1","ordinal":"3"}' data-ordinal="3">facebook.com/dictionarycom</a> <p><a href="http://facebook.com/dictionarycom"  data-cts='{"linkId":"4r16v4","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"hpSocial","clksite":"dict","clkld":"260:1","ordinal":"4"}' data-ordinal="4" style="color:black">Like us on Facebook!</a></p> </li>                </div>
+                                <!-- banner -->
+                <div class="banner" style="width:300px;min-height:251px;">
+                    <div id="dcomPUHPBtm-300x251"><script type="text/javascript">if(typeof UserController != "undefined" &&  UserController.isPremium()){document.getElementById("dcomPUHPBtm-300x251").remove();} else{ googletag.cmd.push(function() { googletag.display("dcomPUHPBtm-300x251"); });};</script></div>                </div>
+                                <!-- popular-box -->
+                <div class="popular-box">
+                    <h3 class="popular-title">Suddenly <em>Popular</em></h3>
+<div class="column-holder">
+<div class="column">
+<p><b>Suspiciously</b> strong searches:</p>
+
+<ul>
+<li><a href="http://dictionary.reference.com/browse/breathtaking"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal="2">Breathtaking</a></li>
+<li><a href="http://dictionary.reference.com/browse/flummoxed"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal="2">Flummoxed</a></li>
+<li><a href="http://dictionary.reference.com/browse/crest"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal="2">Crest</a></li>
+<li><a href="http://dictionary.reference.com/browse/portent"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"2"}' data-ordinal="2">Portent</a></li>
+<li><a href="http://dictionary.reference.com/browse/compile"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"3"}' data-ordinal="3">Compile</a></li>
+<li><a href="http://dictionary.reference.com/browse/lease"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"4"}' data-ordinal="4">Lease</a></li>
+<li><a href="http://dictionary.reference.com/browse/missive"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"4"}' data-ordinal="4">Missive</a></li>
+</ul>
+
+</div>
+<div class="column">
+<h3>Know how to use these common symbols?</h3>
+<ul>
+
+<li><a href="http://hotword.dictionary.com/slash"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"11"}' data-ordinal="11">Slash /</a></li>
+<li><a href="http://hotword.dictionary.com/Comma"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"8"}' data-ordinal="8">Comma ,</a></li>
+<li><a href="http://hotword.dictionary.com/fathers-day"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"10"}' data-ordinal="10">Apostrophe '</a></li>
+<li><a href="http://hotword.dictionary.com/ampersand/"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"7"}' data-ordinal="7">Ampersand &</a></li>
+<li><a href="http://hotword.dictionary.com/octothorpe/"  data-cts='{"linkId":"86gi5l","infix":"","domain":"dictionary.com","clkpage":"dict-home","clkmod":"popular","clksite":"dict","clkld":"260:1","ordinal":"7"}' data-ordinal="7">Hashtag #</a></li>
+
+</ul>
+</div>
+</div>                </div>
+                            </div>
+              
+       </div>
+    </div>
+<div class="carousel-holder">
+    <div class="title-section">
+        <div class="btn-holder">
+            <div class="prev">prev</div>
+            <div class="next active">next</div>
+        </div>
+        <h3>Discover <em>Our</em> Greatest Slideshows</h3>
+    </div>
+    <div class="mask">
+        <ul class="carousel">
+                                <li>
+                        <a href="http://dictionary.reference.com/slideshows/death-and-taxes"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg1" style="cursor: pointer;border: medium none;" src="http://static.sfdict.com/assets/1805-2251644-1.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/death-and-taxes"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                Death & Taxes: All We Can Do Is...                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/death-and-taxes" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/number-idioms"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg2" style="cursor: pointer;border: medium none;" src="http://static.sfdict.com/assets/4064-5698998-0.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/number-idioms"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                Let Me Count the Ways: 10...                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/number-idioms" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/game-of-thrones"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg3" style="cursor: pointer;border: medium none;" src="http://static.sfdict.com/assets/4025-2152580-12.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/game-of-thrones"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                All Men Must Die: The Lexicon of...                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/game-of-thrones" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/laugh"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg4" style="cursor: pointer;border: medium none;" src="http://static.sfdict.com/assets/3953-4958151-0.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/laugh"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                9 Ways to Laugh                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/laugh" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/novel-neologisms-clone"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg5" style="cursor: pointer;border: medium none;" src="" class="not-loaded" data-src="http://static.sfdict.com/assets/2008-1114541-41.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/novel-neologisms-clone"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                Discover nine novel English...                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/novel-neologisms-clone" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/no-words-cloned"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg6" style="cursor: pointer;border: medium none;" src="" class="not-loaded" data-src="http://static.sfdict.com/assets/3033-3765302-8.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/no-words-cloned"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                9 Ways to Say No                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/no-words-cloned" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/bossy"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg7" style="cursor: pointer;border: medium none;" src="" class="not-loaded" data-src="http://static.sfdict.com/assets/3846-9303417-4.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/bossy"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                5 Things You Might Not Know About...                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/bossy" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/sibling-rivalry"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg8" style="cursor: pointer;border: medium none;" src="" class="not-loaded" data-src="http://static.sfdict.com/assets/1423-6582418-7.png"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/sibling-rivalry"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                Brothers (and Sisters) Battle:...                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/sibling-rivalry" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/green-words"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg9" style="cursor: pointer;border: medium none;" src="" class="not-loaded" data-src="http://static.sfdict.com/assets/3795-6555503-0.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/green-words"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                15 Shades of Green: Emerald...                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/green-words" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                                        <li>
+                        <a href="http://dictionary.reference.com/slideshows/irish-creatures"  class="inline" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                                    <img width="130" height="140" id="slideImg10" style="cursor: pointer;border: medium none;" src="" class="not-loaded" data-src="http://static.sfdict.com/assets/3794-7618446-7.jpg"/>
+                        
+                        </a>
+                        <div class="carousel-cont">
+                            <h3 class="h3-carousel-style">
+                                <a href="http://dictionary.reference.com/slideshows/irish-creatures"  class="block" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>
+                                Beyond Leprechauns: 7 Creatures of...                                </a>
+                            </h3>
+                            <a href="http://dictionary.reference.com/slideshows/irish-creatures" data-cts='{"linkId":"pdoku0","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"contentPromo","clksite":"dict","clkld":"260:1"}'>Launch</a>
+                        </div>
+                    </li>
+                            </ul>
+    </div>
+</div>
+<!-- 5Atest 240:0 260:1 refxdcom018iad.io.askjeeves.info 2014-04-15 10:43:24 -->
+<div id="suggestWord" style="display:none;"></div>
+        <div class="navigation-holder">
+                                <div class="brw">Browse Dictionary</div>
+                                <div>
+				<div class="item">
+                                        <ul class="navigation">
+                    <li><a href="http://dictionary.reference.com/list/a">A</a></li>
+                    <li><a href="http://dictionary.reference.com/list/b">B</a></li>
+                    <li><a href="http://dictionary.reference.com/list/c">C</a></li>
+                    <li><a href="http://dictionary.reference.com/list/d">D</a></li>
+                    <li><a href="http://dictionary.reference.com/list/e">E</a></li>
+                    <li><a href="http://dictionary.reference.com/list/f">F</a></li>
+                    <li><a href="http://dictionary.reference.com/list/g">G</a></li>
+                    <li><a href="http://dictionary.reference.com/list/h">H</a></li>
+                    <li><a href="http://dictionary.reference.com/list/i">I</a></li>
+                    <li><a href="http://dictionary.reference.com/list/j">J</a></li>
+                    <li><a href="http://dictionary.reference.com/list/k">K</a></li>
+                    <li><a href="http://dictionary.reference.com/list/l">L</a></li>
+                    <li><a href="http://dictionary.reference.com/list/m">M</a></li>
+                    <li><a href="http://dictionary.reference.com/list/n">N</a></li>
+                    <li><a href="http://dictionary.reference.com/list/o">O</a></li>
+                    <li><a href="http://dictionary.reference.com/list/p">P</a></li>
+                    <li><a href="http://dictionary.reference.com/list/q">Q</a></li>
+                    <li><a href="http://dictionary.reference.com/list/r">R</a></li>
+                    <li><a href="http://dictionary.reference.com/list/s">S</a></li>
+                    <li><a href="http://dictionary.reference.com/list/t">T</a></li>
+                    <li><a href="http://dictionary.reference.com/list/u">U</a></li>
+                    <li><a href="http://dictionary.reference.com/list/v">V</a></li>
+                    <li><a href="http://dictionary.reference.com/list/w">W</a></li>
+                    <li><a href="http://dictionary.reference.com/list/x">X</a></li>
+                    <li><a href="http://dictionary.reference.com/list/y">Y</a></li>
+                    <li><a href="http://dictionary.reference.com/list/z">Z</a></li>
+        
+        </ul></div>
+                <div class="item sublinks">
+            <a href="http://dictionary.reference.com/medical" data-cts='{"linkId":"w6yrx3","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"meddict","clksite":"dict","clkld":"260:1"}'>Medical Dictionary</a>
+            <a href="http://dictionary.reference.com/abbreviations" data-cts='{"linkId":"vhit4r","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"abbrev","clksite":"dict","clkld":"260:1"}'>Abbreviations</a>
+            <a href="http://dictionary.reference.com/cultural" data-cts='{"linkId":"ijpjyy","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"cult","clksite":"dict","clkld":"260:1"}'>Cultural</a>
+            <a href="http://dictionary.reference.com/science" data-cts='{"linkId":"orn2jz","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"science","clksite":"dict","clkld":"260:1"}'>Science</a>
+            <a href="http://dictionary.reference.com/slang" data-cts='{"linkId":"erkc7z","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"slang","clksite":"dict","clkld":"260:1"}'>Slang</a>
+        </div>
+                </div></div>
+                          <div class="ptnr">
+         <div class="iteml">
+					<a href="http://content.dictionary.com"  class="sfdic" data-cts='{"linkId":"20fqrf","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"fdic","clksite":"dict","clkld":"260:1"}'></a>
+                                                <div class="itemr">
+                                <b class="ptb">Partners:</b>
+				<ul class="bar">
+                                    <li><a href="http://dictionary.reference.com/word" data-cts='{"linkId":"khlrub","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"pwrd","clksite":"dict","clkld":"260:1"}'>Word</a></li>
+                                    <li><a href="http://www.bloglines.com/" data-cts='{"linkId":"lif9yl","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"pblg","clksite":"dict","clkld":"260:1"}'>Bloglines</a></li>
+                                    <li><a href="http://www.citysearch.com/" data-cts='{"linkId":"xzoji2","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"pctysrch","clksite":"dict","clkld":"260:1"}'>Citysearch</a></li>
+                                    <li><a href="http://www.thedailybeast.com/" data-cts='{"linkId":"r3vehy","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"pdlybst","clksite":"dict","clkld":"260:1"}'>The Daily Beast</a></li>
+                                    <li><a href="http://answers.ask.com/" data-cts='{"linkId":"tyg264","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"paskansw","clksite":"dict","clkld":"260:1"}'>Ask Answers</a></li>
+                                    <li><a href="http://www.askkids.com/" data-cts='{"linkId":"lsfcwp","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"paskkids","clksite":"dict","clkld":"260:1"}'>Ask Kids</a></li>
+                                    <li><a href="http://www.life123.com/" data-cts='{"linkId":"v3vdw8","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"plife","clksite":"dict","clkld":"260:1"}'>Life123</a></li>
+                                                 <li><a href="http://www.sendori.com/" data-cts='{"linkId":"9o2kq","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"psendori","clksite":"dict","clkld":"260:1"}'>Sendori</a></li>
+                         <li><a href="http://www.homeadvisor.com/"  class="npr" data-cts='{"linkId":"1ow9ml","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"pthes","clksite":"dict","clkld":"260:1"}'>Home Advisor</a></li>
+                                       			</ul></div></div></div>
+                        <div class="bar-holder">
+				<ul class="bar">
+                                            
+            <li><a href="http://dictionary.com/about"  target="_top" data-cts='{"linkId":"y0qla1","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"abt","clksite":"dict","clkld":"260:1"}'>About</a></li>
+					  <li><a href="http://dictionary.com/privacy"  target="_top" data-cts='{"linkId":"u2afv2","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"prvplcy","clksite":"dict","clkld":"260:1"}'>PRIVACY POLICY</a></li>
+                      <li><a href="http://dictionary.com/terms"  target="_top" data-cts='{"linkId":"cuhe6x","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"trmofuse","clksite":"dict","clkld":"260:1"}'>Terms</a></li>
+					  <li><a href="http://dictionary.com/careers"  target="_top"  rel="nofollow" data-cts='{"linkId":"pm7vfr","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"careers","clksite":"dict","clkld":"260:1"}'>Careers</a></li>
+					  <li><a href="http://dictionary.com/mediakit"  target="_top" data-cts='{"linkId":"bga8c7","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"advtus","clksite":"dict","clkld":"260:1"}'>Advertise with Us</a></li>
+					  <li><a href="http://dictionary.com/contact"  target="_top" data-cts='{"linkId":"lnnyvs","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"cnt","clksite":"dict","clkld":"260:1"}'>Contact Us</a></li>
+                                          <li><div style="cursor:pointer;" onmousedown="suggestWordAction('http://track.reference.com/track/clickClient?site=dict&pageName=dict-home&ldid=260:1&module=suggest2&linkIds=e2r2wp','http://content.dictionary.com/contact?Suggestion&z=1');">Suggest a Word</div></li>
+					  <li><a href="http://dictionary.com/help"  target="_top"  class="npr" data-cts='{"linkId":"ehy6lf","infix":"","domain":"reference.com","clkpage":"dict-home","clkmod":"help","clksite":"dict","clkld":"260:1"}'>Help</a></li>
+
+        
+        </ul><p>Copyright &copy; 2014 <strong>Dictionary.com, LLC.</strong> All rights reserved.</p></div></div>
+
+            
+                    <div id="sftr"><div class="search-holder">
+			<strong class="logo2"><a id="fologo" href="#main">Dictionary.com</a></strong>
+			<a class="btn-favorites" onmouseover="favoritesInFooter()" href="#">FAVORITES</a>
+                        <a class="btn-recents" onmouseover="recentSearchesinFooter()" href="#">RECENT</a>
+
+           
+               <form id="main_search_bot" action="http://dictionary.reference.com/dic"  class="search-form" onsubmit="return formcheck('qb');">
+                   <fieldset>
+                            <div class="area-holder">
+                                <input size="40" name="q" id="qb" onclick="make_blank();" type="text" this.value = \'\';" autocomplete="off" value="search dictionary" />
+                                <input type="hidden" id="dq" value="search dictionary"/>
+                                <input type="hidden" name="s" value="b" />
+                                                            </div>
+                        <input type="submit" value="search" />
+                   </fieldset>
+                </form>
+
+            
+
+                    <a class="fCol"></a>
+		</div>
+        
+
+
+        <div id="bfpu" class="bfp" style="display: none;">
+                    <ul>
+                    <li class="bpt"></li>
+                        <li class="bpd" style="line-height:14px;">Please <a class="flog" href="http://app.dictionary.com/login/core?source=footer&fnCallback=loginuser&logindest=http://dictionary.reference.com">Login</a> or <a class="freg" href="http://app.dictionary.com/signup/core?source=footer&fnCallback=loginuser&logindest=http://dictionary.reference.com">Sign Up</a> to use the Favorites feature</li>
+                        <li class="bpb"></li>
+                    </ul>
+                </div>
+        <div id="brpu" class="bfp"  style="display: none;">
+                <ul>
+                <li class="bpt"></li>
+                <li class="bpd" style="line-height:14px;"></li>
+                <li class="bpb"></li>
+                </ul>
+            </div></div><div id="spanids" style="height:1px;width:1px;"></div><div id="gaJS" style="height:1px;width:1px;"></div>
+    
+<style type="text/css">
+    .ra1-pw-buttonSprite-24 {
+        height: 20px !important;
+        width: 21px !important;
+        background-position: -2px -1058px !important
+    }
+
+    #po_st {
+        top: -2px !important
+    }
+</style>
+
+
+<!--  gutters -->
+<script type="text/javascript" src="http://static.sfdict.com/app/js/jquery-1.7.1.min.js"></script>
+
+<!-- click -->
+
+    <script>  
+
+        //remove placeholder on focus, restore on blur
+        $('#searchInput').ready(function(){
+
+            var searchPlaceholderText = 'search dictionary'
+
+            /* Remove placeholder on focus */
+            $('.searchInput').on('focus', function(event){
+               $(this).removeAttr('placeholder');
+            });
+
+            /* Restore placeholder on blur */
+            $('.searchInput').on('blur', function(){
+                $(this).attr('placeholder', searchPlaceholderText);
+
+            });
+        });
+    //end
+            
+            
+        $(document).ready(function(){
+            $(document).on('submit', '.searchForm', function(e){
+                e.preventDefault();
+
+
+                var searchWord = $(this).find('.searchInput').val();
+                if( ! searchWord){
+                    searchWord = 'search';
+                }
+
+                var url = $('#searchBaseUrl').attr('href') + searchWord;
+
+                window.location = url;
+            });
+        });
+
+
+        $(document).on('ctsready', function(){
+            $('#searchBaseUrl').trigger('mousedown'); 
+        });
+
+    
+    </script>
+
+ <!-- // -->
+
+
+<div id="trackingpixel" style="display:none">
+    <script type="text/javascript">
+var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "6034776",c3:"",c4:(new String(window.location)).replace(/\?.*$/, "") });    
+    
+$(document).ready(function(){
+
+    /*Comscore pixels*/
+    ghostwriter(
+        "trackingpixel",
+        {
+            insertType: "append",
+            script: { text: "document.write('<script src=\"" + (document.location.protocol == "https:" ? "https://sb" : "http://b")+ ".scorecardresearch.com/beacon.js"+"\"><\/script>');" }
+        }
+    );
+
+    });
+</script></div>
+<!-- Begin Quantcast Tag, part 1 -->
+<script type="text/javascript"> 
+  
+  var _qevents = _qevents || [];
+
+  (function() {
+   var elem = document.createElement('script');
+
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);  
+  })();
+</script>
+<!-- End Quantcast Tag, part 1 -->
+<!-- Begin Quantcast Tag, part 2 -->
+<script type="text/javascript">
+_qevents.push( { qacct:"p-51zXP5Cc9sxvQ"} );
+</script>
+<noscript>
+<div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-51zXP5Cc9sxvQ.gif" height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+<!-- End Quantcast Tag, part 2 -->
+
+<script type="text/javascript" src="http://static.sfdict.com/app/js/gw.min.js"></script>
+         <script type="text/javascript" src="http://static.sfdict.com/app/js/advertisement.js"></script>
+
+<script>
+    if (document.getElementById("dictionary_advertisement") == undefined)
+    {
+        var img = new Image();
+        img.src = 'http://track.reference.com/track/adBlockerDetected?site=dict&pageName=dict-home&ldid=260:1&ord=541298372';
+        if(typeof _gaq !='undefined'){
+            _gaq.push(['_trackEvent','adBlockerDetected','true']);
+        }
+    }
+</script>
+<script type="text/javascript" src="http://static.sfdict.com/app/r23683/js/seo_anchor.js"></script>
+<script type="text/javascript" src="http://static.sfdict.com/app/r23683/js/click_tracking.js"></script>
+<script type="text/javascript">var quantSegs=""; var d = new Image(1, 1);d.onerror = d.onload = function () { d.onerror = d.onload = null; };d.src = "http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-805928h&cg=0&cc=1&si="+escape(window.location.href)+"&rp="+escape(document.referrer)+"&ts=compact&rnd="+(new Date()).getTime();
+$(document).ready(function(){ if(!$('#ad_728x90').is(':hidden') ) {$('#buyads').css('display','block');} });
+</script>
+<style type="text/css">#buyads{min-height:70px;}#sidebar .social-networks .pinterest{height:32px;}#sidebar .social-networks a{height:32px;}#topwst{top:0px;}
+</style><script type="text/javascript">
+    function logAdBlock() {
+        if($("#ad_1x1").is(':hidden')) {
+
+            var url = 'http://track.reference.com/track/adBlockerDetected?site=dict&pageName=dict-home&ldid=260:1';
+            var img = new Image();
+            img.src = url;
+            if(window['_gaq'] != undefined) {
+                _gaq.push(['_trackEvent','adBlockerDetected','true']);
+            }
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    var infix = '';
+    var recentHref = 'http://click.reference.com/click/f1h0vi?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=forec&clkdest=http%3A%2F%2Fdictionary.reference.com%2Fbrowse%2F';
+    var favHref = 'http://click.reference.com/click/lwjk79?clksite=dict&clkpage=dict-home&clkld=260:1&clkmod=fofav&clkdest=http%3A%2F%2Fdictionary.reference.com%2Fbrowse%2F'
+</script>
+<script type="text/javascript"  src="http://static.sfdict.com/app/r23683/js/stickyFooterDataGenerator.js" ></script><script type="text/javascript">
+    $(document).ready(function(){
+        $.ajax({
+            url: 'http://static.sfdict.com/app/r23683/js/jquery-ui.js',
+            dataType: 'script',
+            cache: true, // otherwise will get fresh copy every page load
+            success: function() {
+                (function(d, t) {
+                    var g = d.createElement(t),
+                        s = d.getElementsByTagName(t)[0];
+                    g.src = 'http://static.sfdict.com/app/r23683/js/topheavy_header_footer.js';
+                    s.parentNode.insertBefore(g, s);
+                }(document, 'script'));
+
+                $.ajax({
+                    url: 'http://static.sfdict.com/app/r23683/js/gptSimpleRefresh.js',
+                    dataType: 'script',
+                    cache: true, // otherwise will get fresh copy every page load
+                    success: function() {
+                        $.ajax({
+                            url: 'http://static.sfdict.com/dictcloud/r23683/js/puhp.js',
+                            dataType: 'script',
+                            cache: true, // otherwise will get fresh copy every page load
+                            success: function() {
+                                if(queryStringVal('sshow')){
+                                    var slideshowurl= 'http://dictionary.reference.com/slideshow/'+queryStringVal("sshow")+'?ldid=0';
+                                    if(queryStringVal('slide')){
+                                        var slideshowurl= 'http://dictionary.reference.com/slideshow/'+queryStringVal("sshow")+'/'+queryStringVal("slide")+'?ldid=0';
+                                    }
+                                    openMyModal(slideshowurl);
+                                }
+                            }
+                        })
+                    }
+                });
+            }
+        })
+    })
+</script>
+        <script type="text/javascript">
+            // Start Google Analytics tracking code
+            var _gaq = _gaq || [];
+            _gaq.push(
+            ['_setAccount', 'UA-4036279-9'],
+            ['_setDomainName', '.reference.com'],
+            ['_setAllowHash', false],
+            ['_setAllowLinker', true],
+            ['_setSiteSpeedSampleRate', 5]
+        );
+            
+                           
+           					if(typeof(abtestId)!='undefined'){
+						if(abtestId!=null && (abtestId.indexOf("_2")!=-1||abtestId.indexOf("_1")!=-1 || abtestId.indexOf("_3")!=-1||abtestId.indexOf("_4")!=-1)){                
+						_gaq.push(['_setCustomVar', 1, 'LD',abtestId, 2]);  
+						}                
+					}else if(typeof(sratestId)!='undefined'){
+						_gaq.push(['_setCustomVar', 1, 'LD',sratestId, 2]);  
+					}else{
+					_gaq.push(['_setCustomVar', 1, 'LD','0', 2]);  
+					}
+                    
+           
+            if(typeof(abtestId)!='undefined'){
+                if(abtestId!=null && (abtestId.indexOf("_2")!=-1||abtestId.indexOf("_1")!=-1 || abtestId.indexOf("_3")!=-1||abtestId.indexOf("_4")!=-1)){                
+                        _gaq.push(['_trackEvent','page loaded','loaded'], true);
+                }
+                
+            }
+            if(window['pageviewURL']!=undefined && window['pageviewURL']!=''){
+              _gaq.push(['_trackPageview', pageviewURL.toString()]);
+            }else{
+              _gaq.push(['_trackPageview']); 
+            } 
+          
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com'+ '/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+            // End Google Analytics tracking code
+        </script> 
+        <script>
+    new Image().src = "http://track.reference.com/webtrack.gif?ev=i&lk=iggfvh&pn=dict-home&st=dict&ab=260%3A1&rf=" + encodeURIComponent(document.referrer) + "&cb=" + Math.floor((Math.random()*899999999)+100000000);
+</script>
+<script type="text/javascript"  src="http://static.sfdict.com/app/r23683/js/mwCookieGenerator.js" ></script></body>
 </html>
