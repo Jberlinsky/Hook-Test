@@ -11,15 +11,18 @@ patterns = []
 
 for i in range(0, titleMatchNum):
 	pattern = ''
-	for i in range(0, 9):
-		alphab = random.choice(alphabs)
-		pattern = pattern + alphab
-		if random.randint(0,1) == 0:
+	while True:
+		for i in range(0, 9):
+			alphab = random.choice(alphabs)
+			pattern = pattern + alphab
+			if random.randint(0,1) == 0:
+				break
+		if pattern not in patterns:
+			patterns.append(pattern)
 			break
-	patterns.append(pattern)
 
 for i in range(0, titleMatchNum):
-	attrNames.append('titleMatch' + patterns[i])
+	attrNames.append('titleMatchRegex:' + patterns[i])
 
 def addTitleMatchAttr(info, fileObject):
 
