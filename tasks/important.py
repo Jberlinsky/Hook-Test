@@ -13,7 +13,7 @@ def addNoisyAndImportanceAttr(info, index):
 		important = True
 
 	for i in range(50, 100):
-		if random.randint(0,100) < i:
+		if random.randint(1, 100) < i:
 			info.append(important)
 		else:
 			info.append(not important)
