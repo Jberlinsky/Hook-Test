@@ -3,7 +3,7 @@ from __main__ import funcs, attrNames
 
 attrNames.append('hasEmphasis')
 
-def addEmphasisAttr(info, fileObject):
+def addEmphasisAttr(info, fileObject, index):
 
 	soup = BeautifulSoup(fileObject)
 

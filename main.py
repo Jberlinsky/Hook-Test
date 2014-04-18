@@ -31,10 +31,7 @@ while os.path.isfile(runner.data_file_location() + filename):
     info = []
     fileObject = open(runner.data_file_location() + filename)
     for func in funcs:
-        #if func == funcs[-1]:
-            #func(info, index)
-        #else:
-        func(info, fileObject)
+        func(info, fileObject, index)
     infoList.append(info)
     index = index + 1
     filename = "index.html." + str(index)

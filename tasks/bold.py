@@ -3,20 +3,20 @@ from __main__ import funcs, attrNames
 
 attrNames.append('hasBold')
 
-def addBoldAttr(info, fileObject):
+def addBoldAttr(info, fileObject, index):
 
-	soup = BeautifulSoup(fileObject)
+  soup = BeautifulSoup(fileObject)
 
-	i = 0
-	for bold in soup.find_all('b'):
-		i = i+1
+  i = 0
+  for bold in soup.find_all('b'):
+    i = i+1
 
-	hasBold = False
-	if i:
-		hasBold = True
+  hasBold = False
+  if i:
+    hasBold = True
 
-	info.append(hasBold)
-	
-	return
+  info.append(hasBold)
+
+  return
 
 funcs.append(addBoldAttr)

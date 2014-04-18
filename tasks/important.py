@@ -6,7 +6,7 @@ for i in range(50, 100):
 
 attrNames.append('important')
 
-def addNoisyAndImportanceAttr(info, index):
+def addNoisyAndImportanceAttr(info, fileObj, index):
 
 	important = False
 	if index < 153:
