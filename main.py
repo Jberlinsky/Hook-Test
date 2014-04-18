@@ -9,7 +9,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'tasks'))
 # HACK HACK HACK
 
 task_list = sys.argv[-1]
-if task_list == 'main.py':
+if task_list == './main.py' or task_list == 'main.py':
     task_list = runner.tasks()
 else:
     task_list = str.split(task_list, ',')
@@ -30,10 +30,10 @@ while os.path.isfile(runner.data_file_location() + filename):
     info = []
     fileObject = open(runner.data_file_location() + filename)
     for func in funcs:
-    	if func == funcs[-1]:
-    		func(info, index)
-    	else:
-    		func(info, fileObject)
+        if func == funcs[-1]:
+            func(info, index)
+        else:
+            func(info, fileObject)
     infoList.append(info)
     index = index + 1
     filename = "index.html." + str(index)
