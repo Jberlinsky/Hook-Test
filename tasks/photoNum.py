@@ -5,7 +5,7 @@ attrNames.append('hasPhotos')
 attrNames.append('moreThan10Photos')
 attrNames.append('moreThan100Photos')
 
-def addPhotoNumAttr(info, fileObject):
+def addPhotoNumAttr(info, fileObject, index):
 
 	soup = BeautifulSoup(fileObject)
 

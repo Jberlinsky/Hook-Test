@@ -6,7 +6,7 @@ attrNames.append('moreThan10Links')
 attrNames.append('moreThan100Links')
 attrNames.append('moreThan1000Links')
 
-def addLinkNumAttr(info, fileObject):
+def addLinkNumAttr(info, fileObject, index):
 
 	soup = BeautifulSoup(fileObject)
 

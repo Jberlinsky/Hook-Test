@@ -3,7 +3,7 @@ from __main__ import funcs, attrNames
 
 attrNames.append('hasItalic')
 
-def addItalicAttr(info, fileObject):
+def addItalicAttr(info, fileObject, index):
 
 	soup = BeautifulSoup(fileObject)
 

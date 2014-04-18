@@ -3,7 +3,7 @@ from __main__ import funcs, attrNames
 
 attrNames.append('hasStrong')
 
-def addStrongAttr(info, fileObject):
+def addStrongAttr(info, fileObject, index):
 
 	soup = BeautifulSoup(fileObject)
 
