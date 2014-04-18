@@ -2,6 +2,8 @@ import json
 
 def tasks():
   return ['titleMatch', 'linkNum', 'photoNum', 'strong', 'bold', 'emphasis', 'italic', 'important']
+  #return ['linkNum', 'photoNum', 'strong', 'bold', 'emphasis', 'italic']
+  #return ['linkNum']
 
 def arff_file_location():
   return './data.arff'

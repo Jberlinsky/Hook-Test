@@ -8,14 +8,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'tasks'))
 # Only run the tasks passed on the command line
 # HACK HACK HACK
 
-task_list = sys.argv[-1]
-if task_list == './main.py' or task_list == 'main.py':
-    task_list = runner.tasks()
-else:
-    task_list = str.split(task_list, ',')
-
-print "Running tasks: "
-print task_list
+task_list = runner.tasks()
 
 index = 0
 filename = "index.html"
@@ -26,14 +19,25 @@ attrNames = [] # Appended to within included modules
 for task in task_list:
     __import__(task)
 
+if sys.argv[-1] == 'list-attributes':
+    print json.dumps(attrNames)
+    sys.exit(0)
+
+print "Running tasks: "
+print task_list
+
+if attrNames != runner.attributes():
+    print "You must register each attribute in runner.py!"
+    sys.exit(1)
+
 while os.path.isfile(runner.data_file_location() + filename):
     info = []
     fileObject = open(runner.data_file_location() + filename)
     for func in funcs:
-        if func == funcs[-1]:
-            func(info, index)
-        else:
-            func(info, fileObject)
+        #if func == funcs[-1]:
+            #func(info, index)
+        #else:
+        func(info, fileObject)
     infoList.append(info)
     index = index + 1
     filename = "index.html." + str(index)
