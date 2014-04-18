@@ -2,7 +2,7 @@ from __main__ import funcs, attrNames
 import random
 
 for i in range(50, 100):
-	attrNames.append('noisy' + str(i) + '%')
+	attrNames.append('noisy' + str(i))
 
 attrNames.append('important')
 
