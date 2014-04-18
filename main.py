@@ -27,10 +27,6 @@ if sys.argv[-1] == 'list-attributes':
 print "Running tasks: "
 print task_list
 
-if attrNames != runner.attributes():
-    print "You must register each attribute in runner.py!"
-    sys.exit(1)
-
 while os.path.isfile(runner.data_file_location() + filename):
     info = []
     fileObject = open(runner.data_file_location() + filename)
