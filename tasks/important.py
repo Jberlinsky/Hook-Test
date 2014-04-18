@@ -4,7 +4,7 @@ import random
 for i in range(50, 100):
 	attrNames.append('noisy' + str(i))
 
-#attrNames.append('important')
+attrNames.append('important')
 
 def addNoisyAndImportanceAttr(info, fileObj, index):
 
@@ -18,7 +18,7 @@ def addNoisyAndImportanceAttr(info, fileObj, index):
 		else:
 			info.append(not important)
 
-	#info.append(important)
+	info.append(important)
 
 	return
 
