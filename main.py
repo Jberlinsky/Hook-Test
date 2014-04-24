@@ -11,8 +11,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'tasks'))
 
 task_list = runner.tasks()
 
-index = 0
-filename = "index.html"
+upperbound = 200
 infoList = []
 funcs = []
 attrNames = [] # Appended to within included modules
@@ -27,13 +26,13 @@ if sys.argv[-1] == 'list-attributes':
 print "Running tasks: "
 print task_list
 
-while os.path.isfile(runner.data_file_location() + filename):
-    info = []
-    fileObject = open(runner.data_file_location() + filename)
-    for func in funcs:
-        func(info, fileObject, index)
-    infoList.append(info)
-    index = index + 1
-    filename = "index.html." + str(index)
+for i in range (0, upperbound):
+    filename = str(i) + ".html"
+    if os.path.isfile(runner.data_file_location() + filename):
+        info = []
+        fileObject = open(runner.data_file_location() + filename)
+        for func in funcs:
+            func(info, fileObject, i)
+        infoList.append(info)
 
 arff.dump(runner.arff_file_location(), infoList, relation="webpage_info", names=attrNames)

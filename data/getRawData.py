@@ -1,8 +1,26 @@
+import urllib2
+import sys
 import os
+sys.path.append(os.path.dirname(__file__) + '/customsearch-cmd-line/')
+from getUrls import getUrlList
 
-with open('sample-urls.txt') as urls:
-	cmd = 'rm index.html*'
-	os.system(cmd)
-	for url in urls:
-		cmd = 'wget ' + url
-		os.system(cmd)
+cmd = 'rm *.html'
+os.system(cmd)
+
+result = getUrlList()
+urls = result[0]
+importantFileNum = result[1]
+
+index = 0
+for url in urls:
+	try:
+		remotefile = urllib2.urlopen(url)
+		localFile = open(str(index) + '.html', 'w')
+		localFile.write(remotefile.read())
+		localFile.close()
+		print 'successfully download raw datum:' + url
+		index = index + 1
+	except:
+		if index < importantFileNum:
+			importantFileNum = importantFileNum - 1
+		continue
