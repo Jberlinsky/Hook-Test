@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+
+
+<html data-ng-app="page.overview" data-enforce-browser>
+
+
+<head>
+	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7419072/725522/css/fonts.css" />
+	
+	<title>Machine Learning Course On Supervised Learning - Udacity</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="/favicon.ico?06dbdf37e57c7ef5941b7a9d251d6f0a" />
+	<meta name="application-name" content="Udacity"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF"/>
+	<meta name="msapplication-TileImage" content="/media/img/logos/udacity/windows_tile/udacity-full-144x144.png"/>
+
+	<meta name="description" content="Learn how to apply Supervised Learning techniques to solve a range of data science problems. Start Machine Learning today!">
+	<meta name="robots" content="noodp" />
+	<meta name="google-site-verification" content="ELX2btu3VElBKIdvkGj5ESBnJh_Dg9PnWjuCwVkPEkA" />
+	<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true"/>
+	<meta name="apple-itunes-app" content="app-id=819700933">
+	<link type="text/plain" rel="author" href="http://udacity.com/humans.txt" />
+
+	
+		<link rel="stylesheet" type="text/css" href="/media/css/udacity/udacity.min.css?06dbdf37e57c7ef5941b7a9d251d6f0a">
+
+	
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+		if (!window.console) {
+			window.console = {};
+		}
+		if (!window.console.log) {
+			window.console.log = function () {};
+		}
+		if (!window.console.error) {
+			window.console.error = function () {};
+		}
+		if (!window.console.warn) {
+			window.console.warn = function () {};
+		}
+	</script>
+
+	<script type="text/javascript">
+		var account = {"first_name": null, "last_name": null, "_registered": false, "email": null, "key": "1114578630", "_image_url": "//robohash.org/udacity-1114578630.png", "nickname": "", "_enrollments": [], "site_preferences": null};
+
+		// for Google analytics
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-28524234-1']);
+		_gaq.push(['_setDomainName', 'udacity.com']);
+		_gaq.push(['_setCustomVar', 1, 'isUdacityRegistered', account._registered ? 'Yes' : 'No', 1]);
+		_gaq.push(['_trackPageview', location.pathname + location.search + location.hash]);
+		(function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		  ga.onerror = function() {
+		    ga.onerror = null;
+		    ga.onreadystatechange = null;
+		    var push = function() {
+		      for (var i = 0; i < arguments.length; ++i) {
+		        var a = arguments[i];
+		        if ('object' !== typeof a || 3 !== a.length || '_set' !== a[0]
+		          || 'hitCallback' !== a[1] || 'function' !== typeof a[2]) { continue; }
+		        a[2].call();
+		      }
+		    }
+		    for (var i = 0; i < _gaq.length; ++i) { push(_gaq[i]); }
+		    _gaq = [];
+		    _gaq.push = push;
+		  };
+		  ga.onreadystatechange = function () {
+		    if (ga.readyState == 'loaded') {
+		      ga.onerror();
+		    }
+		  };
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+	
+	<script src="//cdn.optimizely.com/js/655050218.js"></script>
+
+	
+	<meta property="og:image" content="https://www.udacity.com/media/img/logos/udacity/udacity-full-130x140.png"/>
+
+</head>
+<body data-modal-anti-scroll-helper data-ng-class="{'modal-open': isModalActive()}">
+
+	
+	<div id="page-content">
+		
+		<header class="navbar site-nav navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					
+						<a class="logo" href="/" id="header-logo"><img alt="Udacity Logo"
+							src="//lh4.ggpht.com/LUgsz3XTdD-dW9qCenNcFZWaBKM6At_MbMjODMCJOC8ZoR4hIm_rVBQghBmk5kQ-kRa66yhEQT0BH88gUmwX=s170" style="width:85px;" ></a>
+					
+				</div>
+
+				<nav class="" role="navigation">
+					
+						<!-- Logged out dropdowns -->
+						<ul class="nav navbar-nav navbar-right nav-pills ng-cloak" data-ng-cloak>
+							<li class="dropdown">
+								<a id="sign-in" href="" onclick="window.location.href='/account/auth#!/signin?next='+encodeURIComponent(window.location.href)">Sign In</a>
+							</li>
+							<li class="dropdown">
+								<a href="" onclick="window.location.href='/account/auth#!/signup?next='+encodeURIComponent(window.location.href)">Sign Up</a>
+							</li>
+						</ul>
+					
+					
+					
+					
+						<!-- Course catalog link and beyond -->
+						<ul class="nav nav-pills navbar-nav navbar-right ng-cloak" data-ng-cloak>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="/courses">Course Catalog</a>
+								</li>
+						</ul>
+						<!-- END Course catalog link and beyond -->
+					
+
+					
+					
+
+				</nav>
+			</div>
+		</header>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<!-- View trailer modal -->
+<div class="ng-cloak modal-no-padding modal-wide" data-modal-dialog="trailer">
+	<button type="button" aria-label="close" class="close hanging-close" data-ng-controller="modalUtility" data-ng-click="cancel()"></button>
+	<div class="scale-media">
+		<div data-video-player id="video" data-auto-play="0" data-controls="1" data-video-id="kOIKduAOD5k"></div>
+	</div>
+</div>
+
+<!-- Top Banner -->
+<div class="banner banner-header overview-banner" data-ng-controller="overviewPage">
+	<div class="container banner-content" style="background-image: url(//lh4.ggpht.com/LIehfxr48Nutxamzrj6GwHLO7IVIUj5qFXf0l6u61IjwZC1ApbUdAVOoP8Ebk0fP9Y7n4e147R80CaK8JQ=s0#w=2048&amp;h=739)">
+		<div class="row view-trailer-container"  data-ng-click="showTrailer()">
+			<a class="view-trailer">
+				<span class="icon icon-play-trailer"></span>
+				<br>
+				<span class="h3">View Trailer</span>
+			</a>
+		</div>
+		<!-- Glass title+subtitle and social pane that overlays the banner image -->
+		<div class="row course-header-pane">
+			<div class="col-md-12">
+
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="course-header-title">
+							Machine Learning 1—Supervised Learning
+						</h1>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-10">
+						<h2 class="h-slim course-header-subtitle">
+							Conversations on Analyzing Data
+						</h2>
+					</div>
+					<div class="col-md-2">
+						<span class="sprite sprite-social sprite-facebook" data-facebook-share="{
+							name: 'Machine Learning 1—Supervised Learning',
+							link: 'https://www.udacity.com/course/ud675',
+							caption: 'Conversations on Analyzing Data',
+							description: 'In this course, you\&#39;ll learn how to apply Supervised Learning techniques important for solving a range of data science problems. And for surviving the robot uprising.'
+						}"></span>
+						<span class="sprite sprite-social sprite-gplus" data-google-plus-share="{link: 'https://www.udacity.com/course/ud675'}"></span>
+						<span class="sprite social-sprite sprite-twitter" data-tweet-link data-tweet="{text: 'I just discovered Machine Learning 1—Supervised Learning @Udacity. Check it out here!', url: 'https://www.udacity.com/course/ud675'}"></span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container ng-cloak" data-ng-controller="overviewPage">
+	<div class="row course-info-bar row-gap-medium">
+
+		<!-- Course level -->
+			<div class="col-md-3">
+				<span class="icon-level course-info-bar-icon" data-ng-class="{'icon-level-1': 'intermediate' == 'beginner', 'icon-level-2': 'intermediate' == 'intermediate','icon-level-3': 'intermediate' == 'advanced'}"></span>
+				Intermediate
+			</div>
+
+		<!-- Number of students in the class -->
+		<div class="col-md-3">
+				<span class="sprite sprite-students course-info-bar-icon pull-left" style="margin-top: -5px;"></span>
+				Join 8,847 Students
+		</div>
+
+		<!-- Partnership information -->
+		<div class="col-md-6 text-right">
+				In collaboration with
+					<img class="course-info-bar pull-right" style="margin-left: 15px; margin-top: -20px;" data-ng-src="{{'//lh4.ggpht.com/nGlPuZaZ6BbR23QfhSVNT_Sd_U45RnUECVGhx-cKIlo3D_Onofn-nWpV3sEYEQsczb7tC4JhggdGYyhAAQ4I=s0#w=130&amp;h=60' | imageSize:130:60}}">
+		</div>
+	</div>
+
+	<div class="row">
+		<hr class="hr-slim">
+	</div>
+
+	<!-- Main course overview information -->
+	<div class="row">
+		<!-- Left Column With Enrollment Buttons and Course Information -->
+		<div class="col-md-6">
+
+			<div class="row row-gap-small">
+				<div class="col-md-12">
+						<div class="callout">
+							<div class="row">
+
+								<!-- Left column - paid course benefits -->
+									<div class="col-md-6">
+										<div class="row">
+											<div class="col-md-12">
+												<p class="h2">Enroll to Access</p>
+												<ul class="list-arrows">
+													<li>Projects with ongoing feedback</li>
+													<li>Guidance from Coaches</li>
+													<li>Verified certificates</li>
+												</ul>
+												<a href="/what-we-offer" target="_blank">Learn More</a>
+											</div>
+										</div>
+									</div>
+
+								<!-- Right column - Duration and pricing information -->
+								<div class="col-md-6">
+									<!-- Duration -->
+									<div class="row">
+										<div class="col-md-12 duration-information">
+											<span>
+												Approx.
+													<span class="interval-length">1</span>
+													month
+											</span>
+											<div>
+												<small>(work at your own pace)</small>
+											</div>
+										</div>
+									</div>
+
+									<!-- Pricing -->
+										<div class="row row-gap-medium">
+											<div class="col-md-12 price-information" data-price-info data-product-key="5151109549129728" data-undiscounted-amount="" data-amount="15000" data-interval-count="1" data-interval="'month'">
+												<div data-ng-if="false">
+													<span class="actual-price">$150</span>
+													<span class="subscription-interval">
+														/month
+													</span>
+												</div>
+											</div>
+										</div>
+
+										<!-- Refund info -->
+										<div class="row row-gap-medium">
+											<div class="col-md-12">
+												<small>
+													14 day money back guarantee.
+													Love it or get a full refund.
+												</small>
+											</div>
+										</div>
+								</div>
+
+							</div>
+						</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Class Summary</h2>
+					<div class="pretty-format"><p><em>This is the first course in the 3-course Machine Learning Series and is offered at Georgia Tech as CS7641.</em> </p>
+
+<p><em>Please note that this is first course is different in structure compared to most Udacity CS courses. There is a final project at the end of the course, and there are no programming quizzes throughout this course.</em></p>
+
+<p>This course covers Supervised Learning, a machine learning task that makes it possible for your phone to recognize your voice, your email to filter spam, and for computers to learn a bunch of other cool stuff. </p>
+
+<p>Supervised Learning is an important component of all kinds of technologies, from stopping credit card fraud, to finding faces in camera images, to recognizing spoken language. Our goal is to give you the skills that you need to understand these technologies and interpret their output, which is important for solving a range of data science problems. And for surviving a robot uprising. </p>
+
+<p>You can expect to spend 4-6 hours per week on this course. </p>
+
+<p><strong>Series Information</strong>: Machine Learning is a graduate-level series of 3 courses, covering the area of Artificial Intelligence concerned with computer programs that modify and improve their performance through experiences. </p>
+
+<ul>
+<li><a href="https://www.udacity.com/course/ud675">Machine Learning 1: Supervised Learning</a> (this course)</li>
+<li><a href="https://www.udacity.com/course/ud741">Machine Learning 2: Unsupervised Learning</a></li>
+<li><a href="https://www.udacity.com/course/ud820">Machine Learning 3: Reinforcement Learning</a></li>
+</ul>
+
+<p>If you are new to Machine Learning, we recommend you take these 3 courses in order. </p>
+
+<p>The entire series is taught as a lively and rigorous dialogue between two eminent Machine Learning professors and friends: Professor Charles Isbell (Georgia Tech) and Professor Michael Littman (Brown University).</p>
+</div>
+					<h2>What Will I Learn?</h2>
+					<div class="pretty-format"><p>In this course, you will gain an understanding of a variety of topics and methods in Supervised Learning. Like function approximation in general, Supervised Learning prompts you to make generalizations based on fundamental assumptions about the world. </p>
+
+<p><strong>Michael</strong>: So why wouldn't you call it "function induction?"<br><strong>Charles</strong>: Because someone said "supervised learning" first.</p>
+
+<p>Topics covered in this course include: Decision trees, neural networks, instance-based learning, ensemble learning, computational learning theory, Bayesian learning, and many other fascinating machine learning concepts.</p>
+
+<p>In your final project, you will explore important techniques in Supervised Learning, and apply your knowledge to analyze how algorithms behave under a variety of circumstances.</p>
+</div>
+					<h2>What Should I Know?</h2>
+					<div class="pretty-format"><p>A strong familiarity with Probability Theory, Linear Algebra and Statistics is required. An understanding of <a href="https://www.udacity.com/course/st101">Intro to Statistics</a>, especially <a href="https://www.udacity.com/course/viewer#!/c-st101/l-48738235/m-48688822">Lessons 8, 9 and 10</a>, would be helpful.</p>
+
+<p>Students should also have some experience in programming (perhaps through <a href="https://www.udacity.com/course/cs101">Introduction to CS</a>) and a familiarity with Neural Networks (as covered in <a href="https://www.udacity.com/course/cs271">Introduction to Artificial Learning</a>).</p>
+</div>
+					<h2>Syllabus</h2>
+					<div class="pretty-format"><h3>Lesson 0: Machine Learning is the ROX</h3>
+
+<ul>
+<li>Definition of Machine Learning</li>
+<li>Supervised learning</li>
+<li>Induction and deduction</li>
+<li>Unsupervised learning</li>
+<li>Reinforcement learning</li>
+</ul>
+
+<h3>Lesson 1: Decision Trees</h3>
+
+<ul>
+<li>Classification and Regression overview</li>
+<li>Classification learning</li>
+<li>Example: Dating</li>
+<li>Representation</li>
+<li>Decision trees learning</li>
+<li>Decision tree expressiveness</li>
+<li>ID3 algorithm</li>
+<li>ID3 bias</li>
+<li>Decision trees and continuous attributes</li>
+</ul>
+
+<h3>Lesson 2: Regression and Classification</h3>
+
+<ul>
+<li>Regression and function approximation</li>
+<li>Linear regression and best fit</li>
+<li>Order of polynomial</li>
+<li>Polynomial regression</li>
+<li>Cross validation</li>
+</ul>
+
+<h3>Lesson 3: Neural Networks</h3>
+
+<ul>
+<li>Artificial neural networks</li>
+<li>Perceptron units</li>
+<li>XOR as perceptron network</li>
+<li>Perceptron training</li>
+<li>Gradient descent</li>
+<li>Comparison of learning rules</li>
+<li>Sigmoid function</li>
+<li>Optimizing weights</li>
+<li>Restriction bias</li>
+<li>Preference bias</li>
+</ul>
+
+<h3>Lesson 4: Instance-Based Learning</h3>
+
+<ul>
+<li>Instance based learning before</li>
+<li>Instance based learning now</li>
+<li>K-NN algorithm</li>
+<li>Won’t you compute my neighbors?</li>
+<li>Domain K-NNowledge</li>
+<li>K-NN bias</li>
+<li>Curse of dimensionality</li>
+</ul>
+
+<h3>Lesson 5: Ensemble B&amp;B</h3>
+
+<ul>
+<li>Ensemble learning: Boosting</li>
+<li>Ensemble learning algorithm</li>
+<li>Ensemble learning outputs</li>
+<li>Weak learning</li>
+<li>Boosting in code</li>
+<li>When D agrees</li>
+</ul>
+
+<h3>Lesson 6: Kernel Methods and Support Vector Machines (SVM)s</h3>
+
+<ul>
+<li>Support Vector Machines</li>
+<li>Optimal separator</li>
+<li>SVMs: Linearly married</li>
+<li>Kernel methods</li>
+</ul>
+
+<h3>Lesson 7: Computational Learning Theory</h3>
+
+<ul>
+<li>Computational Learning Theory</li>
+<li>Learning theory</li>
+<li>Resources in Machine Learning</li>
+<li>Defining inductive learning</li>
+<li>Teacher with constrained queries</li>
+<li>Learner with constrained queries</li>
+<li>Learner with mistake bounds</li>
+<li>Version spaces</li>
+<li>PAC learning</li>
+<li>Epsilon exhausted</li>
+<li>Haussler theorem</li>
+</ul>
+
+<h3>Lesson 8: VC Dimensions</h3>
+
+<ul>
+<li>Infinite hypothesis spaces</li>
+<li>Power of a hypothesis space</li>
+<li>What does VC stand for?</li>
+<li>Internal training</li>
+<li>Linear separators</li>
+<li>The ring</li>
+<li>Polygons</li>
+<li>Sampling complexity</li>
+<li>VC of finite H</li>
+</ul>
+
+<h3>Lesson 9: Bayesian Learning</h3>
+
+<ul>
+<li>Bayes Rule</li>
+<li>Bayesian learning</li>
+<li>Bayesian learning in action!</li>
+<li>Noisy data</li>
+<li>Best hypothesis</li>
+<li>Minimum description length</li>
+<li>Bayesian classification</li>
+</ul>
+
+<h3>Lesson 10: Bayesian Interference</h3>
+
+<ul>
+<li>Joint distribution</li>
+<li>Adding attributes</li>
+<li>Conditional independence</li>
+<li>Belief networks</li>
+<li>Sampling from the joint distribution</li>
+<li>Recovering the joint distribution</li>
+<li>Inferencing rules</li>
+<li>Naïve Bayes</li>
+<li>Why Naïve Bayes is cool</li>
+</ul>
+
+<h3>Supervised Learning Final Project: Using Machine Learning to Analyze Datasets</h3>
+</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Right Column With Track Info and Instructors -->
+		<div class="col-md-6">
+			<div class="row row-gap-small">
+				<div class="col-md-12">
+					<div data-enrollment-actions="{
+						isPaidInterested: false,
+						isPaidEnrolled: false,
+						isPaidGraduated: false,
+						isPaidWaitlisted: false,
+						isFreeInterested: false,
+						isFreeEnrolled: false,
+						isEnrollable: true,
+						isAccessible: true,
+						isAvailable: true,
+						isPaidEnrollable: true,
+						productKey: '5151109549129728',
+						productLaunchDateString: '',
+						waitlistGroupKey: '',
+						notificationGroupKey: '5830367013502976',
+						isClassFull: false,
+						spotsRemaining: null,
+						courseKey: 'ud675',
+						courseStart: 'None',
+						emailOk: true
+					}"></div>
+				</div>
+			</div>
+
+				<!-- Track information -->
+				<div class="row row-gap-small">
+					<div class="col-md-12">
+						<h2>This Course is a Part of the</h2>
+					</div>
+				</div>
+
+					<div class="row" data-ng-class="{'row-gap-small': 0 != 0}">
+						<div class="col-md-12">
+							<img data-ng-src="{{'//lh6.ggpht.com/XhYfMofpC9kevlVQ7mxJkEhXGxGXNnJ0OGdI2lwrew63fy8aGZ80lhBdog5VkUxeTYqfZSKUPs9QefCFcA=s0#w=60&amp;h=60' | imageSize:60:60}}" class="track-icon" alt="track icon">
+							<a data-ng-href="/courses#!/{{urlEncode('Data Science')}}">Data Science Track</a>
+						</div>
+					</div>
+					<div class="row" data-ng-class="{'row-gap-small': 1 != 0}">
+						<div class="col-md-12">
+							<img data-ng-src="{{'//lh6.ggpht.com/v14W6axUjrobgVlTFYy-ljw4x8nRBvbflWfqnBxmmmaeRaIKtaB_CquT9P7yliH1szL1MeUFsvwfm2rNGlHA=s0#w=60&amp;h=60' | imageSize:60:60}}" class="track-icon" alt="track icon">
+							<a data-ng-href="/courses#!/{{urlEncode('Georgia Tech Masters in CS')}}">Georgia Tech Masters in CS Track</a>
+						</div>
+					</div>
+
+			<!-- Instructors and Course Developers -->
+			<div class="row row-gap-medium">
+				<div class="col-md-12">
+					<h2>Course Instructors</h2>
+				</div>
+			</div>
+				<div class="row instructor-information-entry" data-ng-class="{'row-gap-medium': 0 != 0}">
+					<div class="col-md-12 instructor-information">
+						<div class="instructor-picture-container">
+							<img class="img-circle instructor-picture" data-ng-src="{{'//lh4.ggpht.com/BWYEYDvfZfN8Rg_BvReeoHnor_vbN9MCGWCWHMal7cCE8XoK9iq8a4C-KQxn-LeK-S5rpAlCuRTTMPp2B-jL=s0#w=425&amp;h=425' | imageSize:80:80}}" alt="instructor photo">
+						</div>
+						<div>
+							<h3 class="h-slim">
+								Charles Isbell
+							</h3>
+							<h4 class="h-slim">Instructor</h4>
+							<div class="pretty-format"><p>Charles Isbell is a Professor and Senior Associate Dean at the School of Interactive Computing at Georgia Tech. His research passion is artificial intelligence, particularly on building autonomous agents that must live and interact with large numbers of other intelligent agents, some of whom may be human. Lately, he has turned his energies toward adaptive modeling, especially activity discovery (as distinct from activity recognition), scalable coordination, and development environments that support the rapid prototyping of adaptive agents. He is developing adaptive programming languages, and trying to understand what it means to bring machine learning tools to non-expert authors, designers and developers. He sometimes interacts with the physical world through racquetball, weight-lifting and Ultimate Frisbee.</p>
+</div>
+						</div>
+					</div>
+				</div>
+				<div class="row instructor-information-entry" data-ng-class="{'row-gap-medium': 1 != 0}">
+					<div class="col-md-12 instructor-information">
+						<div class="instructor-picture-container">
+							<img class="img-circle instructor-picture" data-ng-src="{{'//lh6.ggpht.com/_tRBHjrD523dV4IEQqR6DVDtzofvJqw7iYeLaG-U1HhgB8w1nsmBENnGPh4GkFuNvM0frkYcCHJWK-8MDV61=s0#w=321&amp;h=321' | imageSize:80:80}}" alt="instructor photo">
+						</div>
+						<div>
+							<h3 class="h-slim">
+								Michael Littman
+							</h3>
+							<h4 class="h-slim">Instructor</h4>
+							<div class="pretty-format"><p>Michael Littman is a Professor of Computer Science at Brown University.  He also teaches Udacity’s Algorithms course (CS215) on crunching social networks.  Prior to joining Brown in 2012, he led the Rutgers Laboratory for Real-Life Reinforcement Learning (RL3) at Rutgers, where he served as the Computer Science Department Chair from 2009-2012.  He is a Fellow of the Association for the Advancement of Artificial Intelligence (AAAI), served as program chair for AAAI's 2013 conference and the International Conference on Machine Learning in 2009, and received university-level teaching awards at both Duke and Rutgers. Charles Isbell taught him about racquetball, weight-lifting and Ultimate Frisbee, but he's not that great at any of them. He's pretty good at singing and juggling, though.</p>
+</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-gap-medium instructor-information-entry">
+					<div class="col-md-12 instructor-information">
+						<div class="instructor-picture-container">
+							<img class="img-circle instructor-picture" data-ng-src="{{'//lh5.ggpht.com/BiC1ndM6bWltaHo5S_zggVIYRpplpIeffZxmGnCokPhBobcQ5PfiaLKq48gFrMuL_X_zGNR4Q5JMiJ_CuyZx=s0#w=2737&amp;h=2737' | imageSize:80:80}}" alt="course developer photo">
+						</div>
+						<div>
+							<h3 class="h-slim">Pushkar Kolhe</h3>
+							<h4 class="h-slim">Course Developer</h4>
+							<div class="pretty-format"><p>Pushkar Kolhe is currently pursuing his PhD in Computer Science at Georgia Tech. He believes that Machine Learning is going to help him create AI that will reach the singularity. When he is not working on that problem, he is busy climbing and jumping or skiing on things.</p>
+</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+<img src="https://s.amazon-adsystem.com/iui3?d=3p-hbg&ex-src=udacity.com&ex-hargs=v%3D1.0%3Bc%3DUDACITY%3Bp%3DUDACITY_H" width=1 height=1 border=0>
+
+
+	
+			<div id="footer-push"></div>
+</div>
+<div id="footer">
+	<div class="container">
+		<div class="row row-gap-huge"></div>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-2">
+				<h4>Information</h4>
+				<p class="caption">
+					<a href="/what-we-offer" id="how-it-works-footer-link">What We Offer</a>
+					<br>
+					<a href="/course-experience">Course Experience</a>
+					<br>
+					<a href="/faq">Help and FAQ</a>
+					<br>
+					<a href="/feedback/signup">Feedback Program</a>
+				</p>
+			</div>
+			<div class="col-md-2">
+				<h4>Community</h4>
+				<p class="caption">
+					<a href="http://blog.udacity.com">Blog</a>
+					<br>
+					<a href="http://www.meetup.com/Udacity/">Meetups</a>
+					<br>
+					<a href="/press">News &amp; Media</a>
+				</p>
+			</div>
+			<div class="col-md-2">
+				<h4>Udacity</h4>
+				<p class="caption">
+					<a href="/us">About</a>
+					<br>
+					<a href="/jobs">Jobs</a>
+					<br>
+					<a href="/contact">Contact Us</a>
+					<br>
+					<a href="/legal/tos">Legal</a>
+					<br>
+					<a href="/mobile">Udacity for Mobile</a>
+				</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Follow us on</h4>
+				<a href="https://www.facebook.com/Udacity"><span class="sprite sprite-social sprite-facebook"></span></a>
+				<a href="https://twitter.com/udacity"><span class="sprite sprite-social sprite-twitter"></span></a>
+				<a href="https://plus.google.com/+Udacity/posts"><span class="sprite sprite-social sprite-gplus"></span></a>
+				<a href="https://www.linkedin.com/company/udacity"><span class="sprite sprite-social sprite-linkedin"></span></a>
+				<div class="row row-gap-medium">
+					<div class="col-md-12 text-muted">&copy; 2011-2014 Udacity, Inc.</div>
+				</div>
+			</div>
+		</div>
+		<div class="row row-gap-huge"></div>
+	</div>
+
+
+	
+
+	</div>
+
+	
+		<script type="text/javascript" src="/media/js/external/libs.min.js?06dbdf37e57c7ef5941b7a9d251d6f0a"></script>
+<script type="text/javascript" src="/media/js/udacity/udacity.min.js?06dbdf37e57c7ef5941b7a9d251d6f0a"></script>
+
+	
+	
+	
+	
+	<script type="text/javascript">
+	  angular.module('embedded').constant('couponCode', '');
+	</script>
+
+
+	<script type="text/javascript">
+		angular.module('embedded').constant('cacheVersion', '06dbdf37e57c7ef5941b7a9d251d6f0a');
+		angular.module('embedded').constant('gitRevision', '94e4178');
+		angular.module('embedded').constant('secondsSinceEpoch', 1398442367);
+		angular.module('embedded').constant('canEatDogFood',
+			false);
+		angular.module('embedded').constant('sessionLapsed', null);
+		angular.module('embedded').constant('basicUser', {"first_name": null, "last_name": null, "_registered": false, "email": null, "key": "1114578630", "_image_url": "//robohash.org/udacity-1114578630.png", "nickname": "", "_enrollments": [], "site_preferences": null});
+		angular.module('embedded').constant('siteExperience', {
+			'affiliateExperienceId': 'udacity',
+			'externalProgressSystem': false,
+			'managedAccount': false,
+			'limitedAccess': false
+		});
+		angular.module('core').run(function(){
+			// TODO (Jacques): Replace with directive on bootstrap elements
+			setTimeout(function(){
+				if ($("[rel=tooltip]").length) {$("[rel=tooltip]").tooltip();}
+			}, 1000);
+		});
+	</script>
+<!-- Honestly, what is wrong with you? Take a joke. -->
+<div class="what-is-wrong-with-google-remarketing">
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 967079204;
+	var google_conversion_label = "JSWsCKSChgUQpOqRzQM";
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/967079204/?value=0&amp;label=JSWsCKSChgUQpOqRzQM&amp;guid=ON&amp;script=0"/>
+	</div>
+	</noscript>
+</div>
+
+
+
+<script type="text/javascript">
+angular.module('utility').run(function (userzoomSurveyor, currentUser, dateTime) {
+	var now = dateTime.getCurrent();
+	var threeWeeksAgoDate = new Date(now.setDate(now.getDate() - 21));
+
+	userzoomSurveyor.fetchEarliestPaidEnrollmentDate(currentUser.getUser()).then(
+			function (earliestActivePaidEnrollmentStartDate) {
+	
+		// If they are signed in and have had access to the full course
+		// experience for at least 3 weeks and are not a GT user
+		if (currentUser.userIsLoggedIn() && earliestActivePaidEnrollmentStartDate &&
+				earliestActivePaidEnrollmentStartDate < threeWeeksAgoDate &&
+				!userzoomSurveyor.everEnrolledInGtCourses(currentUser.getUser())) {
+			userzoomSurveyor.runUserZoomSurvey(currentUser.getUser());
+		}
+	});
+});
+</script>
+
+
+<script type="text/javascript">
+adroll_adv_id = "WL3JVU2FPBE67LD3D432HF";
+adroll_pix_id = "CUN2R5WLFZBO7N4DGALZFT";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+
+
+
+
+</body>
+</html>

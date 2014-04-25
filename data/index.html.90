@@ -1,2392 +1,0 @@
-
-
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:og="http://opengraphprotocol.org/schema/"
-      xmlns:fb="http://www.facebook.com/2008/fbml">
-<head>
-
-
-    <title>Flowers Online - FTD.com | Send Flowers, Plants & Gifts | Same Day Flower Delivery</title>
-    <META NAME="description" CONTENT="Order fresh flowers online for same day floral delivery. Shop for flowers, chocolates, roses, and gift baskets by occasion, season or get beautiful flower bouquets from local FTD florists.">
-		<META NAME="keywords" Content="flowers, roses, fresh flowers, flower bouquets, send flowers, flowers online, plants, gift baskets, gifts, florists, flower shop, flower delivery, ftd">
-
-<!-- start of site-verification-meta-tags -->
-           <META name="y_key" content="e887dc108fef83f6" />
-           <meta name="msvalidate.01" content="71957E1C9D33211154243270EB14C63C" />
-           <!-- end of site-verification-meta-tags -->
-          
-<link rel="icon" href="http://www.ftd.com/350/favicon.ico" type="image/x-icon" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-<script src="//assets.adobedtm.com/f42f835b4c92477323a94ec842086d2703beddd2/satelliteLib-58f76622904defe25922d2a5765723d2334530cd.js"></script>
-
-
-	<script language="javascript" type="text/javascript">
-	<!--
-		var cookie_domain = ".ftd.com";
-		// because we modify the document.domain and we have some javascript
-		// that references document.domain but expects it to be our actual full domain
-		// we save it before we use it.
-		var our_domain   = document.domain;
-		var imageurl = "http://www.ftdimg.com";
-		var markcode = "350";
-		var js_debug = 0;
-		var secure_url  = "https://ordering.ftd.com";
-		var nonsecure_url = "http://www.ftd.com";
-		var seo_urls  = 1;
-		var isFsBuyEnabled = 1;
-        var isFsUseEnabled = 1;
-        var isfsenabled = 1;
-        var isFlorist = 0;
-		var isFtdCanada = 0;
-		document.domain = "ftd.com";
-	//-->
-	</script>
-
-        <script type="text/javascript">
-	    function sendEmailAddressToCY(emailAddress, funnelLevel) {
-	        if (typeof(cy) != 'undefined') {
-    		           if (simple_email_verify(emailAddress, 0)) {
-			       cy.FunnelLevel="2";
-			       if (funnelLevel) {
-			           cy.FunnelLevel=funnelLevel;
-			       }
-		               cy.UserId = emailAddress;
-			       cy_getImageSrc();
-			   }
-		       }
-		}
-        </script>
-
-        <script language="javascript" src="http://www.ftdimg.com/v20140414/js/compressed.js"></script>
- 	    <script type="text/javascript" src="http://www.ftdimg.com/v20140414/js/shoprunner_init.js?markcode=350"></script>
-	 <script type='text/javascript'>
-	
-    function getBRTextPos(){
-    jQuery(document).ready(function(){
-		    var $ = jQuery;
-		    var brdesign = $('#bottom_redesign').offset();
-		    if(brdesign && ($('#bottom_redesign_text').length > 0)){
-		    brdesignTop = brdesign.top;
-		    var brdesignheight = $('#bottom_redesign').height();
-		    brtextTop = brdesignTop + brdesignheight + 'px';
-		    $('#bottom_redesign_text').css({'top':brtextTop});}
-		    });
-    }
-    getBRTextPos();
-
-    </script>
-
-	<script language="javascript" type="text/javascript">
-	<!--
-		// we are going to set up a window onerror function
-		// this will call our regular try/catch error function
-		// this doesn't mean you shouldn't do try/catch blocks, try/catch blocks
-		// are actually better then using the window.onerror event.
-		try	{
-		// now we re-set our onerror function now that errAlert has been defined
-		window.onerror=function(message, url, lineNumber) {
-		  // build our error message from what the onerror event sends us
-		  var msg = "This error was not in a try/catch block.";
-			msg +="\nThe error message from the browser is '"+message+"'";
-			msg +="\nIt occured at line number "+lineNumber;
-			msg +="\nIn url '"+url+"'";
-				try {// just call me paranoid :)
-					errAlert(null,null,msg);
-				}
-				catch(e) {
-				//couldn't call errAlert, not sure what to do now
-				}
-			return true;
-			}; // end of on error function
-  		}
-		catch(e) {
-		// what do we do here?
-		//alert('Error setting up onerror event:'+e.message);
-  		}
-
-	//minimum browser rediect code
-    var browser_info = getBrowserType();
-	var browser_info_new = getBrowserTypeNew();
-	try {
-
-		if (browser_info_new == "Netscape_6" 
-			|| browser_info_new == "Netscape_4_8" 
-			|| browser_info_new == "Netscape_4_7" 
-			|| browser_info_new == "Netscape_4_5" 
-			|| browser_info_new == "Netscape_3" 
-			|| browser_info_new == "IE4" 
-			|| browser_info_new == "IE3") {
-			location.href = "http://www.ftd.com/350/custserv/browser.epl?browser=1";	
-		}
-		} catch(e) {
-		errAlert(e, 'browser minimum redirection');
-	}
-
-
-	-->
-	</script>
-
-	<script type="text/javascript" src="http://www.ftdimg.com/js/tealeaf.js"></script>
-        <script type="text/javascript" src="http://www.ftdimg.com/pics/foresee/12-06-28-16-40/foresee-alive.js"></script>  <script type="text/javascript" language="javascript"> <!--   jQuery(document).ready(     function(){       jQuery.getScript("http://www.ftdimg.com/pics/foresee/12-06-28-16-40/foresee-analytics-0eb7e.js");       jQuery.getScript("http://www.ftdimg.com/pics/foresee/12-06-28-16-40/foresee-trigger.js");     }   ); //--> </script> <link rel="canonical" href="http://www.ftd.com" />	<script language="javascript" type="text/javascript">
-		<!--
-		try {
-		setCookie('markcode', '350', '', '/', cookie_domain);
-		} catch(e) {
-			errAlert(e, 'setting markcode cookie in template');
-		}
-		//-->
-		</script>
-	
- <script type="text/javascript">
-<!--//
-	var _traffic_dist = '{}';
-			try {
-				if (   markcode == '350' 
-					|| markcode == '514' 
-					|| markcode == '522' 
-					|| markcode == '528' 
-					|| markcode == '552' 
-					|| markcode == '558') {
-					var _sticky_markcodes = '{}';
-					stickyMarkcodeRedirect(_sticky_markcodes, _traffic_dist, 'http://www.ftd.com',1, '', '');
-					} else {
-                trafficDistribution(_traffic_dist, 'http://www.ftd.com', '', 1, '');
-					}
-			} catch(e) {
-				errAlert(e, 'trafficDistribution call');
-			}
-//-->
-</script>
-
-
-	
-	<script language="javascript" type="text/javascript">
-	<!--
-	try {
-		} catch(e) {
-		errAlert(e, 'cobrand protected site check');
-	}
-	//-->
-	</script>
-
-<!-- start abandon popup code -->
-	
-<script language='javascript'>
-<!--
-	var showPopup = true;
-	var Yaxis = 0;
-	var blurred = false;
-	var scart_unloadPopup_override = false;
-
-	var isIE = (navigator.appName.indexOf("Microsoft") != -1);
-	var isNav = (navigator.appName.indexOf("Netscape") != -1);
-	var isFirefox = (navigator.userAgent.indexOf("Firefox") != -1);
-
-	function unloadPopup(ev) {
-
-            /* If we are coming from the empty shopcart page. Thus, if our cart is empty. 
-			// Then don't show any popups.
-			*/
-
-		    if (scart_unloadPopup_override) {
-			    return 0;
-			}
-
-			var range = screen.height - document.body.offsetHeight;
-			if (isIE) {
-				ev = window.event;
-			}
-
-            // kludge
-            if(!ev){ ev = { clientY: -1, keyCode: 0 }; }
-
-			if (range < 160) {
-				upperY = -12;
-			}
-			if (range >= 160) {
-				upperY = -35;
-			}
-			if (range >= 170) {
-				upperY = -40;
-			}
-			if (Yaxis == 0) {
-				Yaxis = ev.clientY;
-			}
-			//alert("Yaxis -> " + Yaxis + " keyCode -> " + ev.keyCode + " upperY -> " + upperY + " blurred -> " + blurred);
-			if ((Yaxis > 0) || (Yaxis < upperY) || (ev.keyCode == 116) || (ev.keyCode == 17)) {
-				showPopup = false;
-			}
-			if (Yaxis <= -9600) {
-				showPopup = true;
-			}
-			if (blurred && (Yaxis < 0)) {
-				showPopup = true;
-			}
-			if (isNav && !isFirefox) {
-				showPopup = false;
-			}
-			
-
-			// GLOBAL ABANDON POPUP : 2005-12-20
-			if (!isFirefox && showPopup && (ev.keyCode != 32) && (ev.keyCode != 18) && (ev.keyCode != 115)) {
-                var scartPopupSetup = 1;
-                var globalPopupSetup =1;
-
-                if ( ShoppingCartCookie.num_items() && scartPopupSetup ) {
-
-					popup('261643', 'abandon', '1', '459', '300');
-
-                }
-                else if ( globalPopupSetup ) {   GlobalPopup('261563', 'global_abandon', '1', '459', '300');
-
-                }
-
-			}
-		}
-	function GlobalPopup(program_id, program, popup_id, width, height) {
-		   window.open('http://www.ftd.com/350/popups/index.epl?markcode=350&fromurl=%2F%3Fmarkcode%3D&baseurl=http%3A%2F%2Fwww.ftd.com&prog_id=' + program_id + '&popup_id=' + popup_id, program, 'scrollbars=no,width=' + width + ',height=' + height + ',bottom=0,left='+(screen.width-width));
-		}
-	function popup(program_id, program, popup_id, width, height) {
-            window.open('https://ordering.ftd.com/350/popups/index.epl?markcode=350&fromurl=%2F%3Fmarkcode%3D&baseurl=http%3A%2F%2Fwww.ftd.com&prog_id=' + program_id + '&popup_id=' + popup_id, program, 'scrollbars=no,width=' + width + ',height=' + height);
-        }
-	if (isIE && !isFirefox) {
-        function grabY() {
-            Yaxis = window.event.clientY;
-        }
-        function blurme() {
-            Yaxis = window.event.clientY;
-            blurred = true;
-        }
-
-        window.onclick = grabY;
-                window.onunload = unloadPopup;
-                window.onkeydown = unloadPopup;
-                window.onblur = blurme;
-				// calling this causes an error in ie7, think there is no
-				// window.event for document.onclick
-                //document.onclick = grabY;
-                document.onunload = unloadPopup;
-        }
-
-//-->
-</script>
-<!-- end abandon popup code -->
-
-	
-	
-<!-- MyBuys setup files -->
-    <script  type="text/javascript" src="http://www.ftdimg.com/pics/foresee/12-06-28-16-40/mybuys3.js"></script>
-    <script  type="text/javascript" src="http://www.ftdimg.com/pics/foresee/12-06-28-16-40/mybuys-setup.js"></script>
-    
-
-  
-
-    <script language="javascript" src="http://www.ftdimg.com/v20140414/calendar/compressed-calendar.js"></script>
-    <!-- AJAX & wrapper functions to control the calendar instance -->
-    <script  type="text/javascript" src="http://www.ftdimg.com/v20140414/calendar/calendar-utils.js"></script>
-    <!-- END calendar widget auxiliary files import -->
-	
-
-<link rel="stylesheet" type="text/css" media="all" href="http://www.ftd.com/350/calendar/design2007.css" />
-	    <style type="text/css">
-		<!--
-	    	    .calendar {
-        		background: #ffffff;
-    	    	    }
-    		-->
-	    </style>
-	<link rel="stylesheet" type="text/css" href="http://www.ftd.com/350/v20140414/ftd.css?markcode=350&design2007=1&design_apr2008=1&popup=">
-	<link rel="stylesheet" type="text/css" href="http://www.ftd.com/350/tabs.css?markcode=350&sid=1&design2007=1&design_apr2008=1&popup=">    
-		
-</head>
-
-
-
-
-
-
-<body 	>
-
-<iframe name="signIn_iframe" id="signIn_iframe" style="display:none;" src="https://ordering.ftd.com/template/signin_iframe.html"> </iframe>
-<div id="the_big_div">
-
-	<div id="frame_outer">
-    <div id="frame_middle">
-    <div id="frame_inner">
-    <div id="container">
-<!-- Content DIV -->
-
-<div id="bottom_redesign_text" style="clear:both;position:absolute;top:3000px;">
-
-                <div class="legal">
-                                <div class="legal" id="rrdiv131"> <div style="text-align: left; padding-left: 16px; padding-right: 23px; color: rgb(102, 102, 102); font-weight: normal;" id="rrdiv132">  <h2 style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: rgb(102, 102, 102); text-decoration: none; font-weight: bold;">Flowers</h2>  <p>Celebrate any occasion with fresh flowers from FTD. Here, you will find only the highest quality flower arrangements and floral bouquets - perfect for birthdays, anniversaries, or any holiday throughout the year. Better yet, FTD flower delivery is always fast, easy, and convenient, ready to serve you 24 hours a day and 7 days a week. Your gift will be hand-delivered by one of our professional FTD florists, to ensure a timely arrival and an impeccable experience for your recipient.</p>  <p>Nothing could be simpler than ordering our flowers online - and whether it's Valentine’s Day, Mother's Day, Christmas, a birthday, or just because, FTD offers the perfect gift for all occasions. Featuring gourmet foods, plants, jewelry, and much more, FTD has a wide variety of products for all the special people in your life. Explore gift options in a variety of price ranges, and discover many offerings that are within your budget.</p>  <p>Send flowers from FTD, and feel confident that you’re making your recipient happy. You can trust that the quality will be without peer, whether you’ve ordered a bouquet of beautiful <a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/roses-ctg/product-roses" title="Roses">roses</a>, vibrant <a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/tulips-ctg/product-tulips" title="Tulips">tulips</a>, impressive <a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/lilies-ctg/product-flowers-subtypes-lily" title="Lilies">lilies</a>, or lovely <a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/daisies-ctg/product-flowers-subtypes-gerberdaisy" title="Gerbera Daisies">Gerbera daisies</a>.</p>  <p>Are you looking for cheap flowers that don’t sacrifice quality for price? We always have unbelievable deals that are guaranteed to give you the best value around. Don’t feel any hesitation when it comes to sending flowers online, because FTD is here to make sure you get exactly the top-quality products you need.</p>  <h2 style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: rgb(102, 102, 102); text-decoration: none; font-weight: bold;"><a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/flowers-ctg/occasion-mothersday-flowers" title="Mothers Day Flowers">Mother's Day Flowers</a> and Gifts</h2>  <p>Explore our extensive selection of <a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/gifts-ctg/occasion-mothersday-gourmet" title="Mothers Day Gifts">Mother’s Day gifts</a> and flowers to help show your mom how special she is. If you're uncertain what to give Mom this year, explore our <a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/jewelry-ctg/occasion-mothersday-jewelry" title="Mothers Day Jewelry">Mother's Day jewelry</a>, plants, and best selling gifts. Or, get creative and send one of our personalized gifts for mom that she's sure to remember for many years to come.</p>  <p>In addition to Mother's Day, the colorful palette of spring is here to help renew and refresh - another reason to celebrate! Let FTD help you enjoy the season with our beautiful collection of <a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/spring-collection-ctg/product-spring" title="Spring Flowers">spring flowers</a>. Or, consider sending spring gifts to friends and loved ones, to share the joy of the coming months. Our collection of gift baskets is without peer - browse our gourmet foods, spa sets, fresh fruit, and much more.</p>  <h2 style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: rgb(102, 102, 102); text-decoration: none; font-weight: bold;"><a style="color: rgb(102, 102, 102); text-decoration: none;" href="http://www.ftd.com/all-florist-designed-ctg/product-samedaydelivery-bestsellers" title="Same Day Flower Delivery">Same Day Flower Delivery</a></h2>  <p>When waiting is not an option, you can get flowers delivered same day from an artisan FTD florist. Order by 2 P.M. in your recipient’s time zone for same day delivery, Monday through Friday.</p>  <p>We guarantee that our beautiful floral arrangements and plants will last at least seven days. In addition, FTD.com can deliver flowers around the world. International deliveries can be made the next business day when you place your order by 2 P.M. Eastern Time.</p>  <p>Payment is a breeze as well - we accept Paypal, Bill Me Later, and all major credit cards, so you can get the flowers and plants you need however you like.</p>  <p>FTD believes having flowers delivered never needs to be a hassle, no matter where your recipient is. We make it easy for you to check product availability by delivery date and zip code, so whether you’re in New York, Chicago, Los Angeles, or anywhere in between, you can order flowers online and get them into your recipient’s hands today!</p>  <h2 style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: rgb(102, 102, 102); text-decoration: none; font-weight: bold;">Perfect Gifts and Flower Arrangements</h2>  <p>Our fantastic selection of gifts from premier brands goes beyond the world of flowers, including tempting chocolates, gourmet snacks, and fresh fruits. You can also explore our indulgent spa baskets, gorgeous jewelry, luxurious crystal vases, and much more.</p>  <p>If you’re looking to send a plant gift, look no further. The perfect plant is waiting for you in FTD’s Plant Shop. Rose plants are ideal for romance; green plants provide enduring beauty; and blooming plants are a bright addition to any home or office. Take the guesswork out of gift-giving with FTD’s best selling plants.</p>  <p>FTD's Sweet Shop offers delectable Godiva chocolate, tasty cookies from Mrs. Fields, plus gourmet snacks, cakes, and much more. Explore FTD's Gift Basket Shop, featuring a wide range of gift ideas for all occasions. Choose gourmet chocolates and cookies, wine and spa gifts, or select another perfect gift from FTD.</p>  <p>Browse FTD's Luxury Collection and discover our most extraordinary arrangements. Find gorgeous Waterford Crystal vases, stunning crystal gifts from Baccarat, and more. Flowers have never looked more elegant! Or visit FTD's Jewelry Shop, and create a truly memorable gift-giving experience. Explore a wide assortment of necklaces, bracelets, earrings, and more.</p>  <p>The FTD College Rose Collection lets you show school spirit through the beauty of flowers. Find the bi-colored roses that match your college colors, or order with an etched keepsake vase for a special student or graduate in your life.</p>  <p>Whatever the reason, you can rely on FTD for all your gift needs and as always, beautiful flowers that are fresh and affordable.</p>  <h2 style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: rgb(102, 102, 102); text-decoration: none; font-weight: bold;">Farm Fresh Flowers</h2>  <p>At FTD&reg;, we search the world, seeking the finest flowers from fields where they thrive in ample sunlight and rich soil, under meticulous care. They are picked by our growers at the peak of the harvest and delivered in time for your special occasion. As an industry leader for over 100 years, we continue to streamline and refine our process so that your recipient can enjoy our innovative floral bouquets for a full 7 days.</p>   <p>Our farm fresh flower bouquets are hand gathered and brought together to form unique, beautiful, and unforgettable bouquets that hold an incredible value due to their color, size, and freshness. Only the best flowers are selected for FTD&reg; bouquets. Farm fresh flowers arrive in a beautiful gift box ready for the recipient's enjoyment. You can be assured that the warm wishes and sentiments you wish to express will be apparent with each incredible bloom.</p>  <p>We focus on fresh so you know you are sending the best!</p>  </div> </div> </div>
-                <!-- End bottom_redesign_text -->
-                </div>
- <div id="container">
- 
-	
-
-<script language="VBScript" type="text/vbscript">
-<!-- // Visual basic helper required to detect Flash Player ActiveX control version information
-Function VBGetSwfVer(i)
-  on error resume next
-  Dim swControl, swVersion
-  swVersion = 0
-
-  set swControl = CreateObject("ShockwaveFlash.ShockwaveFlash." + CStr(i))
-  if (IsObject(swControl)) then
-    swVersion = swControl.GetVariable("$version")
-  end if
-  VBGetSwfVer = swVersion
-End Function
-// -->
-</script>
-
-
-	<div style="display:none"><!-- Start Pixel code for Tealium_pixel -->
-<script language="JavaScript" type="text/javascript">
-/* Tealium Pixel 2.1  
-This pixel can be used across all of the pages
-*/
-var utag_data={
-site_region:"ftd.com",
-site_currency:"USD",
-page_type:"Homepage",
-page_section_name:"Flower & Gift Shop",
-page_category_name:"",
-page_subcategory_name:"",
-product_id:"",
-product_name:"",
-product_unit_price:"",
-product_list_price:"",
-product_discount:"",
-Orders : [  ],
-order_shipping_amount:"",
-order_tax_amount:"",
-order_payment_type:"",
-gift_code_used:"",
-order_total:"",
-customer_email:"",
-master_order_id: "",
-item_count: "" 
-};
-</script>
-<script type="text/javascript">
-(function(a,b,c,d){
-a='//tags.tiqcdn.com/utag/ftd/main/prod/utag.js';
-b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a)})();
-</script>
-<!-- End Pixel code for Tealium_pixel -->
-
-
-</div>
-	<!-- 
-			margin-left and margin-right is added because the whole width for the page is 810px however we have 5px paddings. So the landing page layout in 800px. FTD wants their header banner to be in 810px. In order to satisfy their requirement without changing whole layout we added negative value margins for the banner.
-		-->
-		   <div align='center' >
-				<div id="cobrand_banner-mobile" align="center" style="display:none;"> <a href="http://www.ftd.com/350/catalog/category.epl?index_id=product_promocard"><img src="http://www.ftdimg.com/pics/products/S1400812_OOB_Mobile_GiftCard_032114.jpg" alt="FTD.COM - Flowers and Gifts for Every Occasion" width="640" border="0" /></a> </div>  <div id="cobrand_banner" align="center"> <a href="http://www.ftd.com/350/catalog/category.epl?index_id=product_promocard"><img src="http://www.ftdimg.com/pics/products/S1400812_OOB_cobrand_GiftCard_032114.jpg" alt="FTD.COM - Flowers and Gifts for Every Occasion" width="810" border="0" /></a>  </div>	<script type="text/javascript">
-                                     FS.show_fs_promo() ;
-							</script>
-						</div>
-	       
-	<div id="fb-root"></div>
-		<script>
-		window.fbAsyncInit = function() {
-			(function($){ //for defect 8149
-				 $(document).ready(function(){
-                                         FB.init({
-                                                  appId: 405485862867932,
-                                                  channelUrl: 'http://www.ftd.com/json/channel.html',
-						  status: true, 
-						  cookie: true, 
-						  xfbml: true
-						});
-					 $('.fb_like_btn').show();
-					 FB.XFBML.parse();
-					 FBSIGNIN.scope = 'email,user_birthday,friends_birthday,user_likes,friends_likes,user_education_history,friends_education_history,user_relationships';
-					 if( !PA.signed_in() ){
-					    FBSIGNIN.onpageload();
-					 }
-					 FBSIGNIN.showProfilePic();
-					 //subscribing to login event to distinguish login through SL and FTD website
-					 FB.Event.subscribe("auth.login", function(response) {
-                			    if (response && response.status && response.status === 'connected') {
-                    			      if(!FBSIGNIN.lock ) {
-						FBSIGNIN.login_from_SL = true;
-						FBSIGNIN.login_location = "SL Application";
-					        FBSIGNIN.postdata(response.authResponse.accessToken);
-                    			      }else{
-					        FBSIGNIN.lock = false; 
-					      } 
-                			    }
-            				 });
-				 });
-			})(jQuery); //for defect 8149
-                };
-		(function() {
-			 var e = document.createElement('script'); e.async = true;
-			 e.src = document.location.protocol +  '//connect.facebook.net/en_US/all.js';
-			 document.getElementById('fb-root').appendChild(e);
-		 }());
-		</script>
-	<!-- Stores -->
-	
- <style type="text/css" id='html_stores_styles' name='html_stores_styles'>
-     #html_store_tab_1_selected{float: left; display: block; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #eae1b7; border-color: black; cursor:pointer;background: black;  padding: 0 8px; }  #stores_div { margin-top: 7px !important; height: 34px !important;}
-#html_store_tab_1_unselected{float: left; display: block; cursor:pointer; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #FFFFFF;   padding: 0 8px;}
-#html_store_tab_2_selected{float: left; display: block; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #eae1b7; border-color: black; cursor:pointer;}
-#html_store_tab_2_unselected{float: left; display: block; cursor:pointer; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #FFFFFF;   }
-#html_store_tab_3_selected{float: left; display: block; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #eae1b7; border-color: black; cursor:pointer;}
-#html_store_tab_3_unselected{float: left; display: block; cursor:pointer; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #FFFFFF;   }
-#html_store_tab_4_selected{float: left; display: block; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #eae1b7; border-color: black; cursor:pointer;}
-#html_store_tab_4_unselected{float: left; display: block; cursor:pointer; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #FFFFFF;   }
-#html_store_tab_5_selected{float: left; display: block; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #eae1b7; border-color: black; cursor:pointer;}
-#html_store_tab_5_unselected{float: left; display: block; cursor:pointer; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #FFFFFF;   }
-#html_store_tab_6_selected{float: left; display: block; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #eae1b7; border-color: black; cursor:pointer;}
-#html_store_tab_6_unselected{float: left; display: block; cursor:pointer; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #FFFFFF;   }
-#html_store_tab_7_selected{float: left; display: block; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #eae1b7; border-color: black; cursor:pointer;}
-#html_store_tab_7_unselected{float: left; display: block; cursor:pointer; text-align: center; margin-right: 7px; padding: 0 4px; border: 1px solid #ccc; border-bottom: 0; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px; background: #FFFFFF;   }
-
-
-/* --------------------------------------- END HTML STORES STYLES --------------------------------------- */
- </style>
-  <nav><ul class="ul_nav_list"><div id="stores_div" style="position:relative; height:33px; width:810px; z-index: 1; clear:both;margin-top:2px;">
-<nobr><li><a id="html_store_tab_1" selected=0 href="http://www.ftd.com/?int=1"  horzNumber="1" style='float:left;width:142px' onmouseover ="onhoverTabChange(this.getAttribute('horzNumber'))" onclick ="setSharedCookie('ss',1);select_store(this.getAttribute('horzNumber'))" onmouseout ="onunhoverTabChange(this.getAttribute('horzNumber'))"><img src='http://www.ftdimg.com/pics/design2007/bt-flowersGifts_val14.png' border=0  id='html_store_tab_1_unselected'><img onmouseover=getSneakpeek(1,7); onmouseout=hideSneakpeek(1); src='http://www.ftdimg.com/pics/design2007/bt-flowersGifts_val14_Hov.png' border=0  id='html_store_tab_1_selected' style='display:none;'></a></li></nobr><nobr><li><a id="html_store_tab_2" selected=0 href="http://www.ftd.com/plant-shop-ctg/plantshop/"  horzNumber="2" style='float:left;width:111px' onmouseover ="onhoverTabChange(this.getAttribute('horzNumber'))" onclick ="setSharedCookie('ss',1);select_store(this.getAttribute('horzNumber'))" onmouseout ="onunhoverTabChange(this.getAttribute('horzNumber'))"><img src='http://www.ftdimg.com/pics/design2007/bt-garden_spring14.png' border=0  id='html_store_tab_2_unselected'><img onmouseover=getSneakpeek(2,7); onmouseout=hideSneakpeek(2); src='http://www.ftdimg.com/pics/design2007/bt-garden_spring14_Hov.png' border=0  id='html_store_tab_2_selected' style='display:none;'></a></li></nobr><nobr><li><a id="html_store_tab_3" selected=0 href="http://www.ftd.com/luxury-ctg/luxury/"  horzNumber="3" style='float:left;width:111px' onmouseover ="onhoverTabChange(this.getAttribute('horzNumber'))" onclick ="setSharedCookie('ss',1);select_store(this.getAttribute('horzNumber'))" onmouseout ="onunhoverTabChange(this.getAttribute('horzNumber'))"><img src='http://www.ftdimg.com/pics/design2007/bt-luxury_val14.png' border=0  id='html_store_tab_3_unselected'><img onmouseover=getSneakpeek(3,7); onmouseout=hideSneakpeek(3); src='http://www.ftdimg.com/pics/design2007/bt-luxury_val14_Hov.png' border=0  id='html_store_tab_3_selected' style='display:none;'></a></li></nobr><nobr><li><a id="html_store_tab_4" selected=0 href="http://www.ftd.com/sweet-shop-ctg/sweetshop/"  horzNumber="4" style='float:left;width:111px' onmouseover ="onhoverTabChange(this.getAttribute('horzNumber'))" onclick ="setSharedCookie('ss',1);select_store(this.getAttribute('horzNumber'))" onmouseout ="onunhoverTabChange(this.getAttribute('horzNumber'))"><img src='http://www.ftdimg.com/pics/design2007/bt-sweet_val14.png' border=0  id='html_store_tab_4_unselected'><img onmouseover=getSneakpeek(4,7); onmouseout=hideSneakpeek(4); src='http://www.ftdimg.com/pics/design2007/bt-sweet_val14_Hov.png' border=0  id='html_store_tab_4_selected' style='display:none;'></a></li></nobr><nobr><li><a id="html_store_tab_5" selected=0 href="http://www.ftd.com/gift-basket-shop-ctg/giftbaskets/"  horzNumber="5" style='float:left;width:111px' onmouseover ="onhoverTabChange(this.getAttribute('horzNumber'))" onclick ="setSharedCookie('ss',1);select_store(this.getAttribute('horzNumber'))" onmouseout ="onunhoverTabChange(this.getAttribute('horzNumber'))"><img src='http://www.ftdimg.com/pics/design2007/bt-giftbasket_val14.png' border=0  id='html_store_tab_5_unselected'><img onmouseover=getSneakpeek(5,7); onmouseout=hideSneakpeek(5); src='http://www.ftdimg.com/pics/design2007/bt-giftbasket_val14_Hov.png' border=0  id='html_store_tab_5_selected' style='display:none;'></a></li></nobr><nobr><li><a id="html_store_tab_6" selected=0 href="http://www.ftd.com/chocolate-dip-delights-ctg/chocolatedipdelights/"  horzNumber="6" style='float:left;width:111px' onmouseover ="onhoverTabChange(this.getAttribute('horzNumber'))" onclick ="setSharedCookie('ss',1);select_store(this.getAttribute('horzNumber'))" onmouseout ="onunhoverTabChange(this.getAttribute('horzNumber'))"><img src='http://www.ftdimg.com/pics/design2007/bt-cdd_val14.png' border=0  id='html_store_tab_6_unselected'><img onmouseover=getSneakpeek(6,7); onmouseout=hideSneakpeek(6); src='http://www.ftdimg.com/pics/design2007/bt-cdd_val14_Hov.png' border=0  id='html_store_tab_6_selected' style='display:none;'></a></li></nobr><nobr><li><a id="html_store_tab_7" selected=0 href="http://www.ftd.com/ultimate-gifts-ctg/ultimate/"  horzNumber="7" style='float:left;width:113px' onmouseover ="onhoverTabChange(this.getAttribute('horzNumber'))" onclick ="setSharedCookie('ss',1);select_store(this.getAttribute('horzNumber'))" onmouseout ="onunhoverTabChange(this.getAttribute('horzNumber'))"><img src='http://www.ftdimg.com/pics/design2007/bt-ultimateGifts_val14.png' border=0  id='html_store_tab_7_unselected'><img onmouseover=getSneakpeek(7,7); onmouseout=hideSneakpeek(7); src='http://www.ftdimg.com/pics/design2007/bt-ultimateGifts_val14_Hov.png' border=0  id='html_store_tab_7_selected' style='display:none;'></a></li></nobr></div></ul></nav>
- 
-<script type='text/javascript'>
-SneakPeekLoad=0;
-window.onload = function(){
-storesPos();
-window.loaded=true;
-};
-deleteSharedCookie('ss');
-</script>
-
-
-<!-- End Stores -->
-	<script language="javascript" type="text/javascript">
-			if( getBrowserTypeNew() == 'Safari' ){
-			    window.addEventListener("pageshow", function() {
-                                var nid = "1";
-                                var sid = getSharedCookie('sid');
-                                if( sid != null && sid != '' && !isNaN(sid) && sid == nid ){
-                                select_store(sid);
-                                }else if (nid != null && nid != '' && !isNaN(nid)){
-                                select_store(nid);
-                                }else{
-                                select_store(1);
-                                }
-
-			    }, false);
-			}else{
-			   //jQuery(document).ready(function(){
-				var nid = "1";
-				var sid = getSharedCookie('sid');
-				if( sid != null && sid != '' && !isNaN(sid) && sid == nid ){
-				select_store(sid);
-				}else if (nid != null && nid != '' && !isNaN(nid)){
-				select_store(nid);
-				}else{
-				select_store(1);
-				}
-			   //	});
-                        }
-
-		(function(){
-		 var strid = "";
-		 if(strid && strid != ''){
-		 select_store(strid);
-		 }
-		 })();
-
-		</script>
-   	<div id="custom_header">
-		<!-- ++++++++++++++++++++++++++++++++++++++++++++ CODE: HEADER CODE BRAND: FTD.COM VERSION: 3 REVISION: 1 DATE BUILT: 02/01/2013 DATE REVISED: 10/04/2013 DATE LAUNCH: ?? MODIFIED BY: LJ DESCRIPTION: Change FTD logo image, includes CY & Gift Card page insertion, search default text change +++++++++++++++++++++++++++++++++++++++++++ --> <style type="text/css">  #custom_header > #black_and_gold_header { border: 0; }  #black_and_gold_header { background-color: #000; }  #black_and_gold_header_home_area { z-index: 1; } #black_and_gold_header_home_area a { 	display: block; 	width: 407px; 	height: 92px; 	text-indent: -9999px; 	background: url('http://www.ftdimg.com/pics/products/HP_Logo.jpg') 0 0 no-repeat; }  #promoLink { 	position:absolute; 	width: 170px; 	height: 40px; 	left: 260px; 	bottom: 0; 	cursor: pointer; 	z-index: 20; } 	 </style>  <div id="black_and_gold_header"> 	<div id="header_sourcecode_800_cont" style="z-index: 10"> 		<em id="header_sourcecode_800">1-800-SEND FTD</em> 	</div> 	<div id="promoLink"> 		<a href="http://www.ftd.com/350/catalog/category.epl?index_id=product_samedaydelivery" title="Search our selection of products arranged and delivered by your local florist"> 			<img src="http://www.ftdimg.com/pics/design2007/FiHrs_081512.jpg" width="162" height="40" border="0" /> 		</a> 	</div> 	<div id="black_and_gold_header_home_area"> 		<a href="http://www.ftd.com/350/?int=1'"><h1>Flowers, Plants and Gifts</h1></a> 	</div>  	<script language="javascript">	 		(function($){ 			$(document).ready(function() { 			    $('#toolbar_search_box').parent('form').submit(function(){ 			      window.location='http://www.ftd.com/350/catalog/product_search.epl?'+ $(this).serialize(); 			      return false; 			    }); 			 			    $('#toolbar_signin_form').draggable({ iframeFix: true }); 				PA.display_toolbar(); 			    $('#toolbar .toolbar-link').hover( 					function(){ 						$(this).css('text-decoration', 'underline'); 						$(this).css('cursor', 'pointer'); 					}, 					function(){ 						$(this).css('text-decoration', 'none'); 						$(this).css('cursor', 'default'); 					} 			    ); 				$('#tab_dropdown_5').append("<a href='https://premium.vcdelivery.com/V2/ftd/' title='Gift Cards' target='_blank'>FTD Gift Cards</a>"); 				$('#tab_dropdown_7').append("<a href='https://premium.vcdelivery.com/V2/ftd/' title='FTD Gift Cards' target='_blank'>FTD Gift Cards</a>"); 			}); 		})(jQuery);	 	</script> 	 	<div id="toolbar" style="z-index: 50"> 		 		<div id="toolbar_signin_form" class="fb-close-on-click" style="display: none;"> 			<button id="formClose" class="btn-grey toolbar_signin_form_close" type="button">X</button> 			<form style="margin:0px;" action="https://ordering.ftd.com/350/signin/"> 				<div class="toolbar-error-msg"></div> 				<div id="ftd_PA_signin"> 				Sign In with your FTD account 				<fieldset id="inputs"> 					Email: <input class="email" type="text" name="email" placeholder="FTD account email" onchange="sendEmailAddressToCY(this.value);" required="">    					Password: <input class="password" type="password" name="password" placeholder="FTD account password" required="" maxlength="18"> 				</fieldset> 				<fieldset id="actions"> 					<a class="infoLink" href="https://ordering.ftd.com/350/signin/#forgot-password">Trouble Signing In?</a> 					<input type="submit" id="submit" value=""> 				</fieldset> 			</div> 			<div id="fb_signin"> 				<span class="hr"><span>or</span></span> 				Sign In with Facebook 				<fieldset id="FBfield"> 					<input class="fb-sign-in" id="FBsignIn" value="" location="Header FB Widget"><br> 					<a class="infoLink" style="float: right;" href="javascript:void(0)" onclick="window.open(&#39;http://www.facebook.com/about/login/&#39;,&#39;Learn_more&#39;, &#39;width=1100,height=960&#39;)">Learn more</a> 				</fieldset> 			</div> 				<input type="hidden" name="from_header_toolbar" value="1"> 			</form> 		</div>	 	 		<!-- acquisition/sign in state --> 		<div id="toolbar_signup" style="margin-right:5px; height:22px;"> 			<nobr> 			<span class="fb-on-signin"> 			SIGN IN WITH : <img class="icon-toolbar fb-sign-in" src="http://www.ftdimg.com/pics/icon-toolbarFB.jpg" location="Header FB Icon"> or <span class="sign-in toolbar-link" style="margin-right:8px;"><img class="icon-toolbar icon-FTD" id="ftd_logo_icon" onClick="setPopupPos(this)" src="http://www.ftdimg.com/pics/icon-toolbarFTD.jpg"></span> 			</span> 			<span class="sign-in toolbar-link fb-off-signin" style="margin-left:10px;margin-right:10px;">SIGN IN</span>| 			<span class="sign-up toolbar-link" style="margin-left:10px;margin-right:10px;">REGISTER</span>| 			<span class="goto-myaccount toolbar-link" style="margin-left:10px;">MY ACCOUNT</span> 			<span style="margin-bottom: 4px;"> 				<a href="http://www.ftd.com/350/scart/" style="color: #FFFFFF;"> 					<img class="shopCartImg" src="http://www.ftdimg.com/pics/cart.gif" width="25" height="20" border="0"> 					<div id="scart_num_signedin"></div> 					<img class="checkoutImg" src="http://www.ftdimg.com/pics/Checkout.gif" width="70"> 				</a> 			</span> 			</nobr> 		</div><!-- /toolbar_signup --> 		<!-- end acquisition/sign in state --> 	 		<!-- cookied in state --> 		<div id="toolbar_cookied" style="margin-right:5px; height:22px;"> 			<nobr> 			<span id="gold_member_cookied" style="display:none;"><img src="http://www.ftdimg.com/pics/products/S11-02300B_GoldD_HP_header_Icon.jpg"></span> 			<span class="welcome" style="margin-right:10px;">WELCOME BACK <span class="personal-account-fname"></span> </span>| 			<span class="signout toolbar-link" style="margin-left:10px;margin-right:10px;">NOT <span class="personal-account-fname"></span>?</span>| 			<span class="goto-myaccount toolbar-link" style="margin-left:10px;margin-right:10px;">MY ACCOUNT</span>| 			<span class="fb-on-signin"> 			SIGN IN WITH : <img class="icon-toolbar fb-sign-in" src="http://www.ftdimg.com/pics/icon-toolbarFB.jpg" location="Header FB Icon"> or <span class="sign-in toolbar-link" style="margin-right:8px;"><img class="icon-toolbar icon-FTD cookieTrigger" onclick="setPopupPos(this)" style=" position: relative;" src="http://www.ftdimg.com/pics/icon-toolbarFTD.jpg"></span> 			</span> 			<span class="sign-in toolbar-link fb-off-signin" style="margin-left:10px;margin-right:10px;">SIGN IN</span> 			<span> 				<a href="http://www.ftd.com/350/scart/" style="color: #FFFFFF;"> 					<img class="shopCartImg" src="http://www.ftdimg.com/pics/cart.gif" width="25" height="20" border="0"> 					<div id="scart_num_cookied">5</div> 					<img class="checkoutImg" src="http://www.ftdimg.com/pics/Checkout.gif" width="70"> 				</a> 			</span> 			</nobr> 		</div><!-- /toolbar_cookied --> 		<!-- end cookied in state --> 	 		<!-- signed in state --> 		<div id="toolbar_signedin" style="margin-right:5px; height:22px;"> 			<nobr> 			<span id="gold_member_signedin" style="display:none;"><img src="http://www.ftdimg.com/pics/products/S11-02300B_GoldD_HP_header_Icon.jpg"></span> 			<span id="facebook_signedin"></span> 	     	<span class="welcome" style="margin-right:10px;">WELCOME BACK <span class="personal-account-fname"></span> </span>| 	     	<span class="goto-myaccount toolbar-link" style="margin-left:10px; margin-right:10px;">MY ACCOUNT</span>| 	     	<span class="signout toolbar-link" style="margin-left:10px;margin-right:10px;">SIGN OUT</span> 	     	<span> 	     		<a href="http://www.ftd.com/350/scart/" style="color: #FFFFFF;"> 	     			<img class="shopCartImg" src="http://www.ftdimg.com/pics/cart.gif" width="25" height="20" border="0"> 	     			<div id="scart_num_signedout"></div> 	     			<img class="checkoutImg" src="http://www.ftdimg.com/pics/Checkout.gif" width="70">      			</a>  			</span>  			</nobr> 		</div><!-- /toolbar_signedin --> 		 		<div id="toolbar_links" style="margin-right:5px;clear:both;margin-top:8px;"> 			<nobr><a href="http://www.ftd.com/350/custserv/" style="margin-left:10px;">CUSTOMER SERVICE</a></nobr> 		</div> 		 		<script type="text/javascript"> 			var signed_in =document.getElementById('scart_num_signedin'); 			var signed_out =document.getElementById('scart_num_signedout'); 			var cookied =document.getElementById('scart_num_cookied'); 			signed_in.innerHTML = '<font SIZE="0" COLOR="000000">('+ShoppingCartCookie.num_items()+')</font>'; 			signed_out.innerHTML = '<font SIZE="0" COLOR="000000">('+ShoppingCartCookie.num_items()+')</font>'; 			cookied.innerHTML = '<font SIZE="0" COLOR="000000">('+ShoppingCartCookie.num_items()+')</font>'; 		</script> 	 		<div id="search_box_area" style="margin-top:3px;clear:both;width:300px;"> 			<div> 			    <style type="text/css">  /* Adding the below CSS hack for defect #8132 */  #fb_header_like span.fb_edge_comment_widget{ 	width:1px; 	height:1px; 	overflow:hidden;  } </style> <div id="fb_header_like" class="fb_like_btn" style="margin-top:4px;display:none;float:right;margin-left:10px;width:90px"> <div style="text-align:left;"> <fb:like href="http://www.facebook.com/FTDFlowers" layout="button_count" show_faces="false" width="90" font="arial"></fb:like> </div> </div> <script type="text/javascript"> if(navigator.userAgent.toLowerCase().indexOf("msie 6") != -1){   jQuery("#fb_header_like").remove(); } </script> 				<div> 					<form method="get" action="http://www.ftd.com/350/catalog/product_search.epl" name="product_search" id="product_search" onsubmit="return emptySearchBox();"> 						<input name="search_box" value="search by flower, color, keyword" title="search by flower, color, keyword" onclick="if(this.value == this.title) {this.value=&quot;&quot;;}" id="toolbar_search_box" size="20"> 						<input type="image" style="vertical-align:middle; width:20; height:18; border: 1px solid rgb(255, 255, 255); margin-top:4px;" src="http://www.ftdimg.com/pics/design2008/SearchIcon.gif" id="Search" title="Search" alt="Search"> 						<input type="hidden" name="AID" value="search"> 					</form> 				</div> 			</div> 			<div style="clear:both;"></div> 		</div><!-- /search_box_area --> 	</div><!-- /toolbar --> </div><!-- /black_and_gold_header -->	</div>
-	
- <script language="javascript">
-		 	(function($){
-			  $(document).ready(function() {
-                 $("#header_sourcecode_800_cont").mouseover( function() {
-                     $(this).children("#header_sourcecode_800").html("1-800-736-3383");
-                 }).mouseout( function() {
-                     $(this).children("#header_sourcecode_800").html("1-800-SEND FTD");
-                 });
-
-                });	//end of document.ready
-			
-			 })(jQuery); //ending off our anonymous function
-         </script>
-<!-- Tabs -->
-	
- <nav><div id="tabs_div" style="position:relative; height:24px; width:810px; height: 33px; background-color:#d9c887; margin:0px; clear:both;">
-<ul class="ul_nav_list"><li><nobr><a id="html_tab_1" href="http://www.ftd.com/mothers-day-ctg/occasion-mothersday-lp/?noparent_bread=1" title="Mother's Day" onclick="return stopLink(1,0.2);" onmouseover="showMegaMenu(1,0.2);" onmouseout="hideMegaMenu(1);" vertNumber='1' horzNumber='1' ><img src="http://www.ftdimg.com/pics/design2007/tabIcon-heart.png" border="0" style="margin-right:3px; vertical-align:middle"/> MOTHER'S DAY</a></nobr>
-<div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:142px"></div></li>
-<li><nobr><a id="html_tab_2" href="http://www.ftd.com/shop-by-occasion-ctg/occasion/?noparent_bread=1" title="Occasion" onclick="return stopLink(2,0.2);" onmouseover="showMegaMenu(2,0.2);" onmouseout="hideMegaMenu(2);" vertNumber='1' horzNumber='2' ><img src="http://www.ftdimg.com/pics/design2007/tabIcon-occasion.png" border="0" style="margin-right:2px; vertical-align:middle"/> OCCASION</a></nobr>
-<div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:250px"></div></li>
-<li><nobr><a id="html_tab_3" href="http://www.ftd.com/flowers-ctg/product-flowers-all/?noparent_bread=1" title="Flowers" onclick="return stopLink(3,0.2);" onmouseover="showMegaMenu(3,0.2);" onmouseout="hideMegaMenu(3);" vertNumber='1' horzNumber='3' ><img src="http://www.ftdimg.com/pics/design2007/tabIcon-flowers.png" border="0" style="margin-right:2px; vertical-align:middle"/> FLOWERS</a></nobr>
-<div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:355px"></div></li>
-<li><nobr><a id="html_tab_4" href="http://www.ftd.com/plants-ctg/product-plants-all/?noparent_bread=1" title="Plants" onclick="return stopLink(4,0.2);" onmouseover="showMegaMenu(4,0.2);" onmouseout="hideMegaMenu(4);" vertNumber='1' horzNumber='4' ><img src="http://www.ftdimg.com/pics/design2007/tabIcon-plants.png" border="0" style="margin-right:2px; vertical-align:middle"/> PLANTS</a></nobr>
-<div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:445px"></div></li>
-<li><nobr><a id="html_tab_5" href="http://www.ftd.com/gifts-ctg/product-gift-all/?noparent_bread=1" title="Gifts" onclick="return stopLink(5,0.2);" onmouseover="showMegaMenu(5,0.2);" onmouseout="hideMegaMenu(5);" vertNumber='1' horzNumber='5' ><img src="http://www.ftdimg.com/pics/design2007/tabIcon-gifts.png" border="0" style="margin-right:2px; vertical-align:middle"/> GIFTS</a></nobr>
-<div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:524px"></div></li>
-<li><nobr><a id="html_tab_6" href="javascript:void(0);" title="Brands" onclick="return stopLink(6,0.2);" onmouseover="showMegaMenu(6,0.2);" onmouseout="hideMegaMenu(6);" vertNumber='1' horzNumber='6' ><img src="http://www.ftdimg.com/pics/design2007/tabIcon-brands.png" border="0" style="margin-right:3px; vertical-align:middle"/> BRANDS</a></nobr>
-<div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:622px"></div></li>
-<li><nobr><a id="html_tab_7" href="http://www.ftd.com/same-day-delivery-ctg/product-samedaydelivery/?noparent_bread=1" title="Same Day" onclick="return stopLink(7,0.2);" onmouseover="showMegaMenu(7,0.2);" onmouseout="hideMegaMenu(7);" vertNumber='1' horzNumber='7' ><img src="http://www.ftdimg.com/pics/design2007/tabIcon-sameDay.png" border="0" style="margin-right:2px; vertical-align:middle"/> SAME DAY</a></nobr>
-<div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:733px"></div></li>
-<li><nobr><a id="html_tab_8" href="javascript:void(0);" title="Price" onclick="return stopLink(8,0.2);" onmouseover="showMegaMenu(8,0.2);" onmouseout="hideMegaMenu(8);" vertNumber='1' horzNumber='8' ><img src="http://www.ftdimg.com/pics/design2007/tabIcon-price.png" border="0" style="vertical-align:middle"/> PRICE</a></nobr>
-</ul></div>
-
-
-<div id='megamenu_1' style='width:auto; max-width:810px; visibility:hidden; position:absolute; overflow:hidden;'><div id='mm_zone1_1'><div id='mm_zone1_1_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="2" href="http://www.ftd.com/all-mothers-day-ctg/occasion-mothersday-all/?noparent_bread=1">All Mother's Day</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/occasion-mothersday-bestsellers/?noparent_bread=1">Best Sellers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="4" href="http://www.ftd.com/chocolate-dip-delights-ctg/occasion-mothersday-cdd/?noparent_bread=1">Chocolate Dip Delights</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="5" href="http://www.ftd.com/flowers-ctg/occasion-mothersday-flowers/?noparent_bread=1">Flowers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="6" href="http://www.ftd.com/ftd-exclusives-ctg/occasion-mothersday-exclusives/?noparent_bread=1">FTD Exclusives</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="7" href="http://www.ftd.com/gifts-ctg/occasion-mothersday-gourmet/?noparent_bread=1">Gifts</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="8" href="http://www.ftd.com/jewelry-ctg/occasion-mothersday-jewelry/?noparent_bread=1">Jewelry</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="9" href="http://www.ftd.com/plants-ctg/occasion-mothersday-plants/?noparent_bread=1">Plants</a></li>
-</ul></div></div>
-
-<div id='mm_zone2_1'><div id='mm_zone2_1_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="2" href="http://www.ftd.com/shop-by-color-ctg/product-color-lp-mday/?noparent_bread=1">Shop by Color</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="1" vertNumber="3" href="http://www.ftd.com/blue-ctg/product-color-blue-mday/?noparent_bread=1">Blue</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="1" vertNumber="4" href="http://www.ftd.com/colorful-ctg/product-color-colorful-mday/?noparent_bread=1">Colorful</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="1" vertNumber="5" href="http://www.ftd.com/orange-ctg/product-color-orange-mday/?noparent_bread=1">Orange</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="1" vertNumber="6" href="http://www.ftd.com/pastel-ctg/product-color-pastel-mday/?noparent_bread=1">Pastel</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="1" vertNumber="7" href="http://www.ftd.com/pink-ctg/product-color-pink-mday/?noparent_bread=1">Pink</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="1" vertNumber="8" href="http://www.ftd.com/purple-ctg/product-color-purple-mday/?noparent_bread=1">Purple</a></li>
-<li><a class="mm_tertiary mm_more_title mm_clickable"
-				horzNumber="1" vertNumber="9" href="http://www.ftd.com/shop-by-color-ctg/product-color-lp-mday/?noparent_bread=1">More Shop by Color...</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="10" href="http://www.ftd.com/spoil-mom-ctg/occasion-mothersday-spoil/?noparent_bread=1">Spoil Mom</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="11" href="http://www.ftd.com/3999-under-ctg/occasion-mothersday-values/?noparent_bread=1">$39.99 & Under</a></li>
-</ul></div></div>
-
-<div id='mm_zone3_1'><div id='mm_zone3_1_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="1" vertNumber="2" href="http://www.ftd.com/ultimate-gifts-ctg/occasion-mothersday-ultimate/?noparent_bread=1">Ultimate Gifts</a></li>
-</ul></div></div>
-
-</div>
-
-<div id='megamenu_2' style='width:auto; max-width:810px; visibility:hidden; position:absolute; overflow:hidden;'><div id='mm_zone1_2'><div id='mm_zone1_2_links'><ul class='ul_nav_list'>
-<li><span class="non_clickable" 
-                                horzNumber="2" vertNumber="2">Seasonal Occasions</span></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="3" href="http://www.ftd.com/easter-4-20-ctg/occasion-easter/?noparent_bread=1">Easter - 4/20</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="2" vertNumber="4" href="http://www.ftd.com/easter-flowers-ctg/occasion-easter-flowers/?noparent_bread=1">Easter Flowers</a></li>
-<li><a class="mm_tertiary mm_more_title mm_clickable"
-				horzNumber="2" vertNumber="5" href="http://www.ftd.com/easter-4-20-ctg/occasion-easter/?noparent_bread=1">More Easter - 4/20...</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="6" href="http://www.ftd.com/spring-collection-ctg/product-spring/?noparent_bread=1">Spring Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="7" href="http://www.ftd.com/admins-week-4-20-26-ctg/occasion-administrativeprofessionalsday/?noparent_bread=1">Admin's Week - 4/20-26</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="8" href="http://www.ftd.com/mothers-day-5-11-ctg/occasion-mothersday/?noparent_bread=1">Mother's Day - 5/11</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="2" vertNumber="9" href="http://www.ftd.com/all-mothers-day-ctg/occasion-mothersday-all/?noparent_bread=1">All Mother's Day</a></li>
-<li><a class="mm_tertiary mm_more_title mm_clickable"
-				horzNumber="2" vertNumber="10" href="http://www.ftd.com/mothers-day-5-11-ctg/occasion-mothersday/?noparent_bread=1">More Mother's Day - 5/11...</a></li>
-</ul></div></div>
-
-<div id='mm_zone2_2'><div id='mm_zone2_2_links'><ul class='ul_nav_list'>
-<li><span class="non_clickable" 
-                                horzNumber="2" vertNumber="2">Everyday Occasions</span></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="3" href="http://www.ftd.com/anniversary-ctg/occasion-anniversary/?noparent_bread=1">Anniversary</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="4" href="http://www.ftd.com/birthday-ctg/occasion-birthday-shop/?noparent_bread=1">Birthday</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="2" vertNumber="5" href="http://www.ftd.com/best-sellers-ctg/occasion-birthday-bestsellers/?noparent_bread=1">Best Sellers</a></li>
-<li><a class="mm_tertiary mm_more_title mm_clickable"
-				horzNumber="2" vertNumber="6" href="http://www.ftd.com/birthday-ctg/occasion-birthday-shop/?noparent_bread=1">More Birthday...</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="7" href="http://www.ftd.com/congratulations-ctg/occasion-congratulations/?noparent_bread=1">Congratulations</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="8" href="http://www.ftd.com/corporate-gifts-ctg/occasion-corporateworkgifts/?noparent_bread=1">Corporate Gifts</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="9" href="http://www.ftd.com/get-well-ctg/occasion-getwell/?noparent_bread=1">Get Well</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="10" href="http://www.ftd.com/graduation-ctg/occasion-graduation/?noparent_bread=1">Graduation</a></li>
-</ul></div></div>
-
-<div id='mm_zone3_2'><div id='mm_zone3_2_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="2" href="http://www.ftd.com/im-sorry-ctg/occasion-imsorry/?noparent_bread=1">I'm Sorry</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="3" href="http://www.ftd.com/just-because-ctg/occasion-friendshipjustbecause/?noparent_bread=1">Just Because</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="4" href="http://www.ftd.com/love-romance-ctg/occasion-loveromance/?noparent_bread=1">Love & Romance</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="5" href="http://www.ftd.com/new-baby-ctg/occasion-newbaby/?noparent_bread=1">New Baby</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="2" vertNumber="6" href="http://www.ftd.com/new-baby-flowers-ctg/occasion-newbaby-flowers/?noparent_bread=1">New Baby Flowers</a></li>
-<li><a class="mm_tertiary mm_more_title mm_clickable"
-				horzNumber="2" vertNumber="7" href="http://www.ftd.com/new-baby-ctg/occasion-newbaby/?noparent_bread=1">More New Baby...</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="8" href="http://www.ftd.com/spring-collection-ctg/product-spring/?noparent_bread=1">Spring Collection</a></li>
-</ul></div></div>
-
-<div id='mm_zone4_2'><div id='mm_zone4_2_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="2" href="http://www.ftd.com/sympathy-funeral-ctg/occasion-sympathy/?noparent_bread=1">Sympathy & Funeral</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="2" vertNumber="3" href="http://www.ftd.com/for-the-service-ctg/occasion-sympathy-forservice/?noparent_bread=1">For the Service</a></li>
-<li><a class="mm_tertiary mm_more_title mm_clickable"
-				horzNumber="2" vertNumber="4" href="http://www.ftd.com/sympathy-funeral-ctg/occasion-sympathy/?noparent_bread=1">More Sympathy & Funeral...</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="5" href="http://www.ftd.com/thank-you-ctg/occasion-thankyou/?noparent_bread=1">Thank You</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="2" vertNumber="6" href="http://www.ftd.com/wedding-ctg/occasion-wedding/?noparent_bread=1">Wedding</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="2" vertNumber="7" href="http://www.ftd.com/all-wedding-ctg/occasion-wedding-bestsellers/?noparent_bread=1">All Wedding</a></li>
-<li><a class="mm_tertiary mm_more_title mm_clickable"
-				horzNumber="2" vertNumber="8" href="http://www.ftd.com/wedding-ctg/occasion-wedding/?noparent_bread=1">More Wedding...</a></li>
-</ul></div></div>
-
-</div>
-
-<div id='megamenu_3' style='width:auto; max-width:810px; visibility:hidden; position:absolute; overflow:hidden;'><div id='mm_zone1_3'><div id='mm_zone1_3_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="2" href="http://www.ftd.com/all-flowers-ctg/product-flowers-all-bestsellers/?noparent_bread=1">All Flowers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/product-flowers-bestsellers/?noparent_bread=1">Best Sellers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="4" href="http://www.ftd.com/whats-new-ctg/product-flowers-new/?noparent_bread=1">What's New</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="5" href="http://www.ftd.com/daisies-ctg/product-flowers-subtypes-gerberdaisy/?noparent_bread=1">Daisies</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="6" href="http://www.ftd.com/mixed-bouquets-ctg/product-flowers-mixedbouquets/?noparent_bread=1">Mixed Bouquets</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="7" href="http://www.ftd.com/lilies-ctg/product-flowers-subtypes-lily/?noparent_bread=1">Lilies</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="8" href="http://www.ftd.com/orchids-ctg/product-flowers-orchids/?noparent_bread=1">Orchids</a></li>
-</ul></div></div>
-
-<div id='mm_zone2_3'><div id='mm_zone2_3_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="2" href="http://www.ftd.com/roses-ctg/product-roses/?noparent_bread=1">Roses</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="3" href="http://www.ftd.com/ftd-college-rose-collection-ctg/product-roses-college-lp/?noparent_bread=1">FTD College Rose Collection</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="4" href="http://www.ftd.com/passion-roses-ctg/product-roses-passion/?noparent_bread=1">Passion Roses</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="5" href="http://www.ftd.com/rainbow-roses-ctg/product-roses-rainbow/?noparent_bread=1">Rainbow Roses</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="6" href="http://www.ftd.com/ultimate-roses-ctg/product-roses-ultimate/?noparent_bread=1">Ultimate Roses</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="7" href="http://www.ftd.com/seasonal-flower-market-ctg/product-flower-market-april/?noparent_bread=1">Seasonal Flower Market</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="8" href="http://www.ftd.com/sunflowers-ctg/product-flowers-sunflowers/?noparent_bread=1">Sunflowers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="9" href="http://www.ftd.com/tulips-ctg/product-tulips/?noparent_bread=1">Tulips</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="10" href="http://www.ftd.com/flower-guide-ctg/product-flowers-flowerguide/?noparent_bread=1">Flower Guide</a></li>
-</ul></div></div>
-
-<div id='mm_zone3_3'><div id='mm_zone3_3_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="3" vertNumber="2" href="http://www.ftd.com/international-delivery-ctg/intl-catalog/?noparent_bread=1">International Delivery</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="3" href="http://www.ftd.com/african-areas-flower-delivery/?noparent_bread=1">African Areas</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="4" href="http://www.ftd.com/argentina-flower-delivery/?noparent_bread=1">Argentina</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="5" href="http://www.ftd.com/australia-flower-delivery/?noparent_bread=1">Australia</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="6" href="http://www.ftd.com/austria-flower-delivery/?noparent_bread=1">Austria</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="3" vertNumber="7" href="http://www.ftd.com/baltic-states-flower-delivery/?noparent_bread=1">Baltic States</a></li>
-<li><a class="mm_tertiary mm_more_title mm_clickable"
-				horzNumber="3" vertNumber="8" href="http://www.ftd.com/international-delivery-ctg/intl-catalog/?noparent_bread=1">More International Delivery...</a></li>
-</ul></div></div>
-
-</div>
-
-<div id='megamenu_4' style='width:auto; max-width:810px; visibility:hidden; position:absolute; overflow:hidden;'><div id='mm_zone1_4'><div id='mm_zone1_4_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="2" href="http://www.ftd.com/all-plants-ctg/product-plants-all-bestsellers/?noparent_bread=1">All Plants</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/product-plants-bestsellers/?noparent_bread=1">Best Sellers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="4" href="http://www.ftd.com/whats-new-ctg/product-plants-new/?noparent_bread=1">What's New</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="5" href="http://www.ftd.com/blooming-plants-ctg/product-plants-bloomingplants/?noparent_bread=1">Blooming Plants</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="6" href="http://www.ftd.com/ftd-color-your-day-ctg/product-coloryourday-plants/?noparent_bread=1">FTD Color Your Day</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="7" href="http://www.ftd.com/green-plants-ctg/product-plants-greenplants/?noparent_bread=1">Green Plants</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="8" href="http://www.ftd.com/orchid-plants-ctg/product-plants-orchids/?noparent_bread=1">Orchid Plants</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="9" href="http://www.ftd.com/rose-plants-ctg/product-plants-rose/?noparent_bread=1">Rose Plants</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="4" vertNumber="10" href="http://www.ftd.com/zen-collection-bonsai-bamboo-ctg/product-plants-bonsai/?noparent_bread=1">Zen Collection Bonsai & Bamboo</a></li>
-</ul></div></div>
-
-<div id='mm_zone2_4'><div id='mm_zone2_4_links'><ul class='ul_nav_list'>
-<li><span class="non_clickable" 
-                                horzNumber="4" vertNumber="2">Plant Guides</span></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="4" vertNumber="3" href="http://www.ftd.com/general-care-tips-ctg/product-plants-guide-generalplants/?noparent_bread=1">General Care Tips</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="4" vertNumber="4" href="http://www.ftd.com/care-tips-for-specific-plants-ctg/product-plants-guide-specificplants/?noparent_bread=1">Care Tips for Specific Plants</a></li>
-</ul></div></div>
-
-</div>
-
-<div id='megamenu_5' style='width:auto; max-width:810px; visibility:hidden; position:absolute; overflow:hidden;'><div id='mm_zone1_5'><div id='mm_zone1_5_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="2" href="http://www.ftd.com/all-gifts-ctg/product-gift-all-bestsellers/?noparent_bread=1">All Gifts</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/product-gourmetfoodgifts-bestsellers/?noparent_bread=1">Best Sellers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="4" href="http://www.ftd.com/whats-new-ctg/product-gifts-new/?noparent_bread=1">What's New</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="5" href="http://www.ftd.com/balloons-bears-ctg/product-balloonsandbears/?noparent_bread=1">Balloons & Bears</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="6" href="http://www.ftd.com/chocolate-covered-strawberries-ctg/product-sweets-strawberries/?noparent_bread=1">Chocolate Covered Strawberries</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="7" href="http://www.ftd.com/collectibles-gifts-ctg/product-collectibles/?noparent_bread=1">Collectibles & Gifts</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="8" href="http://www.ftd.com/for-him-ctg/product-forhim/?noparent_bread=1">For Him</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="9" href="http://www.ftd.com/fresh-fruit-ctg/product-gourmetfoodgifts-fruit/?noparent_bread=1">Fresh Fruit</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="10" href="http://www.ftd.com/ftd-exclusives-gifts-collection-ctg/product-gift-exclusive/?noparent_bread=1">FTD Exclusives Gifts Collection</a></li>
-</ul></div></div>
-
-<div id='mm_zone2_5'><div id='mm_zone2_5_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="2" href="http://www.ftd.com/jewelry-boutique-ctg/product-jewelry/?noparent_bread=1">Jewelry Boutique</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="5" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/jewelry-product-jewelry-best/?noparent_bread=1">Best Sellers</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="5" vertNumber="4" href="http://www.ftd.com/necklaces-pendants-ctg/jewelry-product-jewelry-necklaces/?noparent_bread=1">Necklaces & Pendants</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="5" vertNumber="5" href="http://www.ftd.com/birthstone-jewels-ctg/product-jewelry-birthstone/?noparent_bread=1">Birthstone Jewels</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="5" vertNumber="6" href="http://www.ftd.com/jewelry-boxes-ctg/product-jewelry-box/?noparent_bread=1">Jewelry Boxes</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="5" vertNumber="7" href="http://www.ftd.com/mens-collection-ctg/product-jewelry-mens/?noparent_bread=1">Men's Collection</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="5" vertNumber="8" href="http://www.ftd.com/jewelry-guide-ctg/product-jewelry-guide/?noparent_bread=1">Jewelry Guide</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="9" href="http://www.ftd.com/personalized-gifts-ctg/product-personal/?noparent_bread=1">Personalized Gifts</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="10" href="http://www.ftd.com/silk-preserved-ctg/product-silkflowers/?noparent_bread=1">Silk & Preserved</a></li>
-</ul></div></div>
-
-<div id='mm_zone3_5'><div id='mm_zone3_5_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="2" href="http://www.ftd.com/spa-fragrances-ctg/product-bathbeautyspa/?noparent_bread=1">Spa & Fragrances</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="3" href="http://www.ftd.com/wine-champagne-ctg/product-gourmetfoodgifts-winespirits/?noparent_bread=1">Wine & Champagne</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="5" vertNumber="4" href="http://www.ftd.com/ftd-gift-cards-ctg/product-giftcards/?noparent_bread=1">FTD Gift Cards</a></li>
-</ul></div></div>
-
-</div>
-
-<div id='megamenu_6' style='width:auto; max-width:810px; visibility:hidden; position:absolute; overflow:hidden;'><div id='mm_zone1_6'><div id='mm_zone1_6_links'><ul class='ul_nav_list'>
-<li><span class="non_clickable" 
-                                horzNumber="6" vertNumber="2">FTD Signature Brands</span></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="3" href="http://www.ftd.com/ftd-college-rose-collection-ctg/product-college-roses-lp/?noparent_bread=1">FTD College Rose Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="4" href="http://www.ftd.com/ftd-color-your-day-ctg/product-coloryourday/?noparent_bread=1">FTD Color Your Day</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="5" href="http://www.ftd.com/ftd-spring-exclusives-ctg/occasion-easter-exclusives/?noparent_bread=1">FTD Spring Exclusives</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="6" href="http://www.ftd.com/ftd-expressions-collection-ctg/product-expressions/?noparent_bread=1">FTD Expressions Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="7" href="http://www.ftd.com/ftd-floral-jewels-birthstone-collection-ctg/product-floral-jewels/?noparent_bread=1">FTD Floral Jewels Birthstone Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="8" href="http://www.ftd.com/ftd-luxury-collection-ctg/product-luxury-lp/?noparent_bread=1">FTD Luxury Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="9" href="http://www.ftd.com/ftd-pick-me-up-collection-ctg/product-pmu/?noparent_bread=1">FTD Pick Me Up Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="10" href="http://www.ftd.com/ftd-send-a-smile-ctg/product-smile/?noparent_bread=1">FTD Send A Smile</a></li>
-</ul></div></div>
-
-<div id='mm_zone2_6'><div id='mm_zone2_6_links'><ul class='ul_nav_list'>
-<li><span class="non_clickable" 
-                                horzNumber="6" vertNumber="2">Premium Brands</span></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="3" href="http://www.ftd.com/baccarat-ctg/product-baccarat/?noparent_bread=1">Baccarat</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="4" href="http://www.ftd.com/better-homes-and-gardens-ctg/product-bhg/?noparent_bread=1">Better Homes and Gardens</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="6" vertNumber="5" href="http://www.ftd.com/flowers-ctg/product-bhg-flowers/?noparent_bread=1">Flowers</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="6" vertNumber="6" href="http://www.ftd.com/plants-ctg/product-bhg-plants/?noparent_bread=1">Plants</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="6" vertNumber="7" href="http://www.ftd.com/editors-choice-ctg/product-bhg-editor/?noparent_bread=1">Editors' Choice</a></li>
-<li><a class="mm_tertiary mm_clickable"
-				horzNumber="6" vertNumber="8" href="http://www.ftd.com/design-tips-ctg/product-bhg-article-lp/?noparent_bread=1">Design Tips</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="9" href="http://www.ftd.com/godiva-ctg/product-godiva/?noparent_bread=1">Godiva</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="10" href="http://www.ftd.com/mrs-fields-ctg/product-mrsfields/?noparent_bread=1">Mrs. Fields</a></li>
-</ul></div></div>
-
-<div id='mm_zone3_6'><div id='mm_zone3_6_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="2" href="http://www.ftd.com/nambe-ctg/product-nambe/?noparent_bread=1">Nambe</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="3" href="http://www.ftd.com/passion-roses-ctg/product-passion/?noparent_bread=1">Passion Roses</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="4" href="http://www.ftd.com/rogaska-crystal-ctg/product-rogaska/?noparent_bread=1">Rogaska Crystal</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="5" href="http://www.ftd.com/smithsonian-orchids-plants-ctg/product-smithsonian/?noparent_bread=1">Smithsonian Orchids/Plants</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="6" href="http://www.ftd.com/starbucks-ctg/product-starbucks/?noparent_bread=1">Starbucks</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="7" href="http://www.ftd.com/ultimate-roses-ctg/product-roses-ultimate/?noparent_bread=1">Ultimate Roses</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="8" href="http://www.ftd.com/uso-collection-ctg/product-uso/?noparent_bread=1">USO Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="6" vertNumber="9" href="http://www.ftd.com/vera-wang-ctg/product-verawang-ftd/?noparent_bread=1">Vera Wang</a></li>
-</ul></div></div>
-
-</div>
-
-<div id='megamenu_7' style='width:auto; max-width:810px; visibility:hidden; position:absolute; overflow:hidden;'><div id='mm_zone1_7'><div id='mm_zone1_7_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="2" href="http://www.ftd.com/all-same-day-flowers-ctg/product-samedaydelivery-bestsellers/?noparent_bread=1">All Same Day Flowers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="3" href="http://www.ftd.com/better-homes-gardens-ctg/product-samedaydelivery-bhg/?noparent_bread=1">Better Homes & Gardens</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="4" href="http://www.ftd.com/flowers-ctg/product-samedaydelivery-flowersplants/?noparent_bread=1">Flowers</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="5" href="http://www.ftd.com/ftd-color-your-day-ctg/product-samedaydelivery-coloryourday/?noparent_bread=1">FTD Color Your Day</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="6" href="http://www.ftd.com/ftd-exclusives-ctg/product-samedaydelivery-exclusives/?noparent_bread=1">FTD Exclusives</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="7" href="http://www.ftd.com/ftd-expressions-collection-ctg/product-expressions/?noparent_bread=1">FTD Expressions Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="8" href="http://www.ftd.com/ftd-luxury-collection-ctg/product-luxury-lp/?noparent_bread=1">FTD Luxury Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="9" href="http://www.ftd.com/ftd-pick-me-up-collection-ctg/product-pmu/?noparent_bread=1">FTD Pick Me Up Collection</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="10" href="http://www.ftd.com/plants-ctg/product-samedaydelivery-plants/?noparent_bread=1">Plants</a></li>
-</ul></div></div>
-
-<div id='mm_zone2_7'><div id='mm_zone2_7_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="7" vertNumber="2" href="http://www.ftd.com/vera-wang-ctg/product-samedaydelivery-vera/?noparent_bread=1"><b>Vera Wang</b></a></li>
-</ul></div></div>
-
-</div>
-
-<div id='megamenu_8' style='width:auto; max-width:810px; visibility:hidden; position:absolute; overflow:hidden;'><div id='mm_zone1_8'><div id='mm_zone1_8_links'><ul class='ul_nav_list'>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="8" vertNumber="2" href="http://www.ftd.com/over-75-ctg/product-shopbyprice-75andover/?noparent_bread=1">Over $75</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="8" vertNumber="3" href="http://www.ftd.com/55-to-75-ctg/product-shopbyprice-55to75/?noparent_bread=1">$55 to $75</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="8" vertNumber="4" href="http://www.ftd.com/45-to-55-ctg/product-shopbyprice-45to55/?noparent_bread=1">$45 to $55</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="8" vertNumber="5" href="http://www.ftd.com/35-to-45-ctg/product-shopbyprice-35to45/?noparent_bread=1">$35 to $45</a></li>
-<li><a class="mm_secondary mm_clickable"
-				horzNumber="8" vertNumber="6" href="http://www.ftd.com/under-35-ctg/product-shopbyprice-under35/?noparent_bread=1">Under $35</a></li>
-</ul></div></div>
-
-</div>
-
-</nav>
- <script language="javascript">
-      htmlTabs.design_type = 'brand_redesign';
-      (function($){
-      $('div').filter('#tabs_div').find("a").click(function(){
-		      var horzNum = $(this).attr("horzNumber");
-		      var tabTitle = $("#html_tab_"+horzNum).text();
-		      setSharedCookie('tab',tabTitle);
-		      });
-
-	$('div').filter('.html_tab_dropmenudiv').find("a").click(function(){
-		var horznum = $(this).attr("horzNumber");
-		var TabTitle = $("#html_tab_"+horznum).text();
-		setSharedCookie('tab',TabTitle);
-		});
-	})(jQuery);
-   
-  jQuery(document).ready(function(){
-			MegaMenuPos();
-			});
-	</script>
- 
-  <script language="javascript">
-  <!--
-    //omniture will only be tracked with the brand_redesign
-	var tab_track_omniture = function () {
-	var $ = jQuery;
-	var tab_name = $(this).attr("title");
-	var horizontal_tab_num  = $(this).attr("horzNumber");
-	var vertical_tab_num  = $(this).attr("vertNumber");
-	
-	Tab.count(tab_name, horizontal_tab_num, vertical_tab_num);
-	};
-
-	jQuery(document).ready(function(){
-		var $ = jQuery;	
-	//attach some onclick events to all of
-	//our tab sub menus
-	$(".html_tab_dropmenudiv").find("a").click(tab_track_omniture);
-	//add the same tracking to the parent links
-	$('div').filter('#tabs_div').find("a").click(tab_track_omniture);
-
-	});
-	
-  -->
-  </script>
-  <!-- End Tabs -->
-
-
-<script type="text/javascript">
-FBSIGNIN.showFBOnLinks();
-</script>
-<div id="main_area" style="padding-top:0px;">
-
-   <script type="text/javascript">
-      $('#FH_name_info').removeAttr('onclick').css('cursor','default');
-     </script>
-   <div style="width: 810px;">
-	<script language="javascript">
-	<!--
-		try {
-			var rv = "";
-			var add ="";
-			setContinueShoppingCookie("Home Page", "home", "%2F%3Fmarkcode%3D", rv);
-			var continue_shopping = getContinueShoppingCookie();
-			var continue_shopping_label = "Back to __LOCATION__";
-			if (continue_shopping.prevName) { 
-                           if(add)
-                            {
-                              continue_shopping_link = "<a class='continue_shopping' href='http://www.ftd.com/350/scart'>Back to Shopping Cart</a>";
-                            }
-                           else {
-
-				var label = continue_shopping_label.replace("__LOCATION__", continue_shopping.prevName);
-					continue_shopping_link = "<a class='continue_shopping' href='http://www.ftd.com"+unescape(continue_shopping.prevValue) + (unescape(continue_shopping.prevValue) == ' ' ? '350?int=1' : '') + "'>"+label+"</a>";
-				}	
-			} else {
-				var label = continue_shopping_label.replace("__LOCATION__", "Home Page"); 	
-				continue_shopping_link = "<a class='continue_shopping' href='http://www.ftd.com/350/?int=1'>"+label+"</a>";
-			}
-		} catch(e) {
-			errAlert(e, 'start.html continue shopping link');
-		}
-	//-->
-    </script>
-<script language="javascript" type="text/javascript">
-    <!--
-      mybuys.setPageType("HOME");
-    //-->
-    </script>
-
-   <script type="text/javascript">
-		var ftd_zip_finder = {
-				delivery_date_count :15	,
-				Occasions :[
-					{ index_id : "product_bestsellers", title : "Select Occasion", occ_id : "00" },{ index_id : "occasion_administrativeprofessionalsday", title : "Admin. Professionals&#39; Day", occ_id : "21" },{ index_id : "occasion_anniversary", title : "Anniversary", occ_id : "7" },{ index_id : "occasion_birthday_shop", title : "Birthday", occ_id : "3" },{ index_id : "occasion_corporateworkgifts", title : "Business/Commercial", occ_id : "4" },{ index_id : "occasion_congratulations", title : "Congratulations", occ_id : "9" },{ index_id : "occasion_easter", title : "Easter", occ_id : "18" },{ index_id : "occasion_getwell", title : "Get Well", occ_id : "2" },{ index_id : "occasion_loveromance", title : "Love and Romance", occ_id : "10" },{ index_id : "occasion_mothersday", title : "Mother&#39;s Day", occ_id : "14" },{ index_id : "occasion_newbaby", title : "New Baby", occ_id : "6" },{ index_id : "occasion_sympathy", title : "Sympathy", occ_id : "1" },{ index_id : "occasion_thankyou", title : "Thank You", occ_id : "12" },{ index_id : "occasion_wedding", title : "Wedding", occ_id : "65" }]
-			}
-			var availToday = 1,
-			    num_dates = 90,
-			    showCalendar = 1 ; 
-		function updateZipFinder(){
-			if($.browser.msie && $.browser.version=="6.0"){
-                                $("#zip_finder_new").remove();
-			    }else{
-				$("#zip_finder").remove();
-				QV.prepareOccasionList(ftd_zip_finder.Occasions);
-				QV.populateDeliveryDates(ftd_zip_finder.delivery_date_count, 1);
-				/* Update the zip finder with user selection data from cookie 'zf' */
-				QV.prefillZF();
-			    }
-			}
-	</script>
-
-<!-- left side outer div -->
-<div id='main_left_side' valign='top' align='left'> 
-	<!-- START LEFT PART OF THE CONTENT AREA -->
-	
- <!-- START of main promotional area -->
-<div id="main_promotional_area">
- <!-- mp_trans_schedule_disable_start -->
-<!--
-++++++++++++++++++++++++++++++++++++++++++++++ 
-CODE: DHTML
-BRAND: MAIN EN PM
-EXTRA: ZIP FINDER WIDGET
-LANGUAGE: ENGLISH
-VER: 1
-REV: 0
-DATE BUILT: 04/14/2014
-DATE REVISED: 
-DATE LAUNCH: 04/14/2014
-MODIFY BY: CW
-		   JS - slider nav fix, added MD bottom promo buckets
-		   DH - add new 2 image slide layout
-++++++++++++++++++++++++++++++++++++++++++++++
--->
-<style type="text/css">
-<!--
-#cat_btm_img_1, #cat_btm_img_2, #cat_btm_img_3 {
-	height: 130px;
-	width: 268px;
-	margin-top: 2px;
-}
-#main_promotional_area {
-	text-align: left;
-}
-#lf_panel_holder {
-	vertical-align:top;
-}
-#lf_panel_holder #zip_finder {
-	margin-top: 3px;
-	padding-bottom: 36px;
-	width: 187px;
-}
-#lf_panel_holder #zip_finder_new {
-	height: 166px;
-	width: 187px;
-	background: #d9cf8a;
-}
-.leftMenuText {
-	height: 30px;
-	overflow: hidden;
-}
-a.lfMenuText:link, a.lfMenuText:active, a.lfMenuText:visited {
-	font-size: 12px;
-	font-family: Arial, Helvetica, sans-serif;
-	display:block;
-	color:#333;
-	text-align:left;
-	text-decoration:none;
-	text-transform: uppercase;
-	padding-top:7px;
-	padding-bottom:8px;
-	padding-left:6px;
-	border-top:1px solid #d1bc61;
-	background-color:#e7d9a8;
-}
-a.lfMenuText:hover {
-	color:#000;
-	text-decoration:none;
-	background-color:#d1bc61;
-}
-div.sliderWrp {
-	position: relative;
-	clear: both;
-	width: 620px;
-	height: 346px;
-	background-color: #fff;
-	margin: 0 0 0px 1px;
-	border: 1px solid #d0bc63;
-	overflow:hidden;
-}
-/* Set the styles to the thumb nav begin here. */
-.nav {
-	margin-top: -28px;
-	z-index: 90;
-	position: absolute;
-	left: 0;
-}
-#nav {
-	margin: -25px 0 0 22px;
-	z-index: 94;
-	padding: 0px;
-	position: relative;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-}
-#nav li {
-	float: left;
-	list-style: none;
-}
-#nav a {
-	display: block;
-	color: #fff;
-	margin: -1px 2px 0;
-	padding: 3px 5px;
-	background: #dace8b;
-	text-decoration:none;
-}
-#nav li.activeSlide a {
-	color: #666;
-	background-color: #e7d9a8;
-	font-weight: bold;
-}
-#nav a:focus {
-	outline: none;
-}
-/* Set the styles to slider begin here. */
-.pics div {
-	z-index: 100;
-	width: 620px;
-	height: 346px;
-	overflow:hidden;
-}
-#prev1 {
-	position: relative;
-	left: 4px;
-	display:none;
-}
-#next1 {
-	position: relative;
-	left: 90px;
-	display:none;
-}
-/* Individual slider styles begin here. */
-.promoOne .innerTwoWrp .innerThreeWrp, .promoThree .innerThree .innerFive, .promoFour .innerThree {
-	display: none;
-}
-.promoTwo .innerOneWrp, .promoTwo .innerTwoWrp {
-	display: block;
-	float: left;
-	width: 310px;
-	height: 346px;
-	text-indent: -9999px;
-}
-.promoThree .innerTwoWrp, .promoThree .innerThreeWrp, .promoFour .innerTwoWrp, .promoFour .innerThreeWrp, .promoFive .innerTwoWrp, .promoFive .innerThreeWrp {
-	width: 196px;
-	height: 346px;
-	float: left;
-}
-.promoThree .innerOneWrp, .promoFour .innerOneWrp, .promoFive .innerOneWrp {
-	width: 227px;
-	height: 346px;
-	float: left;
-}
-.promoOne .innerOneWrp .innerOne {
-	display: block;
-	width: 620px;
-	height: 346px;
-	overflow:hidden;
-	text-indent: -9999px;
-}
-.promoThree .innerOneWrp .innerOne, .promoFour .innerOneWrp .innerOne, .promoFive .innerOneWrp .innerOne {
-	display: block;
-	width: 227px;
-	height: 346px;
-	clear: both;
-	text-indent: -9999px;
-}
-.promoThree .innerTwoWrp .innerTwo, .promoThree .innerThreeWrp .innerFour, .promoFour .innerTwoWrp .innerTwo {
-	display: block;
-	width: 196px;
-	height: 346px;
-	clear: both;
-	text-indent: -9999px;
-}
-.promoFour .innerThreeWrp .innerFour, .promoFive .innerTwoWrp .innerTwo, .promoFive .innerThreeWrp .innerFour, .promoFour .innerThreeWrp .innerFive, .promoFive .innerTwoWrp .innerThree, .promoFive .innerThreeWrp .innerFive {
-	display: block;
-	width: 196px;
-	height: 173px;
-	clear: both;
-	text-indent: -9999px;
-}
-.promoFive .innerTwoWrp .innerTwo, .promoFive .innerTwoWrp .innerThree {
-	margin-right: 1px;
-}
-.promoFour .innerThreeWrp .innerFive, .promoFive .innerTwoWrp .innerThree, .promoFive .innerThreeWrp .innerFive {
-	margin-top: 1px;
-}
-/* Set the product image for slideOne tile here. */
-/*#slideOne .innerOneWrp {
-    background: url(http://www.ftdimg.com/pics/products/promo-split-size_main_bigevent_040914.jpg) left top no-repeat;
-}
-
-#slideOne .innerTwoWrp {
-    background: url(http://www.ftdimg.com/pics/products/promo-split-size_main_newyears_040914.jpg) left top no-repeat;
-}*/
-#slideOne .innerOneWrp .innerOne {
-	background:url(http://www.ftdimg.com/pics/products/promo-full-size_main_easter_041414.jpg) no-repeat left top;
-}
-/*#slideOne .innerTwoWrp .innerTwo
-{ background:url(http://www.ftdimg.com/pics/products/promo-full-size_main_easter_040914.jpg) no-repeat left top; }
-#slideOne .innerTwoWrp .innerThree
-{ background:url(http://www.ftdimg.com/pics/products/promo-full-size_main_easter_040914.jpg) no-repeat left bottom; }
-#slideOne .innerThreeeWrp .innerFour
-{ background:url(http://www.ftdimg.com/pics/products/promo-full-size_main_easter_040914.jpg) no-repeat right top; }
-#slideOne .innerThreeWrp .innerFive
-{ background:url(http://www.ftdimg.com/pics/products/promo-full-size_main_easter_040914.jpg) no-repeat right bottom; }
-
-/* Set the product image for slideTwo tiles here. */
-#slideTwo .innerOneWrp .innerOne {
-	background: url(http://www.ftdimg.com/pics/products/promo-full-size_main_rainbow_040914.jpg) no-repeat left top;
-}
-/*#slideTwo .innerTwoWrp .innerTwo
-{ background:url(http://www.ftdimg.com/pics/products/promo-slim-tower_main_FMIR_040914.jpg) no-repeat left top; }
-#slideTwo .innerTwoWrp .innerThree
-{ background:url(http://www.ftdimg.com/pics/products/promo-full-size_main_easter_040914.jpg) no-repeat left bottom; }
-#slideTwo .innerThreeWrp .innerFour
-{ background:url(http://www.ftdimg.com/pics/products/promo-small-tile_main_MMYR_040914.jpg) no-repeat right top; }
-#slideTwo .innerThreeWrp .innerFive
-{ background:url(http://www.ftdimg.com/pics/products/promo-small-tile_main_PR66_040914.jpg) no-repeat right bottom; }*/
-
-/* Set the product image for slideThree tiles here. */
-#slideThree .innerOneWrp .innerOne {
-	background: url(http://www.ftdimg.com/pics/products/promo-full-size_main_bday_040914.jpg) no-repeat left top;
-}
-/*#slideThree .innerTwoWrp .innerTwo
-{ background:url(http://www.ftdimg.com/pics/products/promo-slim-tower_main_14-V1_040914.jpg) no-repeat left top; }
-#slideThree .innerTwoWrp .innerThree
-{ background:url(http://www.ftdimg.com/pics/products/promo-full-size_main_easter_040914.jpg) no-repeat left bottom; }
-#slideThree .innerThreeWrp .innerFour
-{ background:url(http://www.ftdimg.com/pics/products/promo-small-tile_main_14-V2_040914.jpg) no-repeat right top; }
-#slideThree .innerThreeWrp .innerFive
-{  background:url(http://www.ftdimg.com/pics/products/promo-small-tile_main_14-V3_040914.jpg) no-repeat right bottom; }*/
-
-/* Set the product image for slideFour tiles here. */
-#slideFour .innerOneWrp .innerOne {
-	background: url(http://www.ftdimg.com/pics/products/promo-full-size_main_exclusives_040914.jpg) no-repeat left top;
-}
-/*#slideFour .innerTwoWrp .innerTwo
-{ background:url(http://www.ftdimg.com/pics/products/promo-slim-tower_main_BWR_040914.jpg) no-repeat left top; }
-#slideFour .innerTwoWrp .innerThree
-{ background:url(http://www.ftdimg.com/pics/products/promo-full-size_main_easter_040914.jpg) no-repeat left bottom; }
-#slideFour .innerThreeWrp .innerFour
-{ background:url(http://www.ftdimg.com/pics/products/promo-small-tile_main_FBEB_040914.jpg) no-repeat right top; }
-#slideFour .innerThreeWrp .innerFive
-{  background:url(http://www.ftdimg.com/pics/products/promo-small-tile_main_MH01_040914.jpg) no-repeat right bottom; }*/
-
-
-
-
-#homeBucketHead {
-	background: #d1bc61 url(http://www.ftdimg.com/pics/products/promo_main_featured_040914.jpg) 0 0 no-repeat;
-	width: 810px;
-	height: 38px;
-	margin: 6px 0 6px;
-	display: block;
-	text-indent: -9999px;
-	float:left;
-}
-#homeProdWrap {
-	width: 812px;
-	margin: 0 8px 8px 0;
-	text-align: left;
-	float: left;
-}
-.homeProd {
-	border:1px solid #d1bc61;
-	width:158px;
-	height:260px;
-	background-color:#FFF;
-	margin: 8px 2px 0 0;
-	float: left;
-	vertical-align: top;
-	overflow: hidden;
-}
-.pinfo, .pinfo a {
-	font: normal 11px Arial, Helvetica, sans-serif;
-	color: #666;
-	margin: 3px 0 0 0;
-	text-decoration: none;
-}
-.pinfo {
-	padding: 0 0 0 3px;
-}
-.pinfo a:hover {
-	text-decoration: underline;
-}
-.prodPrice {
-	text-align:left;
-	float:left;
-	width:156px;
-	display: block;
-}
-.promoBucket {
-	text-decoration: none;
-	width: 268px;
-	height: 206px;
-	cursor: pointer;
-	text-indent: -9999px;
-	margin-right: 2px;
-	float: left;
-}
-#promoBucket1 {
-	background: url(http://www.ftdimg.com/pics/products/promo_category_btn_1_main_040914.jpg) 0 0 no-repeat;
-}
-#promoBucket2 {
-	background: url(http://www.ftdimg.com/pics/products/promo_category_btn_2_main_040914.jpg) 0 0 no-repeat;
-}
-#promoBucket3 {
-	background: url(http://www.ftdimg.com/pics/products/promo_category_btn_3_main_040914.jpg) 0 0 no-repeat;
-}
-.promoBucketSm {
-	text-decoration: none;
-	width: 198px;
-	height: 154px;
-	cursor: pointer;
-	text-indent: -9999px;
-	margin-right: 5px;
-	float: left;
-}
-#promoBucketSm1 {
-	background: url(http://www.ftdimg.com/pics/products/promo_sub_tile_vw_main_040914.jpg) 0 0 no-repeat;
-}
-#promoBucketSm2 {
-	background: url(http://www.ftdimg.com/pics/products/promo_sub_tile_jewelry_main_040914.jpg) 0 0 no-repeat;
-}
-#promoBucketSm3 {
-	background: url(http://www.ftdimg.com/pics/products/promo_sub_tile_mrsfields_main_040914.jpg) 0 0 no-repeat;
-}
-#promoBucketSm4 {
-	background: url(http://www.ftdimg.com/pics/products/promo_sub_tile_crc_main_040914.jpg) 0 0 no-repeat;
-	margin-right: 0px;
-}
-/* Bar below Subproducts*/
-#homeProductHead {
-	background: #d1bc61 url(http://www.ftdimg.com/pics/products/promo_main_customer_040914.jpg) 0 0 no-repeat;
-	width: 810px;
-	height: 38px;
-	margin-top: 1px;
-	display: block;
-	text-indent: -9999px;
-	float:left;
-}
-/* Bar Above Subproducts
-#homeProductHead {
-	background: #d1bc61 url(http://www.ftdimg.com/pics/products/promo_main_bestsellers_040914.jpg) 0 0 no-repeat;
-	width: 810px;
-	height: 38px;
-	margin-top: 1px;
-	display: inline-block;
-	text-indent: -9999px; 
-	}
-	*/
--->
-</style>
-<script language="javascript">
-
-isUR = "0";
-
-
-//isUR = (mySC == "14983")? 1:0; 
-</script>
-<script language="javascript" type="text/javascript">
-	var today = new Date();
-	var myday = today.getDay();
-	var slide_nav_bkgnd = "#998d5a";
-	var lf_bt_sel = "bt_1";
-	var loop = 0;
-	var ns = 1;
-	var img_path = "http://www.ftdimg.com/pics/products/";
-	var img_date = "_121112.jpg";
-		
-	//ZIP FINDER IMAGES
-	zf_img_1 = new Image();
-	zf_img_1.src = img_path + "DHTML_gm_zf_1.jpg";
-	zf_img_1.alt = "Need Flowers Today";
-	zf_img_2 = new Image();
-	zf_img_2.src = img_path + "DHTML_gm_zf_2.jpg";
-	zf_img_2.alt = "Need Flowers Fast";
-	zf_img_3 = new Image();
-	zf_img_3.src = img_path + "DHTML_gm_zf_3.jpg";
-	zf_img_3.alt = "Need Flowers Tomorrow";
-			
-	function put_zf_img() {
-		t = new Date();
-		h = t.getUTCHours() - 6;
-		m = t.getUTCMinutes();
-		s = t.getUTCSeconds();
-		d = t.getDay();
-		var zf_img_n = 2;	
-
-		mytime = h+':'+m+':'+s;
-			
-		if (d>=1 && d<=5) {
-			if (h>=1 && h<13) zf_img_n = 0;
-			if (h>=13 && h<16) zf_img_n = 1;
-		} else {
-			if (h>=1 && h<11) zf_img_n = 0;
-			if (h>=11 && h<14) zf_img_n = 1;
-		}
-		
-		return zf_img_n;
-	}
-	
-	function loadinfo() {
-		//LOADING ZIP FINDER IMAGE
-		var zf_img = document.getElementById('zf_img_holder');
-		if (undefined != zf_img){
-			switch (put_zf_img()) {
-				case 0: zf_img.src = zf_img_1.src; break;
-				case 1: zf_img.src = zf_img_2.src; break;
-				case 2: zf_img.src = zf_img_3.src; break;
-			}
-			switch (put_zf_img()) {
-				case 0: zf_img.alt = zf_img_1.alt; break;
-				case 1: zf_img.alt = zf_img_2.alt; break;
-				case 2: zf_img.alt = zf_img_3.alt; break;
-			}
-		}
-			
-	}
-		
-	function selectall(objid) {
-		objid.focus();
-		objid.select();
-		objid.value = "";
-	}
-	
-	function MM_preloadImages() { //v3.0
-  		var d=document;
-		
-		if (d.images) {
-			if (!d.MM_p) d.MM_p=new Array();
-			var i,j=d.MM_p.length,a=MM_preloadImages.arguments;
-			for(i=0; i<a.length; i++) {
-				if (a[i].indexOf("#")!=0) {
-					d.MM_p[j]=new Image;
-					d.MM_p[j++].src=a[i];
-				}
-			}
-	}
-}
-</script>
-<table width="810" border="0" cellspacing="0" cellpadding="0" style="margin: 2px 0 5px;">
-  <tr>
-    <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <!-- zipFinder and slider -->
-        <tr>
-          <td width="187" align="center" valign="top"><div id="lf_panel_holder"> 
-              <!-- NEW version of zip finder for QuickView -->
-              <div id="zip_finder_new">
-                <table width="178" border="0" align="center" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td colspan="2" align="center"><img id="zf_img_holder" src="" alt="" width="187" height="50" border="0" style="margin-bottom:5px; margin-top:5px;" /></td>
-                  </tr>
-                  <tr>
-                    <td colspan="2" style="padding-left:5px;" align="left"><select id="occasion" name="occasion" style="width:178px; height:18px; font-size:9px; border:1px solid #d1bc61; margin-bottom:3px;">
-                        <option>Select Occasion</option>
-                      </select></td>
-                  </tr>
-                  <tr>
-                    <td colspan="2" style="padding-left:5px;" align="left"><select id="dropdown_delDate" name="dropdown_delDate" style="width:178px; height:18px; font-size:9px; border:1px solid #d1bc61; margin-bottom:3px;">
-                      </select>
-                      
-                      <!-- Div to store calendar date -->
-                      
-                      <div id="calendarWidget" style="display:none;">
-                        <div id="calendar_background_layer_product" class="calendar_bg_div">&nbsp;</div>
-                        <span id="calendar_trigger_deldate" style="display:inline;"></span>
-                        <input type="hidden" name="deliveryDate" id="deliveryDate" value="" />
-                      </div>
-                      
-                      <!-- end: Div to store calendar date --></td>
-                  </tr>
-                  <tr>
-                    <td width="95" style="padding-left:5px;"><input name="zipcode" type="text" id="zipcode" style="width:90px; height:18px; border:1px solid #d1bc61; font-size:9px; margin-bottom:3px; margin-right:2px;" maxlength="7" value="Delivery Zip Code" onFocus="selectall(this)" onKeyPress="fnOnKeypress(event, QV.validateZipFinder);" /></td>
-                    <td width="86" align="left"><a href="http://zip4.usps.com/zip4/welcome.jsp" onclick="popupw=window.open('http://zip4.usps.com/zip4/welcome.jsp','FindZip','toolbar=no,resizable=yes,scrollbars=yes,width=600,height=300,top=0,left=50');return false;" style="width:80px;color:#666666;text-decoration:underline; " > Find a Zip Code </a></td>
-                  </tr>
-                  <tr>
-                    <td style="padding:0 5px 0 0; height:27px;" align="right" colspan="2"><img style="margin-top:5px;" src="http://www.ftdimg.com/pics/products/DHTML_ZF_gold_search_btn.jpg" width="74" height="14" border="0" onClick="QV.validateZipFinder();" class="curPointer"/></td>
-                    <td>&nbsp;</td>
-                  </tr>
-                </table>
-                <!-- This hidden input value will be updated from the code and used to identify in which type of index we are in. -->
-                <input type="hidden" id="index_type" name="index_type" value="" />
-              </div>
-              <!-- /zip_finder_new --> 
-              <script type="text/javascript">
-								updateZipFinder();
-							</script> 
-              <!-- end: NEW version of zip finder for QuickView -->
-              
-              <div class="leftMenuText" style="border-top:2px solid #FFFFFF;"><a href="http://www.ftd.com/easter-4-20-ctg/occasion-easter/?intcid=Easter_GoldTab" alt="Easter" class="lfMenuText">Easter</a></div>
-              <div class="leftMenuText"><a href="http://www.ftd.com/birthday-ctg/occasion-birthday-shop/?intcid=Bday_GoldTab" alt="Birthday" class="lfMenuText">Birthday</a></div>
-              <div class="leftMenuText"><a href="http://www.ftd.com/admins-week-4-20-26-ctg/occasion-administrativeprofessionalsday/?intcid=Adminsweek_GoldTab" alt="Admin's Week" class="lfMenuText">Admin's Week</a></div>
-              <div class="leftMenuText"> <a href="http://www.ftd.com/get-well-ctg/occasion-getwell/?intcid=Getwell_GoldTab" alt="Get Well" class="lfMenuText">Get Well</a> </div>
-              <div class="leftMenuText"> <a href="http://www.ftd.com/sympathy-funeral-ctg/occasion-sympathy/?intcid=Bday_GoldTab" alt="Sympathy &amp; Funeral" class="lfMenuText">Sympathy &amp; Funeral</a> </div>
-              <div class="leftMenuText" ><a href="http://www.ftd.com/under-35-ctg/product-shopbyprice-under35/?intcid=DealsUnder35_GoldTab" alt="Deals Under $35" class="lfMenuText">Deals Under $35</a> </div>
-            </div>
-            
-            <!-- /lf_panel_holder --></td>
-          <td width="624" align="left" valign="top"><div class="sliderWrp"> 
-              <!-- Slider assets are here. --> 
-              <!--
-						    There are 2 states of promo images for the slider.
-						    To change the state just set the class of the slider:
-						        promoOne will render a slider with one large image.
-						        promoThree will render a slider with 3 images.    
-						        promoFour will render a slider with 4 images.
-						        promoFive will render a slider with 5 images.
-						    -->
-              <div id="promoSlider" class="pics"> 
-                
-                <!--<div class="promoTwo" id="slideOne">
-						            <div class="innerOneWrp">
-						                <a class="innerOne" href="http://www.ftd.com/after-christmas-event-ctg/occasion-christmas-clearance/?intcid=Clearance_Flash">After Christmas Event</a>
-						            </div>
-						            
-						            <div class="innerTwoWrp">
-						                <a class="innerTwo" href="http://www.ftd.com/new-years-day-1-1-ctg/occasion-newyears/?intcid=NewYear_Flash">Celebrate New Year</a>
-						            </div>
-						        
-						        	
-						        	
-						        </div>-->
-                
-                <div class="promoOne" id="slideOne">
-                  <div class="innerOneWrp"> <a class="innerOne" href="http://www.ftd.com/easter-4-20-ctg/occasion-easter/?intcid=eastersale_Flash">Easter Sale</a> </div>
-                  <div class="innerTwoWrp"> <a class="innerTwo" href="#"></a> <a class="innerThree" href="#"></a> </div>
-                  <div class="innerThreeWrp"> <a class="innerFour" href="#"></a> <a class="innerFive" href="#"></a> </div>
-                </div>
-                <div class="promoOne" id="slideTwo">
-                  <div class="innerOneWrp">  <a class="innerOne" href="http://www.ftd.com/color-burst-rainbow-tulip-bouquet-prd/frnt/?intcid=rainbowtulips_Flash">Rainbow Tulips</a></div>
-                  <div class="innerTwoWrp"> <a class="innerTwo" href="#"></a> <a class="innerThree" href="#"></a> </div>
-                  <div class="innerThreeWrp"> <a class="innerFour" href="#"></a> <a class="innerFive" href="#"></a> </div>
-                </div>
-                <div class="promoOne" id="slideThree">
-                  <div class="innerOneWrp"> <a class="innerOne" href="http://www.ftd.com/birthday-ctg/occasion-birthday-shop/?intcid=Bday_Flash">Spring Birthday Sale!</a> </div>
-                  <div class="innerTwoWrp"> <a class="innerTwo" href="#"></a> <a class="innerThree" href="#"></a> </div>
-                  <div class="innerThreeWrp"> <a class="innerFour" href="#"></a> <a class="innerFive" href="#"></a> </div>
-                </div>
-              <div class="promoOne" id="slideFour">
-                  <div class="innerOneWrp"> <a class="innerOne" href="http://www.ftd.com/ftd-spring-exclusives-ctg/occasion-easter-exclusives/?intcid=exclusives_Flash">FTD Exclusives - Spring</a> </div>
-                  <div class="innerTwoWrp"> <a class="innerTwo" href="#"></a> <a class="innerThree" href="#"></a> </div>
-                  <div class="innerThreeWrp"> <a class="innerFour" href="#"></a> <a class="innerFive" href="#"></a> </div>
-                </div>
-              </div>
-              <!-- End slider assets -->
-              <div class="nav"><a id="prev1" href="#"><img src="http://www.ftdimg.com/pics/products/left-arrow.png" border="0" /></a> <a id="next1" href="#"><img src="http://www.ftdimg.com/pics/products/right-arrow.png" border="0" /></a></div>
-              <ul id="nav">
-              </ul>
-            </div>
-            
-            <!-- End sliderWrp Div --> 
-            <script src="https://ajax.microsoft.com/ajax/jquery.cycle/2.99/jquery.cycle.all.min.js"></script> 
-            <script type="text/javascript">
-						        $(function() {
-						            $('#promoSlider').cycle({
-						                fx:     'scrollHorz',
-						                prev:   '#prev1',
-						                next:   '#next1',
-						                timeout: 4000,
-						                pager:   '#nav',
-						                pause:	'true',
-						                autostop:	'true',
-						                autostopCount:	'5',
-						                pagerAnchorBuilder: pager
-						            });
-						            function pager(idx, slide) {
-						                var s = idx > 3 ? ' style="display:none"' : '';
-						                return '<li'+s+'><a href="#">'+(idx+1)+'</a></li>';
-						            };
-						        });
-						    </script></td>
-        </tr>
-      </table>
-      
-      <!-- /zipFinder and slider --></td>
-  </tr>
-</table>
-<a id="homeProductHead" href="http://www.ftd.com/best-sellers-ctg/product-bestsellers/?intcid=NLOOK_BSBAR_2012">Best Sellers - See What FTD Customers are Buying</a>
-<div id="homeProdWrap">
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/rush-of-color-assorted-tulip-bouquet-vase-included-prd/fmtp/?intcid=FMTP_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/FMTP_200x225.jpg" alt="Rush of Color Assorted Tulip Bouquet - VASE INCLUDED" title="Rush of Color Assorted Tulip Bouquet - VASE INCLUDED" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content6"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-				<script language="JavaScript" type="text/javascript">
-					var hassday = "0";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-			</div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_fedexups_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/rush-of-color-assorted-tulip-bouquet-vase-included-prd/fmtp/?intcid=FMTP_TopTen"><em>Rush of Color Assorted Tulip Bouquet - VASE INCLUDED</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "1";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$39.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$39.99</span> <span style="color:#d40000; font-weight:bold; font-weight:bold;">$29.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/the-spirit-of-spring-basket-by-ftd-basket-included-prd/b25-4126/?intcid=B25-4126_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/B25-4126_200x225.jpg" alt="The Spirit of Spring&trade; Basket by FTD&reg; - BASKET INCLUDED" title="The Spirit of Spring&trade; Basket by FTD&reg; - BASKET INCLUDED" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content7"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-		        <script language="JavaScript" type="text/javascript">
-					var hassday = "1";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-		      </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_florist_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/the-spirit-of-spring-basket-by-ftd-basket-included-prd/b25-4126/?intcid=B25-4126_TopTen"><em>The Spirit of Spring&trade; Basket by FTD&reg; - BASKET INCLUDED</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "0";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$39.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$39.99</span> <span style="color:#d40000; font-weight:bold;">$39.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/spring-blessings-easter-lily-prd/1p66/?intcid=1P66_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/1P66_200x225.jpg" alt="Spring Blessings Easter Lily" title="Spring Blessings Easter Lily" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content3"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-	            <script language="JavaScript" type="text/javascript">
-					var hassday = "0";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-	          </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_fedexups_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/spring-blessings-easter-lily-prd/1p66/?intcid=1P66_TopTen"><em>Spring Blessings Easter Lily</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "1";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$29.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$29.99</span> <span style="color:#d40000; font-weight:bold;">$19.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/the-ftd-sunlit-blooms-bouquet-vase-included-prd/14-s3/?intcid=14-S3_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/14-S3_200x225.jpg" alt="The FTD&reg; Sunlit Blooms&trade; Bouquet - VASE INCLUDED" title="The FTD&reg; Sunlit Blooms&trade; Bouquet - VASE INCLUDED" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content8"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-	            <script language="JavaScript" type="text/javascript">
-					var hassday = "1";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-	          </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_florist_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/the-ftd-sunlit-blooms-bouquet-vase-included-prd/14-s3/?intcid=14-S3_TopTen"><em>The FTD&reg; Sunlit Blooms&trade; Bouquet - VASE INCLUDED</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "0";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$44.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$44.99</span> <span style="color:#d40000; font-weight:bold;">$44.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/1-dozen-long-stem-mixed-roses-prd/smrb/?intcid=SMRB_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/SMRB_200x225.jpg" alt="1 Dozen Long Stem Mixed Roses" title="1 Dozen Long Stem Mixed Roses" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content2"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-	            <script language="JavaScript" type="text/javascript">
-					var hassday = "0";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-	          </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_fedexups_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/1-dozen-long-stem-mixed-roses-prd/smrb/?intcid=SMRB_TopTen"><em>1 Dozen Long Stem Mixed Roses</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "1";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$39.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$39.99</span> <span style="color:#d40000; font-weight:bold;">$34.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/color-burst-rainbow-tulip-bouquet-prd/frnt/?intcid=FRNT_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/FRNT_200x225.jpg" alt="Color Burst Rainbow Tulip Bouquet" title="Color Burst Rainbow Tulip Bouquet" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-                  <script language="JavaScript" type="text/javascript">
-                      var hassday = "0";
-                      if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-                  </script>
-                </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_fedexups_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/color-burst-rainbow-tulip-bouquet-prd/frnt/?intcid=FRNT_TopTen"><em>Color Burst Rainbow Tulip Bouquet</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-                      var hasdisc = "1";
-                      if (isUR == 0) {
-                          if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$49.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$49.99</span> <span style="color:#d40000; font-weight:bold;">$39.99 Sale</span>');
-                      } else {
-                          if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold;"> Sale</span>');
-                      }
-                  </script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/the-ftd-sweet-devotion-bouquet-by-better-homes-and-gardens-vase-included-prd/14-m6/?intcid=14-M6_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/14-M6_200x225.jpg" alt="The FTD&reg; Sweet Devotion&trade; Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED" title="The FTD&reg; Sweet Devotion&trade; Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content4"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-	            <script language="JavaScript" type="text/javascript">
-					var hassday = "1";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-	          </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_florist_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/the-ftd-sweet-devotion-bouquet-by-better-homes-and-gardens-vase-included-prd/14-m6/?intcid=14-M6_TopTen"><em>The FTD&reg; Sweet Devotion&trade; Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "0";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$49.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$49.99</span> <span style="color:#d40000; font-weight:bold;">$49.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/chocolate-dip-delights-spring-sensation-real-chocolate-covered-cake-pops-prd/ge54/?intcid=GE54_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/GE54_200x225.jpg" alt="Chocolate Dip Delights&trade; Spring Sensation Real Chocolate Covered Cake Pops" title="Chocolate Dip Delights&trade; Spring Sensation Real Chocolate Covered Cake Pops" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content9"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-	            <script language="JavaScript" type="text/javascript">
-					var hassday = "0";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-	          </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_fedexups_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/chocolate-dip-delights-spring-sensation-real-chocolate-covered-cake-pops-prd/ge54/?intcid=GE54-TopTen"><em>Chocolate Dip Delights&trade; Spring Sensation Real Chocolate Covered Cake Pops</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "1";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$39.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$39.99</span> <span style="color:#d40000; font-weight:bold;">$29.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/colorful-world-gerbera-daisy-bouquet-prd/ffgd/?intcid=FFGD_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/FFGD_200x225.jpg" alt="Colorful World Gerbera Daisy Bouquet" title="Colorful World Gerbera Daisy Bouquet" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content28"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-	            <script language="JavaScript" type="text/javascript">
-					var hassday = "0";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-	          </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_florist_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/colorful-world-gerbera-daisy-bouquet-prd/ffgd/?intcid=FFGD_TopTen"><em>Colorful World Gerbera Daisy Bouquet</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "0";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$29.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$29.99</span> <span style="color:#d40000; font-weight:bold;">$29.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  <!-- /.homeProd -->
-  
-  <div class="homeProd">
-    <div> <a href="http://www.ftd.com/ftd-spring-tulip-bouquet-by-better-homes-and-gardens-vase-included-prd/14-s2/?intcid=14-S2_TopTen" rel="nofollow"> <img src="http://www.ftdimg.com/pics/products/14-S2_200x225.jpg" alt="FTD&reg; Spring Tulip Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED" title="FTD&reg; Spring Tulip Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED" border="0" height="178" width="158" /> </a> </div>
-    <div class="pinfo" id="pinfo_content5"> 
-      <!--<div style="font-style:italic; color:#666666; text-align:left;">
-	            <script language="JavaScript" type="text/javascript">
-					var hassday = "1";
-					if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-				</script>
-	          </div>--> 
-      <!--<img src="http://www.ftdimg.com/pics/products/main_florist_delivered_042413.jpg" width="158" height="14"  style="vertical-align: text-top;">-->
-      <div style="text-align:left;"><a href="http://www.ftd.com/ftd-spring-tulip-bouquet-by-better-homes-and-gardens-vase-included-prd/14-s2/?intcid=14-S2_TopTen"><em>FTD&reg; Spring Tulip Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED</em></a></div>
-      <div class="prodPrice"> 
-        <script language="JavaScript" type="text/javascript">
-					var hasdisc = "0";
-					if (isUR == 0) {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$54.99</span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;">$54.99</span> <span style="color:#d40000; font-weight:bold; font-weight:bold;">$54.99 Sale</span>');
-					} else {
-						if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000; font-weight:bold;"></span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#d40000; font-weight:bold; font-weight:bold;"> Sale</span>');
-					}
-				</script> 
-      </div>
-      <div style="text-align:left;"></div>
-    </div>
-  </div>
-  
-  <!-- /.homeProd --> 
-</div>
-<a class="promoBucket" id="promoBucket1" href="http://www.ftd.com/mothers-day-5-11-ctg/occasion-mothersday/?intcid=mday_Tile">Introducing Mother's Day</a> <a class="promoBucket" id="promoBucket2" href="http://www.ftd.com/spring-collection-ctg/product-spring/?intcid=springgifts_Tile">Spring Gourment & Gifts</a> <a class="promoBucket" id="promoBucket3" href="http://www.ftd.com/seasonal-flower-market-ctg/product-flower-market-april/?intcid=FOMtulips_Tile">Flower of the Month - Tulips</a> 
-<!-- /#homeProdWrap -->
-<div id="homeBucketHead">Featured Collections</div>
-<a class="promoBucketSm" id="promoBucketSm1" href="http://www.ftd.com/vera-wang-ctg/product-verawang-ftd/?intcid=VW_SubTile">Vera Wang</a> <a class="promoBucketSm" id="promoBucketSm2" href="http://www.ftd.com/jewelry-boutique-ctg/product-jewelry/?intcid=Jewelry_SubTile">Jewelry Boutique</a> <a class="promoBucketSm" id="promoBucketSm3" href="http://www.ftd.com/mrs-fields-ctg/product-mrsfields/?intcid=Mrsfields_SubTile">Mrs. Fields Cookies</a> <a class="promoBucketSm" id="promoBucketSm4" href="http://www.ftd.com/luxury-ctg/luxury/?intcid=Luxury_SubTile">Luxury</a> 
-<!--<div style="margin-top:10px;"><a href="http://www.ftd.com/valentines-day-ctg/occasion-valentinesday-lp/?intcid=Video"><img src="http://www.ftdimg.com/pics/products/promo_video_main_040914.jpg" width="810" height="170" border="0" style="margin-top:10px;" /></a></div>-->
-<script language="javascript" type="text/javascript">
-	loadinfo();
-</script> 
-
-<!-- mp_trans_schedule_disable_end --> 
-<script type="text/javascript">
-	 FS.show_fs_promo();
- </script>
-</div>
-<!-- end of main promotional area -->
-
-
- <div id="giftfinder_error_message">
-		There appears to be an issue with the ZIP Code you entered.<br><br> Please ensure that it is correct or use our <a href="http://zip4.usps.com/zip4/welcome.jsp" onclick="popupw=window.open('http://zip4.usps.com/zip4/welcome.jsp','FindZip','toolbar=no,resizable=yes,scrollbars=yes,width=600,height=300,top=0,left=50');return false;">Zip Code locator</a>.	<br><br>
-		<div style="text-align:center;cursor:pointer;cursor:hand;"><img src="http://www.ftdimg.com/pics/design2007/ftd_sameday_finder_close.gif"  onClick="document.getElementById('giftfinder_error_message').style.display='none';"></div>
-	</div>
-	<!-- Added the below script block as a fix for select box issue in IE6 -->
-	<script type="text/javascript">
-	          jQuery('#giftfinder_error_message').bgiframe();
-	</script>
-</div> 
-<!-- END LEFT PART OF THE CONTENT AREA -->
-
-<!-- End RIGHT RAIL OF THE CONTENT AREA -->
-<br clear="all">
-
-
-<!-- START BOTTOM OF THE CONTENT AREA -->
-<div id='main_bottom' valign='top' align='left'>
-	
- <!-- Start of transient merchandising que -->
-	<!-- no content set for the transient merchandising que -->
-	<!-- end of transient merchandising que -->
-</div>
-<!-- End BOTTOM OF THE CONTENT AREA -->
-
-<img src="./pics/counter.gif?markcode=350"  hspace="0" border="0" height="1" width="1" align="left">
-<script type="text/javascript">
-var $=jQuery;
-$(document).ready(function(){
-		});
-</script>
-
-<!-- To show processing request animation on homepage -->
-<div id="processing_div" style="position:absolute;z-index:10004;display:none">
-<style type='text/css'> #modalProc { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);     display: block;     height: 100%;     left: 0;     position: fixed;     top: 0;     width: 100%;     z-index: 10000;     opacity:0.6;     filter: alpha(opacity = 50); }  #modalContent {     padding: 15px 20px 20px;     text-align: left; } #modalContent h3 {     color: #333333;     font: bold 24px Arial,Helvetica,sans-serif;     margin: 0;     padding: 0; } #modalLoadingBody {     background: none repeat scroll 0 0 #FFFFFF;     height: 150px;     left: 50%;     margin-left: -205px;     margin-top: -75px;     position: fixed;     top: 50%;     width: 410px; 	z-index:22000; } #modalLoadingBody span.smallHead {     background: url("http://www.ftd.com/350/pics/products/zfModalHeadLogo-sm.jpg") no-repeat scroll 0 0 #000000;     display: block;     height: 45px; } #modalLoadingBody p {     background: url("http://www.ftd.com/350/pics/products/ajax-loader.gif") no-repeat scroll 50% 35px transparent;     color: #555555;     font: 18px Arial,Helvetica,sans-serif;     height: 105px; }  </style>  <div id="modalProc"></div> 	<div id="modalLoadingBody"> 		<span class="smallHead"></span> 		<p style="text-align:center">Please wait while we find great options for you.</p> 	</div>
-</div>
-
-<script type='text/javascript'>
-$(document).ready(function(){
-                hideOverlay('processing_div','overlay');
-                });
-</script>
-
-	</div>
-
-<img id="cy_image" width="1" height="1" border="0" alt="">
-<script type="text/javascript" src="http://d3eaqalnfsy4sn.cloudfront.net/webEvent/cywevent.js?servicecode=AA85501652">
-</script>
-<script type ="text/javascript">
-if (typeof(cy) != 'undefined') {
-cy.control.cookieinfo.domain= ".ftd.com";
-if (((/^Customer Service Index/).test('Home Page')) || ((/^Third Party Page/).test('Home Page')) || ((/^Newsletter Unsubscribe/).test('Home Page')) || ((/^reminder-signin/).test('Home Page')) || ((/^bigdates-down/).test('Home Page'))) {
-	//do nothing
-} else {
-	cy.Custom1 = 'Guest';
-     cy.Custom2 = 350;
- 	if (('Home Page' == "Home Page") || ((/^Home Page/g).test('Category:')) || ('Home Page' == "product page")) {
-    	    cy.FunnelLevel="2";
-	} else if ('Home Page' == 'Shopcart Index'){
-
-    	      cy.FunnelLevel = "3";
-	      cy.ReturnToLink = 'https://ordering.ftd.com/350/shopcart/';
-	}else if(('Home Page' == 'Shipping') || ('Home Page' == 'Billing&Review')){
-	     cy.FunnelLevel="4";
-	     cy.ReturnToLink = 'https://ordering.ftd.com/350/shopcart/';
-	     if ('Home Page' == 'Shipping') {
-		} 
-	     }else if('Home Page' == 'Order Confirmation'){
-	     cy.FunnelLevel="7";
-	     }else{
-	     cy.FunnelLevel="2";
-	}
-	//final call for seewhy
-	cy_getImageSrc();
-}
-}
-</script>
-
-</div>
-
-	<!-- Footer ########################################### -->
-		<div id="footer_area">
-			<div style="margin-top:5px; height: 32px; background-color:#000000; color:#CBBC65; font-size: 14px; font-family:arial; font-weight:normal; line-height:30px; text-align:right; width:810px; background-image:url(http://www.ftdimg.com/pics/design2008/footer-brand_redesign09.jpg)"><div style="float:right; display:block; margin-right:15px;">7 Day Satisfaction Guarantee</div></div> <!--<div style="display:block; width:810px; margin-top:5px; font-family:Arial, Helvetica, sans-serif; font-size:12pt; text-align:right; height:28px;"><div style="float:right; display:block; margin-right:15px;"><strong>FTD.COM, Inc., 3113 Woodcreek Drive, Downers Grove, IL 60515</strong></div>--></div>	<div id = "someid" style="margin-top:3px;">
-			<div name='sr_bannerDiv'></div>	</div>	
-			<table style="width:100%">
-	    <tr>
-	    <td valign="top">
-	    <div id="global_footer"><br>
-                                        
- <span   id="bbblink"  class="ruhzbus"  title="FTD.Com, Inc., Florists - Retail, Downers Grove, IL"  style="display: block;position: relative;overflow: hidden; width: 100px; height: 45px; margin: 0px; padding: 0px;"> <img style="padding: 0px; border: none;"  id="bbblinkimg"  src="https://seal-chicago.bbb.org/logo/ruhzbus/ftdcom-19001443.png"  width="200" height="45" alt="FTD.Com, Inc., Florists - Retail, Downers Grove, IL" /> </span>
-</div>
-            <div id="hacker_safe_block" >&nbsp;&nbsp;&nbsp;&nbsp;
-                                
- <!-- START SCANALERT CODE -->
-	<a target="_blank" href="https://www.mcafeesecure.com/RatingVerify?ref=www.ftd.com"><img width="58" height="33" border="0" src="https://images.mcafeesecure.com/meter/www.ftd.com/13.gif"  alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." oncontextmenu="alert('Copying Prohibited by Law - HACKER SAFE is a Trademark of ScanAlert'); return false;" style="vertical-align:top;"></a>
-	<!-- END SCANALERT CODE -->
-</div>
-            </td>
-	    <td valign="top">
-            <div id="bottom_link_area">
-		<div class="botnav">
-                        <div style="text-align: left;"> <span style="color:#000000;font- style:arial;font-size:140%;"> *</span> <span style="color:#000000;font-style:arial;font- size:11px;">Exceptions Apply: </span> <span style="color:#666666;font- style:arial;font-size:11px;font-weight:normal">Where a promotion references a special collection only, the promotion applies only to that collection. For purchases where miles or points may be awarded, such awards are not applicable to any product customizations including vases or product add ons, FTD Gold Membership fees, gift card purchases or other fees such as service fees and shipping fees or applicable taxes.  For promotions where discounts are available, discounts are applied to the standard retail prices set forth on the FTD.COM website (standard retail prices shall not include sale prices), and discounts are not applicable to (a) any product customizations including vases or product add ons, (b) FTD Gold Membership fees or gift cards, (c) other fees such as service fees, shipping and handling fees or applicable taxes, or (d) the following collections: Nambé, Baccarat, Reduced Shipping, Special Value, (e) all products under $19.99, all gifts under $24.99 and any other special collection added by FTD.COM in its sole discretion.  <b>Redemption of vouchers, gift certificates, gift cards, or reward codes may be subject to additional or different restrictions; please refer to those products for their terms and conditions.</b> This offer is not available in retail stores and is available online only or, if offered, through the special toll-free number. Promotion cannot be combined with any other promotions, gift certificates, coupons, discounts or affiliate programs (including reward programs). Same day delivery is available in most locations if order is placed before 2pm in recipient's time zone. Click <a href="http://www.ftd.com/delivery-policy/"style="color:#666666;font-style:arial;font-size:11px;text- decoration: underline;">here</a> for more information on our delivery policies. Quantities may be limited. Offer subject to change without notice.<br /> **Reduced shipping is $10.99 on select items. Free Shipping is for select items. Second item must be made in same order/transaction and delivered to the same address. Free shipping only available for items that have reduced shipping.</span> <br /><br /> <span style="color:#666666;font-style:arial;font-size:11px;"><a href="http://www.ftd.ca" style="color:#666666;font-style:arial;font- size:11px;">WWW.FTD.CA</a> website is designed and available for Canadian residents.</span> <br /><br />  <a href="http://www.ftd.com/?int=1"style="color:#666666;font-style:arial;font-size:10px;">Home</a> <span class="fixed_text">|</span>    <a href="https://ordering.ftd.com/signin/?AID=myaccount_enter"style="color:#666666;font-style:arial;font-size:10px;">My Account</a> <span class="fixed_text">|</span>   <a href="https://ordering.ftd.com/new-signup/"style="color:#666666;font-style:arial;font-size:10px;">New Account</a> <span class="fixed_text">|</span>   <a href="https://ordering.ftd.com/reminder-signin/" style="color:#666666;font-style:arial;font-size:10px;">Reminder Sign In</a> <span class="fixed_text">|</span>    <a href="http://www.ftd.com/custserv/"style="color:#666666;font-style:arial;font-size:10px;" >Customer Service</a> <span class="fixed_text">|</span>   <a href="http://www.ftd.com/delivery-charges/"style="color:#666666;font-style:arial;font-size:10px;">Service/Shipping Fee Detail</a> <span class="fixed_text">|</span> <br>   <a href="http://www.ftd.com/international-flower-delivery/" style="color:#666666;font-style:arial;font-size:10px;" >International Shipping</a> <span class="fixed_text">|</span>   <a href="http://www.ftd.com/custserv/contact.epl" style="color:#666666;font-style:arial;font-size:10px;" >Contact Us</a> <span class="fixed_text">|</span>   <a href="http://www.ftdcompanies.com/about"style="color:#666666;font-style:arial;font-size:10px;;"target="_blank">About Us</a> <span class="fixed_text">|</span>   <a href="http://www.ftdcompanies.com/press" style="color:#666666;font-style:arial;font-size:10px;;"target="_blank">Press Center</a> <span class="fixed_text">|</span>   <a href="http://www.ftd.com/browse-our-store/" style="color:#666666;font-style:arial;font-size:10px;;">Site Map</a> <span class="fixed_text">|</span>   <a href="http://www.ftd.com/custserv/security.epl"style="color:#666666;font-style:arial;font-size:10px;;">Security & Privacy</a> <span class="fixed_text">|</span>   <a href="http://www.ftd.com/custserv/partners.epl" style="color:#666666;font-style:arial;font-size:10px;">Partners</a> <span class="fixed_text">|</span> <br>   <a href="http://www.ftd.com/corporate-services/"style="color:#666666;font-style:arial;font-size:10px;">Corporate Services</a> <span class="fixed_text">|</span>   <a href="http://investor.ftdcompanies.com/" style="color:#666;font-style:arial;font-size:10px; "target="_blank">Investor Relations</a> <span class="fixed_text">|</span>   <a href="http://www.ftd.com/corporate-services/affiliates.epl" style="color:#666666;font-style:arial;font-size:10px;">Become an Affiliate </a> <span class="fixed_text">|</span>   <a href="http://www.ftd.com/social-and-environmental-practices-ctg/product-enviro-practices/" style="color:#666666;font-style:arial;font-size:10px;">Social and Environmental Practices</a></div> </div>
-                <div class="legal">
-                        <div style="text-align: left;"><span style="font-family: arial,sans; font-size: 10px; color:#666666;"> Copyright&copy; 2014. FTD.COM  <a href='http://www.ftd.com/custserv/copyright.epl'style="font-family: arial,sans; font-size: 10px; color:#666666;">All Rights Reserved</a>.<br>Order processing and order fulfillment by MERCURY<sup>&reg;</sup> and MERCURY<sup>&reg;</sup> TECHNOLOGIES.<br>FTD.COM is a registered ISO and MSP of HSBC Bank, USA, National Association, Buffalo, NY.<br /> FTD.COM Inc., 3113 Woodcreek Drive, Downers Grove, IL 60515</span></div> <div style="padding-top:8px;text-align:center;"> 	<a href="http://www.facebook.com/FTDFlowers" title="FTD on Facebook" Target="NEW" style="margin:0;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/Facebook_112x34.jpg" width="112" height="34" border="0" alt="FTD on Facebook" /> 	</a> 	<a href="http://www.twitter.com/FTDFlowers" title="Follow FTD on Twitter" Target="NEW" style="margin:0;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/Twitter_112x34.jpg" width="112" height="34" border="0" alt="Follow FTD on Twitter" /> 	</a> 	<a href="http://pinterest.com/FTDFlowers/" title="Follow FTD on Pinterest" Target="NEW" style="margin:0;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/Pinterest_112x34.png" width="112" height="34" border="0" alt="Follow FTD on Pinterest"/> 	</a> 	<a href="http://www.youtube.com/FTDFlowers" title="FTD YouTube Channel" Target="NEW" style="margin:0;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/Youtube_112x34.jpg" width="112" height="34" border="0" alt="FTD YouTube Channel" /> 	</a> 	<a href="https://plus.google.com/101907445773516215462" rel="publisher" title="Follow FTD on Google+" Target="NEW" style="margin:0;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/GooglePlus_112x34.png" width="112" height="34" border="0" alt="Follow FTD on Google+"/> 	</a> </div> <script src="https://assets.pinterest.com/js/pinit.js"></script><!-- placed here for social buttons on product page to work/behave properly --> </div>
-		</div>
-            </td>
-	    <td align=center valign=top>
-            <div id="bottom_logo_area">
-                <img  src="http://www.ftdimg.com//pics/design2008/brand_footer_logo.jpg"  border="0"  /><br>
-                 </div>
-	    </td>
-            </tr>
-	    </table>
-	    </div>	
-		<!-- End Footer #######################################    -->
-	<!-- End Content DIV -->
-</div>
-
-<!-- End frame_inner div -->
-    </div>
-    <!-- End frame_middle div -->
-    </div>
-    <!-- End frame_outer div -->
-    </div>
-    
-    <div id="bottom_redesign" style="overflow:hidden;">
-		<!-- start of quickshop -->
-		<div id="homepage_quickshop">
-			
- <!-- Content -->
-	<nav>
-	<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">Shop by Product</h3>
-			<div class="homepage_quickshop_menu_item">
-			<ul class="ul_nav_list">
-			<li><a href="/best-sellers-ctg/product-bestsellers/">Best Sellers</a></li>
-			<li><a href="/ftd-whats-new-ctg/product-new/">FTD What's New</a></li>
-			<li><a href="/flowers-ctg/product-flowers-all/">Flowers</a></li>
-			<li><a href="/roses-ctg/product-roses/">Roses</a></li>
-			<li><a href="/plants-ctg/product-plants-all/">Plants</a></li>
-			<li><a href="/gifts-ctg/product-gift-all/">Gifts</a></li>
-			<li><a href="/jewelry-boutique-ctg/product-jewelry/">Jewelry Boutique</a></li>
-			<li><a href="/gift-baskets-ctg/product-giftbasket-shop/">Gift Baskets</a></li>
-			<li><a href="/sweets-chocolates-ctg/product-sweet-shop/">Sweets & Chocolates</a></li>
-			<li><a href="/same-day-delivery-ctg/product-samedaydelivery/">Same Day Delivery</a></li>
-			<li><a href="/farm-fresh-flowers-ctg/product-direct/">Farm Fresh Flowers</a></li>
-			<li><a href="/ftd-floral-jewels-birthstone-collection-ctg/product-floral-jewels/">FTD Floral Jewels Birthstone Collection</a></li>
-			<li><a href="/ftd-luxury-collection-ctg/product-luxury-lp/">FTD Luxury Collection</a></li>
-			<li><a href="/better-homes-and-gardens-ctg/product-bhg/">Better Homes and Gardens</a></li>
-			<li><a href="/jane-seymour-silk-botanicals-ctg/product-jane/">Jane Seymour Silk Botanicals</a></li>
-			<li><a href="/monthly-gifts-ctg/product-monthly/">Monthly Gifts</a></li>
-			<li><a href="/flower-guide-ctg/product-flowers-flowerguide/">Flower Guide</a></li>
-			<li><a href="/international-delivery-ctg/intl-catalog/">International Delivery</a></li>
-			</ul></div>
-		</div>
-	<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">Shop By Occasion</h3>
-			<div class="homepage_quickshop_menu_item">
-			<ul class="ul_nav_list">
-			<li><a href="/admins-week-4-20-26-ctg/occasion-administrativeprofessionalsday/">Admin's Week - 4/20-26</a></li>
-			<li><a href="/anniversary-ctg/occasion-anniversary/">Anniversary</a></li>
-			<li><a href="/birthday-ctg/occasion-birthday-shop/">Birthday</a></li>
-			<li><a href="/congratulations-ctg/occasion-congratulations/">Congratulations</a></li>
-			<li><a href="/corporate-gifts-ctg/occasion-corporateworkgifts/">Corporate Gifts</a></li>
-			<li><a href="/easter-4-20-ctg/occasion-easter/">Easter - 4/20</a></li>
-			<li><a href="/get-well-ctg/occasion-getwell/">Get Well</a></li>
-			<li><a href="/im-sorry-ctg/occasion-imsorry/">I'm Sorry</a></li>
-			<li><a href="/just-because-ctg/occasion-friendshipjustbecause/">Just Because</a></li>
-			<li><a href="/love-romance-ctg/occasion-loveromance/">Love & Romance</a></li>
-			<li><a href="/mothers-day-5-11-ctg/occasion-mothersday/">Mother's Day - 5/11</a></li>
-			<li><a href="/new-baby-ctg/occasion-newbaby/">New Baby</a></li>
-			<li><a href="/spring-collection-ctg/product-spring/">Spring Collection</a></li>
-			<li><a href="/sympathy-funeral-ctg/occasion-sympathy/">Sympathy & Funeral</a></li>
-			<li><a href="/thank-you-ctg/occasion-thankyou/">Thank You</a></li>
-			<li><a href="/wedding-ctg/occasion-wedding/">Wedding</a></li>
-			</ul></div>
-		</div>
-	<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">More Gift Ideas</h3>
-			<div class="homepage_quickshop_menu_item">
-			<ul class="ul_nav_list">
-			<li><a href="/best-sellers-ctg/product-gourmetfoodgifts-bestsellers/">Best Sellers</a></li>
-			<li><a href="/chocolates-sweets-ctg/product-gourmetfoodgifts-sweets/">Chocolates & Sweets</a></li>
-			<li><a href="/gourmet-gift-baskets-ctg/product-gift-baskets/">Gourmet Gift Baskets</a></li>
-			<li><a href="/godiva-ctg/product-godiva/">Godiva</a></li>
-			<li><a href="/starbucks-ctg/product-starbucks/">Starbucks</a></li>
-			<li><a href="/fresh-fruit-ctg/product-gourmetfoodgifts-fruit/">Fresh Fruit</a></li>
-			<li><a href="/balloons-bears-ctg/product-balloonsandbears/">Balloons & Bears</a></li>
-			<li><a href="/spa-fragrances-ctg/product-bathbeautyspa/">Spa & Fragrances</a></li>
-			<li><a href="/for-him-ctg/product-forhim/">For Him</a></li>
-			<li><a href="/wine-champagne-ctg/product-gourmetfoodgifts-winespirits/">Wine & Champagne</a></li>
-			<li><a href="/ftd-gift-cards-ctg/product-giftcards/">FTD Gift Cards</a></li>
-			</ul></div>
-		</div>
-	<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">Shop By Price</h3>
-			<div class="homepage_quickshop_menu_item">
-			<ul class="ul_nav_list">
-			<li><a href="/under-35-ctg/product-shopbyprice-under35/">Under $35</a></li>
-			<li><a href="/35-to-45-ctg/product-shopbyprice-35to45/">$35 to $45</a></li>
-			<li><a href="/45-to-55-ctg/product-shopbyprice-45to55/">$45 to $55</a></li>
-			<li><a href="/55-to-75-ctg/product-shopbyprice-55to75/">$55 to $75</a></li>
-			<li><a href="/over-75-ctg/product-shopbyprice-75andover/">Over $75</a></li>
-			</ul></div>
-		</div>
-	<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">International Delivery</h3>
-			<div class="homepage_quickshop_menu_item">
-			<ul class="ul_nav_list">
-			<li><a href="/african-areas-flower-delivery/">African Areas</a></li>
-			<li><a href="/australia-flower-delivery/">Australia</a></li>
-			<li><a href="/france-flower-delivery/">France</a></li>
-			<li><a href="/germany-flower-delivery/">Germany</a></li>
-			<li><a href="/ireland-flower-delivery/">Ireland</a></li>
-			<li><a href="/italy-flower-delivery/">Italy</a></li>
-			<li><a href="/japan-flower-delivery/">Japan</a></li>
-			<li><a href="/mexico-flower-delivery/">Mexico</a></li>
-			<li><a href="/united-kingdom-flower-delivery/">United Kingdom</a></li>
-			<li><a href="/international-flower-delivery/">View More Countries</a></li>
-			</ul></div>
-		</div>
-	</nav>
-	<!-- End Content -->
-<!-- start transient promo stuff -->
-			<div style="float:right">
-			
- <!-- start of the transient promotional area 1 -->
-
-	<!-- no content set for the transient promotional area 1 -->
-	<!-- end of the transient promotional area  1 -->
-
-
- <!-- start of the transient promotional area 2 -->
-
-	<!-- no content set for the transient promotional area 2 -->
-	<!-- end of the transient promotional area  2 -->
-
-</div>
-			<!-- end of transient promo stuff -->
-
-		</div>
-		<!-- end of quickshop -->
-
-	<!-- moved "bottom_redesign_text" div to _header.epl -->	
-		<!-- End bottom_redesign -->
-		</div>
-    
-    <!-- End the_big_div div -->
-</div>
-
-
-
-<div class="container_spacer"></div>
-
-
-	<script type="text/javascript"> 
-			</script>
-	  <!-- billing_page_signin_popup --> <style type="text/css"> #billing_page_signin_popup {     display:none;     background-image: url('http://www.ftdimg.com/pics/gradient_gold_135.jpg');     background-repeat: repeat-x;     background-color: #f7e6a2;     border: solid 1px #000000;     width: 273px;     position: absolute;     top: 200px;     left: 200px;     z-index: 10004; }  #billing_page_signin_popup label {  font:bold 14px arial;  color:#000000; } a#forgot-link-msg-di:link, #forgot-link-msg-di:visited, #forgot-link-msg-di:hover {  font-weight:bold;  color:#0000FF; }  </style> <script type="text/javascript" language="javascript"> <!--         jQuery(document).ready(function(){ 		jQuery('#billing_page_signin_popup').bgiframe(); 		jQuery('#billing_page_signin_popup').draggable({ iframeFix: true });         }); //--> </script> <div id="billing_page_signin_popup" width="273">      <form action="https://ordering.ftd.com/350/signin/">     <table width=273 border=0 cellpadding=1>         <tr>             <td colspan=2 align=right> 		<img src="http://www.ftdimg.com/pics/products/100509_SignIn_PopUp_CloseX_Btn.jpg" width="77" height="21" class="toolbar_signin_form_close" style="cursor:pointer;margin-top:-3px;margin-right:-3px;" />             </td>         </tr>         <tr>             <td colspan=2><div style="font: 11px arial;color:#000000;display:none;">not john?</div></td>         </tr>         <tr>             <td colspan=2><div class='toolbar-error-msg' style="display:none;">Email address or password was incorrect</div></td>         </tr>         <tr>            <td width='40%' align=right><label>Email:</label></td>            <td width='60%'align=left><input type="text" name="email" value="" size="12" maxlength="40" /></td>         </tr>         <tr>            <td width='40%' align=right><label>Password:</label></td>            <td width='60%' align=left><input type="password" name="password" value="" size="12" maxlength="18" /></td>         </tr>         <tr><td colspan="2">            <table width="100%" border=0>             <tr>            <td align=left >             <a id="forgot-link-msg-di" href="https://ordering.ftd.com/350/signin/#forgot-password">Trouble Signing In?</a>            </td>             <td align=right >             <input type="image" src="http://www.ftdimg.com/pics/button_sign_in_gold.gif" border="0" width="80" height="21">             </td>             </tr>             </table>         </td></tr>     </table>     <input type="hidden" name="shopcart_signin" value="1"/>   </form> </div> <!-- end: billing_page_signin_popup --> <script type="text/javascript">
-		 	FS.attach_signin_actions();
-		 </script>
-	  <!-- This is to show processing div for fs popover -->
-<script type="text/javascript">
-var fs_popover_html_load_img = "true";
-var fs_popover_billing_load_img = "true";
-var facebook_fs_popover_billing_load_img = "true";
-</script>
-
-<div id="fs_popovers_processing_div" style="position:absolute;z-index:10004;display:none">
-<div id="fs_modalProc"></div>
-<div id="fs_modalLoadingBody">
-                <span class="smallHead"></span>
-                <p style="text-align:center">Please wait while membership information is loading.</p>
-</div>
-</div>
-
-
-
-<div id="FBsignIn_confirmation_popover" style="width:495px; min-height:150px; padding-bottom:15px; border:1px solid #000000; background-color:#f7f0d5; z-index:10005;position:absolute;display:none;"><div style="background:#000;"> <img src="http://www.ftdimg.com/pics/popUp_closeX.png" width="77" height="21" border="0" style="cursor:pointer; position:absolute; right:0;" onclick="hideOverlay('FBsignIn_confirmation_popover','overlay');if( FBSIGNIN.reload_page == 1 && FBSIGNIN.popover_displayed == 1 ){FS.update_page(FBSIGNIN.popover_response);}FBSIGNIN.signin_callback();FBSIGNIN.popover_displayed = 0;"> <img src="http://www.ftdimg.com/pics/confirmHeadLogo.jpg" width="164" height="69" border="0"> </div> <p style="font:bold 18px Arial, Helvetica, sans-serif; color:#333; text-align:center; margin-top: 30px;" id="sign-in-msg">You are now signed into FTD with Facebook!<br> <span style="display:block; margin-top: 10px; font: normal 14px Arial, Helvetica, sans-serif; color:#666;">Gold Members: If you do not see the <img src="http://www.ftdimg.com/pics/products/S11-02300B_GoldD_HP_header_Icon.jpg"> icon or your member benefits, please sign out and sign in again with your FTD account.</span> </p><p style="font:bold 18px Arial, Helvetica, sans-serif; color:#333; text-align:center; margin-top: 30px;" id="sign-in-err-msg">We are currently unable to connect to your <br>Facebook account. Please try again.</p></div> 
-	
-
-
- 
-
-	
-	
- <script language='javascript'>
-	<!--
-		try {
-			var v_id = getCookie('v_id');
-			if (!v_id) {
-				 v_id = createRandomString();
-			}
-			var date = new Date();
-			date.setTime(date.getTime()+(10*365*24*60*60*1000));
-			document.cookie = "v_id="+escape(v_id)+";expires="+date.toGMTString()+";path=/;domain=.ftd.com";
-			
-			var s_id = getCookie('s_id');
-			if (!s_id) {
-				s_id = createRandomString();
-			}
-			var date = new Date();
-			date.setTime(date.getTime()+(30*60*1000));
-			document.cookie = "s_id="+escape(s_id)+";expires="+date.toGMTString()+";path=/;domain=.ftd.com";
-		} catch(e) {
-			errAlert(e, 'start.html first page');
-		}
-	//-->
-	</script>
-<!-- Start Pixel code for 360i_click_tracking -->
-<!-- Search Ignite BEGIN click tracking script  version 4.0 -->
-<script language="javascript" type="text/javascript">
-document.write('<s'+'cript language="javascript" type="text/javascript" src="'+document.location.protocol+'//track.searchignite.com/si/CM/Tracking/ClickTracking.aspx?siclientid=3603&jscript=1"></s'+'cript>');
-</script>
-<noscript>
-<img width="1" height="1" src='http://track.searchignite.com/si/CM/Tracking/ClickTracking.aspx?siclientid=3603&jscript=0'>
-</noscript>
-<!--Search Ignite END click tracking script  version 4.0 -->
-<!-- End Pixel code for 360i_click_tracking -->
-
-<!-- Start Pixel code for CI_nonsecure -->
-<script
-type="text/javascript"
-src="http://cts.channelintelligence.com/truetag2/6174549/truetag.js"></script>
-<!-- End Pixel code for CI_nonsecure -->
-
-<!-- Start Pixel code for BloomReach -->
-<!-- BloomSurface tracking code.  Place at foot of page. -->
-
-<script type="text/javascript">
-var br_data = {};
-
-/* --- Begin parameters section: fill in below --- */
-br_data.acct_id = "5118";
-br_data.ptype = "other";
-br_data.cat = "";
-br_data.site_code = "350";
-br_data.prod_id = "";
-br_data.prod_name = "";
-br_data.search_term = "";
-br_data.session_id = "";
-br_data.user_id = "";
-br_data.is_conversion = "0";
-br_data.is_paid = "";
-br_data.basket_value = "";
-br_data.order_id ="";
-br_data.orig_ref_url = "http://ftd.sutherlandglobal.com/Main.htm";
-/* --- Parameters for BloomMobile--*/
-br_data.pstatus= ""; 
-br_data.price = "";
-br_data.sale_price = "";  
-br_data.sku = "";
-br_data.cat_id = ""; 
-br_data.basket = {
-  'items': [
-  {
-    'prod_id' : "",
-    'sku': "",
-    'name': "",
-    'quantity': 1,
-    'price': "",
-    'mod': ""
-  }]};
-
-
-/* --- End parameter section --- */
-
-(function() {
-var brtrk = document.createElement('script');
-brtrk.type = 'text/javascript';
-brtrk.async = true;
-brtrk.src = 'https:' == document.location.protocol ? "https://cdns.brsrvr.com/v1/br-trk-5118.js" : "http://cdn.brcdn.com/v1/br-trk-5118.js";
-var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(brtrk, s);
-})();
-</script>
-<!-- End Pixel code for BloomReach -->
-
-	
- <!-- SiteCatalyst code version: H.4.  Copyright 1997-2006 Omniture, Inc. More info available at http://www.omniture.com -->
-	<!-- need to pre-set some omniture variables -->
-<script language="JavaScript">
-<!--
-var s_account           = 'ftdprod';
-ftd_linkInternalFilters = 'javascript:,ftd.com';
-smetrics_host           = '.ftd.com';	
-var refer_val;
-var s_referrer;
-refer_val = getSharedCookie('referrer_before_redirect');
-if (typeof refer_val != 'undefined') {
-	s_referrer = refer_val;
-	deleteSharedCookie('referrer_before_redirect');
-} else {
-	delete s_referrer;
-}
--->
-</script>
-		
-	<!-- printing out our omniture js file shared by both dev and production -->
-    <script language="JavaScript" src="http://www.ftdimg.com/v20140414/js/omniture.js"></script>
-
-	<script language="JavaScript"><!--
-	/* You may give each page an identifying name, server, and channel on the next lines. */
-		s.prop1="350";
-        s.prop2="Main Site";
-        s.prop3="Main Site";
-        s.prop4="Main";
-
-		s.eVar1 = s.prop1;
-        s.eVar2 = s.prop2;
-        s.eVar3 = s.prop3;
-        s.eVar4 = s.prop4;
-
-		s.events = "event13";
-		s.pageName = "Home Page";
-		var previous_val=s.getPreviousValue(s.pageName,'gpv_pn');
-        _satellite.pageBottom();	/* utilize omniture.js */
-		var s_code=s.t();if(s_code)document.write(s_code)//--></script>
-		<script language="JavaScript"><!--
-		if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
-	//--></script>
-	<!-- End SiteCatalyst code version: H.4. -->
-
-<iframe src="http://www.ftd.com/empty/index.epl"  id='html_tabs_iframe' style='display:none'>
-</iframe>
-
- <script language="javascript">
-<!--
-PA.set_active(); 
-PA.signin_url = 'https://ordering.ftd.com/signin/';
-PA.create_account_url = 'https://ordering.ftd.com/new-signup/';
-PA.forgot_password_url = PA.signin_url;
-PA.auto_signout_on = 1;
-PA.signout_redirect = false;
-PA.signout_redirect_url = '';
-PA.idle_time = (1000*60) * 30;
-PA.cookied_security_message='Hi <span class="fname"></span>, please enter password to proceed. Not <span class="fname signout"></span>?';
-PA.auto_sign_out_inactivity_message = 'You have been inactive for <span class="idle-time"></span>&nbsp;minutes. Please enter password to proceed. Not <span class="fname signout"></span>?';
-
-if( PA.auto_signout_on ) {
-    PA.set_auto_signout();
-}
-
-if( window.location.hostname.search(/\\*reminders.*.com/i) != -1 ) {
-    PA.signout_redirect = true;
-    PA.signout_redirect_url = PA.signin_url;
-}
-
-FBSIGNIN.bindEvent();
-//-->
-</script>
-
-
-
-<script language="javascript" type="text/javascript">
-    <!--
-      mybuys.initPage();
-    //-->
-    </script>
-  <!-- start of sociable labs js -->
-<script type="text/javascript"> <!-- (function(){                  var s = document.createElement('script');                  s.async = true;                  s.src = ('https:' == window.location.protocol ?                          'https://s3.amazonaws.com/' :'http://') +                  'static.rondavu.com/C/FTD_PROD/rondavu.js';                  document.getElementsByTagName('head')[0].appendChild(s); })(); --> </script>
-<!-- end of sociable labs js -->
-
-<!-- start of easylink_code -->
-<!-- end of easylink_code -->
-
-<script language="javascript" type="text/javascript"> var toolbar_search_box_jref = jQuery("#toolbar_search_box"); if(toolbar_search_box_jref.size() >0) { 	var sliJsHost = (("https:" == document.location.protocol) ? "https://"  : "http://" ); 	document.write(unescape('%3Clink rel="stylesheet" type="text/css" href="' + sliJsHost + 'assets.resultspage.com/js/rac/sli-rac.0.4.css" /%3E')); 	document.write(unescape('%3Clink rel="stylesheet" type="text/css" href="' + sliJsHost + 'ftd.resultspage.com/rac/sli-rac.css" /%3E')); } </script>  <script language="javascript" type="text/javascript"> if(toolbar_search_box_jref && toolbar_search_box_jref.size() >0) { 	var sliJsHost = (("https:" == document.location.protocol) ? "https://"  : "http://" ); 	var sliscode = '350'; 	var slifhid = ''; 	document.write(unescape('%3Cscript src="' + sliJsHost + 'ftd.resultspage.com/rac/sli-rac.config.js" type="text/javascript"%3E%3C/script%3E')); } </script>
-<script type='text/javascript'>
-jQuery( window ).load(function() {
-		getBRTextPos();
-		});
-</script>
-
-</div>
-
- 
-
- <noscript>
-<style>body #the_big_div{position:relative;top:152px;}
-#bottom_redesign_text{top:100%;}
-</style> 
-<div id="nojavascript">
-
-<div class="nojavascript-width">
-<div class="nojavascript-padding">	
-  <img src="http://www.ftdimg.com/pics/design2007/exclaim_icon.gif"  style="vertical-align:middle">
-	<span style="font-size:20px; position:relative; top:4px; left: 5px">
-	We're Sorry
-	</span><br>
-    <span style="font-size:16px">Your browser does not have Javascript enabled. Our site requires javascript to browse our products.</span>
-    <br><br>
-    <span class="nojavascript_font">
-        Please choose one of the following options:<br>
-        1) Enable Javascript<br>
-        2) Call FTD at 1-800-SEND-FTD (1-800-736-3383) to place your order. 
-    </span>
-</div>
-</div>
-</div>
-</noscript>
-
-	</body>
-</html>
-<script type="text/javascript">
-// delete cookie for bloomreach referral url, this is stored to get referrer even in b/w traffic distrib redirections.
-deleteSharedCookie('br_referrer_before_redirect');
-</script>

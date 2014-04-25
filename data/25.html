@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html><head><title>Amazon.com Associates Central - Widgets</title></head><body>
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/cp._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/theme4._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/global._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/home._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/box-styles._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/ac-global-3._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/ac-global-elms-2._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/reports-1._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/wc-components._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/identbox._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/navigation._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/conf-widgets._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/buildWidgets._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/ac-global._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/ac-global-elms._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/associates-main._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/box-styles._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/dynamic-listbox._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/layout._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/tabs._V699057287_.css" rel="stylesheet" type="text/css" />
+<link href="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/css/widget-gallery-table._V699057287_.css" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="javascript/log.js"> </script>
+<script type="text/javascript" src="javascript/dojo.js"></script>
+<script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/javascript/website_popup._V699057287_.js"> </script>
+<script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/javascript/utils._V699057287_.js"> </script>
+
+<script type="text/javascript">
+    mediaServerUrl="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc/";
+    widgetMediaServerUrl="https://wms-na.amazon-adsystem.com/20070822/US/";
+	marketPlace="US";
+</script>
+
+<script type="text/javascript">
+function hidesortDropDown(){
+    dojo.byId('gallery-sort-order').style.visibility='hidden';
+}
+function showSortDropDown(){
+    dojo.byId('gallery-sort-order').style.visibility='visible';
+    clearPopupCallbacksHelperMsg();// clear callbacks
+}
+function setupPopupCallbacksHelperMsg(){
+    clearPopupCallbacksHelperMsg();
+}
+function clearPopupCallbacksHelperMsg(){
+    _amzn_popup.onhide_callback=null;
+    _amzn_popup.onshow_callback=null;
+    delete(_amzn_popup.onhide_callback);
+    delete(_amzn_popup.onshow_callback);
+}
+
+function setupLocaleDropdownPopupCallbacks(){
+    clearPopupCallbacksHelperMsg();
+    if ( window.ActiveXObject) {
+        _amzn_popup.onshow_callback=hidesortDropDown;
+        _amzn_popup.onhide_callback=showSortDropDown;
+    }
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="javascript">
+    try {
+        if (!Object.prototype.hasOwnProperty) {
+            Object.prototype.hasOwnProperty = function(p) {
+                return typeof this[p] != "function";
+            }
+        }
+    } catch(e) {
+    }
+    isAmznWC = 1; //used by widgets UI for preview        
+    websiteMP = 'US';
+    locales = new Array();
+    vips = new Object();
+    country = new Array();
+    
+    vips['US'] = 'https://widgets.amazon.com';
+    country['US'] = 'United States';
+    locales[0] = "US";
+    
+    vips['GB'] = 'https://widgets.amazon.co.uk';
+    country['GB'] = 'United Kingdom';
+    locales[1] = "GB";
+    
+    vips['DE'] = 'https://widgets.amazon.de';
+    country['DE'] = 'Deutschland';
+    locales[2] = "DE";
+    
+    vips['FR'] = 'https://widgets.amazon.fr';
+    country['FR'] = 'France';
+    locales[3] = "FR";
+    
+    vips['JP'] = 'https://widgets.amazon.co.jp';
+    country['JP'] = 'Japan';
+    locales[4] = "JP";
+    
+    vips['CA'] = 'https://widgets.amazon.ca';
+    country['CA'] = 'Canada';
+    locales[5] = "CA";
+    
+    vips['CN'] = 'https://widgets.amazon.cn';
+    country['CN'] = 'China';
+    locales[6] = "CN";
+    
+    vips['IN'] = 'https://widgets.amazon.in';
+    country['IN'] = 'India';
+    locales[7] = "IN";
+    
+    localeSelectPopUp = createLocaleDropDown(location.pathname);
+
+    if (_amzn_popup) {
+        _amzn_popup.init();
+    }
+    function setupCallbacks(){
+        if(typeof setupLocaleDropdownPopupCallbacks =="function"){
+            setupLocaleDropdownPopupCallbacks();
+        }
+    }
+</script>
+
+
+
+<div id="header">
+    <div id="toplogo">
+        <a href="https://affiliate-program.amazon.com" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/logosprite._V699057287_.gif);"></a>
+    </div>
+
+
+
+
+
+    
+        
+    
+
+    
+
+    <div id="toplinks">
+        <div id="locale_selector_selector" class="dynamic_listbox_selector" onmouseover='_a=this;setupCallbacks(); _amzn_popup.showpreview(localeSelectPopUp, _a, event,50);' onmouseout='_a=this;_amzn_popup.hide(_a)'>
+            <img  src="https://images-na.ssl-images-amazon.com/images/G/01/associates/network/ddwn._V16965439_.png" width="11" class="dynamic_listbox_down_arrow" height="11" border="0" />
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/network/clear-pixel._V46764889_.gif" width="1" class="dynamic_listbox_clear_pixel" height="1" border="0" />
+            <div id="locale_selector_selector_content">
+            United States&nbsp;
+            </div>
+             </div>
+        <div class="toplinksText" style="float:right;">
+            
+             &nbsp;<a href="https://affiliate-program.amazon.com/gp/associates/help/main.html/">Help</a>&nbsp;
+            |&nbsp;<a href="https://affiliate-program.amazon.com/gp/associates/contact/?feedbackSource=WidgetCentral">Feedback</a>&nbsp;
+            |&nbsp;Select Locale:&nbsp;
+        </div>
+    
+
+        </div>
+
+<div style="clear:both;"></div>
+    <div id="menuh"><div id="primaryNav" style='background: url("https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/primaryNavBackground._V256371850_.gif") repeat-x bottom;'><ul><li style="visibility: hidden; height: 24px;"></li><li style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-right._V254531470_.gif) no-repeat scroll right top; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"><a  style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-left._V256370314_.gif) no-repeat scroll left top; float: left; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"   href="https://affiliate-program.amazon.com/gp/associates/promo/buildlinks.html">Links & Banners <span class="droparrow">▼</span></a><div class="parent"><div class="dropdownlinks"><div class="subitem"><a href ="https://affiliate-program.amazon.com/gp/associates/network/build-links/individual/main.html">Product Links</a></div><div class="subitem"><a href ="https://affiliate-program.amazon.com/gp/associates/network/build-links/banner/main.html">Banner Links</a></div><div class="subitem"><a href ="https://affiliate-program.amazon.com/gp/associates/network/build-links/text/main.html">Link to Any Page</a></div><div class="subitem"><a href ="https://widgets.amazon.com/Amazon-QuickLinker-Widget">Quick Linker</a></div><div class="subitem"><a href ="https://affiliate-program.amazon.com/gp/associates/network/tools/link-checker/main.html">Link Checker</a></div></a></li><li style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-slected-right._V254531465_.gif);" id="current"><a style="float: left; background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-slected-left._V255796384_.gif);" href="https://widgets.amazon.com/">Widgets</a></li><li style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-right._V254531470_.gif) no-repeat scroll right top; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"><a  style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-left._V256370314_.gif) no-repeat scroll left top; float: left; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"   href="https://affiliate-program.amazon.com/gp/associates/astore/main.html">aStore</a></li><li style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-right._V254531470_.gif) no-repeat scroll right top; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"><a  style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-left._V256370314_.gif) no-repeat scroll left top; float: left; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"   href="https://affiliate-program.amazon.com/"><img style="border: 0px none; position: relative; top: -9px; vertical-align: -20px; left: -8px;" src="https://images-na.ssl-images-amazon.com/images/G/01/associates/publisher-studio/new-tilted._V368335948_.png"><font style="margin-left: -5px;">Publisher Studio</font><sup style="line-height: 25%;"> beta</sup></a></li><li style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-right._V254531470_.gif) no-repeat scroll right top; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"><a  style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-left._V256370314_.gif) no-repeat scroll left top; float: left; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"   href="https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html">Product Advertising API</a></li><li style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-right._V254531470_.gif) no-repeat scroll right top; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"><a  style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-left._V256370314_.gif) no-repeat scroll left top; float: left; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"   href="https://affiliate-program.amazon.com/gp/associates/promo/affiliate-programs.html">Affiliate Programs <span class="droparrow">▼</span></a><div class="parent"><div class="dropdownlinks"><div class="subitem"><a href="https://affiliate-program.amazon.com/gp/associates/promo/amazonsupply.html">Amazon Supply Associates</a></div><div class="subitem"><a href="https://affiliate-program.amazon.com/gp/associates/promo/amazonlocal.html">Amazon Local Associates</a></div></div></div></a></li><li style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-right._V254531470_.gif) no-repeat scroll right top; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"><a  style="background: transparent url(https://images-na.ssl-images-amazon.com/images/G/01/associates/network/08-ui-elements/tab-unslected-left._V256370314_.gif) no-repeat scroll left top; float: left; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"   href="https://affiliate-program.amazon.com/gp/associates/promo/reports.html">Reports <span class="droparrow">▼</span></a><div class="parent"><div class="dropdownlinks"><div class="subitem"><a href="https://affiliate-program.amazon.com/gp/associates/network/reports/report.html?ie=UTF-8&reportType=earningsReport">Earnings Report</a></div><div class="subitem"><a href="https://affiliate-program.amazon.com/gp/associates/network/reports/report.html?ie=UTF-8&reportType=ordersReport">Orders Report</a></div><div class="subitem"><a href="https://affiliate-program.amazon.com/gp/associates/network/reports/report.html?ie=UTF-8&reportType=miscReport">Misc. Referrals</a></div><div class="subitem"><a href="https://affiliate-program.amazon.com/gp/associates/network/reports/report.html?ie=UTF-8&reportType=linkTypeReport">Link-Type Report</a></div><div class="subitem"><a href="https://affiliate-program.amazon.com/gp/associates/network/reports/report.html?ie=UTF-8&reportType=trendsReport">Daily Trends</a></div><div class="subitem"><a href="https://affiliate-program.amazon.com/gp/associates/network/reports/report.html?ie=UTF-8&reportType=tagsReport">Tracking ID Summary Report</a></div></div></div></a></li></ul></div></div>
+    
+
+
+
+
+<script type="text/javascript">
+    var Associates = Associates || {};
+    Associates.WebAnalyticsConfig = {
+        urchinUdn : ".amazon.com",
+        eventTrackingPathPrefix : "JSAnalytics",
+        urchinJSPath : "https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc/website/webanalytics/urchin._V699057287_.js"
+    };
+</script>
+<script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc/website/webanalytics/webanalytics._V699057287_.js"></script>
+<script type="text/javascript">
+  if(typeof Associates.WebAnalytics.logCustomSegment == 'function') {
+        Associates.WebAnalytics.logCustomSegment('');
+    }
+</script>
+
+
+</div>
+
+
+
+
+  
+      
+    
+<div style="clear:both;">
+    <div id="navigation" class="secure">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//    global vars for holding current store id and tracking id,if user is logged in these vars are updated below
+    var current_store_id='widgetsamazon-20';
+    var current_tracking_id='widgetsamazon-20';
+
+</script>
+<div id="identitybox" class="boxFill secure">
+<div class="whiteBox leftColBox">
+      <!-- Rounded corner graphics starts here -->
+      <div class="corner upperLeft" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxUpperLeft._V699057287_.gif );"></div>
+      <div class="corner upperRight" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxUpperRight._V699057287_.gif);"></div>
+      <div class="corner lowerLeft" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxLowerLeft._V699057287_.gif);"></div>
+      <div class="corner lowerRight" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxLowerRight._V699057287_.gif);"></div>
+
+              
+
+              <form name="authPortalLogin" id="authPortalLogin" method="POST" action="https://www.amazon.com/ap/signin">
+                    <input type="hidden" name="openid.assoc_handle" value="amzn_associates_us" />
+                    <input type="hidden" name="openid.ns" value="http://specs.openid.net/auth/2.0" />
+                    <input type="hidden" name="openid.mode" value="checkid_setup" />
+                    <input type="hidden" name="openid.claimed_id" value="http://specs.openid.net/auth/2.0/identifier_select" />
+                    <input type="hidden" name="openid.identity" value="http://specs.openid.net/auth/2.0/identifier_select" />
+                    <input type="hidden" name="openid.return_to" value="https://widgets.amazon.com/?logInRequest=1" />
+                    <input type="hidden" name="openid.pape.max_auth_age" value="0" />
+                    <p><input type="image" src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/sign-in-md-pri._V699057287_.gif" alt="Sign In" > <span style="font-size: 11px; position: relative;" value="Continue"><a href="https://affiliate-program.amazon.com/gp/associates/login/help.html/">Need Help?</a></span></p>
+              </form>
+              
+
+              <div class="line"></div>
+              <h4 class="noAccount">Don't have an account?</h4>
+              <div><a href="https://affiliate-program.amazon.com/apply/main.html?tag=widgetsamazon-20"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/join-now-for-free-xl-blu._V699057287_.gif"  border="0"></a></div>
+              
+
+ </div>
+</div>
+
+
+    
+        <div class="whiteBox leftColBox"><div class="corner upperLeft" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxUpperLeft._V699057287_.gif);"></div><div class="corner upperRight" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxUpperRight._V699057287_.gif);"></div><div class="corner lowerLeft" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxLowerLeft._V699057287_.gif);"></div><div class="corner lowerRight" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxLowerRight._V699057287_.gif);"></div><ul class="whiteBox leftColBox nav"><li><a class="selected"  href="https://widgets.amazon.com/?sort=Featured&">Widgets</a><ul><li><a  href="https://widgets.amazon.com/?sort=Featured&category=Picks">Your Picks</a></li><li><a  href="https://widgets.amazon.com/?sort=Featured&category=Digital">Digital Media</a></li><li><a  href="https://widgets.amazon.com/?sort=Featured&category=Search">Search</a></li><li><a  href="https://widgets.amazon.com/?sort=Featured&category=Contextual">Contextual</a></li><li><a  href="https://widgets.amazon.com/?sort=Featured&category=Flash">Flash</a></li><li><a  href="https://widgets.amazon.com/?sort=Featured&category=Other">Other Widgets</a></li><li style="border-top: 1px dashed rgb(204, 204, 204);"><a href="https://widgets.amazon.com/Widget-Source">Widget Source</a></li><a href="https://widgets.amazon.com/Widgets-By-Size">Search by Size</a></li></ul></div><div id="amabotACLinkNavigationPane" class="whiteBox leftColBox supportBox"><div class="corner upperLeft" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxUpperLeft._V699057287_.gif);"></div><div class="corner upperRight" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxUpperRight._V699057287_.gif);"></div><div class="corner lowerLeft" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxLowerLeft._V699057287_.gif);"></div><div class="corner lowerRight" style="background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxLowerRight._V699057287_.gif);"></div>
+
+<h4>Promotions Hub</h4>
+<ul>
+  <li><a href="https://affiliate-program.amazon.com/gp/associates/microsite/offers?redirect=true&utm_medium=grp015&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&utm_source=ac&utm_campaign=nohol&pf_rd_i=assoc_join_menu&utm_content=ac-nav&ie=UTF8&pf_rd_t=501"> Offers - Deals &amp; Promotions</a></li>
+</ul>
+<h4>Mobile</h4>
+<ul>
+<li><a href="https://affiliate-program.amazon.com/gp/associates/microsite/mobile?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu"> Amazon Associates for Mobile</a></li>
+</ul>
+<h4>Special Bounty Opportunities</h4>
+<ul>
+  <li><a href="https://affiliate-program.amazon.com/gp/associates/help/t59?redirect=true&utm_medium=primeweb&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&utm_source=web&utm_campaign=AC &pf_rd_i=assoc_join_menu&utm_content=ongoing&pf_rd_t=501">New - Amazon Prime 30-Day Free Trials</a></li>
+</ul>
+<ul>
+  <li><a href="https://affiliate-program.amazon.com/gp/associates/help/t67?redirect=true&utm_medium=primeweb&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&utm_source=web&utm_campaign=AC &pf_rd_i=assoc_join_menu&utm_content=ongoing&pf_rd_t=501">New - Amazon Trade-in Program</a></li>
+</ul>
+<h4>Stay Connected</h4>
+<ul>
+  <li><a href="https://affiliate-program.amazon.com/gp/associates/network/boards/main.html?redirect=false&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Discussion Boards</a></li>
+  <li><a href="http://affiliate-blog.amazon.com?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Associates Blog</a></li>
+</ul>
+<h4>Customer Support</h4>
+<ul>
+  <li><a href="https://affiliate-program.amazon.com/gp/associates/help/main.html?redirect=false&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Help</a></li>
+  <li><a href="https://affiliate-program.amazon.com/gp/associates/tips/main.html?redirect=false&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Performance Tips</a></li>
+  <li><a href="https://affiliate-program.amazon.com/gp/associates/help/glossary?redirect=false&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Glossary</a></li>
+  <li><a href="https://affiliate-program.amazon.com/gp/associates/agreement?redirect=false&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Operating Agreement</a></li>
+<li><a href="https://affiliate-program.amazon.com/gp/associates/help/operating/exclusions?redirect=false&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Excluded Products</a></li>
+</ul>
+<h4>Special Programs</h4>
+<ul>
+<li><a href="http://www.amazonservices.com/content/sell-on-amazon.htm?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&ld=AOAssociatesHm&pf_rd_t=501&pf_rd_i=assoc_join_menu">Sell on Amazon</a></li>
+  <li><a href="https://affiliate-program.amazon.com/kindle?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Kindle for Associates</a></li>
+  <li><a href="https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html?redirect=false&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Product Advertising API</a></li>
+  <li><a href="https://vendorcentral.amazon.com?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">Vendors &amp; Publishers</a></li>
+  <li><a href="http://webstore.amazon.com?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&ld=ACLN&pf_rd_t=501&pf_rd_i=assoc_join_menu">Amazon WebStore</a></li>
+<li><a href="http://www.amazonservices.com/content/product-ads-associates.htm?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&ld=AOPADSAC&pf_rd_t=501&pf_rd_i=assoc_join_menu">Amazon Product Ads</a></li>
+</ul>
+<h4>Other Affiliate Programs</h4>
+<ul>
+  <li><a href="http://www.audible.com/adbl/store/affiliatesNew/index.jsp?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&Type=AffiliatePage&BV_UseBVCookie=Yes&pf_rd_t=501&pf_rd_i=assoc_join_menu">Audible.com</a></li>
+  <li><a href="http://www.abebooks.com/books/AffiliateProgram?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-right-1&pf_rd_t=501&pf_rd_i=assoc_join_menu">AbeBooks.com</a></li>
+</ul>
+</div>
+    
+    </div>
+
+
+<div id="mainContentWrap">
+    <table cellspacing=0 cellpadding=0 border=0 width=100% height=100%>
+    <tr>
+      <td style="padding-right:14px">
+        <div class="whiteBox" width=100% height=100%>
+    <div class="corner upperLeft" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxUpperLeft._V699057287_.gif );"></div>
+      <div class="corner upperRight" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/whiteBoxUpperRight._V699057287_.gif);"></div>
+<div id="content">
+    <div class="breadcrumb">
+        <a href="https://affiliate-program.amazon.com/">Home</a>&nbsp;›&nbsp;
+    </div>
+    <div class="f10">
+       <h1 class="mainpage">
+            Build Your Amazon Widgets
+        </h1>
+    </div>
+    <p style="font-size:13px;">
+
+    Amazon Widgets are rich, interactive mini-applications that bring Amazon functionality to your website. Start by selecting one of the options below. You'll then be able to customize your widget and we'll provide the HTML for you to use on your site. <a href="https://affiliate-program.amazon.com/gp/associates/help/t22/">Learn more</a></p>
+
+    <div class="showingRow"><div style="float: right;"><form id="sortform" method="get"><label>Sort by <select id="gallery-sort-order" name="sort" style="position:relative; top:2px;" onchange="submit();"><option value="Featured" selected="selected" >Featured</option><option value="NewToOld" >Newest to Oldest</option><option value="OldToNew" >Oldest to Newest</option><option value="AlphaAscending" >A to Z</option><option value="AlphaDescending" >Z to A</option></select></label></form></div>Showing 1 - 14 of 14</div><table class="widgetsGrid" border="0" cellpadding="0" cellspacing="0" ><tbody><tr><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Search-Widget">Search</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Search-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-Search._V699057287_.gif" alt="Add Search Widgets to Your Web page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Let your readers find and explore interesting products from Amazon.com without them leaving your site.</p><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Carousel-Widget">Carousel Widget</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Carousel-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-carousel-widget._V699057287_.jpg" alt="Add a Carousel Widget to your web page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Take your products for a spin in the Carousel widget. Hand-pick your favorite products or choose from several lists including Amazon Best Sellers and Hot New Releases.</p><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/mob-icon._V699057287_.png alt="" border="0" title="This widget is not supported in mobile devices."><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-My-Favorites-Widget">My Favorites</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-My-Favorites-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-Express-Yourself._V699057287_.gif" alt="Add My Favorites Widgets to Your Web page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Express yourself by recommending and commenting on products from Amazon.com. Let everyone know how you feel and what you like!</p><p class="utilityLinks"></p></td></tr><tr class="buttonRow"><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Search-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Carousel-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-My-Favorites-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td></tr><tr><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Deals-Widget">Deals Widget</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Deals-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-deals._V699057287_.gif" alt="Add Deals Widget" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Showcase the hottest deals from Amazon on your web page. Delight your viewers with Goldbox deals or select a specific category to show discounted items and ongoing promotions from that category.</p><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/mob-icon._V699057287_.png alt="" border="0" title="This widget is not supported in mobile devices."><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-MP3-Clips-Widget">MP3 Clips Widget</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-MP3-Clips-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-mp3-widget._V699057287_.jpg" alt="Add a MP3 Clips widget to your web page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Add music to your web site with the MP3 Clips widget. Search through Amazon’s catalog of DRM-free MP3 music and add entire albums or select specific MP3 tracks to add to your widget.</p><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/mob-icon._V699057287_.png alt="" border="0" title="This widget is not supported in mobile devices."><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Slideshow-Widget">Slideshow</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Slideshow-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/slideshow-widget._V699057287_.jpg" alt="Add Slideshow Widgets to Your Web page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Make elegant slideshow widgets out of images chosen from products across the entire Amazon catalog - CD cover art, DVD's, books, anything!</p><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/mob-icon._V699057287_.png alt="" border="0" title="This widget is not supported in mobile devices."><p class="utilityLinks"></p></td></tr><tr class="buttonRow"><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Deals-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-MP3-Clips-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Slideshow-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td></tr><tr><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Auto-Part-Finder-Widget">Auto Part Finder Widget</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Auto-Part-Finder-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/pfw_thumb._V699057287_.gif" alt="Add an Automotive Part Finder Widget to your Web Page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Drive your referral fees up by enabling your visitors to find car parts for a specific vehicle year, make, and model using Amazon's Automotive Part Finder.</p><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/mob-icon._V699057287_.png alt="" border="0" title="This widget is not supported in mobile devices."><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Blog-Widget">Amazon Blogs Widget</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Blog-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-blog-widget._V699057287_.gif" alt="Add Daily Updates from Amazon Blogs to your Web Page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Books, Food, Pets, Music, Cars ... Pick which Amazon Blog is best for you and drive referral fees up by displaying daily blog updates on your site.</p><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/mob-icon._V699057287_.png alt="" border="0" title="This widget is not supported in mobile devices."><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Product-Cloud-Widget">Product Cloud</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Product-Cloud-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-product-cloud._V699057287_.gif" alt="Add Product Cloud Widgets to Your Web page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Take tag clouds one step further by showing Product Clouds - clusters of product titles relevant to your page</p><p class="utilityLinks"></p></td></tr><tr class="buttonRow"><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Auto-Part-Finder-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Blog-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Product-Cloud-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td></tr><tr><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Wishlist-Widget">Wish List</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Wishlist-Widget"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumbs-wishlist._V699057287_.gif" alt="Add Amazon Wish List Widgets to Your Web page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Show your Amazon Wish List in a widget and let everyone know what you like. Or show your friend or relatives Wish List to help plan a special occasion.</p><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://affiliate-program.amazon.com/gp/associates/network/store/widget/main.html/">aStore Widget</a></h3><a class="widgetThumb" href="https://affiliate-program.amazon.com/gp/associates/network/store/widget/main.html/"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-astore-links._V699057287_.gif" alt="Add Amazon Wish List Widgets to Your Web page" border="0" ></a><p class="utilityLinks"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/login-required._V699057287_.gif alt="Login Required" align="absmiddle" border="0" > <a href="https://affiliate-program.amazon.com/gp/associates/help/t22/a15/">Why?</a></p><p class="widgetDescText" style="min-height:66px;min-width:350px;">With aStore widgets, you can display products from your aStore. You can add aStore widgets to various pages of your website and drive traffic to your aStore.</p><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://widgets.amazon.com/Amazon-Search-Widget/?dt=compact">Search Box</a></h3><a class="widgetThumb" href="https://widgets.amazon.com/Amazon-Search-Widget/?dt=compact"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumbs-search._V699057287_.gif" alt="Add Amazon.com Search Box to Your Web page" border="0" ></a><p class="widgetDescText" style="min-height:85px;min-width:350px;">Enable your visitors to search the Amazon.com catalog by placing product search boxes on your Web page.</p><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/mob-icon._V699057287_.png alt="" border="0" title="This widget is not supported in mobile devices."><p class="utilityLinks"></p></td></tr><tr class="buttonRow"><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Wishlist-Widget"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://affiliate-program.amazon.com/gp/associates/network/store/widget/main.html/"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://widgets.amazon.com/Amazon-Search-Widget/?dt=compact"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td></tr><tr><td class="start" width="33%"><h3 class="f7"><a href="https://affiliate-program.amazon.com/gp/associates/network/build-links/dynamic/main.html/">Recommended Product Links</a></h3><a class="widgetThumb" href="https://affiliate-program.amazon.com/gp/associates/network/build-links/dynamic/main.html/"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumbs-display._V699057287_.gif" alt="Add Recommended Product Links To Your Web page" border="0" ></a><p class="utilityLinks"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/login-required._V699057287_.gif alt="Login Required" align="absmiddle" border="0" > <a href="https://affiliate-program.amazon.com/gp/associates/help/t22/a15/">Why?</a></p><p class="widgetDescText" style="min-height:66px;min-width:350px;">Automatically feature products based on product categories or keywords.</p><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/mob-icon._V699057287_.png alt="" border="0" title="This widget is not supported in mobile devices."><p class="utilityLinks"></p></td><td class="start" width="33%"><h3 class="f7"><a href="https://affiliate-program.amazon.com/gp/associates/network/build-links/optimized/main.html">Omakase</a></h3><a class="widgetThumb" href="https://affiliate-program.amazon.com/gp/associates/network/build-links/optimized/main.html"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/thumb-optimized._V699057287_.gif" alt="Add Omakase Links to Your Web page" border="0" ></a><p class="utilityLinks"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/login-required._V699057287_.gif alt="Login Required" align="absmiddle" border="0" > <a href="https://affiliate-program.amazon.com/gp/associates/help/t22/a15/">Why?</a></p><p class="widgetDescText" style="min-height:66px;min-width:350px;">Leave it up to us! Automatically feature ideal products based on Amazon's unique knowledge about what works for your site, for your users and for the content of your page.</p><p class="utilityLinks"></p></td><td></td></tr><tr class="buttonRow"><td><p class="f7"><a href="https://affiliate-program.amazon.com/gp/associates/network/build-links/dynamic/main.html/"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td><p class="f7"><a href="https://affiliate-program.amazon.com/gp/associates/network/build-links/optimized/main.html"><img src=https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/add-to-your-webpage-md-pri._V699057287_.gif alt="" border="0" ></a></p></td><td></td></tr></table>
+
+
+    
+        
+    
+
+</div>
+      <div class="feedback"><p><strong>What do you think? </strong></p><p>
+Are there any missing configuration options or would you like to request a feature? <a href="https://affiliate-program.amazon.com/gp/associates/contact/?feedbackSource=Build Your Amazon Widgets">Let us know</a>.</p> </div>
+      <div class="corner lowerLeft" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/tanBoxLowerLeft._V699057287_.gif );"></div>
+      <div class="corner lowerRight" style="background-image:url(https://images-na.ssl-images-amazon.com/images/G/01/associates/widgets/wc//website/img/tanBoxLowerRight._V699057287_.gif);"></div>
+<!--</td></tr>-->
+  <!--</tbody>-->
+<!--</table>-->
+      </div>
+        </td>
+              </tr>
+            </table>
+     <div id="footer"><p><a href="http://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=508088" target="_blank">Conditions of Use</a> | <a href="http://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=468496" target="_blank">Privacy Notice</a> &copy; 1996-2011, Amazon.com, Inc. and its affiliates.</p><p>
+
+<a href="http://www.twitter.com/AmazonAssociate?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-center-1&pf_rd_t=501&pf_rd_i=assoc_footer"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/social-networks/twitter-icon.gif" alt="Twitter" align="center" border="0" ></img></a> <a href="http://www.twitter.com/AmazonAssociate?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-center-1&pf_rd_t=501&pf_rd_i=assoc_footer">Follow us on Twitter</a>
+ | 
+<a href="http://www.facebook.com/pages/Amazon-Associates/127498263343?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-center-1&pf_rd_t=501&pf_rd_i=assoc_footer"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/social-networks/facebook-icon.png" alt="Facebook" align="center" border="0" ></img></a>
+ <a href="http://www.facebook.com/pages/Amazon-Associates/127498263343?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-center-1&pf_rd_t=501&pf_rd_i=assoc_footer">Friend us on Facebook</a>
+ | 
+<a href="http://www.linkedin.com/groups?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-center-1&gid=1704967&pf_rd_t=501&pf_rd_i=assoc_footer"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/social-networks/linkedin-icon.png" alt="LinkedIn" align="center" border="0" ></img></a> <a href="http://www.linkedin.com/groups?redirect=true&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=assoc-center-1&gid=1704967&pf_rd_t=501&pf_rd_i=assoc_footer">Join us on Linkedin</a>
+
+</p></div>
+      </div>
+    </div>
+</body>
+</html>

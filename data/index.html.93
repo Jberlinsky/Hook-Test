@@ -1,189 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 
-Transitional//EN""http://www.w3.org/TR/html4/loose.dtd"><html><head><title>Tree 
-of Life Web Project</title><meta http-equiv="Content-Type" 
-content="text/html; charset=iso-8859-1"><link rel="stylesheet" 
-href="/tree/css/tolhome.css" type="text/css" media="all" /><script 
-type="text/javascript"><!--//--><![CDATA[//><!--function 
-addMouseEvents(elementId) {var sfEls = 
-document.getElementById(elementId).getElementsByTagName("LI");for (var 
-i=0; i<sfEls.length; i++) {sfEls[i].onmouseover=function() {
-this.className+=" sfhover";}sfEls[i].onmouseout=function() {
-this.className=this.className.replace(new RegExp(" sfhover\\b"), "");}
-}}sfHover = function() {addMouseEvents("sitenav");}if 
-(window.attachEvent) window.attachEvent("onload", 
-sfHover);//--><!]]></script></head><body id="tolhome"><h1 
-class="hidden"> Tree of Life Web Project</h1><div id="explorehome">
-<h2>Explore the Tree of Life</h2><div id="browsehome"><h3><a 
-href="/tree/home.pages/browsing.html">Browse the Site</a></h3><ul>
-<li><a href="/Life_on_Earth/1">Root of the Tree</a></li><li><a 
-href="/tree/home.pages/popular.html">Popular Pages</a></li><li><a 
-href="/tree/home.pages/sample.html">Sample Pages</a></li><li><a 
-href="/tree/home.pages/growth.html">Recent Additions</a></li><li><a 
-href="/tree?random=true">Random Page</a></li><li><a 
-href="/tree/home.pages/treehouses.html">Treehouses</a></li><li><a 
-href="/tree/home.pages/media.html">Images, Movies,... </a></li></ul>
-<form action="http://tolweb.org/tree/home.pages/searchresults.html" 
-id="cse-search-box2"><div><input type="hidden" name="cx" 
-value="009557456284541951685:50nf_5tpvuq" /><input type="hidden" 
-name="cof" value="FORID:9" /><input type="hidden" name="ie" value="UTF-8" 
-/><input type="text" name="q" size="14" /><input type="submit" 
-name="sa" value="Search" /></div></form><script type="text/javascript" 
-src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
-<div id="newshome"><h3>News</h3><p><!--Begin Insert News-->Darwin 
-200: the celebration continues... <!--End Insert News--><a 
-href="/tree/home.pages/news.html" class="readmore">readmore</a></p> 
-</div></div><div id="overviewhome"><a 
-href="/tree/home.pages/aboutoverview.html"><img 
-src="/tree/img/toloverview.jpg" alt="Explore the ToL links" width="398" 
-height="448" border="0" usemap="#Map" id="toloverview" title="about this 
-picture" /></a><map name="Map"><area shape="circle" coords="95,426,32" 
-href="/Life_on_Earth/1" alt="Explore the root of the Tree of Life" 
-title="Explore the root of the Tree of Life"><area shape="circle" 
-coords="339,189,43" href="/Fungi/2377" alt="Explore fungi" title="Explore 
-fungi"><area shape="circle" coords="324,75,46" 
-href="/Terrestrial_Vertebrates/14952" alt="Explore terrestrial vertebrates 
-(amphibians, reptiles, birds, mammals, etc.)" title="Explore terrestrial 
-vertebrates (amphibians, reptiles, birds, mammals, etc.)"><area 
-shape="circle" coords="208,190,48" href="/Animals/2374" alt="Explore 
-animals" title="Explore animals"><area shape="circle" coords="96,171,50" 
-href="/Angiosperms/20646" alt="Explore flowering plants" title="Explore 
-flowering plants"> <area shape="circle" coords="182,318,44" 
-href="/Eukaryotes/3" alt="Explore organisms with nucleated cells" 
-title="Explore organisms with nucleated cells"><area shape="circle" 
-coords="196,68,48" href="/Arthropoda/2469" alt="Explore arthropods 
-(insects, spiders, crustaceans, etc.)" title="Explore arthropods (insects, 
-spiders, crustaceans, etc.)"></map><div id="aboutoverview"><a 
-href="/tree/home.pages/aboutoverview.html">aboutthis picture</a></div>
-</div><div id="randomhome"><h3>Learn about ...</h3><span 
-class="randomtaxon"><!--Begin Insert Randomtaxon--><a 
-href="/Agaricales/20551">Agaricales</a> (a group of fungi)<!--End 
-Insert Randomtaxon--></span><!--Begin Insert RandomtaxonImage--><a 
-href="/Agaricales/20551" title="go to the page for 
-this 
-organism"><img 
-src="/tree/ToLimages/92959144_53b3931953_o.100a.jpg"
-alt=" " class="randomimg"></a><a class="imginfo" href="javascript: w = 
-window.open('/media/23346', '23346', 
-'resizable,height=800,width=1000,scrollbars=yes'); w.focus();">image
-info</a> <!--End Insert RandomtaxonImage--> <!--Begin Insert 
-RandomtaxonText--> <p class="randompreview">The Agaricales, or 
-euagarics clade, is a monophyletic group of approximately 8500 
-mushroom species...<a href="/Agaricales/20551" class="readmore">read 
-more</a></p> <!--End Insert RandomtaxonText--> <a 
-href="/tree/home.pages/sample.html" class="readmore">more featured
-pages</a></div><div id="abouthome"><p>The Tree of Life Web Project 
-(ToL) is a collaborative effortof <a 
-href="/onlinecontributors/app?page=PeopleList&service=external&sp=1">biologists
-and nature enthusiasts from around the world</a>. On more than10,000 
-World Wide Web pages, the project provides informationabout biodiversity, 
-the characteristics of differentgroups of organisms, and their
-evolutionary history (<a 
-href="/tree/learn/concepts/whatisphylogeny.html">phylogeny</a>).</p>
-<p>Each page contains information about a particular group, e.g., <a 
-href="/Caudata/14939">salamanders</a>, <a href="/Annelida/2486">segmented 
-worms</a>, <a href="/Polemoniaceae/20812">phlox flowers</a>, <a 
-href="/Tyrannosauridae/15896">tyrannosaurs</a>, <a 
-href="/Euglenida/97461">euglenids</a>, <a 
-href="/Heliconius/72231"><em>Heliconius</em> butterflies</a>, <a 
-href="/Basidiomycota/20520">clubfungi</a>, or the <a 
-href="/Vampyroteuthis_infernalis/20084">vampiresquid</a>. ToL pages are 
-linked oneto another hierarchically, in the form of the evolutionary
-tree of life. Starting with the <a href="/Life_on_Earth/1">rootof all 
-Life on Earth</a> and moving out along diverging branchesto individual 
-species, the <a href="/tree/home.pages/structure.html">structureof the 
-ToL project</a> thus illustrates the genetic connectionsbetween all 
-living things.  </p><a href="/tree/home.pages/abouttol.html" 
-class="readmore">read more aboutthe Tree of Life Web Project...</a> 
-</div></div><div id="Darwin"> <a href="javascript: w = 
-window.open('/onlinecontributors/app?service=external/ViewImageData&sp=299', 
-'299', 'resizable,height=600,width=500,scrollbars=yes'); w.focus();"><img 
-src="/tree/img/darwin.jpg" alt="portrait of Charles Darwin at age 72" 
-width="95" height="130" /></a> <p>"The affinities of all the beings of 
-the same class have sometimes been represented by a great tree... As buds 
-give rise by growth to fresh buds, and these if vigorous, branch out and 
-overtop on all sides many a feebler branch, so by generation I believe it 
-has been with the great Tree of Life, which fills with its dead and broken 
-branches the crust of the earth, and covers the surface with its ever 
-branching and beautiful ramifications." </p><span>Charles Darwin, 
-1859</span> </div><div id="homefooter"> <div id="quicklinks"> <ul> 
-<li><a href="/tree/phylogeny.html">Home</a></li><li><a 
-href="/tree/home.pages/browsing.html">Browse</a></li><li><a 
-href="/tree/home.pages/treehelp.html">Help</a></li><li><a 
-href="/tree/home.pages/projectfeatures.html">Features</a></li><li><a 
-href="/tree/learn/learning.html">Learning</a></li><li><a 
-href="/tree/home.pages/contributions.html">Contribute</a></li><li><a 
-href="/tree/home.pages/abouttol.html">About</a></li><li 
-class="lastquick"><a href="/tree/home.pages/search.html">Search</a></li>
-</ul></div><span class="policy"><a 
-href="/tree/home.pages/ToLPrivacyPolicy.html">PrivacyPolicy</a> &#8212; 
-<a href="/tree/home.pages/tolcopyright.html">Copyright
-Policies</a></span><p class="copyright">Tree of Life design, images, and 
-icons copyright &copy; 1995-2005 Tree of Life Web Project. All rights 
-reserved.<br />Image of rose &copy; 1999 Nick Kurzenko. Image of annelid 
-worm &copy; 2001 Greg W. Rouse.</p></div><div 
-id="sitenav"><h3 class="hidden">Site Navigation</h3><ul><li><a 
-href="/tree/phylogeny.html">Home</a></li><li class="med"><a 
-href="/tree/home.pages/browsing.html">Browse</a><ul><li><a 
-href="/tree/home.pages/browsing.html">Browse</a></li><li><a 
-href="/Life_on_Earth/1">Root</a></li><li><a 
-href="/tree/home.pages/popular.html">Popular Pages</a></li><li><a 
-href="/tree/home.pages/sample.html">Sample Pages</a></li><li><a 
-href="/tree/home.pages/growth.html">Recent Additions</a></li><li><a 
-href="/tree?random=true">Random Page</a></li><li><a 
-href="/tree/home.pages/treehouses.html">Treehouses</a></li><li><a 
-href="/tree/home.pages/media.html">Images, Movies,... </a></li></ul>
-</li><li><a href="/tree/home.pages/treehelp.html">Help</a><ul><li><a 
-href="/tree/home.pages/treehelp.html">Help</a></li><li><a 
-href="/tree/home.pages/finding.html">Finding Things</a></li><li><a 
-href="/tree/home.pages/navigating.html">Navigating</a></li><li><a 
-href="/tree/home.pages/treeinterpret.html">Tree Diagrams </a></li><li><a 
-href="/tree/home.pages/faq.html">FAQ</a></li><li><a 
-href="/tree/home.pages/sitemap.html">Sitemap</a></li><li><a 
-href="/tree/home.pages/feedback.html">Contact Us</a></li></ul></li><li 
-class="long"><a href="/tree/home.pages/projectfeatures.html">Features</a>
-<ul><li><a 
-href="/tree/home.pages/projectfeatures.html">Features</a></li><li><a 
-href="/tree/home.pages/mytol.html">Preferences</a></li><li><a 
-href="/tree/home.pages/forums.html">Forums</a></li><li><a 
-href="/tree/home.pages/glossary.html">Glossary</a></li><li><a 
-href="/tree/home.pages/media.html">Images, Movies,...</a><a 
-href="/tree/home.pages/randPic"></a></li><li><a 
-href="/tree/home.pages/downloadtree.html">Webservices</a></li><li><a 
-href="/tree/home.pages/links.html">Links</a></li></ul></li><li 
-class="long"><a href="/tree/learn/learning.html">Learning</a><ul><li><a 
-href="/tree/learn/learning.html">Learning</a></li><li><a 
-href="/tree/home.pages/treehouses.html">Treehouses</a></li><li><a 
-href="/tree/learn/treebuilder.html">Building Treehouses</a></li><li><a 
-href="/tree/learn/concepts/concepts.html">Evolution/Phylogeny</a></li>
-</ul></li><li class="vlong"><a 
-href="/tree/home.pages/contributions.html">Contribute</a><ul><li><a 
-href="/tree/home.pages/contributions.html">Contribute</a></li><li><a 
-href="/tree/sep/scicontent.html">Scientific Content</a></li><li><a 
-href="/tree/learn/treebuilder.html">Build Treehouses </a></li><li><a 
-href="/tree/home.pages/imagecontributions.html">Images/Media</a></li>
-<li><a href="/tree/home.pages/contributions.html">Contributor 
-Log-In</a></li></ul></li><li><a 
-href="/tree/home.pages/abouttol.html">About</a><ul><li><a 
-href="/tree/home.pages/abouttol.html">About</a></li><li><a 
-href="/tree/home.pages/news.html">News</a></li><li><a 
-href="/tree/home.pages/goals.html">Goals</a></li><li><a 
-href="/tree/home.pages/toleol.html">ToL/EoL</a></li><li><a 
-href="/tree/home.pages/structure.html">Structure</a></li><li><a 
-href="/tree/home.pages/aboutoverview.html">Home Picture</a></li><li><a 
-href="/tree/home.pages/tolhistory.html">History/Future</a></li><li><a 
-href="/tree/home.pages/accessibility.html">Accessibility</a></li><li><a 
-href="/tree/home.pages/citation.html">Citing the ToL</a></li><li><a 
-href="/tree/home.pages/quality.html">Quality Control </a></li><li><a 
-href="/tree/home.pages/toldev.html">Tech Development</a></li><li><a 
-href="/tree/home.pages/tolpolicies.html">Policies</a></li><li><a 
-href="/tree/home.pages/people.html">People</a></li><li><a 
-href="/tree/home.pages/acknowledgments.html">Acknowledgments</a></li>
-</ul></li></ul></div><form 
-action="http://tolweb.org/tree/home.pages/searchresults.html" 
-id="cse-search-box1"><div><input type="hidden" name="cx" 
-value="009557456284541951685:50nf_5tpvuq" /><input type="hidden" 
-name="cof" value="FORID:9" /><input type="hidden" name="ie" value="UTF-8" 
-/><input type="text" name="q" size="14" /><input type="submit" name="sa" 
-value="Search" /></div></form><script type="text/javascript" 
-src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
-</body></html>

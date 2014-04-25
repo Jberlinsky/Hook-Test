@@ -1,0 +1,380 @@
+<!DOCTYPE html> <html lang="en-us"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <title>Football | NFL, NCAA, MLS | International Leagues &amp; Clubs</title> <meta name="description" content="Football.com is the home of everything football. Get the latest news, game scores, highlights, and editorials on your favorite NFL teams and players." /> <meta name="keywords" content="" /> <meta name="robots" content="" /> <meta property="og:title" content="Football | NFL, NCAA, MLS | International Leagues &amp; Clubs" /> <meta property="og:description" content="Football.com is the home of everything football. Get the latest news, game scores, highlights, and editorials on your favorite NFL teams and players." /> <meta property="og:url" content="http://www.football.com/en-us/" /> <meta property="og:image" content="http://www.football.com/images/football-com.png" /> <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Squada+One"> <link rel="stylesheet" href="/css/common.css?v=126"> <link rel="stylesheet" href="/css/american.css?v=126"> <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js?v=126"></script><![endif]--> <script src="/js/vendor/require-2.1.9.min.js?v=126"></script> <script src="/js/main.min.js?v=126"></script> <script>
+ ;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga')
+
+
+ require(['jquery', 'jquery.cookie'], function (jQuery) {
+
+ var utmSrc = jQuery.cookie('utm_source')
+
+ ga('create', 'UA-1483546-5', 'football.com')
+ if (utmSrc) {
+ ga('set', 'campaignName', utmSrc)
+ ga('set', 'campaignSource', utmSrc)
+ }
+ ga('require', 'linkid', 'linkid.js')
+ ga('send', 'pageview')
+
+ ga('create', 'UA-1483546-6', 'football.com', {'name': 'AFBTracker'});
+ ga('AFBTracker.send', 'pageview');
+
+ ga(function () {
+ if (!window.history.replaceState) { return; }
+ var cleanSearch = window.location.search.replace(/utm_[^&]+&?/g, '').replace(/&$/, '').replace(/^\?$/, '')
+ window.history.replaceState({}, '', window.location.pathname + cleanSearch + window.location.hash)
+ })
+
+ })
+</script></head> <body> <!-- Google Tag Manager --> <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KVXL6P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer','GTM-KVXL6P');</script> <!-- End Google Tag Manager --><script>
+ require(["jquery", "jquery.cookie"], function (jQuery) {
+ if((window.location.protocol=='https:')&&!jQuery.cookie("sn")&&!jQuery.cookie("as")){
+ window.location = 'http://'+window.location.host+window.location.pathname+window.location.search+window.location.hash;
+ }
+ });
+</script> <div class="editions_splash is-hidden" id="editions_splash"></div> <script>
+ require(['jquery.cookie'], function () {
+ if (!$.cookie('pr') && !window.location.hash) {
+ require(['editions_splash/app'], function (app) {
+ app( '#editions_splash'
+ , { americanPr: '88'
+ , americanPath: '/en-us/football/'
+ , internationalPr: '7'
+ , internationalPath: '/en-us/soccer/'
+ }
+ )
+ })
+ }
+ })
+</script> <div class="grid-wrapper"> <header class="header has-sport_switch"> <h1 class="header-logo-en-us" data-href="/en-us/">Football.com - everything football</h1> <a href="#register-overlay" id="register-overlay"
+ data-overlay="/en-us/users/account/register/taxonomyRoot/88/?overlay=yes"></a> <a href="#signin-overlay" id="signin-overlay"
+ data-overlay="/en-us/users/account/signin/?overlay=yes"
+ ></a> <a href="#recovery-overlay" id="recovery-overlay"
+ data-overlay="/en-us/users/account/recovery/?overlay=yes"></a> <a href="#get-password-overlay" id="get-password-overlay"
+ data-overlay="/en-us/users/account/get-password/?overlay=yes"></a> <a href="#favorites-overlay" id="favorites-overlay"
+ data-overlay="/en-us/users/account/favorites/?overlay=yes"></a> <a href="#avatar-overlay" id="avatar-overlay"
+ data-overlay="/en-us/users/account/avatar/?overlay=yes"></a> <a href="#create-overlay" id="create-overlay"
+ data-overlay="/en-us/users/account/create/?overlay=yes"></a> <a href="#create-oauth-overlay-facebook" id="create-oauth-overlay-facebook"
+ data-overlay="/en-us/users/account/create-oauth/?provider=facebook"></a> <a href="#create-oauth-overlay-googleplus" id="create-oauth-overlay-googleplus"
+ data-overlay="/en-us/users/account/create-oauth/?provider=googleplus"></a> <a href="#favorites-overlay" id="favorites-overlay"
+ data-overlay="/en-us/users/account/favorites/"></a> <a href="#community-setup-overlay" id="community-setup-overlay"
+ data-overlay="/en-us/users/account/avatar/"></a> <a href="#message-overlay" id="message-overlay"
+ data-overlay="/en-us/users/account/register-thank-you/"></a> <div class="userbar" id="userbar"></div> <script>
+ require([ 'models/account/current-user'
+ , 'views/account/userbar'
+ ], function (currentUser, UserbarView) {
+
+ if (currentUser.needsAutoSignIn()) {
+ currentUser.autoSignIn().done(function () {
+ window.location.reload(true)
+ })
+ }
+
+ new UserbarView({
+ el: '#userbar'
+ , isAmericanFootball: true
+ , communityURL: '/en-us/football/community/'
+ , registerOverlayURL: '/en-us/users/account/register/taxonomyRoot/88/?overlay=yes'
+ }).render()
+ })
+</script> <script>
+ require(["jquery", "jquery.cookie"], function (jQuery) {
+ jQuery.cookie("pr", "88", { expires : 365, path:"/" });
+ if(typeof(_gaq) != "undefined"){
+ _gaq.push(["_setCustomVar",1,"taxonomyRoot","88"]);
+ }
+ });
+ </script> <a href="/en-us/campaign/mymock/" class="widget_banner_horizontal"> <img src=" /images/marketing/af-complete-mock-draft-970x69.png"
+ width="970" height="69" alt=""> </a> <ul class="header-sport_switch"> <li><span>Football<i class="header-sport_switch-triangle"></i></span> <li><a href="/en-us/soccer/"
+ data-pr="7">Soccer</a> </ul> <nav class="header-nav"> <ul class="header-nav-list"> <li> <a href="/en-us/football/" target="_self">Home</a> <li> <a href="/en-us/nfl/" target="_self">NFL</a> <li> <a href="/en-us/ncaa/" target="_self">NCAA</a> <li> <a href="/en-us/draft/" target="_self">Draft</a> <li> <a href="/en-us/fantasy/" target="_self">Fantasy</a> <li> <a href="/en-us/football-shop/" target="_self">Shop</a> <li> <a href="/en-us/writers-04182b9870ab2938d82cc10f3ada292b/" target="_self">Writers</a> </ul> <!-- Search Bar --> <div class="header-search search-autocomplete has-pulldown is-manual"
+ id="header-search"> <div class="search-autocomplete-backdrop pulldown-backdrop"> <form class="header-search-form" action="/en-us/search/" method="get"> <label class="header-search-label"> <i class="header-search-icon"></i> <input class="header-search-input" name="q" autocomplete="off"
+ type="text" placeholder="Search Football.com"> <button class="button_red_black header-search-button"
+ type="submit" >Go</button> </label> </form> <div class="search-autocomplete-results header-search-autocomplete-results is-right js-results"></div> </div> </div> <script>
+ require( ['views/search/autocomplete']
+ , function (AutocompleteView) {
+
+ new AutocompleteView({
+ el: '#header-search'
+ , taxonomyRoot: 88
+ , contentTypes: [354, 355, 360, 358]
+ , limit: 4
+ , hasFooter: true
+ , hasAllResults: true
+ , isSmall: true
+ }).render()
+
+ });
+ </script> <!-- End Search Bar --> </nav> </header>  <div class="social" id="social-share"> <ul class="social-subscribe"> <li class="social-label">
+ Connect with us
+ </li> <li> <a rel="publisher" href="https://plus.google.com/u/0/103704406141204525190/posts"
+ target="_blank" class="social-subscribe-google"><span><span style="display: none;">Find us on Google+</span></span></a> </li> <li> <a href="https://twitter.com/Football_com"
+ target="_blank" class="social-subscribe-twitter"></a> </li> <li> <a href="https://www.facebook.com/footballdotcom"
+ target="_blank" class="social-subscribe-facebook"></a> </li> </ul> <ul class="social-share"> <li class="social-label">
+ Share this page
+ </li> <li> <a href="#" class="social-share-facebook js-share"
+ data-for="facebook"></a> <span class="social-count js-count"
+ data-for="facebook"></span> </li> <li> <a href="#" class="social-share-twitter js-share"
+ data-for="twitter"></a> <span class="social-count js-count"
+ data-for="twitter"></span> </li> <li> <a href="#" class="social-share-google js-share"
+ data-for="google"></a> <span class="social-count js-count"
+ data-for="google"></span> </li> </ul> </div> <script>
+ require(['views/social-share'], function (SocialShareView) {
+ new SocialShareView({el: '#social-share', fixPosition: true})
+ })
+</script> <div class="page page_rounded"> <div class="page-content"> <div class="grid-8-columns"> <section class="widget_gallery" id="gallery"> <figure class="widget_gallery-preview"> <img class="widget_gallery-article-image js-gallery-image"
+ src="//assets.football.com/en-us/4ef6685f4faaad0d710a41939369984b630x314.jpg"
+ width="630" height="314"> <a href="/en-us/15-must-see-nfl-games-in-2014/" class="widget_gallery-overlay has-underline js-gallery-link"> <ul class="table_grid"> <li class="table_grid-narrow widget_gallery-overlay-icon js-gallery-icon"> </li> <li class="table_grid-auto"> <p class="widget_gallery-overlay-title is-underline js-gallery-title">15 Must-See NFL Games In 2014</p> <p class="widget_gallery-overlay-description"> <span class="l-padright js-gallery-description">
+ Every spring, football fans eagerly await the release of the NFL schedule. 2014 was no different. Here is a look at 15 games you will definitely want to mark on your calendar... </span> <span class="widget_gallery-overlay-more link_next is-underline js-gallery-read-more">
+ Read&nbsp;more
+ </span> </p> </li> </ul> </a> </figure> <ul class="grid-5-up grid-up-bordered widget_gallery-thumbs"> <li class="widget_gallery-thumb js-gallery-thumb is-active"
+ data-title="15 Must-See NFL Games In 2014"
+ data-description="Every spring, football fans eagerly await the release of the NFL schedule. 2014 was no different. Here is a look at 15 games you will definitely want to mark on your calendar..."
+ data-image="//assets.football.com/en-us/4ef6685f4faaad0d710a41939369984b630x314.jpg"
+ data-link="/en-us/15-must-see-nfl-games-in-2014/"
+ > <a href="/en-us/15-must-see-nfl-games-in-2014/"> <figure> <div class="widget_gallery-thumb-image"> <img src="//assets.football.com/en-us/4ef6685f4faaad0d710a41939369984b-img3.jpg"
+ width="126" height="84"> <span class="media-overlay_small"> </span> </div> <figcaption>
+ 15 Must-See NFL Games In 2014 </figcaption> </figure> </a> </li> <li class="widget_gallery-thumb js-gallery-thumb "
+ data-title="Next In Line: Replacing Jadeveon Clowney"
+ data-description="He's been called a freak, a &quot;once in a decade talent,&quot; and potentially the No. 1 overall pick in this year's 2014 NFL Draft according to ESPN's draft expert Mel Kiper..."
+ data-image="//assets.football.com/en-us/08905854480332006582c5321d4ff3df630x314.jpg"
+ data-link="/en-us/next-in-line-replacing-jadeveon-clowney/"
+ data-icon="video"
+ > <a href="/en-us/next-in-line-replacing-jadeveon-clowney/"> <figure> <div class="widget_gallery-thumb-image"> <img src="//assets.football.com/en-us/08905854480332006582c5321d4ff3df-img3.jpg"
+ width="126" height="84"> <span class="media-overlay_small"> <i class="media-overlay-video_small"></i> <strong>video</strong> </span> </div> <figcaption>
+ Next In Line: Replacing Jadeveon Clowney </figcaption> </figure> </a> </li> <li class="widget_gallery-thumb js-gallery-thumb "
+ data-title="2014 Fantasy Players To Avoid: WR and TE"
+ data-description="A couple of weeks ago, I profiled quarterbacks and running backs that I'd steer clear of this season, and you can find that article here..."
+ data-image="//assets.football.com/en-us/f66bf7606c61fbc4ff3ba2537a8d06bf630x314.jpg"
+ data-link="/en-us/2014-fantasy-players-to-avoid-wr-and-te/"
+ > <a href="/en-us/2014-fantasy-players-to-avoid-wr-and-te/"> <figure> <div class="widget_gallery-thumb-image"> <img src="//assets.football.com/en-us/f66bf7606c61fbc4ff3ba2537a8d06bf-img3.jpg"
+ width="126" height="84"> <span class="media-overlay_small"> </span> </div> <figcaption>
+ 2014 Fantasy Players To Avoid: WR and TE </figcaption> </figure> </a> </li> <li class="widget_gallery-thumb js-gallery-thumb "
+ data-title="Is UCLA A National Championship Contender?"
+ data-description="Does UCLA have enough talent on both sides of the ball to compete with the top programs in the country for a spot in the inaugural College Football Playoff?
+
+ Maybe, but the Bruins have some growing to do before they can answer definitively..."
+ data-image="//assets.football.com/en-us/65911fecfab122c09973f4b249446d23630x314.jpg"
+ data-link="/en-us/is-ucla-a-national-championship-contender/"
+ data-icon="video"
+ > <a href="/en-us/is-ucla-a-national-championship-contender/"> <figure> <div class="widget_gallery-thumb-image"> <img src="//assets.football.com/en-us/65911fecfab122c09973f4b249446d23-img3.jpg"
+ width="126" height="84"> <span class="media-overlay_small"> <i class="media-overlay-video_small"></i> <strong>video</strong> </span> </div> <figcaption>
+ Is UCLA A National Championship Contender? </figcaption> </figure> </a> </li> <li class="widget_gallery-thumb js-gallery-thumb "
+ data-title="First-round QB Picks Often Underwhelming"
+ data-description="Is it just tougher to select a quarterback than other positions?
+
+ Based on my perusal of the NFL drafts for the past 10 years, I would have to answer “Probably.” But it’s tough to draft at any position..."
+ data-image="//assets.football.com/en-us/fdb9cbc092c3a2b15e1848c4607de380630x314.jpg"
+ data-link="/en-us/first-round-qb-picks-often-underwhelming/"
+ > <a href="/en-us/first-round-qb-picks-often-underwhelming/"> <figure> <div class="widget_gallery-thumb-image"> <img src="//assets.football.com/en-us/fdb9cbc092c3a2b15e1848c4607de380-img3.jpg"
+ width="126" height="84"> <span class="media-overlay_small"> </span> </div> <figcaption>
+ First-round QB Picks Often Underwhelming </figcaption> </figure> </a> </li> </ul> <script type="text/javascript">
+ require(["jquery", "jquery.gallery"], function($) {
+ $(function(){
+ $("#gallery").gallery();
+ })
+ });
+ </script> </section> <section class="widget"> <h2 class="widget-header"> <div class="widget-header-icon"> <i class="widget-header-community_af"></i> </div>
+ Community
+ </h2> <div class="community_photo_right"> <div class="community_home" id="community-home"></div> </div> <script>
+ require( ['views/community/home']
+ , function (CommunityHomeView) {
+
+ new CommunityHomeView({
+ el: '#community-home'
+ , taxonomyRoot: 88
+ , contentTypes: [351, 352, 353, 354, 355, 363, 364, 357, 356, 360, 358, 19]
+ , limit: 3
+ , updateHeaderAfterPost: true
+ , autocompletePlaceholder: 'Where? Enter Team or Player'
+ }).render()
+ })
+ </script> <div class="widget-grouping">Community editor’s picks</div> <ul class="grid-2-up table_grid_fixed l-border_bottom_white"> <li class="box"> <div class="box-element"> <ul class="table_grid"> <li class="l-text-top"> <a class="has-underline" href="/en-us/community/brett-hundley/is-ucla-a-national-championship-contender-24-Apr-2014/"> <div class="community_photo box-image_left"> <img src="//assets.football.com/avatars/4d9b94bc-47e4-5c01-878d-8b5480011257-40x40.jpg?1392850744"
+ width="40" height="40" alt="halioughton"> </div> <h3 class="box-title_small is-underline l-text-break-word">Is UCLA A National Championship Contender?</h3> </a> <p class="box-subtitle box-details">
+ by halioughton at <a class="l-text-darkgrey"
+ href="/en-us/community/view/fb69f5fa-c2b9-540b-955a-79c05543b628.en_us/">
+ Brett Hundley Community
+ </a> </p> </li> <li class="table_grid-narrow l-text-middle l-padleft"> <a href="/en-us/community/brett-hundley/is-ucla-a-national-championship-contender-24-Apr-2014/" class="community_comments">2</a> </li> </ul> </div> </li> <li class="box l-border_left_white"> <div class="box-element"> <ul class="table_grid"> <li class="l-text-top"> <a class="has-underline" href="/en-us/community/fbs/conference-networks-scrap-pile-or-money-maker-23-Apr-2014/"> <div class="community_photo box-image_left"> <img src="//assets.football.com/avatars/0543a171-55c4-5764-9edc-a4895f7a8e05-40x40.jpg?1387252969"
+ width="40" height="40" alt="Christopher Smith"> </div> <h3 class="box-title_small is-underline l-text-break-word">Conference Networks: Scrap Pile Or Money Maker?</h3> </a> <p class="box-subtitle box-details">
+ by Christopher Smith at <a class="l-text-darkgrey"
+ href="/en-us/community/view/4652659b-d8c4-5863-bcee-12f8f654caa1.en_us/">
+ FBS Community
+ </a> </p> </li> <li class="table_grid-narrow l-text-middle l-padleft"> <a href="/en-us/community/fbs/conference-networks-scrap-pile-or-money-maker-23-Apr-2014/" class="community_comments">8</a> </li> </ul> </div> </li> </ul> <ul class="grid-2-up table_grid_fixed l-border_bottom_white"> <li class="box"> <div class="box-element"> <ul class="table_grid"> <li class="l-text-top"> <a class="has-underline" href="/en-us/community/new-england-patriots/brady-may-be-best-late-round-pick-in-nfl-draft-history-20-Apr-2014/"> <div class="community_photo box-image_left"> <img src="//assets.football.com/avatars/e5c4be90-284a-52a7-8847-898ae86363d6-40x40.jpg?1390452147"
+ width="40" height="40" alt="philmor"> </div> <h3 class="box-title_small is-underline l-text-break-word">Brady May Be Best Late-Round Pick In NFL Draft History</h3> </a> <p class="box-subtitle box-details">
+ by philmor at <a class="l-text-darkgrey"
+ href="/en-us/community/view/2d1d5e78-197b-5723-980b-d01373ef1092.en_us/">
+ New England Patriots Community
+ </a> </p> </li> <li class="table_grid-narrow l-text-middle l-padleft"> <a href="/en-us/community/new-england-patriots/brady-may-be-best-late-round-pick-in-nfl-draft-history-20-Apr-2014/" class="community_comments">11</a> </li> </ul> </div> </li> <li class="box l-border_left_white"> <div class="box-element"> <ul class="table_grid"> <li class="l-text-top"> <a class="has-underline" href="/en-us/community/draft/draft-day-approaches-08-Apr-2014/"> <div class="community_photo box-image_left"> <img src="//assets.football.com/avatars/e21f6b89-11ca-5c99-8c54-2f4a4af2a511-40x40.jpg?1392156941"
+ width="40" height="40" alt="David Seigerman"> </div> <h3 class="box-title_small is-underline l-text-break-word">Draft Day approaches</h3> </a> <p class="box-subtitle box-details">
+ by David Seigerman at <a class="l-text-darkgrey"
+ href="/en-us/community/view/99e113d3-9478-5e2e-a74e-47a1559fa481.en_us/">
+ Draft Community
+ </a> </p> </li> <li class="table_grid-narrow l-text-middle l-padleft"> <a href="/en-us/community/draft/draft-day-approaches-08-Apr-2014/" class="community_comments">6</a> </li> </ul> </div> </li> </ul> <footer class="widget-footer"> <a class="link_next" href="/en-us/football/community/">View more posts</a> </footer> </section> <div class="grid-row"> <div class="grid-6-columns"> <section class="widget"> <h2 class="widget-header">Featured</h2> <article class="box"> <a href="/en-us/atlanta-can-add-an-impact-player-without-trading-picks/" class="has-underline"> <figure class="box-image"> <img src="//assets.football.com/en-us/36503fe9fcf2e7f76c09b283126171aa-291x150.jpg"
+ alt="Atlanta Can Add An Impact Player Without Trading Picks"
+ width="291" height="150"> </figure> <h3 class="box-title is-underline">
+ Atlanta Can Add An Impact Player Without Trading Picks </h3> <p class="box-subtitle">by Timotheus Gordon</p> </a> <p class="box-text">
+ There are growing rumors that point towards the Atlanta Falcons joining the fight to land prized DE prospect Jadeveon Clowney in the upcoming NFL Draft. Or, Atlanta can also have LB Khalil Mack or OTs Jake Matthews or Greg Robinson in their sights...<br> <span data-href="/en-us/atlanta-can-add-an-impact-player-without-trading-picks/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/utah-could-change-fight-song-lyrics/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/b1e16326a82fb3b709f90960b124a4b0-img3.jpg"
+ alt="Utah Could Change Fight Song Lyrics"
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">Utah Could Change Fight Song Lyrics</h3> </a> <p class="box-subtitle">by Christopher Smith</p> <p class="box-text_small">
+ It's not on par with the dialogue about the Washington Redskins name or whether Clemson's football program is too publicly religious, but Utah is considering changing the lyrics to its fight song... <span data-href="/en-us/utah-could-change-fight-song-lyrics/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/should-the-chiefs-draft-a-quarterback/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/826780a005475611b2250e0cc57421f9-img3.jpg"
+ alt="Should The Chiefs Draft A Quarterback? "
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">Should The Chiefs Draft A Quarterback? </h3> </a> <p class="box-subtitle">by Eric Paolini</p> <p class="box-text_small">
+ Alex Smith is a good, but not great, quarterback. Smith had his share of issues in the early days of his career in San Francisco, where he wasn’t even a good quarterback. He wasn’t helped by his frequent benchings over subpar players... <span data-href="/en-us/should-the-chiefs-draft-a-quarterback/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/post-spring-ball-who-will-vols-start-at-qb/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/dfc4df755343b0b55191b705e59800e2-img3.jpg"
+ alt="Post-Spring Ball: Who Will Vols Start At QB?"
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">Post-Spring Ball: Who Will Vols Start At QB?</h3> </a> <p class="box-subtitle">by Dan Harralson</p> <p class="box-text_small">
+ The much-anticipated spring practices for Tennessee have come and gone, and now Tennessee awaits 18 more newcomers to arrive in June.  
+
+ Those 18 players will provide additional talented depth to Team 118... <span data-href="/en-us/post-spring-ball-who-will-vols-start-at-qb/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/stacy-coley-the-next-great-miami-wr/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/06445a2e83727bb4b082a9081021a058-img3.jpg"
+ alt="Stacy Coley: The Next Great Miami WR"
+ width="150" height="100"> <div class="media-overlay_small"> <i class="media-overlay-video_small"></i> <strong>video</strong> </div> </figure> <h3 class="box-title_small is-underline">Stacy Coley: The Next Great Miami WR</h3> </a> <p class="box-subtitle">by Sam Super</p> <p class="box-text_small">
+ Sophmore Stacy Coley is poised for another steller season at receiver for the Miami Hurricanes. Coley has big shoes to fill, replacing Allen Hurns as the team's No. 1 pass-catching option... <span data-href="/en-us/stacy-coley-the-next-great-miami-wr/" class="link_next">Watch</span> </p> </article> <article class="box"> <a href="/en-us/union-storm-ravages-northwestern-s-spring-practice/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/617fbf1aad721e17089545e06e0580e1-img3.jpg"
+ alt="Union Storm Ravages Northwestern's Spring Practice"
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">Union Storm Ravages Northwestern's Spring Practice</h3> </a> <p class="box-subtitle">by Aaron Morse</p> <p class="box-text_small">
+ “There's a storm coming, Mr. Wayne. You and your friends better batten down the hatches, because when it hits, you're all gonna wonder how you ever thought you could live so large and leave so little for the rest of us... <span data-href="/en-us/union-storm-ravages-northwestern-s-spring-practice/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/taking-a-rt-not-the-right-thing-to-do-for-browns/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/5fad6da3e139aa7e09b7f92f4083f4e5-img3.jpg"
+ alt="Taking A RT Not The Right Thing To Do For Browns"
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">Taking A RT Not The Right Thing To Do For Browns</h3> </a> <p class="box-subtitle">by Steven King</p> <p class="box-text_small">
+ Can a team afford to take an offensive tackle – especially one who plays on the right side -- at No. 4 overall in the 2014 NFL Draft?
+
+ Maybe if that team the Super Bowl champion Seattle Seahawks. Or the AFC champion Denver Broncos... <span data-href="/en-us/taking-a-rt-not-the-right-thing-to-do-for-browns/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/the-top-three-rookie-qbs-who-might-fit-best-with-oakland/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/7fd09dffae3edb22d6025f267c0409b4-img3.jpg"
+ alt="The Top Three Rookie QBs Who Might Fit Best With Oakland"
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">The Top Three Rookie QBs Who Might Fit Best With Oakland</h3> </a> <p class="box-subtitle">by Bess Shapiro</p> <p class="box-text_small">
+ Now that the Terrelle Pryor saga is over with his trade to the Seattle Seahawks, the Oakland Raiders will be in the market for a new quarterback in the draft... <span data-href="/en-us/the-top-three-rookie-qbs-who-might-fit-best-with-oakland/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/riverboat-ron-s-unexpected-journey/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/e701ed28a739900f17e2f4a76d1bbae4-img3.jpg"
+ alt="Riverboat Ron's Unexpected Journey"
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">Riverboat Ron's Unexpected Journey</h3> </a> <p class="box-subtitle">by Corey Cook</p> <p class="box-text_small">
+ Ron Rivera spent his youth learning to understand leadership and structure. Born into a military family, Rivera’s father served in the United States Army... <span data-href="/en-us/riverboat-ron-s-unexpected-journey/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/beavers-like-current-dt-crop-despite-hangups/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/77742e574c679df3d219d5c7f05567df-img3.jpg"
+ alt="Beavers Like Current DT Crop Despite Hangups"
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">Beavers Like Current DT Crop Despite Hangups</h3> </a> <p class="box-subtitle">by John Baker</p> <p class="box-text_small">
+ When Oregon State lines up defensively for the first time this fall, there will be three new faces along the defensive front and a lot of expectations... <span data-href="/en-us/beavers-like-current-dt-crop-despite-hangups/" class="link_next">Read&nbsp;more</span> </p> </article> <article class="box"> <a href="/en-us/how-have-the-saints-beaten-the-salary-cap-crunch/" class="has-underline"> <figure class="box-image_left"> <img src="//assets.football.com/en-us/d2b81559b9542e73f5d7a620bbc25ab1-img3.jpg"
+ alt="How Have The Saints Beaten The Salary Cap Crunch?"
+ width="150" height="100"> </figure> <h3 class="box-title_small is-underline">How Have The Saints Beaten The Salary Cap Crunch?</h3> </a> <p class="box-subtitle">by Greg Barber</p> <p class="box-text_small">
+ Since the beginning of the offseason, the New Orleans Saints were projected to be one of those teams that would not be a major player on the free agent market because they were in salary cap hell... <span data-href="/en-us/how-have-the-saints-beaten-the-salary-cap-crunch/" class="link_next">Read&nbsp;more</span> </p> </article> </section> </div> <div class="grid-6-columns">  <section class="widget"> <h2 class="widget-header">Our Experts</h2> <div class="box"> <a href="/en-us/tj-hatter/" class="has-underline"> <img src="//assets.football.com/657005.4873037-54x54.png" style="float:left" class="box-image_left" width="54" height="54" alt="TJ Hatter" title="TJ Hatter" /> <h3 class="box-title is-underline">
+ TJ Hatter </h3> </a> <p class="box-subtitle">
+ NFL Columnist </p> <div class="box-details"> <hr class="box-line"> <article> <h4 class="box-title_small"> <a href="/en-us/i-refuse-to-get-excited-about-the-nfl-schedule/">I Refuse To Get Excited About The NFL Schedule</a> </h4> <p class="box-text_small">
+ Planet America rejoiced this week as the NFL released its 2014 Regular Season Schedule... <span data-href="/en-us/i-refuse-to-get-excited-about-the-nfl-schedule/" class="link_next">Read more</span> </p> </article> </div> </div> <div class="box"> <a href="/en-us/eric-wickstrom/" class="has-underline"> <img src="//assets.football.com/657768.4879119-54x54.png" style="float:left" class="box-image_left" width="54" height="54" alt="Eric Wickstrom" title="Eric Wickstrom" /> <h3 class="box-title is-underline">
+ Eric Wickstrom </h3> </a> <p class="box-subtitle">
+ NFL Columnist </p> <div class="box-details"> <hr class="box-line"> <article> <h4 class="box-title_small"> <a href="/en-us/5-nfl-games-worthy-of-primetime-scheduling/">5 NFL Games Worthy Of Primetime Scheduling</a> </h4> <p class="box-text_small">
+ I’m not sure what’s worse: The fact the NFL has 49 scheduled primetime games in 2014 or the fact that the Cowboys or the Giants are scheduled to play in nine of them... <span data-href="/en-us/5-nfl-games-worthy-of-primetime-scheduling/" class="link_next">Read more</span> </p> </article> </div> </div> <div class="box"> <a href="/en-us/matt-natali/" class="has-underline"> <img src="//assets.football.com/646666.4792770-54x54.png" style="float:left" class="box-image_left" width="54" height="54" alt="Matt Natali" title="Matt Natali" /> <h3 class="box-title is-underline">
+ Matt Natali </h3> </a> <p class="box-subtitle">
+ FBS Deputy Editor </p> <div class="box-details"> <hr class="box-line"> <article> <h4 class="box-title_small"> <a href="/en-us/ladies-how-to-watch-a-football-game-circa-1948/">Ladies: How To Watch A Football Game, Circa 1948</a> </h4> <p class="box-text_small">
+ In 1986, actress Goldie Hawn starred in the film Wildcats portraying a girls high school track coach who becomes a head football coach at an inner-city high school... <span data-href="/en-us/ladies-how-to-watch-a-football-game-circa-1948/" class="link_next">Read more</span> </p> </article> </div> </div> <div class="box"> <a href="/en-us/lance-conklin/" class="has-underline"> <img src="//assets.football.com/673201.5014876-54x54.png" style="float:left" class="box-image_left" width="54" height="54" alt="Lance Conklin" title="Lance Conklin" /> <h3 class="box-title is-underline">
+ Lance Conklin </h3> </a> <p class="box-subtitle">
+ NFL Columnist </p> <div class="box-details"> <hr class="box-line"> <article> <h4 class="box-title_small"> <a href="/en-us/the-nfl-is-more-than-a-business-or-a-game/">The NFL Is More Than A Business Or A Game</a> </h4> <p class="box-text_small">
+ When people think of the NFL and sports in general the first thing that comes to mind is that it's a game in which players are overpaid to play. That viewpoint will not get an argument from me... <span data-href="/en-us/the-nfl-is-more-than-a-business-or-a-game/" class="link_next">Read more</span> </p> </article> </div> </div> </section> <section class="widget"> <h2 class="widget-header">Debates</h2> <div class="box"> <article> <a href="/en-us/aac-breakout-wr-ambles-moore-or-perriman/" class="has-underline"> <ul class="box-image image_split_small"> <li> <div class="image_split-image"> <img src="//assets.football.com/en-us/575d1220287880a3b87fe8ba07ce5e54-190x150.jpg"
+ alt="Houston's Markeith Ambles could be a breakout receiver this year playing alongside Deontay Greenberry in a pass-happy offense. Photo by Stacy Revere/Getty Images."
+ height="150"> </div> </li> <li class="image_split-vs"></li> <li> <div class="image_split-image"> <img src="//assets.football.com/en-us/af362ed805df783452c9d169b0ebd218-190x150.jpg"
+ alt="Breshad Perriman played a big role in UCF's offensive success last year. He will look to continue that success with a new quarterback this fall. Photo by Christian Petersen/Getty Images."
+ height="150"> </div> </li> </ul> <h3 class="box-title is-underline">
+ AAC Breakout WR: Ambles, Moore Or Perriman? </h3> </a> <p class="box-subtitle">
+ by Jackson Wang </p> <p class="box-text_small">
+ Houston, Cincinnati, and UCF are all looking to have a big year in the AAC this season. With the conference up for grabs, all three teams will be chasing after the AAC championship... <span data-href="/en-us/aac-breakout-wr-ambles-moore-or-perriman/" class="link_next">Read more</span> </p> </article> <hr class="box-line"> <article> <h3 class="box-title_small"> <a href="/en-us/mike-evans-vs-kelvin-benjamin-is-either-the-next-megatron/">Mike Evans Vs. Kelvin Benjamin: Is Either The Next Megatron?</a> </h3> <p class="box-subtitle">
+ by Bill Lund </p> </article> <hr class="box-line"> <article> <h3 class="box-title_small"> <a href="/en-us/bigger-concern-petrino-s-past-or-new-3-4-defense/">Bigger Concern: Petrino's Past Or New 3-4 Defense?</a> </h3> <p class="box-subtitle">
+ by Jackson Wang </p> </article> <hr class="box-line"> <article> <h3 class="box-title_small"> <a href="/en-us/louis-nix-iii-vs-aaron-donald-different-ways-of-dominating-play/">Louis Nix III Vs. Aaron Donald: Different Ways Of Dominating Play</a> </h3> <p class="box-subtitle">
+ by Bill Lund </p> </article> </div> </section> <section class="widget"> <h2 class="widget-header">Best Of</h2> <article class="box_dark"> <a href="/en-us/top-five-mad-hatter-moments/" class="has-underline"> <img src="//assets.football.com/en-us/b7d7473ab0a916a13f59f62fdac711e7-291x150.jpg"
+ class="box-image"
+ alt="Top Five &quot;Mad Hatter&quot; Moments"
+ width="290" height="150"> <h3 class="box-title is-underline">
+ Top Five "Mad Hatter" Moments </h3> </a> <p class="box-subtitle">
+ by Cody Bellaire </p> <p class="box-text_small">
+ LSU fans have been blessed with the amazing man who is Les Miles for the last 10 years. As a coach, he brings out passion and pride in his players on an entirely different level... <span data-href="/en-us/top-five-mad-hatter-moments/" class="link_next">Read more</span> </p> </article> <article class="box"> <a href="/en-us/full-7-round-mock-draft-for-the-eagles/" class="has-underline"> <img src="//assets.football.com/en-us/219b6cff2718539ef36c3e9f11f1039e-img3.jpg"
+ class="box-image_left"
+ alt="Full 7-Round Mock Draft For The Eagles"
+ width="150" height="100"> <h3 class="box-title_small is-underline">
+ Full 7-Round Mock Draft For The Eagles </h3> </a> <p class="box-subtitle">
+ by Michael Saenz </p> <p class="box-text_small">
+ The 2014 NFL Draft is a little over two weeks away. The players have worked out and interviewed, their draft stock has risen and fallen, and all that’s left is for them to finally get picked. And even that will come with its critics... <span data-href="/en-us/full-7-round-mock-draft-for-the-eagles/" class="link_next">Read more</span> </p> </article> <article class="box"> <a href="/en-us/draft-prospects-that-resemble-dallas-star-players/" class="has-underline"> <img src="//assets.football.com/en-us/9c2dac11dc6ed9e8584491c390d0916f-img3.jpg"
+ class="box-image_left"
+ alt="Draft Prospects That Resemble Dallas' Star Players"
+ width="150" height="100"> <h3 class="box-title_small is-underline">
+ Draft Prospects That Resemble Dallas' Star Players </h3> </a> <p class="box-subtitle">
+ by Kenny Decker </p> <p class="box-text_small">
+ Many college players create themselves a profile while playing for their respective school. When the draft conversations begin, everyone knows who they are... <span data-href="/en-us/draft-prospects-that-resemble-dallas-star-players/" class="link_next">Read more</span> </p> </article> <article class="box"> <a href="/en-us/where-does-eli-manning-rank-among-the-nfl-quarterbacks/" class="has-underline"> <img src="//assets.football.com/en-us/b50a6302f457b6aa275c87f238751311-img3.jpg"
+ class="box-image_left"
+ alt="Where Does Eli Manning Rank Among The NFL Quarterbacks?"
+ width="150" height="100"> <h3 class="box-title_small is-underline">
+ Where Does Eli Manning Rank Among The NFL Quarterbacks? </h3> </a> <p class="box-subtitle">
+ by Christopher Mulgrave </p> <p class="box-text_small">
+ Eli Manning is the best quarterback in New York Giants history. He’s a two-time Super Bowl Champion, two-time Super Bowl MVP and a three-time Pro Bowler... <span data-href="/en-us/where-does-eli-manning-rank-among-the-nfl-quarterbacks/" class="link_next">Read more</span> </p> </article> </section> </div> </div> </div> <aside class="grid-4-columns">   <div class="widget"> <h2 class="widget-header">Expert NFL Mock Draft</h2> <div class="box"> <img src="//assets.football.com/614826.4546873-54x54.png" style="float:left" class="box-image_left" width="54" height="54" alt="David Seigerman" title="David Seigerman" /> <div class="box-details"> <h3 class="box-title">
+ David Seigerman </h3> <hr class="box-line"> <article> <h4 class="box-title_small"> <a href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/">NFL Draft 2014: 1st Round</a> </h4> <p class="box-subtitle">
+ Updated: Apr 21, 2014 12:03 PM EDT </p> </article> </div> </div> <table> <tr> <td width="30" class="pick-number_small l-text-top l-text-center">
+ 1 </td> <td width="31" class="l-text-top l-pad-top l-pad-bottom l-no-pad-right"> <a href="/en-us/houston-texans/"> <img src="//assets.football.com/610737.4518197-31x31.png" width="31" height="31" alt="Houston Texans" /> </a> </td> <td class="l-text-top l-pad-top l-text-left"> <a href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-1"><div class="box-title">Jadeveon Clowney</div></a> <p class="box-subtitle">DE, South Carolina</p> <p class="box-text_small"> <strong>Analysis:</strong>
+ I'm becoming increasingly convinced Atlanta will acquire this pick from the Texans. The Falcons woul...
+ <span class="link_next" data-href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-1">Read more</span> </p> </td> </tr> <tr> <td width="30" class="pick-number_small l-text-top l-text-center">
+ 2 </td> <td width="31" class="l-text-top l-pad-top l-pad-bottom l-no-pad-right"> <a href="/en-us/st-louis-rams/"> <img src="//assets.football.com/588300.4360246-31x31.png" width="31" height="31" alt="St. Louis Rams" /> </a> </td> <td class="l-text-top l-pad-top l-text-left"> <a href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-2"><div class="box-title">Jake Matthews</div></a> <p class="box-subtitle">T, Texas A&M</p> <p class="box-text_small"> <strong>Analysis:</strong>
+ Does the signing of Kenny Britt mean the Rams are done shopping for a receiver? Of course not. But t...
+ <span class="link_next" data-href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-2">Read more</span> </p> </td> </tr> <tr> <td width="30" class="pick-number_small l-text-top l-text-center">
+ 3 </td> <td width="31" class="l-text-top l-pad-top l-pad-bottom l-no-pad-right"> <a href="/en-us/jacksonville-jaguars/"> <img src="//assets.football.com/588986.4365112-31x31.png" width="31" height="31" alt="Jacksonville Jaguars" /> </a> </td> <td class="l-text-top l-pad-top l-text-left"> <a href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-3"><div class="box-title">Khalil Mack</div></a> <p class="box-subtitle">OLB, Buffalo</p> <p class="box-text_small"> <strong>Analysis:</strong>
+ If the Jaguars are going to rise to relevance under Gus Bradley, they're going to do it with defense...
+ <span class="link_next" data-href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-3">Read more</span> </p> </td> </tr> <tr> <td width="30" class="pick-number_small l-text-top l-text-center">
+ 4 </td> <td width="31" class="l-text-top l-pad-top l-pad-bottom l-no-pad-right"> <a href="/en-us/cleveland-browns/"> <img src="//assets.football.com/585477.4340266-31x31.png" width="31" height="31" alt="Cleveland Browns" /> </a> </td> <td class="l-text-top l-pad-top l-text-left"> <a href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-4"><div class="box-title">Sammy Watkins</div></a> <p class="box-subtitle">WR, Clemson</p> <p class="box-text_small"> <strong>Analysis:</strong>
+ It may sound contradictory to suggest that a defense-first coach like Mike Pettine would skip a youn...
+ <span class="link_next" data-href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-4">Read more</span> </p> </td> </tr> <tr> <td width="30" class="pick-number_small l-text-top l-text-center">
+ 5 </td> <td width="31" class="l-text-top l-pad-top l-pad-bottom l-no-pad-right"> <a href="/en-us/oakland-raiders/"> <img src="//assets.football.com/584937.4336434-31x31.png" width="31" height="31" alt="Oakland Raiders" /> </a> </td> <td class="l-text-top l-pad-top l-text-left"> <a href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-5"><div class="box-title">Blake Bortles</div></a> <p class="box-subtitle">QB, UCF</p> <p class="box-text_small"> <strong>Analysis:</strong>
+ Someone has to flinch first. And while I have Teddy Bridgewater ranked higher among QB prospects, Bo...
+ <span class="link_next" data-href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/#pick-1-5">Read more</span> </p> </td> </tr> </table> <footer class="widget-footer"> <a href="/en-us/draft/view/e21f6b89-11ca-5c99-8c54-2f4a4af2a511/" class="link_next">View complete draft</a> </footer> </div> <div class="widget"> <h2 class="widget-header">Recently Created User Mock Drafts</h2> <div class="box"> <a href="/en-us/draft/view/d6d7df60-7765-5671-a2f4-bf2e1b6656c8/"> <div class="box-image_left community_photo"> <img src="//assets.football.com/avatars/d6d7df60-7765-5671-a2f4-bf2e1b6656c8-54x54.jpg?1398302783"
+ alt="ryrybball"
+ width="54" height="54"> </div> <h3 class="box-title">ryrybball</h3> </a> <div class="box-details"> <hr class="box-line"> <article> <div class="box-text">
+ Updated: Apr 23, 2014 9:26 PM EDT </div> <div class="box-text"> <p> <strong> <span class="l-text-red">1.</span> <span title="Houston Texans">Houston...</span> </strong>
+ DE : Jadeveon Clowney</p> </div> <div class="box-text"> <a href="/en-us/draft/view/d6d7df60-7765-5671-a2f4-bf2e1b6656c8/" class="link_next">View Complete Draft</a> </div> </article> </div> </div> <div class="box"> <a href="/en-us/draft/view/8a8e578b-f6ec-5cce-bb19-2dcddda4d8bd/"> <div class="box-image_left community_photo"> <img src="//assets.football.com/avatars/8a8e578b-f6ec-5cce-bb19-2dcddda4d8bd-54x54.jpg?1398254522"
+ alt="ziggy6469"
+ width="54" height="54"> </div> <h3 class="box-title">ziggy6469</h3> </a> <div class="box-details"> <hr class="box-line"> <article> <div class="box-text">
+ Updated: Apr 23, 2014 9:39 AM EDT </div> <div class="box-text"> <p> <strong> <span class="l-text-red">1.</span> <span title="Houston Texans">Houston...</span> </strong>
+ DE : Jadeveon Clowney</p> <p> <strong> <span class="l-text-red">2.</span> <span title="St. Louis Rams">St. Lou...</span> </strong>
+ OLB : Khalil Mack</p> <p> <strong> <span class="l-text-red">3.</span> <span title="Jacksonville Jaguars">Jackson...</span> </strong>
+ WR : Sammy Watkins</p> </div> <div class="box-text"> <a href="/en-us/draft/view/8a8e578b-f6ec-5cce-bb19-2dcddda4d8bd/" class="link_next">View Complete Draft</a> </div> </article> </div> </div> <div class="box"> <a href="/en-us/draft/view/94f6fa83-3b5c-541f-a7ff-35d17a19e956/"> <div class="box-image_left community_photo"> <img src="//assets.football.com/avatars/94f6fa83-3b5c-541f-a7ff-35d17a19e956-54x54.jpg?1398236466"
+ alt="Boomer57"
+ width="54" height="54"> </div> <h3 class="box-title">Boomer57</h3> </a> <div class="box-details"> <hr class="box-line"> <article> <div class="box-text">
+ Updated: Apr 23, 2014 3:27 AM EDT </div> <div class="box-text"> <p> <strong> <span class="l-text-red">1.</span> <span title="Houston Texans">Houston...</span> </strong>
+ DE : Jadeveon Clowney</p> <p> <strong> <span class="l-text-red">2.</span> <span title="St. Louis Rams">St. Lou...</span> </strong>
+ OLB : Khalil Mack</p> <p> <strong> <span class="l-text-red">3.</span> <span title="Jacksonville Jaguars">Jackson...</span> </strong>
+ QB : Johnny Manziel</p> </div> <div class="box-text"> <a href="/en-us/draft/view/94f6fa83-3b5c-541f-a7ff-35d17a19e956/" class="link_next">View Complete Draft</a> </div> </article> </div> </div> <div class="box"> <a href="/en-us/draft/view/746b93da-1896-5ffd-8124-fc5e23ff724d/"> <div class="box-image_left community_photo"> <img src="//assets.football.com/avatars/746b93da-1896-5ffd-8124-fc5e23ff724d-54x54.jpg?1387210884"
+ alt="edler"
+ width="54" height="54"> </div> <h3 class="box-title">edler</h3> </a> <div class="box-details"> <hr class="box-line"> <article> <div class="box-text">
+ Updated: Apr 22, 2014 10:45 PM EDT </div> <div class="box-text"> <p> <strong> <span class="l-text-red">1.</span> <span title="Houston Texans">Houston...</span> </strong>
+ DE : Jadeveon Clowney</p> <p> <strong> <span class="l-text-red">2.</span> <span title="St. Louis Rams">St. Lou...</span> </strong>
+ WR : Sammy Watkins</p> <p> <strong> <span class="l-text-red">3.</span> <span title="Jacksonville Jaguars">Jackson...</span> </strong>
+ OLB : Khalil Mack</p> </div> <div class="box-text"> <a href="/en-us/draft/view/746b93da-1896-5ffd-8124-fc5e23ff724d/" class="link_next">View Complete Draft</a> </div> </article> </div> </div> <div class="box"> <a href="/en-us/draft/view/839d02e5-a559-5994-bd1c-372d0c525fce/"> <div class="box-image_left community_photo"> <img src="//assets.football.com/avatars/839d02e5-a559-5994-bd1c-372d0c525fce-54x54.jpg?1398220241"
+ alt="ronclements727"
+ width="54" height="54"> </div> <h3 class="box-title">ronclements727</h3> </a> <div class="box-details"> <hr class="box-line"> <article> <div class="box-text">
+ Updated: Apr 22, 2014 10:39 PM EDT </div> <div class="box-text"> <p> <strong> <span class="l-text-red">1.</span> <span title="Houston Texans">Houston...</span> </strong>
+ DE : Jadeveon Clowney</p> <p> <strong> <span class="l-text-red">2.</span> <span title="St. Louis Rams">St. Lou...</span> </strong>
+ T : Greg Robinson</p> <p> <strong> <span class="l-text-red">3.</span> <span title="Jacksonville Jaguars">Jackson...</span> </strong>
+ QB : Blake Bortles</p> </div> <div class="box-text"> <a href="/en-us/draft/view/839d02e5-a559-5994-bd1c-372d0c525fce/" class="link_next">View Complete Draft</a> </div> </article> </div> </div> <footer class="widget-footer"> <a href="/en-us/draft/mock/?type=created" class="link_next">View More</a> </footer> </div>  <section class="widget js-tabs"> <h2 class="widget-header">Headlines</h2> <nav class="titlebar"> <ul class="titlebar-tabs-list"> <li class="titlebar-tab js-tabs-link is-active"> <a href="#">NFL</a> </li> <li class="titlebar-tab js-tabs-link"> <a href="#">NCAA</a> </li> </ul> </nav> <div class="js-tabs-section"> <div class="box"> <ul class="box-links"> <li><a href="/en-us/2014-nfl-schedule-released/">2014 NFL Schedule Released</a></li> <li><a href="/en-us/30-top-prospects-that-will-be-attending-the-draft/">30 Top Prospects That Will Be Attending The Draft</a></li> <li><a href="/en-us/giants-s-will-hill-facing-suspension-and-release/">Giants S Will Hill Facing Suspension And Release</a></li> <li><a href="/en-us/seahawks-trade-7th-round-pick-for-terrelle-pryor/">Seahawks Trade 7th-Round Pick For Terrelle Pryor</a></li> <li><a href="/en-us/will-trump-become-the-bills-new-owner/">Will Trump Become The Bills New Owner?</a></li> <li><a href="/en-us/back-in-the-nest-sidney-rice-returns-to-seattle/">Back In The Nest: Sidney Rice Returns To Seattle</a></li> <li><a href="/en-us/giants-agree-to-terms-with-josh-freeman/">Giants Agree To Terms With Josh Freeman</a></li> <li><a href="/en-us/chris-johnson-signs-2-year-deal-with-ny-jets/">Chris Johnson Signs 2-Year Deal With NY Jets</a></li> <li><a href="/en-us/49ers-lb-aldon-smith-arrested-for-bomb-threat/">49ers LB Aldon Smith Arrested For Bomb Threat</a></li> <li><a href="/en-us/browns-match-jaguars-offer-sheet-for-alex-mack/">Browns Match Jaguars Offer Sheet For Alex Mack</a></li> </ul> </div> <footer class="widget-footer"> <a class="link_next" href="/en-us/nfl/news/">More NFL Headlines</a> </footer> </div> <div class="js-tabs-section is-hidden"> <div class="box"> <ul class="box-links"> <li><a href="/en-us/utah-could-change-fight-song-lyrics/">Utah Could Change Fight Song Lyrics</a></li> <li><a href="/en-us/new-paterno-statue-coming-to-state-college/">New Paterno Statue Coming To State College</a></li> <li><a href="/en-us/former-bama-lineman-headed-to-ohio-state/">Former Bama Lineman Headed To Ohio State</a></li> <li><a href="/en-us/hoke-stays-neutral-on-wolverines-qb-competition/">Hoke Stays Neutral On Wolverines QB Competition</a></li> <li><a href="/en-us/status-of-top-oklahoma-lb-in-question/">Status Of Top Oklahoma LB In Question</a></li> <li><a href="/en-us/texas-a-m-qb-matt-joeckel-to-transfer/">Texas A&M QB Matt Joeckel To Transfer</a></li> <li><a href="/en-us/bowl-slate-for-2015-reaches-40-games/">Bowl Slate For 2015 Reaches 40 Games</a></li> <li><a href="/en-us/clemson-qb-chad-kelly-dismissed/">Clemson QB Chad Kelly Dismissed </a></li> <li><a href="/en-us/alabama-rb-derrick-henry-poised-for-more/">Alabama RB Derrick Henry Poised For More</a></li> <li><a href="/en-us/arkansas-state-auctioning-right-to-coach-spring-game/">Arkansas State Auctioning Right To Coach Spring Game</a></li> </ul> </div> <footer class="widget-footer"> <a class="link_next" href="/en-us/ncaa/news/">More NCAA Headlines</a> </footer> </div> </section> <script>
+ require(["jquery", "jquery.tabs"], function($) {
+ $(function(){
+ $(".js-tabs").tabs();
+ })
+ });
+</script> <section class="widget"> <h2 class="widget-header">Football.com Shop</h2> <div class="box_gradient"> <p class="box-text">
+ Visit our shop for pro football collectibles, apparel, memorabilia, sports equipment and more!
+ </p> <div class="box"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=637671&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/4f87988403b0f553bd7593add4abdd4a-290x146.png" width="290" height="146" alt="Denver Broncos Bling Lanyard - Orange" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Denver Broncos Bling Lanyard - Orange</h3> </a> <p class="box-text">
+ Denver Broncos Bling Lanyard - Orange <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=637671&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=637671&tt=df" data-target="_blank" class="link_next">Buy</span> </p> </div> <div class="box-element" id="shop-items"> <ul class="grid-4-up"> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/3429bb646d9728552cb93d18a3e88b3c-55x55.png" width="55" height="55" alt="Denver Broncos Rookie Of The Year Button-Up Jacket - Gray/Navy Blue" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=619539&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/3429bb646d9728552cb93d18a3e88b3c-290x146.png" width="290" height="146" alt="Denver Broncos Rookie Of The Year Button-Up Jacket - Gray/Navy Blue" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Denver Broncos Rookie Of The Year Button-Up Jacket - Gray/Navy Blue</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=619539&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=619539&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$139.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/ac08da3810f4518ec987e50c5a0328e7-55x55.png" width="55" height="55" alt="Denver Broncos Gridiron Tough V Long Sleeve T-Shirt - Navy Blue" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=392507&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/ac08da3810f4518ec987e50c5a0328e7-290x146.png" width="290" height="146" alt="Denver Broncos Gridiron Tough V Long Sleeve T-Shirt - Navy Blue" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Denver Broncos Gridiron Tough V Long Sleeve T-Shirt - Navy Blue</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=392507&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=392507&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$29.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/9fa1c92bf8da7101a69fc5b9e71b9382-55x55.png" width="55" height="55" alt="Seattle Seahawks Critical Victory VI Hoodie - Ash" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=338799&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/9fa1c92bf8da7101a69fc5b9e71b9382-290x146.png" width="290" height="146" alt="Seattle Seahawks Critical Victory VI Hoodie - Ash" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Seattle Seahawks Critical Victory VI Hoodie - Ash</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=338799&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=338799&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$49.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/fb97adc45b1233cd72edad70effc0eac-55x55.png" width="55" height="55" alt="Wes Welker Denver Broncos Autographed Riddell Pro Line Authentic Helmet" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=571751&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/fb97adc45b1233cd72edad70effc0eac-290x146.png" width="290" height="146" alt="Wes Welker Denver Broncos Autographed Riddell Pro Line Authentic Helmet" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Wes Welker Denver Broncos Autographed Riddell Pro Line Authentic Helmet</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=571751&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=571751&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$599.95 </strong> </div> </div> </div> </div> </li> </ul> <ul class="grid-4-up"> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/67e52f792a025460b0b9c47547767bff-55x55.png" width="55" height="55" alt="New Era Super Bowl XLVIII 2-Tone 59FIFTY Fitted Flat Bill Hat - Navy Blue/Light Blue" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=634575&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/67e52f792a025460b0b9c47547767bff-290x146.png" width="290" height="146" alt="New Era Super Bowl XLVIII 2-Tone 59FIFTY Fitted Flat Bill Hat - Navy Blue/Light Blue" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">New Era Super Bowl XLVIII 2-Tone 59FIFTY Fitted Flat Bill Hat - Navy Blue/Light Blue</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=634575&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=634575&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong><s class="l-text-red">$35.95</s>&nbsp;$26.99 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/54bfa195d9f7cb2c1589f8dfeed7968d-55x55.png" width="55" height="55" alt="Denver Broncos Deluxe 16&#039;&#039; x 20&#039;&#039; Vertical Photograph Frame with Team Logo" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=718343&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/54bfa195d9f7cb2c1589f8dfeed7968d-290x146.png" width="290" height="146" alt="Denver Broncos Deluxe 16&#039;&#039; x 20&#039;&#039; Vertical Photograph Frame with Team Logo" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Denver Broncos Deluxe 16'' x 20'' Vertical Photograph Frame with Team Logo</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=718343&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=718343&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$179.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/f9d95b2d573d9daa896925bed35bba12-55x55.png" width="55" height="55" alt="Seattle Seahawks 11oz. C-Handle Mug" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=562003&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/f9d95b2d573d9daa896925bed35bba12-290x146.png" width="290" height="146" alt="Seattle Seahawks 11oz. C-Handle Mug" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Seattle Seahawks 11oz. C-Handle Mug</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=562003&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=562003&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$9.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/cc38365c3c9eaefab2178b0356cfdf36-55x55.png" width="55" height="55" alt="Seattle Seahawks Inflatable Team Toss Game" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=217215&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/cc38365c3c9eaefab2178b0356cfdf36-290x146.png" width="290" height="146" alt="Seattle Seahawks Inflatable Team Toss Game" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Seattle Seahawks Inflatable Team Toss Game</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=217215&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=217215&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$29.95 </strong> </div> </div> </div> </div> </li> </ul> <ul class="grid-4-up"> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/346056eaaac2f3c62958ebefb2d46037-55x55.png" width="55" height="55" alt="&#039;47 Brand Seattle Seahawks Striker Pullover Hoodie - Light Blue" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=478829&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/346056eaaac2f3c62958ebefb2d46037-290x146.png" width="290" height="146" alt="&#039;47 Brand Seattle Seahawks Striker Pullover Hoodie - Light Blue" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">'47 Brand Seattle Seahawks Striker Pullover Hoodie - Light Blue</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=478829&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=478829&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$79.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/7c57c1ace0b8a28a411e0d1d2abdc62e-55x55.png" width="55" height="55" alt="Denver Broncos Preschool Game Day 3-Pack T-Shirt Set - Orange/White/Gray" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=504995&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/7c57c1ace0b8a28a411e0d1d2abdc62e-290x146.png" width="290" height="146" alt="Denver Broncos Preschool Game Day 3-Pack T-Shirt Set - Orange/White/Gray" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Denver Broncos Preschool Game Day 3-Pack T-Shirt Set - Orange/White/Gray</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=504995&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=504995&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$34.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/bdfa44c47fc564a5210e98cccf0d8cd8-55x55.png" width="55" height="55" alt="Matt Prater Denver Broncos Sublimated 10.5&#039;&#039; x 13&#039;&#039; Plaque" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=558059&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/bdfa44c47fc564a5210e98cccf0d8cd8-290x146.png" width="290" height="146" alt="Matt Prater Denver Broncos Sublimated 10.5&#039;&#039; x 13&#039;&#039; Plaque" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Matt Prater Denver Broncos Sublimated 10.5'' x 13'' Plaque</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=558059&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=558059&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$29.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/3a0852238f86edc3014b94c7e23ab9e2-55x55.png" width="55" height="55" alt="Nike Seattle Seahawks Tri-Script Tri-Blend T-Shirt - College Navy" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=712295&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/3a0852238f86edc3014b94c7e23ab9e2-290x146.png" width="290" height="146" alt="Nike Seattle Seahawks Tri-Script Tri-Blend T-Shirt - College Navy" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Nike Seattle Seahawks Tri-Script Tri-Blend T-Shirt - College Navy</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=712295&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=712295&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$33.95 </strong> </div> </div> </div> </div> </li> </ul> <ul class="grid-4-up"> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/2004d7cb5c06352b7c34b78edaa0d413-55x55.png" width="55" height="55" alt="&#039;47 Brand Denver Broncos Bruiser Long Sleeve T-Shirt - Red" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=478993&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/2004d7cb5c06352b7c34b78edaa0d413-290x146.png" width="290" height="146" alt="&#039;47 Brand Denver Broncos Bruiser Long Sleeve T-Shirt - Red" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">'47 Brand Denver Broncos Bruiser Long Sleeve T-Shirt - Red</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=478993&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=478993&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$44.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/110a1d281ab66d61910d1ca8debb70a2-55x55.png" width="55" height="55" alt="Denver Broncos Colored Silver Glitter Metal Frame" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=456387&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/110a1d281ab66d61910d1ca8debb70a2-290x146.png" width="290" height="146" alt="Denver Broncos Colored Silver Glitter Metal Frame" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">Denver Broncos Colored Silver Glitter Metal Frame</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=456387&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=456387&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$19.95 </strong> </div> </div> </div> </div> </li> <li class="shop-item js-shop-item"> <div class="has-shop-item-info is-manual js-info"> <figure class="shop-item-image"> <img src="//assets.football.com/shop/48e3a5f392c4bc835ec00fab1f1ebfc7-55x55.png" width="55" height="55" alt="1990 49ers vs Broncos 22&quot; x 30&quot; Canvas Super Bowl XXIV Program" /> </figure> <div class="shop-item-info"> <div class="box_transparent"> <a href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=489467&tt=df" target="_blank" class="has-underline"> <figure class="box-image_white"> <img src="//assets.football.com/shop/48e3a5f392c4bc835ec00fab1f1ebfc7-290x146.png" width="290" height="146" alt="1990 49ers vs Broncos 22&quot; x 30&quot; Canvas Super Bowl XXIV Program" /> <div class="shop-image-overlay"></div> </figure> <h3 class="box-title is-underline">1990 49ers vs Broncos 22" x 30" Canvas Super Bowl XXIV Program</h3> </a> <div class="box-text"> <div class="l-right"> <span class="l-padright"><span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=489467&tt=df" data-target="_blank" class="link_next">More details</span></span> <span data-href="http://www.avantlink.com/click.php?p=149633&pw=148919&pt=3&pri=489467&tt=df" data-target="_blank" class="link_next">Buy</span> </div> <strong>$99.95 </strong> </div> </div> </div> </div> </li> <li><a class="widget_shop-link" href="/en-us/football-shop/" target="_blank">View more</a></li> </ul> </div> <script>
+ require(['views/shop/items'], function (ShopItemsView) {
+ new ShopItemsView({el: '#shop-items'}).render()
+ })
+ </script> </div> </section> <div class="widget_banner"> <a href='/en-us/become-a-writer/' target='_blank'> <img src='/images/marketing/af-become-a-writer-300x250.jpg' border='0' alt='' /> </a> </div> </aside> <script>
+ require(["jquery", "jquery.cookie", "models/account/current-user"], function (jQuery) {
+ jQuery.cookie("cpId", "7.7-0.0", { expires : 365, path:"/" });
+ jQuery.cookie("pr", "", { domain:".football.com", expires : 0, path:"/" });//workaround for coockie domain change
+ jQuery.cookie("pr", "88", { expires : 365, path:"/" });
+ if(typeof(_gaq) != "undefined"){
+ _gaq.push(["_setCustomVar",1,"taxonomyRoot","88"]);
+ }
+ });
+ </script> <script>
+ require(["jquery", "jquery.cookie"], function (jQuery) {
+ jQuery.cookie("pr", "88", { expires : 365, path:"/" });
+ if(typeof(_gaq) != "undefined"){
+ _gaq.push(["_setCustomVar",1,"taxonomyRoot","88"]);
+ }
+ });
+ </script> </div> </div> <footer class="footer"> <nav class="footer-nav"> <div class="footer-nav-block grid-2-columns"> <div class="footer-nav-block-content"> <h3>About Us</h3> <ul class="footer-nav-list"> <li><a href="/en-us/careers/">Careers</a></li> <li><a href="/en-us/company-overview/">Company Overview</a></li> <li><a href="/en-us/privacy-policy/">Privacy Policy</a></li> <li><a href="/en-us/related-links/">Sites We Like</a></li> <li><a href="/en-us/terms/">Terms</a></li> <li><a href="/en-us/writers-football/">Writers</a></li> </ul> </div> </div> <div class="footer-nav-block grid-2-columns"> <div class="footer-nav-block-content"> <h3>Contact</h3> <ul class="footer-nav-list"> <li><a href="/en-us/advertising/">Advertising</a></li> <li><a href="/en-us/affiliates/">Affiliates</a></li> <li><a href="/en-us/contact-us/">Contact Us</a></li> <li><a href="/en-us/feedback/">Feedback</a></li> </ul> </div> </div> <div class="footer-nav-block grid-2-columns"> <div class="footer-nav-block-content"> <h3>Connect With Us</h3> <ul class="footer-nav-list"> <li><a href="http://www.youtube.com/user/footballcomusa" target="_blank">YouTube</a></li> <li><a href="https://www.facebook.com/footballdotcom" target="_blank">Facebook</a></li> <li><a href="https://twitter.com/Football_com" target="_blank">Twitter</a></li> <li><a rel="publisher" href="https://plus.google.com/u/0/103704406141204525190/posts" target="_blank">Google+</a></li> </ul> </div> </div> </nav> <div class="footer-copyright"> <a class="footer-logo" href="/en-us/">
+ Football.com - everything football
+ </a> <ul class="footer-links-list"> <li><a href="/en-us/privacy-policy/">Privacy Policy</a></li> <li><a href="/en-us/terms/">Terms of Services</a></li> <li>© <!---->2014<!----> <a href="http://www.football.com" title="football.com">football.com</a></li> </ul> </div> <a href="#oauth-signin-finish-facebook"
+ id="oauth-signin-finish-facebook"
+ data-overlay="/en-us/users/account/oauth-signin-finish/?provider=facebook&overlay=yes" data-cache="false" style="display: none"> </a> <a href="#oauth-signin-finish-googleplus"
+ id="oauth-signin-finish-googleplus"
+ data-overlay="/en-us/users/account/oauth-signin-finish/?provider=googleplus&overlay=yes" data-cache="false" style="display: none"> </a> </footer></div> </body> </html>

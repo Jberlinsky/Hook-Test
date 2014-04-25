@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Earth Engine</title>
+
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="javascript/ee_js.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17137634-4']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+            'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <script src="https://www.google.com/jsapi"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+      google.load('maps', '3', {
+        other_params: 'sensor=false&amp;libraries=drawing,places'
+      });
+      google.load('earth', '1');
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/ee_css.css" />
+  </head>
+  <body>
+    <div id="gbs"></div>
+    <div id="ghead">
+  <div id="logo">
+    <a href="/#intro">
+      <img src="images/logo_google.png" alt="Google logo" />
+    </a>
+  </div>
+  <div id="search">
+    <input class="search-textbox jfk-textinput" type="text" />
+    <div class="search-textbox-spinner" style="display: none"></div>
+    <div class="search-button jfk-button-action">
+      <span class="search-button-icon"></span>
+    </div>
+    <div class="featured-results" style="display: none">
+      <div class="featured-results-heading">
+        Featured
+      </div>
+    </div>
+    <div class="search-results" style="display: none">
+      <div class="search-no-results" style="display: none">
+        No Results
+      </div>
+    </div>
+    <div class="attributions"></div>
+  </div>
+  <div id="guser">
+    <a id="feedback" href="javascript:void(0);">Send feedback</a>
+    
+      <div id="signin"></div>
+    
+  </div>
+</div>
+
+    <div id="bbar-container"></div>
+
+    <div id="page">
+      <div id="topbar">
+        <a class="jfk-productName" href="/#intro">Earth Engine</a>
+        <div class="sub-content-title-wrapper" style="display:none">
+          &rsaquo; <span class="sub-content-title">
+            Landsat Annual Timelapse 1984-2012
+          </span>
+        </div>
+        <div id="savebox" style="display:none;"></div>
+        <div id="ee-modes"></div>
+      </div>
+      <div class="goog-tab-bar-clear"></div>
+
+      <div id="home-el" class="goog-tab-content content-pane jfkScrollable"
+           style="display:none;">
+        <div class="jfkScrollable-inner">
+          <div id="intro-el" class="fw-content">
+            <div class="introwrapper">
+  <h1 class="firstelement rightcolmargin">
+    A planetary-scale platform for environmental data &amp; analysis
+  </h1>
+  <div class="right_column">
+    <b>Earth Engine Access</b>
+    <p>
+      Develop, access and run algorithms on the full Earth Engine data
+      archive, all using Google's parallel processing platform.
+    </p>
+    <p>
+      Access to Earth Engine is currently available as a
+      limited release to a small group of partners. If you
+      are interested in developing on the Earth Engine platform,
+      <a href="https://docs.google.com/a/google.com/forms/d/1nsrcvIJlYJSwp-rO4kAyu_yQq0YcaJmShFcmvKTIu9s/viewform">
+        let us know</a>.
+    </p>
+  </div>
+  <div class="left_column">
+    <p class="firstelement">
+      Google Earth Engine brings together the world's satellite imagery
+      &mdash; trillions of scientific measurements dating back almost 40 years
+      &mdash; and makes it available online with tools for scientists,
+      independent researchers, and nations to mine this massive
+      warehouse of data to detect changes, map trends and quantify
+      differences on the Earth's surface.  Applications include:
+      detecting deforestation, classifying land cover, estimating forest
+      biomass and carbon, and mapping the world’s roadless areas.
+    </p>
+    <p>
+      To learn more, view
+      <a href="http://www.google.com/earth/outreach/tools/earthengine.html">
+        product videos
+      </a>
+      and the Featured Gallery (below). Or visit the
+      <a href="/#index">Data Catalog</a> to explore our archive of
+      satellite imagery. Certain features (such as data download) are
+      restricted to members of our trusted tester program.
+    </p>
+    <p class="landsat-promo">
+      <sup>New!</sup>
+      In a collaboration led by Dr. Matthew Hansen at the University of
+      Maryland, we’ve produced the
+      <a href="http://earthenginepartners.appspot.com/science-2013-global-forest">
+        first 30 meter resolution maps of global forest change</a>,
+      from 2000-2012.  This work, which was published in
+      <a href="http://www.sciencemag.org/content/342/6160/850">Science</a> on
+      November 15th, used Earth Engine to analyze over 650,000 Landsat 7 scenes,
+      required one million CPU hours, but thanks to parallel processing, took
+      only a few days.  For more information, please visit the
+      <a href="http://googleresearch.blogspot.com/2013/11/the-first-detailed-maps-of-global.html">
+        Google Research Blog</a>, the
+      <a href="http://google-latlong.blogspot.com/2013/11/mapping-worlds-deforestation-over-time.html">
+        Google Lat Long Blog</a>,
+      and the Science paper itself.
+    </p>
+  </div>
+</div>
+
+<div class="divider"></div>
+<div class="gallery timelapse-gallery">
+  <div class="gallery-viewer-wrapper"></div>
+  <div class="gallery-header">
+    <h2 class="firstelement">
+      Featured Sites: Landsat Annual Timelapse 1984-2012
+    </h2>
+  </div>
+  <p style="width:650px">
+    Explore different views into this global timelapse built from
+    global, annual composites of Landsat satellite images. Watch
+    change across the planet's surface beginning as early as 1984.
+   </p>
+  <div class="gallery-container"></div>
+  <div class="ee-clearfix"></div>
+ </div>
+<div class="divider"></div>
+<div class="gallery earth-gallery">
+  <div class="gallery-viewer-wrapper"></div>
+  <div class="gallery-header">
+    <h2 class="firstelement">Featured: Precomputed datasets</h2>
+  </div>
+  <p style="width:650px">
+    We have precomputed a number of interesting datasets using the
+    Earth Engine platform, below. Click on each to learn more and
+    preview the data as a global timelapse or as a layer in a Google
+    Earth client.
+  </p>
+  <div class="gallery-container"></div>
+</div>
+          </div>
+          <div class="ee-clearfix"></div>
+<div class="footer">
+  <span>&copy;2012 Google</span>
+  <a class="inlineAction" href="/terms">Terms of Service</a>
+  <a class="inlineAction" href="/programpolicies">Program Policies</a>
+  <a class="inlineAction" href="//www.google.com/policies/privacy/">Privacy</a>
+  <a class="inlineAction" href="mailto:earthengine-beta@google.com">Contact Us</a>
+</div>
+        </div>
+      </div>
+
+      <div id="datacatalog-el" class="goog-tab-content content-pane jfkScrollable"
+           style="display:none;">
+        <div class="jfkScrollable-inner">
+          <div id="index-el" class="fw-content" style="display:none;">
+            <h1 class="firstelement rightcolmargin">
+  Selections from the Data Catalog
+</h1>
+<div class="right_column">
+  <b>Contribute to Earth Engine</b>
+  <p>
+    We are continually adding new datasets and updating existing
+    datasets with new data as it becomes available.
+  </p>
+  <p>
+    Would you like to contribute data to the Earth Engine catalog?
+    <a href="mailto:earthengine-beta@google.com">Contact our data team.</a>
+  </p>
+</div>
+<div class="left_column">
+  <h2 style="margin-top:0px;">Popular Tags</h2>
+  <div class="three-col-left">
+    <div><a href="/#search/tag:daily">daily</a></div>
+    <div><a href="/#search/tag:8day">8-day</a></div>
+    <div><a href="/#search/tag:32day">32-day</a></div>
+  </div>
+  <div class="three-col-left">
+    <div><a href="/#search/tag:surface_reflectance">surface_reflectance</a></div>
+    <div><a href="/#search/tag:radiance">radiance</a></div>
+    <div><a href="/#search/tag:toa">toa</a></div>
+  </div>
+  <div class="three-col-right">
+    <div><a href="/#search/tag:mcd43a4">mcd43a4</a></div>
+    <div><a href="/#search/tag:usgs">usgs</a></div>
+    <div><a href="/#search/tag:srtm">srtm</a></div>
+  </div>
+  <div class="ee-clearfix"></div>
+
+  <h2>Surface reflectance</h2>
+  <div id="dc-surfacereflectance"></div>
+  <div class="more-link">
+    <a id="dc-surfacereflectance-more"
+       href="javascript:void(0);" class="inlineAction">
+      More surface reflectance data &raquo;</a>
+  </div>
+
+  <h2>8-day mosaics</h2>
+  <div id="dc-eightday-mosaics"></div>
+  <div class="more-link">
+    <a id="dc-eightday-mosaics-more"
+       href="javascript:void(0);" class="inlineAction">
+      More 8-day mosaics &raquo;</a>
+  </div>
+
+  <h2>32-day mosaics</h2>
+  <div id="dc-32day-mosaics"></div>
+  <div class="more-link">
+    <a id="dc-32day-mosaics-more"
+       href="javascript:void(0);" class="inlineAction">
+      More 32-day mosaics &raquo;</a>
+  </div>
+
+  <div class="ee-clearfix"></div>
+</div>
+          </div>
+
+          <div id="search-el" class="fw-content" style="display:none;">
+            <div class="right_column">
+  <div id="secondary-searchresults-header">Other results</div>
+  <div id="secondary-searchresults"></div>
+</div>
+<div class="left_column">
+  <a href="javascript:history.back()" class="inlineAction">&laquo; Back</a>
+  <h2 id="searchHeader">
+    <span id="numResults"></span>
+    for "<span id="searchQueryLabel"></span>"
+  </h2>
+  <div id="searchresults"></div>
+</div>
+          </div>
+
+          <div id="detail-el" class="fw-content" style="display:none;">
+            <h1 class="firstelement rightcolmargin" id="d_title"></h1>
+<div class="right_column">
+  <div id="d_where_wrap" class="d_field">
+    <div class="header">Data availability (location)</div>
+    <img src="" id="d_where"/>
+  </div>
+  <div id="d_when_wrap" class="d_field">
+    <div class="header">Data availability (time)</div>
+    <div id="d_when"></div>
+  </div>
+  <div id="d_provider_wrap" class="d_field">
+    <div class="header">Provider</div>
+    <div id="d_provider"></div>
+  </div>
+  <div id="d_tags_wrap" class="d_field">
+    <div class="header">Tags</div>
+    <div id="d_tags"></div>
+  </div>
+  <div id="d_algorithms_wrap" class="d_field">
+    <div class="header">Algorithms used</div>
+    <div id="d_algorithms"></div>
+  </div>
+  <div id="d_assetid_wrap" class="d_field">
+    <div class="header">Asset ID</div>
+    <div id="d_assetid"></div>
+  </div>
+</div>
+
+<div class="left_column">
+  <div id="d_open_button"></div>
+
+  <div id="d_description" class="d_field"></div>
+
+  <div id="d_sample_wrap" class="d_field">
+    <div class="header">Sample</div>
+    <img src="images/transparent.png" id="d_sample"/>
+  </div>
+
+  <div id="d_legend_wrap" class="d_field">
+    <div class="header">Legend</div>
+    <img src="" id="d_legend"/>
+  </div>
+
+  <div id="d_provenance_wrap">
+    <div class="header">Provenance</div>
+    <div id="d_provenance" class="d_field"></div>
+  </div>
+
+  <div id="d_citations_wrap">
+    <div class="header">Citations</div>
+    <div id="d_citations" class="d_field"></div>
+  </div>
+</div>
+          </div>
+
+          <div class="ee-clearfix"></div>
+<div class="footer">
+  <span>&copy;2012 Google</span>
+  <a class="inlineAction" href="/terms">Terms of Service</a>
+  <a class="inlineAction" href="/programpolicies">Program Policies</a>
+  <a class="inlineAction" href="//www.google.com/policies/privacy/">Privacy</a>
+  <a class="inlineAction" href="mailto:earthengine-beta@google.com">Contact Us</a>
+</div>
+        </div>
+      </div>
+
+      <div id="workspace-el" class="goog-tab-content content-pane"
+           style="display:none;">
+        <div class="shadow">
+          <div class="ds-h h1"></div>
+          <div class="ds-h h2"></div>
+          <div class="ds-h h3"></div>
+          <div class="ds-h h4"></div>
+          <div class="ds-h h5"></div>
+        </div>
+        <div id="map"></div>
+        <div id="workspaceSidebar"></div>
+      </div>
+
+    </div>
+
+    <script type="text/javascript">
+      
+
+      
+
+      
+        var loginURL = 'https://www.google.com/accounts/ServiceLogin?service=ah&amp;passive=true&amp;continue=https://appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttps://earthengine.google.org/&amp;ltmpl=';
+      
+
+      
+        var logoutURL = 'https://earthengine.google.org/_ah/logout?continue=https://www.google.com/accounts/Logout%3Fcontinue%3Dhttps://appengine.google.com/_ah/logout%253Fcontinue%253Dhttps://earthengine.google.org/%26service%3Dah';
+      
+
+      var galleryMetadata = [
+  {
+    "title": "Growth of Las Vegas, Nevada",
+    "description": "Interactive Landsat timelapse of urban expansion and water resources in the Nevada desert, 1984-2012.",
+    "date": "2012-07-23T07:00:00.000Z",
+    "shortlink": "LasVegas",
+    "timelapseclient": "http://earthengine.google.org/timelapse/data",
+    "startviewport": "v=36.15759,-115.18325,10.172,latLng",
+    "fulldescription": "Explore a global timelapse of our planet, constructed from Landsat satellite imagery. This timelapse from 1984 to 2012 captures the rapid growth of Las Vegas, Nevada, the fastest growing city in the United States over the past two decades. Each frame of the timelapse map is constructed from a year of Landsat satellite data, constituting annual 1.7-terapixel snapshot of the Earth at 30-meter resolution. The Landsat program, managed by the USGS, has been acquiring images of the Earth's surface since 1972. Landsat provides critical scientific information about our changing planet.",
+    "thumb": "images/gallerythumbs/vegastimelapse.png"
+  },
+  {
+    "title": "Amazon Deforestation, Brazil",
+    "description": "Interactive Landsat timelapse of deforestation of the Amazon rainforest, 1984-2012.",
+    "date": "2012-07-23T07:00:00.000Z",
+    "shortlink": "Amazon",
+    "timelapseclient": "http://earthengine.google.org/timelapse/data",
+    "startviewport": "v=-10.22878,-63.05315,6.836,latLng",
+    "fulldescription": "Explore a global timelapse of our planet, constructed from Landsat satellite imagery. The Amazon rainforest is shrinking at a rapid rate to provide land for farming and raising cattle. Each frame of the timelapse map is constructed from a year of Landsat satellite data, constituting an annual 1.7-terapixel snapshot of the Earth at 30-meter resolution. The Landsat program, managed by the USGS, has been acquiring images of the Earth's surface since 1972. Landsat provides critical scientific information about our changing planet.",
+    "thumb": "images/gallerythumbs/amazontimelapse.png"
+  },
+  {
+    "title": "Wyoming Coal Mining, Western U.S.",
+    "description": "Interactive Landsat timelapse of coal mining in Wyoming, 1984-2012.",
+    "shortlink": "WyomingCoal",
+    "timelapseclient": "http://earthengine.google.org/timelapse/data",
+    "startviewport": "v=43.61782,-105.26973,9.108,latLng",
+    "fulldescription": "Explore a global timelapse of our planet, constructed from Landsat satellite imagery. Watch as mines spread across the surface of Wyoming. Each frame of the timelapse map is constructed from a year of Landsat satellite data, constituting an annual 1.7-terapixel snapshot of the Earth at 30-meter resolution. The Landsat program, managed by the USGS, has been acquiring images of the Earth's surface since 1972. Landsat provides critical scientific information about our changing planet.",
+    "thumb": "images/gallerythumbs/WyomingCoal.jpg"
+  },
+  {
+    "title": "Columbia Glacier Retreat, Alaska",
+    "description": "Interactive Landsat timelapse of the retreat of the Columbia Glacier in Alaska, 1984-2012.",
+    "shortlink": "ColumbiaGlacier",
+    "timelapseclient": "http://earthengine.google.org/timelapse/data",
+    "startviewport": "v=61.10448,-147.07485,8.709,latLng",
+    "fulldescription": "Explore a global timelapse of our planet, constructed from Landsat satellite imagery. The Columbia Glacier is retreating at a rapid rate. Each frame of the timelapse map is constructed from a year of Landsat satellite data, constituting an annual 1.7-terapixel snapshot of the Earth at 30-meter resolution. The Landsat program, managed by the USGS, has been acquiring images of the Earth's surface since 1972. Landsat provides critical scientific information about our changing planet.",
+    "thumb": "images/gallerythumbs/ColumbiaGlacier.jpg"
+  },
+  {
+    "title": "Saudi Arabia Irrigation",
+    "description": "Interactive Landsat timelapse of center-pivot irrigation sites (crop circles) in Saudi Arabia, 1984-2012.",
+    "date": "2013-05-09T07:00:00.000Z",
+    "shortlink": "SaudiArabiaIrrigation",
+    "timelapseclient": "http://earthengine.google.org/timelapse/data",
+    "startviewport": "v=29.99062,38.42743,8.268,latLng",
+    "fulldescription": "Explore a global timelapse of our planet, constructed from Landsat satellite imagery. Watch as the Saudi Arabian desert becomes irrigated and crop circles sprout throughout the terrain. Each frame of the timelapse map is constructed from a year of Landsat satellite data, constituting an annual 1.7-terapixel snapshot of the Earth at 30-meter resolution. The Landsat program, managed by the USGS, has been acquiring images of the Earth's surface since 1972. Landsat provides critical scientific information about our changing planet.",
+    "thumb": "images/gallerythumbs/SaudiIrrigation.jpg"
+  },
+  {
+    "title": "Dubai Coastal Expansion",
+    "description": "Interactive Landsat timelapse of the creation of the artificial Palm Islands off the coast of Dubai, 1984-2012.",
+    "shortlink": "CreationOfDubai",
+    "timelapseclient": "http://earthengine.google.org/timelapse/data",
+    "startviewport": "v=25.15472,55.15584,8.956,latLng",
+    "fulldescription": "Explore a global timelapse of our planet, constructed from Landsat satellite imagery. Witness two palm trees and a map of the world appear as islands off the coast of Dubai. Each frame of the timelapse map is constructed from a year of Landsat satellite data, constituting an annual 1.7-terapixel snapshot of the Earth at 30-meter resolution. The Landsat program, managed by the USGS, has been acquiring images of the Earth's surface since 1972. Landsat provides critical scientific information about our changing planet.",
+    "thumb": "images/gallerythumbs/Dubai.jpg"
+  },
+  {
+    "title": "Drying of Lake Urmia, Iran",
+    "description": "Interactive Landsat timelapse of the drying of Lake Urmia, 1984-2012.",
+    "shortlink": "LakeUrmia",
+    "timelapseclient": "http://earthengine.google.org/timelapse/data",
+    "startviewport": "v=37.61174,45.54071,7.132,latLng",
+    "fulldescription": "Explore a global timelapse of our planet, constructed from Landsat satellite imagery. Watch as Lake Urmia dries up rapidly before your eyes. Each frame of the timelapse map is constructed from a year of Landsat satellite data, constituting an annual 1.7-terapixel snapshot of the Earth at 30-meter resolution. The Landsat program, managed by the USGS, has been acquiring images of the Earth's surface since 1972. Landsat provides critical scientific information about our changing planet.",
+    "thumb": "images/gallerythumbs/LakeUrmia.jpg"
+  },
+  {
+    "title": "Drying of the Aral Sea",
+    "description": "Interactive Landsat timelapse of the drying of the Aral Sea, 1984-2012",
+    "date": "2012-07-23T07:00:00.000Z",
+    "shortlink": "AralSea",
+    "timelapseclient": "http://earthengine.google.org/timelapse/data",
+    "startviewport": "v=45.36102,60.14896,5.42,latLng",
+    "fulldescription": "Explore a global timelapse of our planet, constructed from Landsat satellite imagery.  With water diverted to irrigation, the inland Aral Sea has shrunk dramatically. Many areas were completely dry by 2009.  Each frame of this timelapse map is constructed from a year of Landsat satellite data, constituting an annual 1.7-terapixel snapshot of the earth at 30-meter resolution. The Landsat program, managed by the USGS, has been acquiring images of the Earth's surface since 1972. Landsat provides critical scientific information about our changing planet.",
+    "thumb": "images/gallerythumbs/araltimelapse.png"
+  },
+  {
+    "title": "Global Roadless Areas: 1 km buffer",
+    "description": "All areas of land more than one (1) kilometer from the nearest road, rail or navigable waterway.",
+    "author": "Google",
+    "date": "2012-06-16T07:00:00.000Z",
+    "shortlink": "Roadless1km",
+    "kml": "http://mw1.google.com/ges/gallery/roadless.1km/root.kmz",
+    "fulldescription": "Generated by analyzing the extensive database of roads in Google Maps, this proof-of-concept global map displays in a green-gradient all areas of land that are more than one (1) kilometer from the nearest road, rail or navigable waterway. The gradient darkens with distance, and significant large roadless areas in the world are readily apparent, such as the Amazon rain forest, Sahara desert, Canadian boreal forest and Indonesian islands such as Borneo.  This Earth Engine project was initiated at the request of Member of European Parliament Kriton Arsenis in collaboration with the Society for Conservation Biology, to support their Roadless Areas initiative being proposed at the Rio+20 Conference.  Caveat: the road data used to produce these maps inevitably contains inaccuracies and omissions, and the criteria for defining \"roadless areas\" is expected to evolve as policy discussions continue.  We expect to regenerate this map as road data and policy formulations evolve.",
+    "thumb": "images/gallerythumbs/roadless_areas_1km_88.gif"
+  },
+  {
+    "title": "Global Roadless Areas: 10 km buffer",
+    "description": "All areas of land more than ten (10) kilometers from the nearest road, rail or navigable waterway.",
+    "author": "Google",
+    "date": "2012-06-16T07:00:00.000Z",
+    "shortlink": "Roadless10km",
+    "kml": "http://mw1.google.com/ges/gallery/roadless.10km/root.kmz",
+    "fulldescription": "Generated by analyzing the extensive database of roads in Google Maps, this proof-of-concept global map displays in a green-gradient all areas of land that are more than ten (10) kilometers from the nearest road, rail or navigable waterway.  The gradient darkens with distance, and significant large roadless areas in the world are readily apparent, such as the Amazon rain forest, Sahara desert, Canadian boreal forest and Indonesian islands such as Borneo.  This Earth Engine project was initiated at the request of Member of European Parliament Kriton Arsenis in collaboration with the Society for Conservation Biology, to support their Roadless Areas initiative being proposed at the Rio+20 Conference.  Caveat: the road data used to produce these maps inevitably contains inaccuracies and omissions, and the criteria for defining \"roadless areas\" is expected to evolve as policy discussions continue.  We expect to regenerate this map as road data and policy formulations evolve.",
+    "thumb": "images/gallerythumbs/roadless_areas_10km_88.gif"
+  },
+  {
+    "title": "Mexico percent tree cover",
+    "description": "Per pixel estimate of tree crown cover.",
+    "author": "Hansen, M., Potapov, P.",
+    "institution": "South Dakota State University",
+    "date": "2010-11-27T08:00:00.000Z",
+    "shortlink": "MexicoTreeCover",
+    "kml": "http://mw1.google.com/ges/gallery/vcf/vcf.kmz",
+    "fulldescription": "Based on the Vegetation Continuous Field layers developed as part of the MODIS standard land product suite, we have implemented a Landsat-based VCF of percent tree crown cover for Mexico.  This prototype product was created principally from 4 years of input data to overcome data gaps found in any individual year.  Landsat ETM+ from 2000 to 2004 were the primary inputs.  Data from the Mexico National Forest Inventory were made available for algorithm calibration and validation.   Combined with the Google Earth Engine computing capability, this map was produced in less than one week and represents an advance in large-scale processing of moderate spatial resolution data for forest cover monitoring.  The same method has been applied for the United States as part of the WELD project.   For the MODIS implementation, please refer to Hansen et al. Earth Interactions, 2003.  For the Landsat implementation, please refer to Hansen et al., Remote Sensing Letters, 2010.",
+    "thumb": "images/gallerythumbs/mexico_forest_cover_88.gif",
+    "link": "http://globalmonitoring.sdstate.edu/projects/gfm"
+  },
+  {
+    "title": "Water Mask of Central Africa",
+    "description": "Map of persistent surface water for Central Africa using Landsat data",
+    "author": "Potapov, P., Hansen, M.",
+    "institution": "South Dakota State University",
+    "date": "2010-11-15T08:00:00.000Z",
+    "shortlink": "CentralAfricaWaterMask",
+    "kml": "http://mw1.google.com/ges/gallery/congo/congo.kmz",
+    "fulldescription": "The Landsat ETM+ archive was mined to produce a 30 meter water mask of areas of persistent surface water from 2000 to 2010.  Google Earth Engine was employed to examine all viable observations for identifying water.",
+    "thumb": "images/gallerythumbs/congo_water_mask_88.gif",
+    "link": "http://globalmonitoring.sdstate.edu/projects/gfm"
+  },
+  {
+    "title": "NDFI over the Amazon",
+    "description": "Index for detecting forest canopy damage caused by selective logging and forest fires",
+    "author": "Carlos Souza",
+    "institution": "IMAZON",
+    "date": "2010-12-01T08:00:00.000Z",
+    "shortlink": "AmazonNDFI",
+    "kml": "http://mw1.google.com/ges/gallery/brazil_ndfi/brazil_ndfi.kmz",
+    "fulldescription": "Fractions of green vegetation, soil, and non-photosynthetic vegetation are extracted and then combined into a new index called NDFI, or Normalized Difference Fraction Index. NDFI is designed to detect not only deforestation but also forest degradation and is used in IMAZON's SAD (Sistema de Alerta de Desmatamento) system for monitoring forest change.",
+    "thumb": "images/gallerythumbs/ndfi_88.gif"
+  },
+  {
+    "title": "Landsat 7 L1T Coverage",
+    "description": "Heatmap showing global coverage of Landsat 7 L1T data in Earth Engine",
+    "institution": "Google",
+    "date": "2010-11-25T08:00:00.000Z",
+    "shortlink": "LandsatCoverage",
+    "kml": "http://mw1.google.com/ges/gallery/L7L1TCoverage.20101114/L7L1TCoverage.kmz",
+    "fulldescription": "With almost 900,000 Landsat 7 scenes going back to the instrument's launch in 1999, this heatmap demonstrates the global scope and temporal depth of data that is available for analysis in Earth Engine. Locations that are brightest on the map are the places that Landsat images most often, generally indicating environmental interest in those areas.",
+    "thumb": "images/gallerythumbs/l7_heatmap_88.gif"
+  },
+  {
+    "title": "DRC Forest Cover Loss, 2000 to 2010",
+    "description": "Provisional map of forest cover change in the Democratic Republic of the Congo from 2000 to 2010",
+    "author": "Potapov, P., Turubanova, S., Adusei, B., Bongwele, E., Amani, P., Hansen, M.",
+    "institution": "South Dakota State University, the Observatoire Satellital des Forêt d’Afrique Centrale and the University of Maryland",
+    "date": "2010-11-30T08:00:00.000Z",
+    "shortlink": "DRCForestCoverLoss",
+    "kml": "http://mw1.google.com/ges/gallery/drc/drc.kmz",
+    "fulldescription": "As part of the USAID and NASA-funded CARPE (Central Africa Regional Program for the Environment) project, an exhaustive mining of the Landsat ETM+ archive was performed to map forest cover loss for the whole of the Democratic Republic of the Congo from 2000 to 2010. Forest was defined as 30% or greater canopy cover for trees of 5 meters or more in height. All such assemblages that were converted to non-forest are quantified and labeled as forest cover loss. Forest cover loss was divided into three categories, primary forest cover loss (red), secondary forest cover loss (yellow) and woodland loss (orange). Over 8,000 Landsat images were processed to make this product.  A final version of this map will be the initial derived product of the Observatoire Satellital des Forêt d’Afrique Centrale’s FACET (Forêt d’Afrique Centrale Evaluée par Télédétection) product suite.",
+    "thumb": "images/gallerythumbs/drc_forest_loss_88.gif",
+    "link": "http://globalmonitoring.sdstate.edu/projects/gfm"
+  }
+]
+;
+      var DEFAULT_REALMS = {'prod': 'https://earthengine.googleapis.com', 'staging': 'https://earthengine.sandbox.google.com'};
+      var USER_IS_GOOGLER = false;
+
+      earthengine.setup();
+    </script>
+
+  </body>
+</html>

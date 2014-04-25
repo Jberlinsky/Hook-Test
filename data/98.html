@@ -1,0 +1,732 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <base href="https://www.barna.org/" />
+  <meta name="keywords" content="The Barna Group, George Barna, Barna,sunday school programmes,george w bush al gore election,republican candidate survey,agnostic vs atheism,atheism vs agnostic,agnostics vs atheists,atheists vs agnostics,the meaning of the resurrection,the holy spirit is not a person,anne jackson mad church disease,catholicism vs protestant,meaning of the resurrection,is the bible to be taken literally,social concerns include,john mccain 2008 election,agnostics and atheists,important religious people,is the bible literally true,catholics protestants,religious changes in america,protestants catholics,christian views on wicca,protestant catholics,character vs trait,catholic and protestant churches,atheist vs christians,do all christians have the holy spirit,atheist divorce rates,define spiritually,atheist divorce rate,six reasons young christians leave church,2008 presidential election analysis,the definition of easter,christ is not god,holy spirit is not god,da vinci code movie vs book,christian catholics,do christians believe in satan,is protestant catholic,young people leaving the church,george w bush religious beliefs,young people leaving church,of atheists in america,democrat gop candidates,bible literally,existence of soul after death,characteristic traits of people,christianity in the americas,christian views on gays,worldview of christianity,bill dallas ccn,christianity worldview,influential christian leaders,da vinci religious beliefs,evangelical population,satan beliefs,divorce rate for christians versus non christians,divorce rate christian vs non christian,highest divorce rates,presidential votes 2008,do christians believe in the devil,new your population,atheists and christians,christians catholics,research on gays,divorce rate among evangelical christians,is there hell after death,spiritual gifts speaking in tongues,celebrity role models for teenagers,highest divorce rate in world,highest divorce rates in the world,the highest divorce rate in the world,wicca satan,think like jesus,young generation and technology,atheist and christians,char traits,christian view on afterlife,true catholicism,characteristic trait,leaders weaknesses,christians gays,weaknesses of leaders,christian divorce rate statistics,divorce rates among christians,protestant religious beliefs,the holy spirit and you,the holy spirit in you,the definition of holiday,holy spirit and you,holy religious books,atheist and god,holy spirit with you,holy spirit in you,divorce rate among african americans,illegal music piracy,believe in afterlife,do all christians believe jesus is god,most important african americans,divorce rates christians," />
+  <meta name="description" content="The Barna Group provides research and training for churches, non-profits, and businesses." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Barna Research - Barna Group</title>
+  <link href="/templates/yoo_nano2/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/cache/widgetkit/widgetkit-8912c432.css" type="text/css" />
+  <link rel="stylesheet" href="https://www.barna.org/components/com_osvmsearch/style/style.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/js/jquery.js" type="text/javascript"></script>
+  <script src="/cache/widgetkit/widgetkit-4e5777e4.js" type="text/javascript"></script>
+  <script src="https://www.barna.org/components/com_osvmsearch/js/script.js" type="text/javascript"></script>
+  <script src="https://www.barna.org/components/com_osvmsearch/js/javascript2.0.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+dojo.addOnLoad(function(){
+  var ajaxSearch = new VMajaxsearching({
+    node : dojo.byId('offlajn-ajax-search'),
+    searchBoxCaption : 'Product search...',
+    noResultsTitle : 'Product(0)',
+    noResults : 'No products found. Please try again.',
+    productsPerPlugin : 3,
+    searchRsWidth : 300,
+    resultElementHeight : 67,
+    minChars : 2,
+    searchFormUrl : 'https://www.barna.org/index.php',
+    enableScroll : '1',
+    showIntroText: ''
+  })
+});
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+			function dtdAddAttribute(row) {
+				var container = "#dtd-attributes-"+row;
+				
+				var id = jQuery(container+" .chzn-done:last").attr("id");
+				var matches = id.match(/.*_(.*)/);
+				var num = Number(matches.pop()) + 1;
+				matches = id.match(/(.*_).*/);
+				var name = matches.pop();
+				id = name + num;
+				
+				var wrapper = "dtd-attribute-"+row+"-"+num;
+				
+				jQuery(container+" .chzn-done:last").clone().attr("id", id).removeAttr("class").appendTo(container);
+				jQuery("#"+id).wrap("<div id=\""+wrapper+"\" />");
+				jQuery("#"+wrapper).append("<a href=\"#\" onclick=\"dtdRemoveAttribute('#"+wrapper+"');return false;\">Remove</a>");
+				jQuery("#"+id).chosen();
+			}
+			
+			function dtdRemoveAttribute(id) {
+				jQuery(id).remove();
+			}
+			jQuery(document).ready(function($) {
+				function dtdUpdateCustoms() {
+					datas = $("form.product").serialize();
+					$.getJSON(window.vmSiteurl + "index.php?option=com_digitolldownloads&nosef=1&view=productdetails&task=recalculate&format=json&dtdid=278" + window.vmLang, encodeURIComponent(datas),
+						function (datas, textStatus) {
+							if (datas.display == undefined) {
+								$("#digitolldownloads-list-0").hide();
+								$("#digitolldownloads-list-0").next().next().hide();
+							} else {
+								$("#digitolldownloads-list-0").html(datas.display);
+								$("#digitolldownloads-list-0").show();
+								$("#digitolldownloads-list-0").next().next().show();
+							}
+						});
+					return false; // prevent reload
+				}
+
+				$("form.product").find("select").change(function(){
+					dtdUpdateCustoms();
+				});
+				
+				$("form.product").find("input:radio").change(function(){
+					dtdUpdateCustoms();
+				});
+				
+				dtdUpdateCustoms();
+			});
+  </script>
+  
+  <link type="text/css" rel="stylesheet" href="https://www.barna.org/plugins/content/jumultithumb/assets/style.css" />
+  
+  <link type="text/css" rel="stylesheet" href="https://www.barna.org/plugins/content/jumultithumb/assets/style.css" />
+
+<link rel="apple-touch-icon-precomposed" href="https://barna-barnagroup.netdna-ssl.com/templates/yoo_nano2/apple_touch_icon.png" />
+<link rel="stylesheet" href="/templates/yoo_nano2/css/base.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/styles/tiles/css/layout.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/styles/tiles/css/menus.css" />
+<style>.wrapper { max-width: 1020px; }
+#sidebar-a { width: 33%; }
+#maininner { width: 67%; }
+#menu .dropdown { width: 250px; }
+#menu .columns2 { width: 500px; }
+#menu .columns3 { width: 750px; }
+#menu .columns4 { width: 1000px; }</style>
+<link rel="stylesheet" href="/templates/yoo_nano2/styles/tiles/css/modules.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/css/tools.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/styles/tiles/css/system.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/css/extensions.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/styles/tiles/css/custom.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/styles/tiles/css/color1/salmon.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/css/color2/turquoise.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/css/font2/arial.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/css/font3/arial.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/styles/tiles/css/style.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/styles/tiles/css/responsive.css" />
+<link rel="stylesheet" href="/templates/yoo_nano2/css/print.css" />
+<script src="/templates/yoo_nano2/warp/js/warp.js"></script>
+<script src="/templates/yoo_nano2/warp/js/responsive.js"></script>
+<script src="/templates/yoo_nano2/warp/js/accordionmenu.js"></script>
+<script src="/templates/yoo_nano2/warp/js/dropdownmenu.js"></script>
+<script src="/templates/yoo_nano2/js/template.js"></script>
+</head>
+
+<body id="page" class="page sidebar-a-right sidebars-1  isblog front" data-config='{"twitter":0,"plusone":0,"facebook":0}'>
+
+		
+	<div class="wrapper clearfix"><div>
+
+		<header id="header">
+
+				
+			<a id="logo" href="https://www.barna.org">
+<p><img  src="/images/layout/logo.png" alt="Barna Group" width="209px" height="61px" class=" juimg-article" /></p></a>
+			
+			<div>
+								<div id="toolbar" class="clearfix">
+
+											
+					
+												<div id="search"><style>
+#vmsearchform{
+  width: 170px;
+}
+#ajaxvmsearcharea{
+  width: 103px;
+}
+#search-results .page-container{
+	height:201px;
+	width:300px;
+}
+#vmsearchclosebutton{
+	left:115px;
+}
+#results_inner{
+	width:300px;
+}
+#search-results .result-element{
+	width:300px;
+}
+
+#search-results .result-element span.small-desc{
+  margin-top : 2px;
+  font-weight: normal;
+  line-height: 13px;
+  color: #4E5051;
+}
+#search-results .no-result{
+	width:300px;
+}
+#search-results .no-result span{
+	width:283px;
+}
+#results_moovable{
+	width:300px;
+}
+</style>
+<script language="javascript">
+function changeValue(id,value){
+	var temp = document.getElementById(id);
+	var manufacturer_id = document.getElementById('manufacturer_id');
+	var temp1 = document.getElementById('value_' + id);
+	if(temp.value == 0){
+		temp.value = 1;
+		temp1.value = value;
+		manufacturer_id.value = value;
+	}else{
+		temp.value = 0;
+		temp1.value = '';
+		manufacturer_id.value = "";
+	}
+	
+	updateManustr();
+}
+
+function changeValueCategory(id,value){
+	var temp = document.getElementById(id);
+	var category_id = document.getElementById('category_id');
+	var temp1 = document.getElementById('value_' + id);
+	if(temp.value == 0){
+		temp.value = 1;
+		temp1.value = value;
+		category_id.value = value;
+	}else{
+		temp.value = 0;
+		temp1.value = '';
+		category_id.value = "";
+	}
+	
+	updateCatstr();
+}
+
+function updateCatstr(){
+	var cat_count = document.getElementById('count_cat')	;
+	var str = "";
+	if(cat_count.value > 0){
+		for(i=0;i<cat_count.value;i++){
+			temp = document.getElementById('value_cat_' + i);
+			if(temp.value != ""){
+				str  += temp.value + "|";
+			}
+		}
+		str = str.substring(0,str.length -1);
+	}
+	var cat_str = document.getElementById('cat_str');
+	cat_str.value = str;
+}
+
+function updateManustr(){
+	var manu_count = document.getElementById('count_manu')	;
+	var str = "";
+	if(manu_count.value > 0){
+		for(i=0;i<manu_count.value;i++){
+			temp = document.getElementById('value_manu_' + i);
+			if(temp.value != ""){
+				str  += temp.value + "|";
+			}
+		}
+		str = str.substring(0,str.length -1);
+	}
+	var manu_str = document.getElementById('manu_str');
+	manu_str.value = str;
+}
+
+
+function changeSelectValue(id,value){
+	var temp = document.getElementById(id);
+	var temp1 = document.getElementById('value_' + id);
+	if(temp.value == 0){
+		temp.value = 1;
+	}else{
+		temp.value = 0;
+	}
+	
+	var product_type = document.getElementById('product_type');
+	for(i=0;i<product_type.options.length;i++){
+		if(product_type.options[i].value == value){
+			if(temp.value == 1){
+				product_type.options[i].selected = true;
+			}else{
+				product_type.options[i].selected = false;
+			}
+		}
+	}
+	
+	updateSelect();
+}
+
+function updateSelect(){
+	var product_type = document.getElementById('product_type');
+	var option_value = document.getElementById('option_value');
+	var upload_value = document.getElementById('upload_value');
+	
+	var option_str = "";
+	var upload_str = "&product_type_id=";
+	for(i=0;i<product_type.options.length;i++){
+    	if(product_type.options[i].selected == true){
+    		option_str += product_type.options[i].value + "@@@@";
+    		value = product_type.options[i].value;
+    		valueArr = value.split("|");
+    		upload_str += "&product_type__" + valueArr[1] + "[]=" + valueArr[2] + "&product_type__" + valueArr[1] + "_comp=in";
+    	}
+    }
+    option_value.value = option_str.substring(0,option_str.length-4);
+    upload_value.value = upload_str;
+}
+
+function updateParamList(value){
+	var type_params = document.getElementById('type_params');
+	var checkbox = document.getElementById('type_' + value);
+	if(checkbox.value == 0){
+		checkbox.value = 1;
+	}else{
+		checkbox.value = 0;
+	}
+	for(i=0;i<type_params.options.length;i++){
+		if((type_params.options[i].value == value) && (checkbox.value == 1)){
+			type_params.options[i].selected = true;
+		}else if((type_params.options[i].value == value) && (checkbox.value == 0)){
+			type_params.options[i].selected = false;
+		}
+	}
+	
+	var type_params_value = "";
+	for(i=0;i<type_params.options.length;i++){
+		if(type_params.options[i].selected == true){
+			type_params_value += type_params.options[i].value + "@@@@";
+		}
+	}
+	var type_params_search = document.getElementById('type_params_search');
+	type_params_search.value = type_params_value;
+}
+
+</script>
+<div id="offlajn-ajax-search">
+  <form id="vmsearchform" action="https://www.barna.org//index2.php?option=com_osvmsearch" method="get" onSubmit="return false;">
+  	  	
+  	<input type="hidden" name="count_manu" id="count_manu" value="2">
+  	<input type="hidden" name="manu_str" id="manu_str" value="">
+  	<input type="hidden" name="manufacturer_id" id="manufacturer_id" value="">
+  	
+  	<input type="hidden" name="cat_str" id="cat_str" value="">  	
+  	
+  		<select name="product_type" id="product_type" multiple style="display:none;">
+		</select>
+	<select name="type_params" id="type_params" multiple style="display:none;">
+		</select>
+	<input type="hidden" name="option_value" id="option_value" value="">
+	<input type="hidden" name="upload_value" id="upload_value" value="">
+	<input type="hidden" name="type_params_search" id="type_params_search" value="">
+  	<input type="hidden" name="Itemid" id="Itemid" value="101">
+  	  		<input type="hidden" value="" name="min_price" id="min_price" >
+  		<input type="hidden" value="" name="max_price" id="max_price" >
+  		    <div style="padding-top:5px;padding-bottom:5px;">
+    	<!--<B>:</B> <BR> -->
+      <input type="text" name="keyword" id="ajaxvmsearcharea" value="" autocomplete="off" />
+      <div id="vmsearchclosebutton"></div>
+      <div id="vmsearchbutton"><div class="magnifier"></div></div>
+      <div class="ajax-clear"></div>
+
+    </div>
+  </form>
+</div></div>
+						
+						
+										
+				</div>
+				
+					
+				<div id="headerbar" class="clearfix"><div class="module   deepest">
+
+			<div class="random-imagestyle-plain">
+	<img src="https://barna-barnagroup.netdna-ssl.com/images/datablock/0005-proportionchristianwomenleaders.gif" alt="0005-proportionchristianwomenleaders.gif" width="361" height="95" /></div>
+		
+</div>
+<div class="module social social deepest">
+
+			
+<ul class="social-links">
+<li class="facebook"><a href="http://www.facebook.com/barnagroup" target="_blank" />Facebook</a></li>
+<li class="twitter"><a href="http://www.twitter.com/barnagroup" target="_blank" />Twitter</a></li>
+<li class="vimeo"><a href="http://www.vimeo.com/barnagroup" target="_blank" />Vimeo</a></li>
+<li class="rss"><a href="https://www.barna.org/barna-update?format=feed&type=rss" target="_blank" />Feedburner</a></li>
+</ul>		
+</div>
+<div class="module search-articles search-articles deepest">
+
+			
+<form id="searchbox-216" class="searchbox" action="/" method="post" role="search">
+	<input type="text" value="" name="searchword" placeholder="search..." />
+	<button type="reset" value="Reset"></button>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="101" />	
+</form>
+
+<script src="/templates/yoo_nano2/warp/js/search.js"></script>
+<script>
+jQuery(function($) {
+	$('#searchbox-216 input[name=searchword]').search({'url': '/component/search/?tmpl=raw&amp;type=json&amp;ordering=&amp;searchphrase=all', 'param': 'searchword', 'msgResultsHeader': 'Search Results', 'msgMoreResults': 'More Results', 'msgNoResults': 'No results found'}).placeholder();
+});
+</script>		
+</div></div>
+				
+								<nav id="menu"><ul class="menu menu-dropdown"><li class="level1 item469"><a href="/" class="level1"><span>Home</span></a></li><li class="level1 item376 parent"><a href="/resources" class="level1 parent"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos3-63.png');"> </span>Barna Store</span></a><div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item380"><a href="/barna-store/my-cart" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos3-63.png');"> </span>My Cart</span></a></li></ul></div></div></div></div></li><li class="level1 item194 parent"><a href="/research" class="level1 parent"><span>Research</span></a><div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item435"><a href="https://www.barna.org/component/content/article/50-research/623-research-requests#.Ufv3jWTXSwE" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/68.png');"> </span>Research Requests</span></a></li><li class="level2 item328"><a href="/research/custom-research" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/63.png');"> </span>Barna Research</span></a></li><li class="level2 item298"><a href="/research/shared-cost-research" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/272.png');"> </span>Barna Poll</span></a></li><li class="level2 item329"><a href="/research/solutions" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/286.png');"> </span>Barna Solutions</span></a></li><li class="level2 item330"><a href="/research/barna-reports" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/277.png');"> </span>Barna Reports</span></a></li></ul></div></div></div></div></li><li class="level1 item195 parent"><a href="/resources" class="level1 parent"><span>Resources</span></a><div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item317"><a href="https://www.barna.org/component/virtuemart/faith-spirituality" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos4-58.png');"> </span>Faith/Spirituality</span></a></li><li class="level2 item318"><a href="https://www.barna.org/component/virtuemart/culture" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/284.png');"> </span>Culture</span></a></li><li class="level2 item319"><a href="https://www.barna.org/component/virtuemart/media" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/163.png');"> </span>Media</span></a></li><li class="level2 item320"><a href="https://www.barna.org/component/virtuemart/family" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos4-32.png');"> </span>Family</span></a></li><li class="level2 item321"><a href="https://www.barna.org/component/virtuemart/teens-next-generation" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos2-99.png');"> </span>Teens/Next Generation</span></a></li><li class="level2 item322"><a href="https://www.barna.org/component/virtuemart/leadership" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/250.png');"> </span>Leadership</span></a></li><li class="level2 item323"><a href="https://www.barna.org/component/virtuemart/congregations" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/245.png');"> </span>Congregations</span></a></li><li class="level2 item324"><a href="https://www.barna.org/component/virtuemart/organic-church" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos2-133.png');"> </span>Organic Church</span></a></li><li class="level2 item326"><a href="https://www.barna.org/component/virtuemart/transformation" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/288.png');"> </span>Transformation</span></a></li></ul></div></div></div></div></li><li class="level1 item124 parent"><a href="/training" class="level1 parent"><span>Training</span></a><div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item333"><a href="/training/request-a-speaker" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/233.png');"> </span>Request a Speaker</span></a></li><li class="level2 item335"><a href="/training/consulting" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/262.png');"> </span>Consulting</span></a></li><li class="level2 item336"><a href="/training/request-kinnaman" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/247.png');"> </span>David Kinnaman</span></a></li></ul></div></div></div></div></li><li class="level1 item123 parent"><a href="/about" class="level1 parent"><span>About</span></a><div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item338"><a href="/about/about-barna-group" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/237.png');"> </span>About Barna Group</span></a></li><li class="level2 item339"><a href="/about/george-barna" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/253.png');"> </span>George Barna</span></a></li><li class="level2 item340"><a href="/about/david-kinnaman" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/253.png');"> </span>David Kinnaman</span></a></li></ul></div></div></div></div></li><li class="level1 item134 parent"><a href="/barna-update" class="level1 parent"><span>Barna Update</span></a><div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item305"><a href="/barna-update/faith-spirituality" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos4-58.png');"> </span>Faith/Spirituality</span></a></li><li class="level2 item306"><a href="/barna-update/culture" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/284.png');"> </span>Culture</span></a></li><li class="level2 item307"><a href="/barna-update/media-watch" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/163.png');"> </span>Media</span></a></li><li class="level2 item308"><a href="/barna-update/family-kids" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos4-32.png');"> </span>Family/Kids</span></a></li><li class="level2 item309"><a href="/barna-update/millennials" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos3-96.png');"> </span>Millennials</span></a></li><li class="level2 item310"><a href="/barna-update/leadership" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/250.png');"> </span>Leadership</span></a></li><li class="level2 item311"><a href="/barna-update/congregations" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/245.png');"> </span>Congregations</span></a></li><li class="level2 item312"><a href="/barna-update/organic-church" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/pictos2-133.png');"> </span>Organic Church</span></a></li><li class="level2 item313"><a href="/barna-update/donors-cause" class="level2"><span><span class="icon" style="background-image: url('https://barna-barnagroup.netdna-ssl.com/images/272.png');"> </span>Donors/Cause</span></a></li></ul></div></div></div></div></li></ul></nav>
+				
+			</div>
+
+					
+		</header>
+
+				<section id="top-a" class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line new-topics deepest">
+
+			
+<ul class="line line-icon">
+	<li><a href="/barna-update/culture/666-finding-a-place-faith-work-and-identity">Finding a Place: Faith, Work and Identity</a></li>
+	<li><a href="/barna-update/culture/664-the-state-of-the-bible-6-trends-for-2014">The State of the Bible: 6 Trends for 2014</a></li>
+</ul>		
+</div></div></section>
+				
+				<section id="top-b" class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line topics-menu deepest">
+
+			<ul class="menu menu-sidebar"><li class="level1 item354"><a href="/barna-update/faith-spirituality" class="level1"><span>Faith/Spirituality</span></a></li><li class="level1 item355"><a href="/barna-update/culture" class="level1"><span>Culture</span></a></li><li class="level1 item358"><a href="/barna-update/media-watch" class="level1"><span>Media</span></a></li><li class="level1 item359"><a href="/barna-update/family-kids" class="level1"><span>Family/Kids</span></a></li><li class="level1 item360"><a href="/barna-update/millennials" class="level1"><span>Millennials</span></a></li><li class="level1 item361"><a href="/barna-update/leadership" class="level1"><span>Leadership</span></a></li><li class="level1 item362"><a href="/barna-update/congregations" class="level1"><span>Congregations</span></a></li><li class="level1 item363"><a href="/barna-update/organic-church" class="level1"><span>Organic Church</span></a></li><li class="level1 item364"><a href="/barna-update/donors-cause" class="level1"><span>Donors/Cause</span></a></li></ul>		
+</div></div></section>
+				
+				<div id="main" class="grid-block">
+
+			<div id="maininner" class="grid-box">
+
+								<section id="innertop" class="grid-block"><div class="grid-box width100 grid-h"><div class="module   deepest">
+
+			
+<div id="slideshow-1-535a89dd60acb" class="wk-slideshow wk-slideshow-default" data-widgetkit="slideshow" data-options='{"style":"default","autoplay":1,"interval":4000,"width":"auto","height":330,"duration":500,"index":0,"order":"default","navigation":0,"buttons":1,"slices":20,"animated":"scroll","caption_animation_duration":500}'>
+	<div>
+		<ul class="slides">
+
+									<li>
+				<article class="wk-content clearfix"><a href="/barna-update/culture/666-finding-a-place-faith-work-and-identity"><img  src="https://barna-barnagroup.netdna-ssl.com/images/BU-041614-barna-hp-slider.jpg" alt="Finding a Place: Faith, Work and Identity" title="Finding a Place: Faith, Work and Identity" class="mod-latest-image"/ class=" juimg-article" /></a><div class="slide-intro"><h2>Finding a Place: Faith, Work and Identity</h2><p><p>April 16, 2014—It's the middle of another election year. And while midterms historically draw a smaller crowd of voters, they bring to the forefront of political conversation a variety of issues intended to energize voter bases and solidify party candidates. Predictably, one of those issues is once again immigration.</p>
+</p><a class="readmore" href="/barna-update/culture/666-finding-a-place-faith-work-and-identity">Read more...</a></div></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><a href="/barna-update/culture/664-the-state-of-the-bible-6-trends-for-2014"><img  src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="https://barna-barnagroup.netdna-ssl.com/images/BU-040814-web-slider.jpg" alt="The State of the Bible: 6 Trends for 2014" title="The State of the Bible: 6 Trends for 2014" class="mod-latest-image"/ class=" juimg-article" /></a><div class="slide-intro"><h2>The State of the Bible: 6 Trends for 2014</h2><p><p>April 8, 2014 — The Bible has been making its way onto box office screens and home TV screens over the past year: from <em>Noah</em> to <em>Son of God</em>, people have been watching the Bible. But are they still reading the Bible? And do they still believe in the Bible?</p>
+</p><a class="readmore" href="/barna-update/culture/664-the-state-of-the-bible-6-trends-for-2014">Read more...</a></div></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><a href="/barna-update/faith-spirituality/662-david-kinnaman-and-jon-tyson-q-a"><img  src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="https://barna-barnagroup.netdna-ssl.com/images/bu-040114-web-slider.jpg" alt="David Kinnaman and Jon Tyson Discuss Millennials, “Nones" and a Renewed Vision for Church" title="David Kinnaman and Jon Tyson Discuss Millennials, “Nones" and a Renewed Vision for Church" class="mod-latest-image"/ class=" juimg-article" /></a><div class="slide-intro"><h2>David Kinnaman and Jon Tyson Discuss Millennials, “Nones" and a Renewed Vision for Church</h2><p><p>General church attendance has been on the decline for the past decade and nearly one-third of Millennials who grew up in the church have dropped out at some point. Yet many continue to return two days a year: Christmas and Easter.</p>
+</p><a class="readmore" href="/barna-update/faith-spirituality/662-david-kinnaman-and-jon-tyson-q-a">Read more...</a></div></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><a href="/barna-update/culture/661-americans-divided-on-the-importance-of-church"><img  src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="https://barna-barnagroup.netdna-ssl.com/images/bu-032514-web-slider.jpg" alt="Americans Divided on the Importance of Church" title="Americans Divided on the Importance of Church" class="mod-latest-image"/ class=" juimg-article" /></a><div class="slide-intro"><h2>Americans Divided on the Importance of Church</h2><p><p>March 25, 2014 — What, if anything, helps Americans grow in their faith? When Barna Group asked, people offered a variety of answers—prayer, family or friends, reading the Bible, having children—but church did not even crack the top-10 list.</p>
+</p><a class="readmore" href="/barna-update/culture/661-americans-divided-on-the-importance-of-church">Read more...</a></div></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><a href="/barna-update/culture/660-what-do-protestants-think-of-pope-francis"><img  src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="https://barna-barnagroup.netdna-ssl.com/images/bu-031814-slider.jpg" alt="What Do Protestants Think of Pope Francis?" title="What Do Protestants Think of Pope Francis?" class="mod-latest-image"/ class=" juimg-article" /></a><div class="slide-intro"><h2>What Do Protestants Think of Pope Francis?</h2><p><p>March 18, 2014 — He was the most talked-about person of 2013 and winner of <em>TIME’s</em> “Person of the Year” award. Google Translate coders have set his name to translate as “a better world.”</p>
+</p><a class="readmore" href="/barna-update/culture/660-what-do-protestants-think-of-pope-francis">Read more...</a></div></article>
+			</li>
+								</ul>
+		<div class="next"></div><div class="prev"></div>		<div class="caption"></div><ul class="captions"><li></li><li></li><li></li><li></li><li></li></ul>
+	</div>
+	</div>		
+</div></div></section>
+				
+				
+								<section id="content" class="grid-block">
+<div id="system-message-container">
+</div>
+
+<div id="system">
+
+        
+	
+	<article class="item">
+
+		
+			
+		
+		<div class="content clearfix">
+
+		
+<div class="home-items">
+<span class="home-heading">
+<h2>Research</h2></span>
+<img  class="home-thumb" src="https://barna-barnagroup.netdna-ssl.com/images/layout/thumb-commission.jpg" alt="Home Page Content" class=" juimg-article" /><h3>Commission your own custom research</h3>
+<p>Barna Group is widely considered to be the leading research organization focused on the intersection of faith and culture. Several options exist for putting Barna Group to work for your research objectives. <a href="/research">Find out more</a></p>
+<span class="home-heading"><h2>Resources</h2></span>
+<img  src="https://barna-barnagroup.netdna-ssl.com/images/stories/virtuemart/product/dvdpreview.png" alt="Home Page Content" width="90" height="90" class=" juimg-article" /><br />
+<h3>Tools you can use</h3>
+<p>Barna Group resources help you understand the times and know what to do next. From books and DVDs to reports and diagnostic tools, a library of resources is just a click away in the <a href="/resources">Barna Store</a></p>
+<span class="home-heading"><h2>Training</h2></span>
+<img  class="home-thumb" src="https://barna-barnagroup.netdna-ssl.com/images/layout/learn.jpg" alt="Home Page Content" class=" juimg-article" /><h3>Learn from the Barna Team</h3>
+<p>Barna Group provides a variety of training and consulting opportunities that help your team understand the times and know what to do next. We have several options to meet your learning needs. <a href="/training">Learn more</a></p>
+</div> 		</div>
+
+		
+		
+			
+	</article>
+
+</div></section>
+				
+								<section id="innerbottom" class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line featured-frontpage deepest">
+
+		<h3 class="module-title"><span class="color">Additional</span> Resources</h3>	
+<div class="featured-width180"><a href="http://cities.barna.org" target="_blank"><img  alt="barna180-featured" src="https://barna-barnagroup.netdna-ssl.com/images/stories/barnacitiesresources.jpg" class=" juimg-article" /></a>
+<p><b>Barna: Cities</b> - The best information on the spiritual health of American cities.</p>
+</div>
+<div class="featured-width180"><a href="http://hispanics.barna.org" target="_blank"><img  alt="hispanic180" src="https://barna-barnagroup.netdna-ssl.com/images/stories/barnahispanicsresources.jpg" class=" juimg-article" /></a>
+<p><b>Barna: Hispanics</b> - Understand one of the nation's fastest growing audiences.</p>
+</div>
+<div class="featured-width180 last"><a href="https://www.barna.org/resources" target="_blank"><img  alt="eyemosaic" src="https://barna-barnagroup.netdna-ssl.com/images/stories/barnastoreresources.jpg" height="99" width="180" class=" juimg-article" /></a>
+<p><b>Barna Store</b> - Find site-only deals and packages at <a href="https://www.barna.org/resources" target="_blank" />barna.org/resources</a></p>
+</div>		
+</div></div></section>
+				
+			</div>
+			<!-- maininner end -->
+			
+						<aside id="sidebar-a" class="grid-box"><div class="grid-box width100 grid-v"><div class="module   deepest">
+
+		<h3 class="module-title">Stay Informed</h3>	
+<div class="subscribe-form"><form action="http://www.listcast.com/x" method="post"><input onfocus="if(this.value == 'Enter your email address') { this.value = ''; }" onblur="if (this.value == '') {this.value = 'Enter your email address';}" type="text" name="user_email" value="Enter your email address" /> <input type="hidden" name="user_attr4" value="a" /> <input type="hidden" name="owner_id_enc" value="18016v-9923df92" /> <input type="hidden" name="function" value="Subscribe" /> <input type="submit" name="subscribe" value="Subscribe" /></form></div>		
+</div></div><div class="grid-box width100 grid-v"><div class="module   deepest">
+
+		<h3 class="module-title">What's New</h3>	
+<p><a href="http://www.barnaframes.com/" target="_blank"><img  src="https://barna-barnagroup.netdna-ssl.com/images/frames.jpg" alt="" border="0" class=" juimg-article" /></a></p>
+<p class="whitebox"><strong>Frames</strong><br /> Short yet meaningful books and videos on the top issues facing us in today’s complex culture. <a href="/component/virtuemart/all-products/frames-season-1-the-complete-collection-detail?Itemid=0"><br />Buy Now!</a></p>
+<p><a href="http://barnaframes.com/frameslive" target="_blank"><img  src="https://barna-barnagroup.netdna-ssl.com/images/ad-frameslive.jpg" alt="" border="0" class=" juimg-article" /></a></p>
+<p class="whitebox"><strong>Frames Live</strong><br /><a href="http://barnaframes.com/frameslive" target="_blank">Watch the archived webcast</a>—an innovative learning experience from Barna Group.</p>
+<p><a href="/labs#.Uqj1nmRDtYUa" target="_blank"><img  src="https://barna-barnagroup.netdna-ssl.com/images/org-labs-ad.jpg" alt="Barna Labs" border="0" class=" juimg-article" /></a></p>
+<p class="whitebox"><strong>Barna Labs</strong><br /> A full-year learning experience, with diagnostic surveys and practical training that will help you minister to Millennials more effectively.</p>
+<p><a href="/barna-update/millennials#utm_source=homepage&amp;utm_medium=ad&amp;utm_campaign=home-millennials-ad" target="_blank"><img  src="https://barna-barnagroup.netdna-ssl.com/images/org-millennials-ad.jpg" alt="millennials-ad" border="0" class=" juimg-article" /></a></p>
+<p class="whitebox"><strong>The Barna Millennials Project</strong><br />The latest knowledge and research on teenagers and young adults. <a href="/barna-update/millennials#utm_source=homepage&amp;utm_medium=ad&amp;utm_campaign=home-millennials-a" target="_blank">More</a></p>
+<p><a href="http://cities.barna.org/" target="_blank"><img  src="/images/cities-ad.jpg" alt="cities-ad" width="300" height="110" border="0" class=" juimg-article" /></a></p>
+<p class="whitebox"><strong>New Research</strong><br />Faith in every city is unique.&nbsp;Learn the spiritual context of your area.&nbsp;<br />Pick your <a href="/component/virtuemart/downloads/barna-report-cities-2013-detail#itemid=0&amp;utm_source=right-rail&amp;utm_medium=ad&amp;utm_campaign=cities" target="_blank">city</a> or <a href="/component/virtuemart/downloads/barna-report-states-2013-detail#Itemid=0&amp;utm_source=right-rail&amp;utm_medium=ad&amp;utm_campaign=states" target="_blank">state</a>.</p>
+<p>&nbsp;</p>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Follow</span> us @barnagroup</h3>	<section class="wk-twitter wk-twitter-list">
+
+		<article>
+		
+				<a class="image" href="http://twitter.com/BarnaGroup">
+			<img src="http://pbs.twimg.com/profile_images/413386995222581248/B3YXA9Q__normal.jpeg" width="48" height="48" alt="Barna Group"/>
+		</a>
+			
+		<p class="content">There’s plenty to be said about why Millennials leave church. But here are 5 reasons they stay: <a href="http://t.co/Q86ZFGiLum">http://t.co/Q86ZFGiLum</a></p>
+	
+				<p class="meta">
+
+						<span class="author">by <a href="http://twitter.com/BarnaGroup">Barna Group</a></span>
+						
+						<a class="statuslink" href="http://twitter.com/BarnaGroup/statuses/459724518219857920">
+				<time datetime="2014-04-25T16:04:01+00:00" pubdate></time>
+			</a>
+						
+		</p>
+		
+	</article>
+		<article>
+		
+				<a class="image" href="http://twitter.com/BarnaGroup">
+			<img src="http://pbs.twimg.com/profile_images/413386995222581248/B3YXA9Q__normal.jpeg" width="48" height="48" alt="Barna Group"/>
+		</a>
+			
+		<p class="content">Do pastors’ kids really turn away from the church more than other kids who grow up churched? Read the study: <a href="http://t.co/xZMtaJzNDg">http://t.co/xZMtaJzNDg</a></p>
+	
+				<p class="meta">
+
+						<span class="author">by <a href="http://twitter.com/BarnaGroup">Barna Group</a></span>
+						
+						<a class="statuslink" href="http://twitter.com/BarnaGroup/statuses/459473961668321280">
+				<time datetime="2014-04-24T23:28:23+00:00" pubdate></time>
+			</a>
+						
+		</p>
+		
+	</article>
+		<article>
+		
+				<a class="image" href="http://twitter.com/BarnaGroup">
+			<img src="http://pbs.twimg.com/profile_images/413386995222581248/B3YXA9Q__normal.jpeg" width="48" height="48" alt="Barna Group"/>
+		</a>
+			
+		<p class="content">Wish you’d gotten more done yesterday? You’re not alone—55% of all adults feel the same way. New Study: <a href="http://t.co/sRJ27A1QBK">http://t.co/sRJ27A1QBK</a></p>
+	
+				<p class="meta">
+
+						<span class="author">by <a href="http://twitter.com/BarnaGroup">Barna Group</a></span>
+						
+						<a class="statuslink" href="http://twitter.com/BarnaGroup/statuses/459441172520648705">
+				<time datetime="2014-04-24T21:18:06+00:00" pubdate></time>
+			</a>
+						
+		</p>
+		
+	</article>
+	
+</section>		
+</div></div></aside>
+						
+			
+		</div>
+				<!-- main end -->
+        </div></div>
+        <div class="bottom-bg"><div class="bottom-wrapper">
+        
+
+				<div class="bottom-a-wrapper"> <section id="bottom-a" class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line  deepest">
+
+			
+<div class="hirebarna"><a href="https://www.barna.org/research"><img  src="/images/layout/footer_hirebarna.jpg" class=" juimg-article" /></a></div>
+<div class="footer-text"><span class="footer-text-title">Tools to Navigate a Changing World</span><br />
+<p>As a leading research organization focused on the intersection of faith and culture, Barna Group offers custom research, polling, shared-cost studies, published reports and Barna solutions for church, nonprofit and business leaders.</p>
+</div>
+<div class="buttons"><a href="https://www.barna.org/research/custom-research"><img  src="/images/layout/footer_custom.png" class=" juimg-article" /></a> <a href="https://www.barna.org/training"><img  src="https://barna-barnagroup.netdna-ssl.com/images/layout/footer_speaking.png" class=" juimg-article" /></a></div>
+<div id="mainfooter">&nbsp;</div>		
+</div></div></section></div>
+				
+				<div class="bottom-b-wrapper"><section id="bottom-b" class="grid-block"><div class="grid-box width25 grid-h"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Barna</span> News</h3>	
+<ul class="line line-icon">
+	<li><a href="/barna-update/culture/666-finding-a-place-faith-work-and-identity">Finding a Place: Faith, Work and Identity</a></li>
+	<li><a href="/barna-update/culture/664-the-state-of-the-bible-6-trends-for-2014">The State of the Bible: 6 Trends for 2014</a></li>
+	<li><a href="/barna-update/faith-spirituality/662-david-kinnaman-and-jon-tyson-q-a">David Kinnaman and Jon Tyson Discuss Millennials, “Nones" and a Renewed Vision for Church</a></li>
+	<li><a href="/barna-update/culture/661-americans-divided-on-the-importance-of-church">Americans Divided on the Importance of Church</a></li>
+	<li><a href="/barna-update/culture/660-what-do-protestants-think-of-pope-francis">What Do Protestants Think of Pope Francis?</a></li>
+</ul>		
+</div></div><div class="grid-box width25 grid-h"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Popular</span> Resources</h3>	
+<div class="vmgroup">
+
+
+
+	
+
+
+		<ul class="vmproduct productdetails">
+
+			
+			<li class=" width100 center">
+
+				
+				<a href="/component/virtuemart/faith-spirituality/maximum-faith-futurecast-detail?Itemid=0">Maximum Faith + Futurecast</a>        <div class="clear"></div>
+			</li>
+
+			
+			<li class=" width100 center">
+
+				
+				<a href="/component/virtuemart/faith-spirituality/the-family-technology-report-detail?Itemid=0">The Family & Technology Report</a>        <div class="clear"></div>
+			</li>
+
+			
+			<li class=" width100 center">
+
+				
+				<a href="/component/virtuemart/faith-spirituality/the-hyperlinked-life-frames-detail?Itemid=0">The Hyperlinked Life (FRAMES)</a>        <div class="clear"></div>
+			</li>
+
+			
+			<li class=" width100 center">
+
+				
+				<a href="/component/virtuemart/faith-spirituality/you-lost-me-discussion-guide-detail?Itemid=0">You Lost Me DVD Discussion Guide</a>        <div class="clear"></div>
+			</li>
+
+			
+		</ul>
+
+		<div class="clear"></div>
+
+
+
+		
+		<div class="vmfooter">
+
+			<a href="/barna-store">More Resources</a>
+		</div>
+
+	
+</div>		
+</div></div><div class="grid-box width25 grid-h"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Popular</span> Research</h3>	
+<ul class="line line-icon">
+	<li><a href="/barna-update/culture/666-finding-a-place-faith-work-and-identity">Finding a Place: Faith, Work and Identity</a></li>
+	<li><a href="/barna-update/culture/664-the-state-of-the-bible-6-trends-for-2014">The State of the Bible: 6 Trends for 2014</a></li>
+</ul>		
+</div></div><div class="grid-box width25 grid-h"><div class="module mod-line _footermenu deepest">
+
+		<h3 class="module-title"><span class="color">Connect</span> With Barna</h3>	<ul class="menu menu-sidebar"><li class="level1 item101 active current"><a href="/" class="level1 active current"><span>Home</span></a></li><li class="level1 item442"><a href="https://www.barna.org/component/content/article/7-misc/misc/629-work-barna-group" class="level1"><span>Work @ Barna Group</span></a></li><li class="level1 item443"><a href="https://plus.google.com/107813621244409044266" target="_blank" class="level1"><span>Google+</span></a></li><li class="level1 item131"><a href="/contact-sp-599" class="level1"><span>Contact</span></a></li><li class="level1 item277"><a href="https://www.barna.org/component/content/article/47-misc/622-media-requests#.UfBlQmSgmwG" class="level1"><span>Media Requests</span></a></li><li class="level1 item132"><a href="/terms-of-use" class="level1"><span>Terms of Use</span></a></li><li class="level1 item133"><a href="/privacy-policy" class="level1"><span>Privacy Policy</span></a></li><li class="level1 item279"><a href="/speaking-requests-2" class="level1"><span>Speaking Requests</span></a></li><li class="level1 item280"><a href="/permissions-2" class="level1"><span>Permissions</span></a></li></ul>		
+</div></div></section></div>
+				
+			<div class="footer-wrapper">	<footer id="footer">
+
+			
+			<div class="module   deepest">
+
+			
+Copyright &copy; Barna Group. All Rights Reserved.<br />		
+</div>
+		</footer>
+        </div>
+		
+	</div></div>
+	
+	<script type="text/javascript">
+var removeUtms  =   function(){
+    var l = window.location;
+    if( l.hash.indexOf( "utm" ) != -1 ){
+        if( window.history.replaceState ){
+            history.replaceState({},'', l.pathname + l.search);
+        } else {
+            l.hash = "";
+        }
+    };
+};
+var _gaq = _gaq || [];
+_gaq.push(
+    ['_setAccount','UA-7777947-1']
+    ,['_setAllowAnchor',true]
+    ,['_trackPageview']
+);
+_gaq.push( removeUtms );
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+
+</script>	
+</body>
+</html>

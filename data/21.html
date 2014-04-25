@@ -1,0 +1,635 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 7]>     <html dir="ltr" lang="en" xmlns:ng="http://angularjs.org" class="ltr no-js ie ie7 ltie10 ltie9 ltie8"> <![endif]-->
+<!--[if IE 8]>     <html dir="ltr" lang="en" xmlns:ng="http://angularjs.org" class="ltr no-js ie ie8 ltie10 ltie9"> <![endif]-->
+<!--[if IE 9]>     <html dir="ltr" lang="en" xmlns:ng="http://angularjs.org" class="ltr no-js ie ie9 ltie10"> <![endif]-->
+<!--[if gt IE 9]>  <html dir="ltr" lang="en" xmlns:ng="http://angularjs.org" class="ltr no-js ie"> <![endif]-->
+<!--[if !IE]><!--> <html dir="ltr" lang="en" class="ltr no-js phase1"> <!--<![endif]-->
+<head>
+  <title>Home - Google Science Fair 2014</title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <meta name="HandheldFriendly" content="True"/>
+  <meta name="MobileOptimized" content="320"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+
+  <meta name="keywords" content=""/>
+  <meta name="description" content="Google Science Fair is a global online competition open to students from 13 to 18 years old. What do you want to change?" />
+
+  <meta property="og:title" content="Home - Google Science Fair 2014" />
+  <meta property="og:description" content="Google Science Fair is a global online competition open to students from 13 to 18 years old. What do you want to change?"/>
+
+
+ 	<link rel="icon" type="image/png" href="/website/static/2014v1dot116.375368354256337414/images/favicon.png" />
+	<link rel="shortcut icon" type="image/png" href="/website/static/2014v1dot116.375368354256337414/images/favicon.png" />
+  <link rel="apple-touch-icon" href="/website/static/2014v1dot116.375368354256337414/images/favicon.png"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet">
+  
+  
+  <link href="/website/static/2014v1dot116.375368354256337414/css/styles.css" rel="stylesheet">
+  
+  
+  
+  
+  
+  
+
+  <!--[if lt IE 9]>
+    <script src="/website/static/v2014v1dot116.375368354256337414/js/lib/json3.min.js" type="text/javascript"></script>
+  <![endif]-->
+  <script type="text/javascript">
+    var gsfPageId = 'index';
+    var gsfStaticVersion = '2014v1dot116.375368354256337414';
+  </script>
+  
+
+  
+  
+</head>
+<body x-ng-app="GSFApp" x-ng-controller="appCtrl" class="ng-app:GSFApp" id="ng-app" x-notify-busy="">
+
+  <div id="splash" role="banner" x-ng-controller="splashCtrl">
+    <div class="valign-table">
+      <div class="valign-cell">
+        <div class="width-limit max-col2">
+          <div class="splash-wrapper">
+            <span class="sprite logo"></span>
+            <h1 class="page-title">
+              
+              It's your turn to change the world
+              
+            </h1>
+            <div class="play-smear animate-show" x-ng-show="ytApiReady" x-ng-click="playLightboxVideo('TubgY-ldttU')" x-track x-track-category="Homepage" x-track-action="Click" x-track-label="Video: RivbyanbkCM">
+              <span class="sprite white-smear"></span>
+              <span class="sprite pink-smear"></span>
+            </div>
+            <p class="page-subtitle">
+              
+              Google Science Fair is a global online competition open to individuals or teams from 13 to 18 years old. What do you want to change?
+              
+            </p>
+            <div class="logos">
+              <ul class="horizontal clearfix">
+                <li class="sprite logo1"></li>
+                <li class="sprite logo2"></li>
+                <li class="sprite logo3"></li>
+                <li class="sprite logo4"></li>
+              </ul>  
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gplus-share-container" x-ng-if="!legacyMode && !mobileMode">
+      <a class="gplus-share" href="" target="_blank" x-share-google-plus x-share-url="">Share on Google+</a>
+    </div>
+    
+    <a id="splash-get-started" class="btn btn-absolute-bottom" x-ng-click="scrollToContent()" x-track x-track-category="Homepage" x-track-action="Interact" x-track-label="Get started">Get Started<span class="icon icon-white icon-dbarrow-down"></span><span class="icon icon-pink icon-dbarrow-down"></span></a>
+    
+  </div>
+  
+  <div id="main-container" x-ng-controller="signInOutCtrl">
+
+    <nav id="main-nav" class="nav-container width-limit allow-overflow fixed" role="navigation" x-ng-controller="navCtrl" x-ng-disabled="networkBusy">
+      <div class="nav-list">
+        <div class="nav-item main-nav-logo" x-ng-class="{'active' : activeMenuItem == 'gsf'}">
+          <div class="nav-item-link-wrapper valign-table">
+            <a class="nav-item-link valign-cell" href="/en/" x-ng-click="closeSubNavs()">Google Science Fair</a>
+          </div>
+        </div>
+      <div class="is-hidden-mobile" x-ng-class="{'active': activeMobileNav}">
+        <div class="nav-item has-sub-menu" x-ng-class="{'sub-active': activeSubNav == 'competition', 'sub-item-active': activeMenuItemParent == 'competition'}">
+          <div class="nav-item-link-wrapper valign-table" x-ng-class="{'active' : activeMenuItem == 'competition' || activeMenuItemParent == 'competition'}">
+            <a class="nav-item-link valign-cell" href="/en/competition" x-ng-click="closeSubNavs()">Competition overview</a>
+          </div>
+          <div class="sub-menu-indicator" x-ng-click="openSubNav('competition')" x-ng-cloak>
+            <span class="icon icon-grey icon-center icon-smarrow-down" x-ng-show="activeSubNav !== 'competition' && activeMenuItemParent !== 'competition'">Open</span>
+            <span class="icon icon-pink icon-center icon-smarrow-down only-hover">Open</span>
+            <span class="icon icon-white icon-center icon-smarrow-up" x-ng-show="activeSubNav == 'competition'">Close</span>
+            <span class="icon icon-white icon-center icon-smarrow-down" x-ng-show="activeMenuItemParent == 'competition'">Open</span>
+          </div>
+          <ul class="sub-nav-list" x-ng-show="activeSubNav == 'competition'" x-ng-cloak>
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/competition/prizes" x-ng-class="{'active' : activeMenuItem == 'prizes'}" x-ng-click="closeSubNavs()">Prizes</a></li>
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/competition/judges" x-ng-class="{'active' : activeMenuItem == 'judges'}" x-ng-click="closeSubNavs()">Judges</a></li>
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/competition/previous-years" x-ng-class="{'active' : activeMenuItem == 'previous-years'}" x-ng-click="closeSubNavs()">Previous Years</a></li>
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/competition/partners" x-ng-class="{'active' : activeMenuItem == 'partners'}" x-ng-click="closeSubNavs()">Partners</a></li>
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/competition/events" x-ng-class="{'active' : activeMenuItem == 'events'}" x-ng-click="closeSubNavs()">Events, dates &amp; Hangouts</a></li>
+          </ul>
+        </div>
+        <div class="nav-item has-sub-menu" x-ng-class="{'sub-active': activeSubNav == 'participants', 'sub-item-active': activeMenuItemParent == 'participants'}">
+          <div class="nav-item-link-wrapper valign-table" x-ng-class="{'active': activeMenuItem == 'participants' || activeMenuItemParent == 'participants'}">
+            <a class="nav-item-link valign-cell" href="/en/participants" x-ng-click="closeSubNavs()">For Participants</a>
+          </div>
+          <div class="sub-menu-indicator" x-ng-click="openSubNav('participants')" x-ng-cloak>
+            <span class="icon icon-grey icon-center icon-smarrow-down" x-ng-show="activeSubNav !== 'participants' && activeMenuItemParent !== 'participants'">Open</span>
+            <span class="icon icon-pink icon-center icon-smarrow-down only-hover">Open</span>
+            <span class="icon icon-white icon-center icon-smarrow-up" x-ng-show="activeSubNav == 'participants'">Close</span>
+            <span class="icon icon-white icon-center icon-smarrow-down" x-ng-show="activeMenuItemParent == 'participants'">Open</span>
+          </div>
+          <ul class="sub-nav-list" x-ng-show="activeSubNav == 'participants'" x-ng-cloak>
+            
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/participants/experiment-resources" x-ng-class="{'active' : activeMenuItem == 'experiment-resources'}" x-ng-click="closeSubNavs()">Experiment Resources</a></li>
+            
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/participants/additional-resources" x-ng-class="{'active' : activeMenuItem == 'additional-resources'}" x-ng-click="closeSubNavs()">Additional Resources</a></li>
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/participants/faqs" x-ng-class="{'active' : activeMenuItem == 'faqs'}" x-ng-click="closeSubNavs()">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="nav-item has-sub-menu" x-ng-class="{'sub-active': activeSubNav == 'teachers-parents', 'sub-item-active': activeMenuItemParent == 'teachers-parents'}">
+          <div class="nav-item-link-wrapper valign-table" x-ng-class="{'active': activeMenuItem == 'teachers-parents' || activeMenuItemParent == 'teachers-parents'}">
+            <a class="nav-item-link valign-cell" href="/en/teachers-parents" x-ng-click="closeSubNavs()">Teachers &amp; Parents</a>
+          </div>
+          <div class="sub-menu-indicator" x-ng-click="openSubNav('teachers-parents')" x-ng-cloak>
+            <span class="icon icon-grey icon-center icon-smarrow-down" x-ng-show="activeSubNav !== 'teachers-parents' && activeMenuItemParent !== 'teachers-parents'">Open</span>
+            <span class="icon icon-pink icon-center icon-smarrow-down only-hover">Open</span>
+            <span class="icon icon-white icon-center icon-smarrow-up" x-ng-show="activeSubNav == 'teachers-parents'">Close</span>
+            <span class="icon icon-white icon-center icon-smarrow-down" x-ng-show="activeMenuItemParent == 'teachers-parents'">Open</span>
+          </div>
+          <ul class="sub-nav-list" x-ng-show="activeSubNav == 'teachers-parents'" x-ng-cloak>
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/teachers-parents/teachers" x-ng-class="{'active' : activeMenuItem == 'teachers'}" x-ng-click="closeSubNavs()">Teachers</a></li>
+            <li class="sub-nav-item"><a class="sub-nav-item-link" href="/en/teachers-parents/parents" x-ng-class="{'active' : activeMenuItem == 'parents'}" x-ng-click="closeSubNavs()">Parents</a></li>
+          </ul>
+        </div>
+       
+        <div class="nav-item main-nav-login phase1" x-ng-class="{'user-in' : userData.user }">
+          <div class="nav-item-link-wrapper valign-table login-dashboard"  >
+          
+            <a class="nav-item-link valign-cell" href="/en/dashboard/" x-ng-click="closeSubNavs()">Dashboard</a>
+          
+          </div>
+          <div class="nav-item-link-wrapper valign-table login-signin">
+            <a class="nav-item-link valign-cell" x-ng-click="signIn()" href="javascript:void(0)" x-track x-track-category="Navigation" x-track-action="Click" x-track-label="Sign in">Sign in</a>
+          </div>
+          <div class="nav-item-link-wrapper valign-table login-signout">
+            <a class="nav-item-link valign-cell" x-ng-href="[[ userData.logInOutUrl ]]" x-ng-click="closeSubNavs()" x-track x-track-category="Navigation" x-track-action="Click" x-track-label="Sign out">Sign out</a>
+          </div>
+        </div>
+      </div>
+        <div class="nav-item main-nav-totop">
+          <div class="nav-item-link-wrapper valign-table">
+            <a class="nav-item-link valign-cell" x-ng-click="scrollToTop(); closeSubNavs()" x-ng-cloak>
+              <span class="icon icon-pink icon-dbarrow-up" x-ng-show="0" x-track x-track-category="Navigation" x-track-action="Click" x-track-label="To top">To top</span>
+              <span class="icon icon-grey icon-dbarrow-up" x-ng-show="1" x-track x-track-category="Navigation" x-track-action="Click" x-track-label="To top">To content</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-item main-nav-mobile-open" x-ng-class="{ 'active': activeMobileNav }">
+          <div class="nav-item-link-wrapper valign-table">
+            <a class="nav-item-link valign-cell" x-ng-click="activeMobileNav = !activeMobileNav;" x-ng-cloak>
+              <span class="icon icon-pink icon-center icon-mobile-nav" x-ng-show="!activeMobileNav">Open</span>
+              <span class="icon icon-white icon-center icon-mobile-nav" x-ng-show="activeMobileNav">Close</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="content" class="content-container" role="main">
+      <div class="page-container slide-up-and-over" x-ng-view x-ng-controller="pageCtrl">
+
+  
+  
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer id="footer" class="footer-container" role="contentinfo">
+    <div class="footer-carousel">
+      <div class="width-limit allow-overflow">
+
+        <div class="carousel footer" x-carousel>
+          <div id="carousel-footer" class="carousel-wrapper">
+            <ul class="carousel-scroller horizontal">
+              
+              <li ng-switch="userData.user || userData.isRegistered">
+                
+                <div class="block module" ng-switch-when="true" data-size-col1="1" data-size-col2="1" data-size-col3="1" data-size-col4="1">
+                  
+<div class="default-module white-tx-pink-bg fill module-inner module_welcome-back">
+  <div class="valign-table">
+    <div class="valign-cell">
+      <h2>Welcome back</h2>
+      <p>Continue building your project site. Remember, there’s plenty of help if you get stuck.</p>
+      <a class="btn outlined" href="/en/dashboard/">Go to dashboard</a>
+    </div>
+  </div>
+</div>
+                </div>
+
+                <div class="block module" ng-switch-default data-size-col1="1" data-size-col2="1" data-size-col3="1" data-size-col4="1">
+                  
+<div class="default-module white-tx-pink-bg fill module-inner module_start-now">
+  <div class="valign-table">
+    <div class="valign-cell">
+      <h2>Start now</h2>
+      <p>Sign up now for the competition.</p>
+      <a class="btn outlined" href="/en/participants?id=insert_participants_1" x-track x-track-category="Module" x-track-action="Click" x-track-label="Start now / Register">Register</a>
+    </div>
+  </div>
+</div>
+                </div>
+                
+              </li>
+
+              <li>
+                <div class="block module" data-size-col1="1" data-size-col2="1" data-size-col3="1" data-size-col4="1">
+                  
+<div class="fill module-inner module_kickstart-your-project">
+  <section id="" class="left pull-left valign-table">
+    <div class="valign-cell">
+      <h2>Handy Hints</h2>
+    </div>
+  </section>
+  <section class="right pull-right valign-table">
+    <div class="valign-cell">
+      <h2>Handy Hints</h2>
+      <a class="btn no-bg" href="/en/participants?id=insert_participants_1" x-track x-track-category="Module" x-track-action="Click" x-track-label="Handy Hints / Before you start">Top Tips</a>
+      <a class="btn no-bg" href="/en/participants?id=insert_participants_3" x-track x-track-category="Module" x-track-action="Click" x-track-label="Handy Hints / Experimenting">Experimenting</a>
+    </div>
+  </section>
+</div>
+                </div>
+              </li>
+              
+              <li>
+                <div class="block module" data-size-col1="1" data-size-col2="1" data-size-col3="1" data-size-col4="1">
+                  
+<div class="default-module fill module-inner module_key-dates-single">
+  <div class="carousel">
+    <div class="carousel-wrapper">
+      <ul class="carousel-scroller horizontal">
+
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+            <li>
+              <div class="carousel-inner">
+                <a class="date" href="/en/competition/events?id=insert_event-4866877356507136" x-track x-track-category="Module" x-track-action="Click" x-track-label="Key dates / Submission Deadline">
+                  <div class="valign-table">
+                    <div class="valign-cell">
+                      <h2>Key Date</h2>
+                      <div class="icon-date-wrapper">
+                        <span class="icon icon-misc icon-date"></span>
+                        <span class="icon icon-misc icon-date-pink"></span>
+                        <span class="day strong" x-local-mktime-date="1399964399.0"></span>
+                        <span class="month" x-local-mktime-month="1399964399.0"></span>
+                      </div>
+                      <p>Submission Deadline</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+  </div>
+  <div class="view-all valign-table">
+    <div class="valign-cell">
+      <a class="btn grey" href="/en/competition/events?eventtype=keydate" x-track x-track-category="Module" x-track-action="Click" x-track-label="Key dates / View all dates">View all dates</a>
+    </div>
+  </div>
+</div>
+                </div>
+              </li>
+
+              <li>
+                <div class="block module" data-size-col1="1" data-size-col2="1" data-size-col3="1" data-size-col4="1">
+                  
+<div class="default-module fill module-inner module_faqs">
+  <div class="valign-table">
+    <div class="valign-cell">  
+      <h2>FAQs</h2>
+      <p>Your questions - asked and answered.</p>
+      <a class="btn grey" href="/en/participants/faqs" x-track x-track-category="Module" x-track-action="Click" x-track-label="FAQs / Read now">Read now</a>
+    </div>
+  </div>
+</div>
+                </div>
+              </li>
+
+              <li>
+                <div class="block module" data-size-col1="1" data-size-col2="1" data-size-col3="1" data-size-col4="1">
+                  
+<div class="fill module-inner module_gplus-feed" x-ng-style="{'background-image' : 'url(' + gplusItem.image +')'}" x-ng-controller="gplusModuleCtrl" x-gplus-module>
+  <section class="section sprite" x-ng-class="{'show-overlay':showGPlusOverlay}">
+    <a class="toggle-overlay" href="" x-ng-click="toggleGplus()" x-track x-track-category="Module" x-track-action="Click" x-track-label="Join the discussion / Show more"><span class="icon icon-white icon-arrow-right"></span></a>
+    <header class="header">
+      <span class="icon icon-white icon-logo-small pull-left"></span>
+      <h2 class="pull-left">[[ gplusItem.name ]]</h2>
+    </header>
+    <div class="overlay">
+      <p x-ng-bind-html="gplusItem.content"></p>
+      <a class="read-more" x-ng-href="[[ gplusItem.postLink ]]" target="_blank" x-track x-track-category="Module" x-track-action="Click" x-track-label="Join the discussion / Read more">Read More</a>
+    </div>
+  </section>
+  <aside class="aside">
+    <a class="strong aside-link" x-ng-href="[[ gplusItem.nameLink ]]" target="_blank" x-track x-track-category="Module" x-track-action="Click" x-track-label="Join the discussion / Join the discussion on Google+"><span class="icon icon-misc icon-gplus-large"></span>Join the discussion on Google+</a>
+  </aside>
+</div>
+                </div>
+              </li>
+
+              <li>
+                <div class="block module" data-size-col1="1" data-size-col2="1" data-size-col3="1" data-size-col4="1">
+                  
+<div class="default-module fill module-inner module_teachers">
+  <div class="valign-table">
+    <div class="valign-cell">  
+      <h2>Teachers</h2>
+      
+      <p>How you can get involved and support your students’ participation.</p>
+      <a class="btn" href="/en/teachers-parents/teachers" x-track x-track-category="Module" x-track-action="Click" x-track-label="Teachers / Learn more">Learn more</a>
+      
+
+      
+    </div>
+  </div>
+</div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <a class="arrow prev animate-show" href="" x-ng-click="scrollToPrev()" x-ng-show="prevBtnActive" x-track x-track-category="Footer" x-track-action="Interact" x-track-label="Carousel"><span class="triangle triangle-prev"></span></a>
+          <a class="arrow next animate-show" href="" x-ng-click="scrollToNext()" x-ng-show="nextBtnActive" x-track x-track-category="Footer" x-track-action="Interact" x-track-label="Carousel"><span class="triangle triangle-next"></span></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="width-limit">
+        <div class="left">
+          <div class="valign-table">
+            <div class="valign-cell">
+              <a class="pull-left icon icon-misc icon-gplus" href="https://plus.google.com/+GoogleScienceFair" target="_blank" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Google+">Google Plus</a>
+              <a class="pull-left icon icon-misc icon-youtube" href="https://www.youtube.com/user/GoogleScienceFair" target="_blank" x-track x-track-category="Footer" x-track-action="Click" x-track-label="YouTube">Youtube</a>
+              <p>
+                <a class="footer-top-link" href="/website/static/2014v1dot116.375368354256337414/downloads/en/GSF2014_rules.pdf" target="_blank" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Science Fair rules">Science Fair rules</a> |
+                
+                  <a class="footer-top-link" href="https://groups.google.com/d/forum/google-science-fair-help-forum" target="_blank" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Help forum">Help forum</a>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="footer-logos clearfix">
+            <a class="sprite footer-logo logo5" href="/en/competition/partners?id=insert_partners_4" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Virgin Galactic"></a>
+            <a class="sprite footer-logo logo4" href="/en/competition/partners?id=insert_partners_1" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Scientific American"></a>
+            <a class="sprite footer-logo logo3" href="/en/competition/partners?id=insert_partners_3" x-track x-track-category="Footer" x-track-action="Click" x-track-label="National Geographic"></a>
+            <a class="sprite footer-logo logo2" href="/en/competition/partners?id=insert_partners_2" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Lego"></a>
+            <a class="sprite footer-logo logo1" href="http://www.google.com" target="_blank" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Google"></a>
+          </div>
+          <p>LEGO and the LEGO logo are trademarks of the LEGO group. ©2012 The LEGO Group.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="width-limit">
+        <p><a class="privacy-link" href="http://www.google.com" target="_blank" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Google">Google</a> &#8226; <a class="privacy-link" href="https://www.google.com/policies/" target="_blank" x-track x-track-category="Footer" x-track-action="Click" x-track-label="Privacy & Terms">Privacy &amp; Terms</a></p>
+        <div class="pull-right footer-bottom-right">
+          <form class="pull-right language-select" x-ng-controller="languageSelectorCtrl">
+            <select class="select" x-ng-model="locale" x-ng-change="setLocale()" x-ng-options="lang.id as lang.name for lang in languages"></select>
+          </form>
+          <span class="icon icon-misc icon-world pull-right"></span>
+        </div>
+      </div>
+    </div>
+        
+  </footer>
+
+  <div id="loader" class="fill animate-show" x-ng-show="!legacyMode && loader.loading">
+    <div class="valign-table">
+      <div class="valign-cell">
+        <div class="width-limit max-col2">
+          <div class="loader-content">
+            <div class="animation">Loading</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="lightbox" class="fill animate-show" x-ng-show="lightbox" x-ng-cloak>
+    <div class="btn-icon btn-top-right" x-ng-click="closeLightboxVideo()">
+      <span class="icon icon-white icon-cross">Close</span>
+      <span class="icon icon-pink icon-cross only-hover">Close</span>
+    </div>
+    <div class="valign-table">
+      <div class="valign-cell">
+        <div class="lightbox-content">
+          <div id="lightbox-video-player"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="unsupported" class="fill animate-show unsupported" x-ng-show="unsupportedMode">
+    <div class="valign-table">
+      <div class="valign-cell">
+        <div class="unsupported-content">
+           <p>Oops. Seems your browser doesn't have the modern web technologies required to run this site.</p>
+           <p><a href="https://www.google.com/chrome" target="_blank">Download Chrome</a> or another modern browser to enjoy the best experience.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div x-alerts></div>
+
+  <div id="legacy-message" class="message banner text-center animate-show" x-ng-show="legacyMsg" x-ng-cloak>
+    <p>Oops. Seems your browser doesn't have the modern web technologies required to run this site. <a href="https://www.google.com/chrome" target="_blank">Download Chrome</a> or another modern browser to enjoy the best experience. <a class="close" href="" x-ng-click="hideLegacyMsg()">Got it</a></p>
+  </div>
+
+  <!--  div id="cookies-message" class="message banner text-center animate-show" x-ng-show="cookieMsg" x-ng-cloak>
+    <p>By using our services, you agree to our use of cookies. <a href="https://www.google.com/policies/technologies/cookies/" target="_blank">Learn More</a> <a class="close" href="" x-ng-click="hideCookieMsg()">Got it</a></p>
+  </div-->
+
+  <div id="info-message" class="message info text-center animate-show" x-message x-ng-show="message.visible" x-ng-cloak>
+    [[ message.content ]]
+  </div>
+
+  <div id="floodlights" floodlights></div>
+  <div id="tracking-pixels"></div>
+
+  
+  
+
+  
+    <script src="/js/conf.js?lang=en"></script>
+    <script src="/website/static/2014v1dot116.375368354256337414/js/lib/modernizr.min.js"></script>
+    <!-- Google API (Picker) -->
+    
+    <script>
+      
+var transObj = {
+  WORDCOUNT: {
+	  WordCount: "Words:",
+	  CharCount: "Characters:",
+	  CharCountWithHTML: "Characters (including HTML):",
+	  limit: "Limit:",
+	  title: "Statistics"
+	},
+  PICKER: {
+  	addMedia: "Add Media"
+  },
+  ERROR: {
+    generalFail : "Ooops, something unexpected went wrong. If this happens again please report it on the forum providing what you did just before you saw this message, your browser and operating system.",
+    sessionExpire : "It appears your session has expired, please refresh the page and log in.",
+    selfInvite: "Err...did you just try to invite yourself?"
+  },
+  WARNING: {
+    "submissionCheck" : "Once you have submitted your project, you won't be able to invite members to the team. Do you want to submit now?",
+    "tooLateForRegister" : "Sorry! It doesn't look like you have registered for the competition which is now closed for entries."
+  },
+  DATES: {
+     "Jan" : "Jan",
+     "Feb" : "Feb",
+     "Mar" : "Mar",
+     "Apr" : "Apr",
+     "May" : "May",
+     "June" : "June",
+     "July" : "July",
+     "Aug" : "Aug",
+     "Sep" : "Sep",
+     "Oct" : "Oct",
+     "Nov" : "Nov",
+     "Dec" : "Dec"
+  }
+};
+      //required values
+      var client_id = '507207413682.apps.googleusercontent.com',
+      scopes = [
+                'https://www.googleapis.com/auth/photos',
+                'https://www.googleapis.com/auth/photos.upload',
+                'https://www.googleapis.com/auth/drive.readonly',
+                'https://www.googleapis.com/auth/youtube'  
+                ],
+      devKey = "AIzaSyBV75fCNezEJwwhYkXCamjGWH4kbRj1ZK0",
+      oauthToken,
+      theEditor;
+      
+      var onAuthApiLoad = function(){
+        gapi.auth.authorize(
+            {
+              'client_id' : client_id,
+              'scope' : scopes,
+              'immediate' : true
+            },
+            handleAuthResult
+        );   
+      };
+
+
+    /**
+     * handles the Auth result from the authorize call
+     */
+    var handleAuthResult = function(authResult) {
+      if (authResult && !authResult.error) {
+        oauthToken = authResult.access_token;
+
+      }
+    };    
+    function onApiLoad() {
+      window.gapiAuthLoaded = true;
+      //set the following up to avoid pop ups
+      gapi.load('auth',{'callback' : onAuthApiLoad });
+    }
+    </script>
+    <script src="https://apis.google.com/js/api.js?onload=onApiLoad"></script>
+    <!-- YouTube iFrame API -->
+    <script>
+      function onYouTubeIframeAPIReady(){window.ytIframeApiReady = true;}
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      window.OnLoadCallback = function() {}
+    </script>
+
+    <!-- G+ Share/PlusOne -->
+    <script>
+      window.___gcfg = {
+        lang: 'en',
+        parsetags: 'explicit'
+      };
+    </script>
+    <script src="https://apis.google.com/js/plusone.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19766710-4']);
+      (function(){ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();
+    </script>
+    
+    
+    <script src="/website/static/2014v1dot116.375368354256337414/js/lib.js"></script>
+    <script src="/website/static/2014v1dot116.375368354256337414/js/gsf14.js"></script>
+    
+  
+
+  
+  
+
+  
+</body>
+</html>

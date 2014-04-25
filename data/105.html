@@ -1,0 +1,418 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html id="ctl00_html" xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9,chrome=1" /><meta http-equiv="Content-Type" content="text/html; charset=windows-1252" /><meta name="description" content="Virginia Workforce Connection - Virginia Workforce Connection is your doorway to employment, job seeker services, WIA services, Veteran services and labor market information in Virginia." /><meta name="keywords" content="Virginia Workforce Connection, Virginia Workforce Connection, www.VaWorkConnect.com, VaWorkConnect.com, ALEX, Job search, Job Seeker, Employer Services, Labor Market Information, LMI Data, Veteran Services, career, VA, employment, resume" /><meta name="author" content="Geographic Solutions, Inc." /><meta name="copyright" content="Copyright (c) 1998-2014 Geographic Solutions, Inc." /><meta name="ROBOTS" content="INDEX,FOLLOW" /><title>
+	Virginia Workforce Connection
+</title><link rel="stylesheet" type="text/css" media="screen" href="Handlers/Content/StyleSheets/StyleSheet.ashx?base.css" /><link rel="stylesheet" type="text/css" media="screen" href="Handlers/Content/StyleSheets/StyleSheet.ashx?vos51000000.css" /><link rel="stylesheet" type="text/css" media="screen" href="Handlers/Content/StyleSheets/StyleSheet.ashx?autocomplete_classic.css" /><script language="javascript" type="text/javascript" src="JavaScript/jQueryLibrary/jquery-1.7.1.min.js"></script><script language="javascript" type="text/javascript" src="JavaScript/jQueryLibrary/jquery.bgiframe.min.js"></script><script language="javascript" type="text/javascript" src="JavaScript/jQueryLibrary/jquery.autocomplete.js"></script><script language="javascript" type="text/javascript" src="JavaScript/Silverlight.js"></script><script language="javascript" type="text/javascript" src="JavaScript/default.js"></script>
+    <script language="javascript" type="text/javascript">
+//<![CDATA[
+var focusControlID,
+rootpath = '../';
+function confirmServices(serviceType)
+{
+   var userType = '',
+       indLocation = 'dashboards/Default.aspx?menuid=MENU_START_PAGE_SERVICES&apane=MENU_GROUP_IND',
+       empLocation = 'dashboards/Defaultemp.aspx?menuid=MENU_START_PAGE_SERVICES_EMP&apane=MENU_GROUP_EMP',
+       anaLocation = 'dashboards/Defaultana.aspx?menuid=MENU_START_PAGE_SERVICES_ANA&apane=MENU_GROUP_LMI_CUR',
+       guestLocation = 'Logoff.aspx?action=' + serviceType + 'GUEST&';
+   
+   switch (serviceType)
+   {
+       case 'IND':
+           if (userType == 'G' || userType == '') {
+               window.location.href = rootpath + 'altentry.asp?action=INDGUEST';
+           }
+           else if (userType == 'C') {
+               window.location.href = indLocation;
+           }
+           else if (confirm('You are about to log out of VOS and go to Guest Services for Individuals.  Is this what you would like to do?')) {
+               window.location.href = rootpath + 'altentry.asp?action=INDGUEST';
+           }
+           break;
+       
+       case 'EMP':
+           if (userType == 'G' || userType == '') {
+               window.location.href = rootpath + 'altentry.asp?action=EMPGUEST';
+           }
+           else if (userType == 'E') {
+               window.location.href = empLocation;
+           }
+           else if (confirm('You are about to log out of VOS and go to Guest Services for Employers.  Is this what you would like to do?')) {
+               window.location.href = rootpath + 'altentry.asp?action=EMPGUEST';
+           }
+           break;
+       
+       case 'ANA':
+           if (userType == 'G' || userType == '') {
+               window.location.href = rootpath + 'altentry.asp?action=LMIGUEST';
+           }
+           else if (userType == 'L') {
+               window.location.href = anaLocation;
+           }
+           else if (confirm('You are about to log out of VOS and go to Guest Services for Analysts.  Is this what you would like to do?')) {
+               window.location.href = rootpath + 'altentry.asp?action=LMIGUEST';
+           }
+           break;
+   }
+}
+
+focusControlID = 'txtUsername';
+
+function conditionScript() {
+   if ($('#txtUsername').val() == '' || $('#txtUsername').val() == 'Username' || $('#txtPassword').val() == 'Password') {
+       return false;
+   }
+   else {
+       return true;
+   }
+}
+//]]>
+</script>
+</head>
+
+<body>
+
+<form name="aspnetForm" method="post" action="Default.aspx" id="aspnetForm" style="padding: 0px; margin: 0px;">
+<div>
+<input type="hidden" name="ctl00_asmVOSHome_HiddenField" id="ctl00_asmVOSHome_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWAgIBDxYEHgRsYW5nBQJlbh4IeG1sOmxhbmcFAmVuFgICAhBkZBYCAgMPZBYCZg9kFg4CDA8PZBYEHgxhdXRvY29tcGxldGUFA29mZh4Hb25mb2N1cwUic2V0RGVmYXVsdEJ1dHRvbignY3RsMDBfY21kTG9naW4nKWQCDw8PZBYCHwMFInNldERlZmF1bHRCdXR0b24oJ2N0bDAwX2NtZExvZ2luJylkAhAPD2QWBB8CBQNvZmYfAwUic2V0RGVmYXVsdEJ1dHRvbignY3RsMDBfY21kTG9naW4nKWQCGg8PZBYEHwIFA29mZh8DBSZzZXREZWZhdWx0QnV0dG9uKCdjdGwwMF9jbWRTZWFyY2hJbWcnKWQCHg8PZBYCHwMFJnNldERlZmF1bHRCdXR0b24oJ2N0bDAwX2NtZFNlYXJjaEltZycpZAIiDw8WAh4EVGV4dAUFNDgxMDUWCB8CBQNvZmYeCW9ua2V5ZG93bgUnY3JlYXRlQ29va2llSG9tZSgic3JjaFppcCIsIHRoaXMudmFsdWUpHghvbmNoYW5nZQUnY3JlYXRlQ29va2llSG9tZSgic3JjaFppcCIsIHRoaXMudmFsdWUpHwMFJnNldERlZmF1bHRCdXR0b24oJ2N0bDAwX2NtZFNlYXJjaEltZycpZAIlDxAPZBYEHwYFKmNyZWF0ZUNvb2tpZUhvbWUoInNyY2hSYWRpdXMiLCB0aGlzLnZhbHVlKR8DBSZzZXREZWZhdWx0QnV0dG9uKCdjdGwwMF9jbWRTZWFyY2hJbWcnKWRkZGTTQLm7eM98gOtM0eR+P9iAlMiXTA==" />
+</div>
+
+
+<script src="/vosnet/ScriptResource.axd?d=mdF12_pKQ4rQB7_uVX4lUyWAPcbnympVqR95GEE4ch6ko_h5d67DsIDovLqFwrQ3EEACrQDACzGYszqXXAZBjCvkgV6QqrMlhA-zTyzlGojw4d2iHJ3e0Ht6RhB5Shwt2M7W2A2&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/vosnet/ScriptResource.axd?d=iqAEV2FOm3e2-xDEA5tM5Id7yrUxNpBmBe6dXIPVCvA04lQkRFcEEJ9O5IXTeAJ-pAkaQyfrJiUmauiXLKx-_AWlMGkPt-nk6qSbfcwvzklaLunirkHJKcVsfgUgovKt8pPD-g2&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/vosnet/Default.aspx?_TSM_HiddenField_=ctl00_asmVOSHome_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.51116.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen%3afd384f95-1b49-47cf-9b47-2fa2a921a36a%3a475a4ef5%3aeffe2a26%3a7e63a579%3a5546a2b%3ad2e10b12%3a37e2e5c9%3a5a682656%3a12bbc599" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABjH+8scyWoOCp5QE4fh0ehQTtY+KAT4Uqvkivbt1npjGTY1cykDjVnURVMG5O+MSFJj+siZ9Zi1RX6NfXcrwUrMXuN7dyw27oFy0xPOJtLmBMFlxQ/SVbz7xZQYGOSOrfcvtifJlLQPD4IYsUHd1i5Ws38IXC7k+ZRLmtjaIizVKi/PSAvxybIG70Gi7lMSo2E9kx5Bt7kT0aEOZtGkFkIM5cKi0XK5unSnLw0OVnUba/uQF+gl3kvJg1wMyQUIRiqsFA8HY1vjrYCBTsA0GZxZHaGwL0uLziUaBg/dUOJvtUWgHMDRBQinGTx2anAPd7xcsGnoAxqsoeq+KRJjv2AVc5k63UoiKSJSDO8nsumL9R/v4FrHHHaxXsfZnZh1BnB7ttVEpWj3H9KG/IfIh9L58YYFvPOdOsR9Qdm/fHqStRBm+Ff+3hTdlW4J7LNovLzvvk5ahuayQXjW79ojEySPOR16jzZWkDPb7Huero8eeiO1ZH860mKzEBmX9gbxMnL/BYrx19OQLGibc1EmtWf9C/KPFw==" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$asmVOSHome', 'aspnetForm', ['tctl00$upHome',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+
+
+
+<div id="ctl00_upHome">
+	
+
+
+<div id="page">
+
+
+        <div id="vagovbar">
+        <a href="http://www.virginia.gov/" title="Virginia.gov" class="link_external"><img src="Handlers/Content/Images/Image.ashx?splash/vagovbar_logo.gif" id="vagovbar_logo" alt="Virginia.gov Logo" title="Virginia.gov" /></a>
+        <ul>
+             <li><a title="Online Services" class="link_external" class="button-links" href="http://www.virginia.gov/cmsportal2/online_services_4096/index.html">Online Services</a></li>&nbsp;&#124;
+             <li><a title="Commonwealth Sites" class="link_external" class="button-links" href="http://www.virginia.gov/cmsportal2/government_4096/state_website_list.html">Commonwealth Sites</a></li>&nbsp;&#124;
+             <li><a title="Help" class="link_external" class="button-links" href="http://www.virginia.gov/cmsportal2/online_services_4096/help_center.html">Help</a></li>&nbsp;&#124;
+             <li><a title="Governor" class="link_external" class="button-links" href="http://www.governor.virginia.gov/">Governor</a></li>
+        </ul>
+        </div>
+
+
+
+<div id="header">
+        <h1>Virginia Workforce Connection - VaWorkConnect.com</h1>
+
+        <p>Virginia Workforce Connection is your doorway to employment, job seeker services, WIA services, Veteran services and labor market information in Virginia.</p>
+</div>
+
+<div id="content">
+<div id="splash">
+<div id="splash_welcome">
+             <input type="hidden" name="ctl00$hdnNoFrontAlertsDocsLinks" id="ctl00_hdnNoFrontAlertsDocsLinks" value="True" />
+             <input type="hidden" name="ctl00$hdnNoFrontAlertsDocSummary" id="ctl00_hdnNoFrontAlertsDocSummary" value="False" />
+             <ul><li><SCRIPT language=javascript>
+function openLink(url)
+{
+	var strVEClink;
+	var strNonVEClink;
+
+	strVEClink = "Clicking OK will open a new browser window.  You can return to the Virginia Workforce Connection by simply closing the browser window."
+
+	strNonVEClink = "This link will take you to a web site that is not owned and operated by the Virginia Employment Commission (VEC). " + 
+						   "The VEC is not responsible for the availability of, or the content located on or through, any such third-party site.\n\n" +
+						   "Clicking OK will open a new browser window.  You can return to the Virginia Workforce Connection by simply closing the browser window."
+
+	if (url.substring(0,27) == 'http://www.vec.virginia.gov')
+	{
+		if (confirm (strVEClink))
+		{
+			window.open (url, "_blank")
+		}
+	}
+	else
+	{
+		if (confirm (strNonVEClink))
+		{
+			window.open (url, "_blank")
+		}
+	}
+}
+</SCRIPT><p><strong>&quot;Your doorway to employment and labor market information in Virginia&quot;</strong></p>
+
+<ul id="add-bullet"><li>Comprehensive job matching between job seekers and employers</li>
+<li>Finding information on that perfect job; wage data, skill requirements, as well as industry and occupational trends</li>
+<li>Information on potential training opportunities</li>
+</ul>
+
+<p style="text-align: center"><font size="2"><img alt="Alert" height="16" src="https://www.vawc.virginia.gov/admin/gsipub/htmlarea/uploads/alert_icon.gif" width="16" /> <a href="https://www.vawc.virginia.gov/admin/gsipub/htmlarea/uploads/Cheryl%20-%20Bulletin%202011-01-VWC-job%20policy-revised%203-18-11.pdf" target="_blank" title="Employer Guidance - Registration and Posting Job Orders (Opens in new browser window)"><span style="font-size: small">&nbsp;Employer Guidance -<br />
+Registration and Posting Job Orders</span></a><br />
+&nbsp;<br />
+<img alt="Alert" height="16" src="https://www.vawc.virginia.gov/admin/gsipub/htmlarea/uploads/alert_icon.gif" width="16" /><a href="https://www.vawc.virginia.gov/vosnet/protect.aspx"><strong><span style="color: #ff0000">SCAM ALERT:&nbsp; PROTECT YOURSELF</span></strong></a></font></p></li></ul>
+</div>
+<br />
+
+    <div class="module_container_alt">
+    <div id="module_signin" class="module">
+
+    <div id="signin">
+    	    <h2>Sign In</h2>
+       	    <div id="signin_params">
+    		    <input type="hidden" name="ctl00$opgLanguage" id="opgLanguage" value="E" />
+       		    <input type="hidden" name="ctl00$opgTheme" id="ctl00_opgTheme" value="graphic" />
+       	    </div>
+
+            <div id="signin_username">
+                <label for="txtUsername" id="ctl00_lblUsername" title="Username">Username</label>
+                <input name="ctl00$txtUsername" type="text" maxlength="256" id="txtUsername" class="txtUsername" autocomplete="off" onfocus="setDefaultButton(&#39;ctl00_cmdLogin&#39;)" />
+                <input type="hidden" name="ctl00$TBWEUsername_ClientState" id="ctl00_TBWEUsername_ClientState" />
+            </div>
+         
+			<div id="signin_password">
+				<label for="txtPassword" id="ctl00_lblPassword" title="Password">Password</label>
+				<input name="ctl00$txtPassword2" type="text" maxlength="20" id="txtPassword2" class="txtPassword" autocomplete="off" value="Password" onfocus="setDefaultButton(&#39;ctl00_cmdLogin&#39;)" style="display: none;" />
+				<input name="ctl00$txtPassword" type="password" maxlength="20" id="txtPassword" class="txtPassword" autocomplete="off" onfocus="setDefaultButton(&#39;ctl00_cmdLogin&#39;)" />
+			</div>
+
+			<div id="signin_button">
+				<a onclick="return conditionScript();" id="ctl00_cmdLogin" title="Click Here to Sign In" href="javascript:__doPostBack(&#39;ctl00$cmdLogin&#39;,&#39;&#39;)"><img src="Handlers/Content/Images/Image.ashx?splash/signin_button.png" alt="Click Here to Sign In" style="border-width:0px;" /></a> 
+				
+			</div>
+
+            <ul id="module_signin_links">
+                <li><a id="ctl00_hlPwdRetrieval" title="Forgot Username and/or Password?" class="button-links" href="Retrieval/SelectRetrievalOptions.aspx">Forgot Username and/or Password?</a></li>
+                <li><a id="ctl00_hlNotRegistered" title="Not Registered?" class="button-links" href="../loginintro.asp?blnStartHere=True">Not Registered?</a></li>
+                 
+                <li><a title="Need help signing in?" class="button-links" href="../loginintro.asp?pagemode=graphicslite&amp;blnStartHere=True">Need help signing in?</a></li>
+                <li><a title="Assistance Center" class="button-links" href="../gsipub/index.asp?docid=459">Assistance Center</a></li>
+            </ul>
+
+    </div> <!-- end id="signin" -->
+
+    </div><!-- end module_signin-->
+    </div><!-- end module_container_alt-->
+
+
+<div class="module_container_search">
+    	<div id="search">
+
+        <h2><a id="ctl00_hlJobSearch" title="Search for a Job" href="../altentry.asp?action=indguest&amp;whereto=jobs">Search for a Job</a></h2>
+        <p>Enter a keyword and/or city or ZIP code and radius to search for jobs in your area.</p>
+
+        <div id="search_keyword">
+            <label for="txtKeyword" id="ctl00_Label3">Keyword</label>
+            <input name="ctl00$txtKeyword" type="text" maxlength="50" id="txtKeyword" class="rounded_input" autocomplete="off" onfocus="setDefaultButton(&#39;ctl00_cmdSearchImg&#39;)" />
+            <input type="hidden" name="ctl00$TBWEKeyword_ClientState" id="ctl00_TBWEKeyword_ClientState" />
+            
+        </div>
+
+        <div id="search_city">
+            <label for="txtCity" id="ctl00_Label4">City</label>
+            <input name="ctl00$txtCity" type="text" maxlength="50" id="txtCity" onfocus="setDefaultButton(&#39;ctl00_cmdSearchImg&#39;)" />
+            <input type="hidden" name="ctl00$TBWECity_ClientState" id="ctl00_TBWECity_ClientState" />
+            
+        </div>
+
+        <div id="search_zip">
+            <label for="txtZip" id="ctl00_Label2">ZIP Code</label>
+            <input name="ctl00$txtZip" type="text" value="48105" maxlength="5" id="txtZip" autocomplete="off" onkeydown="createCookieHome(&quot;srchZip&quot;, this.value)" onchange="createCookieHome(&quot;srchZip&quot;, this.value)" onfocus="setDefaultButton(&#39;ctl00_cmdSearchImg&#39;)" style="letter-spacing: 0.1em;" />
+            <input type="hidden" name="ctl00$TBWEZip_ClientState" id="ctl00_TBWEZip_ClientState" />
+        </div>
+        <div id="search_radius">
+            <label for="ddlRadius" id="ctl00_Label1">Radius</label>
+            <select name="ctl00$ddlRadius" id="ddlRadius" onchange="createCookieHome(&quot;srchRadius&quot;, this.value)" onfocus="setDefaultButton(&#39;ctl00_cmdSearchImg&#39;)">
+		<option value="5">5 miles</option>
+		<option selected="selected" value="10">10 miles</option>
+		<option value="25">25 miles</option>
+		<option value="50">50 miles</option>
+		<option value="0">Statewide</option>
+
+	</select>
+        </div>
+
+		<div id="search_button">
+				<a onclick="return jobSearchCheck();" id="ctl00_cmdSearchImg" title="Click Here to Search for Jobs" href="javascript:__doPostBack(&#39;ctl00$cmdSearchImg&#39;,&#39;&#39;)"><img src="Handlers/Content/Images/Image.ashx?splash/search_button.png" alt="Click Here to Search for Jobs" style="border-width:0px;" /></a>
+				
+		</div>
+          
+        </div><!--search-->
+        </div><!--module_container_search-->
+
+<!-- End SEARCH  ****************************************************************************** -->
+
+<!-- SPLASH BUTTONS ************************************************************************** -->
+
+    <div id="splash_buttons">
+    
+        <a title="Find a Candidate" class="splash_findacandidate" href="../altentry.asp?action=candidatesearch">Find a Candidate</a>
+        <a title="Find a Job" class="splash_findajob" href="../altentry.asp?action=indguest&amp;whereto=jobs">Find a Job</a>
+        
+    
+    </div>
+
+
+</div>
+
+<br style="clear:right;"/>
+
+
+<div id="menu">
+<div class="module_container">
+    <div id="module_employers" class="module">
+    <h2><a title="Employers" class="module_button" href="../altentry.asp?action=empguest">Employers</a></h2>
+    <ul>
+        <li><a title="Post a Job" href="../altentry.asp?action=indguest&amp;whereto=jobs">Post a Job</a></li>
+        <li><a title="Unemployment Insurance" class="link_external" href="http://www.vec.virginia.gov/vecportal/unins/insemp.cfm">Unemployment Insurance</a></li>     
+        <li><a title="Education and Training" href="../altentry.asp?action=empguest&amp;whereto=training">Education and Training</a></li>    
+        <li><a title="iFile / iReq Employer Tax Filing New Registration" class="link_external" href="http://www.vec.virginia.gov/vecportal/ireg/file.cfm">iFile / iReq Employer Tax Filing New Registration</a></li>    
+        <li><a title="WARN/Rapid Response Information" class="link_external" href="http://vwn.vccs.edu/resources/rapid-response-resources">WARN/Rapid Response Information</a></li>    
+        <li><a title="More Services" href="../altentry.asp?action=empguest">More Services</a></li>  
+    </ul>
+    </div>
+</div>
+<div class="module_container_alt">
+    <div id="module_jobseekers" class="module">
+	<h2><a title="Job Seekers" class="module_button" href="../altentry.asp?action=indguest">Job Seekers</a></h2>
+    <ul>
+        <li><a title="Create a Resumé" href="../altentry.asp?action=resumes">Create a Resumé</a></li>     
+        <li><a title="Education and Training" href="../altentry.asp?action=indguest&amp;whereto=training">Education and Training</a></li>    
+        <li><a title="Career Information" href="../altentry.asp?action=indguest&amp;whereto=careers">Career Information</a></li>    
+        <li><a title="Unemployment Insurance" class="link_external" href="http://www.vec.virginia.gov/vecportal/unins/insunemp.cfm">Unemployment Insurance</a></li>    
+        <li><a title="More Services" href="../altentry.asp?action=indguest">More Services</a></li>  
+    </ul>
+    </div>
+</div>
+<div class="module_container">
+    <div id="module_veterans" class="module">
+	<h2><a title="Veteran Services" class="module_button" href="../altentry.asp?action=indguest&amp;whereto=veterans">Veteran Services</a></h2>
+    <ul>
+        <li><a title="Helmets to Hardhats" class="link_external" href="http://www.helmetstohardhats.org/">Helmets to Hardhats</a></li>    
+        <li><a title="Transition Assistance" class="link_external" href="http://www.taonline.com/">Transition Assistance</a></li>    
+        <li><a title="Troops to Teachers" class="link_external" href="http://www.dantes.doded.mil/Programs/TTT.html">Troops to Teachers</a></li>    
+        <li><a title="More Services" href="../altentry.asp?action=indguest&amp;whereto=veterans">More Services</a></li>  
+    </ul>
+    </div>
+</div>
+<div class="module_container_alt">
+    <div id="module_lmi" class="module">
+	<h2><a title="Labor Market Information" class="module_button" href="http://data.virginialmi.com">Labor Market Information</a></h2>
+    <ul>
+        <li><a title="LMI Home" class="link_external" href="http://data.virginialmi.com">LMI Home</a></li>     
+        <li><a title="Community Profiles" class="link_external" href="http://data.virginialmi.com/gsipub/index.asp?docid=342">Community Profiles</a></li>    
+        <li><a title="LMI Tools" class="link_external" href="http://data.virginialmi.com/gsipub/index.asp?docid=427">LMI Tools</a></li>    
+        <li><a title="Publications" class="link_external" href="http://data.virginialmi.com/gsipub/index.asp?docid=300">Publications</a></li>
+    </ul>
+    </div>
+</div>
+<div class="module_container">
+    <div id="module_va" class="module">
+	<h2><a title="Virginia Workforce Network" class="module_button" href="../altentry.asp?action=lmiguest">Virginia Workforce Network</a></h2>
+    <ul>
+        <li><a title="Virginia Workforce Centers" class="link_external" href="http://vwn.vccs.edu/wp-content/uploads/2011/08/One-Stop-Statewide-List8.26.pdf">Virginia Workforce Centers</a></li>    
+        <li><a title="Virginia Workforce Council" class="link_external" href="http://vwn.vccs.edu/virginia-workforce-council/">Virginia Workforce Council</a></li>    
+        <li><a title="Local Workforce Investment Boards" class="link_external" href="http://vwn.vccs.edu/workforce-network-map/">Local Workforce Investment Boards</a></li>    
+        <li><a title="Training Providers" href="../altentry.asp?action=indguest&amp;whereto=eduprovs">Training Providers</a></li>  
+        <li><a title="Workforce Investment Act" class="link_external" href="http://www.doleta.gov/usworkforce/wia/act.cfm">Workforce Investment Act</a></li>    
+    </ul>
+    </div>
+</div>
+    <ul id="module_greenjobs">
+            <li><a title="Find a Green Job" class="link_external" href="http://www.marcgreenworks.com/">Find a Green Job</a> 
+    </ul>
+
+
+<div id="footer">
+        <h2>Additional Information</h2>
+        <div id="footerin">
+                
+            
+            <!--Terms of Use-->
+                <a title="Terms of Use" class="link_external" href="http://www.vec.virginia.gov/vecportal/seeker/disclaimer.cfm">Terms of Use</a> | 
+            
+            <!--TextTheme - WebTheme -->
+                <a onclick="changeSettings(&#39;Theme&#39;,&#39;text&#39;);" id="ctl00_lbTextVersion" title="View a screen reader version of this website" href="javascript:__doPostBack(&#39;ctl00$lbTextVersion&#39;,&#39;&#39;)">Text Theme</a> | 
+                <a onclick="changeSettings(&#39;Language&#39;,&#39;S&#39;);" id="ctl00_lbLangChangeS" title="¿Quiere cambiar el idioma de este sitio web?" href="javascript:__doPostBack(&#39;ctl00$lbLangChangeS&#39;,&#39;&#39;)">En Español</a>
+            
+       
+       <br />
+       <br />
+            <!--Copyright-->
+                Copyright &copy; 1998-2014, <a title="Geographic Solutions, Inc." class="link_external" href="https://www.geographicsolutions.com">Geographic Solutions, Inc.</a> All Rights Reserved. 
+            
+
+            <!--Powered by-->
+				Powered by Virtual OneStop®.
+            <br/>
+            
+            <!--EE and Best viewed -->
+            An Equal Opportunity Employer/Program. Auxiliary aids and services are available upon request to individuals with disabilities.<br/>
+            This site is best viewed using <a href="../vosnet/settings.aspx">these settings</a> for your system and software.
+            <br/>
+            <br />
+        </div>
+    </div>
+
+</div>
+
+</div> <!-- end Second Column --> 
+<br style="clear:both;" />
+
+</div> 
+<div style="padding-bottom:10px">&nbsp;</div>
+
+
+
+</div>
+
+
+<div id="CookiePath" class="hidden">/</div>
+<div id="MultiSessionURL" class="hidden">../multisession.asp</div>
+<div id="AppUserTheme" class="hidden">0</div>
+<div class="ajaxLoadingDIV">
+<img alt="Loading, please wait..." src="Handlers/Content/Images/Image.ashx?ajax-loader.gif" border="0" />
+</div>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_asmVOSHome_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_TBWEUsername_ClientState","WatermarkText":"Username","id":"ctl00_TBWEUsername"}, null, null, $get("txtUsername"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_TBWEKeyword_ClientState","WatermarkText":"Enter Keyword","id":"ctl00_TBWEKeyword"}, null, null, $get("txtKeyword"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AutoCompleteBehavior, {"completionInterval":500,"completionListCssClass":"ac_net","delimiterCharacters":"","id":"AutoCompleteKW","minimumPrefixLength":2,"onHide":"{\"AnimationName\":\"Sequence\",\"AnimationChildren\":[{\"AnimationName\":\"Parallel\",\"Duration\":\".1\",\"AnimationChildren\":[{\"AnimationName\":\"FadeOut\",\"AnimationChildren\":[]}]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"display\",\"Value\":\"none\",\"AnimationChildren\":[]}]}","onShow":"{\"AnimationName\":\"Sequence\",\"AnimationChildren\":[{\"AnimationName\":\"OpacityAction\",\"Opacity\":\"0\",\"AnimationChildren\":[]},{\"AnimationName\":\"HideAction\",\"Visible\":\"true\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"display\",\"Value\":\"block\",\"AnimationChildren\":[]},{\"AnimationName\":\"Parallel\",\"Duration\":\".1\",\"AnimationChildren\":[{\"AnimationName\":\"FadeIn\",\"AnimationChildren\":[]}]}]}","serviceMethod":"GetJobTitleSuggestions","servicePath":"AutoComplete.asmx"}, null, null, $get("txtKeyword"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_TBWECity_ClientState","WatermarkText":"Enter City","id":"ctl00_TBWECity"}, null, null, $get("txtCity"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AutoCompleteBehavior, {"completionInterval":500,"completionListCssClass":"ac_net","delimiterCharacters":"","id":"AutoCompleteCity","minimumPrefixLength":2,"onHide":"{\"AnimationName\":\"Sequence\",\"AnimationChildren\":[{\"AnimationName\":\"Parallel\",\"Duration\":\".1\",\"AnimationChildren\":[{\"AnimationName\":\"FadeOut\",\"AnimationChildren\":[]}]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"display\",\"Value\":\"none\",\"AnimationChildren\":[]}]}","onShow":"{\"AnimationName\":\"Sequence\",\"AnimationChildren\":[{\"AnimationName\":\"OpacityAction\",\"Opacity\":\"0\",\"AnimationChildren\":[]},{\"AnimationName\":\"HideAction\",\"Visible\":\"true\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"display\",\"Value\":\"block\",\"AnimationChildren\":[]},{\"AnimationName\":\"Parallel\",\"Duration\":\".1\",\"AnimationChildren\":[{\"AnimationName\":\"FadeIn\",\"AnimationChildren\":[]}]}]}","serviceMethod":"GetCitySuggestions","servicePath":"AutoComplete.asmx"}, null, null, $get("txtCity"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_TBWEZip_ClientState","WatermarkText":"ZIP","id":"ctl00_TBWEZip"}, null, null, $get("txtZip"));
+});
+//]]>
+</script>
+</form>
+
+<!--TAPVWEB0206VA-->
+</body>
+</html>

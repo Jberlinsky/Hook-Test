@@ -32,7 +32,7 @@ import os
 from apiclient import discovery
 from apiclient.errors import HttpError
 
-cseID = '012090963210376400561:mm4liotbq2e'
+cseID = '013985342280608211874:htnvtifhy_s'
 
 #both importantUrlsNum and unimportantUrlsNum could be 0 to 10, inclusive.
 #They are the number of results returned by one Google query
@@ -44,7 +44,7 @@ def getUrlList():
   http = httplib2.Http()
 
   # Construct the service object for the interacting with the CustomSearch API.
-  service = discovery.build('customsearch', 'v1',  developerKey='AIzaSyAdyilmupLnvCqvoP8pMdU29mKSNhDXHFY', http=http)
+  service = discovery.build('customsearch', 'v1',  developerKey='AIzaSyDzh0zDZPTvN2HZwPondIkVxutpjl47k1U', http=http)
 
   print "Here is a list of queries we used and urls we fetch using Google customer search"
 
@@ -54,7 +54,7 @@ def getUrlList():
   with open(os.path.dirname(os.path.abspath(__file__))+'/queries.txt') as queries:
 	for query in queries:
 		try:
-			print 'query: ' + query
+			print '\nquery: ' + query
 			res = service.cse().list(
 			  	q = query,
 			  	cx = cseID,

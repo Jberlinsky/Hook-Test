@@ -1,0 +1,1063 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+
+		<meta charset="utf-8">
+		<title>Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Sauce Labs">
+		<meta name="copyright" content="&copy; 2012" />
+		<meta name="distribution" content="global" />
+	  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <meta name="description" content="Cross browser testing made awesome. Selenium testing, mobile testing, JS unit testing on 275+ OS/browser platforms. Get started for free."/>
+    <meta name="keywords" content="
+  sauce ondemand, sauce scout, automated cloud testing,
+  manual cloud testing, selenium, selenium builder,
+  cross browser testing, sauce labs, mobile testing, mobile
+  app testing, iOS testing, Android testing, appium, appium on sauce,
+  javascript testing, mobile testing
+"/>
+    <meta name="robots" content="all"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ 		<link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="icon" type="image/png" href="/favicon.ico"/>
+    <link rel="alternate" title="saucelabs's Tweets" type="application/rss+xml"
+          href="//twitter.com/statuses/user_timeline/16672130.rss"/>
+      <link href="//d2nkw87yt5k0to.cloudfront.net/css/lib/bootstrap.css?1361464810" media="screen" rel="stylesheet" type="text/css" />
+  <link href="//d2nkw87yt5k0to.cloudfront.net/css/lib/bootstrap-responsive.css?1361539582" media="screen" rel="stylesheet" type="text/css" />
+<link href="//d2nkw87yt5k0to.cloudfront.net/css/custom-theme/jquery-ui-1.8.18.custom.css?1359511978" media="screen" rel="stylesheet" type="text/css" />
+<link href="//d2nkw87yt5k0to.cloudfront.net/css/new/skeleton2.0.css?1395356560" media="screen" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+  if (typeof window.console === 'undefined') {
+    window.console = {
+      log: function(obj) {},
+      warn: function(obj) {},
+      error: function(obj) {}
+    };
+  }
+
+  if (typeof window.console.log === 'undefined') {
+    window.console.log = function(obj) {};
+  }
+  if (typeof window.console.warn === 'undefined') {
+    window.console.warn = function(obj) {};
+  }
+  if (typeof window.console.error === 'undefined') {
+    window.console.error = function(obj) {};
+  }
+    _MACBETAUSER = false;
+    _OSS = false;
+    _ADMIN = false;
+</script>
+
+<script>
+    _USERNAME = null;
+    _JS_DEBUG = false;
+
+    _ACCESSKEY = null;
+</script>
+
+  <link href="//d2nkw87yt5k0to.cloudfront.net/css/new/saucestrap.css?1395859405" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400|Pontano+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7105072/806122/css/fonts.css" />
+  <script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/jquery-1.9.1.min.js?1362614053" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/jquery-migrate-1.2.1.min.js?1381280263" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/bootstrap.min.js?1385514580" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/bootstrap-affix.min.js?1383615263" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/jquery-ui-1.10.1.custom.min.js?1362614053" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/jquery.corner.js?1362614053" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/jquery.hammer.min.js?1367347182" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/base.js?1395575913" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/jquery/jquery.url.js?1328179306" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/json2.js?1299226832" type="text/javascript"></script>
+<script src="//cdn.optimizely.com/js/649200581.js"></script>
+
+
+
+
+
+<link href="//d2nkw87yt5k0to.cloudfront.net/css/scout/scoutchooser.css?1397235469" media="screen" rel="stylesheet" type="text/css" />
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/scout/utils.js?1345083767" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/scout/scoutchooser.js?1397254790" type="text/javascript"></script>
+
+
+<meta name="google-site-verification" content="pMzD0vVCj4ErmbnUdLSct_q2YBYHuY-i-InfyxFJgq8" />
+
+
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+        _gaq.push(['_require', 'inpage_linkid', pluginUrl]); _gaq.push(['_setAccount', 'UA-6735579-1']);
+        _gaq.push(['_setDomainName', 'saucelabs.com']); _gaq.push(['_setAllowLinker', true]); _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <script src="//d2nkw87yt5k0to.cloudfront.net/js/analytics/outbound_pdf_counter.js?1381959539" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var mp_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+        document.write(unescape("%3Cscript src='" + mp_protocol + "api.mixpanel.com/site_media/js/api/mixpanel.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+        try {
+            var mpmetrics = new MixpanelLib("78b9ba51131fae081e5fdf5ecc7b07a0");
+        } catch(err) {
+            var null_fn = function (item, data, fn) { if (typeof fn !== 'undefined') fn(); };
+            var mpmetrics = {
+                track: null_fn,
+                track_funnel: null_fn,
+                register: null_fn,
+                register_once: null_fn,
+                register_funnel: null_fn,
+                identify: null_fn
+            };
+        }
+        mpmetrics.register({"distinct_id": "8aa59cb9a6f0409191feccaeb83a4438"});
+    </script>
+
+    <script src="//d2nkw87yt5k0to.cloudfront.net/js/marketo.js?1379721891" type="text/javascript"></script>
+
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		  <script src="/js/html5.js"></script>
+		<![endif]-->
+    
+    
+    <link rel="canonical" href="https://saucelabs.com" />
+  <link href="//d2nkw87yt5k0to.cloudfront.net/css/github.css?1345909488" media="screen" rel="stylesheet" type="text/css" />
+  <link href="//d2nkw87yt5k0to.cloudfront.net/video-js/video-js.css?1388068917" media="screen" rel="stylesheet" type="text/css" />
+  <script src="//d2nkw87yt5k0to.cloudfront.net/video-js/video.js?1388068917" type="text/javascript"></script>
+  <script src="//d2nkw87yt5k0to.cloudfront.net/video-js/ie-fix.js?1388073619" type="text/javascript"></script>
+  <script type="text/javascript">
+    window.freeTrialExperiment = true;
+  </script>
+  
+
+
+<script type="text/javascript">
+var app = app || {};
+app.views = app.views || {};
+app.jumpstart = app.jumpstart || {};
+app.jumpstart.options = app.jumpstart.options || {};
+
+app.jumpstart.options.skipSubAccounts = true;
+app.jumpstart.options.onlySubAccounts =false;
+
+csrf_token = "38985ba5e4ae441647a9313c04494195"
+</script>
+
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/quicksignup.js?1396320120" type="text/javascript"></script>
+<link href="//d2nkw87yt5k0to.cloudfront.net/css/jumpstart.css?1390430081" media="screen" rel="stylesheet" type="text/css" />
+
+<div id="jumpstart-async-content"></div>
+
+
+
+
+<script type="text/template" id="template-modal-feedback">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3>Feedback</h3>
+  </div>
+  <div class="modal-body">
+
+    <form id="jumpstart-feedback-form" class="form-horizontal">
+      <div class="control-group">
+        <label class="control-label" for="inputEmail">Email</label>
+        <div class="controls">
+          <input type="text" id="inputEmail" name="email" placeholder="We would really like to follow up!">
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="inputComments">Comments</label>
+        <div class="controls">
+          <textarea id="inputComments" style="height:100px" name="comments" placeholder="Thanks in advance, this is really helpful."></textarea>
+        </div>
+      </div>
+    </form>
+    <div class="formMessage"></div><br><br>
+
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary" data-action="submit">Send</button>
+    <button class="btn btn-primary" data-action="done">Done</button>
+  </div>
+</script>
+
+<script type="text/template" id="template-modal-dialog">
+  <div id="jumpstart-modal" class="container modal">
+    <div class="content-container">
+    <div class="content">
+      <%- content %>
+    </div>
+    </div>
+    <button data-action="close" class="close-btn">×</button>
+    <div data-put="buttons" class="dialog-buttons">
+      <button data-action="continue" class="btn btn-subtle-white">Continue</button>
+    </div>
+  </div>
+  <% if (typeof(modalClose) !== undefined) { %>
+    <div class="modal-backdrop" data-action="close"></div>
+  <% } else { %>
+    <div class="modal-backdrop"></div>
+  <% } %>
+</script>
+
+<script type="text/template" id="template-langs">
+  <header class="main-header">
+    <h1>Run a test!</h1>
+  </header>
+
+  <div id="jumpstart-choose-language" class="sauce-box-options row-fluid jump-start-selection shadow-top-radial top-border">
+    <div class="span8">
+      <h3 class="current-selenium-version"><%= header %></h3>
+      <ul class="row-fluid">
+        <% for(var i = 0; i < languages.length; i++) { %>
+        <li class="span4 white-box-shadowed" id="logo-<%= languages[i] %>" data-action="start-tutorial" data-language="<%= languages[i] %>" data-csrf="<%= csrf_token %>">
+          <img src="/images/jumpstart/lang_logo/<%= languages[i] %>.png">
+        </li>
+        <% } %>
+      </ul>
+    </div>
+    <div id="logo-js-unit" class="span3 offset1">
+      <h3>JS Unit Testing</h3>
+      <a class="white-box-shadowed" href="/docs/rest#jsunit"><img src="/images/jumpstart/lang_logo/js_yellow.png"></a>
+    </div>
+  
+    <a class="switch-sel-ver" data-action="toggle-lang"><%= otherLangText %></a>
+  </div>
+</script>
+
+<script type="text/template" id="template-modal-buttons">
+  <% for(var i = 0; i < buttons.length; i++) { %>
+    <button data-action="<%= buttons[i].action %>" class="btn btn-subtle-white"><%= buttons[i].name %></button>
+  <% } %>
+</script>
+
+<script type="text/template" id="template-modal-intro">
+  <div id="jumpIntro">
+    <div id="sauce-jump-start-container">
+      <div class="container-narrow">
+        <div class="row-fluid">
+          <div class="span12">
+              <h2>Run your first test now!</h2>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <section style="margin-top:10px" class="span12 sauce-box-options" id="sauce-jump-start">
+              <article style="cursor:auto" class="jump-automated span4">
+                <i class="sicon sicon-automated"></i>
+                <h6 style="padding-top:10px">Automated</h6>
+                <div class="desc">Run your automated Selenium tests or Javascript unit tests.</div>
+                  <a data-action="jumpstart-automated" name="auto">try it out »</a>
+
+              </article>
+              <article style="cursor:auto" class="jump-mobile span4">
+                <i class="sicon sicon-mobile"></i>
+                <h6 style="padding-top:10px">Mobile</h6>
+                <div class="desc">Automatically test your hybrid and native iOS and Android apps.</div>
+                  <a data-action="jumpstart-mobile" name="mobile">try it out »</a>
+
+              </article>
+              <article style="cursor:auto" class="jump-manual span4">
+                <i class="sicon sicon-manual"></i>
+                <h6 style="padding-top:10px">Manual</h6>
+                <div class="desc">Test your site in any browser instantly, like IE 7 or mobile Safari.</div>
+                  <a data-action="jumpstart-manual" name="manual">try it out »</a>
+
+              </article>
+
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+
+
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/underscore-min.js?1379464410" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/underscore-escaped-templates.js?1379464908" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/underscore.string.min.js?1364229956" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/lib/backbone-min.js?1372748949" type="text/javascript"></script>
+
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/jumpstart2.0.js?1389967094" type="text/javascript"></script>
+
+<link href="//d2nkw87yt5k0to.cloudfront.net/css/new/signup2.0.css?1395356560" media="screen" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/template" id="template-modal-signup">
+    <div id="signup-popup-modal" class="container modal row-fluid span6">
+        <%- content %>
+    </div>
+    <div class="modal-backdrop" data-action="close"></div>
+</script>
+
+<script type="text/template" id="template-popup-signup">
+  <section id="signup-form" class="span6">
+    <form class="form-horizontal" method="post" >
+          <fieldset class="fieldset-large your-info">
+            <legend>Sign up for free!</legend>
+            <span>Evaluating Sauce for your company? Usernames can't be changed after they're created, so we recommend choosing a username that includes your company name.
+            </span>
+            <div class="form-item">
+              <label for="name">Full name <span class="required">*</span></label>
+              <input autocomplete="on" class="input-large required" autofocus id="name" maxlength="255" type="text" name="name" placeholder="First and Last name">
+            </div>
+
+            <div class="form-item">
+              <label for="email">Email <span class="required">*</span></label>
+              <input autocomplete="on" class="input-large required" id="email" maxlength="255" type="text" name="email" placeholder="email@address.com">
+            </div>
+            <div class="form-item non-opensuace">
+              <label for="company">Company <span class="required">*</span></label>
+              <input autocomplete="on" class="input-large required" id="company" maxlength="255" type="text" name="company" placeholder="What's your company name?">
+            </div>
+
+            <div class="form-item">
+              <label for="company-size">Company size <span class="required">*</span></label>
+              <select name="company_size" id="company-size" class="required">
+                <option value="">Please select</option>
+                <option value="1">Just Me</option>
+                <option value="2-10">2-10</option>
+                <option value="11-50">11-50</option>
+                <option value="51-100">51-100</option>
+                <option value="101-500">101-500</option>
+                <option value="501-1000">501-1,000</option>
+                <option value="1001-2500">1,001-2,500</option>
+                <option value="2501-5000">2,501-5,000</option>
+                <option value="5000+">5,000+</option>
+              </select>
+            </div>
+            <div class="form-item non-opensuace">
+              <label for="phone-number">Telephone</label>
+              <input autocomplete="on" class="input-large" id="phone-number" maxlength="255" type="text" name="phone" placeholder="What's the best number to reach you?">
+            </div>
+
+            <div class="form-item">
+              <label for="username">Username <span class="required">*</span></label>
+              <input autocomplete="on" class="input-large required" id="username" maxlength="255" type="text" name="username" placeholder="Come up with a unique username">
+            </div>
+            <div class="form-item">
+              <label for="password">Password <span class="required">*</span></label>
+              <input autocomplete="off" class="input-large required" id="password" maxlength="255" type="password" name="password" value="" placeholder="And an even more unique password">
+            </div>
+          <% if (window.freeTrialExperiment) { %>
+              <div class="form-item">
+                <input type="hidden" name="plan" value="free-trial"/>
+                <div id="captcha-container"></div>
+              </div>
+            </fieldset>
+            <fieldset id="submit-fieldset">
+              <button class="btn btn-mega" id="submit-button" name="submit">Start my Free Trial</button>
+              <small id="legal-terms">By signing up you agree with our <a href="/tos">Terms of Service</a></small>
+            </fieldset>
+          <% } else { %>
+            </fieldset>
+
+            <fieldset id="submit-fieldset">
+              <button class="btn btn-mega" id="submit-button" name="submit">Create an Account</button>
+              <small id="legal-terms">By signing up you agree with our <a href="/tos">Terms of Service</a></small>
+            </fieldset>
+          <% } %>
+
+      </form>
+  </section>
+  <button data-action="close" class="close-btn"></button>
+</script>
+
+
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/jquery/jquery.validate.min.js?1394717358" type="text/javascript"></script>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/new/popup_signup.js?1396320120" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+  <link href="//d2nkw87yt5k0to.cloudfront.net/css/new/home2.0.css?1395356855" media="screen" rel="stylesheet" type="text/css" />
+  <script src="//d2nkw87yt5k0to.cloudfront.net/js/front2.0.js?1394390942" type="text/javascript"></script>
+
+    
+    
+    <style type="text/css">
+         
+
+    </style>
+</head>
+
+<body class='vanilla'>
+  
+		<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+		 chromium.org/developers/how-tos/chrome-frame-getting-started -->
+		<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div class="wrapper">
+          
+  <header id="page-header" class="">
+
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div>
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a id="sauce-labs-brand" class="brand" href="/home" title="Go to Homepage">
+          <img src="/images/sauce-labs-logo.png" alt="Selenium testing" width="212" height="40" />
+        </a>
+        <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li>
+            <div class="btn-group provides-group">
+              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                Sauce provides
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu provides-menu" id="provides-menu">
+                <li>
+                  <a href="/selenium"><i class="sicon sicon-mini-selenium"></i>
+                    Selenium Testing</a>
+                </li><li>
+                  <a href="/javascript"><i class="sicon sicon-mini-javascript"></i>
+                    JavaScript Unit Testing</a>
+                </li><li>
+                  <a href="/mobile"><i class="sicon sicon-mini-mobile"></i>
+                    Mobile Testing</a>
+                </li><li>
+                  <a href="/manual"><i class="sicon sicon-mini-manual"></i>
+                    Manual Testing</a>
+                </li><li>
+                  <a href="/opensauce"><i class="sicon sicon-mini-opensauce"></i>
+                    Open Sauce</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="/enterprise">Enterprise</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+
+        <li><a href="/resources">Resources</a></li>
+        <li><a href="/docs-platforms">Docs &amp; Platforms</a></li>
+            <li><a href="/signup/plan/free" onclick="_gaq.push(['_trackPageview', '/vp/website/click/signup/from_']);">Sign up</a></li>
+          <li><a href="/login">Login</a></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header><!-- /main-header -->
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K9K459"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K9K459');</script>
+    <!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#scoutArrow").mouseover(function() {
+      $(this).attr("src", "/images/arrow_over.png");
+    });
+    $("#scoutArrow").mouseout(function() {
+      $(this).attr("src", "/images/arrow_up.png");
+    });
+    chooser_cont = scoutchooser.build('#header-scout-launcher', 'click');
+    chooser_cont.css({position: 'fixed'});
+    $('#header-scout-launcher').click(function() {
+        left = chooser_cont.position().left;
+        chooser_cont.css({position: 'fixed', top: '5px', left: (left - 40) + 'px', 'z-index': 101})
+    }, function() {});
+
+    $('.provides-group .dropdown-toggle').hover(function(e){
+      $(this).parent().addClass('open');
+    }, function(e){
+      $(this).parent().removeClass('open');
+    });
+    $('#provides-menu').hover(function(e){
+      $(this).parent().addClass('open');
+    }, function(e){
+      $(this).parent().removeClass('open');
+    });
+  });
+</script>
+
+
+
+
+      <!-- CONTENT -->
+      <div id="content" class="wrap">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="page-home" role="main">
+    <div id="featured-hero">
+      <div id="hero-carousel" class="carousel slide">
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <section id="dev-hero" class="active item">
+            <div class="container-narrow">
+            <div class="row-fluid">
+            <div class="span12">
+            <div class="span5">
+                <h1>Testing made awesome</h1>
+                <ul class="sauce-subhead">
+                  <li>Run your web and mobile app</li>
+                  <li>tests across hundreds of real</li>
+                  <li>browsers and platforms instantly</li>
+                </ul>
+                <div class="row-fluid">
+                  <div class="span6">
+                    <a
+                       onclick="_gaq.push(['_trackEvent', 'front-page-learn-more', 'clicked'])"
+                       href="/cloud-testing?dmr=1e14e1e65e6f4d3155db247526fe63cd047c79b5dd59b1"
+                       class="btn btn-mega btn-white">Learn more</a>
+                  </div>
+                  <div class="span6">
+                      <a
+                       onclick="_gaq.push(['_trackEvent', 'front-free-trial-plan', 'clicked'])"
+                       href="" class="btn btn-mega btn-red" style="width: 100%;">Free 14 Day Trial</a>
+                  </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+
+    </div><!-- featured-banner -->
+
+    <div id="sauce-jump-start-container">
+    <div class="container-narrow">
+
+      <div class="row-fluid">
+        <div id="tests-counter" class="span12">
+          <ul class="counter">
+              <li>1</li>
+              <li>1</li>
+              <li>6</li>
+              <li>6</li>
+              <li>5</li>
+              <li>8</li>
+              <li>6</li>
+              <li>4</li>
+              <li>5</li>
+          </ul> tests run
+        </div>
+      </div>
+
+    <div class="row-fluid">
+
+      <section id="sauce-jump-start" class="span12 sauce-box-options">
+          <article class="jump-selenium span3">
+            <i class="sicon sicon-new sicon-selenium"></i>
+            <h3 class="sauce-light-grey">Selenium</h3>
+            <div class="desc2" onclick="_gaq.push(['_trackPageview', '/vp/homepage/click/selenium/']);">Run your automated Selenium tests in the cloud.</div>
+              <a href="/selenium?dmr=0801f3fc4276057257c2237525fc69da0a6063f5c14eb80155a27cd9">learn more »</a>
+
+          </article>
+          <article class="jump-javascript span3">
+            <i class="sicon sicon-new sicon-javascript"></i>
+            <h3 class="sauce-light-grey">JavaScript</h3>
+            <div class="desc2" onclick="_gaq.push(['_trackPageview', '/vp/homepage/click/javascript/']);">Automate your JS Unit tests cross-browser.</div>
+              <a href="/javascript?dmr=0801f3fc4276057257c2237525fc69da0a6063f5d84aa20548a87bdda763">learn more »</a>
+
+          </article>
+          <article class="jump-mobile span3">
+            <i class="sicon sicon-new sicon-mobile"></i>
+            <h3 class="sauce-light-grey">Mobile</h3>
+            <div class="desc2" onclick="_gaq.push(['_trackPageview', '/vp/homepage/click/mobile/']);">Test hybrid, native and mobile web apps.</div>
+              <a href="/mobile?dmr=0801f3fc4276057257c2237525fc69da0a6063f5df44b60d57ae">learn more »</a>
+
+          </article>
+          <article class="jump-manual span3">
+            <i class="sicon sicon-new sicon-manual"></i>
+            <h3 class="sauce-light-grey">Manual</h3>
+            <div class="desc2" onclick="_gaq.push(['_trackPageview', '/vp/homepage/click/manual/']);">See what your site looks like in any browser.</div>
+              <a>learn more »</a>
+
+          </article>
+
+      </section><!-- /sauce-jump-start -->
+
+    </div>
+    </div>
+    </div>
+
+    <div class="container-narrow">
+    <div class="row-fluid">
+    <div class="rect-link2 large-intro sauce-body-color span12">See our pricing plans — Individual and Enterprise <a class="body-link" href="/pricing"><i>Learn more »</i></a></div>
+    </div>
+    </div>
+
+    <div class="container-narrow" id="about-sauce-container">
+    <div class="row-fluid">
+
+      <section id="about-sauce" class="span12">
+        <header class="span6">
+          <h1>Our mission</h1>
+          <div class="large-intro">
+          We think testing should be simple and easy for developers. Take a look at how our cloud platform makes mobile testing, JavaScript unit testing and Selenium testing hassle-free.
+          </div>
+        </header>
+          <a id="demo-video-wrapper" class="span6">
+          <iframe width="470" height="268" src="//www.youtube.com/embed/YHdxsWni2GY?modestbranding=1&showinfo=0&autohide=1&rel=0" frameborder="none" allowfullscreen></iframe>
+          </a>
+      </section><!-- /about-sauce -->
+
+    </div>
+    </div>
+
+
+    <div id="sauce-offer-container" class="shadow-top-radial">
+    <div class="container-narrow">
+    <div class="row-fluid">
+
+      <section id="sauce-offer" class="span12">
+        <h1 class="sauce-light-grey">What every dev wants</h1>
+        <ul>
+            <li class="span6">
+              <i class="sicon sicon-browser"></i>
+              <h3 class="sauce-teal">Browser & OS platforms</h3>
+              <span class="body-copy">Run tests in our cloud on the same browsers your users are viewing. <a class='body-link' href='http://saucelabs.com/docs/platforms'>See them all »</a></span>
+            </li>
+            <li class="span6">
+              <i class="sicon sicon-happyguy"></i>
+              <h3 class="sauce-teal">No VM setup & maintenance</h3>
+              <span class="body-copy">Say goodbye to buying servers for testing, and installing browsers and platforms. </span>
+            </li>
+            <li class="span6">
+              <i class="sicon sicon-camera"></i>
+              <h3 class="sauce-teal">Video & screenshots</h3>
+              <span class="body-copy">Share video and screenshots of tests or integrate them into your CI system. </span>
+            </li>
+            <li class="span6">
+              <i class="sicon sicon-mobilesmall"></i>
+              <h3 class="sauce-teal">Mobile testing</h3>
+              <span class="body-copy">Test native apps, mobile hybrid apps and mobile websites. </span>
+            </li>
+        </ul>
+        <footer>
+          <div class="span12 large-intro">
+            Lose the headaches, and get back to straight up coding.
+            <a href="/signup/plan/free?dmr=0801f3fc4276057257c2237525fc7cc1026062a89f43b1055faa6adcb264" class="btn btn-mega btn-red">Try it out</a>
+          </div>
+        </footer>
+
+      </section><!-- /sauce-offer -->
+
+    </div>
+    </div>
+    </div>
+
+
+    <div id="sauce-customers-container" class="shadow-top-radial">
+    <div class="container-narrow">
+    <div class="row-fluid">
+
+      <section id="sauce-customers" class="span12">
+        <h1>Love from our customers</h1>
+        <div class="testimonials-list">
+          <article id="testimonial-eventbrite" class="testimonial">
+            <div class="client-photo span2">
+              <img src="/images/customers/eventbrite-brian-o-neill.jpg"/>
+            </div>
+            <div class="client-quote span7">
+              <span><q>It's easy to go with Sauce because there's no infrastructure setup.</q></span>
+            </div>
+            <div class="client-details span3">
+              <strong>Brian<br/>O’Neill</strong>Eventbrite
+            </div>
+          </article>
+          <article id="testimonial-yelp" class="testimonial">
+            <div class="client-photo span2">
+              <img src="/images/customers/yelp-ben-chess.jpg"/>
+            </div>
+            <div class="client-quote span7">
+              <span><q>Now we have less infrastructure to worry about maintaining.</q></span>
+            </div>
+            <div class="client-details span3">
+              <strong>Ben<br/>Chess</strong>Yelp
+            </div>
+          </article>
+          <article id="testimonial-hautelook" class="testimonial">
+            <div class="client-photo span2">
+              <img src="/images/customers/hautelook-kevin-diamond.jpg"/>
+            </div>
+            <div class="client-quote span7">
+              <span><q>Our QA group would be totally lost without Sauce.</q></span>
+            </div>
+            <div class="client-details span3">
+              <strong>Kevin<br/>Diamond</strong>Hautelook
+            </div>
+          </article>
+          <article id="testimonial-goinstant" class="testimonial">
+            <div class="client-photo span2">
+              <img src="/images/customers/goinstant-dave-kim.jpg"/>
+            </div>
+            <div class="client-quote span7">
+              <span><q>The decision to work with Sauce Labs was a no-brainer.</q></span>
+            </div>
+            <div class="client-details span3">
+              <strong>Dave<br/>Kim</strong>GoInstant
+            </div>
+          </article>
+          <article id="testimonial-mozilla" class="testimonial">
+            <div class="client-photo span2">
+              <img src="/images/customers/mozilla-stephen-donner.jpg"/>
+            </div>
+            <div class="client-quote span7">
+              <span><q>Sauce has been indispensable to the Web QA team at Mozilla.</q></span>
+            </div>
+            <div class="client-details span3">
+              <strong>Stephen<br/>Donner</strong>Mozilla
+            </div>
+          </article>
+          <article id="testimonial-mckesson-specialty-health" class="testimonial">
+            <div class="client-photo span2">
+              <img src="/images/customers/mckesson-specialty-health-anoukin-mooshabad.jpg"/>
+            </div>
+            <div class="client-quote span7">
+              <span><q>An entire QA lab without the equipment and personnel investment.</q></span>
+            </div>
+            <div class="client-details span3">
+              <strong>Anoukin<br/>Mooshabad</strong>McKesson Specialty Health
+            </div>
+          </article>
+          <article id="testimonial-mobify" class="testimonial">
+            <div class="client-photo span2">
+              <img src="/images/customers/mobify-jennifer-nurse.jpg"/>
+            </div>
+            <div class="client-quote span7">
+              <span><q>We can ensure our customer's sites remain reliable and bug free 24/7.</q></span>
+            </div>
+            <div class="client-details span3">
+              <strong>Jennifer<br/>Nurse</strong>Mobify
+            </div>
+          </article>
+          <article id="testimonial-okta" class="testimonial">
+            <div class="client-photo span2">
+              <img src="/images/customers/okta-denali-lumma.jpg"/>
+            </div>
+            <div class="client-quote span7">
+              <span><q>With Sauce, we saw debugging time go from 3 days to 3 hours.</q></span>
+            </div>
+            <div class="client-details span3">
+              <strong>Denali<br/>Lumma</strong>Okta
+            </div>
+          </article>
+        </div>
+
+        <div>
+        <ul class="customers-list">
+            <li data-customer="eventbrite" class="customer eventbrite">Eventbrite</li>
+            <li data-customer="yelp" class="customer yelp">Yelp</li>
+            <li data-customer="hautelook" class="customer hautelook">Hautelook</li>
+            <li data-customer="goinstant" class="customer goinstant">GoInstant</li>
+            <li data-customer="mozilla" class="customer mozilla">Mozilla</li>
+            <li data-customer="mckesson-specialty-health" class="customer mckesson-specialty-health">McKesson Specialty Health</li>
+            <li data-customer="mobify" class="customer mobify">Mobify</li>
+            <li data-customer="okta" class="customer okta">Okta</li>
+        </ul>
+        </div>
+        <a class="body-link" href="/customers">and many more »</a>
+
+      </section>
+
+    </div>
+    </div>
+    </div>
+
+    </div><!-- /content -->
+
+  </div><!-- page-home -->
+
+<div id="scoutModalCont" style="display:none">
+  <div id="scoutModal">
+
+    <div id="scoutSidebar">
+      <div id="scoutHeader">
+        <img src="/images/arrow_up.png" />
+        Manual Testing
+      </div>
+      <div id="scoutSidebarMain" style="display:none">
+        <a id="stopScoutButton" href="javascript:void(0);">Stop</a>
+        <div class="sidebarInfo">time remaining</div>
+        <div id="scoutTimeRemaining">10:00</div>
+        <a href="/signup/plan/free" class="sidebarButton">More time...</a>
+        <hr/>
+        <div class="sidebarInfo">current browser</div>
+        <div class="browserOsInfo">
+          <img src="/images/newscout/front-safari.png">
+          5.0
+        </div>
+        <a href="javascript:void(0);" class="sidebarButton moreBrowsers">
+          <img src="/images/newscout/front-more-browsers.png" /><br/>
+          More Browsers
+        </a>
+        <hr/>
+        <div class="sidebarInfo">current platform</div>
+        <div class="browserOsInfo">
+          <img src="/images/newscout/front-iphone.png" />
+          5.0
+        </div>
+        <a href="javascript:void(0);" class="sidebarButton moreBrowsers">
+          <img src="/images/newscout/front-more-platforms.png" /><br/>
+          More Platforms
+        </a>
+        <a href="/signup/" id="sidebarSignupButton">Sign Up!</a>
+      </div>
+    </div>
+
+    <div id="scoutLoading">
+      <img id="loadingSpinner" src="/images/new_front/spinner.svg" />
+      <div id="loadingHeader">Spinning up Sauce Manual</div>
+      <div id="loadingInfo">
+        <ul>
+          During the next 10-30 seconds, we will:
+          <li>Spin up your own, private virtual machine</li>
+          <li>Open up a fresh browser: no cookies or legacy data to pollute your testing!</li>
+        </ul>
+        <ul>
+          After your manual test session, we will:
+          <li>Destroy your virtual machine (so no one else will ever see it)</li>
+        </ul>
+        <div id="pleaseWait">Please wait a moment... </div>
+      </div>
+    </div>
+
+    <div id="scoutComplete" style="display:none">
+      <div id="completeHeader">Thanks for trying Sauce Manual</div>
+      <div id="completeInfo">
+        <div>Want to test your site against 200+ browser/OS platforms instantly? Sign up for a free account! </div>
+        <a href="/signup/plan/free" id="scoutSignupButton">Sign Up</a>
+        <div>
+          <ul>
+            <li>Test your site on desktop and mobile browsers</li>
+            <li>Check local or firewalled apps</li>
+            <li>On a Mac? Check out <a href="/mac">Sauce for Mac</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <a id="scoutCloseWindow" href="javascript:void(0);">Close Window</a>
+
+    <div id="scoutError" style="display:none">
+      <div class="errorWrap">
+        <div class="imgCont"><img src="/images/warning-big.png" /></div>
+        <div class="errorCont">
+          <h2>Uh oh!</h2>
+          <h3>Some error occurred while connecting to the browser</h3>
+          <p>If you keep running into problems, please report your error by emailing <b>help@saucelabs.com</b>. Please include your browser and platform information.</p>
+          <p class="errorMessage"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="scoutWrap" style="display:none">
+      <input type="text" id="scoutFocusBox" style="display:none;" />
+      <div id="canvasCont" style="display:none;" tabindex="10">
+        <canvas id="scoutCanvas">
+            Canvas not supported.
+        </canvas>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+			</div><!-- content -->
+    </div>
+
+    
+    
+  <!-- FOOTER -->
+
+<div id="page-footer-container">
+<div class="container-narrow">
+<div class="row-fluid">
+
+<footer id="page-footer" class="span12">
+
+    <dl class="footer-info span4">
+      <dt class="sauce">Sauce Labs &nbsp; &nbsp;
+        <a class="sicon sicon-twitter image-replacement" target="_blank" href="https://twitter.com/saucelabs">Twitter</a>
+        <a class="sicon sicon-facebook image-replacement" target="_blank" href="https://www.facebook.com/saucelabs">Facebook</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </dt>
+      <dd class="footer-sauce-copy">We are a tight-knit team working to transform how software testing and development gets done. Our platform makes <a href="http://saucelabs.com/selenium">Selenium testing</a>, <a href="http://saucelabs.com/javascript">JavaScript Unit testing</a>, <a href="http://saucelabs.com/manual">manual testing</a>, and <a href="http://saucelabs.com/mobile">mobile application testing</a> hassle-free.</dd>
+      <dd class="footer-copyright">&#169; 2014 Sauce Labs Inc. All rights reserved.</dd>
+    </dl>
+
+    <nav class="footer-nav span8" role="navigation">
+      <dl class="span3">
+        <dt>Product</dt>
+        <dd><a href="/features" title="Go to Features">Features</a></dd>
+        <dd><a href="/pricing" title="Go to Pricing">Pricing</a></dd>
+        <dd><a href="/resources" title="Go to Resources">Resources</a></dd>
+        <dd><a href="/docs" title="Go to Documentation">Documentation</a></dd>
+      </dl>
+      <dl class="span3">
+        <dt>Community</dt>
+        <dd><a href="/customers" title="Go to Customers">Customers</a></dd>
+        <dd><a href="/partners" title="Go to Partners">Partners</a></dd>
+        <dd><a href="http://support.saucelabs.com/forums" title="Go to Forums">Forums</a></dd>
+        <dd><a href="http://selenium.meetup.com/" title="See the Meetups">Meetups</a></dd>
+      </dl>
+      <dl class="span3">
+        <dt>Company</dt>
+        <dd><a href="/company/team" title="Go to about Sauce">Team</a></dd>
+        <dd><a href="/company/values" title="Go to about Sauce">Values</a></dd>
+        <dd><a href="/careers" title="Go to Careers">Careers</a></dd>
+        <dd><a href="http://www.sauceio.com" title="Go to Our Blog">Our Blog</a></dd>
+      </dl>
+      <dl class="span3">
+        <dt>Other</dt>
+        <dd><a href="/contact" title="Go to Contact & Support">Contact & Support</a></dd>
+        <dd><a href="/tos" title="Go to Terms of Service">Terms of Service</a></dd>
+        <dd><a href="/privacy" title="Go to Privacy Policy">Privacy Policy</a></dd>
+        <dd><a href="https://plus.google.com/111293610298852124914" rel="publisher">Google+</a></dd>
+      </dl>
+    </nav><!-- footer-nav -->
+
+</footer><!-- /footer -->
+</div>
+</div>
+</div>
+
+
+    <div id="modalSheet" style="display:none">&nbsp;</div>
+    
+
+
+
+
+<!-- Start Google Code for Website Visitor Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1035466812;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "5y_iCILkiAIQvPDf7QM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1035466812/?label=5y_iCILkiAIQvPDf7QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<script src="//d2nkw87yt5k0to.cloudfront.net/js/new/ga_fix.js?1387467915" type="text/javascript"></script>
+<!-- End Google Code for Website Visitor Remarketing List -->
+
+
+
+<script type="text/javascript">
+var _biz = _biz || [];
+function _bizl(u) {
+    setTimeout(function () {
+    var s = document.createElement('script'); var f = document.getElementsByTagName('script')[0]; s.type = 'text/javascript';
+    s.async = true; s.src = document.location.protocol + u; f.parentNode.insertBefore(s, f);
+    }, 1);
+}
+_bizl('//a.bizible.com/_biz-a.js');
+</script>
+
+
+    
+<!-- Google Code for Signup Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1035466812;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "3ogZCNKZrwQQvPDf7QM";
+var google_conversion_value = 0;
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1035466812/?value=0&amp;label=3ogZCNKZrwQQvPDf7QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script type="text/javascript" src="/js/selectivizr-min.js"></script>
+    <![endif]-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

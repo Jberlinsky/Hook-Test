@@ -11,7 +11,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'tasks'))
 
 task_list = runner.tasks()
 
-upperbound = 200
+upperbound = 500
 infoList = []
 funcs = []
 attrNames = [] # Appended to within included modules

@@ -1,0 +1,426 @@
+<!doctype html>
+
+<html lang="en">
+
+<head id="www.thehubway.com" data-template-set="html5-reset">
+
+	<meta charset="utf-8">
+
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Hubway | Your bike sharing system in Metro-Boston</title>
+
+	<meta name="title" content="Hubway">
+	<meta name="description" content="Your bike sharing system in Boston">
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
+
+	<meta name="google-site-verification" content="">
+	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+
+	<meta name="author" content="Alta Bicycle Share">
+	<meta name="Copyright" content="Copyright Alta Bicycle Share 2011. All Rights Reserved.">
+
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Hubway">
+	<meta name="DC.subject" content="Bicycle Sharing Systems">
+	<meta name="DC.creator" content="Alta Bicycle Share">
+
+	<!--  Mobile Viewport Fix
+	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
+	device-width : Occupy full width of the screen in its current orientation
+	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	-->
+	<!-- Uncomment to use use thoughtfully!
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	-->
+
+	<link rel="shortcut icon" href="/assets/images/favicon.ico">
+	<!-- This is the traditional favicon.
+		 - size: 16x16 or 32x32
+		 - transparency is OK
+		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
+
+	<link rel="apple-touch-icon" href="_/img/apple-touch-icon.png">
+	<!-- The is the icon for iOS's Web Clip.
+		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
+		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+         
+    <!-- Foundation -->
+    <link href="/assets/css/foundation/foundation.css?c=943938000" media="all" rel="stylesheet"/>
+	    
+	<!-- Reset - Grabbed from: https://github.com/murtaugh/HTML5-Reset/blob/master/_/css/style.css on June 15, 2011 -->
+        
+    <!-- Fonts -->
+    <link href="/assets/css/hubway/fonts.css?c=943938000" media="all" rel="stylesheet"/>
+	    
+    <!-- CSS Drop Down Menu -->
+    <link href="/assets/css/hubway/css3-drop-down-menu/css3-drop-down-menu.css?c=943938000" media="all" rel="stylesheet"/>
+	    
+	<!-- Main CSS -->
+	<link href="/assets/css/hubway/hubway.css?c=943938000" media="all" rel="stylesheet"/>
+		
+	<!-- Print CSS -->
+	<link href="/assets/css/hubway/print.css?c=943938000" media="print"rel="stylesheet"/>
+		
+	<!-- Modernizr -->
+	<script src="/assets/js/foundation/modernizr.foundation.js?c=943938000" type="text/javascript" charset="utf-8"></script>
+	
+	<!-- all our JS is at the bottom of the page, except for HTML5 shiv. -->
+    <!--[if lt IE 9]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<!-- Fuel Blog -->
+		<base href="https://www.thehubway.com/" />
+
+    <!-- This style block and the following script block prevent Cross Frame Scripting -->
+    <style>
+        html{
+        display : none ;
+        visibility : hidden ;
+        }
+    </style>
+    <script>
+        if ( self == top ) {
+            document.documentElement.style.display = 'block' ;
+            document.documentElement.style.visibility = 'visible' ;
+        } else {
+            top.location=self.location;
+        }
+	</script>
+	
+</head>
+
+<body class=" ">
+
+	<!-- Header - Includes black bar across top and main navigation -->
+	<header id="header">
+    	<div id="topbar">
+        	<div id="topbar-content">
+                <a id="hubway" href="https://www.thehubway.com/"><h1>Hubway</h1></a>
+                <nav id="sub">
+                	                	
+                	
+<ul>
+	<li class="first"><a href="https://www.thehubway.com/about"  title="About">About</a></li>
+	<li><a href="https://www.thehubway.com/bicycle-benefits"  title="Bicycle Benefits">Bicycle Benefits</a></li>
+	<li><a href="https://www.thehubway.com/contact"  title="Contact">Contact</a></li>
+	<li><a href="https://www.thehubway.com/faq"  title="FAQ">FAQ</a></li>
+	<li><a href="https://www.thehubway.com/store"  title="Store">Store</a></li>
+	<li class="last"><a href="https://www.thehubway.com/jobs"  title="Jobs">Jobs</a></li>
+</ul>
+                	            
+                	
+                	<ul>
+                		                			<li ><a href="https://www.thehubway.com/login">Member Login</a></li>
+            			                    	<li id="join"><a href="https://www.thehubway.com/signup">Join</a></li>
+                	</ul> 
+                	                	
+                	<ul style="position:relative; top:5px;">
+                		<li>
+                			<a target="_blank" href="http://www.facebook.com/hubway">
+                				<img src="/assets/images/facebook.png" alt="Facebook" />
+                			</a>
+                		</li>
+                		<li>
+                			<a target="_blank" href="http://www.twitter.com/hubway">
+                				<img src="/assets/images/twitter.png" alt="Twitter" />
+                			</a>
+                		</li>
+                	</ul>
+                    
+                </nav>
+            </div>
+        </div>
+    	<nav id="main">
+    		        	
+        		
+<ul class="dropdown dropdown-horizontal">
+	<li class="first active"><a href="https://www.thehubway.com/home"  title="Home">Home</a></li>
+	<li><a href="https://www.thehubway.com/how-it-works"  title="How It Works">How It Works</a></li>
+	<li><a href="https://www.thehubway.com/stations"  title="Station Map">Station Map</a></li>
+	<li><a href="https://www.thehubway.com/pricing"  title="Pricing">Pricing</a></li>
+	<li><a href="https://www.thehubway.com/corporate"  title="Corporate Accounts">Corporate Accounts</a></li>
+	<li><a href="https://www.thehubway.com/safety"  title="Safety">Safety</a></li>
+	<li><a href="https://www.thehubway.com/ride"  title="Ride">Ride</a></li>
+	<li><a href="https://www.thehubway.com/partners"  title="Partners">Partners</a>
+	<ul>
+		<li class="first"><a href="https://www.thehubway.com/partners/boston"  title="Boston">Boston</a></li>
+		<li><a href="https://www.thehubway.com/partners/brookline"  title="Brookline">Brookline</a></li>
+		<li><a href="https://www.thehubway.com/partners/cambridge"  title="Cambridge">Cambridge</a></li>
+		<li class="last"><a href="https://www.thehubway.com/partners/somerville"  title="Somerville">Somerville</a></li>
+	</ul>
+	</li>
+	<li class="last"><a href="https://www.thehubway.com/news"  title="News">News</a></li>
+</ul>
+        		
+                    </nav>
+    </header>
+<div id="home-banner-wrapper" class="row">
+	<div class="twelve columns centered">
+				
+		<div class="home-banner-announcement twelve">
+    <div class="ribbon ribbon-green"></div>
+    <div class="text" align="left">
+        <h2 align="middle"><a href="http://thehubway.com/signup" target="_blank">1300 bikes at 140 stations! Sign up for your membership here!</a></h2>
+    </div>
+</div>
+
+		<div id="tagline-wrapper" class="hide-for-small">
+		    	
+	    	<div class="ribbon ribbon-black" style="height:60px; bottom:27px;"></div>
+	    	
+	    	<div class="row">
+	    		
+		    	<div class="five columns no-padding">
+		    		<h2 id="tagline" style="font: 20px UbuntuLight; padding:43px 0px 0px 52px;">Your bike sharing system in Metro-Boston</h2>
+		    	</div>
+		    	
+		    	<div class="seven columns no-padding">
+		    		<ul id="join-take-ride-return">
+			            <li id="join-bullet"><a data-click-tracker="hero-promo-join" href="https://www.thehubway.com/signup">Join</a></li>
+			            <li id="take-bullet"><a data-click-tracker="hero-promo-take" href="https://www.thehubway.com/how-it-works">Take</a></li>
+			            <li id="ride-bullet"><a data-click-tracker="hero-promo-ride" href="https://www.thehubway.com/explore-by-bike">Ride</a></li>
+			            <li id="return-bullet"><a data-click-tracker="hero-promo-return" href="https://www.thehubway.com/how-it-works">Return</a></li>
+			        </ul>
+		    	</div>
+		    	
+	    	</div>
+	       
+	    </div>
+		
+		<div id="home-banner">
+			
+			<div id="join1" style="background:url('/assets/images/banners/home/home-banner-join1.jpg') no-repeat;">
+				
+				<a id="helmet-sprocket" style="left:275px; top:194px;" data-click-tracker="hero-helmetsafety" href="https://www.thehubway.com/safety">Click Here for Helmets &amp; Safety Info</a>
+				
+			</div>
+			
+
+                        <div id="join2" style="background:url(/assets/images/banners/home/home-banner-join2.jpg) no-repeat;">
+				
+			    <div id="join-banner">
+			    	<a class="join-banner" data-click-tracker="hero-banner-signup" href="https://www.thehubway.com/signup">Join<span>for a day, 3 days or a year</span><span id="annual-membership" style="font-family:UbuntuLight; ">$85 annual membership price</span></a>                
+			    </div>
+			    
+				
+			</div>
+			
+
+			<div id="boston" style="background:url(/assets/images/banners/home/home-banner-boston.jpg) no-repeat;">
+				
+				<div class="orbit-slide-title">
+					<div class="ribbon ribbon-white"></div>
+					<div class="text">
+						<a href="http://thehubway.com/partners/boston" title="" target="_self">Boston</a>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div id="brookline" style="background:url(/assets/images/banners/home/home-banner-brookline.jpg) no-repeat;">
+				
+				<div class="orbit-slide-title">
+					<div class="ribbon ribbon-white"></div>
+					<div class="text">
+						<a href="http://thehubway.com/partners/brookline" title="" target="_self">Brookline</a>
+					</div>
+				</div>
+				
+			</div>
+			
+
+			<div id="cambridge" style="background:url(/assets/images/banners/home/home-banner-cambridge.jpg) no-repeat;">
+				
+				<div class="orbit-slide-title">
+					<div class="ribbon ribbon-white"></div>
+					<div class="text">
+						<a href="http://thehubway.com/partners/cambridge" title="" target="_self">Cambridge</a>
+					</div>
+				</div>
+				
+			</div>
+							
+			<div id="somerville" style="background:url(/assets/images/banners/home/home-banner-somerville.jpg) no-repeat;">
+				
+				<div class="orbit-slide-title">
+					<div class="ribbon ribbon-white"></div>
+					<div class="text">
+						<a href="http://thehubway.com/partners/Somerville" title="" target="_self">Somerville</a>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+</div>    
+<div class="row">
+	
+	<!-- Main Content -->
+	<div id="content" class="eight columns">
+		<h1>What is Hubway?</h1>
+
+<iframe width="600" height="337" src="http://www.youtube.com/embed/zhPjI584Apk?rel=0" frameborder="0" allowfullscreen></iframe>
+                
+        <p style="padding-top: 10px">Hubway is your bike sharing system providing more than 1,300 bikes at 140 stations throughout Boston, Brookline, Cambridge, and Somerville. Grab a bike near your home, office, or school and pedal your way to the next lunch meeting, class, errand, or shopping trip, or to visit friends and family.</p>
+
+<p>Using Hubway is easy and tailored to fit your needs. Choose between an Annual Membership, Monthly Membership, 3-Day Pass or 24-Hour Pass and access our fleet when you want it, three seasons per year (the system is typically shut down in the winter). The cost includes unlimited trips up to 30 minutes in duration, with longer rides incurring additional <a href="http://thehubway.com/pricing" title="" target="_self">usage fees</a>. Please review our <a href="http://thehubway.com/pricing" title="" target="_self">Pricing page</a> for additional information.</p>
+
+<p>The municipalities of Boston, Brookline, Cambridge, and Somerville are working with Mass Department of Transportation, Metropolitan Area Planning Council, Massachusetts Bay Transportation Authority and the Federal Transit Administration to continue to fill and expand the system in the Metro Area.</p>
+ 
+<p>Keep in touch with us here, as well as on our <a href="http://www.facebook.com/Hubway" target="_blank">Facebook</a> and <a href="http://twitter.com/Hubway" target="_blank">Twitter</a> pages for the latest news on your Hubway system!  And be sure to <a href="http://www.spotcycle.net/" title="http://www.spotcycle.net/" target="_blank">download the Spotcycle app</a> to your smartphone!</p>	</div>
+
+	<!-- Right Sidebar -->
+    <aside id="sidebar" class="four columns">
+        <div id="newsletter" class="sidebar-spacer">
+    <form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:3;">
+<h6>Sign Up for Hubway News</h6>
+        <div class="row">
+        	<div class="nine columns">
+        		<input type="text" name="ea" size="20" value="" placeholder="Email Address">
+        	</div>
+        	<div class="three columns">
+        		<input type="submit" name="go" value="GO" class="submit">
+        	</div>        	
+        </div>
+        <input type="hidden" name="llr" value="jb9gssnab">
+        <input type="hidden" name="m" value="1114093348905">
+        <input type="hidden" name="p" value="oi">
+    </form>
+</div>
+
+<div class="sidebar-spacer">
+	<a id="station-map" href="stations"><span>View The Station Map</span></a>
+</div>
+
+<div class="apps sidebar-spacer">
+    <a href="http://www.spotcycle.net/" target="_blank"><img src="/assets/images/icon-spotcycle.gif" style="vertical-align:middle;" alt="Spotcycle icon" /><h8 style="display:inline;">&nbsp;Download the Spotcycle App</h8></a>    
+</div>
+
+<div class="sidebar-spacer">
+	<a class="large button" style="font-family:UbuntuBold; width: 100%;" href="https://www.thehubway.com/store/checkout/helmet">Buy a Helmet for $24.99<br> (includes shipping)</a>
+</div>
+
+<div class="sidebar-spacer">
+	<a class="large button" style="font-family:UbuntuBold; width: 100%;" href="mailto:HubwayCorporateAccounts@altabicycleshare.com">Contact us about Corporate Membership</a>
+</div>
+
+<div class="sidebar-spacer">
+	<a class="large button" style="font-family:UbuntuBold; width: 100%;" href="http://www.bostonbikes.org/programs/subsidized-hubway-memberships/"target="_blank">Do you qualify for a subsidized Hubway membership?</a>
+</div>        <a class="twitter-timeline" href="https://twitter.com/Hubway/favorites" data-widget-id="290938538093060096">Favorite Tweets by @Hubway</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>    </aside>
+        	
+</div>      
+
+    <!-- Footer -->
+    <footer id="footer">
+    	<div class="inner-shadow">
+        	<div class="content">
+        		
+            	<section id="sponsors">   
+            		<a id="2012 Boston seal" href="http://www.cityofboston.gov" target="_blank"><img src="/assets/images/banners/partners/boston/NB_City_of_Boston_footer_white.png" alt="The City of Boston" /></a>
+<a id="Brookline seal" href="http://www.brooklinema.gov" target="_blank"><img src="/assets/images/Brookline_seal.png" alt="The City of Brookline" /></a>                 
+<a id="Cambridge seal" href="http://www.cambridgema.gov" target="_blank"><img src="/assets/images/Cambridge_seal.png" alt="The City of Cambridge" /></a>        
+<a id="Somerville seal" href="http://www.somervillema.gov" target="_blank"><img src="/assets/images/Somerville_seal.png" alt="The City of Somerville" /></a>        
+
+<br></br>
+<br></br>
+                    
+<a id="massdot-logo" href="http://www.massdot.state.ma.us/main/main.aspx" target="_blank"><img src="/assets/images/mass-dot-logo.png" alt="Massachusetts Department of Transportation" /></a>
+<a id="mbta-logo" href="http://www.mbta.com" target="_blank"><img src="/assets/images/mbta-logo.png" alt="Massachusetts Bay Transportation Authority" /></a>                                     
+<a id="mapc-logo" href="http://www.mapc.org" target="_blank"><img src="/assets/images/mapc-logo.png" alt="Metropolitan Area Planning Council" /></a>
+<a id="abs-logo" href="http://www.altabicycleshare.com" target="_blank"><img src="/assets/images/operated-by-abs.png" alt="Operated by Alta Bicycle Share" /></a>                                     
+                </section>
+                
+                <nav id="main-footer">
+                	
+<ul>
+	<li class="first active"><a href="https://www.thehubway.com/home"  title="Home">Home</a></li>
+	<li><a href="https://www.thehubway.com/how-it-works"  title="How It Works">How It Works</a></li>
+	<li><a href="https://www.thehubway.com/stations"  title="Station Map">Station Map</a></li>
+	<li><a href="https://www.thehubway.com/pricing"  title="Pricing">Pricing</a></li>
+	<li><a href="https://www.thehubway.com/corporate"  title="Corporate Accounts">Corporate Accounts</a></li>
+	<li><a href="https://www.thehubway.com/safety"  title="Safety">Safety</a></li>
+	<li><a href="https://www.thehubway.com/ride"  title="Ride">Ride</a></li>
+	<li><a href="https://www.thehubway.com/partners"  title="Partners">Partners</a>
+	<ul>
+		<li class="first"><a href="https://www.thehubway.com/partners/boston"  title="Boston">Boston</a></li>
+		<li><a href="https://www.thehubway.com/partners/brookline"  title="Brookline">Brookline</a></li>
+		<li><a href="https://www.thehubway.com/partners/cambridge"  title="Cambridge">Cambridge</a></li>
+		<li class="last"><a href="https://www.thehubway.com/partners/somerville"  title="Somerville">Somerville</a></li>
+	</ul>
+	</li>
+	<li class="last"><a href="https://www.thehubway.com/news"  title="News">News</a></li>
+</ul>
+                </nav>
+                
+                <nav id="sub-footer">
+                	
+<ul>
+	<li class="first"><a href="https://www.thehubway.com/about"  title="About">About</a></li>
+	<li><a href="https://www.thehubway.com/bicycle-benefits"  title="Bicycle Benefits">Bicycle Benefits</a></li>
+	<li><a href="https://www.thehubway.com/contact"  title="Contact">Contact</a></li>
+	<li><a href="https://www.thehubway.com/faq"  title="FAQ">FAQ</a></li>
+	<li><a href="https://www.thehubway.com/store"  title="Store">Store</a></li>
+	<li class="last"><a href="https://www.thehubway.com/jobs"  title="Jobs">Jobs</a></li>
+</ul>
+                   
+            	</nav>
+                
+                <section id="social-networking">
+                	<a href="http://www.facebook.com/Hubway" target="_blank"><img src="/assets/images/facebook-footer.png" alt="Find us on Facebook" /></a>
+<a href="http://twitter.com/#!/hubway" target="_blank"><img src="/assets/images/twitter-footer.png" alt="Follow us on Twitter" /></a>
+<a href="https://plus.google.com/116045063592474449864" target="_blank" rel="publisher"><img src="/assets/images/googleplus-footer.png" alt="Join us on Google+" /></a>                </section>                            
+                
+                <section id="copyright">
+               		<p>© Copyright 2011. All rights reserved.</p>
+<p>Use of this Website constitutes acceptance of the Hubway Website <a href="https://www.thehubway.com/terms-of-use">Terms of Use Agreement</a> and <a href="https://www.thehubway.com/privacy">Privacy Policy</a>. These agreements may change from time to time. If this occurs, a notification will be included here. </p>                </section>
+                
+                <section id="translate">
+                	<div id="MicrosoftTranslatorWidget" style="width: 360px; min-height: 57px; border-color: #5E544A; background-color: #9F9387;"><noscript><a href="http://www.microsofttranslator.com/bv.aspx?a=http%3a%2f%2fwww.thehubway.com%2f">Translate this page</a><br />Powered by <a href="http://www.bing.com/translator">Microsoft® Translator</a></noscript></div> <script type="text/javascript"> /* <![CDATA[ */ setTimeout(function() { var s = document.createElement("script"); s.type = "text/javascript"; s.charset = "UTF-8"; s.src = ((location && location.href && location.href.indexOf('https') == 0) ? "https://ssl.microsofttranslator.com" : "http://www.microsofttranslator.com" ) + "/ajax/v2/widget.aspx?mode=auto&from=en&layout=ts"; var p = document.getElementsByTagName('head')[0] || document.documentElement; p.insertBefore(s, p.firstChild); }, 0); /* ]]> */ </script> 
+                </section>
+                              
+            </div>
+        </div>
+    </footer>	
+
+<!-- here comes the javascript -->
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/assets/js/jquery.js'>\x3C/script>")</script>-->
+
+<!-- this is where we put our custom functions -->
+
+<!-- Foundation -->
+<script src="/assets/js/foundation/foundation.min.js?c=943938000" type="text/javascript" charset="utf-8"></script>
+	
+<!-- Twitter Follow Widget -->
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<!-- Plugins that only load where appropriate  -->
+
+	<script src="/assets/js/home/home.js?c=943938000" type="text/javascript" charset="utf-8"></script>
+	
+
+
+
+
+<!-- Final custom jQuery Calls (keep this below all other javascript files) -->
+<script src="/assets/js/css_browser_selector.js?c=943938000" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/jquery.cookie.js?c=943938000" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/twitter/widgets.js?c=943938000" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/main.js?c=943938000" type="text/javascript" charset="utf-8"></script>
+	
+<!-- Analytics -->
+<script src="/assets/js/google-analytics.js?c=943938000" type="text/javascript" charset="utf-8"></script>
+	 
+
+</body>
+</html>
