@@ -4,9 +4,6 @@ import os
 sys.path.append(os.path.dirname(__file__) + '/customsearch-cmd-line/')
 from getUrls import getUrlList
 
-cmd = 'rm *.html'
-os.system(cmd)
-
 result = getUrlList()
 urls = result[0]
 importantFileNum = result[1]
@@ -15,7 +12,7 @@ index = 0
 for url in urls:
 	try:
 		remotefile = urllib2.urlopen(url)
-		localFile = open(str(index) + '.html', 'w')
+		localFile = open(os.path.dirname(__file__) + '/' + str(index) + '.html', 'w')
 		localFile.write(remotefile.read())
 		localFile.close()
 		print 'successfully download raw datum:' + url

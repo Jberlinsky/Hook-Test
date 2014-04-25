@@ -34,6 +34,8 @@ from apiclient.errors import HttpError
 
 cseID = '012090963210376400561:mm4liotbq2e'
 
+#both importantUrlsNum and unimportantUrlsNum could be 0 to 10, inclusive.
+#They are the number of results returned by one Google query
 importantUrlsNum = 10
 unimportantUrlsNum = 10
 
