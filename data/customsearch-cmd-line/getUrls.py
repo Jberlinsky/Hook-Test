@@ -32,6 +32,7 @@ import os
 from apiclient import discovery
 from apiclient.errors import HttpError
 
+#get your own search engine ID for custome search engine from www.google.com/cse
 cseID = '013985342280608211874:htnvtifhy_s'
 
 #both importantUrlsNum and unimportantUrlsNum could be 0 to 10, inclusive.
@@ -44,6 +45,7 @@ def getUrlList():
   http = httplib2.Http()
 
   # Construct the service object for the interacting with the CustomSearch API.
+  # get your own developerKey here from console.developers.google.com
   service = discovery.build('customsearch', 'v1',  developerKey='AIzaSyDzh0zDZPTvN2HZwPondIkVxutpjl47k1U', http=http)
 
   print "Here is a list of queries we used and urls we fetch using Google customer search"
